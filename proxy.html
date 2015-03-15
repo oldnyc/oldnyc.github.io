@@ -1,3 +1,12 @@
 <!DOCTYPE HTML>
-<script src="/xdomain.min.js" master="http://localhost:8080"></script>
+<script src="/xdomain.min.js"></script>
+
+<script>
+xdomain.masters({
+  'http://localhost:8080': '*',
+  'http://*old-nyc.appspot.com': '*',
+  'http://oldnyc.org': '*',
+  'http://www.oldnyc.org': '*',
+});
+</script>
 
