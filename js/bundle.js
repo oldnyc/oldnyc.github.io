@@ -355,7 +355,7 @@ var map;
 var start_date = 1850;
 var end_date = 2000;
 
-var FEEDBACK_URL = 'http://appengine.oldnyc.org/rec_feedback';
+var FEEDBACK_URL = 'http://old-nyc.appspot.com/rec_feedback';
 
 var mapPromise = $.Deferred();
 
