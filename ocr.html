@@ -66,14 +66,11 @@ button {
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!-- Proxy XHRs to oldnyc.github.io using xdomain -->
-<script src="//cdn.rawgit.com/jpillora/xdomain/0.6.17/dist/xdomain.min.js" slave="http://oldnyc.github.io/proxy.html"></script>
 <script src="js/photo-info.js"></script>
 <script src="js/url-state.js"></script>
 
 <script>
 var FEEDBACK_URL = 'http://www.oldnyc.org/rec_feedback';
-// var FEEDBACK_URL = '/rec_feedback';
 
 if (window.location.search.indexOf('thanks') >= 0) {
   $('#thanks').show();
