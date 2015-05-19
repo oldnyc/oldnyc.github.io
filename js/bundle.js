@@ -644,7 +644,7 @@ function updateStaticMapsUrl(photo_id) {
 function fillPopularImagesPanel() {
   var makePanel = function(row) {
     var $panel = $('#popular-photo-template').clone().removeAttr('id');
-    $panel.find('a').attr('href', '/#' + row.id);
+    $panel.find('a').attr('href', '#' + row.id);
     $panel.find('img')
         .attr('border', '0')  // For IE8
         .attr('data-src', expandedImageUrl(row.id))
