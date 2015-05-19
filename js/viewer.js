@@ -7,7 +7,7 @@ var map;
 var start_date = 1850;
 var end_date = 2000;
 
-var FEEDBACK_URL = 'http://www.oldnyc.org/rec_feedback';
+var FEEDBACK_URL = 'http://appengine.oldnyc.org/rec_feedback';
 
 var mapPromise = $.Deferred();
 
@@ -167,10 +167,6 @@ function createMarker(lat_lon, latLng) {
   markers.push(marker);
   lat_lon_to_marker[lat_lon] = marker;
   google.maps.event.addListener(marker, 'click', handleClick);
-  // trying to debug the friggin marker
-  // google.maps.event.addListener(marker, "rightclick", function(event) {
-  //   console.log(event);
-  // });
   return marker;
 }
 
@@ -216,7 +212,9 @@ function fillPhotoPane(photo_id, $pane) {
   $('.description', $pane).html(descriptionForPhotoId(photo_id));
 
   var info = infoForPhotoId(photo_id);
-  $('.library-link', $pane).attr('href', libraryUrlForPhotoId(photo_id));
+  var library_url = libraryUrlForPhotoId(photo_id);
+  $pane.find('.library-link').attr('href', library_url);
+  $('.nypl-logo a').attr('href', library_url);
 
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
 
@@ -232,7 +230,7 @@ function fillPhotoPane(photo_id, $pane) {
   } else if (hasBack) {
     var $more = $pane.find('.more-on-back');
     $more.find('a.ocr-tool').attr('href', ocr_url);
-    $more.find('a.nypl').attr('href', libraryUrlForPhotoId(photo_id));
+    $more.find('a.nypl').attr('href', library_url);
     $more.show();
   }
 
@@ -245,7 +243,7 @@ function fillPhotoPane(photo_id, $pane) {
   FB.XFBML.parse($comments.get(0));
 
   // Social links
-  var client = new ZeroClipboard($pane.find('.share'));
+  var client = new ZeroClipboard($pane.find('.copy-link'));
   client.on('ready', function() {
     client.on('copy', function(event) {
       var clipboard = event.clipboardData;
@@ -426,19 +424,6 @@ $(function() {
     $('#grid-container .details').fadeIn();
   });
   $(document).on('keyup', 'input, textarea', function(e) { e.stopPropagation(); });
-
-  $('#grid-container').on('click', 'a.email-share', function(e) {
-    var $social = $(this).parents('.social');
-    var $form = $social.find('.email-share-form');
-    $form.find('input').val(document.location.href);
-    $form.toggle();
-    $form.find('input').focus();
-    e.preventDefault();
-  }).on('click', '.email-share-form .close', function(e) {
-    var $form = $(this).parents('.email-share-form');
-    $form.toggle();
-    e.preventDefault();
-  });
 
   $('.popular-photo').on('click', 'a', function(e) {
     e.preventDefault();

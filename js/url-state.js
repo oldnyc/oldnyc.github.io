@@ -109,7 +109,7 @@ function findLatLonForPhoto(photo_id, cb) {
   var id4 = photo_id.slice(0, 4);
   $.ajax({
     dataType: "json",
-    url: 'http://oldnyc.github.io/id4-to-location/' + id4 + '.json',
+    url: '/id4-to-location/' + id4 + '.json',
     success: function(id_to_latlon) {
       cb(id_to_latlon[photo_id])
     }

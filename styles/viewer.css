@@ -157,6 +157,12 @@ h2 a {
   margin-top: 5px;
 }
 
+.nypl-logo {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
 div.exit {
   position: fixed;
   top: 10px;
@@ -359,8 +365,8 @@ div.exit:hover {
   font-size: 22px;
 }
 
-.share {
-  padding: 3px;
+.copy-link {
+  padding: 3px 5px;
   background: #eee;
   background: linear-gradient(to bottom, #fff 0%, #eee 100%); /* W3C */
   
@@ -371,34 +377,18 @@ div.exit:hover {
   border: 1px solid #bbb;
   text-align: center;
 }
-.share.zeroclipboard-is-hover {
+.copy-link.zeroclipboard-is-hover {
   background: #d7d7d7;
   background: linear-gradient(to bottom, #f7f7f7 0%, #e7e7e7 100%); /* W3C */
 }
-.share a {
+.copy-link a {
   color: #333;
 }
-.share .octicon {
+.copy-link .octicon {
   font-size: 12px;
 }
-.share.clicked {
+.copy-link.clicked {
   background: #dddddd;
-}
-
-.email-share-form {
-  position: absolute;
-  margin-top: 25px;
-  padding: 5px;
-  border: 1px solid #111;
-  background: #eee;
-  text-align: left;
-  line-height: 1.5em;
-  box-shadow: 2px 2px 4px #999;
-  left: 0;
-  z-index: 1;
-}
-.email-share-form div {
-  text-align: right;
 }
 
 .og-details .tweet, .og-details .facebook-holder {
