@@ -5,7 +5,7 @@
 // Maps photo_id -> { title: ..., date: ..., library_url: ... }
 var photo_id_to_info = {};
 
-var SITE = 'http://oldnyc.github.io';
+var SITE = '';
 var JSON_BASE = SITE + '/by-location';
 
 // The callback is called with the photo_ids that were just loaded, after the
