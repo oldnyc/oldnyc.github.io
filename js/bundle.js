@@ -561,7 +561,9 @@ function fillPhotoPane(photo_id, $pane) {
 
   var info = infoForPhotoId(photo_id);
   var library_url = libraryUrlForPhotoId(photo_id);
-  $pane.find('.library-link').attr('href', library_url);
+
+  // this one is actually on the left panel, not $pane.
+  $pane.parent().find('.nypl-link a').attr('href', library_url);
   $('.nypl-logo a').attr('href', library_url);
 
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
@@ -733,10 +735,9 @@ $(function() {
     var id = $(this).data('image-id');
     $(div).empty().append(
         $('#image-details-template').clone().removeAttr('id').show());
-    fillPhotoPane(id, $(div));
-
     $(div).parent().find('.og-details-left').empty().append(
         $('#image-details-left-template').clone().removeAttr('id').show());
+    fillPhotoPane(id, $(div));
 
     var g = $('#expanded').data('grid-key');
     if (g == 'pop') {
