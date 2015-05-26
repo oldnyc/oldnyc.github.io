@@ -45,7 +45,7 @@ button {
 
 <body>
 <p><a id="back-link" href="/">← Back to OldNYC</a></p>
-<p id="thanks">Thanks for your contribution! Your changes should appear on OldNYC within a few days.</p>
+<p id="thanks">Thanks for your contribution! Your changes should appear on OldNYC within a few days.<br>If you'd like to keep up with OldNYC, <a href="http://eepurl.com/bouyCz">sign up</a> to receive email updates.</p>
 <div id="image">
   <img>
   <p>You might find a <a target="_blank" id="hi-res">higher-resolution image</a> on the NYPL site.</p>
@@ -107,6 +107,7 @@ function submit(feedback_obj) {
       var next_id = next_image(id);
       var url = location.protocol + '//' + location.host + location.pathname +
                 '?thanks&id=' + next_id + '#' + next_id;
+      ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });
       window.location = url;
     });
 }
@@ -116,6 +117,7 @@ function sendFeedback(photo_id, feedback_obj) {
     data: { 'id': photo_id, 'feedback': JSON.stringify(feedback_obj) },
     method: 'post'
   }).fail(function() {
+    ga('send', 'event', 'link', 'ocr-fail', { 'page': '/#' + photo_id });
     alert('Unable to send correction for', photo_id)
   });
 }
@@ -137,6 +139,16 @@ function next_image(id) {
   }
   return id;
 }
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54335760-1', 'auto');
+  ga('send', 'pageview');
 </script>
 
 </body>

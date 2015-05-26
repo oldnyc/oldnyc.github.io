@@ -44,6 +44,7 @@ h2 a {
   font-size: 1.1em;
   width: 38px;
   margin: -15px;
+  margin-left: 0;
   padding: 15px;
   padding-top: 18px;
 }
@@ -62,6 +63,17 @@ h2 a {
 #twitter {
   width: 100px;
 }
+
+#mailing-list {
+  font-size: 1.1em;
+  color: #404040;
+  text-shadow: 0 1px 1px rgba(255,255,255,.9);
+  margin: -15px;
+  margin-left: 0;
+  padding: 15px;
+  padding-top: 19px;
+}
+
 .logo {
   position: absolute;
   left: 10px;
