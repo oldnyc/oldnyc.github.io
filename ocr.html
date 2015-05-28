@@ -40,6 +40,10 @@ button {
   color: green;
   text-align: center;
 }
+
+img.back {
+  transition: transform 200ms;
+}
 </style>
 </head>
 
@@ -47,8 +51,13 @@ button {
 <p><a id="back-link" href="/">← Back to OldNYC</a></p>
 <p id="thanks">Thanks for your contribution! Your changes should appear on OldNYC within a few days.<br>If you'd like to keep up with OldNYC, <a href="http://eepurl.com/bouyCz">sign up</a> to receive email updates.</p>
 <div id="image">
-  <img>
-  <p>You might find a <a target="_blank" id="hi-res">higher-resolution image</a> on the NYPL site.</p>
+  <img class="back">
+  <p>
+    You might find a <a target="_blank" id="hi-res">higher-resolution image</a> on the NYPL site.
+    <a href='#' class="rotate-image-button">
+      <img src="/images/rotate.png" width="29" height="29" />
+    </a>
+  </p>
 </div>
 <div id="ocr">
   <h3>OldNYC OCR Correction</h3>
@@ -86,7 +95,7 @@ findLatLonForPhoto(id, function(lat_lon) {
   loadInfoForLatLon(lat_lon).then(function(photo_ids) {
     var info = infoForPhotoId(id);
     other_photo_ids = photo_ids;
-    $('#image img').attr('src', backOfCardUrlForPhotoId(id));
+    $('img.back').attr('src', backOfCardUrlForPhotoId(id));
     var text = info['text'];
     if (text) {
       $('#text').text(info['text']);
@@ -97,6 +106,7 @@ findLatLonForPhoto(id, function(lat_lon) {
     $('#notext').click(function() {
       submit({notext: true});
     });
+    $('.rotate-image-button').click(rotate90);
   });
 });
 
@@ -138,6 +148,16 @@ function next_image(id) {
     }
   }
   return id;
+}
+
+function rotate90() {
+  var $img = $('img.back');
+  var currentRotation = $img.data('rotate') || 0;
+  currentRotation += 90;
+  $img
+    .css('transform', 'rotate(' + currentRotation + 'deg)')
+    .data('rotate', currentRotation);
+  sendFeedback(id, {'rotate-backing': currentRotation});
 }
 </script>
 
