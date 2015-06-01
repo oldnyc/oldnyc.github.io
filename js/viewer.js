@@ -361,10 +361,7 @@ function sendFeedback(photo_id, feedback_obj) {
   ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
   return $.ajax(FEEDBACK_URL, {
     data: { 'id': photo_id, 'feedback': JSON.stringify(feedback_obj) },
-    method: 'post',
-    xhrFields: {
-      withCredentials: true
-    },
+    method: 'post'
   }).fail(function() {
     console.warn('Unable to send feedback on', photo_id)
   });
