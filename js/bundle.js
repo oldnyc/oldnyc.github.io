@@ -584,13 +584,15 @@ function fillPhotoPane(photo_id, $pane) {
     $more.show();
   }
 
-  var $comments = $pane.find('.comments');
-  var width = $comments.parent().width();
-  $comments.empty().append(
-      $('<fb:comments numPosts="5" colorscheme="light"/>')
-          .attr('width', width)
-          .attr('href', canonicalUrl))
-  FB.XFBML.parse($comments.get(0));
+  if (typeof(FB) != 'undefined') {
+    var $comments = $pane.find('.comments');
+    var width = $comments.parent().width();
+    $comments.empty().append(
+        $('<fb:comments numPosts="5" colorscheme="light"/>')
+            .attr('width', width)
+            .attr('href', canonicalUrl))
+    FB.XFBML.parse($comments.get(0));
+  }
 
   // Social links
   var client = new ZeroClipboard($pane.find('.copy-link'));
@@ -605,24 +607,28 @@ function fillPhotoPane(photo_id, $pane) {
     });
   });
   
+  // Some browser plugins block twitter
+  if (typeof(twttr) != 'undefined') {
+    twttr.widgets.createShareButton(
+        document.location.href,
+        $pane.find('.tweet').get(0), {
+          count: 'none',
+          text: (info.original_title || info.title) + ' - ' + info.date,
+          via: 'Old_NYC @NYPL'
+        });
+  }
 
-  twttr.widgets.createShareButton(
-      document.location.href,
-      $pane.find('.tweet').get(0), {
-        count: 'none',
-        text: (info.original_title || info.title) + ' - ' + info.date,
-        via: 'Old_NYC @NYPL'
-      });
-
-  var $fb_holder = $pane.find('.facebook-holder');
-  $fb_holder.empty().append($('<fb:like>').attr({
-      'href': canonicalUrl,
-      'layout': 'button',
-      'action': 'like',
-      'show_faces': 'false',
-      'share': 'true'
-    }));
-  FB.XFBML.parse($fb_holder.get(0));
+  if (typeof(FB) != 'undefined') {
+    var $fb_holder = $pane.find('.facebook-holder');
+    $fb_holder.empty().append($('<fb:like>').attr({
+        'href': canonicalUrl,
+        'layout': 'button',
+        'action': 'like',
+        'show_faces': 'false',
+        'share': 'true'
+      }));
+    FB.XFBML.parse($fb_holder.get(0));
+  }
 }
 
 function photoIdFromATag(a) {
