@@ -125,7 +125,10 @@ function submit(feedback_obj) {
 function sendFeedback(photo_id, feedback_obj) {
   return $.ajax(FEEDBACK_URL, {
     data: { 'id': photo_id, 'feedback': JSON.stringify(feedback_obj) },
-    method: 'post'
+    method: 'post',
+    xhrFields: {
+      withCredentials: true
+    },
   }).fail(function() {
     ga('send', 'event', 'link', 'ocr-fail', { 'page': '/#' + photo_id });
     alert('Unable to send correction for', photo_id)
