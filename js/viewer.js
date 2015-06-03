@@ -11,10 +11,7 @@ var FEEDBACK_URL = 'http://old-nyc.appspot.com/rec_feedback';
 
 var mapPromise = $.Deferred();
 
-function thumbnailImageUrl(photo_id) {
-  return 'http://oldnyc-assets.nypl.org/thumb/' + photo_id + '.jpg';
-}
-
+// TODO: inline image source into popular-photos.js and get rid of this.
 function expandedImageUrl(photo_id) {
   return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';
 }
@@ -183,8 +180,8 @@ function showExpanded(key, photo_ids, opt_selected_id) {
     var info = infoForPhotoId(photo_id);
     return $.extend({
       id: photo_id,
-      largesrc: expandedImageUrl(photo_id),
-      src: thumbnailImageUrl(photo_id),
+      largesrc: info.image_url,
+      src: info.thumb_url,
       width: 600,   // these are fallbacks
       height: 400
     }, info);
@@ -420,7 +417,10 @@ $(function() {
     ga('send', 'event', 'link', 'rotate', {
       'page': '/#' + photo_id + '(' + currentRotation + ')'
     });
-    sendFeedback(photo_id, {'rotate': currentRotation});
+    sendFeedback(photo_id, {
+      'rotate': currentRotation,
+      'original': infoForPhotoId(photo_id).rotation
+    });
   }).on('click', '.feedback-button', function(e) {
     e.preventDefault();
     $('#grid-container .details').fadeOut();
