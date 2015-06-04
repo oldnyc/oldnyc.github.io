@@ -1,6 +1,5 @@
 function getCanonicalUrlForPhoto(photo_id) {
-  var base_url = document.location.href.replace(/#[^#]*/, '') + '#';
-  return base_url + photo_id;
+  return 'http://www.oldnyc.org/#' + photo_id;
 }
 
 function getCommentCount(photo_ids) {

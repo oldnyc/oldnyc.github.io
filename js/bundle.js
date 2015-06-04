@@ -325,8 +325,7 @@ function extractName(lat_lon_json) {
   }
 }
 function getCanonicalUrlForPhoto(photo_id) {
-  var base_url = document.location.href.replace(/#[^#]*/, '') + '#';
-  return base_url + photo_id;
+  return 'http://www.oldnyc.org/#' + photo_id;
 }
 
 function getCommentCount(photo_ids) {
@@ -585,10 +584,12 @@ function fillPhotoPane(photo_id, $pane) {
     var $comments = $pane.find('.comments');
     var width = $comments.parent().width();
     $comments.empty().append(
-        $('<fb:comments numPosts="5" colorscheme="light"/>')
-            .attr('width', width)
-            .attr('href', canonicalUrl))
+        $('<fb:comments data-numposts="5" data-colorscheme="light"/>')
+            .attr('data-width', width)
+            .attr('data-href', canonicalUrl)
+            .attr('data-version', 'v2.3'))
     FB.XFBML.parse($comments.get(0));
+    console.log(canonicalUrl);
   }
 
   // Social links
