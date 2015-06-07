@@ -18,12 +18,16 @@ Then open http://localhost:8080/.
 
 Modifications to the HTML and CSS files should show up immediately.
 
-To iterate on the JavaScript files, either run
+The JavaScript files are bundled for serving, so changes to individual files
+won't show up on the site until you rebuild the bundle. To do this, run:
 
     ./update-js-bundle.sh
 
-after saving your changes, or open up `index.html` and modify the comments to
-source the unbundled scripts directly.
+after saving your changes, or set up a process to watch the JS files and run
+this whenever they change. For example, on Mac OS X:
+
+    brew install fswatch
+    fswatch -o $(ls js/*.js | grep -v bundle) | xargs -n1 -I{} ./update-js-bundle.sh
 
 Don't modify the data files (`lat-lon-counts.js`, `by-location`,
 `id4-to-location`) directly. Changes to these files should come from the
