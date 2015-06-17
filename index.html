@@ -5,9 +5,11 @@
   <title>OldNYC: Mapping Historical Photographs of New York City</title>
 
   <link rel="stylesheet" href="styles/grid.css" />
-  <link rel="stylesheet" href="styles/viewer.css" />
+  <!--<link rel="stylesheet" href="styles/viewer.css" />-->
   <link rel="stylesheet" href="styles/octicons/octicons.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
 
   <meta property="fb:app_id" content="598168753565519"/>
   <meta property="og:title" content="OldNYC" />
@@ -18,6 +20,10 @@
   <meta property="og:image" content="http://oldnyc-assets.nypl.org/600px/723905f-a.jpg" />
 
   <meta name="Description" content="OldNYC shows 40,000 historical images from the New York Public Library's Milstein Collection on a map. Find photos of your apartment, work, or favorite park!" />
+
+  <!-- disables mobile browser zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 </head>
 
 <body>
@@ -42,38 +48,58 @@
 
   <div id="map">Loading&hellip;</div>
 
-  <div class="header streetview-hide">
-    <div class="social-about">
-      <div id="facebook">
-        <div class="fb-like" data-href="http://www.oldnyc.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-      </div>
-      <div id="twitter">
-        <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="Old_NYC @NYPL">Tweet</a>
-      </div>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header pull-left">
+      
+      <a class="navbar-brand pull-left" href="http://oldnyc.org/"><strong>OldNYC</strong></a>
+      <ul class="nav pull-left">
+        <!-- This works well for static text, like a username -->
+        <li class="navbar-text pull-left tagline"><span>Mapping historical<br/>photos from NYPL</span></li>
+      </ul>
 
-      <div id="about"><a href="/about.html">About</a></div>
-
-      <div id="mailing-list"><a target="_blank" href="http://eepurl.com/bouyCz">Subscribe</a> to OldNYC updates</div>
     </div>
 
-    <div class="logo">
-      <div class="wrapper">
-        <a href="/">OldNYC</a>
-        <div class="slogan">Mapping historical<br>photos from the NYPL</div>
-      </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
 
-    <div class="popular-link" style="display: none">
-      <h2><a href="#">Popular Photos</a></h2>
-    </div>
-  </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+        <li class="hidden-xs" id="about">
+          <a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;<span class="hidden-sm">About</span></a>
+        </li>
+        <li class="visible-xs">
+           <a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About</a>
+        </li>
+        <li><a target="_blank" href="http://eepurl.com/bouyCz"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;<span class="hidden-sm">Subscribe</span></a></li>
+        <li><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;<span class="hidden-sm">Feedback?</span></a></li>
+        <li class="navbar-text fb-nav"><div class="fb-like" data-href="http://www.oldnyc.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
+        <li class="navbar-text tw-nav"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="Old_NYC @NYPL">Tweet</a></li>
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right hidden-xs">
 
-  <div id="feedback"><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank">Send feedback</a></div>
+        <li class="popular-link visible-sm"><a href="#"><strong>Popular</strong> &nbsp;<span class="glyphicon glyphicon-remove"></span></a></li>
+        <li class="popular-link hidden-sm"><a href="#"><strong>Popular photos</strong> &nbsp;<span class="glyphicon glyphicon-remove"></span></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div id="feedback" class="hidden-xs"><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank">Send feedback</a></div>
 
   <!-- Popular Photos -->
-  <div id="popular">
-    <h2>Popular Photos</h2>
-    <div class="close">✕</div>
+  <div id="popular" class="hidden-xs">
     <div class="popular-photo" id="popular-photo-template" style="display:none">
       <a href=""><img class="popular-image" src="" width=200 height=0 /></a>
       <p><span class="desc"></span><br><span class="loc"></span><span class="date"></span></p>
@@ -85,18 +111,13 @@
     <div class="curtains"></div>
 
     <div class="header">
-      <div class="logo">
-        <div class="wrapper">
-          <a class="exit" href="#">OldNYC</a>
-        </div>
-      </div>
       <div id="exit-slideshow" class="exit" title="Exit Slideshow">✕</div>
     </div>
 
     <div id="expanded-controls">
-      <img id="preview-map" class="exit" title="Exit Slideshow" src="images/blank.gif" width=150 height=150>
-      <div class="location"></div>
-      <div class="nypl-logo">
+      <img id="preview-map" class="exit hidden-xs" title="Exit Slideshow" src="images/blank.gif" width=150 height=150>
+      <div class="location hidden-xs"></div>
+      <div class="nypl-logo hidden-xs">
         <a target="_blank"><img src="/images/nypl_logo.png" width="127" height="75" border="0"></a>
       </div>
     </div>
@@ -174,6 +195,8 @@
   </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
   <meta name="twitter:widgets:csp" content="on">
   <script src="//platform.twitter.com/widgets.js"></script>
 
@@ -181,7 +204,7 @@
 
   <script src="/lat-lon-counts.js"></script>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
 
   <!-- Drop the bundle & uncomment the individual files for development -->
   <!--

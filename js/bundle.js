@@ -680,11 +680,15 @@ function loadDeferredImage(img) {
 
 function hidePopular() {
   $('#popular').hide();
-  $('.popular-link').show();
+  //$('.popular-link').show();
+  $('.popular-link span').removeClass('glyphicon-remove');
+  $('.popular-link span').addClass('glyphicon-menu-down');
 }
 function showPopular() {
   $('#popular').show();
-  $('.popular-link').hide();
+  //$('.popular-link').hide();
+  $('.popular-link span').removeClass('glyphicon-menu-down');
+  $('.popular-link span').addClass('glyphicon-remove');
   $('#popular').appear({force_process: true});
 }
 
@@ -800,13 +804,20 @@ $(function() {
   });
 
   // Show/hide popular images
-  $('#popular .close').on('click', function() {
+  /*$('#popular .close').on('click', function() {
     setCookie('nopop', '1');
     hidePopular();
-  });
+  });*/
+
   $('.popular-link a').on('click', function(e) {
-    showPopular();
-    deleteCookie('nopop');
+    if (document.cookie.indexOf('nopop=') >= 0) {
+      showPopular();
+      deleteCookie('nopop');
+    }
+    else {
+      setCookie('nopop', '1');
+      hidePopular();
+    }
     e.preventDefault();
   });
   if (document.cookie.indexOf('nopop=') >= 0) {

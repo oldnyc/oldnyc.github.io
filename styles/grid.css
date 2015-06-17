@@ -99,7 +99,7 @@
 	width: 50%;
 	float: left;
 	height: 100%;
-	overflow: hidden;
+	overflow:scroll;
 	position: relative;
 }
 
@@ -181,9 +181,12 @@
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
 
-	.og-fullimg { display: none; }
-	.og-details { float: none; width: 100%; }
+	.og-fullimg { float:left; height:auto;}
+	.og-details { float: left; width: 100% !important; padding:0; margin:0; overflow:visible;}
+	.og-expander-inner {overflow:scroll;}
+	
+
 	
 }
