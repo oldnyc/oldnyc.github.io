@@ -1,0 +1,340 @@
+body {
+  font-family:'Georgia', serif;
+}
+
+#map {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.spacer {height: 64px;}
+
+nav.navbar.navbar-default {
+	background:rgba(255,255,255,0.9);
+	border:none;
+}
+
+.navbar-collapse {
+  border-top:0;
+}
+
+a {color:#BF5E5E;}
+
+.navbar.navbar-default a, .navbar.navbar-default li a {
+	color:#111;
+  font-weight:bold;
+}
+
+.navbar.navbar-default a:hover, .navbar.navbar-default li a:hover {
+  color:#BF5E5E;
+}
+
+.navbar-brand {font-size:18pt;}
+
+li.tagline {
+	font-size:10pt;
+	line-height:13px;
+  margin-left:0;
+}
+li.tagline span {
+	position:relative;
+	top:-4px;
+}
+
+.fb-nav {margin-right:5px;}
+.tw-nav {margin-left:5px;}
+
+/* Popular Photos */
+#popular {
+  position: absolute;
+  margin-top:56px;
+  top: 0px;
+  width: 213px;
+  right: 0px;
+  background:rgba(255,255,255,0.9);
+  padding: 0 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  bottom: 14px;
+}
+
+.popular-link {font-size:13pt;}
+.popular-link span {font-size:11pt;}
+
+@media screen and (max-width:1110px) {
+  .popular-link { font-size:10pt; }
+  .popular-link span { font-size:8pt; }
+  ul.nav li a {
+    padding-left:5px;
+  }
+}
+
+.popular-photo {
+  padding-bottom: 15px;
+}
+.popular-photo p {
+  margin: 0 auto;
+  line-height:14px;
+}
+
+#feedback a {
+  background-image: url('../images/feedback_tab_white.png');
+  position: absolute;
+  text-indent: -1000px;
+  left: 0px;
+  width: 22px;
+  height: 90px;
+  bottom: 100px;
+  padding: 2px;
+  background-color: #c33c3c;
+  border-left: none;
+}
+
+.feedback-link {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.details, .feedback {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.feedback p, .feedback button {
+  padding: 5px;
+  margin: 10px 0;
+  display: block;
+}
+.feedback input {
+  padding: 5px;
+}
+.feedback p { padding-left: 0; }
+.feedback .suggest-date button {
+  display: inline-block;
+}
+.feedback a.back { style: italic; }
+
+.curtains {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #111;
+  opacity: 0.9;
+}
+
+#grid-container {
+  position: fixed;
+  z-index: 2;
+  top: 55px;
+  left: 180px;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width:767px) {
+  #grid-container {
+    position: fixed;
+    z-index: 2;
+    top: 55px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+  }
+}
+
+#expanded-controls {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  height: 150px;
+  width: 150px;  /* matches #grid-container.margin-right */
+  padding: 15px;
+  padding-top: 0px;
+}
+
+#expanded-controls .location {
+  color: white;
+  font-size: 1.6em;
+  white-space: pre-line;
+  width: 150px;
+  margin-top: 5px;
+}
+
+.nypl-logo {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+div.exit {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  line-height: 35px;
+  color: white;
+  cursor: pointer;
+}
+div.exit:hover {
+  color: gray;
+}
+
+.og-grid {
+  padding-top: 0;
+}
+
+/* reclaim some space */
+.og-close {
+  display: none;
+}
+.og-expander-inner {
+  padding: 20px 30px;
+}
+.og-details {
+  padding-right: 0;
+  width: 40%;
+}
+.og-fullimg {
+  width: 60%;
+}
+.og-fullimg > img {
+  transition: transform 200ms;
+}
+
+#preview-map {
+  width: 150px;
+  height: 150px;
+  cursor: pointer
+}
+
+#expanded .og-fullimg img:hover {
+  cursor: pointer;
+}
+
+#expanded .header {
+  background: transparent;
+}
+#expanded .logo {
+  background: transparent;
+}
+
+#expanded .logo a {
+  color: white;
+  cursor: pointer;
+}
+#expanded .logo a:hover {
+  color: gray;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 50px solid #DADADA; 
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent; 
+  border-right:50px solid #DADADA; 
+}
+.arrow-left:hover{
+  border-right:50px solid #fff;
+}
+.arrow-right:hover{
+  border-left:50px solid #fff;
+}
+
+
+/* for "About" page */
+
+#title {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+
+#content-area {
+  font: 1em;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+#content-area h3{
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
+}
+
+/* image grid */
+.rotate {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.description{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#about-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#about-page .container {
+  background: #fff;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  width: 100%;
+  max-width: 960px;
+  margin-left: -480px;
+  bottom: 20px;
+  margin-top:36px;
+}
+
+.thumbnail {
+  border:none;
+  margin:15px;
+}
+
+#about-page p {
+  float:left;
+  padding:0;
+}
+
+@media screen and (max-width:767px) {
+  #about-page .container {
+    background: #fff;
+    position: fixed;
+    top: 55px;
+    width: 100%;
+  }
+
+  #content-area {
+    padding:0;
+    margin:0;
+  }
+
+  .thumbnail {
+    margin:15px 0 15px 0;
+  }
+}
