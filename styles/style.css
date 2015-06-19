@@ -56,6 +56,7 @@ li.tagline span {
   right: 0px;
   background:rgba(255,255,255,0.9);
   padding: 0 10px;
+  overflow-x: hidden;
   overflow-y: scroll;
   bottom: 14px;
 }
