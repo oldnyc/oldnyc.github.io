@@ -38,7 +38,7 @@ def image_url(photo_id, is_thumb):
 
 
 work = []  # (photo_id, degrees) tuples
-for photo in json.load(open('data.json')):
+for photo in json.load(open('data.json'))['photos']:
     degrees = photo.get('rotation')
     if not degrees:
         continue
