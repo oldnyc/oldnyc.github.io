@@ -304,8 +304,12 @@ function libraryUrlForPhotoId(photo_id) {
   return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
 }
 
+function backId(photo_id) {
+  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');
+}
+
 function backOfCardUrlForPhotoId(photo_id) {
-  return 'http://images.nypl.org/?id=' + photo_id.replace('f', 'b').replace(/-[a-z]$/, '') + '&t=w';
+  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';
 }
 
 
@@ -344,6 +348,78 @@ function getCommentCount(photo_ids) {
     });
     return newObj;
   });
+}
+/**
+ * Common code for recording user feedback.
+ * This is shared between the OldNYC site and the OCR feedback tool.
+ */
+
+var COOKIE_ID = 'oldnycid';
+
+var firebaseRef = null;
+// e.g. if we're offline and the firebase script can't load.
+if (typeof(Firebase) !== 'undefined') {
+  firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');
+}
+
+var userLocation = null;
+$.get('//ipinfo.io', function(response) {
+  userLocation = {
+    ip: response.ip,
+    location: response.country + '-' + response.region + '-' + response.city
+  };
+}, 'jsonp');
+
+function deleteCookie(name) {
+  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+function setCookie(name, value) {
+  document.cookie = name + "=" + value + "; path=/";
+}
+
+function getCookie(name) {
+  var b;
+  b = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+  return b ? b.pop() : '';
+}
+
+// Assign each user a unique ID for tracking repeat feedback.
+var COOKIE = getCookie(COOKIE_ID);
+if (!COOKIE) {
+  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+    return v.toString(16);
+  });
+  setCookie(COOKIE_ID, COOKIE);
+}
+
+// Record one piece of feedback. Returns a jQuery deferred object.
+function sendFeedback(photo_id, feedback_type, feedback_obj) {
+  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
+
+  feedback_obj.metadata = {
+    timestamp: Firebase.ServerValue.TIMESTAMP,
+    user_agent: navigator.userAgent,
+    user_ip: userLocation ? userLocation.ip : '',
+    location: userLocation ? userLocation.location : '',
+    cookie: COOKIE
+  };
+
+  var path = '/feedback/' + photo_id + '/' + feedback_type;
+
+  var feedbackRef = firebaseRef.child(path);
+  var deferred = $.Deferred();
+  feedbackRef.push(feedback_obj, function(error) {
+    if (error) {
+      console.error('Error pushing', error);
+      deferred.reject(error);
+    } else {
+      deferred.resolve();
+    }
+  });
+
+  return deferred;
 }
 var markers = [];
 var marker_icons = [];
@@ -703,24 +779,6 @@ function hideAbout() {
   $('#about-page').hide();
 }
 
-function sendFeedback(photo_id, feedback_obj) {
-  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
-  return $.ajax(FEEDBACK_URL, {
-    data: { 'id': photo_id, 'feedback': JSON.stringify(feedback_obj) },
-    method: 'post'
-  }).fail(function() {
-    console.warn('Unable to send feedback on', photo_id)
-  });
-}
-
-function deleteCookie(name) {
-  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-}
-
-function setCookie(name, value) {
-  document.cookie = name + "=" + value + "; path=/";
-}
-
 $(function() {
   // Clicks on the background or "exit" button should leave the slideshow.
   $(document).on('click', '#expanded .curtains, #expanded .exit', function() {
@@ -766,9 +824,9 @@ $(function() {
     ga('send', 'event', 'link', 'rotate', {
       'page': '/#' + photo_id + '(' + currentRotation + ')'
     });
-    sendFeedback(photo_id, {
+    sendFeedback(photo_id, 'rotate', {
       'rotate': currentRotation,
-      'original': infoForPhotoId(photo_id).rotation
+      'original': infoForPhotoId(photo_id).rotation || null
     });
   }).on('click', '.feedback-button', function(e) {
     e.preventDefault();
@@ -837,8 +895,9 @@ $(function() {
     }
     $button.prop('disabled', true);
     var photo_id = $('#grid-container').expandableGrid('selectedId');
-    var obj = {}; obj[$button.attr('feedback')] = value;
-    sendFeedback(photo_id, obj).then(thanks($button.get(0)));
+    var type = $button.attr('feedback');
+    var obj = {}; obj[type] = value;
+    sendFeedback(photo_id, type, obj).then(thanks($button.get(0)));
   });
 
   $('#grid-container').on('og-select', 'li', function() {

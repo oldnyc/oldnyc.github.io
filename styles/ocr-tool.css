@@ -1,0 +1,41 @@
+#image {
+  position: absolute;
+  width: 500px;
+}
+#image p {
+  font-style: italic;
+}
+
+#ocr {
+  background: white;
+  position: absolute;
+  left: 510px;
+  right: 10px;
+  min-width: 500px;
+  max-width: 800px;
+}
+h3 {
+  margin-top: 0;
+}
+.instructions {
+  max-width: 500px;
+}
+
+textarea {
+  font-family: monospace;
+  font-size: 20px;
+  width: 100%;
+}
+button {
+  font-size: 20px;
+}
+#thanks {
+  display: none;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+
+img.back {
+  transition: transform 200ms;
+}

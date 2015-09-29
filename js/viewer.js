@@ -356,24 +356,6 @@ function hideAbout() {
   $('#about-page').hide();
 }
 
-function sendFeedback(photo_id, feedback_obj) {
-  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
-  return $.ajax(FEEDBACK_URL, {
-    data: { 'id': photo_id, 'feedback': JSON.stringify(feedback_obj) },
-    method: 'post'
-  }).fail(function() {
-    console.warn('Unable to send feedback on', photo_id)
-  });
-}
-
-function deleteCookie(name) {
-  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-}
-
-function setCookie(name, value) {
-  document.cookie = name + "=" + value + "; path=/";
-}
-
 $(function() {
   // Clicks on the background or "exit" button should leave the slideshow.
   $(document).on('click', '#expanded .curtains, #expanded .exit', function() {
@@ -419,9 +401,9 @@ $(function() {
     ga('send', 'event', 'link', 'rotate', {
       'page': '/#' + photo_id + '(' + currentRotation + ')'
     });
-    sendFeedback(photo_id, {
+    sendFeedback(photo_id, 'rotate', {
       'rotate': currentRotation,
-      'original': infoForPhotoId(photo_id).rotation
+      'original': infoForPhotoId(photo_id).rotation || null
     });
   }).on('click', '.feedback-button', function(e) {
     e.preventDefault();
@@ -490,8 +472,9 @@ $(function() {
     }
     $button.prop('disabled', true);
     var photo_id = $('#grid-container').expandableGrid('selectedId');
-    var obj = {}; obj[$button.attr('feedback')] = value;
-    sendFeedback(photo_id, obj).then(thanks($button.get(0)));
+    var type = $button.attr('feedback');
+    var obj = {}; obj[type] = value;
+    sendFeedback(photo_id, type, obj).then(thanks($button.get(0)));
   });
 
   $('#grid-container').on('og-select', 'li', function() {

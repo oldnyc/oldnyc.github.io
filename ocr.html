@@ -1,50 +1,10 @@
+<!doctype html>
 <html>
 <head>
   <meta charset="utf-8">
-<title>OldNYC OCR Correction</title>
-<style>
-#image {
-  position: absolute;
-  width: 500px;
-}
-#image p {
-  font-style: italic;
-}
-
-#ocr {
-  background: white;
-  position: absolute;
-  left: 510px;
-  right: 10px;
-  min-width: 500px;
-  max-width: 800px;
-}
-h3 {
-  margin-top: 0;
-}
-.instructions {
-  max-width: 500px;
-}
-
-textarea {
-  font-family: monospace;
-  font-size: 20px;
-  width: 100%;
-}
-button {
-  font-size: 20px;
-}
-#thanks {
-  display: none;
-  font-weight: bold;
-  color: green;
-  text-align: center;
-}
-
-img.back {
-  transition: transform 200ms;
-}
-</style>
+  <title>OldNYC OCR Correction</title>
+  <link rel="stylesheet" href="styles/ocr-tool.css" />
+  <script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
 </head>
 
 <body>
@@ -75,91 +35,12 @@ img.back {
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="js/feedback.js"></script>
 <script src="js/photo-info.js"></script>
 <script src="js/url-state.js"></script>
 
-<script>
-var FEEDBACK_URL = 'http://old-nyc.appspot.com/rec_feedback';
-
-if (window.location.search.indexOf('thanks') >= 0) {
-  $('#thanks').show();
-}
-
-var id = window.location.hash.slice(1);
-$('[name="photo_id"]').val(id);
-$('#back-link').attr('href', '/#' + id);
-$('#hi-res').attr('href', libraryUrlForPhotoId(id));
-var this_lat_lon, other_photo_ids;
-findLatLonForPhoto(id, function(lat_lon) {
-  this_lat_lon = lat_lon;
-  loadInfoForLatLon(lat_lon).then(function(photo_ids) {
-    var info = infoForPhotoId(id);
-    other_photo_ids = photo_ids;
-    $('img.back').attr('src', backOfCardUrlForPhotoId(id));
-    var text = info['text'];
-    if (text) {
-      $('#text').text(info['text']);
-    }
-    $('#submit').click(function() {
-      submit({text: $('#text').val()});
-    });
-    $('#notext').click(function() {
-      submit({notext: true});
-    });
-    $('.rotate-image-button').click(rotate90);
-  });
-});
-
-function submit(feedback_obj) {
-  sendFeedback(id, feedback_obj)
-    .done(function() {
-      // Go to another image at the same location.
-      var next_id = next_image(id);
-      var url = location.protocol + '//' + location.host + location.pathname +
-                '?thanks&id=' + next_id + '#' + next_id;
-      ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });
-      window.location = url;
-    });
-}
-
-function sendFeedback(photo_id, feedback_obj) {
-  return $.ajax(FEEDBACK_URL, {
-    data: { 'id': photo_id, 'feedback': JSON.stringify(feedback_obj) },
-    method: 'post'
-  }).fail(function() {
-    ga('send', 'event', 'link', 'ocr-fail', { 'page': '/#' + photo_id });
-    alert('Unable to send correction for', photo_id)
-  });
-}
-
-// Find the next image from a different card.
-function next_image(id) {
-  var idx = other_photo_ids.indexOf(id);
-  for (var i = 0; i < other_photo_ids.length; i++) {
-    var other_id = other_photo_ids[(i + idx) % other_photo_ids.length];
-
-    if (!other_id.match(/[0-9]f/)) {
-      // no back of card for this photo
-      continue;
-    }
-
-    if (backOfCardUrlForPhotoId(other_id) != backOfCardUrlForPhotoId(id)) {
-      return other_id;
-    }
-  }
-  return id;
-}
-
-function rotate90() {
-  var $img = $('img.back');
-  var currentRotation = $img.data('rotate') || 0;
-  currentRotation += 90;
-  $img
-    .css('transform', 'rotate(' + currentRotation + 'deg)')
-    .data('rotate', currentRotation);
-  sendFeedback(id, {'rotate-backing': currentRotation});
-}
-</script>
+<script src="js/ocr-tool.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

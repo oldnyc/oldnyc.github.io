@@ -56,8 +56,12 @@ function libraryUrlForPhotoId(photo_id) {
   return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
 }
 
+function backId(photo_id) {
+  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');
+}
+
 function backOfCardUrlForPhotoId(photo_id) {
-  return 'http://images.nypl.org/?id=' + photo_id.replace('f', 'b').replace(/-[a-z]$/, '') + '&t=w';
+  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';
 }
 
 
