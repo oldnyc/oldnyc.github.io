@@ -421,6 +421,24 @@ function sendFeedback(photo_id, feedback_type, feedback_obj) {
 
   return deferred;
 }
+
+// Retrieve the most-recent OCR for a backing image.
+// Returns a Deferred object which resolves to
+// { text: string, metadata: { timestamp: number, ... }
+// Resolves with null if there is no OCR text available.
+function getFeedbackText(back_id) {
+  var deferred = $.Deferred();
+
+  firebaseRef.child('/feedback/' + back_id + '/text').orderByKey().limitToLast(1).once('value', function(feedback) {
+    feedback.forEach(function(row) {
+      deferred.resolve(row.val());  // {text: '', metadata: { timestamp }}
+      return true;  // only one row
+    });
+    deferred.resolve(null);  // no text
+  });
+
+  return deferred;
+}
 var markers = [];
 var marker_icons = [];
 var lat_lon_to_marker = {};
@@ -627,6 +645,7 @@ function hideExpanded() {
 
 // This fills out details for either a thumbnail or the expanded image pane.
 function fillPhotoPane(photo_id, $pane) {
+  // $pane is div.og-details
   // This could be either a thumbnail on the right-hand side or an expanded
   // image, front and center.
   $('.description', $pane).html(descriptionForPhotoId(photo_id));
@@ -640,21 +659,24 @@ function fillPhotoPane(photo_id, $pane) {
 
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
 
-  var hasBack = photo_id.match('[0-9]f');
-
   // OCR'd text
-  var ocr_url = '/ocr.html#' + photo_id;
-  if (info.text) {
-    var $text = $pane.find('.text');
-    $text.text(info.text.replace(/\n*$/, ''));
-    $text.append($('<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>'));
-    $text.find('a').attr('href', ocr_url);
-  } else if (hasBack) {
-    var $more = $pane.find('.more-on-back');
-    $more.find('a.ocr-tool').attr('href', ocr_url);
-    $more.find('a.nypl').attr('href', library_url);
-    $more.show();
-  }
+  getFeedbackText(backId(photo_id)).done(function(ocr) {
+    var text = ocr ? ocr.text : info.text;
+    var ocr_url = '/ocr.html#' + photo_id,
+        hasBack = photo_id.match('[0-9]f');
+
+    if (text) {
+      var $text = $pane.find('.text');
+      $text.text(text.replace(/\n*$/, ''));
+      $text.append($('<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>'));
+      $text.find('a').attr('href', ocr_url);
+    } else if (hasBack) {
+      var $more = $pane.find('.more-on-back');
+      $more.find('a.ocr-tool').attr('href', ocr_url);
+      $more.find('a.nypl').attr('href', library_url);
+      $more.show();
+    }
+  });
 
   if (typeof(FB) != 'undefined') {
     var $comments = $pane.find('.comments');

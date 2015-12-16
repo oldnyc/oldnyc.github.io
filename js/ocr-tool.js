@@ -13,13 +13,16 @@ $('#hi-res').attr('href', libraryUrlForPhotoId(id));
 var this_lat_lon, other_photo_ids;
 findLatLonForPhoto(id, function(lat_lon) {
   this_lat_lon = lat_lon;
-  loadInfoForLatLon(lat_lon).then(function(photo_ids) {
+  var infoDef = loadInfoForLatLon(lat_lon),
+      ocrDef = getFeedbackText(backId(id));
+  $.when(infoDef, ocrDef).done(function(photo_ids, ocr_obj) {
+    console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
     other_photo_ids = photo_ids;
     $('img.back').attr('src', backOfCardUrlForPhotoId(id));
-    var text = info['text'];
+    var text = ocr_obj ? ocr_obj.text : info.text;
     if (text) {
-      $('#text').text(info['text']);
+      $('#text').text(text);
     }
     $('#submit').click(function() {
       submit('text', {text: $('#text').val()});
@@ -31,11 +34,16 @@ findLatLonForPhoto(id, function(lat_lon) {
   });
 });
 
+// A list of photo IDs without text, for use as next images to show.
+var noTextIdsDef = $.getJSON('/notext.json');
+
 function submit(type, feedback_obj) {
   sendFeedback(backId(id), type, feedback_obj)
-    .done(function() {
+    .then(function() {
       // Go to another image at the same location.
-      var next_id = next_image(id);
+      return next_image(id);
+    })
+    .then(function(next_id) {
       var url = location.protocol + '//' + location.host + location.pathname +
                 '?thanks&id=' + next_id + '#' + next_id;
       ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });
@@ -45,20 +53,36 @@ function submit(type, feedback_obj) {
 
 // Find the next image from a different card.
 function next_image(id) {
-  var idx = other_photo_ids.indexOf(id);
-  for (var i = 0; i < other_photo_ids.length; i++) {
-    var other_id = other_photo_ids[(i + idx) % other_photo_ids.length];
+  var def = $.Deferred();
 
-    if (!other_id.match(/[0-9]f/)) {
-      // no back of card for this photo
-      continue;
-    }
+  if (Math.random() < 0.5) {
+    // Pick another image from the same location.
+    var idx = other_photo_ids.indexOf(id);
+    for (var i = 0; i < other_photo_ids.length; i++) {
+      var other_id = other_photo_ids[(i + idx) % other_photo_ids.length];
 
-    if (backOfCardUrlForPhotoId(other_id) != backOfCardUrlForPhotoId(id)) {
-      return other_id;
+      if (!other_id.match(/[0-9]f/)) {
+        // no back of card for this photo
+        continue;
+      }
+
+      if (backOfCardUrlForPhotoId(other_id) != backOfCardUrlForPhotoId(id)) {
+        def.resolve(other_id);
+        return def;
+      }
     }
+    // ... fall through
   }
-  return id;
+
+  // Pick an image with no transcription (these are the most valuable to get
+  // user-generated data for).
+  noTextIdsDef.done(function(data) {
+    var ids = data.photo_ids;
+    console.log('Picking at random from ' + ids.length + ' untranscribed photos.');
+    def.resolve(ids[Math.floor(Math.random() * ids.length)]);
+  });
+
+  return def;
 }
 
 function rotate90() {
