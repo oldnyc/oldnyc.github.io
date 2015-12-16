@@ -284,6 +284,17 @@ function fillPhotoPane(photo_id, $pane) {
       }));
     FB.XFBML.parse($fb_holder.get(0));
   }
+
+  // Scrolling the panel shouldn't scroll the whole grid.
+  // See http://stackoverflow.com/a/10514680/388951
+  $pane.off("mousewheel").on("mousewheel", function(event) {
+    var height = $pane.height(),
+        scrollHeight = $pane.get(0).scrollHeight;
+    var blockScrolling = this.scrollTop === scrollHeight - height &&
+                         event.deltaY < 0 || this.scrollTop === 0 &&
+                         event.deltaY > 0;
+    return !blockScrolling;
+  });
 }
 
 function photoIdFromATag(a) {
@@ -366,6 +377,20 @@ function showAbout() {
 function hideAbout() {
   $('#about-page').hide();
 }
+
+// See http://stackoverflow.com/a/30112044/388951
+$.fn.scrollGuard = function() {
+  return this.on('mousewheel', function(e) {
+    //var event = e.originalEvent;
+    //var d = event.wheelDelta || -event.detail;
+    //this.scrollTop += ( d < 0 ? 1 : -1 ) * 30;
+    //e.preventDefault();
+    var scrollHeight = this.scrollHeight,
+        height = $(this).height();
+    var blockScrolling = this.scrollTop === scrollHeight - height && event.deltaY < 0 || this.scrollTop === 0 && event.deltaY > 0;
+    return !blockScrolling;
+  });
+};
 
 $(function() {
   // Clicks on the background or "exit" button should leave the slideshow.
