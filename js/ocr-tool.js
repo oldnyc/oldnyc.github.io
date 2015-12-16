@@ -13,13 +13,16 @@ $('#hi-res').attr('href', libraryUrlForPhotoId(id));
 var this_lat_lon, other_photo_ids;
 findLatLonForPhoto(id, function(lat_lon) {
   this_lat_lon = lat_lon;
-  loadInfoForLatLon(lat_lon).then(function(photo_ids) {
+  var infoDef = loadInfoForLatLon(lat_lon),
+      ocrDef = getFeedbackText(backId(id));
+  $.when(infoDef, ocrDef).done(function(photo_ids, ocr_obj) {
+    console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
     other_photo_ids = photo_ids;
     $('img.back').attr('src', backOfCardUrlForPhotoId(id));
-    var text = info['text'];
+    var text = ocr_obj ? ocr_obj.text : info.text;
     if (text) {
-      $('#text').text(info['text']);
+      $('#text').text(text);
     }
     $('#submit').click(function() {
       submit('text', {text: $('#text').val()});

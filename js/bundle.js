@@ -421,6 +421,24 @@ function sendFeedback(photo_id, feedback_type, feedback_obj) {
 
   return deferred;
 }
+
+// Retrieve the most-recent OCR for a backing image.
+// Returns a Deferred object which resolves to
+// { text: string, metadata: { timestamp: number, ... }
+// Resolves with null if there is no OCR text available.
+function getFeedbackText(back_id) {
+  var deferred = $.Deferred();
+
+  firebaseRef.child('/feedback/' + back_id + '/text').orderByKey().limitToLast(1).once('value', function(feedback) {
+    feedback.forEach(function(row) {
+      deferred.resolve(row.val());  // {text: '', metadata: { timestamp }}
+      return true;  // only one row
+    });
+    deferred.resolve(null);  // no text
+  });
+
+  return deferred;
+}
 var markers = [];
 var marker_icons = [];
 var lat_lon_to_marker = {};
