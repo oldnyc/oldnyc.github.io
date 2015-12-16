@@ -301,6 +301,13 @@ function updateStaticMapsUrl(photo_id) {
 }
 
 function fillPopularImagesPanel() {
+  // Rotate the images daily.
+  var elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime(),
+      elapsedDays = Math.floor(elapsedMs / 86400 / 1000),
+      shift = elapsedDays % popular_photos.length;
+  var frontPhotos = popular_photos.splice(0, shift);
+  popular_photos = popular_photos.concat(frontPhotos);
+
   var makePanel = function(row) {
     var $panel = $('#popular-photo-template').clone().removeAttr('id');
     $panel.find('a').attr('href', '#' + row.id);
