@@ -19,6 +19,10 @@ $.get('//ipinfo.io', function(response) {
   };
 }, 'jsonp');
 
+lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {
+  return data.ocr_ms;
+});
+
 function deleteCookie(name) {
   document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
@@ -78,12 +82,21 @@ function sendFeedback(photo_id, feedback_type, feedback_obj) {
 function getFeedbackText(back_id) {
   var deferred = $.Deferred();
 
-  firebaseRef.child('/feedback/' + back_id + '/text').orderByKey().limitToLast(1).once('value', function(feedback) {
-    feedback.forEach(function(row) {
-      deferred.resolve(row.val());  // {text: '', metadata: { timestamp }}
-      return true;  // only one row
-    });
-    deferred.resolve(null);  // no text
+  lastReviewedOcrMsPromise.then(function(lastReviewedOcrMs) {
+    firebaseRef.child('/feedback/' + back_id + '/text')
+      .orderByKey()
+      // TODO: start with a key corresponding to lastReviewedOcrMs
+      // .limitToLast(1)
+      .once('value', function(feedback) {
+        feedback.forEach(function(row) {
+          var v = row.val();
+          if (v.metadata.timestamp > lastReviewedOcrMs) {
+            deferred.resolve(v);  // {text: '', metadata: { timestamp }}
+            return true;  // only one row
+          }
+        });
+        deferred.resolve(null);  // no text; or the static site is up-to-date.
+      });
   });
 
   return deferred;
