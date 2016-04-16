@@ -88,14 +88,15 @@ function getFeedbackText(back_id) {
       // TODO: start with a key corresponding to lastReviewedOcrMs
       // .limitToLast(1)
       .once('value', function(feedback) {
+        var chosen = null;
         feedback.forEach(function(row) {
           var v = row.val();
           if (v.metadata.timestamp > lastReviewedOcrMs) {
-            deferred.resolve(v);  // {text: '', metadata: { timestamp }}
-            return true;  // only one row
+            chosen = v;  // take the most-recent one
           }
         });
-        deferred.resolve(null);  // no text; or the static site is up-to-date.
+        // if none are chosen then ther's no text or the static site is up-to-date.
+        deferred.resolve(chosen);
       });
   });
 
