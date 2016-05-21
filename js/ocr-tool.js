@@ -2,6 +2,10 @@
  * JavaScript for the OCR correction tool. See ocr.html
  */
 
+import {libraryUrlForPhotoId, loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId} from './photo-info';
+import {findLatLonForPhoto} from './url-state';
+import {getFeedbackText, sendFeedback} from './feedback';
+
 if (window.location.search.indexOf('thanks') >= 0) {
   $('#thanks').show();
 }
@@ -10,9 +14,8 @@ var id = window.location.hash.slice(1);
 $('[name="photo_id"]').val(id);
 $('#back-link').attr('href', '/#' + id);
 $('#hi-res').attr('href', libraryUrlForPhotoId(id));
-var this_lat_lon, other_photo_ids;
+var other_photo_ids;
 findLatLonForPhoto(id, function(lat_lon) {
-  this_lat_lon = lat_lon;
   var infoDef = loadInfoForLatLon(lat_lon),
       ocrDef = getFeedbackText(backId(id));
   $.when(infoDef, ocrDef).done(function(photo_ids, ocr_obj) {

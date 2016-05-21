@@ -1,8 +1,8 @@
-function getCanonicalUrlForPhoto(photo_id) {
+export function getCanonicalUrlForPhoto(photo_id) {
   return 'http://www.oldnyc.org/#' + photo_id;
 }
 
-function getCommentCount(photo_ids) {
+export function getCommentCount(photo_ids) {
   // There is a batch API:
   // https://developers.facebook.com/docs/graph-api/making-multiple-requests/
   return $.get('https://graph.facebook.com/', {

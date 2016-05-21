@@ -1,15 +1,18 @@
+import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon} from './photo-info';
+import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
+import {getCanonicalUrlForPhoto} from './social';
+import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback';
+import {popular_photos} from './popular-photos';
+import {findLatLonForPhoto} from './url-state';
+
 var markers = [];
 var marker_icons = [];
-var lat_lon_to_marker = {};
+export var lat_lon_to_marker = {};
 var selected_marker_icons = [];
 var selected_marker, selected_icon;
-var map;
-var start_date = 1850;
-var end_date = 2000;
 
-var FEEDBACK_URL = 'http://old-nyc.appspot.com/rec_feedback';
-
-var mapPromise = $.Deferred();
+export var map;
+export var mapPromise = $.Deferred();
 
 // TODO: inline image source into popular-photos.js and get rid of this.
 function expandedImageUrl(photo_id) {
@@ -18,13 +21,12 @@ function expandedImageUrl(photo_id) {
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon) {
-  url = 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
-  return url;
+  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
 // Make the given marker the currently selected marker.
 // This is purely UI code, it doesn't touch anything other than the marker.
-function selectMarker(marker, numPhotos) {
+export function selectMarker(marker, numPhotos) {
   var zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex();
@@ -67,7 +69,7 @@ function handleClick(e) {
   $(window).trigger('showGrid', lat_lon);
 }
 
-function initialize_map() {
+export function initialize_map() {
   var latlng = new google.maps.LatLng(40.74421, -73.97370);
   var opts = {
     zoom: 15,
@@ -146,12 +148,12 @@ function addNewlyVisibleMarkers() {
   }
 }
 
-function parseLatLon(lat_lon) {
+export function parseLatLon(lat_lon) {
   var ll = lat_lon.split(",");
   return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
 }
 
-function createMarker(lat_lon, latLng) {
+export function createMarker(lat_lon, latLng) {
   var count = lat_lons[lat_lon];
   var marker = new google.maps.Marker({
     position: latLng,
@@ -171,12 +173,12 @@ function createMarker(lat_lon, latLng) {
 // NOTE: This can only be called when the info for all photo_ids at the current
 // position have been loaded (in particular the image widths).
 // key is used to construct URL fragments.
-function showExpanded(key, photo_ids, opt_selected_id) {
+export function showExpanded(key, photo_ids, opt_selected_id) {
   hideAbout();
   map.set('keyboardShortcuts', false);
   $('#expanded').show().data('grid-key', key);
   $('.location').text(nameForLatLon(key));
-  var images = $.map(photo_ids, function(photo_id, idx) {
+  var images = $.map(photo_ids, function(photo_id) {
     var info = infoForPhotoId(photo_id);
     return $.extend({
       id: photo_id,
@@ -196,7 +198,7 @@ function showExpanded(key, photo_ids, opt_selected_id) {
   }
 }
 
-function hideExpanded() {
+export function hideExpanded() {
   $('#expanded').hide();
   $(document).unbind('keyup');
   map.set('keyboardShortcuts', true);
@@ -301,7 +303,7 @@ function photoIdFromATag(a) {
   return $(a).attr('href').replace('/#', '');
 }
 
-function getPopularPhotoIds() {
+export function getPopularPhotoIds() {
   return $('.popular-photo:visible a').map(function(_, a) {
     return photoIdFromATag(a);
   }).toArray();
@@ -315,13 +317,12 @@ function updateStaticMapsUrl(photo_id) {
   $('#preview-map').attr('src', makeStaticMapsUrl(key));
 }
 
-function fillPopularImagesPanel() {
+export function fillPopularImagesPanel() {
   // Rotate the images daily.
   var elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime(),
       elapsedDays = Math.floor(elapsedMs / 86400 / 1000),
       shift = elapsedDays % popular_photos.length;
-  var frontPhotos = popular_photos.splice(0, shift);
-  popular_photos = popular_photos.concat(frontPhotos);
+  var shownPhotos = popular_photos.slice(shift).concat(popular_photos.slice(0, shift));
 
   var makePanel = function(row) {
     var $panel = $('#popular-photo-template').clone().removeAttr('id');
@@ -336,7 +337,7 @@ function fillPopularImagesPanel() {
     return $panel.get(0);
   };
 
-  var popularPhotos = $.map(popular_photos, makePanel);
+  var popularPhotos = $.map(shownPhotos, makePanel);
   $('#popular').append($(popularPhotos).show());
   $(popularPhotos).appear({force_process:true});
   $('#popular').on('appear', '.popular-photo', function() {
@@ -363,7 +364,7 @@ function showPopular() {
   $('#popular').appear({force_process: true});
 }
 
-function showAbout() {
+export function showAbout() {
   hideExpanded();
   $('#about-page').show();
   // Hack! There's probably a way to do this with CSS
@@ -374,17 +375,13 @@ function showAbout() {
     $container.css('margin-left', '-' + (w / 2) + 'px');
   }
 }
-function hideAbout() {
+export function hideAbout() {
   $('#about-page').hide();
 }
 
 // See http://stackoverflow.com/a/30112044/388951
 $.fn.scrollGuard = function() {
-  return this.on('mousewheel', function(e) {
-    //var event = e.originalEvent;
-    //var d = event.wheelDelta || -event.detail;
-    //this.scrollTop += ( d < 0 ? 1 : -1 ) * 30;
-    //e.preventDefault();
+  return this.on('mousewheel', function() {
     var scrollHeight = this.scrollHeight,
         height = $(this).height();
     var blockScrolling = this.scrollTop === scrollHeight - height && event.deltaY < 0 || this.scrollTop === 0 && event.deltaY > 0;
@@ -489,9 +486,7 @@ $(function() {
     e.preventDefault();
     showAbout();
   });
-  $('#about-page .curtains, #about-page .exit').on('click', function(e) {
-    hideAbout();
-  });
+  $('#about-page .curtains, #about-page .exit').on('click', hideAbout);
 
   // Record feedback on images. Can have a parameter or not.
   var thanks = function(button) {

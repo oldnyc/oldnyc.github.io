@@ -19,19 +19,19 @@ $.get('//ipinfo.io', function(response) {
   };
 }, 'jsonp');
 
-lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {
+var lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {
   return data.ocr_ms;
 });
 
-function deleteCookie(name) {
+export function deleteCookie(name) {
   document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
 
-function setCookie(name, value) {
+export function setCookie(name, value) {
   document.cookie = name + "=" + value + "; path=/";
 }
 
-function getCookie(name) {
+export function getCookie(name) {
   var b;
   b = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
   return b ? b.pop() : '';
@@ -48,7 +48,7 @@ if (!COOKIE) {
 }
 
 // Record one piece of feedback. Returns a jQuery deferred object.
-function sendFeedback(photo_id, feedback_type, feedback_obj) {
+export function sendFeedback(photo_id, feedback_type, feedback_obj) {
   ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
 
   feedback_obj.metadata = {
@@ -79,7 +79,7 @@ function sendFeedback(photo_id, feedback_type, feedback_obj) {
 // Returns a Deferred object which resolves to
 // { text: string, metadata: { timestamp: number, ... }
 // Resolves with null if there is no OCR text available.
-function getFeedbackText(back_id) {
+export function getFeedbackText(back_id) {
   var deferred = $.Deferred();
 
   lastReviewedOcrMsPromise.then(function(lastReviewedOcrMs) {

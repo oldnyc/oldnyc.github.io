@@ -197,3 +197,5 @@ History.prototype.logStack = function() {
     i++;
   }
 };
+
+export default History;

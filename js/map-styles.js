@@ -1,5 +1,5 @@
 // Styles for Google Maps. These de-emphasize features on the map.
-var MAP_STYLE = [
+export var MAP_STYLE = [
     // to remove buildings
     {"stylers": [ {"visibility": "off" } ] },
     {"featureType": "water","stylers": [{"visibility": "simplified"} ] },
@@ -110,8 +110,8 @@ var MAP_STYLE = [
 function buildStaticStyle(styleStruct) {
   var style = "";
   for(var i = 0; i < styleStruct.length;i++){
-    s = styleStruct[i];
-    strs = [];
+    var s = styleStruct[i];
+    var strs = [];
     if (s.featureType != null) strs.push( "feature:" + s.featureType );
     if (s.elementType != null) strs.push( "element:" + s.elementType );
     if (s.stylers != null) {
@@ -127,4 +127,4 @@ function buildStaticStyle(styleStruct) {
   return style;
 }
 
-var STATIC_MAP_STYLE = buildStaticStyle(MAP_STYLE);
+export var STATIC_MAP_STYLE = buildStaticStyle(MAP_STYLE);
