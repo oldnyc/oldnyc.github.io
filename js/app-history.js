@@ -1,6 +1,10 @@
+import History from './history';
+import {hashToStateObject, stateObjectToHash, transitionToStateObject} from './url-state';
+import {mapPromise} from './viewer';
+
 // This should go in the $(function()) block below.
 // It's exposed to facilitate debugging.
-h = new History(function(hash, cb) {
+var h = new History(function(hash, cb) {
   hashToStateObject(hash.substr(1), cb);
 });
 
@@ -75,7 +79,7 @@ $(function() {
     transitionToStateObject(state);
   });
 
-  $(h).on('setStateInResponseToPageLoad', function(e, state) {
+  $(h).on('setStateInResponseToPageLoad', function() {
     trackAnalyticsPageView();  // hopefully this helps track social shares
   });
 
@@ -103,5 +107,4 @@ $(function() {
   mapPromise.done(function() {
     h.initialize();
   });
-
 });
