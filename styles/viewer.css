@@ -190,6 +190,37 @@ div.exit:hover {
   color: gray;
 }
 
+#search {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+
+  border: 1px solid #777;
+  background: white;
+  overflow: auto;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;  /* This matches Google Maps. */
+}
+
+#current-location {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#current-location svg path {
+  fill: #444;
+}
+#current-location:hover svg path {
+  fill: black;
+}
+
+#location-search {
+  padding-left: 2px;
+}
+
 .og-grid {
   padding-top: 0;
 }
@@ -237,18 +268,18 @@ div.exit:hover {
   color: gray;
 }
 .arrow-right {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 50px solid #DADADA; 
+  border-left: 50px solid #DADADA;
 }
 .arrow-left {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent; 
-  border-right:50px solid #DADADA; 
+  border-bottom: 40px solid transparent;
+  border-right:50px solid #DADADA;
 }
 .arrow-left:hover{
   border-right:50px solid #fff;
@@ -381,7 +412,7 @@ div.exit:hover {
   padding: 3px 5px;
   background: #eee;
   background: linear-gradient(to bottom, #fff 0%, #eee 100%); /* W3C */
-  
+
   border-radius: 3px;
   font-size: 0.8em;
   font-weight: bold;

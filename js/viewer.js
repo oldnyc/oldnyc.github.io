@@ -85,7 +85,7 @@ export function initialize_map() {
     },
     styles: MAP_STYLE
   };
-  
+
   map = new google.maps.Map($('#map').get(0), opts);
 
   // This shoves the navigation bits down by a CSS-specified amount
@@ -263,7 +263,7 @@ function fillPhotoPane(photo_id, $pane) {
       $btn.css({width: $btn.get(0).offsetWidth}).addClass('clicked').text('Copied!');
     });
   });
-  
+
   // Some browser plugins block twitter
   if (typeof(twttr) != 'undefined') {
     twttr.widgets.createShareButton(
