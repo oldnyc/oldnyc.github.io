@@ -4,7 +4,7 @@
 // /#g:lat,lon
 // /#photo_id,g:lat,lon
 
-import {getPopularPhotoIds, hideAbout, lat_lon_to_marker, parseLatLon, createMarker, selectMarker, map, hideExpanded, showExpanded} from './viewer';
+import {countPhotos, getPopularPhotoIds, hideAbout, lat_lon_to_marker, parseLatLon, createMarker, selectMarker, map, hideExpanded, showExpanded} from './viewer';
 import {loadInfoForLatLon} from './photo-info';
 
 // Returns {photo_id:string, g:string}
@@ -74,7 +74,7 @@ export function transitionToStateObject(targetState) {
     // Show a different grid?
     if (currentState.g != state.g) {
       var lat_lon = state.g;
-      var count = lat_lons[lat_lon];
+      var count = countPhotos(lat_lons[lat_lon]);
       if (state.g == 'pop') {
         count = getPopularPhotoIds().length;
       } else {

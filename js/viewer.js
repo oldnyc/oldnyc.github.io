@@ -5,6 +5,8 @@ import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback
 import {popular_photos} from './popular-photos';
 import {findLatLonForPhoto} from './url-state';
 
+import * as _ from 'underscore';
+
 var markers = [];
 var marker_icons = [];
 export var lat_lon_to_marker = {};
@@ -24,9 +26,14 @@ function makeStaticMapsUrl(lat_lon) {
   return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
+export function countPhotos(yearToCounts) {
+  return _.reduce(yearToCounts, (a, b) => a + b);
+}
+
 // Make the given marker the currently selected marker.
 // This is purely UI code, it doesn't touch anything other than the marker.
-export function selectMarker(marker, numPhotos) {
+export function selectMarker(marker, yearToCounts) {
+  const numPhotos = countPhotos(yearToCounts);
   var zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex();
@@ -154,7 +161,7 @@ export function parseLatLon(lat_lon) {
 }
 
 export function createMarker(lat_lon, latLng) {
-  var count = lat_lons[lat_lon];
+  var count = countPhotos(lat_lons[lat_lon]);
   var marker = new google.maps.Marker({
     position: latLng,
     map: map,
