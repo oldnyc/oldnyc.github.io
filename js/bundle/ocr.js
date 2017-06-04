@@ -292,7 +292,7 @@
 	// The callback gets fired when the info for all lat/lons at this location
 	// become available (i.e. after the /info RPC returns).
 	function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
-	  selectMarker(marker, lat_lons[lat_lon]);
+	  if (marker) selectMarker(marker, lat_lons[lat_lon]);
 
 	  (0, _photoInfo.loadInfoForLatLon)(lat_lon).done(function (photoIds) {
 	    var selectedId = null;
@@ -416,6 +416,20 @@
 	  map.set('keyboardShortcuts', false);
 	  $('#expanded').show().data('grid-key', key);
 	  $('.location').text((0, _photoInfo.nameForLatLon)(key));
+	  if (isFullTimeRange(year_range)) {
+	    $('#filtered-slideshow').hide();
+	  } else {
+	    var _year_range3 = year_range;
+
+	    var _year_range4 = _slicedToArray(_year_range3, 2);
+
+	    var first = _year_range4[0];
+	    var last = _year_range4[1];
+
+	    $('#filtered-slideshow').show();
+	    $('#slideshow-filter-first').text(first);
+	    $('#slideshow-filter-last').text(last);
+	  }
 	  var images = $.map(photo_ids, function (photo_id) {
 	    var info = (0, _photoInfo.infoForPhotoId)(photo_id);
 	    if (!isPhotoInDateRange(info, year_range)) return null;
@@ -758,6 +772,16 @@
 
 	      updateYears(a, b);
 	    }
+	  });
+
+	  $('#slideshow-all').on('click', function () {
+	    year_range = [1800, 2000];
+	    $('#time-slider').slider({
+	      values: year_range
+	    });
+	    var lat_lon = $('#expanded').data('grid-key');
+	    hideExpanded();
+	    displayInfoForLatLon(lat_lon);
 	  });
 	});
 

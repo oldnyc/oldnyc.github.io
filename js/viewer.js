@@ -93,7 +93,7 @@ export function updateYears(firstYear, lastYear) {
 // The callback gets fired when the info for all lat/lons at this location
 // become available (i.e. after the /info RPC returns).
 function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
-  selectMarker(marker, lat_lons[lat_lon]);
+  if (marker) selectMarker(marker, lat_lons[lat_lon]);
 
   loadInfoForLatLon(lat_lon).done(function(photoIds) {
     var selectedId = null;
@@ -230,6 +230,14 @@ export function showExpanded(key, photo_ids, opt_selected_id) {
   map.set('keyboardShortcuts', false);
   $('#expanded').show().data('grid-key', key);
   $('.location').text(nameForLatLon(key));
+  if (isFullTimeRange(year_range)) {
+    $('#filtered-slideshow').hide();
+  } else {
+    const [first, last] = year_range;
+    $('#filtered-slideshow').show();
+    $('#slideshow-filter-first').text(first);
+    $('#slideshow-filter-last').text(last);
+  }
   var images = $.map(photo_ids, function(photo_id) {
     var info = infoForPhotoId(photo_id);
     if (!isPhotoInDateRange(info, year_range)) return null;
@@ -580,5 +588,15 @@ $(function() {
       const [a, b] = ui.values;
       updateYears(a, b);
     }
+  });
+
+  $('#slideshow-all').on('click', () => {
+    year_range = [1800, 2000];
+    $('#time-slider').slider({
+      values: year_range
+    });
+    const lat_lon = $('#expanded').data('grid-key');
+    hideExpanded();
+    displayInfoForLatLon(lat_lon);
   });
 });

@@ -51,7 +51,7 @@ h2 a {
 #about:hover{
   text-decoration: underline;
 }
-#about a, #about a:visited {
+#about a, #about ai {
   display: block;
   color: #404040;
   font-weight: bold;
@@ -265,6 +265,19 @@ div.exit:hover {
 }
 #expanded .logo a:hover {
   color: gray;
+}
+#filtered-slideshow {
+  position: absolute;
+  left: 190px;
+  top: 10px;
+  color: white;
+  font-size: 1.4em;
+  height: 35px;
+  line-height: 35px;
+}
+a#slideshow-all, a#slideshow-all:visited {
+  color: white;
+  text-decoration: underline;
 }
 .arrow-right {
   width: 0;
