@@ -211,13 +211,21 @@
 	  return yearRange[0] === 1800 && yearRange[1] === 2000;
 	}
 
-	function isPhotoInTimeRange(info, yearRange) {
+	// A photo is in the date range if any dates mentioned in it are in the range.
+	// For example, "1927; 1933; 1940" is in the range [1920, 1930].
+	function isPhotoInDateRange(info, yearRange) {
 	  if (isFullTimeRange(yearRange)) return true;
 
 	  var _yearRange = _slicedToArray(yearRange, 2);
 
 	  var first = _yearRange[0];
 	  var last = _yearRange[1];
+
+	  for (var i = 0; i < info.years.length; i++) {
+	    var year = info.years[i];
+	    if (year && year >= first && year <= last) return true;
+	  }
+	  return false;
 	}
 
 	function countPhotos(yearToCounts) {
@@ -410,6 +418,7 @@
 	  $('.location').text((0, _photoInfo.nameForLatLon)(key));
 	  var images = $.map(photo_ids, function (photo_id) {
 	    var info = (0, _photoInfo.infoForPhotoId)(photo_id);
+	    if (!isPhotoInDateRange(info, year_range)) return null;
 	    return $.extend({
 	      id: photo_id,
 	      largesrc: info.image_url,
@@ -417,6 +426,9 @@
 	      width: 600, // these are fallbacks
 	      height: 400
 	    }, info);
+	  });
+	  images = images.filter(function (image) {
+	    return image !== null;
 	  });
 	  $('#preview-map').attr('src', makeStaticMapsUrl(key));
 	  $('#grid-container').expandableGrid({
