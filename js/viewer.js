@@ -72,6 +72,7 @@ export function updateYears(firstYear, lastYear) {
       marker.setVisible(false);
     }
   });
+  addNewlyVisibleMarkers();
   $('#time-range-labels').text(
       isFullTimeRange(year_range) ? 'All photos' : `Showing photos from ${firstYear} - ${lastYear}`);
 }
@@ -190,7 +191,9 @@ export function parseLatLon(lat_lon) {
 
 export function createMarker(lat_lon, latLng) {
   const count = countPhotos(lat_lons[lat_lon], year_range);
-  if (!count) return;
+  if (!count) {
+    return;
+  }
   const marker = new google.maps.Marker({
     position: latLng,
     map: map,

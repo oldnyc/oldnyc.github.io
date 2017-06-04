@@ -184,6 +184,7 @@
 	      marker.setVisible(false);
 	    }
 	  });
+	  addNewlyVisibleMarkers();
 	  $('#time-range-labels').text(isFullTimeRange(year_range) ? 'All photos' : 'Showing photos from ' + firstYear + ' - ' + lastYear);
 	}
 
@@ -289,7 +290,9 @@
 
 	function createMarker(lat_lon, latLng) {
 	  var count = countPhotos(lat_lons[lat_lon], year_range);
-	  if (!count) return;
+	  if (!count) {
+	    return;
+	  }
 	  var marker = new google.maps.Marker({
 	    position: latLng,
 	    map: map,
