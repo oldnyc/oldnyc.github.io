@@ -31,6 +31,12 @@ function isFullTimeRange(yearRange) {
   return (yearRange[0] === 1800 && yearRange[1] === 2000);
 }
 
+function isPhotoInTimeRange(info, yearRange) {
+  if (isFullTimeRange(yearRange)) return true;
+
+  const [first, last] = yearRange;
+}
+
 export function countPhotos(yearToCounts) {
   if (isFullTimeRange(year_range)) {
     // This includes undated photos.

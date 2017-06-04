@@ -211,6 +211,15 @@
 	  return yearRange[0] === 1800 && yearRange[1] === 2000;
 	}
 
+	function isPhotoInTimeRange(info, yearRange) {
+	  if (isFullTimeRange(yearRange)) return true;
+
+	  var _yearRange = _slicedToArray(yearRange, 2);
+
+	  var first = _yearRange[0];
+	  var last = _yearRange[1];
+	}
+
 	function countPhotos(yearToCounts) {
 	  if (isFullTimeRange(year_range)) {
 	    // This includes undated photos.
