@@ -591,7 +591,7 @@ $(function() {
   });
 
   $('#slideshow-all').on('click', () => {
-    year_range = [1800, 2000];
+    updateYears(1800, 2000);
     $('#time-slider').slider({
       values: year_range
     });
