@@ -67,8 +67,14 @@
 	  value: true
 	});
 	exports.mapPromise = exports.map = exports.lat_lon_to_marker = undefined;
+
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 	exports.countPhotos = countPhotos;
 	exports.selectMarker = selectMarker;
+	exports.updateYears = updateYears;
 	exports.initialize_map = initialize_map;
 	exports.parseLatLon = parseLatLon;
 	exports.createMarker = createMarker;
@@ -102,6 +108,7 @@
 	var lat_lon_to_marker = exports.lat_lon_to_marker = {};
 	var selected_marker_icons = [];
 	var selected_marker, selected_icon;
+	var year_range = [1800, 2000];
 
 	var map = exports.map = undefined;
 	var mapPromise = exports.mapPromise = $.Deferred();
@@ -116,16 +123,42 @@
 	  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + _mapStyles.STATIC_MAP_STYLE;
 	}
 
+	function isFullTimeRange(yearRange) {
+	  return yearRange[0] === 1800 && yearRange[1] === 2000;
+	}
+
 	function countPhotos(yearToCounts) {
-	  return _.reduce(yearToCounts, function (a, b) {
-	    return a + b;
-	  });
+	  if (isFullTimeRange(year_range)) {
+	    // This includes undated photos.
+	    return _.reduce(yearToCounts, function (a, b) {
+	      return a + b;
+	    });
+	  } else {
+	    var _ret = function () {
+	      var _year_range = year_range;
+
+	      var _year_range2 = _slicedToArray(_year_range, 2);
+
+	      var first = _year_range2[0];
+	      var last = _year_range2[1];
+
+	      return {
+	        v: _.reduce(_.filter(yearToCounts, function (c, y) {
+	          return y > first && y <= last;
+	        }), function (a, b) {
+	          return a + b;
+	        })
+	      };
+	    }();
+
+	    if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
+	  }
 	}
 
 	// Make the given marker the currently selected marker.
 	// This is purely UI code, it doesn't touch anything other than the marker.
 	function selectMarker(marker, yearToCounts) {
-	  var numPhotos = countPhotos(yearToCounts);
+	  var numPhotos = countPhotos(yearToCounts, year_range);
 	  var zIndex = 0;
 	  if (selected_marker) {
 	    zIndex = selected_marker.getZIndex();
@@ -138,6 +171,20 @@
 	    marker.setIcon(selected_marker_icons[numPhotos > 100 ? 100 : numPhotos]);
 	    marker.setZIndex(100000 + zIndex);
 	  }
+	}
+
+	function updateYears(firstYear, lastYear) {
+	  year_range = [firstYear, lastYear];
+	  _.forEach(lat_lon_to_marker, function (marker, lat_lon) {
+	    var count = countPhotos(lat_lons[lat_lon], year_range);
+	    if (count) {
+	      marker.setIcon(marker_icons[Math.min(count, 100)]);
+	      marker.setVisible(true);
+	    } else {
+	      marker.setVisible(false);
+	    }
+	  });
+	  $('#time-range-labels').text(isFullTimeRange(year_range) ? 'All photos' : 'Showing photos from ' + firstYear + ' - ' + lastYear);
 	}
 
 	// The callback gets fired when the info for all lat/lons at this location
@@ -241,7 +288,8 @@
 	}
 
 	function createMarker(lat_lon, latLng) {
-	  var count = countPhotos(lat_lons[lat_lon]);
+	  var count = countPhotos(lat_lons[lat_lon], year_range);
+	  if (!count) return;
 	  var marker = new google.maps.Marker({
 	    position: latLng,
 	    map: map,
@@ -587,6 +635,21 @@
 	    $(window).trigger('closePreviewPanel');
 	  }).on('og-openpreview', function () {
 	    $(window).trigger('openPreviewPanel');
+	  });
+
+	  $('#time-slider').slider({
+	    range: true,
+	    min: 1800,
+	    max: 2000,
+	    values: year_range,
+	    slide: function slide(event, ui) {
+	      var _ui$values = _slicedToArray(ui.values, 2);
+
+	      var a = _ui$values[0];
+	      var b = _ui$values[1];
+
+	      updateYears(a, b);
+	    }
 	  });
 	});
 

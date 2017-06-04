@@ -12,6 +12,7 @@ var marker_icons = [];
 export var lat_lon_to_marker = {};
 var selected_marker_icons = [];
 var selected_marker, selected_icon;
+var year_range = [1800, 2000];
 
 export var map;
 export var mapPromise = $.Deferred();
@@ -26,14 +27,26 @@ function makeStaticMapsUrl(lat_lon) {
   return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
+function isFullTimeRange(yearRange) {
+  return (yearRange[0] === 1800 && yearRange[1] === 2000);
+}
+
 export function countPhotos(yearToCounts) {
-  return _.reduce(yearToCounts, (a, b) => a + b);
+  if (isFullTimeRange(year_range)) {
+    // This includes undated photos.
+    return _.reduce(yearToCounts, (a, b) => a + b);
+  } else {
+    const [first, last] = year_range;
+    return _.reduce(
+        _.filter(yearToCounts, (c, y) => (y > first && y <= last)),
+        (a, b) => a + b);
+  }
 }
 
 // Make the given marker the currently selected marker.
 // This is purely UI code, it doesn't touch anything other than the marker.
 export function selectMarker(marker, yearToCounts) {
-  const numPhotos = countPhotos(yearToCounts);
+  const numPhotos = countPhotos(yearToCounts, year_range);
   var zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex();
@@ -46,6 +59,21 @@ export function selectMarker(marker, yearToCounts) {
     marker.setIcon(selected_marker_icons[numPhotos > 100 ? 100 : numPhotos]);
     marker.setZIndex(100000 + zIndex);
   }
+}
+
+export function updateYears(firstYear, lastYear) {
+  year_range = [firstYear, lastYear];
+  _.forEach(lat_lon_to_marker, (marker, lat_lon) => {
+    const count = countPhotos(lat_lons[lat_lon], year_range);
+    if (count) {
+      marker.setIcon(marker_icons[Math.min(count, 100)]);
+      marker.setVisible(true);
+    } else {
+      marker.setVisible(false);
+    }
+  });
+  $('#time-range-labels').text(
+      isFullTimeRange(year_range) ? 'All photos' : `Showing photos from ${firstYear} - ${lastYear}`);
 }
 
 // The callback gets fired when the info for all lat/lons at this location
@@ -161,8 +189,9 @@ export function parseLatLon(lat_lon) {
 }
 
 export function createMarker(lat_lon, latLng) {
-  var count = countPhotos(lat_lons[lat_lon]);
-  var marker = new google.maps.Marker({
+  const count = countPhotos(lat_lons[lat_lon], year_range);
+  if (!count) return;
+  const marker = new google.maps.Marker({
     position: latLng,
     map: map,
     flat: true,
@@ -522,5 +551,16 @@ $(function() {
     $(window).trigger('closePreviewPanel');
   }).on('og-openpreview', function() {
     $(window).trigger('openPreviewPanel');
+  });
+
+  $('#time-slider').slider({
+    range: true,
+    min: 1800,
+    max: 2000,
+    values: year_range,
+    slide: (event, ui) => {
+      const [a, b] = ui.values;
+      updateYears(a, b);
+    }
   });
 });
