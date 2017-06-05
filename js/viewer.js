@@ -86,8 +86,7 @@ export function updateYears(firstYear, lastYear) {
     }
   });
   addNewlyVisibleMarkers();
-  $('#time-range-labels').text(
-      isFullTimeRange(year_range) ? 'All photos' : `Showing photos from ${firstYear} - ${lastYear}`);
+  $('#time-range-labels').text(`${firstYear}–${lastYear}`);
 }
 
 // The callback gets fired when the info for all lat/lons at this location
@@ -588,6 +587,10 @@ $(function() {
       const [a, b] = ui.values;
       updateYears(a, b);
     }
+  });
+
+  $('#time-range-summary').on('click', () => {
+    $('#time-range').toggle();
   });
 
   $('#slideshow-all').on('click', () => {

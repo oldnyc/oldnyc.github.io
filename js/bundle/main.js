@@ -202,7 +202,7 @@
 	    }
 	  });
 	  addNewlyVisibleMarkers();
-	  $('#time-range-labels').text(isFullTimeRange(year_range) ? 'All photos' : 'Showing photos from ' + firstYear + ' - ' + lastYear);
+	  $('#time-range-labels').text(firstYear + '–' + lastYear);
 	}
 
 	// The callback gets fired when the info for all lat/lons at this location
@@ -688,6 +688,10 @@
 
 	      updateYears(a, b);
 	    }
+	  });
+
+	  $('#time-range-summary').on('click', function () {
+	    $('#time-range').toggle();
 	  });
 
 	  $('#slideshow-all').on('click', function () {
