@@ -537,6 +537,7 @@ a#slideshow-all, a#slideshow-all:visited {
   font-size: 1.8em;
   text-align: center;
   line-height: 54px;
+  cursor: pointer;
 }
 
 #time-range {
@@ -565,4 +566,8 @@ a#slideshow-all, a#slideshow-all:visited {
   border-right: 6px solid transparent;
   border-top: 10px solid black;
   display: inline-block;
+}
+
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+  outline: none;
 }
