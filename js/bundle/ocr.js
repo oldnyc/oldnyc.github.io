@@ -181,7 +181,7 @@
 
 	var _urlState = __webpack_require__(7);
 
-	var _underscore = __webpack_require__(11);
+	var _underscore = __webpack_require__(8);
 
 	var _ = _interopRequireWildcard(_underscore);
 
@@ -1288,10 +1288,7 @@
 	}
 
 /***/ },
-/* 8 */,
-/* 9 */,
-/* 10 */,
-/* 11 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3

@@ -48,9 +48,9 @@
 
 	var _viewer = __webpack_require__(1);
 
-	__webpack_require__(8);
+	__webpack_require__(9);
 
-	__webpack_require__(10);
+	__webpack_require__(11);
 
 	$(function () {
 	  (0, _viewer.fillPopularImagesPanel)();
@@ -97,7 +97,7 @@
 
 	var _urlState = __webpack_require__(7);
 
-	var _underscore = __webpack_require__(11);
+	var _underscore = __webpack_require__(8);
 
 	var _ = _interopRequireWildcard(_underscore);
 
@@ -1205,397 +1205,6 @@
 
 /***/ },
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _history = __webpack_require__(9);
-
-	var _history2 = _interopRequireDefault(_history);
-
-	var _urlState = __webpack_require__(7);
-
-	var _viewer = __webpack_require__(1);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	// This should go in the $(function()) block below.
-	// It's exposed to facilitate debugging.
-	var h = new _history2.default(function (hash, cb) {
-	  (0, _urlState.hashToStateObject)(hash.substr(1), cb);
-	});
-
-	// Ping Google Analytics with the current URL (e.g. after history.pushState).
-	// See http://stackoverflow.com/a/4813223/388951
-	function trackAnalyticsPageView() {
-	  var url = location.pathname + location.search + location.hash;
-	  ga('send', 'pageview', { 'page': url });
-	}
-
-	var LOG_HISTORY_EVENTS = false;
-	// var LOG_HISTORY_EVENTS = true;
-
-	$(function () {
-	  // Relevant UI methods:
-	  // - transitionToStateObject(obj)
-	  //
-	  // State/URL manipulation:
-	  // - stateObjectToHash()
-	  // - hashToStateObject()
-	  //
-	  // State objects look like:
-	  // {photo_id:string, g:string}
-
-	  // Returns URL fragments like '/#g:123'.
-	  var fragment = function fragment(state) {
-	    return '/#' + (0, _urlState.stateObjectToHash)(state);
-	  };
-
-	  var title = function title(state) {
-	    var old_nyc = 'Old NYC';
-	    if ('photo_id' in state) {
-	      return old_nyc + ' - Photo ' + state.photo_id;
-	    } else if ('g' in state) {
-	      // TODO: include cross-streets in the title
-	      return old_nyc + ' - Grid';
-	    } else {
-	      return old_nyc;
-	    }
-	  };
-
-	  $(window).on('showGrid', function (e, pos) {
-	    var state = { g: pos };
-	    h.pushState(state, title(state), fragment(state));
-	    trackAnalyticsPageView();
-	  }).on('hideGrid', function () {
-	    var state = { initial: true };
-	    h.goBackUntil('initial', [state, title(state), fragment(state)]);
-	  }).on('openPreviewPanel', function () {
-	    // This is a transient state -- it should immediately be replaced.
-	    var state = { photo_id: true };
-	    h.pushState(state, title(state), fragment(state));
-	  }).on('showPhotoPreview', function (e, photo_id) {
-	    var g = $('#expanded').data('grid-key');
-	    var state = { photo_id: photo_id };
-	    if (g == 'pop') state.g = 'pop';
-	    h.replaceState(state, title(state), fragment(state));
-	    trackAnalyticsPageView();
-	  }).on('closePreviewPanel', function () {
-	    var g = $('#expanded').data('grid-key');
-	    var state = { g: g };
-	    h.goBackUntil('g', [state, title(state), fragment(state)]);
-	  });
-
-	  // Update the UI in response to hitting the back/forward button,
-	  // a hash fragment on initial page load or the user editing the URL.
-	  $(h).on('setStateInResponseToUser setStateInResponseToPageLoad', function (e, state) {
-	    // It's important that these methods only configure the UI.
-	    // They must not trigger events, or they could cause a loop!
-	    (0, _urlState.transitionToStateObject)(state);
-	  });
-
-	  $(h).on('setStateInResponseToPageLoad', function () {
-	    trackAnalyticsPageView(); // hopefully this helps track social shares
-	  });
-
-	  if (LOG_HISTORY_EVENTS) {
-	    $(window).on('showGrid', function (e, pos) {
-	      console.log('showGrid', pos);
-	    }).on('hideGrid', function () {
-	      console.log('hideGrid');
-	    }).on('showPhotoPreview', function (e, photo_id) {
-	      console.log('showPhotoPreview', photo_id);
-	    }).on('closePreviewPanel', function () {
-	      console.log('closePreviewPanel');
-	    }).on('openPreviewPanel', function () {
-	      console.log('openPreviewPanel');
-	    });
-	    $(h).on('setStateInResponseToUser', function (e, state) {
-	      console.log('setStateInResponseToUser', state);
-	    }).on('setStateInResponseToPageLoad', function (e, state) {
-	      console.log('setStateInResponseToPageLoad', state);
-	    });
-	  }
-
-	  // To load from a URL fragment, the map object must be ready.
-	  _viewer.mapPromise.done(function () {
-	    h.initialize();
-	  });
-	});
-
-/***/ },
-/* 9 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	// History management service.
-	// Consider using this instead: https://github.com/browserstate/history.js
-	var History = function History(hashToStateAdapter) {
-	  this.states = [];
-	  this.hashToStateAdapter = hashToStateAdapter;
-	};
-
-	History.prototype.initialize = function () {
-	  var that = this;
-	  $(window).on('popstate', function (e) {
-	    that.handlePopState(e.originalEvent.state);
-	  });
-
-	  // Create an artificial initial state
-	  var state = { initial: true };
-	  var didSetState = false;
-
-	  var rest = function () {
-	    // Blow away the current state -- it's only going to cause trouble.
-	    history.replaceState({}, '', document.location.href);
-	    this.replaceState(state, document.title, document.location.href);
-
-	    if (didSetState) {
-	      $(this).trigger('setStateInResponseToPageLoad', state);
-	    }
-	  }.bind(this);
-
-	  if (this.hashToStateAdapter && document.location.hash) {
-	    didSetState = true;
-	    // Need to honor any hash fragments that the user navigated to.
-	    this.hashToStateAdapter(document.location.hash, function (newState) {
-	      state = newState;
-	      rest();
-	    });
-	  } else {
-	    rest();
-	  }
-	};
-
-	History.prototype.makeState = function (obj) {
-	  var currentStateId = null;
-	  if (history.state && 'id' in history.state) {
-	    currentStateId = history.state.id;
-	  }
-	  return $.extend({
-	    length: history.length,
-	    previousStateId: currentStateId,
-	    id: Date.now() + '' + Math.floor(Math.random() * 100000000)
-	  }, obj);
-	};
-
-	History.prototype.simplifyState = function (obj) {
-	  var state = $.extend({}, obj);
-	  delete state['id'];
-	  // delete state['length'];
-	  delete state['previousStateId'];
-	  return state;
-	};
-
-	History.prototype.handlePopState = function (state) {
-	  // note: we don't remove entries from this.state here, since the user could
-	  // still go forward to them.
-	  if (state && 'id' in state) {
-	    var stateObj = this.states[this.getStateIndexById(state.id)];
-	    if (stateObj && stateObj.expectingBack) {
-	      // This is happening as a result of a call on the History object.
-	      delete stateObj.expectingBack;
-	      return;
-	    }
-	  }
-
-	  var trigger = function () {
-	    $(this).trigger('setStateInResponseToUser', state);
-	  }.bind(this);
-	  if (!state && this.hashToStateAdapter) {
-	    this.hashToStateAdapter(document.location.hash, function (newState) {
-	      state = newState;
-	      trigger();
-	    });
-	  } else {
-	    trigger();
-	  }
-	};
-
-	// Just like history.pushState.
-	History.prototype.pushState = function (stateObj, title, url) {
-	  var state = this.makeState(stateObj);
-	  this.states.push(state);
-	  history.pushState(state, title, url);
-	  document.title = title;
-	};
-
-	// Just like history.replaceState.
-	History.prototype.replaceState = function (stateObj, title, url) {
-	  var curState = this.getCurrentState();
-	  var replaceIdx = null;
-	  var previousId = null;
-	  if (curState) {
-	    if ('id' in curState) {
-	      replaceIdx = this.getStateIndexById(curState.id);
-	    }
-	    if ('previousStateId' in curState) {
-	      // in replacing the current state, we inherit its parent state.
-	      previousId = curState.previousStateId;
-	    }
-	  }
-
-	  var state = this.makeState(stateObj);
-	  if (previousId !== null) {
-	    state.previousStateId = previousId;
-	  }
-	  if (replaceIdx !== null) {
-	    this.states[replaceIdx] = state;
-	  } else {
-	    this.states.push(state);
-	  }
-	  history.replaceState(state, title, url);
-	  document.title = title;
-	};
-
-	History.prototype.getCurrentState = function () {
-	  return history.state;
-	};
-
-	History.prototype.getStateIndexById = function (stateId) {
-	  for (var i = 0; i < this.states.length; i++) {
-	    if (this.states[i].id == stateId) return i;
-	  }
-	  return null;
-	};
-
-	// Get the state object one prior to the given one.
-	History.prototype.getPreviousState = function (state) {
-	  if (!('previousStateId' in state)) return null;
-	  var id = state['previousStateId'];
-	  if (id == null) return id;
-
-	  var idx = this.getStateIndexById(id);
-	  if (idx !== null) {
-	    return this.states[idx];
-	  }
-	  throw "State out of whack!";
-	};
-
-	/**
-	 * Go back in history until the predicate is true.
-	 * If predicate is a string, go back until it's a key in the state object.
-	 * This will not result in a setStateInResponseToUser event firing.
-	 * Returns the number of steps back in the history that it went (possibly 0 if
-	 * the current state matches the predicate).
-	 * If no matching history state is found, the history stack will be cleared and
-	 * alternativeState will be pushed on.
-	 */
-	History.prototype.goBackUntil = function (predicate, alternativeState) {
-	  // Convenience for common case of checking if history state has a key.
-	  if (typeof predicate == "string") {
-	    return this.goBackUntil(function (state) {
-	      return predicate in state;
-	    }, alternativeState);
-	  }
-
-	  var state = this.getCurrentState();
-	  var numBack = 0;
-
-	  var lastState = null;
-	  while (state && !predicate(state)) {
-	    lastState = state;
-	    state = this.getPreviousState(state);
-	    numBack += 1;
-	  }
-	  if (state && numBack) {
-	    state.expectingBack = true;
-	    history.go(-numBack);
-	    return numBack;
-	  }
-	  if (numBack == 0) {
-	    return 0; // current state fulfilled predicate
-	  } else {
-	      // no state fulfilled predicate. Clear the stack to just one state and
-	      // replace it with alternativeState.
-	      var stackLen = numBack;
-	      if (stackLen != 1) {
-	        lastState.expectingBack = true;
-	        history.go(-(stackLen - 1));
-	      }
-	      this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
-	    }
-	};
-
-	// Debugging method -- prints the history stack.
-	History.prototype.logStack = function () {
-	  var state = this.getCurrentState();
-	  var i = 0;
-	  while (state) {
-	    console.log((i > 0 ? '-' : ' ') + i, this.simplifyState(state));
-	    state = this.getPreviousState(state);
-	    i++;
-	  }
-	};
-
-	exports.default = History;
-
-/***/ },
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _viewer = __webpack_require__(1);
-
-	var locationMarker = null; /**
-	                            * This module supports address search and the current location button.
-	                            */
-
-	function setLocation(latLng, title) {
-	  _viewer.map.panTo(latLng);
-	  _viewer.map.setZoom(17);
-
-	  if (locationMarker) {
-	    locationMarker.setMap(null);
-	  }
-	  locationMarker = new google.maps.Marker({
-	    position: latLng,
-	    map: _viewer.map,
-	    title: title
-	  });
-	}
-
-	$(function () {
-	  $('#location-search').on('keypress', function (e) {
-	    if (e.which !== 13) return;
-
-	    var address = $(this).val();
-	    $.getJSON('https://maps.googleapis.com/maps/api/geocode/json', {
-	      address: address,
-	      key: 'AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA',
-	      bounds: '40.490856,-74.260895|41.030091,-73.578699'
-	    }).done(function (response) {
-	      var latLng = response.results[0].geometry.location;
-	      setLocation(latLng, address);
-	      ga('send', 'event', 'link', 'address-search');
-	    }).fail(function (e) {
-	      console.error(e);
-	      ga('send', 'event', 'link', 'address-search-fail');
-	    });
-	  });
-
-	  $('#current-location').on('click', function () {
-	    navigator.geolocation.getCurrentPosition(function (position) {
-	      var _position$coords = position.coords;
-	      var latitude = _position$coords.latitude;
-	      var longitude = _position$coords.longitude;
-
-	      setLocation({ lat: latitude, lng: longitude }, 'Current Location');
-	      ga('send', 'event', 'link', 'current-location');
-	    }, function (e) {
-	      console.error(e);
-	      ga('send', 'event', 'link', 'current-location-error');
-	    });
-	  });
-	});
-
-/***/ },
-/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
@@ -3147,6 +2756,397 @@
 	  }
 	}.call(this));
 
+
+/***/ },
+/* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _history = __webpack_require__(10);
+
+	var _history2 = _interopRequireDefault(_history);
+
+	var _urlState = __webpack_require__(7);
+
+	var _viewer = __webpack_require__(1);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	// This should go in the $(function()) block below.
+	// It's exposed to facilitate debugging.
+	var h = new _history2.default(function (hash, cb) {
+	  (0, _urlState.hashToStateObject)(hash.substr(1), cb);
+	});
+
+	// Ping Google Analytics with the current URL (e.g. after history.pushState).
+	// See http://stackoverflow.com/a/4813223/388951
+	function trackAnalyticsPageView() {
+	  var url = location.pathname + location.search + location.hash;
+	  ga('send', 'pageview', { 'page': url });
+	}
+
+	var LOG_HISTORY_EVENTS = false;
+	// var LOG_HISTORY_EVENTS = true;
+
+	$(function () {
+	  // Relevant UI methods:
+	  // - transitionToStateObject(obj)
+	  //
+	  // State/URL manipulation:
+	  // - stateObjectToHash()
+	  // - hashToStateObject()
+	  //
+	  // State objects look like:
+	  // {photo_id:string, g:string}
+
+	  // Returns URL fragments like '/#g:123'.
+	  var fragment = function fragment(state) {
+	    return '/#' + (0, _urlState.stateObjectToHash)(state);
+	  };
+
+	  var title = function title(state) {
+	    var old_nyc = 'Old NYC';
+	    if ('photo_id' in state) {
+	      return old_nyc + ' - Photo ' + state.photo_id;
+	    } else if ('g' in state) {
+	      // TODO: include cross-streets in the title
+	      return old_nyc + ' - Grid';
+	    } else {
+	      return old_nyc;
+	    }
+	  };
+
+	  $(window).on('showGrid', function (e, pos) {
+	    var state = { g: pos };
+	    h.pushState(state, title(state), fragment(state));
+	    trackAnalyticsPageView();
+	  }).on('hideGrid', function () {
+	    var state = { initial: true };
+	    h.goBackUntil('initial', [state, title(state), fragment(state)]);
+	  }).on('openPreviewPanel', function () {
+	    // This is a transient state -- it should immediately be replaced.
+	    var state = { photo_id: true };
+	    h.pushState(state, title(state), fragment(state));
+	  }).on('showPhotoPreview', function (e, photo_id) {
+	    var g = $('#expanded').data('grid-key');
+	    var state = { photo_id: photo_id };
+	    if (g == 'pop') state.g = 'pop';
+	    h.replaceState(state, title(state), fragment(state));
+	    trackAnalyticsPageView();
+	  }).on('closePreviewPanel', function () {
+	    var g = $('#expanded').data('grid-key');
+	    var state = { g: g };
+	    h.goBackUntil('g', [state, title(state), fragment(state)]);
+	  });
+
+	  // Update the UI in response to hitting the back/forward button,
+	  // a hash fragment on initial page load or the user editing the URL.
+	  $(h).on('setStateInResponseToUser setStateInResponseToPageLoad', function (e, state) {
+	    // It's important that these methods only configure the UI.
+	    // They must not trigger events, or they could cause a loop!
+	    (0, _urlState.transitionToStateObject)(state);
+	  });
+
+	  $(h).on('setStateInResponseToPageLoad', function () {
+	    trackAnalyticsPageView(); // hopefully this helps track social shares
+	  });
+
+	  if (LOG_HISTORY_EVENTS) {
+	    $(window).on('showGrid', function (e, pos) {
+	      console.log('showGrid', pos);
+	    }).on('hideGrid', function () {
+	      console.log('hideGrid');
+	    }).on('showPhotoPreview', function (e, photo_id) {
+	      console.log('showPhotoPreview', photo_id);
+	    }).on('closePreviewPanel', function () {
+	      console.log('closePreviewPanel');
+	    }).on('openPreviewPanel', function () {
+	      console.log('openPreviewPanel');
+	    });
+	    $(h).on('setStateInResponseToUser', function (e, state) {
+	      console.log('setStateInResponseToUser', state);
+	    }).on('setStateInResponseToPageLoad', function (e, state) {
+	      console.log('setStateInResponseToPageLoad', state);
+	    });
+	  }
+
+	  // To load from a URL fragment, the map object must be ready.
+	  _viewer.mapPromise.done(function () {
+	    h.initialize();
+	  });
+	});
+
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	// History management service.
+	// Consider using this instead: https://github.com/browserstate/history.js
+	var History = function History(hashToStateAdapter) {
+	  this.states = [];
+	  this.hashToStateAdapter = hashToStateAdapter;
+	};
+
+	History.prototype.initialize = function () {
+	  var that = this;
+	  $(window).on('popstate', function (e) {
+	    that.handlePopState(e.originalEvent.state);
+	  });
+
+	  // Create an artificial initial state
+	  var state = { initial: true };
+	  var didSetState = false;
+
+	  var rest = function () {
+	    // Blow away the current state -- it's only going to cause trouble.
+	    history.replaceState({}, '', document.location.href);
+	    this.replaceState(state, document.title, document.location.href);
+
+	    if (didSetState) {
+	      $(this).trigger('setStateInResponseToPageLoad', state);
+	    }
+	  }.bind(this);
+
+	  if (this.hashToStateAdapter && document.location.hash) {
+	    didSetState = true;
+	    // Need to honor any hash fragments that the user navigated to.
+	    this.hashToStateAdapter(document.location.hash, function (newState) {
+	      state = newState;
+	      rest();
+	    });
+	  } else {
+	    rest();
+	  }
+	};
+
+	History.prototype.makeState = function (obj) {
+	  var currentStateId = null;
+	  if (history.state && 'id' in history.state) {
+	    currentStateId = history.state.id;
+	  }
+	  return $.extend({
+	    length: history.length,
+	    previousStateId: currentStateId,
+	    id: Date.now() + '' + Math.floor(Math.random() * 100000000)
+	  }, obj);
+	};
+
+	History.prototype.simplifyState = function (obj) {
+	  var state = $.extend({}, obj);
+	  delete state['id'];
+	  // delete state['length'];
+	  delete state['previousStateId'];
+	  return state;
+	};
+
+	History.prototype.handlePopState = function (state) {
+	  // note: we don't remove entries from this.state here, since the user could
+	  // still go forward to them.
+	  if (state && 'id' in state) {
+	    var stateObj = this.states[this.getStateIndexById(state.id)];
+	    if (stateObj && stateObj.expectingBack) {
+	      // This is happening as a result of a call on the History object.
+	      delete stateObj.expectingBack;
+	      return;
+	    }
+	  }
+
+	  var trigger = function () {
+	    $(this).trigger('setStateInResponseToUser', state);
+	  }.bind(this);
+	  if (!state && this.hashToStateAdapter) {
+	    this.hashToStateAdapter(document.location.hash, function (newState) {
+	      state = newState;
+	      trigger();
+	    });
+	  } else {
+	    trigger();
+	  }
+	};
+
+	// Just like history.pushState.
+	History.prototype.pushState = function (stateObj, title, url) {
+	  var state = this.makeState(stateObj);
+	  this.states.push(state);
+	  history.pushState(state, title, url);
+	  document.title = title;
+	};
+
+	// Just like history.replaceState.
+	History.prototype.replaceState = function (stateObj, title, url) {
+	  var curState = this.getCurrentState();
+	  var replaceIdx = null;
+	  var previousId = null;
+	  if (curState) {
+	    if ('id' in curState) {
+	      replaceIdx = this.getStateIndexById(curState.id);
+	    }
+	    if ('previousStateId' in curState) {
+	      // in replacing the current state, we inherit its parent state.
+	      previousId = curState.previousStateId;
+	    }
+	  }
+
+	  var state = this.makeState(stateObj);
+	  if (previousId !== null) {
+	    state.previousStateId = previousId;
+	  }
+	  if (replaceIdx !== null) {
+	    this.states[replaceIdx] = state;
+	  } else {
+	    this.states.push(state);
+	  }
+	  history.replaceState(state, title, url);
+	  document.title = title;
+	};
+
+	History.prototype.getCurrentState = function () {
+	  return history.state;
+	};
+
+	History.prototype.getStateIndexById = function (stateId) {
+	  for (var i = 0; i < this.states.length; i++) {
+	    if (this.states[i].id == stateId) return i;
+	  }
+	  return null;
+	};
+
+	// Get the state object one prior to the given one.
+	History.prototype.getPreviousState = function (state) {
+	  if (!('previousStateId' in state)) return null;
+	  var id = state['previousStateId'];
+	  if (id == null) return id;
+
+	  var idx = this.getStateIndexById(id);
+	  if (idx !== null) {
+	    return this.states[idx];
+	  }
+	  throw "State out of whack!";
+	};
+
+	/**
+	 * Go back in history until the predicate is true.
+	 * If predicate is a string, go back until it's a key in the state object.
+	 * This will not result in a setStateInResponseToUser event firing.
+	 * Returns the number of steps back in the history that it went (possibly 0 if
+	 * the current state matches the predicate).
+	 * If no matching history state is found, the history stack will be cleared and
+	 * alternativeState will be pushed on.
+	 */
+	History.prototype.goBackUntil = function (predicate, alternativeState) {
+	  // Convenience for common case of checking if history state has a key.
+	  if (typeof predicate == "string") {
+	    return this.goBackUntil(function (state) {
+	      return predicate in state;
+	    }, alternativeState);
+	  }
+
+	  var state = this.getCurrentState();
+	  var numBack = 0;
+
+	  var lastState = null;
+	  while (state && !predicate(state)) {
+	    lastState = state;
+	    state = this.getPreviousState(state);
+	    numBack += 1;
+	  }
+	  if (state && numBack) {
+	    state.expectingBack = true;
+	    history.go(-numBack);
+	    return numBack;
+	  }
+	  if (numBack == 0) {
+	    return 0; // current state fulfilled predicate
+	  } else {
+	      // no state fulfilled predicate. Clear the stack to just one state and
+	      // replace it with alternativeState.
+	      var stackLen = numBack;
+	      if (stackLen != 1) {
+	        lastState.expectingBack = true;
+	        history.go(-(stackLen - 1));
+	      }
+	      this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
+	    }
+	};
+
+	// Debugging method -- prints the history stack.
+	History.prototype.logStack = function () {
+	  var state = this.getCurrentState();
+	  var i = 0;
+	  while (state) {
+	    console.log((i > 0 ? '-' : ' ') + i, this.simplifyState(state));
+	    state = this.getPreviousState(state);
+	    i++;
+	  }
+	};
+
+	exports.default = History;
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _viewer = __webpack_require__(1);
+
+	var locationMarker = null; /**
+	                            * This module supports address search and the current location button.
+	                            */
+
+	function setLocation(latLng, title) {
+	  _viewer.map.panTo(latLng);
+	  _viewer.map.setZoom(17);
+
+	  if (locationMarker) {
+	    locationMarker.setMap(null);
+	  }
+	  locationMarker = new google.maps.Marker({
+	    position: latLng,
+	    map: _viewer.map,
+	    title: title
+	  });
+	}
+
+	$(function () {
+	  $('#location-search').on('keypress', function (e) {
+	    if (e.which !== 13) return;
+
+	    var address = $(this).val();
+	    $.getJSON('https://maps.googleapis.com/maps/api/geocode/json', {
+	      address: address,
+	      key: 'AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA',
+	      bounds: '40.490856,-74.260895|41.030091,-73.578699'
+	    }).done(function (response) {
+	      var latLng = response.results[0].geometry.location;
+	      setLocation(latLng, address);
+	      ga('send', 'event', 'link', 'address-search');
+	    }).fail(function (e) {
+	      console.error(e);
+	      ga('send', 'event', 'link', 'address-search-fail');
+	    });
+	  });
+
+	  $('#current-location').on('click', function () {
+	    navigator.geolocation.getCurrentPosition(function (position) {
+	      var _position$coords = position.coords;
+	      var latitude = _position$coords.latitude;
+	      var longitude = _position$coords.longitude;
+
+	      setLocation({ lat: latitude, lng: longitude }, 'Current Location');
+	      ga('send', 'event', 'link', 'current-location');
+	    }, function (e) {
+	      console.error(e);
+	      ga('send', 'event', 'link', 'current-location-error');
+	    });
+	  });
+	});
 
 /***/ }
 /******/ ]);
