@@ -5,11 +5,14 @@ import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback
 import {popular_photos} from './popular-photos';
 import {findLatLonForPhoto} from './url-state';
 
+import * as _ from 'underscore';
+
 var markers = [];
 var marker_icons = [];
 export var lat_lon_to_marker = {};
 var selected_marker_icons = [];
 var selected_marker, selected_icon;
+var year_range = [1800, 2000];
 
 export var map;
 export var mapPromise = $.Deferred();
@@ -24,9 +27,39 @@ function makeStaticMapsUrl(lat_lon) {
   return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
+function isFullTimeRange(yearRange) {
+  return (yearRange[0] === 1800 && yearRange[1] === 2000);
+}
+
+// A photo is in the date range if any dates mentioned in it are in the range.
+// For example, "1927; 1933; 1940" is in the range [1920, 1930].
+function isPhotoInDateRange(info, yearRange) {
+  if (isFullTimeRange(yearRange)) return true;
+
+  const [first, last] = yearRange;
+  for (let i = 0; i < info.years.length; i++) {
+    const year = info.years[i];
+    if (year && year >= first && year <= last) return true;
+  }
+  return false;
+}
+
+export function countPhotos(yearToCounts) {
+  if (isFullTimeRange(year_range)) {
+    // This includes undated photos.
+    return _.reduce(yearToCounts, (a, b) => a + b);
+  } else {
+    const [first, last] = year_range;
+    return _.reduce(
+        _.filter(yearToCounts, (c, y) => (y > first && y <= last)),
+        (a, b) => a + b);
+  }
+}
+
 // Make the given marker the currently selected marker.
 // This is purely UI code, it doesn't touch anything other than the marker.
-export function selectMarker(marker, numPhotos) {
+export function selectMarker(marker, yearToCounts) {
+  const numPhotos = countPhotos(yearToCounts, year_range);
   var zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex();
@@ -41,10 +74,25 @@ export function selectMarker(marker, numPhotos) {
   }
 }
 
+export function updateYears(firstYear, lastYear) {
+  year_range = [firstYear, lastYear];
+  _.forEach(lat_lon_to_marker, (marker, lat_lon) => {
+    const count = countPhotos(lat_lons[lat_lon], year_range);
+    if (count) {
+      marker.setIcon(marker_icons[Math.min(count, 100)]);
+      marker.setVisible(true);
+    } else {
+      marker.setVisible(false);
+    }
+  });
+  addNewlyVisibleMarkers();
+  $('#time-range-labels').text(`${firstYear}–${lastYear}`);
+}
+
 // The callback gets fired when the info for all lat/lons at this location
 // become available (i.e. after the /info RPC returns).
 function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
-  selectMarker(marker, lat_lons[lat_lon]);
+  if (marker) selectMarker(marker, lat_lons[lat_lon]);
 
   loadInfoForLatLon(lat_lon).done(function(photoIds) {
     var selectedId = null;
@@ -154,8 +202,11 @@ export function parseLatLon(lat_lon) {
 }
 
 export function createMarker(lat_lon, latLng) {
-  var count = lat_lons[lat_lon];
-  var marker = new google.maps.Marker({
+  const count = countPhotos(lat_lons[lat_lon], year_range);
+  if (!count) {
+    return;
+  }
+  const marker = new google.maps.Marker({
     position: latLng,
     map: map,
     flat: true,
@@ -178,8 +229,17 @@ export function showExpanded(key, photo_ids, opt_selected_id) {
   map.set('keyboardShortcuts', false);
   $('#expanded').show().data('grid-key', key);
   $('.location').text(nameForLatLon(key));
+  if (isFullTimeRange(year_range)) {
+    $('#filtered-slideshow').hide();
+  } else {
+    const [first, last] = year_range;
+    $('#filtered-slideshow').show();
+    $('#slideshow-filter-first').text(first);
+    $('#slideshow-filter-last').text(last);
+  }
   var images = $.map(photo_ids, function(photo_id) {
     var info = infoForPhotoId(photo_id);
+    if (!isPhotoInDateRange(info, year_range)) return null;
     return $.extend({
       id: photo_id,
       largesrc: info.image_url,
@@ -188,6 +248,7 @@ export function showExpanded(key, photo_ids, opt_selected_id) {
       height: 400
     }, info);
   });
+  images = images.filter(image => image !== null);
   $('#preview-map').attr('src', makeStaticMapsUrl(key));
   $('#grid-container').expandableGrid({
     rowHeight: 200,
@@ -515,5 +576,30 @@ $(function() {
     $(window).trigger('closePreviewPanel');
   }).on('og-openpreview', function() {
     $(window).trigger('openPreviewPanel');
+  });
+
+  $('#time-slider').slider({
+    range: true,
+    min: 1800,
+    max: 2000,
+    values: year_range,
+    slide: (event, ui) => {
+      const [a, b] = ui.values;
+      updateYears(a, b);
+    }
+  });
+
+  $('#time-range-summary').on('click', () => {
+    $('#time-range').toggle();
+  });
+
+  $('#slideshow-all').on('click', () => {
+    updateYears(1800, 2000);
+    $('#time-slider').slider({
+      values: year_range
+    });
+    const lat_lon = $('#expanded').data('grid-key');
+    hideExpanded();
+    displayInfoForLatLon(lat_lon);
   });
 });

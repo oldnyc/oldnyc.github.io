@@ -51,7 +51,7 @@ h2 a {
 #about:hover{
   text-decoration: underline;
 }
-#about a, #about a:visited {
+#about a, #about ai {
   display: block;
   color: #404040;
   font-weight: bold;
@@ -265,6 +265,19 @@ div.exit:hover {
 }
 #expanded .logo a:hover {
   color: gray;
+}
+#filtered-slideshow {
+  position: absolute;
+  left: 190px;
+  top: 10px;
+  color: white;
+  font-size: 1.4em;
+  height: 35px;
+  line-height: 35px;
+}
+a#slideshow-all, a#slideshow-all:visited {
+  color: white;
+  text-decoration: underline;
 }
 .arrow-right {
   width: 0;
@@ -512,4 +525,49 @@ div.exit:hover {
   max-width: 960px;
   margin-left: -480px;
   bottom: 20px;
+}
+
+#time-range-summary {
+  position: fixed;
+  top: 74px;
+  left: 50px;
+  width: 235px;
+  height: 54px;
+  background: white;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 54px;
+  cursor: pointer;
+}
+
+#time-range {
+  position: fixed;
+  top: 116px;
+  left: 50px;
+  width: 205px;
+  height: 10px;
+  background: white;
+  padding: 15px;
+  /* box-shadow: #777 0 0px 5px 0px; */
+  display: none;
+}
+
+#time-slider {
+  /* width: 200px; */
+}
+
+.white-arrow-down {
+  width: 0;
+  height: 0;
+  /* position: absolute; */
+  top: 32px;
+  left: 257px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid black;
+  display: inline-block;
+}
+
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+  outline: none;
 }

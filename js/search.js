@@ -28,7 +28,7 @@ $(() => {
     $.getJSON('https://maps.googleapis.com/maps/api/geocode/json', {
       address,
       key: 'AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA',
-      bounds: '40.490856,-74.260895|41.030091,-73.578699',
+      bounds: '40.490856,-74.260895|41.030091,-73.578699'
     }).done(response => {
       const latLng = response.results[0].geometry.location;
       setLocation(latLng, address);
