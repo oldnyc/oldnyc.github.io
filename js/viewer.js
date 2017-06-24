@@ -586,6 +586,12 @@ $(function() {
     slide: (event, ui) => {
       const [a, b] = ui.values;
       updateYears(a, b);
+    },
+    stop: (event, ui) => {
+      const [a, b] = ui.values;
+      ga('send', 'event', 'link', 'time-slider', {
+        'page': `/#${a}–${b}`
+      });
     }
   });
 
@@ -599,6 +605,7 @@ $(function() {
       values: year_range
     });
     const lat_lon = $('#expanded').data('grid-key');
+    ga('send', 'event', 'link', 'time-slider-clear');
     hideExpanded();
     displayInfoForLatLon(lat_lon);
   });

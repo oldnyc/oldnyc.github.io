@@ -771,6 +771,16 @@
 	      var b = _ui$values[1];
 
 	      updateYears(a, b);
+	    },
+	    stop: function stop(event, ui) {
+	      var _ui$values2 = _slicedToArray(ui.values, 2);
+
+	      var a = _ui$values2[0];
+	      var b = _ui$values2[1];
+
+	      ga('send', 'event', 'link', 'time-slider', {
+	        'page': '/#' + a + '–' + b
+	      });
 	    }
 	  });
 
@@ -784,6 +794,7 @@
 	      values: year_range
 	    });
 	    var lat_lon = $('#expanded').data('grid-key');
+	    ga('send', 'event', 'link', 'time-slider-clear');
 	    hideExpanded();
 	    displayInfoForLatLon(lat_lon);
 	  });
