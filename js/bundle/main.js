@@ -42,7 +42,7 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -57,9 +57,9 @@
 	  (0, _viewer.initialize_map)();
 	});
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -67,8 +67,6 @@
 	  value: true
 	});
 	exports.mapPromise = exports.map = exports.lat_lon_to_marker = undefined;
-
-	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -132,10 +130,9 @@
 	function isPhotoInDateRange(info, yearRange) {
 	  if (isFullTimeRange(yearRange)) return true;
 
-	  var _yearRange = _slicedToArray(yearRange, 2);
-
-	  var first = _yearRange[0];
-	  var last = _yearRange[1];
+	  var _yearRange = _slicedToArray(yearRange, 2),
+	      first = _yearRange[0],
+	      last = _yearRange[1];
 
 	  for (var i = 0; i < info.years.length; i++) {
 	    var year = info.years[i];
@@ -151,24 +148,16 @@
 	      return a + b;
 	    });
 	  } else {
-	    var _ret = function () {
-	      var _year_range = year_range;
+	    var _year_range = year_range,
+	        _year_range2 = _slicedToArray(_year_range, 2),
+	        first = _year_range2[0],
+	        last = _year_range2[1];
 
-	      var _year_range2 = _slicedToArray(_year_range, 2);
-
-	      var first = _year_range2[0];
-	      var last = _year_range2[1];
-
-	      return {
-	        v: _.reduce(_.filter(yearToCounts, function (c, y) {
-	          return y > first && y <= last;
-	        }), function (a, b) {
-	          return a + b;
-	        })
-	      };
-	    }();
-
-	    if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
+	    return _.reduce(_.filter(yearToCounts, function (c, y) {
+	      return y > first && y <= last;
+	    }), function (a, b) {
+	      return a + b;
+	    });
 	  }
 	}
 
@@ -202,7 +191,7 @@
 	    }
 	  });
 	  addNewlyVisibleMarkers();
-	  $('#time-range-labels').text(firstYear + '–' + lastYear);
+	  $('#time-range-labels').text(firstYear + '\u2013' + lastYear);
 	}
 
 	// The callback gets fired when the info for all lat/lons at this location
@@ -233,7 +222,7 @@
 	}
 
 	function initialize_map() {
-	  var latlng = new google.maps.LatLng(40.74421, -73.97370);
+	  var latlng = new google.maps.LatLng(43.6486135, -79.3738487);
 	  var opts = {
 	    zoom: 15,
 	    maxZoom: 18,
@@ -335,12 +324,10 @@
 	  if (isFullTimeRange(year_range)) {
 	    $('#filtered-slideshow').hide();
 	  } else {
-	    var _year_range3 = year_range;
-
-	    var _year_range4 = _slicedToArray(_year_range3, 2);
-
-	    var first = _year_range4[0];
-	    var last = _year_range4[1];
+	    var _year_range3 = year_range,
+	        _year_range4 = _slicedToArray(_year_range3, 2),
+	        first = _year_range4[0],
+	        last = _year_range4[1];
 
 	    $('#filtered-slideshow').show();
 	    $('#slideshow-filter-first').text(first);
@@ -492,9 +479,9 @@
 	    var $panel = $('#popular-photo-template').clone().removeAttr('id');
 	    $panel.find('a').attr('href', '#' + row.id);
 	    $panel.find('img').attr('border', '0') // For IE8
-	    .attr('data-src', expandedImageUrl(row.id)).attr('height', row.height);
-	    $panel.find('.desc').text(row.desc);
-	    $panel.find('.loc').text(row.loc);
+	    .attr('data-src', row.image_url).attr('height', row.height);
+	    $panel.find('.desc').text(row.title);
+	    $panel.find('.loc').text(row.subtitle);
 	    if (row.date) $panel.find('.date').text(' (' + row.date + ')');
 	    return $panel.get(0);
 	  };
@@ -681,21 +668,19 @@
 	    max: 2000,
 	    values: year_range,
 	    slide: function slide(event, ui) {
-	      var _ui$values = _slicedToArray(ui.values, 2);
-
-	      var a = _ui$values[0];
-	      var b = _ui$values[1];
+	      var _ui$values = _slicedToArray(ui.values, 2),
+	          a = _ui$values[0],
+	          b = _ui$values[1];
 
 	      updateYears(a, b);
 	    },
 	    stop: function stop(event, ui) {
-	      var _ui$values2 = _slicedToArray(ui.values, 2);
-
-	      var a = _ui$values2[0];
-	      var b = _ui$values2[1];
+	      var _ui$values2 = _slicedToArray(ui.values, 2),
+	          a = _ui$values2[0],
+	          b = _ui$values2[1];
 
 	      ga('send', 'event', 'link', 'time-slider', {
-	        'page': '/#' + a + '–' + b
+	        'page': '/#' + a + '\u2013' + b
 	      });
 	    }
 	  });
@@ -716,9 +701,9 @@
 	  });
 	});
 
-/***/ },
+/***/ }),
 /* 2 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -786,6 +771,10 @@
 	}
 
 	function libraryUrlForPhotoId(photo_id) {
+	  var info = infoForPhotoId(photo_id);
+	  if (info['url']) {
+	    return info['url'];
+	  }
 	  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
 	}
 
@@ -813,9 +802,9 @@
 	  }
 	}
 
-/***/ },
+/***/ }),
 /* 3 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	"use strict";
 
@@ -915,9 +904,9 @@
 
 	var STATIC_MAP_STYLE = exports.STATIC_MAP_STYLE = buildStaticStyle(MAP_STYLE);
 
-/***/ },
+/***/ }),
 /* 4 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -948,9 +937,9 @@
 	  });
 	}
 
-/***/ },
+/***/ }),
 /* 5 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -1067,20 +1056,20 @@
 	  return deferred;
 	}
 
-/***/ },
+/***/ }),
 /* 6 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	var popular_photos = exports.popular_photos = [{ "date": "1910", "loc": "42nd & 5th ave", "height": 249, "id": "708760f-a", "desc": "Street scene" }, { "date": "1936", "loc": "42nd & 5th ave", "height": 145, "id": "1508783-a", "desc": "Directing traffic and trolley" }, { "date": "1912", "loc": "42nd & 5th ave", "height": 157, "id": "708795f-a", "desc": "Ground level view of street" }, { "date": "1913", "loc": "42nd & 5th ave", "height": 159, "id": "712987f-a", "desc": "Street scene" }, { "date": "1928", "loc": "42nd & 6th Avenue", "height": 246, "id": "713050f-a", "desc": "Street scene" }, { "date": "1933", "loc": "42nd & 6th Avenue", "height": 130, "id": "713043f", "desc": "Under the elevated" }, { "date": "1939", "loc": "42nd & 6th Avenue", "height": 159, "id": "709480f-a", "desc": "Elevated train demolition" }, { "date": "1930s", "loc": "42nd & 6th Avenue", "height": 198, "id": "1558013", "desc": "Street scene" }, { "date": "1936", "loc": "Central Park", "height": 160, "id": "730166f-a", "desc": "Aerial view" }, { "date": "1933", "loc": "Central Park", "height": 133, "id": "718268f-b", "desc": "Roller skating" }, { "date": "1938", "loc": "Central Park", "height": 229, "id": "718346f-a", "desc": "Feeding birds" }, { "date": "", "loc": "Central Park", "height": 298, "id": "718282f-a", "desc": "On the lake" }, { "date": "", "loc": "Central Park", "height": 160, "id": "718194f-a", "desc": "Riding under an arch" }, { "date": "1905", "loc": "Central Park", "height": 154, "id": "718242f-b", "desc": "Ice skaters" }, { "date": "", "loc": "Central Park", "height": 143, "id": "718333f-a", "desc": "Playing croquet" }, { "date": "", "loc": "Central Park", "height": 132, "id": "718280f-a", "desc": "Quiet corner" }, { "date": "1892", "loc": "Central Park", "height": 158, "id": "718272f-a", "desc": "Strolling" }, { "date": "1933", "loc": "Central Park", "height": 133, "id": "718179f-b", "desc": "Aerial View" }, { "date": "1913", "loc": "Central Park", "height": 130, "id": "718284f", "desc": "Schoolboys drilling" }, { "date": "1926", "loc": "Prospect Park", "height": 172, "id": "706346f-a", "desc": "Prospect Park Plaza" }, { "date": "1880", "loc": "Prospect Park", "height": 116, "id": "706348f-b", "desc": "Lake view" }, { "date": "1864", "loc": "Central Park", "height": 168, "id": "718385f-a", "desc": "Rustic arbor" }, { "date": "1892", "loc": "Central Park", "height": 164, "id": "718262f-a", "desc": "Fountain" }, { "date": "1933", "loc": "Roosevelt Island", "height": 158, "id": "732193f-a", "desc": "Welfare (Roosevelt) Island" }, { "date": "1934", "loc": "Brooklyn Bridge", "height": 134, "id": "730718f-c", "desc": "Aerial View" }, { "date": "1932", "loc": "86th & 3rd", "height": 130, "id": "714705f-a", "desc": "Storefronts" }, { "date": "1926", "loc": "Colonial & Nassau", "height": 154, "id": "726358f-c", "desc": "Family on porch" }, { "date": "1939", "loc": "Duane & West", "height": 136, "id": "719363f-a", "desc": "Horse-drawn cart" }, { "date": "1929", "loc": "Weehawken & Christopher", "height": 134, "id": "724321f-b", "desc": "Coca-Cola ad" }, { "date": "", "loc": "George Washington Bridge", "height": 156, "id": "1558509", "desc": "" }, { "date": "1906", "loc": "Bayard & Chrystie", "height": 159, "id": "716608f-a", "desc": "Street scene" }, { "date": "1931", "loc": "5th & 46th", "height": 159, "id": "708851f-a", "desc": "Street scene" }, { "date": "1933", "loc": "Columbus Circle", "height": 155, "id": "719145f-a", "desc": "Tribute to Columbus" }, { "date": "1910", "loc": "Pelham Parkway", "height": 146, "id": "701498f-b", "desc": "At the racetrack" }, { "date": "1936", "loc": "9th & 40th", "height": 129, "id": "732438f-b", "desc": "Food vendors" }, { "date": "1911", "loc": "Poppy Joe Island Beach", "height": 160, "id": "730622f-a", "desc": "Local muskrat hunters" }, { "date": "1890", "loc": "Wallabout Bay", "height": 102, "id": "734085f-a", "desc": "Ship in port" }, { "date": "1933", "loc": "Greenwich Village", "height": 299, "id": "730568f-a", "desc": "Art Exhibit" }, { "date": "1936", "loc": "Battery Park", "height": 134, "id": "716520f-c", "desc": "Aerial view" }, { "date": "1921", "loc": "New Chambers & Madison", "height": 141, "id": "721912f-b", "desc": "Cobblestone" }, { "date": "1918", "loc": "5th & 25th", "height": 242, "id": "731285f-a", "desc": "Victory Arch" }, { "date": "1925", "loc": "Minetta & MacDougal", "height": 168, "id": "721650f-a", "desc": "Alley" }, { "date": "1932", "loc": "Canal & Chrystie", "height": 169, "id": "718806f-a", "desc": "Construction of Sarah Delano Roosevelt Park" }, { "date": "1933", "loc": "Hudson Street", "height": 299, "id": "733360f-c", "desc": "Thanksgiving ragamuffins" }, { "date": "1917", "loc": "Queensborough Bridge", "height": 157, "id": "730942f-a", "desc": "Construction" }, { "date": "1903", "loc": "Williamsburg Bridge", "height": 129, "id": "731081f", "desc": "Under construction" }, { "date": "1890", "loc": "Mott & Park", "height": 177, "id": "721756f-a", "desc": "Street scene" }, { "date": "1900", "loc": "Broad St & Wall St", "height": 159, "id": "716841f-a", "desc": "Street scene" }, { "date": "1873", "loc": "Brooklyn Bridge", "height": 153, "id": "730663f-a", "desc": "Under construction; view of Manhattan" }, { "date": "1879", "loc": "Brooklyn Bridge", "height": 254, "id": "730665f-a", "desc": "Under construction; view of Manhattan" }, { "date": "1939", "loc": "Coney Island", "height": 129, "id": "731939f", "desc": "Beach scene" }, { "date": "1922", "loc": "Queens", "height": 152, "id": "725900f-a", "desc": "Country house (now JFK airport)" }, { "date": "1901", "loc": "Broadway & 34th", "height": 156, "id": "717404f-a", "desc": "Street scene with muddy road" }, { "date": "1921", "loc": "Broadway & 34th", "height": 158, "id": "1558433", "desc": "View of street scene from elevated tracks" }];
+	var popular_photos = exports.popular_photos = [{ 'id': '80611', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it1504.jpg', 'height': 133.33333333333334, 'date': '1925', 'title': 'Baby Point Road east to Jane Street', 'subtitle': '' }, { 'id': '79014', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it0020.jpg', 'height': 147.04761904761904, 'date': '1910', 'title': 'Weston Road Bridge at Junction Road looking north', 'subtitle': '' }, { 'id': '79526', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it0494.jpg', 'height': 133.33333333333334, 'date': '1915', 'title': 'Carlton Street east from Yonge Street, track reconstruction', 'subtitle': '' }, { 'id': '97163', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1960.jpg', 'height': 133.33333333333334, 'date': '1949', 'title': 'Queens Park Crescent south from Hoskin Avenue', 'subtitle': '' }, { 'id': '81281', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it2165.jpg', 'height': 136.38095238095238, 'date': '1927', 'title': 'King Street west over Simcoe Street', 'subtitle': '' }, { 'id': '522196', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0284_it0012.jpg', 'height': 170.0952380952381, 'date': '1965', 'title': 'Queen Street West, south side, between York and Bay streets', 'subtitle': '' }, { 'id': '105324', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0100/s0372_ss0100_it0369.jpg', 'height': 151.23809523809524, 'date': '1959', 'title': 'Neepawa Avenue looking east from Roncesvalles Avenue', 'subtitle': '' }, { 'id': '436342', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0217/ser0249/f0217_s0249_fl0012_it0003.jpg', 'height': 166.47619047619048, 'date': '1961', 'title': 'Bayview Avenue and Lawrence Avenue East', 'subtitle': '' }, { 'id': '81325', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it2211.jpg', 'height': 147.8095238095238, 'date': '1915', 'title': 'Gerrard Street west from Main Street', 'subtitle': '' }, { 'id': '429304', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0124/f0124_fl0002_id0124.jpg', 'height': 137.71428571428572, 'date': '1971', 'title': 'Queen Street West, west of John Street', 'subtitle': '' }, { 'id': '97059', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1918.jpg', 'height': 143.45351043643265, 'date': '1949', 'title': 'Dufferin Street looking north from Lappin Avenue', 'subtitle': '' }, { 'id': '426348', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser381/s0381_fl0137_id8401-2.jpg', 'height': 161.61825726141078, 'date': '1951', 'title': 'Yonge Street, Front to Chaplin Crescent', 'subtitle': '' }, { 'id': '51985', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1244/f1244_it0595.jpg', 'height': 248.5549132947977, 'date': '1912', 'title': 'Bay Street, looking north from King Street West', 'subtitle': '' }, { 'id': '87535', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1244/f1244_it7030.jpg', 'height': 164.57142857142858, 'date': '1926', 'title': 'Glengrove Avenue West at Yonge Street', 'subtitle': '' }, { 'id': '87797', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1244/f1244_it7299.jpg', 'height': 152.76190476190476, 'date': '1908', 'title': 'Bathurst Street, looking south from Davenport Road', 'subtitle': '' }, { 'id': '80311', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it1217.jpg', 'height': 148.1904761904762, 'date': '1912', 'title': 'Dufferin Street north from Davenport Road', 'subtitle': '' }, { 'id': '522203', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0284_it0019.jpg', 'height': 255.71428571428572, 'date': '1965', 'title': 'Queen Street West, south side, between York and Bay streets', 'subtitle': '' }, { 'id': '429802', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0124/f0124_fl0008_id0095.jpg', 'height': 301.9830028328612, 'date': '1979', 'title': 'Yonge Street and Bloor Street West intersection, looking east', 'subtitle': '' }, { 'id': '80740', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it1628.jpg', 'height': 143.61904761904762, 'date': '1923', 'title': 'Sterling Road north from Dundas Street West', 'subtitle': '' }, { 'id': '434216', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0031_id0002.jpg', 'height': 133.33333333333334, 'date': '1960', 'title': 'Lawrence Avenue West at Bathurst Street', 'subtitle': '' }, { 'id': '96791', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1795.jpg', 'height': 146.11005692599622, 'date': '1948', 'title': 'Spruce Street west from Sackville Street - widening', 'subtitle': '' }, { 'id': '96650', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1695.jpg', 'height': 145.54079696394686, 'date': '1946', 'title': 'Lansdowne Avenue south from Seaforth Avenue', 'subtitle': '' }, { 'id': '522190', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0284_it0006.jpg', 'height': 164.76190476190476, 'date': '1965', 'title': 'Queen Street West, south side, between York and Bay streets', 'subtitle': '' }, { 'id': '81116', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it2000.jpg', 'height': 147.8095238095238, 'date': '1915', 'title': 'Bathurst Street - Davenport Road intersection looking southeast', 'subtitle': '' }, { 'id': '429263', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0124/f0124_fl0002_id0083.jpg', 'height': 133.33333333333334, 'date': '1970', 'title': 'King Street East, south side, east of Church Street', 'subtitle': '' }, { 'id': '244310', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0010/s0372_ss0010_it0169.jpg', 'height': 147.42857142857142, 'date': '1913', 'title': 'Danforth Avenue and  Don Mills Road - store', 'subtitle': '' }, { 'id': '229806', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1548/ser393/f1548_s0393_it15905.jpg', 'height': 145.33333333333334, 'date': '1919', 'title': 'Bloor Street - Old front ponds near Clendenan Avenue', 'subtitle': '' }, { 'id': '97078', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1937.jpg', 'height': 146.29981024667933, 'date': '1949', 'title': 'Huntley Street east side from Elm to South Drive', 'subtitle': '' }, { 'id': '210192', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1257/ser1057/f1257_s1057_it0006.jpg', 'height': 161.14285714285714, 'date': '1957', 'title': 'Bloor Street West near Royal York Road', 'subtitle': '' }, { 'id': '429288', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0124/f0124_fl0002_id0108.jpg', 'height': 137.52380952380952, 'date': '1971', 'title': 'Yonge Street, looking south toward Bloor Street', 'subtitle': '' }, { 'id': '251517', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0070/s0372_ss0070_it0371.jpg', 'height': 146.47619047619048, 'date': '1933', 'title': 'Symes road Incinerator - garage at Munro Street', 'subtitle': '' }, { 'id': '97226', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it2031.jpg', 'height': 147.438330170778, 'date': '1949', 'title': 'Spadina Avenue looking north from Glen Morris Street', 'subtitle': '' }, { 'id': '426264', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser381/s0381_fl0123_id8231-5.jpg', 'height': 163.8830897703549, 'date': '1951', 'title': 'Bloor Street east of Yonge Street, showing platform set up', 'subtitle': '' }, { 'id': '522195', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0284_it0011.jpg', 'height': 248.32369942196533, 'date': '1965', 'title': 'Queen Street West, south side, between York and Bay streets', 'subtitle': '' }, { 'id': '97038', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1897.jpg', 'height': 143.45351043643265, 'date': '1949', 'title': 'Christie Street, north from south side of Barton Avenue', 'subtitle': '' }, { 'id': '429785', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0124/f0124_fl0008_id0078.jpg', 'height': 137.9047619047619, 'date': '1975', 'title': 'Queen Street West and Bay Street', 'subtitle': '' }, { 'id': '210194', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1257/ser1057/f1257_s1057_it0008.jpg', 'height': 163.23809523809524, 'date': '1957', 'title': 'Bloor Street West near Royal York Road', 'subtitle': '' }, { 'id': '429466', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0124/f0124_fl0003_id0128.jpg', 'height': 137.52380952380952, 'date': '1987', 'title': 'Yonge Street at Shuter Street, looking north', 'subtitle': '' }, { 'id': '210812', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1257/ser1057/f1257_s1057_it0012.jpg', 'height': 254.71923536439667, 'date': '1880', 'title': 'Front Street East and Yonge Street.', 'subtitle': '' }, { 'id': '426261', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser381/s0381_fl0123_id8231-2.jpg', 'height': 161.78608515057113, 'date': '1951', 'title': 'Bloor Street east of Yonge Street, showing platform set up', 'subtitle': '' }, { 'id': '447837', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1567/ser648/s0648_fl0231_id0001.jpg', 'height': 165.71428571428572, 'date': '1968', 'title': 'Lawson Road looking southwest to Kingston Road', 'subtitle': '' }, { 'id': '80367', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it1273.jpg', 'height': 145.14285714285714, 'date': '1912', 'title': 'Keele Street and Indian Road', 'subtitle': '' }, { 'id': '81272', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it2156.jpg', 'height': 135.23809523809524, 'date': '1916', 'title': 'Davenport Road west at Dufferin Street', 'subtitle': '' }, { 'id': '79540', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it0507.jpg', 'height': 145.52380952380952, 'date': '1914', 'title': 'Dufferin Street south at Springhurst Avenue (view of C.N.E. Dufferin St. Gate)', 'subtitle': '' }, { 'id': '522187', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0284_it0003.jpg', 'height': 162.85714285714286, 'date': '1965', 'title': 'Queen Street West, south side, between York and Bay streets', 'subtitle': '' }, { 'id': '522252', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo0220/ser0065/s0065_fl0471_it0047.jpg', 'height': 164.1904761904762, 'date': '1970', 'title': 'Islington Avenue between Bergamot Avenue and Albion Road', 'subtitle': '' }, { 'id': '80486', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1231/f1231_it1389.jpg', 'height': 146.66666666666666, 'date': '1923', 'title': 'Lansdowne Avenue - Dupont Street level crossing looking south', 'subtitle': '' }, { 'id': '96586', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0058/s0372_ss0058_it1657.jpg', 'height': 146.86907020872866, 'date': '1944', 'title': 'Harbord Street - re widening - south side from St. George Street', 'subtitle': '' }, { 'id': '144660', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/ser372/ss0079/s0372_ss0079_it0668.jpg', 'height': 145.9047619047619, 'date': '1932', 'title': 'New Street and Church Street Crossing', 'subtitle': '' }, { 'id': '218756', 'image_url': 'https://gencat4.eloquent-systems.com:443/webcat/systems/toronto.arch/resource/fo1257/ser1057/f1257_s1057_it7941.jpg', 'height': 157.71428571428572, 'date': '1958', 'title': 'Bloor Street West, south side, at Gardenvale Road, looking southeast', 'subtitle': '' }];
 
-/***/ },
+/***/ }),
 /* 7 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -1214,9 +1203,9 @@
 	  });
 	}
 
-/***/ },
+/***/ }),
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
 	//     http://underscorejs.org
@@ -2768,9 +2757,9 @@
 	}.call(this));
 
 
-/***/ },
+/***/ }),
 /* 9 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -2888,9 +2877,9 @@
 	  });
 	});
 
-/***/ },
+/***/ }),
 /* 10 */
-/***/ function(module, exports) {
+/***/ (function(module, exports) {
 
 	'use strict';
 
@@ -3075,15 +3064,15 @@
 	  if (numBack == 0) {
 	    return 0; // current state fulfilled predicate
 	  } else {
-	      // no state fulfilled predicate. Clear the stack to just one state and
-	      // replace it with alternativeState.
-	      var stackLen = numBack;
-	      if (stackLen != 1) {
-	        lastState.expectingBack = true;
-	        history.go(-(stackLen - 1));
-	      }
-	      this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
+	    // no state fulfilled predicate. Clear the stack to just one state and
+	    // replace it with alternativeState.
+	    var stackLen = numBack;
+	    if (stackLen != 1) {
+	      lastState.expectingBack = true;
+	      history.go(-(stackLen - 1));
 	    }
+	    this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
+	  }
 	};
 
 	// Debugging method -- prints the history stack.
@@ -3099,9 +3088,9 @@
 
 	exports.default = History;
 
-/***/ },
+/***/ }),
 /* 11 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 
@@ -3146,9 +3135,9 @@
 
 	  $('#current-location').on('click', function () {
 	    navigator.geolocation.getCurrentPosition(function (position) {
-	      var _position$coords = position.coords;
-	      var latitude = _position$coords.latitude;
-	      var longitude = _position$coords.longitude;
+	      var _position$coords = position.coords,
+	          latitude = _position$coords.latitude,
+	          longitude = _position$coords.longitude;
 
 	      setLocation({ lat: latitude, lng: longitude }, 'Current Location');
 	      ga('send', 'event', 'link', 'current-location');
@@ -3159,5 +3148,5 @@
 	  });
 	});
 
-/***/ }
+/***/ })
 /******/ ]);

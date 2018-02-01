@@ -118,7 +118,7 @@ function handleClick(e) {
 }
 
 export function initialize_map() {
-  var latlng = new google.maps.LatLng(40.74421, -73.97370);
+  var latlng = new google.maps.LatLng(43.6486135, -79.3738487);
   var opts = {
     zoom: 15,
     maxZoom: 18,
@@ -390,10 +390,10 @@ export function fillPopularImagesPanel() {
     $panel.find('a').attr('href', '#' + row.id);
     $panel.find('img')
         .attr('border', '0')  // For IE8
-        .attr('data-src', expandedImageUrl(row.id))
+        .attr('data-src', row.image_url)
         .attr('height', row.height);
-    $panel.find('.desc').text(row.desc);
-    $panel.find('.loc').text(row.loc);
+    $panel.find('.desc').text(row.title);
+    $panel.find('.loc').text(row.subtitle);
     if (row.date) $panel.find('.date').text(' (' + row.date + ')');
     return $panel.get(0);
   };

@@ -53,6 +53,10 @@ export function descriptionForPhotoId(photo_id) {
 }
 
 export function libraryUrlForPhotoId(photo_id) {
+  const info = infoForPhotoId(photo_id);
+  if (info['url']) {
+    return info['url'];
+  }
   return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
 }
 
