@@ -24,7 +24,7 @@ function expandedImageUrl(photo_id) {
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon) {
-  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
+  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
 function isFullTimeRange(yearRange) {

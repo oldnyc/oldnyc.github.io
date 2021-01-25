@@ -58,7 +58,7 @@ h2 a {
   text-shadow: 0 1px 1px rgba(255,255,255,.9);
 }
 #facebook {
-  width: 121px;
+  width: 145px;
 }
 #twitter {
   width: 100px;
@@ -79,6 +79,7 @@ h2 a {
   left: 10px;
   top: 10px;
   background-color: #fff;
+  width: 285px;
 }
 .logo .wrapper {
   font-size: 1.2em;
@@ -193,8 +194,7 @@ div.exit:hover {
 #search {
   position: fixed;
   left: 10px;
-  bottom: 10px;
-
+  bottom: 30px;
   background: white;
   overflow: auto;
   padding: 5px;
@@ -530,7 +530,7 @@ a#slideshow-all, a#slideshow-all:visited {
 #time-range-summary {
   position: fixed;
   top: 74px;
-  left: 50px;
+  left: 60px;
   width: 235px;
   height: 54px;
   background: white;
@@ -543,7 +543,7 @@ a#slideshow-all, a#slideshow-all:visited {
 #time-range {
   position: fixed;
   top: 116px;
-  left: 50px;
+  left: 60px;
   width: 205px;
   height: 10px;
   background: white;
