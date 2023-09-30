@@ -80,3 +80,14 @@ function extractName(lat_lon_json) {
     if (v.original_title) return v.original_title;
   }
 }
+
+export function findLatLonForPhoto(photo_id, cb) {
+  var id4 = photo_id.slice(0, 4);
+  $.ajax({
+    dataType: "json",
+    url: '/id4-to-location/' + id4 + '.json',
+    success: function (id_to_latlon) {
+      cb(id_to_latlon[photo_id]);
+    }
+  });
+}

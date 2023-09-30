@@ -5,7 +5,7 @@
 // /#photo_id,g:lat,lon
 
 import {countPhotos, getPopularPhotoIds, hideAbout, lat_lon_to_marker, parseLatLon, createMarker, selectMarker, map, hideExpanded, showExpanded} from './viewer';
-import {loadInfoForLatLon} from './photo-info';
+import {loadInfoForLatLon, findLatLonForPhoto} from './photo-info';
 
 // Returns {photo_id:string, g:string}
 export function getCurrentStateObject() {
@@ -103,18 +103,6 @@ export function transitionToStateObject(targetState) {
     } else {
       // Show a different photo
       $('#grid-container').expandableGrid('select', state.photo_id);
-    }
-  });
-}
-
-
-export function findLatLonForPhoto(photo_id, cb) {
-  var id4 = photo_id.slice(0, 4);
-  $.ajax({
-    dataType: "json",
-    url: '/id4-to-location/' + id4 + '.json',
-    success: function(id_to_latlon) {
-      cb(id_to_latlon[photo_id])
     }
   });
 }

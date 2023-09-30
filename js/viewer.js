@@ -3,7 +3,7 @@ import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
 import {getCanonicalUrlForPhoto} from './social';
 import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback';
 import {popular_photos} from './popular-photos';
-import {findLatLonForPhoto} from './url-state';
+import { findLatLonForPhoto } from './photo-info';
 
 import * as _ from 'underscore';
 
