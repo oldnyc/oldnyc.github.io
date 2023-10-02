@@ -47,13 +47,13 @@ function isPhotoInDateRange(info, yearRange) {
 export function countPhotos(yearToCounts) {
   if (isFullTimeRange(year_range)) {
     // This includes undated photos.
-    return Object.values(yearToCounts).reduce((a, b) => a + b);
+    return Object.values(yearToCounts || {}).reduce((a, b) => a + b, 0);
   } else {
     const [first, last] = year_range;
-    return Object.entries(yearToCounts)
+    return Object.entries(yearToCounts || {})
         .filter(([y]) => (y > first && y <= last))
         .map(([, c]) => c)
-        .reduce((a, b) => a + b);
+        .reduce((a, b) => a + b, 0);
   }
 }
 
