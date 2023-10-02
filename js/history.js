@@ -1,3 +1,5 @@
+// @ts-check
+
 // History management service.
 // Consider using this instead: https://github.com/browserstate/history.js
 var History = function(hashToStateAdapter) {

@@ -1,3 +1,4 @@
+// @ts-check
 /**
  * Common code for recording user feedback.
  * This is shared between the OldNYC site and the OCR feedback tool.

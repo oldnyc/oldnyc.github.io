@@ -16,3 +16,6 @@ Non-TypeScript modernization:
 - [ ] Switch from `$.Deferred` to native promises
 - [ ] Port to React / ReactRouter
 - [ ] Replace ZeroClipboard with a native solution
+- [ ] Replace `scrollGuard` with `overscroll-behavior: none;`
+- [ ] Replace direct Firebase access with a lambda function
+- [ ] Run prettier

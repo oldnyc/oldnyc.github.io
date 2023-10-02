@@ -1,3 +1,4 @@
+// @ts-check
 /**
  * This module supports address search and the current location button.
  */

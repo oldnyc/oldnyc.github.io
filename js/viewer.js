@@ -12,6 +12,8 @@ var selected_marker_icons = [];
 var selected_marker, selected_icon;
 var year_range = [1800, 2000];
 
+/** @type google.maps.Map | undefined */
+export let map;
 export var mapPromise = $.Deferred();
 
 // TODO: inline image source into popular-photos.js and get rid of this.

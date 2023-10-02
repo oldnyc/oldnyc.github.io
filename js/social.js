@@ -1,3 +1,4 @@
+// @ts-check
 export function getCanonicalUrlForPhoto(photo_id) {
   return 'http://www.oldnyc.org/#' + photo_id;
 }

@@ -1,3 +1,5 @@
+// @ts-check
+
 // Styles for Google Maps. These de-emphasize features on the map.
 export var MAP_STYLE = [
     // to remove buildings

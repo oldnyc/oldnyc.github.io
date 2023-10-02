@@ -1,3 +1,5 @@
+// @ts-check
+
 import History from './history';
 import {hashToStateObject, stateObjectToHash, transitionToStateObject} from './url-state';
 import {mapPromise} from './viewer';
