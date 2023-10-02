@@ -1,3 +1,4 @@
+// @ts-check
 // This file manages all the photo information.
 // Some of this comes in via lat-lons.js.
 // Some is requested via XHR.

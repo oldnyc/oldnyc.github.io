@@ -1,11 +1,9 @@
-import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon} from './photo-info';
+// @ts-check
+import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto} from './photo-info';
 import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
 import {getCanonicalUrlForPhoto} from './social';
 import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback';
 import {popular_photos} from './popular-photos';
-import { findLatLonForPhoto } from './photo-info';
-
-import * as _ from 'underscore';
 
 var markers = [];
 var marker_icons = [];
@@ -14,7 +12,6 @@ var selected_marker_icons = [];
 var selected_marker, selected_icon;
 var year_range = [1800, 2000];
 
-export var map;
 export var mapPromise = $.Deferred();
 
 // TODO: inline image source into popular-photos.js and get rid of this.
@@ -44,22 +41,24 @@ function isPhotoInDateRange(info, yearRange) {
   return false;
 }
 
+/** @param {{[year: string]: number}} yearToCounts */
 export function countPhotos(yearToCounts) {
   if (isFullTimeRange(year_range)) {
     // This includes undated photos.
-    return _.reduce(yearToCounts, (a, b) => a + b);
+    return Object.values(yearToCounts).reduce((a, b) => a + b);
   } else {
     const [first, last] = year_range;
-    return _.reduce(
-        _.filter(yearToCounts, (c, y) => (y > first && y <= last)),
-        (a, b) => a + b);
+    return Object.entries(yearToCounts)
+        .filter(([y]) => (y > first && y <= last))
+        .map(([, c]) => c)
+        .reduce((a, b) => a + b);
   }
 }
 
 // Make the given marker the currently selected marker.
 // This is purely UI code, it doesn't touch anything other than the marker.
 export function selectMarker(marker, yearToCounts) {
-  const numPhotos = countPhotos(yearToCounts, year_range);
+  const numPhotos = countPhotos(yearToCounts);
   var zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex();
@@ -76,15 +75,15 @@ export function selectMarker(marker, yearToCounts) {
 
 export function updateYears(firstYear, lastYear) {
   year_range = [firstYear, lastYear];
-  _.forEach(lat_lon_to_marker, (marker, lat_lon) => {
-    const count = countPhotos(lat_lons[lat_lon], year_range);
+  for (const [lat_lon, marker] of Object.entries(lat_lon_to_marker)) {
+    const count = countPhotos(lat_lons[lat_lon]);
     if (count) {
       marker.setIcon(marker_icons[Math.min(count, 100)]);
       marker.setVisible(true);
     } else {
       marker.setVisible(false);
     }
-  });
+  }
   addNewlyVisibleMarkers();
   $('#time-range-labels').text(`${firstYear}–${lastYear}`);
 }
@@ -202,7 +201,7 @@ export function parseLatLon(lat_lon) {
 }
 
 export function createMarker(lat_lon, latLng) {
-  const count = countPhotos(lat_lons[lat_lon], year_range);
+  const count = countPhotos(lat_lons[lat_lon]);
   if (!count) {
     return;
   }
@@ -327,13 +326,15 @@ function fillPhotoPane(photo_id, $pane) {
 
   // Some browser plugins block twitter
   if (typeof(twttr) != 'undefined') {
-    twttr.widgets.createShareButton(
+    twttr.ready(({widgets}) => {
+      widgets.createShareButton(
         document.location.href,
         $pane.find('.tweet').get(0), {
           count: 'none',
           text: (info.original_title || info.title) + ' - ' + info.date,
           via: 'Old_NYC @NYPL'
         });
+    });
   }
 
   if (typeof(FB) != 'undefined') {

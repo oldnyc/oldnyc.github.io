@@ -1,3 +1,4 @@
+// @ts-check
 // The URL looks like one of these:
 // /
 // /#photo_id
