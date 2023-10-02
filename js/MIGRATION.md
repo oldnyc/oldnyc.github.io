@@ -4,10 +4,10 @@ Steps / to-do:
 
 - [x] Sever circular dependency
 - [x] Remove underscore dependency
-- [ ] Try `@ts-check`
+- [x] Try `@ts-check`
+- [x] Plugin in `@types/jquery`, etc.
+- [x] Port History to use an ES6 class
 - [ ] Add ts-loader to webpack setup
-- [ ] Plugin in `@types/jquery`, etc.
-- [ ] Port History to use an ES6 class
 
 Non-TypeScript modernization:
 
@@ -19,3 +19,4 @@ Non-TypeScript modernization:
 - [ ] Replace `scrollGuard` with `overscroll-behavior: none;`
 - [ ] Replace direct Firebase access with a lambda function
 - [ ] Run prettier
+- [ ] Remove my maps API key from the repo

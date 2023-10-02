@@ -8,11 +8,9 @@ To use the site, just start an http server in this directory. For example:
 
     git clone https://github.com/oldnyc/oldnyc.github.io.git
     cd oldnyc.github.io
-    npm install http-server
-    http-server
+    npx http-server
 
 Then open http://localhost:8080/.
-
 
 ## Development
 
