@@ -28,7 +28,7 @@ Topological sort:
 
 - [x] photo-info.js
 - [x] social.js
-- [ ] map-styles.js
+- [x] map-styles.js
 - [ ] feedback.js
 - [ ] ocr-tool.js
 - [ ] history.js
