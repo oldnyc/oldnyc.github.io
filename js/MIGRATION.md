@@ -32,7 +32,7 @@ Topological sort:
 - [x] map-styles.js
 - [x] feedback.js
 - [x] ocr-tool.js
-- [ ] history.js
+- [x] history.js
 - [ ] viewer.js
 - [ ] search.js
 - [ ] url-state.js

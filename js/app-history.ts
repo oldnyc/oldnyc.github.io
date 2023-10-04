@@ -1,23 +1,26 @@
-// @ts-check
-
 import History from './history';
 import {hashToStateObject, stateObjectToHash, transitionToStateObject} from './url-state';
 import {mapPromise} from './viewer';
 
+export interface AppState {
+  photo_id?: string;
+  g?: string;
+}
+
 // This should go in the $(function()) block below.
 // It's exposed to facilitate debugging.
-var h = new History(function(hash, cb) {
+const h = new History(function(hash, cb) {
   hashToStateObject(hash.substr(1), cb);
 });
 
 // Ping Google Analytics with the current URL (e.g. after history.pushState).
 // See http://stackoverflow.com/a/4813223/388951
 function trackAnalyticsPageView() {
-  var url = location.pathname + location.search  + location.hash;
+  const url = location.pathname + location.search  + location.hash;
   ga('send', 'pageview', { 'page': url });
 }
 
-var LOG_HISTORY_EVENTS = false;
+let LOG_HISTORY_EVENTS = false;
 // var LOG_HISTORY_EVENTS = true;
 
 $(function() {
@@ -32,7 +35,7 @@ $(function() {
   // {photo_id:string, g:string}
 
   // Returns URL fragments like '/#g:123'.
-  var fragment = function(state) {
+  const fragment = function(state) {
     return '/#' + stateObjectToHash(state);
   };
 
@@ -62,7 +65,7 @@ $(function() {
       h.pushState(state, title(state), fragment(state));
     }).on('showPhotoPreview', function(e, photo_id) {
       var g = $('#expanded').data('grid-key');
-      var state = {photo_id:photo_id};
+      var state: AppState = {photo_id:photo_id};
       if (g == 'pop') state.g = 'pop';
       h.replaceState(state, title(state), fragment(state));
       trackAnalyticsPageView();

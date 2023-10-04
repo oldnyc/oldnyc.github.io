@@ -12,9 +12,9 @@ interface InternalState {
 // Consider using this instead: https://github.com/browserstate/history.js
 class History<State extends object> {
   states: (State & InternalState)[];
-  hashToStateAdapter: (hash: string, callback: (newState: State) => void) => State;
+  hashToStateAdapter: (hash: string, callback: (newState: State) => void) => void;
 
-  constructor(hashToStateAdapter: (hash: string) => State) {
+  constructor(hashToStateAdapter: (hash: string, callback: (newState: State) => void) => void) {
     this.states = [];
     this.hashToStateAdapter = hashToStateAdapter;
   }
