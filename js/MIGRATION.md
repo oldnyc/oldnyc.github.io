@@ -18,13 +18,14 @@ Non-TypeScript modernization:
 - [ ] Switch from `$.Deferred` to native promises
 - [ ] Port to React / ReactRouter
 - [ ] Replace ZeroClipboard with a native solution
-- [ ] Replace `scrollGuard` with `overscroll-behavior: none;`
+- [x] Replace `scrollGuard` with `overscroll-behavior: none;`
 - [ ] Replace direct Firebase access with a lambda function
 - [ ] Run prettier
 - [ ] Remove my maps API key from the repo
 - [ ] Set up webpack dev server
 - [ ] The "view original" links to the NYPL site are broken
 - [ ] Replace calls to String.prototype.substr
+- [ ] Make the static maps work again
 
 Topological sort:
 
@@ -37,5 +38,5 @@ Topological sort:
 - [x] viewer.js
 - [x] search.js
 - [x] url-state.js
-- [ ] app-history.js
-- [ ] entry.js
+- [x] app-history.js
+- [x] entry.js
