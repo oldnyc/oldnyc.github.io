@@ -23,6 +23,7 @@ Non-TypeScript modernization:
 - [ ] Run prettier
 - [ ] Remove my maps API key from the repo
 - [ ] Set up webpack dev server
+- [ ] The "view original" links to the NYPL site are broken
 
 Topological sort:
 
@@ -30,7 +31,7 @@ Topological sort:
 - [x] social.js
 - [x] map-styles.js
 - [x] feedback.js
-- [ ] ocr-tool.js
+- [x] ocr-tool.js
 - [ ] history.js
 - [ ] viewer.js
 - [ ] search.js

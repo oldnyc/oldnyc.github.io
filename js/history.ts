@@ -1,31 +1,43 @@
-// @ts-check
+interface InitialState {
+  initial: true
+}
+interface InternalState {
+  id?: string;
+  previousStateId?: string;
+  length?: number;
+  expectingBack?: boolean;
+}
 
 // History management service.
 // Consider using this instead: https://github.com/browserstate/history.js
-class History {
-  constructor(hashToStateAdapter) {
+class History<State extends object> {
+  states: (State & InternalState)[];
+  hashToStateAdapter: (hash: string, callback: (newState: State) => void) => State;
+
+  constructor(hashToStateAdapter: (hash: string) => State) {
     this.states = [];
     this.hashToStateAdapter = hashToStateAdapter;
   }
+
   initialize() {
     var that = this;
     $(window).on('popstate', function (e) {
-      that.handlePopState(e.originalEvent.state);
+      that.handlePopState((e.originalEvent as PopStateEvent).state);
     });
 
     // Create an artificial initial state
-    var state = { initial: true };
+    let state: InitialState | State = { initial: true };
     var didSetState = false;
 
-    var rest = function () {
+    const rest = () => {
       // Blow away the current state -- it's only going to cause trouble.
       history.replaceState({}, '', document.location.href);
-      this.replaceState(state, document.title, document.location.href);
+      this.replaceState(state as State, document.title, document.location.href);
 
       if (didSetState) {
         $(this).trigger('setStateInResponseToPageLoad', state);
       }
-    }.bind(this);
+    };
 
     if (this.hashToStateAdapter && document.location.hash) {
       didSetState = true;
@@ -38,7 +50,8 @@ class History {
       rest();
     }
   }
-  makeState(obj) {
+
+  makeState(obj: State): State & InternalState {
     var currentStateId = null;
     if (history.state && 'id' in history.state) {
       currentStateId = history.state.id;
@@ -49,14 +62,16 @@ class History {
       id: Date.now() + '' + Math.floor(Math.random() * 100000000)
     }, obj);
   }
-  simplifyState(obj) {
+
+  simplifyState(obj: State & InternalState): State {
     var state = $.extend({}, obj);
     delete state['id'];
     // delete state['length'];
     delete state['previousStateId'];
     return state;
   }
-  handlePopState(state) {
+
+  handlePopState(state: State | (State & InternalState)) {
     // note: we don't remove entries from this.state here, since the user could
     // still go forward to them.
     if (state && 'id' in state) {
@@ -80,15 +95,17 @@ class History {
       trigger();
     }
   }
+
   // Just like history.pushState.
-  pushState(stateObj, title, url) {
+  pushState(stateObj: State, title: string, url: string) {
     var state = this.makeState(stateObj);
     this.states.push(state);
     history.pushState(state, title, url);
     document.title = title;
   }
+
   // Just like history.replaceState.
-  replaceState(stateObj, title, url) {
+  replaceState(stateObj: State, title: string, url: string) {
     var curState = this.getCurrentState();
     var replaceIdx = null;
     var previousId = null;
@@ -114,20 +131,25 @@ class History {
     history.replaceState(state, title, url);
     document.title = title;
   }
-  getCurrentState() {
+
+  getCurrentState(): State & InternalState {
     return history.state;
   }
-  getStateIndexById(stateId) {
+
+  getStateIndexById(stateId: string): number | null {
     for (var i = 0; i < this.states.length; i++) {
       if (this.states[i].id == stateId) return i;
     }
     return null;
   }
+
   // Get the state object one prior to the given one.
-  getPreviousState(state) {
+  getPreviousState(state: State & InternalState): (State & InternalState) | null | undefined {
     if (!('previousStateId' in state)) return null;
     var id = state['previousStateId'];
-    if (id == null) return id;
+    if (id == null) {
+      return id as (null | undefined);
+    }
 
     var idx = this.getStateIndexById(id);
     if (idx !== null) {
@@ -135,6 +157,7 @@ class History {
     }
     throw "State out of whack!";
   }
+
   /**
    * Go back in history until the predicate is true.
    * If predicate is a string, go back until it's a key in the state object.
@@ -144,7 +167,7 @@ class History {
    * If no matching history state is found, the history stack will be cleared and
    * alternativeState will be pushed on.
    */
-  goBackUntil(predicate, alternativeState) {
+  goBackUntil(predicate: string | ((state: State) => boolean), alternativeState: State) {
     // Convenience for common case of checking if history state has a key.
     if (typeof (predicate) == "string") {
       return this.goBackUntil(
@@ -152,7 +175,7 @@ class History {
         alternativeState);
     }
 
-    var state = this.getCurrentState();
+    let state = this.getCurrentState();
     var numBack = 0;
 
     var lastState = null;
@@ -179,6 +202,7 @@ class History {
       this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
     }
   }
+
   // Debugging method -- prints the history stack.
   logStack() {
     var state = this.getCurrentState();
