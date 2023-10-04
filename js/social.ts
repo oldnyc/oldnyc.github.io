@@ -1,9 +1,11 @@
-// @ts-check
-export function getCanonicalUrlForPhoto(photo_id) {
+// TODO: this is only used in one place so inline it there.
+export function getCanonicalUrlForPhoto(photo_id: string) {
   return 'http://www.oldnyc.org/#' + photo_id;
 }
 
-export function getCommentCount(photo_ids) {
+// This seems to be dead code
+/*
+export function getCommentCount(photo_ids: readonly string[]) {
   // There is a batch API:
   // https://developers.facebook.com/docs/graph-api/making-multiple-requests/
   return $.get('https://graph.facebook.com/', {
@@ -20,3 +22,4 @@ export function getCommentCount(photo_ids) {
     return newObj;
   });
 }
+*/
