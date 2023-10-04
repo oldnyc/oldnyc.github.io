@@ -1,21 +1,21 @@
 import History from './history';
-import {hashToStateObject, stateObjectToHash, transitionToStateObject} from './url-state';
+import {hashToStateObject, stateObjectToHash, transitionToStateObject, UrlState} from './url-state';
 import {mapPromise} from './viewer';
 
 // This should go in the $(function()) block below.
 // It's exposed to facilitate debugging.
-var h = new History(function(hash, cb) {
+const h = new History(function(hash, cb) {
   hashToStateObject(hash.substr(1), cb);
 });
 
 // Ping Google Analytics with the current URL (e.g. after history.pushState).
 // See http://stackoverflow.com/a/4813223/388951
 function trackAnalyticsPageView() {
-  var url = location.pathname + location.search  + location.hash;
+  const url = location.pathname + location.search  + location.hash;
   ga('send', 'pageview', { 'page': url });
 }
 
-var LOG_HISTORY_EVENTS = false;
+let LOG_HISTORY_EVENTS = false;
 // var LOG_HISTORY_EVENTS = true;
 
 $(function() {
@@ -30,11 +30,16 @@ $(function() {
   // {photo_id:string, g:string}
 
   // Returns URL fragments like '/#g:123'.
-  var fragment = function(state) {
+  type InitialState = {initial: true};
+
+  const fragment = function(state: UrlState | InitialState) {
+    if ('initial' in state) {
+      return '/#';
+    }
     return '/#' + stateObjectToHash(state);
   };
 
-  var title = function(state) {
+  var title = function(state: UrlState | InitialState) {
     var old_nyc = 'Old NYC';
     if ('photo_id' in state) {
       return old_nyc + ' - Photo ' + state.photo_id;
@@ -47,20 +52,20 @@ $(function() {
   };
 
   $(window)
-    .on('showGrid', function(e, pos) {
+    .on('showGrid', function(e, pos: string) {
       var state = {g:pos};
       h.pushState(state, title(state), fragment(state));
       trackAnalyticsPageView();
     }).on('hideGrid', function() {
-      var state = {initial: true};
+      var state: InitialState = {initial: true};
       h.goBackUntil('initial', [state, title(state), fragment(state)]);
     }).on('openPreviewPanel', function() {
       // This is a transient state -- it should immediately be replaced.
-      var state = {photo_id: true};
+      var state = {photo_id: true} as any as UrlState;
       h.pushState(state, title(state), fragment(state));
-    }).on('showPhotoPreview', function(e, photo_id) {
+    }).on('showPhotoPreview', function(e, photo_id: string) {
       var g = $('#expanded').data('grid-key');
-      var state = {photo_id:photo_id};
+      var state: UrlState = {photo_id:photo_id};
       if (g == 'pop') state.g = 'pop';
       h.replaceState(state, title(state), fragment(state));
       trackAnalyticsPageView();
@@ -73,7 +78,7 @@ $(function() {
   // Update the UI in response to hitting the back/forward button,
   // a hash fragment on initial page load or the user editing the URL.
   $(h).on('setStateInResponseToUser setStateInResponseToPageLoad',
-  function(e, state) {
+  function(e, state: UrlState) {
     // It's important that these methods only configure the UI.
     // They must not trigger events, or they could cause a loop!
     transitionToStateObject(state);

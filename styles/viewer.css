@@ -1,6 +1,7 @@
 html, body {
   width: 100%;
   height: 100%;
+  overscroll-behavior: none;
 }
 
 body {
@@ -477,7 +478,7 @@ a#slideshow-all, a#slideshow-all:visited {
 .feedback .suggest-date button {
   display: inline-block;
 }
-.feedback a.back { style: italic; }
+.feedback a.back { font-style: italic; }
 
 
 #popular::-webkit-scrollbar, .og-details::-webkit-scrollbar-thumb {

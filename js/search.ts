@@ -4,9 +4,9 @@
 
 import { map } from './viewer';
 
-let locationMarker = null;
+let locationMarker: google.maps.Marker | null = null;
 
-function setLocation(latLng, title) {
+function setLocation(latLng: google.maps.LatLng | google.maps.LatLngLiteral, title: string) {
   map.panTo(latLng);
   map.setZoom(17);
 

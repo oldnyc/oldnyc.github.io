@@ -1,65 +1,71 @@
-import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon} from './photo-info';
+import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto, LightPhotoInfo, PhotoInfo} from './photo-info';
 import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
 import {getCanonicalUrlForPhoto} from './social';
-import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback';
+import {getFeedbackText, sendFeedback, deleteCookie, setCookie, FeedbackText, FeedbackType} from './feedback';
 import {popular_photos} from './popular-photos';
-import {findLatLonForPhoto} from './url-state';
 
-import * as _ from 'underscore';
+const markers: google.maps.Marker[] = [];
+const marker_icons: google.maps.Icon[] = [];
+export var lat_lon_to_marker: {[latLng: string]: google.maps.Marker} = {};
 
-var markers = [];
-var marker_icons = [];
-export var lat_lon_to_marker = {};
-var selected_marker_icons = [];
-var selected_marker, selected_icon;
-var year_range = [1800, 2000];
+let selected_marker_icons: google.maps.Icon[] = [];
+let selected_marker: google.maps.Marker | undefined;
+let selected_icon: google.maps.Icon | google.maps.Symbol | string | undefined;
+let year_range: [number, number] = [1800, 2000];
 
-export var map;
-export var mapPromise = $.Deferred();
+export let map: google.maps.Map | undefined;
+export let mapPromise = $.Deferred<google.maps.Map>();
+
+type PopularPhoto = (typeof popular_photos)[number];
+
+interface YearToCount {
+  [year: string]: number;
+}
 
 // TODO: inline image source into popular-photos.js and get rid of this.
-function expandedImageUrl(photo_id) {
+function expandedImageUrl(photo_id: string) {
   return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';
 }
 
 // lat_lon is a "lat,lon" string.
-function makeStaticMapsUrl(lat_lon) {
+function makeStaticMapsUrl(lat_lon: string) {
   return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
-function isFullTimeRange(yearRange) {
+function isFullTimeRange(yearRange: [number, number]) {
   return (yearRange[0] === 1800 && yearRange[1] === 2000);
 }
 
 // A photo is in the date range if any dates mentioned in it are in the range.
 // For example, "1927; 1933; 1940" is in the range [1920, 1930].
-function isPhotoInDateRange(info, yearRange) {
+function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
   if (isFullTimeRange(yearRange)) return true;
 
   const [first, last] = yearRange;
   for (let i = 0; i < info.years.length; i++) {
-    const year = info.years[i];
-    if (year && year >= first && year <= last) return true;
+    const year = info.years[i];  // could be empty string
+    if (year && Number(year) >= first && Number(year) <= last) return true;
   }
   return false;
 }
 
-export function countPhotos(yearToCounts) {
+export function countPhotos(yearToCounts: YearToCount) {
   if (isFullTimeRange(year_range)) {
     // This includes undated photos.
-    return _.reduce(yearToCounts, (a, b) => a + b);
+    return Object.values(yearToCounts || {}).reduce((a, b) => a + b, 0);
   } else {
     const [first, last] = year_range;
-    return _.reduce(
-        _.filter(yearToCounts, (c, y) => (y > first && y <= last)),
-        (a, b) => a + b);
+    return Object.entries(yearToCounts || {})
+        .filter(([y]) => (Number(y) > first && Number(y) <= last))
+        .map(([, c]) => c)
+        .reduce((a, b) => a + b, 0);
   }
 }
 
 // Make the given marker the currently selected marker.
 // This is purely UI code, it doesn't touch anything other than the marker.
-export function selectMarker(marker, yearToCounts) {
-  const numPhotos = countPhotos(yearToCounts, year_range);
+export function selectMarker(marker: google.maps.Marker, yearToCounts: YearToCount) {
+  const numPhotos = countPhotos(yearToCounts);
   var zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex();
@@ -74,24 +80,24 @@ export function selectMarker(marker, yearToCounts) {
   }
 }
 
-export function updateYears(firstYear, lastYear) {
+export function updateYears(firstYear: number, lastYear: number) {
   year_range = [firstYear, lastYear];
-  _.forEach(lat_lon_to_marker, (marker, lat_lon) => {
-    const count = countPhotos(lat_lons[lat_lon], year_range);
+  for (const [lat_lon, marker] of Object.entries(lat_lon_to_marker)) {
+    const count = countPhotos(lat_lons[lat_lon]);
     if (count) {
       marker.setIcon(marker_icons[Math.min(count, 100)]);
       marker.setVisible(true);
     } else {
       marker.setVisible(false);
     }
-  });
+  }
   addNewlyVisibleMarkers();
   $('#time-range-labels').text(`${firstYear}–${lastYear}`);
 }
 
 // The callback gets fired when the info for all lat/lons at this location
 // become available (i.e. after the /info RPC returns).
-function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
+function displayInfoForLatLon(lat_lon: string, marker?: google.maps.Marker, opt_selectCallback?: (photo_id: string) => void) {
   if (marker) selectMarker(marker, lat_lons[lat_lon]);
 
   loadInfoForLatLon(lat_lon).done(function(photoIds) {
@@ -107,7 +113,7 @@ function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
   });
 }
 
-function handleClick(e) {
+function handleClick(e: google.maps.Data.MouseEvent) {
   var lat_lon = e.latLng.lat().toFixed(6) + ',' + e.latLng.lng().toFixed(6)
   var marker = lat_lon_to_marker[lat_lon];
   displayInfoForLatLon(lat_lon, marker, function(photo_id) {
@@ -139,7 +145,7 @@ export function initialize_map() {
   // This shoves the navigation bits down by a CSS-specified amount
   // (see the .spacer rule). This is surprisingly hard to do.
   var map_spacer = $('<div/>').append($('<div/>').addClass('spacer')).get(0);
-  map_spacer.index = -1;
+  // map_spacer.index = -1;
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(map_spacer);
 
   // The OldSF UI just gets in the way of Street View.
@@ -157,18 +163,20 @@ export function initialize_map() {
     var num = i + 1;
     var size = (num == 1 ? 9 : 13);
     var selectedSize = (num == 1 ? 15 : 21);
-    marker_icons.push(new google.maps.MarkerImage(
-      'images/sprite-2014-08-29.png',
-      new google.maps.Size(size, size),
-      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
-      new google.maps.Point((size - 1) / 2, (size - 1)/2)
-    ));
-    selected_marker_icons.push(new google.maps.MarkerImage(
-      'images/selected-2014-08-29.png',
-      new google.maps.Size(selectedSize, selectedSize),
-      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
-      new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)
-    ));
+    marker_icons.push(
+      {
+        url: 'images/sprite-2014-08-29.png',
+        size: new google.maps.Size(size, size),
+        origin: new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
+        anchor: new google.maps.Point((size - 1) / 2, (size - 1)/2)
+      }
+    );
+    selected_marker_icons.push({
+      url: 'images/selected-2014-08-29.png',
+      size: new google.maps.Size(selectedSize, selectedSize),
+      origin: new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
+      anchor: new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)
+  });
   }
 
   // Adding markers is expensive -- it's important to defer this when possible.
@@ -196,20 +204,19 @@ function addNewlyVisibleMarkers() {
   }
 }
 
-export function parseLatLon(lat_lon) {
+export function parseLatLon(lat_lon: string) {
   var ll = lat_lon.split(",");
   return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
 }
 
-export function createMarker(lat_lon, latLng) {
-  const count = countPhotos(lat_lons[lat_lon], year_range);
+export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
+  const count = countPhotos(lat_lons[lat_lon]);
   if (!count) {
     return;
   }
   const marker = new google.maps.Marker({
     position: latLng,
     map: map,
-    flat: true,
     visible: true,
     icon: marker_icons[Math.min(count, 100)],
     title: lat_lon
@@ -224,7 +231,7 @@ export function createMarker(lat_lon, latLng) {
 // NOTE: This can only be called when the info for all photo_ids at the current
 // position have been loaded (in particular the image widths).
 // key is used to construct URL fragments.
-export function showExpanded(key, photo_ids, opt_selected_id) {
+export function showExpanded(key: string, photo_ids: string[], opt_selected_id?: string) {
   hideAbout();
   map.set('keyboardShortcuts', false);
   $('#expanded').show().data('grid-key', key);
@@ -266,7 +273,7 @@ export function hideExpanded() {
 }
 
 // This fills out details for either a thumbnail or the expanded image pane.
-function fillPhotoPane(photo_id, $pane) {
+function fillPhotoPane(photo_id: string, $pane: JQuery) {
   // $pane is div.og-details
   // This could be either a thumbnail on the right-hand side or an expanded
   // image, front and center.
@@ -327,13 +334,15 @@ function fillPhotoPane(photo_id, $pane) {
 
   // Some browser plugins block twitter
   if (typeof(twttr) != 'undefined') {
-    twttr.widgets.createShareButton(
+    twttr.ready(({widgets}) => {
+      widgets.createShareButton(
         document.location.href,
         $pane.find('.tweet').get(0), {
           count: 'none',
           text: (info.original_title || info.title) + ' - ' + info.date,
           via: 'Old_NYC @NYPL'
         });
+    });
   }
 
   if (typeof(FB) != 'undefined') {
@@ -360,7 +369,7 @@ function fillPhotoPane(photo_id, $pane) {
   });
 }
 
-function photoIdFromATag(a) {
+function photoIdFromATag(a: Element) {
   return $(a).attr('href').replace('/#', '');
 }
 
@@ -371,11 +380,12 @@ export function getPopularPhotoIds() {
 }
 
 // User selected a photo in the "popular" grid. Update the static map.
-function updateStaticMapsUrl(photo_id) {
-  var key = 'New York City';
-  var lat_lon = findLatLonForPhoto(photo_id);
-  if (lat_lon) key = lat_lon;
-  $('#preview-map').attr('src', makeStaticMapsUrl(key));
+function updateStaticMapsUrl(photo_id: string) {
+  findLatLonForPhoto(photo_id, (lat_lon) => {
+    let key = 'New York City';
+    if (lat_lon) key = lat_lon;
+    $('#preview-map').attr('src', makeStaticMapsUrl(key));
+  });
 }
 
 export function fillPopularImagesPanel() {
@@ -385,7 +395,7 @@ export function fillPopularImagesPanel() {
       shift = elapsedDays % popular_photos.length;
   var shownPhotos = popular_photos.slice(shift).concat(popular_photos.slice(0, shift));
 
-  var makePanel = function(row) {
+  var makePanel = function(row: PopularPhoto) {
     var $panel = $('#popular-photo-template').clone().removeAttr('id');
     $panel.find('a').attr('href', '#' + row.id);
     $panel.find('img')
@@ -407,7 +417,7 @@ export function fillPopularImagesPanel() {
   });
 }
 
-function loadDeferredImage(img) {
+function loadDeferredImage(img: HTMLElement) {
   var $img = $(img);
   if ($img.attr('src')) return;
   $(img)
@@ -419,6 +429,7 @@ function hidePopular() {
   $('#popular').hide();
   $('.popular-link').show();
 }
+
 function showPopular() {
   $('#popular').show();
   $('.popular-link').hide();
@@ -436,10 +447,12 @@ export function showAbout() {
     $container.css('margin-left', '-' + (w / 2) + 'px');
   }
 }
+
 export function hideAbout() {
   $('#about-page').hide();
 }
 
+/*
 // See http://stackoverflow.com/a/30112044/388951
 $.fn.scrollGuard = function() {
   return this.on('mousewheel', function() {
@@ -449,6 +462,7 @@ $.fn.scrollGuard = function() {
     return !blockScrolling;
   });
 };
+*/
 
 $(function() {
   // Clicks on the background or "exit" button should leave the slideshow.
@@ -550,12 +564,12 @@ $(function() {
   $('#about-page .curtains, #about-page .exit').on('click', hideAbout);
 
   // Record feedback on images. Can have a parameter or not.
-  var thanks = function(button) {
+  const thanks = function(button: HTMLElement) {
     return function() { $(button).text('Thanks!'); };
   };
   $('#grid-container').on('click', '.feedback button[feedback]', function() {
-    var $button = $(this);
-    var value = true;
+    const $button = $(this);
+    let value: boolean | string = true;
     if ($button.attr('feedback-param')) {
       var $input = $button.siblings('input, textarea');
       value = $input.val();
@@ -563,9 +577,11 @@ $(function() {
       $input.prop('disabled', true);
     }
     $button.prop('disabled', true);
-    var photo_id = $('#grid-container').expandableGrid('selectedId');
-    var type = $button.attr('feedback');
-    var obj = {}; obj[type] = value;
+    const photo_id = $('#grid-container').expandableGrid('selectedId');
+    const type = $button.attr('feedback') as FeedbackType;
+    const obj = {
+      [type]: value,
+    };
     sendFeedback(photo_id, type, obj).then(thanks($button.get(0)));
   });
 
