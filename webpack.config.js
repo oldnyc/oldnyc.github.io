@@ -1,5 +1,6 @@
 /*eslint-env node */
 module.exports = {
+  mode: 'development',
   entry: {
     main: './js/entry.js',
     ocr: './js/ocr-tool.js'
@@ -13,17 +14,5 @@ module.exports = {
     // require("jquery") is external and available
     //  on the global var jQuery
     "jquery": "jQuery"
-  },
-  module: {
-    loaders: [
-      {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: ['es2015']
-        }
-      }
-    ]
   }
 };

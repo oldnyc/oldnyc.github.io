@@ -1,379 +1,106 @@
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
 
+/***/ "./js/feedback.js":
+/*!************************!*\
+  !*** ./js/feedback.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   deleteCookie: () => (/* binding */ deleteCookie),\n/* harmony export */   getCookie: () => (/* binding */ getCookie),\n/* harmony export */   getFeedbackText: () => (/* binding */ getFeedbackText),\n/* harmony export */   sendFeedback: () => (/* binding */ sendFeedback),\n/* harmony export */   setCookie: () => (/* binding */ setCookie)\n/* harmony export */ });\n// @ts-check\n/**\n * Common code for recording user feedback.\n * This is shared between the OldNYC site and the OCR feedback tool.\n */\n\nvar COOKIE_ID = 'oldnycid';\n\nvar firebaseRef = null;\n// e.g. if we're offline and the firebase script can't load.\nif (typeof(Firebase) !== 'undefined') {\n  firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');\n}\n\nvar userLocation = null;\n$.get('//ipinfo.io', function(response) {\n  userLocation = {\n    ip: response.ip,\n    location: response.country + '-' + response.region + '-' + response.city\n  };\n}, 'jsonp');\n\nvar lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {\n  return data.ocr_ms;\n});\n\nfunction deleteCookie(name) {\n  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';\n}\n\nfunction setCookie(name, value) {\n  document.cookie = name + \"=\" + value + \"; path=/\";\n}\n\nfunction getCookie(name) {\n  var b;\n  b = document.cookie.match('(^|;)\\\\s*' + name + '\\\\s*=\\\\s*([^;]+)');\n  return b ? b.pop() : '';\n}\n\n// Assign each user a unique ID for tracking repeat feedback.\nvar COOKIE = getCookie(COOKIE_ID);\nif (!COOKIE) {\n  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);\n    return v.toString(16);\n  });\n  setCookie(COOKIE_ID, COOKIE);\n}\n\n// Record one piece of feedback. Returns a jQuery deferred object.\nfunction sendFeedback(photo_id, feedback_type, feedback_obj) {\n  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });\n\n  feedback_obj.metadata = {\n    timestamp: Firebase.ServerValue.TIMESTAMP,\n    user_agent: navigator.userAgent,\n    user_ip: userLocation ? userLocation.ip : '',\n    location: userLocation ? userLocation.location : '',\n    cookie: COOKIE\n  };\n\n  var path = '/feedback/' + photo_id + '/' + feedback_type;\n\n  var feedbackRef = firebaseRef.child(path);\n  var deferred = $.Deferred();\n  feedbackRef.push(feedback_obj, function(error) {\n    if (error) {\n      console.error('Error pushing', error);\n      deferred.reject(error);\n    } else {\n      deferred.resolve();\n    }\n  });\n\n  return deferred;\n}\n\n// Retrieve the most-recent OCR for a backing image.\n// Returns a Deferred object which resolves to\n// { text: string, metadata: { timestamp: number, ... }\n// Resolves with null if there is no OCR text available.\nfunction getFeedbackText(back_id) {\n  var deferred = $.Deferred();\n\n  lastReviewedOcrMsPromise.then(function(lastReviewedOcrMs) {\n    firebaseRef.child('/feedback/' + back_id + '/text')\n      .orderByKey()\n      // TODO: start with a key corresponding to lastReviewedOcrMs\n      // .limitToLast(1)\n      .once('value', function(feedback) {\n        var chosen = null;\n        feedback.forEach(function(row) {\n          var v = row.val();\n          if (v.metadata.timestamp > lastReviewedOcrMs) {\n            chosen = v;  // take the most-recent one\n          }\n        });\n        // if none are chosen then ther's no text or the static site is up-to-date.\n        deferred.resolve(chosen);\n      });\n  });\n\n  return deferred;\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/feedback.js?");
+
+/***/ }),
+
+/***/ "./js/ocr-tool.js":
+/*!************************!*\
+  !*** ./js/ocr-tool.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _photo_info__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./photo-info */ \"./js/photo-info.js\");\n/* harmony import */ var _feedback__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./feedback */ \"./js/feedback.js\");\n// @ts-check\n/**\n * JavaScript for the OCR correction tool. See ocr.html\n */\n\n\n\n\nif (window.location.search.indexOf('thanks') >= 0) {\n  $('#thanks').show();\n}\n\nvar id = window.location.hash.slice(1);\n$('[name=\"photo_id\"]').val(id);\n$('#back-link').attr('href', '/#' + id);\n$('#hi-res').attr('href', (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.libraryUrlForPhotoId)(id));\nvar other_photo_ids;\n(0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.findLatLonForPhoto)(id, function(lat_lon) {\n  var infoDef = (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.loadInfoForLatLon)(lat_lon),\n      ocrDef = (0,_feedback__WEBPACK_IMPORTED_MODULE_1__.getFeedbackText)((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backId)(id));\n  $.when(infoDef, ocrDef).done(function(photo_ids, ocr_obj) {\n    console.log(photo_ids, ocr_obj);\n    var info = (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.infoForPhotoId)(id);\n    other_photo_ids = photo_ids;\n    $('img.back').attr('src', (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backOfCardUrlForPhotoId)(id));\n    var text = ocr_obj ? ocr_obj.text : info.text;\n    if (text) {\n      $('#text').text(text);\n    }\n    $('#submit').click(function() {\n      submit('text', {text: $('#text').val()});\n    });\n    $('#notext').click(function() {\n      submit('notext', {notext: true});\n    });\n    $('.rotate-image-button').click(rotate90);\n  });\n});\n\n// A list of photo IDs without text, for use as next images to show.\nvar noTextIdsDef = $.getJSON('/notext.json');\n\nfunction submit(type, feedback_obj) {\n  (0,_feedback__WEBPACK_IMPORTED_MODULE_1__.sendFeedback)((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backId)(id), type, feedback_obj)\n    .then(function() {\n      // Go to another image at the same location.\n      return next_image(id);\n    })\n    .then(function(next_id) {\n      var url = location.protocol + '//' + location.host + location.pathname +\n                '?thanks&id=' + next_id + '#' + next_id;\n      ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });\n      window.location = url;\n    });\n}\n\n// Find the next image from a different card.\nfunction next_image(id) {\n  var def = $.Deferred();\n\n  if (Math.random() < 0.5) {\n    // Pick another image from the same location.\n    var idx = other_photo_ids.indexOf(id);\n    for (var i = 0; i < other_photo_ids.length; i++) {\n      var other_id = other_photo_ids[(i + idx) % other_photo_ids.length];\n\n      if (!other_id.match(/[0-9]f/)) {\n        // no back of card for this photo\n        continue;\n      }\n\n      if ((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backOfCardUrlForPhotoId)(other_id) != (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backOfCardUrlForPhotoId)(id)) {\n        def.resolve(other_id);\n        return def;\n      }\n    }\n    // ... fall through\n  }\n\n  // Pick an image with no transcription (these are the most valuable to get\n  // user-generated data for).\n  noTextIdsDef.done(function(data) {\n    var ids = data.photo_ids;\n    console.log('Picking at random from ' + ids.length + ' untranscribed photos.');\n    def.resolve(ids[Math.floor(Math.random() * ids.length)]);\n  });\n\n  return def;\n}\n\nfunction rotate90() {\n  var $img = $('img.back');\n  var currentRotation = $img.data('rotate') || 0;\n  currentRotation += 90;\n  $img\n    .css('transform', 'rotate(' + currentRotation + 'deg)')\n    .data('rotate', currentRotation);\n  (0,_feedback__WEBPACK_IMPORTED_MODULE_1__.sendFeedback)((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backId)(id), {'rotate-backing': currentRotation});\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/ocr-tool.js?");
+
+/***/ }),
+
+/***/ "./js/photo-info.js":
+/*!**************************!*\
+  !*** ./js/photo-info.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   backId: () => (/* binding */ backId),\n/* harmony export */   backOfCardUrlForPhotoId: () => (/* binding */ backOfCardUrlForPhotoId),\n/* harmony export */   descriptionForPhotoId: () => (/* binding */ descriptionForPhotoId),\n/* harmony export */   findLatLonForPhoto: () => (/* binding */ findLatLonForPhoto),\n/* harmony export */   infoForPhotoId: () => (/* binding */ infoForPhotoId),\n/* harmony export */   libraryUrlForPhotoId: () => (/* binding */ libraryUrlForPhotoId),\n/* harmony export */   loadInfoForLatLon: () => (/* binding */ loadInfoForLatLon),\n/* harmony export */   nameForLatLon: () => (/* binding */ nameForLatLon)\n/* harmony export */ });\n// @ts-check\n// This file manages all the photo information.\n// Some of this comes in via lat-lons.js.\n// Some is requested via XHR.\n\n// Maps photo_id -> { title: ..., date: ..., library_url: ... }\nvar photo_id_to_info = {};\n\nvar SITE = '';\nvar JSON_BASE = SITE + '/by-location';\n\n// The callback is called with the photo_ids that were just loaded, after the\n// UI updates.  The callback may assume that infoForPhotoId() will return data\n// for all the newly-available photo_ids.\nfunction loadInfoForLatLon(lat_lon) {\n  var url;\n  if (lat_lon == 'pop') {\n    url = SITE + '/popular.json';\n  } else {\n    url = JSON_BASE + '/' + lat_lon.replace(',', '') + '.json';\n  }\n\n  return $.getJSON(url).then(function(response_data) {\n    // Add these values to the cache.\n    $.extend(photo_id_to_info, response_data);\n    var photo_ids = [];\n    for (var k in response_data) {\n      photo_ids.push(k);\n    }\n    if (lat_lon != 'pop') {\n      lat_lon_to_name[lat_lon] = extractName(response_data);\n    }\n    return photo_ids;\n  });\n}\n\n// Returns a {title: ..., date: ..., library_url: ...} object.\n// If there's no information about the photo yet, then the values are all set\n// to the empty string.\nfunction infoForPhotoId(photo_id) {\n  return photo_id_to_info[photo_id] ||\n      { title: '', date: '', library_url: '' };\n}\n\n// Would it make more sense to incorporate these into infoForPhotoId?\nfunction descriptionForPhotoId(photo_id) {\n  var info = infoForPhotoId(photo_id);\n  var desc = info.title;\n  if (desc) desc += ' ';\n  var date = info.date.replace(/n\\.d\\.?/, 'No Date');\n  if (!date) date = 'No Date';\n  desc += date;\n  return desc;\n}\n\nfunction libraryUrlForPhotoId(photo_id) {\n  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');\n}\n\nfunction backId(photo_id) {\n  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');\n}\n\nfunction backOfCardUrlForPhotoId(photo_id) {\n  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';\n}\n\n\nvar lat_lon_to_name = {};\n\n// Does this lat_lon have a name, e.g. \"Manhattan: 14th Street - 8th Avenue\"?\nfunction nameForLatLon(lat_lon) {\n  var v = lat_lon_to_name[lat_lon] || '';\n  return v.replace(/: | - | & /g, '\\n');\n}\n\nfunction extractName(lat_lon_json) {\n  // if any entries have an original_title, it's got to be a pure location.\n  for (var k in lat_lon_json) {\n    var v = lat_lon_json[k];\n    if (v.original_title) return v.original_title;\n  }\n}\n\nfunction findLatLonForPhoto(photo_id, cb) {\n  var id4 = photo_id.slice(0, 4);\n  $.ajax({\n    dataType: \"json\",\n    url: '/id4-to-location/' + id4 + '.json',\n    success: function (id_to_latlon) {\n      cb(id_to_latlon[photo_id]);\n    }\n  });\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/photo-info.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
-
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
-/******/ 			return installedModules[moduleId].exports;
-
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			exports: {},
-/******/ 			id: moduleId,
-/******/ 			loaded: false
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
 /******/ 		};
-
+/******/ 	
 /******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
-
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-
-
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(0);
-/******/ })
+/******/ 	
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _photoInfo = __webpack_require__(2);
-
-	var _feedback = __webpack_require__(5);
-
-	// @ts-check
-	/**
-	 * JavaScript for the OCR correction tool. See ocr.html
-	 */
-
-	if (window.location.search.indexOf('thanks') >= 0) {
-	  $('#thanks').show();
-	}
-
-	var id = window.location.hash.slice(1);
-	$('[name="photo_id"]').val(id);
-	$('#back-link').attr('href', '/#' + id);
-	$('#hi-res').attr('href', (0, _photoInfo.libraryUrlForPhotoId)(id));
-	var other_photo_ids;
-	(0, _photoInfo.findLatLonForPhoto)(id, function (lat_lon) {
-	  var infoDef = (0, _photoInfo.loadInfoForLatLon)(lat_lon),
-	      ocrDef = (0, _feedback.getFeedbackText)((0, _photoInfo.backId)(id));
-	  $.when(infoDef, ocrDef).done(function (photo_ids, ocr_obj) {
-	    console.log(photo_ids, ocr_obj);
-	    var info = (0, _photoInfo.infoForPhotoId)(id);
-	    other_photo_ids = photo_ids;
-	    $('img.back').attr('src', (0, _photoInfo.backOfCardUrlForPhotoId)(id));
-	    var text = ocr_obj ? ocr_obj.text : info.text;
-	    if (text) {
-	      $('#text').text(text);
-	    }
-	    $('#submit').click(function () {
-	      submit('text', { text: $('#text').val() });
-	    });
-	    $('#notext').click(function () {
-	      submit('notext', { notext: true });
-	    });
-	    $('.rotate-image-button').click(rotate90);
-	  });
-	});
-
-	// A list of photo IDs without text, for use as next images to show.
-	var noTextIdsDef = $.getJSON('/notext.json');
-
-	function submit(type, feedback_obj) {
-	  (0, _feedback.sendFeedback)((0, _photoInfo.backId)(id), type, feedback_obj).then(function () {
-	    // Go to another image at the same location.
-	    return next_image(id);
-	  }).then(function (next_id) {
-	    var url = location.protocol + '//' + location.host + location.pathname + '?thanks&id=' + next_id + '#' + next_id;
-	    ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });
-	    window.location = url;
-	  });
-	}
-
-	// Find the next image from a different card.
-	function next_image(id) {
-	  var def = $.Deferred();
-
-	  if (Math.random() < 0.5) {
-	    // Pick another image from the same location.
-	    var idx = other_photo_ids.indexOf(id);
-	    for (var i = 0; i < other_photo_ids.length; i++) {
-	      var other_id = other_photo_ids[(i + idx) % other_photo_ids.length];
-
-	      if (!other_id.match(/[0-9]f/)) {
-	        // no back of card for this photo
-	        continue;
-	      }
-
-	      if ((0, _photoInfo.backOfCardUrlForPhotoId)(other_id) != (0, _photoInfo.backOfCardUrlForPhotoId)(id)) {
-	        def.resolve(other_id);
-	        return def;
-	      }
-	    }
-	    // ... fall through
-	  }
-
-	  // Pick an image with no transcription (these are the most valuable to get
-	  // user-generated data for).
-	  noTextIdsDef.done(function (data) {
-	    var ids = data.photo_ids;
-	    console.log('Picking at random from ' + ids.length + ' untranscribed photos.');
-	    def.resolve(ids[Math.floor(Math.random() * ids.length)]);
-	  });
-
-	  return def;
-	}
-
-	function rotate90() {
-	  var $img = $('img.back');
-	  var currentRotation = $img.data('rotate') || 0;
-	  currentRotation += 90;
-	  $img.css('transform', 'rotate(' + currentRotation + 'deg)').data('rotate', currentRotation);
-	  (0, _feedback.sendFeedback)((0, _photoInfo.backId)(id), { 'rotate-backing': currentRotation });
-	}
-
-/***/ }),
-/* 1 */,
-/* 2 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.loadInfoForLatLon = loadInfoForLatLon;
-	exports.infoForPhotoId = infoForPhotoId;
-	exports.descriptionForPhotoId = descriptionForPhotoId;
-	exports.libraryUrlForPhotoId = libraryUrlForPhotoId;
-	exports.backId = backId;
-	exports.backOfCardUrlForPhotoId = backOfCardUrlForPhotoId;
-	exports.nameForLatLon = nameForLatLon;
-	exports.findLatLonForPhoto = findLatLonForPhoto;
-	// @ts-check
-	// This file manages all the photo information.
-	// Some of this comes in via lat-lons.js.
-	// Some is requested via XHR.
-
-	// Maps photo_id -> { title: ..., date: ..., library_url: ... }
-	var photo_id_to_info = {};
-
-	var SITE = '';
-	var JSON_BASE = SITE + '/by-location';
-
-	// The callback is called with the photo_ids that were just loaded, after the
-	// UI updates.  The callback may assume that infoForPhotoId() will return data
-	// for all the newly-available photo_ids.
-	function loadInfoForLatLon(lat_lon) {
-	  var url;
-	  if (lat_lon == 'pop') {
-	    url = SITE + '/popular.json';
-	  } else {
-	    url = JSON_BASE + '/' + lat_lon.replace(',', '') + '.json';
-	  }
-
-	  return $.getJSON(url).then(function (response_data) {
-	    // Add these values to the cache.
-	    $.extend(photo_id_to_info, response_data);
-	    var photo_ids = [];
-	    for (var k in response_data) {
-	      photo_ids.push(k);
-	    }
-	    if (lat_lon != 'pop') {
-	      lat_lon_to_name[lat_lon] = extractName(response_data);
-	    }
-	    return photo_ids;
-	  });
-	}
-
-	// Returns a {title: ..., date: ..., library_url: ...} object.
-	// If there's no information about the photo yet, then the values are all set
-	// to the empty string.
-	function infoForPhotoId(photo_id) {
-	  return photo_id_to_info[photo_id] || { title: '', date: '', library_url: '' };
-	}
-
-	// Would it make more sense to incorporate these into infoForPhotoId?
-	function descriptionForPhotoId(photo_id) {
-	  var info = infoForPhotoId(photo_id);
-	  var desc = info.title;
-	  if (desc) desc += ' ';
-	  var date = info.date.replace(/n\.d\.?/, 'No Date');
-	  if (!date) date = 'No Date';
-	  desc += date;
-	  return desc;
-	}
-
-	function libraryUrlForPhotoId(photo_id) {
-	  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
-	}
-
-	function backId(photo_id) {
-	  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');
-	}
-
-	function backOfCardUrlForPhotoId(photo_id) {
-	  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';
-	}
-
-	var lat_lon_to_name = {};
-
-	// Does this lat_lon have a name, e.g. "Manhattan: 14th Street - 8th Avenue"?
-	function nameForLatLon(lat_lon) {
-	  var v = lat_lon_to_name[lat_lon] || '';
-	  return v.replace(/: | - | & /g, '\n');
-	}
-
-	function extractName(lat_lon_json) {
-	  // if any entries have an original_title, it's got to be a pure location.
-	  for (var k in lat_lon_json) {
-	    var v = lat_lon_json[k];
-	    if (v.original_title) return v.original_title;
-	  }
-	}
-
-	function findLatLonForPhoto(photo_id, cb) {
-	  var id4 = photo_id.slice(0, 4);
-	  $.ajax({
-	    dataType: "json",
-	    url: '/id4-to-location/' + id4 + '.json',
-	    success: function success(id_to_latlon) {
-	      cb(id_to_latlon[photo_id]);
-	    }
-	  });
-	}
-
-/***/ }),
-/* 3 */,
-/* 4 */,
-/* 5 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.deleteCookie = deleteCookie;
-	exports.setCookie = setCookie;
-	exports.getCookie = getCookie;
-	exports.sendFeedback = sendFeedback;
-	exports.getFeedbackText = getFeedbackText;
-	// @ts-check
-	/**
-	 * Common code for recording user feedback.
-	 * This is shared between the OldNYC site and the OCR feedback tool.
-	 */
-
-	var COOKIE_ID = 'oldnycid';
-
-	var firebaseRef = null;
-	// e.g. if we're offline and the firebase script can't load.
-	if (typeof Firebase !== 'undefined') {
-	  firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');
-	}
-
-	var userLocation = null;
-	$.get('//ipinfo.io', function (response) {
-	  userLocation = {
-	    ip: response.ip,
-	    location: response.country + '-' + response.region + '-' + response.city
-	  };
-	}, 'jsonp');
-
-	var lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function (data) {
-	  return data.ocr_ms;
-	});
-
-	function deleteCookie(name) {
-	  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-	}
-
-	function setCookie(name, value) {
-	  document.cookie = name + "=" + value + "; path=/";
-	}
-
-	function getCookie(name) {
-	  var b;
-	  b = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-	  return b ? b.pop() : '';
-	}
-
-	// Assign each user a unique ID for tracking repeat feedback.
-	var COOKIE = getCookie(COOKIE_ID);
-	if (!COOKIE) {
-	  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-	    var r = Math.random() * 16 | 0,
-	        v = c == 'x' ? r : r & 0x3 | 0x8;
-	    return v.toString(16);
-	  });
-	  setCookie(COOKIE_ID, COOKIE);
-	}
-
-	// Record one piece of feedback. Returns a jQuery deferred object.
-	function sendFeedback(photo_id, feedback_type, feedback_obj) {
-	  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
-
-	  feedback_obj.metadata = {
-	    timestamp: Firebase.ServerValue.TIMESTAMP,
-	    user_agent: navigator.userAgent,
-	    user_ip: userLocation ? userLocation.ip : '',
-	    location: userLocation ? userLocation.location : '',
-	    cookie: COOKIE
-	  };
-
-	  var path = '/feedback/' + photo_id + '/' + feedback_type;
-
-	  var feedbackRef = firebaseRef.child(path);
-	  var deferred = $.Deferred();
-	  feedbackRef.push(feedback_obj, function (error) {
-	    if (error) {
-	      console.error('Error pushing', error);
-	      deferred.reject(error);
-	    } else {
-	      deferred.resolve();
-	    }
-	  });
-
-	  return deferred;
-	}
-
-	// Retrieve the most-recent OCR for a backing image.
-	// Returns a Deferred object which resolves to
-	// { text: string, metadata: { timestamp: number, ... }
-	// Resolves with null if there is no OCR text available.
-	function getFeedbackText(back_id) {
-	  var deferred = $.Deferred();
-
-	  lastReviewedOcrMsPromise.then(function (lastReviewedOcrMs) {
-	    firebaseRef.child('/feedback/' + back_id + '/text').orderByKey()
-	    // TODO: start with a key corresponding to lastReviewedOcrMs
-	    // .limitToLast(1)
-	    .once('value', function (feedback) {
-	      var chosen = null;
-	      feedback.forEach(function (row) {
-	        var v = row.val();
-	        if (v.metadata.timestamp > lastReviewedOcrMs) {
-	          chosen = v; // take the most-recent one
-	        }
-	      });
-	      // if none are chosen then ther's no text or the static site is up-to-date.
-	      deferred.resolve(chosen);
-	    });
-	  });
-
-	  return deferred;
-	}
-
-/***/ })
-/******/ ]);
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./js/ocr-tool.js");
+/******/ 	
+/******/ })()
+;

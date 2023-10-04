@@ -1,1665 +1,186 @@
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
 
+/***/ "./js/app-history.js":
+/*!***************************!*\
+  !*** ./js/app-history.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _history__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./history */ \"./js/history.js\");\n/* harmony import */ var _url_state__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./url-state */ \"./js/url-state.js\");\n/* harmony import */ var _viewer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./viewer */ \"./js/viewer.js\");\n// @ts-check\n\n\n\n\n\n// This should go in the $(function()) block below.\n// It's exposed to facilitate debugging.\nvar h = new _history__WEBPACK_IMPORTED_MODULE_0__[\"default\"](function(hash, cb) {\n  (0,_url_state__WEBPACK_IMPORTED_MODULE_1__.hashToStateObject)(hash.substr(1), cb);\n});\n\n// Ping Google Analytics with the current URL (e.g. after history.pushState).\n// See http://stackoverflow.com/a/4813223/388951\nfunction trackAnalyticsPageView() {\n  var url = location.pathname + location.search  + location.hash;\n  ga('send', 'pageview', { 'page': url });\n}\n\nvar LOG_HISTORY_EVENTS = false;\n// var LOG_HISTORY_EVENTS = true;\n\n$(function() {\n  // Relevant UI methods:\n  // - transitionToStateObject(obj)\n  //\n  // State/URL manipulation:\n  // - stateObjectToHash()\n  // - hashToStateObject()\n  //\n  // State objects look like:\n  // {photo_id:string, g:string}\n\n  // Returns URL fragments like '/#g:123'.\n  var fragment = function(state) {\n    return '/#' + (0,_url_state__WEBPACK_IMPORTED_MODULE_1__.stateObjectToHash)(state);\n  };\n\n  var title = function(state) {\n    var old_nyc = 'Old NYC';\n    if ('photo_id' in state) {\n      return old_nyc + ' - Photo ' + state.photo_id;\n    } else if ('g' in state) {\n      // TODO: include cross-streets in the title\n      return old_nyc + ' - Grid';\n    } else {\n      return old_nyc;\n    }\n  };\n\n  $(window)\n    .on('showGrid', function(e, pos) {\n      var state = {g:pos};\n      h.pushState(state, title(state), fragment(state));\n      trackAnalyticsPageView();\n    }).on('hideGrid', function() {\n      var state = {initial: true};\n      h.goBackUntil('initial', [state, title(state), fragment(state)]);\n    }).on('openPreviewPanel', function() {\n      // This is a transient state -- it should immediately be replaced.\n      var state = {photo_id: true};\n      h.pushState(state, title(state), fragment(state));\n    }).on('showPhotoPreview', function(e, photo_id) {\n      var g = $('#expanded').data('grid-key');\n      var state = {photo_id:photo_id};\n      if (g == 'pop') state.g = 'pop';\n      h.replaceState(state, title(state), fragment(state));\n      trackAnalyticsPageView();\n    }).on('closePreviewPanel', function() {\n      var g = $('#expanded').data('grid-key');\n      var state = {g: g};\n      h.goBackUntil('g', [state, title(state), fragment(state)]);\n    });\n\n  // Update the UI in response to hitting the back/forward button,\n  // a hash fragment on initial page load or the user editing the URL.\n  $(h).on('setStateInResponseToUser setStateInResponseToPageLoad',\n  function(e, state) {\n    // It's important that these methods only configure the UI.\n    // They must not trigger events, or they could cause a loop!\n    (0,_url_state__WEBPACK_IMPORTED_MODULE_1__.transitionToStateObject)(state);\n  });\n\n  $(h).on('setStateInResponseToPageLoad', function() {\n    trackAnalyticsPageView();  // hopefully this helps track social shares\n  });\n\n  if (LOG_HISTORY_EVENTS) {\n    $(window)\n      .on('showGrid', function(e, pos) {\n        console.log('showGrid', pos);\n      }).on('hideGrid', function() {\n        console.log('hideGrid');\n      }).on('showPhotoPreview', function(e, photo_id) {\n        console.log('showPhotoPreview', photo_id);\n      }).on('closePreviewPanel', function() {\n        console.log('closePreviewPanel');\n      }).on('openPreviewPanel', function() {\n        console.log('openPreviewPanel');\n      });\n    $(h).on('setStateInResponseToUser', function(e, state) {\n      console.log('setStateInResponseToUser', state);\n    }).on('setStateInResponseToPageLoad', function(e, state) {\n      console.log('setStateInResponseToPageLoad', state);\n    });\n  }\n\n  // To load from a URL fragment, the map object must be ready.\n  _viewer__WEBPACK_IMPORTED_MODULE_2__.mapPromise.done(function() {\n    h.initialize();\n  });\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/app-history.js?");
+
+/***/ }),
+
+/***/ "./js/entry.js":
+/*!*********************!*\
+  !*** ./js/entry.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _viewer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./viewer */ \"./js/viewer.js\");\n/* harmony import */ var _app_history__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-history */ \"./js/app-history.js\");\n/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./search */ \"./js/search.js\");\n\n\n\n\n$(function() {\n  (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.fillPopularImagesPanel)();\n  (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.initialize_map)();\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/entry.js?");
+
+/***/ }),
+
+/***/ "./js/feedback.js":
+/*!************************!*\
+  !*** ./js/feedback.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   deleteCookie: () => (/* binding */ deleteCookie),\n/* harmony export */   getCookie: () => (/* binding */ getCookie),\n/* harmony export */   getFeedbackText: () => (/* binding */ getFeedbackText),\n/* harmony export */   sendFeedback: () => (/* binding */ sendFeedback),\n/* harmony export */   setCookie: () => (/* binding */ setCookie)\n/* harmony export */ });\n// @ts-check\n/**\n * Common code for recording user feedback.\n * This is shared between the OldNYC site and the OCR feedback tool.\n */\n\nvar COOKIE_ID = 'oldnycid';\n\nvar firebaseRef = null;\n// e.g. if we're offline and the firebase script can't load.\nif (typeof(Firebase) !== 'undefined') {\n  firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');\n}\n\nvar userLocation = null;\n$.get('//ipinfo.io', function(response) {\n  userLocation = {\n    ip: response.ip,\n    location: response.country + '-' + response.region + '-' + response.city\n  };\n}, 'jsonp');\n\nvar lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {\n  return data.ocr_ms;\n});\n\nfunction deleteCookie(name) {\n  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';\n}\n\nfunction setCookie(name, value) {\n  document.cookie = name + \"=\" + value + \"; path=/\";\n}\n\nfunction getCookie(name) {\n  var b;\n  b = document.cookie.match('(^|;)\\\\s*' + name + '\\\\s*=\\\\s*([^;]+)');\n  return b ? b.pop() : '';\n}\n\n// Assign each user a unique ID for tracking repeat feedback.\nvar COOKIE = getCookie(COOKIE_ID);\nif (!COOKIE) {\n  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);\n    return v.toString(16);\n  });\n  setCookie(COOKIE_ID, COOKIE);\n}\n\n// Record one piece of feedback. Returns a jQuery deferred object.\nfunction sendFeedback(photo_id, feedback_type, feedback_obj) {\n  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });\n\n  feedback_obj.metadata = {\n    timestamp: Firebase.ServerValue.TIMESTAMP,\n    user_agent: navigator.userAgent,\n    user_ip: userLocation ? userLocation.ip : '',\n    location: userLocation ? userLocation.location : '',\n    cookie: COOKIE\n  };\n\n  var path = '/feedback/' + photo_id + '/' + feedback_type;\n\n  var feedbackRef = firebaseRef.child(path);\n  var deferred = $.Deferred();\n  feedbackRef.push(feedback_obj, function(error) {\n    if (error) {\n      console.error('Error pushing', error);\n      deferred.reject(error);\n    } else {\n      deferred.resolve();\n    }\n  });\n\n  return deferred;\n}\n\n// Retrieve the most-recent OCR for a backing image.\n// Returns a Deferred object which resolves to\n// { text: string, metadata: { timestamp: number, ... }\n// Resolves with null if there is no OCR text available.\nfunction getFeedbackText(back_id) {\n  var deferred = $.Deferred();\n\n  lastReviewedOcrMsPromise.then(function(lastReviewedOcrMs) {\n    firebaseRef.child('/feedback/' + back_id + '/text')\n      .orderByKey()\n      // TODO: start with a key corresponding to lastReviewedOcrMs\n      // .limitToLast(1)\n      .once('value', function(feedback) {\n        var chosen = null;\n        feedback.forEach(function(row) {\n          var v = row.val();\n          if (v.metadata.timestamp > lastReviewedOcrMs) {\n            chosen = v;  // take the most-recent one\n          }\n        });\n        // if none are chosen then ther's no text or the static site is up-to-date.\n        deferred.resolve(chosen);\n      });\n  });\n\n  return deferred;\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/feedback.js?");
+
+/***/ }),
+
+/***/ "./js/history.js":
+/*!***********************!*\
+  !*** ./js/history.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// @ts-check\n\n// History management service.\n// Consider using this instead: https://github.com/browserstate/history.js\nclass History {\n  constructor(hashToStateAdapter) {\n    this.states = [];\n    this.hashToStateAdapter = hashToStateAdapter;\n  }\n  initialize() {\n    var that = this;\n    $(window).on('popstate', function (e) {\n      that.handlePopState(e.originalEvent.state);\n    });\n\n    // Create an artificial initial state\n    var state = { initial: true };\n    var didSetState = false;\n\n    var rest = function () {\n      // Blow away the current state -- it's only going to cause trouble.\n      history.replaceState({}, '', document.location.href);\n      this.replaceState(state, document.title, document.location.href);\n\n      if (didSetState) {\n        $(this).trigger('setStateInResponseToPageLoad', state);\n      }\n    }.bind(this);\n\n    if (this.hashToStateAdapter && document.location.hash) {\n      didSetState = true;\n      // Need to honor any hash fragments that the user navigated to.\n      this.hashToStateAdapter(document.location.hash, function (newState) {\n        state = newState;\n        rest();\n      });\n    } else {\n      rest();\n    }\n  }\n  makeState(obj) {\n    var currentStateId = null;\n    if (history.state && 'id' in history.state) {\n      currentStateId = history.state.id;\n    }\n    return $.extend({\n      length: history.length,\n      previousStateId: currentStateId,\n      id: Date.now() + '' + Math.floor(Math.random() * 100000000)\n    }, obj);\n  }\n  simplifyState(obj) {\n    var state = $.extend({}, obj);\n    delete state['id'];\n    // delete state['length'];\n    delete state['previousStateId'];\n    return state;\n  }\n  handlePopState(state) {\n    // note: we don't remove entries from this.state here, since the user could\n    // still go forward to them.\n    if (state && 'id' in state) {\n      var stateObj = this.states[this.getStateIndexById(state.id)];\n      if (stateObj && stateObj.expectingBack) {\n        // This is happening as a result of a call on the History object.\n        delete stateObj.expectingBack;\n        return;\n      }\n    }\n\n    var trigger = function () {\n      $(this).trigger('setStateInResponseToUser', state);\n    }.bind(this);\n    if (!state && this.hashToStateAdapter) {\n      this.hashToStateAdapter(document.location.hash, function (newState) {\n        state = newState;\n        trigger();\n      });\n    } else {\n      trigger();\n    }\n  }\n  // Just like history.pushState.\n  pushState(stateObj, title, url) {\n    var state = this.makeState(stateObj);\n    this.states.push(state);\n    history.pushState(state, title, url);\n    document.title = title;\n  }\n  // Just like history.replaceState.\n  replaceState(stateObj, title, url) {\n    var curState = this.getCurrentState();\n    var replaceIdx = null;\n    var previousId = null;\n    if (curState) {\n      if ('id' in curState) {\n        replaceIdx = this.getStateIndexById(curState.id);\n      }\n      if ('previousStateId' in curState) {\n        // in replacing the current state, we inherit its parent state.\n        previousId = curState.previousStateId;\n      }\n    }\n\n    var state = this.makeState(stateObj);\n    if (previousId !== null) {\n      state.previousStateId = previousId;\n    }\n    if (replaceIdx !== null) {\n      this.states[replaceIdx] = state;\n    } else {\n      this.states.push(state);\n    }\n    history.replaceState(state, title, url);\n    document.title = title;\n  }\n  getCurrentState() {\n    return history.state;\n  }\n  getStateIndexById(stateId) {\n    for (var i = 0; i < this.states.length; i++) {\n      if (this.states[i].id == stateId) return i;\n    }\n    return null;\n  }\n  // Get the state object one prior to the given one.\n  getPreviousState(state) {\n    if (!('previousStateId' in state)) return null;\n    var id = state['previousStateId'];\n    if (id == null) return id;\n\n    var idx = this.getStateIndexById(id);\n    if (idx !== null) {\n      return this.states[idx];\n    }\n    throw \"State out of whack!\";\n  }\n  /**\n   * Go back in history until the predicate is true.\n   * If predicate is a string, go back until it's a key in the state object.\n   * This will not result in a setStateInResponseToUser event firing.\n   * Returns the number of steps back in the history that it went (possibly 0 if\n   * the current state matches the predicate).\n   * If no matching history state is found, the history stack will be cleared and\n   * alternativeState will be pushed on.\n   */\n  goBackUntil(predicate, alternativeState) {\n    // Convenience for common case of checking if history state has a key.\n    if (typeof (predicate) == \"string\") {\n      return this.goBackUntil(\n        function (state) { return predicate in state; },\n        alternativeState);\n    }\n\n    var state = this.getCurrentState();\n    var numBack = 0;\n\n    var lastState = null;\n    while (state && !predicate(state)) {\n      lastState = state;\n      state = this.getPreviousState(state);\n      numBack += 1;\n    }\n    if (state && numBack) {\n      state.expectingBack = true;\n      history.go(-numBack);\n      return numBack;\n    }\n    if (numBack == 0) {\n      return 0; // current state fulfilled predicate\n    } else {\n      // no state fulfilled predicate. Clear the stack to just one state and\n      // replace it with alternativeState.\n      var stackLen = numBack;\n      if (stackLen != 1) {\n        lastState.expectingBack = true;\n        history.go(-(stackLen - 1));\n      }\n      this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);\n    }\n  }\n  // Debugging method -- prints the history stack.\n  logStack() {\n    var state = this.getCurrentState();\n    var i = 0;\n    while (state) {\n      console.log((i > 0 ? '-' : ' ') + i, this.simplifyState(state));\n      state = this.getPreviousState(state);\n      i++;\n    }\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (History);\n\n\n//# sourceURL=webpack://oldnyc/./js/history.js?");
+
+/***/ }),
+
+/***/ "./js/map-styles.js":
+/*!**************************!*\
+  !*** ./js/map-styles.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   MAP_STYLE: () => (/* binding */ MAP_STYLE),\n/* harmony export */   STATIC_MAP_STYLE: () => (/* binding */ STATIC_MAP_STYLE)\n/* harmony export */ });\n// @ts-check\n\n// Styles for Google Maps. These de-emphasize features on the map.\nvar MAP_STYLE = [\n    // to remove buildings\n    {\"stylers\": [ {\"visibility\": \"off\" } ] },\n    {\"featureType\": \"water\",\"stylers\": [{\"visibility\": \"simplified\"} ] },\n    {\"featureType\": \"poi\",\"stylers\": [ {\"visibility\": \"simplified\"} ]},\n    {\"featureType\": \"transit\",\"stylers\": [{ \"visibility\": \"off\"}] },\n    { \"featureType\": \"landscape\",\"stylers\": [ { \"visibility\": \"simplified\" } ] },\n    { \"featureType\": \"road\", \"stylers\": [{ \"visibility\": \"simplified\" } ] },\n    { \"featureType\": \"administrative\",  \"stylers\": [{ \"visibility\": \"simplified\" } ] },\n    // end remove buildings\n    {\n        \"featureType\": \"administrative\",\n        \"elementType\": \"labels\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"administrative.country\",\n        \"elementType\": \"geometry.stroke\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"administrative.province\",\n        \"elementType\": \"geometry.stroke\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"landscape\",\n        \"elementType\": \"geometry\",\n        \"stylers\": [\n            {\n                \"visibility\": \"on\"\n            },\n            {\n                \"color\": \"#e3e3e3\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"landscape.natural\",\n        \"elementType\": \"labels\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"poi\",\n        \"elementType\": \"all\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"road\",\n        \"elementType\": \"all\",\n        \"stylers\": [\n            {\n                \"color\": \"#cccccc\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"water\",\n        \"elementType\": \"geometry\",\n        \"stylers\": [\n            {\n                \"color\": \"#FFFFFF\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"road\",\n        \"elementType\": \"labels\",\n        \"stylers\": [\n            {\n                \"color\": \"#94989C\"\n            },\n            {\n                \"visibility\": \"simplified\"\n            }\n        ]\n    },\n    {\n        \"featureType\": \"water\",\n        \"elementType\": \"labels\",\n        \"stylers\": [\n            {\n                \"visibility\": \"off\"\n            }\n        ]\n    }\n];\n\nfunction buildStaticStyle(styleStruct) {\n  var style = \"\";\n  for(var i = 0; i < styleStruct.length;i++){\n    var s = styleStruct[i];\n    var strs = [];\n    if (s.featureType != null) strs.push( \"feature:\" + s.featureType );\n    if (s.elementType != null) strs.push( \"element:\" + s.elementType );\n    if (s.stylers != null) {\n      for (var j=0;j<s.stylers.length;j++) {\n        for (var key in s.stylers[j]){\n          strs.push( key + \":\" + s.stylers[j][key].replace(/#/, '0x') );\n        }\n      }\n    }\n    var str = \"&style=\" + strs.join(\"%7C\");\n    style += str;\n  }\n  return style;\n}\n\nvar STATIC_MAP_STYLE = buildStaticStyle(MAP_STYLE);\n\n\n//# sourceURL=webpack://oldnyc/./js/map-styles.js?");
+
+/***/ }),
+
+/***/ "./js/photo-info.js":
+/*!**************************!*\
+  !*** ./js/photo-info.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   backId: () => (/* binding */ backId),\n/* harmony export */   backOfCardUrlForPhotoId: () => (/* binding */ backOfCardUrlForPhotoId),\n/* harmony export */   descriptionForPhotoId: () => (/* binding */ descriptionForPhotoId),\n/* harmony export */   findLatLonForPhoto: () => (/* binding */ findLatLonForPhoto),\n/* harmony export */   infoForPhotoId: () => (/* binding */ infoForPhotoId),\n/* harmony export */   libraryUrlForPhotoId: () => (/* binding */ libraryUrlForPhotoId),\n/* harmony export */   loadInfoForLatLon: () => (/* binding */ loadInfoForLatLon),\n/* harmony export */   nameForLatLon: () => (/* binding */ nameForLatLon)\n/* harmony export */ });\n// @ts-check\n// This file manages all the photo information.\n// Some of this comes in via lat-lons.js.\n// Some is requested via XHR.\n\n// Maps photo_id -> { title: ..., date: ..., library_url: ... }\nvar photo_id_to_info = {};\n\nvar SITE = '';\nvar JSON_BASE = SITE + '/by-location';\n\n// The callback is called with the photo_ids that were just loaded, after the\n// UI updates.  The callback may assume that infoForPhotoId() will return data\n// for all the newly-available photo_ids.\nfunction loadInfoForLatLon(lat_lon) {\n  var url;\n  if (lat_lon == 'pop') {\n    url = SITE + '/popular.json';\n  } else {\n    url = JSON_BASE + '/' + lat_lon.replace(',', '') + '.json';\n  }\n\n  return $.getJSON(url).then(function(response_data) {\n    // Add these values to the cache.\n    $.extend(photo_id_to_info, response_data);\n    var photo_ids = [];\n    for (var k in response_data) {\n      photo_ids.push(k);\n    }\n    if (lat_lon != 'pop') {\n      lat_lon_to_name[lat_lon] = extractName(response_data);\n    }\n    return photo_ids;\n  });\n}\n\n// Returns a {title: ..., date: ..., library_url: ...} object.\n// If there's no information about the photo yet, then the values are all set\n// to the empty string.\nfunction infoForPhotoId(photo_id) {\n  return photo_id_to_info[photo_id] ||\n      { title: '', date: '', library_url: '' };\n}\n\n// Would it make more sense to incorporate these into infoForPhotoId?\nfunction descriptionForPhotoId(photo_id) {\n  var info = infoForPhotoId(photo_id);\n  var desc = info.title;\n  if (desc) desc += ' ';\n  var date = info.date.replace(/n\\.d\\.?/, 'No Date');\n  if (!date) date = 'No Date';\n  desc += date;\n  return desc;\n}\n\nfunction libraryUrlForPhotoId(photo_id) {\n  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');\n}\n\nfunction backId(photo_id) {\n  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');\n}\n\nfunction backOfCardUrlForPhotoId(photo_id) {\n  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';\n}\n\n\nvar lat_lon_to_name = {};\n\n// Does this lat_lon have a name, e.g. \"Manhattan: 14th Street - 8th Avenue\"?\nfunction nameForLatLon(lat_lon) {\n  var v = lat_lon_to_name[lat_lon] || '';\n  return v.replace(/: | - | & /g, '\\n');\n}\n\nfunction extractName(lat_lon_json) {\n  // if any entries have an original_title, it's got to be a pure location.\n  for (var k in lat_lon_json) {\n    var v = lat_lon_json[k];\n    if (v.original_title) return v.original_title;\n  }\n}\n\nfunction findLatLonForPhoto(photo_id, cb) {\n  var id4 = photo_id.slice(0, 4);\n  $.ajax({\n    dataType: \"json\",\n    url: '/id4-to-location/' + id4 + '.json',\n    success: function (id_to_latlon) {\n      cb(id_to_latlon[photo_id]);\n    }\n  });\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/photo-info.js?");
+
+/***/ }),
+
+/***/ "./js/popular-photos.js":
+/*!******************************!*\
+  !*** ./js/popular-photos.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   popular_photos: () => (/* binding */ popular_photos)\n/* harmony export */ });\nvar popular_photos = [{\"date\": \"1910\", \"loc\": \"42nd & 5th ave\", \"height\": 249, \"id\": \"708760f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1936\", \"loc\": \"42nd & 5th ave\", \"height\": 145, \"id\": \"1508783-a\", \"desc\": \"Directing traffic and trolley\"}, {\"date\": \"1912\", \"loc\": \"42nd & 5th ave\", \"height\": 157, \"id\": \"708795f-a\", \"desc\": \"Ground level view of street\"}, {\"date\": \"1913\", \"loc\": \"42nd & 5th ave\", \"height\": 159, \"id\": \"712987f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1928\", \"loc\": \"42nd & 6th Avenue\", \"height\": 246, \"id\": \"713050f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1933\", \"loc\": \"42nd & 6th Avenue\", \"height\": 130, \"id\": \"713043f\", \"desc\": \"Under the elevated\"}, {\"date\": \"1939\", \"loc\": \"42nd & 6th Avenue\", \"height\": 159, \"id\": \"709480f-a\", \"desc\": \"Elevated train demolition\"}, {\"date\": \"1930s\", \"loc\": \"42nd & 6th Avenue\", \"height\": 198, \"id\": \"1558013\", \"desc\": \"Street scene\"}, {\"date\": \"1936\", \"loc\": \"Central Park\", \"height\": 160, \"id\": \"730166f-a\", \"desc\": \"Aerial view\"}, {\"date\": \"1933\", \"loc\": \"Central Park\", \"height\": 133, \"id\": \"718268f-b\", \"desc\": \"Roller skating\"}, {\"date\": \"1938\", \"loc\": \"Central Park\", \"height\": 229, \"id\": \"718346f-a\", \"desc\": \"Feeding birds\"}, {\"date\": \"\", \"loc\": \"Central Park\", \"height\": 298, \"id\": \"718282f-a\", \"desc\": \"On the lake\"}, {\"date\": \"\", \"loc\": \"Central Park\", \"height\": 160, \"id\": \"718194f-a\", \"desc\": \"Riding under an arch\"}, {\"date\": \"1905\", \"loc\": \"Central Park\", \"height\": 154, \"id\": \"718242f-b\", \"desc\": \"Ice skaters\"}, {\"date\": \"\", \"loc\": \"Central Park\", \"height\": 143, \"id\": \"718333f-a\", \"desc\": \"Playing croquet\"}, {\"date\": \"\", \"loc\": \"Central Park\", \"height\": 132, \"id\": \"718280f-a\", \"desc\": \"Quiet corner\"}, {\"date\": \"1892\", \"loc\": \"Central Park\", \"height\": 158, \"id\": \"718272f-a\", \"desc\": \"Strolling\"}, {\"date\": \"1933\", \"loc\": \"Central Park\", \"height\": 133, \"id\": \"718179f-b\", \"desc\": \"Aerial View\"}, {\"date\": \"1913\", \"loc\": \"Central Park\", \"height\": 130, \"id\": \"718284f\", \"desc\": \"Schoolboys drilling\"}, {\"date\": \"1926\", \"loc\": \"Prospect Park\", \"height\": 172, \"id\": \"706346f-a\", \"desc\": \"Prospect Park Plaza\"}, {\"date\": \"1880\", \"loc\": \"Prospect Park\", \"height\": 116, \"id\": \"706348f-b\", \"desc\": \"Lake view\"}, {\"date\": \"1864\", \"loc\": \"Central Park\", \"height\": 168, \"id\": \"718385f-a\", \"desc\": \"Rustic arbor\"}, {\"date\": \"1892\", \"loc\": \"Central Park\", \"height\": 164, \"id\": \"718262f-a\", \"desc\": \"Fountain\"}, {\"date\": \"1933\", \"loc\": \"Roosevelt Island\", \"height\": 158, \"id\": \"732193f-a\", \"desc\": \"Welfare (Roosevelt) Island\"}, {\"date\": \"1934\", \"loc\": \"Brooklyn Bridge\", \"height\": 134, \"id\": \"730718f-c\", \"desc\": \"Aerial View\"}, {\"date\": \"1932\", \"loc\": \"86th & 3rd\", \"height\": 130, \"id\": \"714705f-a\", \"desc\": \"Storefronts\"}, {\"date\": \"1926\", \"loc\": \"Colonial & Nassau\", \"height\": 154, \"id\": \"726358f-c\", \"desc\": \"Family on porch\"}, {\"date\": \"1939\", \"loc\": \"Duane & West\", \"height\": 136, \"id\": \"719363f-a\", \"desc\": \"Horse-drawn cart\"}, {\"date\": \"1929\", \"loc\": \"Weehawken & Christopher\", \"height\": 134, \"id\": \"724321f-b\", \"desc\": \"Coca-Cola ad\"}, {\"date\": \"\", \"loc\": \"George Washington Bridge\", \"height\": 156, \"id\": \"1558509\", \"desc\": \"\"}, {\"date\": \"1906\", \"loc\": \"Bayard & Chrystie\", \"height\": 159, \"id\": \"716608f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1931\", \"loc\": \"5th & 46th\", \"height\": 159, \"id\": \"708851f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1933\", \"loc\": \"Columbus Circle\", \"height\": 155, \"id\": \"719145f-a\", \"desc\": \"Tribute to Columbus\"}, {\"date\": \"1910\", \"loc\": \"Pelham Parkway\", \"height\": 146, \"id\": \"701498f-b\", \"desc\": \"At the racetrack\"}, {\"date\": \"1936\", \"loc\": \"9th & 40th\", \"height\": 129, \"id\": \"732438f-b\", \"desc\": \"Food vendors\"}, {\"date\": \"1911\", \"loc\": \"Poppy Joe Island Beach\", \"height\": 160, \"id\": \"730622f-a\", \"desc\": \"Local muskrat hunters\"}, {\"date\": \"1890\", \"loc\": \"Wallabout Bay\", \"height\": 102, \"id\": \"734085f-a\", \"desc\": \"Ship in port\"}, {\"date\": \"1933\", \"loc\": \"Greenwich Village\", \"height\": 299, \"id\": \"730568f-a\", \"desc\": \"Art Exhibit\"}, {\"date\": \"1936\", \"loc\": \"Battery Park\", \"height\": 134, \"id\": \"716520f-c\", \"desc\": \"Aerial view\"}, {\"date\": \"1921\", \"loc\": \"New Chambers & Madison\", \"height\": 141, \"id\": \"721912f-b\", \"desc\": \"Cobblestone\"}, {\"date\": \"1918\", \"loc\": \"5th & 25th\", \"height\": 242, \"id\": \"731285f-a\", \"desc\": \"Victory Arch\"}, {\"date\": \"1925\", \"loc\": \"Minetta & MacDougal\", \"height\": 168, \"id\": \"721650f-a\", \"desc\": \"Alley\"}, {\"date\": \"1932\", \"loc\": \"Canal & Chrystie\", \"height\": 169, \"id\": \"718806f-a\", \"desc\": \"Construction of Sarah Delano Roosevelt Park\"}, {\"date\": \"1933\", \"loc\": \"Hudson Street\", \"height\": 299, \"id\": \"733360f-c\", \"desc\": \"Thanksgiving ragamuffins\"}, {\"date\": \"1917\", \"loc\": \"Queensborough Bridge\", \"height\": 157, \"id\": \"730942f-a\", \"desc\": \"Construction\"}, {\"date\": \"1903\", \"loc\": \"Williamsburg Bridge\", \"height\": 129, \"id\": \"731081f\", \"desc\": \"Under construction\"}, {\"date\": \"1890\", \"loc\": \"Mott & Park\", \"height\": 177, \"id\": \"721756f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1900\", \"loc\": \"Broad St & Wall St\", \"height\": 159, \"id\": \"716841f-a\", \"desc\": \"Street scene\"}, {\"date\": \"1873\", \"loc\": \"Brooklyn Bridge\", \"height\": 153, \"id\": \"730663f-a\", \"desc\": \"Under construction; view of Manhattan\"}, {\"date\": \"1879\", \"loc\": \"Brooklyn Bridge\", \"height\": 254, \"id\": \"730665f-a\", \"desc\": \"Under construction; view of Manhattan\"}, {\"date\": \"1939\", \"loc\": \"Coney Island\", \"height\": 129, \"id\": \"731939f\", \"desc\": \"Beach scene\"}, {\"date\": \"1922\", \"loc\": \"Queens\", \"height\": 152, \"id\": \"725900f-a\", \"desc\": \"Country house (now JFK airport)\"}, {\"date\": \"1901\", \"loc\": \"Broadway & 34th\", \"height\": 156, \"id\": \"717404f-a\", \"desc\": \"Street scene with muddy road\"}, {\"date\": \"1921\", \"loc\": \"Broadway & 34th\", \"height\": 158, \"id\": \"1558433\", \"desc\": \"View of street scene from elevated tracks\"}];\n\n//# sourceURL=webpack://oldnyc/./js/popular-photos.js?");
+
+/***/ }),
+
+/***/ "./js/search.js":
+/*!**********************!*\
+  !*** ./js/search.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _viewer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./viewer */ \"./js/viewer.js\");\n// @ts-check\n/**\n * This module supports address search and the current location button.\n */\n\n\n\nlet locationMarker = null;\n\nfunction setLocation(latLng, title) {\n  _viewer__WEBPACK_IMPORTED_MODULE_0__.map.panTo(latLng);\n  _viewer__WEBPACK_IMPORTED_MODULE_0__.map.setZoom(17);\n\n  if (locationMarker) {\n    locationMarker.setMap(null);\n  }\n  locationMarker = new google.maps.Marker({\n    position: latLng,\n    map: _viewer__WEBPACK_IMPORTED_MODULE_0__.map,\n    title\n  });\n}\n\n$(() => {\n  $('#location-search').on('keypress', function(e) {\n    if (e.which !== 13) return;\n\n    const address = $(this).val();\n    $.getJSON('https://maps.googleapis.com/maps/api/geocode/json', {\n      address,\n      key: 'AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA',\n      bounds: '40.490856,-74.260895|41.030091,-73.578699'\n    }).done(response => {\n      const latLng = response.results[0].geometry.location;\n      setLocation(latLng, address);\n      ga('send', 'event', 'link', 'address-search');\n    }).fail(e => {\n      console.error(e);\n      ga('send', 'event', 'link', 'address-search-fail');\n    })\n  });\n\n  $('#current-location').on('click', () => {\n    navigator.geolocation.getCurrentPosition(position => {\n      const { latitude, longitude } = position.coords;\n      setLocation({lat: latitude, lng: longitude}, 'Current Location');\n      ga('send', 'event', 'link', 'current-location');\n    }, e => {\n      console.error(e);\n      ga('send', 'event', 'link', 'current-location-error');\n    });\n  });\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/search.js?");
+
+/***/ }),
+
+/***/ "./js/social.js":
+/*!**********************!*\
+  !*** ./js/social.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getCanonicalUrlForPhoto: () => (/* binding */ getCanonicalUrlForPhoto),\n/* harmony export */   getCommentCount: () => (/* binding */ getCommentCount)\n/* harmony export */ });\n// @ts-check\nfunction getCanonicalUrlForPhoto(photo_id) {\n  return 'http://www.oldnyc.org/#' + photo_id;\n}\n\nfunction getCommentCount(photo_ids) {\n  // There is a batch API:\n  // https://developers.facebook.com/docs/graph-api/making-multiple-requests/\n  return $.get('https://graph.facebook.com/', {\n      'ids': $.map(photo_ids, function(id) {\n          return getCanonicalUrlForPhoto(id);\n      }).join(',')\n  }).then(function(obj) {\n    // obj is something like {url: {'id', 'shares', 'comments'}}\n    // convert it to {id: comments}\n    var newObj = {};\n    $.each(obj, function(url, data) {\n      newObj[url.replace(/.*#/, '')] = data['comments'] || 0;\n    });\n    return newObj;\n  });\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/social.js?");
+
+/***/ }),
+
+/***/ "./js/url-state.js":
+/*!*************************!*\
+  !*** ./js/url-state.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getCurrentStateObject: () => (/* binding */ getCurrentStateObject),\n/* harmony export */   hashToStateObject: () => (/* binding */ hashToStateObject),\n/* harmony export */   stateObjectToHash: () => (/* binding */ stateObjectToHash),\n/* harmony export */   transitionToStateObject: () => (/* binding */ transitionToStateObject)\n/* harmony export */ });\n/* harmony import */ var _viewer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./viewer */ \"./js/viewer.js\");\n/* harmony import */ var _photo_info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./photo-info */ \"./js/photo-info.js\");\n// @ts-check\n// The URL looks like one of these:\n// /\n// /#photo_id\n// /#g:lat,lon\n// /#photo_id,g:lat,lon\n\n\n\n\n// Returns {photo_id:string, g:string}\nfunction getCurrentStateObject() {\n  if (!$('#expanded').is(':visible')) {\n    return {};\n  }\n  var g = $('#expanded').data('grid-key');\n  var selectedId = $('#grid-container').expandableGrid('selectedId');\n\n  return selectedId ? { photo_id: selectedId, g: g } : { g: g };\n}\n\n// Converts the string after '#' in a URL into a state object,\n// {photo_id:string, g:string}\n// This is asynchronous because it may need to fetch ID->lat/lon info.\nfunction hashToStateObject(hash, cb) {\n  var m = hash.match(/(.*),g:(.*)/);\n  if (m) {\n    cb({photo_id: m[1], g: m[2]});\n  } else if (hash.substr(0, 2) == 'g:') {\n    cb({g: hash.substr(2)});\n  } else if (hash.length > 0) {\n    var photo_id = hash;\n    (0,_photo_info__WEBPACK_IMPORTED_MODULE_1__.findLatLonForPhoto)(photo_id, function(g) {\n      cb({photo_id: hash, g: g});\n    });\n  } else {\n    cb({});\n  }\n}\n\nfunction stateObjectToHash(state) {\n  if (state.photo_id) {\n    if (state.g == 'pop') {\n      return state.photo_id + ',g:pop';\n    } else {\n      return state.photo_id;\n    }\n  }\n\n  if (state.g) {\n    return 'g:' + state.g;\n  }\n  return '';\n}\n\n// Change whatever is currently displayed to reflect the state in obj.\n// This change may happen asynchronously.\n// This won't affect the URL hash.\nfunction transitionToStateObject(targetState) {\n  var currentState = getCurrentStateObject();\n\n  // This normalizes the state, i.e. adds a 'g' field to if it's implied.\n  // (it also strips out extraneous fields)\n  hashToStateObject(stateObjectToHash(targetState), function(state) {\n    if (JSON.stringify(currentState) == JSON.stringify(state)) {\n      return;  // nothing to do.\n    }\n\n    // Reset to map view.\n    if (JSON.stringify(state) == '{}') {\n      (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.hideAbout)();\n      (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.hideExpanded)();\n    }\n\n    // Show a different grid?\n    if (currentState.g != state.g) {\n      var lat_lon = state.g;\n      var count = (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.countPhotos)(lat_lons[lat_lon]);\n      if (state.g == 'pop') {\n        count = (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.getPopularPhotoIds)().length;\n      } else {\n        // Highlight the marker, creating it if necessary.\n        var marker = _viewer__WEBPACK_IMPORTED_MODULE_0__.lat_lon_to_marker[lat_lon];\n        var latLng = (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.parseLatLon)(lat_lon);\n        if (!marker) {\n          marker = (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.createMarker)(lat_lon, latLng);\n        }\n        if (marker) {\n          (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.selectMarker)(marker, count);\n          if (!_viewer__WEBPACK_IMPORTED_MODULE_0__.map.getBounds().contains(latLng)) {\n            _viewer__WEBPACK_IMPORTED_MODULE_0__.map.panTo(latLng);\n          }\n        }\n      }\n      (0,_photo_info__WEBPACK_IMPORTED_MODULE_1__.loadInfoForLatLon)(lat_lon).done(function(photo_ids) {\n        (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.showExpanded)(state.g, photo_ids, state.photo_id);\n      });\n      return;\n    }\n\n    if (currentState.photo_id && !state.photo_id) {\n      // Hide the selected photo\n      $('#grid-container').expandableGrid('deselect');\n    } else {\n      // Show a different photo\n      $('#grid-container').expandableGrid('select', state.photo_id);\n    }\n  });\n}\n\n\n//# sourceURL=webpack://oldnyc/./js/url-state.js?");
+
+/***/ }),
+
+/***/ "./js/viewer.js":
+/*!**********************!*\
+  !*** ./js/viewer.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   countPhotos: () => (/* binding */ countPhotos),\n/* harmony export */   createMarker: () => (/* binding */ createMarker),\n/* harmony export */   fillPopularImagesPanel: () => (/* binding */ fillPopularImagesPanel),\n/* harmony export */   getPopularPhotoIds: () => (/* binding */ getPopularPhotoIds),\n/* harmony export */   hideAbout: () => (/* binding */ hideAbout),\n/* harmony export */   hideExpanded: () => (/* binding */ hideExpanded),\n/* harmony export */   initialize_map: () => (/* binding */ initialize_map),\n/* harmony export */   lat_lon_to_marker: () => (/* binding */ lat_lon_to_marker),\n/* harmony export */   map: () => (/* binding */ map),\n/* harmony export */   mapPromise: () => (/* binding */ mapPromise),\n/* harmony export */   parseLatLon: () => (/* binding */ parseLatLon),\n/* harmony export */   selectMarker: () => (/* binding */ selectMarker),\n/* harmony export */   showAbout: () => (/* binding */ showAbout),\n/* harmony export */   showExpanded: () => (/* binding */ showExpanded),\n/* harmony export */   updateYears: () => (/* binding */ updateYears)\n/* harmony export */ });\n/* harmony import */ var _photo_info__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./photo-info */ \"./js/photo-info.js\");\n/* harmony import */ var _map_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./map-styles */ \"./js/map-styles.js\");\n/* harmony import */ var _social__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./social */ \"./js/social.js\");\n/* harmony import */ var _feedback__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./feedback */ \"./js/feedback.js\");\n/* harmony import */ var _popular_photos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./popular-photos */ \"./js/popular-photos.js\");\n// @ts-check\n\n\n\n\n\n\nvar markers = [];\nvar marker_icons = [];\nvar lat_lon_to_marker = {};\nvar selected_marker_icons = [];\nvar selected_marker, selected_icon;\nvar year_range = [1800, 2000];\n\n/** @type google.maps.Map | undefined */\nlet map;\nvar mapPromise = $.Deferred();\n\n// TODO: inline image source into popular-photos.js and get rid of this.\nfunction expandedImageUrl(photo_id) {\n  return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';\n}\n\n// lat_lon is a \"lat,lon\" string.\nfunction makeStaticMapsUrl(lat_lon) {\n  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + _map_styles__WEBPACK_IMPORTED_MODULE_1__.STATIC_MAP_STYLE;\n}\n\nfunction isFullTimeRange(yearRange) {\n  return (yearRange[0] === 1800 && yearRange[1] === 2000);\n}\n\n// A photo is in the date range if any dates mentioned in it are in the range.\n// For example, \"1927; 1933; 1940\" is in the range [1920, 1930].\nfunction isPhotoInDateRange(info, yearRange) {\n  if (isFullTimeRange(yearRange)) return true;\n\n  const [first, last] = yearRange;\n  for (let i = 0; i < info.years.length; i++) {\n    const year = info.years[i];\n    if (year && year >= first && year <= last) return true;\n  }\n  return false;\n}\n\n/** @param {{[year: string]: number}} yearToCounts */\nfunction countPhotos(yearToCounts) {\n  if (isFullTimeRange(year_range)) {\n    // This includes undated photos.\n    return Object.values(yearToCounts || {}).reduce((a, b) => a + b, 0);\n  } else {\n    const [first, last] = year_range;\n    return Object.entries(yearToCounts || {})\n        .filter(([y]) => (y > first && y <= last))\n        .map(([, c]) => c)\n        .reduce((a, b) => a + b, 0);\n  }\n}\n\n// Make the given marker the currently selected marker.\n// This is purely UI code, it doesn't touch anything other than the marker.\nfunction selectMarker(marker, yearToCounts) {\n  const numPhotos = countPhotos(yearToCounts);\n  var zIndex = 0;\n  if (selected_marker) {\n    zIndex = selected_marker.getZIndex();\n    selected_marker.setIcon(selected_icon);\n  }\n\n  if (marker) {\n    selected_marker = marker;\n    selected_icon = marker.getIcon();\n    marker.setIcon(selected_marker_icons[numPhotos > 100 ? 100 : numPhotos]);\n    marker.setZIndex(100000 + zIndex);\n  }\n}\n\nfunction updateYears(firstYear, lastYear) {\n  year_range = [firstYear, lastYear];\n  for (const [lat_lon, marker] of Object.entries(lat_lon_to_marker)) {\n    const count = countPhotos(lat_lons[lat_lon]);\n    if (count) {\n      marker.setIcon(marker_icons[Math.min(count, 100)]);\n      marker.setVisible(true);\n    } else {\n      marker.setVisible(false);\n    }\n  }\n  addNewlyVisibleMarkers();\n  $('#time-range-labels').text(`${firstYear}–${lastYear}`);\n}\n\n// The callback gets fired when the info for all lat/lons at this location\n// become available (i.e. after the /info RPC returns).\nfunction displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {\n  if (marker) selectMarker(marker, lat_lons[lat_lon]);\n\n  (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.loadInfoForLatLon)(lat_lon).done(function(photoIds) {\n    var selectedId = null;\n    if (photoIds.length <= 10) {\n      selectedId = photoIds[0];\n    }\n    showExpanded(lat_lon, photoIds, selectedId);\n    if (opt_selectCallback && selectedId) {\n      opt_selectCallback(selectedId);\n    }\n  }).fail(function() {\n  });\n}\n\nfunction handleClick(e) {\n  var lat_lon = e.latLng.lat().toFixed(6) + ',' + e.latLng.lng().toFixed(6)\n  var marker = lat_lon_to_marker[lat_lon];\n  displayInfoForLatLon(lat_lon, marker, function(photo_id) {\n    $(window).trigger('openPreviewPanel');\n    $(window).trigger('showPhotoPreview', photo_id);\n  });\n  $(window).trigger('showGrid', lat_lon);\n}\n\nfunction initialize_map() {\n  var latlng = new google.maps.LatLng(40.74421, -73.97370);\n  var opts = {\n    zoom: 15,\n    maxZoom: 18,\n    minZoom: 10,\n    center: latlng,\n    mapTypeId: google.maps.MapTypeId.ROADMAP,\n    mapTypeControl: false,\n    streetViewControl: true,\n    panControl: false,\n    zoomControlOptions: {\n      position: google.maps.ControlPosition.LEFT_TOP\n    },\n    styles: _map_styles__WEBPACK_IMPORTED_MODULE_1__.MAP_STYLE\n  };\n\n  map = new google.maps.Map($('#map').get(0), opts);\n\n  // This shoves the navigation bits down by a CSS-specified amount\n  // (see the .spacer rule). This is surprisingly hard to do.\n  var map_spacer = $('<div/>').append($('<div/>').addClass('spacer')).get(0);\n  map_spacer.index = -1;\n  map.controls[google.maps.ControlPosition.TOP_LEFT].push(map_spacer);\n\n  // The OldSF UI just gets in the way of Street View.\n  // Even worse, it blocks the \"exit\" button!\n  var streetView = map.getStreetView();\n  google.maps.event.addListener(streetView, 'visible_changed',\n      function() {\n        $('.streetview-hide').toggle(!streetView.getVisible());\n      });\n\n  // Create marker icons for each number.\n  marker_icons.push(null);  // it's easier to be 1-based.\n  selected_marker_icons.push(null);\n  for (var i = 0; i < 100; i++) {\n    var num = i + 1;\n    var size = (num == 1 ? 9 : 13);\n    var selectedSize = (num == 1 ? 15 : 21);\n    marker_icons.push(new google.maps.MarkerImage(\n      'images/sprite-2014-08-29.png',\n      new google.maps.Size(size, size),\n      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),\n      new google.maps.Point((size - 1) / 2, (size - 1)/2)\n    ));\n    selected_marker_icons.push(new google.maps.MarkerImage(\n      'images/selected-2014-08-29.png',\n      new google.maps.Size(selectedSize, selectedSize),\n      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),\n      new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)\n    ));\n  }\n\n  // Adding markers is expensive -- it's important to defer this when possible.\n  var idleListener = google.maps.event.addListener(map, 'idle', function() {\n    google.maps.event.removeListener(idleListener);\n    addNewlyVisibleMarkers();\n    mapPromise.resolve(map);\n  });\n\n  google.maps.event.addListener(map, 'bounds_changed', function() {\n    addNewlyVisibleMarkers();\n  });\n}\n\nfunction addNewlyVisibleMarkers() {\n  var bounds = map.getBounds();\n\n  for (var lat_lon in lat_lons) {\n    if (lat_lon in lat_lon_to_marker) continue;\n\n    var pos = parseLatLon(lat_lon);\n    if (!bounds.contains(pos)) continue;\n\n    createMarker(lat_lon, pos);\n  }\n}\n\nfunction parseLatLon(lat_lon) {\n  var ll = lat_lon.split(\",\");\n  return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));\n}\n\nfunction createMarker(lat_lon, latLng) {\n  const count = countPhotos(lat_lons[lat_lon]);\n  if (!count) {\n    return;\n  }\n  const marker = new google.maps.Marker({\n    position: latLng,\n    map: map,\n    flat: true,\n    visible: true,\n    icon: marker_icons[Math.min(count, 100)],\n    title: lat_lon\n  });\n  markers.push(marker);\n  lat_lon_to_marker[lat_lon] = marker;\n  google.maps.event.addListener(marker, 'click', handleClick);\n  return marker;\n}\n\n\n// NOTE: This can only be called when the info for all photo_ids at the current\n// position have been loaded (in particular the image widths).\n// key is used to construct URL fragments.\nfunction showExpanded(key, photo_ids, opt_selected_id) {\n  hideAbout();\n  map.set('keyboardShortcuts', false);\n  $('#expanded').show().data('grid-key', key);\n  $('.location').text((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.nameForLatLon)(key));\n  if (isFullTimeRange(year_range)) {\n    $('#filtered-slideshow').hide();\n  } else {\n    const [first, last] = year_range;\n    $('#filtered-slideshow').show();\n    $('#slideshow-filter-first').text(first);\n    $('#slideshow-filter-last').text(last);\n  }\n  var images = $.map(photo_ids, function(photo_id) {\n    var info = (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.infoForPhotoId)(photo_id);\n    if (!isPhotoInDateRange(info, year_range)) return null;\n    return $.extend({\n      id: photo_id,\n      largesrc: info.image_url,\n      src: info.thumb_url,\n      width: 600,   // these are fallbacks\n      height: 400\n    }, info);\n  });\n  images = images.filter(image => image !== null);\n  $('#preview-map').attr('src', makeStaticMapsUrl(key));\n  $('#grid-container').expandableGrid({\n    rowHeight: 200,\n    speed: 200 /* ms for transitions */\n  }, images);\n  if (opt_selected_id) {\n    $('#grid-container').expandableGrid('select', opt_selected_id);\n  }\n}\n\nfunction hideExpanded() {\n  $('#expanded').hide();\n  $(document).unbind('keyup');\n  map.set('keyboardShortcuts', true);\n}\n\n// This fills out details for either a thumbnail or the expanded image pane.\nfunction fillPhotoPane(photo_id, $pane) {\n  // $pane is div.og-details\n  // This could be either a thumbnail on the right-hand side or an expanded\n  // image, front and center.\n  $('.description', $pane).html((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.descriptionForPhotoId)(photo_id));\n\n  var info = (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.infoForPhotoId)(photo_id);\n  var library_url = (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.libraryUrlForPhotoId)(photo_id);\n\n  // this one is actually on the left panel, not $pane.\n  $pane.parent().find('.nypl-link a').attr('href', library_url);\n  $('.nypl-logo a').attr('href', library_url);\n\n  var canonicalUrl = (0,_social__WEBPACK_IMPORTED_MODULE_2__.getCanonicalUrlForPhoto)(photo_id);\n\n  // OCR'd text\n  (0,_feedback__WEBPACK_IMPORTED_MODULE_3__.getFeedbackText)((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.backId)(photo_id)).done(function(ocr) {\n    var text = ocr ? ocr.text : info.text;\n    var ocr_url = '/ocr.html#' + photo_id,\n        hasBack = photo_id.match('[0-9]f');\n\n    if (text) {\n      var $text = $pane.find('.text');\n      $text.text(text.replace(/\\n*$/, ''));\n      $text.append($('<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>'));\n      $text.find('a').attr('href', ocr_url);\n    } else if (hasBack) {\n      var $more = $pane.find('.more-on-back');\n      $more.find('a.ocr-tool').attr('href', ocr_url);\n      $more.find('a.nypl').attr('href', library_url);\n      $more.show();\n    }\n  });\n\n  if (typeof(FB) != 'undefined') {\n    var $comments = $pane.find('.comments');\n    var width = $comments.parent().width();\n    $comments.empty().append(\n        $('<fb:comments data-numposts=\"5\" data-colorscheme=\"light\"/>')\n            .attr('data-width', width)\n            .attr('data-href', canonicalUrl)\n            .attr('data-version', 'v2.3'))\n    FB.XFBML.parse($comments.get(0));\n    console.log(canonicalUrl);\n  }\n\n  // Social links\n  var client = new ZeroClipboard($pane.find('.copy-link'));\n  client.on('ready', function() {\n    client.on('copy', function(event) {\n      var clipboard = event.clipboardData;\n      clipboard.setData('text/plain', window.location.href);\n    });\n    client.on( 'aftercopy', function( event ) {\n      var $btn = $(event.target);\n      $btn.css({width: $btn.get(0).offsetWidth}).addClass('clicked').text('Copied!');\n    });\n  });\n\n  // Some browser plugins block twitter\n  if (typeof(twttr) != 'undefined') {\n    twttr.ready(({widgets}) => {\n      widgets.createShareButton(\n        document.location.href,\n        $pane.find('.tweet').get(0), {\n          count: 'none',\n          text: (info.original_title || info.title) + ' - ' + info.date,\n          via: 'Old_NYC @NYPL'\n        });\n    });\n  }\n\n  if (typeof(FB) != 'undefined') {\n    var $fb_holder = $pane.find('.facebook-holder');\n    $fb_holder.empty().append($('<fb:like>').attr({\n        'href': canonicalUrl,\n        'layout': 'button',\n        'action': 'like',\n        'show_faces': 'false',\n        'share': 'true'\n      }));\n    FB.XFBML.parse($fb_holder.get(0));\n  }\n\n  // Scrolling the panel shouldn't scroll the whole grid.\n  // See http://stackoverflow.com/a/10514680/388951\n  $pane.off(\"mousewheel\").on(\"mousewheel\", function(event) {\n    var height = $pane.height(),\n        scrollHeight = $pane.get(0).scrollHeight;\n    var blockScrolling = this.scrollTop === scrollHeight - height &&\n                         event.deltaY < 0 || this.scrollTop === 0 &&\n                         event.deltaY > 0;\n    return !blockScrolling;\n  });\n}\n\nfunction photoIdFromATag(a) {\n  return $(a).attr('href').replace('/#', '');\n}\n\nfunction getPopularPhotoIds() {\n  return $('.popular-photo:visible a').map(function(_, a) {\n    return photoIdFromATag(a);\n  }).toArray();\n}\n\n// User selected a photo in the \"popular\" grid. Update the static map.\nfunction updateStaticMapsUrl(photo_id) {\n  var key = 'New York City';\n  var lat_lon = (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.findLatLonForPhoto)(photo_id);\n  if (lat_lon) key = lat_lon;\n  $('#preview-map').attr('src', makeStaticMapsUrl(key));\n}\n\nfunction fillPopularImagesPanel() {\n  // Rotate the images daily.\n  var elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime(),\n      elapsedDays = Math.floor(elapsedMs / 86400 / 1000),\n      shift = elapsedDays % _popular_photos__WEBPACK_IMPORTED_MODULE_4__.popular_photos.length;\n  var shownPhotos = _popular_photos__WEBPACK_IMPORTED_MODULE_4__.popular_photos.slice(shift).concat(_popular_photos__WEBPACK_IMPORTED_MODULE_4__.popular_photos.slice(0, shift));\n\n  var makePanel = function(row) {\n    var $panel = $('#popular-photo-template').clone().removeAttr('id');\n    $panel.find('a').attr('href', '#' + row.id);\n    $panel.find('img')\n        .attr('border', '0')  // For IE8\n        .attr('data-src', expandedImageUrl(row.id))\n        .attr('height', row.height);\n    $panel.find('.desc').text(row.desc);\n    $panel.find('.loc').text(row.loc);\n    if (row.date) $panel.find('.date').text(' (' + row.date + ')');\n    return $panel.get(0);\n  };\n\n  var popularPhotos = $.map(shownPhotos, makePanel);\n  $('#popular').append($(popularPhotos).show());\n  $(popularPhotos).appear({force_process:true});\n  $('#popular').on('appear', '.popular-photo', function() {\n    var $img = $(this).find('img[data-src]');\n    loadDeferredImage($img.get(0));\n  });\n}\n\nfunction loadDeferredImage(img) {\n  var $img = $(img);\n  if ($img.attr('src')) return;\n  $(img)\n    .attr('src', $(img).attr('data-src'))\n    .removeAttr('data-src');\n}\n\nfunction hidePopular() {\n  $('#popular').hide();\n  $('.popular-link').show();\n}\nfunction showPopular() {\n  $('#popular').show();\n  $('.popular-link').hide();\n  $('#popular').appear({force_process: true});\n}\n\nfunction showAbout() {\n  hideExpanded();\n  $('#about-page').show();\n  // Hack! There's probably a way to do this with CSS\n  var $container = $('#about-page .container');\n  var w = $container.width();\n  var mw = parseInt($container.css('max-width'), 0);\n  if (w < mw) {\n    $container.css('margin-left', '-' + (w / 2) + 'px');\n  }\n}\nfunction hideAbout() {\n  $('#about-page').hide();\n}\n\n// See http://stackoverflow.com/a/30112044/388951\n$.fn.scrollGuard = function() {\n  return this.on('mousewheel', function() {\n    var scrollHeight = this.scrollHeight,\n        height = $(this).height();\n    var blockScrolling = this.scrollTop === scrollHeight - height && event.deltaY < 0 || this.scrollTop === 0 && event.deltaY > 0;\n    return !blockScrolling;\n  });\n};\n\n$(function() {\n  // Clicks on the background or \"exit\" button should leave the slideshow.\n  $(document).on('click', '#expanded .curtains, #expanded .exit', function() {\n    hideExpanded();\n    $(window).trigger('hideGrid');\n  });\n  $('#grid-container, #expanded .header').on('click', function(e) {\n    if (e.target == this || $(e.target).is('.og-grid')) {\n      hideExpanded();\n      $(window).trigger('hideGrid');\n    }\n  });\n\n  // Fill in the expanded preview pane.\n  $('#grid-container').on('og-fill', 'li', function(e, div) {\n    var id = $(this).data('image-id');\n    $(div).empty().append(\n        $('#image-details-template').clone().removeAttr('id').show());\n    $(div).parent().find('.og-details-left').empty().append(\n        $('#image-details-left-template').clone().removeAttr('id').show());\n    fillPhotoPane(id, $(div));\n\n    var g = $('#expanded').data('grid-key');\n    if (g == 'pop') {\n      updateStaticMapsUrl(id);\n    }\n  })\n  .on('click', '.og-fullimg > img', function() {\n    var photo_id = $('#grid-container').expandableGrid('selectedId');\n    window.open((0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.libraryUrlForPhotoId)(photo_id), '_blank');\n  });\n\n  $('#grid-container').on('click', '.rotate-image-button', function(e) {\n    e.preventDefault();\n    var $img = $(this).closest('li').find('.og-fullimg > img');\n    var currentRotation = $img.data('rotate') || 0;\n    currentRotation += 90;\n    $img\n      .css('transform', 'rotate(' + currentRotation + 'deg)')\n      .data('rotate', currentRotation);\n\n    var photo_id = $('#grid-container').expandableGrid('selectedId');\n    ga('send', 'event', 'link', 'rotate', {\n      'page': '/#' + photo_id + '(' + currentRotation + ')'\n    });\n    (0,_feedback__WEBPACK_IMPORTED_MODULE_3__.sendFeedback)(photo_id, 'rotate', {\n      'rotate': currentRotation,\n      'original': (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.infoForPhotoId)(photo_id).rotation || null\n    });\n  }).on('click', '.feedback-button', function(e) {\n    e.preventDefault();\n    $('#grid-container .details').fadeOut();\n    $('#grid-container .feedback').fadeIn();\n  }).on('click', 'a.back', function(e) {\n    e.preventDefault();\n    $('#grid-container .feedback').fadeOut();\n    $('#grid-container .details').fadeIn();\n  });\n  $(document).on('keyup', 'input, textarea', function(e) { e.stopPropagation(); });\n\n  $('.popular-photo').on('click', 'a', function(e) {\n    e.preventDefault();\n    var selectedPhotoId = photoIdFromATag(this);\n\n    (0,_photo_info__WEBPACK_IMPORTED_MODULE_0__.loadInfoForLatLon)('pop').done(function(photoIds) {\n      showExpanded('pop', photoIds, selectedPhotoId);\n      $(window).trigger('showGrid', 'pop');\n      $(window).trigger('openPreviewPanel');\n      $(window).trigger('showPhotoPreview', selectedPhotoId);\n    }).fail(function() {\n    });\n  });\n\n  // ... it's annoying that we have to do this. jquery.appear.js should work!\n  $('#popular').on('scroll', function() {\n    $(this).appear({force_process: true});\n  });\n\n  // Show/hide popular images\n  $('#popular .close').on('click', function() {\n    (0,_feedback__WEBPACK_IMPORTED_MODULE_3__.setCookie)('nopop', '1');\n    hidePopular();\n  });\n  $('.popular-link a').on('click', function(e) {\n    showPopular();\n    (0,_feedback__WEBPACK_IMPORTED_MODULE_3__.deleteCookie)('nopop');\n    e.preventDefault();\n  });\n  if (document.cookie.indexOf('nopop=') >= 0) {\n    hidePopular();\n  }\n\n  // Display the about page on top of the map.\n  $('#about a').on('click', function(e) {\n    e.preventDefault();\n    showAbout();\n  });\n  $('#about-page .curtains, #about-page .exit').on('click', hideAbout);\n\n  // Record feedback on images. Can have a parameter or not.\n  var thanks = function(button) {\n    return function() { $(button).text('Thanks!'); };\n  };\n  $('#grid-container').on('click', '.feedback button[feedback]', function() {\n    var $button = $(this);\n    var value = true;\n    if ($button.attr('feedback-param')) {\n      var $input = $button.siblings('input, textarea');\n      value = $input.val();\n      if (value == '') return;\n      $input.prop('disabled', true);\n    }\n    $button.prop('disabled', true);\n    var photo_id = $('#grid-container').expandableGrid('selectedId');\n    var type = $button.attr('feedback');\n    var obj = {}; obj[type] = value;\n    (0,_feedback__WEBPACK_IMPORTED_MODULE_3__.sendFeedback)(photo_id, type, obj).then(thanks($button.get(0)));\n  });\n\n  $('#grid-container').on('og-select', 'li', function() {\n    var photo_id = $(this).data('image-id')\n    $(window).trigger('showPhotoPreview', photo_id);\n  }).on('og-deselect', function() {\n    $(window).trigger('closePreviewPanel');\n  }).on('og-openpreview', function() {\n    $(window).trigger('openPreviewPanel');\n  });\n\n  $('#time-slider').slider({\n    range: true,\n    min: 1800,\n    max: 2000,\n    values: year_range,\n    slide: (event, ui) => {\n      const [a, b] = ui.values;\n      updateYears(a, b);\n    },\n    stop: (event, ui) => {\n      const [a, b] = ui.values;\n      ga('send', 'event', 'link', 'time-slider', {\n        'page': `/#${a}–${b}`\n      });\n    }\n  });\n\n  $('#time-range-summary').on('click', () => {\n    $('#time-range').toggle();\n  });\n\n  $('#slideshow-all').on('click', () => {\n    updateYears(1800, 2000);\n    $('#time-slider').slider({\n      values: year_range\n    });\n    const lat_lon = $('#expanded').data('grid-key');\n    ga('send', 'event', 'link', 'time-slider-clear');\n    hideExpanded();\n    displayInfoForLatLon(lat_lon);\n  });\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/viewer.js?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
-
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
-/******/ 			return installedModules[moduleId].exports;
-
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			exports: {},
-/******/ 			id: moduleId,
-/******/ 			loaded: false
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
 /******/ 		};
-
+/******/ 	
 /******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
-
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-
-
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(0);
-/******/ })
+/******/ 	
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _viewer = __webpack_require__(1);
-
-	__webpack_require__(7);
-
-	__webpack_require__(10);
-
-	$(function () {
-	  (0, _viewer.fillPopularImagesPanel)();
-	  (0, _viewer.initialize_map)();
-	});
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.mapPromise = exports.map = exports.lat_lon_to_marker = undefined;
-
-	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }(); // @ts-check
-
-
-	exports.countPhotos = countPhotos;
-	exports.selectMarker = selectMarker;
-	exports.updateYears = updateYears;
-	exports.initialize_map = initialize_map;
-	exports.parseLatLon = parseLatLon;
-	exports.createMarker = createMarker;
-	exports.showExpanded = showExpanded;
-	exports.hideExpanded = hideExpanded;
-	exports.getPopularPhotoIds = getPopularPhotoIds;
-	exports.fillPopularImagesPanel = fillPopularImagesPanel;
-	exports.showAbout = showAbout;
-	exports.hideAbout = hideAbout;
-
-	var _photoInfo = __webpack_require__(2);
-
-	var _mapStyles = __webpack_require__(3);
-
-	var _social = __webpack_require__(4);
-
-	var _feedback = __webpack_require__(5);
-
-	var _popularPhotos = __webpack_require__(6);
-
-	var markers = [];
-	var marker_icons = [];
-	var lat_lon_to_marker = exports.lat_lon_to_marker = {};
-	var selected_marker_icons = [];
-	var selected_marker, selected_icon;
-	var year_range = [1800, 2000];
-
-	/** @type google.maps.Map | undefined */
-	var map = exports.map = void 0;
-	var mapPromise = exports.mapPromise = $.Deferred();
-
-	// TODO: inline image source into popular-photos.js and get rid of this.
-	function expandedImageUrl(photo_id) {
-	  return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';
-	}
-
-	// lat_lon is a "lat,lon" string.
-	function makeStaticMapsUrl(lat_lon) {
-	  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + _mapStyles.STATIC_MAP_STYLE;
-	}
-
-	function isFullTimeRange(yearRange) {
-	  return yearRange[0] === 1800 && yearRange[1] === 2000;
-	}
-
-	// A photo is in the date range if any dates mentioned in it are in the range.
-	// For example, "1927; 1933; 1940" is in the range [1920, 1930].
-	function isPhotoInDateRange(info, yearRange) {
-	  if (isFullTimeRange(yearRange)) return true;
-
-	  var _yearRange = _slicedToArray(yearRange, 2),
-	      first = _yearRange[0],
-	      last = _yearRange[1];
-
-	  for (var i = 0; i < info.years.length; i++) {
-	    var year = info.years[i];
-	    if (year && year >= first && year <= last) return true;
-	  }
-	  return false;
-	}
-
-	/** @param {{[year: string]: number}} yearToCounts */
-	function countPhotos(yearToCounts) {
-	  if (isFullTimeRange(year_range)) {
-	    // This includes undated photos.
-	    return Object.values(yearToCounts || {}).reduce(function (a, b) {
-	      return a + b;
-	    }, 0);
-	  } else {
-	    var _year_range = year_range,
-	        _year_range2 = _slicedToArray(_year_range, 2),
-	        first = _year_range2[0],
-	        last = _year_range2[1];
-
-	    return Object.entries(yearToCounts || {}).filter(function (_ref) {
-	      var _ref2 = _slicedToArray(_ref, 1),
-	          y = _ref2[0];
-
-	      return y > first && y <= last;
-	    }).map(function (_ref3) {
-	      var _ref4 = _slicedToArray(_ref3, 2),
-	          c = _ref4[1];
-
-	      return c;
-	    }).reduce(function (a, b) {
-	      return a + b;
-	    }, 0);
-	  }
-	}
-
-	// Make the given marker the currently selected marker.
-	// This is purely UI code, it doesn't touch anything other than the marker.
-	function selectMarker(marker, yearToCounts) {
-	  var numPhotos = countPhotos(yearToCounts);
-	  var zIndex = 0;
-	  if (selected_marker) {
-	    zIndex = selected_marker.getZIndex();
-	    selected_marker.setIcon(selected_icon);
-	  }
-
-	  if (marker) {
-	    selected_marker = marker;
-	    selected_icon = marker.getIcon();
-	    marker.setIcon(selected_marker_icons[numPhotos > 100 ? 100 : numPhotos]);
-	    marker.setZIndex(100000 + zIndex);
-	  }
-	}
-
-	function updateYears(firstYear, lastYear) {
-	  year_range = [firstYear, lastYear];
-	  var _iteratorNormalCompletion = true;
-	  var _didIteratorError = false;
-	  var _iteratorError = undefined;
-
-	  try {
-	    for (var _iterator = Object.entries(lat_lon_to_marker)[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-	      var _step$value = _slicedToArray(_step.value, 2),
-	          lat_lon = _step$value[0],
-	          marker = _step$value[1];
-
-	      var count = countPhotos(lat_lons[lat_lon]);
-	      if (count) {
-	        marker.setIcon(marker_icons[Math.min(count, 100)]);
-	        marker.setVisible(true);
-	      } else {
-	        marker.setVisible(false);
-	      }
-	    }
-	  } catch (err) {
-	    _didIteratorError = true;
-	    _iteratorError = err;
-	  } finally {
-	    try {
-	      if (!_iteratorNormalCompletion && _iterator.return) {
-	        _iterator.return();
-	      }
-	    } finally {
-	      if (_didIteratorError) {
-	        throw _iteratorError;
-	      }
-	    }
-	  }
-
-	  addNewlyVisibleMarkers();
-	  $('#time-range-labels').text(firstYear + '\u2013' + lastYear);
-	}
-
-	// The callback gets fired when the info for all lat/lons at this location
-	// become available (i.e. after the /info RPC returns).
-	function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
-	  if (marker) selectMarker(marker, lat_lons[lat_lon]);
-
-	  (0, _photoInfo.loadInfoForLatLon)(lat_lon).done(function (photoIds) {
-	    var selectedId = null;
-	    if (photoIds.length <= 10) {
-	      selectedId = photoIds[0];
-	    }
-	    showExpanded(lat_lon, photoIds, selectedId);
-	    if (opt_selectCallback && selectedId) {
-	      opt_selectCallback(selectedId);
-	    }
-	  }).fail(function () {});
-	}
-
-	function handleClick(e) {
-	  var lat_lon = e.latLng.lat().toFixed(6) + ',' + e.latLng.lng().toFixed(6);
-	  var marker = lat_lon_to_marker[lat_lon];
-	  displayInfoForLatLon(lat_lon, marker, function (photo_id) {
-	    $(window).trigger('openPreviewPanel');
-	    $(window).trigger('showPhotoPreview', photo_id);
-	  });
-	  $(window).trigger('showGrid', lat_lon);
-	}
-
-	function initialize_map() {
-	  var latlng = new google.maps.LatLng(40.74421, -73.97370);
-	  var opts = {
-	    zoom: 15,
-	    maxZoom: 18,
-	    minZoom: 10,
-	    center: latlng,
-	    mapTypeId: google.maps.MapTypeId.ROADMAP,
-	    mapTypeControl: false,
-	    streetViewControl: true,
-	    panControl: false,
-	    zoomControlOptions: {
-	      position: google.maps.ControlPosition.LEFT_TOP
-	    },
-	    styles: _mapStyles.MAP_STYLE
-	  };
-
-	  exports.map = map = new google.maps.Map($('#map').get(0), opts);
-
-	  // This shoves the navigation bits down by a CSS-specified amount
-	  // (see the .spacer rule). This is surprisingly hard to do.
-	  var map_spacer = $('<div/>').append($('<div/>').addClass('spacer')).get(0);
-	  map_spacer.index = -1;
-	  map.controls[google.maps.ControlPosition.TOP_LEFT].push(map_spacer);
-
-	  // The OldSF UI just gets in the way of Street View.
-	  // Even worse, it blocks the "exit" button!
-	  var streetView = map.getStreetView();
-	  google.maps.event.addListener(streetView, 'visible_changed', function () {
-	    $('.streetview-hide').toggle(!streetView.getVisible());
-	  });
-
-	  // Create marker icons for each number.
-	  marker_icons.push(null); // it's easier to be 1-based.
-	  selected_marker_icons.push(null);
-	  for (var i = 0; i < 100; i++) {
-	    var num = i + 1;
-	    var size = num == 1 ? 9 : 13;
-	    var selectedSize = num == 1 ? 15 : 21;
-	    marker_icons.push(new google.maps.MarkerImage('images/sprite-2014-08-29.png', new google.maps.Size(size, size), new google.maps.Point(i % 10 * 39, Math.floor(i / 10) * 39), new google.maps.Point((size - 1) / 2, (size - 1) / 2)));
-	    selected_marker_icons.push(new google.maps.MarkerImage('images/selected-2014-08-29.png', new google.maps.Size(selectedSize, selectedSize), new google.maps.Point(i % 10 * 39, Math.floor(i / 10) * 39), new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1) / 2)));
-	  }
-
-	  // Adding markers is expensive -- it's important to defer this when possible.
-	  var idleListener = google.maps.event.addListener(map, 'idle', function () {
-	    google.maps.event.removeListener(idleListener);
-	    addNewlyVisibleMarkers();
-	    mapPromise.resolve(map);
-	  });
-
-	  google.maps.event.addListener(map, 'bounds_changed', function () {
-	    addNewlyVisibleMarkers();
-	  });
-	}
-
-	function addNewlyVisibleMarkers() {
-	  var bounds = map.getBounds();
-
-	  for (var lat_lon in lat_lons) {
-	    if (lat_lon in lat_lon_to_marker) continue;
-
-	    var pos = parseLatLon(lat_lon);
-	    if (!bounds.contains(pos)) continue;
-
-	    createMarker(lat_lon, pos);
-	  }
-	}
-
-	function parseLatLon(lat_lon) {
-	  var ll = lat_lon.split(",");
-	  return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
-	}
-
-	function createMarker(lat_lon, latLng) {
-	  var count = countPhotos(lat_lons[lat_lon]);
-	  if (!count) {
-	    return;
-	  }
-	  var marker = new google.maps.Marker({
-	    position: latLng,
-	    map: map,
-	    flat: true,
-	    visible: true,
-	    icon: marker_icons[Math.min(count, 100)],
-	    title: lat_lon
-	  });
-	  markers.push(marker);
-	  lat_lon_to_marker[lat_lon] = marker;
-	  google.maps.event.addListener(marker, 'click', handleClick);
-	  return marker;
-	}
-
-	// NOTE: This can only be called when the info for all photo_ids at the current
-	// position have been loaded (in particular the image widths).
-	// key is used to construct URL fragments.
-	function showExpanded(key, photo_ids, opt_selected_id) {
-	  hideAbout();
-	  map.set('keyboardShortcuts', false);
-	  $('#expanded').show().data('grid-key', key);
-	  $('.location').text((0, _photoInfo.nameForLatLon)(key));
-	  if (isFullTimeRange(year_range)) {
-	    $('#filtered-slideshow').hide();
-	  } else {
-	    var _year_range3 = year_range,
-	        _year_range4 = _slicedToArray(_year_range3, 2),
-	        first = _year_range4[0],
-	        last = _year_range4[1];
-
-	    $('#filtered-slideshow').show();
-	    $('#slideshow-filter-first').text(first);
-	    $('#slideshow-filter-last').text(last);
-	  }
-	  var images = $.map(photo_ids, function (photo_id) {
-	    var info = (0, _photoInfo.infoForPhotoId)(photo_id);
-	    if (!isPhotoInDateRange(info, year_range)) return null;
-	    return $.extend({
-	      id: photo_id,
-	      largesrc: info.image_url,
-	      src: info.thumb_url,
-	      width: 600, // these are fallbacks
-	      height: 400
-	    }, info);
-	  });
-	  images = images.filter(function (image) {
-	    return image !== null;
-	  });
-	  $('#preview-map').attr('src', makeStaticMapsUrl(key));
-	  $('#grid-container').expandableGrid({
-	    rowHeight: 200,
-	    speed: 200 /* ms for transitions */
-	  }, images);
-	  if (opt_selected_id) {
-	    $('#grid-container').expandableGrid('select', opt_selected_id);
-	  }
-	}
-
-	function hideExpanded() {
-	  $('#expanded').hide();
-	  $(document).unbind('keyup');
-	  map.set('keyboardShortcuts', true);
-	}
-
-	// This fills out details for either a thumbnail or the expanded image pane.
-	function fillPhotoPane(photo_id, $pane) {
-	  // $pane is div.og-details
-	  // This could be either a thumbnail on the right-hand side or an expanded
-	  // image, front and center.
-	  $('.description', $pane).html((0, _photoInfo.descriptionForPhotoId)(photo_id));
-
-	  var info = (0, _photoInfo.infoForPhotoId)(photo_id);
-	  var library_url = (0, _photoInfo.libraryUrlForPhotoId)(photo_id);
-
-	  // this one is actually on the left panel, not $pane.
-	  $pane.parent().find('.nypl-link a').attr('href', library_url);
-	  $('.nypl-logo a').attr('href', library_url);
-
-	  var canonicalUrl = (0, _social.getCanonicalUrlForPhoto)(photo_id);
-
-	  // OCR'd text
-	  (0, _feedback.getFeedbackText)((0, _photoInfo.backId)(photo_id)).done(function (ocr) {
-	    var text = ocr ? ocr.text : info.text;
-	    var ocr_url = '/ocr.html#' + photo_id,
-	        hasBack = photo_id.match('[0-9]f');
-
-	    if (text) {
-	      var $text = $pane.find('.text');
-	      $text.text(text.replace(/\n*$/, ''));
-	      $text.append($('<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>'));
-	      $text.find('a').attr('href', ocr_url);
-	    } else if (hasBack) {
-	      var $more = $pane.find('.more-on-back');
-	      $more.find('a.ocr-tool').attr('href', ocr_url);
-	      $more.find('a.nypl').attr('href', library_url);
-	      $more.show();
-	    }
-	  });
-
-	  if (typeof FB != 'undefined') {
-	    var $comments = $pane.find('.comments');
-	    var width = $comments.parent().width();
-	    $comments.empty().append($('<fb:comments data-numposts="5" data-colorscheme="light"/>').attr('data-width', width).attr('data-href', canonicalUrl).attr('data-version', 'v2.3'));
-	    FB.XFBML.parse($comments.get(0));
-	    console.log(canonicalUrl);
-	  }
-
-	  // Social links
-	  var client = new ZeroClipboard($pane.find('.copy-link'));
-	  client.on('ready', function () {
-	    client.on('copy', function (event) {
-	      var clipboard = event.clipboardData;
-	      clipboard.setData('text/plain', window.location.href);
-	    });
-	    client.on('aftercopy', function (event) {
-	      var $btn = $(event.target);
-	      $btn.css({ width: $btn.get(0).offsetWidth }).addClass('clicked').text('Copied!');
-	    });
-	  });
-
-	  // Some browser plugins block twitter
-	  if (typeof twttr != 'undefined') {
-	    twttr.ready(function (_ref5) {
-	      var widgets = _ref5.widgets;
-
-	      widgets.createShareButton(document.location.href, $pane.find('.tweet').get(0), {
-	        count: 'none',
-	        text: (info.original_title || info.title) + ' - ' + info.date,
-	        via: 'Old_NYC @NYPL'
-	      });
-	    });
-	  }
-
-	  if (typeof FB != 'undefined') {
-	    var $fb_holder = $pane.find('.facebook-holder');
-	    $fb_holder.empty().append($('<fb:like>').attr({
-	      'href': canonicalUrl,
-	      'layout': 'button',
-	      'action': 'like',
-	      'show_faces': 'false',
-	      'share': 'true'
-	    }));
-	    FB.XFBML.parse($fb_holder.get(0));
-	  }
-
-	  // Scrolling the panel shouldn't scroll the whole grid.
-	  // See http://stackoverflow.com/a/10514680/388951
-	  $pane.off("mousewheel").on("mousewheel", function (event) {
-	    var height = $pane.height(),
-	        scrollHeight = $pane.get(0).scrollHeight;
-	    var blockScrolling = this.scrollTop === scrollHeight - height && event.deltaY < 0 || this.scrollTop === 0 && event.deltaY > 0;
-	    return !blockScrolling;
-	  });
-	}
-
-	function photoIdFromATag(a) {
-	  return $(a).attr('href').replace('/#', '');
-	}
-
-	function getPopularPhotoIds() {
-	  return $('.popular-photo:visible a').map(function (_, a) {
-	    return photoIdFromATag(a);
-	  }).toArray();
-	}
-
-	// User selected a photo in the "popular" grid. Update the static map.
-	function updateStaticMapsUrl(photo_id) {
-	  var key = 'New York City';
-	  var lat_lon = (0, _photoInfo.findLatLonForPhoto)(photo_id);
-	  if (lat_lon) key = lat_lon;
-	  $('#preview-map').attr('src', makeStaticMapsUrl(key));
-	}
-
-	function fillPopularImagesPanel() {
-	  // Rotate the images daily.
-	  var elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime(),
-	      elapsedDays = Math.floor(elapsedMs / 86400 / 1000),
-	      shift = elapsedDays % _popularPhotos.popular_photos.length;
-	  var shownPhotos = _popularPhotos.popular_photos.slice(shift).concat(_popularPhotos.popular_photos.slice(0, shift));
-
-	  var makePanel = function makePanel(row) {
-	    var $panel = $('#popular-photo-template').clone().removeAttr('id');
-	    $panel.find('a').attr('href', '#' + row.id);
-	    $panel.find('img').attr('border', '0') // For IE8
-	    .attr('data-src', expandedImageUrl(row.id)).attr('height', row.height);
-	    $panel.find('.desc').text(row.desc);
-	    $panel.find('.loc').text(row.loc);
-	    if (row.date) $panel.find('.date').text(' (' + row.date + ')');
-	    return $panel.get(0);
-	  };
-
-	  var popularPhotos = $.map(shownPhotos, makePanel);
-	  $('#popular').append($(popularPhotos).show());
-	  $(popularPhotos).appear({ force_process: true });
-	  $('#popular').on('appear', '.popular-photo', function () {
-	    var $img = $(this).find('img[data-src]');
-	    loadDeferredImage($img.get(0));
-	  });
-	}
-
-	function loadDeferredImage(img) {
-	  var $img = $(img);
-	  if ($img.attr('src')) return;
-	  $(img).attr('src', $(img).attr('data-src')).removeAttr('data-src');
-	}
-
-	function hidePopular() {
-	  $('#popular').hide();
-	  $('.popular-link').show();
-	}
-	function showPopular() {
-	  $('#popular').show();
-	  $('.popular-link').hide();
-	  $('#popular').appear({ force_process: true });
-	}
-
-	function showAbout() {
-	  hideExpanded();
-	  $('#about-page').show();
-	  // Hack! There's probably a way to do this with CSS
-	  var $container = $('#about-page .container');
-	  var w = $container.width();
-	  var mw = parseInt($container.css('max-width'), 0);
-	  if (w < mw) {
-	    $container.css('margin-left', '-' + w / 2 + 'px');
-	  }
-	}
-	function hideAbout() {
-	  $('#about-page').hide();
-	}
-
-	// See http://stackoverflow.com/a/30112044/388951
-	$.fn.scrollGuard = function () {
-	  return this.on('mousewheel', function () {
-	    var scrollHeight = this.scrollHeight,
-	        height = $(this).height();
-	    var blockScrolling = this.scrollTop === scrollHeight - height && event.deltaY < 0 || this.scrollTop === 0 && event.deltaY > 0;
-	    return !blockScrolling;
-	  });
-	};
-
-	$(function () {
-	  // Clicks on the background or "exit" button should leave the slideshow.
-	  $(document).on('click', '#expanded .curtains, #expanded .exit', function () {
-	    hideExpanded();
-	    $(window).trigger('hideGrid');
-	  });
-	  $('#grid-container, #expanded .header').on('click', function (e) {
-	    if (e.target == this || $(e.target).is('.og-grid')) {
-	      hideExpanded();
-	      $(window).trigger('hideGrid');
-	    }
-	  });
-
-	  // Fill in the expanded preview pane.
-	  $('#grid-container').on('og-fill', 'li', function (e, div) {
-	    var id = $(this).data('image-id');
-	    $(div).empty().append($('#image-details-template').clone().removeAttr('id').show());
-	    $(div).parent().find('.og-details-left').empty().append($('#image-details-left-template').clone().removeAttr('id').show());
-	    fillPhotoPane(id, $(div));
-
-	    var g = $('#expanded').data('grid-key');
-	    if (g == 'pop') {
-	      updateStaticMapsUrl(id);
-	    }
-	  }).on('click', '.og-fullimg > img', function () {
-	    var photo_id = $('#grid-container').expandableGrid('selectedId');
-	    window.open((0, _photoInfo.libraryUrlForPhotoId)(photo_id), '_blank');
-	  });
-
-	  $('#grid-container').on('click', '.rotate-image-button', function (e) {
-	    e.preventDefault();
-	    var $img = $(this).closest('li').find('.og-fullimg > img');
-	    var currentRotation = $img.data('rotate') || 0;
-	    currentRotation += 90;
-	    $img.css('transform', 'rotate(' + currentRotation + 'deg)').data('rotate', currentRotation);
-
-	    var photo_id = $('#grid-container').expandableGrid('selectedId');
-	    ga('send', 'event', 'link', 'rotate', {
-	      'page': '/#' + photo_id + '(' + currentRotation + ')'
-	    });
-	    (0, _feedback.sendFeedback)(photo_id, 'rotate', {
-	      'rotate': currentRotation,
-	      'original': (0, _photoInfo.infoForPhotoId)(photo_id).rotation || null
-	    });
-	  }).on('click', '.feedback-button', function (e) {
-	    e.preventDefault();
-	    $('#grid-container .details').fadeOut();
-	    $('#grid-container .feedback').fadeIn();
-	  }).on('click', 'a.back', function (e) {
-	    e.preventDefault();
-	    $('#grid-container .feedback').fadeOut();
-	    $('#grid-container .details').fadeIn();
-	  });
-	  $(document).on('keyup', 'input, textarea', function (e) {
-	    e.stopPropagation();
-	  });
-
-	  $('.popular-photo').on('click', 'a', function (e) {
-	    e.preventDefault();
-	    var selectedPhotoId = photoIdFromATag(this);
-
-	    (0, _photoInfo.loadInfoForLatLon)('pop').done(function (photoIds) {
-	      showExpanded('pop', photoIds, selectedPhotoId);
-	      $(window).trigger('showGrid', 'pop');
-	      $(window).trigger('openPreviewPanel');
-	      $(window).trigger('showPhotoPreview', selectedPhotoId);
-	    }).fail(function () {});
-	  });
-
-	  // ... it's annoying that we have to do this. jquery.appear.js should work!
-	  $('#popular').on('scroll', function () {
-	    $(this).appear({ force_process: true });
-	  });
-
-	  // Show/hide popular images
-	  $('#popular .close').on('click', function () {
-	    (0, _feedback.setCookie)('nopop', '1');
-	    hidePopular();
-	  });
-	  $('.popular-link a').on('click', function (e) {
-	    showPopular();
-	    (0, _feedback.deleteCookie)('nopop');
-	    e.preventDefault();
-	  });
-	  if (document.cookie.indexOf('nopop=') >= 0) {
-	    hidePopular();
-	  }
-
-	  // Display the about page on top of the map.
-	  $('#about a').on('click', function (e) {
-	    e.preventDefault();
-	    showAbout();
-	  });
-	  $('#about-page .curtains, #about-page .exit').on('click', hideAbout);
-
-	  // Record feedback on images. Can have a parameter or not.
-	  var thanks = function thanks(button) {
-	    return function () {
-	      $(button).text('Thanks!');
-	    };
-	  };
-	  $('#grid-container').on('click', '.feedback button[feedback]', function () {
-	    var $button = $(this);
-	    var value = true;
-	    if ($button.attr('feedback-param')) {
-	      var $input = $button.siblings('input, textarea');
-	      value = $input.val();
-	      if (value == '') return;
-	      $input.prop('disabled', true);
-	    }
-	    $button.prop('disabled', true);
-	    var photo_id = $('#grid-container').expandableGrid('selectedId');
-	    var type = $button.attr('feedback');
-	    var obj = {};obj[type] = value;
-	    (0, _feedback.sendFeedback)(photo_id, type, obj).then(thanks($button.get(0)));
-	  });
-
-	  $('#grid-container').on('og-select', 'li', function () {
-	    var photo_id = $(this).data('image-id');
-	    $(window).trigger('showPhotoPreview', photo_id);
-	  }).on('og-deselect', function () {
-	    $(window).trigger('closePreviewPanel');
-	  }).on('og-openpreview', function () {
-	    $(window).trigger('openPreviewPanel');
-	  });
-
-	  $('#time-slider').slider({
-	    range: true,
-	    min: 1800,
-	    max: 2000,
-	    values: year_range,
-	    slide: function slide(event, ui) {
-	      var _ui$values = _slicedToArray(ui.values, 2),
-	          a = _ui$values[0],
-	          b = _ui$values[1];
-
-	      updateYears(a, b);
-	    },
-	    stop: function stop(event, ui) {
-	      var _ui$values2 = _slicedToArray(ui.values, 2),
-	          a = _ui$values2[0],
-	          b = _ui$values2[1];
-
-	      ga('send', 'event', 'link', 'time-slider', {
-	        'page': '/#' + a + '\u2013' + b
-	      });
-	    }
-	  });
-
-	  $('#time-range-summary').on('click', function () {
-	    $('#time-range').toggle();
-	  });
-
-	  $('#slideshow-all').on('click', function () {
-	    updateYears(1800, 2000);
-	    $('#time-slider').slider({
-	      values: year_range
-	    });
-	    var lat_lon = $('#expanded').data('grid-key');
-	    ga('send', 'event', 'link', 'time-slider-clear');
-	    hideExpanded();
-	    displayInfoForLatLon(lat_lon);
-	  });
-	});
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.loadInfoForLatLon = loadInfoForLatLon;
-	exports.infoForPhotoId = infoForPhotoId;
-	exports.descriptionForPhotoId = descriptionForPhotoId;
-	exports.libraryUrlForPhotoId = libraryUrlForPhotoId;
-	exports.backId = backId;
-	exports.backOfCardUrlForPhotoId = backOfCardUrlForPhotoId;
-	exports.nameForLatLon = nameForLatLon;
-	exports.findLatLonForPhoto = findLatLonForPhoto;
-	// @ts-check
-	// This file manages all the photo information.
-	// Some of this comes in via lat-lons.js.
-	// Some is requested via XHR.
-
-	// Maps photo_id -> { title: ..., date: ..., library_url: ... }
-	var photo_id_to_info = {};
-
-	var SITE = '';
-	var JSON_BASE = SITE + '/by-location';
-
-	// The callback is called with the photo_ids that were just loaded, after the
-	// UI updates.  The callback may assume that infoForPhotoId() will return data
-	// for all the newly-available photo_ids.
-	function loadInfoForLatLon(lat_lon) {
-	  var url;
-	  if (lat_lon == 'pop') {
-	    url = SITE + '/popular.json';
-	  } else {
-	    url = JSON_BASE + '/' + lat_lon.replace(',', '') + '.json';
-	  }
-
-	  return $.getJSON(url).then(function (response_data) {
-	    // Add these values to the cache.
-	    $.extend(photo_id_to_info, response_data);
-	    var photo_ids = [];
-	    for (var k in response_data) {
-	      photo_ids.push(k);
-	    }
-	    if (lat_lon != 'pop') {
-	      lat_lon_to_name[lat_lon] = extractName(response_data);
-	    }
-	    return photo_ids;
-	  });
-	}
-
-	// Returns a {title: ..., date: ..., library_url: ...} object.
-	// If there's no information about the photo yet, then the values are all set
-	// to the empty string.
-	function infoForPhotoId(photo_id) {
-	  return photo_id_to_info[photo_id] || { title: '', date: '', library_url: '' };
-	}
-
-	// Would it make more sense to incorporate these into infoForPhotoId?
-	function descriptionForPhotoId(photo_id) {
-	  var info = infoForPhotoId(photo_id);
-	  var desc = info.title;
-	  if (desc) desc += ' ';
-	  var date = info.date.replace(/n\.d\.?/, 'No Date');
-	  if (!date) date = 'No Date';
-	  desc += date;
-	  return desc;
-	}
-
-	function libraryUrlForPhotoId(photo_id) {
-	  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
-	}
-
-	function backId(photo_id) {
-	  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');
-	}
-
-	function backOfCardUrlForPhotoId(photo_id) {
-	  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';
-	}
-
-	var lat_lon_to_name = {};
-
-	// Does this lat_lon have a name, e.g. "Manhattan: 14th Street - 8th Avenue"?
-	function nameForLatLon(lat_lon) {
-	  var v = lat_lon_to_name[lat_lon] || '';
-	  return v.replace(/: | - | & /g, '\n');
-	}
-
-	function extractName(lat_lon_json) {
-	  // if any entries have an original_title, it's got to be a pure location.
-	  for (var k in lat_lon_json) {
-	    var v = lat_lon_json[k];
-	    if (v.original_title) return v.original_title;
-	  }
-	}
-
-	function findLatLonForPhoto(photo_id, cb) {
-	  var id4 = photo_id.slice(0, 4);
-	  $.ajax({
-	    dataType: "json",
-	    url: '/id4-to-location/' + id4 + '.json',
-	    success: function success(id_to_latlon) {
-	      cb(id_to_latlon[photo_id]);
-	    }
-	  });
-	}
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	// @ts-check
-
-	// Styles for Google Maps. These de-emphasize features on the map.
-	var MAP_STYLE = exports.MAP_STYLE = [
-	// to remove buildings
-	{ "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "poi", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "transit", "stylers": [{ "visibility": "off" }] }, { "featureType": "landscape", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "administrative", "stylers": [{ "visibility": "simplified" }] },
-	// end remove buildings
-	{
-	    "featureType": "administrative",
-	    "elementType": "labels",
-	    "stylers": [{
-	        "visibility": "off"
-	    }]
-	}, {
-	    "featureType": "administrative.country",
-	    "elementType": "geometry.stroke",
-	    "stylers": [{
-	        "visibility": "off"
-	    }]
-	}, {
-	    "featureType": "administrative.province",
-	    "elementType": "geometry.stroke",
-	    "stylers": [{
-	        "visibility": "off"
-	    }]
-	}, {
-	    "featureType": "landscape",
-	    "elementType": "geometry",
-	    "stylers": [{
-	        "visibility": "on"
-	    }, {
-	        "color": "#e3e3e3"
-	    }]
-	}, {
-	    "featureType": "landscape.natural",
-	    "elementType": "labels",
-	    "stylers": [{
-	        "visibility": "off"
-	    }]
-	}, {
-	    "featureType": "poi",
-	    "elementType": "all",
-	    "stylers": [{
-	        "visibility": "off"
-	    }]
-	}, {
-	    "featureType": "road",
-	    "elementType": "all",
-	    "stylers": [{
-	        "color": "#cccccc"
-	    }]
-	}, {
-	    "featureType": "water",
-	    "elementType": "geometry",
-	    "stylers": [{
-	        "color": "#FFFFFF"
-	    }]
-	}, {
-	    "featureType": "road",
-	    "elementType": "labels",
-	    "stylers": [{
-	        "color": "#94989C"
-	    }, {
-	        "visibility": "simplified"
-	    }]
-	}, {
-	    "featureType": "water",
-	    "elementType": "labels",
-	    "stylers": [{
-	        "visibility": "off"
-	    }]
-	}];
-
-	function buildStaticStyle(styleStruct) {
-	    var style = "";
-	    for (var i = 0; i < styleStruct.length; i++) {
-	        var s = styleStruct[i];
-	        var strs = [];
-	        if (s.featureType != null) strs.push("feature:" + s.featureType);
-	        if (s.elementType != null) strs.push("element:" + s.elementType);
-	        if (s.stylers != null) {
-	            for (var j = 0; j < s.stylers.length; j++) {
-	                for (var key in s.stylers[j]) {
-	                    strs.push(key + ":" + s.stylers[j][key].replace(/#/, '0x'));
-	                }
-	            }
-	        }
-	        var str = "&style=" + strs.join("%7C");
-	        style += str;
-	    }
-	    return style;
-	}
-
-	var STATIC_MAP_STYLE = exports.STATIC_MAP_STYLE = buildStaticStyle(MAP_STYLE);
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.getCanonicalUrlForPhoto = getCanonicalUrlForPhoto;
-	exports.getCommentCount = getCommentCount;
-	// @ts-check
-	function getCanonicalUrlForPhoto(photo_id) {
-	  return 'http://www.oldnyc.org/#' + photo_id;
-	}
-
-	function getCommentCount(photo_ids) {
-	  // There is a batch API:
-	  // https://developers.facebook.com/docs/graph-api/making-multiple-requests/
-	  return $.get('https://graph.facebook.com/', {
-	    'ids': $.map(photo_ids, function (id) {
-	      return getCanonicalUrlForPhoto(id);
-	    }).join(',')
-	  }).then(function (obj) {
-	    // obj is something like {url: {'id', 'shares', 'comments'}}
-	    // convert it to {id: comments}
-	    var newObj = {};
-	    $.each(obj, function (url, data) {
-	      newObj[url.replace(/.*#/, '')] = data['comments'] || 0;
-	    });
-	    return newObj;
-	  });
-	}
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.deleteCookie = deleteCookie;
-	exports.setCookie = setCookie;
-	exports.getCookie = getCookie;
-	exports.sendFeedback = sendFeedback;
-	exports.getFeedbackText = getFeedbackText;
-	// @ts-check
-	/**
-	 * Common code for recording user feedback.
-	 * This is shared between the OldNYC site and the OCR feedback tool.
-	 */
-
-	var COOKIE_ID = 'oldnycid';
-
-	var firebaseRef = null;
-	// e.g. if we're offline and the firebase script can't load.
-	if (typeof Firebase !== 'undefined') {
-	  firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');
-	}
-
-	var userLocation = null;
-	$.get('//ipinfo.io', function (response) {
-	  userLocation = {
-	    ip: response.ip,
-	    location: response.country + '-' + response.region + '-' + response.city
-	  };
-	}, 'jsonp');
-
-	var lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function (data) {
-	  return data.ocr_ms;
-	});
-
-	function deleteCookie(name) {
-	  document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
-	}
-
-	function setCookie(name, value) {
-	  document.cookie = name + "=" + value + "; path=/";
-	}
-
-	function getCookie(name) {
-	  var b;
-	  b = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-	  return b ? b.pop() : '';
-	}
-
-	// Assign each user a unique ID for tracking repeat feedback.
-	var COOKIE = getCookie(COOKIE_ID);
-	if (!COOKIE) {
-	  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-	    var r = Math.random() * 16 | 0,
-	        v = c == 'x' ? r : r & 0x3 | 0x8;
-	    return v.toString(16);
-	  });
-	  setCookie(COOKIE_ID, COOKIE);
-	}
-
-	// Record one piece of feedback. Returns a jQuery deferred object.
-	function sendFeedback(photo_id, feedback_type, feedback_obj) {
-	  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
-
-	  feedback_obj.metadata = {
-	    timestamp: Firebase.ServerValue.TIMESTAMP,
-	    user_agent: navigator.userAgent,
-	    user_ip: userLocation ? userLocation.ip : '',
-	    location: userLocation ? userLocation.location : '',
-	    cookie: COOKIE
-	  };
-
-	  var path = '/feedback/' + photo_id + '/' + feedback_type;
-
-	  var feedbackRef = firebaseRef.child(path);
-	  var deferred = $.Deferred();
-	  feedbackRef.push(feedback_obj, function (error) {
-	    if (error) {
-	      console.error('Error pushing', error);
-	      deferred.reject(error);
-	    } else {
-	      deferred.resolve();
-	    }
-	  });
-
-	  return deferred;
-	}
-
-	// Retrieve the most-recent OCR for a backing image.
-	// Returns a Deferred object which resolves to
-	// { text: string, metadata: { timestamp: number, ... }
-	// Resolves with null if there is no OCR text available.
-	function getFeedbackText(back_id) {
-	  var deferred = $.Deferred();
-
-	  lastReviewedOcrMsPromise.then(function (lastReviewedOcrMs) {
-	    firebaseRef.child('/feedback/' + back_id + '/text').orderByKey()
-	    // TODO: start with a key corresponding to lastReviewedOcrMs
-	    // .limitToLast(1)
-	    .once('value', function (feedback) {
-	      var chosen = null;
-	      feedback.forEach(function (row) {
-	        var v = row.val();
-	        if (v.metadata.timestamp > lastReviewedOcrMs) {
-	          chosen = v; // take the most-recent one
-	        }
-	      });
-	      // if none are chosen then ther's no text or the static site is up-to-date.
-	      deferred.resolve(chosen);
-	    });
-	  });
-
-	  return deferred;
-	}
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	var popular_photos = exports.popular_photos = [{ "date": "1910", "loc": "42nd & 5th ave", "height": 249, "id": "708760f-a", "desc": "Street scene" }, { "date": "1936", "loc": "42nd & 5th ave", "height": 145, "id": "1508783-a", "desc": "Directing traffic and trolley" }, { "date": "1912", "loc": "42nd & 5th ave", "height": 157, "id": "708795f-a", "desc": "Ground level view of street" }, { "date": "1913", "loc": "42nd & 5th ave", "height": 159, "id": "712987f-a", "desc": "Street scene" }, { "date": "1928", "loc": "42nd & 6th Avenue", "height": 246, "id": "713050f-a", "desc": "Street scene" }, { "date": "1933", "loc": "42nd & 6th Avenue", "height": 130, "id": "713043f", "desc": "Under the elevated" }, { "date": "1939", "loc": "42nd & 6th Avenue", "height": 159, "id": "709480f-a", "desc": "Elevated train demolition" }, { "date": "1930s", "loc": "42nd & 6th Avenue", "height": 198, "id": "1558013", "desc": "Street scene" }, { "date": "1936", "loc": "Central Park", "height": 160, "id": "730166f-a", "desc": "Aerial view" }, { "date": "1933", "loc": "Central Park", "height": 133, "id": "718268f-b", "desc": "Roller skating" }, { "date": "1938", "loc": "Central Park", "height": 229, "id": "718346f-a", "desc": "Feeding birds" }, { "date": "", "loc": "Central Park", "height": 298, "id": "718282f-a", "desc": "On the lake" }, { "date": "", "loc": "Central Park", "height": 160, "id": "718194f-a", "desc": "Riding under an arch" }, { "date": "1905", "loc": "Central Park", "height": 154, "id": "718242f-b", "desc": "Ice skaters" }, { "date": "", "loc": "Central Park", "height": 143, "id": "718333f-a", "desc": "Playing croquet" }, { "date": "", "loc": "Central Park", "height": 132, "id": "718280f-a", "desc": "Quiet corner" }, { "date": "1892", "loc": "Central Park", "height": 158, "id": "718272f-a", "desc": "Strolling" }, { "date": "1933", "loc": "Central Park", "height": 133, "id": "718179f-b", "desc": "Aerial View" }, { "date": "1913", "loc": "Central Park", "height": 130, "id": "718284f", "desc": "Schoolboys drilling" }, { "date": "1926", "loc": "Prospect Park", "height": 172, "id": "706346f-a", "desc": "Prospect Park Plaza" }, { "date": "1880", "loc": "Prospect Park", "height": 116, "id": "706348f-b", "desc": "Lake view" }, { "date": "1864", "loc": "Central Park", "height": 168, "id": "718385f-a", "desc": "Rustic arbor" }, { "date": "1892", "loc": "Central Park", "height": 164, "id": "718262f-a", "desc": "Fountain" }, { "date": "1933", "loc": "Roosevelt Island", "height": 158, "id": "732193f-a", "desc": "Welfare (Roosevelt) Island" }, { "date": "1934", "loc": "Brooklyn Bridge", "height": 134, "id": "730718f-c", "desc": "Aerial View" }, { "date": "1932", "loc": "86th & 3rd", "height": 130, "id": "714705f-a", "desc": "Storefronts" }, { "date": "1926", "loc": "Colonial & Nassau", "height": 154, "id": "726358f-c", "desc": "Family on porch" }, { "date": "1939", "loc": "Duane & West", "height": 136, "id": "719363f-a", "desc": "Horse-drawn cart" }, { "date": "1929", "loc": "Weehawken & Christopher", "height": 134, "id": "724321f-b", "desc": "Coca-Cola ad" }, { "date": "", "loc": "George Washington Bridge", "height": 156, "id": "1558509", "desc": "" }, { "date": "1906", "loc": "Bayard & Chrystie", "height": 159, "id": "716608f-a", "desc": "Street scene" }, { "date": "1931", "loc": "5th & 46th", "height": 159, "id": "708851f-a", "desc": "Street scene" }, { "date": "1933", "loc": "Columbus Circle", "height": 155, "id": "719145f-a", "desc": "Tribute to Columbus" }, { "date": "1910", "loc": "Pelham Parkway", "height": 146, "id": "701498f-b", "desc": "At the racetrack" }, { "date": "1936", "loc": "9th & 40th", "height": 129, "id": "732438f-b", "desc": "Food vendors" }, { "date": "1911", "loc": "Poppy Joe Island Beach", "height": 160, "id": "730622f-a", "desc": "Local muskrat hunters" }, { "date": "1890", "loc": "Wallabout Bay", "height": 102, "id": "734085f-a", "desc": "Ship in port" }, { "date": "1933", "loc": "Greenwich Village", "height": 299, "id": "730568f-a", "desc": "Art Exhibit" }, { "date": "1936", "loc": "Battery Park", "height": 134, "id": "716520f-c", "desc": "Aerial view" }, { "date": "1921", "loc": "New Chambers & Madison", "height": 141, "id": "721912f-b", "desc": "Cobblestone" }, { "date": "1918", "loc": "5th & 25th", "height": 242, "id": "731285f-a", "desc": "Victory Arch" }, { "date": "1925", "loc": "Minetta & MacDougal", "height": 168, "id": "721650f-a", "desc": "Alley" }, { "date": "1932", "loc": "Canal & Chrystie", "height": 169, "id": "718806f-a", "desc": "Construction of Sarah Delano Roosevelt Park" }, { "date": "1933", "loc": "Hudson Street", "height": 299, "id": "733360f-c", "desc": "Thanksgiving ragamuffins" }, { "date": "1917", "loc": "Queensborough Bridge", "height": 157, "id": "730942f-a", "desc": "Construction" }, { "date": "1903", "loc": "Williamsburg Bridge", "height": 129, "id": "731081f", "desc": "Under construction" }, { "date": "1890", "loc": "Mott & Park", "height": 177, "id": "721756f-a", "desc": "Street scene" }, { "date": "1900", "loc": "Broad St & Wall St", "height": 159, "id": "716841f-a", "desc": "Street scene" }, { "date": "1873", "loc": "Brooklyn Bridge", "height": 153, "id": "730663f-a", "desc": "Under construction; view of Manhattan" }, { "date": "1879", "loc": "Brooklyn Bridge", "height": 254, "id": "730665f-a", "desc": "Under construction; view of Manhattan" }, { "date": "1939", "loc": "Coney Island", "height": 129, "id": "731939f", "desc": "Beach scene" }, { "date": "1922", "loc": "Queens", "height": 152, "id": "725900f-a", "desc": "Country house (now JFK airport)" }, { "date": "1901", "loc": "Broadway & 34th", "height": 156, "id": "717404f-a", "desc": "Street scene with muddy road" }, { "date": "1921", "loc": "Broadway & 34th", "height": 158, "id": "1558433", "desc": "View of street scene from elevated tracks" }];
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _history = __webpack_require__(8);
-
-	var _history2 = _interopRequireDefault(_history);
-
-	var _urlState = __webpack_require__(9);
-
-	var _viewer = __webpack_require__(1);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	// This should go in the $(function()) block below.
-	// It's exposed to facilitate debugging.
-	var h = new _history2.default(function (hash, cb) {
-	  (0, _urlState.hashToStateObject)(hash.substr(1), cb);
-	});
-
-	// Ping Google Analytics with the current URL (e.g. after history.pushState).
-	// See http://stackoverflow.com/a/4813223/388951
-	// @ts-check
-
-	function trackAnalyticsPageView() {
-	  var url = location.pathname + location.search + location.hash;
-	  ga('send', 'pageview', { 'page': url });
-	}
-
-	var LOG_HISTORY_EVENTS = false;
-	// var LOG_HISTORY_EVENTS = true;
-
-	$(function () {
-	  // Relevant UI methods:
-	  // - transitionToStateObject(obj)
-	  //
-	  // State/URL manipulation:
-	  // - stateObjectToHash()
-	  // - hashToStateObject()
-	  //
-	  // State objects look like:
-	  // {photo_id:string, g:string}
-
-	  // Returns URL fragments like '/#g:123'.
-	  var fragment = function fragment(state) {
-	    return '/#' + (0, _urlState.stateObjectToHash)(state);
-	  };
-
-	  var title = function title(state) {
-	    var old_nyc = 'Old NYC';
-	    if ('photo_id' in state) {
-	      return old_nyc + ' - Photo ' + state.photo_id;
-	    } else if ('g' in state) {
-	      // TODO: include cross-streets in the title
-	      return old_nyc + ' - Grid';
-	    } else {
-	      return old_nyc;
-	    }
-	  };
-
-	  $(window).on('showGrid', function (e, pos) {
-	    var state = { g: pos };
-	    h.pushState(state, title(state), fragment(state));
-	    trackAnalyticsPageView();
-	  }).on('hideGrid', function () {
-	    var state = { initial: true };
-	    h.goBackUntil('initial', [state, title(state), fragment(state)]);
-	  }).on('openPreviewPanel', function () {
-	    // This is a transient state -- it should immediately be replaced.
-	    var state = { photo_id: true };
-	    h.pushState(state, title(state), fragment(state));
-	  }).on('showPhotoPreview', function (e, photo_id) {
-	    var g = $('#expanded').data('grid-key');
-	    var state = { photo_id: photo_id };
-	    if (g == 'pop') state.g = 'pop';
-	    h.replaceState(state, title(state), fragment(state));
-	    trackAnalyticsPageView();
-	  }).on('closePreviewPanel', function () {
-	    var g = $('#expanded').data('grid-key');
-	    var state = { g: g };
-	    h.goBackUntil('g', [state, title(state), fragment(state)]);
-	  });
-
-	  // Update the UI in response to hitting the back/forward button,
-	  // a hash fragment on initial page load or the user editing the URL.
-	  $(h).on('setStateInResponseToUser setStateInResponseToPageLoad', function (e, state) {
-	    // It's important that these methods only configure the UI.
-	    // They must not trigger events, or they could cause a loop!
-	    (0, _urlState.transitionToStateObject)(state);
-	  });
-
-	  $(h).on('setStateInResponseToPageLoad', function () {
-	    trackAnalyticsPageView(); // hopefully this helps track social shares
-	  });
-
-	  if (LOG_HISTORY_EVENTS) {
-	    $(window).on('showGrid', function (e, pos) {
-	      console.log('showGrid', pos);
-	    }).on('hideGrid', function () {
-	      console.log('hideGrid');
-	    }).on('showPhotoPreview', function (e, photo_id) {
-	      console.log('showPhotoPreview', photo_id);
-	    }).on('closePreviewPanel', function () {
-	      console.log('closePreviewPanel');
-	    }).on('openPreviewPanel', function () {
-	      console.log('openPreviewPanel');
-	    });
-	    $(h).on('setStateInResponseToUser', function (e, state) {
-	      console.log('setStateInResponseToUser', state);
-	    }).on('setStateInResponseToPageLoad', function (e, state) {
-	      console.log('setStateInResponseToPageLoad', state);
-	    });
-	  }
-
-	  // To load from a URL fragment, the map object must be ready.
-	  _viewer.mapPromise.done(function () {
-	    h.initialize();
-	  });
-	});
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	// @ts-check
-
-	// History management service.
-	// Consider using this instead: https://github.com/browserstate/history.js
-	var History = function () {
-	  function History(hashToStateAdapter) {
-	    _classCallCheck(this, History);
-
-	    this.states = [];
-	    this.hashToStateAdapter = hashToStateAdapter;
-	  }
-
-	  _createClass(History, [{
-	    key: 'initialize',
-	    value: function initialize() {
-	      var that = this;
-	      $(window).on('popstate', function (e) {
-	        that.handlePopState(e.originalEvent.state);
-	      });
-
-	      // Create an artificial initial state
-	      var state = { initial: true };
-	      var didSetState = false;
-
-	      var rest = function () {
-	        // Blow away the current state -- it's only going to cause trouble.
-	        history.replaceState({}, '', document.location.href);
-	        this.replaceState(state, document.title, document.location.href);
-
-	        if (didSetState) {
-	          $(this).trigger('setStateInResponseToPageLoad', state);
-	        }
-	      }.bind(this);
-
-	      if (this.hashToStateAdapter && document.location.hash) {
-	        didSetState = true;
-	        // Need to honor any hash fragments that the user navigated to.
-	        this.hashToStateAdapter(document.location.hash, function (newState) {
-	          state = newState;
-	          rest();
-	        });
-	      } else {
-	        rest();
-	      }
-	    }
-	  }, {
-	    key: 'makeState',
-	    value: function makeState(obj) {
-	      var currentStateId = null;
-	      if (history.state && 'id' in history.state) {
-	        currentStateId = history.state.id;
-	      }
-	      return $.extend({
-	        length: history.length,
-	        previousStateId: currentStateId,
-	        id: Date.now() + '' + Math.floor(Math.random() * 100000000)
-	      }, obj);
-	    }
-	  }, {
-	    key: 'simplifyState',
-	    value: function simplifyState(obj) {
-	      var state = $.extend({}, obj);
-	      delete state['id'];
-	      // delete state['length'];
-	      delete state['previousStateId'];
-	      return state;
-	    }
-	  }, {
-	    key: 'handlePopState',
-	    value: function handlePopState(state) {
-	      // note: we don't remove entries from this.state here, since the user could
-	      // still go forward to them.
-	      if (state && 'id' in state) {
-	        var stateObj = this.states[this.getStateIndexById(state.id)];
-	        if (stateObj && stateObj.expectingBack) {
-	          // This is happening as a result of a call on the History object.
-	          delete stateObj.expectingBack;
-	          return;
-	        }
-	      }
-
-	      var trigger = function () {
-	        $(this).trigger('setStateInResponseToUser', state);
-	      }.bind(this);
-	      if (!state && this.hashToStateAdapter) {
-	        this.hashToStateAdapter(document.location.hash, function (newState) {
-	          state = newState;
-	          trigger();
-	        });
-	      } else {
-	        trigger();
-	      }
-	    }
-	    // Just like history.pushState.
-
-	  }, {
-	    key: 'pushState',
-	    value: function pushState(stateObj, title, url) {
-	      var state = this.makeState(stateObj);
-	      this.states.push(state);
-	      history.pushState(state, title, url);
-	      document.title = title;
-	    }
-	    // Just like history.replaceState.
-
-	  }, {
-	    key: 'replaceState',
-	    value: function replaceState(stateObj, title, url) {
-	      var curState = this.getCurrentState();
-	      var replaceIdx = null;
-	      var previousId = null;
-	      if (curState) {
-	        if ('id' in curState) {
-	          replaceIdx = this.getStateIndexById(curState.id);
-	        }
-	        if ('previousStateId' in curState) {
-	          // in replacing the current state, we inherit its parent state.
-	          previousId = curState.previousStateId;
-	        }
-	      }
-
-	      var state = this.makeState(stateObj);
-	      if (previousId !== null) {
-	        state.previousStateId = previousId;
-	      }
-	      if (replaceIdx !== null) {
-	        this.states[replaceIdx] = state;
-	      } else {
-	        this.states.push(state);
-	      }
-	      history.replaceState(state, title, url);
-	      document.title = title;
-	    }
-	  }, {
-	    key: 'getCurrentState',
-	    value: function getCurrentState() {
-	      return history.state;
-	    }
-	  }, {
-	    key: 'getStateIndexById',
-	    value: function getStateIndexById(stateId) {
-	      for (var i = 0; i < this.states.length; i++) {
-	        if (this.states[i].id == stateId) return i;
-	      }
-	      return null;
-	    }
-	    // Get the state object one prior to the given one.
-
-	  }, {
-	    key: 'getPreviousState',
-	    value: function getPreviousState(state) {
-	      if (!('previousStateId' in state)) return null;
-	      var id = state['previousStateId'];
-	      if (id == null) return id;
-
-	      var idx = this.getStateIndexById(id);
-	      if (idx !== null) {
-	        return this.states[idx];
-	      }
-	      throw "State out of whack!";
-	    }
-	    /**
-	     * Go back in history until the predicate is true.
-	     * If predicate is a string, go back until it's a key in the state object.
-	     * This will not result in a setStateInResponseToUser event firing.
-	     * Returns the number of steps back in the history that it went (possibly 0 if
-	     * the current state matches the predicate).
-	     * If no matching history state is found, the history stack will be cleared and
-	     * alternativeState will be pushed on.
-	     */
-
-	  }, {
-	    key: 'goBackUntil',
-	    value: function goBackUntil(predicate, alternativeState) {
-	      // Convenience for common case of checking if history state has a key.
-	      if (typeof predicate == "string") {
-	        return this.goBackUntil(function (state) {
-	          return predicate in state;
-	        }, alternativeState);
-	      }
-
-	      var state = this.getCurrentState();
-	      var numBack = 0;
-
-	      var lastState = null;
-	      while (state && !predicate(state)) {
-	        lastState = state;
-	        state = this.getPreviousState(state);
-	        numBack += 1;
-	      }
-	      if (state && numBack) {
-	        state.expectingBack = true;
-	        history.go(-numBack);
-	        return numBack;
-	      }
-	      if (numBack == 0) {
-	        return 0; // current state fulfilled predicate
-	      } else {
-	        // no state fulfilled predicate. Clear the stack to just one state and
-	        // replace it with alternativeState.
-	        var stackLen = numBack;
-	        if (stackLen != 1) {
-	          lastState.expectingBack = true;
-	          history.go(-(stackLen - 1));
-	        }
-	        this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
-	      }
-	    }
-	    // Debugging method -- prints the history stack.
-
-	  }, {
-	    key: 'logStack',
-	    value: function logStack() {
-	      var state = this.getCurrentState();
-	      var i = 0;
-	      while (state) {
-	        console.log((i > 0 ? '-' : ' ') + i, this.simplifyState(state));
-	        state = this.getPreviousState(state);
-	        i++;
-	      }
-	    }
-	  }]);
-
-	  return History;
-	}();
-
-	exports.default = History;
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.getCurrentStateObject = getCurrentStateObject;
-	exports.hashToStateObject = hashToStateObject;
-	exports.stateObjectToHash = stateObjectToHash;
-	exports.transitionToStateObject = transitionToStateObject;
-
-	var _viewer = __webpack_require__(1);
-
-	var _photoInfo = __webpack_require__(2);
-
-	// Returns {photo_id:string, g:string}
-	// @ts-check
-	// The URL looks like one of these:
-	// /
-	// /#photo_id
-	// /#g:lat,lon
-	// /#photo_id,g:lat,lon
-
-	function getCurrentStateObject() {
-	  if (!$('#expanded').is(':visible')) {
-	    return {};
-	  }
-	  var g = $('#expanded').data('grid-key');
-	  var selectedId = $('#grid-container').expandableGrid('selectedId');
-
-	  return selectedId ? { photo_id: selectedId, g: g } : { g: g };
-	}
-
-	// Converts the string after '#' in a URL into a state object,
-	// {photo_id:string, g:string}
-	// This is asynchronous because it may need to fetch ID->lat/lon info.
-	function hashToStateObject(hash, cb) {
-	  var m = hash.match(/(.*),g:(.*)/);
-	  if (m) {
-	    cb({ photo_id: m[1], g: m[2] });
-	  } else if (hash.substr(0, 2) == 'g:') {
-	    cb({ g: hash.substr(2) });
-	  } else if (hash.length > 0) {
-	    var photo_id = hash;
-	    (0, _photoInfo.findLatLonForPhoto)(photo_id, function (g) {
-	      cb({ photo_id: hash, g: g });
-	    });
-	  } else {
-	    cb({});
-	  }
-	}
-
-	function stateObjectToHash(state) {
-	  if (state.photo_id) {
-	    if (state.g == 'pop') {
-	      return state.photo_id + ',g:pop';
-	    } else {
-	      return state.photo_id;
-	    }
-	  }
-
-	  if (state.g) {
-	    return 'g:' + state.g;
-	  }
-	  return '';
-	}
-
-	// Change whatever is currently displayed to reflect the state in obj.
-	// This change may happen asynchronously.
-	// This won't affect the URL hash.
-	function transitionToStateObject(targetState) {
-	  var currentState = getCurrentStateObject();
-
-	  // This normalizes the state, i.e. adds a 'g' field to if it's implied.
-	  // (it also strips out extraneous fields)
-	  hashToStateObject(stateObjectToHash(targetState), function (state) {
-	    if (JSON.stringify(currentState) == JSON.stringify(state)) {
-	      return; // nothing to do.
-	    }
-
-	    // Reset to map view.
-	    if (JSON.stringify(state) == '{}') {
-	      (0, _viewer.hideAbout)();
-	      (0, _viewer.hideExpanded)();
-	    }
-
-	    // Show a different grid?
-	    if (currentState.g != state.g) {
-	      var lat_lon = state.g;
-	      var count = (0, _viewer.countPhotos)(lat_lons[lat_lon]);
-	      if (state.g == 'pop') {
-	        count = (0, _viewer.getPopularPhotoIds)().length;
-	      } else {
-	        // Highlight the marker, creating it if necessary.
-	        var marker = _viewer.lat_lon_to_marker[lat_lon];
-	        var latLng = (0, _viewer.parseLatLon)(lat_lon);
-	        if (!marker) {
-	          marker = (0, _viewer.createMarker)(lat_lon, latLng);
-	        }
-	        if (marker) {
-	          (0, _viewer.selectMarker)(marker, count);
-	          if (!_viewer.map.getBounds().contains(latLng)) {
-	            _viewer.map.panTo(latLng);
-	          }
-	        }
-	      }
-	      (0, _photoInfo.loadInfoForLatLon)(lat_lon).done(function (photo_ids) {
-	        (0, _viewer.showExpanded)(state.g, photo_ids, state.photo_id);
-	      });
-	      return;
-	    }
-
-	    if (currentState.photo_id && !state.photo_id) {
-	      // Hide the selected photo
-	      $('#grid-container').expandableGrid('deselect');
-	    } else {
-	      // Show a different photo
-	      $('#grid-container').expandableGrid('select', state.photo_id);
-	    }
-	  });
-	}
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var _viewer = __webpack_require__(1);
-
-	var locationMarker = null; // @ts-check
-	/**
-	 * This module supports address search and the current location button.
-	 */
-
-	function setLocation(latLng, title) {
-	  _viewer.map.panTo(latLng);
-	  _viewer.map.setZoom(17);
-
-	  if (locationMarker) {
-	    locationMarker.setMap(null);
-	  }
-	  locationMarker = new google.maps.Marker({
-	    position: latLng,
-	    map: _viewer.map,
-	    title: title
-	  });
-	}
-
-	$(function () {
-	  $('#location-search').on('keypress', function (e) {
-	    if (e.which !== 13) return;
-
-	    var address = $(this).val();
-	    $.getJSON('https://maps.googleapis.com/maps/api/geocode/json', {
-	      address: address,
-	      key: 'AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA',
-	      bounds: '40.490856,-74.260895|41.030091,-73.578699'
-	    }).done(function (response) {
-	      var latLng = response.results[0].geometry.location;
-	      setLocation(latLng, address);
-	      ga('send', 'event', 'link', 'address-search');
-	    }).fail(function (e) {
-	      console.error(e);
-	      ga('send', 'event', 'link', 'address-search-fail');
-	    });
-	  });
-
-	  $('#current-location').on('click', function () {
-	    navigator.geolocation.getCurrentPosition(function (position) {
-	      var _position$coords = position.coords,
-	          latitude = _position$coords.latitude,
-	          longitude = _position$coords.longitude;
-
-	      setLocation({ lat: latitude, lng: longitude }, 'Current Location');
-	      ga('send', 'event', 'link', 'current-location');
-	    }, function (e) {
-	      console.error(e);
-	      ga('send', 'event', 'link', 'current-location-error');
-	    });
-	  });
-	});
-
-/***/ })
-/******/ ]);
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./js/entry.js");
+/******/ 	
+/******/ })()
+;
