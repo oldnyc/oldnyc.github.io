@@ -216,7 +216,6 @@ export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
   const marker = new google.maps.Marker({
     position: latLng,
     map: map,
-    flat: true,
     visible: true,
     icon: marker_icons[Math.min(count, 100)],
     title: lat_lon
