@@ -116,8 +116,11 @@ function buildStaticStyle(styleStruct: google.maps.MapTypeStyle[]) {
     if (s.elementType != null) strs.push( "element:" + s.elementType );
     if (s.stylers != null) {
       for (var j=0;j<s.stylers.length;j++) {
-        for (var key in s.stylers[j]){
-          strs.push( key + ":" + s.stylers[j][key].replace(/#/, '0x') );
+        for (const [key, value] of Object.entries(s.stylers[j])) {
+          if (typeof value !== 'string') {
+           continue;
+          }
+          strs.push( key + ":" + value.replace(/#/, '0x') );
         }
       }
     }

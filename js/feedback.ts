@@ -5,7 +5,7 @@
 
 var COOKIE_ID = 'oldnycid';
 
-var firebaseRef = null;
+var firebaseRef: Firebase | null = null;
 // e.g. if we're offline and the firebase script can't load.
 if (typeof(Firebase) !== 'undefined') {
   firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');
@@ -61,7 +61,7 @@ if (!COOKIE) {
 // TODO: this depends on FeedbackType
 export interface PhotoFeedback {
   text?: string;
-  notext?: string;
+  notext?: boolean;
   rotate?: number;
   original?: number;
   'rotate-backing'?: number;
@@ -74,7 +74,7 @@ interface FeedbackMetadata {
   cookie: string;
 }
 /** Feedback type (matches tags in index.html, ocr.html) */
-export type FeedbackType = 'rotate' | 'rotate-backing' | 'cut-in-half' | 'large-border' | 'multiples' | 'wrong-location' | 'date';
+export type FeedbackType = 'rotate' | 'rotate-backing' | 'cut-in-half' | 'large-border' | 'multiples' | 'wrong-location' | 'date' | 'text' | 'notext';
 
 // Record one piece of feedback. Returns a jQuery deferred object.
 export function sendFeedback(

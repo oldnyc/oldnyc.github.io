@@ -3,7 +3,7 @@
  */
 
 import {libraryUrlForPhotoId, loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto} from './photo-info';
-import {FeedbackText, getFeedbackText, sendFeedback} from './feedback';
+import {FeedbackText, FeedbackType, PhotoFeedback, getFeedbackText, sendFeedback} from './feedback';
 
 if (window.location.search.indexOf('thanks') >= 0) {
   $('#thanks').show();
@@ -45,7 +45,7 @@ interface NoTextJson {
 // A list of photo IDs without text, for use as next images to show.
 var noTextIdsDef = $.getJSON('/notext.json');
 
-function submit(type, feedback_obj) {
+function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
   sendFeedback(backId(id), type, feedback_obj)
     .then(function() {
       // Go to another image at the same location.
