@@ -24,6 +24,7 @@ Non-TypeScript modernization:
 - [ ] Remove my maps API key from the repo
 - [ ] Set up webpack dev server
 - [ ] The "view original" links to the NYPL site are broken
+- [ ] Replace calls to String.prototype.substr
 
 Topological sort:
 

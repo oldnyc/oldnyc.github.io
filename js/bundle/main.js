@@ -10,16 +10,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/entry.js":
-/*!*********************!*\
-  !*** ./js/entry.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _viewer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./viewer */ \"./js/viewer.ts\");\n/* harmony import */ var _app_history__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-history */ \"./js/app-history.ts\");\n/* harmony import */ var _app_history__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_history__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./search */ \"./js/search.ts\");\n\n\n\n\n$(function() {\n  (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.fillPopularImagesPanel)();\n  (0,_viewer__WEBPACK_IMPORTED_MODULE_0__.initialize_map)();\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/entry.js?");
-
-/***/ }),
-
 /***/ "./js/popular-photos.js":
 /*!******************************!*\
   !*** ./js/popular-photos.js ***!
@@ -36,7 +26,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst history_1 = __importDefault(__webpack_require__(/*! ./history */ \"./js/history.ts\"));\nconst url_state_1 = __webpack_require__(/*! ./url-state */ \"./js/url-state.ts\");\nconst viewer_1 = __webpack_require__(/*! ./viewer */ \"./js/viewer.ts\");\n// This should go in the $(function()) block below.\n// It's exposed to facilitate debugging.\nconst h = new history_1.default(function (hash, cb) {\n    (0, url_state_1.hashToStateObject)(hash.substr(1), cb);\n});\n// Ping Google Analytics with the current URL (e.g. after history.pushState).\n// See http://stackoverflow.com/a/4813223/388951\nfunction trackAnalyticsPageView() {\n    const url = location.pathname + location.search + location.hash;\n    ga('send', 'pageview', { 'page': url });\n}\nlet LOG_HISTORY_EVENTS = false;\n// var LOG_HISTORY_EVENTS = true;\n$(function () {\n    // Relevant UI methods:\n    // - transitionToStateObject(obj)\n    //\n    // State/URL manipulation:\n    // - stateObjectToHash()\n    // - hashToStateObject()\n    //\n    // State objects look like:\n    // {photo_id:string, g:string}\n    // Returns URL fragments like '/#g:123'.\n    const fragment = function (state) {\n        return '/#' + (0, url_state_1.stateObjectToHash)(state);\n    };\n    var title = function (state) {\n        var old_nyc = 'Old NYC';\n        if ('photo_id' in state) {\n            return old_nyc + ' - Photo ' + state.photo_id;\n        }\n        else if ('g' in state) {\n            // TODO: include cross-streets in the title\n            return old_nyc + ' - Grid';\n        }\n        else {\n            return old_nyc;\n        }\n    };\n    $(window)\n        .on('showGrid', function (e, pos) {\n        var state = { g: pos };\n        h.pushState(state, title(state), fragment(state));\n        trackAnalyticsPageView();\n    }).on('hideGrid', function () {\n        var state = { initial: true };\n        h.goBackUntil('initial', [state, title(state), fragment(state)]);\n    }).on('openPreviewPanel', function () {\n        // This is a transient state -- it should immediately be replaced.\n        var state = { photo_id: true };\n        h.pushState(state, title(state), fragment(state));\n    }).on('showPhotoPreview', function (e, photo_id) {\n        var g = $('#expanded').data('grid-key');\n        var state = { photo_id: photo_id };\n        if (g == 'pop')\n            state.g = 'pop';\n        h.replaceState(state, title(state), fragment(state));\n        trackAnalyticsPageView();\n    }).on('closePreviewPanel', function () {\n        var g = $('#expanded').data('grid-key');\n        var state = { g: g };\n        h.goBackUntil('g', [state, title(state), fragment(state)]);\n    });\n    // Update the UI in response to hitting the back/forward button,\n    // a hash fragment on initial page load or the user editing the URL.\n    $(h).on('setStateInResponseToUser setStateInResponseToPageLoad', function (e, state) {\n        // It's important that these methods only configure the UI.\n        // They must not trigger events, or they could cause a loop!\n        (0, url_state_1.transitionToStateObject)(state);\n    });\n    $(h).on('setStateInResponseToPageLoad', function () {\n        trackAnalyticsPageView(); // hopefully this helps track social shares\n    });\n    if (LOG_HISTORY_EVENTS) {\n        $(window)\n            .on('showGrid', function (e, pos) {\n            console.log('showGrid', pos);\n        }).on('hideGrid', function () {\n            console.log('hideGrid');\n        }).on('showPhotoPreview', function (e, photo_id) {\n            console.log('showPhotoPreview', photo_id);\n        }).on('closePreviewPanel', function () {\n            console.log('closePreviewPanel');\n        }).on('openPreviewPanel', function () {\n            console.log('openPreviewPanel');\n        });\n        $(h).on('setStateInResponseToUser', function (e, state) {\n            console.log('setStateInResponseToUser', state);\n        }).on('setStateInResponseToPageLoad', function (e, state) {\n            console.log('setStateInResponseToPageLoad', state);\n        });\n    }\n    // To load from a URL fragment, the map object must be ready.\n    viewer_1.mapPromise.done(function () {\n        h.initialize();\n    });\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/app-history.ts?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst history_1 = __importDefault(__webpack_require__(/*! ./history */ \"./js/history.ts\"));\nconst url_state_1 = __webpack_require__(/*! ./url-state */ \"./js/url-state.ts\");\nconst viewer_1 = __webpack_require__(/*! ./viewer */ \"./js/viewer.ts\");\n// This should go in the $(function()) block below.\n// It's exposed to facilitate debugging.\nconst h = new history_1.default(function (hash, cb) {\n    (0, url_state_1.hashToStateObject)(hash.substr(1), cb);\n});\n// Ping Google Analytics with the current URL (e.g. after history.pushState).\n// See http://stackoverflow.com/a/4813223/388951\nfunction trackAnalyticsPageView() {\n    const url = location.pathname + location.search + location.hash;\n    ga('send', 'pageview', { 'page': url });\n}\nlet LOG_HISTORY_EVENTS = false;\n// var LOG_HISTORY_EVENTS = true;\n$(function () {\n    // Relevant UI methods:\n    // - transitionToStateObject(obj)\n    //\n    // State/URL manipulation:\n    // - stateObjectToHash()\n    // - hashToStateObject()\n    //\n    // State objects look like:\n    // {photo_id:string, g:string}\n    const fragment = function (state) {\n        if ('initial' in state) {\n            return '/#';\n        }\n        return '/#' + (0, url_state_1.stateObjectToHash)(state);\n    };\n    var title = function (state) {\n        var old_nyc = 'Old NYC';\n        if ('photo_id' in state) {\n            return old_nyc + ' - Photo ' + state.photo_id;\n        }\n        else if ('g' in state) {\n            // TODO: include cross-streets in the title\n            return old_nyc + ' - Grid';\n        }\n        else {\n            return old_nyc;\n        }\n    };\n    $(window)\n        .on('showGrid', function (e, pos) {\n        var state = { g: pos };\n        h.pushState(state, title(state), fragment(state));\n        trackAnalyticsPageView();\n    }).on('hideGrid', function () {\n        var state = { initial: true };\n        h.goBackUntil('initial', [state, title(state), fragment(state)]);\n    }).on('openPreviewPanel', function () {\n        // This is a transient state -- it should immediately be replaced.\n        var state = { photo_id: true };\n        h.pushState(state, title(state), fragment(state));\n    }).on('showPhotoPreview', function (e, photo_id) {\n        var g = $('#expanded').data('grid-key');\n        var state = { photo_id: photo_id };\n        if (g == 'pop')\n            state.g = 'pop';\n        h.replaceState(state, title(state), fragment(state));\n        trackAnalyticsPageView();\n    }).on('closePreviewPanel', function () {\n        var g = $('#expanded').data('grid-key');\n        var state = { g: g };\n        h.goBackUntil('g', [state, title(state), fragment(state)]);\n    });\n    // Update the UI in response to hitting the back/forward button,\n    // a hash fragment on initial page load or the user editing the URL.\n    $(h).on('setStateInResponseToUser setStateInResponseToPageLoad', function (e, state) {\n        // It's important that these methods only configure the UI.\n        // They must not trigger events, or they could cause a loop!\n        (0, url_state_1.transitionToStateObject)(state);\n    });\n    $(h).on('setStateInResponseToPageLoad', function () {\n        trackAnalyticsPageView(); // hopefully this helps track social shares\n    });\n    if (LOG_HISTORY_EVENTS) {\n        $(window)\n            .on('showGrid', function (e, pos) {\n            console.log('showGrid', pos);\n        }).on('hideGrid', function () {\n            console.log('hideGrid');\n        }).on('showPhotoPreview', function (e, photo_id) {\n            console.log('showPhotoPreview', photo_id);\n        }).on('closePreviewPanel', function () {\n            console.log('closePreviewPanel');\n        }).on('openPreviewPanel', function () {\n            console.log('openPreviewPanel');\n        });\n        $(h).on('setStateInResponseToUser', function (e, state) {\n            console.log('setStateInResponseToUser', state);\n        }).on('setStateInResponseToPageLoad', function (e, state) {\n            console.log('setStateInResponseToPageLoad', state);\n        });\n    }\n    // To load from a URL fragment, the map object must be ready.\n    viewer_1.mapPromise.done(function () {\n        h.initialize();\n    });\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/app-history.ts?");
+
+/***/ }),
+
+/***/ "./js/entry.ts":
+/*!*********************!*\
+  !*** ./js/entry.ts ***!
+  \*********************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst viewer_1 = __webpack_require__(/*! ./viewer */ \"./js/viewer.ts\");\n__webpack_require__(/*! ./app-history */ \"./js/app-history.ts\");\n__webpack_require__(/*! ./search */ \"./js/search.ts\");\n$(function () {\n    (0, viewer_1.fillPopularImagesPanel)();\n    (0, viewer_1.initialize_map)();\n});\n\n\n//# sourceURL=webpack://oldnyc/./js/entry.ts?");
 
 /***/ }),
 
@@ -147,18 +147,6 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -192,7 +180,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nexpo
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./js/entry.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./js/entry.ts");
 /******/ 	
 /******/ })()
 ;
