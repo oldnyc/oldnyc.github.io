@@ -114,7 +114,7 @@ function displayInfoForLatLon(lat_lon: string, marker?: google.maps.Marker, opt_
   });
 }
 
-function handleClick(e) {
+function handleClick(e: google.maps.Data.MouseEvent) {
   var lat_lon = e.latLng.lat().toFixed(6) + ',' + e.latLng.lng().toFixed(6)
   var marker = lat_lon_to_marker[lat_lon];
   displayInfoForLatLon(lat_lon, marker, function(photo_id) {
@@ -146,7 +146,7 @@ export function initialize_map() {
   // This shoves the navigation bits down by a CSS-specified amount
   // (see the .spacer rule). This is surprisingly hard to do.
   var map_spacer = $('<div/>').append($('<div/>').addClass('spacer')).get(0);
-  map_spacer.index = -1;
+  // map_spacer.index = -1;
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(map_spacer);
 
   // The OldSF UI just gets in the way of Street View.
@@ -164,18 +164,20 @@ export function initialize_map() {
     var num = i + 1;
     var size = (num == 1 ? 9 : 13);
     var selectedSize = (num == 1 ? 15 : 21);
-    marker_icons.push(new google.maps.MarkerImage(
-      'images/sprite-2014-08-29.png',
-      new google.maps.Size(size, size),
-      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
-      new google.maps.Point((size - 1) / 2, (size - 1)/2)
-    ));
-    selected_marker_icons.push(new google.maps.MarkerImage(
-      'images/selected-2014-08-29.png',
-      new google.maps.Size(selectedSize, selectedSize),
-      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
-      new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)
-    ));
+    marker_icons.push(
+      {
+        url: 'images/sprite-2014-08-29.png',
+        size: new google.maps.Size(size, size),
+        origin: new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
+        anchor: new google.maps.Point((size - 1) / 2, (size - 1)/2)
+      }
+    );
+    selected_marker_icons.push({
+      url: 'images/selected-2014-08-29.png',
+      size: new google.maps.Size(selectedSize, selectedSize),
+      origin: new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
+      anchor: new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)
+  });
   }
 
   // Adding markers is expensive -- it's important to defer this when possible.
