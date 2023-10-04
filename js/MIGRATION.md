@@ -23,3 +23,17 @@ Non-TypeScript modernization:
 - [ ] Run prettier
 - [ ] Remove my maps API key from the repo
 - [ ] Set up webpack dev server
+
+Topological sort:
+
+- [ ] photo-info.js
+- [ ] social.js
+- [ ] map-styles.js
+- [ ] feedback.js
+- [ ] ocr-tool.js
+- [ ] history.js
+- [ ] viewer.js
+- [ ] search.js
+- [ ] url-state.js
+- [ ] app-history.js
+- [ ] entry.js
