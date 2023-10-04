@@ -83,7 +83,7 @@
 
     /* Type Checking */
     "strict": false,                                      /* Enable all strict type-checking options. */
-    // "allowJs": true,
+    "allowJs": false,
     "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
     // "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
     // "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
@@ -106,5 +106,12 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "files": [
+    "js/entry.ts",
+    "js/ocr-tool.ts",
+  ],
+  "include": [
+    "js/*.d.ts"
+  ]
 }

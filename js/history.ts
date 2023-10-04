@@ -167,7 +167,7 @@ class History<State extends object> {
    * If no matching history state is found, the history stack will be cleared and
    * alternativeState will be pushed on.
    */
-  goBackUntil(predicate: string | ((state: State) => boolean), alternativeState: State) {
+  goBackUntil(predicate: string | ((state: State) => boolean), alternativeState: [State, string, string]): number {
     // Convenience for common case of checking if history state has a key.
     if (typeof (predicate) == "string") {
       return this.goBackUntil(

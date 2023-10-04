@@ -1,4 +1,3 @@
-// @ts-check
 import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto, LightPhotoInfo, PhotoInfo} from './photo-info';
 import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
 import {getCanonicalUrlForPhoto} from './social';
@@ -9,9 +8,9 @@ const markers: google.maps.Marker[] = [];
 const marker_icons: google.maps.Icon[] = [];
 export var lat_lon_to_marker: {[latLng: string]: google.maps.Marker} = {};
 
-let selected_marker_icons = [];
-let selected_marker;
-let selected_icon;
+let selected_marker_icons: google.maps.Icon[] = [];
+let selected_marker: google.maps.Marker | undefined;
+let selected_icon: google.maps.Icon | google.maps.Symbol | string | undefined;
 let year_range: [number, number] = [1800, 2000];
 
 export let map: google.maps.Map | undefined;
@@ -578,9 +577,11 @@ $(function() {
       $input.prop('disabled', true);
     }
     $button.prop('disabled', true);
-    var photo_id = $('#grid-container').expandableGrid('selectedId');
-    var type = $button.attr('feedback') as FeedbackType;
-    var obj = {}; obj[type] = value;
+    const photo_id = $('#grid-container').expandableGrid('selectedId');
+    const type = $button.attr('feedback') as FeedbackType;
+    const obj = {
+      [type]: value,
+    };
     sendFeedback(photo_id, type, obj).then(thanks($button.get(0)));
   });
 
