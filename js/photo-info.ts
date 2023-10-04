@@ -56,9 +56,9 @@ export function loadInfoForLatLon(lat_lon: string): JQueryPromise<string[]> {
 // Returns a {title: ..., date: ...} object.
 // If there's no information about the photo yet, then the values are all set
 // to the empty string.
-export function infoForPhotoId(photo_id: string): LightPhotoInfo & Partial<PhotoInfo> {
+export function infoForPhotoId(photo_id: string): PhotoInfo {
   return photo_id_to_info[photo_id] ||
-      { title: '', date: '' };
+      { title: '', date: '' } as PhotoInfo;
 }
 
 // Would it make more sense to incorporate these into infoForPhotoId?
