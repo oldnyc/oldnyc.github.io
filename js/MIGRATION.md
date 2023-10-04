@@ -33,8 +33,8 @@ Topological sort:
 - [x] feedback.js
 - [x] ocr-tool.js
 - [x] history.js
-- [ ] viewer.js
-- [ ] search.js
+- [x] viewer.js
+- [x] search.js
 - [ ] url-state.js
 - [ ] app-history.js
 - [ ] entry.js
