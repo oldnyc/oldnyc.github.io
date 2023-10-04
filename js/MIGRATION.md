@@ -35,6 +35,6 @@ Topological sort:
 - [x] history.js
 - [x] viewer.js
 - [x] search.js
-- [ ] url-state.js
+- [x] url-state.js
 - [ ] app-history.js
 - [ ] entry.js
