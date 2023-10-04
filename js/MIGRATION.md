@@ -13,6 +13,8 @@ Non-TypeScript modernization:
 
 - [ ] Un-vendor dependencies
 - [ ] Update webpack, eslint, etc. versions
+  - [x] webpack
+  - [ ] eslint
 - [ ] Switch from `$.Deferred` to native promises
 - [ ] Port to React / ReactRouter
 - [ ] Replace ZeroClipboard with a native solution
@@ -20,3 +22,4 @@ Non-TypeScript modernization:
 - [ ] Replace direct Firebase access with a lambda function
 - [ ] Run prettier
 - [ ] Remove my maps API key from the repo
+- [ ] Set up webpack dev server
