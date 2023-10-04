@@ -17,7 +17,7 @@ $('#hi-res').attr('href', libraryUrlForPhotoId(id));
 var other_photo_ids;
 findLatLonForPhoto(id, function(lat_lon) {
   var infoDef = loadInfoForLatLon(lat_lon),
-      ocrDef = getFeedbackText(backId(id));
+      ocrDef = getFeedbackText(backId({ photo_id: id }));
   $.when(infoDef, ocrDef).done(function(photo_ids, ocr_obj) {
     console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
@@ -41,7 +41,7 @@ findLatLonForPhoto(id, function(lat_lon) {
 var noTextIdsDef = $.getJSON('/notext.json');
 
 function submit(type, feedback_obj) {
-  sendFeedback(backId(id), type, feedback_obj)
+  sendFeedback(backId({ photo_id: id }), type, feedback_obj)
     .then(function() {
       // Go to another image at the same location.
       return next_image(id);
@@ -95,5 +95,5 @@ function rotate90() {
   $img
     .css('transform', 'rotate(' + currentRotation + 'deg)')
     .data('rotate', currentRotation);
-  sendFeedback(backId(id), {'rotate-backing': currentRotation});
+  sendFeedback(backId({ photo_id: id }), {'rotate-backing': currentRotation});
 }
