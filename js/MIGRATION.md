@@ -27,7 +27,7 @@ Non-TypeScript modernization:
 Topological sort:
 
 - [x] photo-info.js
-- [ ] social.js
+- [x] social.js
 - [ ] map-styles.js
 - [ ] feedback.js
 - [ ] ocr-tool.js
