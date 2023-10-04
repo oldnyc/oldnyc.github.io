@@ -3,7 +3,7 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './js/entry.js',
-    ocr: './js/ocr-tool.js'
+    ocr: './js/ocr-tool.ts'
   },
   // devtool: '#cheap-module-source-map',
   output: {

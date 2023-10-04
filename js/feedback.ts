@@ -64,6 +64,7 @@ export interface PhotoFeedback {
   notext?: string;
   rotate?: number;
   original?: number;
+  'rotate-backing'?: number;
 }
 interface FeedbackMetadata {
   timestamp: number;
@@ -73,12 +74,12 @@ interface FeedbackMetadata {
   cookie: string;
 }
 /** Feedback type (matches tags in index.html, ocr.html) */
-export type FeedbackType = 'rotate' | 'cut-in-half' | 'large-border' | 'multiples' | 'wrong-location' | 'date';
+export type FeedbackType = 'rotate' | 'rotate-backing' | 'cut-in-half' | 'large-border' | 'multiples' | 'wrong-location' | 'date';
 
 // Record one piece of feedback. Returns a jQuery deferred object.
 export function sendFeedback(
   photo_id: string,
-  feedback_type: string,
+  feedback_type: FeedbackType,
   feedback_obj: PhotoFeedback,
 ) {
   ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });

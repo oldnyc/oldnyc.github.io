@@ -31,8 +31,8 @@ export interface PhotoInfo {
 // The callback is called with the photo_ids that were just loaded, after the
 // UI updates.  The callback may assume that infoForPhotoId() will return data
 // for all the newly-available photo_ids.
-export function loadInfoForLatLon(lat_lon: string) {
-  let url;
+export function loadInfoForLatLon(lat_lon: string): JQueryPromise<string[]> {
+  let url: string;
   if (lat_lon == 'pop') {
     url = SITE + '/popular.json';
   } else {
@@ -53,10 +53,10 @@ export function loadInfoForLatLon(lat_lon: string) {
   });
 }
 
-// Returns a {title: ..., date: ..., library_url: ...} object.
+// Returns a {title: ..., date: ...} object.
 // If there's no information about the photo yet, then the values are all set
 // to the empty string.
-export function infoForPhotoId(photo_id: string): LightPhotoInfo {
+export function infoForPhotoId(photo_id: string): LightPhotoInfo & Partial<PhotoInfo> {
   return photo_id_to_info[photo_id] ||
       { title: '', date: '' };
 }
