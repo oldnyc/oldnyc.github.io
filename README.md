@@ -19,7 +19,7 @@ Modifications to the HTML and CSS files should show up immediately.
 The JavaScript files are bundled for serving, so changes to individual files
 won't show up on the site until you rebuild the bundle. To do this, run:
 
-    npm install
+    yarn
     yarn webpack
 
 after saving your changes, or set up a watch process:
