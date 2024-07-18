@@ -26,6 +26,7 @@ export interface PhotoInfo {
   years?: string[];
   original_title?: string;
   rotation?: number;
+  nypl_url?: string;
 }
 
 // The callback is called with the photo_ids that were just loaded, after the
@@ -70,10 +71,6 @@ export function descriptionForPhotoId(photo_id: string) {
   if (!date) date = 'No Date';
   desc += date;
   return desc;
-}
-
-export function libraryUrlForPhotoId(photo_id: string) {
-  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
 }
 
 export function backId(photo_id: string) {

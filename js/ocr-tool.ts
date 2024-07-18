@@ -2,7 +2,7 @@
  * JavaScript for the OCR correction tool. See ocr.html
  */
 
-import {libraryUrlForPhotoId, loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto} from './photo-info';
+import {loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto} from './photo-info';
 import {FeedbackText, FeedbackType, PhotoFeedback, getFeedbackText, sendFeedback} from './feedback';
 
 if (window.location.search.indexOf('thanks') >= 0) {

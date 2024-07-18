@@ -1,4 +1,4 @@
-import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto, LightPhotoInfo, PhotoInfo} from './photo-info';
+import {nameForLatLon, backId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto, LightPhotoInfo, PhotoInfo} from './photo-info';
 import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
 import {getCanonicalUrlForPhoto} from './social';
 import {getFeedbackText, sendFeedback, deleteCookie, setCookie, FeedbackText, FeedbackType} from './feedback';
@@ -280,7 +280,7 @@ function fillPhotoPane(photo_id: string, $pane: JQuery) {
   $('.description', $pane).html(descriptionForPhotoId(photo_id));
 
   var info = infoForPhotoId(photo_id);
-  var library_url = libraryUrlForPhotoId(photo_id);
+  var library_url = info['nypl_url'] ?? 'https://nypl.org';
 
   // this one is actually on the left panel, not $pane.
   $pane.parent().find('.nypl-link a').attr('href', library_url);
@@ -316,7 +316,6 @@ function fillPhotoPane(photo_id: string, $pane: JQuery) {
             .attr('data-href', canonicalUrl)
             .attr('data-version', 'v2.3'))
     FB.XFBML.parse($comments.get(0));
-    console.log(canonicalUrl);
   }
 
   // Social links
@@ -493,7 +492,10 @@ $(function() {
   })
   .on('click', '.og-fullimg > img', function() {
     var photo_id = $('#grid-container').expandableGrid('selectedId');
-    window.open(libraryUrlForPhotoId(photo_id), '_blank');
+    const info = infoForPhotoId(photo_id);
+    if (info.nypl_url) {
+      window.open(info.nypl_url, '_blank');
+    }
   });
 
   $('#grid-container').on('click', '.rotate-image-button', function(e) {
