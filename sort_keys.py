@@ -3,10 +3,13 @@
 
 import glob
 import json
+import sys
 
 EXCLUDE = {'tsconfig.json', 'package.json'}
 
-for i, path in enumerate(glob.glob('**/*.json', recursive=True)):
+paths = glob.glob('**/*.json', recursive=True) if len(sys.argv) == 1 else sys.argv[1:]
+
+for i, path in enumerate(paths):
     if path in EXCLUDE or 'node_modules' in path:
         continue
     print(i, path)
