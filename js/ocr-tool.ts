@@ -12,7 +12,6 @@ if (window.location.search.indexOf('thanks') >= 0) {
 const id = window.location.hash.slice(1);
 $('[name="photo_id"]').val(id);
 $('#back-link').attr('href', '/#' + id);
-$('#hi-res').attr('href', libraryUrlForPhotoId(id));
 
 let other_photo_ids: string[] | undefined;
 findLatLonForPhoto(id, function(lat_lon) {
@@ -22,6 +21,7 @@ findLatLonForPhoto(id, function(lat_lon) {
   $.when<any>(infoDef, ocrDef).done(function(photo_ids: string[], ocr_obj: FeedbackText) {
     console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
+    $('#hi-res').attr('href', info.nypl_url ?? 'https://nypl.org');
     other_photo_ids = photo_ids;
     $('img.back').attr('src', backOfCardUrlForPhotoId(id));
     var text = ocr_obj ? ocr_obj.text : info.text;
