@@ -96,7 +96,7 @@ export function transitionToStateObject(targetState: UrlState) {
           }
         }
       }
-      loadInfoForLatLon(lat_lon).done(function(photo_ids) {
+      loadInfoForLatLon(lat_lon).then(function(photo_ids) {
         showExpanded(state.g, photo_ids, state.photo_id);
       });
       return;

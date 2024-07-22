@@ -3,7 +3,7 @@
  */
 
 import {loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto, libraryUrl} from './photo-info';
-import {FeedbackText, FeedbackType, PhotoFeedback, getFeedbackText, sendFeedback} from './feedback';
+import {FeedbackType, PhotoFeedback, getFeedbackText, sendFeedback} from './feedback';
 
 if (window.location.search.indexOf('thanks') >= 0) {
   $('#thanks').show();
@@ -15,10 +15,11 @@ $('#back-link').attr('href', '/#' + id);
 
 let other_photo_ids: string[] | undefined;
 findLatLonForPhoto(id, function(lat_lon) {
-  var infoDef = loadInfoForLatLon(lat_lon),
-      ocrDef = getFeedbackText(backId(id));
-  // TODO: update to Promise.all; $.when isn't very well-typed.
-  $.when<any>(infoDef, ocrDef).done(function(photo_ids: string[], ocr_obj: FeedbackText) {
+  const infoP = loadInfoForLatLon(lat_lon);
+  const ocrP = getFeedbackText(backId(id));
+
+  (async () => {
+    const [photo_ids, ocr_obj] = await Promise.all([infoP, ocrP]);
     console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
     $('#hi-res').attr('href', libraryUrl(id, info.nypl_url));
@@ -35,6 +36,8 @@ findLatLonForPhoto(id, function(lat_lon) {
       submit('notext', {notext: true});
     });
     $('.rotate-image-button').click(rotate90);
+  })().catch(e => {
+    console.error(e);
   });
 });
 

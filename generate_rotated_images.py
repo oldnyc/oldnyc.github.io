@@ -47,7 +47,7 @@ for photo in json.load(open('data.json'))['photos']:
     if not os.path.exists(image_path(photo_id, degrees, is_thumb=False)):
         work.append((photo_id, degrees))
 
-print 'Will generate %d rotated images and thumbnails' % len(work)
+print('Will generate %d rotated images and thumbnails' % len(work))
 
 for photo_id, degrees in work:
     for is_thumb in (False, True):

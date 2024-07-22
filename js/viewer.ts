@@ -100,7 +100,7 @@ export function updateYears(firstYear: number, lastYear: number) {
 function displayInfoForLatLon(lat_lon: string, marker?: google.maps.Marker, opt_selectCallback?: (photo_id: string) => void) {
   if (marker) selectMarker(marker, lat_lons[lat_lon]);
 
-  loadInfoForLatLon(lat_lon).done(function(photoIds) {
+  loadInfoForLatLon(lat_lon).then(function(photoIds) {
     var selectedId = null;
     if (photoIds.length <= 10) {
       selectedId = photoIds[0];
@@ -109,7 +109,7 @@ function displayInfoForLatLon(lat_lon: string, marker?: google.maps.Marker, opt_
     if (opt_selectCallback && selectedId) {
       opt_selectCallback(selectedId);
     }
-  }).fail(function() {
+  }).catch(function() {
   });
 }
 
@@ -531,12 +531,12 @@ $(function() {
     e.preventDefault();
     var selectedPhotoId = photoIdFromATag(this);
 
-    loadInfoForLatLon('pop').done(function(photoIds) {
+    loadInfoForLatLon('pop').then(function(photoIds) {
       showExpanded('pop', photoIds, selectedPhotoId);
       $(window).trigger('showGrid', 'pop');
       $(window).trigger('openPreviewPanel');
       $(window).trigger('showPhotoPreview', selectedPhotoId);
-    }).fail(function() {
+    }).catch(function() {
     });
   });
 

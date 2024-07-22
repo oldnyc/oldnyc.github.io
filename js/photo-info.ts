@@ -29,10 +29,9 @@ export interface PhotoInfo {
   nypl_url?: string;
 }
 
-// The callback is called with the photo_ids that were just loaded, after the
-// UI updates.  The callback may assume that infoForPhotoId() will return data
+// After this resolves, code may assume that infoForPhotoId() will return data
 // for all the newly-available photo_ids.
-export function loadInfoForLatLon(lat_lon: string): JQueryPromise<string[]> {
+export async function loadInfoForLatLon(lat_lon: string): Promise<string[]> {
   let url: string;
   if (lat_lon == 'pop') {
     url = SITE + '/popular.json';
@@ -40,18 +39,21 @@ export function loadInfoForLatLon(lat_lon: string): JQueryPromise<string[]> {
     url = JSON_BASE + '/' + lat_lon.replace(',', '') + '.json';
   }
 
-  return $.getJSON(url).then(function(response_data: {[photoId: string]: PhotoInfo}) {
-    // Add these values to the cache.
-    $.extend(photo_id_to_info, response_data);
-    var photo_ids = [];
-    for (var k in response_data) {
-      photo_ids.push(k);
-    }
-    if (lat_lon != 'pop') {
-      lat_lon_to_name[lat_lon] = extractName(response_data);
-    }
-    return photo_ids;
-  });
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  }
+  const response_data = await response.json();
+  // Add these values to the cache.
+  $.extend(photo_id_to_info, response_data);
+  var photo_ids = [];
+  for (var k in response_data) {
+    photo_ids.push(k);
+  }
+  if (lat_lon != 'pop') {
+    lat_lon_to_name[lat_lon] = extractName(response_data);
+  }
+  return photo_ids;
 }
 
 // Returns a {title: ..., date: ...} object.
@@ -110,5 +112,10 @@ export function findLatLonForPhoto(photo_id: string, cb:  (lat_lon: string) => v
 }
 
 export function libraryUrl(photo_id: string, url: string | undefined) {
+  if (url) {
+    return url;
+  }
+  // e.g. 123456-a -> 123456
+  photo_id = photo_id.replace(/-.*/, '');
   return url ?? `https://digitalcollections.nypl.org/search/index?keywords=${photo_id}`;
 }
