@@ -2,7 +2,7 @@
  * JavaScript for the OCR correction tool. See ocr.html
  */
 
-import {loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto} from './photo-info';
+import {loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto, libraryUrl} from './photo-info';
 import {FeedbackText, FeedbackType, PhotoFeedback, getFeedbackText, sendFeedback} from './feedback';
 
 if (window.location.search.indexOf('thanks') >= 0) {
@@ -21,7 +21,7 @@ findLatLonForPhoto(id, function(lat_lon) {
   $.when<any>(infoDef, ocrDef).done(function(photo_ids: string[], ocr_obj: FeedbackText) {
     console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
-    $('#hi-res').attr('href', info.nypl_url ?? 'https://nypl.org');
+    $('#hi-res').attr('href', libraryUrl(id, info.nypl_url));
     other_photo_ids = photo_ids;
     $('img.back').attr('src', backOfCardUrlForPhotoId(id));
     var text = ocr_obj ? ocr_obj.text : info.text;

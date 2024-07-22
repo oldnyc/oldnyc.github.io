@@ -3,33 +3,8 @@
  * This is shared between the OldNYC site and the OCR feedback tool.
  */
 
+const API = 'https://danvk-bronzeswift.web.val.run/api/v0';
 var COOKIE_ID = 'oldnycid';
-
-var firebaseRef: Firebase | null = null;
-// e.g. if we're offline and the firebase script can't load.
-if (typeof(Firebase) !== 'undefined') {
-  firebaseRef = new Firebase('https://brilliant-heat-1088.firebaseio.com/');
-}
-
-interface IpInfo {
-  ip: string;
-  country: string;
-  region: string;
-  city: string;
-}
-
-export interface UserLocation {
-  ip: string;
-  location: string;
-}
-
-let userLocation: UserLocation | null = null;
-$.get('//ipinfo.io', function(response: IpInfo) {
-  userLocation = {
-    ip: response.ip,
-    location: response.country + '-' + response.region + '-' + response.city
-  };
-}, 'jsonp');
 
 let lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {
   return data.ocr_ms as number;
@@ -57,6 +32,7 @@ if (!COOKIE) {
   });
   setCookie(COOKIE_ID, COOKIE);
 }
+console.log('Cookie', COOKIE);
 
 // TODO: this depends on FeedbackType
 export interface PhotoFeedback {
@@ -67,78 +43,60 @@ export interface PhotoFeedback {
   'rotate-backing'?: number;
 }
 interface FeedbackMetadata {
-  timestamp: number;
-  user_agent: string;
-  user_ip: string;
-  location: string;
   cookie: string;
 }
+
+interface FeedbackRequest extends PhotoFeedback {
+  metadata: FeedbackMetadata;
+}
+
 /** Feedback type (matches tags in index.html, ocr.html) */
 export type FeedbackType = 'rotate' | 'rotate-backing' | 'cut-in-half' | 'large-border' | 'multiples' | 'wrong-location' | 'date' | 'text' | 'notext';
 
 // Record one piece of feedback. Returns a jQuery deferred object.
-export function sendFeedback(
+export async function sendFeedback(
   photo_id: string,
   feedback_type: FeedbackType,
   feedback_obj: PhotoFeedback,
 ) {
   ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
 
-  const feedbackWithMetadata = {
+  const feedbackRequest: FeedbackRequest = {
     ...feedback_obj,
     metadata: {
-      timestamp: Firebase.ServerValue.TIMESTAMP,
-      user_agent: navigator.userAgent,
-      user_ip: userLocation ? userLocation.ip : '',
-      location: userLocation ? userLocation.location : '',
+      // TODO: move into request headers?
       cookie: COOKIE
-    } satisfies FeedbackMetadata
-  };
-  var path = '/feedback/' + photo_id + '/' + feedback_type;
-
-  var feedbackRef = firebaseRef.child(path);
-  var deferred = $.Deferred();
-  feedbackRef.push(feedbackWithMetadata, function(error) {
-    if (error) {
-      console.error('Error pushing', error);
-      deferred.reject(error);
-    } else {
-      deferred.resolve();
     }
-  });
+  };
+  const path = `${API}/${photo_id}/${feedback_type}`;
 
-  return deferred;
+  const response = await fetch(path, {
+    method: 'POST',
+    body: JSON.stringify(feedbackRequest),
+  });
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  }
+  return response.json();
 }
 
 export interface FeedbackText {
   text: string;
-  metadata: FeedbackMetadata;
+  timestamp: number;
 }
 
 // Retrieve the most-recent OCR for a backing image.
-// Returns a Deferred object which resolves to
-// { text: string, metadata: { timestamp: number, ... }
 // Resolves with null if there is no OCR text available.
-export function getFeedbackText(back_id: string) {
-  var deferred = $.Deferred<null | FeedbackText>();
-
-  lastReviewedOcrMsPromise.then(function(lastReviewedOcrMs) {
-    firebaseRef.child('/feedback/' + back_id + '/text')
-      .orderByKey()
-      // TODO: start with a key corresponding to lastReviewedOcrMs
-      // .limitToLast(1)
-      .once('value', function(feedback) {
-        let chosen: null | FeedbackText = null;
-        feedback.forEach(function(row) {
-          var v = row.val() as FeedbackText;
-          if (v.metadata.timestamp > lastReviewedOcrMs) {
-            chosen = v;  // take the most-recent one
-          }
-        });
-        // if none are chosen then ther's no text or the static site is up-to-date.
-        deferred.resolve(chosen);
-      });
-  });
-
-  return deferred;
+export async function getFeedbackText(back_id: string) {
+  const lastReviewedOcrMs = await lastReviewedOcrMsPromise;
+  const path = `${API}/${back_id}/text`;
+  const response = await fetch(path);
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  }
+  const feedback = await response.json() as FeedbackText;
+  if (feedback.timestamp > lastReviewedOcrMs) {
+    return feedback;
+  }
+  return null;
 }

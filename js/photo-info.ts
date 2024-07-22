@@ -108,3 +108,7 @@ export function findLatLonForPhoto(photo_id: string, cb:  (lat_lon: string) => v
     }
   });
 }
+
+export function libraryUrl(photo_id: string, url: string | undefined) {
+  return url ?? `https://digitalcollections.nypl.org/search/index?keywords=${photo_id}`;
+}

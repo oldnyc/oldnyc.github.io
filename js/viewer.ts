@@ -1,7 +1,7 @@
-import {nameForLatLon, backId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto, LightPhotoInfo, PhotoInfo} from './photo-info';
+import {nameForLatLon, backId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon, findLatLonForPhoto, LightPhotoInfo, PhotoInfo, libraryUrl} from './photo-info';
 import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
 import {getCanonicalUrlForPhoto} from './social';
-import {getFeedbackText, sendFeedback, deleteCookie, setCookie, FeedbackText, FeedbackType} from './feedback';
+import {getFeedbackText, sendFeedback, deleteCookie, setCookie, FeedbackType} from './feedback';
 import {popular_photos} from './popular-photos';
 
 const markers: google.maps.Marker[] = [];
@@ -280,7 +280,7 @@ function fillPhotoPane(photo_id: string, $pane: JQuery) {
   $('.description', $pane).html(descriptionForPhotoId(photo_id));
 
   var info = infoForPhotoId(photo_id);
-  var library_url = info['nypl_url'] ?? 'https://nypl.org';
+  var library_url = libraryUrl(photo_id, info['nypl_url']);
 
   // this one is actually on the left panel, not $pane.
   $pane.parent().find('.nypl-link a').attr('href', library_url);
@@ -288,8 +288,8 @@ function fillPhotoPane(photo_id: string, $pane: JQuery) {
 
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
 
-  // OCR'd text
-  getFeedbackText(backId(photo_id)).done(function(ocr) {
+  (async () => {
+    const ocr = await getFeedbackText(backId(photo_id));
     var text = ocr ? ocr.text : info.text;
     var ocr_url = '/ocr.html#' + photo_id,
         hasBack = photo_id.match('[0-9]f');
@@ -305,6 +305,8 @@ function fillPhotoPane(photo_id: string, $pane: JQuery) {
       $more.find('a.nypl').attr('href', library_url);
       $more.show();
     }
+  })().catch(e => {
+    console.error(e);
   });
 
   if (typeof(FB) != 'undefined') {
@@ -493,9 +495,8 @@ $(function() {
   .on('click', '.og-fullimg > img', function() {
     var photo_id = $('#grid-container').expandableGrid('selectedId');
     const info = infoForPhotoId(photo_id);
-    if (info.nypl_url) {
-      window.open(info.nypl_url, '_blank');
-    }
+    const url = libraryUrl(photo_id, info.nypl_url);
+    window.open(url, '_blank');
   });
 
   $('#grid-container').on('click', '.rotate-image-button', function(e) {
