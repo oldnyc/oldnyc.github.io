@@ -56,7 +56,7 @@ for photo_id, degrees in work:
         url = image_url(photo_id, is_thumb)
         sys.stderr.write('Fetching %s --> %s\n' % (url, final_dest))
         download(url, temp_dest)
-        im = Image.open(open(temp_dest))
+        im = Image.open(open(temp_dest, 'rb'))
         if degrees == 90:
             im = im.transpose(Image.ROTATE_270)
         elif degrees == 180:
