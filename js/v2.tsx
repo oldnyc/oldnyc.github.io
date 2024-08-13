@@ -1,25 +1,37 @@
-import React from 'react';
-import {createRoot} from 'react-dom/client';
-import {APIProvider, Map} from '@vis.gl/react-google-maps';
-import {MAP_STYLE} from './map-styles';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { APIProvider, Map, useMap, useMapsLibrary } from "@vis.gl/react-google-maps";
+import { MAP_STYLE } from "./map-styles";
 
-const API_KEY='AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA';
+const API_KEY = "AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA";
 
-const App = () => (
-  <APIProvider apiKey={API_KEY}>
+const App = () => {
+  const coreLib = useMapsLibrary('core');
+  const mapsLib = useMapsLibrary('maps');
+  return (
+    coreLib && mapsLib &&
     <Map
-      style={{width: '100vw', height: '100vh'}}
-      defaultCenter={{lat: 40.74421, lng: -73.97370}}
+      style={{ width: "100vw", height: "100vh" }}
+      defaultCenter={{ lat: 40.74421, lng: -73.9737 }}
       defaultZoom={15}
-      gestureHandling={'greedy'}
+      minZoom={10}
+      maxZoom={18}
+      mapTypeControl={false}
+      streetViewControl
+      panControl={false}
+      gestureHandling={"greedy"}
+      zoomControlOptions={{position: coreLib.ControlPosition.LEFT_TOP}}
+      mapTypeId={mapsLib.MapTypeId.ROADMAP}
       styles={MAP_STYLE}
     />
-  </APIProvider>
-);
+  );
+};
 
-const root = createRoot(document.querySelector('#app')!);
+const root = createRoot(document.querySelector("#app")!);
 root.render(
   <React.StrictMode>
-    <App />
+    <APIProvider apiKey={API_KEY}>
+      <App />
+    </APIProvider>
   </React.StrictMode>
 );
