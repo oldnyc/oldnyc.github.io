@@ -24,6 +24,9 @@
     "@types/jquery": "^1.10.41",
     "@types/jquery-mousewheel": "^3.1.10",
     "@types/jqueryui": "1.12",
+    "@types/lodash": "^4.17.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@types/twitter-for-web": "^0.0.3",
     "@types/zeroclipboard": "^2.0.35",
     "eslint": "^2.10.2",
@@ -34,6 +37,10 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@vis.gl/react-google-maps": "^1.1.0",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "underscore": "^1.8.3"
   }
 }

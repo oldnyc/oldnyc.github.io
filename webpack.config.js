@@ -3,6 +3,7 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './js/entry.ts',
+    v2: './js/v2.tsx',
     ocr: './js/ocr-tool.ts'
   },
   // devtool: '#cheap-module-source-map',
