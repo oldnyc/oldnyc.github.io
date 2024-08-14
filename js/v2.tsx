@@ -12,7 +12,7 @@ import { Map } from "./map";
 import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
 import { Logo } from "./Logo";
 import { Slideshow } from './Slideshow';
-import { photoIdToLatLon } from "./photo-id-to-lat-lon";
+import { getLatLonForPhotoId, photoIdToLatLon } from "./photo-id-to-lat-lon";
 
 interface UrlParams {
   photoId?: string;
@@ -46,7 +46,19 @@ function PhotoApp() {
       console.log('failed to get location from cache');
     }
   }
-  // TODO: if no loc, then we need to load it (maybe this is an initial page load)
+
+  // TODO: make sure there's only one request in flight for any id4
+  const [, setForceUpdate] = React.useState(0);
+  React.useEffect(() => {
+    if (photoId && !loc) {
+      (async () => {
+        await getLatLonForPhotoId(photoId);  // populates photoIdToLatLon
+        setForceUpdate(n => n + 1);
+      })().catch(e => {
+        console.error(e);
+      })
+    }
+  }, [photoId, loc]);
 
   return (
     <>

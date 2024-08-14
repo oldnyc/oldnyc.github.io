@@ -11,6 +11,7 @@ import { STATIC_MAP_STYLE } from "./map-styles";
 import { ExpandableGrid } from "./grid/grid";
 import { useHistory } from "react-router-dom";
 import { photoIdToLatLon } from "./photo-id-to-lat-lon";
+import { DetailView } from "./ImageDetails";
 
 export interface SlideshowProps {
   latLon: string;
@@ -180,8 +181,4 @@ function LeftDetails({ image }: { image: GridImage & Partial<PhotoInfo> }) {
       </div>
     </div>
   );
-}
-
-function DetailView({ image }: { image: GridImage & Partial<PhotoInfo> }) {
-  return <h3>{image.title}</h3>;
 }

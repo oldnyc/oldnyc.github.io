@@ -6,7 +6,7 @@
 const API = 'https://danvk-bronzeswift.web.val.run/api/v0';
 var COOKIE_ID = 'oldnycid';
 
-let lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {
+let lastReviewedOcrMsPromise = fetch('/timestamps.json').then(r => r.json()).then(function(data) {
   return data.ocr_ms as number;
 });
 
