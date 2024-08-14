@@ -26,7 +26,7 @@ function PhotoApp() {
   }, []);
 
   return (
-    <Map yearRange={DEFAULT_YEARS} />
+    <Map yearRange={DEFAULT_YEARS} onBoundsChange={bounds => { console.log(bounds.toJSON() )}} />
   );
 
   /*

@@ -11,6 +11,9 @@ export var lat_lon_to_marker: {[latLng: string]: google.maps.Marker} = {};
 export type YearRange = [firstYear: number, lastYear: number];
 let year_range: YearRange = [1800, 2000];
 
+export type BoundsChangeFn = (bounds: google.maps.LatLngBounds) => void;
+let boundsChangeFn: BoundsChangeFn | undefined;
+
 export let map: google.maps.Map | undefined;
 
 interface YearToCount {
@@ -85,6 +88,11 @@ export function initialize_map(el: HTMLElement) {
   google.maps.event.addListener(map, 'bounds_changed', function() {
     addNewlyVisibleMarkers();
   });
+
+  google.maps.event.addListener(map, 'bounds_changed', function() {
+    if (!boundsChangeFn) return;
+    boundsChangeFn(map.getBounds());
+  });
 }
 
 function addNewlyVisibleMarkers() {
@@ -142,15 +150,23 @@ export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
 
 export interface MapProps {
   yearRange: YearRange;
+  onBoundsChange?: BoundsChangeFn;
 }
 
 export function Map(props: MapProps) {
+  const { onBoundsChange } = props;
+
   const ref = React.useRef<HTMLDivElement>();
   React.useEffect(() => {
     if (ref.current) {
       initialize_map(ref.current);
     }
   }, [ref]);
+
+  React.useEffect(() => {
+    boundsChangeFn = onBoundsChange;
+    // TODO: unset on cleanup?
+  }, [onBoundsChange]);
 
   return <div id="map" ref={ref}></div>
 }
