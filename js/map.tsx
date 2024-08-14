@@ -14,6 +14,9 @@ let year_range: YearRange = [1800, 2000];
 export type BoundsChangeFn = (bounds: google.maps.LatLngBounds) => void;
 let boundsChangeFn: BoundsChangeFn | undefined;
 
+export type MarkerClickFn = (latLon: string) => void;
+let markerClickFn: MarkerClickFn | undefined;
+
 export let map: google.maps.Map | undefined;
 
 interface YearToCount {
@@ -144,17 +147,21 @@ export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
   });
   markers.push(marker);
   lat_lon_to_marker[lat_lon] = marker;
-  // google.maps.event.addListener(marker, 'click', handleClick);
+  google.maps.event.addListener(marker, 'click', () => {
+    if (!markerClickFn) return;
+    markerClickFn(lat_lon);
+  });
   return marker;
 }
 
 export interface MapProps {
   yearRange: YearRange;
   onBoundsChange?: BoundsChangeFn;
+  onClickMarker?: MarkerClickFn;
 }
 
 export function Map(props: MapProps) {
-  const { onBoundsChange } = props;
+  const { onBoundsChange, onClickMarker } = props;
 
   const ref = React.useRef<HTMLDivElement>();
   React.useEffect(() => {
@@ -163,10 +170,13 @@ export function Map(props: MapProps) {
     }
   }, [ref]);
 
+  // TODO: unset these on cleanup?
   React.useEffect(() => {
     boundsChangeFn = onBoundsChange;
-    // TODO: unset on cleanup?
   }, [onBoundsChange]);
+  React.useEffect(() => {
+    markerClickFn = onClickMarker;
+  }, [onClickMarker]);
 
   return <div id="map" ref={ref}></div>
 }

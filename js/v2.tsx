@@ -26,7 +26,7 @@ function PhotoApp() {
   }, []);
 
   return (
-    <Map yearRange={DEFAULT_YEARS} onBoundsChange={bounds => { console.log(bounds.toJSON() )}} />
+    <Map yearRange={DEFAULT_YEARS} onClickMarker={latLon => console.log(latLon) } />
   );
 
   /*
