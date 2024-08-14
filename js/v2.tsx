@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import { Map } from "./map";
 import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
+import { Logo } from "./Logo";
+import { Slideshow } from './Slideshow';
 
 interface UrlParams {
   photoId?: string;
@@ -31,15 +33,19 @@ function PhotoApp() {
     setSelectedLatLon(latLon);
   }, []);
 
+  const params = useParams<UrlParams>();
+  const { photoId } = params;
+
   return (
     <>
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={selectedLatLon} />
+      <Logo />
       <TimeSlider years={years} onSlide={setYears} />
+      {selectedLatLon && <Slideshow latLon={selectedLatLon} selectedPhotoId={photoId} yearRange={years} />}
     </>
   );
 
   /*
-  const { photoId, lat, lon } = useParams<UrlParams>();
   return <ul>
     <li>Photo: {photoId}</li>
     <li>Lat: {lat}</li>

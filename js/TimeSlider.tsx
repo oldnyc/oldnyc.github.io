@@ -9,6 +9,10 @@ const RANGE = {
   max: [DEFAULT_YEARS[1]],
 };
 
+export function isFullTimeRange(yearRange: [number, number]) {
+  return (yearRange[0] === 1800 && yearRange[1] === 2000);
+}
+
 export interface TimeSliderProps {
   years: YearRange;
   onSlide: (newYears: YearRange) => void;

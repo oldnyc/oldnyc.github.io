@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MAP_STYLE } from './map-styles';
-import { DEFAULT_YEARS, YearRange } from './TimeSlider';
+import { DEFAULT_YEARS, YearRange, isFullTimeRange } from './TimeSlider';
 
 const markers: google.maps.Marker[] = [];
 const marker_icons: google.maps.Icon[] = [];
@@ -121,10 +121,6 @@ export function parseLatLon(lat_lon: string) {
   return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
 }
 
-function isFullTimeRange(yearRange: [number, number]) {
-  return (yearRange[0] === 1800 && yearRange[1] === 2000);
-}
-
 export function countPhotos(yearToCounts: YearToCount) {
   if (isFullTimeRange(year_range)) {
     // This includes undated photos.
@@ -201,6 +197,7 @@ export interface MapProps {
 // TODO:
 // - support intially-selected marker
 // - support unselecting marker
+// - disable keyboard shortcuts when slideshow is open
 
 export function Map(props: MapProps) {
   const { onBoundsChange, onClickMarker, selectedLatLon, yearRange } = props;

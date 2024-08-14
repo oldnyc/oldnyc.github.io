@@ -45,7 +45,8 @@ export async function loadInfoForLatLon(lat_lon: string): Promise<string[]> {
   }
   const response_data = await response.json();
   // Add these values to the cache.
-  $.extend(photo_id_to_info, response_data);
+  Object.assign(photo_id_to_info, response_data);
+  // $.extend(photo_id_to_info, response_data);
   var photo_ids = [];
   for (var k in response_data) {
     photo_ids.push(k);
