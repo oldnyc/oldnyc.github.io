@@ -2,14 +2,15 @@
 
 import React from 'react';
 import { MAP_STYLE } from './map-styles';
+import { DEFAULT_YEARS, YearRange } from './TimeSlider';
 
 const markers: google.maps.Marker[] = [];
 const marker_icons: google.maps.Icon[] = [];
 const selected_marker_icons: google.maps.Icon[] = [];
 export var lat_lon_to_marker: {[latLng: string]: google.maps.Marker} = {};
 
-export type YearRange = [firstYear: number, lastYear: number];
-let year_range: YearRange = [1800, 2000];
+// TODO: remove this global
+let year_range: YearRange = DEFAULT_YEARS;
 
 export type BoundsChangeFn = (bounds: google.maps.LatLngBounds) => void;
 let boundsChangeFn: BoundsChangeFn | undefined;
@@ -182,6 +183,11 @@ export interface MapProps {
   onBoundsChange?: BoundsChangeFn;
   onClickMarker?: MarkerClickFn;
 }
+
+// TODO:
+// - support intially-selected marker
+// - support unselecting marker
+// - support changing year range
 
 export function Map(props: MapProps) {
   const { onBoundsChange, onClickMarker, selectedLatLon } = props;

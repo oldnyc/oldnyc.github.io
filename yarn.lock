@@ -2336,6 +2336,23 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
+nouislider-react@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/nouislider-react/-/nouislider-react-3.4.2.tgz#d27ababb19da617d21368d57f25f5fce94abb1b3"
+  integrity sha512-7YsyHY/j7yxaoNzt4PGZMoJLdh/e8aY5rYZ5xxpBv9LAs/gqt+M/Lk9SAi05+XF4mI749B2ISZjHdEIZUMWY6g==
+  dependencies:
+    nouislider "^14.6.3"
+
+nouislider@^14.6.3:
+  version "14.7.0"
+  resolved "https://registry.yarnpkg.com/nouislider/-/nouislider-14.7.0.tgz#a71db0587c92567b6da1df57d251d3696d942362"
+  integrity sha512-4RtQ1+LHJKesDCNJrXkQcwXAWCrC2aggdLYMstS/G5fEWL+fXZbUA9pwVNHFghMGuFGRATlDLNInRaPeRKzpFQ==
+
+nouislider@^15.8.1:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/nouislider/-/nouislider-15.8.1.tgz#18729ed29738d2d328a1b5e0429d38eb8be8a696"
+  integrity sha512-93TweAi8kqntHJSPiSWQ1o/uZ29VWOmal9YKb6KKGGlCkugaNfAupT7o1qTHqdJvNQ7S0su5rO6qRFCjP8fxtw==
+
 npm-run-path@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-4.0.1.tgz#b7ecd1e5ed53da8e37a55e1c2269e0b97ed748ea"

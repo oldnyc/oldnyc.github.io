@@ -539,6 +539,7 @@ a#slideshow-all, a#slideshow-all:visited {
   text-align: center;
   line-height: 54px;
   cursor: pointer;
+  z-index: 1;
 }
 
 #time-range {
@@ -551,6 +552,7 @@ a#slideshow-all, a#slideshow-all:visited {
   padding: 15px;
   /* box-shadow: #777 0 0px 5px 0px; */
   display: none;
+  z-index: 1;
 }
 
 #time-slider {

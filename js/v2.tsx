@@ -7,15 +7,14 @@ import {
   Switch,
   useParams,
 } from "react-router-dom";
-import { Map, YearRange } from "./map";
+import { Map } from "./map";
+import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
 
 interface UrlParams {
   photoId?: string;
   lat?: string;
   lon?: string;
 }
-
-const DEFAULT_YEARS: YearRange = [1800, 2000];
 
 function PhotoApp() {
   React.useEffect(() => {
@@ -25,6 +24,7 @@ function PhotoApp() {
     };
   }, []);
 
+  const [years, setYears] = React.useState(DEFAULT_YEARS);
   const [selectedLatLon, setSelectedLatLon] = React.useState<string|undefined>();
 
   const handleMarkerClick = React.useCallback((latLon: string) => {
@@ -32,7 +32,10 @@ function PhotoApp() {
   }, []);
 
   return (
-    <Map yearRange={DEFAULT_YEARS} onClickMarker={handleMarkerClick} selectedLatLon={selectedLatLon} />
+    <>
+      <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={selectedLatLon} />
+      <TimeSlider years={years} onChangeYears={setYears} />
+    </>
   );
 
   /*
