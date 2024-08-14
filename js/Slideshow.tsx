@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 import {
   PhotoInfo,
   infoForPhotoId,
@@ -63,10 +64,11 @@ export function Slideshow(props: SlideshowProps) {
     });
   }, [latLon]);
 
-  const images = React.useMemo(
-    () =>
+  const images = React.useMemo(() => {
+    if (!photoIds) return photoIds;
+    return _.sortBy(
       photoIds
-        ?.map((photoId) => {
+        .map((photoId) => {
           var info = infoForPhotoId(photoId);
           if (!isPhotoInDateRange(info, yearRange)) return null;
           return {
@@ -79,8 +81,9 @@ export function Slideshow(props: SlideshowProps) {
           };
         })
         .filter((x) => x !== null),
-    [photoIds, yearRange]
-  );
+      (info) => info.years?.[0]
+    );
+  }, [photoIds, yearRange]);
 
   const history = useHistory();
   const handleSelect = React.useCallback(
@@ -126,7 +129,12 @@ export function Slideshow(props: SlideshowProps) {
             </a>
           </div>
         )}
-        <div id="exit-slideshow" className="exit" title="Exit Slideshow" onClick={handleExit}>
+        <div
+          id="exit-slideshow"
+          className="exit"
+          title="Exit Slideshow"
+          onClick={handleExit}
+        >
           ✕
         </div>
       </div>

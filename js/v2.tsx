@@ -2,7 +2,6 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import {
   HashRouter,
-  Link,
   Route,
   Switch,
   useHistory,
