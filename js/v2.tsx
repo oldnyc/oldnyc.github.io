@@ -34,7 +34,7 @@ function PhotoApp() {
   return (
     <>
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={selectedLatLon} />
-      <TimeSlider years={years} onChangeYears={setYears} />
+      <TimeSlider years={years} onSlide={setYears} />
     </>
   );
 
@@ -51,6 +51,8 @@ function PhotoApp() {
   */
 }
 
+// TODO:
+// [ ] GA tracking on all events
 
 const root = createRoot(document.querySelector("#app")!);
 root.render(

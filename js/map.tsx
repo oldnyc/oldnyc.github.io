@@ -177,6 +177,20 @@ export function selectMarker(marker: google.maps.Marker, yearToCounts: YearToCou
   }
 }
 
+/** Update the markers to reflect a change in year_range */
+export function updateYears() {
+  for (const [lat_lon, marker] of Object.entries(lat_lon_to_marker)) {
+    const count = countPhotos(lat_lons[lat_lon]);
+    if (count) {
+      marker.setIcon(marker_icons[Math.min(count, 100)]);
+      marker.setVisible(true);
+    } else {
+      marker.setVisible(false);
+    }
+  }
+  addNewlyVisibleMarkers();
+}
+
 export interface MapProps {
   selectedLatLon?: string;
   yearRange: YearRange;
@@ -187,10 +201,9 @@ export interface MapProps {
 // TODO:
 // - support intially-selected marker
 // - support unselecting marker
-// - support changing year range
 
 export function Map(props: MapProps) {
-  const { onBoundsChange, onClickMarker, selectedLatLon } = props;
+  const { onBoundsChange, onClickMarker, selectedLatLon, yearRange } = props;
 
   const ref = React.useRef<HTMLDivElement>();
   React.useEffect(() => {
@@ -217,6 +230,13 @@ export function Map(props: MapProps) {
       selectMarker(marker, lat_lons[selectedLatLon]);
     }
   }, [selectedLatLon]);
+
+  React.useEffect(() => {
+    year_range = yearRange;
+    if (map?.getBounds()) {
+      updateYears();
+    }
+  }, [yearRange]);
 
   return <div id="map" ref={ref}></div>
 }

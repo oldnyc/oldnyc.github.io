@@ -11,24 +11,25 @@ const RANGE = {
 
 export interface TimeSliderProps {
   years: YearRange;
-  onChangeYears: (newYears: YearRange) => void;
+  onSlide: (newYears: YearRange) => void;
+  onChange?: (newYears: YearRange) => void;
 }
 
+// Note: ownership of current years is a little weird; you can't change it programmatically.
 export function TimeSlider(props: TimeSliderProps) {
+  const {years} = props;
   const [visible, setVisible] = React.useState(false);
   return (
     <div id="time-slider-container">
       <div id="time-range-summary" onClick={() => setVisible(v => !v)}>
-        <span id="time-range-labels">1800&ndash;2000</span>
+        <span id="time-range-labels">{years[0]}&ndash;{years[1]}</span>
         <div className="white-arrow-down"></div>
       </div>
       <div id="time-range" style={{display: visible ? 'block' : 'none' }}>
         <Nouislider range={RANGE} step={1} start={DEFAULT_YEARS} connect onSlide={(_v, _h, years) => {
-          // props.onChangeYears(years as [number, number]);
-          console.log('slide', years);
+          props.onSlide(years as [number, number]);
         }} onChange={(_v, _h, years) => {
-          console.log('change', years);
-          props.onChangeYears(years as [number, number]);
+          props.onChange?.(years as [number, number]);
         }} />
       </div>
     </div>
