@@ -7,33 +7,15 @@ import {
   Switch,
   useParams,
 } from "react-router-dom";
-
-/*
-const router = createHashRouter([
-  {
-    path: '/',
-    element: <App />,
-  },
-  {
-    path: '/#g::lat,:lon',
-    element: <Sub />,
-  },
-  {
-    path: '/#:photo_id,g::lat,:lon',
-    element: <Sub />,
-  },
-  {
-    path: '/#:photo_id',
-    element: <Sub />,
-  }
-])
-*/
+import { Map, YearRange } from "./map";
 
 interface UrlParams {
   photoId?: string;
   lat?: string;
   lon?: string;
 }
+
+const DEFAULT_YEARS: YearRange = [1800, 2000];
 
 function PhotoApp() {
   React.useEffect(() => {
@@ -43,6 +25,11 @@ function PhotoApp() {
     };
   }, []);
 
+  return (
+    <Map yearRange={DEFAULT_YEARS} />
+  );
+
+  /*
   const { photoId, lat, lon } = useParams<UrlParams>();
   return <ul>
     <li>Photo: {photoId}</li>
@@ -52,6 +39,7 @@ function PhotoApp() {
     <li><Link to="/12345,g:40,123">12345,g:40,123</Link></li>
     <li><Link to="g:40,123">g:40,123</Link></li>
   </ul>;
+  */
 }
 
 

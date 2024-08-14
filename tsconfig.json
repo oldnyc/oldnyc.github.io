@@ -113,6 +113,8 @@
     "js/v2.tsx",
   ],
   "include": [
-    "js/*.d.ts"
+    "js/*.d.ts",
+    "js/*.ts",
+    "js/*.tsx",
   ]
 }
