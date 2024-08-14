@@ -572,3 +572,6 @@ a#slideshow-all, a#slideshow-all:visited {
 span.ui-slider-handle.ui-corner-all.ui-state-default {
   outline: none;
 }
+
+/* https://stackoverflow.com/a/67656246/388951 */
+.gm-style iframe + div { border:none!important; }

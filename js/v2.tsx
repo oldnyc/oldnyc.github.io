@@ -25,8 +25,14 @@ function PhotoApp() {
     };
   }, []);
 
+  const [selectedLatLon, setSelectedLatLon] = React.useState<string|undefined>();
+
+  const handleMarkerClick = React.useCallback((latLon: string) => {
+    setSelectedLatLon(latLon);
+  }, []);
+
   return (
-    <Map yearRange={DEFAULT_YEARS} onClickMarker={latLon => console.log(latLon) } />
+    <Map yearRange={DEFAULT_YEARS} onClickMarker={handleMarkerClick} selectedLatLon={selectedLatLon} />
   );
 
   /*

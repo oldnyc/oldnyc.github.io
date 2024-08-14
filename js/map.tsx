@@ -17,6 +17,10 @@ let boundsChangeFn: BoundsChangeFn | undefined;
 export type MarkerClickFn = (latLon: string) => void;
 let markerClickFn: MarkerClickFn | undefined;
 
+let selected_marker: google.maps.Marker | undefined;
+/** The icon that the selected marker had before it was selected */
+let selected_icon: google.maps.Icon | google.maps.Symbol | string | undefined;
+
 export let map: google.maps.Map | undefined;
 
 interface YearToCount {
@@ -154,14 +158,33 @@ export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
   return marker;
 }
 
+// Make the given marker the currently selected marker.
+// This is purely UI code, it doesn't touch anything other than the marker.
+export function selectMarker(marker: google.maps.Marker, yearToCounts: YearToCount) {
+  const numPhotos = countPhotos(yearToCounts);
+  var zIndex = 0;
+  if (selected_marker) {
+    zIndex = selected_marker.getZIndex();
+    selected_marker.setIcon(selected_icon);
+  }
+
+  if (marker) {
+    selected_marker = marker;
+    selected_icon = marker.getIcon();
+    marker.setIcon(selected_marker_icons[numPhotos > 100 ? 100 : numPhotos]);
+    marker.setZIndex(100000 + zIndex);
+  }
+}
+
 export interface MapProps {
+  selectedLatLon?: string;
   yearRange: YearRange;
   onBoundsChange?: BoundsChangeFn;
   onClickMarker?: MarkerClickFn;
 }
 
 export function Map(props: MapProps) {
-  const { onBoundsChange, onClickMarker } = props;
+  const { onBoundsChange, onClickMarker, selectedLatLon } = props;
 
   const ref = React.useRef<HTMLDivElement>();
   React.useEffect(() => {
@@ -177,6 +200,17 @@ export function Map(props: MapProps) {
   React.useEffect(() => {
     markerClickFn = onClickMarker;
   }, [onClickMarker]);
+
+  React.useEffect(() => {
+    if (!selectedLatLon) {
+      // TODO: support this (there's no way to un-select in the UI)
+      return;
+    }
+    const marker = lat_lon_to_marker[selectedLatLon];
+    if (marker) {
+      selectMarker(marker, lat_lons[selectedLatLon]);
+    }
+  }, [selectedLatLon]);
 
   return <div id="map" ref={ref}></div>
 }
