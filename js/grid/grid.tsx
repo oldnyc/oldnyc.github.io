@@ -178,6 +178,7 @@ function GridWithWidth(props: GridWithWidthProps) {
                 src={image.src}
                 height={row.height}
                 width={Math.floor(image.width * (row.height / image.height))}
+                loading="lazy"
               ></img>
             </a>
             {image.id === selectedId ? (

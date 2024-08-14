@@ -5,12 +5,14 @@ import {
   Link,
   Route,
   Switch,
+  useHistory,
   useParams,
 } from "react-router-dom";
 import { Map } from "./map";
 import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
 import { Logo } from "./Logo";
 import { Slideshow } from './Slideshow';
+import { photoIdToLatLon } from "./photo-id-to-lat-lon";
 
 interface UrlParams {
   photoId?: string;
@@ -27,34 +29,33 @@ function PhotoApp() {
   }, []);
 
   const [years, setYears] = React.useState(DEFAULT_YEARS);
-  const [selectedLatLon, setSelectedLatLon] = React.useState<string|undefined>();
 
+  const history = useHistory();
   const handleMarkerClick = React.useCallback((latLon: string) => {
-    setSelectedLatLon(latLon);
-  }, []);
+    history.push(`/g:${latLon}`);
+  }, [history]);
 
   const params = useParams<UrlParams>();
   const { photoId } = params;
+  let loc = params.lat && params.lon ? `${params.lat},${params.lon}` : undefined;
+  if (photoId && !loc) {
+    loc = photoIdToLatLon[photoId];
+    if (loc) {
+      console.log('got location from cache');
+    } else {
+      console.log('failed to get location from cache');
+    }
+  }
+  // TODO: if no loc, then we need to load it (maybe this is an initial page load)
 
   return (
     <>
-      <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={selectedLatLon} />
+      <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
       <Logo />
       <TimeSlider years={years} onSlide={setYears} />
-      {selectedLatLon && <Slideshow latLon={selectedLatLon} selectedPhotoId={photoId} yearRange={years} />}
+      {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} />}
     </>
   );
-
-  /*
-  return <ul>
-    <li>Photo: {photoId}</li>
-    <li>Lat: {lat}</li>
-    <li>Lon: {lon}</li>
-    <li><Link to="/12345">12345</Link></li>
-    <li><Link to="/12345,g:40,123">12345,g:40,123</Link></li>
-    <li><Link to="g:40,123">g:40,123</Link></li>
-  </ul>;
-  */
 }
 
 // TODO:

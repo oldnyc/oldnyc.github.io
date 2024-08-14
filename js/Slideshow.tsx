@@ -1,9 +1,16 @@
-import React from 'react';
-import { PhotoInfo, infoForPhotoId, libraryUrl, loadInfoForLatLon, nameForLatLon } from './photo-info';
-import { YearRange, isFullTimeRange } from './TimeSlider';
-import { STATIC_MAP_STYLE } from './map-styles';
-import { ExpandableGrid } from './grid/grid';
-import { useHistory } from 'react-router-dom';
+import React from "react";
+import {
+  PhotoInfo,
+  infoForPhotoId,
+  libraryUrl,
+  loadInfoForLatLon,
+  nameForLatLon,
+} from "./photo-info";
+import { YearRange, isFullTimeRange } from "./TimeSlider";
+import { STATIC_MAP_STYLE } from "./map-styles";
+import { ExpandableGrid } from "./grid/grid";
+import { useHistory } from "react-router-dom";
+import { photoIdToLatLon } from "./photo-id-to-lat-lon";
 
 export interface SlideshowProps {
   latLon: string;
@@ -18,7 +25,7 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
 
   const [first, last] = yearRange;
   for (let i = 0; i < info.years.length; i++) {
-    const year = info.years[i];  // could be empty string
+    const year = info.years[i]; // could be empty string
     if (year && Number(year) >= first && Number(year) <= last) return true;
   }
   return false;
@@ -26,7 +33,14 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon: string) {
-  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&scale=2&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
+  return (
+    "http://maps.googleapis.com/maps/api/staticmap?center=" +
+    lat_lon +
+    "&zoom=15&size=150x150&scale=2&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C" +
+    lat_lon +
+    "&style=" +
+    STATIC_MAP_STYLE
+  );
 }
 
 export function Slideshow(props: SlideshowProps) {
@@ -38,33 +52,55 @@ export function Slideshow(props: SlideshowProps) {
   React.useEffect(() => {
     (async () => {
       const photoIds = await loadInfoForLatLon(latLon);
+      for (const photoId of photoIds) {
+        photoIdToLatLon[photoId] = latLon;
+      }
       setPhotoIds(photoIds);
       // TODO: select first photo if <10 photos
-    })().catch(e => {
+    })().catch((e) => {
       console.error(e);
     });
   }, [latLon]);
 
-  const images = React.useMemo(() => photoIds?.map(photoId => {
-    var info = infoForPhotoId(photoId);
-    if (!isPhotoInDateRange(info, yearRange)) return null;
-    return {
-      id: photoId,
-      largesrc: info.image_url,
-      src: info.thumb_url,
-      width: 600,   // these are fallbacks
-      height: 400,
-      ...info,
-    };
-  }).filter(x => x !== null), [photoIds, yearRange]);
+  const images = React.useMemo(
+    () =>
+      photoIds
+        ?.map((photoId) => {
+          var info = infoForPhotoId(photoId);
+          if (!isPhotoInDateRange(info, yearRange)) return null;
+          return {
+            id: photoId,
+            largesrc: info.image_url,
+            src: info.thumb_url,
+            width: 600, // these are fallbacks
+            height: 400,
+            ...info,
+          };
+        })
+        .filter((x) => x !== null),
+    [photoIds, yearRange]
+  );
 
   const history = useHistory();
-  const handleSelect = React.useCallback((photoId: string) => {
-    console.log('select', photoId);
+  const handleSelect = React.useCallback(
+    (photoId: string) => {
+      console.log("select", photoId);
+      // TODO: should this be replace or push?
+      history.push("/" + photoId);
+    },
+    [history, latLon]
+  );
+
+  const handleDeselect = React.useCallback(() => {
     // TODO: include latLon in URL
     // TODO: should this be replace or push?
-    history.push('/' + photoId);
-  }, [history, latLon]);
+    history.push(`/g:${latLon}`);
+  }, [history]);
+
+  // TODO: wire up all the many ways to exit the slideshow
+  const handleExit = React.useCallback(() => {
+    history.push(`/`);
+  }, [history]);
 
   return images ? (
     <div id="expanded">
@@ -73,29 +109,56 @@ export function Slideshow(props: SlideshowProps) {
       <div className="header">
         <div className="logo">
           <div className="wrapper">
-            <a className="exit" href="#">OldNYC</a>
+            <a className="exit" href="#">
+              OldNYC
+            </a>
           </div>
         </div>
-        {!isFullRange && <div id="filtered-slideshow">
-          Only showing photos between
-          <span id="slideshow-filter-first">{yearRange[0]}</span> and <span id="slideshow-filter-last">{yearRange[1]}</span>.
-          {/* TODO: wire "Show all" up */}
-          <a href="#" id="slideshow-all">Show all.</a>
-        </div>}
-        <div id="exit-slideshow" className="exit" title="Exit Slideshow">✕</div>
+        {!isFullRange && (
+          <div id="filtered-slideshow">
+            Only showing photos between
+            <span id="slideshow-filter-first">{yearRange[0]}</span> and{" "}
+            <span id="slideshow-filter-last">{yearRange[1]}</span>.
+            {/* TODO: wire "Show all" up */}
+            <a href="#" id="slideshow-all">
+              Show all.
+            </a>
+          </div>
+        )}
+        <div id="exit-slideshow" className="exit" title="Exit Slideshow" onClick={handleExit}>
+          ✕
+        </div>
       </div>
 
       {/* TODO: wire these links up */}
       <div id="expanded-controls">
-        <img id="preview-map" className="exit" title="Exit Slideshow" width="150" height="150" src={makeStaticMapsUrl(latLon)} />
+        <img
+          id="preview-map"
+          className="exit"
+          title="Exit Slideshow"
+          width="150"
+          height="150"
+          src={makeStaticMapsUrl(latLon)}
+        />
         <div className="location">{nameForLatLon(latLon)}</div>
         <div className="nypl-logo">
-          <a target="_blank"><img src="/images/nypl_logo.png" width="127" height="75" /></a>
+          <a target="_blank">
+            <img src="/images/nypl_logo.png" width="127" height="75" />
+          </a>
         </div>
       </div>
 
       <div id="grid-container">
-        <ExpandableGrid images={images} rowHeight={200} speed={200} selectedId={props.selectedPhotoId} leftDetails={LeftDetails} details={DetailView} onSelect={handleSelect} />
+        <ExpandableGrid
+          images={images}
+          rowHeight={200}
+          speed={200}
+          selectedId={props.selectedPhotoId}
+          leftDetails={LeftDetails}
+          details={DetailView}
+          onSelect={handleSelect}
+          onDeselect={handleDeselect}
+        />
       </div>
     </div>
   ) : null;
