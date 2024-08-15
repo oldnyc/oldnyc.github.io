@@ -205,12 +205,12 @@ interface MoreOnBackProps {
 function MoreOnBack(props: MoreOnBackProps) {
   return (
     <div className="more-on-back">
-      There's no description available for this photo, but there may be some
-      text on the back of the image in the
+      There's no description available for this photo, but there may be some{' '}
+      text on the back of the image in the{' '}
       <a className="nypl" href={props.libraryUrl} target="_blank">
         NYPL Digital Collections
       </a>
-      . If so, you can help OldNYC by
+      . If so, you can help OldNYC by{' '}
       <a className="ocr-tool" href={props.ocrUrl} target="_blank">
         transcribing it
       </a>
