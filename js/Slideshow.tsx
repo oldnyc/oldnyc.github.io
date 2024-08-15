@@ -65,7 +65,7 @@ export function Slideshow(props: SlideshowProps) {
   }, [latLon]);
 
   const images = React.useMemo(() => {
-    if (!photoIds) return photoIds;
+    if (!photoIds) return null;
     return _.sortBy(
       photoIds
         .map((photoId) => {
@@ -96,7 +96,6 @@ export function Slideshow(props: SlideshowProps) {
   );
 
   const handleDeselect = React.useCallback(() => {
-    // TODO: include latLon in URL
     // TODO: should this be replace or push?
     history.push(`/g:${latLon}`);
   }, [history]);

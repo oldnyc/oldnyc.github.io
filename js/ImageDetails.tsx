@@ -8,6 +8,7 @@ import {
 } from "./photo-info";
 import { getCanonicalUrlForPhoto } from "./social";
 import { getFeedbackText } from "./feedback";
+import { useResource } from "./use-resource";
 
 export function DetailView({
   image,
@@ -19,17 +20,15 @@ export function DetailView({
   const library_url = libraryUrl(id, info.nypl_url);
   // var canonicalUrl = getCanonicalUrlForPhoto(id);
 
-  // TODO: resource pattern
-  const [text, setText] = React.useState<string | undefined>();
-  React.useEffect(() => {
-    (async () => {
-      const ocr = await getFeedbackText(backId(id));
-      console.log(ocr?.text, info.text);
-      setText(ocr?.text ?? info.text);
-    })().catch((e) => {
-      console.error(e);
-    });
-  }, [id]);
+  // TODO: rename backId -> getBackId
+  const bid = backId(id);
+  const ocrText = useResource(`ocr-${bid}`, () => getFeedbackText(bid));
+  const text =
+    ocrText.status === "success"
+      ? ocrText.data.text ?? info.text
+      : ocrText.status === "error"
+      ? info.text
+      : "";
 
   const hasBack = id.match("[0-9]f");
   const ocrUrl = `/ocr.html#${id}`;
@@ -39,15 +38,19 @@ export function DetailView({
       <div className="details">
         <div className="description">{descriptionForPhotoId(id)}</div>
         <div className="text">
-          {text}
-          {text && (
-            <i>
-              &nbsp; &nbsp; Typos? Help{" "}
-              <a target="_blank" href={ocrUrl}>
-                fix them
-              </a>
-              .
-            </i>
+          {ocrText.status === "pending" ? (
+            "..."
+          ) : (
+            <>
+              {text}
+              <i>
+                &nbsp; &nbsp; Typos? Help{" "}
+                <a target="_blank" href={ocrUrl}>
+                  fix them
+                </a>
+                .
+              </i>
+            </>
           )}
           {!text && hasBack ? (
             <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
