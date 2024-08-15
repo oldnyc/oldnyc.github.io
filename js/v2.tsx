@@ -16,6 +16,7 @@ import { getLatLonForPhotoId, photoIdToLatLon } from "./photo-id-to-lat-lon";
 import { PopularImages } from "./PopularImages";
 import { Header } from "./Header";
 import { About } from "./About";
+import { FacebookProvider } from "react-facebook";
 
 interface UrlParams {
   photoId?: string;
@@ -62,7 +63,7 @@ function PhotoApp() {
   }, [photoId, loc]);
 
   return (
-    <>
+    <FacebookProvider appId="598168753565519">
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
       <div className="header">
         <Header />
@@ -73,7 +74,7 @@ function PhotoApp() {
       <TimeSlider years={years} onSlide={setYears} />
       {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} />}
       {isAbout && <About />}
-    </>
+    </FacebookProvider>
   );
 }
 

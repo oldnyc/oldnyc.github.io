@@ -1,18 +1,12 @@
 import React from "react";
+import { Like } from "react-facebook";
 import { Link } from "react-router-dom";
 
 export function Header() {
   return (
     <div className="social-about">
       <div id="facebook">
-        <div
-          className="fb-like"
-          data-href="http://www.oldnyc.org"
-          data-layout="button_count"
-          data-action="like"
-          data-show-faces="false"
-          data-share="true"
-        ></div>
+        <Like href="https://www.oldnyc.org" layout="button_count" action="like" showFaces={false} share />
       </div>
       <div id="twitter">
         <a
