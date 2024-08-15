@@ -103,11 +103,18 @@ export function Slideshow(props: SlideshowProps) {
     history.push(`/`);
   }, [history]);
 
+  const exitIfSelfClick: React.MouseEventHandler = React.useCallback(e => {
+    // console.log(e.currentTarget, e.target);
+    if (e.currentTarget === e.target || (e.target as HTMLElement).className === 'og-grid') {
+      handleExit();
+    }
+  }, [handleExit]);
+
   return images ? (
     <div id="expanded">
-      <div className="curtains"></div>
+      <div className="curtains" onClick={handleExit}></div>
 
-      <div className="header">
+      <div className="header" onClick={handleExit}>
         <div className="logo">
           <div className="wrapper">
             <a className="exit" href="#">
@@ -154,7 +161,7 @@ export function Slideshow(props: SlideshowProps) {
         </div>
       </div>
 
-      <div id="grid-container">
+      <div id="grid-container" onClick={exitIfSelfClick}>
         <ExpandableGrid
           images={images}
           rowHeight={200}

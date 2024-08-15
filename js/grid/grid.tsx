@@ -105,6 +105,7 @@ function GridWithWidth(props: GridWithWidthProps) {
   const handleClick: React.MouseEventHandler = React.useCallback(
     (e) => {
       e.preventDefault();
+      e.stopPropagation();
       const id = e.currentTarget.parentElement!.getAttribute("data-id")!;
       if (id === selectedId) {
         onDeselect?.();
