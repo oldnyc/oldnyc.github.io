@@ -25,7 +25,7 @@ export function DetailView({
   const ocrText = useResource(`ocr-${bid}`, () => getFeedbackText(bid));
   const text =
     ocrText.status === "success"
-      ? ocrText.data.text ?? info.text
+      ? ocrText.data?.text ?? info.text
       : ocrText.status === "error"
       ? info.text
       : "";

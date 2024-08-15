@@ -66,11 +66,13 @@ function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
 function next_image(id: string) {
   var def = $.Deferred<string>();
 
+  const otherPhotoIds = other_photo_ids!;
+
   if (Math.random() < 0.5) {
     // Pick another image from the same location.
-    var idx = other_photo_ids.indexOf(id);
-    for (var i = 0; i < other_photo_ids.length; i++) {
-      var other_id = other_photo_ids[(i + idx) % other_photo_ids.length];
+    var idx = otherPhotoIds.indexOf(id);
+    for (var i = 0; i < otherPhotoIds.length; i++) {
+      var other_id = otherPhotoIds[(i + idx) % otherPhotoIds.length];
 
       if (!other_id.match(/[0-9]f/)) {
         // no back of card for this photo

@@ -20,7 +20,7 @@ let markerClickFn: MarkerClickFn | undefined;
 
 let selected_marker: google.maps.Marker | undefined;
 /** The icon that the selected marker had before it was selected */
-let selected_icon: google.maps.Icon | google.maps.Symbol | string | undefined;
+let selected_icon: google.maps.Icon | google.maps.Symbol | string | null | undefined;
 
 export let map: google.maps.Map | undefined;
 
@@ -64,8 +64,8 @@ export function initialize_map(el: HTMLElement) {
       });
 
   // Create marker icons for each number.
-  marker_icons.push(null);  // it's easier to be 1-based.
-  selected_marker_icons.push(null);
+  marker_icons.push(null!);  // it's easier to be 1-based.
+  selected_marker_icons.push(null!);
   for (var i = 0; i < 100; i++) {
     var num = i + 1;
     var size = (num == 1 ? 9 : 13);
@@ -99,12 +99,13 @@ export function initialize_map(el: HTMLElement) {
 
   google.maps.event.addListener(map, 'bounds_changed', function() {
     if (!boundsChangeFn) return;
-    boundsChangeFn(map.getBounds());
+    boundsChangeFn(map!.getBounds()!);
   });
 }
 
 function addNewlyVisibleMarkers() {
-  var bounds = map.getBounds();
+  var bounds = map!.getBounds();
+  if (!bounds) return;
 
   for (var lat_lon in lat_lons) {
     if (lat_lon in lat_lon_to_marker) continue;
@@ -161,7 +162,7 @@ export function selectMarker(marker: google.maps.Marker, yearToCounts: YearToCou
   const numPhotos = countPhotos(yearToCounts);
   var zIndex = 0;
   if (selected_marker) {
-    zIndex = selected_marker.getZIndex();
+    zIndex = selected_marker.getZIndex() ?? 0;
     selected_marker.setIcon(selected_icon);
   }
 
@@ -202,7 +203,7 @@ export interface MapProps {
 export function Map(props: MapProps) {
   const { onBoundsChange, onClickMarker, selectedLatLon, yearRange } = props;
 
-  const ref = React.useRef<HTMLDivElement>();
+  const ref = React.useRef<HTMLDivElement|null>(null);
   React.useEffect(() => {
     if (ref.current) {
       initialize_map(ref.current);

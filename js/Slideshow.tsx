@@ -75,8 +75,6 @@ export function Slideshow(props: SlideshowProps) {
             id: photoId,
             largesrc: info.image_url,
             src: info.thumb_url,
-            width: 600, // these are fallbacks
-            height: 400,
             ...info,
           };
         })

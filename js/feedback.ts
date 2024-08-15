@@ -20,7 +20,7 @@ export function setCookie(name: string, value: string) {
 
 export function getCookie(name: string) {
   const b = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-  return b ? b.pop() : '';
+  return b ? b.pop()! : '';
 }
 
 // Assign each user a unique ID for tracking repeat feedback.
@@ -39,7 +39,7 @@ export interface PhotoFeedback {
   text?: string;
   notext?: boolean;
   rotate?: number;
-  original?: number;
+  original?: number | null;
   'rotate-backing'?: number;
 }
 interface FeedbackMetadata {

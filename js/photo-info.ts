@@ -23,7 +23,7 @@ export interface PhotoInfo {
   text: string | null;
   folder: string;
   height: number;
-  years?: string[];
+  years: string[];
   original_title?: string;
   rotation?: number;
   nypl_url?: string;
@@ -61,8 +61,15 @@ export async function loadInfoForLatLon(lat_lon: string): Promise<string[]> {
 // If there's no information about the photo yet, then the values are all set
 // to the empty string.
 export function infoForPhotoId(photo_id: string): PhotoInfo {
-  return photo_id_to_info[photo_id] ||
-      { title: '', date: '' } as PhotoInfo;
+  return photo_id_to_info[photo_id] ??
+      // XXX surprising that this type checks with missing fields!
+      {
+        title: '',
+        date: '',
+        width: 600, // these are fallbacks
+        height: 400,
+        years: [''],
+      };
 }
 
 // Would it make more sense to incorporate these into infoForPhotoId?
@@ -85,7 +92,7 @@ export function backOfCardUrlForPhotoId(photo_id: string) {
 }
 
 
-const lat_lon_to_name: {[latLng: string]: string} = {};
+const lat_lon_to_name: {[latLng: string]: string | undefined} = {};
 
 // Does this lat_lon have a name, e.g. "Manhattan: 14th Street - 8th Avenue"?
 export function nameForLatLon(lat_lon: string) {
