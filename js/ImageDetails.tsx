@@ -42,7 +42,7 @@ export function DetailView({
           {ocrText.status === "pending" ? null : (
             <>
               {text}
-              <p>
+              {text !== null && <p>
                 <i>
                   Typos? Help{" "}
                   <a target="_blank" href={ocrUrl}>
@@ -50,7 +50,7 @@ export function DetailView({
                   </a>
                   .
                 </i>
-              </p>
+              </p>}
               {!text && hasBack ? (
                 <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
               ) : null}

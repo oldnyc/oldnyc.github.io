@@ -12,7 +12,7 @@ import { STATIC_MAP_STYLE } from "./map-styles";
 import { ExpandableGrid } from "./grid/grid";
 import { useHistory } from "react-router-dom";
 import { photoIdToLatLon } from "./photo-id-to-lat-lon";
-import { DetailView, ImagePreview, LeftDetails } from "./ImageDetails";
+import { DetailView, ImagePreview } from "./ImageDetails";
 
 export interface SlideshowProps {
   latLon: string;
@@ -145,7 +145,6 @@ export function Slideshow(props: SlideshowProps) {
         </div>
       </div>
 
-      {/* TODO: wire these links up */}
       <div id="expanded-controls">
         <img
           id="preview-map"
@@ -154,6 +153,7 @@ export function Slideshow(props: SlideshowProps) {
           width="150"
           height="150"
           src={makeStaticMapsUrl(latLon)}
+          onClick={handleExit}
         />
         <div className="location">{nameForLatLon(latLon)}</div>
         <div className="nypl-logo">
