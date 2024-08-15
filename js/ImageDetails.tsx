@@ -1,5 +1,5 @@
 import React from "react";
-import {Like} from 'react-facebook';
+import {Comments, Like} from 'react-facebook';
 import {
   PhotoInfo,
   backId,
@@ -21,7 +21,7 @@ export function DetailView({
   const { id } = image;
   const info = infoForPhotoId(id);
   const library_url = libraryUrl(id, info.nypl_url);
-  // var canonicalUrl = getCanonicalUrlForPhoto(id);
+  const canonicalUrl = getCanonicalUrlForPhoto(id);
 
   // TODO: rename backId -> getBackId
   const bid = backId(id);
@@ -36,9 +36,18 @@ export function DetailView({
   const hasBack = id.match("[0-9]f");
   const ocrUrl = `/ocr.html#${id}`;
 
+  const detailsRef = React.useRef<HTMLDivElement>(null);
+  const [width, setWidth] = React.useState(0);
+  React.useEffect(() => {
+    if (detailsRef.current) {
+      // TODO: track window resizes?
+      setWidth(detailsRef.current.getBoundingClientRect().width);
+    }
+  }, [detailsRef]);
+
   return (
     <>
-      <div className="details">
+      <div className="details" ref={detailsRef}>
         <div className="description">{descriptionForPhotoId(id)}</div>
         <div className="text">
           {ocrText.status === "pending" ? null : (
@@ -71,11 +80,13 @@ export function DetailView({
           <CopyLink href={window.location.href} />{' '}
           <Tweet href={window.location.href} via="Old_NYC @NYPL" text={(info.original_title || info.title) + ' - ' + info.date} />{' '}
           <div className="facebook-holder">
-            <Like href={getCanonicalUrlForPhoto(id)} layout="button" action="like" showFaces={false} share />
+            <Like href={canonicalUrl} layout="button" action="like" showFaces={false} share />
           </div>
         </div>
 
-        <div className="comments"></div>
+        <div className="comments">
+          <Comments numPosts={5} colorScheme="light" href={canonicalUrl} width={width} />
+        </div>
       </div>
       {null && <Feedback />}
     </>
