@@ -52,6 +52,8 @@ export function Slideshow(props: SlideshowProps) {
   const [photoIds, setPhotoIds] = React.useState<string[] | null>();
   const isFullRange = isFullTimeRange(yearRange);
 
+  const history = useHistory();
+
   // TODO: model this with resource pattern
   React.useEffect(() => {
     (async () => {
@@ -60,7 +62,10 @@ export function Slideshow(props: SlideshowProps) {
         photoIdToLatLon[photoId] = latLon;
       }
       setPhotoIds(photoIds);
-      // TODO: select first photo if <10 photos
+      if (photoIds.length <= 10) {
+        const photoId = photoIds[0];
+        history.replace(`/${photoId}`);
+      }
     })().catch((e) => {
       console.error(e);
     });
@@ -87,7 +92,6 @@ export function Slideshow(props: SlideshowProps) {
 
   const selectedImage = images && selectedPhotoId ? images.find(image => image.id === selectedPhotoId) : undefined;
 
-  const history = useHistory();
   const handleSelect = React.useCallback(
     (photoId: string) => {
       console.log("select", photoId);

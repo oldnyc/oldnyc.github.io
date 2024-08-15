@@ -46,11 +46,6 @@ function PhotoApp() {
   let loc = params.lat && params.lon ? `${params.lat},${params.lon}` : undefined;
   if (photoId && !loc) {
     loc = photoIdToLatLon[photoId];
-    if (loc) {
-      console.log('got location from cache');
-    } else {
-      console.log('failed to get location from cache');
-    }
   }
 
   // TODO: make sure there's only one request in flight for any id4
