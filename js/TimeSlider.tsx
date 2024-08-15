@@ -26,7 +26,7 @@ export function TimeSlider(props: TimeSliderProps) {
   return (
     <div id="time-slider-container">
       <div id="time-range-summary" onClick={() => setVisible(v => !v)}>
-        <span id="time-range-labels">{years[0]}&ndash;{years[1]}</span>
+        <span id="time-range-labels">{years[0]}&ndash;{years[1]}</span>{' '}
         <div className="white-arrow-down"></div>
       </div>
       <div id="time-range" style={{display: visible ? 'block' : 'none' }}>

@@ -63,11 +63,14 @@ function PhotoApp() {
     <>
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
       <Logo />
+      <FeedbackLink />
       <TimeSlider years={years} onSlide={setYears} />
       {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} />}
     </>
   );
 }
+
+const FeedbackLink = () => <div id="feedback"><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank">Send feedback</a></div>
 
 // TODO:
 // [ ] GA tracking on all events
