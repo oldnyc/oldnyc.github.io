@@ -67,8 +67,8 @@ export function DetailView({
         </div>
 
         <div className="social">
-          <CopyLink href={window.location.href} />
-          <div className="tweet"></div>
+          <CopyLink href={window.location.href} />{' '}
+          <Tweet href={window.location.href} via="Old_NYC @NYPL" text={(info.original_title || info.title) + ' - ' + info.date} />{' '}
           <div className="facebook-holder"></div>
         </div>
 
@@ -100,6 +100,37 @@ function CopyLink({href}: {href: string}) {
       </a>
     </div>
   );
+}
+
+interface TweetProps {
+  href: string;
+  via: string;
+  text: string;
+}
+function Tweet(props: TweetProps) {
+  const {href, via, text} = props;
+  const ref = React.useRef<HTMLDivElement>(null);
+  const created = React.useRef('');  // TODO: this seems like a crazy way to prevent double-firing!
+  React.useEffect(() => {
+    if (!ref.current || created.current === href) return;
+    // Some browser plugins block twitter
+    if (typeof(twttr) !== 'undefined') {
+      created.current = href;
+      twttr.ready(({widgets}) => {
+        if (ref.current) {
+          widgets.createShareButton(
+            href,
+            ref.current, {
+              count: 'none',
+              text,
+              via,
+            });
+        }
+      });
+    }
+  }, [ref, href, via, text, created]);
+
+  return <div ref={ref} key={href} className="tweet" />;
 }
 
 export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> }) {
