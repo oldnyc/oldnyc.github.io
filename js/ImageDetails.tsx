@@ -9,6 +9,7 @@ import {
 import { getCanonicalUrlForPhoto } from "./social";
 import { getFeedbackText } from "./feedback";
 import { useResource } from "./use-resource";
+import { SuspenseImage } from "./grid/SuspenseImage";
 
 export function DetailView({
   image,
@@ -80,6 +81,39 @@ export function DetailView({
       {null && <Feedback />}
     </>
   );
+}
+
+export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> }) {
+  const [rotation, setRotation] = React.useState(0);
+  const rotate: React.MouseEventHandler = React.useCallback((e) => {
+    e.preventDefault();
+    setRotation(r => r + 90);
+    // TODO: track GA
+  }, []);
+
+  return (
+    <React.Suspense fallback={<div className="og-loading" />}>
+      <SuspenseImage
+        src={image.largesrc ?? image.src}
+        width={image.width}
+        height={image.height}
+        style={rotation ? {transform: `rotate(${rotation}deg)`} : undefined}
+      />
+      <div>
+        <div className="nypl-link">
+          <a target="_blank" href={libraryUrl(image.id, image.nypl_url)}>
+            View complete item in NYPL Digital Collections
+          </a>
+          .
+        </div>
+        <div className="rotate">
+          <a href="#" className="rotate-image-button" onClick={rotate}>
+            <img src="/images/rotate.png" width="29" height="29" />
+          </a>
+        </div>
+      </div>
+    </React.Suspense>
+  )
 }
 
 interface MoreOnBackProps {

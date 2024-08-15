@@ -1,7 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-// import "./grid.css";
-import { SuspenseImage } from "./SuspenseImage";
 
 export interface GridImage {
   id: string;
@@ -17,14 +15,14 @@ export interface GridOptions {
   easing?: string; // 'ease'
   imageMargin?: number; // 12
   rowHeight: number;
-  leftDetails?: React.ComponentType<{ image: GridImage }>;
+  imageEl?: React.ComponentType<{image: GridImage}>;
   details: React.ComponentType<{ image: GridImage }>;
 }
 
+// TODO: is the distinction between these interfaces relevant?
 export interface ExpandableGridProps extends GridOptions {
   images: readonly GridImage[];
   selectedId?: string;
-  onClickLargeImage?: (image: GridImage) => void;
   onSelect?: (id: string) => void;
   onDeselect?: () => void;
 }
@@ -185,13 +183,12 @@ function GridWithWidth(props: GridWithWidthProps) {
             {image.id === selectedId ? (
               <Preview
                 image={image}
+                imageEl={props.imageEl}
                 details={props.details}
-                leftDetails={props.leftDetails}
                 rowHeight={row.height}
                 height={previewHeight}
                 onClose={props.onDeselect}
                 onLeftRight={goLeftRight}
-                onClickLargeImage={props.onClickLargeImage}
                 isFirst={i === 0}
                 isLast={i === images.length - 1}
               />
@@ -207,32 +204,31 @@ interface PreviewProps {
   image: GridImage;
   rowHeight: number;
   height: number;
-  leftDetails?: React.ComponentType<{ image: GridImage }>;
+  imageEl?: React.ComponentType<{ image: GridImage }>;
   details: React.ComponentType<{ image: GridImage }>;
   isFirst: boolean;
   isLast: boolean;
   onClose?: () => void;
-  onClickLargeImage?: (image: GridImage) => void;
   onLeftRight: (delta: -1 | 1) => void;
 }
 
+function PreviewImage(props: {image: GridImage}) {
+  const {image} = props;
+  return (
+    <img src={image.largesrc ?? image.src} width={image.width} height={image.height} />
+  )
+}
+
 function Preview(props: PreviewProps) {
-  const { image, onLeftRight, onClickLargeImage } = props;
+  const { image, onLeftRight } = props;
+  const imageEl = props.imageEl ?? PreviewImage;
 
   return (
     <div className="og-expander" style={{ height: props.height }}>
       <div className="og-expander-inner">
         <span className="og-close" onClick={props.onClose}></span>
         <div className="og-fullimg">
-          <React.Suspense fallback={<div className="og-loading" />}>
-            <SuspenseImage
-              src={image.largesrc ?? image.src}
-              width={image.width}
-              height={image.height}
-              onClick={() => onClickLargeImage?.(image)}
-            />
-            {props.leftDetails && <props.leftDetails image={image} />}
-          </React.Suspense>
+          {React.createElement(imageEl, {image})}
         </div>
         <div className="og-details">
           <div style={{ display: "block" }}>

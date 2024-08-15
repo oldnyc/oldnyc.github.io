@@ -12,7 +12,7 @@ import { STATIC_MAP_STYLE } from "./map-styles";
 import { ExpandableGrid } from "./grid/grid";
 import { useHistory } from "react-router-dom";
 import { photoIdToLatLon } from "./photo-id-to-lat-lon";
-import { DetailView } from "./ImageDetails";
+import { DetailView, ImagePreview, LeftDetails } from "./ImageDetails";
 
 export interface SlideshowProps {
   latLon: string;
@@ -169,7 +169,7 @@ export function Slideshow(props: SlideshowProps) {
           rowHeight={200}
           speed={200}
           selectedId={selectedPhotoId}
-          leftDetails={LeftDetails}
+          imageEl={ImagePreview}
           details={DetailView}
           onSelect={handleSelect}
           onDeselect={handleDeselect}
@@ -177,22 +177,4 @@ export function Slideshow(props: SlideshowProps) {
       </div>
     </div>
   ) : null;
-}
-
-function LeftDetails({ image }: { image: GridImage & Partial<PhotoInfo> }) {
-  return (
-    <div>
-      <div className="nypl-link">
-        <a target="_blank" href={libraryUrl(image.id, image.nypl_url)}>
-          View complete item in NYPL Digital Collections
-        </a>
-        .
-      </div>
-      <div className="rotate">
-        <a href="#" className="rotate-image-button">
-          <img src="/images/rotate.png" width="29" height="29" />
-        </a>
-      </div>
-    </div>
-  );
 }
