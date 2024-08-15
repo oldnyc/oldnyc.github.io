@@ -1,5 +1,6 @@
 import React from "react";
 import {Comments, Like} from 'react-facebook';
+import {CSSTransition} from 'react-transition-group';
 import {
   PhotoInfo,
   backId,
@@ -55,9 +56,12 @@ export function DetailView({
     setFeedbackVisible(false);
   }, []);
 
+  const nodeRef = React.useRef(null);
+
   return (
     <>
-      <div className="details" ref={detailsRef} style={feedbackVisible ? {visibility: 'hidden'} : undefined}>
+    <CSSTransition nodeRef={detailsRef} in={!feedbackVisible} timeout={400} classNames="fade" >
+      <div className="details" ref={detailsRef}>
         <div className="description">{descriptionForPhotoId(id)}</div>
         <div className="text">
           {ocrText.status === "pending" ? null : (
@@ -98,7 +102,10 @@ export function DetailView({
           <Comments numPosts={5} colorScheme="light" href={canonicalUrl} width={width} />
         </div>
       </div>
-      {feedbackVisible && <Feedback id={id} onClose={hideFeedback}/> }
+      </CSSTransition>
+      <CSSTransition nodeRef={nodeRef} in={feedbackVisible} timeout={400} classNames="fade">
+        <Feedback ref={nodeRef} id={id} onClose={hideFeedback}/>
+      </CSSTransition>
     </>
   );
 }
@@ -217,7 +224,7 @@ interface FeedbackProps {
   onClose: () => void;
 }
 
-function Feedback(props: FeedbackProps) {
+const Feedback = React.forwardRef<HTMLDivElement, FeedbackProps>((props, ref) => {
   const {id, onClose} = props;
   const handleBack: React.MouseEventHandler = React.useCallback((e) => {
     e.preventDefault();
@@ -229,7 +236,7 @@ function Feedback(props: FeedbackProps) {
   }, []);
 
   return (
-    <div className="feedback">
+    <div className="feedback" ref={ref}>
       <p>
         <a className="back" href="#" onClick={handleBack}>
           &larr; back
@@ -252,7 +259,7 @@ function Feedback(props: FeedbackProps) {
       </p>
     </div>
   );
-}
+});
 
 interface FeedbackButtonProps {
   id: string;

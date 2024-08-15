@@ -1,3 +1,32 @@
 .noUi-connect {
   background: #c00;
 }
+
+.details.fade-exit-done {
+  display: none;
+}
+.feedback {
+  display: none;
+}
+.feedback.fade-enter-done {
+  display: block;
+}
+
+.fade-enter {
+  opacity: 0;
+  display: block;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+  display: block;
+}
+.fade-exit {
+  opacity: 1;
+  display: block;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+  display: block;
+}
