@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
@@ -25,7 +26,7 @@ export function Header() {
       </div>
 
       <div id="about">
-        <a href="/about.html">About</a>
+        <Link to="/about">About</Link>
       </div>
 
       <div id="mailing-list">

@@ -6,14 +6,16 @@ import {
   Switch,
   useHistory,
   useParams,
+  useLocation,
 } from "react-router-dom";
 import { Map } from "./map";
-import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
+import { DEFAULT_YEARS, TimeSlider } from "./TimeSlider";
 import { Logo } from "./Logo";
 import { Slideshow } from './Slideshow';
 import { getLatLonForPhotoId, photoIdToLatLon } from "./photo-id-to-lat-lon";
 import { PopularImages } from "./PopularImages";
 import { Header } from "./Header";
+import { About } from "./About";
 
 interface UrlParams {
   photoId?: string;
@@ -35,6 +37,9 @@ function PhotoApp() {
   const handleMarkerClick = React.useCallback((latLon: string) => {
     history.push(`/g:${latLon}`);
   }, [history]);
+
+  const location = useLocation();
+  const isAbout = location.pathname === '/about';
 
   const params = useParams<UrlParams>();
   const { photoId } = params;
@@ -72,6 +77,7 @@ function PhotoApp() {
       <PopularImages />
       <TimeSlider years={years} onSlide={setYears} />
       {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} />}
+      {isAbout && <About />}
     </>
   );
 }
@@ -86,6 +92,9 @@ root.render(
   <React.StrictMode>
     <HashRouter basename="" hashType="noslash">
       <Switch>
+        <Route path="/about">
+          <PhotoApp />
+        </Route>
         <Route path="/g::lat,:lon">
           <PhotoApp />
         </Route>
