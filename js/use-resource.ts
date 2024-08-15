@@ -83,7 +83,7 @@ function removeListener(key: string, fn: () => void) {
 const PENDING: ResourcePending = {status: 'pending'};
 
 export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
-  console.log('useResource', key);
+  // console.log('useResource', key);
   const [, update] = React.useState(0);
 
   const forceUpdate = React.useCallback(() => {
@@ -95,25 +95,25 @@ export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
     const existing = cache.get(key);
     if (existing) {
       if (existing.status === 'pending') {
-        console.log('useResource: re-using existing pending cache entry', key);
+        // console.log('useResource: re-using existing pending cache entry', key);
         addListener(key, forceUpdate);
         return;
       }
-      console.log('useResource: re-using existing cache entry in terminal state', key);
+      // console.log('useResource: re-using existing cache entry in terminal state', key);
       forceUpdate();
       return;
     }
 
     // It's our responsibility to load!
-    console.log('useResource: triggering load', key);
+    // console.log('useResource: triggering load', key);
     cache.set(key, PENDING);
     addListener(key, forceUpdate);
     (async () => {
       const val = await fn();
-      console.log('useResource: set success', key, val);
+      // console.log('useResource: set success', key, val);
       cache.set(key, {status: 'success', data: val});
     })().catch(error => {
-      console.log('useResource: set failure', key);
+      // console.log('useResource: set failure', key);
       cache.set(key, {status: 'error', error});
     });
   }, [key, forceUpdate]);

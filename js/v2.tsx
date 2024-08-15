@@ -12,6 +12,7 @@ import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
 import { Logo } from "./Logo";
 import { Slideshow } from './Slideshow';
 import { getLatLonForPhotoId, photoIdToLatLon } from "./photo-id-to-lat-lon";
+import { PopularImages } from "./PopularImages";
 
 interface UrlParams {
   photoId?: string;
@@ -64,6 +65,7 @@ function PhotoApp() {
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
       <Logo />
       <FeedbackLink />
+      <PopularImages />
       <TimeSlider years={years} onSlide={setYears} />
       {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} />}
     </>
