@@ -69,7 +69,7 @@ export function DetailView({
         <div className="social">
           <CopyLink href={window.location.href} />{' '}
           <Tweet href={window.location.href} via="Old_NYC @NYPL" text={(info.original_title || info.title) + ' - ' + info.date} />{' '}
-          <div className="facebook-holder"></div>
+          <LikeButton href={getCanonicalUrlForPhoto(id)} />
         </div>
 
         <div className="comments"></div>
@@ -131,6 +131,27 @@ function Tweet(props: TweetProps) {
   }, [ref, href, via, text, created]);
 
   return <div ref={ref} key={href} className="tweet" />;
+}
+
+interface LikeButtonProps {
+  href: string;
+}
+function LikeButton(props: LikeButtonProps) {
+  const {href} = props;
+  const ref = React.useRef<HTMLDivElement>(null);
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    // TODO: escaping issue
+    el.innerHTML = `<fb:like layout="button" action="like" show_faces="false" share="true" href="${href}" />`;
+    FB.XFBML.parse(el);
+  }, [ref, href]);
+
+  return (
+    <div ref={ref} className="facebook-holder">
+    </div>
+  );
 }
 
 export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> }) {
