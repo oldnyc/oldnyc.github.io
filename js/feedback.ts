@@ -41,6 +41,7 @@ export interface PhotoFeedback {
   rotate?: number;
   original?: number | null;
   'rotate-backing'?: number;
+  date?: string;
 }
 interface FeedbackMetadata {
   cookie: string;

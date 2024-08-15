@@ -250,13 +250,7 @@ const Feedback = React.forwardRef<HTMLDivElement, FeedbackProps>((props, ref) =>
       <FeedbackButton id={id} type="multiples">It's actually multiple images</FeedbackButton>
       <FeedbackButton id={id} type="wrong-location">It's in the wrong location</FeedbackButton>
 
-      <p className="suggest-date" onClick={submitFeedback}>
-        Suggest a date:
-        <input type="text" placeholder="Sept. 7, 1941" />
-        <button data-feedback-param data-feedback="date">
-          Suggest
-        </button>
-      </p>
+      <DateFeedbackForm id={id} />
     </div>
   );
 });
@@ -284,5 +278,32 @@ function FeedbackButton(props: FeedbackButtonProps) {
 
   return (
     <button disabled={disabled} onClick={handleClick}>{thanks ? 'Thanks!' : props.children}</button>
+  );
+}
+
+function DateFeedbackForm({id}: {id: string}) {
+  const [date, setDate] = React.useState('');
+  const [disabled, setDisabled] = React.useState(false);
+  const [thanks, setThanks] = React.useState(false);
+
+  const handleClick = () => {
+    setDisabled(true);
+
+    (async () => {
+      await sendFeedback(id, 'date', {date});
+      setThanks(true);
+    })().catch(e => {
+      console.error(e);
+    });
+  };
+
+  return (
+    <p className="suggest-date">
+      Suggest a date:{' '}
+      <input disabled={disabled} type="text" placeholder="Sept. 7, 1941" value={date} onChange={e => setDate(e.currentTarget.value)} />{' '}
+      <button onClick={handleClick} disabled={disabled}>
+        {thanks ? 'Thanks!' : 'Suggest'}
+      </button>
+    </p>
   );
 }
