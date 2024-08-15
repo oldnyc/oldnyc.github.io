@@ -91,29 +91,32 @@ export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
     removeListener(key, forceUpdate);
   }, [key]);
 
-  const existing = cache.get(key);
-  if (existing) {
-    if (existing.status === 'pending') {
-      console.log('useResource: re-using existing pending cache entry', key);
-      addListener(key, forceUpdate);
+  React.useEffect(() => {
+    const existing = cache.get(key);
+    if (existing) {
+      if (existing.status === 'pending') {
+        console.log('useResource: re-using existing pending cache entry', key);
+        addListener(key, forceUpdate);
+        return;
+      }
+      console.log('useResource: re-using existing cache entry in terminal state', key);
+      forceUpdate();
       return;
     }
-    console.log('useResource: re-using existing cache entry', key);
-    return existing as Resource<T>;
-  }
 
-  // It's our responsibility to load!
-  console.log('useResource: triggering load', key);
-  cache.set(key, PENDING);
-  addListener(key, forceUpdate);
-  (async () => {
-    const val = await fn();
-    console.log('useResource: set success', key);
-    cache.set(key, {status: 'success', data: val});
-  })().catch(error => {
-    console.log('useResource: set failure', key);
-    cache.set(key, {status: 'error', error});
-  });
+    // It's our responsibility to load!
+    console.log('useResource: triggering load', key);
+    cache.set(key, PENDING);
+    addListener(key, forceUpdate);
+    (async () => {
+      const val = await fn();
+      console.log('useResource: set success', key, val);
+      cache.set(key, {status: 'success', data: val});
+    })().catch(error => {
+      console.log('useResource: set failure', key);
+      cache.set(key, {status: 'error', error});
+    });
+  }, [key, forceUpdate]);
 
-  return PENDING;
+  return cache.get(key) as Resource<T> ?? PENDING;
 }
