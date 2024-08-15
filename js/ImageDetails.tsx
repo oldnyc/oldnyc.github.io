@@ -8,7 +8,7 @@ import {
   libraryUrl,
 } from "./photo-info";
 import { getCanonicalUrlForPhoto } from "./social";
-import { getFeedbackText } from "./feedback";
+import { FeedbackType, getFeedbackText, sendFeedback } from "./feedback";
 import { useResource } from "./use-resource";
 import { SuspenseImage } from "./grid/SuspenseImage";
 import classNames from "classnames";
@@ -45,9 +45,19 @@ export function DetailView({
     }
   }, [detailsRef]);
 
+  const [feedbackVisible, setFeedbackVisible] = React.useState(false);
+
+  const showFeedback: React.MouseEventHandler = React.useCallback((e) => {
+    e.preventDefault();
+    setFeedbackVisible(true);
+  }, []);
+  const hideFeedback = React.useCallback(() => {
+    setFeedbackVisible(false);
+  }, []);
+
   return (
     <>
-      <div className="details" ref={detailsRef}>
+      <div className="details" ref={detailsRef} style={feedbackVisible ? {visibility: 'hidden'} : undefined}>
         <div className="description">{descriptionForPhotoId(id)}</div>
         <div className="text">
           {ocrText.status === "pending" ? null : (
@@ -71,7 +81,7 @@ export function DetailView({
 
         <div className="feedback-link">
           Errors?{" "}
-          <a href="#" className="feedback-button">
+          <a href="#" className="feedback-button" onClick={showFeedback}>
             Send feedback
           </a>
         </div>
@@ -88,7 +98,7 @@ export function DetailView({
           <Comments numPosts={5} colorScheme="light" href={canonicalUrl} width={width} />
         </div>
       </div>
-      {null && <Feedback />}
+      {feedbackVisible && <Feedback id={id} onClose={hideFeedback}/> }
     </>
   );
 }
@@ -202,23 +212,38 @@ function MoreOnBack(props: MoreOnBackProps) {
   );
 }
 
-function Feedback() {
+interface FeedbackProps {
+  id: string;
+  onClose: () => void;
+}
+
+function Feedback(props: FeedbackProps) {
+  const {id, onClose} = props;
+  const handleBack: React.MouseEventHandler = React.useCallback((e) => {
+    e.preventDefault();
+    onClose();
+  }, [onClose]);
+
+  const submitFeedback: React.MouseEventHandler = React.useCallback(e => {
+    // TODO
+  }, []);
+
   return (
     <div className="feedback">
       <p>
-        <a className="back" href="#">
+        <a className="back" href="#" onClick={handleBack}>
           &larr; back
         </a>
       </p>
       <p>Tell us more about this image!</p>
-      <button data-feedback="cut-in-half">It's only part of an image</button>
-      <button data-feedback="large-border">
+      <FeedbackButton id={id} type="cut-in-half">It's only part of an image</FeedbackButton>
+      <FeedbackButton id={id} type="large-border">
         It has an excessively large border
-      </button>
-      <button data-feedback="multiples">It's actually multiple images</button>
-      <button data-feedback="wrong-location">It's in the wrong location</button>
+      </FeedbackButton>
+      <FeedbackButton id={id} type="multiples">It's actually multiple images</FeedbackButton>
+      <FeedbackButton id={id} type="wrong-location">It's in the wrong location</FeedbackButton>
 
-      <p className="suggest-date">
+      <p className="suggest-date" onClick={submitFeedback}>
         Suggest a date:
         <input type="text" placeholder="Sept. 7, 1941" />
         <button data-feedback-param data-feedback="date">
@@ -226,5 +251,31 @@ function Feedback() {
         </button>
       </p>
     </div>
+  );
+}
+
+interface FeedbackButtonProps {
+  id: string;
+  type: FeedbackType;
+  children?: JSX.Element | string;
+}
+
+function FeedbackButton(props: FeedbackButtonProps) {
+  const [disabled, setDisabled] = React.useState(false);
+  const [thanks, setThanks] = React.useState(false);
+
+  const handleClick = () => {
+    setDisabled(true);
+
+    (async () => {
+      await sendFeedback(props.id, props.type, {[props.type]: true});
+      setThanks(true);
+    })().catch(e => {
+      console.error(e);
+    });
+  };
+
+  return (
+    <button disabled={disabled} onClick={handleClick}>{thanks ? 'Thanks!' : props.children}</button>
   );
 }
