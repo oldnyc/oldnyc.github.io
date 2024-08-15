@@ -94,7 +94,6 @@ export function Slideshow(props: SlideshowProps) {
 
   const handleSelect = React.useCallback(
     (photoId: string) => {
-      console.log("select", photoId);
       // TODO: should this be replace or push?
       history.push("/" + photoId);
     },

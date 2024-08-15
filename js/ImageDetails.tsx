@@ -10,6 +10,7 @@ import { getCanonicalUrlForPhoto } from "./social";
 import { getFeedbackText } from "./feedback";
 import { useResource } from "./use-resource";
 import { SuspenseImage } from "./grid/SuspenseImage";
+import classNames from "classnames";
 
 export function DetailView({
   image,
@@ -66,12 +67,7 @@ export function DetailView({
         </div>
 
         <div className="social">
-          <div className="copy-link">
-            <span className="octicon octicon-clippy"></span>
-            <a href="#" className="email-share">
-              Copy Link
-            </a>
-          </div>
+          <CopyLink href={window.location.href} />
           <div className="tweet"></div>
           <div className="facebook-holder"></div>
         </div>
@@ -80,6 +76,29 @@ export function DetailView({
       </div>
       {null && <Feedback />}
     </>
+  );
+}
+
+function CopyLink({href}: {href: string}) {
+  const [isCopied, setIsCopied] = React.useState(false);
+
+  const copy: React.MouseEventHandler = (e) => {
+    e.preventDefault();
+    (async () => {
+      await navigator.clipboard.writeText(href);
+      setIsCopied(true);
+    })().catch(e => {
+      // ...
+    });
+  };
+
+  return (
+    <div className={classNames("copy-link", {clicked: isCopied})}>
+      <span className={classNames('octicon', isCopied ? 'octicon-check' : 'octicon-clippy')}></span>
+      <a href="#" className="email-share" onClick={copy}>
+        {' '}{isCopied ? 'Copied' : 'Copy Link'}
+      </a>
+    </div>
   );
 }
 
