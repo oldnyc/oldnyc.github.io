@@ -38,23 +38,23 @@ export function DetailView({
       <div className="details">
         <div className="description">{descriptionForPhotoId(id)}</div>
         <div className="text">
-          {ocrText.status === "pending" ? (
-            "..."
-          ) : (
+          {ocrText.status === "pending" ? null : (
             <>
               {text}
-              <i>
-                &nbsp; &nbsp; Typos? Help{" "}
-                <a target="_blank" href={ocrUrl}>
-                  fix them
-                </a>
-                .
-              </i>
+              <p>
+                <i>
+                  Typos? Help{" "}
+                  <a target="_blank" href={ocrUrl}>
+                    fix them
+                  </a>
+                  .
+                </i>
+              </p>
+              {!text && hasBack ? (
+                <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
+              ) : null}
             </>
           )}
-          {!text && hasBack ? (
-            <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
-          ) : null}
         </div>
 
         <div className="feedback-link">
