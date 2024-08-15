@@ -102,14 +102,12 @@ export function Slideshow(props: SlideshowProps) {
     history.push(`/g:${latLon}`);
   }, [history]);
 
-  // TODO: wire up all the many ways to exit the slideshow
   const handleExit = React.useCallback(() => {
     history.push(`/`);
   }, [history]);
 
   const exitIfSelfClick: React.MouseEventHandler = React.useCallback(e => {
-    // console.log(e.currentTarget, e.target);
-    if (e.currentTarget === e.target || (e.target as HTMLElement).className === 'og-grid') {
+    if (e.currentTarget === e.target || (e.target as HTMLElement).classList.contains('og-grid')) {
       handleExit();
     }
   }, [handleExit]);
