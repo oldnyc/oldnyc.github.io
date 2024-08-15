@@ -20,6 +20,8 @@ export interface SlideshowProps {
   yearRange: YearRange;
 }
 
+const LIBRARY_URL = 'https://digitalcollections.nypl.org/collections/photographic-views-of-new-york-city-1870s-1970s-from-the-collections-of-the-ne-2#/?tab=about';
+
 // A photo is in the date range if any dates mentioned in it are in the range.
 // For example, "1927; 1933; 1940" is in the range [1920, 1930].
 function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
@@ -46,7 +48,7 @@ function makeStaticMapsUrl(lat_lon: string) {
 }
 
 export function Slideshow(props: SlideshowProps) {
-  const { latLon, yearRange } = props;
+  const { latLon, yearRange, selectedPhotoId } = props;
   const [photoIds, setPhotoIds] = React.useState<string[] | null>();
   const isFullRange = isFullTimeRange(yearRange);
 
@@ -82,6 +84,8 @@ export function Slideshow(props: SlideshowProps) {
       (info) => info.years?.[0]
     );
   }, [photoIds, yearRange]);
+
+  const selectedImage = images && selectedPhotoId ? images.find(image => image.id === selectedPhotoId) : undefined;
 
   const history = useHistory();
   const handleSelect = React.useCallback(
@@ -155,7 +159,7 @@ export function Slideshow(props: SlideshowProps) {
         />
         <div className="location">{nameForLatLon(latLon)}</div>
         <div className="nypl-logo">
-          <a target="_blank">
+          <a target="_blank" href={selectedImage?.nypl_url ?? LIBRARY_URL}>
             <img src="/images/nypl_logo.png" width="127" height="75" />
           </a>
         </div>
@@ -166,7 +170,7 @@ export function Slideshow(props: SlideshowProps) {
           images={images}
           rowHeight={200}
           speed={200}
-          selectedId={props.selectedPhotoId}
+          selectedId={selectedPhotoId}
           leftDetails={LeftDetails}
           details={DetailView}
           onSelect={handleSelect}
