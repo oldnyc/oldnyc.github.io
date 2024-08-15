@@ -1,9 +1,7 @@
 import React from "react";
-import _ from "lodash";
 import {
   PhotoInfo,
   infoForPhotoId,
-  libraryUrl,
   loadInfoForLatLon,
   nameForLatLon,
 } from "./photo-info";
@@ -73,21 +71,18 @@ export function Slideshow(props: SlideshowProps) {
 
   const images = React.useMemo(() => {
     if (!photoIds) return null;
-    return _.sortBy(
-      photoIds
-        .map((photoId) => {
-          var info = infoForPhotoId(photoId);
-          if (!isPhotoInDateRange(info, yearRange)) return null;
-          return {
-            id: photoId,
-            largesrc: info.image_url,
-            src: info.thumb_url,
-            ...info,
-          };
-        })
-        .filter((x) => x !== null),
-      (info) => info.years?.[0]
-    );
+    return photoIds
+      .map((photoId) => {
+        var info = infoForPhotoId(photoId);
+        if (!isPhotoInDateRange(info, yearRange)) return null;
+        return {
+          id: photoId,
+          largesrc: info.image_url,
+          src: info.thumb_url,
+          ...info,
+        };
+      })
+      .filter((x) => x !== null)
   }, [photoIds, yearRange]);
 
   const selectedImage = images && selectedPhotoId ? images.find(image => image.id === selectedPhotoId) : undefined;
