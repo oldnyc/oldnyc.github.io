@@ -31,20 +31,15 @@ export function ExpandableGrid(props: ExpandableGridProps) {
   const { selectedId } = props;
   const gridRef = React.createRef<HTMLUListElement>();
   const [width, setWidth] = React.useState<number | null>(null);
-  // TODO: doesn't feel like this should be needed
-  const [container, setContainer] = React.useState<HTMLUListElement | null>(
-    null
-  );
 
   const resizeFn = React.useCallback(() => {
     const box = gridRef.current?.getBoundingClientRect();
     if (box) {
       setWidth(box.width);
-      setContainer(gridRef.current);
     }
   }, [gridRef]);
 
-  React.useLayoutEffect(() => resizeFn, [resizeFn]);
+  React.useLayoutEffect(resizeFn, [resizeFn]);
 
   React.useEffect(() => {
     window.addEventListener("resize", resizeFn);
@@ -67,8 +62,8 @@ export function ExpandableGrid(props: ExpandableGridProps) {
 
   return (
     <ul className="og-grid" ref={gridRef}>
-      {width === null || container === null ? null : (
-        <GridWithWidth {...props} containerWidth={width} gridEl={container} />
+      {width === null ? null : (
+        <GridWithWidth {...props} containerWidth={width} />
       )}
     </ul>
   );
@@ -76,20 +71,18 @@ export function ExpandableGrid(props: ExpandableGridProps) {
 
 interface GridWithWidthProps extends ExpandableGridProps {
   containerWidth: number;
-  gridEl: HTMLUListElement;
 }
 
 function GridWithWidth(props: GridWithWidthProps) {
-  const { images, selectedId, onSelect, onDeselect } = props;
+  const { images, selectedId, rowHeight, containerWidth, onSelect, onDeselect } = props;
   const imageMargin = props.imageMargin ?? 12;
   const maxHeight = props.maxHeight ?? 750;
 
-  // TODO: memoize this
-  const rows = partitionIntoRows(images, {
-    maxRowHeight: props.rowHeight,
+  const rows = React.useMemo(() => partitionIntoRows(images, {
+    maxRowHeight: rowHeight,
     imageMargin,
-    containerWidth: props.containerWidth,
-  });
+    containerWidth: containerWidth,
+  }), [images, rowHeight, containerWidth, imageMargin]);
 
   // const scrollParent = allParents(props.gridEl).find(isElementScrollable) ?? document.body;
   // TODO: does window.innerHeight = $(window).height()?
