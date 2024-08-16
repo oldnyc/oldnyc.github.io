@@ -100,9 +100,6 @@ function PhotoApp() {
 
 const FeedbackLink = () => <div id="feedback"><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank">Send feedback</a></div>
 
-// TODO:
-// [ ] GA tracking on all events
-
 const root = createRoot(document.querySelector("#app")!);
 root.render(
   <React.StrictMode>
@@ -112,9 +109,6 @@ root.render(
           <PhotoApp />
         </Route>
         <Route path="/g::lat,:lon">
-          <PhotoApp />
-        </Route>
-        <Route path="/:photoId,g::lat,:lon">
           <PhotoApp />
         </Route>
         <Route path="/:photoId">

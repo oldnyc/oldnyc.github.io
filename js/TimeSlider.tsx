@@ -1,13 +1,8 @@
 import React from "react";
-import Nouislider from "nouislider-react";
-// import "nouislider/dist/nouislider.css";
+import Slider from 'rc-slider';
 
 export type YearRange = [firstYear: number, lastYear: number];
 export const DEFAULT_YEARS: YearRange = [1800, 2000];
-const RANGE = {
-  min: [DEFAULT_YEARS[0]],
-  max: [DEFAULT_YEARS[1]],
-};
 
 export function isFullTimeRange(yearRange: [number, number]) {
   return (yearRange[0] === 1800 && yearRange[1] === 2000);
@@ -19,10 +14,10 @@ export interface TimeSliderProps {
   onChange?: (newYears: YearRange) => void;
 }
 
-// Note: ownership of current years is a little weird; you can't change it programmatically.
 export function TimeSlider(props: TimeSliderProps) {
   const {years} = props;
   const [visible, setVisible] = React.useState(false);
+
   return (
     <div id="time-slider-container">
       <div id="time-range-summary" onClick={() => setVisible(v => !v)}>
@@ -30,12 +25,17 @@ export function TimeSlider(props: TimeSliderProps) {
         <div className="white-arrow-down"></div>
       </div>
       <div id="time-range" style={{display: visible ? 'block' : 'none' }}>
-        <Nouislider range={RANGE} step={1} start={years} connect onSlide={(_v, _h, years) => {
-          props.onSlide(years as [number, number]);
-        }} onChange={(_v, _h, years) => {
-          props.onChange?.(years as [number, number]);
-        }} />
+        <Slider range min={DEFAULT_YEARS[0]} max={DEFAULT_YEARS[1]} allowCross={false} value={years} onChange={props.onSlide} onChangeComplete={props.onChange} />
       </div>
     </div>
   );
 }
+
+// #abe2fb - soft
+// #96dbfa - boldish
+// #2db7f5 - boldest
+// #57c5f7 - boldest
+
+// Existing OldNYC red:
+// bold: #c00
+// softer: #e3a1a1
