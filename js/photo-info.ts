@@ -15,6 +15,7 @@ export interface LightPhotoInfo {
 
 /** Value type for popular.json, by-location/*.json */
 export interface PhotoInfo {
+  id: string;
   width: number;
   thumb_url: string;
   image_url: string;
@@ -43,17 +44,15 @@ export async function loadInfoForLatLon(lat_lon: string): Promise<string[]> {
   if (!response.ok) {
     throw new Error(response.statusText);
   }
-  const response_data = await response.json();
+  const response_data = await response.json() as PhotoInfo[];
   // Add these values to the cache.
-  Object.assign(photo_id_to_info, response_data);
-  // $.extend(photo_id_to_info, response_data);
-  var photo_ids = [];
-  for (var k in response_data) {
-    photo_ids.push(k);
+  for (const photo of response_data) {
+    photo_id_to_info[photo.id] = photo;
   }
   if (lat_lon != 'pop') {
     lat_lon_to_name[lat_lon] = extractName(response_data);
   }
+  const photo_ids = response_data.map(r => r.id);
   return photo_ids;
 }
 
@@ -100,10 +99,9 @@ export function nameForLatLon(lat_lon: string) {
   return v.replace(/: | - | & /g, '\n');
 }
 
-function extractName(lat_lon_json: {[latLng: string]: PhotoInfo}) {
+function extractName(lat_lon_json: PhotoInfo[]) {
   // if any entries have an original_title, it's got to be a pure location.
-  for (var k in lat_lon_json) {
-    var v = lat_lon_json[k];
+  for (var v of lat_lon_json) {
     if (v.original_title) return v.original_title;
   }
 }
