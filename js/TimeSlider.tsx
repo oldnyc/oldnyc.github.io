@@ -30,7 +30,7 @@ export function TimeSlider(props: TimeSliderProps) {
         <div className="white-arrow-down"></div>
       </div>
       <div id="time-range" style={{display: visible ? 'block' : 'none' }}>
-        <Nouislider range={RANGE} step={1} start={DEFAULT_YEARS} connect onSlide={(_v, _h, years) => {
+        <Nouislider range={RANGE} step={1} start={years} connect onSlide={(_v, _h, years) => {
           props.onSlide(years as [number, number]);
         }} onChange={(_v, _h, years) => {
           props.onChange?.(years as [number, number]);

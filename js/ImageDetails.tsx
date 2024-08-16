@@ -165,12 +165,16 @@ function Tweet(props: TweetProps) {
 }
 
 export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> }) {
+  const {id} = image;
   const [rotation, setRotation] = React.useState(0);
   const rotate: React.MouseEventHandler = React.useCallback((e) => {
     e.preventDefault();
-    setRotation(r => r + 90);
-    // TODO: track GA
-  }, []);
+    const newRotation = rotation + 90;
+    setRotation(newRotation);
+    ga('send', 'event', 'link', 'rotate', {
+      'page': `/#${id}(${newRotation})`
+    });
+  }, [id, rotation]);
 
   return (
     <React.Suspense fallback={<div className="og-loading" />}>

@@ -16,6 +16,7 @@ export interface SlideshowProps {
   latLon: string;
   selectedPhotoId?: string;
   yearRange: YearRange;
+  onResetYears: () => void;
 }
 
 const LIBRARY_URL = 'https://digitalcollections.nypl.org/collections/photographic-views-of-new-york-city-1870s-1970s-from-the-collections-of-the-ne-2#/?tab=about';
@@ -46,7 +47,7 @@ function makeStaticMapsUrl(lat_lon: string) {
 }
 
 export function Slideshow(props: SlideshowProps) {
-  const { latLon, yearRange, selectedPhotoId } = props;
+  const { latLon, yearRange, selectedPhotoId, onResetYears } = props;
   const [photoIds, setPhotoIds] = React.useState<string[] | null>();
   const isFullRange = isFullTimeRange(yearRange);
 
@@ -110,6 +111,12 @@ export function Slideshow(props: SlideshowProps) {
     }
   }, [handleExit]);
 
+  const handleReset: React.MouseEventHandler = React.useCallback(e => {
+    e.preventDefault();
+    e.stopPropagation();
+    onResetYears();
+  }, [onResetYears]);
+
   return images ? (
     <div id="expanded">
       <div className="curtains" onClick={handleExit}></div>
@@ -124,11 +131,10 @@ export function Slideshow(props: SlideshowProps) {
         </div>
         {!isFullRange && (
           <div id="filtered-slideshow">
-            Only showing photos between
+            Only showing photos between{' '}
             <span id="slideshow-filter-first">{yearRange[0]}</span> and{" "}
-            <span id="slideshow-filter-last">{yearRange[1]}</span>.
-            {/* TODO: wire "Show all" up */}
-            <a href="#" id="slideshow-all">
+            <span id="slideshow-filter-last">{yearRange[1]}</span>.{' '}
+            <a href="#" id="slideshow-all" onClick={handleReset}>
               Show all.
             </a>
           </div>

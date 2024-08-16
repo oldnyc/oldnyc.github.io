@@ -9,7 +9,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { Map } from "./map";
-import { DEFAULT_YEARS, TimeSlider } from "./TimeSlider";
+import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
 import { Logo } from "./Logo";
 import { Slideshow } from './Slideshow';
 import { getLatLonForPhotoId, photoIdToLatLon } from "./photo-id-to-lat-lon";
@@ -62,6 +62,26 @@ function PhotoApp() {
     }
   }, [photoId, loc]);
 
+  const logTimeSlider = React.useCallback(([a, b]: YearRange) => {
+    ga('send', 'event', 'link', 'time-slider', {
+      'page': `/#${a}–${b}`
+    });
+  }, []);
+
+  const resetYears = React.useCallback(() => {
+    setYears(DEFAULT_YEARS);
+    ga('send', 'event', 'link', 'time-slider-clear');
+  }, []);
+
+  React.useEffect(() => {
+    // There may be some double-counting here, e.g. when you close an image
+    // preview or go back to the map from the grid. No big deal.
+    if (typeof ga !== 'undefined') {
+      const url = location.pathname + location.search  + location.hash;
+      ga('send', 'pageview', { 'page': url });
+    }
+  }, [location]);
+
   return (
     <FacebookProvider appId="598168753565519">
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
@@ -71,8 +91,8 @@ function PhotoApp() {
       </div>
       <FeedbackLink />
       <PopularImages />
-      <TimeSlider years={years} onSlide={setYears} />
-      {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} />}
+      <TimeSlider years={years} onSlide={setYears} onChange={logTimeSlider} />
+      {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} onResetYears={resetYears} />}
       {isAbout && <About />}
     </FacebookProvider>
   );
