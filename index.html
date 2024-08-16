@@ -4,12 +4,11 @@
   <meta charset="utf-8">
   <title>OldNYC: Mapping Historical Photographs of New York City</title>
 
+  <link rel="stylesheet" href="styles/octicons/octicons.css">
+  <link rel="stylesheet" href="styles/rc-slider.css">
   <link rel="stylesheet" href="styles/grid.css" />
   <link rel="stylesheet" href="styles/viewer.css" />
-  <link rel="stylesheet" href="styles/octicons/octicons.css">
-  <link rel="stylesheet" href="styles/jquery-ui.min.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="fb:app_id" content="598168753565519"/>
   <meta property="og:title" content="OldNYC" />
   <meta property="og:site_name" content="OldNYC" />
@@ -24,199 +23,24 @@
 </head>
 
 <body>
-  <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : '598168753565519',
-        xfbml      : true,
-        version    : 'v2.3'
-      });
-    };
+  <div id="app"></div>
 
-    (function(d, s, id){
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) {return;}
-       js = d.createElement(s); js.id = id;
-       js.src = "//connect.facebook.net/en_US/sdk.js";
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div id="fb-root"></div>
-
-  <div id="map">Loading&hellip;</div>
-
-  <div class="header streetview-hide">
-    <div class="social-about">
-      <div id="facebook">
-        <div class="fb-like" data-href="http://www.oldnyc.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-      </div>
-      <div id="twitter">
-        <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="Old_NYC @NYPL">Tweet</a>
-      </div>
-
-      <div id="about"><a href="/about.html">About</a></div>
-
-      <div id="mailing-list"><a target="_blank" href="http://eepurl.com/bouyCz">Subscribe</a> to OldNYC updates</div>
-    </div>
-
-    <div class="logo">
-      <div class="wrapper">
-        <a href="/">OldNYC</a>
-        <div class="slogan">Mapping historical<br>photos from the NYPL</div>
-      </div>
-    </div>
-
-    <div class="popular-link" style="display: none">
-      <h2><a href="#">Popular Photos</a></h2>
-    </div>
-  </div>
-
-  <div id="feedback"><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank">Send feedback</a></div>
-
-  <div id="search">
-    <div id="current-location">
-      <svg viewBox="-631 393.9 15.2 15.1"><path d="M-616.6 400.8h-.9c-.1-1.4-.7-2.6-1.8-3.6-1-1-2.1-1.6-3.6-1.7v-.9c.1-.4-.2-.7-.6-.7-.3 0-.6.3-.6.7v.9c-1.4.1-2.6.7-3.6 1.7s-1.6 2.2-1.7 3.6h-.9c-.4 0-.7.3-.7.7s.3.7.7.7h.9c.1 1.4.7 2.5 1.7 3.5s2.1 1.6 3.6 1.7v.9c0 .4.3.7.7.7s.7-.3.7-.7v-.9c1.4-.1 2.6-.7 3.6-1.7s1.6-2.2 1.7-3.5h.9c.4 0 .7-.3.7-.7-.1-.4-.4-.7-.8-.7zm-2.1 2.6c-.2.6-.6 1.1-1.1 1.6s-1.1.9-1.7 1.1c-.6.3-1.3.4-2 .4s-1.4-.1-2-.4c-.5-.1-1-.5-1.5-1s-.9-1.1-1.1-1.7c-.2-.6-.4-1.3-.4-2s.1-1.4.4-2c.2-.5.6-1 1.1-1.5s1-.9 1.6-1.1 1.3-.4 2-.4 1.4.1 2 .4c.6.2 1.1.6 1.6 1.1s.9 1 1.1 1.6.4 1.3.4 2-.2 1.3-.4 1.9z"/><path class="st0" d="M-623.4 398.5c-.8 0-1.6.3-2.1.9-.6.5-.9 1.3-.9 2.1s.3 1.5.9 2.1c.6.6 1.3.9 2.1.9s1.5-.3 2.1-.9.8-1.3.8-2.1-.3-1.5-.9-2.1c-.5-.6-1.2-.9-2-.9z"/></svg>
-    </div>
-
-    <input id="location-search" type="text" placeholder="e.g. 233 Broadway" />
-  </div>
-
-  <!-- Popular Photos -->
-  <div id="popular">
-    <h2>Popular Photos</h2>
-    <div class="close">✕</div>
-    <div class="popular-photo" id="popular-photo-template" style="display:none">
-      <a href=""><img class="popular-image" src="" width=200 height=0 /></a>
-      <p><span class="desc"></span><br><span class="loc"></span><span class="date"></span></p>
-    </div>
-  </div>
-
-  <!-- Time Slider -->
-  <div id="time-range-summary">
-    <span  id="time-range-labels">1800&ndash;2000</span>
-    <div class="white-arrow-down"></div>
-  </div>
-  <div id="time-range">
-    <div id="time-slider"></div>
-  </div>
-
-  <!-- Expanded Image Slideshow -->
-  <div style="display:none;" id="expanded">
-    <div class="curtains"></div>
-
-    <div class="header">
-      <div class="logo">
-        <div class="wrapper">
-          <a class="exit" href="#">OldNYC</a>
-        </div>
-      </div>
-      <div id="filtered-slideshow">
-        Only showing photos between
-          <span id="slideshow-filter-first"></span> and <span id="slideshow-filter-last"></span>.
-        <a href="#" id="slideshow-all">Show all.</a>
-      </div>
-      <div id="exit-slideshow" class="exit" title="Exit Slideshow">✕</div>
-    </div>
-
-    <div id="expanded-controls">
-      <img id="preview-map" class="exit" title="Exit Slideshow" src="images/blank.gif" width="150" height="150">
-      <div class="location"></div>
-      <div class="nypl-logo">
-        <a target="_blank"><img src="/images/nypl_logo.png" width="127" height="75" border="0"></a>
-      </div>
-    </div>
-
-    <div id="grid-container"></div>
-  </div>
-
-  <div id="image-details-template" style="display: none;">
-    <div class="details">
-      <div class="description"></div>
-      <div class="text"></div>
-      <div class="more-on-back" style="display:none">
-        There's no description available for this photo, but there may be some
-        text on the back of the image in the
-        <a class="nypl" href="/" target="_blank">NYPL Digital Collections</a>.
-        If so, you can help OldNYC by
-        <a class="ocr-tool" href="/" target="_blank">transcribing it</a>.
-      </div>
-
-      <div class="feedback-link">Errors? <a href='#' class="feedback-button">Send feedback</a></div>
-
-      <div class="social">
-        <div class="copy-link">
-          <span class="octicon octicon-clippy"></span>
-          <a href="#" class="email-share">Copy Link</a>
-        </div>
-        <div class="tweet"></div>
-        <div class="facebook-holder"></div>
-      </div>
-
-      <div class="comments"></div>
-    </div>
-    <div class="feedback" style="display: none;">
-      <p><a class="back" href="#">&larr; back</a></p>
-      <p>Tell us more about this image!</p>
-      <button feedback='cut-in-half'>It's only part of an image</button>
-      <button feedback='large-border'>It has an excessively large border</button>
-      <button feedback='multiples'>It's actually multiple images</button>
-      <button feedback='wrong-location'>It's in the wrong location</button>
-
-      <p class='suggest-date'>Suggest a date:
-      <input type="text" placeholder="Sept. 7, 1941">
-      <button feedback-param=true feedback="date">Suggest</button></p>
-      </p>
-    </div>
-  </div>
-
-  <div id="image-details-left-template" style="display: none;">
-    <div class="nypl-link"><a target="_blank" href="">View complete item in NYPL Digital Collections</a>.</div>
-    <div class="rotate">
-      <a href='#' class="rotate-image-button">
-        <img src="/images/rotate.png" width="29" height="29" />
-      </a>
-    </div>
-  </div>
-
-  <!-- About Page -->
-  <div id="about-page" style="display: none;">
-    <div class="curtains"></div>
-    <div id="exit-about" class="exit" title="Exit About">✕</div>
-    <div class="container">
-    <iframe src="/about.html" scrolling="auto" frameborder="0" width="100%" height="100%">
-    </iframe>
-    </div>
-  </div>
-
-  <div style="position: absolute; left: -1000px;">
-    <img src="images/blank.gif" />
-    <img src="images/spinner.gif" />
-  </div>
-
-  <!-- Google Maps API -->
   <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA">
   </script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
   <meta name="twitter:widgets:csp" content="on">
   <script src="//platform.twitter.com/widgets.js"></script>
-
-  <script src="js/zeroclipboard/ZeroClipboard.min.js" async></script>
-
   <script src="/lat-lon-counts.js"></script>
-  <script src="js/vendor/vendor-all.js"></script>
   <script src="js/bundle/main.js"></script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-54335760-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
+    ga('create', 'UA-54335760-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>

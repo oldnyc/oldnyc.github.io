@@ -576,3 +576,39 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 
 /* https://stackoverflow.com/a/67656246/388951 */
 .gm-style iframe + div { border:none!important; }
+
+/* Feedback fade in/out */
+.details.fade-exit-done {
+  display: none;
+}
+.feedback {
+  display: none;
+}
+.feedback.fade-enter-done {
+  display: block;
+}
+
+.fade-enter {
+  opacity: 0;
+  display: block;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+  display: block;
+}
+.fade-exit {
+  opacity: 1;
+  display: block;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+  display: block;
+}
+
+/* Highlight currently-selected photos & their "siblings" from the same card. */
+.og-grid li.selected > a:first-child img,
+.og-grid li.sibling > a:first-child img {
+  box-shadow: 0 0 0 2px #fff;
+}

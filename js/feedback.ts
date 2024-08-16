@@ -28,8 +28,6 @@ if (!COOKIE) {
   });
   setCookie(COOKIE_ID, COOKIE);
 }
-console.log('Cookie', COOKIE);
-
 // TODO: this depends on FeedbackType
 export interface PhotoFeedback {
   text?: string;

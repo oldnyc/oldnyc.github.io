@@ -41,13 +41,6 @@ function pageTitle(params: UrlParams) {
 
 
 function PhotoApp() {
-  React.useEffect(() => {
-    console.log('mount');
-    return () => {
-      console.log('unmount');
-    };
-  }, []);
-
   const [years, setYears] = React.useState(DEFAULT_YEARS);
 
   const history = useHistory();
