@@ -82,7 +82,6 @@ export function Slideshow(props: SlideshowProps) {
         var info = infoForPhotoId(photoId);
         if (!isPhotoInDateRange(info, yearRange)) return null;
         return {
-          id: photoId,
           largesrc: info.image_url,
           src: info.thumb_url,
           className: photoId === selectedPhotoId ? 'selected' : selectedPhotoId && areSiblings(selectedPhotoId, photoId) ? 'sibling' : undefined,
@@ -96,10 +95,14 @@ export function Slideshow(props: SlideshowProps) {
 
   const handleSelect = React.useCallback(
     (photoId: string) => {
-      // TODO: should this be replace or push?
-      history.push("/" + photoId);
+      if (selectedPhotoId) {
+        // keep the history stack relatively short
+        history.replace("/" + photoId);
+      } else {
+        history.push("/" + photoId);
+      }
     },
-    [history, latLon]
+    [history, latLon, selectedPhotoId]
   );
 
   const handleDeselect = React.useCallback(() => {
