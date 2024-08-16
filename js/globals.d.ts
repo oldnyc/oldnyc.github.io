@@ -6,3 +6,11 @@ declare const lat_lons: {
     [year: string]: number;
   }
 }
+
+/** Last-updated dates for static JSON files */
+declare const timestamps: {
+  ocr_ms: number;
+  ocr_time: string;
+  rotation_time: string;
+  timestamp: string;
+}

@@ -6,10 +6,6 @@
 const API = 'https://danvk-bronzeswift.web.val.run/api/v0';
 var COOKIE_ID = 'oldnycid';
 
-let lastReviewedOcrMsPromise = $.get('/timestamps.json').then(function(data) {
-  return data.ocr_ms as number;
-});
-
 export function deleteCookie(name: string) {
   document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
@@ -20,7 +16,7 @@ export function setCookie(name: string, value: string) {
 
 export function getCookie(name: string) {
   const b = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-  return b ? b.pop() : '';
+  return b ? b.pop()! : '';
 }
 
 // Assign each user a unique ID for tracking repeat feedback.
@@ -32,15 +28,14 @@ if (!COOKIE) {
   });
   setCookie(COOKIE_ID, COOKIE);
 }
-console.log('Cookie', COOKIE);
-
 // TODO: this depends on FeedbackType
 export interface PhotoFeedback {
   text?: string;
   notext?: boolean;
   rotate?: number;
-  original?: number;
+  original?: number | null;
   'rotate-backing'?: number;
+  date?: string;
 }
 interface FeedbackMetadata {
   cookie: string;
@@ -88,14 +83,13 @@ export interface FeedbackText {
 // Retrieve the most-recent OCR for a backing image.
 // Resolves with null if there is no OCR text available.
 export async function getFeedbackText(back_id: string) {
-  const lastReviewedOcrMs = await lastReviewedOcrMsPromise;
   const path = `${API}/${back_id}/text`;
   const response = await fetch(path);
   if (!response.ok) {
     throw new Error(response.statusText);
   }
   const feedback = await response.json() as FeedbackText;
-  if (feedback.timestamp > lastReviewedOcrMs) {
+  if (feedback.timestamp > timestamps.ocr_ms) {
     return feedback;
   }
   return null;

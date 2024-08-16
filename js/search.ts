@@ -7,8 +7,8 @@ import { map } from './viewer';
 let locationMarker: google.maps.Marker | null = null;
 
 function setLocation(latLng: google.maps.LatLng | google.maps.LatLngLiteral, title: string) {
-  map.panTo(latLng);
-  map.setZoom(17);
+  map!.panTo(latLng);
+  map!.setZoom(17);
 
   if (locationMarker) {
     locationMarker.setMap(null);

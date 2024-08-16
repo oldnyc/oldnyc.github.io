@@ -545,16 +545,17 @@ a#slideshow-all, a#slideshow-all:visited {
   position: fixed;
   top: 116px;
   left: 60px;
-  width: 205px;
-  height: 10px;
+  width: 235px;
+  height: 50px;
   background: white;
-  padding: 15px;
-  /* box-shadow: #777 0 0px 5px 0px; */
+  padding: 20px;
   display: none;
+  box-sizing: border-box;
+  padding-top: 15px;
 }
 
-#time-slider {
-  /* width: 200px; */
+#time-range-summary {
+  user-select: none;
 }
 
 .white-arrow-down {
@@ -571,4 +572,43 @@ a#slideshow-all, a#slideshow-all:visited {
 
 span.ui-slider-handle.ui-corner-all.ui-state-default {
   outline: none;
+}
+
+/* https://stackoverflow.com/a/67656246/388951 */
+.gm-style iframe + div { border:none!important; }
+
+/* Feedback fade in/out */
+.details.fade-exit-done {
+  display: none;
+}
+.feedback {
+  display: none;
+}
+.feedback.fade-enter-done {
+  display: block;
+}
+
+.fade-enter {
+  opacity: 0;
+  display: block;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+  display: block;
+}
+.fade-exit {
+  opacity: 1;
+  display: block;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+  display: block;
+}
+
+/* Highlight currently-selected photos & their "siblings" from the same card. */
+.og-grid li.selected > a:first-child img,
+.og-grid li.sibling > a:first-child img {
+  box-shadow: 0 0 0 2px #fff;
 }

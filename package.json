@@ -24,16 +24,30 @@
     "@types/jquery": "^1.10.41",
     "@types/jquery-mousewheel": "^3.1.10",
     "@types/jqueryui": "1.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-helmet": "^6.1.11",
+    "@types/react-router-dom": "5",
+    "@types/react-transition-group": "^4.4.11",
     "@types/twitter-for-web": "^0.0.3",
     "@types/zeroclipboard": "^2.0.35",
     "eslint": "^2.10.2",
     "eslint-plugin-import": "^1.8.0",
     "ts-loader": "^9.4.4",
-    "typescript": "^5.2.2",
+    "typescript": "^5.5.4",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
+    "rc-slider": "^11.1.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-facebook": "^9.0.12",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "5",
+    "react-transition-group": "^4.4.5",
     "underscore": "^1.8.3"
   }
 }

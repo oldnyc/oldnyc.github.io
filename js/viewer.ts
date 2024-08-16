@@ -10,7 +10,7 @@ export var lat_lon_to_marker: {[latLng: string]: google.maps.Marker} = {};
 
 let selected_marker_icons: google.maps.Icon[] = [];
 let selected_marker: google.maps.Marker | undefined;
-let selected_icon: google.maps.Icon | google.maps.Symbol | string | undefined;
+let selected_icon: google.maps.Icon | google.maps.Symbol | string | null | undefined;
 let year_range: [number, number] = [1800, 2000];
 
 export let map: google.maps.Map | undefined;
@@ -49,7 +49,7 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
   return false;
 }
 
-export function countPhotos(yearToCounts: YearToCount) {
+export function countPhotos(yearToCounts: YearToCount | undefined) {
   if (isFullTimeRange(year_range)) {
     // This includes undated photos.
     return Object.values(yearToCounts || {}).reduce((a, b) => a + b, 0);
@@ -68,7 +68,7 @@ export function selectMarker(marker: google.maps.Marker, yearToCounts: YearToCou
   const numPhotos = countPhotos(yearToCounts);
   var zIndex = 0;
   if (selected_marker) {
-    zIndex = selected_marker.getZIndex();
+    zIndex = selected_marker.getZIndex() ?? 0;
     selected_marker.setIcon(selected_icon);
   }
 
@@ -101,7 +101,7 @@ function displayInfoForLatLon(lat_lon: string, marker?: google.maps.Marker, opt_
   if (marker) selectMarker(marker, lat_lons[lat_lon]);
 
   loadInfoForLatLon(lat_lon).then(function(photoIds) {
-    var selectedId = null;
+    var selectedId = undefined;
     if (photoIds.length <= 10) {
       selectedId = photoIds[0];
     }
@@ -114,6 +114,7 @@ function displayInfoForLatLon(lat_lon: string, marker?: google.maps.Marker, opt_
 }
 
 function handleClick(e: google.maps.Data.MouseEvent) {
+  if (!e.latLng) return;
   var lat_lon = e.latLng.lat().toFixed(6) + ',' + e.latLng.lng().toFixed(6)
   var marker = lat_lon_to_marker[lat_lon];
   displayInfoForLatLon(lat_lon, marker, function(photo_id) {
@@ -157,8 +158,8 @@ export function initialize_map() {
       });
 
   // Create marker icons for each number.
-  marker_icons.push(null);  // it's easier to be 1-based.
-  selected_marker_icons.push(null);
+  marker_icons.push(null!);  // it's easier to be 1-based.
+  selected_marker_icons.push(null!);
   for (var i = 0; i < 100; i++) {
     var num = i + 1;
     var size = (num == 1 ? 9 : 13);
@@ -192,7 +193,8 @@ export function initialize_map() {
 }
 
 function addNewlyVisibleMarkers() {
-  var bounds = map.getBounds();
+  var bounds = map!.getBounds();
+  if (!bounds) return;
 
   for (var lat_lon in lat_lons) {
     if (lat_lon in lat_lon_to_marker) continue;
@@ -233,7 +235,7 @@ export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
 // key is used to construct URL fragments.
 export function showExpanded(key: string, photo_ids: string[], opt_selected_id?: string) {
   hideAbout();
-  map.set('keyboardShortcuts', false);
+  map!.set('keyboardShortcuts', false);
   $('#expanded').show().data('grid-key', key);
   $('.location').text(nameForLatLon(key));
   if (isFullTimeRange(year_range)) {
@@ -244,7 +246,7 @@ export function showExpanded(key: string, photo_ids: string[], opt_selected_id?:
     $('#slideshow-filter-first').text(first);
     $('#slideshow-filter-last').text(last);
   }
-  var images = $.map(photo_ids, function(photo_id) {
+  var images = photo_ids.map(function(photo_id) {
     var info = infoForPhotoId(photo_id);
     if (!isPhotoInDateRange(info, year_range)) return null;
     return $.extend({
@@ -269,7 +271,7 @@ export function showExpanded(key: string, photo_ids: string[], opt_selected_id?:
 export function hideExpanded() {
   $('#expanded').hide();
   $(document).unbind('keyup');
-  map.set('keyboardShortcuts', true);
+  map!.set('keyboardShortcuts', true);
 }
 
 // This fills out details for either a thumbnail or the expanded image pane.
@@ -603,10 +605,12 @@ $(function() {
     max: 2000,
     values: year_range,
     slide: (event, ui) => {
+      if (!ui.values) return;
       const [a, b] = ui.values;
       updateYears(a, b);
     },
     stop: (event, ui) => {
+      if (!ui.values) return;
       const [a, b] = ui.values;
       ga('send', 'event', 'link', 'time-slider', {
         'page': `/#${a}–${b}`

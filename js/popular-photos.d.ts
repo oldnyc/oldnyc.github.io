@@ -1,4 +1,4 @@
-interface PopularPhoto {
+export interface PopularPhoto {
   date: string;
   loc: string;
   height: number;

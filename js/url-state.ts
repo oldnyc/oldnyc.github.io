@@ -79,25 +79,25 @@ export function transitionToStateObject(targetState: UrlState) {
     // Show a different grid?
     if (currentState.g != state.g) {
       var lat_lon = state.g;
-      var count = countPhotos(lat_lons[lat_lon]);
+      var count = countPhotos(lat_lons[lat_lon!]);
       if (state.g == 'pop') {
         count = getPopularPhotoIds().length;
       } else {
         // Highlight the marker, creating it if necessary.
-        var marker = lat_lon_to_marker[lat_lon];
-        var latLng = parseLatLon(lat_lon);
+        var marker = lat_lon_to_marker[lat_lon!];
+        var latLng = parseLatLon(lat_lon!);
         if (!marker) {
-          marker = createMarker(lat_lon, latLng);
+          marker = createMarker(lat_lon!, latLng)!;
         }
         if (marker) {
-          selectMarker(marker, lat_lons[lat_lon]);
-          if (!map.getBounds().contains(latLng)) {
-            map.panTo(latLng);
+          selectMarker(marker, lat_lons[lat_lon!]);
+          if (!map!.getBounds()!.contains(latLng)) {
+            map!.panTo(latLng);
           }
         }
       }
-      loadInfoForLatLon(lat_lon).then(function(photo_ids) {
-        showExpanded(state.g, photo_ids, state.photo_id);
+      loadInfoForLatLon(lat_lon!).then(function(photo_ids) {
+        showExpanded(state.g!, photo_ids, state.photo_id);
       });
       return;
     }
@@ -107,7 +107,7 @@ export function transitionToStateObject(targetState: UrlState) {
       $('#grid-container').expandableGrid('deselect');
     } else {
       // Show a different photo
-      $('#grid-container').expandableGrid('select', state.photo_id);
+      $('#grid-container').expandableGrid('select', state.photo_id!);
     }
   });
 }

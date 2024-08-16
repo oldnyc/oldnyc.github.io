@@ -21,6 +21,10 @@
 	margin: 10px 5px 0 5px;
 	vertical-align: top;
 }
+.og-grid.og-transitionable li,
+.og-grid.og-transitionable .og-expander {
+	transition: height 350ms ease;
+}
 
 .og-grid li > a,
 .og-grid li > a img {
@@ -142,17 +146,17 @@
 }
 .og-previous {
   left: 10px;
-  background-image:url('../images/arrow-left.png');
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAXCAQAAACRmLYJAAAAi0lEQVR42nXSGxzAIBgE8LnlltvccsttbnOb27nlltvccsttj/tF3ZX+q++5+YMTD5qDgOujB9URSAVhpohKwpquCUjtg45DKQ3KShmdlJQORrqxm6r4qiHqK/BVJQk+9tXAov3QdlWym8EUV5gZSzHSBstpvM6ed9yMfnqO5L7igKLjVi5qPFyx9gKoA5CSv3obGAAAAABJRU5ErkJggg==');
 }
 .og-previous:hover {
-  background-image:url('../images/arrow-left-hover.png');
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAXCAQAAACRmLYJAAAAi0lEQVR42nXRGxgAIRAE4HPLLbfccsvt3MYtt3PLLbdzyy23e+y3NE3p374P/QA8GAoC6kcPuqLLqCEwRXSja0+VwGh8MHGulJ3KSgXTKK90WqUbSUxlUQNxifKpuhPhI6McG+1Drqsj6GhQXWbvOBHwGjRnjy6aE26rDs3ReO44oNG5JTcWf6gfjhefnYFMHCqTVwAAAABJRU5ErkJggg==');
 }
 .og-next {
   right: 5px;
-  background-image:url('../images/arrow-right.png');
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAXCAQAAACRmLYJAAAAiUlEQVR42n3RGQDFMBAE0LjVLW51i1vc6ha3uI1b3OJWt7qtW4/59+9sVl+yZ8CGHSXoQD9xR8WkcEIjw2OQO6JOXse8wE7ePM5PTpoT2ZA1z1hZfdEcuRbzJo/PxWD0ex/trCnqn3XqekUNwk4V+StAfv5KdyqstGJWZKTonbqJdaFpYrCNGmQcCKCQktV9gRIAAAAASUVORK5CYII=');
 }
 .og-next:hover {
-  background-image:url('../images/arrow-right-hover.png');
+  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAXCAQAAACRmLYJAAAAiUlEQVR42n3RGwDAIBAG4Nzmltvccsttbr9bbrmdW25zy+3c9n7vv9KveztUTIDjD2XBCQkdww6ycbY4b1zgefLU5gG6cLU4Hhw4h40VkXOPcas+cPbbWtSa3B+Lya3oqbUzYVTudfJ6IIPsnTKyV4B4RIU/Yas0omekG3nr1ELWBSF0YV0oOfpm9leBTNYeLFIAAAAASUVORK5CYII=');
 }
 
 @-webkit-keyframes loader {
@@ -185,5 +189,22 @@
 
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; }
-	
+
+}
+
+.og-grid.og-transitionable .og-fullimg img {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 300ms;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

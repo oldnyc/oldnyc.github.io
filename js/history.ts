@@ -75,7 +75,7 @@ class History<State extends object> {
     // note: we don't remove entries from this.state here, since the user could
     // still go forward to them.
     if (state && 'id' in state) {
-      var stateObj = this.states[this.getStateIndexById(state.id)];
+      var stateObj = this.states[this.getStateIndexById(state.id!)!];
       if (stateObj && stateObj.expectingBack) {
         // This is happening as a result of a call on the History object.
         delete stateObj.expectingBack;
@@ -111,7 +111,7 @@ class History<State extends object> {
     var previousId = null;
     if (curState) {
       if ('id' in curState) {
-        replaceIdx = this.getStateIndexById(curState.id);
+        replaceIdx = this.getStateIndexById(curState.id!);
       }
       if ('previousStateId' in curState) {
         // in replacing the current state, we inherit its parent state.
@@ -181,7 +181,7 @@ class History<State extends object> {
     var lastState = null;
     while (state && !predicate(state)) {
       lastState = state;
-      state = this.getPreviousState(state);
+      state = this.getPreviousState(state)!;
       numBack += 1;
     }
     if (state && numBack) {
@@ -196,10 +196,11 @@ class History<State extends object> {
       // replace it with alternativeState.
       var stackLen = numBack;
       if (stackLen != 1) {
-        lastState.expectingBack = true;
+        lastState!.expectingBack = true;
         history.go(-(stackLen - 1));
       }
       this.replaceState(alternativeState[0], alternativeState[1], alternativeState[2]);
+      return numBack;
     }
   }
 
@@ -209,7 +210,7 @@ class History<State extends object> {
     var i = 0;
     while (state) {
       console.log((i > 0 ? '-' : ' ') + i, this.simplifyState(state));
-      state = this.getPreviousState(state);
+      state = this.getPreviousState(state)!;
       i++;
     }
   }
