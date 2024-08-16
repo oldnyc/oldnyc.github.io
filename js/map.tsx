@@ -18,6 +18,8 @@ let boundsChangeFn: BoundsChangeFn | undefined;
 export type MarkerClickFn = (latLon: string) => void;
 let markerClickFn: MarkerClickFn | undefined;
 
+/** Used to set a marker as selected when it's created */
+let passiveSelectedLatLon: string | undefined;
 let selected_marker: google.maps.Marker | undefined;
 /** The icon that the selected marker had before it was selected */
 let selected_icon: google.maps.Icon | google.maps.Symbol | string | null | undefined;
@@ -83,14 +85,13 @@ export function initialize_map(el: HTMLElement) {
       size: new google.maps.Size(selectedSize, selectedSize),
       origin: new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
       anchor: new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)
-  });
+    });
   }
 
   // Adding markers is expensive -- it's important to defer this when possible.
   var idleListener = google.maps.event.addListener(map, 'idle', function() {
     google.maps.event.removeListener(idleListener);
     addNewlyVisibleMarkers();
-    // mapPromise.resolve(map);
   });
 
   google.maps.event.addListener(map, 'bounds_changed', function() {
@@ -153,6 +154,9 @@ export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
     if (!markerClickFn) return;
     markerClickFn(lat_lon);
   });
+  if (passiveSelectedLatLon === lat_lon) {
+    selectMarker(marker, lat_lons[lat_lon]);
+  }
   return marker;
 }
 
@@ -195,8 +199,6 @@ export interface MapProps {
   onClickMarker?: MarkerClickFn;
 }
 
-// TODO: support intially-selected marker
-// TODO: support unselecting marker
 // TODO: disable keyboard shortcuts when slideshow is open
 
 export function Map(props: MapProps) {
@@ -222,6 +224,7 @@ export function Map(props: MapProps) {
       // TODO: support this (there's no way to un-select in the UI)
       return;
     }
+    passiveSelectedLatLon = selectedLatLon;
     const marker = lat_lon_to_marker[selectedLatLon];
     if (marker) {
       selectMarker(marker, lat_lons[selectedLatLon]);
