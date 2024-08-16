@@ -85,14 +85,12 @@ function GridWithWidth(props: GridWithWidthProps) {
     containerWidth: containerWidth,
   }), [images, rowHeight, containerWidth, imageMargin]);
 
-  // const scrollParent = allParents(props.gridEl).find(isElementScrollable) ?? document.body;
-  // TODO: does window.innerHeight = $(window).height()?
-  // const scrollParentHeight = Math.min(scrollParent.getBoundingClientRect().height, window.innerHeight);
+  // TODO: hard-coding #grid-container is a hack; this component should find its scroll parent.
+  const scrollParent = document.querySelector('#grid-container') ?? document.body;
+  const scrollParentHeight = Math.min(scrollParent.getBoundingClientRect().height, window.innerHeight);
   const thumbnailHeight = props.rowHeight; // is this the same as this.$item.data('height')
-  // const previewHeight = Math.min(scrollParentHeight - thumbnailHeight - 50, maxHeight);  // what's 50?
-  const previewHeight = maxHeight;
+  const previewHeight = Math.min(scrollParentHeight - thumbnailHeight - 50, maxHeight);  // what's 50?
   const itemHeight = previewHeight + thumbnailHeight + 10; // what's 10?
-  // console.log('previewHeight', previewHeight, 'scrollParentHeight', scrollParentHeight);
 
   const handleClick: React.MouseEventHandler = React.useCallback(
     (e) => {
