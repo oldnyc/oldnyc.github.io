@@ -67,7 +67,7 @@ export function DetailView({
           {ocrText.status === "pending" ? null : (
             <>
               {text}
-              {text !== null && <p>
+              {text && <p>
                 <i>
                   Typos? Help{" "}
                   <a target="_blank" href={ocrUrl}>
