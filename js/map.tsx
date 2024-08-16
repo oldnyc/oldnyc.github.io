@@ -195,10 +195,9 @@ export interface MapProps {
   onClickMarker?: MarkerClickFn;
 }
 
-// TODO:
-// - support intially-selected marker
-// - support unselecting marker
-// - disable keyboard shortcuts when slideshow is open
+// TODO: support intially-selected marker
+// TODO: support unselecting marker
+// TODO: disable keyboard shortcuts when slideshow is open
 
 export function Map(props: MapProps) {
   const { onBoundsChange, onClickMarker, selectedLatLon, yearRange } = props;

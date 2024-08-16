@@ -235,10 +235,6 @@ const Feedback = React.forwardRef<HTMLDivElement, FeedbackProps>((props, ref) =>
     onClose();
   }, [onClose]);
 
-  const submitFeedback: React.MouseEventHandler = React.useCallback(e => {
-    // TODO
-  }, []);
-
   return (
     <div className="feedback" ref={ref}>
       <p>

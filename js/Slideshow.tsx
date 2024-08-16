@@ -106,7 +106,6 @@ export function Slideshow(props: SlideshowProps) {
   );
 
   const handleDeselect = React.useCallback(() => {
-    // TODO: should this be replace or push?
     history.push(`/g:${latLon}`);
   }, [history]);
 

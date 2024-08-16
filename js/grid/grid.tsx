@@ -10,20 +10,16 @@ export interface GridImage {
   className?: string;
 }
 
-export interface GridOptions {
-  maxHeight?: number; // 750
-  speed?: number; // 350
+export interface ExpandableGridProps {
+  images: readonly GridImage[];
+  selectedId?: string;
+  maxHeight?: number; // 750px
+  speed?: number; // 350ms
   easing?: string; // 'ease'
-  imageMargin?: number; // 12
+  imageMargin?: number; // 12px
   rowHeight: number;
   imageEl?: React.ComponentType<{image: GridImage}>;
   details: React.ComponentType<{ image: GridImage }>;
-}
-
-// TODO: is the distinction between these interfaces relevant?
-export interface ExpandableGridProps extends GridOptions {
-  images: readonly GridImage[];
-  selectedId?: string;
   onSelect?: (id: string) => void;
   onDeselect?: () => void;
 }
