@@ -46,6 +46,11 @@ function makeStaticMapsUrl(lat_lon: string) {
   );
 }
 
+function areSiblings(id1: string, id2: string) {
+  if (id1 === id2) return false;
+  return id1.split('-')[0] === id2.split('-')[0];
+}
+
 export function Slideshow(props: SlideshowProps) {
   const { latLon, yearRange, selectedPhotoId, onResetYears } = props;
   const [photoIds, setPhotoIds] = React.useState<string[] | null>();
@@ -80,11 +85,12 @@ export function Slideshow(props: SlideshowProps) {
           id: photoId,
           largesrc: info.image_url,
           src: info.thumb_url,
+          className: photoId === selectedPhotoId ? 'selected' : selectedPhotoId && areSiblings(selectedPhotoId, photoId) ? 'sibling' : undefined,
           ...info,
         };
       })
       .filter((x) => x !== null)
-  }, [photoIds, yearRange]);
+  }, [photoIds, yearRange, selectedPhotoId]);
 
   const selectedImage = images && selectedPhotoId ? images.find(image => image.id === selectedPhotoId) : undefined;
 

@@ -7,6 +7,7 @@ export interface GridImage {
   largesrc?: string;
   width: number;
   height: number;
+  className?: string;
 }
 
 export interface GridOptions {
@@ -158,7 +159,7 @@ function GridWithWidth(props: GridWithWidthProps) {
           <li
             key={image.id}
             data-id={image.id}
-            className={classNames({ "og-expanded": image.id === selectedId })}
+            className={classNames({ "og-expanded": image.id === selectedId }, image.className)}
             style={
               image.id === selectedId
                 ? { height: itemHeight }
