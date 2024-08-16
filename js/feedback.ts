@@ -6,11 +6,6 @@
 const API = 'https://danvk-bronzeswift.web.val.run/api/v0';
 var COOKIE_ID = 'oldnycid';
 
-// TODO: put this in a <script> tag somewhere, maybe in lat-lon-counts.js.
-let lastReviewedOcrMsPromise = fetch('/timestamps.json').then(r => r.json()).then(function(data) {
-  return data.ocr_ms as number;
-});
-
 export function deleteCookie(name: string) {
   document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
@@ -90,14 +85,13 @@ export interface FeedbackText {
 // Retrieve the most-recent OCR for a backing image.
 // Resolves with null if there is no OCR text available.
 export async function getFeedbackText(back_id: string) {
-  const lastReviewedOcrMs = await lastReviewedOcrMsPromise;
   const path = `${API}/${back_id}/text`;
   const response = await fetch(path);
   if (!response.ok) {
     throw new Error(response.statusText);
   }
   const feedback = await response.json() as FeedbackText;
-  if (feedback.timestamp > lastReviewedOcrMs) {
+  if (feedback.timestamp > timestamps.ocr_ms) {
     return feedback;
   }
   return null;
