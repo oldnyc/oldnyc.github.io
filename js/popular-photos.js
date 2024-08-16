@@ -55,6 +55,7 @@ export var popular_photos = [
     id: "1558013",
     desc: "Street scene",
   },
+  /*
   {
     date: "1936",
     loc: "Central Park",
@@ -62,6 +63,7 @@ export var popular_photos = [
     id: "730166f-a",
     desc: "Aerial view",
   },
+  */
   {
     date: "1933",
     loc: "Central Park",
@@ -181,6 +183,7 @@ export var popular_photos = [
     id: "714705f-a",
     desc: "Storefronts",
   },
+  /*
   {
     date: "1926",
     loc: "Colonial & Nassau",
@@ -188,6 +191,8 @@ export var popular_photos = [
     id: "726358f-c",
     desc: "Family on porch",
   },
+  */
+ /*
   {
     date: "1939",
     loc: "Duane & West",
@@ -195,6 +200,7 @@ export var popular_photos = [
     id: "719363f-a",
     desc: "Horse-drawn cart",
   },
+  */
   {
     date: "1929",
     loc: "Weehawken & Christopher",
@@ -209,6 +215,7 @@ export var popular_photos = [
     id: "1558509",
     desc: "",
   },
+  /*
   {
     date: "1906",
     loc: "Bayard & Chrystie",
@@ -216,6 +223,7 @@ export var popular_photos = [
     id: "716608f-a",
     desc: "Street scene",
   },
+  */
   {
     date: "1931",
     loc: "5th & 46th",
@@ -223,6 +231,7 @@ export var popular_photos = [
     id: "708851f-a",
     desc: "Street scene",
   },
+  /*
   {
     date: "1933",
     loc: "Columbus Circle",
@@ -230,6 +239,8 @@ export var popular_photos = [
     id: "719145f-a",
     desc: "Tribute to Columbus",
   },
+  */
+  /*
   {
     date: "1910",
     loc: "Pelham Parkway",
@@ -237,6 +248,7 @@ export var popular_photos = [
     id: "701498f-b",
     desc: "At the racetrack",
   },
+  */
   {
     date: "1936",
     loc: "9th & 40th",
@@ -244,6 +256,7 @@ export var popular_photos = [
     id: "732438f-b",
     desc: "Food vendors",
   },
+  /*
   {
     date: "1911",
     loc: "Poppy Joe Island Beach",
@@ -251,6 +264,8 @@ export var popular_photos = [
     id: "730622f-a",
     desc: "Local muskrat hunters",
   },
+  */
+  /*
   {
     date: "1890",
     loc: "Wallabout Bay",
@@ -258,6 +273,8 @@ export var popular_photos = [
     id: "734085f-a",
     desc: "Ship in port",
   },
+  */
+  /*
   {
     date: "1933",
     loc: "Greenwich Village",
@@ -265,6 +282,7 @@ export var popular_photos = [
     id: "730568f-a",
     desc: "Art Exhibit",
   },
+  */
   {
     date: "1936",
     loc: "Battery Park",
@@ -272,6 +290,7 @@ export var popular_photos = [
     id: "716520f-c",
     desc: "Aerial view",
   },
+  /*
   {
     date: "1921",
     loc: "New Chambers & Madison",
@@ -279,6 +298,7 @@ export var popular_photos = [
     id: "721912f-b",
     desc: "Cobblestone",
   },
+  */
   {
     date: "1918",
     loc: "5th & 25th",

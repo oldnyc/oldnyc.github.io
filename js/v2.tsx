@@ -1,5 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import {Helmet} from "react-helmet";
+
 import {
   HashRouter,
   Route,
@@ -23,6 +25,20 @@ interface UrlParams {
   lat?: string;
   lon?: string;
 }
+
+
+function pageTitle(params: UrlParams) {
+  const app = 'Old NYC';
+  if (params.photoId) {
+    return `${app} - Photo ${params.photoId}`;
+  } else if (params.lat && params.lon) {
+    // TODO: include cross-streets in the title
+    return `${app} - Grid`;
+  } else {
+    return `${app}: Mapping Historical Photographs of New York City`;
+  }
+};
+
 
 function PhotoApp() {
   React.useEffect(() => {
@@ -84,6 +100,9 @@ function PhotoApp() {
 
   return (
     <FacebookProvider appId="598168753565519">
+      <Helmet>
+        <title>{pageTitle(params)}</title>
+      </Helmet>
       <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
       <div className="header">
         <Header />
