@@ -105,12 +105,11 @@
 .rc-slider-dot {
   position: absolute;
   bottom: -2px;
-  width: 8px;
+  width: 1px;
   height: 8px;
   vertical-align: middle;
   background-color: #fff;
-  border: 2px solid #e9e9e9;
-  border-radius: 50%;
+  border: 1px solid #e9e9e9;
   cursor: pointer;
 }
 .rc-slider-dot-active {

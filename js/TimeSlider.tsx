@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from 'rc-slider';
+import { MarkObj } from "rc-slider/lib/Marks";
 
 export type YearRange = [firstYear: number, lastYear: number];
 export const DEFAULT_YEARS: YearRange = [1800, 2000];
@@ -14,6 +15,14 @@ export interface TimeSliderProps {
   onChange?: (newYears: YearRange) => void;
 }
 
+const marks: Record<number, MarkObj> = {
+  1800: { label: '1800' },
+  1850: { label: '1850' },
+  1900: { label: '1900' },
+  1950: { label: '1950' },
+  2000: { label: '2000' },
+}
+
 export function TimeSlider(props: TimeSliderProps) {
   const {years} = props;
   const [visible, setVisible] = React.useState(false);
@@ -25,7 +34,7 @@ export function TimeSlider(props: TimeSliderProps) {
         <div className="white-arrow-down"></div>
       </div>
       <div id="time-range" style={{display: visible ? 'block' : 'none' }}>
-        <Slider range min={DEFAULT_YEARS[0]} max={DEFAULT_YEARS[1]} allowCross={false} value={years} onChange={props.onSlide} onChangeComplete={props.onChange} />
+        <Slider marks={marks} range min={DEFAULT_YEARS[0]} max={DEFAULT_YEARS[1]} allowCross={false} value={years} onChange={props.onSlide} onChangeComplete={props.onChange} />
       </div>
     </div>
   );
