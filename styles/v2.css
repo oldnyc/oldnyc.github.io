@@ -30,3 +30,15 @@
   transition: opacity 400ms;
   display: block;
 }
+
+.noUi-horizontal .noUi-handle {
+  width: 24px;
+  right: -12px;
+}
+.noUi-handle:before,
+.noUi-handle:after {
+  left: 8px;
+}
+.noUi-handle:after {
+  left: 12px;
+}

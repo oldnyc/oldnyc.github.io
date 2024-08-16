@@ -545,16 +545,17 @@ a#slideshow-all, a#slideshow-all:visited {
   position: fixed;
   top: 116px;
   left: 60px;
-  width: 205px;
-  height: 10px;
+  width: 235px;
+  height: 46px;
   background: white;
-  padding: 15px;
-  /* box-shadow: #777 0 0px 5px 0px; */
+  padding: 20px;
   display: none;
+  box-sizing: border-box;
+  padding-top: 15px;
 }
 
-#time-slider {
-  /* width: 200px; */
+#time-range-summary {
+  user-select: none;
 }
 
 .white-arrow-down {
