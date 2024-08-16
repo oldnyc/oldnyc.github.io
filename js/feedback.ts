@@ -6,6 +6,7 @@
 const API = 'https://danvk-bronzeswift.web.val.run/api/v0';
 var COOKIE_ID = 'oldnycid';
 
+// TODO: put this in a <script> tag somewhere, maybe in lat-lon-counts.js.
 let lastReviewedOcrMsPromise = fetch('/timestamps.json').then(r => r.json()).then(function(data) {
   return data.ocr_ms as number;
 });
