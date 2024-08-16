@@ -13,6 +13,7 @@ export interface GridImage {
 export interface ExpandableGridProps {
   images: readonly GridImage[];
   selectedId?: string;
+  minHeight?: number; // 500px
   maxHeight?: number; // 750px
   speed?: number; // 350ms
   easing?: string; // 'ease'
@@ -73,6 +74,7 @@ interface GridWithWidthProps extends ExpandableGridProps {
 function GridWithWidth(props: GridWithWidthProps) {
   const { images, selectedId, rowHeight, containerWidth, onSelect, onDeselect } = props;
   const imageMargin = props.imageMargin ?? 12;
+  const minHeight = props.minHeight ?? 500;
   const maxHeight = props.maxHeight ?? 750;
 
   const rows = React.useMemo(() => partitionIntoRows(images, {
@@ -85,7 +87,7 @@ function GridWithWidth(props: GridWithWidthProps) {
   const scrollParent = document.querySelector('#grid-container') ?? document.body;
   const scrollParentHeight = Math.min(scrollParent.getBoundingClientRect().height, window.innerHeight);
   const thumbnailHeight = props.rowHeight; // is this the same as this.$item.data('height')
-  const previewHeight = Math.min(scrollParentHeight - thumbnailHeight - 50, maxHeight);  // what's 50?
+  const previewHeight = Math.max(minHeight, Math.min(scrollParentHeight - thumbnailHeight - 50, maxHeight));  // what's 50?
   const itemHeight = previewHeight + thumbnailHeight + 10; // what's 10?
 
   const handleClick: React.MouseEventHandler = React.useCallback(
