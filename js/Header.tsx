@@ -6,7 +6,7 @@ export function Header() {
   return (
     <div className="social-about">
       <div id="facebook">
-        <Like href="https://www.oldnyc.org" layout="button_count" action="like" showFaces={false} share />
+        <Like href="http://www.oldnyc.org" layout="button_count" action="like" showFaces={false} share />
       </div>
       <div id="twitter">
         <a
