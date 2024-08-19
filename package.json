@@ -10,7 +10,7 @@
     "lint": "eslint src",
     "serve": "webpack serve",
     "build": "webpack --mode production --no-devtool && rm -rf bundle && cp -r dist/* .",
-    "knip": "knip",
+    "knip": "knip -c knip.jsonc",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
