@@ -1,8 +1,5 @@
 {
-  "entry": [
-    "src/main.tsx",
-    "src/ocr-tool.ts"
-  ],
+  "entry": ["src/main.tsx", "src/ocr-tool.ts"],
   "project": ["src/**/*.{ts,tsx}"],
   "ignoreExportsUsedInFile": true,
   "ignoreDependencies": [
@@ -12,6 +9,6 @@
     "@types/google.analytics",
     "@types/google.maps",
     "@types/jquery",
-    "@types/twitter-for-web"
-  ]
+    "@types/twitter-for-web",
+  ],
 }
