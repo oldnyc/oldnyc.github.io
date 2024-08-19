@@ -7,7 +7,8 @@
     "test": "npm run lint",
     "lint": "eslint js/*.js",
     "serve": "webpack serve",
-    "build": "webpack --mode production && rm -rf bundle && cp -r dist/index.html dist/bundle ."
+    "build": "webpack --mode production && rm -rf bundle && cp -r dist/index.html dist/bundle .",
+    "knip": "knip"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "@types/jquery": "^1.10.41",
     "@types/jquery-mousewheel": "^3.1.10",
     "@types/jqueryui": "1.12",
+    "@types/node": "^22.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-helmet": "^6.1.11",
@@ -36,6 +38,7 @@
     "eslint": "^2.10.2",
     "eslint-plugin-import": "^1.8.0",
     "html-webpack-plugin": "^5.6.0",
+    "knip": "^5.27.2",
     "ts-loader": "^9.4.4",
     "typescript": "^5.5.4",
     "webpack": "^5.88.2",
