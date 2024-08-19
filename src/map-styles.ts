@@ -109,13 +109,13 @@ export const MAP_STYLE: google.maps.MapTypeStyle[] = [
 
 function buildStaticStyle(styleStruct: google.maps.MapTypeStyle[]) {
   let style = '';
-  for (var i = 0; i < styleStruct.length; i++) {
-    var s = styleStruct[i];
-    var strs = [];
+  for (let i = 0; i < styleStruct.length; i++) {
+    const s = styleStruct[i];
+    const strs = [];
     if (s.featureType != null) strs.push('feature:' + s.featureType);
     if (s.elementType != null) strs.push('element:' + s.elementType);
     if (s.stylers != null) {
-      for (var j = 0; j < s.stylers.length; j++) {
+      for (let j = 0; j < s.stylers.length; j++) {
         for (const [key, value] of Object.entries(s.stylers[j])) {
           if (typeof value !== 'string') {
             continue;
@@ -124,7 +124,7 @@ function buildStaticStyle(styleStruct: google.maps.MapTypeStyle[]) {
         }
       }
     }
-    var str = '&style=' + strs.join('%7C');
+    const str = '&style=' + strs.join('%7C');
     style += str;
   }
   return style;

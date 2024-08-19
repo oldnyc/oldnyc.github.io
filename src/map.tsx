@@ -7,7 +7,7 @@ import { DEFAULT_YEARS, YearRange, isFullTimeRange } from './TimeSlider';
 const markers: google.maps.Marker[] = [];
 const marker_icons: google.maps.Icon[] = [];
 const selected_marker_icons: google.maps.Icon[] = [];
-export var lat_lon_to_marker: { [latLng: string]: google.maps.Marker } = {};
+export const lat_lon_to_marker: { [latLng: string]: google.maps.Marker } = {};
 
 // TODO: remove this global
 let year_range: YearRange = DEFAULT_YEARS;
@@ -36,8 +36,8 @@ interface YearToCount {
 }
 
 export function initialize_map(el: HTMLElement) {
-  var latlng = new google.maps.LatLng(40.74421, -73.9737);
-  var opts = {
+  const latlng = new google.maps.LatLng(40.74421, -73.9737);
+  const opts = {
     zoom: 15,
     maxZoom: 18,
     minZoom: 10,
@@ -64,7 +64,7 @@ export function initialize_map(el: HTMLElement) {
 
   // The OldSF UI just gets in the way of Street View.
   // Even worse, it blocks the "exit" button!
-  var streetView = map.getStreetView();
+  const streetView = map.getStreetView();
   google.maps.event.addListener(streetView, 'visible_changed', function () {
     $('.streetview-hide').toggle(!streetView.getVisible());
   });
@@ -72,10 +72,10 @@ export function initialize_map(el: HTMLElement) {
   // Create marker icons for each number.
   marker_icons.push(null!); // it's easier to be 1-based.
   selected_marker_icons.push(null!);
-  for (var i = 0; i < 100; i++) {
-    var num = i + 1;
-    var size = num == 1 ? 9 : 13;
-    var selectedSize = num == 1 ? 15 : 21;
+  for (let i = 0; i < 100; i++) {
+    const num = i + 1;
+    const size = num == 1 ? 9 : 13;
+    const selectedSize = num == 1 ? 15 : 21;
     marker_icons.push({
       url: 'images/sprite-2014-08-29.png',
       size: new google.maps.Size(size, size),
@@ -94,7 +94,7 @@ export function initialize_map(el: HTMLElement) {
   }
 
   // Adding markers is expensive -- it's important to defer this when possible.
-  var idleListener = google.maps.event.addListener(map, 'idle', function () {
+  const idleListener = google.maps.event.addListener(map, 'idle', function () {
     google.maps.event.removeListener(idleListener);
     addNewlyVisibleMarkers();
   });
@@ -110,13 +110,13 @@ export function initialize_map(el: HTMLElement) {
 }
 
 function addNewlyVisibleMarkers() {
-  var bounds = map!.getBounds();
+  const bounds = map!.getBounds();
   if (!bounds) return;
 
-  for (var lat_lon in lat_lons) {
+  for (const lat_lon in lat_lons) {
     if (lat_lon in lat_lon_to_marker) continue;
 
-    var pos = parseLatLon(lat_lon);
+    const pos = parseLatLon(lat_lon);
     if (!bounds.contains(pos)) continue;
 
     createMarker(lat_lon, pos);
@@ -124,7 +124,7 @@ function addNewlyVisibleMarkers() {
 }
 
 export function parseLatLon(lat_lon: string) {
-  var ll = lat_lon.split(',');
+  const ll = lat_lon.split(',');
   return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
 }
 
@@ -172,7 +172,7 @@ export function selectMarker(
   yearToCounts: YearToCount,
 ) {
   const numPhotos = countPhotos(yearToCounts);
-  var zIndex = 0;
+  let zIndex = 0;
   if (selected_marker) {
     zIndex = selected_marker.getZIndex() ?? 0;
     selected_marker.setIcon(selected_icon);

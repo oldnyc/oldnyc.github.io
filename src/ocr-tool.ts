@@ -33,11 +33,11 @@ findLatLonForPhoto(id, function (lat_lon) {
   (async () => {
     const [photo_ids, ocr_obj] = await Promise.all([infoP, ocrP]);
     console.log(photo_ids, ocr_obj);
-    var info = infoForPhotoId(id);
+    const info = infoForPhotoId(id);
     $('#hi-res').attr('href', libraryUrl(id, info.nypl_url));
     other_photo_ids = photo_ids;
     $('img.back').attr('src', backOfCardUrlForPhotoId(id));
-    var text = ocr_obj ? ocr_obj.text : info.text;
+    const text = ocr_obj ? ocr_obj.text : info.text;
     if (text) {
       $('#text').text(text);
     }
@@ -58,7 +58,7 @@ interface NoTextJson {
 }
 
 // A list of photo IDs without text, for use as next images to show.
-var noTextIdsDef = $.getJSON('/static/notext.json');
+const noTextIdsDef = $.getJSON('/static/notext.json');
 
 function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
   sendFeedback(backId(id), type, feedback_obj)
@@ -67,7 +67,7 @@ function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
       return next_image(id);
     })
     .then(function (next_id) {
-      var url =
+      const url =
         location.protocol +
         '//' +
         location.host +
@@ -83,15 +83,15 @@ function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
 
 // Find the next image from a different card.
 function next_image(id: string) {
-  var def = $.Deferred<string>();
+  const def = $.Deferred<string>();
 
   const otherPhotoIds = other_photo_ids!;
 
   if (Math.random() < 0.5) {
     // Pick another image from the same location.
-    var idx = otherPhotoIds.indexOf(id);
-    for (var i = 0; i < otherPhotoIds.length; i++) {
-      var other_id = otherPhotoIds[(i + idx) % otherPhotoIds.length];
+    const idx = otherPhotoIds.indexOf(id);
+    for (let i = 0; i < otherPhotoIds.length; i++) {
+      const other_id = otherPhotoIds[(i + idx) % otherPhotoIds.length];
 
       if (!other_id.match(/[0-9]f/)) {
         // no back of card for this photo
@@ -109,7 +109,7 @@ function next_image(id: string) {
   // Pick an image with no transcription (these are the most valuable to get
   // user-generated data for).
   noTextIdsDef.done(function (data: NoTextJson) {
-    var ids = data.photo_ids;
+    const ids = data.photo_ids;
     console.log(
       'Picking at random from ' + ids.length + ' untranscribed photos.',
     );
@@ -120,8 +120,8 @@ function next_image(id: string) {
 }
 
 function rotate90() {
-  var $img = $('img.back');
-  var currentRotation = $img.data('rotate') || 0;
+  const $img = $('img.back');
+  let currentRotation = $img.data('rotate') || 0;
   currentRotation += 90;
   $img
     .css('transform', 'rotate(' + currentRotation + 'deg)')

@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/oldnyc/oldnyc.github.io#readme",
   "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/eslint__js": "^8.42.3",
     "@types/google.analytics": "^0.0.43",
     "@types/google.maps": "^3.54.2",
     "@types/jquery": "^1.10.41",
@@ -34,13 +36,14 @@
     "@types/react-router-dom": "5",
     "@types/react-transition-group": "^4.4.11",
     "@types/twitter-for-web": "^0.0.3",
-    "eslint": "^2.10.2",
+    "eslint": "^9.9.0",
     "eslint-plugin-import": "^1.8.0",
     "html-webpack-plugin": "^5.6.0",
     "knip": "^5.27.2",
     "prettier": "3.3.3",
     "ts-loader": "^9.4.4",
     "typescript": "^5.5.4",
+    "typescript-eslint": "^8.2.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
@@ -54,5 +57,8 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "5",
     "react-transition-group": "^4.4.5"
+  },
+  "resolutions": {
+    "strip-ansi": "6.0.1"
   }
 }

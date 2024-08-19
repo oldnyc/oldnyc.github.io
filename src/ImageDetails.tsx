@@ -147,7 +147,7 @@ function CopyLink({ href }: { href: string }) {
       await navigator.clipboard.writeText(href);
       setIsCopied(true);
     })().catch((e) => {
-      // ...
+      console.error(e);
     });
   };
 

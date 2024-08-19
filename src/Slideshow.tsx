@@ -80,7 +80,7 @@ export function Slideshow(props: SlideshowProps) {
     if (!photoIds) return null;
     return photoIds
       .map((photoId) => {
-        var info = infoForPhotoId(photoId);
+        const info = infoForPhotoId(photoId);
         if (!isPhotoInDateRange(info, yearRange)) return null;
         return {
           largesrc: info.image_url,

@@ -15,9 +15,9 @@ export function PopularImages() {
 
   const shownPhotos = React.useMemo(() => {
     // Rotate the images daily.
-    var elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime(),
-      elapsedDays = Math.floor(elapsedMs / 86400 / 1000),
-      shift = elapsedDays % popular_photos.length;
+    const elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime();
+    const elapsedDays = Math.floor(elapsedMs / 86400 / 1000);
+    const shift = elapsedDays % popular_photos.length;
     return popular_photos.slice(shift).concat(popular_photos.slice(0, shift));
   }, []);
 
@@ -27,7 +27,7 @@ export function PopularImages() {
     deleteCookie('nopop');
   }, []);
 
-  const hide: React.MouseEventHandler = React.useCallback((e) => {
+  const hide: React.MouseEventHandler = React.useCallback(() => {
     setIsVisible(false);
     setCookie('nopop', '1');
   }, []);

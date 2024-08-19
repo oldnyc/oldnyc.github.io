@@ -1,6 +1,6 @@
+/* eslint-disable */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-/*eslint-env node */
 module.exports = {
   mode: 'development',
   entry: {

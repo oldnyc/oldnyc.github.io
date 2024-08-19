@@ -69,10 +69,10 @@ export function infoForPhotoId(photo_id: string): PhotoInfo {
 
 // Would it make more sense to incorporate these into infoForPhotoId?
 export function descriptionForPhotoId(photo_id: string) {
-  var info = infoForPhotoId(photo_id);
-  var desc = info.title;
+  const info = infoForPhotoId(photo_id);
+  let desc = info.title;
   if (desc) desc += ' ';
-  var date = info.date.replace(/n\.d\.?/, 'No Date');
+  let date = info.date.replace(/n\.d\.?/, 'No Date');
   if (!date) date = 'No Date';
   desc += date;
   return desc;
@@ -90,13 +90,13 @@ const lat_lon_to_name: { [latLng: string]: string | undefined } = {};
 
 // Does this lat_lon have a name, e.g. "Manhattan: 14th Street - 8th Avenue"?
 export function nameForLatLon(lat_lon: string) {
-  var v = lat_lon_to_name[lat_lon] || '';
+  const v = lat_lon_to_name[lat_lon] || '';
   return v.replace(/: | - | & /g, '\n');
 }
 
 function extractName(lat_lon_json: PhotoInfo[]) {
   // if any entries have an original_title, it's got to be a pure location.
-  for (var v of lat_lon_json) {
+  for (const v of lat_lon_json) {
     if (v.original_title) return v.original_title;
   }
 }
@@ -105,7 +105,7 @@ export function findLatLonForPhoto(
   photo_id: string,
   cb: (lat_lon: string) => void,
 ) {
-  var id4 = photo_id.slice(0, 4);
+  const id4 = photo_id.slice(0, 4);
   $.ajax({
     dataType: 'json',
     url: '/id4-to-location/' + id4 + '.json',
