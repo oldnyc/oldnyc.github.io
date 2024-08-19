@@ -23,7 +23,7 @@ export default tseslint.config(
     languageOptions: {
       parserOptions: {
         project: true,
-        tsconfigRootDir: import.meta.dirname
+        tsconfigRootDir: import.meta.dirname,
       },
     },
 
@@ -37,6 +37,6 @@ export default tseslint.config(
       // Sometimes it's convenient to give the index a name.
       '@typescript-eslint/consistent-indexed-object-style': 'off',
       '@typescript-eslint/array-type': 'off', // ['error', {default: "array-simple"}],
-    }
-  }
+    },
+  },
 );
