@@ -13,6 +13,7 @@ import { FeedbackType, getFeedbackText, sendFeedback } from "./feedback";
 import { useResource } from "./use-resource";
 import { SuspenseImage } from "./grid/SuspenseImage";
 import classNames from "classnames";
+import { GridImage } from "./grid/grid";
 
 export function DetailView({
   image,

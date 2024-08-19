@@ -108,13 +108,12 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "files": [
-    "js/entry.ts",
-    "js/ocr-tool.ts",
-    "js/v2.tsx",
+    // "js/ocr-tool.ts",
+    "src/main.tsx",
   ],
   "include": [
-    "js/*.d.ts",
-    "js/**/*.ts",
-    "js/**/*.tsx",
+    "src/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
   ]
 }
