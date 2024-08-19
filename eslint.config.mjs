@@ -10,10 +10,10 @@ export default tseslint.config(
   // See https://stackoverflow.com/a/64488474/388951
   ...tseslint.configs.recommendedTypeChecked.map((config) => ({
     ...config,
-    files: ['src/**/*.ts'], // We use TS config only for TS files
+    files: ['src/**/*.{ts,tsx}'], // We use TS config only for TS files
   })),
   {
-    files: ['**/*.ts'],
+    files: ['src/**/*.{ts,tsx}'],
 
     // This is required, see the docs
     languageOptions: {
