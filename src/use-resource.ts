@@ -114,7 +114,7 @@ export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
       cache.set(key, { status: 'success', data: val });
     })().catch((error) => {
       // console.log('useResource: set failure', key);
-      cache.set(key, { status: 'error', error });
+      cache.set(key, { status: 'error', error: error as Error });
     });
   }, [key, forceUpdate]);
 

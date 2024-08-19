@@ -85,7 +85,7 @@ export async function sendFeedback(
   if (!response.ok) {
     throw new Error(response.statusText);
   }
-  return response.json();
+  return response.json() as Promise<void>;
 }
 
 export interface FeedbackText {

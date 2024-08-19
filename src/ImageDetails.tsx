@@ -183,7 +183,7 @@ function Tweet(props: TweetProps) {
       created.current = href;
       twttr.ready(({ widgets }) => {
         if (ref.current) {
-          widgets.createShareButton(href, ref.current, {
+          void widgets.createShareButton(href, ref.current, {
             count: 'none',
             text,
             via,

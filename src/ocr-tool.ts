@@ -42,10 +42,10 @@ findLatLonForPhoto(id, function (lat_lon) {
       $('#text').text(text);
     }
     $('#submit').click(function () {
-      submit('text', { text: $('#text').val() });
+      void submit('text', { text: $('#text').val() as string });
     });
     $('#notext').click(function () {
-      submit('notext', { notext: true });
+      void submit('notext', { notext: true });
     });
     $('.rotate-image-button').click(rotate90);
   })().catch((e) => {
@@ -60,25 +60,21 @@ interface NoTextJson {
 // A list of photo IDs without text, for use as next images to show.
 const noTextIdsDef = $.getJSON('/static/notext.json');
 
-function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
-  sendFeedback(backId(id), type, feedback_obj)
-    .then(function () {
-      // Go to another image at the same location.
-      return next_image(id);
-    })
-    .then(function (next_id) {
-      const url =
-        location.protocol +
-        '//' +
-        location.host +
-        location.pathname +
-        '?thanks&id=' +
-        next_id +
-        '#' +
-        next_id;
-      ga('send', 'event', 'link', 'ocr-success', { page: '/#' + id });
-      window.location.href = url;
-    });
+async function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
+  await sendFeedback(backId(id), type, feedback_obj);
+  // Go to another image at the same location.
+  const nextId = await next_image(id);
+  const url =
+    location.protocol +
+    '//' +
+    location.host +
+    location.pathname +
+    '?thanks&id=' +
+    nextId +
+    '#' +
+    nextId;
+  ga('send', 'event', 'link', 'ocr-success', { page: '/#' + id });
+  window.location.href = url;
 }
 
 // Find the next image from a different card.
@@ -121,12 +117,12 @@ function next_image(id: string) {
 
 function rotate90() {
   const $img = $('img.back');
-  let currentRotation = $img.data('rotate') || 0;
+  let currentRotation = ($img.data('rotate') as number) || 0;
   currentRotation += 90;
   $img
     .css('transform', 'rotate(' + currentRotation + 'deg)')
     .data('rotate', currentRotation);
-  sendFeedback(backId(id), 'rotate-backing', {
+  void sendFeedback(backId(id), 'rotate-backing', {
     'rotate-backing': currentRotation,
   });
 }

@@ -43,6 +43,7 @@ function createResource<Payload>(
         case 'pending':
           // if it's still pending we throw the promise
           // throwing a promise is how Suspense know our component is not ready
+          // eslint-disable-next-line @typescript-eslint/only-throw-error
           throw promise;
         case 'error':
           // if it's error we throw the error
