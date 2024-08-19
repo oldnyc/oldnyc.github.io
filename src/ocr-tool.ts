@@ -46,7 +46,7 @@ interface NoTextJson {
 }
 
 // A list of photo IDs without text, for use as next images to show.
-var noTextIdsDef = $.getJSON('/notext.json');
+var noTextIdsDef = $.getJSON('/static/notext.json');
 
 function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
   sendFeedback(backId(id), type, feedback_obj)
