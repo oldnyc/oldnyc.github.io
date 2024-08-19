@@ -5,10 +5,13 @@
   "main": "js/viewer.js",
   "scripts": {
     "test": "npm run lint",
-    "lint": "eslint js/*.js",
+    "format": "yarn prettier . --write",
+    "format:check": "yarn prettier . --check",
+    "lint": "eslint src",
     "serve": "webpack serve",
     "build": "webpack --mode production --no-devtool && rm -rf bundle && cp -r dist/* .",
-    "knip": "knip"
+    "knip": "knip",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
