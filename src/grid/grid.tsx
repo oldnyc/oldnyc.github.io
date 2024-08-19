@@ -1,5 +1,5 @@
-import React from "react";
-import classNames from "classnames";
+import React from 'react';
+import classNames from 'classnames';
 
 export interface GridImage {
   id: string;
@@ -19,7 +19,7 @@ export interface ExpandableGridProps {
   easing?: string; // 'ease'
   imageMargin?: number; // 12px
   rowHeight: number;
-  imageEl?: React.ComponentType<{image: GridImage}>;
+  imageEl?: React.ComponentType<{ image: GridImage }>;
   details: React.ComponentType<{ image: GridImage }>;
   onSelect?: (id: string) => void;
   onDeselect?: () => void;
@@ -40,9 +40,9 @@ export function ExpandableGrid(props: ExpandableGridProps) {
   React.useLayoutEffect(resizeFn, [resizeFn]);
 
   React.useEffect(() => {
-    window.addEventListener("resize", resizeFn);
+    window.addEventListener('resize', resizeFn);
     return () => {
-      window.removeEventListener("resize", resizeFn);
+      window.removeEventListener('resize', resizeFn);
     };
   }, [resizeFn]);
 
@@ -53,7 +53,7 @@ export function ExpandableGrid(props: ExpandableGridProps) {
       // console.log('selected ID changed', prevId, '->', selectedId);
       // Only animate opening/closing
       const shouldTransition = prevId === undefined || selectedId === undefined;
-      gridRef.current?.classList.toggle("og-transitionable", shouldTransition);
+      gridRef.current?.classList.toggle('og-transitionable', shouldTransition);
       prevSelectedId.current = selectedId;
     }
   }, [gridRef, selectedId]);
@@ -72,36 +72,54 @@ interface GridWithWidthProps extends ExpandableGridProps {
 }
 
 function GridWithWidth(props: GridWithWidthProps) {
-  const { images, selectedId, rowHeight, containerWidth, onSelect, onDeselect } = props;
+  const {
+    images,
+    selectedId,
+    rowHeight,
+    containerWidth,
+    onSelect,
+    onDeselect,
+  } = props;
   const imageMargin = props.imageMargin ?? 12;
   const minHeight = props.minHeight ?? 500;
   const maxHeight = props.maxHeight ?? 750;
 
-  const rows = React.useMemo(() => partitionIntoRows(images, {
-    maxRowHeight: rowHeight,
-    imageMargin,
-    containerWidth: containerWidth,
-  }), [images, rowHeight, containerWidth, imageMargin]);
+  const rows = React.useMemo(
+    () =>
+      partitionIntoRows(images, {
+        maxRowHeight: rowHeight,
+        imageMargin,
+        containerWidth: containerWidth,
+      }),
+    [images, rowHeight, containerWidth, imageMargin],
+  );
 
   // TODO: hard-coding #grid-container is a hack; this component should find its scroll parent.
-  const scrollParent = document.querySelector('#grid-container') ?? document.body;
-  const scrollParentHeight = Math.min(scrollParent.getBoundingClientRect().height, window.innerHeight);
+  const scrollParent =
+    document.querySelector('#grid-container') ?? document.body;
+  const scrollParentHeight = Math.min(
+    scrollParent.getBoundingClientRect().height,
+    window.innerHeight,
+  );
   const thumbnailHeight = props.rowHeight; // is this the same as this.$item.data('height')
-  const previewHeight = Math.max(minHeight, Math.min(scrollParentHeight - thumbnailHeight - 50, maxHeight));  // what's 50?
+  const previewHeight = Math.max(
+    minHeight,
+    Math.min(scrollParentHeight - thumbnailHeight - 50, maxHeight),
+  ); // what's 50?
   const itemHeight = previewHeight + thumbnailHeight + 10; // what's 10?
 
   const handleClick: React.MouseEventHandler = React.useCallback(
     (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const id = e.currentTarget.parentElement!.getAttribute("data-id")!;
+      const id = e.currentTarget.parentElement!.getAttribute('data-id')!;
       if (id === selectedId) {
         onDeselect?.();
       } else {
         onSelect?.(id);
       }
     },
-    [onDeselect, onSelect, selectedId]
+    [onDeselect, onSelect, selectedId],
   );
 
   const goLeftRight = React.useCallback(
@@ -116,21 +134,21 @@ function GridWithWidth(props: GridWithWidthProps) {
       }
       onSelect?.(images[newIdx].id);
     },
-    [images, onSelect, selectedId]
+    [images, onSelect, selectedId],
   );
 
   React.useEffect(() => {
     function handleKey(e: KeyboardEvent) {
-      if (e.key === "ArrowLeft") {
+      if (e.key === 'ArrowLeft') {
         goLeftRight(-1);
-      } else if (e.key === "ArrowRight") {
+      } else if (e.key === 'ArrowRight') {
         goLeftRight(+1);
-      } else if (e.key === "Escape") {
+      } else if (e.key === 'Escape') {
         onDeselect?.();
       }
     }
-    document.addEventListener("keyup", handleKey);
-    return () => document.removeEventListener("keyup", handleKey);
+    document.addEventListener('keyup', handleKey);
+    return () => document.removeEventListener('keyup', handleKey);
   }, [goLeftRight, onDeselect]);
 
   React.useEffect(() => {
@@ -145,7 +163,7 @@ function GridWithWidth(props: GridWithWidthProps) {
       allParents(el).find(isElementScrollable) ?? document.body;
     const parentTop = el.parentElement!.getBoundingClientRect().top;
     const top = el.getBoundingClientRect().top;
-    scrollParent.scrollTo({ top: top - parentTop, behavior: "smooth" });
+    scrollParent.scrollTo({ top: top - parentTop, behavior: 'smooth' });
   }, [selectedId]);
 
   return (
@@ -155,7 +173,10 @@ function GridWithWidth(props: GridWithWidthProps) {
           <li
             key={image.id}
             data-id={image.id}
-            className={classNames({ "og-expanded": image.id === selectedId }, image.className)}
+            className={classNames(
+              { 'og-expanded': image.id === selectedId },
+              image.className,
+            )}
             style={
               image.id === selectedId
                 ? { height: itemHeight }
@@ -184,7 +205,7 @@ function GridWithWidth(props: GridWithWidthProps) {
               />
             ) : null}
           </li>
-        ))
+        )),
       )}
     </>
   );
@@ -202,11 +223,15 @@ interface PreviewProps {
   onLeftRight: (delta: -1 | 1) => void;
 }
 
-function PreviewImage(props: {image: GridImage}) {
-  const {image} = props;
+function PreviewImage(props: { image: GridImage }) {
+  const { image } = props;
   return (
-    <img src={image.largesrc ?? image.src} width={image.width} height={image.height} />
-  )
+    <img
+      src={image.largesrc ?? image.src}
+      width={image.width}
+      height={image.height}
+    />
+  );
 }
 
 function Preview(props: PreviewProps) {
@@ -218,16 +243,20 @@ function Preview(props: PreviewProps) {
       <div className="og-expander-inner">
         <span className="og-close" onClick={props.onClose}></span>
         <div className="og-fullimg">
-          {React.createElement(imageEl, {image})}
+          {React.createElement(imageEl, { image })}
         </div>
         <div className="og-details">
-          <div style={{ display: "block" }}>
+          <div style={{ display: 'block' }}>
             <props.details image={image} />
           </div>
         </div>
       </div>
-      {!props.isFirst && <div className="og-previous" onClick={() => onLeftRight(-1)}></div>}
-      {!props.isLast && <div className="og-next" onClick={() => onLeftRight(+1)}></div>}
+      {!props.isFirst && (
+        <div className="og-previous" onClick={() => onLeftRight(-1)}></div>
+      )}
+      {!props.isLast && (
+        <div className="og-next" onClick={() => onLeftRight(+1)}></div>
+      )}
     </div>
   );
 }
@@ -249,7 +278,7 @@ interface PartitionOptions {
 
 function partitionIntoRows<T extends Size>(
   images: readonly T[],
-  options: PartitionOptions
+  options: PartitionOptions,
 ): Row<T>[] {
   const { containerWidth, imageMargin, maxRowHeight } = options;
   const rows: Row<T>[] = [];
@@ -261,7 +290,7 @@ function partitionIntoRows<T extends Size>(
       denom += image.width / image.height;
     }
     const height = Math.round(
-      (containerWidth - imageMargin * currentRow.length) / denom
+      (containerWidth - imageMargin * currentRow.length) / denom,
     );
     if (height < maxRowHeight) {
       rows.push({ height: height, images: currentRow });

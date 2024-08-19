@@ -1,6 +1,6 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
-import {Helmet} from "react-helmet";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { Helmet } from 'react-helmet';
 
 import {
   HashRouter,
@@ -9,23 +9,22 @@ import {
   useHistory,
   useParams,
   useLocation,
-} from "react-router-dom";
-import { Map } from "./map";
-import { DEFAULT_YEARS, TimeSlider, YearRange } from "./TimeSlider";
-import { Logo } from "./Logo";
+} from 'react-router-dom';
+import { Map } from './map';
+import { DEFAULT_YEARS, TimeSlider, YearRange } from './TimeSlider';
+import { Logo } from './Logo';
 import { Slideshow } from './Slideshow';
-import { getLatLonForPhotoId, photoIdToLatLon } from "./photo-id-to-lat-lon";
-import { PopularImages } from "./PopularImages";
-import { Header } from "./Header";
-import { About } from "./About";
-import { FacebookProvider } from "react-facebook";
+import { getLatLonForPhotoId, photoIdToLatLon } from './photo-id-to-lat-lon';
+import { PopularImages } from './PopularImages';
+import { Header } from './Header';
+import { About } from './About';
+import { FacebookProvider } from 'react-facebook';
 
 interface UrlParams {
   photoId?: string;
   lat?: string;
   lon?: string;
 }
-
 
 function pageTitle(params: UrlParams) {
   const app = 'Old NYC';
@@ -37,23 +36,26 @@ function pageTitle(params: UrlParams) {
   } else {
     return `${app}: Mapping Historical Photographs of New York City`;
   }
-};
-
+}
 
 function PhotoApp() {
   const [years, setYears] = React.useState(DEFAULT_YEARS);
 
   const history = useHistory();
-  const handleMarkerClick = React.useCallback((latLon: string) => {
-    history.push(`/g:${latLon}`);
-  }, [history]);
+  const handleMarkerClick = React.useCallback(
+    (latLon: string) => {
+      history.push(`/g:${latLon}`);
+    },
+    [history],
+  );
 
   const location = useLocation();
   const isAbout = location.pathname === '/about';
 
   const params = useParams<UrlParams>();
   const { photoId } = params;
-  let loc = params.lat && params.lon ? `${params.lat},${params.lon}` : undefined;
+  let loc =
+    params.lat && params.lon ? `${params.lat},${params.lon}` : undefined;
   if (photoId && !loc) {
     loc = photoIdToLatLon[photoId];
   }
@@ -63,17 +65,17 @@ function PhotoApp() {
   React.useEffect(() => {
     if (photoId && !loc) {
       (async () => {
-        await getLatLonForPhotoId(photoId);  // populates photoIdToLatLon
-        setForceUpdate(n => n + 1);
-      })().catch(e => {
+        await getLatLonForPhotoId(photoId); // populates photoIdToLatLon
+        setForceUpdate((n) => n + 1);
+      })().catch((e) => {
         console.error(e);
-      })
+      });
     }
   }, [photoId, loc]);
 
   const logTimeSlider = React.useCallback(([a, b]: YearRange) => {
     ga('send', 'event', 'link', 'time-slider', {
-      'page': `/#${a}–${b}`
+      page: `/#${a}–${b}`,
     });
   }, []);
 
@@ -86,8 +88,8 @@ function PhotoApp() {
     // There may be some double-counting here, e.g. when you close an image
     // preview or go back to the map from the grid. No big deal.
     if (typeof ga !== 'undefined') {
-      const url = location.pathname + location.search  + location.hash;
-      ga('send', 'pageview', { 'page': url });
+      const url = location.pathname + location.search + location.hash;
+      ga('send', 'pageview', { page: url });
     }
   }, [location]);
 
@@ -96,7 +98,11 @@ function PhotoApp() {
       <Helmet>
         <title>{pageTitle(params)}</title>
       </Helmet>
-      <Map yearRange={years} onClickMarker={handleMarkerClick} selectedLatLon={loc} />
+      <Map
+        yearRange={years}
+        onClickMarker={handleMarkerClick}
+        selectedLatLon={loc}
+      />
       <div className="header">
         <Header />
         <Logo />
@@ -104,15 +110,31 @@ function PhotoApp() {
       <FeedbackLink />
       <PopularImages />
       <TimeSlider years={years} onSlide={setYears} onChange={logTimeSlider} />
-      {loc && <Slideshow latLon={loc} selectedPhotoId={photoId} yearRange={years} onResetYears={resetYears} />}
+      {loc && (
+        <Slideshow
+          latLon={loc}
+          selectedPhotoId={photoId}
+          yearRange={years}
+          onResetYears={resetYears}
+        />
+      )}
       {isAbout && <About />}
     </FacebookProvider>
   );
 }
 
-const FeedbackLink = () => <div id="feedback"><a href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform" target="_blank">Send feedback</a></div>
+const FeedbackLink = () => (
+  <div id="feedback">
+    <a
+      href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform"
+      target="_blank"
+    >
+      Send feedback
+    </a>
+  </div>
+);
 
-const root = createRoot(document.querySelector("#app")!);
+const root = createRoot(document.querySelector('#app')!);
 root.render(
   <React.StrictMode>
     <HashRouter basename="" hashType="noslash">
@@ -131,5 +153,5 @@ root.render(
         </Route>
       </Switch>
     </HashRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

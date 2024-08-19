@@ -1,0 +1,14 @@
+{
+  "entry": ["src/main.tsx", "src/ocr-tool.ts"],
+  "project": ["src/**/*.{ts,tsx}"],
+  "ignoreExportsUsedInFile": true,
+  "ignoreDependencies": [
+    // My build script throws off knip
+    "dist",
+    // @types dependencies that define ambient types
+    "@types/google.analytics",
+    "@types/google.maps",
+    "@types/jquery",
+    "@types/twitter-for-web"
+  ]
+}

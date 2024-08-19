@@ -1,10 +1,10 @@
-import React from "react";
-import { useHistory } from "react-router-dom";
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 export function About() {
   const history = useHistory();
   const exit = () => {
-    history.push("/");
+    history.push('/');
   };
 
   return (

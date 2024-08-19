@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 import {
   PhotoInfo,
   infoForPhotoId,
   loadInfoForLatLon,
   nameForLatLon,
-} from "./photo-info";
-import { YearRange, isFullTimeRange } from "./TimeSlider";
-import { STATIC_MAP_STYLE } from "./map-styles";
-import { ExpandableGrid } from "./grid/grid";
-import { useHistory } from "react-router-dom";
-import { photoIdToLatLon } from "./photo-id-to-lat-lon";
-import { DetailView, ImagePreview } from "./ImageDetails";
+} from './photo-info';
+import { YearRange, isFullTimeRange } from './TimeSlider';
+import { STATIC_MAP_STYLE } from './map-styles';
+import { ExpandableGrid } from './grid/grid';
+import { useHistory } from 'react-router-dom';
+import { photoIdToLatLon } from './photo-id-to-lat-lon';
+import { DetailView, ImagePreview } from './ImageDetails';
 
 export interface SlideshowProps {
   latLon: string;
@@ -19,7 +19,8 @@ export interface SlideshowProps {
   onResetYears: () => void;
 }
 
-const LIBRARY_URL = 'https://digitalcollections.nypl.org/collections/photographic-views-of-new-york-city-1870s-1970s-from-the-collections-of-the-ne-2#/?tab=about';
+const LIBRARY_URL =
+  'https://digitalcollections.nypl.org/collections/photographic-views-of-new-york-city-1870s-1970s-from-the-collections-of-the-ne-2#/?tab=about';
 
 // A photo is in the date range if any dates mentioned in it are in the range.
 // For example, "1927; 1933; 1940" is in the range [1920, 1930].
@@ -27,8 +28,8 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
   if (isFullTimeRange(yearRange)) return true;
 
   const [first, last] = yearRange;
-  for (let i = 0; i < info.years.length; i++) {
-    const year = info.years[i]; // could be empty string
+  for (const year of info.years) {
+    // year could be empty string
     if (year && Number(year) >= first && Number(year) <= last) return true;
   }
   return false;
@@ -37,11 +38,11 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon: string) {
   return (
-    "http://maps.googleapis.com/maps/api/staticmap?center=" +
+    'http://maps.googleapis.com/maps/api/staticmap?center=' +
     lat_lon +
-    "&zoom=15&size=150x150&scale=2&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C" +
+    '&zoom=15&size=150x150&scale=2&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' +
     lat_lon +
-    "&style=" +
+    '&style=' +
     STATIC_MAP_STYLE
   );
 }
@@ -79,30 +80,38 @@ export function Slideshow(props: SlideshowProps) {
     if (!photoIds) return null;
     return photoIds
       .map((photoId) => {
-        var info = infoForPhotoId(photoId);
+        const info = infoForPhotoId(photoId);
         if (!isPhotoInDateRange(info, yearRange)) return null;
         return {
           largesrc: info.image_url,
           src: info.thumb_url,
-          className: photoId === selectedPhotoId ? 'selected' : selectedPhotoId && areSiblings(selectedPhotoId, photoId) ? 'sibling' : undefined,
+          className:
+            photoId === selectedPhotoId
+              ? 'selected'
+              : selectedPhotoId && areSiblings(selectedPhotoId, photoId)
+                ? 'sibling'
+                : undefined,
           ...info,
         };
       })
-      .filter((x) => x !== null)
+      .filter((x) => x !== null);
   }, [photoIds, yearRange, selectedPhotoId]);
 
-  const selectedImage = images && selectedPhotoId ? images.find(image => image.id === selectedPhotoId) : undefined;
+  const selectedImage =
+    images && selectedPhotoId
+      ? images.find((image) => image.id === selectedPhotoId)
+      : undefined;
 
   const handleSelect = React.useCallback(
     (photoId: string) => {
       if (selectedPhotoId) {
         // keep the history stack relatively short
-        history.replace("/" + photoId);
+        history.replace('/' + photoId);
       } else {
-        history.push("/" + photoId);
+        history.push('/' + photoId);
       }
     },
-    [history, latLon, selectedPhotoId]
+    [history, latLon, selectedPhotoId],
   );
 
   const handleDeselect = React.useCallback(() => {
@@ -113,17 +122,26 @@ export function Slideshow(props: SlideshowProps) {
     history.push(`/`);
   }, [history]);
 
-  const exitIfSelfClick: React.MouseEventHandler = React.useCallback(e => {
-    if (e.currentTarget === e.target || (e.target as HTMLElement).classList.contains('og-grid')) {
-      handleExit();
-    }
-  }, [handleExit]);
+  const exitIfSelfClick: React.MouseEventHandler = React.useCallback(
+    (e) => {
+      if (
+        e.currentTarget === e.target ||
+        (e.target as HTMLElement).classList.contains('og-grid')
+      ) {
+        handleExit();
+      }
+    },
+    [handleExit],
+  );
 
-  const handleReset: React.MouseEventHandler = React.useCallback(e => {
-    e.preventDefault();
-    e.stopPropagation();
-    onResetYears();
-  }, [onResetYears]);
+  const handleReset: React.MouseEventHandler = React.useCallback(
+    (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      onResetYears();
+    },
+    [onResetYears],
+  );
 
   return images ? (
     <div id="expanded">
@@ -140,7 +158,7 @@ export function Slideshow(props: SlideshowProps) {
         {!isFullRange && (
           <div id="filtered-slideshow">
             Only showing photos between{' '}
-            <span id="slideshow-filter-first">{yearRange[0]}</span> and{" "}
+            <span id="slideshow-filter-first">{yearRange[0]}</span> and{' '}
             <span id="slideshow-filter-last">{yearRange[1]}</span>.{' '}
             <a href="#" id="slideshow-all" onClick={handleReset}>
               Show all.

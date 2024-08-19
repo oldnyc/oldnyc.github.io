@@ -8,14 +8,14 @@ interface Readable<Payload> {
 }
 
 interface ResourcePending {
-  status: "pending";
+  status: 'pending';
 }
 interface ResourceSuccess<T> {
-  status: "success";
+  status: 'success';
   data: T;
 }
 interface ResourceError {
-  status: "error";
+  status: 'error';
   error: Error;
 }
 type Resource<T> = ResourcePending | ResourceSuccess<T> | ResourceError;
@@ -24,7 +24,7 @@ type Resource<T> = ResourcePending | ResourceSuccess<T> | ResourceError;
 // this function also receives a payload and return us a resource with
 // that payload assigned as type
 function createResource<Payload>(
-  asyncFn: () => Promise<Payload>
+  asyncFn: () => Promise<Payload>,
 ): Readable<Payload> {
   let result: Resource<Payload> = { status: 'pending' };
   const promise = asyncFn().then(
@@ -33,21 +33,22 @@ function createResource<Payload>(
     },
     (e: Error) => {
       result = { status: 'error', error: e };
-    }
+    },
   );
   // lately we return an error object with the read method
   return {
     read(): Payload {
       // here we will check the status value
       switch (result.status) {
-        case "pending":
+        case 'pending':
           // if it's still pending we throw the promise
           // throwing a promise is how Suspense know our component is not ready
+          // eslint-disable-next-line @typescript-eslint/only-throw-error
           throw promise;
-        case "error":
+        case 'error':
           // if it's error we throw the error
           throw result.error;
-        case "success":
+        case 'success':
           // if it's success we return the result
           return result.data;
       }
@@ -57,7 +58,7 @@ function createResource<Payload>(
 
 class LRUCache<T> {
   maxSize: number;
-  entries = new Map<string, [number, T]>;
+  entries = new Map<string, [number, T]>();
 
   constructor(maxSize: number) {
     this.maxSize = maxSize;
@@ -74,13 +75,13 @@ class LRUCache<T> {
   }
 
   set(key: string, value: T) {
-    const {entries, maxSize} = this;
+    const { entries, maxSize } = this;
     entries.set(key, [Date.now(), value]);
     if (entries.size > maxSize) {
       const keys = [...entries.keys()];
       keys.sort((a, b) => entries.get(a)![0] - entries.get(b)![0]);
       for (const k of keys) {
-        entries.delete(k)
+        entries.delete(k);
         if (entries.size <= maxSize) break;
       }
     }
@@ -99,21 +100,21 @@ function loadImage(source: string): Readable<string> {
       new Promise((resolve, reject) => {
         const img = new window.Image();
         img.src = source;
-        img.addEventListener("load", () => resolve(source));
+        img.addEventListener('load', () => resolve(source));
         // img.addEventListener("load", () => {
         //   setTimeout(() => resolve(source), 1000);
         // });
-        img.addEventListener("error", () =>
-          reject(new Error(`Failed to load image ${source}`))
+        img.addEventListener('error', () =>
+          reject(new Error(`Failed to load image ${source}`)),
         );
-      })
+      }),
   );
   cache.set(source, resource);
   return resource;
 }
 
 export function SuspenseImage(
-  props: React.ImgHTMLAttributes<HTMLImageElement> & {src: string}
+  props: React.ImgHTMLAttributes<HTMLImageElement> & { src: string },
 ): JSX.Element {
   loadImage(props.src).read();
   return <img {...props} />;

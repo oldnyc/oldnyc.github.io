@@ -1,0 +1,16 @@
+# Ignore artifacts:
+build
+coverage
+bundle
+static
+id4-to-location
+by-location
+dist
+data.json
+rotated-assets
+*.html
+popular.json
+styles/octicons
+timestamps.json
+# this one is generated
+src/popular-photos.js
