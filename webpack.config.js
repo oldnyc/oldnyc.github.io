@@ -4,14 +4,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    main: './src/main.tsx',
+    main: './src/main.tsx'
     // ocr: './js/ocr-tool.ts'
   },
   // devtool: '#cheap-module-source-map',
   output: {
     clean: true,
-    path: __dirname + '/dist/js',
-    filename: '[name].[contenthash].js'
+    path: __dirname + '/dist',
+    filename: 'js/[name].[contenthash].js'
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
@@ -48,5 +48,16 @@ module.exports = {
       scriptLoading: 'blocking',
       chunks: ["main"]
     })
-  ]
+  ],
+  devServer: {
+    static: [
+      'static',
+      'images',
+      'id4-to-location',
+      'by-location',
+      'rotated-assets',
+      'styles'
+    ].map(dir => ({ directory: dir, publicPath: `/${dir}` })),
+    port: 8080
+  }
 };
