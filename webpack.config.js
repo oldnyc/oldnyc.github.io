@@ -1,14 +1,17 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 /*eslint-env node */
 module.exports = {
   mode: 'development',
   entry: {
-    main: './js/main.tsx',
-    ocr: './js/ocr-tool.ts'
+    main: './src/main.tsx'
+    // ocr: './js/ocr-tool.ts'
   },
   // devtool: '#cheap-module-source-map',
   output: {
-    path: __dirname + '/js/bundle',
-    filename: '[name].js'
+    clean: true,
+    path: __dirname + '/dist',
+    filename: 'bundle/[name].[contenthash].js'
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
@@ -36,5 +39,26 @@ module.exports = {
     // require("jquery") is external and available
     //  on the global var jQuery
     "jquery": "jQuery"
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: __dirname + '/src/index.template.html',
+      filename: __dirname + '/dist/index.html',
+      inject: 'body',
+      scriptLoading: 'blocking',
+      chunks: ["main"],
+      minify: false
+    })
+  ],
+  devServer: {
+    static: [
+      'static',
+      'images',
+      'id4-to-location',
+      'by-location',
+      'rotated-assets',
+      'styles'
+    ].map(dir => ({ directory: dir, publicPath: `/${dir}` })),
+    port: 8080
   }
 };

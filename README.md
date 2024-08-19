@@ -14,17 +14,13 @@ Then open http://localhost:8080/.
 
 ## Development
 
-Modifications to the HTML and CSS files should show up immediately.
-
-The JavaScript files are bundled for serving, so changes to individual files
-won't show up on the site until you rebuild the bundle. To do this, run:
+Install dependencies:
 
     yarn
-    yarn webpack
 
-after saving your changes, or set up a watch process:
+To develop the site:
 
-    yarn webpack --watch
+    yarn serve
 
 Don't modify the data files (`lat-lon-counts.js`, `by-location`,
 `id4-to-location`) directly. Changes to these files should come from the
@@ -37,7 +33,7 @@ To run lint checks and type check:
 
 To publish an update, run:
 
-    yarn webpack --mode production
+    yarn build
 
 Then commit and push.
 
