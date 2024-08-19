@@ -11,7 +11,7 @@ module.exports = {
   output: {
     clean: true,
     path: __dirname + '/dist',
-    filename: 'js/[name].[contenthash].js'
+    filename: 'bundle/[name].[contenthash].js'
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
