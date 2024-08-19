@@ -11,7 +11,7 @@ export function deleteCookie(name: string) {
 }
 
 export function setCookie(name: string, value: string) {
-  document.cookie = name + "=" + value + "; path=/";
+  document.cookie = name + '=' + value + '; path=/';
 }
 
 export function getCookie(name: string) {
@@ -22,10 +22,14 @@ export function getCookie(name: string) {
 // Assign each user a unique ID for tracking repeat feedback.
 let COOKIE = getCookie(COOKIE_ID);
 if (!COOKIE) {
-  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-    var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
-    return v.toString(16);
-  });
+  COOKIE = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(
+    /[xy]/g,
+    function (c) {
+      var r = (Math.random() * 16) | 0,
+        v = c == 'x' ? r : (r & 0x3) | 0x8;
+      return v.toString(16);
+    },
+  );
   setCookie(COOKIE_ID, COOKIE);
 }
 // TODO: this depends on FeedbackType
@@ -46,7 +50,16 @@ interface FeedbackRequest extends PhotoFeedback {
 }
 
 /** Feedback type (matches tags in index.html, ocr.html) */
-export type FeedbackType = 'rotate' | 'rotate-backing' | 'cut-in-half' | 'large-border' | 'multiples' | 'wrong-location' | 'date' | 'text' | 'notext';
+export type FeedbackType =
+  | 'rotate'
+  | 'rotate-backing'
+  | 'cut-in-half'
+  | 'large-border'
+  | 'multiples'
+  | 'wrong-location'
+  | 'date'
+  | 'text'
+  | 'notext';
 
 // Record one piece of feedback. Returns a jQuery deferred object.
 export async function sendFeedback(
@@ -54,14 +67,14 @@ export async function sendFeedback(
   feedback_type: FeedbackType,
   feedback_obj: PhotoFeedback,
 ) {
-  ga('send', 'event', 'link', 'feedback', { 'page': '/#' + photo_id });
+  ga('send', 'event', 'link', 'feedback', { page: '/#' + photo_id });
 
   const feedbackRequest: FeedbackRequest = {
     ...feedback_obj,
     metadata: {
       // TODO: move into request headers?
-      cookie: COOKIE
-    }
+      cookie: COOKIE,
+    },
   };
   const path = `${API}/${photo_id}/${feedback_type}`;
 
@@ -88,7 +101,7 @@ export async function getFeedbackText(back_id: string) {
   if (!response.ok) {
     throw new Error(response.statusText);
   }
-  const feedback = await response.json() as FeedbackText;
+  const feedback = (await response.json()) as FeedbackText;
   if (feedback.timestamp > timestamps.ocr_ms) {
     return feedback;
   }

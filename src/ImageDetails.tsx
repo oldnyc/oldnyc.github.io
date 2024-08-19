@@ -1,6 +1,6 @@
-import React from "react";
-import {Comments, Like} from 'react-facebook';
-import {CSSTransition} from 'react-transition-group';
+import React from 'react';
+import { Comments, Like } from 'react-facebook';
+import { CSSTransition } from 'react-transition-group';
 import {
   PhotoInfo,
   backId,
@@ -8,12 +8,12 @@ import {
   getCanonicalUrlForPhoto,
   infoForPhotoId,
   libraryUrl,
-} from "./photo-info";
-import { FeedbackType, getFeedbackText, sendFeedback } from "./feedback";
-import { useResource } from "./use-resource";
-import { SuspenseImage } from "./grid/SuspenseImage";
-import classNames from "classnames";
-import { GridImage } from "./grid/grid";
+} from './photo-info';
+import { FeedbackType, getFeedbackText, sendFeedback } from './feedback';
+import { useResource } from './use-resource';
+import { SuspenseImage } from './grid/SuspenseImage';
+import classNames from 'classnames';
+import { GridImage } from './grid/grid';
 
 export function DetailView({
   image,
@@ -29,13 +29,13 @@ export function DetailView({
   const bid = backId(id);
   const ocrText = useResource(`ocr-${bid}`, () => getFeedbackText(bid));
   const text =
-    ocrText.status === "success"
-      ? ocrText.data?.text ?? info.text
-      : ocrText.status === "error"
-      ? info.text
-      : "";
+    ocrText.status === 'success'
+      ? (ocrText.data?.text ?? info.text)
+      : ocrText.status === 'error'
+        ? info.text
+        : '';
 
-  const hasBack = id.match("[0-9]f");
+  const hasBack = id.match('[0-9]f');
   const ocrUrl = `/ocr.html#${id}`;
 
   const detailsRef = React.useRef<HTMLDivElement>(null);
@@ -61,57 +61,84 @@ export function DetailView({
 
   return (
     <>
-    <CSSTransition nodeRef={detailsRef} in={!feedbackVisible} timeout={400} classNames="fade" >
-      <div className="details" ref={detailsRef}>
-        <div className="description">{descriptionForPhotoId(id)}</div>
-        <div className="text">
-          {ocrText.status === "pending" ? null : (
-            <>
-              {text}
-              {text && <p>
-                <i>
-                  Typos? Help{" "}
-                  <a target="_blank" href={ocrUrl}>
-                    fix them
-                  </a>
-                  .
-                </i>
-              </p>}
-              {!text && hasBack ? (
-                <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
-              ) : null}
-            </>
-          )}
-        </div>
+      <CSSTransition
+        nodeRef={detailsRef}
+        in={!feedbackVisible}
+        timeout={400}
+        classNames="fade"
+      >
+        <div className="details" ref={detailsRef}>
+          <div className="description">{descriptionForPhotoId(id)}</div>
+          <div className="text">
+            {ocrText.status === 'pending' ? null : (
+              <>
+                {text}
+                {text && (
+                  <p>
+                    <i>
+                      Typos? Help{' '}
+                      <a target="_blank" href={ocrUrl}>
+                        fix them
+                      </a>
+                      .
+                    </i>
+                  </p>
+                )}
+                {!text && hasBack ? (
+                  <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
+                ) : null}
+              </>
+            )}
+          </div>
 
-        <div className="feedback-link">
-          Errors?{" "}
-          <a href="#" className="feedback-button" onClick={showFeedback}>
-            Send feedback
-          </a>
-        </div>
+          <div className="feedback-link">
+            Errors?{' '}
+            <a href="#" className="feedback-button" onClick={showFeedback}>
+              Send feedback
+            </a>
+          </div>
 
-        <div className="social">
-          <CopyLink href={window.location.href} />{' '}
-          <Tweet href={window.location.href} via="Old_NYC @NYPL" text={(info.original_title || info.title) + ' - ' + info.date} />{' '}
-          <div className="facebook-holder">
-            <Like href={canonicalUrl} layout="button" action="like" showFaces={false} share />
+          <div className="social">
+            <CopyLink href={window.location.href} />{' '}
+            <Tweet
+              href={window.location.href}
+              via="Old_NYC @NYPL"
+              text={(info.original_title || info.title) + ' - ' + info.date}
+            />{' '}
+            <div className="facebook-holder">
+              <Like
+                href={canonicalUrl}
+                layout="button"
+                action="like"
+                showFaces={false}
+                share
+              />
+            </div>
+          </div>
+
+          <div className="comments">
+            <Comments
+              numPosts={5}
+              colorScheme="light"
+              href={canonicalUrl}
+              width={width}
+            />
           </div>
         </div>
-
-        <div className="comments">
-          <Comments numPosts={5} colorScheme="light" href={canonicalUrl} width={width} />
-        </div>
-      </div>
       </CSSTransition>
-      <CSSTransition nodeRef={nodeRef} in={feedbackVisible} timeout={400} classNames="fade">
-        <Feedback ref={nodeRef} id={id} onClose={hideFeedback}/>
+      <CSSTransition
+        nodeRef={nodeRef}
+        in={feedbackVisible}
+        timeout={400}
+        classNames="fade"
+      >
+        <Feedback ref={nodeRef} id={id} onClose={hideFeedback} />
       </CSSTransition>
     </>
   );
 }
 
-function CopyLink({href}: {href: string}) {
+function CopyLink({ href }: { href: string }) {
   const [isCopied, setIsCopied] = React.useState(false);
 
   const copy: React.MouseEventHandler = (e) => {
@@ -119,16 +146,22 @@ function CopyLink({href}: {href: string}) {
     (async () => {
       await navigator.clipboard.writeText(href);
       setIsCopied(true);
-    })().catch(e => {
+    })().catch((e) => {
       // ...
     });
   };
 
   return (
-    <div className={classNames("copy-link", {clicked: isCopied})}>
-      <span className={classNames('octicon', isCopied ? 'octicon-check' : 'octicon-clippy')}></span>
+    <div className={classNames('copy-link', { clicked: isCopied })}>
+      <span
+        className={classNames(
+          'octicon',
+          isCopied ? 'octicon-check' : 'octicon-clippy',
+        )}
+      ></span>
       <a href="#" className="email-share" onClick={copy}>
-        {' '}{isCopied ? 'Copied' : 'Copy Link'}
+        {' '}
+        {isCopied ? 'Copied' : 'Copy Link'}
       </a>
     </div>
   );
@@ -140,23 +173,21 @@ interface TweetProps {
   text: string;
 }
 function Tweet(props: TweetProps) {
-  const {href, via, text} = props;
+  const { href, via, text } = props;
   const ref = React.useRef<HTMLDivElement>(null);
-  const created = React.useRef('');  // TODO: this seems like a crazy way to prevent double-firing!
+  const created = React.useRef(''); // TODO: this seems like a crazy way to prevent double-firing!
   React.useEffect(() => {
     if (!ref.current || created.current === href) return;
     // Some browser plugins block twitter
-    if (typeof(twttr) !== 'undefined') {
+    if (typeof twttr !== 'undefined') {
       created.current = href;
-      twttr.ready(({widgets}) => {
+      twttr.ready(({ widgets }) => {
         if (ref.current) {
-          widgets.createShareButton(
-            href,
-            ref.current, {
-              count: 'none',
-              text,
-              via,
-            });
+          widgets.createShareButton(href, ref.current, {
+            count: 'none',
+            text,
+            via,
+          });
         }
       });
     }
@@ -165,17 +196,24 @@ function Tweet(props: TweetProps) {
   return <div ref={ref} key={href} className="tweet" />;
 }
 
-export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> }) {
-  const {id} = image;
+export function ImagePreview({
+  image,
+}: {
+  image: GridImage & Partial<PhotoInfo>;
+}) {
+  const { id } = image;
   const [rotation, setRotation] = React.useState(0);
-  const rotate: React.MouseEventHandler = React.useCallback((e) => {
-    e.preventDefault();
-    const newRotation = rotation + 90;
-    setRotation(newRotation);
-    ga('send', 'event', 'link', 'rotate', {
-      'page': `/#${id}(${newRotation})`
-    });
-  }, [id, rotation]);
+  const rotate: React.MouseEventHandler = React.useCallback(
+    (e) => {
+      e.preventDefault();
+      const newRotation = rotation + 90;
+      setRotation(newRotation);
+      ga('send', 'event', 'link', 'rotate', {
+        page: `/#${id}(${newRotation})`,
+      });
+    },
+    [id, rotation],
+  );
 
   return (
     <React.Suspense fallback={<div className="og-loading" />}>
@@ -183,7 +221,7 @@ export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> })
         src={image.largesrc ?? image.src}
         width={image.width}
         height={image.height}
-        style={rotation ? {transform: `rotate(${rotation}deg)`} : undefined}
+        style={rotation ? { transform: `rotate(${rotation}deg)` } : undefined}
       />
       <div>
         <div className="nypl-link">
@@ -199,7 +237,7 @@ export function ImagePreview({image} : {image: GridImage & Partial<PhotoInfo> })
         </div>
       </div>
     </React.Suspense>
-  )
+  );
 }
 
 interface MoreOnBackProps {
@@ -229,32 +267,43 @@ interface FeedbackProps {
   onClose: () => void;
 }
 
-const Feedback = React.forwardRef<HTMLDivElement, FeedbackProps>((props, ref) => {
-  const {id, onClose} = props;
-  const handleBack: React.MouseEventHandler = React.useCallback((e) => {
-    e.preventDefault();
-    onClose();
-  }, [onClose]);
+const Feedback = React.forwardRef<HTMLDivElement, FeedbackProps>(
+  (props, ref) => {
+    const { id, onClose } = props;
+    const handleBack: React.MouseEventHandler = React.useCallback(
+      (e) => {
+        e.preventDefault();
+        onClose();
+      },
+      [onClose],
+    );
 
-  return (
-    <div className="feedback" ref={ref}>
-      <p>
-        <a className="back" href="#" onClick={handleBack}>
-          &larr; back
-        </a>
-      </p>
-      <p>Tell us more about this image!</p>
-      <FeedbackButton id={id} type="cut-in-half">It's only part of an image</FeedbackButton>
-      <FeedbackButton id={id} type="large-border">
-        It has an excessively large border
-      </FeedbackButton>
-      <FeedbackButton id={id} type="multiples">It's actually multiple images</FeedbackButton>
-      <FeedbackButton id={id} type="wrong-location">It's in the wrong location</FeedbackButton>
+    return (
+      <div className="feedback" ref={ref}>
+        <p>
+          <a className="back" href="#" onClick={handleBack}>
+            &larr; back
+          </a>
+        </p>
+        <p>Tell us more about this image!</p>
+        <FeedbackButton id={id} type="cut-in-half">
+          It's only part of an image
+        </FeedbackButton>
+        <FeedbackButton id={id} type="large-border">
+          It has an excessively large border
+        </FeedbackButton>
+        <FeedbackButton id={id} type="multiples">
+          It's actually multiple images
+        </FeedbackButton>
+        <FeedbackButton id={id} type="wrong-location">
+          It's in the wrong location
+        </FeedbackButton>
 
-      <DateFeedbackForm id={id} />
-    </div>
-  );
-});
+        <DateFeedbackForm id={id} />
+      </div>
+    );
+  },
+);
 
 interface FeedbackButtonProps {
   id: string;
@@ -270,19 +319,21 @@ function FeedbackButton(props: FeedbackButtonProps) {
     setDisabled(true);
 
     (async () => {
-      await sendFeedback(props.id, props.type, {[props.type]: true});
+      await sendFeedback(props.id, props.type, { [props.type]: true });
       setThanks(true);
-    })().catch(e => {
+    })().catch((e) => {
       console.error(e);
     });
   };
 
   return (
-    <button disabled={disabled} onClick={handleClick}>{thanks ? 'Thanks!' : props.children}</button>
+    <button disabled={disabled} onClick={handleClick}>
+      {thanks ? 'Thanks!' : props.children}
+    </button>
   );
 }
 
-function DateFeedbackForm({id}: {id: string}) {
+function DateFeedbackForm({ id }: { id: string }) {
   const [date, setDate] = React.useState('');
   const [disabled, setDisabled] = React.useState(false);
   const [thanks, setThanks] = React.useState(false);
@@ -291,9 +342,9 @@ function DateFeedbackForm({id}: {id: string}) {
     setDisabled(true);
 
     (async () => {
-      await sendFeedback(id, 'date', {date});
+      await sendFeedback(id, 'date', { date });
       setThanks(true);
-    })().catch(e => {
+    })().catch((e) => {
       console.error(e);
     });
   };
@@ -301,7 +352,13 @@ function DateFeedbackForm({id}: {id: string}) {
   return (
     <p className="suggest-date">
       Suggest a date:{' '}
-      <input disabled={disabled} type="text" placeholder="Sept. 7, 1941" value={date} onChange={e => setDate(e.currentTarget.value)} />{' '}
+      <input
+        disabled={disabled}
+        type="text"
+        placeholder="Sept. 7, 1941"
+        value={date}
+        onChange={(e) => setDate(e.currentTarget.value)}
+      />{' '}
       <button onClick={handleClick} disabled={disabled}>
         {thanks ? 'Thanks!' : 'Suggest'}
       </button>

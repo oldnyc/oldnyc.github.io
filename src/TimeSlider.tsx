@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import Slider from 'rc-slider';
-import { MarkObj } from "rc-slider/lib/Marks";
+import { MarkObj } from 'rc-slider/lib/Marks';
 
 export type YearRange = [firstYear: number, lastYear: number];
 export const DEFAULT_YEARS: YearRange = [1800, 2000];
 
 export function isFullTimeRange(yearRange: [number, number]) {
-  return (yearRange[0] === 1800 && yearRange[1] === 2000);
+  return yearRange[0] === 1800 && yearRange[1] === 2000;
 }
 
 export interface TimeSliderProps {
@@ -21,20 +21,31 @@ const marks: Record<number, MarkObj> = {
   1900: { label: '1900' },
   1950: { label: '1950' },
   2000: { label: '2000' },
-}
+};
 
 export function TimeSlider(props: TimeSliderProps) {
-  const {years} = props;
+  const { years } = props;
   const [visible, setVisible] = React.useState(false);
 
   return (
     <div id="time-slider-container">
-      <div id="time-range-summary" onClick={() => setVisible(v => !v)}>
-        <span id="time-range-labels">{years[0]}&ndash;{years[1]}</span>{' '}
+      <div id="time-range-summary" onClick={() => setVisible((v) => !v)}>
+        <span id="time-range-labels">
+          {years[0]}&ndash;{years[1]}
+        </span>{' '}
         <div className="white-arrow-down"></div>
       </div>
-      <div id="time-range" style={{display: visible ? 'block' : 'none' }}>
-        <Slider marks={marks} range min={DEFAULT_YEARS[0]} max={DEFAULT_YEARS[1]} allowCross={false} value={years} onChange={props.onSlide} onChangeComplete={props.onChange} />
+      <div id="time-range" style={{ display: visible ? 'block' : 'none' }}>
+        <Slider
+          marks={marks}
+          range
+          min={DEFAULT_YEARS[0]}
+          max={DEFAULT_YEARS[1]}
+          allowCross={false}
+          value={years}
+          onChange={props.onSlide}
+          onChangeComplete={props.onChange}
+        />
       </div>
     </div>
   );

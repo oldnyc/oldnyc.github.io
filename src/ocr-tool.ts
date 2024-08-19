@@ -2,8 +2,20 @@
  * JavaScript for the OCR correction tool. See ocr.html
  */
 
-import {loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId, findLatLonForPhoto, libraryUrl} from './photo-info';
-import {FeedbackType, PhotoFeedback, getFeedbackText, sendFeedback} from './feedback';
+import {
+  loadInfoForLatLon,
+  backId,
+  infoForPhotoId,
+  backOfCardUrlForPhotoId,
+  findLatLonForPhoto,
+  libraryUrl,
+} from './photo-info';
+import {
+  FeedbackType,
+  PhotoFeedback,
+  getFeedbackText,
+  sendFeedback,
+} from './feedback';
 
 if (window.location.search.indexOf('thanks') >= 0) {
   $('#thanks').show();
@@ -14,7 +26,7 @@ $('[name="photo_id"]').val(id);
 $('#back-link').attr('href', '/#' + id);
 
 let other_photo_ids: string[] | undefined;
-findLatLonForPhoto(id, function(lat_lon) {
+findLatLonForPhoto(id, function (lat_lon) {
   const infoP = loadInfoForLatLon(lat_lon);
   const ocrP = getFeedbackText(backId(id));
 
@@ -29,14 +41,14 @@ findLatLonForPhoto(id, function(lat_lon) {
     if (text) {
       $('#text').text(text);
     }
-    $('#submit').click(function() {
-      submit('text', {text: $('#text').val()});
+    $('#submit').click(function () {
+      submit('text', { text: $('#text').val() });
     });
-    $('#notext').click(function() {
-      submit('notext', {notext: true});
+    $('#notext').click(function () {
+      submit('notext', { notext: true });
     });
     $('.rotate-image-button').click(rotate90);
-  })().catch(e => {
+  })().catch((e) => {
     console.error(e);
   });
 });
@@ -50,14 +62,21 @@ var noTextIdsDef = $.getJSON('/static/notext.json');
 
 function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
   sendFeedback(backId(id), type, feedback_obj)
-    .then(function() {
+    .then(function () {
       // Go to another image at the same location.
       return next_image(id);
     })
-    .then(function(next_id) {
-      var url = location.protocol + '//' + location.host + location.pathname +
-                '?thanks&id=' + next_id + '#' + next_id;
-      ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });
+    .then(function (next_id) {
+      var url =
+        location.protocol +
+        '//' +
+        location.host +
+        location.pathname +
+        '?thanks&id=' +
+        next_id +
+        '#' +
+        next_id;
+      ga('send', 'event', 'link', 'ocr-success', { page: '/#' + id });
       window.location.href = url;
     });
 }
@@ -89,9 +108,11 @@ function next_image(id: string) {
 
   // Pick an image with no transcription (these are the most valuable to get
   // user-generated data for).
-  noTextIdsDef.done(function(data: NoTextJson) {
+  noTextIdsDef.done(function (data: NoTextJson) {
     var ids = data.photo_ids;
-    console.log('Picking at random from ' + ids.length + ' untranscribed photos.');
+    console.log(
+      'Picking at random from ' + ids.length + ' untranscribed photos.',
+    );
     def.resolve(ids[Math.floor(Math.random() * ids.length)]);
   });
 
@@ -105,5 +126,7 @@ function rotate90() {
   $img
     .css('transform', 'rotate(' + currentRotation + 'deg)')
     .data('rotate', currentRotation);
-  sendFeedback(backId(id), 'rotate-backing', {'rotate-backing': currentRotation});
+  sendFeedback(backId(id), 'rotate-backing', {
+    'rotate-backing': currentRotation,
+  });
 }

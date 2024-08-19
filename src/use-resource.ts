@@ -1,23 +1,23 @@
 /** Provide a synchronous view on async resources */
 
-import React from "react";
+import React from 'react';
 
 export interface ResourcePending {
-  status: "pending";
+  status: 'pending';
 }
 export interface ResourceSuccess<T> {
-  status: "success";
+  status: 'success';
   data: T;
 }
 export interface ResourceError {
-  status: "error";
+  status: 'error';
   error: Error;
 }
 export type Resource<T> = ResourcePending | ResourceSuccess<T> | ResourceError;
 
 class LRUCache<T> {
   maxSize: number;
-  entries = new Map<string, [number, T]>;
+  entries = new Map<string, [number, T]>();
 
   constructor(maxSize: number) {
     this.maxSize = maxSize;
@@ -34,13 +34,13 @@ class LRUCache<T> {
   }
 
   set(key: string, value: T) {
-    const {entries, maxSize} = this;
+    const { entries, maxSize } = this;
     entries.set(key, [Date.now(), value]);
     if (entries.size > maxSize) {
       const keys = [...entries.keys()];
       keys.sort((a, b) => entries.get(a)![0] - entries.get(b)![0]);
       for (const k of keys) {
-        entries.delete(k)
+        entries.delete(k);
         if (entries.size <= maxSize) break;
       }
     }
@@ -80,14 +80,14 @@ function removeListener(key: string, fn: () => void) {
   }
 }
 
-const PENDING: ResourcePending = {status: 'pending'};
+const PENDING: ResourcePending = { status: 'pending' };
 
 export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
   // console.log('useResource', key);
   const [, update] = React.useState(0);
 
   const forceUpdate = React.useCallback(() => {
-    update(n => n + 1);
+    update((n) => n + 1);
     removeListener(key, forceUpdate);
   }, [key]);
 
@@ -111,12 +111,12 @@ export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
     (async () => {
       const val = await fn();
       // console.log('useResource: set success', key, val);
-      cache.set(key, {status: 'success', data: val});
-    })().catch(error => {
+      cache.set(key, { status: 'success', data: val });
+    })().catch((error) => {
       // console.log('useResource: set failure', key);
-      cache.set(key, {status: 'error', error});
+      cache.set(key, { status: 'error', error });
     });
   }, [key, forceUpdate]);
 
-  return cache.get(key) as Resource<T> ?? PENDING;
+  return (cache.get(key) as Resource<T>) ?? PENDING;
 }

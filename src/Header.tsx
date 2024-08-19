@@ -1,12 +1,18 @@
-import React from "react";
-import { Like } from "react-facebook";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Like } from 'react-facebook';
+import { Link } from 'react-router-dom';
 
 export function Header() {
   return (
     <div className="social-about">
       <div id="facebook">
-        <Like href="http://www.oldnyc.org" layout="button_count" action="like" showFaces={false} share />
+        <Like
+          href="http://www.oldnyc.org"
+          layout="button_count"
+          action="like"
+          showFaces={false}
+          share
+        />
       </div>
       <div id="twitter">
         <a
@@ -26,7 +32,7 @@ export function Header() {
       <div id="mailing-list">
         <a target="_blank" href="http://eepurl.com/bouyCz">
           Subscribe
-        </a>{" "}
+        </a>{' '}
         to OldNYC updates
       </div>
     </div>

@@ -7,7 +7,7 @@ export async function getLatLonForPhotoId(photoId: string): Promise<string> {
   if (!r.ok) {
     throw new Error(r.statusText);
   }
-  const data = await r.json() as {[id: string]: string};
+  const data = (await r.json()) as { [id: string]: string };
   Object.assign(photoIdToLatLon, data);
   return data[photoId];
 }

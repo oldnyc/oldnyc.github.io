@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   overscroll-behavior: none;
@@ -6,7 +7,7 @@ html, body {
 
 body {
   background-color: #fff;
-  font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 0.8em;
   text-rendering: optimizeLegibility;
   margin: 0;
@@ -49,14 +50,15 @@ h2 a {
   padding: 15px;
   padding-top: 18px;
 }
-#about:hover{
+#about:hover {
   text-decoration: underline;
 }
-#about a, #about ai {
+#about a,
+#about ai {
   display: block;
   color: #404040;
   font-weight: bold;
-  text-shadow: 0 1px 1px rgba(255,255,255,.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
 }
 #facebook {
   width: 145px;
@@ -68,7 +70,7 @@ h2 a {
 #mailing-list {
   font-size: 1.1em;
   color: #404040;
-  text-shadow: 0 1px 1px rgba(255,255,255,.9);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
   margin: -15px;
   margin-left: 0;
   padding: 15px;
@@ -158,7 +160,7 @@ h2 a {
   top: 55px;
   left: 0;
   height: 150px;
-  width: 150px;  /* matches #grid-container.margin-right */
+  width: 150px; /* matches #grid-container.margin-right */
   padding: 15px;
   padding-top: 0px;
 }
@@ -199,7 +201,7 @@ div.exit:hover {
   background: white;
   overflow: auto;
   padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px;  /* This matches Google Maps. */
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; /* This matches Google Maps. */
 }
 
 #current-location {
@@ -246,7 +248,7 @@ div.exit:hover {
 #preview-map {
   width: 150px;
   height: 150px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 #expanded .og-fullimg img:hover {
@@ -276,7 +278,8 @@ div.exit:hover {
   height: 35px;
   line-height: 35px;
 }
-a#slideshow-all, a#slideshow-all:visited {
+a#slideshow-all,
+a#slideshow-all:visited {
   color: white;
   text-decoration: underline;
 }
@@ -285,20 +288,20 @@ a#slideshow-all, a#slideshow-all:visited {
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 50px solid #DADADA;
+  border-left: 50px solid #dadada;
 }
 .arrow-left {
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-right:50px solid #DADADA;
+  border-right: 50px solid #dadada;
 }
-.arrow-left:hover{
-  border-right:50px solid #fff;
+.arrow-left:hover {
+  border-right: 50px solid #fff;
 }
-.arrow-right:hover{
-  border-left:50px solid #fff;
+.arrow-right:hover {
+  border-left: 50px solid #fff;
 }
 
 .spacer {
@@ -306,7 +309,8 @@ a#slideshow-all, a#slideshow-all:visited {
 }
 
 /* Popular Photos */
-#popular, .popular-link {
+#popular,
+.popular-link {
   position: absolute;
   top: 10px;
   width: 213px;
@@ -320,7 +324,8 @@ a#slideshow-all, a#slideshow-all:visited {
   bottom: 30px;
 }
 
-#popular h2, .popular-link h2 {
+#popular h2,
+.popular-link h2 {
   font-size: 16px;
 }
 
@@ -348,7 +353,7 @@ a#slideshow-all, a#slideshow-all:visited {
   margin-bottom: 50px;
   padding: 0 20px;
 }
-#content-area h3{
+#content-area h3 {
   padding: 0;
   margin: 0;
   padding-top: 15px;
@@ -361,11 +366,10 @@ a#slideshow-all, a#slideshow-all:visited {
   right: 0;
 }
 
-.description{
+.description {
   font-weight: bold;
   font-size: 20px;
 }
-
 
 .text,
 .more-on-back {
@@ -397,12 +401,12 @@ a#slideshow-all, a#slideshow-all:visited {
   color: rgb(87, 54, 25);
 }
 
-.comments{
+.comments {
   margin-top: 10px !important;
 }
 
 .og-grid li {
-  margin: 0 5px 10px 5px;  /* moves margin from top to bottom */
+  margin: 0 5px 10px 5px; /* moves margin from top to bottom */
 }
 
 .og-grid li.og-expanded > a::after {
@@ -447,26 +451,30 @@ a#slideshow-all, a#slideshow-all:visited {
   background: #dddddd;
 }
 
-.og-details .tweet, .og-details .facebook-holder {
+.og-details .tweet,
+.og-details .facebook-holder {
   display: inline-block;
   vertical-align: top;
   height: 20px;
-  overflow: hidden;  /* this hides the "Like" flyout */
+  overflow: hidden; /* this hides the "Like" flyout */
 }
-.og-details .social, .more-on-back {
+.og-details .social,
+.more-on-back {
   margin: 10px 0;
 }
 .og-details > div {
   position: relative;
 }
 
-.details, .feedback {
+.details,
+.feedback {
   position: absolute;
   left: 0;
   right: 0;
 }
 
-.feedback p, .feedback button {
+.feedback p,
+.feedback button {
   padding: 5px;
   margin: 10px 0;
   display: block;
@@ -474,22 +482,27 @@ a#slideshow-all, a#slideshow-all:visited {
 .feedback input {
   padding: 5px;
 }
-.feedback p { padding-left: 0; }
+.feedback p {
+  padding-left: 0;
+}
 .feedback .suggest-date button {
   display: inline-block;
 }
-.feedback a.back { font-style: italic; }
+.feedback a.back {
+  font-style: italic;
+}
 
-
-#popular::-webkit-scrollbar, .og-details::-webkit-scrollbar-thumb {
+#popular::-webkit-scrollbar,
+.og-details::-webkit-scrollbar-thumb {
   width: 6px;
   height: 6px;
   padding: 18px;
-  -webkit-border-radius: 1ex
+  -webkit-border-radius: 1ex;
 }
 
-#popular::-webkit-scrollbar-thumb, .og-details::-webkit-scrollbar-thumb {
-  background-color: rgba(053,057,071,0.3);
+#popular::-webkit-scrollbar-thumb,
+.og-details::-webkit-scrollbar-thumb {
+  background-color: rgba(053, 057, 071, 0.3);
   padding: 8px;
   width: 6px;
   height: 6px;
@@ -575,7 +588,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 }
 
 /* https://stackoverflow.com/a/67656246/388951 */
-.gm-style iframe + div { border:none!important; }
+.gm-style iframe + div {
+  border: none !important;
+}
 
 /* Feedback fade in/out */
 .details.fade-exit-done {
