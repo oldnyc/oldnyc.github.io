@@ -90,7 +90,7 @@ const lat_lon_to_name: { [latLng: string]: string | undefined } = {};
 
 // Does this lat_lon have a name, e.g. "Manhattan: 14th Street - 8th Avenue"?
 export function nameForLatLon(lat_lon: string) {
-  const v = lat_lon_to_name[lat_lon] || '';
+  const v = lat_lon_to_name[lat_lon] ?? '';
   return v.replace(/: | - | & /g, '\n');
 }
 

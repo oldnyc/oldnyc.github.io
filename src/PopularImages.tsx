@@ -10,7 +10,7 @@ function expandedImageUrl(photo_id: string) {
 
 export function PopularImages() {
   const [isVisible, setIsVisible] = React.useState(
-    document.cookie.indexOf('nopop=') === -1,
+    !document.cookie.includes('nopop='),
   );
 
   const shownPhotos = React.useMemo(() => {

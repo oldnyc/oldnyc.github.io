@@ -35,7 +35,7 @@ export function DetailView({
         ? info.text
         : '';
 
-  const hasBack = id.match('[0-9]f');
+  const hasBack = /[0-9]f/.exec(id);
   const ocrUrl = `/ocr.html#${id}`;
 
   const detailsRef = React.useRef<HTMLDivElement>(null);
@@ -103,6 +103,7 @@ export function DetailView({
             <Tweet
               href={window.location.href}
               via="Old_NYC @NYPL"
+              // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
               text={(info.original_title || info.title) + ' - ' + info.date}
             />{' '}
             <div className="facebook-holder">

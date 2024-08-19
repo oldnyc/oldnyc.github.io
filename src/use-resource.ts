@@ -65,7 +65,7 @@ function addListener(key: string, fn: () => void) {
     fns = [fn];
     listeners.set(key, fns);
   } else {
-    if (fns.indexOf(fn) === -1) {
+    if (!fns.includes(fn)) {
       fns.push(fn);
     }
   }

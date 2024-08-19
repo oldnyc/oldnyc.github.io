@@ -28,8 +28,8 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
   if (isFullTimeRange(yearRange)) return true;
 
   const [first, last] = yearRange;
-  for (let i = 0; i < info.years.length; i++) {
-    const year = info.years[i]; // could be empty string
+  for (const year of info.years) {
+    // year could be empty string
     if (year && Number(year) >= first && Number(year) <= last) return true;
   }
   return false;

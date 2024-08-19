@@ -12,6 +12,10 @@ export default tseslint.config(
     ...config,
     files: ['src/**/*.{ts,tsx}'], // We use TS config only for TS files
   })),
+  ...tseslint.configs.stylisticTypeChecked.map((config) => ({
+    ...config,
+    files: ['src/**/*.{ts,tsx}'], // We use TS config only for TS files
+  })),
   {
     files: ['src/**/*.{ts,tsx}'],
 
@@ -30,7 +34,9 @@ export default tseslint.config(
 
     // After defining the plugin, you can use the rules like this
     rules: {
-      '@typescript-eslint/no-unused-vars': 'error',
+      // Sometimes it's convenient to give the index a name.
+      '@typescript-eslint/consistent-indexed-object-style': 'off',
+      '@typescript-eslint/array-type': 'off', // ['error', {default: "array-simple"}],
     }
   }
 );

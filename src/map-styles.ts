@@ -109,14 +109,13 @@ export const MAP_STYLE: google.maps.MapTypeStyle[] = [
 
 function buildStaticStyle(styleStruct: google.maps.MapTypeStyle[]) {
   let style = '';
-  for (let i = 0; i < styleStruct.length; i++) {
-    const s = styleStruct[i];
+  for (const s of styleStruct) {
     const strs = [];
     if (s.featureType != null) strs.push('feature:' + s.featureType);
     if (s.elementType != null) strs.push('element:' + s.elementType);
     if (s.stylers != null) {
-      for (let j = 0; j < s.stylers.length; j++) {
-        for (const [key, value] of Object.entries(s.stylers[j])) {
+      for (const styler of s.stylers) {
+        for (const [key, value] of Object.entries(styler)) {
           if (typeof value !== 'string') {
             continue;
           }

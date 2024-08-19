@@ -17,7 +17,7 @@ import {
   sendFeedback,
 } from './feedback';
 
-if (window.location.search.indexOf('thanks') >= 0) {
+if (window.location.search.includes('thanks')) {
   $('#thanks').show();
 }
 
@@ -89,7 +89,7 @@ function next_image(id: string) {
     for (let i = 0; i < otherPhotoIds.length; i++) {
       const other_id = otherPhotoIds[(i + idx) % otherPhotoIds.length];
 
-      if (!other_id.match(/[0-9]f/)) {
+      if (!/[0-9]f/.exec(other_id)) {
         // no back of card for this photo
         continue;
       }
