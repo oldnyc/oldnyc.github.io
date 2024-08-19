@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ main ]
+    branches: [master]
   pull_request:
-    branches: [ main ]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,7 +35,7 @@ jobs:
         run: yarn
 
       - name: Log Versions
-        run: yarn tsc --version
+        run: yarn tsc --version; yarn knip --version; yarn eslint --version
 
       - name: eslint
         run: yarn lint
@@ -44,7 +44,7 @@ jobs:
         run: yarn format:check
 
       - name: Type Check
-        run: yarn tsc
+        run: yarn typecheck
 
       - name: Knip
         run: yarn knip
