@@ -25,8 +25,17 @@ export interface ExpandableGridProps {
   onDeselect?: () => void;
 }
 
+interface SelectionState {
+  selectedId?: string;
+  shouldTransition: boolean;
+}
+
 export function ExpandableGrid(props: ExpandableGridProps) {
-  const { selectedId } = props;
+  const externalSelectedId = props.selectedId;
+  const [selectionState, setSelectionState] = React.useState<SelectionState>({
+    selectedId: 'never',
+    shouldTransition: true,
+  });
   const gridRef = React.createRef<HTMLUListElement>();
   const [width, setWidth] = React.useState<number | null>(null);
 
@@ -46,22 +55,28 @@ export function ExpandableGrid(props: ExpandableGridProps) {
     };
   }, [resizeFn]);
 
-  const prevSelectedId = React.useRef<undefined | string>(selectedId);
-  React.useLayoutEffect(() => {
-    const prevId = prevSelectedId.current;
-    if (prevId !== selectedId) {
-      // console.log('selected ID changed', prevId, '->', selectedId);
-      // Only animate opening/closing
-      const shouldTransition = prevId === undefined || selectedId === undefined;
-      gridRef.current?.classList.toggle('og-transitionable', shouldTransition);
-      prevSelectedId.current = selectedId;
-    }
-  }, [gridRef, selectedId]);
+  React.useEffect(() => {
+    const prevId = selectionState.selectedId;
+    const selectedId = externalSelectedId;
+
+    // Only animate opening/closing
+    const shouldTransition = prevId === undefined || selectedId === undefined;
+    setSelectionState({ selectedId, shouldTransition });
+  }, [externalSelectedId]);
 
   return (
-    <ul className="og-grid" ref={gridRef}>
+    <ul
+      className={classNames('og-grid', {
+        'og-transitionable': selectionState.shouldTransition,
+      })}
+      ref={gridRef}
+    >
       {width === null ? null : (
-        <GridWithWidth {...props} containerWidth={width} />
+        <GridWithWidth
+          {...props}
+          selectedId={selectionState.selectedId}
+          containerWidth={width}
+        />
       )}
     </ul>
   );
