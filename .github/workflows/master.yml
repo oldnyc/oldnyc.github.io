@@ -35,7 +35,7 @@ jobs:
         run: yarn
 
       - name: Log Versions
-        run: yarn tsc --version
+        run: yarn tsc --version; yarn knip --version; yarn eslint --version
 
       - name: eslint
         run: yarn lint
