@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OldNYC OCR Correction</title>
+  <link rel="stylesheet" href="styles/ocr-tool.css" />
+</head>
+
+<body>
+<p><a id="back-link" href="/">← Back to OldNYC</a></p>
+<p id="thanks">Thanks for your contribution! Your changes should appear on OldNYC shortly.<br>If you'd like to keep up with OldNYC, <a href="http://eepurl.com/bouyCz">sign up</a> to receive email updates.</p>
+<div id="image">
+  <img class="back">
+  <p>
+    You might find a <a target="_blank" id="hi-res">higher-resolution image</a> on the NYPL site.
+    <a href='#' class="rotate-image-button">
+      <img src="/images/rotate.png" width="29" height="29" />
+    </a>
+  </p>
+</div>
+<div id="ocr">
+  <h3>OldNYC OCR Correction</h3>
+  <p class="instructions">
+  Please adjust the text on the right to match what you see on the left. When
+  you're done, hit the "Submit" button. There's no need to include reuse lines
+  like "MAY BE REPRODUCED" or "NO REPRODUCTIONS". If the text is already
+  perfect, just hit "Submit". If there's no text on the card, hit "No Text".
+  </p>
+  <p class="instructions">
+  Please transcribe the text exactly as it appears. Your own anecdotes are
+  valuable, but these are better left as comments than as transcriptions.
+  </p>
+  <textarea id="text" rows="25"></textarea>
+  <p>
+    <button id="notext">No Text</button>
+    <button id="submit" style="float:right">Submit</button>
+  </p>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="static/timestamps.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54335760-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
