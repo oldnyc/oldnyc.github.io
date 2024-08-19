@@ -55,20 +55,6 @@ export function ExpandableGrid(props: ExpandableGridProps) {
     };
   }, [resizeFn]);
 
-  /*
-  const prevSelectedId = React.useRef<undefined | string>(selectedId);
-  React.useLayoutEffect(() => {
-    const prevId = prevSelectedId.current;
-    if (prevId !== selectedId) {
-      // console.log('selected ID changed', prevId, '->', selectedId);
-      // Only animate opening/closing
-      const shouldTransition = prevId === undefined || selectedId === undefined;
-      gridRef.current?.classList.toggle('og-transitionable', shouldTransition);
-      prevSelectedId.current = selectedId;
-    }
-  }, [gridRef, selectedId]);
-  */
-
   React.useEffect(() => {
     const prevId = selectionState.selectedId;
     const selectedId = externalSelectedId;
@@ -86,7 +72,11 @@ export function ExpandableGrid(props: ExpandableGridProps) {
       ref={gridRef}
     >
       {width === null ? null : (
-        <GridWithWidth {...props} containerWidth={width} />
+        <GridWithWidth
+          {...props}
+          selectedId={selectionState.selectedId}
+          containerWidth={width}
+        />
       )}
     </ul>
   );
