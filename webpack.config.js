@@ -4,10 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    main: './src/main.tsx'
-    // ocr: './js/ocr-tool.ts'
+    main: './src/main.tsx',
+    ocr: './src/ocr-tool.ts'
   },
-  // devtool: '#cheap-module-source-map',
+  devtool: 'source-map',
   output: {
     clean: true,
     path: __dirname + '/dist',
@@ -47,6 +47,14 @@ module.exports = {
       inject: 'body',
       scriptLoading: 'blocking',
       chunks: ["main"],
+      minify: false
+    }),
+    new HtmlWebpackPlugin({
+      template: __dirname + '/src/ocr.template.html',
+      filename: __dirname + '/dist/ocr.html',
+      inject: 'body',
+      scriptLoading: 'blocking',
+      chunks: ["ocr"],
       minify: false
     })
   ],
