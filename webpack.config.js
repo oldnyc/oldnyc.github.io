@@ -46,7 +46,8 @@ module.exports = {
       filename: __dirname + '/dist/index.html',
       inject: 'body',
       scriptLoading: 'blocking',
-      chunks: ["main"]
+      chunks: ["main"],
+      minify: false
     })
   ],
   devServer: {
