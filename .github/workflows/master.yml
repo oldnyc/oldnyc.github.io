@@ -44,7 +44,7 @@ jobs:
         run: yarn format:check
 
       - name: Type Check
-        run: yarn tsc
+        run: yarn typecheck
 
       - name: Knip
         run: yarn knip
