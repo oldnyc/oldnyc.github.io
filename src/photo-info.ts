@@ -8,11 +8,6 @@ const photo_id_to_info: {[photoId: string]: PhotoInfo} = {};
 const SITE = '';
 const JSON_BASE = SITE + '/by-location';
 
-export interface LightPhotoInfo {
-  title: string;
-  date: string;
-}
-
 /** Value type for popular.json, by-location/*.json */
 export interface PhotoInfo {
   id: string;
@@ -124,4 +119,8 @@ export function libraryUrl(photo_id: string, url: string | undefined) {
   // e.g. 123456-a -> 123456
   photo_id = photo_id.replace(/-.*/, '');
   return url ?? `https://digitalcollections.nypl.org/search/index?keywords=${photo_id}`;
+}
+
+export function getCanonicalUrlForPhoto(photo_id: string) {
+  return 'http://www.oldnyc.org/#' + photo_id;
 }

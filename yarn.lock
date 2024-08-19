@@ -197,11 +197,6 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/facebook-js-sdk@^3.3.7":
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/@types/facebook-js-sdk/-/facebook-js-sdk-3.3.7.tgz#43c96cb4376ad445fcbe522cf66590d4620d7037"
-  integrity sha512-HNtw1sK489TEBf3Pf14l6ppOI7JzWcZSNyFI/kXyClM/qCg6WYXv/jmq6K9v2Ib9G2jG//8bXxX6vIAEHDj3QQ==
-
 "@types/google.analytics@^0.0.43":
   version "0.0.43"
   resolved "https://registry.yarnpkg.com/@types/google.analytics/-/google.analytics-0.0.43.tgz#8f1d02fa1347de24f4ccdc898011577044d80d98"
@@ -234,31 +229,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/jquery-mousewheel@^3.1.10":
-  version "3.1.10"
-  resolved "https://registry.yarnpkg.com/@types/jquery-mousewheel/-/jquery-mousewheel-3.1.10.tgz#79dc009a330bbc0e9fe047e31669addedb8cb804"
-  integrity sha512-idrVWKKu3aFmG/7IngPXJsx7UnOLR4nNW2m/jP8bgEPKsItqYCYZyJLIgiI0dTFGlMErHLz+HpYrtwMCNz0ePg==
-  dependencies:
-    "@types/jquery" "*"
-
-"@types/jquery@*":
-  version "3.5.20"
-  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.20.tgz#a23eece847591c7aaa47c52d6910052af473df4e"
-  integrity sha512-UI+EGhgYD4LdSZ8gaiziFqXYIIB38VQSDsnAs8jL/div7FGrzrShx4HKCykVzk3tPfiIlusdNP9Wi3G60LCF2Q==
-  dependencies:
-    "@types/sizzle" "*"
-
 "@types/jquery@^1.10.41":
   version "1.10.41"
   resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-1.10.41.tgz#89602c85f0d455825e05a8425cb8c2a8af638917"
   integrity sha512-7Gc49Tu+Mq6C18xzOisPHVIItgpI67KJmEAa5q/7uyD4RwejCAsilhfrzivWndjW5us45VLlmLNHtP/E2oKUVw==
-
-"@types/jqueryui@1.12":
-  version "1.12.18"
-  resolved "https://registry.yarnpkg.com/@types/jqueryui/-/jqueryui-1.12.18.tgz#5112277df93534dfd99388e8b9258f63f007bf5e"
-  integrity sha512-crlmH8kFzIiU+4aBFgvYUjykSaOTP5RDw7NqkFkcSNWFAF/SMPrr7sY1uNXDEhite/2pEwUoZlufQoy87A22LA==
-  dependencies:
-    "@types/jquery" "*"
 
 "@types/json-schema@*", "@types/json-schema@^7.0.8":
   version "7.0.13"
@@ -384,11 +358,6 @@
     "@types/node" "*"
     "@types/send" "*"
 
-"@types/sizzle@*":
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.4.tgz#cd6531924f60834fa4a1b8081f9eecf9bb1117f0"
-  integrity sha512-jA2llq2zNkg8HrALI7DtWzhALcVH0l7i89yhY3iBdOz6cBPeACoFq+fkQrjHA39t1hnSFOboZ7A/AY5MMZSlag==
-
 "@types/sockjs@^0.3.36":
   version "0.3.36"
   resolved "https://registry.yarnpkg.com/@types/sockjs/-/sockjs-0.3.36.tgz#ce322cf07bcc119d4cbf7f88954f3a3bd0f67535"
@@ -407,11 +376,6 @@
   integrity sha512-3tPRkv1EtkDpzlgyKyI8pGsGZAGPEaXeu0DOj5DI25Ja91bdAYddYHbADRYVrZMRbfW+1l5YwXVDKohDJNQxkQ==
   dependencies:
     "@types/node" "*"
-
-"@types/zeroclipboard@^2.0.35":
-  version "2.0.35"
-  resolved "https://registry.yarnpkg.com/@types/zeroclipboard/-/zeroclipboard-2.0.35.tgz#8c062fd10f665f1ddd45a9f83efcc4211241a8ea"
-  integrity sha512-C12ktr89j47bRBT29Q6i7/vNZ1r+xQFy+ghUU1oj3xLZNNbqdSy3DT0rBeXjW5XWE9UU5sSrJFNHOj0LECTLVw==
 
 "@webassemblyjs/ast@1.11.6", "@webassemblyjs/ast@^1.11.5":
   version "1.11.6"
@@ -3796,11 +3760,6 @@ typescript@^5.5.4:
   version "5.5.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.4.tgz#d9852d6c82bad2d2eda4fd74a5762a8f5909e9ba"
   integrity sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==
-
-underscore@^1.8.3:
-  version "1.13.6"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
-  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
 
 undici-types@~6.19.2:
   version "6.19.8"

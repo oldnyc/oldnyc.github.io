@@ -5,10 +5,10 @@ import {
   PhotoInfo,
   backId,
   descriptionForPhotoId,
+  getCanonicalUrlForPhoto,
   infoForPhotoId,
   libraryUrl,
 } from "./photo-info";
-import { getCanonicalUrlForPhoto } from "./social";
 import { FeedbackType, getFeedbackText, sendFeedback } from "./feedback";
 import { useResource } from "./use-resource";
 import { SuspenseImage } from "./grid/SuspenseImage";

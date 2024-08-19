@@ -21,12 +21,9 @@
   },
   "homepage": "https://github.com/oldnyc/oldnyc.github.io#readme",
   "devDependencies": {
-    "@types/facebook-js-sdk": "^3.3.7",
     "@types/google.analytics": "^0.0.43",
     "@types/google.maps": "^3.54.2",
     "@types/jquery": "^1.10.41",
-    "@types/jquery-mousewheel": "^3.1.10",
-    "@types/jqueryui": "1.12",
     "@types/node": "^22.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -34,7 +31,6 @@
     "@types/react-router-dom": "5",
     "@types/react-transition-group": "^4.4.11",
     "@types/twitter-for-web": "^0.0.3",
-    "@types/zeroclipboard": "^2.0.35",
     "eslint": "^2.10.2",
     "eslint-plugin-import": "^1.8.0",
     "html-webpack-plugin": "^5.6.0",
@@ -53,7 +49,6 @@
     "react-facebook": "^9.0.12",
     "react-helmet": "^6.1.0",
     "react-router-dom": "5",
-    "react-transition-group": "^4.4.5",
-    "underscore": "^1.8.3"
+    "react-transition-group": "^4.4.5"
   }
 }
