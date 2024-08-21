@@ -11,6 +11,7 @@ import { ExpandableGrid } from './grid/grid';
 import { useHistory } from 'react-router-dom';
 import { photoIdToLatLon } from './photo-id-to-lat-lon';
 import { DetailView, ImagePreview } from './ImageDetails';
+import { useResource } from './use-resource';
 
 export interface SlideshowProps {
   latLon: string;
@@ -52,29 +53,39 @@ function areSiblings(id1: string, id2: string) {
   return id1.split('-')[0] === id2.split('-')[0];
 }
 
+async function loadPhotoIds(latLon: string) {
+  const photoIds = await loadInfoForLatLon(latLon);
+  for (const photoId of photoIds) {
+    photoIdToLatLon[photoId] = latLon;
+  }
+  return photoIds;
+}
+
 export function Slideshow(props: SlideshowProps) {
   const { latLon, yearRange, selectedPhotoId, onResetYears } = props;
-  const [photoIds, setPhotoIds] = React.useState<string[] | null>();
   const isFullRange = isFullTimeRange(yearRange);
 
   const history = useHistory();
 
-  // TODO: model this with resource pattern
+  const photoIdsResource = useResource(latLon, () => loadPhotoIds(latLon));
+
+  const photoIds =
+    photoIdsResource.status === 'success' ? photoIdsResource.data : null;
+
+  // Auto-open the first image with ten or fewer in the grid.
+  // We need to take care not to do this if there's already a selected image
+  // (say via a URL parameter).
+  const hasAutoOpened = React.useRef(false);
   React.useEffect(() => {
-    (async () => {
-      const photoIds = await loadInfoForLatLon(latLon);
-      for (const photoId of photoIds) {
-        photoIdToLatLon[photoId] = latLon;
-      }
-      setPhotoIds(photoIds);
-      if (photoIds.length <= 10) {
-        const photoId = photoIds[0];
-        history.replace(`/${photoId}`);
-      }
-    })().catch((e) => {
-      console.error(e);
-    });
-  }, [latLon]);
+    if (hasAutoOpened.current || !photoIds || selectedPhotoId) {
+      return;
+    }
+    hasAutoOpened.current = true;
+    if (photoIds.length <= 10) {
+      const photoId = photoIds[0];
+      history.replace(`/${photoId}`);
+    }
+  }, [hasAutoOpened, photoIds]);
 
   const images = React.useMemo(() => {
     if (!photoIds) return null;
