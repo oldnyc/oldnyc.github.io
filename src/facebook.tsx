@@ -30,8 +30,12 @@ export function Comment(props: SocialProps) {
           data-width="${width}"
           data-version="v2.3"
         />`;
-      // eslint-disable-next-line
-      FB.XFBML.parse(comments);
+      try {
+        // eslint-disable-next-line
+        FB.XFBML.parse(comments);
+      } catch (e) {
+        console.error(e);
+      }
     }
   }, [url]);
 
@@ -58,8 +62,12 @@ export function Like(props: LikeProps) {
           share="true"
           href="${url}"
         />`;
-      // eslint-disable-next-line
-      FB.XFBML.parse(like);
+      try {
+        // eslint-disable-next-line
+        FB.XFBML.parse(like);
+      } catch (e) {
+        console.error(e);
+      }
     }
   }, [url]);
 
