@@ -23,6 +23,23 @@
 </head>
 
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '598168753565519',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
   <div id="app"></div>
 
   <script type="text/javascript"
@@ -41,5 +58,5 @@
     ga('create', 'UA-54335760-1', 'auto');
     ga('send', 'pageview');
   </script>
-<script src="bundle/main.3b815ed0a7fc242126a8.js"></script></body>
+<script src="bundle/main.2197777819cad105950c.js"></script></body>
 </html>
