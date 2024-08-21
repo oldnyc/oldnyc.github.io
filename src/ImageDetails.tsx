@@ -13,7 +13,7 @@ import { useResource } from './use-resource';
 import { SuspenseImage } from './grid/SuspenseImage';
 import classNames from 'classnames';
 import { GridImage } from './grid/grid';
-import { Comment } from './Comment';
+import { Comment, Like } from './facebook';
 
 export function DetailView({
   image,
@@ -98,29 +98,13 @@ export function DetailView({
               // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
               text={(info.original_title || info.title) + ' - ' + info.date}
             />{' '}
-            {/*
             <div className="facebook-holder">
-              <Like
-                href={canonicalUrl}
-                layout="button"
-                action="like"
-                showFaces={false}
-                share
-              />
+              <Like url={canonicalUrl} id="details-like" />
             </div>
-            */}
           </div>
 
           <div className="comments">
             <Comment url={canonicalUrl} />
-            {/*
-            <Comments
-              numPosts={5}
-              colorScheme="light"
-              href={canonicalUrl}
-              width={width}
-            />
-            */}
           </div>
         </div>
       </CSSTransition>
