@@ -18,7 +18,6 @@ import { getLatLonForPhotoId, photoIdToLatLon } from './photo-id-to-lat-lon';
 import { PopularImages } from './PopularImages';
 import { Header } from './Header';
 import { About } from './About';
-import { FacebookProvider } from 'react-facebook';
 
 interface UrlParams {
   photoId?: string;
