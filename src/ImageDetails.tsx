@@ -1,5 +1,4 @@
 import React from 'react';
-import { Comments, Like } from 'react-facebook';
 import { CSSTransition } from 'react-transition-group';
 import {
   PhotoInfo,
@@ -14,6 +13,7 @@ import { useResource } from './use-resource';
 import { SuspenseImage } from './grid/SuspenseImage';
 import classNames from 'classnames';
 import { GridImage } from './grid/grid';
+import { Comment, Like } from './facebook';
 
 export function DetailView({
   image,
@@ -39,14 +39,6 @@ export function DetailView({
   const ocrUrl = `/ocr.html#${id}`;
 
   const detailsRef = React.useRef<HTMLDivElement>(null);
-  const [width, setWidth] = React.useState(0);
-  React.useEffect(() => {
-    if (detailsRef.current) {
-      // TODO: track window resizes?
-      setWidth(detailsRef.current.getBoundingClientRect().width);
-    }
-  }, [detailsRef]);
-
   const [feedbackVisible, setFeedbackVisible] = React.useState(false);
 
   const showFeedback: React.MouseEventHandler = React.useCallback((e) => {
@@ -107,23 +99,12 @@ export function DetailView({
               text={(info.original_title || info.title) + ' - ' + info.date}
             />{' '}
             <div className="facebook-holder">
-              <Like
-                href={canonicalUrl}
-                layout="button"
-                action="like"
-                showFaces={false}
-                share
-              />
+              <Like url={canonicalUrl} id="details-like" />
             </div>
           </div>
 
           <div className="comments">
-            <Comments
-              numPosts={5}
-              colorScheme="light"
-              href={canonicalUrl}
-              width={width}
-            />
+            <Comment url={canonicalUrl} />
           </div>
         </div>
       </CSSTransition>

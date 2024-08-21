@@ -18,7 +18,6 @@ import { getLatLonForPhotoId, photoIdToLatLon } from './photo-id-to-lat-lon';
 import { PopularImages } from './PopularImages';
 import { Header } from './Header';
 import { About } from './About';
-import { FacebookProvider } from 'react-facebook';
 
 interface UrlParams {
   photoId?: string;
@@ -94,7 +93,7 @@ function PhotoApp() {
   }, [location]);
 
   return (
-    <FacebookProvider appId="598168753565519" xfbml>
+    <>
       <Helmet>
         <title>{pageTitle(params)}</title>
       </Helmet>
@@ -119,7 +118,7 @@ function PhotoApp() {
         />
       )}
       {isAbout && <About />}
-    </FacebookProvider>
+    </>
   );
 }
 

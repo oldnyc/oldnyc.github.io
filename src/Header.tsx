@@ -1,17 +1,15 @@
 import React from 'react';
-import { Like } from 'react-facebook';
 import { Link } from 'react-router-dom';
+import { Like } from './facebook';
 
 export function Header() {
   return (
     <div className="social-about">
       <div id="facebook">
         <Like
-          href="http://www.oldnyc.org"
-          layout="button_count"
-          action="like"
-          showFaces={false}
-          share
+          // https would be better, but the like count is much lower.
+          url="http://www.oldnyc.org"
+          id="header-like"
         />
       </div>
       <div id="twitter">
