@@ -260,6 +260,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/facebook-js-sdk@^3.3.11":
+  version "3.3.11"
+  resolved "https://registry.yarnpkg.com/@types/facebook-js-sdk/-/facebook-js-sdk-3.3.11.tgz#c0a9dde1142d21b6a80cb4527b77e99c6cccbece"
+  integrity sha512-VMIZR6zG7rwGrviiKdujALtckGwsnz2V4tTFvmriAl4MKjNRwh5Gz6g3eExla9BB5eDPB+AREQVoIMekcxv9tg==
+
 "@types/google.analytics@^0.0.43":
   version "0.0.43"
   resolved "https://registry.yarnpkg.com/@types/google.analytics/-/google.analytics-0.0.43.tgz#8f1d02fa1347de24f4ccdc898011577044d80d98"

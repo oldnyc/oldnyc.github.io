@@ -1,5 +1,4 @@
 import React from 'react';
-import { Comments, Like } from 'react-facebook';
 import { CSSTransition } from 'react-transition-group';
 import {
   PhotoInfo,
@@ -14,6 +13,7 @@ import { useResource } from './use-resource';
 import { SuspenseImage } from './grid/SuspenseImage';
 import classNames from 'classnames';
 import { GridImage } from './grid/grid';
+import { Comment } from './Comment';
 
 export function DetailView({
   image,
@@ -39,14 +39,6 @@ export function DetailView({
   const ocrUrl = `/ocr.html#${id}`;
 
   const detailsRef = React.useRef<HTMLDivElement>(null);
-  const [width, setWidth] = React.useState(0);
-  React.useEffect(() => {
-    if (detailsRef.current) {
-      // TODO: track window resizes?
-      setWidth(detailsRef.current.getBoundingClientRect().width);
-    }
-  }, [detailsRef]);
-
   const [feedbackVisible, setFeedbackVisible] = React.useState(false);
 
   const showFeedback: React.MouseEventHandler = React.useCallback((e) => {
@@ -120,7 +112,7 @@ export function DetailView({
           </div>
 
           <div className="comments">
-            Comments
+            <Comment url={canonicalUrl} />
             {/*
             <Comments
               numPosts={5}

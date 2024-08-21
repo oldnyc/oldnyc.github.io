@@ -1,5 +1,4 @@
 import React from 'react';
-import { FacebookProvider, Like } from 'react-facebook';
 import { Link } from 'react-router-dom';
 
 export function Header() {
