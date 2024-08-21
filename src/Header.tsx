@@ -1,19 +1,22 @@
 import React from 'react';
-import { Like } from 'react-facebook';
+import { FacebookProvider, Like } from 'react-facebook';
 import { Link } from 'react-router-dom';
 
 export function Header() {
+  // <FacebookProvider appId="598168753565519">
   return (
     <div className="social-about">
-      <div id="facebook">
-        <Like
-          href="http://www.oldnyc.org"
-          layout="button_count"
-          action="like"
-          showFaces={false}
-          share
-        />
-      </div>
+      {/*
+        <div id="facebook">
+          <Like
+            href="http://www.oldnyc.org"
+            layout="button_count"
+            action="like"
+            showFaces={false}
+            share
+          />
+        </div>
+        */}
       <div id="twitter">
         <a
           href="http://twitter.com/share"

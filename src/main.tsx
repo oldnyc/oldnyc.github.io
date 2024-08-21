@@ -94,7 +94,7 @@ function PhotoApp() {
   }, [location]);
 
   return (
-    <FacebookProvider appId="598168753565519" xfbml>
+    <>
       <Helmet>
         <title>{pageTitle(params)}</title>
       </Helmet>
@@ -119,7 +119,7 @@ function PhotoApp() {
         />
       )}
       {isAbout && <About />}
-    </FacebookProvider>
+    </>
   );
 }
 
