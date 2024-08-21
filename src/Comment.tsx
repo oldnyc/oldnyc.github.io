@@ -13,15 +13,17 @@ export function Comment(props: CommentProps) {
         console.log('no comments el');
         return;
       }
-      // const width = comments.parentElement!.getBoundingClientRect().width;
+      const width = Math.round(
+        comments.parentElement!.getBoundingClientRect().width,
+      );
       comments.innerHTML = `
         <fb:comments
           data-numposts="5"
           data-colorscheme="light"
           data-href="${url}"
+          data-width="${width}"
           data-version="v2.3"
         />`;
-      // .attr('data-width', width)
       // eslint-disable-next-line
       FB.XFBML.parse(comments);
     }
