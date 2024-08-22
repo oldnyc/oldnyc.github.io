@@ -99,7 +99,7 @@ export function DetailView({
               text={(info.original_title || info.title) + ' - ' + info.date}
             />{' '}
             <div className="facebook-holder">
-              <Like url={canonicalUrl} id="details-like" />
+              <Like url={canonicalUrl} id="details-like" layout="button" />
             </div>
           </div>
 

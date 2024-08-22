@@ -9,6 +9,7 @@ export function Header() {
         <Like
           // https would be better, but the like count is much lower.
           url="http://www.oldnyc.org"
+          layout="button_count"
           id="header-like"
         />
       </div>

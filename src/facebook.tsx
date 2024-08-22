@@ -44,10 +44,11 @@ export function Comment(props: SocialProps) {
 
 export interface LikeProps extends SocialProps {
   id: string;
+  layout: 'button' | 'button_count';
 }
 
 export function Like(props: LikeProps) {
-  const { id, url } = props;
+  const { id, layout, url } = props;
   React.useEffect(() => {
     if (typeof FB != 'undefined') {
       const like = document.getElementById(id);
@@ -56,7 +57,7 @@ export function Like(props: LikeProps) {
       }
       like.innerHTML = `
         <fb:like
-          layout="button"
+          layout="${layout}"
           action="like"
           show_faces="false"
           share="true"
@@ -69,7 +70,7 @@ export function Like(props: LikeProps) {
         console.error(e);
       }
     }
-  }, [url]);
+  }, [url, layout]);
 
   return <div id={id}></div>;
 }
