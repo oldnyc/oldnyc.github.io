@@ -1,6 +1,7 @@
 [
   {
     "date": "1924",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 403,
     "id": "728440f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1924",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 399,
     "id": "728440f-b",
@@ -33,6 +35,7 @@
   },
   {
     "date": "1929; 1930",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 401,
     "id": "728441f-a",
@@ -50,6 +53,7 @@
   },
   {
     "date": "1929; 1930",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 400,
     "id": "728441f-b",
@@ -67,6 +71,7 @@
   },
   {
     "date": "1931",
+    "date_source": "nypl",
     "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
     "height": 405,
     "id": "729320f-a",
@@ -83,6 +88,7 @@
   },
   {
     "date": "1931",
+    "date_source": "nypl",
     "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
     "height": 403,
     "id": "729320f-b",
@@ -99,6 +105,7 @@
   },
   {
     "date": "1931",
+    "date_source": "nypl",
     "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
     "height": 401,
     "id": "729320f-c",
@@ -115,6 +122,7 @@
   },
   {
     "date": "1931",
+    "date_source": "nypl",
     "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
     "height": 402,
     "id": "729322f-a",
@@ -131,6 +139,7 @@
   },
   {
     "date": "1931",
+    "date_source": "nypl",
     "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
     "height": 403,
     "id": "729322f-b",
@@ -147,6 +156,7 @@
   },
   {
     "date": "1931",
+    "date_source": "nypl",
     "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
     "height": 399,
     "id": "729322f-c",
@@ -163,6 +173,7 @@
   },
   {
     "date": "1932",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 400,
     "id": "728366f-a",
@@ -179,6 +190,7 @@
   },
   {
     "date": "1932",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 400,
     "id": "728447f-a",
@@ -196,6 +208,7 @@
   },
   {
     "date": "1932",
+    "date_source": "nypl",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 600,
     "id": "728447f-b",
@@ -211,23 +224,8 @@
     ]
   },
   {
-    "date": "1936",
-    "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
-    "height": 399,
-    "id": "729321f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/729321f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/244d6230-c55c-012f-9c32-58d385a7bc34",
-    "original_title": "Richmond: Richmond Avenue - Arthur Kill Road",
-    "text": "Richmond Avenue, at Arthur Eill Road.\nMay 22, 1936\nP. L. Sperr\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729321f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      "1936"
-    ]
-  },
-  {
-    "date": "",
+    "date": "1936-05-22, 1936-05-22",
+    "date_source": "text",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 600,
     "id": "728367f-a",
@@ -239,11 +237,13 @@
     "title": "",
     "width": 402,
     "years": [
-      ""
+      "1936",
+      "1936"
     ]
   },
   {
-    "date": "",
+    "date": "1936-05-22, 1936-05-22",
+    "date_source": "text",
     "folder": "Arthur Kill Road & Richmond Avenue, Staten Island, NY",
     "height": 401,
     "id": "728367f-b",
@@ -256,7 +256,25 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1936",
+      "1936"
+    ]
+  },
+  {
+    "date": "1936",
+    "date_source": "nypl",
+    "folder": "Richmond Avenue & Arthur Kill Road, Staten Island, NY",
+    "height": 399,
+    "id": "729321f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/729321f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/244d6230-c55c-012f-9c32-58d385a7bc34",
+    "original_title": "Richmond: Richmond Avenue - Arthur Kill Road",
+    "text": "Richmond Avenue, at Arthur Eill Road.\nMay 22, 1936\nP. L. Sperr\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729321f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1936"
     ]
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "date": "1933",
+    "date_source": "nypl",
     "folder": "5th Avenue & Washington Mews, Manhattan, NY",
     "height": 600,
     "id": "708296f-a",
@@ -16,6 +17,7 @@
   },
   {
     "date": "1933",
+    "date_source": "nypl",
     "folder": "5th Avenue & Washington Mews, Manhattan, NY",
     "height": 600,
     "id": "708296f-b",
@@ -31,6 +33,7 @@
   },
   {
     "date": "1933; 1939",
+    "date_source": "nypl",
     "folder": "5th Avenue & Washington Mews, Manhattan, NY",
     "height": 405,
     "id": "723973f-a",
@@ -47,6 +50,7 @@
   },
   {
     "date": "1933; 1939",
+    "date_source": "nypl",
     "folder": "5th Avenue & Washington Mews, Manhattan, NY",
     "height": 404,
     "id": "723973f-b",
@@ -63,6 +67,7 @@
   },
   {
     "date": "1933; 1939",
+    "date_source": "nypl",
     "folder": "5th Avenue & Washington Mews, Manhattan, NY",
     "height": 399,
     "id": "723973f-c",
@@ -78,22 +83,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "Fifth Avenue #2 west side, Manhattan, NY",
-    "height": 369,
-    "id": "1508729",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/1508729.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/883907e0-c5ce-012f-757f-58d385a7bc34",
-    "text": null,
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/1508729.jpg",
-    "title": "Fifth Avenue #2 west side",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1933-05-29, 2024-03-29, 1939-05-10",
+    "date_source": "text",
     "folder": "Washington Mews & 5th Avenue, Manhattan, NY",
     "height": 398,
     "id": "723974f-a",
@@ -105,11 +96,14 @@
     "title": "Manhattan: Washington Mews - 5th Avenue",
     "width": 600,
     "years": [
-      ""
+      "1933",
+      "2024",
+      "1939"
     ]
   },
   {
-    "date": "",
+    "date": "1933-05-29, 2024-03-29, 1939-05-10",
+    "date_source": "text",
     "folder": "Washington Mews & 5th Avenue, Manhattan, NY",
     "height": 600,
     "id": "723974f-b",
@@ -120,11 +114,14 @@
     "title": "Manhattan: Washington Mews - 5th Avenue",
     "width": 399,
     "years": [
-      ""
+      "1933",
+      "2024",
+      "1939"
     ]
   },
   {
-    "date": "",
+    "date": "1933-05-29, 2024-03-29, 1939-05-10",
+    "date_source": "text",
     "folder": "Washington Mews & 5th Avenue, Manhattan, NY",
     "height": 600,
     "id": "723974f-c",
@@ -134,6 +131,24 @@
     "thumb_url": "https://oldnyc-assets.nypl.org/thumb/723974f-c.jpg",
     "title": "Manhattan: Washington Mews - 5th Avenue",
     "width": 408,
+    "years": [
+      "1933",
+      "2024",
+      "1939"
+    ]
+  },
+  {
+    "date": "",
+    "date_source": "nypl",
+    "folder": "Fifth Avenue #2 west side, Manhattan, NY",
+    "height": 369,
+    "id": "1508729",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/1508729.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/883907e0-c5ce-012f-757f-58d385a7bc34",
+    "text": null,
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/1508729.jpg",
+    "title": "Fifth Avenue #2 west side",
+    "width": 600,
     "years": [
       ""
     ]

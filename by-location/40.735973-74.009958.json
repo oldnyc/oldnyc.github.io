@@ -1,6 +1,7 @@
 [
   {
     "date": "1918",
+    "date_source": "nypl",
     "folder": "West Street & Bank Street, Manhattan, NY",
     "height": 428,
     "id": "724739f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1930",
+    "date_source": "nypl",
     "folder": "West Street & Bank Street, Manhattan, NY",
     "height": 600,
     "id": "724738f-a",
@@ -32,22 +34,8 @@
     ]
   },
   {
-    "date": "1936",
-    "folder": "??Bank Street & West Street, Manhattan, NY",
-    "height": 499,
-    "id": "716441f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/716441f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/3c976160-c548-012f-2d26-58d385a7bc34",
-    "text": "Bank Street, east from West Street, showing the W.P.A. resurfacing this street. On Washington and Greenwich Streets respectively, appear the raised road beds of the New York Central Railroad and the Ninth Ave. Elevated Line. August 12, 1936. W.P.A. Photo. Federal Art Project.",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/716441f-a.jpg",
-    "title": "??Manhattan: Bank Street - West Street",
-    "width": 600,
-    "years": [
-      "1936"
-    ]
-  },
-  {
-    "date": "",
+    "date": "1931-04-18",
+    "date_source": "text",
     "folder": "Bank Street & West Street, Manhattan, NY",
     "height": 600,
     "id": "716442f-a",
@@ -59,7 +47,23 @@
     "title": "",
     "width": 403,
     "years": [
-      ""
+      "1931"
+    ]
+  },
+  {
+    "date": "1936",
+    "date_source": "nypl",
+    "folder": "??Bank Street & West Street, Manhattan, NY",
+    "height": 499,
+    "id": "716441f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/716441f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/3c976160-c548-012f-2d26-58d385a7bc34",
+    "text": "Bank Street, east from West Street, showing the W.P.A. resurfacing this street. On Washington and Greenwich Streets respectively, appear the raised road beds of the New York Central Railroad and the Ninth Ave. Elevated Line. August 12, 1936. W.P.A. Photo. Federal Art Project.",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/716441f-a.jpg",
+    "title": "??Manhattan: Bank Street - West Street",
+    "width": 600,
+    "years": [
+      "1936"
     ]
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "date": "12560",
+    "date_source": "nypl",
     "folder": "3rd Avenue & west side & north from No. 134, south of 15th Street., Manhattan, NY",
     "height": 600,
     "id": "708010f-a",
@@ -16,6 +17,7 @@
   },
   {
     "date": "12560",
+    "date_source": "nypl",
     "folder": "3rd Avenue & west side & north from 15th Street., Manhattan, NY",
     "height": 408,
     "id": "708011f-a",
@@ -30,22 +32,8 @@
     ]
   },
   {
-    "date": "47312",
-    "folder": "3rd Avenue & east side & between East 14th and 15th Streets., Manhattan, NY",
-    "height": 397,
-    "id": "708009f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/708009f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/c79edba0-c53a-012f-7c91-58d385a7bc34",
-    "text": "Third Ave., east side, between East 14th (right) and 15th Streets, as seen from the Consolidated Gas co. building.\n\nJuly 13, 1929.\n\nP. L. Sperr.\nNO REPRODUCTIONS.",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/708009f-a.jpg",
-    "title": "Manhattan: 3rd Avenue - east side - between East 14th and 15th Streets.",
-    "width": 600,
-    "years": [
-      "47312"
-    ]
-  },
-  {
-    "date": "",
+    "date": "1934-05-21",
+    "date_source": "text",
     "folder": "15th Street (East) & 3rd Avenue, Manhattan, NY",
     "height": 600,
     "id": "711324f-a",
@@ -57,7 +45,23 @@
     "title": "",
     "width": 404,
     "years": [
-      ""
+      "1934"
+    ]
+  },
+  {
+    "date": "47312",
+    "date_source": "nypl",
+    "folder": "3rd Avenue & east side & between East 14th and 15th Streets., Manhattan, NY",
+    "height": 397,
+    "id": "708009f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/708009f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/c79edba0-c53a-012f-7c91-58d385a7bc34",
+    "text": "Third Ave., east side, between East 14th (right) and 15th Streets, as seen from the Consolidated Gas co. building.\n\nJuly 13, 1929.\n\nP. L. Sperr.\nNO REPRODUCTIONS.",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/708009f-a.jpg",
+    "title": "Manhattan: 3rd Avenue - east side - between East 14th and 15th Streets.",
+    "width": 600,
+    "years": [
+      "47312"
     ]
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "date": "1929; 1934; 1937",
+    "date_source": "nypl",
     "folder": "Delancey Street & Norfolk Street, Manhattan, NY",
     "height": 402,
     "id": "719282f-a",
@@ -20,6 +21,7 @@
   },
   {
     "date": "1929; 1934; 1937",
+    "date_source": "nypl",
     "folder": "Delancey Street & Norfolk Street, Manhattan, NY",
     "height": 600,
     "id": "719282f-b",
@@ -38,6 +40,7 @@
   },
   {
     "date": "1929; 1934; 1937",
+    "date_source": "nypl",
     "folder": "Delancey Street & Norfolk Street, Manhattan, NY",
     "height": 402,
     "id": "719282f-c",
@@ -57,6 +60,7 @@
   },
   {
     "date": "1930",
+    "date_source": "nypl",
     "folder": "Delancey Street & Norfolk Street, Manhattan, NY",
     "height": 600,
     "id": "719283f-a",
@@ -72,23 +76,8 @@
     ]
   },
   {
-    "date": "1934",
-    "folder": "Norfolk Street & Delancey Street, Manhattan, NY",
-    "height": 600,
-    "id": "721945f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/721945f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/e83aa660-c550-012f-1779-58d385a7bc34",
-    "original_title": "Manhattan: Norfolk Street - Delancey Street",
-    "text": "Norfolk Street, west side, north from and including Delancey\nStreet.\n\nMay 8, 1934.\n\nP. L. Sperr.\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/721945f-a.jpg",
-    "title": "",
-    "width": 403,
-    "years": [
-      "1934"
-    ]
-  },
-  {
-    "date": "",
+    "date": "1932, 1930-05-09",
+    "date_source": "text",
     "folder": "Norfolk Street & Delancey Street, Manhattan, NY",
     "height": 400,
     "id": "721944f-a",
@@ -101,11 +90,13 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1932",
+      "1930"
     ]
   },
   {
-    "date": "",
+    "date": "1932, 1930-05-09",
+    "date_source": "text",
     "folder": "Norfolk Street & Delancey Street, Manhattan, NY",
     "height": 600,
     "id": "721944f-b",
@@ -117,7 +108,25 @@
     "title": "",
     "width": 398,
     "years": [
-      ""
+      "1932",
+      "1930"
+    ]
+  },
+  {
+    "date": "1934",
+    "date_source": "nypl",
+    "folder": "Norfolk Street & Delancey Street, Manhattan, NY",
+    "height": 600,
+    "id": "721945f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/721945f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/e83aa660-c550-012f-1779-58d385a7bc34",
+    "original_title": "Manhattan: Norfolk Street - Delancey Street",
+    "text": "Norfolk Street, west side, north from and including Delancey\nStreet.\n\nMay 8, 1934.\n\nP. L. Sperr.\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/721945f-a.jpg",
+    "title": "",
+    "width": 403,
+    "years": [
+      "1934"
     ]
   }
 ]

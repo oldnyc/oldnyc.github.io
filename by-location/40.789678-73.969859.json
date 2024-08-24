@@ -1,6 +1,7 @@
 [
   {
     "date": "1900",
+    "date_source": "nypl",
     "folder": "9th Avenue & 91st Street, Manhattan, NY",
     "height": 403,
     "id": "710447f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1911",
+    "date_source": "nypl",
     "folder": "91st Street (West) & Columbus Avenue, Manhattan, NY",
     "height": 600,
     "id": "714810f-a",
@@ -32,7 +34,8 @@
     ]
   },
   {
-    "date": "",
+    "date": "1938-12-31",
+    "date_source": "text",
     "folder": "91st Street & Columbus Avenue, Manhattan, NY",
     "height": 600,
     "id": "714812f",
@@ -44,7 +47,7 @@
     "title": "",
     "width": 388,
     "years": [
-      ""
+      "1938"
     ]
   }
 ]

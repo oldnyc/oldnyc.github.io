@@ -1,6 +1,7 @@
 [
   {
     "date": "1929; 1940",
+    "date_source": "nypl",
     "folder": "72nd Street & York Avenue, Manhattan, NY",
     "height": 406,
     "id": "714350f-a",
@@ -18,6 +19,7 @@
   },
   {
     "date": "1929; 1940",
+    "date_source": "nypl",
     "folder": "72nd Street & York Avenue, Manhattan, NY",
     "height": 399,
     "id": "714350f-b",
@@ -34,23 +36,8 @@
     ]
   },
   {
-    "date": "n.d",
-    "folder": "72nd Street & Avenue A, Manhattan, NY",
-    "height": 600,
-    "id": "714353f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/714353f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/1aecca60-c545-012f-2b71-58d385a7bc34",
-    "original_title": "Manhattan: 72nd Street - Avenue A",
-    "text": "72nd Street, north side, from First Avenue to Second\nAvenues.\nSeptember 24, 1937.\nP. L. Sperr.\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/714353f-a.jpg",
-    "title": "",
-    "width": 400,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1929-08-21",
+    "date_source": "text",
     "folder": "York Avenue & 72nd Street, Manhattan, NY",
     "height": 398,
     "id": "724904f-a",
@@ -62,7 +49,24 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1929"
+    ]
+  },
+  {
+    "date": "1937-09-24",
+    "date_source": "text",
+    "folder": "72nd Street & Avenue A, Manhattan, NY",
+    "height": 600,
+    "id": "714353f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/714353f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/1aecca60-c545-012f-2b71-58d385a7bc34",
+    "original_title": "Manhattan: 72nd Street - Avenue A",
+    "text": "72nd Street, north side, from First Avenue to Second\nAvenues.\nSeptember 24, 1937.\nP. L. Sperr.\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/714353f-a.jpg",
+    "title": "",
+    "width": 400,
+    "years": [
+      "1937"
     ]
   }
 ]

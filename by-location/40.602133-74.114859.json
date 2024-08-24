@@ -1,6 +1,7 @@
 [
   {
     "date": "1910",
+    "date_source": "nypl",
     "folder": "Todt Hill Road & Ocean Terrace, Staten Island, NY",
     "height": 427,
     "id": "729746f-a",
@@ -16,6 +17,7 @@
   },
   {
     "date": "1924",
+    "date_source": "nypl",
     "folder": "Todt Hill Road & Ocean Terrace, Staten Island, NY",
     "height": 398,
     "id": "729147f-a",
@@ -31,6 +33,7 @@
   },
   {
     "date": "1924",
+    "date_source": "nypl",
     "folder": "Todt Hill Road & Ocean Terrace, Staten Island, NY",
     "height": 399,
     "id": "729147f-b",
@@ -46,6 +49,7 @@
   },
   {
     "date": "1924",
+    "date_source": "nypl",
     "folder": "Todt Hill Road & Ocean Terrace, Staten Island, NY",
     "height": 398,
     "id": "729147f-c",
@@ -60,52 +64,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "Ocean Terrace & Todt Hill Road, Staten Island, NY",
-    "height": 399,
-    "id": "729242f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/729242f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/04f56110-c55c-012f-cf6a-58d385a7bc34",
-    "text": "Ocean Terrace, near Todt Hill Road, showing three winter scenes. This is a set of three views taken in\nthe same area, the same day.\nFebruary 22, 1927\nP. L. Sperr\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729242f-a.jpg",
-    "title": "Richmond: Ocean Terrace - Todt Hill Road",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
-    "folder": "Ocean Terrace & Todt Hill Road, Staten Island, NY",
-    "height": 399,
-    "id": "729242f-b",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/729242f-b.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/04f56110-c55c-012f-cf6a-58d385a7bc34",
-    "text": "Ocean Terrace, near Todt Hill Road, showing three winter scenes. This is a set of three views taken in\nthe same area, the same day.\nFebruary 22, 1927\nP. L. Sperr\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729242f-b.jpg",
-    "title": "Richmond: Ocean Terrace - Todt Hill Road",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
-    "folder": "Ocean Terrace & Todt Hill Road, Staten Island, NY",
-    "height": 397,
-    "id": "729242f-c",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/729242f-c.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/04f56110-c55c-012f-cf6a-58d385a7bc34",
-    "text": "Ocean Terrace, near Todt Hill Road, showing three winter scenes. This is a set of three views taken in\nthe same area, the same day.\nFebruary 22, 1927\nP. L. Sperr\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729242f-c.jpg",
-    "title": "Richmond: Ocean Terrace - Todt Hill Road",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1926-08-09, 1927-02-22",
+    "date_source": "text",
     "folder": "Todt Hill Road & Ocean Terrace, Staten Island, NY",
     "height": 400,
     "id": "729745f-a",
@@ -116,11 +76,13 @@
     "title": "Richmond: Todt Hill Road - Ocean Terrace",
     "width": 600,
     "years": [
-      ""
+      "1926",
+      "1927"
     ]
   },
   {
-    "date": "",
+    "date": "1926-08-09, 1927-02-22",
+    "date_source": "text",
     "folder": "Todt Hill Road & Ocean Terrace, Staten Island, NY",
     "height": 398,
     "id": "729745f-b",
@@ -131,7 +93,56 @@
     "title": "Richmond: Todt Hill Road - Ocean Terrace",
     "width": 600,
     "years": [
-      ""
+      "1926",
+      "1927"
+    ]
+  },
+  {
+    "date": "1927-02-22",
+    "date_source": "text",
+    "folder": "Ocean Terrace & Todt Hill Road, Staten Island, NY",
+    "height": 399,
+    "id": "729242f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/729242f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/04f56110-c55c-012f-cf6a-58d385a7bc34",
+    "text": "Ocean Terrace, near Todt Hill Road, showing three winter scenes. This is a set of three views taken in\nthe same area, the same day.\nFebruary 22, 1927\nP. L. Sperr\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729242f-a.jpg",
+    "title": "Richmond: Ocean Terrace - Todt Hill Road",
+    "width": 600,
+    "years": [
+      "1927"
+    ]
+  },
+  {
+    "date": "1927-02-22",
+    "date_source": "text",
+    "folder": "Ocean Terrace & Todt Hill Road, Staten Island, NY",
+    "height": 399,
+    "id": "729242f-b",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/729242f-b.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/04f56110-c55c-012f-cf6a-58d385a7bc34",
+    "text": "Ocean Terrace, near Todt Hill Road, showing three winter scenes. This is a set of three views taken in\nthe same area, the same day.\nFebruary 22, 1927\nP. L. Sperr\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729242f-b.jpg",
+    "title": "Richmond: Ocean Terrace - Todt Hill Road",
+    "width": 600,
+    "years": [
+      "1927"
+    ]
+  },
+  {
+    "date": "1927-02-22",
+    "date_source": "text",
+    "folder": "Ocean Terrace & Todt Hill Road, Staten Island, NY",
+    "height": 397,
+    "id": "729242f-c",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/729242f-c.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/04f56110-c55c-012f-cf6a-58d385a7bc34",
+    "text": "Ocean Terrace, near Todt Hill Road, showing three winter scenes. This is a set of three views taken in\nthe same area, the same day.\nFebruary 22, 1927\nP. L. Sperr\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/729242f-c.jpg",
+    "title": "Richmond: Ocean Terrace - Todt Hill Road",
+    "width": 600,
+    "years": [
+      "1927"
     ]
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "date": "1923",
+    "date_source": "nypl",
     "folder": "263 Stanton Street, Manhattan, N.Y.",
     "height": 388,
     "id": "732928f",
@@ -16,6 +17,7 @@
   },
   {
     "date": "1936",
+    "date_source": "nypl",
     "folder": "Pitt Street & Stanton Street, Manhattan, NY",
     "height": 399,
     "id": "720300f-a",
@@ -31,23 +33,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "Pitt Street & Stanton Street, Manhattan, NY",
-    "height": 405,
-    "id": "720299f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/720299f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/57e56570-c54e-012f-65b1-58d385a7bc34",
-    "original_title": "Manhattan: Pitt Street - Stanton Street",
-    "text": "Hamilton Fish Park: The new swimming pool and locker building in the westerly half of this recreational space. Technically this is the east side of Pitt Street, north from Stanton to E. Houston Streets.\nJune 29, 1938.\nP.L. Sperr",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/720299f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1936",
+    "date_source": "text",
     "folder": "Pitt Street & Stanton Street, Manhattan, NY",
     "height": 389,
     "id": "720301f",
@@ -59,7 +46,24 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1936"
+    ]
+  },
+  {
+    "date": "1938-06-29",
+    "date_source": "text",
+    "folder": "Pitt Street & Stanton Street, Manhattan, NY",
+    "height": 405,
+    "id": "720299f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/720299f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/57e56570-c54e-012f-65b1-58d385a7bc34",
+    "original_title": "Manhattan: Pitt Street - Stanton Street",
+    "text": "Hamilton Fish Park: The new swimming pool and locker building in the westerly half of this recreational space. Technically this is the east side of Pitt Street, north from Stanton to E. Houston Streets.\nJune 29, 1938.\nP.L. Sperr",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/720299f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1938"
     ]
   }
 ]

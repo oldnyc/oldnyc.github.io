@@ -1,6 +1,7 @@
 [
   {
     "date": "1914",
+    "date_source": "nypl",
     "folder": "7th Avenue & 29th Street, Manhattan, NY",
     "height": 600,
     "id": "709737f",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1928",
+    "date_source": "nypl",
     "folder": "7th Avenue & 29th Street, Manhattan, NY",
     "height": 600,
     "id": "709736f-a",
@@ -32,22 +34,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "Seventh Avenue - 29th Street, Manhattan, NY",
-    "height": 212,
-    "id": "1507647-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/1507647-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/b1217660-c5ce-012f-fab2-58d385a7bc34",
-    "text": null,
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/1507647-a.jpg",
-    "title": "Seventh Avenue - 29th Street",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1928-05-03",
+    "date_source": "text",
     "folder": "7th Avenue & 29th Street, Manhattan, NY",
     "height": 600,
     "id": "709743f-a",
@@ -58,6 +46,22 @@
     "thumb_url": "https://oldnyc-assets.nypl.org/thumb/709743f-a.jpg",
     "title": "",
     "width": 405,
+    "years": [
+      "1928"
+    ]
+  },
+  {
+    "date": "",
+    "date_source": "nypl",
+    "folder": "Seventh Avenue - 29th Street, Manhattan, NY",
+    "height": 212,
+    "id": "1507647-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/1507647-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/b1217660-c5ce-012f-fab2-58d385a7bc34",
+    "text": null,
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/1507647-a.jpg",
+    "title": "Seventh Avenue - 29th Street",
+    "width": 600,
     "years": [
       ""
     ]

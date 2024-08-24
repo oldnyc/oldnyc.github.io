@@ -1,6 +1,7 @@
 [
   {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "106th Street & Broadway, Manhattan, NY",
     "height": 600,
     "id": "714991f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "Broadway & 106th Street, Manhattan, NY",
     "height": 400,
     "id": "717704f-a",
@@ -32,23 +34,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "106th Street (West) & Broadway, Manhattan, NY",
-    "height": 600,
-    "id": "714990f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/714990f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/139602e0-c546-012f-5b29-58d385a7bc34",
-    "original_title": "Manhattan: 106th Street (West) - Broadway",
-    "text": "252-244 West 106th Street, at and adjoining the S.E. corner of Broadway. No. 248 is a two-story frame house.\n1932.\nJ. Clarence Davies Collection, Museum of the City of New York.\nNegative No. 325\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/714990f-a.jpg",
-    "title": "",
-    "width": 407,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1927-10-13",
+    "date_source": "text",
     "folder": "Broadway & 106th Street, Manhattan, NY",
     "height": 401,
     "id": "717705f-a",
@@ -60,7 +47,24 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1927"
+    ]
+  },
+  {
+    "date": "1932",
+    "date_source": "text",
+    "folder": "106th Street (West) & Broadway, Manhattan, NY",
+    "height": 600,
+    "id": "714990f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/714990f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/139602e0-c546-012f-5b29-58d385a7bc34",
+    "original_title": "Manhattan: 106th Street (West) - Broadway",
+    "text": "252-244 West 106th Street, at and adjoining the S.E. corner of Broadway. No. 248 is a two-story frame house.\n1932.\nJ. Clarence Davies Collection, Museum of the City of New York.\nNegative No. 325\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/714990f-a.jpg",
+    "title": "",
+    "width": 407,
+    "years": [
+      "1932"
     ]
   }
 ]

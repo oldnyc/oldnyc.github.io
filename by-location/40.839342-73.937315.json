@@ -1,6 +1,7 @@
 [
   {
     "date": "1932",
+    "date_source": "nypl",
     "folder": "Amsterdam Avenue & 167th Street, Manhattan, NY",
     "height": 402,
     "id": "716354f-a",
@@ -16,23 +17,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "167th Street (West) & Amsterdam Avenue, Manhattan, NY",
-    "height": 600,
-    "id": "715752f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/715752f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/35505070-c547-012f-c3dc-58d385a7bc34",
-    "original_title": "Manhattan: 167th Street (West) - Amsterdam Avenue",
-    "text": "509 West 167 Street, north side, between Amsterdam and Audubon Avenues. Building shown is a frame house.\nOctober 12, 1934.\nP.L. Sperr",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/715752f-a.jpg",
-    "title": "",
-    "width": 401,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1932",
+    "date_source": "text",
     "folder": "Amsterdam Avenue & 167th Street, Manhattan, NY",
     "height": 390,
     "id": "716356f-a",
@@ -44,7 +30,24 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1932"
+    ]
+  },
+  {
+    "date": "1934-10-12",
+    "date_source": "text",
+    "folder": "167th Street (West) & Amsterdam Avenue, Manhattan, NY",
+    "height": 600,
+    "id": "715752f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/715752f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/35505070-c547-012f-c3dc-58d385a7bc34",
+    "original_title": "Manhattan: 167th Street (West) - Amsterdam Avenue",
+    "text": "509 West 167 Street, north side, between Amsterdam and Audubon Avenues. Building shown is a frame house.\nOctober 12, 1934.\nP.L. Sperr",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/715752f-a.jpg",
+    "title": "",
+    "width": 401,
+    "years": [
+      "1934"
     ]
   }
 ]

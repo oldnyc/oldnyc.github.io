@@ -1,6 +1,7 @@
 [
   {
     "date": "1919",
+    "date_source": "nypl",
     "folder": "38th Street & 8th Avenue, Manhattan, NY",
     "height": 427,
     "id": "712504f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "Nov. 24, 1924",
+    "date_source": "nypl",
     "folder": "228 West 38th Street (Seventh Avenue - Eighth Avenue), Manhattan, NY",
     "height": 600,
     "id": "1558199",
@@ -32,6 +34,7 @@
   },
   {
     "date": "1925",
+    "date_source": "nypl",
     "folder": "8th Avenue & 38th Street, Manhattan, NY",
     "height": 399,
     "id": "710168f-a",
@@ -47,7 +50,25 @@
     ]
   },
   {
+    "date": "1925-04",
+    "date_source": "text",
+    "folder": "8th Avenue & 38th Street, Manhattan, NY",
+    "height": 387,
+    "id": "710169f",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/710169f.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/49c49680-c53e-012f-4b86-58d385a7bc34",
+    "original_title": "Manhattan: 8th Avenue - 38th Street",
+    "text": "North on Eighth Avenue from 38th Street.\nApril 1925.\nBrown Brothers, Photographers.\n\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/710169f.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1925"
+    ]
+  },
+  {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "38th Street & 8th Avenue, Manhattan, NY",
     "height": 600,
     "id": "712503f-a",
@@ -64,6 +85,7 @@
   },
   {
     "date": "1929",
+    "date_source": "nypl",
     "folder": "8th Avenue & 38th Street, Manhattan, NY",
     "height": 389,
     "id": "710167f",
@@ -76,22 +98,6 @@
     "width": 600,
     "years": [
       "1929"
-    ]
-  },
-  {
-    "date": "",
-    "folder": "8th Avenue & 38th Street, Manhattan, NY",
-    "height": 387,
-    "id": "710169f",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/710169f.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/49c49680-c53e-012f-4b86-58d385a7bc34",
-    "original_title": "Manhattan: 8th Avenue - 38th Street",
-    "text": "North on Eighth Avenue from 38th Street.\nApril 1925.\nBrown Brothers, Photographers.\n\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/710169f.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
     ]
   }
 ]

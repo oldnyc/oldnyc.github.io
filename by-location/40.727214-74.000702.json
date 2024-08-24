@@ -1,6 +1,7 @@
 [
   {
     "date": "1929",
+    "date_source": "nypl",
     "folder": "Thompson Street & Houston Street, Manhattan, NY",
     "height": 399,
     "id": "723514f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1929; 1932",
+    "date_source": "nypl",
     "folder": "Thompson Street & Houston Street, Manhattan, NY",
     "height": 600,
     "id": "723515f-a",
@@ -34,6 +36,7 @@
   },
   {
     "date": "1929; 1932",
+    "date_source": "nypl",
     "folder": "Thompson Street & Houston Street, Manhattan, NY",
     "height": 600,
     "id": "723515f-b",
@@ -50,39 +53,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "Houston Street (West & Thompson Street, Manhattan, NY",
-    "height": 600,
-    "id": "724505f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/724505f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/07f9f230-c555-012f-3d1f-58d385a7bc34",
-    "original_title": "Manhattan: Houston Street (West - Thompson Street",
-    "text": "94, 96, 100-102, 104, 106 West Houston Street, north side, adjoining\nand at the N.E. corner of Thompson Street.\nFebruary 20, 1932.\nP. L. Sperr.\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/724505f-a.jpg",
-    "title": "",
-    "width": 403,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
-    "folder": "Houston Street (West & Thompson Street, Manhattan, NY",
-    "height": 403,
-    "id": "724506f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/724506f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/085f9950-c555-012f-87b1-58d385a7bc34",
-    "original_title": "Manhattan: Houston Street (West - Thompson Street",
-    "text": "Houston Street, west from and including No. 102 West, north side, east of Thompson Street. In the background is seen the western end of this section of West Houston Street, which is the original Houston Street. At its western end Bedford Street begins and runs nearly north, and the second section (originally Hammersley Street) of West Houston Street, which is parallel to King Street, bears off\ntowards the west.\nThe subway under Houston Street has now been covered over, but is not\nfinished at the time of this picture.\nFebruary 20, 1932.\nP. L. Sperr.\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/724506f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1929-12-22",
+    "date_source": "text",
     "folder": "Houston Street (West & Thompson Street, Manhattan, NY",
     "height": 400,
     "id": "724507f-a",
@@ -94,7 +66,41 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1929"
+    ]
+  },
+  {
+    "date": "1932-02-20",
+    "date_source": "text",
+    "folder": "Houston Street (West & Thompson Street, Manhattan, NY",
+    "height": 600,
+    "id": "724505f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/724505f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/07f9f230-c555-012f-3d1f-58d385a7bc34",
+    "original_title": "Manhattan: Houston Street (West - Thompson Street",
+    "text": "94, 96, 100-102, 104, 106 West Houston Street, north side, adjoining\nand at the N.E. corner of Thompson Street.\nFebruary 20, 1932.\nP. L. Sperr.\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/724505f-a.jpg",
+    "title": "",
+    "width": 403,
+    "years": [
+      "1932"
+    ]
+  },
+  {
+    "date": "1932-02-20",
+    "date_source": "text",
+    "folder": "Houston Street (West & Thompson Street, Manhattan, NY",
+    "height": 403,
+    "id": "724506f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/724506f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/085f9950-c555-012f-87b1-58d385a7bc34",
+    "original_title": "Manhattan: Houston Street (West - Thompson Street",
+    "text": "Houston Street, west from and including No. 102 West, north side, east of Thompson Street. In the background is seen the western end of this section of West Houston Street, which is the original Houston Street. At its western end Bedford Street begins and runs nearly north, and the second section (originally Hammersley Street) of West Houston Street, which is parallel to King Street, bears off\ntowards the west.\nThe subway under Houston Street has now been covered over, but is not\nfinished at the time of this picture.\nFebruary 20, 1932.\nP. L. Sperr.\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/724506f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1932"
     ]
   }
 ]

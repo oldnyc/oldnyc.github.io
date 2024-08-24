@@ -1,6 +1,7 @@
 [
   {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "52nd Street (West) & 11th Avenue, Manhattan, NY",
     "height": 600,
     "id": "713629f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "52nd Street (West) & 11th Avenue, Manhattan, NY",
     "height": 398,
     "id": "713629f-b",
@@ -34,6 +36,7 @@
   },
   {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "52nd Street (West) & 11th Avenue, Manhattan, NY",
     "height": 398,
     "id": "713629f-c",
@@ -50,23 +53,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "11th Avenue & 52nd Street, Manhattan, NY",
-    "height": 400,
-    "id": "710727f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/710727f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/33558ce0-c53f-012f-543c-58d385a7bc34",
-    "original_title": "Manhattan: 11th Avenue - 52nd Street",
-    "text": "Eleventh Avenue, east side, from 52nd to and including 53rd Street.\nMarch 18, 1935.\nP. L. Sperr.\nTRE NEW VORN\nPUBLIC LIBRARY\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/710727f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1932",
+    "date_source": "text",
     "folder": "52nd Street (West) & 11th Avenue, Manhattan, NY",
     "height": 600,
     "id": "713630f-a",
@@ -78,11 +66,12 @@
     "title": "",
     "width": 407,
     "years": [
-      ""
+      "1932"
     ]
   },
   {
-    "date": "",
+    "date": "1932",
+    "date_source": "text",
     "folder": "52nd Street (West) & 11th Avenue, Manhattan, NY",
     "height": 391,
     "id": "713631f-a",
@@ -94,7 +83,24 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1932"
+    ]
+  },
+  {
+    "date": "1935-03-18",
+    "date_source": "text",
+    "folder": "11th Avenue & 52nd Street, Manhattan, NY",
+    "height": 400,
+    "id": "710727f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/710727f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/33558ce0-c53f-012f-543c-58d385a7bc34",
+    "original_title": "Manhattan: 11th Avenue - 52nd Street",
+    "text": "Eleventh Avenue, east side, from 52nd to and including 53rd Street.\nMarch 18, 1935.\nP. L. Sperr.\nTRE NEW VORN\nPUBLIC LIBRARY\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/710727f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1935"
     ]
   }
 ]

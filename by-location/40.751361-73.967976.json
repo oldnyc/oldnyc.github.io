@@ -1,6 +1,7 @@
 [
   {
     "date": "1928",
+    "date_source": "nypl",
     "folder": "46th Street (East) & 1st Avenue, Manhattan, NY",
     "height": 399,
     "id": "713240f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1934; 1940",
+    "date_source": "nypl",
     "folder": "1st Ave. & 46th St., Manhattan, NY",
     "height": 401,
     "id": "707612f-a",
@@ -35,6 +37,7 @@
   },
   {
     "date": "1934; 1940",
+    "date_source": "nypl",
     "folder": "1st Ave. & 46th St., Manhattan, NY",
     "height": 402,
     "id": "707612f-b",
@@ -53,6 +56,7 @@
   },
   {
     "date": "1934; 1940",
+    "date_source": "nypl",
     "folder": "1st Ave. & 46th St., Manhattan, NY",
     "height": 600,
     "id": "707612f-c",
@@ -69,7 +73,25 @@
     ]
   },
   {
+    "date": "1934-07-03",
+    "date_source": "text",
+    "folder": "46th Street & 1st Avenue, Manhattan, NY",
+    "height": 404,
+    "id": "713241f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/713241f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/5d34ac10-c543-012f-0957-58d385a7bc34",
+    "original_title": "Manhattan: 46th Street - 1st Avenue",
+    "text": "46th Street West from, but not including, First Avenue.\n\nJuly 3, 1934.\nP.L. Sperr.",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/713241f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1934"
+    ]
+  },
+  {
     "date": "1939; 1940",
+    "date_source": "nypl",
     "folder": "1st Ave. & 46th St. E., Manhattan, NY",
     "height": 407,
     "id": "707610f-a",
@@ -87,6 +109,7 @@
   },
   {
     "date": "1939; 1940",
+    "date_source": "nypl",
     "folder": "1st Ave. & 46th St. E., Manhattan, NY",
     "height": 405,
     "id": "707610f-b",
@@ -104,6 +127,7 @@
   },
   {
     "date": "1939",
+    "date_source": "nypl",
     "folder": "1st Ave. & 46th St. E., Manhattan, NY",
     "height": 404,
     "id": "707611f-a",
@@ -120,6 +144,7 @@
   },
   {
     "date": "1939",
+    "date_source": "nypl",
     "folder": "46th Street (East) & 1st Avenue., Manhattan, NY",
     "height": 600,
     "id": "713242f-a",
@@ -136,6 +161,7 @@
   },
   {
     "date": "1939",
+    "date_source": "nypl",
     "folder": "46th Street (East) & 1st Avenue., Manhattan, NY",
     "height": 408,
     "id": "713242f-b",
@@ -153,6 +179,7 @@
   },
   {
     "date": "1939",
+    "date_source": "nypl",
     "folder": "46th Street (East) & 1st Avenue., Manhattan, NY",
     "height": 404,
     "id": "713242f-c",
@@ -166,22 +193,6 @@
     "width": 600,
     "years": [
       "1939"
-    ]
-  },
-  {
-    "date": "",
-    "folder": "46th Street & 1st Avenue, Manhattan, NY",
-    "height": 404,
-    "id": "713241f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/713241f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/5d34ac10-c543-012f-0957-58d385a7bc34",
-    "original_title": "Manhattan: 46th Street - 1st Avenue",
-    "text": "46th Street West from, but not including, First Avenue.\n\nJuly 3, 1934.\nP.L. Sperr.",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/713241f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
     ]
   }
 ]

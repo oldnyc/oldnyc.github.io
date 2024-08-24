@@ -1,6 +1,7 @@
 [
   {
     "date": "1927",
+    "date_source": "nypl",
     "folder": "Lexington Avenue & 127th Street (East), Manhattan, NY",
     "height": 400,
     "id": "721121f-a",
@@ -17,21 +18,7 @@
   },
   {
     "date": "1932",
-    "folder": "127th Street (East) & Lexington, Manhattan, NY",
-    "height": 600,
-    "id": "715468f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/715468f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/c900b930-c546-012f-a66d-58d385a7bc34",
-    "text": "121-123 East 127th Street, north side, west of Lexington Ave. Shown is the Holy Family Church, an Episcopal Spanish Mission, formerly St. Bartholomew Swedish Church.\nJuly 31, 1932.\nP. L. Sperr.\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/715468f-a.jpg",
-    "title": "Manhattan: 127th Street (East) - Lexington",
-    "width": 402,
-    "years": [
-      "1932"
-    ]
-  },
-  {
-    "date": "",
+    "date_source": "text",
     "folder": "127th Street (East) & Lexington Avenue, Manhattan, NY",
     "height": 600,
     "id": "715467f-a",
@@ -43,7 +30,23 @@
     "title": "",
     "width": 404,
     "years": [
-      ""
+      "1932"
+    ]
+  },
+  {
+    "date": "1932",
+    "date_source": "nypl",
+    "folder": "127th Street (East) & Lexington, Manhattan, NY",
+    "height": 600,
+    "id": "715468f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/715468f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/c900b930-c546-012f-a66d-58d385a7bc34",
+    "text": "121-123 East 127th Street, north side, west of Lexington Ave. Shown is the Holy Family Church, an Episcopal Spanish Mission, formerly St. Bartholomew Swedish Church.\nJuly 31, 1932.\nP. L. Sperr.\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/715468f-a.jpg",
+    "title": "Manhattan: 127th Street (East) - Lexington",
+    "width": 402,
+    "years": [
+      "1932"
     ]
   }
 ]

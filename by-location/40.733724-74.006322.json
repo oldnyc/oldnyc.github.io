@@ -1,6 +1,7 @@
 [
   {
     "date": "1930",
+    "date_source": "nypl",
     "folder": "Hudson Street & 10th Street, Manhattan, NY",
     "height": 400,
     "id": "720569f-a",
@@ -17,6 +18,7 @@
   },
   {
     "date": "1932",
+    "date_source": "nypl",
     "folder": "10th Street (West) & Hudson Street, Manhattan, NY",
     "height": 402,
     "id": "711057f-a",
@@ -33,6 +35,7 @@
   },
   {
     "date": "1932",
+    "date_source": "nypl",
     "folder": "Hudson Street & 10th Street, Manhattan, NY",
     "height": 600,
     "id": "720570f-a",
@@ -48,7 +51,25 @@
     ]
   },
   {
+    "date": "1940-11-03",
+    "date_source": "text",
+    "folder": "10th Street & Hudson Street, Manhattan, NY",
+    "height": 406,
+    "id": "711043f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/711043f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/b4069800-c53f-012f-b48a-58d385a7bc34",
+    "original_title": "Manhattan: 10th Street - Hudson Street",
+    "text": "West 10th st, s.s., at Hudson from Greenwich St\nNov 3, 1940\nP.L. Sperr, photographer",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/711043f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1940"
+    ]
+  },
+  {
     "date": "1942",
+    "date_source": "nypl",
     "folder": "10th Street & Hudson Street, Manhattan, NY",
     "height": 401,
     "id": "711058f-a",
@@ -61,22 +82,6 @@
     "width": 600,
     "years": [
       "1942"
-    ]
-  },
-  {
-    "date": "",
-    "folder": "10th Street & Hudson Street, Manhattan, NY",
-    "height": 406,
-    "id": "711043f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/711043f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/b4069800-c53f-012f-b48a-58d385a7bc34",
-    "original_title": "Manhattan: 10th Street - Hudson Street",
-    "text": "West 10th st, s.s., at Hudson from Greenwich St\nNov 3, 1940\nP.L. Sperr, photographer",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/711043f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
     ]
   }
 ]

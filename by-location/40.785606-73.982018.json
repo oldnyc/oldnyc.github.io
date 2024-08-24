@@ -1,6 +1,7 @@
 [
   {
     "date": "1895",
+    "date_source": "nypl",
     "folder": "Riverside Drive & 80th Street (West), Manhattan, NY",
     "height": 460,
     "id": "722710f-a",
@@ -16,22 +17,8 @@
     ]
   },
   {
-    "date": "1929",
-    "folder": "80th Street (West) and Riverside Drive, Manhattan, N.Y.",
-    "height": 401,
-    "id": "732464f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/732464f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/3325a0e0-c561-012f-41c4-58d385a7bc34",
-    "text": "Hot dogs and pop vendor, at foot of West 80th Street and Riverside\nDrive.\nMarch 29, 1929.\nP. L. Sperr.\n",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/732464f-a.jpg",
-    "title": "Occupations - Peddlers - Food - Refreshments.",
-    "width": 600,
-    "years": [
-      "1929"
-    ]
-  },
-  {
-    "date": "",
+    "date": "1911",
+    "date_source": "text",
     "folder": "80th Street (West) & Riverside Drive, Manhattan, NY",
     "height": 600,
     "id": "714602f-a",
@@ -43,11 +30,12 @@
     "title": "",
     "width": 464,
     "years": [
-      ""
+      "1911"
     ]
   },
   {
-    "date": "",
+    "date": "1912",
+    "date_source": "text",
     "folder": "Riverside Drive & 80th Street, Manhattan, NY",
     "height": 600,
     "id": "722709f-a",
@@ -59,7 +47,23 @@
     "title": "",
     "width": 470,
     "years": [
-      ""
+      "1912"
+    ]
+  },
+  {
+    "date": "1929",
+    "date_source": "nypl",
+    "folder": "80th Street (West) and Riverside Drive, Manhattan, N.Y.",
+    "height": 401,
+    "id": "732464f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/732464f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/3325a0e0-c561-012f-41c4-58d385a7bc34",
+    "text": "Hot dogs and pop vendor, at foot of West 80th Street and Riverside\nDrive.\nMarch 29, 1929.\nP. L. Sperr.\n",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/732464f-a.jpg",
+    "title": "Occupations - Peddlers - Food - Refreshments.",
+    "width": 600,
+    "years": [
+      "1929"
     ]
   }
 ]

@@ -1,6 +1,7 @@
 [
   {
     "date": "1925; 1930; 1931",
+    "date_source": "nypl",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 400,
     "id": "728159f-a",
@@ -19,6 +20,7 @@
   },
   {
     "date": "1925; 1930; 1931",
+    "date_source": "nypl",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 405,
     "id": "728159f-b",
@@ -37,6 +39,7 @@
   },
   {
     "date": "1925; 1930; 1931",
+    "date_source": "nypl",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 395,
     "id": "728159f-c",
@@ -55,6 +58,7 @@
   },
   {
     "date": "1925; 1930; 1931",
+    "date_source": "nypl",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 461,
     "id": "728159f-d",
@@ -72,23 +76,8 @@
     ]
   },
   {
-    "date": "",
-    "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
-    "height": 399,
-    "id": "728158f-a",
-    "image_url": "https://oldnyc-assets.nypl.org/600px/728158f-a.jpg",
-    "nypl_url": "https://digitalcollections.nypl.org/items/4fec08c0-c55a-012f-1ff5-58d385a7bc34",
-    "original_title": "Queens: Vernon Boulevard - 36th Avenue",
-    "text": "Vernon Boulevard, adjoining the S.W. Corner of 36th Avenue, showing an old mansion. It first appears in an 1891 atlas, when this area was still a fashionable residential district.\nMarch 9, 1931\nP.L. Sperr",
-    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/728158f-a.jpg",
-    "title": "",
-    "width": 600,
-    "years": [
-      ""
-    ]
-  },
-  {
-    "date": "",
+    "date": "1925-04, 1930-11-06",
+    "date_source": "text",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 403,
     "id": "728160f-a",
@@ -100,11 +89,13 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1925",
+      "1930"
     ]
   },
   {
-    "date": "",
+    "date": "1925-04, 1930-11-06",
+    "date_source": "text",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 400,
     "id": "728160f-b",
@@ -116,11 +107,13 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1925",
+      "1930"
     ]
   },
   {
-    "date": "",
+    "date": "1925-04, 1930-11-06",
+    "date_source": "text",
     "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
     "height": 462,
     "id": "728160f-c",
@@ -132,7 +125,25 @@
     "title": "",
     "width": 600,
     "years": [
-      ""
+      "1925",
+      "1930"
+    ]
+  },
+  {
+    "date": "1931-03-09",
+    "date_source": "text",
+    "folder": "Vernon Boulevard & 36th Avenue, Queens, NY",
+    "height": 399,
+    "id": "728158f-a",
+    "image_url": "https://oldnyc-assets.nypl.org/600px/728158f-a.jpg",
+    "nypl_url": "https://digitalcollections.nypl.org/items/4fec08c0-c55a-012f-1ff5-58d385a7bc34",
+    "original_title": "Queens: Vernon Boulevard - 36th Avenue",
+    "text": "Vernon Boulevard, adjoining the S.W. Corner of 36th Avenue, showing an old mansion. It first appears in an 1891 atlas, when this area was still a fashionable residential district.\nMarch 9, 1931\nP.L. Sperr",
+    "thumb_url": "https://oldnyc-assets.nypl.org/thumb/728158f-a.jpg",
+    "title": "",
+    "width": 600,
+    "years": [
+      "1931"
     ]
   }
 ]
