@@ -69,7 +69,7 @@ export function DetailView({
                   <p>
                     <i>
                       Typos? Help{' '}
-                      <a target="_blank" href={ocrUrl}>
+                      <a target="_blank" href={ocrUrl} rel="noreferrer">
                         fix them
                       </a>
                       .
@@ -218,7 +218,7 @@ export function ImagePreview({
       />
       <div>
         <div className="nypl-link">
-          <a target="_blank" href={libraryUrl}>
+          <a target="_blank" href={libraryUrl} rel="noreferrer">
             View complete item in NYPL Digital Collections
           </a>
           .
@@ -243,11 +243,21 @@ function MoreOnBack(props: MoreOnBackProps) {
     <div className="more-on-back">
       There's no description available for this photo, but there may be some{' '}
       text on the back of the image in the{' '}
-      <a className="nypl" href={props.libraryUrl} target="_blank">
+      <a
+        className="nypl"
+        href={props.libraryUrl}
+        target="_blank"
+        rel="noreferrer"
+      >
         NYPL Digital Collections
       </a>
       . If so, you can help OldNYC by{' '}
-      <a className="ocr-tool" href={props.ocrUrl} target="_blank">
+      <a
+        className="ocr-tool"
+        href={props.ocrUrl}
+        target="_blank"
+        rel="noreferrer"
+      >
         transcribing it
       </a>
       .
@@ -261,7 +271,7 @@ interface FeedbackProps {
 }
 
 const Feedback = React.forwardRef<HTMLDivElement, FeedbackProps>(
-  (props, ref) => {
+  function Feedback(props, ref) {
     const { id, onClose } = props;
     const handleBack: React.MouseEventHandler = React.useCallback(
       (e) => {

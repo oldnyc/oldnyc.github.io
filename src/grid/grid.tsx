@@ -55,14 +55,14 @@ export function ExpandableGrid(props: ExpandableGridProps) {
     };
   }, [resizeFn]);
 
+  const prevId = selectionState.selectedId;
   React.useEffect(() => {
-    const prevId = selectionState.selectedId;
     const selectedId = externalSelectedId;
 
     // Only animate opening/closing
     const shouldTransition = prevId === undefined || selectedId === undefined;
     setSelectionState({ selectedId, shouldTransition });
-  }, [externalSelectedId]);
+  }, [externalSelectedId, prevId]);
 
   return (
     <ul

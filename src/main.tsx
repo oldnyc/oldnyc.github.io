@@ -127,6 +127,7 @@ const FeedbackLink = () => (
     <a
       href="https://docs.google.com/forms/d/1aFi1w4PY1Q-LofWDcPz0CKOyAno6eHNFaVS4x1glwlQ/viewform"
       target="_blank"
+      rel="noreferrer"
     >
       Send feedback
     </a>

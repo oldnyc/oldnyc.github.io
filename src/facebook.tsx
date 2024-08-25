@@ -70,7 +70,7 @@ export function Like(props: LikeProps) {
         console.error(e);
       }
     }
-  }, [url, layout]);
+  }, [url, layout, id]);
 
   return <div id={id}></div>;
 }

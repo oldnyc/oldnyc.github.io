@@ -85,7 +85,7 @@ export function Slideshow(props: SlideshowProps) {
       const photoId = photoIds[0];
       history.replace(`/${photoId}`);
     }
-  }, [hasAutoOpened, photoIds]);
+  }, [hasAutoOpened, history, photoIds]);
 
   const images = React.useMemo(() => {
     if (!photoIds) return null;
@@ -122,12 +122,12 @@ export function Slideshow(props: SlideshowProps) {
         history.push('/' + photoId);
       }
     },
-    [history, latLon, selectedPhotoId],
+    [history, selectedPhotoId],
   );
 
   const handleDeselect = React.useCallback(() => {
     history.push(`/g:${latLon}`);
-  }, [history]);
+  }, [history, latLon]);
 
   const handleExit = React.useCallback(() => {
     history.push(`/`);
@@ -198,7 +198,11 @@ export function Slideshow(props: SlideshowProps) {
         />
         <div className="location">{nameForLatLon(latLon)}</div>
         <div className="nypl-logo">
-          <a target="_blank" href={selectedImage?.nypl_url ?? LIBRARY_URL}>
+          <a
+            target="_blank"
+            href={selectedImage?.nypl_url ?? LIBRARY_URL}
+            rel="noreferrer"
+          >
             <img src="/images/nypl_logo.png" width="127" height="75" />
           </a>
         </div>

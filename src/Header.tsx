@@ -29,7 +29,7 @@ export function Header() {
       </div>
 
       <div id="mailing-list">
-        <a target="_blank" href="http://eepurl.com/bouyCz">
+        <a target="_blank" href="http://eepurl.com/bouyCz" rel="noreferrer">
           Subscribe
         </a>{' '}
         to OldNYC updates

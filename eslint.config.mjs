@@ -32,7 +32,11 @@ export default tseslint.config(
       react: {
         version: "detect",
       },
-    }
+    },
+    rules: {
+      // I don't really care to replace all apostrophes with &apos;
+      'react/no-unescaped-entities': 'off',
+    },
   },
   {
     files: ['src/**/*.{ts,tsx}'],
