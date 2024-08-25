@@ -3,7 +3,7 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import hooksPlugin from "eslint-plugin-react-hooks";
+import hooksPlugin from 'eslint-plugin-react-hooks';
 import reactPlugin from 'eslint-plugin-react';
 
 export default tseslint.config(
@@ -21,7 +21,7 @@ export default tseslint.config(
   {
     plugins: {
       // @ts-ignore
-      "react-hooks": hooksPlugin,
+      'react-hooks': hooksPlugin,
     },
     // @ts-ignore
     rules: hooksPlugin.configs.recommended.rules,
@@ -30,7 +30,7 @@ export default tseslint.config(
     ...reactPlugin.configs.flat.recommended,
     settings: {
       react: {
-        version: "detect",
+        version: 'detect',
       },
     },
     rules: {
@@ -52,7 +52,7 @@ export default tseslint.config(
     // This is needed in order to specify the desired behavior for its rules
     plugins: {
       '@typescript-eslint': tsPlugin,
-      "react-hooks": hooksPlugin,
+      'react-hooks': hooksPlugin,
     },
 
     // After defining the plugin, you can use the rules like this
