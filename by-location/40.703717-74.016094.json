@@ -1,7 +1,11 @@
 [
   {
-    "date": "1920, 1860",
+    "date": "1860; 1920",
     "date_source": "text",
+    "dates_from_text": [
+      "1920",
+      "1860"
+    ],
     "folder": "Battery Park & Battery Place., Manhattan, NY",
     "height": 344,
     "id": "716547f-a",
@@ -17,8 +21,11 @@
     ]
   },
   {
-    "date": "1870-05-23",
+    "date": "1870",
     "date_source": "text",
+    "dates_from_text": [
+      "1870-05-23"
+    ],
     "folder": "Battery Park & [Aquarium]., Manhattan, NY",
     "height": 388,
     "id": "716524f",
@@ -33,8 +40,11 @@
     ]
   },
   {
-    "date": "1870-05-23",
+    "date": "1870",
     "date_source": "text",
+    "dates_from_text": [
+      "1870-05-23"
+    ],
     "folder": "Battery Park., Manhattan, NY",
     "height": 474,
     "id": "716525f-a",

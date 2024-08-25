@@ -1,7 +1,12 @@
 [
   {
-    "date": "1894, 1894-09-21, 1929-02-11",
+    "date": "1894; 1929",
     "date_source": "text",
+    "dates_from_text": [
+      "1894",
+      "1894-09-21",
+      "1929-02-11"
+    ],
     "folder": "Madison Avenue & 101st Street (East), Manhattan, NY",
     "height": 433,
     "id": "721456f-a",
@@ -19,8 +24,11 @@
     ]
   },
   {
-    "date": "1929-02-11",
+    "date": "1929",
     "date_source": "text",
+    "dates_from_text": [
+      "1929-02-11"
+    ],
     "folder": "Madison Avenue & 101st Street, Manhattan, NY",
     "height": 480,
     "id": "721457f-a",

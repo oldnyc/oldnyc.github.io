@@ -54,6 +54,9 @@
   {
     "date": "1932",
     "date_source": "text",
+    "dates_from_text": [
+      "1932"
+    ],
     "folder": "Grand Street & Henry Street, Manhattan, NY",
     "height": 402,
     "id": "720129f-a",
@@ -69,8 +72,12 @@
     ]
   },
   {
-    "date": "1932, 1937-03-23",
+    "date": "1932; 1937",
     "date_source": "text",
+    "dates_from_text": [
+      "1932",
+      "1937-03-23"
+    ],
     "folder": "Henry Street & Grand Street, Manhattan, NY",
     "height": 402,
     "id": "720383f-a",
@@ -87,8 +94,12 @@
     ]
   },
   {
-    "date": "1932, 1937-03-23",
+    "date": "1932; 1937",
     "date_source": "text",
+    "dates_from_text": [
+      "1932",
+      "1937-03-23"
+    ],
     "folder": "Henry Street & Grand Street, Manhattan, NY",
     "height": 405,
     "id": "720383f-b",
@@ -122,8 +133,11 @@
     ]
   },
   {
-    "date": "1937-03-23",
+    "date": "1937",
     "date_source": "text",
+    "dates_from_text": [
+      "1937-03-23"
+    ],
     "folder": "Henry Street & Grand Street, Manhattan, NY",
     "height": 401,
     "id": "720382f-a",
