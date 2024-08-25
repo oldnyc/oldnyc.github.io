@@ -8,7 +8,7 @@ import {
   infoForPhotoId,
   backOfCardUrlForPhotoId,
   findLatLonForPhoto,
-  libraryUrl,
+  getLibraryUrl,
 } from './photo-info';
 import {
   FeedbackType,
@@ -34,7 +34,7 @@ findLatLonForPhoto(id, function (lat_lon) {
     const [photo_ids, ocr_obj] = await Promise.all([infoP, ocrP]);
     console.log(photo_ids, ocr_obj);
     const info = infoForPhotoId(id);
-    $('#hi-res').attr('href', libraryUrl(id, info.nypl_url));
+    $('#hi-res').attr('href', getLibraryUrl(id, info.nypl_url));
     other_photo_ids = photo_ids;
     $('img.back').attr('src', backOfCardUrlForPhotoId(id));
     const text = ocr_obj ? ocr_obj.text : info.text;

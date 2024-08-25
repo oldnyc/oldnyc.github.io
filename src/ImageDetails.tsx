@@ -6,7 +6,7 @@ import {
   descriptionForPhotoId,
   getCanonicalUrlForPhoto,
   infoForPhotoId,
-  libraryUrl,
+  getLibraryUrl,
 } from './photo-info';
 import { FeedbackType, getFeedbackText, sendFeedback } from './feedback';
 import { useResource } from './use-resource';
@@ -22,7 +22,7 @@ export function DetailView({
 }) {
   const { id } = image;
   const info = infoForPhotoId(id);
-  const library_url = libraryUrl(id, info.nypl_url);
+  const libraryUrl = getLibraryUrl(id, info.nypl_url);
   const canonicalUrl = getCanonicalUrlForPhoto(id);
 
   // TODO: rename backId -> getBackId
@@ -77,7 +77,7 @@ export function DetailView({
                   </p>
                 )}
                 {!text && hasBack ? (
-                  <MoreOnBack ocrUrl={ocrUrl} libraryUrl={library_url} />
+                  <MoreOnBack ocrUrl={ocrUrl} libraryUrl={libraryUrl} />
                 ) : null}
               </>
             )}
@@ -197,6 +197,16 @@ export function ImagePreview({
     [id, rotation],
   );
 
+  const libraryUrl = getLibraryUrl(image.id, image.nypl_url);
+
+  const goToLibrary: React.MouseEventHandler = React.useCallback(
+    (e) => {
+      e.preventDefault();
+      window.open(libraryUrl, '_blank');
+    },
+    [libraryUrl],
+  );
+
   return (
     <React.Suspense fallback={<div className="og-loading" />}>
       <SuspenseImage
@@ -204,10 +214,11 @@ export function ImagePreview({
         width={image.width}
         height={image.height}
         style={rotation ? { transform: `rotate(${rotation}deg)` } : undefined}
+        onClick={goToLibrary}
       />
       <div>
         <div className="nypl-link">
-          <a target="_blank" href={libraryUrl(image.id, image.nypl_url)}>
+          <a target="_blank" href={libraryUrl}>
             View complete item in NYPL Digital Collections
           </a>
           .

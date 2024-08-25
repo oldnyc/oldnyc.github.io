@@ -115,7 +115,7 @@ export function findLatLonForPhoto(
   });
 }
 
-export function libraryUrl(photo_id: string, url: string | undefined) {
+export function getLibraryUrl(photo_id: string, url: string | undefined) {
   if (url) {
     return url;
   }
