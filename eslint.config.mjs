@@ -3,6 +3,8 @@
 import tsPlugin from '@typescript-eslint/eslint-plugin';
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
+import hooksPlugin from "eslint-plugin-react-hooks";
+
 
 export default tseslint.config(
   eslint.configs.recommended,
@@ -30,10 +32,13 @@ export default tseslint.config(
     // This is needed in order to specify the desired behavior for its rules
     plugins: {
       '@typescript-eslint': tsPlugin,
+      "react-hooks": hooksPlugin,
     },
 
     // After defining the plugin, you can use the rules like this
+    // @ts-ignore
     rules: {
+      ...hooksPlugin.configs.recommended.rules,
       // Sometimes it's convenient to give the index a name.
       '@typescript-eslint/consistent-indexed-object-style': 'off',
       '@typescript-eslint/array-type': 'off', // ['error', {default: "array-simple"}],
