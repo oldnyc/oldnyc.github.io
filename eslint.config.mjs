@@ -4,7 +4,7 @@ import tsPlugin from '@typescript-eslint/eslint-plugin';
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import hooksPlugin from "eslint-plugin-react-hooks";
-
+import reactPlugin from 'eslint-plugin-react';
 
 export default tseslint.config(
   eslint.configs.recommended,
@@ -25,6 +25,14 @@ export default tseslint.config(
     },
     // @ts-ignore
     rules: hooksPlugin.configs.recommended.rules,
+  },
+  {
+    ...reactPlugin.configs.flat.recommended,
+    settings: {
+      react: {
+        version: "detect",
+      },
+    }
   },
   {
     files: ['src/**/*.{ts,tsx}'],
