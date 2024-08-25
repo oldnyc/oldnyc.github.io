@@ -1,6 +1,6 @@
 // Styles for Google Maps. These de-emphasize features on the map.
+// https://mapstyle.withgoogle.com/
 export const MAP_STYLE: google.maps.MapTypeStyle[] = [
-  // to remove buildings
   { stylers: [{ visibility: 'off' }] },
   { featureType: 'water', stylers: [{ visibility: 'simplified' }] },
   { featureType: 'poi', stylers: [{ visibility: 'simplified' }] },
@@ -8,7 +8,7 @@ export const MAP_STYLE: google.maps.MapTypeStyle[] = [
   { featureType: 'landscape', stylers: [{ visibility: 'simplified' }] },
   { featureType: 'road', stylers: [{ visibility: 'simplified' }] },
   { featureType: 'administrative', stylers: [{ visibility: 'simplified' }] },
-  // end remove buildings
+
   {
     featureType: 'administrative',
     elementType: 'labels',
@@ -99,6 +99,36 @@ export const MAP_STYLE: google.maps.MapTypeStyle[] = [
   {
     featureType: 'water',
     elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+
+  // Hide highway icons
+  {
+    featureType: 'road.arterial',
+    elementType: 'labels.icon',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'road.highway',
+    elementType: 'labels.icon',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  // hide traffic lights
+  {
+    featureType: 'road',
+    elementType: 'labels.icon',
     stylers: [
       {
         visibility: 'off',
