@@ -154,7 +154,7 @@ export function Slideshow(props: SlideshowProps) {
     [onResetYears],
   );
 
-  return images ? (
+  return (
     <div id="expanded">
       <div className="curtains" onClick={handleExit}></div>
 
@@ -209,17 +209,21 @@ export function Slideshow(props: SlideshowProps) {
       </div>
 
       <div id="grid-container" onClick={exitIfSelfClick}>
-        <ExpandableGrid
-          images={images}
-          rowHeight={200}
-          speed={200}
-          selectedId={selectedPhotoId}
-          imageEl={ImagePreview}
-          details={DetailView}
-          onSelect={handleSelect}
-          onDeselect={handleDeselect}
-        />
+        {images ? (
+          <ExpandableGrid
+            images={images}
+            rowHeight={200}
+            speed={200}
+            selectedId={selectedPhotoId}
+            imageEl={ImagePreview}
+            details={DetailView}
+            onSelect={handleSelect}
+            onDeselect={handleDeselect}
+          />
+        ) : (
+          <div className="grid-loading">Loading…</div>
+        )}
       </div>
     </div>
-  ) : null;
+  );
 }

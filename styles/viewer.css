@@ -155,6 +155,10 @@ h2 a {
   overflow-y: scroll;
 }
 
+#grid-container .grid-loading {
+  color: white;
+}
+
 #expanded-controls {
   position: fixed;
   top: 55px;
