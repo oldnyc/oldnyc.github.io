@@ -70,7 +70,7 @@ function PopularPhoto(props: { photo: PopularPhoto }) {
         <span className="desc">{photo.desc}</span>
         <br />
         <span className="loc">{photo.loc}</span>{' '}
-        <span className="date">({photo.date})</span>
+        <span className="date">({photo.date || 'undated'})</span>
       </p>
     </div>
   );
