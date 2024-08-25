@@ -19,6 +19,14 @@ export default tseslint.config(
     files: ['src/**/*.{ts,tsx}'], // We use TS config only for TS files
   })),
   {
+    plugins: {
+      // @ts-ignore
+      "react-hooks": hooksPlugin,
+    },
+    // @ts-ignore
+    rules: hooksPlugin.configs.recommended.rules,
+  },
+  {
     files: ['src/**/*.{ts,tsx}'],
 
     // This is required, see the docs
@@ -36,9 +44,7 @@ export default tseslint.config(
     },
 
     // After defining the plugin, you can use the rules like this
-    // @ts-ignore
     rules: {
-      ...hooksPlugin.configs.recommended.rules,
       // Sometimes it's convenient to give the index a name.
       '@typescript-eslint/consistent-indexed-object-style': 'off',
       '@typescript-eslint/array-type': 'off', // ['error', {default: "array-simple"}],
