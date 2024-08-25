@@ -82,8 +82,8 @@ function removeListener(key: string, fn: () => void) {
 
 const PENDING: ResourcePending = { status: 'pending' };
 
+/** Get a synchronous view on the promised resource. If fn changes, key must change as well. */
 export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
-  // console.log('useResource', key);
   const [, update] = React.useState(0);
 
   const forceUpdate = React.useCallback(() => {
@@ -95,27 +95,24 @@ export function useResource<T>(key: string, fn: () => Promise<T>): Resource<T> {
     const existing = cache.get(key);
     if (existing) {
       if (existing.status === 'pending') {
-        // console.log('useResource: re-using existing pending cache entry', key);
         addListener(key, forceUpdate);
         return;
       }
-      // console.log('useResource: re-using existing cache entry in terminal state', key);
       forceUpdate();
       return;
     }
 
     // It's our responsibility to load!
-    // console.log('useResource: triggering load', key);
     cache.set(key, PENDING);
     addListener(key, forceUpdate);
     (async () => {
       const val = await fn();
-      // console.log('useResource: set success', key, val);
       cache.set(key, { status: 'success', data: val });
     })().catch((error) => {
-      // console.log('useResource: set failure', key);
       cache.set(key, { status: 'error', error: error as Error });
     });
+    // fn is deliberately omitted; if fn meaningfully changes, then key must change, too.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, forceUpdate]);
 
   return (cache.get(key) as Resource<T>) ?? PENDING;

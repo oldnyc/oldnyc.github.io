@@ -85,7 +85,7 @@ export function Slideshow(props: SlideshowProps) {
       const photoId = photoIds[0];
       history.replace(`/${photoId}`);
     }
-  }, [hasAutoOpened, history, photoIds]);
+  }, [hasAutoOpened, history, photoIds, selectedPhotoId]);
 
   const images = React.useMemo(() => {
     if (!photoIds) return null;
