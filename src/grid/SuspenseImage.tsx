@@ -101,12 +101,11 @@ function loadImage(source: string): Readable<string> {
         const img = new window.Image();
         img.src = source;
         img.addEventListener('load', () => resolve(source));
-        // img.addEventListener("load", () => {
-        //   setTimeout(() => resolve(source), 1000);
-        // });
-        img.addEventListener('error', () =>
-          reject(new Error(`Failed to load image ${source}`)),
-        );
+        img.addEventListener('error', () => {
+          console.error(`Failed to load image ${source}`);
+          resolve(source);
+          // reject(new Error()),
+        });
       }),
   );
   cache.set(source, resource);

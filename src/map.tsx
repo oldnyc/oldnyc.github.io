@@ -248,3 +248,17 @@ export function Map(props: MapProps) {
 
   return <div id="map" ref={ref}></div>;
 }
+
+// Debugging conveniences
+/* eslint-disable */
+(window as any).getMap = () => {
+  const center = map!.getCenter()!;
+  const zoom = map!.getZoom();
+  return `${center.lat()},${center.lng()},${zoom}`;
+};
+(window as any).setMap = (str: string) => {
+  const [lat, lng, zoom] = str.split(',').map((x) => parseFloat(x));
+  map!.setCenter({ lat, lng });
+  map!.setZoom(zoom);
+};
+/* eslint-enable */
