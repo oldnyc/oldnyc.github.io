@@ -97,7 +97,7 @@ function loadImage(source: string): Readable<string> {
   if (resource) return resource;
   resource = createResource<string>(
     () =>
-      new Promise((resolve, reject) => {
+      new Promise((resolve) => {
         const img = new window.Image();
         img.src = source;
         img.addEventListener('load', () => resolve(source));

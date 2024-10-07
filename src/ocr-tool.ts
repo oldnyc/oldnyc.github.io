@@ -111,7 +111,6 @@ function next_image(id: string) {
     );
     def.resolve(ids[Math.floor(Math.random() * ids.length)]);
   });
-
   return def;
 }
 

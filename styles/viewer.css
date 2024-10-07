@@ -31,7 +31,12 @@ h2 a {
   right: 0px;
   height: 55px;
   background: transparent;
-  min-width: 640px;
+}
+
+@media (max-width: 800px) {
+  .hide-mobile {
+    display: none;
+  }
 }
 
 #map {
@@ -496,6 +501,47 @@ a#slideshow-all:visited {
   font-style: italic;
 }
 
+@media (max-width: 1024px) {
+  #expanded-controls {
+    display: none;
+  }
+  #grid-container {
+    left: 0;
+    top: 0;
+  }
+  #expanded .logo {
+    display: none;
+  }
+  #exit-slideshow {
+    z-index: 3;
+  }
+}
+@media (max-width: 800px) {
+  .og-details {
+    width: 100%;
+    float: none;
+    overflow-y: visible;
+    height: auto;
+  }
+  .og-fullimg {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .og-expander-inner {
+    overflow-y: auto;
+  }
+  .og-details {
+    overflow-y: hidden;
+  }
+  .details {
+    position: static;
+  }
+  .feedback-link, .fix-typos {
+    display: none;
+  }
+}
+
 #popular::-webkit-scrollbar,
 .og-details::-webkit-scrollbar-thumb {
   width: 6px;
@@ -525,6 +571,12 @@ a#slideshow-all:visited {
 
 #popular .close:hover {
   color: gray;
+}
+
+@media (max-width:800px) {
+  #popular {
+    display: none;
+  }
 }
 
 #about-page {

@@ -66,7 +66,7 @@ export function DetailView({
               <>
                 {text}
                 {text && (
-                  <p>
+                  <p className="fix-typos">
                     <i>
                       Typos? Help{' '}
                       <a target="_blank" href={ocrUrl} rel="noreferrer">
