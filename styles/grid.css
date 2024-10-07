@@ -102,9 +102,15 @@
 .og-details {
   width: 50%;
   float: left;
-  height: 100%;
   overflow: hidden;
   position: relative;
+}
+
+.og-fullimg {
+  height: 100%;
+}
+.og-details {
+  height: 100%;
 }
 
 .og-details {
