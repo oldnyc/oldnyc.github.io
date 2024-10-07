@@ -203,15 +203,6 @@ div.exit:hover {
   color: gray;
 }
 
-@media (max-width: 800px) {
-  #expanded-controls {
-    display: none;
-  }
-  #grid-container {
-    left: 0;
-  }
-}
-
 #search {
   position: fixed;
   left: 10px;
@@ -510,6 +501,14 @@ a#slideshow-all:visited {
   font-style: italic;
 }
 
+@media (max-width: 1024px) {
+  #expanded-controls {
+    display: none;
+  }
+  #grid-container {
+    left: 0;
+  }
+}
 @media (max-width: 800px) {
   .og-details {
     width: 100%;
