@@ -5,8 +5,8 @@
   "main": "js/viewer.js",
   "scripts": {
     "test": "npm run lint",
-    "format": "yarn prettier . --write",
-    "format:check": "yarn prettier . --check",
+    "format": "yarn prettier src --write",
+    "format:check": "yarn prettier src --check",
     "lint": "eslint src",
     "serve": "webpack serve",
     "build": "webpack --mode production --no-devtool && rm -rf bundle && cp -r dist/* .",
