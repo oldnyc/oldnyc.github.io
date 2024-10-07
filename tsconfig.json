@@ -105,8 +105,7 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
-    "noUncheckedSideEffectImports": true
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "files": ["src/ocr-tool.ts", "src/main.tsx"],
   "include": ["src/*.d.ts", "src/**/*.ts", "src/**/*.tsx"]
