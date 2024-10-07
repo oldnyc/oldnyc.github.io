@@ -507,6 +507,13 @@ a#slideshow-all:visited {
   }
   #grid-container {
     left: 0;
+    top: 0;
+  }
+  #expanded .logo {
+    display: none;
+  }
+  #exit-slideshow {
+    z-index: 3;
   }
 }
 @media (max-width: 800px) {
