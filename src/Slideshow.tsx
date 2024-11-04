@@ -120,7 +120,6 @@ export function Slideshow(props: SlideshowProps) {
       selectedImage.id !== selectedPhotoId &&
       selectedImage.id.startsWith(selectedPhotoId)
     ) {
-      console.log('Redirecting from', selectedPhotoId, '->', selectedImage.id);
       history.replace(`/${selectedImage.id}`);
     }
   }, [history, selectedImage, selectedPhotoId]);
