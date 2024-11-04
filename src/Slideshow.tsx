@@ -112,7 +112,18 @@ export function Slideshow(props: SlideshowProps) {
     images && selectedPhotoId
       ? images.find((image) => image.id.startsWith(selectedPhotoId))
       : undefined;
-  console.log('selectedImage', selectedPhotoId, selectedImage);
+
+  React.useEffect(() => {
+    if (
+      selectedImage &&
+      selectedPhotoId &&
+      selectedImage.id !== selectedPhotoId &&
+      selectedImage.id.startsWith(selectedPhotoId)
+    ) {
+      console.log('Redirecting from', selectedPhotoId, '->', selectedImage.id);
+      history.replace(`/${selectedImage.id}`);
+    }
+  }, [history, selectedImage, selectedPhotoId]);
 
   const handleSelect = React.useCallback(
     (photoId: string) => {
