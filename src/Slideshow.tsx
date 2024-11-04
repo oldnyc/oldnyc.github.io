@@ -110,8 +110,19 @@ export function Slideshow(props: SlideshowProps) {
 
   const selectedImage =
     images && selectedPhotoId
-      ? images.find((image) => image.id === selectedPhotoId)
+      ? images.find((image) => image.id.startsWith(selectedPhotoId))
       : undefined;
+
+  React.useEffect(() => {
+    if (
+      selectedImage &&
+      selectedPhotoId &&
+      selectedImage.id !== selectedPhotoId &&
+      selectedImage.id.startsWith(selectedPhotoId)
+    ) {
+      history.replace(`/${selectedImage.id}`);
+    }
+  }, [history, selectedImage, selectedPhotoId]);
 
   const handleSelect = React.useCallback(
     (photoId: string) => {
@@ -214,7 +225,7 @@ export function Slideshow(props: SlideshowProps) {
             images={images}
             rowHeight={200}
             speed={200}
-            selectedId={selectedPhotoId}
+            selectedId={selectedImage?.id ?? selectedPhotoId}
             imageEl={ImagePreview}
             details={DetailView}
             onSelect={handleSelect}
