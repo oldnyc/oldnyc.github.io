@@ -58,6 +58,7 @@ function PhotoApp() {
   if (photoId && !loc) {
     loc = photoIdToLatLon[photoId];
   }
+  console.log(photoId, 'loc', loc);
 
   // TODO: make sure there's only one request in flight for any id4
   const [, setForceUpdate] = React.useState(0);

@@ -110,8 +110,9 @@ export function Slideshow(props: SlideshowProps) {
 
   const selectedImage =
     images && selectedPhotoId
-      ? images.find((image) => image.id === selectedPhotoId)
+      ? images.find((image) => image.id.startsWith(selectedPhotoId))
       : undefined;
+  console.log('selectedImage', selectedPhotoId, selectedImage);
 
   const handleSelect = React.useCallback(
     (photoId: string) => {
@@ -214,7 +215,7 @@ export function Slideshow(props: SlideshowProps) {
             images={images}
             rowHeight={200}
             speed={200}
-            selectedId={selectedPhotoId}
+            selectedId={selectedImage?.id ?? selectedPhotoId}
             imageEl={ImagePreview}
             details={DetailView}
             onSelect={handleSelect}
