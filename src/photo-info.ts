@@ -17,7 +17,6 @@ export interface PhotoInfo {
   title: string;
   date: string;
   text: string | null;
-  folder: string;
   height: number;
   years: string[];
   original_title?: string;
