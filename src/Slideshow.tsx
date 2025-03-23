@@ -38,6 +38,8 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon: string) {
+  // Just use a transparent GIF for now until I can work out a better alternative to GMaps.
+  return 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
   return (
     'http://maps.googleapis.com/maps/api/staticmap?center=' +
     lat_lon +
