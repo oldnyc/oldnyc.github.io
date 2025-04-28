@@ -9,8 +9,8 @@ export function parseLatLon(latLngStr: string): [number, number] {
 }
 
 const markers: L.Marker[] = [];
-const marker_icons: L.Icon[] = [];
-const selected_marker_icons: L.Icon[] = [];
+const marker_icons: L.DivIcon[] = [];
+const selected_marker_icons: L.DivIcon[] = [];
 export const lat_lon_to_marker: { [latLng: string]: L.Marker } = {};
 
 export function initialize_leaflet() {
@@ -21,24 +21,18 @@ export function initialize_leaflet() {
     const num = i + 1;
     const size = num == 1 ? 9 : 13;
     const selectedSize = num == 1 ? 15 : 21;
-    const [x, y] = [(i % 10) * 39, Math.floor(i / 10) * 39];
+    const [x, y] = [i % 10, Math.floor(i / 10)];
     // Could alternatively use L.divIcon
     marker_icons.push(
-      L.icon({
-        iconUrl: 'images/sprite-2014-08-29.png',
-        iconSize: [size, size],
-        // origin: new google.maps.Point((i % 10) * 39, Math.floor(i / 10) * 39),
+      L.divIcon({
         iconAnchor: [(size - 1) / 2, (size - 1) / 2],
-        className: `marker-x-${x} marker-y-${y}`,
+        className: `marker marker-${num} marker-x-${x} marker-y-${y}`,
       }),
     );
     selected_marker_icons.push(
-      L.icon({
-        iconUrl: 'images/selected-2014-08-29.png',
-        iconSize: [selectedSize, selectedSize],
-        // origin: new google.maps.Point((i % 10) * 39, Math.floor(i / 10) * 39),
+      L.divIcon({
         iconAnchor: [(selectedSize - 1) / 2, (selectedSize - 1) / 2],
-        className: `marker-x-${x} marker-y-${y}`,
+        className: `marker marker-selected marker-${num} marker-x-${x} marker-y-${y}`,
       }),
     );
   }
@@ -73,12 +67,12 @@ export function MapMarkers(props: MapMarkersProps) {
       const pos = parseLatLon(latLng);
       if (!bounds.contains(pos)) continue;
 
-      // const count = countPhotos(lat_lons[latLng]);
-      // icon={marker_icons[Math.min(count, 100)]}
+      const count = countPhotos(lat_lons[latLng]);
 
       newMarkers.push(
         <Marker
           position={pos}
+          icon={marker_icons[Math.min(count, 100)]}
           key={latLng}
           title={latLng}
           eventHandlers={{ click: markerClickFn }}
@@ -93,3 +87,5 @@ export function MapMarkers(props: MapMarkersProps) {
 
   return <>{markers}</>;
 }
+
+initialize_leaflet();
