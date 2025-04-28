@@ -15,7 +15,7 @@ module.exports = {
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
-    extensions: ['.ts', '.tsx', '.js'],
+    extensions: ['.ts', '.tsx', '.js', '.css'],
     // Add support for TypeScripts fully qualified ESM imports.
     extensionAlias: {
       '.js': ['.js', '.ts'],
@@ -32,6 +32,10 @@ module.exports = {
         options: {
           transpileOnly: true,
         },
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },

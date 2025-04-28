@@ -6,6 +6,8 @@ import { DEFAULT_YEARS, YearRange, isFullTimeRange } from './TimeSlider';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
 
+import 'leaflet/dist/leaflet.css';
+
 const markers: google.maps.Marker[] = [];
 const marker_icons: google.maps.Icon[] = [];
 const selected_marker_icons: google.maps.Icon[] = [];
