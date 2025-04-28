@@ -7,11 +7,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
 
 import 'leaflet/dist/leaflet.css';
-
-const markers: google.maps.Marker[] = [];
-const marker_icons: google.maps.Icon[] = [];
-const selected_marker_icons: google.maps.Icon[] = [];
-export const lat_lon_to_marker: { [latLng: string]: google.maps.Marker } = {};
+import { MapMarkers } from './MapMarkers';
 
 // TODO: remove this global
 let year_range: YearRange = DEFAULT_YEARS;
@@ -78,30 +74,7 @@ export function initialize_map(el: HTMLElement) {
     $('.streetview-hide').toggle(!streetView.getVisible());
   });
 
-  // Create marker icons for each number.
-  marker_icons.push(null!); // it's easier to be 1-based.
-  selected_marker_icons.push(null!);
-  for (let i = 0; i < 100; i++) {
-    const num = i + 1;
-    const size = num == 1 ? 9 : 13;
-    const selectedSize = num == 1 ? 15 : 21;
-    marker_icons.push({
-      url: 'images/sprite-2014-08-29.png',
-      size: new google.maps.Size(size, size),
-      origin: new google.maps.Point((i % 10) * 39, Math.floor(i / 10) * 39),
-      anchor: new google.maps.Point((size - 1) / 2, (size - 1) / 2),
-    });
-    selected_marker_icons.push({
-      url: 'images/selected-2014-08-29.png',
-      size: new google.maps.Size(selectedSize, selectedSize),
-      origin: new google.maps.Point((i % 10) * 39, Math.floor(i / 10) * 39),
-      anchor: new google.maps.Point(
-        (selectedSize - 1) / 2,
-        (selectedSize - 1) / 2,
-      ),
-    });
-  }
-
+  // https://github.com/Leaflet/Leaflet/issues/3178
   // Adding markers is expensive -- it's important to defer this when possible.
   const idleListener = google.maps.event.addListener(map, 'idle', function () {
     google.maps.event.removeListener(idleListener);
@@ -121,15 +94,6 @@ export function initialize_map(el: HTMLElement) {
 function addNewlyVisibleMarkers() {
   const bounds = map!.getBounds();
   if (!bounds) return;
-
-  for (const lat_lon in lat_lons) {
-    if (lat_lon in lat_lon_to_marker) continue;
-
-    const pos = parseLatLon(lat_lon);
-    if (!bounds.contains(pos)) continue;
-
-    createMarker(lat_lon, pos);
-  }
 }
 
 export function parseLatLon(lat_lon: string) {
@@ -221,13 +185,7 @@ export interface MapProps {
 export function Map(props: MapProps) {
   const { onBoundsChange, onClickMarker, selectedLatLon, yearRange } = props;
 
-  const ref = React.useRef<HTMLDivElement | null>(null);
-  React.useEffect(() => {
-    if (ref.current) {
-      initialize_map(ref.current);
-    }
-  }, [ref]);
-
+  /*
   // TODO: unset these on cleanup?
   React.useEffect(() => {
     boundsChangeFn = onBoundsChange;
@@ -254,7 +212,7 @@ export function Map(props: MapProps) {
       updateYears();
     }
   }, [yearRange]);
-
+*/
   return (
     <MapContainer
       center={DEFAULT_LAT_LNG}
@@ -272,6 +230,7 @@ export function Map(props: MapProps) {
           OldNYC <br /> Meet Leaflet.
         </Popup>
       </Marker>
+      <MapMarkers onClickMarker={onClickMarker} />
     </MapContainer>
   );
 }
