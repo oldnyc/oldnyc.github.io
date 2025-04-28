@@ -31,6 +31,7 @@ h2 a {
   right: 0px;
   height: 55px;
   background: transparent;
+  z-index: 1000;
 }
 
 @media (max-width: 800px) {
@@ -138,6 +139,7 @@ h2 a {
   padding: 2px;
   background-color: #c33c3c;
   border-left: none;
+  z-index: 1000;
 }
 
 .curtains {
@@ -260,6 +262,11 @@ div.exit:hover {
   cursor: pointer;
 }
 
+#expanded {
+  z-index: 1000;
+  position: absolute;  /* needed for z-index to do something */
+}
+
 #expanded .og-fullimg img:hover {
   cursor: pointer;
 }
@@ -326,6 +333,7 @@ a#slideshow-all:visited {
   right: 10px;
   background: #eee;
   padding: 0 10px;
+  z-index: 1000;
 }
 
 #popular {
@@ -608,6 +616,7 @@ a#slideshow-all:visited {
   text-align: center;
   line-height: 54px;
   cursor: pointer;
+  z-index: 1000;
 }
 
 #time-range {
@@ -621,6 +630,7 @@ a#slideshow-all:visited {
   display: none;
   box-sizing: border-box;
   padding-top: 15px;
+  z-index: 1000;
 }
 
 #time-range-summary {
