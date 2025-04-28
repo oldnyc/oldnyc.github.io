@@ -33,6 +33,7 @@
     "@types/google.analytics": "^0.0.43",
     "@types/google.maps": "^3.54.2",
     "@types/jquery": "^1.10.41",
+    "@types/leaflet": "^1.9.17",
     "@types/node": "^22.4.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -56,14 +57,17 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
+    "leaflet": "^1.9.4",
     "rc-slider": "^11.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
+    "react-leaflet": "4",
     "react-router-dom": "5",
     "react-transition-group": "^4.4.5"
   },
   "resolutions": {
     "strip-ansi": "6.0.1"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

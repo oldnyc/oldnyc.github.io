@@ -3,6 +3,8 @@
 import React from 'react';
 import { MAP_STYLE } from './map-styles';
 import { DEFAULT_YEARS, YearRange, isFullTimeRange } from './TimeSlider';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { LatLngExpression } from 'leaflet';
 
 const markers: google.maps.Marker[] = [];
 const marker_icons: google.maps.Icon[] = [];
@@ -34,6 +36,11 @@ export let map: google.maps.Map | undefined;
 interface YearToCount {
   [year: string]: number;
 }
+
+const DEFAULT_LAT_LNG: LatLngExpression = [40.74421, -73.9737];
+const DEFAULT_ZOOM = 15;
+const MIN_ZOOM = 10;
+const MAX_ZOOM = 18;
 
 export function initialize_map(el: HTMLElement) {
   const latlng = new google.maps.LatLng(40.74421, -73.9737);
@@ -246,7 +253,25 @@ export function Map(props: MapProps) {
     }
   }, [yearRange]);
 
-  return <div id="map" ref={ref}></div>;
+  return (
+    <MapContainer
+      center={DEFAULT_LAT_LNG}
+      zoom={DEFAULT_ZOOM}
+      minZoom={MIN_ZOOM}
+      maxZoom={MAX_ZOOM}
+      id="map"
+    >
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      <Marker position={DEFAULT_LAT_LNG}>
+        <Popup>
+          OldNYC <br /> Meet Leaflet.
+        </Popup>
+      </Marker>
+    </MapContainer>
+  );
 }
 
 // Debugging conveniences
