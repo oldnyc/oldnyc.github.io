@@ -62,7 +62,7 @@ export function MapMarkers(props: MapMarkersProps) {
   const markerClickFn = React.useCallback<L.LeafletMouseEventHandlerFn>(
     (e) => {
       // eslint-disable-next-line
-      onClickMarker?.(e.target.title);
+      onClickMarker?.(e.target.options.title);
     },
     [onClickMarker],
   );
@@ -102,6 +102,8 @@ export function MapMarkers(props: MapMarkersProps) {
     }
   }, [map, markerClickFn, markerIcons, markeredLatLngs]);
 
+  // TODO: there's a circular dependency here that causes addVisibleMarkers()
+  //       to fire twice when the map first loads.
   React.useEffect(addVisibleMarkers, [addVisibleMarkers]);
 
   return <>{markers}</>;
