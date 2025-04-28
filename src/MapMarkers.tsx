@@ -2,7 +2,6 @@ import React from 'react';
 import L from 'leaflet';
 import { useMapEvents, Marker } from 'react-leaflet';
 import { countPhotos, MarkerClickFn } from './map';
-import { create } from 'domain';
 
 export function parseLatLon(latLngStr: string): [number, number] {
   const ll = latLngStr.split(',');
@@ -48,6 +47,11 @@ export interface MapMarkersProps {
 
 export function MapMarkers(props: MapMarkersProps) {
   const { onClickMarker } = props;
+  const [markers, setMarkers] = React.useState<JSX.Element[]>([]);
+  const [markeredLatLngs, setMarkeredLatLngs] = React.useState(
+    new Set<string>(),
+  );
+
   const map = useMapEvents({
     moveend() {
       console.log('moveend');
@@ -63,31 +67,15 @@ export function MapMarkers(props: MapMarkersProps) {
     [onClickMarker],
   );
 
-  const markers = React.useMemo(() => {
-    const [markerIcons, selectedMarkerIcons] = createIcons();
-    const m = [];
-    for (const latLng in lat_lons) {
-      const pos = parseLatLon(latLng);
-
-      const count = countPhotos(lat_lons[latLng]);
-
-      m.push(
-        <Marker
-          position={pos}
-          icon={markerIcons[Math.min(count, 100)]}
-          key={latLng}
-          title={latLng}
-          eventHandlers={{ click: markerClickFn }}
-        />,
-      );
-    }
-    return m;
-  }, [markerClickFn]);
+  const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
 
   const addVisibleMarkers = React.useCallback(() => {
     const bounds = map.getBounds();
-    const newMarkers = [];
+    const newMarkers: JSX.Element[] = [];
+    // const newLatLngs = [];
+    console.log('addVisibleMarkers');
     for (const latLng in lat_lons) {
+      if (markeredLatLngs.has(latLng)) continue;
       const pos = parseLatLon(latLng);
       if (!bounds.contains(pos)) continue;
 
@@ -96,18 +84,25 @@ export function MapMarkers(props: MapMarkersProps) {
       newMarkers.push(
         <Marker
           position={pos}
-          icon={marker_icons[Math.min(count, 100)]}
+          icon={markerIcons[Math.min(count, 100)]}
           key={latLng}
           title={latLng}
           eventHandlers={{ click: markerClickFn }}
         />,
       );
+      // newLatLngs.push(latLng);
+      // This is a little gross
+      markeredLatLngs.add(latLng);
     }
 
-    // setMarkers(newMarkers);
-  }, [map, markerClickFn]);
+    console.log('addVisibleMarkers', newMarkers.length);
+    if (newMarkers.length) {
+      setMarkers((markers) => [...markers, ...newMarkers]);
+      setMarkeredLatLngs(markeredLatLngs);
+    }
+  }, [map, markerClickFn, markerIcons, markeredLatLngs]);
 
-  // React.useEffect(addVisibleMarkers, [addVisibleMarkers]);
+  React.useEffect(addVisibleMarkers, [addVisibleMarkers]);
 
   return <>{markers}</>;
 }
