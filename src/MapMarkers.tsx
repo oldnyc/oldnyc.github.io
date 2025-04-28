@@ -2,18 +2,21 @@ import React from 'react';
 import L from 'leaflet';
 import { useMapEvents, Marker } from 'react-leaflet';
 import { countPhotos, MarkerClickFn } from './map';
+import { create } from 'domain';
 
 export function parseLatLon(latLngStr: string): [number, number] {
   const ll = latLngStr.split(',');
   return [parseFloat(ll[0]), parseFloat(ll[1])];
 }
 
-const markers: L.Marker[] = [];
 const marker_icons: L.DivIcon[] = [];
 const selected_marker_icons: L.DivIcon[] = [];
 export const lat_lon_to_marker: { [latLng: string]: L.Marker } = {};
 
-export function initialize_leaflet() {
+export function createIcons() {
+  if (marker_icons.length) {
+    return [marker_icons, selected_marker_icons];
+  }
   // Create marker icons for each number.
   marker_icons.push(null!); // it's easier to be 1-based.
   selected_marker_icons.push(null!);
@@ -36,6 +39,7 @@ export function initialize_leaflet() {
       }),
     );
   }
+  return [marker_icons, selected_marker_icons];
 }
 
 export interface MapMarkersProps {
@@ -44,7 +48,6 @@ export interface MapMarkersProps {
 
 export function MapMarkers(props: MapMarkersProps) {
   const { onClickMarker } = props;
-  const [markers, setMarkers] = React.useState<JSX.Element[]>([]);
   const map = useMapEvents({
     moveend() {
       console.log('moveend');
@@ -59,6 +62,27 @@ export function MapMarkers(props: MapMarkersProps) {
     },
     [onClickMarker],
   );
+
+  const markers = React.useMemo(() => {
+    const [markerIcons, selectedMarkerIcons] = createIcons();
+    const m = [];
+    for (const latLng in lat_lons) {
+      const pos = parseLatLon(latLng);
+
+      const count = countPhotos(lat_lons[latLng]);
+
+      m.push(
+        <Marker
+          position={pos}
+          icon={markerIcons[Math.min(count, 100)]}
+          key={latLng}
+          title={latLng}
+          eventHandlers={{ click: markerClickFn }}
+        />,
+      );
+    }
+    return m;
+  }, [markerClickFn]);
 
   const addVisibleMarkers = React.useCallback(() => {
     const bounds = map.getBounds();
@@ -80,12 +104,10 @@ export function MapMarkers(props: MapMarkersProps) {
       );
     }
 
-    setMarkers(newMarkers);
+    // setMarkers(newMarkers);
   }, [map, markerClickFn]);
 
-  React.useEffect(addVisibleMarkers, [addVisibleMarkers]);
+  // React.useEffect(addVisibleMarkers, [addVisibleMarkers]);
 
   return <>{markers}</>;
 }
-
-initialize_leaflet();
