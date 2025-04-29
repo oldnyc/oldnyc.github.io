@@ -89,12 +89,8 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     return theMarkers;
   }, [hasBeenVisible, markerIcons, onClickMarker, photos]);
 
-  return (
-    <>
-      {markers}
-      <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
-    </>
-  );
+  return <>{markers}</>;
+  // <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
 }
 
 interface MarkerTile {
