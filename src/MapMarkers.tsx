@@ -2,6 +2,7 @@ import React from 'react';
 import L from 'leaflet';
 import { useMapEvents, CircleMarker } from 'react-leaflet';
 import { countPhotos, MarkerClickFn } from './map';
+import { YearRange } from './TimeSlider';
 
 export function parseLatLon(latLngStr: string): [number, number] {
   const ll = latLngStr.split(',');
@@ -17,12 +18,13 @@ export interface MapMarkerTileProps {
   isVisible: boolean;
   selectedLatLng?: string;
   onClickMarker: L.LeafletMouseEventHandlerFn;
+  yearRange: YearRange;
 }
 
 // TODO: render selected marker
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
-  const { photos, isVisible, selectedLatLng, onClickMarker } = props;
+  const { photos, isVisible, selectedLatLng, onClickMarker, yearRange } = props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
 
   React.useEffect(() => {
@@ -38,7 +40,10 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     const theMarkers = [];
     for (const latLng in photos) {
       const pos = parseLatLon(latLng);
-      const count = countPhotos(photos[latLng]);
+      const count = countPhotos(photos[latLng], yearRange);
+      if (count === 0) {
+        continue;
+      }
       const isSelected = latLng === selectedLatLng;
 
       theMarkers.push(
@@ -57,7 +62,7 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     numMarkers += theMarkers.length;
     console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
     return theMarkers;
-  }, [hasBeenVisible, onClickMarker, photos, selectedLatLng]);
+  }, [hasBeenVisible, onClickMarker, photos, selectedLatLng, yearRange]);
 
   return <>{markers}</>;
   // <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
@@ -127,10 +132,11 @@ function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
 export interface MapMarkersProps {
   onClickMarker?: MarkerClickFn;
   selectedLatLng?: string;
+  yearRange: YearRange;
 }
 
 export function MapMarkers(props: MapMarkersProps) {
-  const { onClickMarker, selectedLatLng } = props;
+  const { onClickMarker, selectedLatLng, yearRange } = props;
   const [, forceUpdate] = React.useState(0);
 
   const map = useMapEvents({
@@ -170,6 +176,7 @@ export function MapMarkers(props: MapMarkersProps) {
           photos={t.photos}
           onClickMarker={markerClickFn}
           isVisible={bounds.intersects(t.bounds)}
+          yearRange={yearRange}
         />
       ))}
     </>

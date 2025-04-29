@@ -101,12 +101,12 @@ export function parseLatLon(lat_lon: string) {
   return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
 }
 
-export function countPhotos(yearToCounts: YearToCount) {
-  if (isFullTimeRange(year_range)) {
+export function countPhotos(yearToCounts: YearToCount, yearRange: YearRange) {
+  if (isFullTimeRange(yearRange)) {
     // This includes undated photos.
     return Object.values(yearToCounts || {}).reduce((a, b) => a + b, 0);
   } else {
-    const [first, last] = year_range;
+    const [first, last] = yearRange;
     return Object.entries(yearToCounts || {})
       .filter(([y]) => Number(y) > first && Number(y) <= last)
       .map(([, c]) => c)
@@ -179,6 +179,7 @@ export function Map(props: MapProps) {
       <MapMarkers
         onClickMarker={onClickMarker}
         selectedLatLng={savedSelectedLatLng}
+        yearRange={yearRange}
       />
     </MapContainer>
   );
