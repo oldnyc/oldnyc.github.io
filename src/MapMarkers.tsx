@@ -1,6 +1,6 @@
 import React from 'react';
 import L from 'leaflet';
-import { useMapEvents, Marker, Rectangle } from 'react-leaflet';
+import { useMapEvents, Marker, Rectangle, CircleMarker } from 'react-leaflet';
 import { countPhotos, MarkerClickFn } from './map';
 
 export function parseLatLon(latLngStr: string): [number, number] {
@@ -56,7 +56,7 @@ export interface MapMarkerTileProps {
 
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
-  const { bounds, photos, isVisible, markerIcons, onClickMarker } = props;
+  const { photos, isVisible, markerIcons, onClickMarker } = props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
 
   React.useEffect(() => {
@@ -75,11 +75,10 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       const count = countPhotos(photos[latLng]);
 
       theMarkers.push(
-        <Marker
-          position={pos}
-          icon={markerIcons[Math.min(count, 100)]}
+        <CircleMarker
+          center={pos}
+          radius={count == 1 ? 9 : 13}
           key={latLng}
-          title={latLng}
           eventHandlers={{ click: onClickMarker }}
         />,
       );
@@ -87,7 +86,7 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     numMarkers += theMarkers.length;
     console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
     return theMarkers;
-  }, [hasBeenVisible, markerIcons, onClickMarker, photos]);
+  }, [hasBeenVisible, onClickMarker, photos]);
 
   return <>{markers}</>;
   // <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
