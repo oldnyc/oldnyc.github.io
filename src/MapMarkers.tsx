@@ -49,14 +49,13 @@ export interface MapMarkerTileProps {
   photos: typeof lat_lons;
   isVisible: boolean;
   selectedLatLng?: string;
-  markerIcons: (L.Icon | L.DivIcon)[];
-  selectedMarkerIcons: (L.Icon | L.DivIcon)[];
   onClickMarker: L.LeafletMouseEventHandlerFn;
 }
 
+// TODO: render selected marker
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
-  const { photos, isVisible, markerIcons, onClickMarker } = props;
+  const { photos, isVisible, onClickMarker } = props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
 
   React.useEffect(() => {
@@ -77,9 +76,11 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       theMarkers.push(
         <CircleMarker
           center={pos}
-          radius={count == 1 ? 9 : 13}
+          radius={count == 1 ? 4 : 6}
           key={latLng}
           eventHandlers={{ click: onClickMarker }}
+          // @ts-expect-error This gets passed along as an option, despite the type error.
+          id={latLng}
         />,
       );
     }
@@ -151,12 +152,12 @@ export function MapMarkers(props: MapMarkersProps) {
   const markerClickFn = React.useCallback<L.LeafletMouseEventHandlerFn>(
     (e) => {
       // eslint-disable-next-line
-      onClickMarker?.(e.target.options.title);
+      onClickMarker?.(e.target.options.id);
     },
     [onClickMarker],
   );
 
-  const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
+  // const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
   const tiles = React.useMemo(() => makeTiles(lat_lons), []);
   const bounds = map.getBounds();
   console.log('rendering', bounds.toBBoxString());
@@ -170,8 +171,6 @@ export function MapMarkers(props: MapMarkersProps) {
         <MapMarkerTile
           key={t.key}
           bounds={t.bounds}
-          markerIcons={markerIcons}
-          selectedMarkerIcons={selectedMarkerIcons}
           selectedLatLng={selectedLatLng}
           photos={t.photos}
           onClickMarker={markerClickFn}
