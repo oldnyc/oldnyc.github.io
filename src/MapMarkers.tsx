@@ -1,6 +1,6 @@
 import React from 'react';
 import L from 'leaflet';
-import { useMapEvents, Marker } from 'react-leaflet';
+import { useMapEvents, Marker, Rectangle } from 'react-leaflet';
 import { countPhotos, MarkerClickFn } from './map';
 
 export function parseLatLon(latLngStr: string): [number, number] {
@@ -41,7 +41,11 @@ export function createIcons() {
   return [marker_icons, selected_marker_icons];
 }
 
+const BLUE: L.PathOptions = { color: 'blue', fillOpacity: 0 };
+const BLACK = { color: 'black', fillOpacity: 0 };
+
 export interface MapMarkerTileProps {
+  bounds: L.LatLngBounds;
   photos: typeof lat_lons;
   isVisible: boolean;
   selectedLatLng?: string;
@@ -52,7 +56,7 @@ export interface MapMarkerTileProps {
 
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
-  const { photos, isVisible, markerIcons, onClickMarker } = props;
+  const { bounds, photos, isVisible, markerIcons, onClickMarker } = props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
 
   React.useEffect(() => {
@@ -85,7 +89,12 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     return theMarkers;
   }, [hasBeenVisible, markerIcons, onClickMarker, photos]);
 
-  return markers;
+  return (
+    <>
+      {markers}
+      <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
+    </>
+  );
 }
 
 interface MarkerTile {
@@ -97,12 +106,7 @@ interface MarkerTile {
 /** Carve up the lat/lngs into N rectangular tiles */
 function makeTiles(photos: typeof lat_lons): MarkerTile[] {
   const startMs = Date.now();
-  const bounds = new L.LatLngBounds(
-    Object.keys(photos).map((latLngStr) => {
-      const [lat, lng] = parseLatLon(latLngStr);
-      return [lng, lat];
-    }),
-  );
+  const bounds = new L.LatLngBounds(Object.keys(photos).map(parseLatLon));
 
   const { lng: minLat, lat: minLng } = bounds.getSouthWest();
   const { lng: maxLat, lat: maxLng } = bounds.getNorthEast();
@@ -117,11 +121,11 @@ function makeTiles(photos: typeof lat_lons): MarkerTile[] {
     const yc = Math.floor((lat - minLat) / h);
     const key = `${xc},${yc}`;
     if (!(key in keyToTile)) {
-      const p0: L.PointExpression = [minLat + xc * w, minLng + yc * h];
+      const p0: L.PointExpression = [minLat + yc * h, minLng + xc * w];
       keyToTile[key] = {
         key,
         photos: {},
-        bounds: new L.LatLngBounds(p0, [p0[0] + w, p0[0] + h]),
+        bounds: new L.LatLngBounds(p0, [p0[0] + h, p0[1] + w]),
       };
     }
     keyToTile[key].photos[latLngStr] = counts;
@@ -162,11 +166,15 @@ export function MapMarkers(props: MapMarkersProps) {
   const bounds = map.getBounds();
   console.log('rendering', bounds.toBBoxString());
 
+  const numVisible = tiles.filter((t) => bounds.intersects(t.bounds)).length;
+  console.log('visible tiles', numVisible);
+
   return (
     <>
       {tiles.map((t) => (
         <MapMarkerTile
           key={t.key}
+          bounds={t.bounds}
           markerIcons={markerIcons}
           selectedMarkerIcons={selectedMarkerIcons}
           selectedLatLng={selectedLatLng}
