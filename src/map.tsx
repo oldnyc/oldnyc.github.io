@@ -126,6 +126,16 @@ export interface MapProps {
 export function Map(props: MapProps) {
   const { onBoundsChange, onClickMarker, selectedLatLon, yearRange } = props;
 
+  const [savedSelectedLatLng, setSavedSelectedLatLng] = React.useState<
+    string | undefined
+  >(selectedLatLon);
+
+  React.useEffect(() => {
+    if (selectedLatLon) {
+      setSavedSelectedLatLng(selectedLatLon);
+    }
+  }, [selectedLatLon]);
+
   /*
   // TODO: unset these on cleanup?
   React.useEffect(() => {
@@ -166,7 +176,10 @@ export function Map(props: MapProps) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <MapMarkers onClickMarker={onClickMarker} />
+      <MapMarkers
+        onClickMarker={onClickMarker}
+        selectedLatLng={savedSelectedLatLng}
+      />
     </MapContainer>
   );
 }

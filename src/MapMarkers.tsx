@@ -22,7 +22,7 @@ export interface MapMarkerTileProps {
 // TODO: render selected marker
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
-  const { photos, isVisible, onClickMarker } = props;
+  const { photos, isVisible, selectedLatLng, onClickMarker } = props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
 
   React.useEffect(() => {
@@ -39,12 +39,15 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     for (const latLng in photos) {
       const pos = parseLatLon(latLng);
       const count = countPhotos(photos[latLng]);
+      const isSelected = latLng === selectedLatLng;
 
       theMarkers.push(
         <CircleMarker
           center={pos}
+          color={isSelected ? '#ff0000' : '#3388ff'}
           radius={count == 1 ? 4 : 6}
-          key={latLng}
+          // The key has to change for leaflet to notice the new color
+          key={latLng + isSelected}
           eventHandlers={{ click: onClickMarker }}
           // @ts-expect-error This gets passed along as an option, despite the type error.
           id={latLng}
@@ -54,7 +57,7 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     numMarkers += theMarkers.length;
     console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
     return theMarkers;
-  }, [hasBeenVisible, onClickMarker, photos]);
+  }, [hasBeenVisible, onClickMarker, photos, selectedLatLng]);
 
   return <>{markers}</>;
   // <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
@@ -66,23 +69,44 @@ interface MarkerTile {
   key: string;
 }
 
+interface TileInfo {
+  minLat: number;
+  minLng: number;
+  tileWidth: number;
+  tileHeight: number;
+}
+
+function posToTile(tileInfo: TileInfo, latLng: [number, number]) {
+  const [lat, lng] = latLng;
+  const xc = Math.floor((lng - tileInfo.minLng) / tileInfo.tileWidth);
+  const yc = Math.floor((lat - tileInfo.minLat) / tileInfo.tileHeight);
+  const key = `${xc},${yc}`;
+  return [xc, yc, key] as const;
+}
+
 /** Carve up the lat/lngs into N rectangular tiles */
-function makeTiles(photos: typeof lat_lons): MarkerTile[] {
+function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
   const startMs = Date.now();
   const bounds = new L.LatLngBounds(Object.keys(photos).map(parseLatLon));
 
-  const { lng: minLat, lat: minLng } = bounds.getSouthWest();
-  const { lng: maxLat, lat: maxLng } = bounds.getNorthEast();
+  const { lat: minLat, lng: minLng } = bounds.getSouthWest();
+  const { lat: maxLat, lng: maxLng } = bounds.getNorthEast();
   const w = (maxLng - minLng) / 15;
   const h = (maxLat - minLat) / 15;
 
   const keyToTile: { [key: string]: MarkerTile } = {};
 
+  const tileInfo: TileInfo = {
+    minLat,
+    minLng,
+    tileWidth: w,
+    tileHeight: h,
+  };
+
   for (const [latLngStr, counts] of Object.entries(photos)) {
-    const [lat, lng] = parseLatLon(latLngStr);
-    const xc = Math.floor((lng - minLng) / w);
-    const yc = Math.floor((lat - minLat) / h);
-    const key = `${xc},${yc}`;
+    const pos = parseLatLon(latLngStr);
+    const [xc, yc, key] = posToTile(tileInfo, pos);
+
     if (!(key in keyToTile)) {
       const p0: L.PointExpression = [minLat + yc * h, minLng + xc * w];
       keyToTile[key] = {
@@ -97,7 +121,7 @@ function makeTiles(photos: typeof lat_lons): MarkerTile[] {
   const tiles = Object.values(keyToTile);
   const elapsedMs = Date.now() - startMs;
   console.log('Created', tiles.length, 'tiles in', Math.round(elapsedMs), 'ms');
-  return tiles;
+  return [tileInfo, tiles];
 }
 
 export interface MapMarkersProps {
@@ -124,16 +148,25 @@ export function MapMarkers(props: MapMarkersProps) {
   );
 
   // const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
-  const tiles = React.useMemo(() => makeTiles(lat_lons), []);
+  const [tileInfo, tiles] = React.useMemo(() => makeTiles(lat_lons), []);
   const bounds = map.getBounds();
 
+  const selectionKey = React.useMemo(() => {
+    if (!selectedLatLng) return undefined;
+    const pos = parseLatLon(selectedLatLng);
+    console.log(pos);
+    const [, , key] = posToTile(tileInfo, pos);
+    return key;
+  }, [selectedLatLng, tileInfo]);
+
+  console.log(selectionKey);
   return (
     <>
       {tiles.map((t) => (
         <MapMarkerTile
           key={t.key}
           bounds={t.bounds}
-          selectedLatLng={selectedLatLng}
+          selectedLatLng={t.key == selectionKey ? selectedLatLng : undefined}
           photos={t.photos}
           onClickMarker={markerClickFn}
           isVisible={bounds.intersects(t.bounds)}

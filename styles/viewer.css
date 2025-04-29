@@ -738,6 +738,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 .marker-y-9 { background-position-y: -351px; }
 
 .leaflet-top {
+  /* TODO: move this into an imported CSS file after leaflet.css */
   /* shove zoom controls below OldNYC logo */
   top: 64px !important;
 }
