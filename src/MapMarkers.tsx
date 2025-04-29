@@ -1,6 +1,6 @@
 import React from 'react';
 import L from 'leaflet';
-import { useMapEvents, Marker, Rectangle, CircleMarker } from 'react-leaflet';
+import { useMapEvents, CircleMarker } from 'react-leaflet';
 import { countPhotos, MarkerClickFn } from './map';
 
 export function parseLatLon(latLngStr: string): [number, number] {
@@ -8,41 +8,8 @@ export function parseLatLon(latLngStr: string): [number, number] {
   return [parseFloat(ll[0]), parseFloat(ll[1])];
 }
 
-const marker_icons: L.DivIcon[] = [];
-const selected_marker_icons: L.DivIcon[] = [];
-export const lat_lon_to_marker: { [latLng: string]: L.Marker } = {};
-
-export function createIcons() {
-  if (marker_icons.length) {
-    return [marker_icons, selected_marker_icons];
-  }
-  // Create marker icons for each number.
-  marker_icons.push(null!); // it's easier to be 1-based.
-  selected_marker_icons.push(null!);
-  for (let i = 0; i < 100; i++) {
-    const num = i + 1;
-    const size = num == 1 ? 9 : 13;
-    const selectedSize = num == 1 ? 15 : 21;
-    const [x, y] = [i % 10, Math.floor(i / 10)];
-    // Could alternatively use L.divIcon
-    marker_icons.push(
-      L.divIcon({
-        iconAnchor: [(size - 1) / 2, (size - 1) / 2],
-        className: `marker marker-${num} marker-x-${x} marker-y-${y}`,
-      }),
-    );
-    selected_marker_icons.push(
-      L.divIcon({
-        iconAnchor: [(selectedSize - 1) / 2, (selectedSize - 1) / 2],
-        className: `marker marker-selected marker-${num} marker-x-${x} marker-y-${y}`,
-      }),
-    );
-  }
-  return [marker_icons, selected_marker_icons];
-}
-
-const BLUE: L.PathOptions = { color: 'blue', fillOpacity: 0 };
-const BLACK = { color: 'black', fillOpacity: 0 };
+// const BLUE: L.PathOptions = { color: 'blue', fillOpacity: 0 };
+// const BLACK = { color: 'black', fillOpacity: 0 };
 
 export interface MapMarkerTileProps {
   bounds: L.LatLngBounds;
@@ -144,7 +111,6 @@ export function MapMarkers(props: MapMarkersProps) {
 
   const map = useMapEvents({
     moveend() {
-      console.log('moveend');
       forceUpdate((n) => n + 1);
     },
   });
@@ -160,10 +126,6 @@ export function MapMarkers(props: MapMarkersProps) {
   // const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
   const tiles = React.useMemo(() => makeTiles(lat_lons), []);
   const bounds = map.getBounds();
-  console.log('rendering', bounds.toBBoxString());
-
-  const numVisible = tiles.filter((t) => bounds.intersects(t.bounds)).length;
-  console.log('visible tiles', numVisible);
 
   return (
     <>
