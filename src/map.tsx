@@ -114,65 +114,6 @@ export function countPhotos(yearToCounts: YearToCount) {
   }
 }
 
-export function createMarker(lat_lon: string, latLng: google.maps.LatLng) {
-  const count = countPhotos(lat_lons[lat_lon]);
-  if (!count) {
-    return;
-  }
-  const marker = new google.maps.Marker({
-    position: latLng,
-    map: map,
-    visible: true,
-    icon: marker_icons[Math.min(count, 100)],
-    title: lat_lon,
-  });
-  markers.push(marker);
-  lat_lon_to_marker[lat_lon] = marker;
-  google.maps.event.addListener(marker, 'click', () => {
-    if (!markerClickFn) return;
-    markerClickFn(lat_lon);
-  });
-  if (passiveSelectedLatLon === lat_lon) {
-    selectMarker(marker, lat_lons[lat_lon]);
-  }
-  return marker;
-}
-
-// Make the given marker the currently selected marker.
-// This is purely UI code, it doesn't touch anything other than the marker.
-export function selectMarker(
-  marker: google.maps.Marker,
-  yearToCounts: YearToCount,
-) {
-  const numPhotos = countPhotos(yearToCounts);
-  let zIndex = 0;
-  if (selected_marker) {
-    zIndex = selected_marker.getZIndex() ?? 0;
-    selected_marker.setIcon(selected_icon);
-  }
-
-  if (marker) {
-    selected_marker = marker;
-    selected_icon = marker.getIcon();
-    marker.setIcon(selected_marker_icons[numPhotos > 100 ? 100 : numPhotos]);
-    marker.setZIndex(100000 + zIndex);
-  }
-}
-
-/** Update the markers to reflect a change in year_range */
-export function updateYears() {
-  for (const [lat_lon, marker] of Object.entries(lat_lon_to_marker)) {
-    const count = countPhotos(lat_lons[lat_lon]);
-    if (count) {
-      marker.setIcon(marker_icons[Math.min(count, 100)]);
-      marker.setVisible(true);
-    } else {
-      marker.setVisible(false);
-    }
-  }
-  addNewlyVisibleMarkers();
-}
-
 export interface MapProps {
   selectedLatLon?: string;
   yearRange: YearRange;
