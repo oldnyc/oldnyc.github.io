@@ -225,11 +225,6 @@ export function Map(props: MapProps) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={DEFAULT_LAT_LNG}>
-        <Popup>
-          OldNYC <br /> Meet Leaflet.
-        </Popup>
-      </Marker>
       <MapMarkers onClickMarker={onClickMarker} />
     </MapContainer>
   );

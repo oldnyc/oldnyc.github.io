@@ -41,21 +41,111 @@ export function createIcons() {
   return [marker_icons, selected_marker_icons];
 }
 
+export interface MapMarkerTileProps {
+  photos: typeof lat_lons;
+  isVisible: boolean;
+  selectedLatLng?: string;
+  markerIcons: (L.Icon | L.DivIcon)[];
+  selectedMarkerIcons: (L.Icon | L.DivIcon)[];
+  onClickMarker: L.LeafletMouseEventHandlerFn;
+}
+
+let numMarkers = 0;
+function MapMarkerTile(props: MapMarkerTileProps) {
+  const { photos, isVisible, markerIcons, onClickMarker } = props;
+  const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
+
+  React.useEffect(() => {
+    if (isVisible) {
+      setHasBeenVisible(true);
+    }
+  }, [isVisible]);
+
+  const markers = React.useMemo(() => {
+    if (!hasBeenVisible) {
+      return null;
+    }
+    const theMarkers = [];
+    for (const latLng in photos) {
+      const pos = parseLatLon(latLng);
+      const count = countPhotos(photos[latLng]);
+
+      theMarkers.push(
+        <Marker
+          position={pos}
+          icon={markerIcons[Math.min(count, 100)]}
+          key={latLng}
+          title={latLng}
+          eventHandlers={{ click: onClickMarker }}
+        />,
+      );
+    }
+    numMarkers += theMarkers.length;
+    console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
+    return theMarkers;
+  }, [hasBeenVisible, markerIcons, onClickMarker, photos]);
+
+  return markers;
+}
+
+interface MarkerTile {
+  bounds: L.LatLngBounds;
+  photos: typeof lat_lons;
+  key: string;
+}
+
+/** Carve up the lat/lngs into N rectangular tiles */
+function makeTiles(photos: typeof lat_lons): MarkerTile[] {
+  const startMs = Date.now();
+  const bounds = new L.LatLngBounds(
+    Object.keys(photos).map((latLngStr) => {
+      const [lat, lng] = parseLatLon(latLngStr);
+      return [lng, lat];
+    }),
+  );
+
+  const { lng: minLat, lat: minLng } = bounds.getSouthWest();
+  const { lng: maxLat, lat: maxLng } = bounds.getNorthEast();
+  const w = (maxLng - minLng) / 15;
+  const h = (maxLat - minLat) / 15;
+
+  const keyToTile: { [key: string]: MarkerTile } = {};
+
+  for (const [latLngStr, counts] of Object.entries(photos)) {
+    const [lat, lng] = parseLatLon(latLngStr);
+    const xc = Math.floor((lng - minLng) / w);
+    const yc = Math.floor((lat - minLat) / h);
+    const key = `${xc},${yc}`;
+    if (!(key in keyToTile)) {
+      const p0: L.PointExpression = [minLat + xc * w, minLng + yc * h];
+      keyToTile[key] = {
+        key,
+        photos: {},
+        bounds: new L.LatLngBounds(p0, [p0[0] + w, p0[0] + h]),
+      };
+    }
+    keyToTile[key].photos[latLngStr] = counts;
+  }
+
+  const tiles = Object.values(keyToTile);
+  const elapsedMs = Date.now() - startMs;
+  console.log('Created', tiles.length, 'tiles in', Math.round(elapsedMs), 'ms');
+  return tiles;
+}
+
 export interface MapMarkersProps {
   onClickMarker?: MarkerClickFn;
+  selectedLatLng?: string;
 }
 
 export function MapMarkers(props: MapMarkersProps) {
-  const { onClickMarker } = props;
-  const [markers, setMarkers] = React.useState<JSX.Element[]>([]);
-  const [markeredLatLngs, setMarkeredLatLngs] = React.useState(
-    new Set<string>(),
-  );
+  const { onClickMarker, selectedLatLng } = props;
+  const [, forceUpdate] = React.useState(0);
 
   const map = useMapEvents({
     moveend() {
       console.log('moveend');
-      addVisibleMarkers();
+      forceUpdate((n) => n + 1);
     },
   });
 
@@ -68,43 +158,23 @@ export function MapMarkers(props: MapMarkersProps) {
   );
 
   const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
+  const tiles = React.useMemo(() => makeTiles(lat_lons), []);
+  const bounds = map.getBounds();
+  console.log('rendering', bounds.toBBoxString());
 
-  const addVisibleMarkers = React.useCallback(() => {
-    const bounds = map.getBounds();
-    const newMarkers: JSX.Element[] = [];
-    // const newLatLngs = [];
-    console.log('addVisibleMarkers');
-    for (const latLng in lat_lons) {
-      if (markeredLatLngs.has(latLng)) continue;
-      const pos = parseLatLon(latLng);
-      if (!bounds.contains(pos)) continue;
-
-      const count = countPhotos(lat_lons[latLng]);
-
-      newMarkers.push(
-        <Marker
-          position={pos}
-          icon={markerIcons[Math.min(count, 100)]}
-          key={latLng}
-          title={latLng}
-          eventHandlers={{ click: markerClickFn }}
-        />,
-      );
-      // newLatLngs.push(latLng);
-      // This is a little gross
-      markeredLatLngs.add(latLng);
-    }
-
-    console.log('addVisibleMarkers', newMarkers.length);
-    if (newMarkers.length) {
-      setMarkers((markers) => [...markers, ...newMarkers]);
-      setMarkeredLatLngs(markeredLatLngs);
-    }
-  }, [map, markerClickFn, markerIcons, markeredLatLngs]);
-
-  // TODO: there's a circular dependency here that causes addVisibleMarkers()
-  //       to fire twice when the map first loads.
-  React.useEffect(addVisibleMarkers, [addVisibleMarkers]);
-
-  return <>{markers}</>;
+  return (
+    <>
+      {tiles.map((t) => (
+        <MapMarkerTile
+          key={t.key}
+          markerIcons={markerIcons}
+          selectedMarkerIcons={selectedMarkerIcons}
+          selectedLatLng={selectedLatLng}
+          photos={t.photos}
+          onClickMarker={markerClickFn}
+          isVisible={bounds.intersects(t.bounds)}
+        />
+      ))}
+    </>
+  );
 }
