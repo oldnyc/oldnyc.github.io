@@ -1,7 +1,6 @@
 /** OldNYC Google Map */
 
 import React from 'react';
-import { MAP_STYLE } from './map-styles';
 import { YearRange, isFullTimeRange } from './TimeSlider';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
@@ -10,7 +9,6 @@ import 'leaflet/dist/leaflet.css';
 import { MapMarkers } from './MapMarkers';
 
 export type BoundsChangeFn = (bounds: L.LatLngBounds) => void;
-let boundsChangeFn: BoundsChangeFn | undefined;
 
 export type MarkerClickFn = (latLon: string) => void;
 

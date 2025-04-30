@@ -6,7 +6,6 @@ import {
   nameForLatLon,
 } from './photo-info';
 import { YearRange, isFullTimeRange } from './TimeSlider';
-import { STATIC_MAP_STYLE } from './map-styles';
 import { ExpandableGrid } from './grid/grid';
 import { useHistory } from 'react-router-dom';
 import { photoIdToLatLon } from './photo-id-to-lat-lon';

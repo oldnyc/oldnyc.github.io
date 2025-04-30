@@ -21,6 +21,16 @@ export interface MapMarkerTileProps {
   yearRange: YearRange;
 }
 
+// TODO: precompute this
+function hsv2rgb(h: number, s: number, v: number) {
+  const f = (n: number, k = (n + h / 60) % 6) =>
+    v - v * (s / 255) * Math.max(Math.min(k, 4 - k, 1), 0);
+  const [r, g, b] = [f(5), f(3), f(1)].map((x) =>
+    ('0' + Math.round(x).toString(16)).slice(-2),
+  );
+  return `#${r}${g}${b}`;
+}
+
 // TODO: render selected marker
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
@@ -49,8 +59,15 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       theMarkers.push(
         <CircleMarker
           center={pos}
-          color={isSelected ? '#ff0000' : '#3388ff'}
-          radius={count == 1 ? 4 : 6}
+          fill
+          fillOpacity={1}
+          fillColor={
+            isSelected
+              ? '#0000A0'
+              : hsv2rgb(0, Math.min(255, 127 + (128 * count) / 100), 190)
+          }
+          stroke={false}
+          radius={isSelected ? (count == 1 ? 6 : 9) : count == 1 ? 4.24 : 5.66}
           // The key has to change for leaflet to notice the new color
           key={latLng + isSelected}
           eventHandlers={{ click: onClickMarker }}
