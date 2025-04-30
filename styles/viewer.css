@@ -694,49 +694,6 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
   box-shadow: 0 0 0 2px #fff;
 }
 
-.marker {
-  /* background-size: 13px 13px; */
-  background-image: url('/images/sprite-2014-08-29.png');
-  background-repeat: no-repeat;
-  width: 13px;
-  height: 13px;
-}
-.marker-selected {
-  background-image: url('/images/selected-2014-08-29.png');
-  width: 21px;
-  height: 21px;
-}
-.marker-1 {
-  width: 9px;
-  height: 9px;
-}
-.marker-1.marker-selected {
-  width: 15px;
-  height: 15px;
-}
-
-.marker-x-0 { background-position-x: 0; }
-.marker-x-1 { background-position-x: -39px; }
-.marker-x-2 { background-position-x: -78px; }
-.marker-x-3 { background-position-x: -117px; }
-.marker-x-4 { background-position-x: -156px; }
-.marker-x-5 { background-position-x: -195px; }
-.marker-x-6 { background-position-x: -234px; }
-.marker-x-7 { background-position-x: -273px; }
-.marker-x-8 { background-position-x: -312px; }
-.marker-x-9 { background-position-x: -351px; }
-
-.marker-y-0 { background-position-y: 0; }
-.marker-y-1 { background-position-y: -39px; }
-.marker-y-2 { background-position-y: -78px; }
-.marker-y-3 { background-position-y: -117px; }
-.marker-y-4 { background-position-y: -156px; }
-.marker-y-5 { background-position-y: -195px; }
-.marker-y-6 { background-position-y: -234px; }
-.marker-y-7 { background-position-y: -273px; }
-.marker-y-8 { background-position-y: -312px; }
-.marker-y-9 { background-position-y: -351px; }
-
 .leaflet-top {
   /* TODO: move this into an imported CSS file after leaflet.css */
   /* shove zoom controls below OldNYC logo */
