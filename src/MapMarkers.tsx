@@ -77,11 +77,12 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       );
     }
     numMarkers += theMarkers.length;
-    console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
+    // console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
     return theMarkers;
   }, [hasBeenVisible, onClickMarker, photos, selectedLatLng, yearRange]);
 
   return <>{markers}</>;
+  // This is useful for debugging lazy creation of markers
   // <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
 }
 
@@ -108,7 +109,7 @@ function posToTile(tileInfo: TileInfo, latLng: [number, number]) {
 
 /** Carve up the lat/lngs into N rectangular tiles */
 function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
-  const startMs = Date.now();
+  // const startMs = Date.now();
   const bounds = new L.LatLngBounds(Object.keys(photos).map(parseLatLon));
 
   const { lat: minLat, lng: minLng } = bounds.getSouthWest();
@@ -141,8 +142,8 @@ function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
   }
 
   const tiles = Object.values(keyToTile);
-  const elapsedMs = Date.now() - startMs;
-  console.log('Created', tiles.length, 'tiles in', Math.round(elapsedMs), 'ms');
+  // const elapsedMs = Date.now() - startMs;
+  // console.log('Created', tiles.length, 'tiles in', Math.round(elapsedMs), 'ms');
   return [tileInfo, tiles];
 }
 
@@ -177,12 +178,10 @@ export function MapMarkers(props: MapMarkersProps) {
   const selectionKey = React.useMemo(() => {
     if (!selectedLatLng) return undefined;
     const pos = parseLatLon(selectedLatLng);
-    console.log(pos);
     const [, , key] = posToTile(tileInfo, pos);
     return key;
   }, [selectedLatLng, tileInfo]);
 
-  console.log(selectionKey);
   return (
     <>
       {tiles.map((t) => (

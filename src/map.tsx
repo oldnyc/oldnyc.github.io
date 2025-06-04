@@ -19,7 +19,7 @@ interface YearToCount {
 const DEFAULT_LAT_LNG: LatLngExpression = [40.74421, -73.9737];
 const DEFAULT_ZOOM = 15;
 const MIN_ZOOM = 10;
-const MAX_ZOOM = 18;
+const MAX_ZOOM = 16;
 
 export function parseLatLon(lat_lon: string) {
   const ll = lat_lon.split(',');
@@ -71,7 +71,7 @@ export function Map(props: MapProps) {
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://tiles.stadiamaps.com/tiles/stamen_toner-lite/{z}/{x}/{y}{r}.png"
+        url="/static/toner-lite/{z}-{x}-{y}{r}.png"
       />
       <MapMarkers
         onClickMarker={onClickMarker}
