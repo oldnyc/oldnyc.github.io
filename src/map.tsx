@@ -2,12 +2,10 @@
 
 import React from 'react';
 import { YearRange, isFullTimeRange } from './TimeSlider';
-import { MapContainer } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
 
 import 'leaflet/dist/leaflet.css';
-import { MapMarkers } from './MapMarkers';
-import { VectorTileLayer } from './VectorTileLayer';
+import { HybridMap } from './HybridMap';
 
 export type BoundsChangeFn = (bounds: L.LatLngBounds) => void;
 
@@ -18,7 +16,7 @@ interface YearToCount {
 }
 
 const DEFAULT_LAT_LNG: LatLngExpression = [40.74421, -73.9737];
-const DEFAULT_ZOOM = 14;
+const DEFAULT_ZOOM = 15;
 const MIN_ZOOM = 10;
 const MAX_ZOOM = 16;
 
@@ -63,23 +61,17 @@ export function Map(props: MapProps) {
   }, [selectedLatLon]);
 
   return (
-    <MapContainer
-      center={DEFAULT_LAT_LNG}
-      zoom={DEFAULT_ZOOM}
-      minZoom={MIN_ZOOM}
-      maxZoom={MAX_ZOOM}
-      id="map"
-    >
-      <VectorTileLayer
-        url="https://vector.openstreetmap.org/shortbread_v1/{z}/{x}/{y}.mvt"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      />
-      <MapMarkers
-        onClickMarker={onClickMarker}
-        selectedLatLng={savedSelectedLatLng}
+    <div id="map" style={{ width: '100%', height: '100%' }}>
+      <HybridMap
+        center={DEFAULT_LAT_LNG}
+        zoom={DEFAULT_ZOOM}
+        minZoom={MIN_ZOOM}
+        maxZoom={MAX_ZOOM}
+        selectedLatLon={savedSelectedLatLng}
         yearRange={yearRange}
+        onClickMarker={onClickMarker}
       />
-    </MapContainer>
+    </div>
   );
 }
 
