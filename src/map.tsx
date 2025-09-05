@@ -71,7 +71,7 @@ export function Map(props: MapProps) {
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="/static/toner-lite/{z}-{x}-{y}{r}.png"
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <MapMarkers
         onClickMarker={onClickMarker}
