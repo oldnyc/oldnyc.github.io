@@ -2,11 +2,12 @@
 
 import React from 'react';
 import { YearRange, isFullTimeRange } from './TimeSlider';
-import { MapContainer, TileLayer } from 'react-leaflet';
+import { MapContainer } from 'react-leaflet';
 import { LatLngExpression } from 'leaflet';
 
 import 'leaflet/dist/leaflet.css';
 import { MapMarkers } from './MapMarkers';
+import { VectorTileLayer } from './VectorTileLayer';
 
 export type BoundsChangeFn = (bounds: L.LatLngBounds) => void;
 
@@ -69,9 +70,9 @@ export function Map(props: MapProps) {
       maxZoom={MAX_ZOOM}
       id="map"
     >
-      <TileLayer
+      <VectorTileLayer
+        url="https://vector.openstreetmap.org/shortbread_v1/{z}/{x}/{y}.mvt"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <MapMarkers
         onClickMarker={onClickMarker}
