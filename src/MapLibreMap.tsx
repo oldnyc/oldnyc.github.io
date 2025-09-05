@@ -45,7 +45,6 @@ export function MapLibreMap({
       maxZoom,
     });
 
-    console.log('set mapRef');
     setMapRef(map);
 
     map.on('load', () => {

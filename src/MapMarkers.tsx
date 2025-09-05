@@ -34,7 +34,7 @@ export interface MapMarkerTileProps {
   photos: typeof lat_lons;
   isVisible: boolean;
   selectedLatLng?: string;
-  onClickMarker: (e: maplibregl.MapMouseEvent) => void;
+  onClickMarker: (e: maplibregl.MapLayerMouseEvent) => void;
   yearRange: YearRange;
   tileKey: string;
 }
@@ -55,6 +55,9 @@ function MapMarkerTile(props: MapMarkerTileProps) {
   const { map, photos, isVisible, selectedLatLng, onClickMarker, yearRange } =
     props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
+
+  const layerId = `markers-${props.tileKey}`;
+  const sourceId = `source-${props.tileKey}`;
 
   React.useEffect(() => {
     if (isVisible) {
@@ -116,14 +119,14 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     }, [hasBeenVisible, photos, yearRange]);
 
   React.useEffect(() => {
-    map.addSource(`source-${props.tileKey}`, {
+    map.addSource(sourceId, {
       type: 'geojson',
       data: { type: 'FeatureCollection', features: [] },
     });
     map.addLayer({
-      id: `markers-${props.tileKey}`,
+      id: layerId,
       type: 'circle',
-      source: `source-${props.tileKey}`,
+      source: sourceId,
       paint: {
         'circle-color': 'blue',
         'circle-radius': 10,
@@ -131,17 +134,22 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     });
 
     return () => {
-      map.removeLayer(`markers-${props.tileKey}`);
-      map.removeSource(`source-${props.tileKey}`);
+      map.removeLayer(layerId);
+      map.removeSource(sourceId);
     };
-  }, [map, props.tileKey]);
+  }, [layerId, map, sourceId]);
 
   React.useEffect(() => {
-    const source = map.getSource<maplibregl.GeoJSONSource>(
-      `source-${props.tileKey}`,
-    );
+    const source = map.getSource<maplibregl.GeoJSONSource>(sourceId);
     source!.setData(markersFC);
-  }, [map, markersFC, props.tileKey]);
+  }, [map, markersFC, sourceId]);
+
+  React.useEffect(() => {
+    map.on('click', layerId, onClickMarker);
+    return () => {
+      map.off('click', layerId, onClickMarker);
+    };
+  }, [layerId, map, onClickMarker]);
 
   return null;
   // This is useful for debugging lazy creation of markers
@@ -250,9 +258,11 @@ export function MapMarkers(props: MapMarkersProps) {
   });
 
   const markerClickFn = React.useCallback(
-    (e: maplibregl.MapMouseEvent) => {
-      // onClickMarker?.(e.target.options.id);
-      console.log(e);
+    (e: maplibregl.MapLayerMouseEvent) => {
+      if (e.features) {
+        const { latLng } = e.features[0].properties;
+        onClickMarker?.(latLng);
+      }
     },
     [onClickMarker],
   );
