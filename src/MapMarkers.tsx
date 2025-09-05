@@ -28,6 +28,13 @@ function boundsForLatLngs(
 // const BLUE: L.PathOptions = { color: 'blue', fillOpacity: 0 };
 // const BLACK = { color: 'black', fillOpacity: 0 };
 
+function setPointerCursor(e: maplibregl.MapLayerMouseEvent) {
+  e.target.getCanvas().style.cursor = 'pointer';
+}
+function clearCursor(e: maplibregl.MapLayerMouseEvent) {
+  e.target.getCanvas().style.cursor = '';
+}
+
 export interface MapMarkerTileProps {
   map: maplibregl.Map;
   bounds: maplibregl.LngLatBounds;
@@ -140,6 +147,8 @@ function MapMarkerTile(props: MapMarkerTileProps) {
         'circle-radius': ['case', ['==', ['get', 'count'], 1], 4.24, 5.66],
       },
     });
+    map.on('mouseenter', layerId, setPointerCursor);
+    map.on('mouseleave', layerId, clearCursor);
 
     return () => {
       map.removeLayer(layerId);
