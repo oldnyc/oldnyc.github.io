@@ -7,6 +7,8 @@ import { MapMarkers } from './MapMarkers';
 import { MarkerClickFn } from './map';
 import { YearRange } from './TimeSlider';
 
+import MAP_STYLE from './colorful.json';
+
 interface LeafletSyncProps {
   center: LatLngExpression;
   zoom: number;
@@ -15,7 +17,7 @@ interface LeafletSyncProps {
 
 function LeafletSync({ center, zoom, onMapReady }: LeafletSyncProps) {
   const map = useMap();
-  
+
   useEffect(() => {
     onMapReady(map);
   }, [map, onMapReady]);
@@ -58,17 +60,20 @@ export function HybridMap({
   const mapLibreMapRef = useRef<maplibregl.Map | null>(null);
   const syncingRef = useRef(false);
 
-  const handleMapLibreMove = useCallback((center: [number, number], zoom: number) => {
-    if (syncingRef.current) return;
-    syncingRef.current = true;
-    
-    setMapCenter(center);
-    setMapZoom(zoom);
-    
-    setTimeout(() => {
-      syncingRef.current = false;
-    }, 100);
-  }, []);
+  const handleMapLibreMove = useCallback(
+    (center: [number, number], zoom: number) => {
+      if (syncingRef.current) return;
+      syncingRef.current = true;
+
+      setMapCenter(center);
+      setMapZoom(zoom);
+
+      setTimeout(() => {
+        syncingRef.current = false;
+      }, 100);
+    },
+    [],
+  );
 
   const handleMapLibreLoad = useCallback((map: maplibregl.Map) => {
     mapLibreMapRef.current = map;
@@ -82,7 +87,15 @@ export function HybridMap({
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+        }}
+      >
         <MapLibreMap
           center={mapCenter}
           zoom={mapZoom}
@@ -92,15 +105,15 @@ export function HybridMap({
           onMove={handleMapLibreMove}
         />
       </div>
-      <div 
-        style={{ 
-          position: 'absolute', 
-          top: 0, 
-          left: 0, 
-          width: '100%', 
-          height: '100%', 
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
           pointerEvents: 'none',
-          zIndex: 1000
+          zIndex: 1000,
         }}
       >
         <MapContainer
@@ -110,15 +123,15 @@ export function HybridMap({
           maxZoom={maxZoom}
           zoomControl={false}
           attributionControl={false}
-          style={{ 
+          style={{
             background: 'transparent',
-            pointerEvents: 'none'
+            pointerEvents: 'none',
           }}
         >
-          <LeafletSync 
-            center={leafletCenter} 
-            zoom={mapZoom} 
-            onMapReady={handleLeafletMapReady} 
+          <LeafletSync
+            center={leafletCenter}
+            zoom={mapZoom}
+            onMapReady={handleLeafletMapReady}
           />
           <div style={{ pointerEvents: 'auto' }}>
             <MapMarkers
