@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { MapLibreMarkers } from './MapLibreMarkers';
 import { MarkerClickFn } from './map';
 import { YearRange } from './TimeSlider';
 
 import MAP_STYLE from './colorful.json';
+import { MapMarkers } from './MapMarkers';
 
 interface MapLibreMapProps {
   center: [number, number];
@@ -31,7 +31,7 @@ export function MapLibreMap({
   onMove,
 }: MapLibreMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<maplibregl.Map | null>(null);
+  const [mapRef, setMapRef] = useState<maplibregl.Map | null>(null);
 
   useEffect(() => {
     if (!mapContainerRef.current) return;
@@ -45,7 +45,8 @@ export function MapLibreMap({
       maxZoom,
     });
 
-    mapRef.current = map;
+    console.log('set mapRef');
+    setMapRef(map);
 
     map.on('load', () => {
       if (onLoad) {
@@ -63,16 +64,15 @@ export function MapLibreMap({
 
     return () => {
       map.remove();
-      mapRef.current = null;
     };
   }, [center, zoom, minZoom, maxZoom, onLoad, onMove]);
 
   return (
     <div style={{ width: '100%', height: '100%' }}>
       <div ref={mapContainerRef} style={{ width: '100%', height: '100%' }} />
-      {mapRef.current && (
-        <MapLibreMarkers
-          map={mapRef.current}
+      {mapRef && (
+        <MapMarkers
+          map={mapRef}
           selectedLatLng={selectedLatLng}
           yearRange={yearRange}
           onClickMarker={onClickMarker}

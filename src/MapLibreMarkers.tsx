@@ -47,12 +47,12 @@ function posToTile(tileInfo: TileInfo, latLng: [number, number]) {
 
 function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
   const allPositions = Object.keys(photos).map(parseLatLon);
-  
-  const minLat = Math.min(...allPositions.map(p => p[0]));
-  const maxLat = Math.max(...allPositions.map(p => p[0]));
-  const minLng = Math.min(...allPositions.map(p => p[1]));
-  const maxLng = Math.max(...allPositions.map(p => p[1]));
-  
+
+  const minLat = Math.min(...allPositions.map((p) => p[0]));
+  const maxLat = Math.max(...allPositions.map((p) => p[0]));
+  const minLng = Math.min(...allPositions.map((p) => p[1]));
+  const maxLng = Math.max(...allPositions.map((p) => p[1]));
+
   const w = (maxLng - minLng) / 15;
   const h = (maxLat - minLat) / 15;
 
@@ -89,12 +89,15 @@ function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
   return [tileInfo, Object.values(keyToTile)];
 }
 
-function boundsIntersect(mapBounds: maplibregl.LngLatBounds, tileBounds: Bounds): boolean {
+function boundsIntersect(
+  mapBounds: maplibregl.LngLatBounds,
+  tileBounds: Bounds,
+): boolean {
   const mapSouth = mapBounds.getSouth();
   const mapNorth = mapBounds.getNorth();
   const mapWest = mapBounds.getWest();
   const mapEast = mapBounds.getEast();
-  
+
   return !(
     tileBounds.east < mapWest ||
     tileBounds.west > mapEast ||
@@ -120,6 +123,7 @@ export function MapLibreMarkers({
   const tilesRef = useRef<[TileInfo, MarkerTile[]] | null>(null);
   const visibleTilesRef = useRef<Set<string>>(new Set());
 
+  console.log('MapLibreMarkers mount');
   useEffect(() => {
     if (!tilesRef.current) {
       tilesRef.current = makeTiles(lat_lons);
@@ -143,7 +147,7 @@ export function MapLibreMarkers({
     // Remove markers from tiles that are no longer visible
     for (const tileKey of visibleTilesRef.current) {
       if (!newVisibleTiles.has(tileKey)) {
-        const tile = tiles.find(t => t.key === tileKey);
+        const tile = tiles.find((t) => t.key === tileKey);
         if (tile) {
           for (const latLngStr in tile.photos) {
             const marker = markersRef.current.get(latLngStr);
@@ -159,16 +163,22 @@ export function MapLibreMarkers({
     // Add markers for newly visible tiles
     for (const tileKey of newVisibleTiles) {
       if (!visibleTilesRef.current.has(tileKey)) {
-        const tile = tiles.find(t => t.key === tileKey);
+        const tile = tiles.find((t) => t.key === tileKey);
         if (tile) {
           for (const latLngStr in tile.photos) {
             const pos = parseLatLon(latLngStr);
             const count = countPhotos(tile.photos[latLngStr], yearRange);
-            
+
             if (count === 0) continue;
 
             const isSelected = latLngStr === selectedLatLng;
-            const radius = isSelected ? (count === 1 ? 6 : 9) : (count === 1 ? 4.24 : 5.66);
+            const radius = isSelected
+              ? count === 1
+                ? 6
+                : 9
+              : count === 1
+                ? 4.24
+                : 5.66;
             const fillColor = isSelected
               ? '#0000A0'
               : hsv2rgb(0, Math.min(255, 127 + (128 * count) / 100), 190);
@@ -202,11 +212,17 @@ export function MapLibreMarkers({
 
     // Update marker styles for selection changes
     for (const [latLngStr, marker] of markersRef.current) {
-      const tile = tiles.find(t => latLngStr in t.photos);
+      const tile = tiles.find((t) => latLngStr in t.photos);
       if (tile) {
         const count = countPhotos(tile.photos[latLngStr], yearRange);
         const isSelected = latLngStr === selectedLatLng;
-        const radius = isSelected ? (count === 1 ? 6 : 9) : (count === 1 ? 4.24 : 5.66);
+        const radius = isSelected
+          ? count === 1
+            ? 6
+            : 9
+          : count === 1
+            ? 4.24
+            : 5.66;
         const fillColor = isSelected
           ? '#0000A0'
           : hsv2rgb(0, Math.min(255, 127 + (128 * count) / 100), 190);
