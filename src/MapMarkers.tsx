@@ -40,27 +40,25 @@ export interface MapMarkerTileProps {
   bounds: maplibregl.LngLatBounds;
   photos: typeof lat_lons;
   isVisible: boolean;
-  selectedLatLng?: string;
   onClickMarker: (e: maplibregl.MapLayerMouseEvent) => void;
   yearRange: YearRange;
   tileKey: string;
 }
 
-// TODO: precompute this
-function hsv2rgb(h: number, s: number, v: number) {
-  const f = (n: number, k = (n + h / 60) % 6) =>
-    v - v * (s / 255) * Math.max(Math.min(k, 4 - k, 1), 0);
-  const [r, g, b] = [f(5), f(3), f(1)].map((x) =>
-    ('0' + Math.round(x).toString(16)).slice(-2),
-  );
-  return `#${r}${g}${b}`;
-}
+const MARKER_COLOR: maplibregl.ExpressionSpecification = [
+  'interpolate-hcl',
+  ['linear'],
+  ['get', 'count'],
+  0,
+  '#be5f5f',
+  100,
+  '#be0000',
+];
 
 // TODO: render selected marker
 let numMarkers = 0;
 function MapMarkerTile(props: MapMarkerTileProps) {
-  const { map, photos, isVisible, selectedLatLng, onClickMarker, yearRange } =
-    props;
+  const { map, photos, isVisible, onClickMarker, yearRange } = props;
   const [hasBeenVisible, setHasBeenVisible] = React.useState(isVisible);
 
   const layerId = `markers-${props.tileKey}`;
@@ -136,13 +134,10 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       source: sourceId,
       paint: {
         'circle-color': [
-          'interpolate-hcl',
-          ['linear'],
-          ['get', 'count'],
-          0,
-          '#be5f5f',
-          100,
-          '#be0000',
+          'case',
+          ['==', ['global-state', 'selectedLatLng'], ['get', 'latLng']],
+          'blue',
+          MARKER_COLOR,
         ],
         'circle-radius': ['case', ['==', ['get', 'count'], 1], 4.24, 5.66],
       },
@@ -244,7 +239,6 @@ function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
 export interface MapMarkersProps {
   map: maplibregl.Map;
   onClickMarker?: MarkerClickFn;
-  selectedLatLng?: string;
   yearRange: YearRange;
 }
 
@@ -261,7 +255,7 @@ function intersects(
 }
 
 export function MapMarkers(props: MapMarkersProps) {
-  const { map, onClickMarker, selectedLatLng, yearRange } = props;
+  const { map, onClickMarker, yearRange } = props;
   const [, forceUpdate] = React.useState(0);
 
   useEffect(() => {
@@ -288,13 +282,6 @@ export function MapMarkers(props: MapMarkersProps) {
   const [tileInfo, tiles] = React.useMemo(() => makeTiles(lat_lons), []);
   const bounds = map.getBounds();
 
-  const selectionKey = React.useMemo(() => {
-    if (!selectedLatLng) return undefined;
-    const pos = parseLatLon(selectedLatLng);
-    const [, , key] = posToTile(tileInfo, pos);
-    return key;
-  }, [selectedLatLng, tileInfo]);
-
   return (
     <>
       {tiles.map((t) => (
@@ -303,7 +290,6 @@ export function MapMarkers(props: MapMarkersProps) {
           map={map}
           tileKey={t.key}
           bounds={t.bounds}
-          selectedLatLng={t.key == selectionKey ? selectedLatLng : undefined}
           photos={t.photos}
           onClickMarker={markerClickFn}
           isVisible={intersects(bounds, t.bounds)}

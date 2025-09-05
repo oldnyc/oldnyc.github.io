@@ -66,13 +66,16 @@ export function MapLibreMap({
     };
   }, [center, zoom, minZoom, maxZoom, onLoad, onMove]);
 
+  useEffect(() => {
+    mapRef?.setGlobalStateProperty('selectedLatLng', selectedLatLng);
+  }, [mapRef, selectedLatLng]);
+
   return (
     <div style={{ width: '100%', height: '100%' }}>
       <div ref={mapContainerRef} style={{ width: '100%', height: '100%' }} />
       {mapRef && (
         <MapMarkers
           map={mapRef}
-          selectedLatLng={selectedLatLng}
           yearRange={yearRange}
           onClickMarker={onClickMarker}
         />
