@@ -18,9 +18,9 @@ interface YearToCount {
 }
 
 const DEFAULT_LAT_LNG: LatLngExpression = [40.74421, -73.9737];
-const DEFAULT_ZOOM = 15;
+const DEFAULT_ZOOM = 14;
 const MIN_ZOOM = 10;
-const MAX_ZOOM = 16;
+const MAX_ZOOM = 14;
 
 export function parseLatLon(lat_lon: string) {
   const ll = lat_lon.split(',');
