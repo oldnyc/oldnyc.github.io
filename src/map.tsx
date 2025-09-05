@@ -2,12 +2,7 @@
 
 import React from 'react';
 import { YearRange, isFullTimeRange } from './TimeSlider';
-import { LatLngExpression } from 'leaflet';
-
-import 'leaflet/dist/leaflet.css';
-import { HybridMap } from './HybridMap';
-
-export type BoundsChangeFn = (bounds: L.LatLngBounds) => void;
+import { MapLibreMap } from './MapLibreMap';
 
 export type MarkerClickFn = (latLon: string) => void;
 
@@ -15,7 +10,7 @@ interface YearToCount {
   [year: string]: number;
 }
 
-const DEFAULT_LAT_LNG: LatLngExpression = [40.74421, -73.9737];
+const DEFAULT_LAT_LNG: [number, number] = [-73.9737, 40.74421]; // [lng, lat] for MapLibre
 const DEFAULT_ZOOM = 14;
 const MIN_ZOOM = 10;
 const MAX_ZOOM = 16;
@@ -41,7 +36,6 @@ export function countPhotos(yearToCounts: YearToCount, yearRange: YearRange) {
 export interface MapProps {
   selectedLatLon?: string;
   yearRange: YearRange;
-  onBoundsChange?: BoundsChangeFn;
   onClickMarker?: MarkerClickFn;
 }
 
@@ -62,12 +56,12 @@ export function Map(props: MapProps) {
 
   return (
     <div id="map" style={{ width: '100%', height: '100%' }}>
-      <HybridMap
+      <MapLibreMap
         center={DEFAULT_LAT_LNG}
         zoom={DEFAULT_ZOOM}
         minZoom={MIN_ZOOM}
         maxZoom={MAX_ZOOM}
-        selectedLatLon={savedSelectedLatLng}
+        selectedLatLng={savedSelectedLatLng}
         yearRange={yearRange}
         onClickMarker={onClickMarker}
       />
