@@ -128,8 +128,16 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       type: 'circle',
       source: sourceId,
       paint: {
-        'circle-color': 'blue',
-        'circle-radius': 10,
+        'circle-color': [
+          'interpolate-hcl',
+          ['linear'],
+          ['get', 'count'],
+          0,
+          '#be5f5f',
+          100,
+          '#be0000',
+        ],
+        'circle-radius': ['case', ['==', ['get', 'count'], 1], 4.24, 5.66],
       },
     });
 
