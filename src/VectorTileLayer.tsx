@@ -9,7 +9,10 @@ interface VectorGridLayer extends L.Layer {
 
 declare module 'leaflet' {
   namespace vectorGrid {
-    function protobuf(url: string, options?: VectorTileOptions): VectorGridLayer;
+    function protobuf(
+      url: string,
+      options?: VectorTileOptions,
+    ): VectorGridLayer;
   }
 }
 
@@ -27,6 +30,7 @@ interface VectorTileOptions {
   opacity?: number;
   interactive?: boolean;
   style?: Record<string, StyleOptions>;
+  maxNativeZoom?: number;
 }
 
 interface VectorTileLayerProps {
@@ -36,7 +40,12 @@ interface VectorTileLayerProps {
   style?: Record<string, StyleOptions>;
 }
 
-export function VectorTileLayer({ url, attribution, opacity = 1, style }: VectorTileLayerProps) {
+export function VectorTileLayer({
+  url,
+  attribution,
+  opacity = 1,
+  style,
+}: VectorTileLayerProps) {
   const map = useMap();
 
   useEffect(() => {
@@ -44,6 +53,7 @@ export function VectorTileLayer({ url, attribution, opacity = 1, style }: Vector
       attribution: attribution ?? '',
       opacity,
       interactive: false,
+      maxNativeZoom: 14,
       style: style ?? {
         water: {
           fill: true,
@@ -129,7 +139,7 @@ export function VectorTileLayer({ url, attribution, opacity = 1, style }: Vector
     };
 
     const vectorLayer = L.vectorGrid.protobuf(url, vectorTileOptions);
-    
+
     vectorLayer.addTo(map);
 
     return () => {
