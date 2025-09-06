@@ -82,7 +82,6 @@ function MapMarkerTile(props: MapMarkerTileProps) {
         if (count === 0) {
           continue;
         }
-        // const isSelected = latLng === selectedLatLng;
 
         theMarkers.push({
           type: 'Feature',
@@ -95,28 +94,8 @@ function MapMarkerTile(props: MapMarkerTileProps) {
             count,
           },
         });
-
-        /*
-        <CircleMarker
-          center={pos}
-          fill
-          fillOpacity={1}
-          fillColor={
-            isSelected
-              ? '#0000A0'
-              : hsv2rgb(0, Math.min(255, 127 + (128 * count) / 100), 190)
-          }
-          stroke={false}
-          radius={isSelected ? (count == 1 ? 6 : 9) : count == 1 ? 4.24 : 5.66}
-          // The key has to change for leaflet to notice the new color
-          key={latLng + isSelected}
-          eventHandlers={{ click: onClickMarker }}
-          id={latLng}
-        />,
-        */
       }
       numMarkers += theMarkers.length;
-      // console.log('created', theMarkers.length, 'markers', numMarkers, 'total');
       return {
         type: 'FeatureCollection',
         features: theMarkers,
@@ -124,6 +103,9 @@ function MapMarkerTile(props: MapMarkerTileProps) {
     }, [hasBeenVisible, photos, yearRange]);
 
   React.useEffect(() => {
+    if (!hasBeenVisible) {
+      return;
+    }
     map.addSource(sourceId, {
       type: 'geojson',
       data: { type: 'FeatureCollection', features: [] },
@@ -149,12 +131,14 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       map.removeLayer(layerId);
       map.removeSource(sourceId);
     };
-  }, [layerId, map, sourceId]);
+  }, [hasBeenVisible, layerId, map, sourceId]);
 
   React.useEffect(() => {
-    const source = map.getSource<maplibregl.GeoJSONSource>(sourceId);
-    source!.setData(markersFC);
-  }, [map, markersFC, sourceId]);
+    if (hasBeenVisible) {
+      const source = map.getSource<maplibregl.GeoJSONSource>(sourceId);
+      source!.setData(markersFC);
+    }
+  }, [hasBeenVisible, map, markersFC, sourceId]);
 
   React.useEffect(() => {
     map.on('click', layerId, onClickMarker);
