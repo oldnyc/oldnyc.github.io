@@ -2966,7 +2966,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "pedestrian" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -2988,7 +2988,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "living_street" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3010,7 +3010,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "residential" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3032,7 +3032,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "unclassified" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3054,7 +3054,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "tertiary" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3076,7 +3076,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "secondary" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3098,7 +3098,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "primary" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3120,7 +3120,7 @@
 			"source-layer": "street_labels",
 			"filter": [ "==", "kind", "trunk" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"symbol-placement": "line",
 				"text-anchor": "center",
@@ -3142,7 +3142,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "neighbourhood" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 14, 12 ] ] },
 				"text-transform": "uppercase"
@@ -3163,7 +3163,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "quarter" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 13, 13 ] ] },
 				"text-transform": "uppercase"
@@ -3184,7 +3184,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "suburb" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 11, 11 ], [ 13, 14 ] ] },
 				"text-transform": "uppercase"
@@ -3205,7 +3205,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "hamlet" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 10, 11 ], [ 12, 14 ] ] }
 			},
@@ -3225,7 +3225,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "village" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 9, 11 ], [ 12, 14 ] ] }
 			},
@@ -3245,7 +3245,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "town" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 8, 11 ], [ 12, 14 ] ] }
 			},
@@ -3265,7 +3265,7 @@
 			"source-layer": "boundary_labels",
 			"filter": [ "in", "admin_level", 4, "4" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
@@ -3290,7 +3290,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "city" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 7, 11 ], [ 10, 14 ] ] }
 			},
@@ -3310,7 +3310,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "state_capital" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 6, 11 ], [ 10, 15 ] ] }
 			},
@@ -3330,7 +3330,7 @@
 			"source-layer": "place_labels",
 			"filter": [ "==", "kind", "capital" ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-size": { "stops": [ [ 5, 12 ], [ 10, 16 ] ] }
 			},
@@ -3350,7 +3350,7 @@
 			"source-layer": "boundary_labels",
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ "<=", "way_area", 10000000 ] ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
@@ -3375,7 +3375,7 @@
 			"source-layer": "boundary_labels",
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ "<", "way_area", 90000000 ], [ ">", "way_area", 10000000 ] ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
@@ -3400,7 +3400,7 @@
 			"source-layer": "boundary_labels",
 			"filter": [ "all", [ "in", "admin_level", 2, "2" ], [ ">=", "way_area", 90000000 ] ],
 			"layout": {
-				"text-field": "{name_en}",
+				"text-field": "{name}",
 				"text-font": [ "noto_sans_regular" ],
 				"text-transform": "uppercase",
 				"text-anchor": "top",
