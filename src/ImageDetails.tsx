@@ -4,6 +4,7 @@ import {
   PhotoInfo,
   backId,
   descriptionForPhotoId,
+  getCanonicalUrlForPhoto,
   infoForPhotoId,
   getLibraryUrl,
 } from './photo-info';
@@ -12,6 +13,7 @@ import { useResource } from './use-resource';
 import { SuspenseImage } from './grid/SuspenseImage';
 import classNames from 'classnames';
 import { GridImage } from './grid/grid';
+import { Comment, Like } from './facebook';
 
 export function DetailView({
   image,
@@ -21,6 +23,7 @@ export function DetailView({
   const { id } = image;
   const info = infoForPhotoId(id);
   const libraryUrl = getLibraryUrl(id, info.nypl_url);
+  const canonicalUrl = getCanonicalUrlForPhoto(id);
 
   // TODO: rename backId -> getBackId
   const bid = backId(id);
@@ -95,6 +98,13 @@ export function DetailView({
               // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
               text={(info.original_title || info.title) + ' - ' + info.date}
             />{' '}
+            <div className="facebook-holder">
+              <Like url={canonicalUrl} id="details-like" layout="button" />
+            </div>
+          </div>
+
+          <div className="comments">
+            <Comment url={canonicalUrl} />
           </div>
         </div>
       </CSSTransition>
