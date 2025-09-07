@@ -11,6 +11,7 @@ import { useHistory } from 'react-router-dom';
 import { photoIdToLatLon } from './photo-id-to-lat-lon';
 import { DetailView, ImagePreview } from './ImageDetails';
 import { useResource } from './use-resource';
+import { StaticMap } from './StaticMap';
 
 export interface SlideshowProps {
   latLon: string;
@@ -33,20 +34,6 @@ function isPhotoInDateRange(info: PhotoInfo, yearRange: [number, number]) {
     if (year && Number(year) >= first && Number(year) <= last) return true;
   }
   return false;
-}
-
-// lat_lon is a "lat,lon" string.
-function makeStaticMapsUrl(lat_lon: string) {
-  // Just use a transparent GIF for now until I can work out a better alternative to GMaps.
-  return 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
-  return (
-    'http://maps.googleapis.com/maps/api/staticmap?center=' +
-    lat_lon +
-    '&zoom=15&size=150x150&scale=2&key=AIzaSyClCA1LViYi4KLQfgMlfr3PS0tyxwqzYjA&maptype=roadmap&markers=color:red%7C' +
-    lat_lon +
-    '&style=' +
-    STATIC_MAP_STYLE
-  );
 }
 
 function areSiblings(id1: string, id2: string) {
@@ -199,14 +186,11 @@ export function Slideshow(props: SlideshowProps) {
       </div>
 
       <div id="expanded-controls">
-        <img
+        <StaticMap
           id="preview-map"
-          className="exit"
           title="Exit Slideshow"
-          width="150"
-          height="150"
-          src={makeStaticMapsUrl(latLon)}
           onClick={handleExit}
+          latLon={latLon}
         />
         <div className="location">{nameForLatLon(latLon)}</div>
         <div className="nypl-logo">

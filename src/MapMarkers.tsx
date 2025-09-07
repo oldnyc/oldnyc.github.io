@@ -2,11 +2,8 @@ import React, { useEffect } from 'react';
 import { countPhotos, MarkerClickFn } from './map';
 import { YearRange } from './TimeSlider';
 import maplibregl from 'maplibre-gl';
-
-export function parseLatLon(latLngStr: string): [number, number] {
-  const ll = latLngStr.split(',');
-  return [parseFloat(ll[0]), parseFloat(ll[1])];
-}
+import { parseLatLon } from './util';
+import { useMap } from './MapLibreMap';
 
 function boundsForLatLngs(
   latLngs: readonly [number, number][],
@@ -221,8 +218,8 @@ function makeTiles(photos: typeof lat_lons): [TileInfo, MarkerTile[]] {
 }
 
 export interface MapMarkersProps {
-  map: maplibregl.Map;
   onClickMarker?: MarkerClickFn;
+  selectedLatLng?: string;
   yearRange: YearRange;
 }
 
@@ -239,7 +236,12 @@ function intersects(
 }
 
 export function MapMarkers(props: MapMarkersProps) {
-  const { map, onClickMarker, yearRange } = props;
+  const map = useMap();
+  return map ? <MapMarkersWithMap {...props} map={map} /> : null;
+}
+
+function MapMarkersWithMap(props: MapMarkersProps & { map: maplibregl.Map }) {
+  const { map, selectedLatLng, onClickMarker, yearRange } = props;
   const [, forceUpdate] = React.useState(0);
 
   useEffect(() => {
@@ -261,6 +263,10 @@ export function MapMarkers(props: MapMarkersProps) {
     },
     [onClickMarker],
   );
+
+  useEffect(() => {
+    map.setGlobalStateProperty('selectedLatLng', selectedLatLng);
+  }, [map, selectedLatLng]);
 
   // const [markerIcons, selectedMarkerIcons] = React.useMemo(createIcons, []);
   const [tileInfo, tiles] = React.useMemo(() => makeTiles(lat_lons), []);

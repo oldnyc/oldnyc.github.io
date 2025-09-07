@@ -3,6 +3,7 @@
 import React from 'react';
 import { YearRange, isFullTimeRange } from './TimeSlider';
 import { MapLibreMap } from './MapLibreMap';
+import { MapMarkers } from './MapMarkers';
 
 export type MarkerClickFn = (latLon: string) => void;
 
@@ -20,11 +21,6 @@ const MAX_BOUNDS: maplibregl.LngLatBoundsLike = [
   [-74.25423, 40.500426],
   [-73.707672, 40.912507],
 ];
-
-export function parseLatLon(lat_lon: string) {
-  const ll = lat_lon.split(',');
-  return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
-}
 
 export function countPhotos(yearToCounts: YearToCount, yearRange: YearRange) {
   if (isFullTimeRange(yearRange)) {
@@ -68,10 +64,13 @@ export function Map(props: MapProps) {
         minZoom={MIN_ZOOM}
         maxZoom={MAX_ZOOM}
         maxBounds={MAX_BOUNDS}
-        selectedLatLng={savedSelectedLatLng}
-        yearRange={yearRange}
-        onClickMarker={onClickMarker}
-      />
+      >
+        <MapMarkers
+          selectedLatLng={savedSelectedLatLng}
+          yearRange={yearRange}
+          onClickMarker={onClickMarker}
+        />
+      </MapLibreMap>
     </div>
   );
 }

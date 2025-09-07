@@ -1,11 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {
+  useEffect,
+  useRef,
+  useState,
+  createContext,
+  useContext,
+} from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { MarkerClickFn } from './map';
-import { YearRange } from './TimeSlider';
 
 import MAP_STYLE from './oldnyc-gray.json';
-import { MapMarkers } from './MapMarkers';
 
 interface MapLibreMapProps {
   center: [number, number];
@@ -13,9 +16,14 @@ interface MapLibreMapProps {
   minZoom?: number;
   maxZoom?: number;
   maxBounds?: maplibregl.LngLatBoundsLike;
-  selectedLatLng?: string;
-  yearRange: YearRange;
-  onClickMarker?: MarkerClickFn;
+  children?: JSX.Element;
+  interactive?: boolean;
+}
+
+const MapContext = createContext<maplibregl.Map | undefined>(undefined);
+
+export function useMap() {
+  return useContext(MapContext);
 }
 
 export function MapLibreMap({
@@ -24,12 +32,11 @@ export function MapLibreMap({
   minZoom = 10,
   maxZoom = 16,
   maxBounds,
-  selectedLatLng,
-  yearRange,
-  onClickMarker,
+  interactive = true,
+  children,
 }: MapLibreMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
-  const [mapRef, setMapRef] = useState<maplibregl.Map | null>(null);
+  const [mapRef, setMapRef] = useState<maplibregl.Map | undefined>();
 
   useEffect(() => {
     if (!mapContainerRef.current) return;
@@ -45,6 +52,8 @@ export function MapLibreMap({
       rollEnabled: false,
       pitchWithRotate: false,
       maxBounds,
+      interactive,
+      attributionControl: false,
     });
 
     setMapRef(map);
@@ -52,22 +61,12 @@ export function MapLibreMap({
     return () => {
       map.remove();
     };
-  }, [center, zoom, minZoom, maxZoom, maxBounds]);
-
-  useEffect(() => {
-    mapRef?.setGlobalStateProperty('selectedLatLng', selectedLatLng);
-  }, [mapRef, selectedLatLng]);
+  }, [center, zoom, minZoom, maxZoom, maxBounds, interactive]);
 
   return (
     <div style={{ width: '100%', height: '100%' }}>
       <div ref={mapContainerRef} style={{ width: '100%', height: '100%' }} />
-      {mapRef && (
-        <MapMarkers
-          map={mapRef}
-          yearRange={yearRange}
-          onClickMarker={onClickMarker}
-        />
-      )}
+      <MapContext.Provider value={mapRef}>{children}</MapContext.Provider>
     </div>
   );
 }
