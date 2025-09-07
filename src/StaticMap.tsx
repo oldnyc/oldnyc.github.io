@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapLibreMap, useMap } from './MapLibreMap';
 import { parseLatLon } from './util';
+import { useHistory } from 'react-router-dom';
 
 export interface Props {
   id?: string;
@@ -79,4 +80,31 @@ function MapMarker({ latLng }: { latLng: [number, number] }) {
   }, [map, markersFC]);
 
   return null;
+}
+
+export function StaticMapForExpanded({
+  latLon,
+}: {
+  latLon: string | undefined;
+}) {
+  const [hasRendered, setHasRendered] = React.useState(false);
+  React.useEffect(() => {
+    if (latLon && !hasRendered) {
+      setHasRendered(true);
+    }
+  }, [hasRendered, latLon]);
+
+  const history = useHistory();
+  const handleExit = React.useCallback(() => {
+    history.push(`/`);
+  }, [history]);
+
+  return hasRendered ? (
+    <StaticMap
+      id="preview-map"
+      title="Exit Slideshow"
+      onClick={handleExit}
+      latLon={latLon ?? '-74,41'}
+    />
+  ) : null;
 }

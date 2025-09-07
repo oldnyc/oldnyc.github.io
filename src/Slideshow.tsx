@@ -186,12 +186,6 @@ export function Slideshow(props: SlideshowProps) {
       </div>
 
       <div id="expanded-controls">
-        <StaticMap
-          id="preview-map"
-          title="Exit Slideshow"
-          onClick={handleExit}
-          latLon={latLon}
-        />
         <div className="location">{nameForLatLon(latLon)}</div>
         <div className="nypl-logo">
           <a

@@ -18,6 +18,7 @@ import { getLatLonForPhotoId, photoIdToLatLon } from './photo-id-to-lat-lon';
 import { PopularImages } from './PopularImages';
 import { Header } from './Header';
 import { About } from './About';
+import { StaticMapForExpanded } from './StaticMap';
 
 interface UrlParams {
   photoId?: string;
@@ -109,6 +110,7 @@ function PhotoApp() {
       <FeedbackLink />
       <PopularImages />
       <TimeSlider years={years} onSlide={setYears} onChange={logTimeSlider} />
+      <StaticMapForExpanded latLon={loc} />
       {loc && (
         <Slideshow
           latLon={loc}

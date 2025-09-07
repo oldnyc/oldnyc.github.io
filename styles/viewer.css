@@ -181,7 +181,7 @@ h2 a {
   font-size: 1.6em;
   white-space: pre-line;
   width: 150px;
-  margin-top: 5px;
+  margin-top: 165px;
 }
 
 .nypl-logo {
@@ -260,6 +260,10 @@ div.exit:hover {
   width: 150px;
   height: 150px;
   cursor: pointer;
+  position: fixed;
+  z-index: 1001;
+  left: 15px;
+  top: 55px;
 }
 
 #expanded {
