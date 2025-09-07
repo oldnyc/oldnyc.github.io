@@ -129,3 +129,7 @@ export function getLibraryUrl(photo_id: string, url: string | undefined) {
 export function getCanonicalUrlForPhoto(photo_id: string) {
   return 'http://www.oldnyc.org/#' + photo_id;
 }
+export function parseLatLon(latLngStr: string): [number, number] {
+  const ll = latLngStr.split(',');
+  return [parseFloat(ll[0]), parseFloat(ll[1])];
+}

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { countPhotos, MarkerClickFn } from './map';
 import { YearRange } from './TimeSlider';
 import maplibregl from 'maplibre-gl';
-import { parseLatLon } from './util';
+import { parseLatLon } from './photo-info';
 import { useMap } from './MapLibreMap';
 
 function setPointerCursor(e: maplibregl.MapLayerMouseEvent) {

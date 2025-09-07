@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapLibreMap, useMap } from './MapLibreMap';
-import { parseLatLon } from './util';
+import { parseLatLon } from './photo-info';
 import { useHistory } from 'react-router-dom';
 
 export interface Props {
