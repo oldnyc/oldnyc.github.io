@@ -12,11 +12,10 @@ interface MapLibreMapProps {
   zoom: number;
   minZoom?: number;
   maxZoom?: number;
+  maxBounds?: maplibregl.LngLatBoundsLike;
   selectedLatLng?: string;
   yearRange: YearRange;
   onClickMarker?: MarkerClickFn;
-  onLoad?: (map: maplibregl.Map) => void;
-  onMove?: (center: [number, number], zoom: number) => void;
 }
 
 export function MapLibreMap({
@@ -24,11 +23,10 @@ export function MapLibreMap({
   zoom,
   minZoom = 10,
   maxZoom = 16,
+  maxBounds,
   selectedLatLng,
   yearRange,
   onClickMarker,
-  onLoad,
-  onMove,
 }: MapLibreMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const [mapRef, setMapRef] = useState<maplibregl.Map | null>(null);
@@ -43,28 +41,18 @@ export function MapLibreMap({
       zoom,
       minZoom,
       maxZoom,
+      dragRotate: false,
+      rollEnabled: false,
+      pitchWithRotate: false,
+      maxBounds,
     });
 
     setMapRef(map);
 
-    map.on('load', () => {
-      if (onLoad) {
-        onLoad(map);
-      }
-    });
-
-    map.on('move', () => {
-      if (onMove) {
-        const center = map.getCenter();
-        const zoom = map.getZoom();
-        onMove([center.lng, center.lat], zoom);
-      }
-    });
-
     return () => {
       map.remove();
     };
-  }, [center, zoom, minZoom, maxZoom, onLoad, onMove]);
+  }, [center, zoom, minZoom, maxZoom]);
 
   useEffect(() => {
     mapRef?.setGlobalStateProperty('selectedLatLng', selectedLatLng);

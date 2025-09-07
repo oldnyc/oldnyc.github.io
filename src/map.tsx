@@ -15,6 +15,12 @@ const DEFAULT_ZOOM = 14;
 const MIN_ZOOM = 10;
 const MAX_ZOOM = 16;
 
+// TODO: make this a little looser
+const MAX_BOUNDS: maplibregl.LngLatBoundsLike = [
+  [-74.25423, 40.500426],
+  [-73.707672, 40.912507],
+];
+
 export function parseLatLon(lat_lon: string) {
   const ll = lat_lon.split(',');
   return new google.maps.LatLng(parseFloat(ll[0]), parseFloat(ll[1]));
@@ -61,6 +67,7 @@ export function Map(props: MapProps) {
         zoom={DEFAULT_ZOOM}
         minZoom={MIN_ZOOM}
         maxZoom={MAX_ZOOM}
+        maxBounds={MAX_BOUNDS}
         selectedLatLng={savedSelectedLatLng}
         yearRange={yearRange}
         onClickMarker={onClickMarker}
