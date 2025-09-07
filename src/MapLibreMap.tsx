@@ -40,6 +40,8 @@ export function MapLibreMap({ children, ...mapOptions }: MapLibreMapProps) {
     setMapRef(map);
 
     return () => {
+      console.log('map remove');
+      setMapRef(undefined);
       map.remove();
     };
   }, [initialOptions]);
