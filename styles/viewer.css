@@ -517,6 +517,9 @@ a#slideshow-all:visited {
   #expanded-controls {
     display: none;
   }
+  #preview-map {
+    display: none;
+  }
   #grid-container {
     left: 0;
     top: 0;

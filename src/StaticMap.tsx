@@ -18,17 +18,17 @@ export function StaticMap(props: Props) {
     return [lng, lat] as [number, number];
   }, [latLon]);
   return (
-    <div id={props.id} className={props.className} title={props.title}>
-      <MapLibreMap
-        center={latLng}
-        zoom={16}
-        interactive={false}
-        attributionControl={false}
-        onClick={props.onClick}
-      >
-        <MapMarker latLng={latLng} />
-      </MapLibreMap>
-    </div>
+    <MapLibreMap
+      containerId={props.id}
+      containerClassName={props.className}
+      center={latLng}
+      zoom={16}
+      interactive={false}
+      attributionControl={false}
+      onClick={props.onClick}
+    >
+      <MapMarker latLng={latLng} />
+    </MapLibreMap>
   );
 }
 
