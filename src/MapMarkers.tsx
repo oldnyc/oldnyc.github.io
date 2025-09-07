@@ -22,9 +22,6 @@ function boundsForLatLngs(
   return bounds;
 }
 
-// const BLUE: L.PathOptions = { color: 'blue', fillOpacity: 0 };
-// const BLACK = { color: 'black', fillOpacity: 0 };
-
 function setPointerCursor(e: maplibregl.MapLayerMouseEvent) {
   e.target.getCanvas().style.cursor = 'pointer';
 }

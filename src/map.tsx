@@ -1,4 +1,4 @@
-/** OldNYC Google Map */
+/** OldNYC Map */
 
 import React from 'react';
 import { YearRange, isFullTimeRange } from './TimeSlider';
@@ -57,21 +57,20 @@ export function Map(props: MapProps) {
   }, [selectedLatLon]);
 
   return (
-    <div id="map" style={{ width: '100%', height: '100%' }}>
-      <MapLibreMap
-        center={DEFAULT_LAT_LNG}
-        zoom={DEFAULT_ZOOM}
-        minZoom={MIN_ZOOM}
-        maxZoom={MAX_ZOOM}
-        maxBounds={MAX_BOUNDS}
-      >
-        <MapMarkers
-          selectedLatLng={savedSelectedLatLng}
-          yearRange={yearRange}
-          onClickMarker={onClickMarker}
-        />
-      </MapLibreMap>
-    </div>
+    <MapLibreMap
+      containerId="map"
+      center={DEFAULT_LAT_LNG}
+      zoom={DEFAULT_ZOOM}
+      minZoom={MIN_ZOOM}
+      maxZoom={MAX_ZOOM}
+      maxBounds={MAX_BOUNDS}
+    >
+      <MapMarkers
+        selectedLatLng={savedSelectedLatLng}
+        yearRange={yearRange}
+        onClickMarker={onClickMarker}
+      />
+    </MapLibreMap>
   );
 }
 

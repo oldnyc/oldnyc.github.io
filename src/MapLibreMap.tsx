@@ -11,6 +11,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import MAP_STYLE from './oldnyc-gray.json';
 
 interface MapLibreMapProps extends Partial<maplibregl.MapOptions> {
+  containerId?: string;
   onClick?: () => void;
   children?: JSX.Element;
 }
@@ -24,6 +25,7 @@ export function useMap() {
 export function MapLibreMap({
   children,
   onClick,
+  containerId,
   ...mapOptions
 }: MapLibreMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -67,9 +69,9 @@ export function MapLibreMap({
   });
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
-      <div ref={mapContainerRef} style={{ width: '100%', height: '100%' }} />
+    <>
+      <div ref={mapContainerRef} id={containerId} />
       <MapContext.Provider value={mapRef}>{children}</MapContext.Provider>
-    </div>
+    </>
   );
 }
