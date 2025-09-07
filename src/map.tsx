@@ -16,10 +16,9 @@ const DEFAULT_ZOOM = 14;
 const MIN_ZOOM = 10;
 const MAX_ZOOM = 16;
 
-// TODO: make this a little looser
 const MAX_BOUNDS: maplibregl.LngLatBoundsLike = [
-  [-74.25423, 40.500426],
-  [-73.707672, 40.912507],
+  [-74.39086950000001, 40.39740575],
+  [-73.525486, 41.01552725],
 ];
 
 export function countPhotos(yearToCounts: YearToCount, yearRange: YearRange) {
