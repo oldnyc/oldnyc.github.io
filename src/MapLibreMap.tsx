@@ -11,6 +11,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import MAP_STYLE from './oldnyc-gray.json';
 
 interface MapLibreMapProps extends Partial<maplibregl.MapOptions> {
+  onClick?: () => void;
   children?: JSX.Element;
 }
 
@@ -20,7 +21,11 @@ export function useMap() {
   return useContext(MapContext);
 }
 
-export function MapLibreMap({ children, ...mapOptions }: MapLibreMapProps) {
+export function MapLibreMap({
+  children,
+  onClick,
+  ...mapOptions
+}: MapLibreMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const [mapRef, setMapRef] = useState<maplibregl.Map | undefined>();
   const [initialOptions] = useState<typeof mapOptions>(mapOptions);
@@ -40,11 +45,26 @@ export function MapLibreMap({ children, ...mapOptions }: MapLibreMapProps) {
     setMapRef(map);
 
     return () => {
-      console.log('map remove');
-      setMapRef(undefined);
       map.remove();
     };
   }, [initialOptions]);
+
+  // TODO: other options should be reactive, too
+  const { center } = mapOptions;
+  React.useEffect(() => {
+    if (center) {
+      mapRef?.setCenter(center);
+    }
+  }, [center, mapRef]);
+
+  React.useEffect(() => {
+    if (onClick) {
+      mapRef?.on('click', onClick);
+      return () => {
+        mapRef?.off('click', onClick);
+      };
+    }
+  });
 
   return (
     <div style={{ width: '100%', height: '100%' }}>

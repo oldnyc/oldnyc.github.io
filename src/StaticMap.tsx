@@ -24,6 +24,7 @@ export function StaticMap(props: Props) {
         zoom={16}
         interactive={false}
         attributionControl={false}
+        onClick={props.onClick}
       >
         <MapMarker latLng={latLng} />
       </MapLibreMap>
@@ -73,8 +74,6 @@ function MapMarker({ latLng }: { latLng: [number, number] }) {
       if (container?.parentElement) {
         map?.removeLayer('marker-layer');
         map?.removeSource('marker-source');
-      } else {
-        console.log('not removing layers from dead map');
       }
     };
   }, [map, markersFC]);
@@ -82,6 +81,8 @@ function MapMarker({ latLng }: { latLng: [number, number] }) {
   return null;
 }
 
+// The idea here is to keep the static map loaded, so that subsequent
+// clicks on locations render it very quickly.
 export function StaticMapForExpanded({
   latLon,
 }: {
@@ -103,6 +104,7 @@ export function StaticMapForExpanded({
     <StaticMap
       id="preview-map"
       title="Exit Slideshow"
+      className={latLon ? '' : 'invisible'}
       onClick={handleExit}
       latLon={latLon ?? '-74,41'}
     />
