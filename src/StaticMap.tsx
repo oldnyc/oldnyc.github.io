@@ -18,7 +18,12 @@ export function StaticMap(props: Props) {
   }, [latLon]);
   return (
     <div id={props.id} className={props.className} title={props.title}>
-      <MapLibreMap center={latLng} zoom={16} interactive={false} />
+      <MapLibreMap
+        center={latLng}
+        zoom={16}
+        interactive={false}
+        attributionControl={false}
+      />
     </div>
   );
 }
