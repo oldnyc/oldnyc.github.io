@@ -155,8 +155,12 @@ function GridWithWidth(props: GridWithWidthProps) {
   React.useEffect(() => {
     function handleKey(e: KeyboardEvent) {
       if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        e.stopPropagation();
         goLeftRight(-1);
       } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        e.stopPropagation();
         goLeftRight(+1);
       } else if (e.key === 'Escape') {
         onDeselect?.();
