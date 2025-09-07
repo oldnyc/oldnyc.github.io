@@ -11,7 +11,6 @@ import { useHistory } from 'react-router-dom';
 import { photoIdToLatLon } from './photo-id-to-lat-lon';
 import { DetailView, ImagePreview } from './ImageDetails';
 import { useResource } from './use-resource';
-import { StaticMap } from './StaticMap';
 
 export interface SlideshowProps {
   latLon: string;

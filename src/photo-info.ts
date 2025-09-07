@@ -125,7 +125,3 @@ export function getLibraryUrl(photo_id: string, url: string | undefined) {
     `https://digitalcollections.nypl.org/search/index?keywords=${photo_id}`
   );
 }
-
-export function getCanonicalUrlForPhoto(photo_id: string) {
-  return 'http://www.oldnyc.org/#' + photo_id;
-}

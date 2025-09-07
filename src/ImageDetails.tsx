@@ -4,7 +4,6 @@ import {
   PhotoInfo,
   backId,
   descriptionForPhotoId,
-  getCanonicalUrlForPhoto,
   infoForPhotoId,
   getLibraryUrl,
 } from './photo-info';
@@ -22,7 +21,6 @@ export function DetailView({
   const { id } = image;
   const info = infoForPhotoId(id);
   const libraryUrl = getLibraryUrl(id, info.nypl_url);
-  const canonicalUrl = getCanonicalUrlForPhoto(id);
 
   // TODO: rename backId -> getBackId
   const bid = backId(id);

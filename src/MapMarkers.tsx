@@ -125,7 +125,7 @@ function MapMarkersWithMap(props: MapMarkersProps & { map: maplibregl.Map }) {
   const markerClickFn = React.useCallback(
     (e: maplibregl.MapLayerMouseEvent) => {
       if (e.features) {
-        const { latLng } = e.features[0].properties;
+        const latLng = e.features[0].properties.latLng as string;
         onClickMarker?.(latLng);
       }
     },
