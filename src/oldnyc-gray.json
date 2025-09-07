@@ -2714,28 +2714,6 @@
 		},
 		{
 			"source": "versatiles-shortbread",
-			"id": "label-address-housenumber",
-			"type": "symbol",
-			"source-layer": "addresses",
-			"filter": [ "has", "housenumber" ],
-			"layout": {
-				"text-field": "{housenumber}",
-				"text-font": [ "noto_sans_regular" ],
-				"symbol-placement": "point",
-				"text-anchor": "center",
-				"text-size": { "stops": [ [ 17, 8 ], [ 19, 10 ] ] }
-			},
-			"paint": {
-				"text-halo-color": "rgb(235,235,235)",
-				"text-halo-width": 2,
-				"text-halo-blur": 1,
-				"icon-color": "rgb(164,164,164)",
-				"text-color": "rgb(164,164,164)"
-			},
-			"minzoom": 17
-		},
-		{
-			"source": "versatiles-shortbread",
 			"id": "label-street-pedestrian",
 			"type": "symbol",
 			"source-layer": "street_labels",
