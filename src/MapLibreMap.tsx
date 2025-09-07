@@ -4,7 +4,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import { MarkerClickFn } from './map';
 import { YearRange } from './TimeSlider';
 
-import MAP_STYLE from './colorful.json';
+import MAP_STYLE from './oldnyc-gray.json';
 import { MapMarkers } from './MapMarkers';
 
 interface MapLibreMapProps {
@@ -52,7 +52,7 @@ export function MapLibreMap({
     return () => {
       map.remove();
     };
-  }, [center, zoom, minZoom, maxZoom]);
+  }, [center, zoom, minZoom, maxZoom, maxBounds]);
 
   useEffect(() => {
     mapRef?.setGlobalStateProperty('selectedLatLng', selectedLatLng);
