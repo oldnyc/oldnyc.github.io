@@ -179,7 +179,7 @@ h2 a {
   font-size: 1.6em;
   white-space: pre-line;
   width: 150px;
-  margin-top: 5px;
+  margin-top: 165px;
 }
 
 .nypl-logo {
@@ -258,6 +258,10 @@ div.exit:hover {
   width: 150px;
   height: 150px;
   cursor: pointer;
+  position: fixed;
+  z-index: 1;
+  left: 15px;
+  top: 55px;
 }
 
 #expanded .og-fullimg img:hover {
@@ -330,7 +334,7 @@ a#slideshow-all:visited {
 
 #popular {
   overflow-y: scroll;
-  bottom: 30px;
+  bottom: 44px;
 }
 
 #popular h2,
@@ -503,6 +507,9 @@ a#slideshow-all:visited {
 
 @media (max-width: 1024px) {
   #expanded-controls {
+    display: none;
+  }
+  #preview-map {
     display: none;
   }
   #grid-container {
@@ -682,4 +689,24 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 .og-grid li.selected > a:first-child img,
 .og-grid li.sibling > a:first-child img {
   box-shadow: 0 0 0 2px #fff;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.maplibregl-ctrl-top-left {
+  margin-top: 64px;
+}
+
+.maplibregl-ctrl-group button.maplibregl-ctrl-zoom-in,
+.maplibregl-ctrl-group button.maplibregl-ctrl-zoom-out {
+  width: 40px;
+  height: 40px;
+}
+.maplibregl-ctrl-group {
+  box-shadow: none !important;
+}
+.slideshow-open .maplibregl-ctrl {
+  visibility: hidden !important;
 }
