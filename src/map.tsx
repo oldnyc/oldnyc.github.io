@@ -2,8 +2,9 @@
 
 import React from 'react';
 import { YearRange, isFullTimeRange } from './TimeSlider';
-import { MapLibreMap } from './MapLibreMap';
+import { MapLibreMap, useMap } from './MapLibreMap';
 import { MapMarkers } from './MapMarkers';
+import maplibregl from 'maplibre-gl';
 
 export type MarkerClickFn = (latLon: string) => void;
 
@@ -58,6 +59,9 @@ export function Map(props: MapProps) {
   return (
     <MapLibreMap
       containerId="map"
+      containerClassName={
+        selectedLatLon ? 'slideshow-open maplibregl-map' : 'maplibregl-map'
+      }
       center={DEFAULT_LAT_LNG}
       zoom={DEFAULT_ZOOM}
       minZoom={MIN_ZOOM}
@@ -69,8 +73,25 @@ export function Map(props: MapProps) {
         yearRange={yearRange}
         onClickMarker={onClickMarker}
       />
+      <ZoomControl />
     </MapLibreMap>
   );
+}
+
+function ZoomControl() {
+  const map = useMap();
+  React.useEffect(() => {
+    if (map) {
+      map.addControl(
+        new maplibregl.NavigationControl({
+          showZoom: true,
+          showCompass: false,
+        }),
+        'top-left',
+      );
+    }
+  }, [map]);
+  return null;
 }
 
 // Debugging conveniences

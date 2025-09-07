@@ -334,7 +334,7 @@ a#slideshow-all:visited {
 
 #popular {
   overflow-y: scroll;
-  bottom: 30px;
+  bottom: 44px;
 }
 
 #popular h2,
@@ -693,4 +693,20 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 
 .invisible {
   visibility: hidden;
+}
+
+.maplibregl-ctrl-top-left {
+  margin-top: 64px;
+}
+
+.maplibregl-ctrl-group button.maplibregl-ctrl-zoom-in,
+.maplibregl-ctrl-group button.maplibregl-ctrl-zoom-out {
+  width: 40px;
+  height: 40px;
+}
+.maplibregl-ctrl-group {
+  box-shadow: none !important;
+}
+.slideshow-open .maplibregl-ctrl {
+  visibility: hidden !important;
 }

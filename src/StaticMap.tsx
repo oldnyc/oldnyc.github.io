@@ -104,7 +104,7 @@ export function StaticMapForExpanded({
     <StaticMap
       id="preview-map"
       title="Exit Slideshow"
-      className={latLon ? '' : 'invisible'}
+      className={latLon ? undefined : 'invisible'}
       onClick={handleExit}
       latLon={latLon ?? '-74,41'}
     />

@@ -14,7 +14,7 @@ interface MapLibreMapProps extends Partial<maplibregl.MapOptions> {
   containerId?: string;
   containerClassName?: string;
   onClick?: () => void;
-  children?: JSX.Element;
+  children?: JSX.Element | JSX.Element[];
 }
 
 const MapContext = createContext<maplibregl.Map | undefined>(undefined);
@@ -70,6 +70,7 @@ export function MapLibreMap({
     }
   });
 
+  // TODO: maybe another wrapper div would be safer -- setting containerClassName here is dangerous.
   return (
     <>
       <div
