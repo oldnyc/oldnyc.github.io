@@ -68,7 +68,7 @@ export function MapLibreMap({
         mapRef?.off('click', onClick);
       };
     }
-  });
+  }, [mapRef, onClick]);
 
   // TODO: maybe another wrapper div would be safer -- setting containerClassName here is dangerous.
   return (
