@@ -52,7 +52,6 @@ module.exports = {
       scriptLoading: 'blocking',
       chunks: ['main'],
       minify: false,
-      googleMapsApiKey: process.env.GMAPS_API_KEY,
     }),
     new HtmlWebpackPlugin({
       template: __dirname + '/src/ocr.template.html',

@@ -104,8 +104,6 @@ function MapMarkerTile(props: MapMarkerTileProps) {
   }, [layerId, map, onClickMarker]);
 
   return null;
-  // This is useful for debugging lazy creation of markers
-  // <Rectangle bounds={bounds} pathOptions={hasBeenVisible ? BLUE : BLACK} />
 }
 
 export interface MapMarkersProps {
