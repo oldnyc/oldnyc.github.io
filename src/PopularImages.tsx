@@ -5,7 +5,7 @@ import { deleteCookie, setCookie } from './feedback';
 
 // TODO: inline image source into popular-photos.js and get rid of this.
 function expandedImageUrl(photo_id: string) {
-  return `http://oldnyc-assets.nypl.org/600px/${photo_id}.jpg`;
+  return `//oldnyc-assets.nypl.org/600px/${photo_id}.jpg`;
 }
 
 export function PopularImages() {
