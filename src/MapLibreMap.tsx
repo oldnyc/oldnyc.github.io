@@ -45,8 +45,10 @@ export function MapLibreMap({
       pitchWithRotate: false,
       ...initialOptions,
     });
-
-    setMapRef(map);
+    map.on('style.load', () => {
+      // It's dangerous to interact with the map before the style is done loading.
+      setMapRef(map);
+    });
 
     return () => {
       map.remove();
