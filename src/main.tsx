@@ -62,11 +62,15 @@ function PhotoApp() {
 
   // TODO: make sure there's only one request in flight for any id4
   const [, setForceUpdate] = React.useState(0);
+  const [locFromPageLoad, setLocFromPageLoad] = React.useState<
+    string | undefined
+  >(loc);
   React.useEffect(() => {
     if (photoId && !loc) {
       (async () => {
         await getLatLonForPhotoId(photoId); // populates photoIdToLatLon
         setForceUpdate((n) => n + 1);
+        setLocFromPageLoad(photoIdToLatLon[photoId]);
       })().catch((e) => {
         console.error(e);
       });
@@ -99,6 +103,7 @@ function PhotoApp() {
         <title>{pageTitle(params)}</title>
       </Helmet>
       <Map
+        defaultCenter={locFromPageLoad}
         yearRange={years}
         onClickMarker={handleMarkerClick}
         selectedLatLon={loc}

@@ -7,7 +7,6 @@ import {
   backId,
   infoForPhotoId,
   backOfCardUrlForPhotoId,
-  findLatLonForPhoto,
   getLibraryUrl,
 } from './photo-info';
 import {
@@ -16,6 +15,17 @@ import {
   getFeedbackText,
   sendFeedback,
 } from './feedback';
+
+function findLatLonForPhoto(photo_id: string, cb: (lat_lon: string) => void) {
+  const id4 = photo_id.slice(0, 4);
+  $.ajax({
+    dataType: 'json',
+    url: '/id4-to-location/' + id4 + '.json',
+    success: function (id_to_latlon: { [id: string]: string }) {
+      cb(id_to_latlon[photo_id]);
+    },
+  });
+}
 
 if (window.location.search.includes('thanks')) {
   $('#thanks').show();

@@ -5,6 +5,7 @@ import { YearRange, isFullTimeRange } from './TimeSlider';
 import { MapLibreMap, useMap } from './MapLibreMap';
 import { MapMarkers } from './MapMarkers';
 import maplibregl from 'maplibre-gl';
+import { parseLatLon } from './photo-info';
 
 export type MarkerClickFn = (latLon: string) => void;
 
@@ -36,6 +37,7 @@ export function countPhotos(yearToCounts: YearToCount, yearRange: YearRange) {
 }
 
 export interface MapProps {
+  defaultCenter?: string;
   selectedLatLon?: string;
   yearRange: YearRange;
   onClickMarker?: MarkerClickFn;
@@ -44,7 +46,7 @@ export interface MapProps {
 // TODO: disable keyboard shortcuts when slideshow is open
 
 export function Map(props: MapProps) {
-  const { onClickMarker, selectedLatLon, yearRange } = props;
+  const { onClickMarker, selectedLatLon, yearRange, defaultCenter } = props;
 
   const [savedSelectedLatLng, setSavedSelectedLatLng] = React.useState<
     string | undefined
@@ -56,13 +58,21 @@ export function Map(props: MapProps) {
     }
   }, [selectedLatLon]);
 
+  const center = React.useMemo(() => {
+    if (defaultCenter) {
+      const [lat, lng] = parseLatLon(defaultCenter);
+      return [lng, lat] as [number, number];
+    }
+    return DEFAULT_LAT_LNG;
+  }, [defaultCenter]);
+
   return (
     <MapLibreMap
       containerId="map"
       containerClassName={
         selectedLatLon ? 'slideshow-open maplibregl-map' : 'maplibregl-map'
       }
-      center={DEFAULT_LAT_LNG}
+      center={center}
       zoom={DEFAULT_ZOOM}
       minZoom={MIN_ZOOM}
       maxZoom={MAX_ZOOM}
@@ -89,6 +99,8 @@ function ZoomControl() {
         }),
         'top-left',
       );
+      // eslint-disable-next-line
+      (window as any).map = map;
     }
   }, [map]);
   return null;
