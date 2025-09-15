@@ -29,18 +29,12 @@
       FB.init({
         appId      : '598168753565519',
         xfbml      : true,
-        version    : 'v2.3'
+        version    : 'v23.0'
       });
     };
-
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
   </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
   <div id="app"></div>
 
   <meta name="twitter:widgets:csp" content="on">

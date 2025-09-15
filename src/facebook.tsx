@@ -28,7 +28,7 @@ export function Comment(props: SocialProps) {
           data-colorscheme="light"
           data-href="${url}"
           data-width="${width}"
-          data-version="v2.3"
+          data-version="v23.0"
         />`;
       try {
         // eslint-disable-next-line
@@ -62,6 +62,7 @@ export function Like(props: LikeProps) {
           show_faces="false"
           share="true"
           href="${url}"
+          data-version="v23.0"
         />`;
       try {
         // eslint-disable-next-line
