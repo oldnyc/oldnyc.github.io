@@ -99,6 +99,8 @@ function ZoomControl() {
         }),
         'top-left',
       );
+      // eslint-disable-next-line
+      (window as any).map = map;
     }
   }, [map]);
   return null;

@@ -79,7 +79,15 @@ function MapMarkerTile(props: MapMarkerTileProps) {
           'blue',
           MARKER_COLOR,
         ],
-        'circle-radius': ['case', ['==', ['get', 'count'], 1], 4.24, 5.66],
+        'circle-radius': [
+          'interpolate',
+          ['exponential', 1.75],
+          ['zoom'],
+          14,
+          ['case', ['==', ['get', 'count'], 1], 4.24, 5.66],
+          16,
+          ['case', ['==', ['get', 'count'], 1], 10, 13.35],
+        ],
       },
     });
     map.on('mouseenter', layerId, setPointerCursor);
