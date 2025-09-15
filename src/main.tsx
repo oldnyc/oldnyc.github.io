@@ -64,7 +64,7 @@ function PhotoApp() {
   const [, setForceUpdate] = React.useState(0);
   const [locFromPageLoad, setLocFromPageLoad] = React.useState<
     string | undefined
-  >();
+  >(loc);
   React.useEffect(() => {
     if (photoId && !loc) {
       (async () => {
