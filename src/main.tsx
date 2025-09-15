@@ -71,7 +71,6 @@ function PhotoApp() {
         await getLatLonForPhotoId(photoId); // populates photoIdToLatLon
         setForceUpdate((n) => n + 1);
         setLocFromPageLoad(photoIdToLatLon[photoId]);
-        console.log('forcing update after getting latlon for photo ID');
       })().catch((e) => {
         console.error(e);
       });
