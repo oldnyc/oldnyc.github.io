@@ -24,7 +24,7 @@ export function Comment(props: SocialProps) {
       );
       comments.innerHTML = `
         <fb:comments
-          data-numposts="5"
+          data-numposts="10"
           data-colorscheme="light"
           data-href="${url}"
           data-width="${width}"
