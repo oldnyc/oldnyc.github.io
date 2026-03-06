@@ -29,7 +29,10 @@ export function Header() {
       </div>
 
       <div id="mailing-list" className="hide-mobile">
-        <a target="_blank" href="http://eepurl.com/bouyCz" rel="noreferrer">
+        <a
+          data-eo-form-toggle-id="b3f8e7de-19a8-11f1-a864-abd7d45650c1"
+          href="#"
+        >
           Subscribe
         </a>{' '}
         to OldNYC updates
