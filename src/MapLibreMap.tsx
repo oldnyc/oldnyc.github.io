@@ -72,6 +72,15 @@ export function MapLibreMap({
     }
   }, [mapRef, onClick]);
 
+  const { keyboard = true } = mapOptions;
+  React.useEffect(() => {
+    if (keyboard) {
+      mapRef?.keyboard.enable();
+    } else {
+      mapRef?.keyboard.disable();
+    }
+  }, [mapRef, keyboard]);
+
   // TODO: maybe another wrapper div would be safer -- setting containerClassName here is dangerous.
   return (
     <>

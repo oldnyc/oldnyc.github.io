@@ -77,6 +77,7 @@ export function Map(props: MapProps) {
       minZoom={MIN_ZOOM}
       maxZoom={MAX_ZOOM}
       maxBounds={MAX_BOUNDS}
+      keyboard={!selectedLatLon}
     >
       <MapMarkers
         selectedLatLng={savedSelectedLatLng}
