@@ -198,6 +198,7 @@ div.exit {
   line-height: 35px;
   color: white;
   cursor: pointer;
+  z-index: 11;
 }
 div.exit:hover {
   color: gray;
@@ -592,6 +593,7 @@ a#slideshow-all:visited {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 10;
 }
 #about-page .container {
   background: #fff;
@@ -602,6 +604,19 @@ a#slideshow-all:visited {
   max-width: 960px;
   margin-left: -480px;
   bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  #about-page .container {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0;
+  }
+  #exit-about {
+    color: #333;
+  }
 }
 
 #time-range-summary {
