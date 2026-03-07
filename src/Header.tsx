@@ -14,8 +14,7 @@ export function Header() {
           href="#"
         >
           Subscribe
-        </a>
-        {' '}
+        </a>{' '}
         <span className="new-badge">new!</span>
       </div>
     </div>
