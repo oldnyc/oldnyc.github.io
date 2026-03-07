@@ -1,5 +1,6 @@
 /* eslint-disable */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',
@@ -35,7 +36,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
     ],
   },
@@ -45,6 +46,9 @@ module.exports = {
     jquery: 'jQuery',
   },
   plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'bundle/[name].[contenthash].css',
+    }),
     new HtmlWebpackPlugin({
       template: __dirname + '/src/index.template.html',
       filename: __dirname + '/dist/index.html',

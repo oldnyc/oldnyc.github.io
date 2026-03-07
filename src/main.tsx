@@ -2,6 +2,11 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Helmet } from 'react-helmet';
 
+// grid.css belongs with grid.tsx, but must be loaded before viewer.css.
+// TODO: resolve this conflict and import grid.css in grid.tsx.
+import '../styles/grid.css';
+import '../styles/viewer.css';
+
 import {
   HashRouter,
   Route,
