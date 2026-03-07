@@ -54,6 +54,14 @@ module.exports = {
       minify: false,
     }),
     new HtmlWebpackPlugin({
+      template: __dirname + '/src/about.template.html',
+      filename: __dirname + '/dist/about.html',
+      inject: 'body',
+      scriptLoading: 'blocking',
+      chunks: [],
+      minify: false,
+    }),
+    new HtmlWebpackPlugin({
       template: __dirname + '/src/ocr.template.html',
       filename: __dirname + '/dist/ocr.html',
       inject: 'body',

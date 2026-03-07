@@ -1,41 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Like } from './facebook';
 
 export function Header() {
   return (
     <div className="social-about">
-      <div id="facebook" className="hide-mobile">
-        <Like
-          // https would be better, but the like count is much lower.
-          url="http://www.oldnyc.org"
-          layout="button_count"
-          id="header-like"
-        />
-      </div>
-      <div id="twitter" className="hide-mobile">
-        <a
-          href="http://twitter.com/share"
-          className="twitter-share-button"
-          data-count="horizontal"
-          data-via="Old_NYC @NYPL"
-        >
-          Tweet
-        </a>
-      </div>
-
       <div id="about">
         <Link to="/about">About</Link>
       </div>
 
-      <div id="mailing-list" className="hide-mobile">
+      <div id="mailing-list">
         <a
           data-eo-form-toggle-id="b3f8e7de-19a8-11f1-a864-abd7d45650c1"
           href="#"
         >
           Subscribe
         </a>{' '}
-        to OldNYC updates
+        <span className="new-badge">new!</span>
       </div>
     </div>
   );
