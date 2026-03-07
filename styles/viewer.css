@@ -98,6 +98,7 @@ h2 a {
   position: absolute;
   top: 10px;
   left: 303px;
+  max-width: calc(100% - 313px);
   background-color: #fff;
   display: flex;
   height: 54px;
@@ -107,6 +108,7 @@ h2 a {
   padding-top: 18px;
   padding-left: 1em;
   padding-right: 1em;
+  overflow: hidden;
 }
 
 
