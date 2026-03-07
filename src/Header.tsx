@@ -8,14 +8,15 @@ export function Header() {
         <Link to="/about">About</Link>
       </div>
 
-      <div id="mailing-list" className="hide-mobile">
+      <div id="mailing-list">
         <a
           data-eo-form-toggle-id="b3f8e7de-19a8-11f1-a864-abd7d45650c1"
           href="#"
         >
           Subscribe
-        </a>{' '}
-        to OldNYC updates
+        </a>
+        {' '}
+        <span className="new-badge">new!</span>
       </div>
     </div>
   );
