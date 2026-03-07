@@ -73,6 +73,10 @@ function MapMarkerTile(props: MapMarkerTileProps) {
       type: 'circle',
       source: sourceId,
       paint: {
+        // This increases the click target size, which makes it much easier
+        // to tap a dot with your finger on mobile.
+        'circle-stroke-width': 8,
+        'circle-stroke-opacity': 0.0,
         'circle-color': [
           'case',
           ['==', ['global-state', 'selectedLatLng'], ['get', 'latLng']],
