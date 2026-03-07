@@ -62,7 +62,8 @@ h2 a {
   font-size: 0.75em;
   color: #c33c3c;
   font-weight: bold;
-  vertical-align: super;
+  position: relative;
+  top: -0.5em;
 }
 
 .logo {
@@ -102,7 +103,8 @@ h2 a {
   height: 54px;
   box-sizing: border-box;
   column-gap: 1em;
-  align-items: center;
+  align-items: baseline;
+  padding-top: 18px;
   padding-left: 1em;
   padding-right: 1em;
 }
