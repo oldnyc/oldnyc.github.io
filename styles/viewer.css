@@ -606,7 +606,7 @@ a#slideshow-all:visited {
   bottom: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   #about-page .container {
     top: 0;
     left: 0;
