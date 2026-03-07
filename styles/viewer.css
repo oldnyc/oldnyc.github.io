@@ -111,6 +111,18 @@ h2 a {
   overflow: hidden;
 }
 
+@media (max-width: 500px) {
+  .new-badge {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .header .social-about {
+    flex-direction: column;
+    row-gap: 0.5em;
+    padding-top: 0.5em;
+  }
+}
 
 #facebook {
   margin-right: 10px;
