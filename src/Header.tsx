@@ -17,6 +17,15 @@ export function Header() {
         </a>{' '}
         <span className="new-badge">new!</span>
       </div>
+
+      <div id="updates">
+        <a
+          href="https://www.danvk.org/2026/03/08/oldnyc-updates.html"
+          target="_blank"
+        >
+          Updates for 2026
+        </a>
+      </div>
     </div>
   );
 }
