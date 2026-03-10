@@ -47,6 +47,9 @@ export function DetailView({
   const hideFeedback = React.useCallback(() => {
     setFeedbackVisible(false);
   }, []);
+  const debugClick = React.useCallback(() => {
+    console.log(id, image, info, ocrText);
+  }, [id, image, info, ocrText]);
 
   const nodeRef = React.useRef(null);
 
@@ -90,7 +93,7 @@ export function DetailView({
           </div>
 
           <div className="social">
-            <CopyLink href={window.location.href} />{' '}
+            <CopyLink href={window.location.href} altClick={debugClick} />{' '}
             <Tweet
               href={window.location.href}
               via="Old_NYC @NYPL"
@@ -126,11 +129,15 @@ export function DetailView({
   );
 }
 
-function CopyLink({ href }: { href: string }) {
+function CopyLink({ href, altClick }: { href: string; altClick: () => void }) {
   const [isCopied, setIsCopied] = React.useState(false);
 
   const copy: React.MouseEventHandler = (e) => {
     e.preventDefault();
+    if (e.altKey) {
+      altClick();
+      return;
+    }
     (async () => {
       await navigator.clipboard.writeText(href);
       setIsCopied(true);
