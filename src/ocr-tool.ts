@@ -4,7 +4,7 @@
 
 import {
   loadInfoForLatLon,
-  backId,
+  getBackId,
   infoForPhotoId,
   backOfCardUrlForPhotoId,
   getLibraryUrl,
@@ -38,7 +38,7 @@ $('#back-link').attr('href', '/#' + id);
 let other_photo_ids: string[] | undefined;
 findLatLonForPhoto(id, function (lat_lon) {
   const infoP = loadInfoForLatLon(lat_lon);
-  const ocrP = getFeedbackText(backId(id));
+  const ocrP = getFeedbackText(getBackId(id));
 
   (async () => {
     const [photo_ids, ocr_obj] = await Promise.all([infoP, ocrP]);
@@ -71,7 +71,7 @@ interface NoTextJson {
 const noTextIdsDef = $.getJSON('/static/notext.json');
 
 async function submit(type: FeedbackType, feedback_obj: PhotoFeedback) {
-  await sendFeedback(backId(id), type, feedback_obj);
+  await sendFeedback(getBackId(id), type, feedback_obj);
   // Go to another image at the same location.
   const nextId = await next_image(id);
   const url =
@@ -131,7 +131,7 @@ function rotate90() {
   $img
     .css('transform', 'rotate(' + currentRotation + 'deg)')
     .data('rotate', currentRotation);
-  void sendFeedback(backId(id), 'rotate-backing', {
+  void sendFeedback(getBackId(id), 'rotate-backing', {
     'rotate-backing': currentRotation,
   });
 }

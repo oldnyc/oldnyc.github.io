@@ -2,7 +2,7 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 import {
   PhotoInfo,
-  backId,
+  getBackId,
   descriptionForPhotoId,
   getCanonicalUrlForPhoto,
   infoForPhotoId,
@@ -25,8 +25,7 @@ export function DetailView({
   const libraryUrl = getLibraryUrl(id, info.nypl_url);
   const canonicalUrl = getCanonicalUrlForPhoto(id);
 
-  // TODO: rename backId -> getBackId
-  const bid = backId(id);
+  const bid = getBackId(id);
   const ocrText = useResource(`ocr-${bid}`, () => getFeedbackText(bid));
   const text =
     ocrText.status === 'success'
