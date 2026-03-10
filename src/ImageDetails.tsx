@@ -2,7 +2,7 @@ import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 import {
   PhotoInfo,
-  backId,
+  getBackId,
   descriptionForPhotoId,
   getCanonicalUrlForPhoto,
   infoForPhotoId,
@@ -25,8 +25,7 @@ export function DetailView({
   const libraryUrl = getLibraryUrl(id, info.nypl_url);
   const canonicalUrl = getCanonicalUrlForPhoto(id);
 
-  // TODO: rename backId -> getBackId
-  const bid = backId(id);
+  const bid = getBackId(id);
   const ocrText = useResource(`ocr-${bid}`, () => getFeedbackText(bid));
   const text =
     ocrText.status === 'success'
@@ -48,6 +47,9 @@ export function DetailView({
   const hideFeedback = React.useCallback(() => {
     setFeedbackVisible(false);
   }, []);
+  const debugClick = React.useCallback(() => {
+    console.log(id, image, info, ocrText);
+  }, [id, image, info, ocrText]);
 
   const nodeRef = React.useRef(null);
 
@@ -91,7 +93,7 @@ export function DetailView({
           </div>
 
           <div className="social">
-            <CopyLink href={window.location.href} />{' '}
+            <CopyLink href={window.location.href} altClick={debugClick} />{' '}
             <Tweet
               href={window.location.href}
               via="Old_NYC @NYPL"
@@ -101,6 +103,13 @@ export function DetailView({
             <div className="facebook-holder">
               <Like url={canonicalUrl} id="details-like" layout="button" />
             </div>
+          </div>
+
+          <div className="nypl-link">
+            <a target="_blank" href={libraryUrl} rel="noreferrer">
+              View complete item in NYPL Digital Collections
+            </a>
+            .
           </div>
 
           <div className="comments">
@@ -120,11 +129,15 @@ export function DetailView({
   );
 }
 
-function CopyLink({ href }: { href: string }) {
+function CopyLink({ href, altClick }: { href: string; altClick: () => void }) {
   const [isCopied, setIsCopied] = React.useState(false);
 
   const copy: React.MouseEventHandler = (e) => {
     e.preventDefault();
+    if (e.altKey) {
+      altClick();
+      return;
+    }
     (async () => {
       await navigator.clipboard.writeText(href);
       setIsCopied(true);
@@ -217,12 +230,6 @@ export function ImagePreview({
         onClick={goToLibrary}
       />
       <div>
-        <div className="nypl-link">
-          <a target="_blank" href={libraryUrl} rel="noreferrer">
-            View complete item in NYPL Digital Collections
-          </a>
-          .
-        </div>
         <div className="rotate">
           <a href="#" className="rotate-image-button" onClick={rotate}>
             <img src="/images/rotate.png" width="29" height="29" />

@@ -77,12 +77,12 @@ export function descriptionForPhotoId(photo_id: string) {
   return desc;
 }
 
-export function backId(photo_id: string) {
+export function getBackId(photo_id: string) {
   return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');
 }
 
 export function backOfCardUrlForPhotoId(photo_id: string) {
-  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';
+  return 'http://images.nypl.org/?id=' + getBackId(photo_id) + '&t=w';
 }
 
 const lat_lon_to_name: { [latLng: string]: string | undefined } = {};
