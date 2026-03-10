@@ -102,6 +102,13 @@ export function DetailView({
             </div>
           </div>
 
+          <div className="nypl-link">
+            <a target="_blank" href={libraryUrl} rel="noreferrer">
+              View complete item in NYPL Digital Collections
+            </a>
+            .
+          </div>
+
           <div className="comments">
             <Comment url={canonicalUrl} />
           </div>
@@ -216,12 +223,6 @@ export function ImagePreview({
         onClick={goToLibrary}
       />
       <div>
-        <div className="nypl-link">
-          <a target="_blank" href={libraryUrl} rel="noreferrer">
-            View complete item in NYPL Digital Collections
-          </a>
-          .
-        </div>
         <div className="rotate">
           <a href="#" className="rotate-image-button" onClick={rotate}>
             <img src="/images/rotate.png" width="29" height="29" />
