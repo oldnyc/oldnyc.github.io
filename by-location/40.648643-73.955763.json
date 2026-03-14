@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Snyder Avenue"
+      },
+      "source": "Brooklyn: Snyder Avenue - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706820f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706820f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Printers",
+          "Printing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1a3bdc0-c538-012f-6b3a-58d385a7bc34",
     "original_title": "Brooklyn: Snyder Avenue - Bedford Avenue",
     "text": "51 Snyder Ave., near the N.W. corner of Bedford Ave.\nMarch 29, 1932.\nP. L. Sperr.\n",

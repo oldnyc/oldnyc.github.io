@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "New York Avenue",
+        "str2": "Sterling Street"
+      },
+      "source": "Brooklyn: Sterling Street - New York Avenue",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "706894f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706894f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd7f5960-c538-012f-6e04-58d385a7bc34",
     "original_title": "Brooklyn: Sterling Street - New York Avenue",
     "text": "Sterling Street, west from New York Ave. Canarsie Ave., went north to Clove Road, through vacant lot in the foreground.\n\nMarch 1929.\n\nEugene L. Armbruster Collection.\n",

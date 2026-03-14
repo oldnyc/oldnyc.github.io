@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "165th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "165th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465537",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465537.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/350d21d0-c612-012f-b887-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "165th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "165th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417667-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417667-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1598acd0-c6cd-012f-5dae-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "165th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "165th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 472,
     "id": "417667-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417667-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1598acd0-c6cd-012f-5dae-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +113,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "165th Street (West)",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 165th Street (West) - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715723f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715723f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "McKenna Square (New York, N.Y.)",
+          "Melrose Park (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a296430-c547-012f-be9d-58d385a7bc34",
     "original_title": "Manhattan: 165th Street (West) - St. Nicholas Avenue",
     "text": "West 165th Street, south side, east from St. Nicholas to Amsterdam Aves., showing prominently in the center of this block the Roman Catholic Church and Rectory of St. Rose of Lima. The area in the foreground is locally known as McKenna Square.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
@@ -70,9 +156,27 @@
     "dates_from_text": [
       "1941-04-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "165th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 165th Street - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715726f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715726f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b42cb40-c547-012f-247b-58d385a7bc34",
     "original_title": "Manhattan: 165th Street - St. Nicholas Avenue",
     "text": "View 1;\n165th Street, north side north west corner showing 3 story frame building.\n\nView 2;\n165th Street, north side and across Amsterdam Avenue.\n\nView 3;\nAmsterdam Avenue north east corner at 165th Street, from the south west corner,\n3 story frame building adjoining corner.\n\nP.L.Speer.\nApril 27, 1941.\n",
@@ -90,9 +194,27 @@
     "dates_from_text": [
       "1941-04-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "165th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 165th Street - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715726f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715726f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b42cb40-c547-012f-247b-58d385a7bc34",
     "original_title": "Manhattan: 165th Street - St. Nicholas Avenue",
     "text": "View 1;\n165th Street, north side north west corner showing 3 story frame building.\n\nView 2;\n165th Street, north side and across Amsterdam Avenue.\n\nView 3;\nAmsterdam Avenue north east corner at 165th Street, from the south west corner,\n3 story frame building adjoining corner.\n\nP.L.Speer.\nApril 27, 1941.\n",
@@ -110,9 +232,27 @@
     "dates_from_text": [
       "1941-04-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "165th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 165th Street - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715726f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715726f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b42cb40-c547-012f-247b-58d385a7bc34",
     "original_title": "Manhattan: 165th Street - St. Nicholas Avenue",
     "text": "View 1;\n165th Street, north side north west corner showing 3 story frame building.\n\nView 2;\n165th Street, north side and across Amsterdam Avenue.\n\nView 3;\nAmsterdam Avenue north east corner at 165th Street, from the south west corner,\n3 story frame building adjoining corner.\n\nP.L.Speer.\nApril 27, 1941.\n",

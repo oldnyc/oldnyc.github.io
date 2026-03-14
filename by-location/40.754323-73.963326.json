@@ -2,9 +2,57 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 448,
+        "street": "East 52nd Street"
+      },
+      "source": "448 East 52nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "52nd Street (East)",
+        "str2": "96th Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 52nd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "num": 435,
+        "street": "East 52nd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "713581f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713581f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e82340f0-c543-012f-2ad9-58d385a7bc34",
     "original_title": "Manhattan: 52nd Street (East) - 96th Avenue",
     "text": "East 52nd Street at the East River, showing the River House (No. 435 East 52nd Street) as it extends from East 53rd Street (right) to East 52nd Street. It is a 26-story fashionable apartment hotel. Also shown (extreme left) is the Campanile, No. 448-450 East 52nd Street, south side, at the East River. Part of the East River is visible in the foreground.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
@@ -19,9 +67,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 455,
+        "street": "52nd Street"
+      },
+      "source": "455 52nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "52nd Street",
+        "str2": "East",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "713583f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713583f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e90359b0-c543-012f-7bc4-58d385a7bc34",
     "text": "River House?\n\n52nd St # 455 E\n",
     "text_source": "gpt",

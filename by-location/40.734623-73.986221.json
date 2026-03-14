@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - between 16th and 17th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708014f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708014f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c96c56e0-c53a-012f-04a1-58d385a7bc34",
     "text": "Third Avenue, west side, between 16th and 17th Streets. Notice old milestone, two miles to City Hall.\nAbout 1915.\n",
     "text_source": "gpt",
@@ -24,9 +42,30 @@
     "dates_from_text": [
       "1929-07-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 16th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711349f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711349f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. George's Protestant Episcopal Church."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3593f320-c540-012f-725a-58d385a7bc34",
     "original_title": "Manhattan: 16th Street - 3rd Avenue",
     "text": "Memorial Chapel of St. George's Protestant Episcopal Church, 16th Street adjoining N.E. corner of Third Avenue, seen across clearing at S.E. corner. This building was erected in 1886, the gift of the elder J. Pierpont Morgan. The church itself, a small portion of which is seen at the right, was built in 1849.\n\nJuly 13, 1929.\n\nP.L. Sperr.\n",
@@ -44,9 +83,30 @@
     "dates_from_text": [
       "1929-07-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 16th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711353f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711353f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "206-220 16th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35239120-c540-012f-a60f-58d385a7bc34",
     "original_title": "Manhattan: 16th Street (East) - 3rd Avenue",
     "text": "206-220 East 16th Street (rear view) south side, east of Third Ave.\n\nJuly 13, 1929.\n\nP. L. Sperr\n",
@@ -61,9 +121,27 @@
   {
     "date": "1934-05-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - between 16th and 17th streets.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708015f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708015f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9d65ef0-c53a-012f-0936-58d385a7bc34",
     "text": "(1)\nOld Milestone, \"2 miles from City Hall;\" in front of 178-180 Third Avenue, west side, between 16th and 17th Streets.\nMay 21, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, a close-up.\n\nMay 21, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -77,9 +155,27 @@
   {
     "date": "1934-05-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - between 16th and 17th streets.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708015f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708015f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9d65ef0-c53a-012f-0936-58d385a7bc34",
     "text": "(1)\nOld Milestone, \"2 miles from City Hall;\" in front of 178-180 Third Avenue, west side, between 16th and 17th Streets.\nMay 21, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, a close-up.\n\nMay 21, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -93,9 +189,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708017f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708017f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca89d100-c53a-012f-71b8-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 16th Street",
     "text": "(1)\nThird Avenue, west side, north from No. 174 between 16th and 17th Streets.\nMay 21, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, north from No. 176. Notice the old milestone.\nMay 21, 1934.\n\nP. L. Sperr.\n",
@@ -110,9 +231,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "708017f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/708017f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca89d100-c53a-012f-71b8-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 16th Street",
     "rotation": 90,

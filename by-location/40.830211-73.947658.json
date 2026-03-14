@@ -2,9 +2,35 @@
   {
     "date": "1903-07-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "151 St.",
+        "str2": "Broadway"
+      },
+      "source": "151 St. and Broadway",
+      "technique": "gpt"
+    },
     "height": 478,
     "id": "2040738",
     "image_url": "https://images.nypl.org/?id=2040738&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Construction",
+          "Construction workers",
+          "Design and construction",
+          "Subways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30e48b30-c6c1-012f-0609-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +44,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "151th Street",
+        "str2": "Broadway"
+      },
+      "source": "151th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 503,
     "id": "417672-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417672-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13acfbc0-c6cd-012f-b384-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +81,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "151th Street",
+        "str2": "Broadway"
+      },
+      "source": "151th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 433,
     "id": "417672-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417672-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13acfbc0-c6cd-012f-b384-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +118,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One Hundred and Fifty-first Street"
+      },
+      "source": "Broadway and One Hundred and Fifty-first Street",
+      "technique": "gpt"
+    },
     "height": 516,
     "id": "417412",
     "image_url": "https://images.nypl.org/?id=417412&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb983930-c611-012f-588c-58d385a7bc34",
     "text": null,
     "text_source": null,

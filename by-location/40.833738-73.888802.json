@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "Hoe Avenue"
+      },
+      "source": "Bronx: 172nd Street (East) - Hoe Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700213f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700213f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beauty shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f30d30b0-c52e-012f-6995-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - Hoe Avenue",
     "text": "E. 172nd St. n.e. cor. & Hoe Ave\n9-5-1942\nP.L.Sperr\n",
@@ -19,9 +40,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "Hoe Avenue"
+      },
+      "source": "Bronx: 172nd Street (East) - Hoe Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "700214f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700214f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beauty shops",
+          "Dairy products industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f367b720-c52e-012f-d706-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - Hoe Avenue",
     "text": "E. 172nd St. adj. n.e. cor. Hoe Ave\nP.L.Sperr\n9-5-1942\n",

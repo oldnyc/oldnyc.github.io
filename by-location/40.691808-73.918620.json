@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Evergreen Avenue",
+        "str2": "Palmetto Street"
+      },
+      "source": "Brooklyn: Evergreen Avenue - Palmetto Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704156f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704156f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c50a52b0-c534-012f-4dce-58d385a7bc34",
     "original_title": "Brooklyn: Evergreen Avenue - Palmetto Street",
     "text": "Evergreen Ave., west side, east from, but not including Palmetto Street. In the foreground, are frame dwellings Nos. 451-453. Also seen is the Second German Baptist Church.\n\nSeptember 9, 1932.\n\nP. L. Sperr.\n",

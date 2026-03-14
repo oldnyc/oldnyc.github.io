@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 16,
+        "street": "Charles Street"
+      },
+      "source": "16 Charles Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "718623f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718623f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Doorway, 16-18 Charles Street, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Doors & doorways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b49f9250-c54b-012f-6206-58d385a7bc34",
     "text": "Doorway, 16-18 Charles Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-3\nJune 1, 1938\n",
     "text_source": "gpt",

@@ -2,9 +2,35 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Greenpoint Avenue",
+        "str2": "Leonard Street"
+      },
+      "source": "Brooklyn: Leonard Street - Greenpoint Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705424f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6248740-c536-012f-3e25-58d385a7bc34",
     "original_title": "Brooklyn: Leonard Street - Greenpoint Avenue",
     "text": "(1)\nLeonard Street, south from Greenpoint Avenue, showing, in the background, the St. Elias Greek Church, at No. 20-22. On the right is partially visible St. Anthony's Roman Catholic Church and School.\nJuly 25, 1939\n\nP. L. Sperr\n\n(2)\nA close view of St. Elias Church, No. 20-22 Leonard Street.\nJuly 25, 1939\n\nP. L. Sperr\n",
@@ -19,9 +45,35 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Greenpoint Avenue",
+        "str2": "Leonard Street"
+      },
+      "source": "Brooklyn: Leonard Street - Greenpoint Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "705424f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/705424f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6248740-c536-012f-3e25-58d385a7bc34",
     "original_title": "Brooklyn: Leonard Street - Greenpoint Avenue",
     "rotation": 90,

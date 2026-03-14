@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "123rd Street",
+        "str2": "22nd Street"
+      },
+      "source": "Queens: 123rd Street - 22nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725834f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725834f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches",
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e133a170-c556-012f-a9ef-58d385a7bc34",
     "original_title": "Queens: 123rd Street - 22nd Street",
     "text": "123rd Street, adjoining and at the S.E. corner of 22nd Avenue, viewing north toward the latter and showing some old homes and St. Johns Evangelical Lutheran Church. The church is at the corner. The dwellings (right to left) were owned, in 1873, by C. Piereth, P. Ulck, and J. Harrold. The church, too, was standing in 1873.\n\nP. L. Sperr\nMarch 16, 1932\n",
@@ -22,9 +44,27 @@
     "dates_from_text": [
       "1932-03-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "123rd Street",
+        "str2": "22nd Avenue"
+      },
+      "source": "Queens: 123rd Street - 22nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725835f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725835f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1927700-c556-012f-4517-58d385a7bc34",
     "original_title": "Queens: 123rd Street - 22nd Avenue",
     "text": "123rd Street (left), at the N.E. corner of 22nd Avenue. The house was owned by F. Conlon in 1873.\nMarch 16,1932\nF.L. Sperr\n",

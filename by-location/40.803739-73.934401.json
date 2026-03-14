@@ -2,9 +2,47 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 216,
+        "street": "East 126th Street"
+      },
+      "source": "216 East 126th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "126th Street (East)",
+        "str2": "Roosevelt Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "126th Street",
+        "str2": "Roosevelt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "715436f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715436f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb8bffa0-c546-012f-5ff4-58d385a7bc34",
     "original_title": "Manhattan: 126th Street (East) - Roosevelt Avenue",
     "text": "216 East 126th Street, south side showing P.S. #39.\nBoard of Education, N.Y.C.\nCREDIT LINE TIME ACTIVE. 1920.\n",
@@ -19,9 +57,47 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 216,
+        "street": "East 126th Street"
+      },
+      "source": "216 East 126th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "126th Street (East)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "East 126th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "715437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715437f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbedc620-c546-012f-501d-58d385a7bc34",
     "original_title": "Manhattan: 126th Street (East) - 125th Street",
     "text": "216 East 126th Street, south side, between 125th and 126th Street, showing P.S. 39.\nBoard of Education, N.Y.C.\n 1920.\n",

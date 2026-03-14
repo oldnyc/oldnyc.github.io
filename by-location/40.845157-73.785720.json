@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-07-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Schofield Street"
+      },
+      "source": "Bronx: City Island Avenue - Schofield Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700746f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700746f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1f684a0-c52f-012f-b3c8-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Schofield Street",
     "text": "232 City Island Ave. (City Island), at the S.E. corner of Schofield Street (left, running towards background).\n\nJuly 26, 1928.\n\nP. L. Sperr.\n",
@@ -22,9 +40,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Schofield Street"
+      },
+      "source": "Bronx: Schofield Street - City Island Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700735f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700735f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fire stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae1ce8b0-c52f-012f-9ef0-58d385a7bc34",
     "original_title": "Bronx: Schofield Street - City Island Avenue",
     "text": "Schofield Street (City Island), north side, between City Island Ave. and the east shore, showing Engine 70 of the New York Fire Department.\n\nJuly 6, 1936.\n\nP. L. Sperr.\n",

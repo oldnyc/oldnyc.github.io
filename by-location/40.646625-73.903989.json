@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-07-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Farragut Road",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Rockaway Parkway - Farragut Road",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706516f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706516f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ed390e0-c538-012f-7461-58d385a7bc34",
     "original_title": "Brooklyn: Rockaway Parkway - Farragut Road",
     "text": "1319-1341 Rockaway Pkwy., near the N.W. corner of Farragut Road. In the foreground, is the Rockaway trolley line. In the background, is a rear view of No. 934-954 East 98th Street.\n\nJuly 30, 1935.\n\nP. L. Sperr.\n",

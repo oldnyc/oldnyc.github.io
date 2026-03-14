@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 11,
+        "street": "West 81st Street"
+      },
+      "source": "11 West 81st Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464742-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464742-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e38b550-c612-012f-e36f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 11,
+        "street": "West 81st Street"
+      },
+      "source": "11 West 81st Street",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "417414",
     "image_url": "https://images.nypl.org/?id=417414&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc3dc180-c611-012f-bd14-58d385a7bc34",
     "text": null,
     "text_source": null,

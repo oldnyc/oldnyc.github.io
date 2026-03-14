@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 19th Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "711516f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711516f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/769faf20-c540-012f-52ea-58d385a7bc34",
     "original_title": "Manhattan: 19th Street - 1st Avenue",
     "text": "19th Street, south side, west from No. 352, just west of First Avenue. The row of four-story buildings in the foreground, Nos. 352-336, were built around 1860. The three six-story apartment houses in the centre went up about 1900. No. 242 East 19th Street, the 15-story apartment house on the S.W. corner of Second Avenue, was built between 1925 and 1928.\n\nJuly 7, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 19th Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711519f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711519f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "404-408 East 19th Street ; Christus Kirche."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77c12a10-c540-012f-e9bc-58d385a7bc34",
     "original_title": "Manhattan: 19th Street - 1st Avenue",
     "text": "East 19th Street, at, adjoining and east of the S.E. corner of First Ave. Shown at Nos. 404-408, is the Christus Kirche (Christ Church), German Lutheran, organized in 1898; the building being erected in 1869.\n\nJuly 7, 1928.\n\nP. L. Sperr.\n",
@@ -36,9 +81,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street (East)",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 19th Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711515f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711515f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "402-408 East 19th Street ; Christus Kirche."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7630a190-c540-012f-e979-58d385a7bc34",
     "original_title": "Manhattan: 19th Street (East) - 1st Avenue",
     "text": "402 and 404-8 East 19th Street, adjoining and east of the S.E. corner of First Ave., showing Christus Kirche (Christ Church), a German Lutheran organization in what was a German locality prior to the early 1900's.\n\nDecember 3, 1937.\n\nGeorge D. Chinn.\n",
@@ -53,9 +122,29 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 513,
+        "street": "E 19th Street"
+      },
+      "source": "19th Street (East) #513",
+      "technique": "title-address"
+    },
     "height": 410,
     "id": "1507811-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507811-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3fb9790-c5ce-012f-f050-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -69,9 +158,32 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 19th Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "711517f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711517f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/770885d0-c540-012f-58bb-58d385a7bc34",
     "original_title": "Manhattan: 19th Street - 1st Avenue",
     "text": "\"L\" demolition.  7-18-1942\n\nP.L. Sperr, photographer\n",
@@ -86,9 +198,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 19th Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "711518f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711518f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7754fea0-c540-012f-7784-58d385a7bc34",
     "original_title": "Manhattan: 19th Street - 1st Avenue",
     "text": "N. End 14 St. & 1 Ave. \"L\" Sta.\n6-13-42\nP.L. Sperr\n",

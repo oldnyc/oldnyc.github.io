@@ -2,9 +2,41 @@
   {
     "date": "1870",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Catherine Slip and South Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Hill",
+        "str2": "James Slip",
+        "technique": "gpt"
+      }
+    ],
     "height": 513,
     "id": "730335f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730335f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cherry Hill waterfront."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d1d36ad0-c55d-012f-161c-58d385a7bc34",
     "text": "(3).\n\nA general view northwest from the Brooklyn Bridge, and showing the Cherry Hill waterfront, between James Slip (left) and Market Slip (right, not shown). Just beyond, in the center of view is the Bowery and Chatham Square area. The North (Hudson) River, and the Jersey Shore line appear across the top of the view. This waterfront section comprises Piers (old) Nos. 31 (extreme left) to 36, and are occupied respectively by the Ferry to Long Island City (Pier 31, James Slip), Bridge Street Ferry (Pier 32), Philadelphia and New York S.S. Co., or the Clyde Line from Philadelphia (Piers 33 and 34), the Catherine Street Ferry to Brooklyn, (foot of Catherine Slip), Bridgeport Line S.S. (Pier 35), and the Central Vermont R.R. and S.S. Line (Pier 36). Distinctly shown at the rear of the Catherine Street Ferry, is the Catherine Market, with Van Dyke's Hotel (N.E. corner of South Street), and Brook's Bros., Clothiers (N.E. corner of Cherry Street), and the Lorillard House (N.W. corner of South Street), surrounding same.\n\nAbout 1870- 1875.\n\nBrown Brothers.\n\nPublished in the American on December 1908, and the New York Times of October 20, 1912.\n",
     "text_source": "gpt",
@@ -18,9 +50,36 @@
   {
     "date": "1924; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "718128f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718128f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Churches",
+          "Garages",
+          "Horse teams",
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e5ed2930-c54a-012f-9736-58d385a7bc34",
     "text": "(1)\nCatherine Slip, west side, north from South, to but not including Water Streets. Buildings on the left are Nos. 202 to 195 South Street and are on the north side, from Catherine Slip to Oliver Street; the corner building being No. 202. Adjoining this corner building is No. 24-22 Catherine Slip (the two 4-story buildings) occupied by the Catherine Mission. The building on the extreme right (No. 18 Catherine Slip) is the Italian Church and adjoins an empty lot directly at the S,W. corner of Water Street. September 24, 1927.\n\nP. L. Sperr.\n\n(2)\nA similar view slightly northward, showing a one story garage at the S.W. corner of Water Street. Shown on the right are buildings on Water Street, at and adjoining the N.W. corner of Catherine Slip. May 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -35,9 +94,36 @@
   {
     "date": "1924; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "718128f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718128f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Churches",
+          "Garages",
+          "Horse teams",
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e5ed2930-c54a-012f-9736-58d385a7bc34",
     "text": "(1)\nCatherine Slip, west side, north from South, to but not including Water Streets. Buildings on the left are Nos. 202 to 195 South Street and are on the north side, from Catherine Slip to Oliver Street; the corner building being No. 202. Adjoining this corner building is No. 24-22 Catherine Slip (the two 4-story buildings) occupied by the Catherine Mission. The building on the extreme right (No. 18 Catherine Slip) is the Italian Church and adjoins an empty lot directly at the S,W. corner of Water Street. September 24, 1927.\n\nP. L. Sperr.\n\n(2)\nA similar view slightly northward, showing a one story garage at the S.W. corner of Water Street. Shown on the right are buildings on Water Street, at and adjoining the N.W. corner of Catherine Slip. May 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -52,9 +138,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "718133f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718133f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e83801e0-c54a-012f-7ebf-58d385a7bc34",
     "text": "(1) Catherine Slip, east side, north from South, to, but not including Cherry Streets, showing (foreground), No. 27, at the N.E. corner of South Street. It is only remaining tenement on the block. Also shown, overpowering the little house, is the west wall of the Hearst Publications Building. September 7, 1927.\n\nP. L. Sperr.\n\n(2) A detail of the same, showing a more prominent view of No. 27. September 7, 1927.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -68,9 +178,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "718133f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718133f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e83801e0-c54a-012f-7ebf-58d385a7bc34",
     "text": "(1) Catherine Slip, east side, north from South, to, but not including Cherry Streets, showing (foreground), No. 27, at the N.E. corner of South Street. It is only remaining tenement on the block. Also shown, overpowering the little house, is the west wall of the Hearst Publications Building. September 7, 1927.\n\nP. L. Sperr.\n\n(2) A detail of the same, showing a more prominent view of No. 27. September 7, 1927.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -84,9 +218,38 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "723319f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723319f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Diners (Restaurants)",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21482130-c553-012f-ff0e-58d385a7bc34",
     "text": "210\nSouth Street, north side, east from and including Catherine Slip, showing (prominently) the New York American (Hearst Publications) Building, from Catherine to Market Slips. The little 4-story house shown clustered against the New York American Building, is No. 27 Catherine Slip, at the N.E. corner of South Street, and is the only remaining tenement on that entire block. A portion of the Manhattan Bridge is visible in the background.\nJune 22, 1933.\n\nP. L. Sperr.\n\nThe same, showing an exclusive view of the Hearst Publication Building, and its \"little neighbor\".\nMay 3, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -101,9 +264,38 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "723319f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723319f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Diners (Restaurants)",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21482130-c553-012f-ff0e-58d385a7bc34",
     "text": "210\nSouth Street, north side, east from and including Catherine Slip, showing (prominently) the New York American (Hearst Publications) Building, from Catherine to Market Slips. The little 4-story house shown clustered against the New York American Building, is No. 27 Catherine Slip, at the N.E. corner of South Street, and is the only remaining tenement on that entire block. A portion of the Manhattan Bridge is visible in the background.\nJune 22, 1933.\n\nP. L. Sperr.\n\nThe same, showing an exclusive view of the Hearst Publication Building, and its \"little neighbor\".\nMay 3, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -118,9 +310,40 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "723320f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723320f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Bridges",
+          "Monuments & memorials",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21b51670-c553-012f-c11c-58d385a7bc34",
     "text": "South Street, west from Catherine Slip to Roosevelt Street; at which point it makes a sharp turn southward. Also shown, is a portion of the Brooklyn Bridge. Across same (left to right), are the Farmer's Loan and Trust Co., No. 60 Wall Street Tower and the Bank of Manhattan Co.\n\nP. L. Sperr.\n\nThe same, from another angle. Also shown, is Catherine Slip, at the N.W. corner of South Street (used as an automobile parking space), and Nos. 20 and 18. In the background are visible (left), the Woolworth Building and (right), the tower of the Municipal Building.\n\nJune 22, 1933.\n\nP. L. Sperr.\n\nA portion of the same, showing only Nos. 199, 198 and 197 South Street (left). Also shown, is a more extensive view on Catherine Slip to Water Street.\n\nJune 22, 1933.\n\nP. L. Sperr.\n\nAccording to the New York Times of December 21, 1937, the clearance at the aforementioned corner will be improved with a one story structure, and used as a gasoline station.\n",
     "text_source": "gpt",
@@ -134,9 +357,40 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "723320f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723320f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Bridges",
+          "Monuments & memorials",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21b51670-c553-012f-c11c-58d385a7bc34",
     "text": "South Street, west from Catherine Slip to Roosevelt Street; at which point it makes a sharp turn southward. Also shown, is a portion of the Brooklyn Bridge. Across same (left to right), are the Farmer's Loan and Trust Co., No. 60 Wall Street Tower and the Bank of Manhattan Co.\n\nP. L. Sperr.\n\nThe same, from another angle. Also shown, is Catherine Slip, at the N.W. corner of South Street (used as an automobile parking space), and Nos. 20 and 18. In the background are visible (left), the Woolworth Building and (right), the tower of the Municipal Building.\n\nJune 22, 1933.\n\nP. L. Sperr.\n\nA portion of the same, showing only Nos. 199, 198 and 197 South Street (left). Also shown, is a more extensive view on Catherine Slip to Water Street.\n\nJune 22, 1933.\n\nP. L. Sperr.\n\nAccording to the New York Times of December 21, 1937, the clearance at the aforementioned corner will be improved with a one story structure, and used as a gasoline station.\n",
     "text_source": "gpt",
@@ -150,9 +404,40 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "723320f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723320f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Bridges",
+          "Monuments & memorials",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21b51670-c553-012f-c11c-58d385a7bc34",
     "text": "South Street, west from Catherine Slip to Roosevelt Street; at which point it makes a sharp turn southward. Also shown, is a portion of the Brooklyn Bridge. Across same (left to right), are the Farmer's Loan and Trust Co., No. 60 Wall Street Tower and the Bank of Manhattan Co.\n\nP. L. Sperr.\n\nThe same, from another angle. Also shown, is Catherine Slip, at the N.W. corner of South Street (used as an automobile parking space), and Nos. 20 and 18. In the background are visible (left), the Woolworth Building and (right), the tower of the Municipal Building.\n\nJune 22, 1933.\n\nP. L. Sperr.\n\nA portion of the same, showing only Nos. 199, 198 and 197 South Street (left). Also shown, is a more extensive view on Catherine Slip to Water Street.\n\nJune 22, 1933.\n\nP. L. Sperr.\n\nAccording to the New York Times of December 21, 1937, the clearance at the aforementioned corner will be improved with a one story structure, and used as a gasoline station.\n",
     "text_source": "gpt",
@@ -169,9 +454,27 @@
     "dates_from_text": [
       "1934-03-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "718125f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718125f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e49604b0-c54a-012f-2a83-58d385a7bc34",
     "text": "Catherine Slip, north from but not including South Street.\nMarch 19, 1934\nP. L. Sperr, photographer\n",
     "text_source": "gpt",
@@ -185,9 +488,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "718126f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718126f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Cobblestone streets",
+          "Diners (Restaurants)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e50261b0-c54a-012f-2fe2-58d385a7bc34",
     "text": "(1) Catherine Slip, north from but not including South Street. March 19, 1934.\n\nP. L. Sperr.\n\n(2) The same, north from but not including Water Street, showing frame work for a new building. April 25, 1934.\n\nP.L. Sperr.\n\n(3) The same, as No. 1, but from a different angle. December 24, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -201,9 +527,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "718126f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718126f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Cobblestone streets",
+          "Diners (Restaurants)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e50261b0-c54a-012f-2fe2-58d385a7bc34",
     "text": "(1) Catherine Slip, north from but not including South Street. March 19, 1934.\n\nP. L. Sperr.\n\n(2) The same, north from but not including Water Street, showing frame work for a new building. April 25, 1934.\n\nP.L. Sperr.\n\n(3) The same, as No. 1, but from a different angle. December 24, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -217,9 +566,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "718126f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718126f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Cobblestone streets",
+          "Diners (Restaurants)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e50261b0-c54a-012f-2fe2-58d385a7bc34",
     "text": "(1) Catherine Slip, north from but not including South Street. March 19, 1934.\n\nP. L. Sperr.\n\n(2) The same, north from but not including Water Street, showing frame work for a new building. April 25, 1934.\n\nP.L. Sperr.\n\n(3) The same, as No. 1, but from a different angle. December 24, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -233,9 +605,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "718129f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718129f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e66dc830-c54a-012f-e0fc-58d385a7bc34",
     "text": "(1) Catherine Slip, east side, north from but not including South Street, to but not including Water Street.\n\nMarch 19, 1934.\n\nP. L. Sperr.\n\n(2) The same, another view.\n\nMarch 19, 1934.\n\nP. L. Sperr.\n\n(3) The same, a more extensive view and showing Catherine Slip, north to and including Cherry Street, with the east side of Catherine Street (an extension), further northward. Large building shown is Knickerbocker Village.\n\nOctober 14, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -249,9 +643,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "718129f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718129f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e66dc830-c54a-012f-e0fc-58d385a7bc34",
     "text": "(1) Catherine Slip, east side, north from but not including South Street, to but not including Water Street.\n\nMarch 19, 1934.\n\nP. L. Sperr.\n\n(2) The same, another view.\n\nMarch 19, 1934.\n\nP. L. Sperr.\n\n(3) The same, a more extensive view and showing Catherine Slip, north to and including Cherry Street, with the east side of Catherine Street (an extension), further northward. Large building shown is Knickerbocker Village.\n\nOctober 14, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -265,9 +681,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "718129f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718129f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e66dc830-c54a-012f-e0fc-58d385a7bc34",
     "text": "(1) Catherine Slip, east side, north from but not including South Street, to but not including Water Street.\n\nMarch 19, 1934.\n\nP. L. Sperr.\n\n(2) The same, another view.\n\nMarch 19, 1934.\n\nP. L. Sperr.\n\n(3) The same, a more extensive view and showing Catherine Slip, north to and including Cherry Street, with the east side of Catherine Street (an extension), further northward. Large building shown is Knickerbocker Village.\n\nOctober 14, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -281,9 +719,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723321f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723321f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Junk",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2238e1e0-c553-012f-012c-58d385a7bc34",
     "text": "199 South Street, north side, west of Catherine Slip.\n\nApril 25, 1934.\n\nP. L. Sperr.\n\nAccording to the New York Sun of September 12, 1938, this structure is to be demolished by the New York City Housing Authority.\n\nASSUMING STREET TO BE EAST AND WEST\n",
     "text_source": "gpt",
@@ -297,9 +759,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Catherine Slip",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723321f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723321f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Junk",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2238e1e0-c553-012f-012c-58d385a7bc34",
     "text": "199 South Street, north side, west of Catherine Slip.\n\nApril 25, 1934.\n\nP. L. Sperr.\n\nAccording to the New York Sun of September 12, 1938, this structure is to be demolished by the New York City Housing Authority.\n\nASSUMING STREET TO BE EAST AND WEST\n",
     "text_source": "gpt",
@@ -313,9 +799,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "718127f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718127f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e581bc80-c54a-012f-c346-58d385a7bc34",
     "text": "(1) and (2)\nCatherine Slip. 200 to 202 northwest corner South Street, parking place.\n\nP.L.Speer.\nOctober 8, 1938\n\n(2) NEG. 4544\n",
     "text_source": "gpt",
@@ -329,9 +837,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "718127f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718127f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e581bc80-c54a-012f-c346-58d385a7bc34",
     "text": "(1) and (2)\nCatherine Slip. 200 to 202 northwest corner South Street, parking place.\n\nP.L.Speer.\nOctober 8, 1938\n\n(2) NEG. 4544\n",
     "text_source": "gpt",
@@ -345,9 +875,29 @@
   {
     "date": "1941-09-26",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Slip",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Catherine Slip - South Street",
+      "technique": "title-cross"
+    },
     "height": 493,
     "id": "1509197-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509197-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbf18180-c5cd-012f-ab88-58d385a7bc34",
     "text": null,
     "text_source": null,

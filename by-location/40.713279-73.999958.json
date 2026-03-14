@@ -2,9 +2,37 @@
   {
     "date": "1954-11-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 168,
+        "street": "Park Row"
+      },
+      "source": "168 Park Row",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Baxter Street",
+        "str2": "Park Row",
+        "technique": "gpt"
+      }
+    ],
     "height": 388,
     "id": "1508185",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508185.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5517efa0-c5ce-012f-539d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +46,29 @@
   {
     "date": "1954-11-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 181,
+        "street": "Park Row"
+      },
+      "source": "181 Park Row",
+      "technique": "gpt"
+    },
     "height": 424,
     "id": "1508187-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508187-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5563e390-c5ce-012f-8c03-58d385a7bc34",
     "text": null,
     "text_source": null,

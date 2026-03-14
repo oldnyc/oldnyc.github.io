@@ -2,9 +2,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coles Street",
+        "str2": "Henry Street"
+      },
+      "source": "Brooklyn: Henry Street - Coles Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704851f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704851f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Lutheran churches",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/decbe490-c535-012f-2220-58d385a7bc34",
     "original_title": "Brooklyn: Henry Street - Coles Street",
     "text": "608-642 Henry Street, west side, between Coles and Rapelyea Streets. A view of the Norwegian Lutheran Church, and to the right P.S. No. 142. No. 608, partly visible at the extreme right, is north of Rapelyea Street.\n\nAbout 1928.\n\nEugene L. Armbruster Collection.\n",

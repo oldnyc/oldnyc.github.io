@@ -2,9 +2,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Classon Avenue",
+        "str2": "Union Street"
+      },
+      "source": "Brooklyn: Classon Avenue - Union Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "703625f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703625f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Vocational education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edb16e90-c533-012f-4622-58d385a7bc34",
     "original_title": "Brooklyn: Classon Avenue - Union Street",
     "text": "Classon Avenue, east side, from Union to President Streets, showing the Girl's Commercial High School.\n\nBoard of Education of the City of New York October 15, 1929\n",

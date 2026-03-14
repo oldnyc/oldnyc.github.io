@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "168th Street",
+        "str2": "Broadway"
+      },
+      "source": "168th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 466,
     "id": "417654",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417654.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a78efb0-c6cd-012f-d02e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 168th Street.",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "717767f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717767f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Columbia Presbyterian Medical Center ; Presbyterian Hospital."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Columbia-Presbyterian Medical Center"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/571cfc20-c54a-012f-aabf-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 168th Street.",
     "text": "FEDERAL ART PROJECT \"Changing New York\" Photographs by Berenice Abbott Title: Columbia Presbyterian Medical Center Place: 168th St. and Broadway, Manhattan Angle: from 165th St. and Riverside Drive\nCode: II D-4 and IA-3\nDate: November 16, 1937\n",
@@ -35,9 +84,39 @@
   {
     "date": "1952-08-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558384",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558384.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior - scrub-up sink off operating room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals",
+          "Interiors",
+          "Sinks (Plumbing fixtures)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ecacbf0-c5ed-012f-04bc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +130,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "1558376",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558376.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital main entrance"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ba37ab0-c5ed-012f-3fb7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -67,9 +174,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558377",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558377.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital - Babies Hospital"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c0c3550-c5ed-012f-3379-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -83,9 +218,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "1558378",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558378.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c6e0d50-c5ed-012f-a6d3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -99,9 +263,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "1558379",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558379.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0cc95cd0-c5ed-012f-1177-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -115,9 +308,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "1558380",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558380.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Cribs (Children's beds)",
+          "Historic buildings",
+          "Hospitals",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d309b10-c5ed-012f-97e7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -131,9 +354,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "1558381",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558381.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior emergency operating room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals",
+          "Operating rooms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d95a540-c5ed-012f-f21e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -147,9 +399,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "1558382",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558382.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e01ddd0-c5ed-012f-84c8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -163,9 +444,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "1558383",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558383.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e6ca640-c5ed-012f-0abd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -179,9 +488,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "1558385",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558385.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital School of Nursing"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f2aa260-c5ed-012f-3da5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -195,9 +531,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "1558386",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558386.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital School of Nursing"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f8afd90-c5ed-012f-f52f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -211,9 +574,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 168th Street"
+      },
+      "source": "Manhattan: West 168th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 514,
     "id": "1558387",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558387.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Presbyterian Hospital School of Nursing"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fea5db0-c5ed-012f-4193-58d385a7bc34",
     "text": null,
     "text_source": null,

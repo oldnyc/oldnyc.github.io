@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1905"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Hylan Boulevard",
+        "str2": "Justin Avenue"
+      },
+      "source": "Hylan Boulevard and Justin Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Hylan Boulevard",
+        "str2": "Kelvin Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Hylan Boulevard",
+        "str2": "Kelvin Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 433,
     "id": "728996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3b7c170-c55b-012f-4372-58d385a7bc34",
     "original_title": "Richmond: Hylan Boulevard - Kelvin Avenue",
     "text": "Hylan Boulevard, east side, between Kelvin and Justin Aves., showing the Abram Cole House.\n\nAbout 1905\n\nBy Eugene G. Putnam\nCourtesy of Staten Island Museum through P. L. Sperr\n",

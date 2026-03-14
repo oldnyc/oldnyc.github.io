@@ -2,9 +2,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "111th Street (East)",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 111th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715039f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715039f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/268f5540-c546-012f-7cbd-58d385a7bc34",
     "original_title": "Manhattan: 111th Street (East) - 2nd Avenue",
     "text": "240-236 East 111th Street, south side, west of Second Avenue. No. 236 is the Thirty-second Street Ambrose Italian Mission.\n\nSummer 1928.\n\nP.L. Sperr.\n",
@@ -19,9 +42,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "111th Street (East)",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 111th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "715040f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715040f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/26f519b0-c546-012f-f1ce-58d385a7bc34",
     "original_title": "Manhattan: 111th Street (East) - 2nd Avenue",
     "text": "East 111th Street and 2nd Avenue El at down-town station looking southwards.\nP.L. Sperr\nJune 7, 1940.\n",

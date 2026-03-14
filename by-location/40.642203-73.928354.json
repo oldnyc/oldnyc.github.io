@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "51st Street (East)",
+        "str2": "Avenue D"
+      },
+      "source": "Brooklyn: 51st Street (East) - Avenue D",
+      "technique": "title-cross"
+    },
     "height": 358,
     "id": "702768f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702768f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2790740-c532-012f-6dac-58d385a7bc34",
     "original_title": "Brooklyn: 51st Street (East) - Avenue D",
     "text": "East 51st Street, east side, south from Ave. D.\nAugust 12, 1929.\n",

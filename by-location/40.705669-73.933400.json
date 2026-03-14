@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bogart Street",
+        "str2": "Seigel Street"
+      },
+      "source": "Brooklyn: Seigel Street - Bogart Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "706698f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706698f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children playing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b365d8f0-c538-012f-f419-58d385a7bc34",
     "original_title": "Brooklyn: Seigel Street - Bogart Street",
     "text": "Seigel Street, at the S.W. corner of Bogart Street.\nJuly 5, 1935.\n\nP. L. Sperr.\n",

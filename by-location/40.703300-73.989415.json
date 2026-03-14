@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1932-03-11"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 35,
+        "street": "Washington Place"
+      },
+      "source": "35 Washington Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Washington Ave.",
+        "str2": "Washington Pl.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Washington Ave.",
+        "str2": "Washington Pl.",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "707289f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707289f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98716590-c539-012f-a24d-58d385a7bc34",
     "original_title": "Brooklyn: Washington Pl. - Washington Ave.",
     "text": "35 Washington Place, north side, between Washington and Franklin Aves.\nMarch 11, 1932.\nP. L. Sperr.\n",

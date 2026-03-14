@@ -2,9 +2,35 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Magenta Street",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: Magenta Street - White Plains Road",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "701421f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701421f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cliffs",
+          "Construction",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5de63a0-c530-012f-9d9d-58d385a7bc34",
     "original_title": "Bronx: Magenta Street - White Plains Road",
     "text": "Magenta Street, north side, east from White Plains Road.\n\nJune 16, 1938.\n\nP. L. Sperr\n",

@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "96th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709197f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709197f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3171e40-c53c-012f-9272-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 96th Street",
     "text": "Fifth Ave., east side, from and including 96th to but not including 97th Streets. About 1930.\n\nCollins.\n",

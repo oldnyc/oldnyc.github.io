@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Sullivan Place"
+      },
+      "source": "Brooklyn: Bedford Avenue - Sullivan Place",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "703167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c1a3570-c533-012f-469e-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Sullivan Place",
     "text": "Bedford Ave., north side, at Sullivan Place, showing the Grandstand of \"Ebbets Field\".\n\nJune 1929.\n\nEugene L. Armbuster Collection.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Sullivan Place"
+      },
+      "source": "Brooklyn: Sullivan Place - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "706924f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706924f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Stadiums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/08c97850-c539-012f-b418-58d385a7bc34",
     "original_title": "Brooklyn: Sullivan Place - Bedford Avenue",
     "text": "Sullivan Place, west from Bedford Ave. A view of Ebbets Field, the baseball grounds of the Brooklyn Dodgers. Pine Place once ran through the center of the grounds. The Clove Road or \"old Road to Bedford\" ran the whole width of the south side of the grounds.\n\nJune 1929.\n\nEugene L. Armbruster Collection.\n",

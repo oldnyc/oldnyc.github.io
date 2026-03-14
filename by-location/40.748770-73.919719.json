@@ -2,9 +2,44 @@
   {
     "date": "1910; 1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 12,
+        "street": "Locust Street"
+      },
+      "source": "12 Locust Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "Lawrence Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "Lawrence Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 382,
     "id": "725288f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725288f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2db12df0-c556-012f-64a9-58d385a7bc34",
     "original_title": "Queens: 39th Avenue - Lawrence Street",
     "text": "39th Avenue, adjoining the N.E. corner of Lawrence Street, showing two homes built by Walter Bogert in 1906. The houses formerly bore Nos. 12 (left) and 18 Locust Street. View 2 shows the rears of the homes, No. 12 being on the right.\n\nWalter L. Bogert\n\nView 1: May 19, 1910\nView 2: August 18, 1915\n",
@@ -20,9 +55,44 @@
   {
     "date": "1910; 1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 12,
+        "street": "Locust Street"
+      },
+      "source": "12 Locust Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "Lawrence Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "Lawrence Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 387,
     "id": "725288f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725288f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2db12df0-c556-012f-64a9-58d385a7bc34",
     "original_title": "Queens: 39th Avenue - Lawrence Street",
     "text": "39th Avenue, adjoining the N.E. corner of Lawrence Street, showing two homes built by Walter Bogert in 1906. The houses formerly bore Nos. 12 (left) and 18 Locust Street. View 2 shows the rears of the homes, No. 12 being on the right.\n\nWalter L. Bogert\n\nView 1: May 19, 1910\nView 2: August 18, 1915\n",

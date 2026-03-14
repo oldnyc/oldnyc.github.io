@@ -2,9 +2,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Street",
+        "str2": "Luquer Street"
+      },
+      "source": "Brooklyn: Luquer Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "705522f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705522f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ecf19ff0-c536-012f-0bb6-58d385a7bc34",
     "original_title": "Brooklyn: Luquer Street - Clinton Street",
     "text": "Luquer Street,south side, east from and including Clinton Street. A view of Harimeskirkko Sudmans Kirkham (a Finnish Church). In the background, is a view of the steeple of St. Mary's R.C. Church.\nJuly 4, 1939.\nP. L. Sperr.\n",

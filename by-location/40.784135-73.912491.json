@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "20th Avenue",
+        "str2": "21st Street"
+      },
+      "source": "Queens: 20th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725084f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725084f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e5cbfb30-c555-012f-d770-58d385a7bc34",
     "original_title": "Queens: 20th Avenue - 21st Street",
     "text": "20th Avenue, north side, at 21st Street, showing some of the buildings of the Astoria Light and Power Company (1928 map) and old houses on the former extensive Woolsey property at Lawrence Point, on the East River.\n\nP. L. Sperr\n\nMarch 23, 1932\n",

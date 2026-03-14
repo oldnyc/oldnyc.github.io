@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1869"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "111th Street",
+        "str2": "91st Avenue"
+      },
+      "source": "Queens: 111th Street - 91st Avenue",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "725799f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725799f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d538fb50-c556-012f-777a-58d385a7bc34",
     "original_title": "Queens: 111th Street - 91st Avenue",
     "text": "111th Street, east side, 300 feet north of 91st Avenue, showing the home which was occupied by the Steel family. The A. Steel estate owned it in 1891 and it was built by Eldridge about 1869.",

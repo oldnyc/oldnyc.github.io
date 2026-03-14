@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Olinville Avenue",
+        "str2": "Thwaites Place"
+      },
+      "source": "Bronx: Thwaites Place - Olinville Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701886f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701886f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f63f890-c531-012f-23aa-58d385a7bc34",
     "original_title": "Bronx: Thwaites Place - Olinville Avenue",
     "text": "Thwaites Place, west from Olinville Avenue.\n\nApril 3, 1938.\n\nP. L. Sperr.\n",

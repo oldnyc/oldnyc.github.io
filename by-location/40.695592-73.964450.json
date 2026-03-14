@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-04-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Grand Avenue",
+        "str2": "Park Avenue"
+      },
+      "source": "Brooklyn: Park Avenue - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "706206f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706206f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5b9d430-c537-012f-2c2c-58d385a7bc34",
     "original_title": "Brooklyn: Park Avenue - Grand Avenue",
     "text": "Park Avenue, east from Grand Avenue.\nP. L. Sperr\nApril 12, 1941\n",

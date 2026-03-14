@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-06-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "30th Drive",
+        "str2": "Crescent Street"
+      },
+      "source": "Queens: 30th Drive - Crescent Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725188f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725188f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0be44e40-c556-012f-11b5-58d385a7bc34",
     "original_title": "Queens: 30th Drive - Crescent Street",
     "text": "30th Drive, adjoining the N.E. corner of Crescent Street, showing the Chapel of St. Athanasius, Greek Archdiocese of North and South America.\n\nP. L. Sperr\nJune 7, 1927\n",

@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Neptune Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Ocean Parkway - Neptune Avenue",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "706116f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706116f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d31b7700-c537-012f-3af1-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Parkway - Neptune Avenue",
     "text": "2901 Ocean Parkway, at the S.E. corner of Neptune Ave., showing \"Sador Court\", containing 60 apartments.\n\nAbout 1928.\n",
@@ -19,9 +40,29 @@
   {
     "date": "1941-09-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Neptune Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Neptune Avenue and Ocean Parkway",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "485847",
     "image_url": "https://images.nypl.org/?id=485847&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7bf73080-c60e-012f-9749-58d385a7bc34",
     "text": null,
     "text_source": null,

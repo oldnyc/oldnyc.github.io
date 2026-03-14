@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "75th Street (East)"
+      },
+      "source": "Manhattan: 75th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714446f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714446f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/406e72c0-c545-012f-aca8-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (East) - 3rd Avenue",
     "text": "175-181 East 75th Street, adjoining and west of the N.W. corner of Third Avenue.\n\nOctober 11, 1927.\n\nP. L. Sperr.\n",

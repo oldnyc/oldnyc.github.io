@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cambreleng Avenue",
+        "str2": "Fordham Road (East)"
+      },
+      "source": "Bronx: Cambreleng Avenue - Fordham Road (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700699f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700699f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a16c1bb0-c52f-012f-cfb5-58d385a7bc34",
     "original_title": "Bronx: Cambreleng Avenue - Fordham Road (East)",
     "text": "Cambreleng Avenue, at the N.E. corner of E. Fordham Road.\n\nMay 12, 1938.\n\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cambreleng Avenue",
+        "str2": "Fordham Road (East)"
+      },
+      "source": "Bronx: Cambreleng Avenue - Fordham Road (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a1c60ad0-c52f-012f-57ec-58d385a7bc34",
     "original_title": "Bronx: Cambreleng Avenue - Fordham Road (East)",
     "text": "Cambreleng Avenue, north from E. Fordham Road to its terminus. At the end of the Avenue appears Fordham Hospital.\n\nMay 12, 1938.\n\nP. L. Sperr.\n",

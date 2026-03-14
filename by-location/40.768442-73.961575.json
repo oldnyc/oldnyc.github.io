@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "70th Street (East)"
+      },
+      "source": "Manhattan: 70th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714285f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714285f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/008cda20-c545-012f-b406-58d385a7bc34",
     "original_title": "Manhattan: 70th Street (East) - 3rd Avenue",
     "text": "174-176 East 70th Street, south side, west of Third Avenue.\nAbout 1912.\n",
@@ -22,9 +40,38 @@
   {
     "date": "1939-05-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 70th Street (Lexington Avenue",
+        "str2": "Third Avenue)"
+      },
+      "source": "Manhattan: 164 East 70th Street (Lexington Avenue - Third Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558300",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558300.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Interior of maid's room."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Servants' quarters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed592640-c5ec-012f-7eb9-58d385a7bc34",
     "text": null,
     "text_source": null,

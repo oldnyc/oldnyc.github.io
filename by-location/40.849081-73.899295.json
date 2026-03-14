@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 417,
+        "street": "East 178th Street"
+      },
+      "source": "417 East 178th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "178th Street (East)",
+        "str2": "Fort Washington Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "178th Street",
+        "str2": "Fort Washington Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700249f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700249f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/002bb2d0-c52f-012f-2f03-58d385a7bc34",
     "original_title": "Bronx: 178th Street (East) - Fort Washington Avenue",
     "text": "E. 178th St., No. 417\nP. L. Sperr\n8-31-1942\n",

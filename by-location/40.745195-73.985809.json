@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1,
+        "street": "E 29th Street"
+      },
+      "source": "29th Street (East) #1",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507839",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507839.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Church of Transfiguration"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8cf6500-c5ce-012f-cb0f-58d385a7bc34",
     "text": null,
     "text_source": null,

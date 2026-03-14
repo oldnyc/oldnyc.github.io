@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Foch Boulevard",
+        "str2": "Sutphin Boulevard"
+      },
+      "source": "Queens: Sutphin Boulevard - Foch Boulevard",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "728068f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728068f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2daa7e00-c55a-012f-4a87-58d385a7bc34",
     "original_title": "Queens: Sutphin Boulevard - Foch Boulevard",
     "text": "Sutphin Boulevard, east side, between Foch Boulevard, and One Hundred Eighteenth Ave., showing the John W. Selover house of 1913. Other owners were Thomas Barron, 1860-1873; J. Selover, 1891; and one Connover in 1896.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

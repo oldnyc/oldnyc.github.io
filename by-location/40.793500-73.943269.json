@@ -2,9 +2,36 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 109th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708143f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708143f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Jewelry stores",
+          "Music education",
+          "Real estate office buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0209c5a0-c53b-012f-7d2e-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 109th Street",
     "text": "1984-1986-1988 Third Avenue at N.W. corner of 109th Street. About 1912.",

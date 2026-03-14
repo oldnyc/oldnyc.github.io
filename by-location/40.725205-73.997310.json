@@ -2,9 +2,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 597,
+        "street": "Broadway"
+      },
+      "source": "597 Broadway",
+      "technique": "gpt"
+    },
     "height": 228,
     "id": "1627926",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627926.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50879d80-c6d2-012f-2a87-58d385a7bc34",
     "text": null,
     "text_source": null,

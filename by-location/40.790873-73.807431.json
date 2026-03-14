@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-03-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "12th Road",
+        "str2": "West 154th Street"
+      },
+      "source": "Queens: 12th Road - West 154th Street.",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "725015f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725015f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc332420-c555-012f-0b62-58d385a7bc34",
     "original_title": "Queens: 12th Road - West 154th Street.",
     "text": "12th Road, west from 154th Street, across the railroad crossing of the Whitestone branch of the Long Island Railroad. 12th Road, here, was formerly 29th Street.\nP. L. Sperr  March 5, 1932\n",

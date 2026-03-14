@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "36th Road",
+        "str2": "Bud Place"
+      },
+      "source": "Queens: 36th Road - Bud Place",
+      "technique": "title-cross"
+    },
     "height": 459,
     "id": "725244f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725244f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ecd8510-c556-012f-93dc-58d385a7bc34",
     "original_title": "Queens: 36th Road - Bud Place",
     "text": "36th Rd., south side, opposite Bud Pl., showing John Bary's or Berry's woodwork shop.\n\nApril 1925.\n\nEugene L. Armbruster Collection\n",

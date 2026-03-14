@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-06-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Quincy Avenue",
+        "str2": "Seaview Avenue"
+      },
+      "source": "Richmond: Quincy Avenue - Seaview Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729292f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729292f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18d9eb90-c55c-012f-b875-58d385a7bc34",
     "original_title": "Richmond: Quincy Avenue - Seaview Avenue",
     "text": "Quincy Avenue, north side, at Seaview Avenue, near New Creek.\n\nJune 2, 1935\n\nP. L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Quincy Avenue",
+        "str2": "Seaview Avenue"
+      },
+      "source": "Richmond: Seaview Avenue - Quincy Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "729633f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729633f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e9d1b70-c55c-012f-48df-58d385a7bc34",
     "original_title": "Richmond: Seaview Avenue - Quincy Avenue",
     "text": "Seaview Avenue, north from Quincy Avenue, showing the thoroughfare under construction. Note the steel beams (near detour sign) for the erection of the bridge over New Creek.\n\nJune 2, 1935\n\nP. L. Sperr\n",

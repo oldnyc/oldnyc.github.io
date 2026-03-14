@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "88th Avenue",
+        "str2": "Sutphin Boulevard"
+      },
+      "source": "Queens: Sutphin Boulevard - 88th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/299e1930-c55a-012f-fde4-58d385a7bc34",
     "original_title": "Queens: Sutphin Boulevard - 88th Avenue",
     "text": "88-11 Sutphin Boulevard, east side, from 89th to 88 Avenues, viewing north and showing the Queens County Supreme Court Building under construction.\n\nP. L. Sperr\n\nMarch 12, 1938\n",

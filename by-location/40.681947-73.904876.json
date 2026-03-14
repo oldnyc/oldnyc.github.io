@@ -2,9 +2,44 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Ave",
+        "str2": "De Sales Place"
+      },
+      "source": "Bushwick Ave and De Sales Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Broadway Avenue",
+        "str2": "De Sales Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Broadway Avenue",
+        "str2": "De Sales Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 464,
     "id": "704013f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704013f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b844840-c534-012f-cd3a-58d385a7bc34",
     "original_title": "Brooklyn: De Sales Place - Broadway Avenue",
     "text": "De Sales Place, west side, between Broadway and Bushwick Ave., showing Our Lady of Lourdes R.C. Church.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

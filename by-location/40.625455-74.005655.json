@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-12-10"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Avenue",
+        "str2": "68th Street"
+      },
+      "source": "Brooklyn: 68th Street - 12th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702824f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702824f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7902c20-c532-012f-13e3-58d385a7bc34",
     "original_title": "Brooklyn: 68th Street - 12th Avenue",
     "text": "1209-68th Street, north side, east of Twelfth Avenue, showing the home of Wm. F. Davis in 1925.\n\nDecember 10, 1925.\n\nW. B. Vernam\n",
@@ -22,9 +40,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Avenue",
+        "str2": "68th Street"
+      },
+      "source": "Brooklyn: 68th Street - 12th Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "702825f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702825f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7dfe800-c532-012f-bae6-58d385a7bc34",
     "original_title": "Brooklyn: 68th Street - 12th Avenue",
     "text": "68th Street, at the southeast corner of 12th Avenue. Shown is Public School No. 176, the part on the right being a new\naddition on 69th Street.\n\nBoard of Education of the City of New York June 22, 1931\n",

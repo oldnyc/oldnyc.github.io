@@ -2,9 +2,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "235th Street (West)",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: 235th Street (West) - Webster Avenue",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "700362f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700362f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28262000-c52f-012f-f49d-58d385a7bc34",
     "original_title": "Bronx: 235th Street (West) - Webster Avenue",
     "text": "W. 235th Street, west from Webster Avenue, showing the thoroughfare as it appears after it had been repaved by the Works Progress Administration.\n\nDecember 1, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

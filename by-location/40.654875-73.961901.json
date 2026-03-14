@@ -2,9 +2,33 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ocean Avenue",
+        "str2": "Parkside Avenue"
+      },
+      "source": "Brooklyn: Ocean Avenue - Parkside Avenue",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "706096f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706096f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hotels",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cbf0acc0-c537-012f-8fef-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Avenue - Parkside Avenue",
     "text": "Ocean Ave., east side, between Parkside and Woodruff Aves. A view of the station on the Brooklyn and Brighton Beach R.R., and the adjacent Melrose Hotel.\nAbout 1900.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1928-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ocean Avenue",
+        "str2": "Parkside Avenue"
+      },
+      "source": "Brooklyn: Parkside Avenue - Ocean Avenue",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "706222f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706222f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc09eb80-c537-012f-0863-58d385a7bc34",
     "original_title": "Brooklyn: Parkside Avenue - Ocean Avenue",
     "text": "Parkside Ave., north side, east from Ocean to Flatbush Aves.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",

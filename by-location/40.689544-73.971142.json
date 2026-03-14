@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Adelphi Street",
+        "str2": "DeKalb Avenue"
+      },
+      "source": "Brooklyn: Adelphi Street - DeKalb Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702956f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702956f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ebef0ad0-c532-012f-6824-58d385a7bc34",
     "original_title": "Brooklyn: Adelphi Street - DeKalb Avenue",
     "text": "Brooklyn\nAdelphi St. s. across DeKalb Ave.\n7-8-42\nP.L. Sperr\n",

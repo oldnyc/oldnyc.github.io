@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "113th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "113th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 519,
     "id": "1238850-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1238850-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7dc29160-c612-012f-3ddd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "113th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "113th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 510,
     "id": "1238850-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1238850-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7dc29160-c612-012f-3ddd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "113th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "113th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 516,
     "id": "1238850-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1238850-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7dc29160-c612-012f-3ddd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +113,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "113th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "113th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 489,
     "id": "1238850-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1238850-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7dc29160-c612-012f-3ddd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +150,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 1858,
+        "street": "Seventh Avenue"
+      },
+      "source": "1858 Seventh Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "1858-1860",
+        "str2": "Seventh Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "465656-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465656-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64498600-c612-012f-6db8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -82,9 +195,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 1858,
+        "street": "Seventh Avenue"
+      },
+      "source": "1858 Seventh Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "1858-1860",
+        "str2": "Seventh Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "465656-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465656-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64498600-c612-012f-6db8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -98,9 +240,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 1858,
+        "street": "Seventh Avenue"
+      },
+      "source": "1858 Seventh Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "1858-1860",
+        "str2": "Seventh Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "465656-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465656-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64498600-c612-012f-6db8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -117,9 +288,27 @@
     "dates_from_text": [
       "1914"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 113th Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30b3b770-c546-012f-6c56-58d385a7bc34",
     "original_title": "Manhattan: 113th Street (West) - 7th Avenue",
     "text": "225-221 West 113th Street, north side, west of Seventh Avenue.\nAbout 1914.\nJames Suydam.\n",

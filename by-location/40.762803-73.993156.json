@@ -2,9 +2,32 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "47th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 494,
     "id": "710572f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710572f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Clothing stores",
+          "Discount houses (Retail trade)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2f8bd50-c53e-012f-9de5-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 47th Street",
     "text": "Tenth Avenue at N. W. corner of 47th Street. About 1920.",
@@ -19,9 +42,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "47th Street (East)"
+      },
+      "source": "Manhattan: 47th Street (East) - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713306f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713306f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77bccd60-c543-012f-4ca5-58d385a7bc34",
     "original_title": "Manhattan: 47th Street (East) - 10th Avenue",
     "text": "535-533 West 47th Street, north side, between Tenth and Eleventh Avenues.\nApril 14, 1931.\n\nP. L. Sperr.\n",

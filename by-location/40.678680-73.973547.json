@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Prospect Place"
+      },
+      "source": "Brooklyn: Prospect Place - Flatbush Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706394f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706394f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4033c770-c538-012f-9b8c-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Place - Flatbush Avenue",
     "text": "Prospect Place and Flatbush Avenue, S.E. corner. Brooklyn. July 22, 1942.",

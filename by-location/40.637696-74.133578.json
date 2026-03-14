@@ -2,9 +2,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Grove Avenue",
+        "str2": "Richmond Avenue"
+      },
+      "source": "Richmond: Grove Avenue - Richmond Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "728890f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728890f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bayonne Bridge (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79637220-c55b-012f-fdb2-58d385a7bc34",
     "original_title": "Richmond: Grove Avenue - Richmond Avenue",
     "text": "Grove Avenue, north side, west from but not including Richmond Avenue. Across the background is visible the Bayonne Bridge.\n\nSeptember 6, 1936.\n\nP.L. Sperr\n",
@@ -19,9 +42,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Avenue",
+        "str2": "Vreeland Street"
+      },
+      "source": "Richmond: Richmond Avenue - Vreeland Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "729355f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729355f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Electric apparatus and appliances",
+          "Millinery",
+          "Radios",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30dc3ec0-c55c-012f-ac1d-58d385a7bc34",
     "original_title": "Richmond: Richmond Avenue - Vreeland Street",
     "text": "Richmond Avenue,, at, and adjoining the N. E. corner of Vreeland Street.\n\nJuly 6, 1936\n\nP. L. Sperr\n",

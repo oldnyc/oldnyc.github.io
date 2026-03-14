@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "79th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens: 79th Street - Roosevelt Avenue",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "725657f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725657f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a551f8e0-c556-012f-17fe-58d385a7bc34",
     "original_title": "Queens: 79th Street - Roosevelt Avenue",
     "text": "37.41-37.55 79th Street, east side, just north of Roosevelt Avenue, showing the newly erected Queens Gardens Apartments.\n\nAbout 1927\n",

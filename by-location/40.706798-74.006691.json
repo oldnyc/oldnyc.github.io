@@ -2,9 +2,34 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 521,
     "id": "721574f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721574f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Postal service",
+          "Stationery trade",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5048c730-c550-012f-7973-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "text": "94-102 Maiden Lane, south side, west of Pearl Street.\nAbout 1914.\nJames Suydam.\n",
@@ -19,9 +44,44 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 234,
+        "street": "Pearl Street"
+      },
+      "source": "234 Pearl Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Burling Slip",
+        "str2": "Pearl Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Burling Slip",
+        "str2": "Pearl Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 468,
     "id": "722478f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722478f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bec48ea0-c551-012f-6411-58d385a7bc34",
     "text": "(1) Pearl Street, east side, south from Burling Slip, showing the former 7th Ward Bank Building, (No. 234 Pearl Street), at the S.E. corner. This bank was incorporated in 1833 and reorganized in 1865. Effingham Schieffelin was its president about 1840; Jno. W. Lawrence, occupying the same position in 1857. July 1924. Eugene L. Armbruster Collection.\n\n(2) The same. Overhead, on pearl Street, runs the South Ferry Division of the Second and Third Aves. Elevated lines. May 1924. Eugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -35,9 +95,44 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 234,
+        "street": "Pearl Street"
+      },
+      "source": "234 Pearl Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Burling Slip",
+        "str2": "Pearl Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Burling Slip",
+        "str2": "Pearl Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 466,
     "id": "722478f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722478f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bec48ea0-c551-012f-6411-58d385a7bc34",
     "text": "(1) Pearl Street, east side, south from Burling Slip, showing the former 7th Ward Bank Building, (No. 234 Pearl Street), at the S.E. corner. This bank was incorporated in 1833 and reorganized in 1865. Effingham Schieffelin was its president about 1840; Jno. W. Lawrence, occupying the same position in 1857. July 1924. Eugene L. Armbruster Collection.\n\n(2) The same. Overhead, on pearl Street, runs the South Ferry Division of the Second and Third Aves. Elevated lines. May 1924. Eugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -51,9 +146,34 @@
   {
     "date": "1929; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721575f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721575f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50c94700-c550-012f-f249-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "text": "(1) Maiden Lane,north side,west from but not including Pearl Street,to but not including Gold Street.\n\nJune 13th,1929\n\n(2) Maiden Lane and Pearl Street,showing Pearl Street Buildings and Second Avenue \"L\".\n\nAugust 1939\n\nPhotographs by,\nP.L.Sperr,\nNo.Reproductions.\n",
@@ -69,9 +189,34 @@
   {
     "date": "1929; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721575f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721575f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50c94700-c550-012f-f249-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "text": "(1) Maiden Lane,north side,west from but not including Pearl Street,to but not including Gold Street.\n\nJune 13th,1929\n\n(2) Maiden Lane and Pearl Street,showing Pearl Street Buildings and Second Avenue \"L\".\n\nAugust 1939\n\nPhotographs by,\nP.L.Sperr,\nNo.Reproductions.\n",
@@ -87,9 +232,33 @@
   {
     "date": "1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722508f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722508f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cae1b5c0-c551-012f-c89c-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "text": "(1)\nPearl Street, west side, north from and including Maiden Lane and showing a general view northward, as seen from the Seaman's Bank for Savings, at No. 74 Wall Street. Also shown is Maiden Lane, at and adjoining the N.W. corner of Pearl Street. The Second and Third Ave. Elevated is shown on Pearl Street. Prominent in the background, is No. 111 John Street at the N.W. corner of Pearl Street. (Pearl Street, is arbitrarily set to run north and south).\nJune 13, 1929.\n\nP. L. Sperr.\n\n(2)\nThe same, from a different angle. October 1, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, showing a closer view of the upper floors of the smaller buildings. June 4, 1929.\n\nP. L. Sperr.\n",
@@ -105,9 +274,33 @@
   {
     "date": "1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722508f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722508f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cae1b5c0-c551-012f-c89c-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "text": "(1)\nPearl Street, west side, north from and including Maiden Lane and showing a general view northward, as seen from the Seaman's Bank for Savings, at No. 74 Wall Street. Also shown is Maiden Lane, at and adjoining the N.W. corner of Pearl Street. The Second and Third Ave. Elevated is shown on Pearl Street. Prominent in the background, is No. 111 John Street at the N.W. corner of Pearl Street. (Pearl Street, is arbitrarily set to run north and south).\nJune 13, 1929.\n\nP. L. Sperr.\n\n(2)\nThe same, from a different angle. October 1, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, showing a closer view of the upper floors of the smaller buildings. June 4, 1929.\n\nP. L. Sperr.\n",
@@ -123,9 +316,33 @@
   {
     "date": "1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "722508f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/722508f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cae1b5c0-c551-012f-c89c-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "rotation": 90,
@@ -142,9 +359,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "722510f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/722510f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Industrial facilities",
+          "Steam"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cbac8470-c551-012f-b8ce-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "rotation": 90,
@@ -160,9 +402,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722510f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722510f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Industrial facilities",
+          "Steam"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cbac8470-c551-012f-b8ce-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "text": "(1) Pearl Street, east side, at Maiden Lane. Also shown is Maiden Lane, at and adjoining the N.E. corner of Pearl Street. The Second and Third Aves., Elevated is shown on Pearl Street, and the New York Steam Heating Company plant is shown prominently. (Pearl Street, is arbitrarily set to run north and south).\n\nJune 13, 1929.\n\nP. L. Sperr.\n\n(2) The same, showing a view further south.\n\nJune 13, 1929.\n\nP. L. Sperr.\n",
@@ -177,9 +444,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "721570f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/721570f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Cobblestone streets",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e9e4bb0-c550-012f-f731-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "rotation": 90,
@@ -195,9 +489,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "721570f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/721570f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Cobblestone streets",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e9e4bb0-c550-012f-f731-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "rotation": 90,
@@ -213,9 +534,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721570f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721570f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Cobblestone streets",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e9e4bb0-c550-012f-f731-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "text": "(1)\nMaiden Lane, east from but not including Pearl Street, to\nthe East River.\nJune 14, 1930.\nP. L. Sperr.\n(2) The same, east from and including Front Street.\nJune 14, 1930.\nE. L. Sperr.\n(3)\nThe same, as No. 1. 9n aeN4al oew.\nJuly 7, 1930.\nP. L. Sperr.\n",
@@ -230,9 +578,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721572f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721572f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f8125b0-c550-012f-c0ad-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "text": "Maiden Lane, south side, east from Pearl Street.\n\nJuly 26, 1930.\n\nP. L. Sperr.\n",
@@ -247,9 +616,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Maiden Lane - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721573f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721573f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fire stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fd69400-c550-012f-1f77-58d385a7bc34",
     "original_title": "Manhattan: Maiden Lane - Pearl Street",
     "text": "Maiden Lane, north side, east from but not including Pearl Street. This view also shows Fire Engine Company No. 4 at 119 Maiden Lane, east of Pearl Street.\n\nJune 14, 1930.\n\nP. L. Sperr.\n",
@@ -268,9 +660,27 @@
       "1930-07-08",
       "1930-07-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722511f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722511f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc0721a0-c551-012f-0384-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "text": "(1) Pearl Street, south from and including Maiden Lane, and showing a general view southward, as seen from No. 111 John Street. The building in the foreground is No. 1 Cedar Street. The Second and Third Ave., Elevated is shown on Pearl Street. (Pearl Street, is arbitrarily set to run north and south).\n\nJuly 8, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJuly 8, 1930.\n\nP. L. Sperr.\n",
@@ -290,9 +700,27 @@
       "1930-07-08",
       "1930-07-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722511f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722511f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc0721a0-c551-012f-0384-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "text": "(1) Pearl Street, south from and including Maiden Lane, and showing a general view southward, as seen from No. 111 John Street. The building in the foreground is No. 1 Cedar Street. The Second and Third Ave., Elevated is shown on Pearl Street. (Pearl Street, is arbitrarily set to run north and south).\n\nJuly 8, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJuly 8, 1930.\n\nP. L. Sperr.\n",
@@ -308,9 +736,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Fletcher Street",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Fletcher Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722507f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722507f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca74d180-c551-012f-2681-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Fletcher Street",
     "text": "212 Pearl Street, at the N.E. corner of Fletcher Street. This building is known as the Mansion House.\n\nJune 1, 1935.\n\nP. L. Sperr.\n\n\"ASSUMING STREET TO BE NORTH AND SOUTH\"\n",
@@ -325,9 +774,32 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Maiden Lane",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Pearl Street - Maiden Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722509f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722509f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cafeterias"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb39d920-c551-012f-6e08-58d385a7bc34",
     "original_title": "Manhattan: Pearl Street - Maiden Lane",
     "text": "Pearl Street, west side, north from Maiden Lane.\n1938-9\nAlexander Alland\n\nThis photo is one of a series that appeared in the publiched volume \"Portrait of N. Y.\" by Felix Roxenberg and Alex. Alland, IROV.\n",
@@ -342,9 +814,29 @@
   {
     "date": "1940-05-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Fletcher Street",
+        "str2": "Pearl Street"
+      },
+      "source": "Fletcher Street and Pearl Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "485744",
     "image_url": "https://images.nypl.org/?id=485744&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b749aa0-c60e-012f-dce0-58d385a7bc34",
     "text": null,
     "text_source": null,

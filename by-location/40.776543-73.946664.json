@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-01-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "724913f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724913f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a35b4b70-c555-012f-5cf3-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 87th Street",
     "text": "York Avenue (Avenue A) at S.W. corner of 87th Street, showing 446-430 East 87th Street, and part of the tower of St. Joseph's Roman\nCatholic Church at 408 East 87th Street.\nJanuary 31, 1928.\nP. L. Sperr.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1928-01-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "724914f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724914f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3a9d2c0-c555-012f-19cb-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 87th Street",
     "text": "1665-1691 York Avenue (Avenue A), west side, from above 87th Street\nto and including the N.W. corner of 87th Street.\nAll of these are buildings dating back to 1890 or earlier except\npossibly 1891 on the N.W. corner of 87th Street.\n.January 31, 1928.\nP. L. Sperr.\n",
@@ -42,9 +78,35 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street (East)",
+        "str2": "York Street"
+      },
+      "source": "Manhattan: 87th Street (East) - York Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714741f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714741f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4ba8270-c545-012f-3646-58d385a7bc34",
     "original_title": "Manhattan: 87th Street (East) - York Street",
     "text": "East 87th Street, south side, west from (No. 436), but not including York, to and including Second Aves. Prominent buildings shown, are the St. Joseph's Parochial School No. 423, and St Joseph's R.C. Church.\n\nOctober 8, 1934.\n\nP. L. Sperr.\n\nPhotostat negative (matte) No. 116.\n",
@@ -59,9 +121,29 @@
   {
     "date": "1945-07-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1646,
+        "street": "York Avenue"
+      },
+      "source": "York Avenue #1646",
+      "technique": "title-address"
+    },
     "height": 468,
     "id": "1508639-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508639-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7930b5e0-c5ce-012f-53ce-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -75,9 +157,34 @@
   {
     "date": "1945-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 87th Street",
+        "str2": "York Avenue"
+      },
+      "source": "East 87th Street and York Avenue",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "1558172",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558172.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a9c7600-c5ed-012f-c4e1-58d385a7bc34",
     "text": null,
     "text_source": null,

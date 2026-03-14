@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Gildersleeve Avenue",
+        "str2": "Pugsley Avenue"
+      },
+      "source": "Bronx: Gildersleeve Avenue - Pugsley Avenue",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "701112f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701112f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f179900-c530-012f-b8c1-58d385a7bc34",
     "original_title": "Bronx: Gildersleeve Avenue - Pugsley Avenue",
     "text": "1985 Gildersleeve Ave., adjoining the N.E. corner of Pugsley Ave.\n\nAbout 1927.\n\nW. B. Vernam.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Gildersleeve Ave",
+        "str2": "Pugsley's Creek"
+      },
+      "source": "Gildersleeve Ave and Pugsley's Creek",
+      "technique": "gpt"
+    },
     "height": 425,
     "id": "734720f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734720f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Pugsley's Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfa3ef10-c564-012f-29c2-58d385a7bc34",
     "text": "(1) Pugsley's Creek, Bronx: A view eastward across the mouth of the creek, showing Screvin's Point (Castle Hill Park). The vantage point is the foot of Gildersleeve Ave.\n\nP. L. Sperr. July 29, 1928.\n\n(2) A view of the mouth of the creek at low tide.\n\nP. L. Sperr. July 29, 1928.\n",
     "text_source": "gpt",
@@ -38,9 +77,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Gildersleeve Ave",
+        "str2": "Pugsley's Creek"
+      },
+      "source": "Gildersleeve Ave and Pugsley's Creek",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "734720f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734720f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Pugsley's Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfa3ef10-c564-012f-29c2-58d385a7bc34",
     "text": "(1) Pugsley's Creek, Bronx: A view eastward across the mouth of the creek, showing Screvin's Point (Castle Hill Park). The vantage point is the foot of Gildersleeve Ave.\n\nP. L. Sperr. July 29, 1928.\n\n(2) A view of the mouth of the creek at low tide.\n\nP. L. Sperr. July 29, 1928.\n",
     "text_source": "gpt",

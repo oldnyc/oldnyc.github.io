@@ -2,9 +2,36 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clifton Place",
+        "str2": "St. James Place"
+      },
+      "source": "Brooklyn: St. James Place - Clifton Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706578f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706578f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Adelphi Academy"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Private schools",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86968100-c538-012f-6f2c-58d385a7bc34",
     "original_title": "Brooklyn: St. James Place - Clifton Place",
     "text": "St. James Place, west side, north from Clifton Place to Lafayette Ave., showing Adelphi Academy and College.\n\nAugust 2, 1927.\n\nP. L. Sperr.\n",

@@ -2,9 +2,27 @@
   {
     "date": "1910-02-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 17th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711406f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711406f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b1b6cf0-c540-012f-3eef-58d385a7bc34",
     "original_title": "Manhattan: 17th Street (West) - 5th Avenue",
     "text": "18 West 17th Street, south side, west of Fifth Avenue.\n\nFebruary 24, 1910.\nWurts Brothers\n",
@@ -19,9 +37,27 @@
   {
     "date": "1910-02-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 17th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711408f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711408f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4be5b9e0-c540-012f-5c6c-58d385a7bc34",
     "original_title": "Manhattan: 17th Street (West) - 5th Avenue",
     "text": "18 West 17th Street, south side, west of Fifth Avenue.\nFebruary 24, 1910\nWurts Brothers, Photographers\n",
@@ -36,9 +72,27 @@
   {
     "date": "1910-02-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 17th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711409f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711409f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c5693f0-c540-012f-28da-58d385a7bc34",
     "original_title": "Manhattan: 17th Street (West) - 5th Avenue",
     "text": "Rear of 18 West 17th Street, south side, west of Fifth Avenue.\n\nFebruary 24, 1910\nWurts Brothers, Photographers\n",
@@ -53,9 +107,27 @@
   {
     "date": "1910-03-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 17th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711410f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711410f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4cb052a0-c540-012f-3732-58d385a7bc34",
     "original_title": "Manhattan: 17th Street (West) - 5th Avenue",
     "text": "Rear of 18 West 17th Street, south side, west of Fifth Avenue.\n\nMarch 9, 1910\nWurts Brothers, Photographers\n",
@@ -70,9 +142,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.73795976912968,
+        "lng": -73.99230033159256
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 221,
     "id": "1113236",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113236.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Sidewalks",
+          "Street vendors",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6b57e240-c6ca-012f-0d2a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -86,9 +183,31 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 17th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711407f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711407f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b70cdb0-c540-012f-d4d7-58d385a7bc34",
     "original_title": "Manhattan: 17th Street (East) - 5th Avenue",
     "text": "3 East 17th Street,adjoining N.W. corner of Fifth Avenue.\nAbout 1915.\nModern Photo Service.\n",
@@ -103,9 +222,30 @@
   {
     "date": "1920; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 17th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708355f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708355f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58b1a410-c53b-012f-5ff6-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 17th Street (West)",
     "text": "(1)\n\n114-116 and 118 Fifth Ave., west side, at West 17th Street, showing the 18-story Merchants Exchange Building and the 11-story J. L. Mott Iron Co. Building.\n\nAbout 1927\nAnonymous Gift\nNeg #1068 (both views)\n\n(2)\n\nA view showing mainly the Merchants Exchange Building, at the S. W. corner. on the right appears a view westward on the south side of West 17th Street.\n\nAbout 1920\nNeg # 1068 (both views)\n",
@@ -121,9 +261,30 @@
   {
     "date": "1920; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 17th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708355f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708355f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58b1a410-c53b-012f-5ff6-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 17th Street (West)",
     "text": "(1)\n\n114-116 and 118 Fifth Ave., west side, at West 17th Street, showing the 18-story Merchants Exchange Building and the 11-story J. L. Mott Iron Co. Building.\n\nAbout 1927\nAnonymous Gift\nNeg #1068 (both views)\n\n(2)\n\nA view showing mainly the Merchants Exchange Building, at the S. W. corner. on the right appears a view westward on the south side of West 17th Street.\n\nAbout 1920\nNeg # 1068 (both views)\n",
@@ -139,9 +300,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 17th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708354f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708354f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/584bfac0-c53b-012f-7841-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 17th Street",
     "text": "Merchants Exchange Building, Fifth Avenue at S.W. corner of 17th Street.\nAbout 1927.\n",

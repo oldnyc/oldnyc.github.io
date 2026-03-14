@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "65th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 65th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707900f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707900f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b245610-c53a-012f-3d2f-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 65th Street",
     "text": "Second Avenue \"L\" station at 65th Street, and Third Avenue Railroad Co. power house.\n\nOctober 20, 1930.\n\nP.L. Sperr, Photographer.\n",
@@ -19,9 +43,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "65th Street (East)"
+      },
+      "source": "Manhattan: 2nd Avenue - 65th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707899f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707899f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ab34600-c53a-012f-83f3-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 65th Street (East)",
     "text": "Second Avenue, south from East 65th Street as viewed from the uptown \"El\" platform, prior to demolition.\n\nJune 7, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -36,9 +83,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "65th Street (East)"
+      },
+      "source": "Manhattan: 2nd Avenue - 65th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "707899f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707899f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ab34600-c53a-012f-83f3-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 65th Street (East)",
     "text": "Second Avenue, south from East 65th Street as viewed from the uptown \"El\" platform, prior to demolition.\n\nJune 7, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -53,9 +123,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "65th Street (East)"
+      },
+      "source": "Manhattan: 2nd Avenue - 65th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707899f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707899f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ab34600-c53a-012f-83f3-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 65th Street (East)",
     "text": "Second Avenue, south from East 65th Street as viewed from the uptown \"El\" platform, prior to demolition.\n\nJune 7, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -70,9 +163,29 @@
   {
     "date": "1941-04-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "65th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 386,
     "id": "1508705-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508705-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/840bb680-c5ce-012f-e7c4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -89,9 +202,27 @@
     "dates_from_text": [
       "1941-04-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "65th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 65th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a65a820-c53a-012f-0527-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 65th Street",
     "text": "Second Avenue, e.s., s. fr. 65th Street. P. L. Sperr, photographer\nApril 7, 1941\n",
@@ -106,9 +237,38 @@
   {
     "date": "1950; 1959",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "Manhattan: Second Avenue - East 65th Street",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "1557853",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557853.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan House"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "International style (Architecture)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79dae940-c5ec-012f-8184-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -123,9 +283,32 @@
   {
     "date": "1951-12-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "65th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 466,
     "id": "1508713-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508713-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Apartment interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8557a780-c5ce-012f-490a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -139,9 +322,32 @@
   {
     "date": "1951-12-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "65th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 468,
     "id": "1508715-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508715-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Apartment interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8599b400-c5ce-012f-b062-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -155,9 +361,32 @@
   {
     "date": "1951-12-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "65th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 469,
     "id": "1508717-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508717-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Apartment interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86258390-c5ce-012f-f7f7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -171,9 +400,29 @@
   {
     "date": "1952-04-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "65th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 465,
     "id": "1508703-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508703-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83a51440-c5ce-012f-0f53-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -187,9 +436,29 @@
   {
     "date": "1958-07-10",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "65th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 369,
     "id": "1508711",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508711.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84faef00-c5ce-012f-8e15-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -203,9 +472,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 65th Street (Looking North)",
+        "str2": "Second Avenue"
+      },
+      "source": "Manhattan: Second Avenue - East 65th Street (Looking North)",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "1557854",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557854.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Corn Exchange Bank Trust Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Corn Exchange Bank Trust Company"
+        ],
+        "topic": [
+          "Banks",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a4e3360-c5ec-012f-d0d7-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,29 @@
   {
     "date": "1920-06-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1837,
+        "street": "Seventh Avenue"
+      },
+      "source": "Seventh Avenue #1837",
+      "technique": "title-address"
+    },
     "height": 418,
     "id": "1507657-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507657-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2fac9e0-c5ce-012f-8af8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "112th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "112th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 231,
     "id": "1558076-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558076-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Interior lobby with elevator"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Elevators",
+          "Historic buildings",
+          "Lobbies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa8c3af0-c5ec-012f-d8da-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +83,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "112th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 112th Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "709981f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709981f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc94c4f0-c53d-012f-acd2-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 112th Street",
     "text": "7th Avenue, 112th to 113th Street, East Side. (Before Reconstruction).",

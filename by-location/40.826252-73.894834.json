@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "167th Street (East)",
+        "str2": "Tiffany Street"
+      },
+      "source": "Bronx: Tiffany Street - 167th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701897f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701897f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53aa9190-c531-012f-f6ef-58d385a7bc34",
     "original_title": "Bronx: Tiffany Street - 167th Street (East)",
     "text": "1140 Tiffany Street, east side, between E. 167th and E. 169th Streets.\n\nApril 26, 1938.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "167th Street",
+        "str2": "Tiffany Street"
+      },
+      "source": "Bronx: Tiffany Street - 167th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701896f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701896f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5341bf10-c531-012f-1bab-58d385a7bc34",
     "original_title": "Bronx: Tiffany Street - 167th Street",
     "text": "Tiffany St. n. of 167th St.\nPlayground\n9-5-1942\nP.L.Sperr\n",

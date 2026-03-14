@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "3rd Av",
+        "str2": "Claremont Av"
+      },
+      "source": "3rd Av and Claremont Av",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985208",
     "image_url": "https://images.nypl.org/?id=3985208&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05abfb30-c5d8-012f-1786-58d385a7bc34",
     "text": null,
     "text_source": null,

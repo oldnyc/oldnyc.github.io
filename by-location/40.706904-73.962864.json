@@ -2,9 +2,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 170,
+        "street": "Clymer Street"
+      },
+      "source": "170 Clymer Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Clymer Street",
+        "str2": "Lee Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Clymer Street",
+        "str2": "Lee Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "703700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Reformed churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0cc81ee0-c534-012f-ec02-58d385a7bc34",
     "original_title": "Brooklyn: Clymer Street - Lee Avenue",
     "text": "Clymer Street, south side, west from No. 170, west of Lee Ave.\nAt the left foreground, is a view of Engine Co., No. 111. The Church is The First Dutch Reformed Church of Williamsburg, dedicated October 17, 1869.\n\n1923.\n\nEugene L. Armbruster Collection.\n",

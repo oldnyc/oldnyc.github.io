@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-06-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Richards Street",
+        "str2": "Sullivan Street"
+      },
+      "source": "Brooklyn: Sullivan Street - Richards Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706926f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706926f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0995eb80-c539-012f-1110-58d385a7bc34",
     "original_title": "Brooklyn: Sullivan Street - Richards Street",
     "text": "56-60 Sullivan Street, north side, west of Richards Street.\nJune 25, 1931.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Richards Street",
+        "str2": "Sullivan Street"
+      },
+      "source": "Brooklyn: Sullivan Street - Richards Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706927f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706927f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a088430-c539-012f-7b2e-58d385a7bc34",
     "original_title": "Brooklyn: Sullivan Street - Richards Street",
     "text": "74-82 Sullivan Street, north side, between Richards and Van Brunt Streets.\nJune 25, 1931.\n\nP. L. Sperr.\n",

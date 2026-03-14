@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Park Avenue",
+        "str2": "Sixty-third Street"
+      },
+      "source": "Park Avenue and Sixty-third Street",
+      "technique": "gpt"
+    },
     "height": 514,
     "id": "417426",
     "image_url": "https://images.nypl.org/?id=417426&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/012b6f00-c612-012f-539f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,38 @@
   {
     "date": "1927-01-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 63rd Street)",
+        "str2": "Park Avenue (East 62nd Street"
+      },
+      "source": "Manhattan: 570 Park Avenue (East 62nd Street - East 63rd Street)",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "1558035",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558035.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Apartment exterior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Park Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4dbd1810-c5ed-012f-c186-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +85,38 @@
   {
     "date": "1927-01-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 63rd Street)",
+        "str2": "Park Avenue (East 62nd Street"
+      },
+      "source": "Manhattan: 570 Park Avenue (East 62nd Street - East 63rd Street)",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "1558036",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558036.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "photo taken from roof"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Laundry",
+          "Roofs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e1c83c0-c5ed-012f-9f2e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +130,34 @@
   {
     "date": "1927-01-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 63rd Street)",
+        "str2": "Park Avenue (East 62nd Street"
+      },
+      "source": "Manhattan: 570 Park Avenue (East 62nd Street - East 63rd Street)",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "1558037",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558037.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Roofs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e7f98f0-c5ed-012f-dca6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +171,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 580,
+        "street": "Park Avenue"
+      },
+      "source": "Park Avenue #580",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508023-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508023-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/51581a40-c5ce-012f-4e41-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "111th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "111th Street and Amsterdam Avenue",
+      "technique": "gpt"
+    },
     "height": 451,
     "id": "465586-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465586-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48f307d0-c612-012f-278f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "111th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "111th Street and Amsterdam Avenue",
+      "technique": "gpt"
+    },
     "height": 498,
     "id": "417637-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417637-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2127d710-c6cd-012f-9174-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "111th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "111th Street and Amsterdam Avenue",
+      "technique": "gpt"
+    },
     "height": 517,
     "id": "417385",
     "image_url": "https://images.nypl.org/?id=417385&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f8bc80-c611-012f-b67b-58d385a7bc34",
     "text": null,
     "text_source": null,

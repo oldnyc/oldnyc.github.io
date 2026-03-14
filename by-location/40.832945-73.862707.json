@@ -2,9 +2,33 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Westchester Avenue",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: White Plains Road - Westchester Avenue",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "702141f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702141f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Unionport (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0eaa170-c531-012f-ff8c-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - Westchester Avenue",
     "text": "White Plains Road, north from Westchester Ave. In the background is visible the Unionport Road bridge over the tracks of the New York, New Haven and Hartford Railroad.\n\nJames Suydam.\n\nAbout 1915.\n",
@@ -19,9 +43,48 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Westchester Avenue",
+        "str2": "White Plains Road"
+      },
+      "source": "Westchester Avenue and White Plains Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "177th Street (East)",
+        "str2": "White Plains Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "White Plains Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 364,
     "id": "700247f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700247f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Gasoline pumps",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ff717380-c52e-012f-aeef-58d385a7bc34",
     "original_title": "Bronx: 177th Street (East) - White Plains Road",
     "text": "E. 177th Street, north side, east from White Plains Road to Westchester Avenue, showing, on the latter, the elevated station of the I.R.T. subway.\n\nView 1: April 10, 1938.\nView v: September 4, 1939\n\nP.L. Sperr\n\nView v shows the same area, looking west from near Westchester Avenue toward White Plains Road. Under construction are units of \"Parkchester,\" the new development by the Metropolitan Life Insurance Company.\n",
@@ -37,9 +100,48 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Westchester Avenue",
+        "str2": "White Plains Road"
+      },
+      "source": "Westchester Avenue and White Plains Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "177th Street (East)",
+        "str2": "White Plains Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "White Plains Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "700247f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700247f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Gasoline pumps",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ff717380-c52e-012f-aeef-58d385a7bc34",
     "original_title": "Bronx: 177th Street (East) - White Plains Road",
     "text": "E. 177th Street, north side, east from White Plains Road to Westchester Avenue, showing, on the latter, the elevated station of the I.R.T. subway.\n\nView 1: April 10, 1938.\nView v: September 4, 1939\n\nP.L. Sperr\n\nView v shows the same area, looking west from near Westchester Avenue toward White Plains Road. Under construction are units of \"Parkchester,\" the new development by the Metropolitan Life Insurance Company.\n",

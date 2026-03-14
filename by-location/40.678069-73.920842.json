@@ -2,9 +2,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Herkimer Street",
+        "str2": "Prescott Place"
+      },
+      "source": "Brooklyn: Herkimer Street - Prescott Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704890f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704890f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee37b1b0-c535-012f-b2dc-58d385a7bc34",
     "original_title": "Brooklyn: Herkimer Street - Prescott Place",
     "text": "Herkimer Street, north side, between Prescott and Bancroft Places, showing Public School No. 28.\n\nP. L. Sperr\n\nJuly 13, 1940\n",
@@ -19,9 +43,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Herkimer Street",
+        "str2": "Prescott Place"
+      },
+      "source": "Brooklyn: Herkimer Street - Prescott Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "704891f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704891f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fire stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee9dfa60-c535-012f-c9d6-58d385a7bc34",
     "original_title": "Brooklyn: Herkimer Street - Prescott Place",
     "text": "975 to 987 (left to right) Herkimer Street, north side, at the head of Prescott Place. No. 977 is a remodelled house; it was formerly a frame dwelling like the one to the left of it. No. 979 is Engine 227 of the New York City Fire Department.\n\nJuly 13, 1940\n\nP. L. Sperr\n",
@@ -39,9 +86,27 @@
     "dates_from_text": [
       "1940-07-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Herkimer Street",
+        "str2": "Prescott Place"
+      },
+      "source": "Brooklyn: Prescott Place - Herkimer Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "706316f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706316f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/203cf920-c538-012f-576c-58d385a7bc34",
     "original_title": "Brooklyn: Prescott Place - Herkimer Street",
     "text": "Prescott Place, adjoining the southeast corner of Herkimer Street.\n\nP. L. Sperr\nJuly 13, 1940\n",

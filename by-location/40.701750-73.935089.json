@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Montieth Street",
+        "str2": "Stanwix Street"
+      },
+      "source": "Brooklyn: Montieth Street - Stanwix Street",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "705780f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705780f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52031850-c537-012f-1d6d-58d385a7bc34",
     "original_title": "Brooklyn: Montieth Street - Stanwix Street",
     "text": "Monteith Street, north side, west from Stanwix Street. Also shown are W. P. A. men working on a sewer project.\n\nJuly 11, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

@@ -2,9 +2,31 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (East)",
+        "str2": "Irving Place"
+      },
+      "source": "Manhattan: Irving Place - 16th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "720626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d8e1d230-c54e-012f-4d0a-58d385a7bc34",
     "original_title": "Manhattan: Irving Place - 16th Street (East)",
     "text": "33-25 Irving Place, and 118-14 East 16th Street, at and adjoining the S.W. corner, buildings about to be demolished to make room for two 12-story office buildings. The corner one will later be known as the Nemo Building. 112-10-08 East 16th Street, also shown here, will remain.\n\nMarch, 1909.\n\nBrown Brothers.\n",

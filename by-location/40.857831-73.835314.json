@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Stillwell Avenue",
+        "str2": "Wickham Avenue"
+      },
+      "source": "Bronx: Stillwell Avenue - Wickham Avenue",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "701866f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701866f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47945590-c531-012f-7c48-58d385a7bc34",
     "original_title": "Bronx: Stillwell Avenue - Wickham Avenue",
     "text": "1743 Stillwell Ave., adjoining the N.W. corner of Wickham Ave. This dwelling is part of a new residential section known as Pelham Parkway Gardens.\n\nAbout 1923.\n\nGift of E. M. Jenks.\n",

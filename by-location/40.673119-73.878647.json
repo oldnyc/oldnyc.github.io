@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atkins Avenue",
+        "str2": "Belmont Avenue"
+      },
+      "source": "Brooklyn: Belmont Avenue - Atkins Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "703186f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703186f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4396e3e0-c533-012f-490e-58d385a7bc34",
     "original_title": "Brooklyn: Belmont Avenue - Atkins Avenue",
     "text": "It's Berriman Junior High School (also known as P. S. 64.",

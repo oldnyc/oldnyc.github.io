@@ -2,9 +2,38 @@
   {
     "date": "1929-05-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Hoyt Street"
+      },
+      "source": "Brooklyn - Fulton Street - Hoyt Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557782",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557782.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Abraham and Strauss under construction"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Buildings, structures, etc",
+          "Department stores",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6aa3deb0-c5ec-012f-fee4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Hoyt Street"
+      },
+      "source": "Brooklyn: Hoyt Street - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "704996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18e5c9f0-c536-012f-c4e4-58d385a7bc34",
     "original_title": "Brooklyn: Hoyt Street - Fulton Street",
     "text": "Hoyt Street, at the S. E. corner of Fulton Street, looking north toward the latter and showing Namm's Department Store. The W. P. A. is conducting a sewer project here.\n\nNovember 27, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",
@@ -35,9 +86,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Hoyt Street"
+      },
+      "source": "Brooklyn: Hoyt Street - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "704997f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704997f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Florist shops",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/193c1840-c536-012f-fbdf-58d385a7bc34",
     "original_title": "Brooklyn: Hoyt Street - Fulton Street",
     "text": "Hoyt Street, at the S. W. corner of Fulton Street, viewing north toward the latter. Note the I. R. T. subway entrance and a W. P. A. shack (right), where the federal agency is conducting a sewer project.\n\nNovember 27, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",
@@ -52,9 +125,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bridge Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Brooklyn: Fulton Street - Bridge Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704505f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704505f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/512ea900-c535-012f-6707-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Bridge Street",
     "text": "Fastened to the wall of a building located on Fulton St. near Bridge St., Brooklyn, is this plaque tells a story that had its beginning more than three centuries ago.\n\nIn those early colonial times were open spaces, dotted with scattered structures. Among these stood an octagon Reformed Church in which, about July 4th, 1661, Carel DeBevoise, who had arrived a scant two years before as an emigrant from Holland, conducted the first school in Brooklyn.\n\nFrom the record we find \"Carel DeBevoise, a highly educated French Protestant, with his wife - nee Sophia Van Lodensteyn- and three children had sailed from Amsterdam, Netherlands, on the ship Otter, in February, 1659 and arrived on these shores shortly thereafter.\n\nCarel DeBevoise was more than schoolmaster:\n\nas the rescript testifies, to act as court messenger, to serve summons, conduct the services of the church, to lead the choir on Sundays, ring the bell for public worship, take charge of the school, and perform other occasional services. We can appreciate his embarrassment, and sympathize with his apprehensions in the performance of so many and such conflicting duties as are specially named; but when the monstrous addition is affixed 'and such other occasional services as the very worthy and ponderous shout and the dignified and exacting schepens should enact for his worriment,' human emotion is too feeble to be commensurate with the demand.\"\n\nYet insignificant as was the beginning the light has never been quenched. The tablet stresses this thought in the words:\n\nThe Spark Here kindled Has Become a Great Flame Illuminating the Path of Youth Unto Wisdom and Worth.\n",

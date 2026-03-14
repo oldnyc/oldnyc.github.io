@@ -2,9 +2,29 @@
   {
     "date": "1947-01-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 117,
+        "street": "E 69th Street"
+      },
+      "source": "69th Street (East) #117",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508291-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508291-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0575e8e0-c5cf-012f-eb68-58d385a7bc34",
     "text": null,
     "text_source": null,

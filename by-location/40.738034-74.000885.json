@@ -2,9 +2,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 204,
+        "street": "West 13th Street"
+      },
+      "source": "204 West 13th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "711176f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711176f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Doorway, 204 West 13th Street, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb09a540-c53f-012f-da38-58d385a7bc34",
     "text": "Doorway\n204 West 13th Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-3\nMay 5, 1937\n\np. 94, Changing New York\n",
     "text_source": "gpt",

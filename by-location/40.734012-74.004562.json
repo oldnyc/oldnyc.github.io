@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleeker Street",
+        "str2": "West 10th Street"
+      },
+      "source": "Bleeker Street and West 10th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "711031f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711031f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "10th Street: No.230-234 West"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af5e7100-c53f-012f-629d-58d385a7bc34",
     "text": "(1)\n\n230-224 West 10th Street, south side, west of Bleeker Street. No. 224 is a frame house with a brick front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 114.\n\n(2)\n\nThe same, showing another view. 1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 576.\n",
     "text_source": "gpt",
@@ -18,9 +39,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleeker Street",
+        "str2": "West 10th Street"
+      },
+      "source": "Bleeker Street and West 10th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "711031f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711031f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "10th Street: No.230-234 West"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af5e7100-c53f-012f-629d-58d385a7bc34",
     "text": "(1)\n\n230-224 West 10th Street, south side, west of Bleeker Street. No. 224 is a frame house with a brick front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 114.\n\n(2)\n\nThe same, showing another view. 1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 576.\n",
     "text_source": "gpt",
@@ -34,9 +76,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Street (West)",
+        "str2": "Bleecker Street"
+      },
+      "source": "Manhattan: Bleecker Street - 10th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "716718f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716718f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b31ff4d0-c548-012f-a4eb-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - 10th Street (West)",
     "text": "Bleecker Street, west side, north from and including West 10th Street, to and including Charles Street. Also shown is West 10th Street, at, adjoining and west of the N.W. corner of Bleecker Street. Nos. 350-354 Bleecker Street, at, adjoining and north of the N.W. corner of West 10th Street, are frame houses, with brick fronts. Nos. 215-219 West 10th Street, at the N.W. corner, and west of the N.W. corner of Bleecker Street, are frame houses, with brick fronts.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -51,9 +114,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Street (West)",
+        "str2": "Bleecker Street"
+      },
+      "source": "Manhattan: 10th Street (West) - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "711032f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711032f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/afbb70e0-c53f-012f-15a3-58d385a7bc34",
     "original_title": "Manhattan: 10th Street (West) - Bleecker Street",
     "text": "Foot of West 10th Street, at the Hudson River.\nThe Empire Brewery & Malthouse, nos. 283-303 W. 10th St., is seen right of center.\n\nn.d.\n",

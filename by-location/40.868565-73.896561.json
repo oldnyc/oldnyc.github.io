@@ -2,9 +2,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "195th Street (East)",
+        "str2": "Jerome Avenue"
+      },
+      "source": "Bronx: Jerome Avenue - 195th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "701348f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701348f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a42a0c0-c530-012f-1a01-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - 195th Street (East)",
     "text": "Jerome Ave. (foreground, not seen), west side, north from East 195th to East 197th (right) Streets, showing the site upon which was later erected Walton High School.\n\nMay 8, 1928.\n\nR. L. Sperr.\n",
@@ -19,9 +44,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "195th Street (West)",
+        "str2": "Jerome Avenue"
+      },
+      "source": "Bronx: Jerome Avenue - 195th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "701347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89d2bfc0-c530-012f-31c7-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - 195th Street (West)",
     "text": "Jerome Avenue, west side, between W.195th and W.197th Streets, showing the Walton High School. This view is from Reservoir Avenue at W.197th Street.\n\nBoard of Education of the City of New York\n\n1930's\n",
@@ -36,9 +85,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "195th Street (West)",
+        "str2": "Jerome Avenue"
+      },
+      "source": "Bronx: Jerome Avenue - 195th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "701345f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701345f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Mission Inn"
+        ],
+        "topic": [
+          "Armories",
+          "Construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/890cbf60-c530-012f-5273-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - 195th Street (West)",
     "text": "Jerome Ave., at the S.W. corner of West 195th Street, showing part of the 258th Field Artillery Armory under repair by the W.P.A. The view is southward on Jerome Ave.\n\nMarch 4, 1937.\n\nWorks Progress Administration.\nCity Wide Project Photo.\n",
@@ -53,9 +127,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "195th Street",
+        "str2": "Jerome Avenue"
+      },
+      "source": "Bronx: Jerome Avenue - 195th Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "701346f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701346f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Armories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/897813a0-c530-012f-cfb8-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - 195th Street",
     "text": "Jerome Ave., at the S.W. corner of West 195th Street, showing part of the 258th Field Artillery Armory undergoing repairs by the W.P.A.\n\n1937.\n\nWorks Progress Administration.\nCity Wide Project Photo.\n",
@@ -70,9 +166,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 195th Street",
+        "str2": "Jerome Avenue"
+      },
+      "source": "E. 195th Street and Jerome Avenue",
+      "technique": "gpt"
+    },
     "height": 474,
     "id": "731468f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731468f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Hunter College"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95953160-c55f-012f-9191-58d385a7bc34",
     "text": "(1) Hunter College (Bronx); W.P.A. men are shown working on the site of the College's new Bronx center on the west side of Jerome Avenue, north of E. 195th Street. The elevated trestle of the I.R.T. subway appears on the right.\n\nJanuary 6, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(2) Viewing northeastward across the campus from near Paul Avenue. In the left background is visible De Witt Clinton High School, and in the center are the chimney stacks of the City-Owned and I.R.T. subway car yards.\n\nMay 10, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(3) The entrance to the campus at Paul Avenue.\n\n1937\n\nW.P.A. Photo\nFive Boroughs Project\n",
     "text_source": "gpt",
@@ -86,9 +205,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 195th Street",
+        "str2": "Jerome Avenue"
+      },
+      "source": "E. 195th Street and Jerome Avenue",
+      "technique": "gpt"
+    },
     "height": 478,
     "id": "731468f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731468f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Hunter College"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95953160-c55f-012f-9191-58d385a7bc34",
     "text": "(1) Hunter College (Bronx); W.P.A. men are shown working on the site of the College's new Bronx center on the west side of Jerome Avenue, north of E. 195th Street. The elevated trestle of the I.R.T. subway appears on the right.\n\nJanuary 6, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(2) Viewing northeastward across the campus from near Paul Avenue. In the left background is visible De Witt Clinton High School, and in the center are the chimney stacks of the City-Owned and I.R.T. subway car yards.\n\nMay 10, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(3) The entrance to the campus at Paul Avenue.\n\n1937\n\nW.P.A. Photo\nFive Boroughs Project\n",
     "text_source": "gpt",
@@ -102,9 +244,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 195th Street",
+        "str2": "Jerome Avenue"
+      },
+      "source": "E. 195th Street and Jerome Avenue",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "731468f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731468f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Hunter College"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95953160-c55f-012f-9191-58d385a7bc34",
     "text": "(1) Hunter College (Bronx); W.P.A. men are shown working on the site of the College's new Bronx center on the west side of Jerome Avenue, north of E. 195th Street. The elevated trestle of the I.R.T. subway appears on the right.\n\nJanuary 6, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(2) Viewing northeastward across the campus from near Paul Avenue. In the left background is visible De Witt Clinton High School, and in the center are the chimney stacks of the City-Owned and I.R.T. subway car yards.\n\nMay 10, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(3) The entrance to the campus at Paul Avenue.\n\n1937\n\nW.P.A. Photo\nFive Boroughs Project\n",
     "text_source": "gpt",

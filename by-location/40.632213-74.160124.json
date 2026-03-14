@@ -2,9 +2,44 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 181,
+        "street": "Harbor Road"
+      },
+      "source": "181 Harbor Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor Road",
+        "str2": "Journeay Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor Road",
+        "str2": "Journeay Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "728911f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728911f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81ae1380-c55b-012f-47ad-58d385a7bc34",
     "original_title": "Richmond: Harbor Road - Journeay Street",
     "text": "181 Harbor Road, east side, at Journey Street, showing the Italian Mission Methodist Episcopal Church.\n\nApril 23, 1932\nViews 1, 2\n\nP. L. Sperr\n",
@@ -19,9 +54,44 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 181,
+        "street": "Harbor Road"
+      },
+      "source": "181 Harbor Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor Road",
+        "str2": "Journeay Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor Road",
+        "str2": "Journeay Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "728911f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728911f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81ae1380-c55b-012f-47ad-58d385a7bc34",
     "original_title": "Richmond: Harbor Road - Journeay Street",
     "text": "181 Harbor Road, east side, at Journey Street, showing the Italian Mission Methodist Episcopal Church.\n\nApril 23, 1932\nViews 1, 2\n\nP. L. Sperr\n",

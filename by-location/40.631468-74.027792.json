@@ -2,9 +2,32 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "Bay Ridge Parkway"
+      },
+      "source": "Brooklyn: Bay Ridge Parkway - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 442,
     "id": "703118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29782770-c533-012f-9b9d-58d385a7bc34",
     "original_title": "Brooklyn: Bay Ridge Parkway - 3rd Avenue",
     "text": "Bay Ridge parkway, at Third Ave.  The street running east and west under the bridge, is the Bay Ridge Parkway.  Overhead is Third Ave., running north and south; the Third Ave., Elevated Line of the B.M.T. is seen above it.\n\nAbout 1915.\n\nEugene L. Arbruster Collection.\n",
@@ -19,9 +42,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay Ridge",
+        "str2": "Third Avenue"
+      },
+      "source": "Bay Ridge and Third Avenue",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "1557765",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557765.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bay Ridge Theatre"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Motion picture theaters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64156550-c5ec-012f-239d-58d385a7bc34",
     "text": null,
     "text_source": null,

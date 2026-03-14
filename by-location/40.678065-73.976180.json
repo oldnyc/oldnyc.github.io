@@ -2,9 +2,30 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Avenue",
+        "str2": "Sterling Place"
+      },
+      "source": "Brooklyn: 6th Avenue - Sterling Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702430f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702430f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/217cf9e0-c532-012f-5277-58d385a7bc34",
     "original_title": "Brooklyn: 6th Avenue - Sterling Place",
     "text": "Church of St. Augustine. (Roman Catholic) Sixth Avenue & Sterling Place,\nBrooklyn\nAbout 1890.\n",
@@ -19,9 +40,32 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Avenue",
+        "str2": "Sterling Place"
+      },
+      "source": "Brooklyn: Sterling Place - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706882f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706882f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Garages",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f921d390-c538-012f-cf79-58d385a7bc34",
     "original_title": "Brooklyn: Sterling Place - 6th Avenue",
     "text": "P.L. Sperr, photographer\n8-6-1942\n",

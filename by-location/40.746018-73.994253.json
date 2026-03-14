@@ -2,9 +2,37 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "26th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 26th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709726f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709726f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Carts & wagons",
+          "Drugstores",
+          "Horse teams",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/960ca840-c53d-012f-adf5-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 26th Street",
     "text": "Seventh Avenue at N. E. corner of 26th Street. About 1912.  NEG.# 3005",
@@ -19,9 +47,34 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "26th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 26th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709727f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709727f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Hotels",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9663eea0-c53d-012f-380f-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 26th Street (West)",
     "text": "Seventh Avenue, north across W. 26th Street, showing mainly the easterly side. Note the newly completed 21-story loft and offices structure at the N. E. corner of 27th Street. The 20-story Manufacturers Building occupies the 28th and 29th Street frontage. The Pennsylvania Hotel is the next large unit observable. At the lower left is Guffanti's Restaurant at the S. W. Corner.\n\nApril 10, 1921\n\nGift of E. M. Jenks\n",
@@ -36,9 +89,32 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "26th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 26th Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "709728f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709728f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Fur trade",
+          "Hardware stores",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96da0d30-c53d-012f-17b2-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 26th Street",
     "text": "Seventh Avenue, west side, from 26th to 27th Streets. About 1921.\nUnderwood and Underwood, Photographers.\n",
@@ -56,9 +132,34 @@
     "dates_from_text": [
       "1927-08-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "26th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 26th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709725f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709725f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Samuel Kahn Furs."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Accidents",
+          "Fur trade"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9583fc60-c53d-012f-b1c4-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 26th Street",
     "text": "Seventh Avenue at S. E. corner of 26th Street.\nAugust 20, 1927.\nP.L. Sperr, Photographer.\n",

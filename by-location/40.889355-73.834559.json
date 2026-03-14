@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street (East)",
+        "str2": "Pratt Avenue"
+      },
+      "source": "Bronx: Pratt Avenue - 233rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 437,
     "id": "701646f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701646f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbc72370-c530-012f-0218-58d385a7bc34",
     "original_title": "Bronx: Pratt Avenue - 233rd Street (East)",
     "text": "3821 Pratt Ave., west side, between East 233rd Street and Amundson Ave.\n\nAbout 1923.\nW. B. Vernam\n",

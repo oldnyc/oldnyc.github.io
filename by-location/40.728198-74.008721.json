@@ -2,9 +2,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Greenwich Street",
+        "str2": "King Street"
+      },
+      "source": "Manhattan: Greenwich Street - King Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "720232f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720232f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Ninth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Elevated railroads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e33a9f0-c54e-012f-865c-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - King Street",
     "text": "Greenwich Street, north from King Street, showing surface conditions under the Ninth Avenue Elevated.\n\nJune 2, 1937\n\nW.P.A. photo\nFive Boroughs Project\n",

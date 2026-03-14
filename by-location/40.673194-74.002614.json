@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Street",
+        "str2": "Lorraine Street"
+      },
+      "source": "Brooklyn: Clinton Street - Lorraine Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703698f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703698f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c01eaa0-c534-012f-28e1-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Street - Lorraine Street",
     "text": "Clinton Street, south of Lorraine Street. This area is soon to be occupied with low cost apartments.\n\nJune 9, 1938.\n\nP. L. Sperr\n",
@@ -19,9 +40,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Street",
+        "str2": "Lorraine Street"
+      },
+      "source": "Brooklyn: Clinton Street - Lorraine Street",
+      "technique": "title-cross"
+    },
     "height": 381,
     "id": "703699f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703699f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c595a80-c534-012f-296b-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Street - Lorraine Street",
     "text": null,

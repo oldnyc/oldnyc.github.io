@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 5,
+        "street": "West 56th Street"
+      },
+      "source": "5 West 56th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558263",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558263.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Private Dwellings"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/decc38b0-c5ec-012f-dbc1-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "140th Street",
+        "str2": "Convent Avenue"
+      },
+      "source": "140th Street and Convent Avenue",
+      "technique": "gpt"
+    },
     "height": 525,
     "id": "417200",
     "image_url": "https://images.nypl.org/?id=417200&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a565b9f0-c611-012f-01de-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,38 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "140th Street (West)",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - 140th Street (West).",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "731416f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731416f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "City College ; Main Building.",
+        "Manhattan: Convent Avenue - 140th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "City University of New York. City College"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81925d90-c55f-012f-053c-58d385a7bc34",
     "text": "College of the City of New York: The Main Building on St. Nicholas Terrace, seen from St. Nicholas Park. On the right is the Chemistry Building, at the S. W. corner of Convent Avenue and W. 140th Street, across the roof of which appears the chimney of the Technology Building.\n\nAbout 1915\n\nGift of Urbrock Collection\n",
     "text_source": "gpt",
@@ -34,9 +85,45 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "140th Street",
+        "str2": "Convent Avenue"
+      },
+      "source": "140th Street and Convent Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "136th Street",
+        "str2": "Convent Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 483,
     "id": "731417f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731417f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Convent Avenue - 136th and 140th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "City University of New York. City College"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81e385c0-c55f-012f-87c9-58d385a7bc34",
     "text": "College of the City of New York:\n\nMain Building of the College of the City of New York, Convent Avenue, from but not including 136th, to but not including 140th Streets.\n\nAbout 1925.\n\nEwing Galloway.\n",
     "text_source": "gpt",

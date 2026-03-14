@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Eastern Parkway",
+        "str2": "Herkimer Street"
+      },
+      "source": "Eastern Parkway and Herkimer Street",
+      "technique": "gpt"
+    },
     "height": 474,
     "id": "732687f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732687f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Congregational churches",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8762a260-c561-012f-8e53-58d385a7bc34",
     "text": "Herkimer Street, at the northwest corner of Eastern Parkway, showing Public School No. 155. The view is westward and shows next to the school the Beecher Memorial Congregational Church.\n\nBoard of Education of the City of New York. Early 1930's\n",
     "text_source": "gpt",

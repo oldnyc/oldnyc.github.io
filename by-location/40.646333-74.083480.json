@@ -2,9 +2,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 90,
+        "street": "St. Marks Place"
+      },
+      "source": "90 St. Marks Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "104576",
     "image_url": "https://images.nypl.org/?id=104576&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75ab3040-c5ee-012f-d316-58d385a7bc34",
     "text": null,
     "text_source": null,

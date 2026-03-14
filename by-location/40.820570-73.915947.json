@@ -2,9 +2,29 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 731,
+        "street": "Melrose Avenue"
+      },
+      "source": "Melrose Avenue #731",
+      "technique": "title-address"
+    },
     "height": 389,
     "id": "1509455",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509455.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/954461a0-c5cd-012f-ba2b-58d385a7bc34",
     "text": null,
     "text_source": null,

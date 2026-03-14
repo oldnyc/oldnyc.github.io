@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Ave.",
+        "str2": "Willoughby Ave."
+      },
+      "source": "Brooklyn: Willoughby Ave. - Clinton Ave.",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707364f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707364f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5ce9e80-c539-012f-59e4-58d385a7bc34",
     "original_title": "Brooklyn: Willoughby Ave. - Clinton Ave.",
     "text": "P.L. Sperr, photographer\n6-19-1942\n",
@@ -19,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703644f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5f1b8d0-c533-012f-aca2-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Willoughby Avenue",
     "text": "P.L. Sperr, photographer 6-19-1942",

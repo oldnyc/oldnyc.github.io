@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 106,
+        "street": "148th Street"
+      },
+      "source": "148th Street #106",
+      "technique": "title-address"
+    },
     "height": 387,
     "id": "1509993-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509993-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Jamaica"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c66e7c0-c5cf-012f-d40b-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Briar Place",
+        "str2": "Collier Avenue"
+      },
+      "source": "Queens: Briar Place - Collier Avenue",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "726208f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726208f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/670ccb40-c557-012f-1ee2-58d385a7bc34",
     "original_title": "Queens: Briar Place - Collier Avenue",
     "text": "Briar Place, west side, between Collier and Brookhaven Aves., showing a remodeled mansion.\n\nEugene L. Armbruster Collection.\n\nMay 1923.\n",

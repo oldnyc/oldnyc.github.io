@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Brady Avenue",
+        "str2": "Muliner Avenue"
+      },
+      "source": "Bronx: Muliner Avenue - Brady Avenue",
+      "technique": "title-cross"
+    },
     "height": 452,
     "id": "701514f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701514f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c93400f0-c530-012f-8c29-58d385a7bc34",
     "original_title": "Bronx: Muliner Avenue - Brady Avenue",
     "text": "Muliner Ave., east side, south from Brady Ave. The avenue bends eastward at Neil Ave.\n\nAbout 1913.\n",

@@ -2,9 +2,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 46,
+        "street": "21st Street"
+      },
+      "source": "46 21st Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558435",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558435.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "United States Post Office - Long Island City - main entrance"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d5e7210-c5ed-012f-11ea-58d385a7bc34",
     "text": null,
     "text_source": null,

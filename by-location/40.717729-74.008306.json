@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1933"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 60,
+        "street": "Hudson Street"
+      },
+      "source": "60 Hudson Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson Street",
+        "str2": "Willoughby Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson Street",
+        "str2": "Willoughby Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720464f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720464f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a1e4090-c54e-012f-7edd-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Willoughby Street",
     "text": "A rear view of the Western Union Building (No. 60 Hudson Street), as seen from Broadway; viewing westward and showing the West Broadway and Thomas Street sides. Shown in the background, is the Hudson River.\n\nAbout 1933.\n\nEwing Galloway.\n",

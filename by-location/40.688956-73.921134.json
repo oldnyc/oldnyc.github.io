@@ -2,9 +2,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Howard Avenue"
+      },
+      "source": "Brooklyn: Howard Avenue - Broadway",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "704994f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704994f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/182af750-c536-012f-004c-58d385a7bc34",
     "original_title": "Brooklyn: Howard Avenue - Broadway",
     "text": "Howard Ave., at the S.W. corner of Broadway. A view of the Bushwick Central Hospital.\nAbout 1912.\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Monroe Street"
+      },
+      "source": "Brooklyn: Broadway - Monroe Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703342f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703342f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Florist shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80761fe0-c533-012f-d6d4-58d385a7bc34",
     "original_title": "Brooklyn: Broadway - Monroe Street",
     "text": "Broadway (right), at intersection of Monroe Street, looking north.\n\nP. L. Sperr\n\nSeptember 13, 1941\n",

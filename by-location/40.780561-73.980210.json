@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 75th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715953f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715953f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/808e6d80-c547-012f-aeba-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 75th Street (West)",
     "text": "Amsterdam Ave., east side, north from and including West 75th., to, but not including West 76th Streets. Also shown is West 75th Street, north side, east from Amsterdam, to, but not including Columbus Aves. Prominent building shown at the N.E. corner, is No. 161 West 75th Street.\n\nAbout 1928.\n\nKnickerbocker Photo Service.\n",
@@ -19,9 +40,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 75th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "714464f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714464f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cigar industry",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/472e0eb0-c545-012f-2060-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (West) - Amsterdam Avenue",
     "text": "West 75th Street, west from but not including Amsterdam Ave. Intersection shown in the foreground is Broadway.\n\nJuly 27, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

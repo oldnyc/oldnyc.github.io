@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "163rd Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: 163rd Street (East) - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700195f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700195f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ecad9550-c52e-012f-9add-58d385a7bc34",
     "text": "East 163rd Street, south side, east from Grand Concourse. The property on the right was formerly the Robert Simpson estate.\n\nJuly 7, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +39,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "163rd Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 163rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701154f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701154f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Joyce Kilmer Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Parks",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3ee0f9b0-c530-012f-cbc7-58d385a7bc34",
     "text": "Grand Concourse, west side, north from E. 163rd street, showing new apartment house construction, at the northwest corner of E. 164th Street. On the left is the All Hallows Institute on E. 164th Street. Also shown is the north end of Joyce Kilmer Park.\n\nP. L. Sperr\n\nApril 10, 1941\n",
     "text_source": "gpt",

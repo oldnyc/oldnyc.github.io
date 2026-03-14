@@ -2,9 +2,35 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "119th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 119th Street",
+      "technique": "title-cross"
+    },
     "height": 439,
     "id": "722775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885"
+        ],
+        "topic": [
+          "Bicycles & tricycles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36634f50-c552-012f-ebef-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 119th Street",
     "text": "Riverside Drive, north from West 119th Street, showing bicycles near General U.S. Grants Tomb. This photograph was published by the Department of Parks in a booklet on the occasion of the opening of the West Side Improvement Project on October 12, 1937.\n\nAbout 1900.\n\nGift of Department of Parks.\n",
@@ -19,9 +45,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "119th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "119th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 560,
     "id": "464736-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464736-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1bd8cb70-c612-012f-f3d2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +82,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "One Hundred and Nineteenth Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "One Hundred and Nineteenth Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 528,
     "id": "417413",
     "image_url": "https://images.nypl.org/?id=417413&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbf23cc0-c611-012f-be4c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +120,52 @@
   {
     "date": "1928; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "119th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "119th Street and Riverside Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Claremont Avenue",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Claremont Avenue",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 466,
     "id": "718979f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718979f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Clubs",
+          "Educational facilities",
+          "Music education",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3fae2600-c54c-012f-d5b5-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - Riverside Drive",
     "text": "Claremont Avenue, showing New York Conservetory of Music and International House at left, from Riverside Drive and 119th Street.\n\nP. L. Sperr\nJune, 1928\n",
@@ -69,9 +181,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "West 119th Street"
+      },
+      "source": "Riverside Park and West 119th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "199th Street",
+        "str2": "Riverside Park",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "199th Street",
+        "str2": "Riverside Park",
+        "technique": "gpt"
+      }
+    ],
     "height": 479,
     "id": "722926f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722926f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78f38860-c552-012f-bb6d-58d385a7bc34",
     "text": "Riverside Park: A small tots sand pile near West 119th Street. In the center background is General Grants Tomb. This photograph was published by the Department of Parks on the opening of the West Side Improvement Project on October 12, 1937. In comparison to same was shown a Riverside Drive view of 1900 showing bicyclers in the same area; for which see files under that classification.\n\n1937.\n\nSamuel H. Gottscho.\nGift of Department of Parks.\n",
     "text_source": "gpt",

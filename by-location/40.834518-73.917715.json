@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "167th Street",
+        "str2": "Grand Concourse"
+      },
+      "source": "167th Street and Grand Concourse",
+      "technique": "gpt"
+    },
     "height": 324,
     "id": "1509439-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509439-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/920b7210-c5cd-012f-59c7-58d385a7bc34",
     "text": null,
     "text_source": null,

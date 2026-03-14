@@ -2,9 +2,45 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 3,
+        "street": "West 123rd Street"
+      },
+      "source": "3 West 123rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "123rd Street (West)",
+        "str2": "Mt. Morris Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Mt. Morris Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "715283f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715283f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8083b560-c546-012f-1cfe-58d385a7bc34",
     "original_title": "Manhattan: 123rd Street (West) - Mt. Morris Avenue",
     "text": "3-5 West 123rd Street, west of adjoining, and at the N.W. corner of Mt. Morris Avenue. Mt. Morris Avenue is a short avenue that extends from 120th Street to 124th Street, on the west side of Mt. Morris Park.\n\nAbout 1913.\n",

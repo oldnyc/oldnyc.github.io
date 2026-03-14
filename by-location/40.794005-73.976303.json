@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "93rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "93rd Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 548,
     "id": "464734-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464734-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b0c2480-c612-012f-4dc4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Ninety-third Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Ninety-third Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 523,
     "id": "417245",
     "image_url": "https://images.nypl.org/?id=417245&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7f871e0-c611-012f-a2f7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Ninety-third Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Ninety-third Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 525,
     "id": "417303",
     "image_url": "https://images.nypl.org/?id=417303&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d04c7290-c611-012f-f6a9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +115,31 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "722736f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722736f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Crowds",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/277c45a0-c552-012f-dd1d-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 93rd Street",
     "text": "One of the largest celebrations of Bastille Day took place at the Joan of Arc Statue, Riverside Drive and 93rd Street, under the auspices of the Joan of Arc Statue Committee and the American Defence Soc.\nJuly, 1918  International Films Service\n",
@@ -67,9 +154,44 @@
   {
     "date": "1926; 1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 93rd Street"
+      },
+      "source": "Riverside Drive and West 93rd Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "734576f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734576f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Riverside Drive - West 93rd Street - 101st Street ; U. S. Guard cutter ; Naval Militia ship Illinois."
+      ],
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885"
+        ],
+        "topic": [
+          "Boats",
+          "Churches",
+          "Parks",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/829c07e0-c564-012f-b09d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -85,9 +207,44 @@
   {
     "date": "1926; 1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 93rd Street"
+      },
+      "source": "Riverside Drive and West 93rd Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "734576f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734576f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Riverside Drive - West 93rd Street - 101st Street ; U. S. Guard cutter ; Naval Militia ship Illinois."
+      ],
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885"
+        ],
+        "topic": [
+          "Boats",
+          "Churches",
+          "Parks",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/829c07e0-c564-012f-b09d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -103,9 +260,44 @@
   {
     "date": "1926; 1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 93rd Street"
+      },
+      "source": "Riverside Drive and West 93rd Street",
+      "technique": "gpt"
+    },
     "height": 395,
     "id": "734576f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734576f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Riverside Drive - West 93rd Street - 101st Street ; U. S. Guard cutter ; Naval Militia ship Illinois."
+      ],
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885"
+        ],
+        "topic": [
+          "Boats",
+          "Churches",
+          "Parks",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/829c07e0-c564-012f-b09d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -121,9 +313,35 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 93rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "722904f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722904f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Boat clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e7f2710-c552-012f-a472-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 93rd Street (West)",
     "text": "Riverside Park, at the foot of W. 93rd Street, showing the Columbia Yacht Club, viewed from the Drive.\n(view 1) July 11, 1931\nP. L. Sperr, photographer\n(view 2) Apr. 29, 1934\n",
@@ -139,9 +357,35 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 93rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "722904f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722904f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Boat clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e7f2710-c552-012f-a472-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 93rd Street (West)",
     "text": "Riverside Park, at the foot of W. 93rd Street, showing the Columbia Yacht Club, viewed from the Drive.\n(view 1) July 11, 1931\nP. L. Sperr, photographer\n(view 2) Apr. 29, 1934\n",
@@ -157,9 +401,38 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "722900f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722900f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hudson River Yacht Club."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boat clubs",
+          "Parks",
+          "Yachts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6c89ee90-c552-012f-fc06-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 93rd Street",
     "text": "Riverside Park: The Hudson River Yacht Club at the foot of West 90th Street. Buildings on the right,line the easterly side of Riverside Drive and overlook the park and the river.\n\nApril 29, 1934\nViews: 1-2-3\n\nP. L. Sperr\n",
@@ -174,9 +447,38 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "722900f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722900f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hudson River Yacht Club."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boat clubs",
+          "Parks",
+          "Yachts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6c89ee90-c552-012f-fc06-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 93rd Street",
     "text": "Riverside Park: The Hudson River Yacht Club at the foot of West 90th Street. Buildings on the right,line the easterly side of Riverside Drive and overlook the park and the river.\n\nApril 29, 1934\nViews: 1-2-3\n\nP. L. Sperr\n",
@@ -191,9 +493,38 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "722900f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722900f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hudson River Yacht Club."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boat clubs",
+          "Parks",
+          "Yachts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6c89ee90-c552-012f-fc06-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 93rd Street",
     "text": "Riverside Park: The Hudson River Yacht Club at the foot of West 90th Street. Buildings on the right,line the easterly side of Riverside Drive and overlook the park and the river.\n\nApril 29, 1934\nViews: 1-2-3\n\nP. L. Sperr\n",

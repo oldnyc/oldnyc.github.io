@@ -2,9 +2,43 @@
   {
     "date": "1923-06-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 350,
+        "street": "West 31st Street"
+      },
+      "source": "350 West 31st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue",
+        "str2": "Ninth Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 469,
     "id": "1558149",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558149.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Demolition",
+          "Historic buildings",
+          "Trucks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8ef87e0-c5ec-012f-0cfc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +52,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 358,
+        "street": "W 31st Street"
+      },
+      "source": "31st Street (West) #358",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507851-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507851-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cae847d0-c5ce-012f-c832-58d385a7bc34",
     "text": null,
     "text_source": null,

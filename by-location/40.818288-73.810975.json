@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Lawton Avenue",
+        "str2": "Meagher Avenue"
+      },
+      "source": "Bronx: Meagher Avenue - Lawton Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "701451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701451f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1801540-c530-012f-2c90-58d385a7bc34",
     "original_title": "Bronx: Meagher Avenue - Lawton Avenue",
     "text": "Meagher Ave., at the N.E. corner of Lawton Ave., showing the St. Francis Roman Catholic Church.\n\nJuly 25, 1928.\n\nP. L. Sperr.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",

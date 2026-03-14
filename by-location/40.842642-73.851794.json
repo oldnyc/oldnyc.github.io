@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Paulding Avenue",
+        "str2": "Tremont Avenue (East"
+      },
+      "source": "Bronx: Tremont Avenue (East - Paulding Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "700939f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700939f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f260ec50-c52f-012f-d349-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - Paulding Avenue",
     "text": "E. Tremont Avenue, north side, east from Paulding to Lurting Avenues. The outdoor advertising signs are at the N. E. corner of E. Tremont and Paulding Avenues; the 5-story apartment house, at the N. E. corner of Hone Avenue.\n\nJune 22, 1940\n\nP. L. Sperr\n",

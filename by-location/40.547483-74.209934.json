@@ -2,9 +2,38 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 853,
+        "street": "Rossville Avenue"
+      },
+      "source": "853 Rossville Avenue",
+      "technique": "title-address"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Rossville Avenue (East)",
+        "str2": "Tarbes Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "729548f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729548f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "853 Rossville Avenue Richmond: [Staten Island] - Rossville Avenue (East) - Tarbes Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c7d08d0-c55c-012f-cde0-58d385a7bc34",
     "original_title": "Richmond: Rossville Avenue (East) - Tarbes Avenue.",
     "text": "855 Rossville Avenue, east side, between Tarbes and Correll Avenues.\n\nApril 19, 1938\n\nP. L. Sperr\n",

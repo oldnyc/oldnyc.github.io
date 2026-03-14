@@ -2,9 +2,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Park Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Park Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729499f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729499f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "name": [
+          "St. Nicholas Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buses",
+          "Hotels",
+          "Toy stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68db1ad0-c55c-012f-06e9-58d385a7bc34",
     "text": "2022-2024 Richmond Terrace, south side, west from Park Avenue to Richmond Avenue. The frame building with the colonnade is the Old St. James Hotel, where Aaron Burr, Vice President of the United States under Jefferson, died in 1836.\n\nJuly 29, 1929.\nP.L. Sperr\n",
     "text_source": "site",
@@ -18,9 +44,44 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Park Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Park Avenue and Richmond Terrace",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Richmond Avenue",
+        "str2": "Richmond Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Richmond Avenue",
+        "str2": "Richmond Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "729443f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729443f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53342480-c55c-012f-613f-58d385a7bc34",
     "text": "Richmond Terrace, north side, between Richmond Avenue and Park Avenue, showing the entrance to the Port Richmond-Bayonne (N.J.) Ferry\n\nApril 10, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "134th Street",
+        "str2": "95th Street"
+      },
+      "source": "Queens: 95th Street - 134th Street",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "725745f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725745f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2e68a70-c556-012f-510e-58d385a7bc34",
     "original_title": "Queens: 95th Street - 134th Street",
     "text": "95th Ave. (foreground), at the S.E. corner of 134th Street (Baker Ave.)\n\n1922.\n\nEugene L. Armbruster Collection.\n",

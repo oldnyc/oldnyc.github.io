@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-08-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bayard Street",
+        "str2": "Elizabeth Street"
+      },
+      "source": "Manhattan: Elizabeth Street - Bayard Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719638f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719638f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a0add70-c54d-012f-7528-58d385a7bc34",
     "original_title": "Manhattan: Elizabeth Street - Bayard Street",
     "text": "Elizabeth Street, east side, between Bayard and Canal Streets. Through clearance on the site of the former Thalia Theatre, appears the (Third Ave., Elevated), The three buildings shown are Nos. 38-44 Bowery.\n\nAugust 15, 1932.\n\nP. L. Sperr.\n",
@@ -22,9 +40,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bayard Street",
+        "str2": "Elizabeth Street"
+      },
+      "source": "Manhattan: Bayard Street - Elizabeth Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733292f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733292f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Bayard Street - Elizabeth Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Chinatown (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gift shops",
+          "Merchants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a6d6870-c562-012f-eb0e-58d385a7bc34",
     "text": "Street Scenes: Chinese delicacies and curios for sale to tourists in New York's Chinatown. The writer believes this setting to be on Bayard Street, slightly west of Elizabeth Street.\n\n1940\n\nAlexander Alland, photo\n",
     "text_source": "gpt",

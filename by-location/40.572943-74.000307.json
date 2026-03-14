@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "35th St. W.",
+        "str2": "Surf Ave."
+      },
+      "source": "Brooklyn: Surf Ave. - 35th St. W.",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "707006f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707006f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29045710-c539-012f-8634-58d385a7bc34",
     "original_title": "Brooklyn: Surf Ave. - 35th St. W.",
     "text": "3325-3329 Surf Ave., at the N.E. corner of West 35th Street, showing also, at the left, a small 1-story frame house No. 2961 West 35th Street. No. 3325, is to the right of the corner building.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",

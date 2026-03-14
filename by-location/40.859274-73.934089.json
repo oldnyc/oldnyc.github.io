@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1930-11-23"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Corbin Place",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Corbin Place and Fort Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Aven",
+        "str2": "St. Marks Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Avenue",
+        "str2": "St. Marks Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "719842f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719842f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2ea8de0-c54d-012f-4243-58d385a7bc34",
     "text": "House on Fort Washington Avenue between Barnard Studio and Corbin Place.\n\nP.L. Sperr, Photographer.\nNovember 23, 1930.\n",
     "text_source": "gpt",
@@ -21,9 +53,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Corbin Place",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Corbin Place and Fort Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Corbin Place",
+        "str2": "Fort Washington Aven",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "719843f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719843f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Greenhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3571dc0-c54d-012f-3202-58d385a7bc34",
     "text": "Riverview greenhouses, Fort Washington Avenue at N. E. corner of Carbin Place.\nP.L. Sperr, Photographer.\n\n(2)\n\nRiverview greenhouses, Fort Washington Avenue at N. E. corner of Carbin Place.\nP.L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -37,9 +98,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Corbin Place",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Corbin Place and Fort Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Corbin Place",
+        "str2": "Fort Washington Aven",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "719843f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719843f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Greenhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3571dc0-c54d-012f-3202-58d385a7bc34",
     "text": "Riverview greenhouses, Fort Washington Avenue at N. E. corner of Carbin Place.\nP.L. Sperr, Photographer.\n\n(2)\n\nRiverview greenhouses, Fort Washington Avenue at N. E. corner of Carbin Place.\nP.L. Sperr, Photographer.\n",
     "text_source": "gpt",

@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 35,
+        "street": "West 96th Street"
+      },
+      "source": "35 West 96th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465647",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465647.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/607ba0f0-c612-012f-4ed1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 35,
+        "street": "West Ninety-sixth Street"
+      },
+      "source": "35 West Ninety-sixth Street",
+      "technique": "gpt"
+    },
     "height": 519,
     "id": "417397",
     "image_url": "https://images.nypl.org/?id=417397&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5affd60-c611-012f-7f03-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,29 @@
   {
     "date": "1940-07-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Place",
+        "str2": "Furmanville Avenue"
+      },
+      "source": "Furmanville Avenue at 82nd Place, Queens",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "485922",
     "image_url": "https://images.nypl.org/?id=485922&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93fa2ae0-c60e-012f-f416-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1940-07-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Place",
+        "str2": "Furmanville Avenue"
+      },
+      "source": "82nd Place and Furmanville Avenue",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "485923",
     "image_url": "https://images.nypl.org/?id=485923&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/944a82a0-c60e-012f-125b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +74,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Place",
+        "str2": "Furmanville Avenue"
+      },
+      "source": "Queens: Furmanville Avenue - 82nd Place",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "726738f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726738f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Trails & paths"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/272ccbb0-c558-012f-1b28-58d385a7bc34",
     "original_title": "Queens: Furmanville Avenue - 82nd Place",
     "text": "Furmanville Avenue, at 82nd Place, viewing southwest-ward toward Dry Harbor Road (telephone poles) and Juniper Valley Road and showing a path across the empty lots, evidently a pedestrians' shortcut between Furmanville Avenue and the latter points.\n\nJuly 1, 1940\n\nP. L. Sperr\n",

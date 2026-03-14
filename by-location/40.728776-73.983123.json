@@ -2,9 +2,29 @@
   {
     "date": "1923-09-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 418,
+        "street": "E 11th Street"
+      },
+      "source": "11th Street (East) #418",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507727-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507727-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be614770-c5ce-012f-7bea-58d385a7bc34",
     "text": null,
     "text_source": null,

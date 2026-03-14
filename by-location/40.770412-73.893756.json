@@ -2,9 +2,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "21st Avenue",
+        "str2": "76th Street"
+      },
+      "source": "Queens: 76th Street - 21st Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725643f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725643f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses",
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0a10680-c556-012f-5844-58d385a7bc34",
     "original_title": "Queens: 76th Street - 21st Avenue",
     "text": "76th Street, east side, between 21st Avenue and Ditmars Boulevard, showing a North Beach farm, part of the former Riker property.\n\nP. L. Sperr\nJune 3, 1927\n",

@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Grand Street and Pitt Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "720115f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720115f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/122a75d0-c54e-012f-60d0-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Pitt Street: Exterior views of the Neighborhood Theatre.",
     "text": "(1) Grand Street, north side, east from but not including Pitt, to and including Columbia Streets. On the extreme left, is the Neighborhood Theatre, 466-470 Grand Street, adjoining the N.E. corner of Pitt Street.\nApril 1, 1928.\nP. L. Sperr.\n\n(2) The same, a closer view of Grand Street, at, adjoining and east of the N.E. corner of Pitt Street.\nOctober 28, 1927.\nP. L. Sperr.\n\n(3) The same, as No. 2, showing mainly the Neighborhood Theatre.\nOctober 12, 1931.\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Grand Street and Pitt Street",
+      "technique": "gpt"
+    },
     "height": 405,
     "id": "720115f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/720115f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/122a75d0-c54e-012f-60d0-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Pitt Street: Exterior views of the Neighborhood Theatre.",
     "rotation": 90,
@@ -37,9 +79,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Grand Street and Pitt Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "720115f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/720115f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/122a75d0-c54e-012f-60d0-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Pitt Street: Exterior views of the Neighborhood Theatre.",
     "rotation": 90,
@@ -58,9 +121,27 @@
     "dates_from_text": [
       "1928-04-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Manhattan: Pitt Street - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722613f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722613f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f499ab40-c551-012f-8b06-58d385a7bc34",
     "original_title": "Manhattan: Pitt Street - Grand Street",
     "text": "Pitt Sreet, at, adjoining and north of the N.E. corner of Grand Street.\n\nApril 1, 1928\n\nP. L. Sperr.\n",
@@ -75,9 +156,45 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Grand Street and Pitt Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Rodney Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Rodney Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720114f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720114f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11dcf280-c54e-012f-99b4-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Rodney Street",
     "text": "(1)\nAt the intersection of Grand, Division, Gouverneur and Pitt Streets, showing Grand Street, north side, west from and including Pitt Street; Division Street, north side, west from Gouverneur; also, Gouverneur Street, west side, from Grand to Division Streets. St. Mary's Roman Catholic Church appears at the corner of Grand and Ridge Streets.\n\nJuly 1, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a close-up of the intersection.\n\nJuly 22, 1936.\n\nP. L. Sperr.\n\n(3)\nThe same, showing only Grand Street.\n\nJuly 22, 1936.\n\nP. L. Sperr.\n",
@@ -92,9 +209,45 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Grand Street and Pitt Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Rodney Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Rodney Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720114f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720114f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11dcf280-c54e-012f-99b4-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Rodney Street",
     "text": "(1)\nAt the intersection of Grand, Division, Gouverneur and Pitt Streets, showing Grand Street, north side, west from and including Pitt Street; Division Street, north side, west from Gouverneur; also, Gouverneur Street, west side, from Grand to Division Streets. St. Mary's Roman Catholic Church appears at the corner of Grand and Ridge Streets.\n\nJuly 1, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a close-up of the intersection.\n\nJuly 22, 1936.\n\nP. L. Sperr.\n\n(3)\nThe same, showing only Grand Street.\n\nJuly 22, 1936.\n\nP. L. Sperr.\n",
@@ -109,9 +262,45 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Grand Street and Pitt Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Rodney Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Rodney Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720114f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720114f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11dcf280-c54e-012f-99b4-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Rodney Street",
     "text": "(1)\nAt the intersection of Grand, Division, Gouverneur and Pitt Streets, showing Grand Street, north side, west from and including Pitt Street; Division Street, north side, west from Gouverneur; also, Gouverneur Street, west side, from Grand to Division Streets. St. Mary's Roman Catholic Church appears at the corner of Grand and Ridge Streets.\n\nJuly 1, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a close-up of the intersection.\n\nJuly 22, 1936.\n\nP. L. Sperr.\n\n(3)\nThe same, showing only Grand Street.\n\nJuly 22, 1936.\n\nP. L. Sperr.\n",
@@ -126,9 +315,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand St.",
+        "str2": "Pitt St."
+      },
+      "source": "Grand St. and Pitt St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984438",
     "image_url": "https://images.nypl.org/?id=3984438&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27525420-c5d7-012f-f710-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -142,9 +355,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Division St.",
+        "str2": "Gouverneur St."
+      },
+      "source": "Division St. and Gouverneur St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984439",
     "image_url": "https://images.nypl.org/?id=3984439&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27ab2320-c5d7-012f-ba5e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -158,9 +395,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Pitt Street"
+      },
+      "source": "Manhattan: Grand Street - Pitt Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720113f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720113f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1176fb30-c54e-012f-6a75-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Pitt Street",
     "text": "458-460 Grand Street, adjoining the N.W. corner of Pitt Street, showing the store-front of a 7-story building.\n\nMarch 26, 1937.\n\nP. L. Sperr.\n",

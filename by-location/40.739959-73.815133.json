@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1937-03-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "60th Avenue",
+        "str2": "Kissena Boulevard"
+      },
+      "source": "Queens: Kissena Boulevard - 60th Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "727165f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727165f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ccf9c940-c558-012f-dc86-58d385a7bc34",
     "original_title": "Queens: Kissena Boulevard - 60th Avenue",
     "text": "Kissena Boulevard (left not shown), east side, opposite Sixtieth Ave., showing an old home facing towards Horace Harding Boulevard. March 3, 1937.",

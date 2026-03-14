@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Hatfield Place",
+        "str2": "Nicholas Avenue"
+      },
+      "source": "Richmond: Nicholas Avenue - Hatfield Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729221f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729221f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Orthodox churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fcfd81c0-c55b-012f-861d-58d385a7bc34",
     "original_title": "Richmond: Nicholas Avenue - Hatfield Place",
     "text": "Nicholas Avenue, adjoining the N.E. corner of Hatfield Place, showing the Greek Orthodox Church of the Assumption.\n\nMarch 22, 1930\n\nP. L. Sperr\n",

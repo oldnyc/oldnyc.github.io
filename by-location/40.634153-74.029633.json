@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-05-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "72nd Street",
+        "str2": "Ridge Boulevard"
+      },
+      "source": "Brooklyn: 72nd Street - Ridge Boulevard",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702833f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702833f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb33a800-c532-012f-2999-58d385a7bc34",
     "original_title": "Brooklyn: 72nd Street - Ridge Boulevard",
     "text": "72nd Street, at the S.E. corner of Ridge Blvd. Building concerned is frame.\nMay 10, 1929.\n\nP. L. Sperr.\n",
@@ -22,9 +40,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "72nd Street",
+        "str2": "Ridge Boulevard"
+      },
+      "source": "Brooklyn: 72nd Street - Ridge Boulevard",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "702834f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702834f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbafabf0-c532-012f-b374-58d385a7bc34",
     "original_title": "Brooklyn: 72nd Street - Ridge Boulevard",
     "text": "72nd Street, north side, east from Ridge Blvd. In the left foreground, is seen Public School No. 102.\nMay 10, 1929.\n\nP. L. Sperr.\n",
@@ -39,9 +83,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "72nd Street",
+        "str2": "Ridge Boulevard"
+      },
+      "source": "Brooklyn: Ridge Boulevard - 72nd Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "706480f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706480f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61556100-c538-012f-573d-58d385a7bc34",
     "original_title": "Brooklyn: Ridge Boulevard - 72nd Street",
     "text": "7022-7124 Ridge Blvd., west side, at and north of 72nd Street; No. 7124 is in the foreground.\nMay 10, 1929.\n\nP. L. Sperr.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-07-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hamilton Avenue",
+        "str2": "Nelson Street"
+      },
+      "source": "Brooklyn: Hamilton Avenue - Nelson Street",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "704752f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704752f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6693000-c535-012f-1930-58d385a7bc34",
     "original_title": "Brooklyn: Hamilton Avenue - Nelson Street",
     "text": "Hamilton Ave. at Nelson St., Brooklyn.\nP. L. Sperr, photographer\nJuly 24, 1940\n",
@@ -22,9 +40,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hamilton Avenue",
+        "str2": "Nelson Street"
+      },
+      "source": "Brooklyn: Nelson Street - Hamilton Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "705915f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705915f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Belt Parkway (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86a973b0-c537-012f-b86e-58d385a7bc34",
     "original_title": "Brooklyn: Nelson Street - Hamilton Avenue",
     "text": "Nelson Street, east from Hamilton Avenue. Hamilton Avenue is shown being widened as part of Brooklyn's northerly extension of the Belt Parkway; numerous tenements were torn down for that purpose.\n\nOctober 23, 1940\n\nP. L. Sperr\n",
@@ -39,9 +79,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hamilton Avenue",
+        "str2": "Nelson Street"
+      },
+      "source": "Brooklyn: Nelson Street - Hamilton Avenue",
+      "technique": "title-cross"
+    },
     "height": 411,
     "id": "705916f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705916f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/870c3370-c537-012f-a8df-58d385a7bc34",
     "original_title": "Brooklyn: Nelson Street - Hamilton Avenue",
     "text": "Brooklyn. Nelson Street, e. fr. Hamilton Ave.",

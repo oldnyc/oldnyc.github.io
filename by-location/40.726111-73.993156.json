@@ -2,9 +2,29 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 39,
+        "street": "Bond Street"
+      },
+      "source": "Bond Street #39",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508973-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508973-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d4164d20-c5cd-012f-cd00-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,45 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 39,
+        "street": "Bond Street"
+      },
+      "source": "39 Bond Street",
+      "technique": "title-address"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Alex Sloyer",
+        "str2": "Radus Restaurant Equipment Corp",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "1558402",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558402.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Alex Sloyer - Radus Restaurant Equipment Corp"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Industrial facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15689520-c5ed-012f-19f7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +90,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 39,
+        "street": "Bond Street"
+      },
+      "source": "39 Bond Street",
+      "technique": "title-address"
+    },
     "height": 498,
     "id": "1558403",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558403.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Old Otis elevator engine"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Elevators",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15bcd5e0-c5ed-012f-4241-58d385a7bc34",
     "text": null,
     "text_source": null,

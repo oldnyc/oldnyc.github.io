@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Beach Street",
+        "str2": "St. Pauls Avenue"
+      },
+      "source": "Richmond: Beach Street - St. Pauls Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728571f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728571f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fa2e04c0-c55a-012f-888f-58d385a7bc34",
     "original_title": "Richmond: Beach Street - St. Pauls Avenue",
     "text": "Beach Street, at the N.E. corner of St. Paul's Ave. (Stapleton), showing Trinity Lutheran Church. February 17, 1929.\n\nP. L. Sperr.\n",

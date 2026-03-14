@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Street (South)",
+        "str2": "Berry Street"
+      },
+      "source": "Brooklyn: 3rd Street (South) - Berry Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702308f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702308f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3eb59f0-c531-012f-33fd-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Street (South) - Berry Street",
     "text": "110-12 South 3rd Street, adjoining the southeast corner of Berry Street, showing the old Brooklyn Hospital and Dispensary. It first appears on an 1886 atlas of the City of Brooklyn. Sperr refers to it as \"The Relief,\" probably referring to its being used, at this time, as a station of the Home Relief Bureau.\n\nP. L. Sperr\n\nMay 1, 1936\n",

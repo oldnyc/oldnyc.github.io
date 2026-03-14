@@ -2,9 +2,33 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway North",
+        "str2": "Wallace Avenue"
+      },
+      "source": "Bronx: Pelham Parkway North - Wallace Avenue",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "701615f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701615f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx and Pelham Parkway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/efbbf960-c530-012f-9348-58d385a7bc34",
     "original_title": "Bronx: Pelham Parkway North - Wallace Avenue",
     "text": "Pelham Parkway North, east from about Wallace Ave.\n1923.\n",

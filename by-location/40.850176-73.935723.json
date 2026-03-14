@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "181st Street",
+        "str2": "Broadway"
+      },
+      "source": "181st Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 427,
     "id": "417647-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417647-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d493250-c6cd-012f-e1f2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 181st Street"
+      },
+      "source": "Manhattan: Broadway - West 181st Street",
+      "technique": "title-cross"
+    },
     "height": 437,
     "id": "1558431",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558431.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "B. S. Moss Coliseum Theater"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/20558d70-c5ed-012f-bf33-58d385a7bc34",
     "text": null,
     "text_source": null,

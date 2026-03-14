@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-06-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "86th Street"
+      },
+      "source": "Brooklyn: 86th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702887f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702887f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0236650-c532-012f-0d2c-58d385a7bc34",
     "original_title": "Brooklyn: 86th Street - 3rd Avenue",
     "text": "227-86th Street, north side, between Third Ave., and Ridge Blvd. The view shown is an old frame house.\nJune 5, 1931.\nF.L. Sperr\n",

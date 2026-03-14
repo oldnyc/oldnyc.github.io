@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "181st Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Bronx: Washington Avenue - 181st Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702026f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702026f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84a814d0-c531-012f-2eb8-58d385a7bc34",
     "original_title": "Bronx: Washington Avenue - 181st Street",
     "text": "Washington Avenue n.e. cor. 181st St.\n8-31-1942\nP.L.Sperr\n",

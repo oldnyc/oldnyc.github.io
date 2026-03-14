@@ -2,9 +2,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "111th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue - 111th Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "720838f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720838f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a825b90-c54f-012f-b651-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 111th Street",
     "text": "Lenox Avenue, e.s., at 111th Street\nP. L. Sperr, photographer\nJuly 9, 1941\n",

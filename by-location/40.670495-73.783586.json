@@ -2,9 +2,27 @@
   {
     "date": "1925-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "133rd Avenue",
+        "str2": "Rockaway Boulevard"
+      },
+      "source": "Queens: Rockaway Boulevard - 133rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "727904f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727904f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee64d4d0-c559-012f-9840-58d385a7bc34",
     "original_title": "Queens: Rockaway Boulevard - 133rd Avenue",
     "text": "153-08 Rockaway Boulevard, west side, between One Hundred Thirty-fourth and One Hundred Thirty-third Aves., showing the James H. Stoothoff house of 1890.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

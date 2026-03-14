@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grove Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Hudson Street - Grove Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720558f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720558f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bda1b350-c54e-012f-13d8-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Grove Street",
     "text": "490 Hudson Street, east side between Grove and Christopher Street, and Hudson and Bedford Streets, showing P.S. 3.\n\nBoard of Education, N.Y.C.\n\nJuly 8, 1929\n",
@@ -19,9 +43,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grove Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Hudson Street - Grove Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "720559f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720559f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Insurance companies",
+          "Public schools",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be060a70-c54e-012f-e84a-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Grove Street",
     "text": "(1) Hudson Street, east side, north from and including Grove, to and including Christopher Streets, as seen from the U.S. Appraises Stores, and showing a general view eastward. Prominent buildings are (left to right), the Chrysler, N.Y. Life, Metropolitan Life and the Consolidated Gas Co. Note Public School No. 3, at the N.E. corner of Grove Street.\n\nJuly 25, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJuly 25, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +89,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grove Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Hudson Street - Grove Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "720559f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720559f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Insurance companies",
+          "Public schools",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be060a70-c54e-012f-e84a-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Grove Street",
     "text": "(1) Hudson Street, east side, north from and including Grove, to and including Christopher Streets, as seen from the U.S. Appraises Stores, and showing a general view eastward. Prominent buildings are (left to right), the Chrysler, N.Y. Life, Metropolitan Life and the Consolidated Gas Co. Note Public School No. 3, at the N.E. corner of Grove Street.\n\nJuly 25, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJuly 25, 1930.\n\nP. L. Sperr.\n",
@@ -53,9 +135,34 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 483,
+        "street": "Hudson Street"
+      },
+      "source": "483 Hudson Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "720554f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720554f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Lukes Chapel, 483 Hudson Street, Manhattan.",
+        "St. Luke's Protestant Episcopal Church."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc214580-c54e-012f-ed02-58d385a7bc34",
     "text": "Federal Art Project\n\"Changing New York\"\nPhotographs by Berenice Abbott\n\nTitle: St. Luke's Chapel.\nPlace: 483 Hudson Street, Manhattan\nDate: Oct. 21, 1935\nNeg. no. 21\t\tCode: IA3\nIII F1\n",
     "text_source": "gpt",
@@ -69,9 +176,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grove Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Hudson Street - Grove Street.",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "720560f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720560f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "St. Luke's Protestant Episcopal Church."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be723370-c54e-012f-9e18-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Grove Street.",
     "text": "Hudson Street, west side, at Grove Street, showing St. Lukes P.E. Chapel; cornerstone laid June 4, 1821. To the right are 3 story structures that extend to Christopher Street. The parish house is the first of these, occupying a double frontage. This photo was reproduced on page 96 of the published volume \"Changing New York.\"\n\nJune 18, 1936\n\nBerenice Abbott, photo\nFederal Art Project\n",
@@ -86,9 +218,40 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grove Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Grove Street - Hudson Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "732289f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732289f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Milk wagon and old houses, Grove Street, No. 4-10, Manhattan.",
+        "4-10 Grove Street ; Sheffield farms ; Milk wagon.",
+        "Manhattan: Grove Street - Hudson Street ; 4-10 Grove Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Greenwich Village (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Milk",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edfb6180-c560-012f-34ce-58d385a7bc34",
     "text": "Street Scenes - Manhattan: A milk wagon on a Greenwich Village route. Buildings to the rear are No's 4 to 10 Grove Street. Adjoining the latter (left) is the entrance to an interior garden row of dwellings identified as Grove Court. This is not shown.\n\nJune 18, 1936\n\nBerenice Abbott, photo\nFederal Art Project\n",
     "text_source": "gpt",
@@ -102,9 +265,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 487,
+        "street": "Hudson Street"
+      },
+      "source": "Hudson Street #487",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507570-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507570-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Luke's Chapel"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c45d340-c5ce-012f-1837-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -118,9 +304,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 483,
+        "street": "Hudson St."
+      },
+      "source": "483 Hudson St.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson Street",
+        "str2": "Willoughby Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson Street",
+        "str2": "Willoughby Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 494,
     "id": "720555f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720555f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc7915e0-c54e-012f-6b70-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Willoughby Street",
     "text": "N.Y.C. Art Project W.P.A.\nPhotographic Division\n110 King Street\nNew York City\n\nTitle: St. Luke's Chapel\nPlace: 483 Hudson St., Manhattan\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-06-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "35th Avenue",
+        "str2": "71st Street"
+      },
+      "source": "Queens: 71st Street - 35th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725599f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725599f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92106880-c556-012f-f34b-58d385a7bc34",
     "original_title": "Queens: 71st Street - 35th Avenue",
     "text": "71st Street, south from near 35th Avenue. June 23, 1932. P. L. Sperr.",

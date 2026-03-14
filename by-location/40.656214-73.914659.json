@@ -8,9 +8,27 @@
       "1922",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "703565f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703565f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6128710-c533-012f-b95d-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1)\nChurch Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen house.\n\n1922.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, a rear view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(3)\nThe same, another view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(4)\nThe same, showing the well on the property.\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -34,9 +52,27 @@
       "1922",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "703565f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703565f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6128710-c533-012f-b95d-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1)\nChurch Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen house.\n\n1922.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, a rear view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(3)\nThe same, another view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(4)\nThe same, showing the well on the property.\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -60,9 +96,27 @@
       "1922",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "703565f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703565f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6128710-c533-012f-b95d-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1)\nChurch Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen house.\n\n1922.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, a rear view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(3)\nThe same, another view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(4)\nThe same, showing the well on the property.\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -86,9 +140,27 @@
       "1922",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "703565f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703565f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6128710-c533-012f-b95d-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1)\nChurch Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen house.\n\n1922.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, a rear view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(3)\nThe same, another view.\n1922.\n\nEugene L. Armbruster Collection.\n\n(4)\nThe same, showing the well on the property.\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -106,9 +178,44 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Church Avenue and Rockaway Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 406,
     "id": "706028f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706028f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0a986f0-c537-012f-67d2-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "(1)\nNew Lots Road, at Church Ave. (Road now non existent). This home if now in existence would occupy the intersection at Rockaway Parkway and Church Ave. It was known as the Derrick Remsen House.\n1922.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing farm in rear.\n1922.\nEugene L. Armbruster Collection.\n\n(2) NEG. # 4372\n",
@@ -123,9 +230,44 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Church Avenue and Rockaway Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 409,
     "id": "706028f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706028f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0a986f0-c537-012f-67d2-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "(1)\nNew Lots Road, at Church Ave. (Road now non existent). This home if now in existence would occupy the intersection at Rockaway Parkway and Church Ave. It was known as the Derrick Remsen House.\n1922.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing farm in rear.\n1922.\nEugene L. Armbruster Collection.\n\n(2) NEG. # 4372\n",
@@ -140,9 +282,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "703566f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703566f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d683c9c0-c533-012f-e630-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen property, viewed from New Lots Road. May 1923. Eugene L. Armbruster Collection.\n\n(2) The same, a close up of the house. 1923. Eugene L. Armbruster Collection.\n\n(3) The same; another view, as seen from Church Ave. May 1923. Eugene L. Armbruster Collection.\n\n(4) The same; another view, showing the barn facing Church Ave. August 1923. Eugene L. Armbruster Collection.\n",
@@ -157,9 +320,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "703566f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703566f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d683c9c0-c533-012f-e630-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen property, viewed from New Lots Road. May 1923. Eugene L. Armbruster Collection.\n\n(2) The same, a close up of the house. 1923. Eugene L. Armbruster Collection.\n\n(3) The same; another view, as seen from Church Ave. May 1923. Eugene L. Armbruster Collection.\n\n(4) The same; another view, showing the barn facing Church Ave. August 1923. Eugene L. Armbruster Collection.\n",
@@ -174,9 +358,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "703566f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703566f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d683c9c0-c533-012f-e630-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen property, viewed from New Lots Road. May 1923. Eugene L. Armbruster Collection.\n\n(2) The same, a close up of the house. 1923. Eugene L. Armbruster Collection.\n\n(3) The same; another view, as seen from Church Ave. May 1923. Eugene L. Armbruster Collection.\n\n(4) The same; another view, showing the barn facing Church Ave. August 1923. Eugene L. Armbruster Collection.\n",
@@ -191,9 +396,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "703566f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703566f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d683c9c0-c533-012f-e630-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen property, viewed from New Lots Road. May 1923. Eugene L. Armbruster Collection.\n\n(2) The same, a close up of the house. 1923. Eugene L. Armbruster Collection.\n\n(3) The same; another view, as seen from Church Ave. May 1923. Eugene L. Armbruster Collection.\n\n(4) The same; another view, showing the barn facing Church Ave. August 1923. Eugene L. Armbruster Collection.\n",
@@ -208,9 +434,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "703567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703567f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6d9bcd0-c533-012f-370e-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1)\nChurch Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen house.\n\n1923.\nEugene L. Armbruster collection.\n\n(2)\nThe same, showing also out buildings of William F. Ryerson.\nMay 1923.\nEugene L. Armbruster Collection.\n",
@@ -225,9 +472,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "703567f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703567f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6d9bcd0-c533-012f-370e-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1)\nChurch Ave., north side, between Rockaway Parkway and East 96th Street, showing the Derick Remsen house.\n\n1923.\nEugene L. Armbruster collection.\n\n(2)\nThe same, showing also out buildings of William F. Ryerson.\nMay 1923.\nEugene L. Armbruster Collection.\n",
@@ -242,9 +510,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "703568f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703568f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d74536f0-c533-012f-f460-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing from left to right, the homes and barns of William F. Ryerson and Derick Remsen. March 1925.\nEugene L. Armbruster Collection.\n\n(2) The same, showing a closer view.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(3) The same, another angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(4) The same, a different angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n",
@@ -259,9 +549,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "703568f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703568f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d74536f0-c533-012f-f460-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing from left to right, the homes and barns of William F. Ryerson and Derick Remsen. March 1925.\nEugene L. Armbruster Collection.\n\n(2) The same, showing a closer view.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(3) The same, another angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(4) The same, a different angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n",
@@ -276,9 +588,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "703568f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703568f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d74536f0-c533-012f-f460-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing from left to right, the homes and barns of William F. Ryerson and Derick Remsen. March 1925.\nEugene L. Armbruster Collection.\n\n(2) The same, showing a closer view.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(3) The same, another angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(4) The same, a different angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n",
@@ -293,9 +627,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Church Avenue - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "703568f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703568f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d74536f0-c533-012f-f460-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Rockaway Parkway",
     "text": "(1) Church Ave., north side, between Rockaway Parkway and East 96th Street, showing from left to right, the homes and barns of William F. Ryerson and Derick Remsen. March 1925.\nEugene L. Armbruster Collection.\n\n(2) The same, showing a closer view.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(3) The same, another angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(4) The same, a different angle.\nMarch 1925.\nEugene L. Armbruster Collection.\n",
@@ -310,9 +666,38 @@
   {
     "date": "1926; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Church Avenue and Rockaway Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 469,
     "id": "706030f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706030f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b167a690-c537-012f-f13b-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "(1) New Lots Road, south side, west of Church Ave., showing the Derick Remsen house. April 1926. Eugene L. Armbruster Collection.\n\n(2) The same, showing the barn being demolished. It was located at the N.E. corner of Church Ave., and Rockaway Parkway. January 26, 1927. Eugene L. Armbruster Collection.\n\n(3) The same, showing the barn, partially demolished, and the house razed. Also seen is the side of the William F. Ryerson house. January 26, 1927. Eugene L. Armbruster Collection.\n\n(4) The same, another view. E.L. Armbruster, the photographer, states that one Van Brunt, who took down this house, intends to move it to a place believed to be Westchester County. January 26, 1927. Eugene L. Armbruster Collection.\n",
@@ -328,9 +713,38 @@
   {
     "date": "1926; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Church Avenue and Rockaway Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 451,
     "id": "706030f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706030f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b167a690-c537-012f-f13b-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "(1) New Lots Road, south side, west of Church Ave., showing the Derick Remsen house. April 1926. Eugene L. Armbruster Collection.\n\n(2) The same, showing the barn being demolished. It was located at the N.E. corner of Church Ave., and Rockaway Parkway. January 26, 1927. Eugene L. Armbruster Collection.\n\n(3) The same, showing the barn, partially demolished, and the house razed. Also seen is the side of the William F. Ryerson house. January 26, 1927. Eugene L. Armbruster Collection.\n\n(4) The same, another view. E.L. Armbruster, the photographer, states that one Van Brunt, who took down this house, intends to move it to a place believed to be Westchester County. January 26, 1927. Eugene L. Armbruster Collection.\n",
@@ -346,9 +760,38 @@
   {
     "date": "1926; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Church Avenue and Rockaway Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 466,
     "id": "706030f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706030f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b167a690-c537-012f-f13b-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "(1) New Lots Road, south side, west of Church Ave., showing the Derick Remsen house. April 1926. Eugene L. Armbruster Collection.\n\n(2) The same, showing the barn being demolished. It was located at the N.E. corner of Church Ave., and Rockaway Parkway. January 26, 1927. Eugene L. Armbruster Collection.\n\n(3) The same, showing the barn, partially demolished, and the house razed. Also seen is the side of the William F. Ryerson house. January 26, 1927. Eugene L. Armbruster Collection.\n\n(4) The same, another view. E.L. Armbruster, the photographer, states that one Van Brunt, who took down this house, intends to move it to a place believed to be Westchester County. January 26, 1927. Eugene L. Armbruster Collection.\n",
@@ -364,9 +807,38 @@
   {
     "date": "1926; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Church Avenue and Rockaway Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 471,
     "id": "706030f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706030f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b167a690-c537-012f-f13b-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "(1) New Lots Road, south side, west of Church Ave., showing the Derick Remsen house. April 1926. Eugene L. Armbruster Collection.\n\n(2) The same, showing the barn being demolished. It was located at the N.E. corner of Church Ave., and Rockaway Parkway. January 26, 1927. Eugene L. Armbruster Collection.\n\n(3) The same, showing the barn, partially demolished, and the house razed. Also seen is the side of the William F. Ryerson house. January 26, 1927. Eugene L. Armbruster Collection.\n\n(4) The same, another view. E.L. Armbruster, the photographer, states that one Van Brunt, who took down this house, intends to move it to a place believed to be Westchester County. January 26, 1927. Eugene L. Armbruster Collection.\n",

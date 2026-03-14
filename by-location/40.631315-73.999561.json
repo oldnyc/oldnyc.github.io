@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1935-04-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Avenue",
+        "str2": "58th Street"
+      },
+      "source": "12th Avenue and 58th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "12th Street",
+        "str2": "58th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "702522f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702522f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43a41ff0-c532-012f-1bc3-58d385a7bc34",
     "original_title": "Brooklyn: 12th Street - 58th Street",
     "text": "Twelfth Ave., at the S.W. corner of 58th Street, showing a rear view of 1208-1220, on the west side of 58th Street.\n\nApril 27, 1935.\n\nP. L. Sperr.\n",

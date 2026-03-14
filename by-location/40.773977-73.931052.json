@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "27th Avenue",
+        "str2": "9th Street"
+      },
+      "source": "Queens: 9th Street - 27th Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "724993f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724993f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4e9c2b0-c555-012f-3fee-58d385a7bc34",
     "original_title": "Queens: 9th Street - 27th Avenue",
     "text": "9th Street (foreground), at the N.E. corner of 27th Ave. (right, not shown). This is the R. M. Blackwell house.\n\n1922.\n\nEugene L. Ambruster Collection.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "27th Avenue",
+        "str2": "9th Street"
+      },
+      "source": "Queens: 27th Avenue - 9th Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "725156f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725156f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00eb96b0-c556-012f-eb68-58d385a7bc34",
     "original_title": "Queens: 27th Avenue - 9th Street",
     "text": "27th Ave., south side, opposite 9th Street, showing the James Tisdale mansion. It was erected in 1826 by Samuel Blackwell and was known as 134 Franklin Street. It came into the possession of James Tisdale, who came from Massachusetts in 1837, through his marriage to the daughter of the owner. His son Robert was the owner in 1896.\n\nEugene L. Ambruster Collection.\n\n1922.\n",
@@ -45,9 +81,41 @@
     "dates_from_text": [
       "1931-03-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "27th Avenue",
+        "str2": "9th Street"
+      },
+      "source": "27th Avenue and 9th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "26th Street",
+        "str2": "9th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "26th Avenue",
+        "str2": "9th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "724992f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724992f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c487a820-c555-012f-e1ea-58d385a7bc34",
     "original_title": "Queens: 9th Street - 26th Street",
     "text": "9th Street, west side, between 27th and 26th Avenues, showing an old mansion, a frame structure. It first appears in Wolverton's 1891 atlas, but does not show the owner.\n\nP. L. Sperr\nMarch 13, 1931\n",
@@ -62,9 +130,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "27th Avenue",
+        "str2": "9th Street"
+      },
+      "source": "Queens: 27th Avenue - 9th Street.",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "725155f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725155f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "27th Avenue, no. 805, Astoria, Long Island City, Queens.",
+        "Blackwell (Joseph) House."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/009a0120-c556-012f-2203-58d385a7bc34",
     "original_title": "Queens: 27th Avenue - 9th Street.",
     "text": "27th Avenue, north side, just west of 9th Street, showing the Josiah Blackwell House of 1873. It stands about 160 feet back of the street on elevated ground. When 8th Street will be cut through north from 27th Avenue, the wing of the house will face on that street. 27th Avenue is the former Franklin Avenue, and 9th Street the former Wardell Street.\nFederal Art Project--W.P.A.  May 25, 1937\nBerenice Abbott\n",

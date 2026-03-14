@@ -2,9 +2,29 @@
   {
     "date": "1944-10-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 14,
+        "street": "E 71st Street"
+      },
+      "source": "71st Street (East) #14",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508297-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508297-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0694cfc0-c5cf-012f-0079-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 70th Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714304f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714304f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/07de3ce0-c545-012f-5fc4-58d385a7bc34",
     "original_title": "Manhattan: 70th Street (West) - West End Avenue",
     "text": "249 West 70th Street, north side, between West End and Amsterdam avenues.\nAbout 1912.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 70th Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714305f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714305f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/082a2320-c545-012f-ef0d-58d385a7bc34",
     "original_title": "Manhattan: 70th Street (West) - West End Avenue",
     "text": "256 West 70th Street, south side, between West End and Amsterdam Avenues.\n\nAbout 1923.\n\nJoseph Smith.\nGift of E. M. Jenks.\n",

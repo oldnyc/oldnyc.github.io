@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "189th Street",
+        "str2": "Hoffman Street"
+      },
+      "source": "Bronx: 189th Street - Hoffman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700301f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700301f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Stairways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12bf9430-c52f-012f-9998-58d385a7bc34",
     "original_title": "Bronx: 189th Street - Hoffman Street",
     "text": "E. 189th Street, south side, east from but not including Hoffman Street to Hughes Avenue.\n\nMay 4, 1938.\n\nP.L. Sperr\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1938-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "189th Street (East)",
+        "str2": "Hoffman Street"
+      },
+      "source": "Bronx: Hoffman Street - 189th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701269f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701269f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6bda1cb0-c530-012f-3fba-58d385a7bc34",
     "original_title": "Bronx: Hoffman Street - 189th Street (East)",
     "text": "Hoffman Street, east side, north from E. 189th Street to E. Fordham Road.\n\nMay 4, 1938.\n\nP. L. Sperr.\n",
@@ -39,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "189th Street",
+        "str2": "Hoffman Street"
+      },
+      "source": "Bronx: 189th Street - Hoffman Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700302f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700302f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1322b600-c52f-012f-cf6a-58d385a7bc34",
     "original_title": "Bronx: 189th Street - Hoffman Street",
     "text": null,
@@ -56,9 +113,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "189th Street (East)",
+        "str2": "Hoffman Street"
+      },
+      "source": "Bronx: Hoffman Street - 189th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701271f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701271f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ca08c40-c530-012f-5575-58d385a7bc34",
     "original_title": "Bronx: Hoffman Street - 189th Street (East)",
     "text": null,

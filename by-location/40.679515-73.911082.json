@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hull Street",
+        "str2": "Rockaway Avenue"
+      },
+      "source": "Brooklyn: Rockaway Avenue - Hull Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "706506f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706506f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6af843a0-c538-012f-9dfc-58d385a7bc34",
     "original_title": "Brooklyn: Rockaway Avenue - Hull Street",
     "text": "P.L. Sperr, photographer  6-25-1942",

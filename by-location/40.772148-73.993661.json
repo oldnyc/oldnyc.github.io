@@ -2,9 +2,29 @@
   {
     "date": "1931-05-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "58th Street",
+        "str2": "Twelfth Avenue"
+      },
+      "source": "58th Street and Twelfth Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1507709-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507709-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb9837b0-c5ce-012f-d0bb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "58th Street"
+      },
+      "source": "Manhattan: 58th Street - 12th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "713989f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713989f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8efce980-c544-012f-cdc6-58d385a7bc34",
     "original_title": "Manhattan: 58th Street - 12th Avenue",
     "text": "58th Street, east from docks west of Twelfth Avenue.\nMay 29, 1931.\n\nP. L. Sperr.\n",

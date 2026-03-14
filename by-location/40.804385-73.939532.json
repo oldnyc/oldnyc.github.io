@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "124th Street (East)",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: 124th Street (East) - Park Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "715309f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715309f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Dairy products industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ab08070-c546-012f-2b25-58d385a7bc34",
     "original_title": "Manhattan: 124th Street (East) - Park Avenue",
     "text": "101-127 East 124th Street, at, adjoining, and east of the N.E. corner of Park Avenue. The one-story buildings in the foreground are the J. M. Horton Ice Cream Company. In the centre is the rear of Proctor's 125th Street Theatre.\nJuly 24, 1932.\n\nP. L. Sperr.\n",

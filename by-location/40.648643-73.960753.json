@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ocean Avenue",
+        "str2": "Tennis Court"
+      },
+      "source": "Brooklyn: Ocean Avenue - Tennis Court",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "706100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Private schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd4cded0-c537-012f-c592-58d385a7bc34",
     "text": "591 Ocean Ave., east side, at Tennis Court. A view of the Select Children's School, and was formerly the John Z. Lott House. It is used for a Kindergarten and dancing instruction.\n\n1929.\n\nEugene L. Armbruster.\n",
     "text_source": "gpt",

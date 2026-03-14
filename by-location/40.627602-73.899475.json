@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "84th Street (East)",
+        "str2": "Seaview Avenue"
+      },
+      "source": "Brooklyn: Seaview Avenue - 84th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "706695f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706695f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Shore Parkway (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b25d6ab0-c538-012f-a1bf-58d385a7bc34",
     "original_title": "Brooklyn: Seaview Avenue - 84th Street (East)",
     "text": "Seaview Avenue, north from about East 84th Avenue, showing a W. P. A. highway project in the Canarsie Beach section of the borough.\n\nSeptember 22, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

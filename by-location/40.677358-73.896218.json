@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "New Jersey Avenue"
+      },
+      "source": "Brooklyn: Fulton Street - New Jersey Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "704582f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704582f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70677c70-c535-012f-ad0c-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - New Jersey Avenue",
     "text": "Fulton Street, at the N.W. corner of New Jersey Ave., showing the home of John S. Andrews in 1873. (This house originally stood on the east side of Pennsylvania Ave., between Fulton Street and Jamaica Ave).\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "New Jersey Avenue"
+      },
+      "source": "Brooklyn: Fulton Street - New Jersey Avenue",
+      "technique": "title-cross"
+    },
     "height": 497,
     "id": "704581f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704581f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70114910-c535-012f-da72-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - New Jersey Avenue",
     "text": "Fulton Street, at the northeast corner of New Jersey Avenue, showing Public School No. 61, a probationary school.\nBoard of Education of the City of New York Early 1930's\n",
@@ -39,9 +81,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "New Jersey Avenue"
+      },
+      "source": "Brooklyn: New Jersey Avenue - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "705995f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705995f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a478fbb0-c537-012f-12dc-58d385a7bc34",
     "original_title": "Brooklyn: New Jersey Avenue - Fulton Street",
     "text": "BROOKLYN",

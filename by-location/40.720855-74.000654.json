@@ -2,9 +2,32 @@
   {
     "date": "1870",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Broadway - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 509,
     "id": "717263f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717263f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Episcopal churches",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/948eb390-c549-012f-6f54-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Grand Street",
     "text": "Bro adway, north across Grand Street, showing mainly the westerly side of this thoroughfare. At the left is the five story Grand Building, at the N.W. corner. In the right background is the spire of Grace P. E. Church at 10th Street. This photo is taken during the period when this section was the center of the shopping district, prior to their removal up Broadway.\n\nAbout 1870\n\nAmerican Studio, photo\n87 Nassau St., N.Y.C.\nGift of Urbrock Collection\nREPRODUCTION RIGHTS UNKNOWN\n\n(1) Lord & Taylor n.w. cor. Grand St. (now Bannerman's!)\n(2) 501 Bway w. of J. Stains 2nd store 1855-61 (architectural roofing)\n(3) Bell & Black, height at s.w. cor. Prince St. (Blake, Starr, & Co.)\n(4) Brougham's Lyceum, later Wallack's Theatre\n(5) St. Nicholas Hotel s.w. cor. Spring St.\n(6) Prescott House n.w. cor. Spring St.\n",
@@ -19,9 +42,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Grand St"
+      },
+      "source": "Broadway and Grand St",
+      "technique": "gpt"
+    },
     "height": 229,
     "id": "1627864",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627864.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e2c6910-c6d2-012f-de05-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +82,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Grand St"
+      },
+      "source": "Broadway and Grand St",
+      "technique": "gpt"
+    },
     "height": 228,
     "id": "1627865",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627865.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e6c7f80-c6d2-012f-5c8a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +122,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Grand Street"
+      },
+      "source": "Broadway and Grand Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fast Broadway",
+        "str2": "Grand Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "720126f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720126f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16485160-c54e-012f-99a7-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Fast Broadway",
     "text": null,

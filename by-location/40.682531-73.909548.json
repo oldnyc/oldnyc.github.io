@@ -2,9 +2,46 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1779,
+        "street": "Broadway"
+      },
+      "source": "1779 Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "254th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "254th Street",
+        "str2": "Broadway",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "703346f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703346f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/820ca970-c533-012f-f1f0-58d385a7bc34",
     "original_title": "Brooklyn: Broadway - 254th Street (West)",
     "text": "Broadway, e. fr. no. 1779, Brooklyn.\nP. L. Sperr, photographer\nAugust 3, 1941\n",

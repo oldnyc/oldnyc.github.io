@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "88th Street",
+        "str2": "Battery Avenue"
+      },
+      "source": "Brooklyn: Battery Avenue - 88th Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "703106f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703106f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Feed stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/247509e0-c533-012f-4e77-58d385a7bc34",
     "original_title": "Brooklyn: Battery Avenue - 88th Street",
     "text": "Battery Ave., west side, south of 88th Street, showing the hay and feed store of John Isselhart.  1922.  Eugene L. Armbruster Collection.",

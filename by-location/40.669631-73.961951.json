@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Classon Avenue",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: President Street - Classon Avenue",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "706323f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706323f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22d04d70-c538-012f-c1cc-58d385a7bc34",
     "original_title": "Brooklyn: President Street - Classon Avenue",
     "text": "President Street, at the southeast corner of Classon Avenue, Shown is Public School No. 241, this being the Carroll Street side of the school.\n\nBoard of Education of the City of New York March 23, 1931\n",
@@ -19,9 +43,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Classon Avenue",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: Classon Avenue - President Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Vocational education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee19c0d0-c533-012f-0ebb-58d385a7bc34",
     "original_title": "Brooklyn: Classon Avenue - President Street",
     "text": "Classon Avenue, at the southeast corner of President Street, showing the Brooklyn High School for Homemaking.\n\nP. L. Sperr\n\nSeptember 14, 1941\n",

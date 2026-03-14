@@ -2,9 +2,31 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Liberty Ave.",
+        "str2": "Vermont St."
+      },
+      "source": "Brooklyn: Vermont St. - Liberty Ave.",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "707203f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707203f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75a6c7b0-c539-012f-85f0-58d385a7bc34",
     "original_title": "Brooklyn: Vermont St. - Liberty Ave.",
     "text": "Vermont Street, west side, at and north of Liberty Ave., showing August Stork's Bakery which in 1874 was at the corner of Liberty and Miller Aves.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

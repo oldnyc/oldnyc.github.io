@@ -6,9 +6,27 @@
       "1923-05",
       "1923-03"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "75th Street",
+        "str2": "Furmanville Avenue"
+      },
+      "source": "Queens: Furmanville Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "726739f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726739f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/279baf40-c558-012f-1332-58d385a7bc34",
     "original_title": "Queens: Furmanville Avenue - 75th Street",
     "text": "Furmanville Ave. (formerly Juniper Swamp Road), north side, east from 75th Street, showing the J. Bedell House from 1852-1860, in the foreground. The Sickman family were owners from 1873 to 1891.\n\nMay 1923.\nView 2: March 1923.\n\nEugene L. Armbruster Collection.\n",
@@ -28,9 +46,27 @@
       "1923-05",
       "1923-03"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "75th Street",
+        "str2": "Furmanville Avenue"
+      },
+      "source": "Queens: Furmanville Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "726739f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726739f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/279baf40-c558-012f-1332-58d385a7bc34",
     "original_title": "Queens: Furmanville Avenue - 75th Street",
     "text": "Furmanville Ave. (formerly Juniper Swamp Road), north side, east from 75th Street, showing the J. Bedell House from 1852-1860, in the foreground. The Sickman family were owners from 1873 to 1891.\n\nMay 1923.\nView 2: March 1923.\n\nEugene L. Armbruster Collection.\n",
@@ -46,9 +82,29 @@
   {
     "date": "1940-07-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "75th Place",
+        "str2": "Furmanville Avenue"
+      },
+      "source": "75th Place at Furmanville Avenue, Queens",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "485987",
     "image_url": "https://images.nypl.org/?id=485987&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a961e1b0-c60e-012f-9bb4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -62,9 +118,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "75th Place",
+        "str2": "Formanville Avenue"
+      },
+      "source": "Queens: 75th Place - Formanville Avenue",
+      "technique": "title-cross"
+    },
     "height": 410,
     "id": "725638f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725638f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Sanitary landfills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f0070a0-c556-012f-072c-58d385a7bc34",
     "original_title": "Queens: 75th Place - Formanville Avenue",
     "text": "Corner of 75th Place and Formanville Avenue, as seen from a dump, Queens.\n\nP. L. Sperr, photographer\nJuly 1, 1940\n",

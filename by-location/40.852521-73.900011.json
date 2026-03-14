@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "180th Street",
+        "str2": "Valentine Avenue"
+      },
+      "source": "Bronx: Valentine Avenue - 180th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701951f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701951f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67efce80-c531-012f-50b3-58d385a7bc34",
     "original_title": "Bronx: Valentine Avenue - 180th Street",
     "text": "2060 to 2070 Valentine Avenue, east side, south of E. 180th Street. The view is northward.\n\nFebruary 1, 1938.\n\nP. L. Sperr.\n",

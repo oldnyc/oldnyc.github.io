@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1933-06-10"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 397,
+        "street": "East 3rd Street"
+      },
+      "source": "397 East 3rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Goerck Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Goerck Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "710873f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710873f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6eb25d00-c53f-012f-0e94-58d385a7bc34",
     "original_title": "Manhattan: 3rd Street - Goerck Street",
     "text": "397 East 3rd Street, north side, just east of Goerck Street. June 10, 1933.\n\nP. L. Sperr.\n",

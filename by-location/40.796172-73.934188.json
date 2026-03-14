@@ -2,9 +2,29 @@
   {
     "date": "1932-10-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 416,
+        "street": "E 117th Street"
+      },
+      "source": "117th Street (East) #416",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508409-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508409-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19b533d0-c5cf-012f-eda3-58d385a7bc34",
     "text": null,
     "text_source": null,

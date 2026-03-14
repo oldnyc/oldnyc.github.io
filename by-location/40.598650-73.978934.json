@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "7th Street (West)",
+        "str2": "Avenue T"
+      },
+      "source": "Brooklyn: 7th Street (West) - Avenue T",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "702461f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702461f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c6cd670-c532-012f-863e-58d385a7bc34",
     "original_title": "Brooklyn: 7th Street (West) - Avenue T",
     "text": "2044-2046 W. 7th Street, west side, between Avenues T and U., showing the house of Lena Vaccaro in 1925.\nApril 25, 1925.\nW.B. Vernan\n",

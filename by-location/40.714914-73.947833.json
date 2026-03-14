@@ -2,9 +2,30 @@
   {
     "date": "1941-09-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Conselyea Street",
+        "str2": "Leonard Street"
+      },
+      "source": "Conselyea Street and Leonard Street",
+      "technique": "gpt"
+    },
     "height": 396,
     "id": "1509551-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509551-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5e62140-c5cd-012f-8512-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1941-09-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Conselyea Street",
+        "str2": "Leonard Street"
+      },
+      "source": "Brooklyn: Leonard Street - Conselyea Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703803f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703803f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3744cdf0-c534-012f-b270-58d385a7bc34",
     "original_title": "Brooklyn: Leonard Street - Conselyea Street",
     "text": "Tromba's Leonard Assembly. Dance Hall. 306 Leonard St. Corner of Conselyea & Leonard St., B'klyn.\nSept. 22, 1941\nP.L. Sperr, photographer\n",

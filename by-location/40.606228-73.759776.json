@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Eggert Place",
+        "str2": "Mott Avenue"
+      },
+      "source": "Queens: Mott Avenue - Eggert Place",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "727437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727437f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cottages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39be0aa0-c559-012f-ea59-58d385a7bc34",
     "original_title": "Queens: Mott Avenue - Eggert Place",
     "text": "Mott Ave., at the N.W. corner of Eggert Place, showing Aunt Sally Mott's homestead, owned by Mrs. Seaman from 1878 to 1891. It is said that this house was built by Squire John Mott during the time of the Revolutionary War. It is now known as Mrs. Seaman's Cottage.\n\nJanuary 1923.\n\nEugene L. Armbruster Collection.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-04-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (East)",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 47th Street (East) - 9th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713302f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713302f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76809fb0-c543-012f-1043-58d385a7bc34",
     "original_title": "Manhattan: 47th Street (East) - 9th Avenue",
     "text": "Congregation Ezrath Israel, 339 West 47th Street, north side, east of Ninth Avenue and adjoining the Public School.\n\nApril 6, 1930.\n\nP. L. Sperr.\n\nNegative available in LH+G: Neg No. 133\n",
@@ -22,9 +40,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (East)",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 47th Street (East) - 9th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713303f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713303f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76f7d7c0-c543-012f-8a2a-58d385a7bc34",
     "original_title": "Manhattan: 47th Street (East) - 9th Avenue",
     "text": "341-361 West 47th Street, east of, adjoining, and at the N.E. corner of Ninth Avenue. The centre building with the flagpole is the 18th Precinct Police Station.\n\nMay 3, 1930.\n",
@@ -39,9 +78,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (East)",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 47th Street (East) - 9th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713304f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713304f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Police stations",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/774db410-c543-012f-efdd-58d385a7bc34",
     "original_title": "Manhattan: 47th Street (East) - 9th Avenue",
     "text": "47th Street, north side, east from 349 West 47th Stneet, east Ninth Avenue. The building with the flagpole at the left i 18th Precinct Police Station. Public School No. 17 is seen\nright centre.\nMay 3, 1930.\nP. L. Sperr.\n21eo7Ae 220 2 2 ~:6 A1eg N29\n",
@@ -56,9 +120,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 9th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710409f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710409f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Paint industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae679e70-c53e-012f-fa13-58d385a7bc34",
     "original_title": "Manhattan: 9th Avenue - 47th Street",
     "text": "Ninth Avenue, east side, north from 47th Street.\nApril 30, 1934.\n\nP. L. Sperr.\n\nTHE NEW YORK\nPUBLIC LIBRARY\nASTOR, LENOX AND\nTILDEN FOUNDATIONS\nR L\n",
@@ -73,9 +158,29 @@
   {
     "date": "1940-11-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "9th Avenue"
+      },
+      "source": "9th Avenue at 47th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "486015",
     "image_url": "https://images.nypl.org/?id=486015&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a1578c0-c60e-012f-b755-58d385a7bc34",
     "text": null,
     "text_source": null,

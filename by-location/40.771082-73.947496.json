@@ -2,9 +2,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 25,
+        "street": "East End Ave"
+      },
+      "source": "25 East End Ave",
+      "technique": "gpt"
+    },
     "height": 414,
     "id": "732189f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732189f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Roosevelt Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4c6b9f0-c560-012f-9ae3-58d385a7bc34",
     "text": "View of northern tip of Welfare Island, looking north east from No. 25 East End Ave., Manhattan, into Astoria L.I. Hell Gate Bridge may also be seen in the background.\n\nAbout 1930.\n\nWurts Brothers.\n",
     "text_source": "gpt",
@@ -18,9 +44,44 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 80th Street",
+        "str2": "East End Avenue"
+      },
+      "source": "East 80th Street and East End Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 76th Street",
+        "str2": "East End Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "733926f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733926f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Parks",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64583d30-c563-012f-818c-58d385a7bc34",
     "text": "(1)\nEast River, north from East 76th (left) to East 80th Streets, showing John Jay Park, the East End Hotel for Women, and (extreme right) the 14-story apartment house No. 1 East End Ave., from East 79th to East 80th Streets.\nApril 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, including a view of East 79th Street, west from Exterior Street (Marie Curie Ave.), and the 15-story apartment house, the Yorkgate, No. 25 East End Ave., at the S.E. corner of East 80th Street.\nApril 5, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, as No. 1, at a later date.\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -35,9 +96,44 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 80th Street",
+        "str2": "East End Avenue"
+      },
+      "source": "East 80th Street and East End Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 76th Street",
+        "str2": "East End Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "733926f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733926f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Parks",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64583d30-c563-012f-818c-58d385a7bc34",
     "text": "(1)\nEast River, north from East 76th (left) to East 80th Streets, showing John Jay Park, the East End Hotel for Women, and (extreme right) the 14-story apartment house No. 1 East End Ave., from East 79th to East 80th Streets.\nApril 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, including a view of East 79th Street, west from Exterior Street (Marie Curie Ave.), and the 15-story apartment house, the Yorkgate, No. 25 East End Ave., at the S.E. corner of East 80th Street.\nApril 5, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, as No. 1, at a later date.\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -52,9 +148,44 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 80th Street",
+        "str2": "East End Avenue"
+      },
+      "source": "East 80th Street and East End Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 76th Street",
+        "str2": "East End Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "733926f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733926f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Parks",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64583d30-c563-012f-818c-58d385a7bc34",
     "text": "(1)\nEast River, north from East 76th (left) to East 80th Streets, showing John Jay Park, the East End Hotel for Women, and (extreme right) the 14-story apartment house No. 1 East End Ave., from East 79th to East 80th Streets.\nApril 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, including a view of East 79th Street, west from Exterior Street (Marie Curie Ave.), and the 15-story apartment house, the Yorkgate, No. 25 East End Ave., at the S.E. corner of East 80th Street.\nApril 5, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, as No. 1, at a later date.\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -69,9 +200,29 @@
   {
     "date": "1940-09-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (East)",
+        "str2": "East End Avenue"
+      },
+      "source": "Manhattan: 80th Street (East) - East End Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 413,
     "id": "1508333-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508333-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0cf500c0-c5cf-012f-1a42-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -88,9 +239,27 @@
     "dates_from_text": [
       "1940-09-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street",
+        "str2": "East End Avenue"
+      },
+      "source": "Manhattan: East End Avenue - 80th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719433f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719433f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f817c430-c54c-012f-e05d-58d385a7bc34",
     "original_title": "Manhattan: East End Avenue - 80th Street",
     "text": "East End Avenue, east side, from East 81st (left) to 80th (right) Street's, as viewed across the cleared area on the westerly side of the Avenue. Behind these structures is the new Drive and the East River.\n\nSeptember 29, 1940\nNo. 1-2\n\nP. L. Sperr\n",
@@ -108,9 +277,27 @@
     "dates_from_text": [
       "1940-09-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street",
+        "str2": "East End Avenue"
+      },
+      "source": "Manhattan: East End Avenue - 80th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719433f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719433f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f817c430-c54c-012f-e05d-58d385a7bc34",
     "original_title": "Manhattan: East End Avenue - 80th Street",
     "text": "East End Avenue, east side, from East 81st (left) to 80th (right) Street's, as viewed across the cleared area on the westerly side of the Avenue. Behind these structures is the new Drive and the East River.\n\nSeptember 29, 1940\nNo. 1-2\n\nP. L. Sperr\n",

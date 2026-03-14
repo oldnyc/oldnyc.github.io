@@ -2,9 +2,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 67,
+        "street": "Burns Street"
+      },
+      "source": "67 Burns Street",
+      "technique": "gpt"
+    },
     "height": 479,
     "id": "1558439",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558439.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Warner House Apartments"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6efd0fd0-c5ed-012f-a467-58d385a7bc34",
     "text": null,
     "text_source": null,

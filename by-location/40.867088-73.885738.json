@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-06-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Decatur Avenue",
+        "str2": "Oliver Place"
+      },
+      "source": "Bronx: Oliver Place - Decatur Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701549f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701549f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d69f6b40-c530-012f-90b8-58d385a7bc34",
     "original_title": "Bronx: Oliver Place - Decatur Avenue",
     "text": "Oliver Place, south side, west from Decatur to Marion Avenues. The thoroughfare appears as unpaved and extends from the foreground to a point beyond the fence where an automobile is partly visible.\n\nJune 16, 1938.\n\nP. L. Sperr\n",

@@ -2,9 +2,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Wallabout Street"
+      },
+      "source": "Brooklyn: Franklin Avenue - Wallabout Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "704432f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704432f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Optical industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33d24070-c535-012f-5691-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Wallabout Street",
     "text": "Franklin Avenue, east side, at Wallabout Street, looking north. On the right, at the southeast corner, is the Donohue Boiler Works; at the northeast corner is the Tole Morgan optical\ninstruments factory.\nP. L. Sperr  April 12, 1941\n",
@@ -19,9 +41,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Wallabout Street"
+      },
+      "source": "Brooklyn - Franklin Avenue - Wallabout Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557781",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557781.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kool Morgan Optical Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Flatbush Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Optical industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69fadb40-c5ec-012f-25f0-58d385a7bc34",
     "text": null,
     "text_source": null,

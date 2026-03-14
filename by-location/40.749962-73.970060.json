@@ -2,9 +2,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 333,
+        "street": "East 43rd Street"
+      },
+      "source": "333 East 43rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "43rd Street (East)",
+        "str2": "55th Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 43rd Street",
+        "str2": "Prospect Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "713132f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713132f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3108fe20-c543-012f-f190-58d385a7bc34",
     "original_title": "Manhattan: 43rd Street (East) - 55th Road",
     "text": "333 East 43rd Street, north side, at Prospect Place. Buildings shown are a unit of Tudor City and are known as \"The Manor.\"\n\nOctober 26, 1928.\n\nP. L. Sperr.\n",

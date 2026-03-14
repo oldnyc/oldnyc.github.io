@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronxwood Avenue",
+        "str2": "Pelham Parkway North"
+      },
+      "source": "Bronx: Pelham Parkway North - Bronxwood Avenue",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "701613f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701613f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eef66db0-c530-012f-9c6c-58d385a7bc34",
     "original_title": "Bronx: Pelham Parkway North - Bronxwood Avenue",
     "text": "Pelham Parkway North (vantage point, not seen), north side, east from Bronxwood Ave. to Williamsbridge Road, showing units of the New York Institute for the Education of the Blind.\n\nAugust 2, 1928.\n\nP. L. Sperr.\n",

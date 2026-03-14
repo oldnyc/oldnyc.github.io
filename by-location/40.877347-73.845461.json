@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-06-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "Mickle Avenue"
+      },
+      "source": "Bronx: Boston Road - Mickle Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "700551f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700551f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6c0711f0-c52f-012f-019c-58d385a7bc34",
     "original_title": "Bronx: Boston Road - Mickle Avenue",
     "text": "Boston Road, south side, east from Mickle Avenue.\n\nJune 16, 1938.\n\nP. L. Sperr.\n",

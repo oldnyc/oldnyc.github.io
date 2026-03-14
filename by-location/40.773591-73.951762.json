@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-09-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "81st Street (East)"
+      },
+      "source": "Manhattan: 81st Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "714603f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714603f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d0644e0-c545-012f-b170-58d385a7bc34",
     "original_title": "Manhattan: 81st Street (East) - 1st Avenue",
     "text": "401-409 East 81st Street, at, adjoining, and east of the N.E. corner of First Avenue. No. 403 is the Superior Theatre.\n\nSeptember 24, 1927.\n\nP. L. Sperr.\n",
@@ -22,9 +40,32 @@
   {
     "date": "1931-04-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1552,
+        "street": "First Avenue"
+      },
+      "source": "First Avenue #1552",
+      "technique": "title-address"
+    },
     "height": 463,
     "id": "1508645-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508645-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "American Union Bank"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a407f80-c5ce-012f-d4c9-58d385a7bc34",
     "text": null,
     "text_source": null,

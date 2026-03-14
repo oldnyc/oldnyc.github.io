@@ -2,9 +2,49 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 161st Street",
+        "str2": "Grand Concourse"
+      },
+      "source": "East 161st Street and Grand Concourse",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "158th Street (East)",
+        "str2": "Sheridan Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 158th Street",
+        "str2": "Sheridan Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 484,
     "id": "701791f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701791f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Shipping",
+          "Transportation facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b3d16e0-c531-012f-1ff0-58d385a7bc34",
     "original_title": "Bronx: Sheridan Avenue - 158th Street (East)",
     "text": "Sheridan Ave. (foreground, left to right), south from East 161st to East 158th Streets, showing, extending east to Morris Ave. and south to East 153rd Street, the Melrose yard of the New York Central Railroad. Also shown is a panoramic view southeastward with the Hell Gate Bridge across the East River discernible in the distant right background. The point of vantage is the 10-story Concourse Plaza, at the N.E. corner of Grand Concourse and East 161st Street.\n\nMay 1926.\n\nBrown Brothers.\n",
@@ -19,9 +59,33 @@
   {
     "date": "1928; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: 161st Street (East) - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701375f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701375f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Joyce Kilmer Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94955a40-c530-012f-4e44-58d385a7bc34",
     "text": "View 1: Joyce Kilmer Park, Bronx. Looking north from East 161 Street and Grand Concourse, showing the Heinrich Heine statue in the foreground.\nView 2: Another view of the Park, from E. 162 St., after it had been rebuilt by the W.P.A.\n\nView 1: May 16, 1928\nP. L. Sperr, photographer\nView 2: May 11, 1937\nW.P.A. photo, Five Boroughs Project\n",
     "text_source": "gpt",
@@ -36,9 +100,33 @@
   {
     "date": "1928; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: 161st Street (East) - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "701375f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701375f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Joyce Kilmer Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94955a40-c530-012f-4e44-58d385a7bc34",
     "text": "View 1: Joyce Kilmer Park, Bronx. Looking north from East 161 Street and Grand Concourse, showing the Heinrich Heine statue in the foreground.\nView 2: Another view of the Park, from E. 162 St., after it had been rebuilt by the W.P.A.\n\nView 1: May 16, 1928\nP. L. Sperr, photographer\nView 2: May 11, 1937\nW.P.A. photo, Five Boroughs Project\n",
     "text_source": "gpt",
@@ -53,9 +141,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: 161st Street (East) - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "700166f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700166f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1d5f770-c52e-012f-75a3-58d385a7bc34",
     "text": "East 161st Street, at Grand Concourse, showing sidewalk repair work conducted by the W.P.A. In the background appear the lower floors of the Concourse Plaza, at the N.E. corner of the two thoroughfares.\n\nDecember 3, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",
     "text_source": "gpt",
@@ -69,9 +181,30 @@
   {
     "date": "1936; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 161st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "701147f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701147f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c4a1c90-c530-012f-95a1-58d385a7bc34",
     "text": "1. 900 Grand Concourse, east side, north from East 161st to 162nd Streets, showing the Concourse Plaza. In the foreground, where automobiles are seen, is East 161st Street.\n\nJuly 7, 1936.\n\nP. L. Sperr.\n\n2. Grand Concourse bet. 162nd & 161st St.\nConcourse Plaza Hotel. Neg. A-2 April 10, 1941\nP.L. Sperr, photographer\n",
     "text_source": "gpt",
@@ -86,9 +219,30 @@
   {
     "date": "1936; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 161st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701147f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701147f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c4a1c90-c530-012f-95a1-58d385a7bc34",
     "text": "1. 900 Grand Concourse, east side, north from East 161st to 162nd Streets, showing the Concourse Plaza. In the foreground, where automobiles are seen, is East 161st Street.\n\nJuly 7, 1936.\n\nP. L. Sperr.\n\n2. Grand Concourse bet. 162nd & 161st St.\nConcourse Plaza Hotel. Neg. A-2 April 10, 1941\nP.L. Sperr, photographer\n",
     "text_source": "gpt",
@@ -103,9 +257,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 161st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "701148f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701148f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c9a5a70-c530-012f-49d7-58d385a7bc34",
     "text": "Grand Concourse, at East 161st Street. The W.P.A. workmen are working on the S.W. corner of the two thoroughfares, near the County Court House.\n\nWorks Progress Administration.\nFederal Art Project photo.\n\nDecember 3, 1936.\n",
     "text_source": "gpt",
@@ -119,9 +297,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 161st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701150f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701150f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Joyce Kilmer Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d5628c0-c530-012f-706a-58d385a7bc34",
     "text": "Grand Concourse (running from extreme right foreground to center background), north from and including East 161st to a point north of 164th Streets. In the foreground is East 161st Street from Grand Concourse to Walton Ave. and part of Joyce Kilmer Park.\n\nJuly 7, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -135,9 +338,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: 161st Street (East) - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2211170-c52e-012f-f234-58d385a7bc34",
     "text": "(1) East 161st Street, at the south east corner of Grand Concourse, viewing east and showing a rocky bluff where apartment houses were later erected.\n\n(2) shows a modern apartment building going up on the corner.\n\nP. L. Sperr\n\nView 1: July 7, 1936\nView 2: April 10, 1941\n",
     "text_source": "gpt",
@@ -151,9 +376,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: 161st Street (East) - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700167f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700167f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2211170-c52e-012f-f234-58d385a7bc34",
     "text": "(1) East 161st Street, at the south east corner of Grand Concourse, viewing east and showing a rocky bluff where apartment houses were later erected.\n\n(2) shows a modern apartment building going up on the corner.\n\nP. L. Sperr\n\nView 1: July 7, 1936\nView 2: April 10, 1941\n",
     "text_source": "gpt",

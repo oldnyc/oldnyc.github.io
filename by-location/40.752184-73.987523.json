@@ -2,9 +2,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "37th St",
+        "str2": "Broadway"
+      },
+      "source": "37th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 227,
     "id": "1627904",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627904.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4af4c4c0-c6d2-012f-0ef1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "37th St",
+        "str2": "Broadway"
+      },
+      "source": "37th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 227,
     "id": "1627905",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627905.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b4b3960-c6d2-012f-7385-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +82,32 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "37th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 37th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717427f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717427f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Photographic studios",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d695cd90-c549-012f-e1fb-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 37th Street",
     "text": "Broadway at and adjoining the S.W. corner of 37th Street. These buildings will soon be replaced by a twelve story loft building.\n\n1922.\n\nGift of E. M. Jenks.\n",
@@ -51,9 +122,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "37th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 37th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712427f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712427f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00535200-c542-012f-d4fa-58d385a7bc34",
     "original_title": "Manhattan: 37th Street (West) - Broadway",
     "text": "124-142 West 37th Street, at and adjoining the S.W. corner of Broadway, showing the Roman Catholic Church of the Holy Innocents at No. 126.\n\nJuly 10, 1932.\n\nP. L. Sperr.\n",
@@ -68,9 +160,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "37th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 37th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717426f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717426f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d61f2b60-c549-012f-87e7-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 37th Street",
     "text": "Wm. C. Sommerfeld, R.A., Architect\n31 Union Square, N.Y.C.\n",

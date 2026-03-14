@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Junction Boulevard",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens - Junction Boulevard - Roosevelt Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558449",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558449.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Palmer's Restaurant"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Clocks & watches",
+          "Historic buildings",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7315ea30-c5ed-012f-c106-58d385a7bc34",
     "text": null,
     "text_source": null,

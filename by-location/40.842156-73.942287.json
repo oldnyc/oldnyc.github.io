@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Haven Avenue"
+      },
+      "source": "Manhattan: Haven Avenue - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "720344f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720344f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69654760-c54e-012f-0d46-58d385a7bc34",
     "original_title": "Manhattan: Haven Avenue - 168th Street",
     "text": "23-39 Haven Avenue, east side, from 168th to 169th Streets. About 1922.",
@@ -19,9 +40,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft. Washington Ave",
+        "str2": "W. 168th St."
+      },
+      "source": "Ft. Washington Ave and W. 168th St.",
+      "technique": "gpt"
+    },
     "height": 429,
     "id": "3985017",
     "image_url": "https://images.nypl.org/?id=3985017&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc1f8800-c5d7-012f-b3a8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +80,29 @@
   {
     "date": "1945-08-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street (West)",
+        "str2": "Ft. Washington Avenue"
+      },
+      "source": "Manhattan: 168th Street (West) - Ft. Washington Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 495,
     "id": "1508453-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508453-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/213da850-c5cf-012f-09cf-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +116,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street (West)",
+        "str2": "Haven Avenue"
+      },
+      "source": "Manhattan: 168th Street (West) - Haven Avenue",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "1508455-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508455-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "22nd Regiment Armory"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21967b90-c5cf-012f-e471-58d385a7bc34",
     "text": null,
     "text_source": null,

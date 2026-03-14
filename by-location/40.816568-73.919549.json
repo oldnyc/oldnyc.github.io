@@ -2,9 +2,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "149th Street (East)",
+        "str2": "Courtlandt Avenue"
+      },
+      "source": "Bronx: 149th Street (East) - Courtlandt Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700129f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700129f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Confectioneries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d47c9b60-c52e-012f-edf5-58d385a7bc34",
     "original_title": "Bronx: 149th Street (East) - Courtlandt Avenue",
     "text": "353 to 391 East 149th Street, north side, east from Courtlandt to Melrose Aves. The 12-story building is No. 367-369.\n1930.\nGeneral Photographic Co., Inc.\n",

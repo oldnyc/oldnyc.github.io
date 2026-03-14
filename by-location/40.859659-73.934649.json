@@ -2,9 +2,48 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 741,
+        "street": "Fort Washington Ave"
+      },
+      "source": "741 Fort Washington Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Aven",
+        "str2": "St. Marks Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Ave",
+        "str2": "Northern Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "719812f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719812f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fort Tryon Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cottages",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96cbc330-c54d-012f-12a2-58d385a7bc34",
     "text": "Fort Tryon Park: A small cottage in the Park on Fort Washington Ave. slightly north of the convergence of Northern and Fort Washington Aves. This is upon the former grounds of C. K. G. Billings. This structure bears No. 741 Fort Washington Ave; Northern Ave., appearing on the right where fencing is seen. June 22, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

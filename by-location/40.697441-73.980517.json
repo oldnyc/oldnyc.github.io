@@ -2,9 +2,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Concord Street",
+        "str2": "Navy Street"
+      },
+      "source": "Brooklyn: Concord Street - Navy Street",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "703774f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703774f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b6bbf20-c534-012f-94a7-58d385a7bc34",
     "original_title": "Brooklyn: Concord Street - Navy Street",
     "text": "Concord Street, at the N.W. corner of Navy Street. Navy Street, is at the right of P.S. No. 14.\n\nApril 1925.\n\nEugene L. Armbruster collection.\n",
@@ -19,9 +43,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Concord Street",
+        "str2": "Navy Street"
+      },
+      "source": "Concord Street and Navy Street",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "732630f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732630f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73269c40-c561-012f-2846-58d385a7bc34",
     "text": "Concord Street, at the northwest corner of Navy Street, showing Public School No. 14.\nBoard of Education of the City of New York September 5, 1930\n",
     "text_source": "gpt",

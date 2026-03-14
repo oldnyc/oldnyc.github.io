@@ -2,9 +2,38 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Bentley Avenue"
+      },
+      "source": "Arthur Kill Road and Bentley Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Arthur Hill Road",
+        "str2": "Bentley Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "728604f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728604f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/070058b0-c55b-012f-c938-58d385a7bc34",
     "original_title": "Richmond: Bentley Avenue - Arthur Hill Road",
     "text": "Bentley Avenue, east side, north of Arthur Kill Road, near the Perth Amboy ferry depot, showing the Salt Air Hotel, owned by S. N. Broderson in 1907 and by Mrs. Cole in 1898.\n\nP. L. Sperr\n\nApril 23, 1929\n",
@@ -19,9 +48,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill",
+        "str2": "Bentley Avenue"
+      },
+      "source": "Arthur Kill and Bentley Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733644f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Staten Island [Richmond]: Bentley Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Arthur Kill (N.J. and N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4182170-c562-012f-667e-58d385a7bc34",
     "text": null,
     "text_source": null,

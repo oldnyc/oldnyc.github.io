@@ -2,9 +2,27 @@
   {
     "date": "1936-12-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Lurting Avenue",
+        "str2": "Morris Park to Rhinelander Ave."
+      },
+      "source": "Bronx: Lurting Avenue - Morris Park to Rhinelander Ave.",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "701414f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701414f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3110690-c530-012f-9689-58d385a7bc34",
     "text": "Lurting Ave., north from and including Morris Park Ave. to Rhinelander Ave. W.P.A. workmen are paving the street south of Morris Park Ave.\n\nDecember 14, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",
     "text_source": "gpt",

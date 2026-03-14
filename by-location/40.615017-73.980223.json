@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-03-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "63rd Street",
+        "str2": "Bay Parkway"
+      },
+      "source": "Brooklyn: 63rd Street - Bay Parkway",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "702806f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702806f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0615e50-c532-012f-5d37-58d385a7bc34",
     "original_title": "Brooklyn: 63rd Street - Bay Parkway",
     "text": "2172-2166-63rd Street, south side, west of Bay Parkway (left), showing at the foreground the home of Therese Bishop.\n\nMarch 24, 1925.\n\nW. B. Vernam\n",

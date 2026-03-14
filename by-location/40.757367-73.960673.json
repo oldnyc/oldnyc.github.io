@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 588,
     "id": "723482f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723482f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6579df40-c553-012f-e013-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "1-3 Sutton Place (originally called Ave., A), at and adjoining the N.E. corner of 57th Street. About 1922.\n\nGift of E. M. Jenks.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "723474f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723474f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/623f2e10-c553-012f-34f9-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "Sutton Place (originally called Ave. A), south from 58th Street (Sutton Square), to and including 57th Street.\n\n1925.\n\nBrown Brothers.\n",
@@ -36,9 +78,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "723478f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723478f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63d7b620-c553-012f-e4f2-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "Sutton Place (originally called Ave. A), at, adjoining and north of the N.E. corner of 57th Street. Also shown is 57th Street, north side, east from Sutton Place (Ave. A), to the East River.\n\nSeptember 20, 1927.\n\nP. L. Sperr.\n",
@@ -53,9 +116,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723479f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723479f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6438d140-c553-012f-3907-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "Sutton Place (originally called Ave., A), north from but not including 57th Street. The Queensboro Bridge is seen in the background running east on 59th Street, over the East River to Long Island City.\n\nSeptember 20, 1927.\n\nP. L. Sperr.\n",
@@ -73,9 +158,27 @@
     "dates_from_text": [
       "1928"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street (East)",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: 57th Street (East) - Sutton Place",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "713826f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713826f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c5fa1e0-c544-012f-c7fa-58d385a7bc34",
     "original_title": "Manhattan: 57th Street (East) - Sutton Place",
     "text": "East 57th Street, west from and including Sutton Place. Note the Ritz Tower in the background.\n\n1928.\n\nNew York Edison Company.\n",
@@ -90,9 +193,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: 57th Street - Sutton Place",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "713827f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713827f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4cc49160-c544-012f-355c-58d385a7bc34",
     "original_title": "Manhattan: 57th Street - Sutton Place",
     "text": "57th Street, west from and including Sutton Place. In the distance is the Ritz Tower.\n1931.\nWurts Brothers.\n",
@@ -107,9 +228,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 502,
     "id": "723480f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723480f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64abee90-c553-012f-8238-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "Sutton Place (originally called Ave. A), at, adjoining and north of the N.E. corner of 57th Street.\nJanuary 14, 1931.\n\nInternational News Photos.\n",
@@ -124,9 +266,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 503,
     "id": "723481f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723481f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/650d9fd0-c553-012f-8b1a-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "Sutton Place (originally called Ave. A), north from and including 57th Street. The Queensboro Bridge is seen in the background, which extends from Second Ave., and 59th Street, Manhattan, to Bridge Plaza, in the Borough of Queens, along East 59th Street.\n\nJanuary 14, 1932.\n\nInternational News Photos.\n",
@@ -141,9 +305,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723470f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723470f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/609135f0-c553-012f-bc1f-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "(1)\n\nSutton Place (originally called Avenue A), west side, south from but not including 59th, to and including 57th Streets, as seen from the Queensboro Bridge.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(2)\n\nThe same, from a different angle.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n",
@@ -158,9 +343,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723470f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723470f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/609135f0-c553-012f-bc1f-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street",
     "text": "(1)\n\nSutton Place (originally called Avenue A), west side, south from but not including 59th, to and including 57th Streets, as seen from the Queensboro Bridge.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(2)\n\nThe same, from a different angle.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n",
@@ -175,9 +381,55 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place South"
+      },
+      "source": "East 57th Street and Sutton Place South",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 59th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "733906f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733906f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Industrial facilities",
+          "Public utility companies",
+          "Steam"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ba25520-c563-012f-f7f6-58d385a7bc34",
     "text": "(1)\nEast River, south from East 59th to 53rd Streets, showing the 13-story apartment house No. 1 Sutton Place South (U-shaped), from East 57th Street to East 56th Street, and the River House (extreme left) from East 53rd to 52nd Streets. Also shown (background, right to left) are; the R.C.A. (second one), the General Electric Co. (4th), Hotel Waldorf-Astoria, New York Central (with cupola-like roof), the Lincoln and Chrysler Buildings. The vantage point is the Queensboro Bridge.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, to East 55th Street, and showing a portion of the Queensboro Bridge and plants of the New York Steam Corporation. The point of vantage is Welfare Island.\n\nMay 4, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, at a later date. The point of vantage is Welfare Island.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -192,9 +444,55 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place South"
+      },
+      "source": "East 57th Street and Sutton Place South",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 59th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "733906f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733906f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Industrial facilities",
+          "Public utility companies",
+          "Steam"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ba25520-c563-012f-f7f6-58d385a7bc34",
     "text": "(1)\nEast River, south from East 59th to 53rd Streets, showing the 13-story apartment house No. 1 Sutton Place South (U-shaped), from East 57th Street to East 56th Street, and the River House (extreme left) from East 53rd to 52nd Streets. Also shown (background, right to left) are; the R.C.A. (second one), the General Electric Co. (4th), Hotel Waldorf-Astoria, New York Central (with cupola-like roof), the Lincoln and Chrysler Buildings. The vantage point is the Queensboro Bridge.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, to East 55th Street, and showing a portion of the Queensboro Bridge and plants of the New York Steam Corporation. The point of vantage is Welfare Island.\n\nMay 4, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, at a later date. The point of vantage is Welfare Island.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -209,9 +507,55 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place South"
+      },
+      "source": "East 57th Street and Sutton Place South",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 59th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "733906f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733906f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Industrial facilities",
+          "Public utility companies",
+          "Steam"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ba25520-c563-012f-f7f6-58d385a7bc34",
     "text": "(1)\nEast River, south from East 59th to 53rd Streets, showing the 13-story apartment house No. 1 Sutton Place South (U-shaped), from East 57th Street to East 56th Street, and the River House (extreme left) from East 53rd to 52nd Streets. Also shown (background, right to left) are; the R.C.A. (second one), the General Electric Co. (4th), Hotel Waldorf-Astoria, New York Central (with cupola-like roof), the Lincoln and Chrysler Buildings. The vantage point is the Queensboro Bridge.\n\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, to East 55th Street, and showing a portion of the Queensboro Bridge and plants of the New York Steam Corporation. The point of vantage is Welfare Island.\n\nMay 4, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, at a later date. The point of vantage is Welfare Island.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -226,9 +570,42 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "East 57th Street and Sutton Place",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "733909f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733909f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; Consumers Brewing Company ; Empire State Building ; River House."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brewing industry",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cf17260-c563-012f-8e55-58d385a7bc34",
     "text": "(1)\nEast River, south from East 57th Street, showing the 13-story apartment house No. 1 Sutton Place South; the brewery of the Consumers Brewing Co.; and the River House (center). Also shown is the skyline of Mid-town Manhattan with the Chrysler and Empire State Buildings visible in the center background. The point of vantage is the Queensborough Bridge.\n\nP. L. Sperr.\n\n(2)\nThe same, another view from the same vantage point. The Chrysler Building, here, obstructs the view of the Empire State.\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, at a later date. The vantage point is Welfare Island.\nMay 4, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -242,9 +619,42 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "East 57th Street and Sutton Place",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "733909f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733909f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; Consumers Brewing Company ; Empire State Building ; River House."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brewing industry",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cf17260-c563-012f-8e55-58d385a7bc34",
     "text": "(1)\nEast River, south from East 57th Street, showing the 13-story apartment house No. 1 Sutton Place South; the brewery of the Consumers Brewing Co.; and the River House (center). Also shown is the skyline of Mid-town Manhattan with the Chrysler and Empire State Buildings visible in the center background. The point of vantage is the Queensborough Bridge.\n\nP. L. Sperr.\n\n(2)\nThe same, another view from the same vantage point. The Chrysler Building, here, obstructs the view of the Empire State.\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, at a later date. The vantage point is Welfare Island.\nMay 4, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -258,9 +668,42 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "East 57th Street and Sutton Place",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "733909f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733909f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; Consumers Brewing Company ; Empire State Building ; River House."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brewing industry",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cf17260-c563-012f-8e55-58d385a7bc34",
     "text": "(1)\nEast River, south from East 57th Street, showing the 13-story apartment house No. 1 Sutton Place South; the brewery of the Consumers Brewing Co.; and the River House (center). Also shown is the skyline of Mid-town Manhattan with the Chrysler and Empire State Buildings visible in the center background. The point of vantage is the Queensborough Bridge.\n\nP. L. Sperr.\n\n(2)\nThe same, another view from the same vantage point. The Chrysler Building, here, obstructs the view of the Empire State.\nMarch 5, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, at a later date. The vantage point is Welfare Island.\nMay 4, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -274,9 +717,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street (East)",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: 57th Street (East) - Sutton Place.",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "713825f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713825f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Sutton Place: Ann Morgan's Town House on Corner, northeast corner of East 57th Street, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c133100-c544-012f-0008-58d385a7bc34",
     "original_title": "Manhattan: 57th Street (East) - Sutton Place.",
     "text": "Federal Art Project\n\"Changing New York\"\nPhotographs by Berenice Abbott\n\nTitle: Sutton Place: Anne Morgan's Town House Place: Northeast corner of East 57th Street, Manhattan\nDate: April 2, 1936\n",
@@ -291,9 +758,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street (East)",
+        "str2": "Sutton Place"
+      },
+      "source": "Manhattan: Sutton Place - 57th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723483f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723483f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65eec390-c553-012f-43cb-58d385a7bc34",
     "original_title": "Manhattan: Sutton Place - 57th Street (East)",
     "text": "7 Sutton Place, east side, north of E. 57th Street, showing the entrance to the Marshall Kernochan home. Miss Anne Morgan home is on the right. This was leased to Frank M. Gould according to the N. Y. Times of October 6, 1937.\n\n1938-9\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
@@ -308,9 +796,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street",
+        "str2": "Sutton Place"
+      },
+      "source": "57th Street and Sutton Place",
+      "technique": "gpt"
+    },
     "height": 388,
     "id": "1508523",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508523.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6567d010-c5ce-012f-b9ce-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -324,9 +832,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "Sutton Place South"
+      },
+      "source": "Manhattan: 1 Sutton Place South - East 57th Street",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "1558113",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558113.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f67e450-c5ed-012f-fd9e-58d385a7bc34",
     "text": null,
     "text_source": null,

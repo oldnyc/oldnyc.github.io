@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-07-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Nassau Street",
+        "str2": "Pearl Street"
+      },
+      "source": "Brooklyn: Nassau Street - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "705827f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705827f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63e46ee0-c537-012f-c14f-58d385a7bc34",
     "original_title": "Brooklyn: Nassau Street - Pearl Street",
     "text": "89-111 Nassau Street, north side, from Pearl to Jay Streets. No. 111 is on the corner of Jay Street, which is seen in the foreground.\n\nJuly 5, 1930.\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Java Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Brooklyn: Manhattan Avenue - Java Street",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "705551f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705551f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f85519f0-c536-012f-20ec-58d385a7bc34",
     "original_title": "Brooklyn: Manhattan Avenue - Java Street",
     "text": null,
@@ -19,9 +40,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Java Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Brooklyn: Java Street - Manhattan Avenue",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "705095f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705095f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40f6f110-c536-012f-f3ae-58d385a7bc34",
     "original_title": "Brooklyn: Java Street - Manhattan Avenue",
     "text": "Java Street, south side, between Manhattan Avenue and franklin Street, showing Public School No. 22, viewing westward.\n\nBoard of Education of the City of New York May 19, 1931\n",

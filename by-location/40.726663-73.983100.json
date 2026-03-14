@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Avenue A",
+        "str2": "St Marks Place"
+      },
+      "source": "Avenue A and St Marks Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984936",
     "image_url": "https://images.nypl.org/?id=3984936&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5392de0-c5d7-012f-2785-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "8th Street (East)",
+        "str2": "Avenue A"
+      },
+      "source": "Manhattan: Avenue A - 8th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 491,
     "id": "715864f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715864f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e4cedd0-c547-012f-d96a-58d385a7bc34",
     "original_title": "Manhattan: Avenue A - 8th Street (East)",
     "text": "Avenue A, north from East 8th Street.  At the right is Tompkins Square.  This extends to 10th Street.\n\nMay 17, 1937\n\nWorks Progress Administration\nFive Boroughs Project\n",

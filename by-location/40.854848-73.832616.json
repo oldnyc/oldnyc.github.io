@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2849,
+        "street": "East 197th Street"
+      },
+      "source": "2849 East 197th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "197th Street",
+        "str2": "Mayflower Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "197th Street",
+        "str2": "Mayflower Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700312f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700312f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/169e3dc0-c52f-012f-6f69-58d385a7bc34",
     "original_title": "Bronx: 197th Street - Mayflower Avenue",
     "text": "2849 East 197th Street, east of the N.E. corner of Mayflower Ave.\nAbout 1927.\n\nW. B. Vernam.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "21st Street (East)",
+        "str2": "Beverly Road"
+      },
+      "source": "Brooklyn: Beverly Road - 21st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "703245f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703245f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5af5b0e0-c533-012f-3ba6-58d385a7bc34",
     "original_title": "Brooklyn: Beverly Road - 21st Street (East)",
     "text": "2104-2106 and 2110-2112 Beverly[sic! should be 'Beverley'] Road, at and adjoining the S.E. corner of East 21st Street (right), showing two old apartment houses known as Beverly Court.\nAbout 1912.\nAnonymous Gift.\n",

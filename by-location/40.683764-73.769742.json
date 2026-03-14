@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Baisley Boulevard",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Baisley Boulevard - Merrick Boulevard",
+      "technique": "title-cross"
+    },
     "height": 394,
     "id": "726117f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726117f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4656c320-c557-012f-2a0c-58d385a7bc34",
     "original_title": "Queens: Baisley Boulevard - Merrick Boulevard",
     "text": "Intersection of Baisley (right) and Merrick Boulevards, viewing southwestward and showing the Point Pleasant Inn, formely a hotel, owned by G. M. Meltecke in 1918.\n\nP. L. Sperr\n\nMarch 15, 1927\n",
@@ -19,9 +40,44 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Baisley Boulevard",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Baisley Boulevard and Merrick Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Baisley Boulevard",
+        "str2": "Hobart Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Baisley Boulevard",
+        "str2": "Hobart Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 395,
     "id": "726118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/469c5140-c557-012f-4717-58d385a7bc34",
     "original_title": "Queens: Baisley Boulevard - Hobart Avenue",
     "text": "Baisley Boulevard, near Merrick Boulevard, showing an old frame building, now used as a garage.\n\nP. L. Sperr\n\nMarch 15, 1927\n",
@@ -36,9 +92,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Baisley Boulevard",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Merrick Boulevard - Baisley Boulevard",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "727378f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727378f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2376e830-c559-012f-6e4d-58d385a7bc34",
     "original_title": "Queens: Merrick Boulevard - Baisley Boulevard",
     "text": "Merrick Boulevard, near Baisley Boulevard, showing two views of new housing developments.\n\nMarch 15, 1927\nViews 1,2:\n\nP. L. Sperr\n\nNEG # 3607 -F3 (view 1)\n",
@@ -53,9 +130,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Baisley Boulevard",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Merrick Boulevard - Baisley Boulevard",
+      "technique": "title-cross"
+    },
     "height": 394,
     "id": "727378f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727378f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2376e830-c559-012f-6e4d-58d385a7bc34",
     "original_title": "Queens: Merrick Boulevard - Baisley Boulevard",
     "text": "Merrick Boulevard, near Baisley Boulevard, showing two views of new housing developments.\n\nMarch 15, 1927\nViews 1,2:\n\nP. L. Sperr\n\nNEG # 3607 -F3 (view 1)\n",

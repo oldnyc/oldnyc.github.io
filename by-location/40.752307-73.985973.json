@@ -2,9 +2,33 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "712491f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712491f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b821b00-c542-012f-bd5f-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 6th Avenue",
     "text": "38th Street, south side, east from Sixth Avenue.\nMay 2, 1907.\n\nBrown Brothers.\n",
@@ -19,9 +43,34 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "712492f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712492f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1bfebe40-c542-012f-af22-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 6th Avenue",
     "text": "38th Street, north side, east from Sixth Avenue. May 15, 1907.\n\nBrown Brothers.\n",
@@ -36,9 +85,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "712494f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712494f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1cc187e0-c542-012f-2f81-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 6th Avenue",
     "text": "52-54 West 38th Street, south side, east of Sixth Avenue. About 1911.",
@@ -53,9 +126,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 38th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712495f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712495f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d1b47d0-c542-012f-0218-58d385a7bc34",
     "original_title": "Manhattan: 38th Street (West) - 6th Avenue",
     "text": "60-62 West 38th Street, south side, east of Sixth Avenue. 1911.",
@@ -73,9 +170,27 @@
     "dates_from_text": [
       "1929-01-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709451f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/198f1680-c53d-012f-cddd-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, at W. 38th Street (\"H1\" station there) as viewed from the No. 63 W 36th street building. The photographer is viewing northwestward towards Broadway and its cluster of garment manufacturing lofts and offices. The ornate white building is the No. 110 W. 40th Street building and was originally known as the World's Tower Building. To the left is the turreted Lefcourt-Manhattan Building.\n\nJanuary 30, 1929\nViews 1,2\nP. L. Sperr\n",
@@ -93,9 +208,27 @@
     "dates_from_text": [
       "1929-01-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709451f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709451f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/198f1680-c53d-012f-cddd-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, at W. 38th Street (\"H1\" station there) as viewed from the No. 63 W 36th street building. The photographer is viewing northwestward towards Broadway and its cluster of garment manufacturing lofts and offices. The ornate white building is the No. 110 W. 40th Street building and was originally known as the World's Tower Building. To the left is the turreted Lefcourt-Manhattan Building.\n\nJanuary 30, 1929\nViews 1,2\nP. L. Sperr\n",
@@ -113,9 +246,27 @@
     "dates_from_text": [
       "1929-11-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712496f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712496f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d9901d0-c542-012f-5cfc-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 6th Avenue",
     "text": "38th Street, south side, east from and including Broadway to including Sixth Ave.\nNovember 2, 1929.\n",
@@ -130,9 +281,29 @@
   {
     "date": "1930-02-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "Sixth Avenue"
+      },
+      "source": "38th Street and Sixth Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1508935-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508935-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac77f020-c5ce-012f-c57f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -146,9 +317,35 @@
   {
     "date": "1930; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1011,
+        "street": "Sixth Avenue"
+      },
+      "source": "1011 Sixth Avenue",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558067",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558067.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Storefronts",
+          "Trucks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6491e60-c5ec-012f-92f8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -163,9 +360,33 @@
   {
     "date": "1930; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709454f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709454f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1acad070-c53d-012f-22e4-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, west side, south from West 39th (right) to 38th (left) Streets, showing a station of the Sixth Avenue Elevated Line at the latter point. At the right appears the Princess Theatre and which became the I.L.G.W.U.'s Labor Stage, to show the labor travesty \"Pins and Needles.\" The photographer's vantage point is the loft structure, No. 65 West 39th Street, located at the N. E. corner of Sixth Avenue. For other general views of this area see items listed under that address.\nView 2 is from the street level and shows the details of buildings forming this blockfront.\n\nView 1: February 28, 1930\n\nP. L. Sperr\n\nView 2: June 1938\n\nGeorge D. Chinn\n",
@@ -181,9 +402,33 @@
   {
     "date": "1930; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "709454f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709454f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1acad070-c53d-012f-22e4-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "rotation": 90,
@@ -200,9 +445,27 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712676f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712676f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b9ee880-c53d-012f-6db9-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street",
     "text": "Sixth Avenue, east side, from 40th to 38th Streets, including 80, 70-60 West 40th Street. May 10, 1930.\n\nP. L. Sperr.\n\n(2)\nSixth Avenue Looking Southwards from the North East corner of West 39th Street.\n\nFebruary 28th, 1930\n\nP.L. Sperr,\n",
@@ -217,9 +480,27 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712676f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712676f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b9ee880-c53d-012f-6db9-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street",
     "text": "Sixth Avenue, east side, from 40th to 38th Streets, including 80, 70-60 West 40th Street. May 10, 1930.\n\nP. L. Sperr.\n\n(2)\nSixth Avenue Looking Southwards from the North East corner of West 39th Street.\n\nFebruary 28th, 1930\n\nP.L. Sperr,\n",
@@ -234,9 +515,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "709449f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709449f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18dd6b10-c53d-012f-1cf8-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, at W. 38th Street, showing the 38th Street station of the Sixth Avenue \"El\" in a skeletal form. The photographer is viewing same in a westward direction on 38th Street from a point to the east of the Avenue and across to Broadway. The large loft structures in the left center face on the last mentioned thoroughfare.\n\nMarch 23, 1939\n\nMr. Nathan Schwartz\nNew York Public Library\n",
@@ -251,9 +553,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709450f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709450f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1946ef60-c53d-012f-ba26-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, north from W. 38th Street, showing demolition of the old \"El\" line. Note the interested spectators. The wooden planking under foot covers in the subway excavation that is proceeding also.\n\nMarch 29, 1939\nViews 1,2\n\nP. L. Sperr\n",
@@ -268,9 +591,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709450f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709450f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1946ef60-c53d-012f-ba26-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, north from W. 38th Street, showing demolition of the old \"El\" line. Note the interested spectators. The wooden planking under foot covers in the subway excavation that is proceeding also.\n\nMarch 29, 1939\nViews 1,2\n\nP. L. Sperr\n",
@@ -285,9 +629,35 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709452f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709452f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Restaurants",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a002f50-c53d-012f-6d3e-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, north from W. 38th Street, showing demolition of the old \"El\" line. Note the interested spectators. The wooden planking under foot covers in the subway excavation that is proceeding also.\n\nMarch 29, 1939\nViews 1,2\n\nP. L. Sperr\n\nThe same as above, from a different angle.\n\nP. L. Sperr\n\nSeptember 27, 1940\n",
@@ -303,9 +673,35 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709452f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709452f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Restaurants",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a002f50-c53d-012f-6d3e-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, north from W. 38th Street, showing demolition of the old \"El\" line. Note the interested spectators. The wooden planking under foot covers in the subway excavation that is proceeding also.\n\nMarch 29, 1939\nViews 1,2\n\nP. L. Sperr\n\nThe same as above, from a different angle.\n\nP. L. Sperr\n\nSeptember 27, 1940\n",
@@ -321,9 +717,35 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709452f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709452f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Restaurants",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a002f50-c53d-012f-6d3e-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street (West)",
     "text": "Sixth Avenue, north from W. 38th Street, showing demolition of the old \"El\" line. Note the interested spectators. The wooden planking under foot covers in the subway excavation that is proceeding also.\n\nMarch 29, 1939\nViews 1,2\n\nP. L. Sperr\n\nThe same as above, from a different angle.\n\nP. L. Sperr\n\nSeptember 27, 1940\n",
@@ -339,9 +761,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712493f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712493f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cafeterias"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c532120-c542-012f-799f-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 6th Avenue",
     "text": "38th Street, west from, but not including, Sixth Avenue, showing the side of the Knickerbocker Theatre at the N. E. corner of Broadway.\n\nAugust 18, 1929.\n\nP. L. Sperr.\n",
@@ -356,9 +801,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709455f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709455f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Paint industry",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b42d0a0-c53d-012f-9fbe-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street",
     "text": "(1) Sixth Avenue, Westside between 39th and 38th Streets, looking South.\n(2) Sixth Avenue, Westside, at 39th Street, looking north.\nSixth Avenue, westside at 40th Street, showing The Dimes Savings Bank in Center.\nP.L.Speer\nSeptember 27, 1940.\n",
@@ -373,9 +841,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "709455f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709455f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Paint industry",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b42d0a0-c53d-012f-9fbe-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street",
     "rotation": 90,
@@ -391,9 +882,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709455f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709455f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Paint industry",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b42d0a0-c53d-012f-9fbe-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 38th Street",
     "text": "(1) Sixth Avenue, Westside between 39th and 38th Streets, looking South.\n(2) Sixth Avenue, Westside, at 39th Street, looking north.\nSixth Avenue, westside at 40th Street, showing The Dimes Savings Bank in Center.\nP.L.Speer\nSeptember 27, 1940.\n",

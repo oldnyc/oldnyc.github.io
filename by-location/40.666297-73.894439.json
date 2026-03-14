@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dumont Avenue",
+        "str2": "Pennsylvania Avenue"
+      },
+      "source": "Brooklyn: Pennsylvania Avenue - Dumont Avenue",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "706241f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706241f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/031131f0-c538-012f-deb3-58d385a7bc34",
     "original_title": "Brooklyn: Pennsylvania Avenue - Dumont Avenue",
     "text": "Pennsylvania Avenue, west side, between Dumont and Blake Avenues, showing the 'Thomas Jefferson High School.\n\nBoard of Education of the City of New York  Early 1930's\n",

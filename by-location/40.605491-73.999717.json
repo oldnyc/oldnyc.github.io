@@ -2,9 +2,30 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "22nd Avenue",
+        "str2": "86th Street"
+      },
+      "source": "Brooklyn: 86th Street - 22nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "702891f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702891f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d1e863f0-c532-012f-520f-58d385a7bc34",
     "original_title": "Brooklyn: 86th Street - 22nd Avenue",
     "text": "86th Street (foreground) at, and Ave., showing the corner building in which was conducted the sub post office No. 55. Note the costumes of the day.\nAbout 1915.\n\nEugene L. Armbruster Collection.\n",

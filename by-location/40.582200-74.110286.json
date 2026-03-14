@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Midland Avenue",
+        "str2": "Richmond Road"
+      },
+      "source": "Richmond: Richmond Road - Midland Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "729396f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729396f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40eee790-c55c-012f-5d0d-58d385a7bc34",
     "original_title": "Richmond: Richmond Road - Midland Avenue",
     "text": "Richmond Road, at the S.W. corner of Midland Avenue, showing Wertmuller's Atlantic Inn.\n\nMay 10, 1936\n\nP. L. Sperr\n",

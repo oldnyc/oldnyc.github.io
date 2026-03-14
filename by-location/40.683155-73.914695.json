@@ -2,9 +2,50 @@
   {
     "date": "1928; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 58,
+        "street": "Hopkinson Avenue"
+      },
+      "source": "58 Hopkinson Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Decatur Street",
+        "str2": "Hopkinson Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Decatur Street",
+        "str2": "Hopkinson Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bainbridge Street",
+        "str2": "Hopkinson Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "704976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10e8f960-c536-012f-ec3e-58d385a7bc34",
     "original_title": "Brooklyn: Hopkinson Avenue - Decatur Street",
     "text": "(1)\n58 Hopkinson Ave., west side, between Decatur and Bainbridge Streets,\nshowing the Westminster Presbyterian Church.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing Decatur Street and an extensive view of the background.\n\nApril 20, 1936.\n\nP. L. Sperr.\n",
@@ -20,9 +61,50 @@
   {
     "date": "1928; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 58,
+        "street": "Hopkinson Avenue"
+      },
+      "source": "58 Hopkinson Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Decatur Street",
+        "str2": "Hopkinson Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Decatur Street",
+        "str2": "Hopkinson Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bainbridge Street",
+        "str2": "Hopkinson Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 456,
     "id": "704976f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704976f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10e8f960-c536-012f-ec3e-58d385a7bc34",
     "original_title": "Brooklyn: Hopkinson Avenue - Decatur Street",
     "text": "(1)\n58 Hopkinson Ave., west side, between Decatur and Bainbridge Streets,\nshowing the Westminster Presbyterian Church.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing Decatur Street and an extensive view of the background.\n\nApril 20, 1936.\n\nP. L. Sperr.\n",

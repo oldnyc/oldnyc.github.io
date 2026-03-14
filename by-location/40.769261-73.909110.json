@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-03-14"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "41st Street",
+        "str2": "Astoria Boulevard"
+      },
+      "source": "Queens: Astoria Boulevard - 41st Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "726078f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726078f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38dab1e0-c557-012f-b230-58d385a7bc34",
     "original_title": "Queens: Astoria Boulevard - 41st Street",
     "text": "Astoria Boulevard, east from 41st Street. At 42nd Street is the Hellgate railroad bridge.\n\nMarch 14, 1931\n\nP. L. Sperr\n",

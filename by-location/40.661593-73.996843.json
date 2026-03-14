@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd Street (West)",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 23rd Street (West) - 4th Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "702660f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702660f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Fires"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78360f20-c532-012f-6204-58d385a7bc34",
     "original_title": "Brooklyn: 23rd Street (West) - 4th Avenue",
     "text": "West 23rd Street, south of Surf ave., showing ruins of the 1932 Coney Island fire.\n\nAugust 8, 1932.\n\nP. L. Sperr.\n",

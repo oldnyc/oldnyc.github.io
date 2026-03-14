@@ -2,9 +2,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "707937f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707937f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Delicatessens",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa522d70-c53a-012f-3a87-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 87th Street",
     "text": "(1)\nSecond Avenue, 87th to 88th Street, north side. (Before reconstruction).\n\nMay 11, 1919.\n\n(2)\nSame, after reconstruction.\n\n November 30, 1919.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 423,
     "id": "707937f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707937f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Delicatessens",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa522d70-c53a-012f-3a87-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 87th Street",
     "text": "(1)\nSecond Avenue, 87th to 88th Street, north side. (Before reconstruction).\n\nMay 11, 1919.\n\n(2)\nSame, after reconstruction.\n\n November 30, 1919.\n",
@@ -36,9 +84,29 @@
   {
     "date": "1942-03-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "Manhattan: Second Avenue - 87th Street, ",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "1508709-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508709-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84b36a10-c5ce-012f-5ea6-58d385a7bc34",
     "text": null,
     "text_source": null,

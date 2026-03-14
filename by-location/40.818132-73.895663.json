@@ -2,9 +2,30 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fox Street",
+        "str2": "Intervale Avenue"
+      },
+      "source": "Bronx: Intervale Avenue - Fox Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701309f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701309f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b71ebb0-c530-012f-f606-58d385a7bc34",
     "original_title": "Bronx: Intervale Avenue - Fox Street",
     "text": "1242 Intervale Ave., east side, at its junction with Fox Street. The building also bears No. 1173 on the latter street.\n\n1914.\n",

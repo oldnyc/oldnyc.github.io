@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Research Avenue",
+        "str2": "Watt Avenue"
+      },
+      "source": "Bronx: Research Avenue - Watt Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701690f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701690f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c46f0d0-c531-012f-e542-58d385a7bc34",
     "original_title": "Bronx: Research Avenue - Watt Avenue",
     "text": null,
@@ -19,9 +37,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Research Avenue",
+        "str2": "Watt Avenue"
+      },
+      "source": "Bronx: Research Avenue - Watt Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "701690f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701690f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c46f0d0-c531-012f-e542-58d385a7bc34",
     "original_title": "Bronx: Research Avenue - Watt Avenue",
     "text": null,

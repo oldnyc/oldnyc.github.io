@@ -2,9 +2,33 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "52nd Street"
+      },
+      "source": "Manhattan: 52nd Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "713594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713594f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ece135f0-c543-012f-d2a7-58d385a7bc34",
     "original_title": "Manhattan: 52nd Street - 2nd Avenue",
     "text": "52nd Street, between 2nd and 3rd Avenue. (Before Reconstruction).\nNovember 21, 1921\n",
@@ -19,9 +43,32 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "52nd St."
+      },
+      "source": "Manhattan: 2nd Ave. - 52nd St.",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "707878f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707878f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92201d70-c53a-012f-9cca-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 52nd St.",
     "text": "East 2nd Avenue, looking south of 52nd Street.\n\nP. L. Sperr\nApril 7, 1941\n",

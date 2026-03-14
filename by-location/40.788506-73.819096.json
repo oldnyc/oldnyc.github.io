@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "13th Avenue",
+        "str2": "147th Street"
+      },
+      "source": "Queens: 147th Street - 13th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725883f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725883f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods",
+          "Railroad crossings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2512de0-c556-012f-4bcd-58d385a7bc34",
     "original_title": "Queens: 147th Street - 13th Avenue",
     "text": "147th Street, north from near 13th Avenue, Whitestone, across the Whitestone spur of the Long Island Railroad, since abandoned. 147th Street was previously Fifth Avenue and Smiths Lane.\n\nP. L. Sperr\n\nMarch 5, 1932\n",

@@ -2,9 +2,46 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 113,
+        "street": "Newark Avenue"
+      },
+      "source": "113 Newark Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "147th Avenue",
+        "str2": "Newark Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "147th Avenue",
+        "str2": "Newark Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "729214f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729214f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods",
+          "Railroad crossings",
+          "Railroad tracks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fa45e5d0-c55b-012f-4e77-58d385a7bc34",
     "original_title": "Richmond: Newark Avenue - 147th Avenue",
     "text": "113 to 129 Newark Avenue, east side, south from the Staten Island Railroad tracks.\n\nMay 22, 1929\n\nP. L. Sperr\n",
@@ -19,9 +56,47 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 127,
+        "street": "Newark Avenue"
+      },
+      "source": "127 Newark Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Innis Street",
+        "str2": "Newark Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Innis Street",
+        "str2": "Newark Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "729215f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729215f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bayonne Bridge (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fab6eb00-c55b-012f-c398-58d385a7bc34",
     "original_title": "Richmond: Newark Avenue - Innis Street",
     "text": "127 to 143 (left to right) Newark Avenue, east side, between the Staten Island Railroad tracks (left) and Innis Street. In the foreground, on the west side of the avenue, is assembled steel for the Bayonne Bridge, which was erected here running parallel with Newark Avenue.\n\nMay 22, 1929\n\nP. L. Sperr\n",

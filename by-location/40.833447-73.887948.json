@@ -2,9 +2,31 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "Vyse Avenue"
+      },
+      "source": "Bronx: Vyse Avenue - 172nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "701999f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701999f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a346a00-c531-012f-9761-58d385a7bc34",
     "original_title": "Bronx: Vyse Avenue - 172nd Street (East)",
     "text": "Vyse Ave., north from and including East 174th Street. The house, at the N.E. corner, bears No. 1764. In the background is visible the elevated structure of the I.R.T. Bronx Park subway line.\n\n1917.\n\nNeg. # 1757-(A)\n",
@@ -19,9 +41,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E 172nd St",
+        "str2": "Vyse Ave"
+      },
+      "source": "E 172nd St and Vyse Ave",
+      "technique": "gpt"
+    },
     "height": 433,
     "id": "3985209",
     "image_url": "https://images.nypl.org/?id=3985209&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05f5ac60-c5d8-012f-2f56-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +81,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "Vyse Avenue"
+      },
+      "source": "Bronx: Vyse Avenue - 172nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701997f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701997f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7993e2c0-c531-012f-5493-58d385a7bc34",
     "original_title": "Bronx: Vyse Avenue - 172nd Street (East)",
     "text": "Vyse Avenue adj. n.e. cor. 172nd St.\n9-5-1942\n\nP.L.Sperr\n",

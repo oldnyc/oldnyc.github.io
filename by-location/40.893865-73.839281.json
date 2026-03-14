@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-05-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Edenwald Avenue",
+        "str2": "Monticello Avenue"
+      },
+      "source": "Bronx: Monticello Avenue - Edenwald Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701468f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701468f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b73ee2f0-c530-012f-e8af-58d385a7bc34",
     "original_title": "Bronx: Monticello Avenue - Edenwald Avenue",
     "text": "4080 Monticello Avenue, adjoining the S.E. corner of Edenwald Avenue, showing an old frame house.\n\nMay 16, 1938.\n\nP. L. Sperr.\n",

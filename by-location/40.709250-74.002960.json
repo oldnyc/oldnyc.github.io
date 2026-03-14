@@ -2,9 +2,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cliff Street",
+        "str2": "Ferry Street"
+      },
+      "source": "Manhattan: Cliff Street - Ferry Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718998f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718998f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cliff and Ferry Street, Manhattan.",
+        "60 Wall Street Tower."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46c80740-c54c-012f-8e40-58d385a7bc34",
     "original_title": "Manhattan: Cliff Street - Ferry Street.",
     "text": null,
@@ -19,9 +41,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cliff Street",
+        "str2": "Ferry Street"
+      },
+      "source": "Manhattan: Cliff Street - Ferry Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718997f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718997f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46668720-c54c-012f-378e-58d385a7bc34",
     "original_title": "Manhattan: Cliff Street - Ferry Street",
     "text": null,
@@ -36,9 +79,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cliff Street",
+        "str2": "Ferry Street"
+      },
+      "source": "Manhattan: Cliff Street - Ferry Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/461b34f0-c54c-012f-d23c-58d385a7bc34",
     "original_title": "Manhattan: Cliff Street - Ferry Street",
     "text": null,

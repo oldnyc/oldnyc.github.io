@@ -2,9 +2,29 @@
   {
     "date": "1921-10-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 236,
+        "street": "E 109th Street"
+      },
+      "source": "109th Street (East) #236",
+      "technique": "title-address"
+    },
     "height": 413,
     "id": "1508379-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508379-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/148c3db0-c5cf-012f-074c-58d385a7bc34",
     "text": null,
     "text_source": null,

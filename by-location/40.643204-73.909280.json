@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Farragut Road",
+        "str2": "Remsen Avenue"
+      },
+      "source": "Brooklyn: Remsen Avenue - Farragut Road",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "706452f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706452f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56786d90-c538-012f-4ffb-58d385a7bc34",
     "original_title": "Brooklyn: Remsen Avenue - Farragut Road",
     "text": "Remsen Avenue, east side, between Farragut and Glenwood Roads, showing Public School No. 114.\nBoard of Education of the City of New York Early 1930's\n",

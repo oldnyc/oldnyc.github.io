@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 150th St.",
+        "str2": "St. Ann's Ave."
+      },
+      "source": "E. 150th St. and St. Ann's Ave.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984980",
     "image_url": "https://images.nypl.org/?id=3984980&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1926ea0-c5d7-012f-9212-58d385a7bc34",
     "text": null,
     "text_source": null,

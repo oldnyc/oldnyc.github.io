@@ -2,9 +2,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 39th Street - 8th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733501f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733501f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 39th Street - 8th Avenue.",
+        "Subway excavation."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/baaae380-c562-012f-4d0d-58d385a7bc34",
     "text": "Subway Excavation\n10-19-26\n",
     "text_source": "gpt",
@@ -18,9 +39,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710171f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710171f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a7f0f80-c53e-012f-b4ce-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street (West)",
     "text": "Eighth Ave., at the N.W. corner of West 39th Street. Prominent building shown, is the McGraw-Hill publishing Company on 42nd Street.\n\nMay 27, 1935.\n\nP. L. Sperr.\n",
@@ -35,9 +78,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "710171f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/710171f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a7f0f80-c53e-012f-b4ce-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street (West)",
     "rotation": 90,
@@ -53,9 +118,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "710171f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/710171f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a7f0f80-c53e-012f-b4ce-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street (West)",
     "rotation": 90,
@@ -71,9 +158,37 @@
   {
     "date": "1929-09-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue",
+        "str2": "West 39th Street"
+      },
+      "source": "Manhattan: West 39th Street - Eighth Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558203",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558203.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Levy Brothers"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5251850-c5ec-012f-ab1e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -90,9 +205,27 @@
     "dates_from_text": [
       "1929-02-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "710172f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710172f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4aeb27e0-c53e-012f-a626-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street",
     "text": "Eighth Avenue, west side, north from 39th Street.\nFebruary 3, 1929.\nP.L. Sperr, Photographer.\n",
@@ -110,9 +243,27 @@
     "dates_from_text": [
       "1929-02-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street",
+      "technique": "title-cross"
+    },
     "height": 546,
     "id": "710172f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710172f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4aeb27e0-c53e-012f-a626-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street",
     "text": "Eighth Avenue, west side, north from 39th Street.\nFebruary 3, 1929.\nP.L. Sperr, Photographer.\n",
@@ -130,9 +281,27 @@
     "dates_from_text": [
       "1930-05-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 39th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712580f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712580f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42c6ee90-c542-012f-468f-58d385a7bc34",
     "original_title": "Manhattan: 39th Street (West) - 8th Avenue",
     "text": "West 39th Street, north side, east from (No. 345), but not including Ninth to Eighth Aves.\nMay 23, 1930.\n\nP. L. Sperr.\n",
@@ -147,9 +316,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "710170f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710170f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a3499f0-c53e-012f-9e0e-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street (West)",
     "text": "8th Avenue, to 9th Avenue 38th Street. (Before Reconstruction).\nDecember 7, 1919.\n",
@@ -164,9 +357,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 39th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711362f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711362f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Ice cream parlors",
+          "Paint industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b58cdc0-c53e-012f-3bf5-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 39th Street",
     "text": "Eighth Avenue, west side, north between 39th and 40th Streets.\nJune 21, 1935.\n\nP. L. Sperr, Photographer.\n",
@@ -181,9 +396,34 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "39th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 39th Street - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "712579f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712579f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fruit",
+          "Markets",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42489a00-c542-012f-b119-58d385a7bc34",
     "original_title": "Manhattan: 39th Street - 8th Avenue",
     "text": "39th St. bet. 8th & 9th Ave. Looking north.\nPaddy\u2019s Market.  July 18, 1938\nFrom: A.S. Martin, Room 902, 466 Lexington Ave., N.Y.C.\n",
@@ -198,9 +438,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue)",
+        "str2": "West 39th Street (Seventh Avenue"
+      },
+      "source": "Manhattan: 239 West 39th Street (Seventh Avenue - Eighth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "1558201",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558201.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Western Newspaper Union melting pot"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Typefounding"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4324560-c5ec-012f-13bb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -214,9 +483,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue)",
+        "str2": "West 39th Street (Seventh Avenue"
+      },
+      "source": "Manhattan: 239 West 39th Street (Seventh Avenue - Eighth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558202",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558202.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Western Newspaper Union electrotype machine"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Typefounding"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4a3db40-c5ec-012f-53e8-58d385a7bc34",
     "text": null,
     "text_source": null,

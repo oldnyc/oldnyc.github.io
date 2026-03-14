@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "Waring Avenue"
+      },
+      "source": "Bronx: Boston Road - Waring Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700546f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700546f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Boston Road (New York, N.Y.)",
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a284290-c52f-012f-6c3f-58d385a7bc34",
     "original_title": "Bronx: Boston Road - Waring Avenue",
     "text": "Boston Road, east side, south from Waring Avenue to White Plains Road. On the latter is the elevated structure of the I.R.T. subway.\n\nApril 3, 1938.\n\nP. L. Sperr.\n",

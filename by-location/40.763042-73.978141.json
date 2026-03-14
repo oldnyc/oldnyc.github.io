@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 55th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "713765f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713765f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32df9aa0-c544-012f-41c7-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (West) - 6th Avenue",
     "text": "W. 55th Street, east from and across Sixth Avenue. In the background is the Fifth Avenue Presbyterian Church.\n\nStandard Photographic Service\nJune 18, 1924\n",
@@ -19,9 +40,37 @@
   {
     "date": "1947-10-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sixth Avenue)",
+        "str2": "West 55th Street (Fifth Avenue"
+      },
+      "source": "Manhattan: 24 West 55th Street (Fifth Avenue - Sixth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558257",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558257.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Rockefeller Apartments"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc7b4510-c5ec-012f-a001-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,29 @@
   {
     "date": "1955",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 21,
+        "street": "Allen Street"
+      },
+      "source": "Allen Street #21",
+      "technique": "title-address"
+    },
     "height": 474,
     "id": "1507280-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507280-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c82042c0-c5cd-012f-f37a-58d385a7bc34",
     "text": null,
     "text_source": null,

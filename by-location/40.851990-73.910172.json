@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Davidson Avenue",
+        "str2": "Tremont Avenue"
+      },
+      "source": "Bronx: Davidson Avenue - Tremont Avenue",
+      "technique": "title-cross"
+    },
     "height": 452,
     "id": "700846f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700846f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d38021a0-c52f-012f-dace-58d385a7bc34",
     "original_title": "Bronx: Davidson Avenue - Tremont Avenue",
     "text": "1953 and 1945 Davidson Ave., at, and adjoining the S.W. corner of West Tremont Ave. The corner apartment house (under construction) is the Shenandoah.\n\nAbout 1925.\n",

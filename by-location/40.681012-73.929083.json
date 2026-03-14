@@ -6,9 +6,41 @@
       "1925-03",
       "1925-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 194,
+        "street": "Bainbridge Street"
+      },
+      "source": "194 Bainbridge Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Bainbridge Street",
+        "str2": "Reid Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bainbridge Street",
+        "str2": "Reid Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 475,
     "id": "703084f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703084f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c38df90-c533-012f-5ac0-58d385a7bc34",
     "original_title": "Brooklyn: Bainbridge Street - Reid Avenue",
     "text": "(1)\n194 Bainbridge Street, south side, near Reid Ave. A view of the Moses Suydam House. In front crossing Bainbridge Street, was the Jamaica Turnpike Road in 1869, and in front of the house, stood the toll house to Brooklyn.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another angle.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -28,9 +60,41 @@
       "1925-03",
       "1925-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 194,
+        "street": "Bainbridge Street"
+      },
+      "source": "194 Bainbridge Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Bainbridge Street",
+        "str2": "Reid Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bainbridge Street",
+        "str2": "Reid Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "703084f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703084f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c38df90-c533-012f-5ac0-58d385a7bc34",
     "original_title": "Brooklyn: Bainbridge Street - Reid Avenue",
     "text": "(1)\n194 Bainbridge Street, south side, near Reid Ave. A view of the Moses Suydam House. In front crossing Bainbridge Street, was the Jamaica Turnpike Road in 1869, and in front of the house, stood the toll house to Brooklyn.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another angle.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n",

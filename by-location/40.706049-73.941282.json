@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum St.",
+        "str2": "Humboldt St."
+      },
+      "source": "Boerum St. and Humboldt St.",
+      "technique": "gpt"
+    },
     "height": 434,
     "id": "3984217",
     "image_url": "https://images.nypl.org/?id=3984217&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbe375f0-c5d6-012f-5c81-58d385a7bc34",
     "text": null,
     "text_source": null,

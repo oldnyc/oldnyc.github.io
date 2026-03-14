@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 3rd Street - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710858f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710858f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68ee8770-c53f-012f-54cf-58d385a7bc34",
     "original_title": "Manhattan: 3rd Street - Avenue B",
     "text": "3rd Street, north side, west from Avenue B. Church of the Most Holy Redeemer (Roman Catholic) appears in the background. August 31, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1935; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 3rd Street - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69321040-c53f-012f-d0e3-58d385a7bc34",
     "original_title": "Manhattan: 3rd Street - Avenue B",
     "text": "1) East 3rd Street, north side, west from, but not including Ave. B. Also shown, is the Most Holy Redeemer R.C. Church, at Nos. 161-165, east of Ave. A., conducted by the Redemptorist Fathers of N.Y.\n\nAugust 26, 1935.\n\nP. L. Sperr.\n\n2) 3rd St. east of Ave. A. Polish church. Neg. A-85\nJune 26, 1941\n\nP.L. Sperr\n",
@@ -37,9 +79,30 @@
   {
     "date": "1935; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 3rd Street - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710859f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710859f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69321040-c53f-012f-d0e3-58d385a7bc34",
     "original_title": "Manhattan: 3rd Street - Avenue B",
     "text": "1) East 3rd Street, north side, west from, but not including Ave. B. Also shown, is the Most Holy Redeemer R.C. Church, at Nos. 161-165, east of Ave. A., conducted by the Redemptorist Fathers of N.Y.\n\nAugust 26, 1935.\n\nP. L. Sperr.\n\n2) 3rd St. east of Ave. A. Polish church. Neg. A-85\nJune 26, 1941\n\nP.L. Sperr\n",
@@ -55,9 +118,50 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Avenue B"
+      },
+      "source": "3rd Street and Avenue B",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Dyckman Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 185th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "195 Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "734619f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734619f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 185th Street - 195 Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/958bc810-c564-012f-ca24-58d385a7bc34",
     "text": "3rd Street, north side, west from Avenue B. Church of the Most Holy Redeemer (Roman Catholic) appears in the background. August 31, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -71,9 +175,50 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Street",
+        "str2": "Avenue B"
+      },
+      "source": "3rd Street and Avenue B",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Dyckman Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 185th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "195 Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "734619f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734619f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 185th Street - 195 Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/958bc810-c564-012f-ca24-58d385a7bc34",
     "text": "3rd Street, north side, west from Avenue B. Church of the Most Holy Redeemer (Roman Catholic) appears in the background. August 31, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

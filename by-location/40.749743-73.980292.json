@@ -2,9 +2,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 36,
+        "street": "East 38th Street"
+      },
+      "source": "36 East 38th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "No. 36",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "712478f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712478f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16117c30-c542-012f-853a-58d385a7bc34",
     "text": "#36- East 38th Street, south side looking westwards showing north side of Street, at south side the Flag indicates the location of the Madison Club standing in 1924.\n\nP.L.Speer.\n\nMay 27, 1939.\n",
     "text_source": "gpt",

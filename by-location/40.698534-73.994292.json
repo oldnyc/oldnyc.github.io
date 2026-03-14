@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks Street",
+        "str2": "Pineapple Street"
+      },
+      "source": "Brooklyn: Hicks Street - Pineapple Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704918f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704918f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fa1ed810-c535-012f-1335-58d385a7bc34",
     "original_title": "Brooklyn: Hicks Street - Pineapple Street",
     "text": "95 Hicks Street, adjoining the N. E. corner of Pine- apple Street. This house was built in 1840 and was known as the John Wiley House, then at 85 Hicks Street; later the number was changed to 95.\n\n1922\n\nEugene L. Armbruster Collection\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks Street",
+        "str2": "Pineapple Street"
+      },
+      "source": "Brooklyn: Pineapple Street - Hicks Street",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "706282f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706282f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1305c160-c538-012f-e8b0-58d385a7bc34",
     "original_title": "Brooklyn: Pineapple Street - Hicks Street",
     "text": "55-71 Pineapple Street, north side, between Hicks and Henry Streets. The frame buildings in this view were razed to make way for a 6-story apartment house, called the \"St. George Arms\".\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -42,9 +78,33 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks Street",
+        "str2": "Pineapple Street"
+      },
+      "source": "Brooklyn: Hicks Street - Pineapple Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704906f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704906f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f530bd40-c535-012f-a6b0-58d385a7bc34",
     "original_title": "Brooklyn: Hicks Street - Pineapple Street",
     "text": "Hicks Street (right), north from Pineapple to Fulton Streets (general view northwest), showing in the background, the Squibb's and Eagle Storage buildings; beyond which are the Brooklyn and Manhattan Bridges. Also shown, is a vague outline of Manhattan. The streets from fore to background, are Orange, Cranberry, Middagh Streets, and etc. At the left, is Willow Street.\n\nJune 15, 1933.\n\nP. L. Sperr.\n",
@@ -59,9 +119,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks Street",
+        "str2": "Pineapple Street"
+      },
+      "source": "Brooklyn: Hicks Street - Pineapple Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704917f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704917f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f9c9c4d0-c535-012f-d8d0-58d385a7bc34",
     "original_title": "Brooklyn: Hicks Street - Pineapple Street",
     "text": "Hicks Street (right), west side, north from Pineapple to Orange Streets, showing a view across the roofs of houses bounded by Hicks, Willow, Pineapple and Orange Streets. Pineapple Street is in the foreground. The row of 4-story houses and the 6-story apartment house in the top center are on Orange Street. Willow Street is in the upper left-hand corner. The photograph was taken from the St. George Hotel.\n\nJune 15, 1933\nP.L. Sperr\n",

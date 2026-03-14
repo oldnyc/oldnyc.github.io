@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Skillman Avenue",
+        "str2": "Woodpoint Road"
+      },
+      "source": "Brooklyn: Skillman Avenue - Woodpoint Road",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "706800f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706800f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9dfb040-c538-012f-80d8-58d385a7bc34",
     "original_title": "Brooklyn: Skillman Avenue - Woodpoint Road",
     "text": "Skillman Ave., north side, at old Woodpoint Road; a view westward.\nThis land was owned by Andrew Conselyea in 1855.\n1922.\nEugene L. Armbruster Collection.\n",

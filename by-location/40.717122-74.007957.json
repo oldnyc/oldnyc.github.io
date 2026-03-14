@@ -2,9 +2,47 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thomas Street",
+        "str2": "West Broadway"
+      },
+      "source": "Thomas Street and West Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Thomas Street",
+        "str2": "Wood Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Thomas Street",
+        "str2": "Wood Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723503f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723503f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e6ca080-c553-012f-18ae-58d385a7bc34",
     "original_title": "Manhattan: Thomas Street - Wood Avenue",
     "text": "79 to 97 Thomas Street, north side, west from West Broadway to Hudson Street, (where Thomas Street culminates). In the foreground is shown a portion of the Sixth Ave. Elevated Structure on West Broadway.\n\nNovember 9, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +57,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thomas Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Thomas Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724377f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724377f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Printers",
+          "Printing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6984cd0-c554-012f-08da-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Thomas Street",
     "text": "West Broadway, west side, north from but not including Thomas, to and including Worth Streets.\nOctober 10, 1927.\n\nP. L. Sperr.\n",
@@ -36,9 +96,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thomas Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Thomas Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724376f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724376f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d645d5b0-c554-012f-b3fd-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Thomas Street",
     "text": "West Broadway, at the N.E. corner of Thomas Street, as seen through the excavation on the N.W. corner of West Broadway and Thomas Street for the Western Union Telegraph Building.\n\nAugust 2, 1928.\n\nP. L. Sperr;\n",
@@ -53,9 +135,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thomas Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Thomas Street",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "724375f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724375f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cafeterias",
+          "Stationery trade",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d5e37c70-c554-012f-db12-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Thomas Street",
     "text": "West Broadway from Thomas Street, looking northwards showing W.P.A. reconstruction work.\n\nNO RECORD OF PHOTOGRAPHY\n\nJune 16, 1937\n",

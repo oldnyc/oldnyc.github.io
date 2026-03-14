@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Leggett Avenue",
+        "str2": "Southern Boulevard"
+      },
+      "source": "Bronx: Southern Boulevard - Leggett Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "701838f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701838f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d5eabd0-c531-012f-478e-58d385a7bc34",
     "original_title": "Bronx: Southern Boulevard - Leggett Avenue",
     "text": "Southern Boulevard, north from Leggett Ave.\nAbout 1922.\n",

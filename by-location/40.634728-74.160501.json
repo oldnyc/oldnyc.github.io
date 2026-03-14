@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1932-04-23"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 88,
+        "street": "Harbor Road"
+      },
+      "source": "88 Harbor Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor Road",
+        "str2": "St. Felix Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor Road",
+        "str2": "St. Felix Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "728917f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728917f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83ca7c70-c55b-012f-1c20-58d385a7bc34",
     "original_title": "Richmond: Harbor Road - St. Felix Street",
     "text": "Harbor Road, west side, north from (No. 88) the Staten Island Railroad tracks.\n\nApril 23, 1932.\n\nP.L. Sperr\n",

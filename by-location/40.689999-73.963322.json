@@ -2,9 +2,36 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Grand Avenue"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "704000f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704000f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Elevated railroads",
+          "Factories",
+          "Railroad stations",
+          "Shoe industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8665f650-c534-012f-eebb-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Grand Avenue",
     "text": "P.L. Sperr, photographer  6-19-1942",

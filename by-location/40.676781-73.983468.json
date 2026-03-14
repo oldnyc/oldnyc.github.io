@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: President Street - 4th Avenue",
+      "technique": "title-cross"
+    },
     "height": 443,
     "id": "706321f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706321f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2207a2c0-c538-012f-e452-58d385a7bc34",
     "original_title": "Brooklyn: President Street - 4th Avenue",
     "text": "President Street, west from (no. 592) and across 4th Avenue, showing a W. P. A. sewer project.\n\nSeptember 24th, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

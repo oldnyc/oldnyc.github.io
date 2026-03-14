@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bogart Street",
+        "str2": "Johnson Avenue"
+      },
+      "source": "Brooklyn: Johnson Avenue - Bogart Street",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "705132f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705132f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f5a57d0-c536-012f-f58f-58d385a7bc34",
     "original_title": "Brooklyn: Johnson Avenue - Bogart Street",
     "text": "Johnson Ave., west from Bogart Street, showing in the right foreground\nA. Aron Inc.\n1923.\nEugene L. Armbruster Collection.\n",

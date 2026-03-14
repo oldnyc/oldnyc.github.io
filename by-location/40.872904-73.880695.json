@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bainbridge Avenue",
+        "str2": "Mosholu Parkway North (East)"
+      },
+      "source": "Bronx: Bainbridge Avenue - Mosholu Parkway North (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700454f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700454f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49335250-c52f-012f-ce96-58d385a7bc34",
     "original_title": "Bronx: Bainbridge Avenue - Mosholu Parkway North (East)",
     "text": "3050 Bainbridge Ave., east side, between East Mosholu Parkway North and East 204th Street.\n\nAbout 1923.\n",

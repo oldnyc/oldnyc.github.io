@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "34th Avenue",
+        "str2": "73rd Street"
+      },
+      "source": "Queens: 73rd Street - 34th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725633f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725633f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d6c0810-c556-012f-86f6-58d385a7bc34",
     "original_title": "Queens: 73rd Street - 34th Avenue",
     "text": "73rd Street, at the S.E. corner of 34th Avenue, showing the Physicians Hospital. October 21, 1936. P. L. Sperr.",

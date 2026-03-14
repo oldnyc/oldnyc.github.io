@@ -2,9 +2,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Seigel Street"
+      },
+      "source": "Bushwick Avenue and Seigel Street",
+      "technique": "gpt"
+    },
     "height": 486,
     "id": "732682f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732682f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Educational facilities",
+          "Public schools",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/857b8e90-c561-012f-931b-58d385a7bc34",
     "text": "Bushwick Avenue, east side, from Seigel to McKibbin Streets, showing Public School No. 147.\n\nBoard of Education of the City of New York June 28, 1931\n",
     "text_source": "gpt",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1970"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Anderson Avenue",
+        "str2": "Washington Place"
+      },
+      "source": "Richmond: Anderson Avenue - Washington Place",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "728331f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728331f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c7bee60-c55a-012f-9b74-58d385a7bc34",
     "original_title": "Richmond: Anderson Avenue - Washington Place",
     "text": "Anderson Ave., west from Washington Place.\n\nabout 1970 (?)\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Oak Tree Place",
+        "str2": "Quarry Road"
+      },
+      "source": "Bronx: Quarry Road - Oak Tree Place",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "701678f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701678f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0772f540-c531-012f-cb3b-58d385a7bc34",
     "original_title": "Bronx: Quarry Road - Oak Tree Place",
     "text": "Quarry Road adj. s.e. cor. Oak Tree Place\n8-27-1942\nP.L. Sperr\n",

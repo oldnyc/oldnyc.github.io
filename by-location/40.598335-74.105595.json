@@ -2,9 +2,53 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 103,
+        "street": "Circle Road"
+      },
+      "source": "103 Circle Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "Redmond Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "Redmond Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "New York Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "728684f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728684f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Lower Bay (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25731740-c55b-012f-b4c2-58d385a7bc34",
     "original_title": "Richmond: Circle Road - Redmond Avenue",
     "text": "(1)\n103 Circle Road, east side, between Redmond and New York Aves., showing the W.A. Tyler residence. The view is northeastward toward the Lower New York Bay.\n\nAugust 1932.\n\nP. L. Sperr.\n\n(2)\nThe same, another view. The vantage point is the A.T. Pouch residence, at 120 Circle Road.\n\nAugust 1932.\n\nP. L. Sperr.\n",
@@ -19,9 +63,53 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 103,
+        "street": "Circle Road"
+      },
+      "source": "103 Circle Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "Redmond Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "Redmond Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "New York Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "728684f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728684f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Lower Bay (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25731740-c55b-012f-b4c2-58d385a7bc34",
     "original_title": "Richmond: Circle Road - Redmond Avenue",
     "text": "(1)\n103 Circle Road, east side, between Redmond and New York Aves., showing the W.A. Tyler residence. The view is northeastward toward the Lower New York Bay.\n\nAugust 1932.\n\nP. L. Sperr.\n\n(2)\nThe same, another view. The vantage point is the A.T. Pouch residence, at 120 Circle Road.\n\nAugust 1932.\n\nP. L. Sperr.\n",

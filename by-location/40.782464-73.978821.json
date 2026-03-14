@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "78th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 78th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715955f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715955f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/813b4700-c547-012f-6d6d-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 78th Street",
     "text": "Amsterdam Avenue at N. E. corner of 78th Street. About 1931.\nPhotograph by Wurts Brothers.\n",

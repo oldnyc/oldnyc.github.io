@@ -2,9 +2,29 @@
   {
     "date": "1930; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 681,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #681",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508831-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508831-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a7f1570-c5ce-012f-ed22-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -19,9 +39,39 @@
   {
     "date": "1930; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 677,
+        "street": "Fifth Avenue"
+      },
+      "source": "677 Fifth Avenue",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1557988",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557988.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cammeyer Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Commercial buildings",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9478d480-c5ec-012f-c2ee-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -36,9 +86,29 @@
   {
     "date": "1948-11-18",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 677,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #677",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508827-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508827-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99d05200-c5ce-012f-e164-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 440,
+        "street": "Amsterdam Avenue"
+      },
+      "source": "Amsterdam Avenue #440",
+      "technique": "title-address"
+    },
     "height": 320,
     "id": "1507284-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507284-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8fb6cd0-c5cd-012f-a35e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 444,
+        "street": "Amsterdam Avenue"
+      },
+      "source": "Amsterdam Avenue #444",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507298-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507298-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Agnes Branch Library, New York Public Library"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb67bc00-c5cd-012f-2fa2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 444,
+        "street": "Amsterdam Avenue"
+      },
+      "source": "Amsterdam Avenue #444",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507300",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507300.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Agnes Branch Library, New York Public Library"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cbcd4270-c5cd-012f-0708-58d385a7bc34",
     "text": null,
     "text_source": null,

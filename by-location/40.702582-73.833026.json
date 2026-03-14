@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-04-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "118th Street",
+        "str2": "85th Avenue"
+      },
+      "source": "Queens: 118th Street - 85th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725816f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725816f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/db0cdf20-c556-012f-d5b1-58d385a7bc34",
     "original_title": "Queens: 118th Street - 85th Avenue",
     "text": "85-45 118th Street, east side, between 85th and Hillside Avenue, showing an old mansion.\n\nP. L. Sperr\n\nApril 23, 1936\n",
@@ -22,9 +40,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "118th Street",
+        "str2": "85th Avenue"
+      },
+      "source": "Queens: 118th Street - 85th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725819f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725819f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc17fdb0-c556-012f-3cc7-58d385a7bc34",
     "original_title": "Queens: 118th Street - 85th Avenue",
     "text": "118th Street, adjoining the S.E. corner of 85th Avenue, showing the Resurrection Protestant Episcopal Church.\n\nP. L. Sperr\nApril 23, 1936\n",

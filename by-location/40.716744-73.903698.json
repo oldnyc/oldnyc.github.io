@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "60th Avenue",
+        "str2": "60th Lane"
+      },
+      "source": "Queens: 60th Lane - 60th Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "725510f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725510f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73c60fa0-c556-012f-fad2-58d385a7bc34",
     "original_title": "Queens: 60th Lane - 60th Avenue",
     "text": "60th Lane, west side, from 60th Avenue to 60th Road, showing Public School No. 153.\n\nBoard of Ed. of the City of N. Y.\nMarch 31, 1931\n",

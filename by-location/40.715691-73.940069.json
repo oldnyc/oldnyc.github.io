@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kingsland Avenue",
+        "str2": "Maspeth Avenue"
+      },
+      "source": "Brooklyn: Maspeth Avenue - Kingsland Avenue",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "705605f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705605f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e156740-c537-012f-9fb5-58d385a7bc34",
     "original_title": "Brooklyn: Maspeth Avenue - Kingsland Avenue",
     "text": "74 Maspeth Ave., south side, opposite Kingsland Ave.\nSeptember 1928.\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,35 @@
   {
     "date": "1928-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 74,
+        "street": "Maspeth Avenue"
+      },
+      "source": "74 Maspeth Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Maspeth Avenue",
+        "str2": "No.74",
+        "technique": "title-cross"
+      }
+    ],
     "height": 471,
     "id": "705633f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705633f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18f8b790-c537-012f-f458-58d385a7bc34",
     "text": null,
     "text_source": null,

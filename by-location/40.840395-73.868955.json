@@ -2,9 +2,51 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1608,
+        "street": "Van Buren Street"
+      },
+      "source": "1608 Van Buren Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Van Buren Street",
+        "str2": "Wolcott Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Van Buren Street",
+        "str2": "Wolcott Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East Tremont Ave",
+        "str2": "Van Buren Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "701957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701957f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Pedestrian bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a7b3d30-c531-012f-b474-58d385a7bc34",
     "original_title": "Bronx: Van Buren Street - Wolcott Street",
     "text": "Van Buren Street, at its southern terminus near the New York, New Haven and Hartford Railroad tracks, showing a walk-bridge spanning the tracks and connecting the street with East Tremont Ave. The view is in a southerly direction. The three houses, on the left, are Nos. 1608 to 1602.\n\nP. L. Sperr.\n",

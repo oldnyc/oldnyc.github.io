@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street (West)",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: Audubon Avenue - 168th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "716403f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716403f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d80b060-c548-012f-8c7d-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - 168th Street (West)",
     "text": "68 Audubon Avenue, west side between West 168th and West 169th Streets, showing Public School No. 169. Board of Education of the City of New York\n\n1920's\n",
@@ -19,9 +43,33 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: Audubon Avenue - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716400f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716400f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c53f820-c548-012f-f2d6-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - 168th Street",
     "text": "Public School 169, Audubon Avenue, west side, from 168th to 169th Streets.\n\nAbout 1926.\n\nPhotograph by Ewing Galloway.\n",
@@ -39,9 +87,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: Audubon Avenue - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 394,
     "id": "716401f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716401f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cbfae10-c548-012f-dde4-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - 168th Street",
     "text": "63-65 Audubon Avenue, east side, between 168th and 169th Streets, two two-story frame houses which will still stand in 1934.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -60,9 +126,27 @@
       "1934-10-12",
       "1934-10-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: Audubon Avenue - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716402f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716402f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d1632d0-c548-012f-061c-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - 168th Street",
     "text": "(1)\nFrame houses, 63-5 Audubon Avenue, east side, between 168th and 169th Streets. October 12, 1934\n\nP.L. Sperr, Photographer.\n\nThe same, with the camera nearer to 169th Street.\nOctober 12, 1934\n\nP.L. Sperr, Photographer.\n",
@@ -82,9 +166,27 @@
       "1934-10-12",
       "1934-10-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: Audubon Avenue - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "716402f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/716402f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d1632d0-c548-012f-061c-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - 168th Street",
     "rotation": 90,

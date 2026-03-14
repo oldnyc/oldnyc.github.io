@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "105th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 105th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709209f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709209f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7e1d8a0-c53c-012f-12e1-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 105th Street",
     "text": "Fifth Avenue Hospital, 105th to 106th Street, from Central Park. 1922.",
@@ -19,9 +40,38 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 105th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "East 105th Street and Fifth Avenue",
+      "technique": "gpt"
+    },
     "height": 482,
     "id": "1558011",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558011.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fifth Avenue Hospital view from Central Park"
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e829b20-c5ec-012f-955a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +85,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "105th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 105th Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "709212f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709212f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b92953e0-c53c-012f-fff1-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 105th Street",
     "text": "1240-1248 Fifth Ave., east side, north from East 105th (right) to East 106th Streets, showing the Fifth Ave. Hospital. 1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",

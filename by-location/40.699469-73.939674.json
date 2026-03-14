@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Ellery Street"
+      },
+      "source": "Brooklyn: Ellery Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704082f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704082f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a77d1b40-c534-012f-5261-58d385a7bc34",
     "original_title": "Brooklyn: Ellery Street - Broadway",
     "text": "Ellery Street, south side, between Broadway and Beaver Street, showing Public School No. 52.\nBoard of Education of the City of New York  June 25, 1931\n",

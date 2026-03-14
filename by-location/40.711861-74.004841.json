@@ -2,9 +2,57 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7121364,
+        "lng": -74.0048053
+      },
+      "source": "Printing House Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Mail Street",
+        "str2": "Park Row",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Mail Street",
+        "str2": "Park Row",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Nassau Street",
+        "str2": "Park Row",
+        "technique": "gpt"
+      }
+    ],
     "height": 435,
     "id": "722443f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722443f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Printing House Square (New York, N.Y.)"
+        ],
+        "name": [
+          "Franklin, Benjamin, 1706-1790"
+        ],
+        "topic": [
+          "Plazas",
+          "Printing industry",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0536f60-c551-012f-56e5-58d385a7bc34",
     "text": "Park Row, north from Mail Street (on the left), to the Brooklyn Bridge. A portion of Nassau Street, is observed on the far side of triangular plot, with the statue of Benjamin Franklin thereon. This section of the City just east of City Hall Park, is known as Printing House Square, as at this date, the newspaper publication of the City was centered here.\n\nAbout 1880.\n",
     "text_source": "gpt",
@@ -18,9 +66,33 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "722448f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722448f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bartholdi, Fr\u00e9d\u00e9ric Auguste, 1834-1904"
+        ],
+        "topic": [
+          "Statue of Liberty (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b28fe430-c551-012f-b1ee-58d385a7bc34",
     "text": "General View:  Park Row and Frankfort Street.  From the Pulitzer Building looking south Bedloes Island and the Statue of Liberty are discernible at right, facing the Jersey Shore.\n\nCharles L. Nitzmann\nNew York City.\n\nKing 1890!\n",
     "text_source": "site",
@@ -34,9 +106,39 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722449f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722449f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York City Hall (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b30be900-c551-012f-afdd-58d385a7bc34",
     "text": "Park Row, east side, at Frankfort Street, as seen from across City Hall Park. The view shows a portion of the City Hall on the right and the Pulitzer Building (also known as the \"World\" Building.) in the background.\n\nAbout 1899.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -53,9 +155,27 @@
     "dates_from_text": [
       "1894"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "722447f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722447f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b21f42a0-c551-012f-e476-58d385a7bc34",
     "text": "Park Row, east side, south from and including Frankfort Street, to, but not including Broadway. Also shown is Nassau Street, south from Park Row, to and including Fulton Street.\n\nAbout 1894.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -69,9 +189,37 @@
   {
     "date": "1894",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Frankfort Street and Park Row",
+      "technique": "gpt"
+    },
     "height": 388,
     "id": "730682f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730682f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Frankfort Street (East) ; Healy Building ; Shot Tower ; 53-63 Park Row ; Pulitzer or World Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a47b200-c55e-012f-0f33-58d385a7bc34",
     "text": "53-63 Park Row, (Pulitzer or World Building), at the N. E. corner of Frankfort Street, showing a general view eastward of the Brooklyn Bridge, environs, the East River and the Brooklyn shore. The foreground area is the industrial section popularly known as the \"Swamp.\" Dominant there is the 10-story Healy Building and the Shot Tower. The former is at Gold and Ferry Streets, while the latter is at Cliff and Beekman Streets. Thru the left midground runs Cherry Street, a one time fashionable thoroughfare that parallels the water front.\n\nJ. S. Johnston photo\nCopyright 1894\nEwing Galloway\n\n1894\n",
     "text_source": "gpt",
@@ -85,9 +233,40 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street.",
+      "technique": "title-cross"
+    },
     "height": 505,
     "id": "718904f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718904f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "City Hall ; Pulitzer Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York City Hall (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21f61bc0-c54c-012f-ab65-58d385a7bc34",
     "text": "City Hall Park: An unidentified occasion at the City Hall. Possibly the ceremonies attendant to the Subway construction at this point. Note in the background the Pulitzer Building at the N.E. corner of Park Row and Frankfort Street.\n\nAbout 1901.\n",
     "text_source": "gpt",
@@ -101,9 +280,40 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "722446f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722446f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Monuments & memorials",
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1bfd830-c551-012f-e9eb-58d385a7bc34",
     "text": "Park Row, east side, north from and including Frankfort Street, to and including The Brooklyn Bridge Approach, near North William Street. Also shown is Nassau Street, at and adjoining the S.E. corner of Frankfort Street. In the foreground, is shown a portion of City Hall Park, with a part of the City Hall. The Municipal Building is seen towering above the Second and Third Aves., Elevated Brooklyn Bridge Station extension. Adjoining said station on the south, is the Pulitzer Building, (also known as the \"World Building\"). A portion of the Tribune Building, is shown on the extreme right.\n\nAbout 1925.\n",
     "text_source": "gpt",
@@ -117,9 +327,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Centre Street",
+        "str2": "City Hall Park"
+      },
+      "source": "Centre Street and City Hall Park",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733306f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733306f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Centre Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fcd86e0-c562-012f-802e-58d385a7bc34",
     "text": "Street Scene, Miscellaneous: A public minded individual cooperating in maintaining clean streets. This photograph taken on Center Street shows City Hall Park in the background.\n\nAbout 1930.\n",
     "text_source": "gpt",
@@ -133,9 +368,38 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722450f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722450f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York City Hall (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b365ae10-c551-012f-cf83-58d385a7bc34",
     "text": "Park Row, east side, at Frankfort Street, as seen from across City Hall Park. The view shows a portion of the City Hall on the right and the Pulitzer Building (also known as the \"World\" Building) in the background.\n\nJune 24, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -149,9 +413,41 @@
   {
     "date": "1935; 1936; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "722445f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722445f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Elevated railroads",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b13268b0-c551-012f-ef91-58d385a7bc34",
     "text": "(1) Park ROW, north from Frankfort Street, to the Brooklyn Bridge. The view shows the Brooklyn Bridge Extension of the Second and Third Avenue Elevated, over Park Row, to City Hall Park. Prominent in the background, is the Municipal Building. On the right appears the World (Pulitzer) Building.\n\nApril 18, 1935.\n\nP. L. Sperr.\n\n(2) The same, another view.\n\nApril 18, 1935.\n\nP. L. Sperr.\n\n(3) The same area subsequent to the removal of the aforementioned pedestrian over-approach to the Bridge. Remaining is the \"El\" station and the train shed from which formerly all Brooklyn traffic started. Beyond same is the New York Herald building and statuette on North William Street. Note the automobile entrance to the Bridge adjoining the World Building.\n\nJuly 4, 1938.\n\nP. L. Sperr.\n\nEverything visible so\n",
     "text_source": "gpt",
@@ -167,9 +463,41 @@
   {
     "date": "1935; 1936; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "722445f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722445f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Elevated railroads",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b13268b0-c551-012f-ef91-58d385a7bc34",
     "text": "(1) Park ROW, north from Frankfort Street, to the Brooklyn Bridge. The view shows the Brooklyn Bridge Extension of the Second and Third Avenue Elevated, over Park Row, to City Hall Park. Prominent in the background, is the Municipal Building. On the right appears the World (Pulitzer) Building.\n\nApril 18, 1935.\n\nP. L. Sperr.\n\n(2) The same, another view.\n\nApril 18, 1935.\n\nP. L. Sperr.\n\n(3) The same area subsequent to the removal of the aforementioned pedestrian over-approach to the Bridge. Remaining is the \"El\" station and the train shed from which formerly all Brooklyn traffic started. Beyond same is the New York Herald building and statuette on North William Street. Note the automobile entrance to the Bridge adjoining the World Building.\n\nJuly 4, 1938.\n\nP. L. Sperr.\n\nEverything visible so\n",
     "text_source": "gpt",
@@ -185,9 +513,41 @@
   {
     "date": "1935; 1936; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "722445f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722445f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Elevated railroads",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b13268b0-c551-012f-ef91-58d385a7bc34",
     "text": "(1) Park ROW, north from Frankfort Street, to the Brooklyn Bridge. The view shows the Brooklyn Bridge Extension of the Second and Third Avenue Elevated, over Park Row, to City Hall Park. Prominent in the background, is the Municipal Building. On the right appears the World (Pulitzer) Building.\n\nApril 18, 1935.\n\nP. L. Sperr.\n\n(2) The same, another view.\n\nApril 18, 1935.\n\nP. L. Sperr.\n\n(3) The same area subsequent to the removal of the aforementioned pedestrian over-approach to the Bridge. Remaining is the \"El\" station and the train shed from which formerly all Brooklyn traffic started. Beyond same is the New York Herald building and statuette on North William Street. Note the automobile entrance to the Bridge adjoining the World Building.\n\nJuly 4, 1938.\n\nP. L. Sperr.\n\nEverything visible so\n",
     "text_source": "gpt",
@@ -203,9 +563,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Frankfort Street - Park Row",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718959f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York City Hall (New York, N.Y.)",
+          "Postal Telegraph Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Insurance companies",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36865b60-c54c-012f-4dbd-58d385a7bc34",
     "text": "City Hall Park: A view of the City Hall, as seen from frankfort Street and viewing westward across Park Row. In the background appear the Postal Telegraph & Cable and the Home Life Insurance Company buildings; both on Broadway, at and adjoining the N.W. corner of Murray Street. This is a set consisting of two views.\n\nAbout 1936.\n\nGift of Dr. Michael Wishengrad F.R.P.S.\n",
     "text_source": "gpt",
@@ -219,9 +608,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Frankfort Street - Park Row",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718959f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718959f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York City Hall (New York, N.Y.)",
+          "Postal Telegraph Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Insurance companies",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36865b60-c54c-012f-4dbd-58d385a7bc34",
     "text": "City Hall Park: A view of the City Hall, as seen from frankfort Street and viewing westward across Park Row. In the background appear the Postal Telegraph & Cable and the Home Life Insurance Company buildings; both on Broadway, at and adjoining the N.W. corner of Murray Street. This is a set consisting of two views.\n\nAbout 1936.\n\nGift of Dr. Michael Wishengrad F.R.P.S.\n",
     "text_source": "gpt",
@@ -235,9 +653,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Park Row"
+      },
+      "source": "Frankfort Street and Park Row",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730074f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730074f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6772f7f0-c55d-012f-bd7c-58d385a7bc34",
     "text": "General View of Lower Manhattan: looking north from Pulitzer Building over Manhattan. The building located at Park Row and Frankfort Streets.\n\nCharles L. Ritzmann\n",
     "text_source": "gpt",

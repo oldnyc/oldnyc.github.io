@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Grand Street"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "703388f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703388f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/915e1390-c533-012f-746c-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Grand Street",
     "text": "101 Bushwick Ave., east side, between Grand and Maujer Streets.\nSeptember 1923.\nEugene L. Armbruster Collection.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "48th Street (East)",
+        "str2": "Avenue H"
+      },
+      "source": "Brooklyn: 48th Street (East) - Avenue H",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "702761f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702761f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f940ff0-c532-012f-3e3d-58d385a7bc34",
     "original_title": "Brooklyn: 48th Street (East) - Avenue H",
     "text": "East 48th Street, west side, between Aves. H and I, showing the William Kouwenhoven House.\nApril 1926.\nEugene L. Armbruster Collection.\n",

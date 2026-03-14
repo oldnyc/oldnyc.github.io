@@ -2,9 +2,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 460,
+        "street": "Briel Avenue"
+      },
+      "source": "460 Briel Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Brielle Avenue",
+        "str2": "Vandam Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Brielle Avenue",
+        "str2": "Vandam Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 388,
     "id": "728616f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728616f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b7729a0-c55b-012f-501c-58d385a7bc34",
     "original_title": "Richmond: Brielle Avenue - Vandam Street",
     "text": "Sea View Hospital, Staten Island, 460 Briel Avenue Source: News Department, American Press Association",

@@ -2,9 +2,34 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "708972f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708972f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Episcopal churches",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5487cf20-c53c-012f-144b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "Fifth Avenue, at the N.W. corner of West 53rd Street, showing St. Thomas's P.E. Church, organized 1826. This edifice, designed by Upjohn, was built in 1870 and contains a chancel adorned by LaFarge and gold reredos by St. Gaudens.\n\nThis identical view appears on page 353 of King's Handbook of New York, 1893.\n\nEarly 1890's\n\nGift Thru New York Historical Society\n",
@@ -19,9 +44,33 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "708970f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708970f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5439ddf0-c53c-012f-d7a5-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street",
     "text": "Fifth Avenue, east side, north from 53rd Street. 1907.\nPhotograph by Brown Brothers.\n",
@@ -39,9 +88,27 @@
     "dates_from_text": [
       "1908"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708985f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708985f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5953a4b0-c53c-012f-1e3e-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "680 Fifth Ave., west side, between West 53rd and West 54th Streets, showing the former residence of Dr. W. Seward Webb. The house was demolished between 1908 and 1910 and on its site was erected a 6-story building occupied by fashionable shops.\nPrior to 1908.\n\nUnderwood & Underwood.\n",
@@ -56,9 +123,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708986f",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/708986f.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59d42f70-c53c-012f-9c17-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "rotation": 90,
@@ -77,9 +165,27 @@
     "dates_from_text": [
       "1908"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708987f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708987f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a331130-c53c-012f-9d1f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "Residence of Dr. W. Seward Webb, 680 Fifth Avenue, west side, between 53rd and 54th Streets.\nPrior to 1908.\n",
@@ -94,9 +200,35 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.760246470986274,
+        "lng": -73.97582620382309
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 199,
     "id": "1113277",
     "image_url": "https://images.nypl.org/?id=1113277&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Buildings",
+          "Parapets",
+          "Scaffolding",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79dc1770-c6ca-012f-8c11-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -110,9 +242,36 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.760506519692,
+        "lng": -73.97593349218367
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 201,
     "id": "1113278",
     "image_url": "https://images.nypl.org/?id=1113278&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Vanderbilt, Cornelius, 1843-1899"
+        ],
+        "topic": [
+          "Buildings",
+          "Home and haunts",
+          "Railings",
+          "Sidewalks",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a244420-c6ca-012f-8c3c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -129,9 +288,27 @@
     "dates_from_text": [
       "1911-12-18"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708984f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708984f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58d47700-c53c-012f-7dcc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "680 Fifth Avenue, west side, between 53rd and 54th Streets.\nDecember 18, 1911.\nIrving Underhill, Photographer.\nN9  ~ ~ A3\n",
@@ -149,9 +326,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708968f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708968f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/537fdb00-c53c-012f-ebf7-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street",
     "text": "Fifth Avenue at S.W. corner of 53rd Street.\nAbout 1912.\n",
@@ -169,9 +364,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713647f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713647f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02ca8c50-c544-012f-f72d-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (East) - 5th Avenue",
     "text": "14 East 53rd Street, south side, between Fifth and Madison Aves.\n1912.\n",
@@ -186,9 +399,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708969f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708969f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Fur trade"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53d1d120-c53c-012f-1c06-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street",
     "text": "670-672 Fifth Ave., at the S.W. corner of West 53rd Street.\n\nJune 1922.\n\nIrving Underhill.\nGift of E. M. Jenks.\n",
@@ -203,9 +437,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708989f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708989f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b00f060-c53c-012f-5349-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street",
     "text": "Fifth Avenue, west side, north from 54th to 53rd Streets. St.Thomas Protestant Episcopal Church at extreme left, at N.W. corner of 53rd Street. The private mansion, of Norman architecture, is that of Mrs. McK. Twombley. On the extreme right is a portion of the John D. Rockefeller mansion.\nJune 1925\n",
@@ -220,9 +478,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713648f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713648f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Antique stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/033fca60-c544-012f-5f49-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (East) - 5th Avenue",
     "text": "8-12 East 53rd Street, south side, between Fifth and Madison Aves.\n1925.\n",
@@ -237,9 +516,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713651f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713651f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0473e480-c544-012f-e522-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (West) - 5th Avenue",
     "text": "15-11 West 53rd Street, north side, west of Fifth Ave. No. 11 was the home of the late Colonel William Barbour, capitalist and linen thread manufacturer which has been leased by the Western Universities Club of New York for a clubhouse.\n\n1929.\n\nUnderwood & Underwood.\n",
@@ -257,9 +557,27 @@
     "dates_from_text": [
       "1932-11-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/562c5e00-c53c-012f-6739-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street",
     "text": "South on West Side, of Fifth Avenue from N.E. corner of 53rd Street.\n\nNovember 13, 1932\n\nP.L. Sperr.  Photographer.\n",
@@ -274,9 +592,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708975f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708975f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55a71250-c53c-012f-ba35-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "Fifth Ave., west side, north from West 53rd to 54th Streets. Shown at the N.W. corner of 53rd Street is St. Thomas Protestant Episcopal Church, organized in 1823 when its first church was at Broadway and Houston Street; then a rural suburb. The parish attained a high degree of prosperity under the rectorship of Dr. Francis L. Hawks, but as early as 1843 the need of a location farther up-town began to be felt, and in 1870 the present edifice was opened for worship which was altered in 1911 to appear as shown.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -291,9 +630,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708988f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708988f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ab1a700-c53c-012f-591f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "Fifth Ave., east side, north from 54th Street, as viewed northward from the S.W. corner of 53rd Street. On the left appears a portion of St. Thomas P.E. Church which is on the N.W. corner of 53rd Street. 1936.\n\nGift of Dr. Michael Wishengrad, A.R.P.S.\n",
@@ -308,9 +669,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713650f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713650f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/041a66d0-c544-012f-906b-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (West) - 5th Avenue",
     "text": "11 West 53rd Street, north side, west of Fifth Ave. Building shown, is the Museum of Modern Art. Note the Rockefeller House (No. 10 West 54th Street), at the rear of the museum.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -328,9 +712,27 @@
     "dates_from_text": [
       "1937-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713649f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713649f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/039a5f20-c544-012f-4074-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (West) - 5th Avenue",
     "text": "2 to 18 West 53rd Street, adjoining and west of the S.W. corner of Fifth Ave., showing a partial view of a demolition that will include Nos. 2 to 22 inclusive; the eastward curve of the new Sixth Ave. Subway necessitating same.\n\nOctober 1937.\n\nR.W. Hill.\n",
@@ -345,9 +747,35 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 53rd and 54th Streets",
+      "technique": "title-cross"
+    },
     "height": 524,
     "id": "708980f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708980f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "675 5th Avenue ; Shop of Scheiner and Company, Ltd."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b72fa40-c53c-012f-443c-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 53rd and 54th Streets]",
     "text": "Shop of Scheiner & Co\n\nNew York, NY\n\nJoseph Douglas Weiss\n",
@@ -362,9 +790,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713652f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713652f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04e02350-c544-012f-6e3c-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street - 5th Avenue",
     "text": "West 53rd Street, north side, west of Fifth Ave., showing a clearance where the old building of the Museum of Modern Art stood. Upon this site, and in conjunction with additional space thru the block (former Rockefeller houses) a new Museum will rise. At the extreme right appears the side of St. Thomas Church (P.E.) with its Bridal entrance and the intertwining dollar sign and bridal knot lattice work decoration.\n\nP. L. Sperr.\n\nAn eastward view of the same area. Fifth Avenue is at the extreme right. Buildings on the left bear Nos. 23 & 21; the excavation including No's. 19 to 3 inclusive.\n\nBuilt for Geo. Blumenthal about March 19, 1938.\nP. L. Sperr.\n23 d 25 W. 53 St.\n",
@@ -379,9 +831,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713652f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713652f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04e02350-c544-012f-6e3c-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street - 5th Avenue",
     "text": "West 53rd Street, north side, west of Fifth Ave., showing a clearance where the old building of the Museum of Modern Art stood. Upon this site, and in conjunction with additional space thru the block (former Rockefeller houses) a new Museum will rise. At the extreme right appears the side of St. Thomas Church (P.E.) with its Bridal entrance and the intertwining dollar sign and bridal knot lattice work decoration.\n\nP. L. Sperr.\n\nAn eastward view of the same area. Fifth Avenue is at the extreme right. Buildings on the left bear Nos. 23 & 21; the excavation including No's. 19 to 3 inclusive.\n\nBuilt for Geo. Blumenthal about March 19, 1938.\nP. L. Sperr.\n23 d 25 W. 53 St.\n",
@@ -396,9 +872,36 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "713653f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/713653f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05339c80-c544-012f-8814-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (West) - 5th Avenue",
     "rotation": 90,
@@ -414,9 +917,36 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "713653f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/713653f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05339c80-c544-012f-8814-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (West) - 5th Avenue",
     "rotation": 90,
@@ -432,9 +962,36 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 53rd Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713653f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713653f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05339c80-c544-012f-8814-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (West) - 5th Avenue",
     "text": "(1) West 53rd Street, west from Fifth Ave. and showing several clearances on the south side of the street necessitated by the Subway construction (Sixth Ave. line) under this point; same veering eastward from Sixth Ave. At the right is St. Thomas P.E. Church with another demolition (formerly the Museum of Modern Art) just beyond. Upon this latter clearance will rise a new and larger Museum which will include the Rockefeller properties on 54th Street.\n\nMarch 19, 1938.\n\nP. L. Sperr.\n\n(2) A view solely of the south side underneath which the Sixth Ave. Subway line will run. The photographer is viewing southwestward across same to show on the left the upper part of the R.K.O. Building, a unit of Rockefeller (Radio) Center.\n\nMarch 19, 1938.\n\nP. L. Sperr.\n\n(3) A view similar to No. 1 from the Avenue. An article on the new Museum appears in the New York Times of Aug. 30, 1938 describing the constructional details of the new Museum.\n\nApril 24, 1938.\n\nP. L. Sperr\n",
@@ -449,9 +1006,30 @@
   {
     "date": "1945",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708973f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708973f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Choirboys"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54f04cf0-c53c-012f-61df-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street",
     "text": "P.L. Sperr collection\nRec'd September 12, 1945\n",
@@ -466,9 +1044,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 675 Fifth Avenue - East 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557987",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557987.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Delbeau"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9405b6b0-c5ec-012f-7a01-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -482,9 +1088,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Fifth Avenue",
+        "str2": "West 53rd Street"
+      },
+      "source": "Manhattan: 684 Fifth Avenue - West 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557989",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557989.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Revillon Freres Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Revillon Fr\u00e8res Trading Company"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Commercial buildings",
+          "Fur trade",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94db9d60-c5ec-012f-4dbf-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -498,9 +1136,31 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "708974f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708974f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Choirboys",
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/553ed130-c53c-012f-f866-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (West)",
     "text": "New 21 - Bell Carillon dedicated at St. Thomas Church with impressive ceremony.\n\nNew York - Photo shows: The boy choristers of St. Thomas Church - one of the boys' choirs in the world -- singing during the dedication of the new 21 - bell carillon.\n\nPhoto by Underwood & Underwood\n",
@@ -515,9 +1175,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "708977f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708977f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56904b90-c53c-012f-7644-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [53rd Street]",
     "text": null,
@@ -532,9 +1210,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708978f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708978f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5718af30-c53c-012f-d65c-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [53rd Street]",
     "text": null,
@@ -549,9 +1245,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708979f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708979f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57751940-c53c-012f-e8a6-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [53rd Street]",
     "text": null,
@@ -566,9 +1280,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 53rd and 54th Streets",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "708981f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708981f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "680 5th Avenue ; Shop of Scheiner and Company, Ltd. ; Show room."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5bcd3930-c53c-012f-62d9-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 53rd and 54th Streets]",
     "text": "SCHEINER & Co Ltd.\n680 5th Ave \u2014 SHOW ROOM\n12/21/37\n",
@@ -583,9 +1323,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "708982f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708982f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57ed9740-c53c-012f-0e3d-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (East)",
     "text": null,
@@ -600,9 +1358,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 53rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 566,
     "id": "708983f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708983f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5872da90-c53c-012f-ad05-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 53rd Street (East)",
     "text": null,

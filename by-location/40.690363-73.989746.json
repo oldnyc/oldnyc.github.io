@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum Place",
+        "str2": "Schermerhorn Street"
+      },
+      "source": "Brooklyn: Schermerhorn Street - Boerum Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706635f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706635f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9bf655d0-c538-012f-d458-58d385a7bc34",
     "original_title": "Brooklyn: Schermerhorn Street - Boerum Place",
     "text": "119-129 Schermerhorn Street, north side, between Boerum Place and Smith Street.\n\nJune 1, 1929.\n\nP. L. Sperr.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1929-10-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum Place",
+        "str2": "Schermerhorn Street"
+      },
+      "source": "Brooklyn: Schermerhorn Street - Boerum Place",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "706636f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706636f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c695890-c538-012f-d35e-58d385a7bc34",
     "original_title": "Brooklyn: Schermerhorn Street - Boerum Place",
     "text": "121-135 Schermerhorn Street, north side, east from Boerum Place to Smith Street, across site for Central Courts Building.\n\nOctober 5, 1929.\n\nP. L. Sperr.\n",
@@ -39,9 +78,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum Place",
+        "str2": "Schermerhorn Street"
+      },
+      "source": "Brooklyn: Schermerhorn Street - Boerum Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706634f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706634f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b9a30e0-c538-012f-c4a8-58d385a7bc34",
     "original_title": "Brooklyn: Schermerhorn Street - Boerum Place",
     "text": "110-118 Schermerhorn Street, south side, between Boerum Place and Smith Street, showing the Friend's (Hicksite) Church and School.\n\nApril 7, 1932.\n\nP. L. Sperr.\n",

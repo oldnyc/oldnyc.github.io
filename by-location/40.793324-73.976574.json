@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "92nd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "92nd Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 289,
     "id": "464738-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464738-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ca07c30-c612-012f-3223-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "92nd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "92nd Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464738-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464738-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ca07c30-c612-012f-3223-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Ninety-second Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Ninety-second Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "417411",
     "image_url": "https://images.nypl.org/?id=417411&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb4972d0-c611-012f-83aa-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +114,39 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 92nd Street"
+      },
+      "source": "Riverside Drive and West 92nd Street",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "734574f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734574f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Riverside Drive - West 92nd Street - 96th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal",
+          "Parks",
+          "Sailboats",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81bfb970-c564-012f-6f6c-58d385a7bc34",
     "text": null,
     "text_source": null,

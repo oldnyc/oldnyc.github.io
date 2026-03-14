@@ -2,9 +2,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 89th Street",
+        "str2": "Third Avenue"
+      },
+      "source": "Manhattan: Third Avenue - East 89th Street",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "1557861",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557861.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lauria Restaurant interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Counters",
+          "Historic buildings",
+          "Interiors",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cf97ba0-c5ec-012f-ff1e-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "48th Street (East)",
+        "str2": "Canarsie Lane"
+      },
+      "source": "Brooklyn: Canarsie Lane - 48th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "703465f",
     "image_url": "https://images.nypl.org/?id=703465f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae829a30-c533-012f-aca1-58d385a7bc34",
     "original_title": "Brooklyn: Canarsie Lane - 48th Street (East)",
     "text": null,

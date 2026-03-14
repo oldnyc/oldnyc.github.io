@@ -2,9 +2,30 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "142nd Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 142nd Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715642f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715642f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0acdb1b0-c547-012f-8386-58d385a7bc34",
     "original_title": "Manhattan: 142nd Street (West) - Riverside Drive",
     "text": "625-621 West 142nd Street, north side, east of Riverside Drive.\nAbout 1911.\n",

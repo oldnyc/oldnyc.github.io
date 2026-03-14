@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-06-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Old Broadway"
+      },
+      "source": "Manhattan: 125th Street (West) - Old Broadway",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715422f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715422f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b620b7c0-c546-012f-956b-58d385a7bc34",
     "original_title": "Manhattan: 125th Street (West) - Old Broadway",
     "text": "West 125th Street, at, adjoining and east of the N.E. corner of Old Broadway. Also shown is Old Broadway, east side, north from West 125th., to, but not including Lawrence Streets.\n\nJune 21, 1934.\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1941-09-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lee Avenue",
+        "str2": "Middleton Street"
+      },
+      "source": "Lee Avenue and Middleton Street",
+      "technique": "gpt"
+    },
     "height": 388,
     "id": "1509647",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509647.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b58180e0-c5cd-012f-6c40-58d385a7bc34",
     "text": null,
     "text_source": null,

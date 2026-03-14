@@ -2,9 +2,37 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.571413,
+        "lng": -73.983822
+      },
+      "source": "Islands - Coney Island pier ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Boardwalk",
+        "str2": "West 18th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "732021f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732021f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: 18th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Coney Island Pier (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b8d46b0-c560-012f-2fe5-58d385a7bc34",
     "text": "Coney Island Pier, south of the Boardwalk at West 18th Street. April 2, 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -18,9 +46,46 @@
   {
     "date": "1925; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.571413,
+        "lng": -73.983822
+      },
+      "source": "Islands - Coney Island pier ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Boardwalk",
+        "str2": "West 12th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "732022f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/732022f-a.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: 18th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Coney Island (New York, N.Y.)",
+          "Coney Island Pier (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Steeplechase Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c001490-c560-012f-dfe5-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nConey Island Pier, view looking southwest from West 12th Street.\nJune 1925.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another view.\nJune 1925.\nEugene L. Armbruster Collection.\n\n(3)\nThe same, showing another view of the Coney Island Pier looking north toward the Boardwalk, showing George C. Tilyou's Steeplechase Park in the background.\nSeptember 6, 1937.\n\nP. L. Sperr.\n",
@@ -36,9 +101,46 @@
   {
     "date": "1925; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.571413,
+        "lng": -73.983822
+      },
+      "source": "Islands - Coney Island pier ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Boardwalk",
+        "str2": "West 12th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 475,
     "id": "732022f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732022f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: 18th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Coney Island (New York, N.Y.)",
+          "Coney Island Pier (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Steeplechase Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c001490-c560-012f-dfe5-58d385a7bc34",
     "text": "(1)\nConey Island Pier, view looking southwest from West 12th Street.\nJune 1925.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another view.\nJune 1925.\nEugene L. Armbruster Collection.\n\n(3)\nThe same, showing another view of the Coney Island Pier looking north toward the Boardwalk, showing George C. Tilyou's Steeplechase Park in the background.\nSeptember 6, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -53,9 +155,46 @@
   {
     "date": "1925; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.571413,
+        "lng": -73.983822
+      },
+      "source": "Islands - Coney Island pier ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Boardwalk",
+        "str2": "West 12th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 476,
     "id": "732022f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732022f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: 18th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Coney Island (New York, N.Y.)",
+          "Coney Island Pier (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Steeplechase Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c001490-c560-012f-dfe5-58d385a7bc34",
     "text": "(1)\nConey Island Pier, view looking southwest from West 12th Street.\nJune 1925.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another view.\nJune 1925.\nEugene L. Armbruster Collection.\n\n(3)\nThe same, showing another view of the Coney Island Pier looking north toward the Boardwalk, showing George C. Tilyou's Steeplechase Park in the background.\nSeptember 6, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

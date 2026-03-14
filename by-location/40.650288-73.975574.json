@@ -2,9 +2,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ocean Parkway",
+        "str2": "Prospect Avenue"
+      },
+      "source": "Brooklyn: Ocean Parkway - Prospect Avenue",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "706109f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706109f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d06eb5d0-c537-012f-f1bb-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Parkway - Prospect Avenue",
     "text": "Ocean Pkwy., west side, at the junction of Prospect Ave., and Fort Hamilton Parkway. A view of a former Restaurant.\n\nOctober 1926.\n\nEugene L. Armbruster Collection.\n",

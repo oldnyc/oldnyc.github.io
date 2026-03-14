@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "111th Street",
+        "str2": "48th Avenue"
+      },
+      "source": "Queens: 48th Avenue - 111th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "725363f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725363f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4642fb00-c556-012f-9eb7-58d385a7bc34",
     "original_title": "Queens: 48th Avenue - 111th Street",
     "text": "48th Avenue, at the N. W. corner of 111th Street, showing a parking space for World's Fair (1939-40) visitors.\n\nP. L. Sperr\nJune 23, 1940\n",

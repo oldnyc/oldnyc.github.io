@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-05-18"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Street",
+        "str2": "2nd Avenue"
+      },
+      "source": "Brooklyn: 14th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702540f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702540f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a851420-c532-012f-10c6-58d385a7bc34",
     "original_title": "Brooklyn: 14th Street - 2nd Avenue",
     "text": "14th Street, east from Second Ave. On Second Ave., (left), beginning with the 1-story building are Nos. 175, 177 and 179.\n\nMay 18, 1935.\n\nP. L. Sperr.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1939-04-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Street",
+        "str2": "2nd Avenue"
+      },
+      "source": "Brooklyn: 14th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702539f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702539f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a0fbce0-c532-012f-25c8-58d385a7bc34",
     "original_title": "Brooklyn: 14th Street - 2nd Avenue",
     "text": "73 14th Street, east of the N. E. corner of Second Avenue, and viewing toward the latter. In the background is a gas tank of the Brooklyn Union Gas Company near the Gowanus Canal.\n\nApril 9, 1939\n\nP. L. Sperr\n",
@@ -42,9 +78,29 @@
   {
     "date": "1941-11-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Street",
+        "str2": "2nd Avenue"
+      },
+      "source": "14th Street at 2nd Avenue, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "485885",
     "image_url": "https://images.nypl.org/?id=485885&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87cb93b0-c60e-012f-b773-58d385a7bc34",
     "text": null,
     "text_source": null,

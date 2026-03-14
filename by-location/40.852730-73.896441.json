@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "181st Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Bronx: Park Avenue - 181st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701569f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de2a80c0-c530-012f-efbc-58d385a7bc34",
     "original_title": "Bronx: Park Avenue - 181st Street",
     "text": "4443 park Ave., north of the N.W. corner of East 181st Street.\nAbout 1923.\n\nW. B. Vernam.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "181st Street (East)",
+        "str2": "Park Avenue"
+      },
+      "source": "Bronx: Park Avenue - 181st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701570f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701570f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dea45b40-c530-012f-0c44-58d385a7bc34",
     "original_title": "Bronx: Park Avenue - 181st Street (East)",
     "text": "4447 Park Ave., west side, between East 181st and East 182nd Streets.\n\nAbout 1924.\n\nW. B. Vernam.\n",

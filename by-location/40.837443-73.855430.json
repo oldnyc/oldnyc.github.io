@@ -2,9 +2,48 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Olmstead Avenue",
+        "str2": "St. Raymond Avenue"
+      },
+      "source": "Olmstead Avenue and St. Raymond Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Hoguet Street",
+        "str2": "Starling Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Hoguet Street",
+        "str2": "Starling Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "701272f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701272f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d12ca50-c530-012f-3f77-58d385a7bc34",
     "original_title": "Bronx: Hoguet Street - Starling Avenue",
     "text": "Hoguet Street, east side, about 100 yards north of Starling Avenue (point of vantage). The view is in a northeasterly direction across Olmstead Ave. and shows, thereon, Public School No. 106 at the S.E. corner of St. Raymond Avenue. This entire cleared area will become part of the model real estate development of the Metropolitan Life Insurance Company.\n\nApril 10, 1938.\n\nP. L. Sperr.\n",
@@ -22,9 +61,27 @@
     "dates_from_text": [
       "1938-04-10"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Olmstead Avenue",
+        "str2": "St. Raymond Avenue"
+      },
+      "source": "Bronx: Olmstead Avenue - St. Raymond Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701554f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701554f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d881ad80-c530-012f-09e9-58d385a7bc34",
     "original_title": "Bronx: Olmstead Avenue - St. Raymond Avenue",
     "text": "Olmstead Avenue, at St. Raymond Avenue (vantage-point). The view is northeastward toward E. Tremont Avenue, across the area which will become part of the model housing development to be erected by the Metropolitan Life Insurance Company.\n\nApril 10, 1938\n\nP. L. Sperr\n",
@@ -39,9 +96,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Olmstead Avenue",
+        "str2": "St. Raymond's Avenue"
+      },
+      "source": "Bronx: St. Raymond's Avenue - Olmstead Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701753f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701753f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d1c42d0-c531-012f-971a-58d385a7bc34",
     "original_title": "Bronx: St. Raymond's Avenue - Olmstead Avenue",
     "text": "St. Raymond Avenue, north side, east from Olmstead Avenue. The three-story brick building is the service building of the Bronx Gas and Electric Company, at Odell Street.\n\nApril 10, 1938\n\nP. L. Sperr\n",

@@ -2,9 +2,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "138th Street (East)",
+        "str2": "Walnut Avenue"
+      },
+      "source": "Bronx: 138th Street (East) - Walnut Avenue",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "700075f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700075f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Printing machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0fd6000-c52e-012f-72a7-58d385a7bc34",
     "original_title": "Bronx: 138th Street (East) - Walnut Avenue",
     "text": "E. 138th Street, south side, at Walnut Avenue, showing the manufacturing plant of R. Hoe and Company, makers of printing machinery.\n\nAlexander Alland 1939\n",

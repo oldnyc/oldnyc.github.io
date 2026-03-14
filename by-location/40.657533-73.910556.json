@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hopkinson Avenue",
+        "str2": "Lott Avenue"
+      },
+      "source": "Hopkinson Avenue and Lott Avenue",
+      "technique": "gpt"
+    },
     "height": 484,
     "id": "732694f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732694f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a040390-c561-012f-256b-58d385a7bc34",
     "text": "Lott Avenue, south side, from Hopkinson Avenue to Amboy Street, showing Public School No. 165.\n\nBoard of Education of the City of New York  Early 1930's\n",
     "text_source": "gpt",

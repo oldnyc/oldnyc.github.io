@@ -2,9 +2,41 @@
   {
     "date": "1925-07-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Brooklyn Ave",
+        "str2": "Lenox Road"
+      },
+      "source": "Brooklyn Ave and Lenox Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Brooklyn Ave.",
+        "str2": "Clarkson Ave.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brooklyn Ave",
+        "str2": "Clarkson Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "703358f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703358f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86372920-c533-012f-5f0f-58d385a7bc34",
     "text": "Brooklyn Avenue, east side, between Clarkson Avenue, and Lenox Road, showing the home of G. Eckstein.\n\nJuly 24, 1925.\n\nW.B. Vernam\n",
     "text_source": "gpt",

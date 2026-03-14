@@ -2,9 +2,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cedar Avenue",
+        "str2": "Tremont Avenue (West"
+      },
+      "source": "Bronx: Tremont Avenue (West - Cedar Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702102f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702102f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2047920-c531-012f-38d3-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (West - Cedar Avenue",
     "text": "West Tremont Ave., west of the N.W. corner of Cedar Ave., showing the Morris Heights depot of the New York Central Railroad.\n\nDecember 26, 1937.\n\nP. L. Sperr.\n",

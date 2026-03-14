@@ -2,9 +2,35 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "242nd Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Bronx: Broadway - 242nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "700568f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700568f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations",
+          "Restaurants",
+          "Trolley cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7254c840-c52f-012f-3714-58d385a7bc34",
     "original_title": "Bronx: Broadway - 242nd Street (West)",
     "text": "Broadway, north from West 242nd Street. On the left is the stairway of the I.R.T. subway station.\n\nAbout 1917.\n",
@@ -19,9 +45,36 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "242nd Street",
+        "str2": "Broadway"
+      },
+      "source": "242nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 483,
     "id": "701966f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701966f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Lake (New York, N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Lakes & ponds",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6dd8d2a0-c531-012f-8ed2-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): Viewing west across the lower end of Van Cortland Lake as it is being filled. On the left is the 242nd Street I.R.T. subway station, on Broadway; on the right is the Horace Mann High School, on West 246th Street.\n\nAbout 1917\n",
     "text_source": "gpt",
@@ -35,9 +88,47 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "242nd Street",
+        "str2": "Broadway"
+      },
+      "source": "242nd Street and Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "246th Street",
+        "str2": "Broadway",
+        "technique": "gpt"
+      }
+    ],
     "height": 386,
     "id": "701989f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701989f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76f61c90-c531-012f-9c15-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": "Corner of kitchen, Van Cortlandt Museum, Van Cortlandt Park, Broadway and 242nd St., Bronx.\nn.d. [1920's?]\n",
@@ -52,9 +143,28 @@
   {
     "date": "1928; 1928-05-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "242nd Street",
+        "str2": "Broadway"
+      },
+      "source": "242nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "701965f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701965f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d7671d0-c531-012f-e1a6-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): Northwestward across the lower end of the park and Van Cortland Lake. View 2 is directly west toward the 242nd Street station of the I.R.T. subway on Broadway.\n\nMay 8, 1928\nViews 1, 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -69,9 +179,28 @@
   {
     "date": "1928; 1928-05-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "242nd Street",
+        "str2": "Broadway"
+      },
+      "source": "242nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 407,
     "id": "701965f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701965f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d7671d0-c531-012f-e1a6-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): Northwestward across the lower end of the park and Van Cortland Lake. View 2 is directly west toward the 242nd Street station of the I.R.T. subway on Broadway.\n\nMay 8, 1928\nViews 1, 2\n\nP. L. Sperr\n",
     "text_source": "gpt",

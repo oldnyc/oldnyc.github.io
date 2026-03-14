@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Jefferson Street"
+      },
+      "source": "Brooklyn: Jefferson Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "705119f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705119f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a636a10-c536-012f-91d8-58d385a7bc34",
     "original_title": "Brooklyn: Jefferson Street - Broadway",
     "text": "Jefferson Street, east from Broadway to Bushwick Ave. In the background, is a view of St. Mark's Evang. Lutheran Church.\n\nJanuary 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Jefferson Street"
+      },
+      "source": "Brooklyn: Jefferson Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49ff0e30-c536-012f-6315-58d385a7bc34",
     "original_title": "Brooklyn: Jefferson Street - Broadway",
     "text": "Jefferson Street, east from Broadway to Bushwick Ave. In the background, is seen St. Mark's Church Steeple.\n\nAugust 22, 1932.\n\nP. L. Sperr.\n",

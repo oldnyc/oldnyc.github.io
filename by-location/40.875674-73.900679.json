@@ -2,9 +2,56 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Sedgwick Avenue",
+        "str2": "W. 231st Street"
+      },
+      "source": "Sedgwick Avenue and W. 231st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Jerome Avenue",
+        "str2": "Reservoir Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Jerome Avenue",
+        "str2": "Reservoir Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Goulden Avenue",
+        "str2": "W. Mosholu Parkway South",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "701360f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701360f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Jerome Park Reservoir (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Parks",
+          "Public schools",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f2b2b40-c530-012f-12bb-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - Reservoir Avenue",
     "text": "Jerome Park Reservoir (Bronx): North across the eastern half of the reservoir, as seen from Reservoir Avenue. In the background is DeWitt Clinton High School at W. Mosholu Parkway South and Goulden Avenue. To the right is the high service station of the I.R.T. subway system and the subway \"El\" on Jerome Avenue. View 2 shows the southwestern end of the reservoir and buildings on Sedgwick Avenue, north from W. 231st Street.\n\nMay 8, 1928\nViews 1,2\n\nP. L. Sperr\n",
@@ -19,9 +66,56 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Sedgwick Avenue",
+        "str2": "W. 231st Street"
+      },
+      "source": "Sedgwick Avenue and W. 231st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Jerome Avenue",
+        "str2": "Reservoir Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Jerome Avenue",
+        "str2": "Reservoir Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Goulden Avenue",
+        "str2": "W. Mosholu Parkway South",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "701360f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701360f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Jerome Park Reservoir (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Parks",
+          "Public schools",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f2b2b40-c530-012f-12bb-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - Reservoir Avenue",
     "text": "Jerome Park Reservoir (Bronx): North across the eastern half of the reservoir, as seen from Reservoir Avenue. In the background is DeWitt Clinton High School at W. Mosholu Parkway South and Goulden Avenue. To the right is the high service station of the I.R.T. subway system and the subway \"El\" on Jerome Avenue. View 2 shows the southwestern end of the reservoir and buildings on Sedgwick Avenue, north from W. 231st Street.\n\nMay 8, 1928\nViews 1,2\n\nP. L. Sperr\n",

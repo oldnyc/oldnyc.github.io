@@ -2,9 +2,33 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Esplanade",
+        "str2": "Lurting Avenue"
+      },
+      "source": "Bronx: Esplanade - Lurting Avenue",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "701014f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701014f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Lurting Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c080c60-c530-012f-ff38-58d385a7bc34",
     "text": "Esplanade, south from Lurting to Paulding Aves., showing the Morris Park station of the New York, Boston and Westchester Railroad; at the latter Ave.\n\nSpring 1913.\n",
     "text_source": "gpt",

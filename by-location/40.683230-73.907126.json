@@ -2,9 +2,30 @@
   {
     "date": "1941-08-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Granite Street"
+      },
+      "source": "Bushwick Avenue and Granite Street",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "1509523-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509523-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a13c6050-c5cd-012f-8f10-58d385a7bc34",
     "text": null,
     "text_source": null,

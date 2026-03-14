@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "35th Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Queens: 87th Street - 35th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725701f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725701f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3d1f820-c556-012f-049d-58d385a7bc34",
     "original_title": "Queens: 87th Street - 35th Avenue",
     "text": "87th Street, adjoining the N.W. corner of 35th Avenue, showing one of a row of new homes erected in this Jackson Heights area.\n\nBrown Brothers\n\nAbout 1928\n",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1930-06"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 49,
+        "street": "Harbor View Place South"
+      },
+      "source": "49 Harbor View Place South",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place So",
+        "str2": "Richmond Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place So",
+        "str2": "Richmond Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "728923f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728923f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/864d2940-c55b-012f-38f2-58d385a7bc34",
     "text": "49 Harbor View Place South, north side, west of The Narrows, showing Rev. W. A. Nichol's residence.\n\nJune 1930.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -24,9 +56,41 @@
     "dates_from_text": [
       "1930-10-27"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 53,
+        "street": "Harbor View Place South"
+      },
+      "source": "53 Harbor View Place South",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place So",
+        "str2": "Richmond Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place So",
+        "str2": "Richmond Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "728924f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728924f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86bc3150-c55b-012f-4f18-58d385a7bc34",
     "text": "53 Harbor View Place South, north side, at the Narrows.\n\nOctober 27, 1930.\n\nP:L. Sperr,\n",
     "text_source": "gpt",
@@ -43,9 +107,27 @@
     "dates_from_text": [
       "1930-07-15"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place So",
+        "str2": "Wadsworth Road"
+      },
+      "source": "Richmond: Harbor View Place So - Wadsworth Road",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "728929f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728929f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88c0cd00-c55b-012f-4179-58d385a7bc34",
     "original_title": "Richmond: Harbor View Place So - Wadsworth Road",
     "text": "Harbor View Place South, at Wadsworth Road, showing the Daly residence. View 2 shows the rear of the house.\n\nJuly 15, 1930\nViews 1,2.\n\nP.L.Sperr\n",
@@ -63,9 +145,27 @@
     "dates_from_text": [
       "1930-07-15"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place So",
+        "str2": "Wadsworth Road"
+      },
+      "source": "Richmond: Harbor View Place So - Wadsworth Road",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "728929f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728929f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88c0cd00-c55b-012f-4179-58d385a7bc34",
     "original_title": "Richmond: Harbor View Place So - Wadsworth Road",
     "text": "Harbor View Place South, at Wadsworth Road, showing the Daly residence. View 2 shows the rear of the house.\n\nJuly 15, 1930\nViews 1,2.\n\nP.L.Sperr\n",
@@ -83,9 +183,27 @@
     "dates_from_text": [
       "1934-03-25"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Harbor View Place (South)",
+        "str2": "Wadsworth Road"
+      },
+      "source": "Richmond: Wadsworth Road - Harbor View Place (South)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729868f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729868f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb79a120-c55c-012f-cdd0-58d385a7bc34",
     "original_title": "Richmond: Wadsworth Road - Harbor View Place (South)",
     "text": "Wadsworth Road, at Harbor View Place South. The view is from Shore Acres Road.\n\nMarch 25, 1934\n\nP. L. Sperr\n",

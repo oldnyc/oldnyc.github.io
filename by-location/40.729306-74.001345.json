@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "MacDougal Street"
+      },
+      "source": "Manhattan: MacDougal Street - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "721161f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721161f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6851190-c54f-012f-d7f6-58d385a7bc34",
     "original_title": "Manhattan: MacDougal Street - Bleecker Street",
     "text": "Macdougal Street, south from and including Bleecker Street at the S.W. corner.\n\nMay 23, 1933.\n\nP. L. Sperr.\n",
@@ -19,9 +40,29 @@
   {
     "date": "1951-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 263,
+        "street": "Bleeker Street"
+      },
+      "source": "Bleeker Street #263",
+      "technique": "title-address"
+    },
     "height": 389,
     "id": "1508965",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508965.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d292c3b0-c5cd-012f-8a2e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +76,29 @@
   {
     "date": "1953",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 270,
+        "street": "Bleeker Street"
+      },
+      "source": "Bleeker Street #270",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508967",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508967.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d30b77d0-c5cd-012f-0764-58d385a7bc34",
     "text": null,
     "text_source": null,

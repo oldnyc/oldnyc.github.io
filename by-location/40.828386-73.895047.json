@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Home Street",
+        "str2": "Intervale Street"
+      },
+      "source": "Bronx: Home Street - Intervale Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701281f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701281f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/709bbc60-c530-012f-d606-58d385a7bc34",
     "original_title": "Bronx: Home Street - Intervale Street",
     "text": "Home Street (right), north side, east from Intervale Avenue, showing the Holy Trinity Lutheran Church, at the N.E. corner of the aforementioned thoroughfares. On the left is the east side of Intervale Avenue, extending north to Fox Street.\n\nApril 26, 1938.\n\nP. L. Sperr.\n",

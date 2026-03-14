@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Humboldt Street",
+        "str2": "Richardson Street"
+      },
+      "source": "Brooklyn: Humboldt Street - Richardson Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "705053f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/705053f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/302aa1c0-c536-012f-ce92-58d385a7bc34",
     "original_title": "Brooklyn: Humboldt Street - Richardson Street",
     "rotation": 90,
@@ -20,9 +41,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Humboldt Street",
+        "str2": "Richardson Street"
+      },
+      "source": "Brooklyn: Humboldt Street - Richardson Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705053f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705053f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/302aa1c0-c536-012f-ce92-58d385a7bc34",
     "original_title": "Brooklyn: Humboldt Street - Richardson Street",
     "text": "(1)\n490-504 Humboldt Street, east side, north from Richardson Street.\nMarch 3, 1935.\n\nP. L. Sperr.\n\n(2)\nThe same, showing only a view of No. 500.\nMarch 3, 1935.\n\nP. L. Sperr.\n",
@@ -40,9 +82,27 @@
     "dates_from_text": [
       "1935-03-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Humboldt Street",
+        "str2": "Richardson Street"
+      },
+      "source": "Brooklyn: Richardson Street - Humboldt Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706477f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706477f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/602f47e0-c538-012f-9882-58d385a7bc34",
     "original_title": "Brooklyn: Richardson Street - Humboldt Street",
     "text": "203-205 Richardson Street, north side, between Humboldt and North Henry Streets.\nMarch 3, 1935.\n\nP. L. Sperr.\n",

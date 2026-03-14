@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "163d Street",
+        "str2": "Broadway"
+      },
+      "source": "163d Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 576,
     "id": "417658-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417658-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18edf9d0-c6cd-012f-f8ad-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "163d Street",
+        "str2": "Broadway"
+      },
+      "source": "163d Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417661",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417661.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17c95680-c6cd-012f-de4c-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,37 @@
   {
     "date": "1920; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 489,
+        "street": "Fifth Avenue"
+      },
+      "source": "489 Fifth Avenue",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1557917",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557917.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Depew Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Commercial buildings",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86a1adb0-c5ec-012f-6a67-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -19,9 +47,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 489,
+        "street": "Fifth Avenue"
+      },
+      "source": "489 Fifth Avenue",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1557916",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557916.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Wallach Brothers [and Hart, Schaffner and Marx]"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Clothing stores",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/857c2ad0-c5ec-012f-d607-58d385a7bc34",
     "text": null,
     "text_source": null,

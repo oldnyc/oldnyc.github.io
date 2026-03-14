@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Berriman Street",
+        "str2": "Hageman Avenue"
+      },
+      "source": "Brooklyn: Hageman Avenue - Berriman Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "704809f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704809f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce567670-c535-012f-2766-58d385a7bc34",
     "original_title": "Brooklyn: Hageman Avenue - Berriman Street",
     "text": "Hegeman Avenue, south side, from Berriman Street to Atkins Avenue, showing Public School No. 202. The Berriman Street side is on the left.\n\nBoard of Education of the City of New York  Early 1930's\n",

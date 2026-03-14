@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-08-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dean Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Brooklyn: Dean Street - Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "703931f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703931f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6b695430-c534-012f-d64c-58d385a7bc34",
     "original_title": "Brooklyn: Dean Street - Washington Avenue",
     "text": "Dean Street, east from Washington Avenue.\n\nP. L. Sperr\nAugust 28, 1941\n",

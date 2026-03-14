@@ -2,9 +2,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Everett Avenue",
+        "str2": "Gerritsen Avenue"
+      },
+      "source": "Everett Avenue and Gerritsen Avenue",
+      "technique": "gpt"
+    },
     "height": 443,
     "id": "732780f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732780f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac7c6290-c561-012f-4a91-58d385a7bc34",
     "text": "Gerritsen Avenue, at Everett Avenue, showing a W. P. A. sewer project.\n\nJuly 5, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",
     "text_source": "gpt",

@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "144th Street (East)",
+        "str2": "Anthony Place"
+      },
+      "source": "Bronx: 144th Street (East) - Anthony Place",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "700101f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700101f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca43f890-c52e-012f-7aa1-58d385a7bc34",
     "original_title": "Bronx: 144th Street (East) - Anthony Place",
     "text": "Bx. 144th St. n.w. corner Anthony and Griffin Pl. Neg. A-155 P.L.Sperr Ap. 30, 1941",

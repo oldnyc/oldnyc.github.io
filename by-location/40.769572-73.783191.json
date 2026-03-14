@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "206th Street",
+        "str2": "33rd Avenue"
+      },
+      "source": "Queens: 33rd Avenue - 206th Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "725222f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725222f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17715f70-c556-012f-5731-58d385a7bc34",
     "original_title": "Queens: 33rd Avenue - 206th Street",
     "text": "33rd Avenue, north side, from 205th to 206th Streets, showing Public School No. 159.\n\nBoard of Education of the City of New York June 18, 1931\n",

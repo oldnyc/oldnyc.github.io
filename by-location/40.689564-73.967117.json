@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Waverly Avenue"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Waverly Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703999f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703999f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85f931b0-c534-012f-6f04-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Waverly Avenue",
     "text": "Brooklyn\nDeKalb Ave. e. from Waverly Av.\n7-8-42\nP.L. Sperr\n",
@@ -19,9 +43,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "DeKalb Ave.",
+        "str2": "Waverly Ave."
+      },
+      "source": "Brooklyn: Waverly Ave. - DeKalb Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707332f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707332f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9d8c0c0-c539-012f-7bd5-58d385a7bc34",
     "original_title": "Brooklyn: Waverly Ave. - DeKalb Ave.",
     "text": "Brooklyn\nWaverly Ave. adjoin. s.e. cor. DeKalb Ave.\n7-8-42\nP.L. Sperr\n",
@@ -36,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "DeKalb Ave.",
+        "str2": "Waverly Ave."
+      },
+      "source": "Brooklyn: Waverly Ave. - DeKalb Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707333f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707333f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa399f40-c539-012f-4d20-58d385a7bc34",
     "original_title": "Brooklyn: Waverly Ave. - DeKalb Ave.",
     "text": "Waverly Avenue north from DeKalb Avenue\nBrooklyn\n7/8/42\n",

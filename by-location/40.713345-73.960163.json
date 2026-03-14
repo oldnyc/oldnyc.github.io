@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-08-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "1st Street (South)",
+        "str2": "Driggs Avenue"
+      },
+      "source": "Brooklyn: Driggs Avenue - 1st Street (South)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704029f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704029f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/922ef070-c534-012f-7568-58d385a7bc34",
     "original_title": "Brooklyn: Driggs Avenue - 1st Street (South)",
     "text": "713 Driggs Ave., at the N.E. corner of South 1st Street.\nAugust 9, 1935.\n\nP. L. Sperr.\n",

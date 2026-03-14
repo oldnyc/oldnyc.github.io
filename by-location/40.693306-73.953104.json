@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Sanford Street",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Sanford Street - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "706619f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706619f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96949e20-c538-012f-9b4e-58d385a7bc34",
     "original_title": "Brooklyn: Sanford Street - Willoughby Avenue",
     "text": "Sanford Street, east side, between Willoughby and DeKalb Avenues, showing Public School No. 54.\n\nBoard of Education of the City of New York October 3, 1929\n",

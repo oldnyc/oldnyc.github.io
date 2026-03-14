@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Court Street",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: Court Street - President Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703852f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703852f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4aed90c0-c534-012f-f661-58d385a7bc34",
     "original_title": "Brooklyn: Court Street - President Street",
     "text": "Court Street, at the N.W. corner of President Street, showing the South Congregational Church.\n1922.\nEugene L. Armbruster Collection.\n",

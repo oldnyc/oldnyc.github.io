@@ -2,9 +2,34 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "68th Street"
+      },
+      "source": "Manhattan: 68th Street - 2nd Avenue.",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "732834f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732834f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 68th Street - 2nd Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children playing",
+          "Railings",
+          "Wrought iron"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c18f9610-c561-012f-efff-58d385a7bc34",
     "text": "Children playing with express wagon in 68th Street, just west of Second Ave.\nAbout 1905.\n\nEwing Galloway,\n",
     "text_source": "gpt",
@@ -18,9 +43,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "68th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 68th Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "707904f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707904f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c9179e0-c53a-012f-a43d-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 68th Street",
     "text": "Second Avenue, west side at 68th Street, looking northwards.\n\nP.L. Sperr\nApril 4, 1941\n",
@@ -35,9 +81,34 @@
   {
     "date": "1949-11-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 68th Street (First Avenue",
+        "str2": "Second Avenue)"
+      },
+      "source": "Manhattan: 333 East 68th Street (First Avenue - Second Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558295",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558295.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb6cf9b0-c5ec-012f-fb36-58d385a7bc34",
     "text": null,
     "text_source": null,

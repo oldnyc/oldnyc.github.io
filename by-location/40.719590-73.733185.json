@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "221st Street",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - 221st Street",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "727093f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727093f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1153f30-c558-012f-2ade-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - 221st Street",
     "text": "Jamaica Ave., at the S.W. corner of 221st Street, showing the W. S. Nichols house of 1891.\n\nApril 1925\n\nEugene L. Armbruster Collection.\n",

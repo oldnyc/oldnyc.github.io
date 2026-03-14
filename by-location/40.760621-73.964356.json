@@ -2,9 +2,31 @@
   {
     "date": "1910; 1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 59th Street"
+      },
+      "source": "2nd Avenue and East 59th Street",
+      "technique": "gpt"
+    },
     "height": 395,
     "id": "730938f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730938f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c01a6810-c55e-012f-9464-58d385a7bc34",
     "text": "(1) The Queensborough Bridge: A view eastward of same from Second Ave., at East 59th Street (right), showing the Manhattan Approach.\n\nMay 6, 1910.\n\nW. L. Bogert.\n(Not a dry mount item).\n\n(2) The same from a different angle and giving a more extensive view of Queensborough Bridge.\n\nAbout 1920.\n\nNo Record.\n",
     "text_source": "gpt",
@@ -19,9 +41,34 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 59th Street"
+      },
+      "source": "2nd Avenue and East 59th Street",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "730939f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730939f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Railroad tracks",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c09193a0-c55e-012f-4432-58d385a7bc34",
     "text": "Queensboro Bridge: The approach from Second Avenue and E. 59th Street in Manhattan. The photographer is viewing southeastward towards the East River from the above location.\n\nAbout 1912\n\nGift of Urbrock Collection\n",
     "text_source": "gpt",
@@ -35,9 +82,31 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street (East)"
+      },
+      "source": "Manhattan: 59th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "713994f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713994f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90c816e0-c544-012f-46f7-58d385a7bc34",
     "original_title": "Manhattan: 59th Street (East) - 2nd Avenue",
     "text": "E. 59th Street, east of Second Avenue, showing the Queensboro Bridge approach on the north side of this thoroughfare.\n\nAbout 1915\n\nGift of Urbrock Collection\n",
@@ -52,9 +121,34 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street (East)"
+      },
+      "source": "Manhattan: 2nd Avenue - 59th Street (East).",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "730940f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730940f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 2nd Avenue - 59th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0e587b0-c55e-012f-ab4c-58d385a7bc34",
     "text": "Route: Queensboro Bridge Connection (v66) Sec. 43 No. 3\nLocation: 59th St & 2nd Av.\nSubject: Construction Photograph\nDescription: Approach to Queensboro Bridge from 2nd Av. Elevated at 59th St.\n\nJune 26,1917\n",
     "text_source": "site",
@@ -68,9 +162,34 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street (East)"
+      },
+      "source": "Manhattan: 2nd Avenue - 59th Street (East).",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "730941f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730941f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 2nd Avenue - 59th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1520500-c55e-012f-0d6a-58d385a7bc34",
     "text": "Route Queensboro Bridge Connection (566) Sec. 40 - No. 5\nLocation: West end Queensboro Bridge\nSubject: Construction Photograph\nDescription: Elevated R.R. Track on Queensboro Bridge June 26, 19 7\n\nPurchased from Neikrug Galleries, Inc., May 25, 1976\n",
     "text_source": "gpt",
@@ -84,9 +203,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street"
+      },
+      "source": "Manhattan: 59th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91986810-c544-012f-6e7f-58d385a7bc34",
     "original_title": "Manhattan: 59th Street - 2nd Avenue",
     "text": "59th Street, east from but not including Second Avenue. March 22, 1929.\n\nP. L. Sperr.\n",
@@ -104,9 +245,27 @@
     "dates_from_text": [
       "1933-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street"
+      },
+      "source": "Manhattan: 59th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713997f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713997f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91ea9de0-c544-012f-0f8e-58d385a7bc34",
     "original_title": "Manhattan: 59th Street - 2nd Avenue",
     "text": "221-233 East 59th Street, north side, between Second and Third Avenues. St. Thomas House is in the centre.\nMay 4, 1933.\n\nP. L. Sperr.\n",
@@ -121,9 +280,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 59th Street"
+      },
+      "source": "2nd Avenue and East 59th Street",
+      "technique": "gpt"
+    },
     "height": 397,
     "id": "730957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730957f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The bridge starts at East 59th Street and 2nd Avenue in Manhattan, over Welfare Island, to Bridge Plaza in Long Island City."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7d78820-c55e-012f-614a-58d385a7bc34",
     "text": "(1) Queensboro Bridge, from atop Radio City Tower. The bridge starts at 59th Street and Second Ave., in Manhattan, over Welfare Island; to Bridge Plaza in Long Island City.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n\n(2) The same.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -137,9 +318,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 59th Street"
+      },
+      "source": "2nd Avenue and East 59th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730957f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730957f-b.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The bridge starts at East 59th Street and 2nd Avenue in Manhattan, over Welfare Island, to Bridge Plaza in Long Island City."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7d78820-c55e-012f-614a-58d385a7bc34",
     "rotation": 90,
     "text": "(1) Queensboro Bridge, from atop Radio City Tower. The bridge starts at 59th Street and Second Ave., in Manhattan, over Welfare Island; to Bridge Plaza in Long Island City.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n\n(2) The same.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n",
@@ -154,9 +357,28 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street"
+      },
+      "source": "Manhattan: 59th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "713995f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713995f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/913121f0-c544-012f-bbda-58d385a7bc34",
     "original_title": "Manhattan: 59th Street - 2nd Avenue",
     "text": "59th Street, north side, east of Second Avenue. July 2, 1934.\n\nP. L. Sperr.\n",
@@ -171,9 +393,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street (East)"
+      },
+      "source": "Manhattan: 59th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714001f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714001f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Business districts",
+          "Clinics",
+          "Cobblestone streets",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93911b60-c544-012f-47f3-58d385a7bc34",
     "original_title": "Manhattan: 59th Street (East) - 2nd Avenue",
     "text": "210-230 East 59th Street, south side, east from, but not including Third, to, but not including Second Aves. Shown at No. 222, (2-story building), is the North Eastern Dispensary.\n\nJune 11, 1936.\n\nP. L. Sperr.\n",
@@ -188,9 +435,39 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 59th Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "707887f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707887f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Dental offices",
+          "Double-decker buses",
+          "Elevated railroads",
+          "Fruit",
+          "Markets",
+          "Opticians' shops",
+          "Vegetables",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9622c190-c53a-012f-4bb8-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 59th Street",
     "text": "(1) Second Avenue and 59th Street, east El train at Queensborough Bridge.\n\n(2) Second Avenue east side north from 58th Street, showing elevated and a motor bus.\n\n(3) Second Avenue northeast corner 60th Street, showing El demolition.\n\nP.L.Speer.\n\nApril 7, 1941.\n",
@@ -205,9 +482,39 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 59th Street",
+      "technique": "title-cross"
+    },
     "height": 412,
     "id": "707887f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707887f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Dental offices",
+          "Double-decker buses",
+          "Elevated railroads",
+          "Fruit",
+          "Markets",
+          "Opticians' shops",
+          "Vegetables",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9622c190-c53a-012f-4bb8-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 59th Street",
     "text": "(1) Second Avenue and 59th Street, east El train at Queensborough Bridge.\n\n(2) Second Avenue east side north from 58th Street, showing elevated and a motor bus.\n\n(3) Second Avenue northeast corner 60th Street, showing El demolition.\n\nP.L.Speer.\n\nApril 7, 1941.\n",
@@ -222,9 +529,39 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "59th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 59th Street",
+      "technique": "title-cross"
+    },
     "height": 411,
     "id": "707887f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707887f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Dental offices",
+          "Double-decker buses",
+          "Elevated railroads",
+          "Fruit",
+          "Markets",
+          "Opticians' shops",
+          "Vegetables",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9622c190-c53a-012f-4bb8-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 59th Street",
     "text": "(1) Second Avenue and 59th Street, east El train at Queensborough Bridge.\n\n(2) Second Avenue east side north from 58th Street, showing elevated and a motor bus.\n\n(3) Second Avenue northeast corner 60th Street, showing El demolition.\n\nP.L.Speer.\n\nApril 7, 1941.\n",
@@ -239,9 +576,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 59th Street (First Avenue",
+        "str2": "Second Avenue)"
+      },
+      "source": "Manhattan: 316 East 59th Street (First Avenue - Second Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558279",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558279.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Gnome Bakery"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e5a96390-c5ec-012f-990e-58d385a7bc34",
     "text": null,
     "text_source": null,

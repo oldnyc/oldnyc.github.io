@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "86th Street",
+        "str2": "Ridge Boulevard"
+      },
+      "source": "Brooklyn: Ridge Boulevard - 86th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "706482f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706482f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6225e720-c538-012f-0c3f-58d385a7bc34",
     "original_title": "Brooklyn: Ridge Boulevard - 86th Street",
     "text": "Ridge Boulevard, east side, from 86th to 87th Streets, showing Public School No. 185.\n\nBoard of Education of the City of New York early 1930's\n",

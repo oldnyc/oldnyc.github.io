@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "79th St."
+      },
+      "source": "Manhattan: 1st Ave. - 79th St.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707663f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707663f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3b4a64b0-c53a-012f-f5aa-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 79th St.",
     "text": "N.W. corner, First Avenue and 79th Street. September 24, 1927.\nP.L. Sperr, Photographer.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "79th Street (East)"
+      },
+      "source": "Manhattan: 79th Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714560f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714560f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6bf76eb0-c545-012f-b579-58d385a7bc34",
     "original_title": "Manhattan: 79th Street (East) - 1st Avenue",
     "text": "East 79th Street, northeast of First Avenue, showing St. Monica's Church adjoining the northeast corner buildings.\n\nP. L. Sperr\n\nFebruary 12, 1939\n",

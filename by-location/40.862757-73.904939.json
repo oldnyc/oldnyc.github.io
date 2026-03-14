@@ -2,9 +2,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fordham Road (West)",
+        "str2": "University Avenue"
+      },
+      "source": "Bronx: University Avenue - Fordham Road (West)",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "701949f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701949f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/672237f0-c531-012f-b887-58d385a7bc34",
     "original_title": "Bronx: University Avenue - Fordham Road (West)",
     "text": "University Ave., west side, south from but not including West Fordham Road.\n\nGift of E.M. Jenks.\n\nAbout 1913.\n",

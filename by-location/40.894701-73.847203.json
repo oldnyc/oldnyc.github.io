@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-05-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bussing Avenue",
+        "str2": "Ely Avenue"
+      },
+      "source": "Bronx: Bussing Avenue - Ely Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700691f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700691f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e80ddf0-c52f-012f-853f-58d385a7bc34",
     "original_title": "Bronx: Bussing Avenue - Ely Avenue",
     "text": "Bussing Avenue, north side, at Ely Avenue. The view is eastward.\n\nMay 11, 1938.\n\nP. L. Sperr.\n",

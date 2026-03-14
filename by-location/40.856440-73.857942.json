@@ -2,9 +2,34 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Esplanade",
+        "str2": "Haight Avenue"
+      },
+      "source": "Bronx: Esplanade - Haight Avenue",
+      "technique": "title-cross"
+    },
     "height": 445,
     "id": "701012f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701012f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx and Pelham Parkway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Railroad stations",
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b654840-c530-012f-08fb-58d385a7bc34",
     "text": "Esplanade, north from Haight to Laconia Aves., across the Bronx and Pelham Parkway. At Laconia Ave., in the background, is visible the Pelham Parkway station of the New York, Westchester and Boston Railroad.\n\nAbout 1913.\n",
     "text_source": "gpt",

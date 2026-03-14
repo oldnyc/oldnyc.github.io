@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1925-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "30th Street",
+        "str2": "Thirtieth Avenue"
+      },
+      "source": "30th Street and Thirtieth Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "13th Avenue",
+        "str2": "30th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 477,
     "id": "725182f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725182f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09a194a0-c556-012f-907a-58d385a7bc34",
     "original_title": "Queens: 30th Street - 13th Avenue",
     "text": "30th Street, east side, south of Thirtieth Ave., about 100 feet.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +48,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 2839,
+        "street": "30th St."
+      },
+      "source": "2839 30th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984575",
     "image_url": "https://images.nypl.org/?id=3984575&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e6b3420-c5d7-012f-c789-58d385a7bc34",
     "text": null,
     "text_source": null,

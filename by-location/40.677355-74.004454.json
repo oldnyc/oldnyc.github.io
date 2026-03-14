@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks Street",
+        "str2": "Huntington Street"
+      },
+      "source": "Brooklyn: Hicks Street - Huntington Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "704945f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704945f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/043b0a70-c536-012f-2ed1-58d385a7bc34",
     "original_title": "Brooklyn: Hicks Street - Huntington Street",
     "text": "Hicks Street, east side, north from Huntington Street.\n\nAugust 5, 1934.\n\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks Street",
+        "str2": "Huntington Street"
+      },
+      "source": "Brooklyn: Huntington Street - Hicks Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "705062f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705062f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33e5d720-c536-012f-461f-58d385a7bc34",
     "original_title": "Brooklyn: Huntington Street - Hicks Street",
     "text": "55 Huntington Street, north side, east from Hicks Street, beyond Nos. 45-53 Huntington Street, the vacant lots at the N.E. corner of Huntington and Hicks Street.\n\nAugust 5, 1934.\n\nP. L. Sperr.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-08-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "MacDougal Street"
+      },
+      "source": "Brooklyn: MacDougal Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "705539f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705539f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3b958c0-c536-012f-676d-58d385a7bc34",
     "original_title": "Brooklyn: MacDougal Street - Broadway",
     "text": "MacDougal Street at Broadway, Brooklyn.\n\nP. L. Sperr, photographer\nAugust 3, 1941\n",

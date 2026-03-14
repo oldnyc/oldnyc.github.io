@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-06-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "83rd Avenue",
+        "str2": "Queens Boulevard"
+      },
+      "source": "Queens: Queens Boulevard - 83rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "727786f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727786f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0dbcfc0-c559-012f-eacb-58d385a7bc34",
     "original_title": "Queens: Queens Boulevard - 83rd Avenue",
     "text": "Queens Boulevard, east side, just south of 83rd Avenue, showing an old house in a hollow.\n\nP. L. Sperr\nJune 29, 1936\n",

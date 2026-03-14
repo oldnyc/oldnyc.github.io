@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "New Dorp Lane",
+        "str2": "South Railroad Avenue"
+      },
+      "source": "Richmond: New Dorp Lane - South Railroad Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "729189f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729189f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Hotels",
+          "Railroad crossings",
+          "Railroad tracks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0588f50-c55b-012f-970a-58d385a7bc34",
     "original_title": "Richmond: New Dorp Lane - South Railroad Avenue",
     "text": "(1)\n129 New Dorp Lane, north side, at the head of South Railroad Avenue (formerly 6th Street), showing Gillies' Phoenix Hotel. It was owned by M. S. Burbank in 1898. The view is westward.\n\nAugust 2, 1929\n\nP. L. Sperr\n\n(2)\nAnother view, looking east across the Staten Island Railroad tracks from North Railroad Avenue.\n\nAugust 2, 1929\n\nP. L. Sperr\n",
@@ -19,9 +43,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "New Dorp Lane",
+        "str2": "South Railroad Avenue"
+      },
+      "source": "Richmond: New Dorp Lane - South Railroad Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "729189f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729189f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Hotels",
+          "Railroad crossings",
+          "Railroad tracks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0588f50-c55b-012f-970a-58d385a7bc34",
     "original_title": "Richmond: New Dorp Lane - South Railroad Avenue",
     "text": "(1)\n129 New Dorp Lane, north side, at the head of South Railroad Avenue (formerly 6th Street), showing Gillies' Phoenix Hotel. It was owned by M. S. Burbank in 1898. The view is westward.\n\nAugust 2, 1929\n\nP. L. Sperr\n\n(2)\nAnother view, looking east across the Staten Island Railroad tracks from North Railroad Avenue.\n\nAugust 2, 1929\n\nP. L. Sperr\n",
@@ -36,9 +84,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "New Dorp Lane",
+        "str2": "North Railroad Avenue"
+      },
+      "source": "Richmond: New Dorp Lane - North Railroad Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "729204f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729204f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad crossings",
+          "Railroad tracks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6543f10-c55b-012f-36b2-58d385a7bc34",
     "original_title": "Richmond: New Dorp Lane - North Railroad Avenue",
     "text": "New Dorp Lane, east from North Railroad Avenue, across the Staten Island Railroad crossing.\n\nMay 26, 1935.\n\nP. L. Sperr.\n",
@@ -53,9 +123,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "New Dorp Lane",
+        "str2": "North Railroad Avenu"
+      },
+      "source": "Richmond: North Railroad Avenu - New Dorp Lane",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "729226f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729226f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fee59bf0-c55b-012f-602e-58d385a7bc34",
     "text": "North Railroad Ave. (5th Street), south from New Dorp Lane (New Dorp).\n\nMay 26, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -69,9 +161,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "New Dorp",
+        "str2": "New Dorp Lane"
+      },
+      "source": "New Dorp and New Dorp Lane",
+      "technique": "gpt"
+    },
     "height": 392,
     "id": "104563",
     "image_url": "https://images.nypl.org/?id=104563&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70ddf2e0-c5ee-012f-6b11-58d385a7bc34",
     "text": null,
     "text_source": null,

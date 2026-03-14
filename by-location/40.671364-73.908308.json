@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Avenue",
+        "str2": "Watkins Street"
+      },
+      "source": "Brooklyn: Glenmore Avenue - Watkins Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704625f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704625f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82359650-c535-012f-9eff-58d385a7bc34",
     "original_title": "Brooklyn: Glenmore Avenue - Watkins Street",
     "text": "Branch of Brooklyn Public Library\nP.L. Sperr, photographer\n6-25-1942\n",
@@ -19,9 +37,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Ave.",
+        "str2": "Watkins St."
+      },
+      "source": "Brooklyn: Watkins St. - Glenmore Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707331f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707331f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9628130-c539-012f-718b-58d385a7bc34",
     "original_title": "Brooklyn: Watkins St. - Glenmore Ave.",
     "text": "Watkins Street adj. n.e. corner Glenmore Avenue\nSynagogue\nBrooklyn\n6/25/42\n",

@@ -2,9 +2,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Street (West)",
+        "str2": "Shell Road"
+      },
+      "source": "Brooklyn: Shell Road - 6th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706740f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706740f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sheffield Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Piers & wharves",
+          "Railroad tracks",
+          "Railroads",
+          "Road construction",
+          "Trains"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3248120-c538-012f-efc1-58d385a7bc34",
     "original_title": "Brooklyn: Shell Road - 6th Street (West)",
     "text": "Boat Landing & Culver Line Train from Shell Rd. towards W. 6th St., B'klyn. Derrick on new road construction. Aug. 24, 1939\nP.L. Sperr, photographer\n",
@@ -19,9 +48,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Shell Road",
+        "str2": "West 6th Street"
+      },
+      "source": "Shell Road and West 6th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733701f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733701f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Coney Island Creek (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a4bb6d0-c563-012f-20a7-58d385a7bc34",
     "text": "Coney Island Creek (Brooklyn): Gas tanks, seen from Shell Road near West 6th Street.\n\nP. L. Sperr\n\nAugust 24, 1939\nViews 1, 2\n",
     "text_source": "gpt",
@@ -35,9 +85,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Shell Road",
+        "str2": "West 6th Street"
+      },
+      "source": "Shell Road and West 6th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733701f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733701f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Coney Island Creek (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a4bb6d0-c563-012f-20a7-58d385a7bc34",
     "text": "Coney Island Creek (Brooklyn): Gas tanks, seen from Shell Road near West 6th Street.\n\nP. L. Sperr\n\nAugust 24, 1939\nViews 1, 2\n",
     "text_source": "gpt",

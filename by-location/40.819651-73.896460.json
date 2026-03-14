@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Intervale Avenue",
+        "str2": "Kelly Street"
+      },
+      "source": "Bronx: Intervale Avenue - Kelly Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701307f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701307f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ac7e440-c530-012f-f307-58d385a7bc34",
     "original_title": "Bronx: Intervale Avenue - Kelly Street",
     "text": "Intervale Ave., s.e. cor. Kelly St.\nP.L.Sperr\n8-2-1942\n",
@@ -19,9 +40,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Intervale Avenue",
+        "str2": "Kelly Street"
+      },
+      "source": "Bronx: Intervale Avenue - Kelly Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701308f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701308f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b2b5120-c530-012f-4e1c-58d385a7bc34",
     "original_title": "Bronx: Intervale Avenue - Kelly Street",
     "text": "Intervale Ave., e. from Kelly St.\nP.L.Sperr\n9-5-1942\n",

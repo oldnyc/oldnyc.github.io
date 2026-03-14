@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Elizabeth Street - Hester Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719641f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719641f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b3333f0-c54d-012f-4959-58d385a7bc34",
     "original_title": "Manhattan: Elizabeth Street - Hester Street",
     "text": "Elizabeth Street, west side, north from but not including Hester, to, but not including Grand Streets.\n\nFebruary 4, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +40,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Hester Street - Elizabeth Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "720420f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720420f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Friends' meeting houses",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87c99d90-c54e-012f-6aad-58d385a7bc34",
     "original_title": "Manhattan: Hester Street - Elizabeth Street",
     "text": "157-159 Hester Street, at the N.W. corner of Elizabeth Street, showing two buildings (foreground and extreme left), of the Consolidated Gas Co. Friends Meeting House (??)\nFebruary 4, 1928.\nP. L. Sperr.\n",
@@ -36,9 +79,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Hester Street - Elizabeth Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731701f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731701f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Hester Street - Elizabeth Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children",
+          "Shrines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f29237c0-c55f-012f-4a51-58d385a7bc34",
     "text": "(1) Detail of shrine to St. John the Baptist on the S.W. corner of Hester and Elizabeth Streets, during the Feast in his honor.\n\nAugust 31, 1930.\n\nP. L. Sperr.\n\n(2) The same.\n\nAugust 31, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -52,9 +119,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Hester Street - Elizabeth Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731701f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731701f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Hester Street - Elizabeth Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children",
+          "Shrines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f29237c0-c55f-012f-4a51-58d385a7bc34",
     "text": "(1) Detail of shrine to St. John the Baptist on the S.W. corner of Hester and Elizabeth Streets, during the Feast in his honor.\n\nAugust 31, 1930.\n\nP. L. Sperr.\n\n(2) The same.\n\nAugust 31, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

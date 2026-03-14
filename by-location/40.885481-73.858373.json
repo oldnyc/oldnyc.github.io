@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "223rd Street (East)",
+        "str2": "Barnes Avenue"
+      },
+      "source": "Bronx: 223rd Street (East) - Barnes Avenue",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "700338f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700338f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1fca0160-c52f-012f-1de4-58d385a7bc34",
     "original_title": "Bronx: 223rd Street (East) - Barnes Avenue",
     "text": "814 East 223rd Street, east of the S.E. corner of Barnes Ave.\nAbout 1927.\n\nW. B. Vernam.\n",

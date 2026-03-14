@@ -2,9 +2,42 @@
   {
     "date": "1933-10-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Morrison Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Morrison Avenue and Westchester Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Soundview Avenue",
+        "str2": "Westchester Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 294,
     "id": "1557761-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557761-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/620bf160-c5ec-012f-90d7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +51,42 @@
   {
     "date": "1933-10-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Morrison Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Morrison Avenue and Westchester Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Soundview Avenue",
+        "str2": "Westchester Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 172,
     "id": "1557761-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557761-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/620bf160-c5ec-012f-90d7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +100,44 @@
   {
     "date": "1933-11-16",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Morrison Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Morrison Avenue and Westchester Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Soundview Avenue",
+        "str2": "Westchester Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 466,
     "id": "1557762",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557762.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View from subway station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6271dbe0-c5ec-012f-af2f-58d385a7bc34",
     "text": null,
     "text_source": null,

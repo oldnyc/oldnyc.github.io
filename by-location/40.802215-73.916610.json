@@ -2,9 +2,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "133rd Street (East)",
+        "str2": "Cypress Avenue"
+      },
+      "source": "Bronx: 133rd Street (East) - Cypress Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700030f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700030f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "United Electric Light and Power Company (New York, N.Y.)"
+        ],
+        "topic": [
+          "Power plants",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af7fbec0-c52e-012f-ed17-58d385a7bc34",
     "original_title": "Bronx: 133rd Street (East) - Cypress Avenue",
     "text": "East 133rd Street, east from Cypress Ave. In the background is the United Electric Light and Power Co. plant on the East River Shore.\n\nApril 12, 1931.\n\nP. L. Sperr.\n",
@@ -19,9 +44,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "133rd Street (East)",
+        "str2": "Cypress Avenue"
+      },
+      "source": "Bronx: Cypress Avenue - 133rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700842f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700842f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d22e30e0-c52f-012f-e4a6-58d385a7bc34",
     "original_title": "Bronx: Cypress Avenue - 133rd Street (East)",
     "text": "108 to 88 Cypress Ave., at, adjoining and south of the S.E. corner of East 133rd Street. The 1-story brick structures are garages.\n\nApril 12, 1931.\n\nP. L. Sperr.\n",
@@ -36,9 +82,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "133rd Street",
+        "str2": "Cypress Avenue"
+      },
+      "source": "Bronx: Cypress Avenue - 133rd Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700843f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700843f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Musical instrument makers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d28cc730-c52f-012f-e9a8-58d385a7bc34",
     "original_title": "Bronx: Cypress Avenue - 133rd Street",
     "text": "114 to 120 Cypress Ave., adjoining and north of the N.E. corner of East 133rd Street. The corner was occupied by No. 112, another 3-story frame house.\n\nApril 12, 1931.\n\nP. L. Sperr.\n",
@@ -53,9 +123,45 @@
   {
     "date": "1931; 1934; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "East 133rd Street"
+      },
+      "source": "Cypress Avenue and East 133rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "Southern Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "Southern Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "701824f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701824f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Musical instrument industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/383bde50-c531-012f-546f-58d385a7bc34",
     "original_title": "Bronx: Southern Boulevard - Cypress Avenue",
     "text": "(1) 100-116 Southern Boulevard, at the S.W. corner of Cypress Ave., showing the Jacob Doll & Sons piano factory. The long side of the factory building extends south on Cypress Ave. to East 133rd Street. Southern Boulevard runs south from the extreme right, where automobile is seen, to the right background. On the left is East 134th Street.\n\nP. L. Sperr.\n\nSeptember 26, 1934.\n\n(2) The same, at a later date.\n\nP. L. Sperr.\n\nApril 4, 1936.\n\n(3) The same, an additional view. Also shown (left), at the S.E. corner of Cypress Ave., and East 134th Street is the factory of the Standard Musical String and Manufacturing Corporation, bearing No. 122 on the former.\n\nP. L. Sperr.\n\nApril 12, 1931.\n",
@@ -72,9 +178,45 @@
   {
     "date": "1931; 1934; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "East 133rd Street"
+      },
+      "source": "Cypress Avenue and East 133rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "Southern Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "Southern Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "701824f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701824f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Musical instrument industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/383bde50-c531-012f-546f-58d385a7bc34",
     "original_title": "Bronx: Southern Boulevard - Cypress Avenue",
     "text": "(1) 100-116 Southern Boulevard, at the S.W. corner of Cypress Ave., showing the Jacob Doll & Sons piano factory. The long side of the factory building extends south on Cypress Ave. to East 133rd Street. Southern Boulevard runs south from the extreme right, where automobile is seen, to the right background. On the left is East 134th Street.\n\nP. L. Sperr.\n\nSeptember 26, 1934.\n\n(2) The same, at a later date.\n\nP. L. Sperr.\n\nApril 4, 1936.\n\n(3) The same, an additional view. Also shown (left), at the S.E. corner of Cypress Ave., and East 134th Street is the factory of the Standard Musical String and Manufacturing Corporation, bearing No. 122 on the former.\n\nP. L. Sperr.\n\nApril 12, 1931.\n",
@@ -91,9 +233,45 @@
   {
     "date": "1931; 1934; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "East 133rd Street"
+      },
+      "source": "Cypress Avenue and East 133rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "Southern Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Cypress Avenue",
+        "str2": "Southern Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "701824f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701824f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Musical instrument industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/383bde50-c531-012f-546f-58d385a7bc34",
     "original_title": "Bronx: Southern Boulevard - Cypress Avenue",
     "text": "(1) 100-116 Southern Boulevard, at the S.W. corner of Cypress Ave., showing the Jacob Doll & Sons piano factory. The long side of the factory building extends south on Cypress Ave. to East 133rd Street. Southern Boulevard runs south from the extreme right, where automobile is seen, to the right background. On the left is East 134th Street.\n\nP. L. Sperr.\n\nSeptember 26, 1934.\n\n(2) The same, at a later date.\n\nP. L. Sperr.\n\nApril 4, 1936.\n\n(3) The same, an additional view. Also shown (left), at the S.E. corner of Cypress Ave., and East 134th Street is the factory of the Standard Musical String and Manufacturing Corporation, bearing No. 122 on the former.\n\nP. L. Sperr.\n\nApril 12, 1931.\n",

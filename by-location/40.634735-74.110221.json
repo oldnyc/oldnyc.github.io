@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Castleton Avenue",
+        "str2": "Pelton Avenue"
+      },
+      "source": "Richmond: Castleton Avenue - Pelton Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728647f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728647f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/176de0d0-c55b-012f-d7b2-58d385a7bc34",
     "original_title": "Richmond: Castleton Avenue - Pelton Avenue",
     "text": "848 Castleton Ave., south side, between Pelton and Oakland Aves., showing the West New Brighton sub-branch of the New York Public Library.\n\n1922.\n\nP. L. Sperr.\n",

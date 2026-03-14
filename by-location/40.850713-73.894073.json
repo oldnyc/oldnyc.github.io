@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "180th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 180th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700266f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700266f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/068b21f0-c52f-012f-5d50-58d385a7bc34",
     "original_title": "Bronx: 180th Street - 3rd Avenue",
     "text": "180th St & 3rd Ave. Third Ave \"L\" Station 8-31-1942\nP.L.Sperr\n",

@@ -2,9 +2,40 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Shakespeare Avenue)",
+        "str2": "West 168th Street (Woodycrest Avenue"
+      },
+      "source": "Bronx - 78 West 168th Street (Woodycrest Avenue - Shakespeare Avenue)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "1557745",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557745.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "High Bridge Branch New York Public Library"
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Public Library. Highbridge Branch"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Libraries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b89f8b0-c5ec-012f-76dc-58d385a7bc34",
     "text": null,
     "text_source": null,

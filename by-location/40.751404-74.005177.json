@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "27th Street"
+      },
+      "source": "Manhattan: 27th Street - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "711874f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711874f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0affa5b0-c541-012f-aadb-58d385a7bc34",
     "original_title": "Manhattan: 27th Street - 11th Avenue",
     "text": "27th Street, 11th to 13th Avenues.(Before Reconstruction).",

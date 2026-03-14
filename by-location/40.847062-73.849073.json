@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-08-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pierce Avenue",
+        "str2": "Williamsbridge Road"
+      },
+      "source": "Bronx: Williamsbridge Road - Pierce Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "702183f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702183f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c095dd50-c531-012f-5ceb-58d385a7bc34",
     "original_title": "Bronx: Williamsbridge Road - Pierce Avenue",
     "text": "Williamsbridge Road, west side, south from near Pierce Avenue.\n\nAugust 3, 1928\nP. L. Sperr\n",

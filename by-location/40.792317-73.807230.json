@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "154th Street"
+      },
+      "source": "Queens: 11th Avenue - 154th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725003f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725003f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8633b30-c555-012f-0772-58d385a7bc34",
     "original_title": "Queens: 11th Avenue - 154th Street",
     "text": "11th Avenue, north side, at 154th street (Vantage point). Looking north toward the Whitestone Landing Station of the Long Island Railroad and the East River\nMarch 1 1902\n",

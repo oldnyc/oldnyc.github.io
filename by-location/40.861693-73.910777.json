@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1917"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fordham Road (West)",
+        "str2": "Hampden Place"
+      },
+      "source": "Bronx: Fordham Road (West) - Hampden Place",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "702085f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702085f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b8f2990-c531-012f-3813-58d385a7bc34",
     "original_title": "Bronx: Fordham Road (West) - Hampden Place",
     "text": "West Fordham Road, west from Hampden Place, towards the University Heights Bridge across the Harlem River, linking the Bronx with West 207th Street, Manhattan. In the center of the view is shown the University Heights (Fordham Heights) station of the New York and Putnam division of the New York Central Railroad, at the S.W. corner of Harlem River Terrace. Across the bridge, in the background, is the borough of Manhattan.\n\nAbout 1917.\n\nGift of E. M. Jenks.\n",
@@ -22,9 +40,49 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hampden Place",
+        "str2": "West Fordham Road"
+      },
+      "source": "Hampden Place and West Fordham Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Fordham Road (West)",
+        "str2": "Harlem River Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Harlem River Terrace",
+        "str2": "West Fordham Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 390,
     "id": "702087f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702087f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c91fff0-c531-012f-e6dd-58d385a7bc34",
     "text": "West Fordham Road, east from and including Harlem River Terrace to Hampden Place, showing in the foreground, part of the University Heights (Fordham Heights) station of the New York Central Railroad. The vantage-point is the bridge leading across the Harlem River from West 207th Street, Manhattan.\n\nGift of E.M. Jenks.\n\n1917.\n",
     "text_source": "gpt",

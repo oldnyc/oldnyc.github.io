@@ -2,9 +2,29 @@
   {
     "date": "1940-07-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "25th Street",
+        "str2": "50th Avenue"
+      },
+      "source": "50th Avenue at 25th Street, Queens",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "485976",
     "image_url": "https://images.nypl.org/?id=485976&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5a328a0-c60e-012f-05d8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1940-07-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "25th Street",
+        "str2": "50th Avenue"
+      },
+      "source": "50th Avenue at 25th Street, Queens",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "485978",
     "image_url": "https://images.nypl.org/?id=485978&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a65e6710-c60e-012f-a220-58d385a7bc34",
     "text": null,
     "text_source": null,

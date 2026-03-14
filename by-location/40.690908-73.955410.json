@@ -2,9 +2,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "DeKalb Avenue"
+      },
+      "source": "Brooklyn: Bedford Avenue - DeKalb Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703156f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703156f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile equipment & supplies stores",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37b28300-c533-012f-a422-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - DeKalb Avenue",
     "text": "Brooklyn. Bedford Avenue adjoin. N.E. corner DeKalb Ave. July 8, 1942. P. L. Sperr.",

@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Richmond Avenue"
+      },
+      "source": "Richmond: Richmond Avenue - Amboy Road",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "729315f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729315f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22056430-c55c-012f-1dcb-58d385a7bc34",
     "original_title": "Richmond: Richmond Avenue - Amboy Road",
     "text": "Richmond Avenue, at the N.E. corner of Amboy Road. The house belonged to L. Potesta (1898 map) and to Selma Abdelnour (1907).\n\nMay 16, 1932\n\nP. L. Sperr\n",
@@ -22,9 +45,27 @@
     "dates_from_text": [
       "1933-04-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Richmond Avenue"
+      },
+      "source": "Richmond: Richmond Avenue - Amboy Road",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729314f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729314f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21956e00-c55c-012f-31cd-58d385a7bc34",
     "original_title": "Richmond: Richmond Avenue - Amboy Road",
     "text": "Richmond Avenue, north side, west of Amboy Road, showing a late nineteenth century home.\n\nP.L. Sperr\n\nApril 30, 1933\n",
@@ -39,9 +80,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Richmond Avenue"
+      },
+      "source": "Amboy Road and Richmond Avenue",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "105109",
     "image_url": "https://images.nypl.org/?id=105109&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/450ee8a0-c5ef-012f-49e0-58d385a7bc34",
     "text": null,
     "text_source": null,

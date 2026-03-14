@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pitkin Avenue",
+        "str2": "Rockaway Avenue"
+      },
+      "source": "Brooklyn: Pitkin Avenue - Rockaway Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706292f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706292f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Florist shops",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16938e20-c538-012f-cf53-58d385a7bc34",
     "original_title": "Brooklyn: Pitkin Avenue - Rockaway Avenue",
     "text": "Pitkin Ave., north side, east from Rockaway Ave.\nMay 8, 1936.\n\nP. L. Sperr.\n\nNeg # 1812 (8x10 Neg)\n",

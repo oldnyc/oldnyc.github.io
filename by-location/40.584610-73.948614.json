@@ -2,9 +2,37 @@
   {
     "date": "1956-08-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ocean Avenue",
+        "str2": "Shore Parkway"
+      },
+      "source": "Brooklyn - Ocean Avenue - Shore Parkway",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "1557803",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557803.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Coney Island Hospital"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72cc3960-c5ec-012f-821a-58d385a7bc34",
     "text": null,
     "text_source": null,

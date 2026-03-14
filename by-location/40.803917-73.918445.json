@@ -2,9 +2,45 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 615,
+        "street": "East 134th Street"
+      },
+      "source": "615 East 134th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "134th Street (East)",
+        "str2": "Southern Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "134th Street",
+        "str2": "Southern Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700033f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700033f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Foundries",
+          "Iron industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0a613e0-c52e-012f-899c-58d385a7bc34",
     "original_title": "Bronx: 134th Street (East) - Southern Boulevard",
     "text": "615 East 134th Street, north side, between Southern Boulevard and St. Ann's Ave. The entire block of buildings of which this one was a part, was razed to make way for the construction of the approach to the Triborough Bridge.\n\nP. L. Sperr.\nApril 12, 1931.\n",

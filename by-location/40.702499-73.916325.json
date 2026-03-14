@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Harman Street",
+        "str2": "Wyckoff Avenue"
+      },
+      "source": "Brooklyn: Harman Street - Wyckoff Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "704797f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704797f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c992ab00-c535-012f-55f0-58d385a7bc34",
     "original_title": "Brooklyn: Harman Street - Wyckoff Avenue",
     "text": "Harman Street, west side, south of Wyckoff Ave.\nSeptember 1928.\nEugene L. Armbruster Collection.\n",

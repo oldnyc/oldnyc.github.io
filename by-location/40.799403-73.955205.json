@@ -5,9 +5,36 @@
     "dates_from_text": [
       "1945-01-13"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "7th Avenue",
+        "str2": "Central Park"
+      },
+      "source": "7th Avenue and Central Park",
+      "technique": "gpt"
+    },
     "height": 482,
     "id": "718214f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718214f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 7th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e1f1690-c54b-012f-1ba8-58d385a7bc34",
     "text": "Central Park. Seventh Avenue entrance.\nP.L. Sperr collection\nRec'd January 13, 1945\n",
     "text_source": "gpt",

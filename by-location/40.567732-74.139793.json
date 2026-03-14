@@ -2,9 +2,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Clarke Avenue",
+        "str2": "Kensico Avenue"
+      },
+      "source": "Richmond: Clarke Avenue - Kensico Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "728691f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728691f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Meadows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2814e310-c55b-012f-4b21-58d385a7bc34",
     "original_title": "Richmond: Clarke Avenue - Kensico Avenue",
     "text": "Clarke Ave., east from about Kensico (Laurel) Ave. In the right background appears the Crocheron house.\n\nMay 18, 1937.\n\nP. L. Sperr.\n",

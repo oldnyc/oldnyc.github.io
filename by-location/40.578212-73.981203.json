@@ -2,9 +2,26 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 489,
     "id": "1823571",
     "image_url": "https://images.nypl.org/?id=1823571&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/491cb010-c6da-012f-8252-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +35,35 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 489,
     "id": "1823573",
     "image_url": "https://images.nypl.org/?id=1823573&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1900-1909"
+        ],
+        "topic": [
+          "Buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49ded1c0-c6da-012f-0dfc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,41 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "16th Street (West)",
+        "str2": "Bowery",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bowery",
+        "str2": "West 16th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 469,
     "id": "703277f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703277f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/671e5780-c533-012f-399c-58d385a7bc34",
     "text": "Bowery, west to West 16th Street. (West 16th Street, will run north and south parallel to the iron fence.)\n\nDecember 1923.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -50,9 +125,55 @@
   {
     "date": "1929; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "16th Street",
+        "str2": "Bowery",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "16th Street",
+        "str2": "Bowery",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Emory",
+        "str2": "West 16th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 408,
     "id": "703278f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703278f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Concessions (Amusements, etc.)",
+          "Food vendors",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67951bc0-c533-012f-9305-58d385a7bc34",
     "text": "(1) Emory, at West 16th Street (Coney Island), showing two views of a small street in the center of Coney Island.\n\nJuly 4, 1936.\n\nP. L. Sperr.\n\n(2) View No. 2 is the same from a slightly different angle.\n\nSeptember 1939.\n\nGeorge L. Balgue.\n\nhkt views\n",
     "text_source": "gpt",
@@ -67,9 +188,55 @@
   {
     "date": "1929; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "16th Street",
+        "str2": "Bowery",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "16th Street",
+        "str2": "Bowery",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Emory",
+        "str2": "West 16th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "703278f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703278f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Concessions (Amusements, etc.)",
+          "Food vendors",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67951bc0-c533-012f-9305-58d385a7bc34",
     "text": "(1) Emory, at West 16th Street (Coney Island), showing two views of a small street in the center of Coney Island.\n\nJuly 4, 1936.\n\nP. L. Sperr.\n\n(2) View No. 2 is the same from a slightly different angle.\n\nSeptember 1939.\n\nGeorge L. Balgue.\n\nhkt views\n",
     "text_source": "gpt",
@@ -84,9 +251,49 @@
   {
     "date": "1932; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Ave.",
+        "str2": "Surf Ave.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Ave",
+        "str2": "Surf Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "706973f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706973f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Circuses & shows",
+          "Penny arcades",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c839040-c539-012f-04a8-58d385a7bc34",
     "original_title": "Brooklyn: Surf Ave. - Stone Ave.",
     "text": null,
@@ -102,9 +309,49 @@
   {
     "date": "1932; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Ave.",
+        "str2": "Surf Ave.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Ave",
+        "str2": "Surf Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "706973f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706973f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Circuses & shows",
+          "Penny arcades",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c839040-c539-012f-04a8-58d385a7bc34",
     "original_title": "Brooklyn: Surf Ave. - Stone Ave.",
     "text": null,
@@ -120,9 +367,55 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Bowery",
+        "str2": "Schweickerts Walk",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bowery",
+        "str2": "Schweickerts Walk",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Schweickerts Walk",
+        "str2": "West 15th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "703274f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703274f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Food vendors",
+          "Restaurants",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65e5fb20-c533-012f-db9c-58d385a7bc34",
     "text": "Bowery, north side, west from Schweickert's Walk to West 15th Street, showing the Irish House clam bar.\n\nJuly 8, 1933.\n\nP. L. Sperr.\nNO\n",
     "text_source": "gpt",
@@ -136,9 +429,44 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57821150487804,
+        "lng": -73.9812029365853
+      },
+      "source": "Coney Island Amusement Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "16th Street (West)",
+        "str2": "Bowery",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Bowery",
+        "str2": "West 16th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "703276f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703276f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Concessions (Amusements, etc.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66cb6d00-c533-012f-afe7-58d385a7bc34",
     "text": "Bowery, east from West 16th Street. (Coney Island). In the Center, is Kensington Walk.\nJuly 4, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

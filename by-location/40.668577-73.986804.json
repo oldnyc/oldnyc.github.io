@@ -2,9 +2,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "10th Street",
+        "str2": "5th Street (West)"
+      },
+      "source": "Brooklyn: 5th Street (West) - 10th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702435f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702435f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5c46cc0-c537-012f-4d2b-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (West) - 10th Street",
     "text": "6th Avenue, north from Tenth Street. On the right can be seen the Prospect branch of the Brooklyn Public Library and Public School No. 39.\n\nP. L. Sperr\nMay 3, 1941\n",
@@ -19,9 +41,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "10th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Brooklyn: 10th Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702510f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702510f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3f686b70-c532-012f-7b0e-58d385a7bc34",
     "original_title": "Brooklyn: 10th Street - 5th Avenue",
     "text": "10th Street, west from Fifth Avenue, showing the north side of the street. St. Thomas Aquinas Roman Catholic Church is in the right background.\nP. L. Sperr  May 3, 1941\n",

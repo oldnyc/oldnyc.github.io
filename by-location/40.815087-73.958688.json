@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Tiemann Place"
+      },
+      "source": "Manhattan: Tiemann Place - Broadway",
+      "technique": "title-cross"
+    },
     "height": 449,
     "id": "723519f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723519f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75341b60-c553-012f-f133-58d385a7bc34",
     "original_title": "Manhattan: Tiemann Place - Broadway",
     "text": "Tiemann Place, (known as West 124th Street,) east from but not including Broadway, to and including the intersection of 125th Street,and Tiemann Place.\nAbout 1915.\n",
@@ -26,9 +44,41 @@
       "1934-06-21",
       "1929-05-23"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Broadway",
+        "str2": "Tiemann Place"
+      },
+      "source": "Old Broadway and Tiemann Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Tiemann Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Tiemann Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723520f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723520f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75a9f5d0-c553-012f-8a74-58d385a7bc34",
     "original_title": "Manhattan: Tiemann Place - 125th Street (West)",
     "text": "(1) Adjoining the intersection of Tiemann Place, (West 127th St.), showing a portion of the north side of 125th St., east of Old Broadway. In the centre is the rear view of a frame house which has a 125th St., No. (550 West 125 St.).\n\nJune 21, 1934.\n\nP. L. Sperr.\n\n(2) The same, a close-up of the frame house in No. 1.\n\nMay 23, 1929.\n\nP. L. Sperr.\n",
@@ -48,9 +98,41 @@
       "1934-06-21",
       "1929-05-23"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Broadway",
+        "str2": "Tiemann Place"
+      },
+      "source": "Old Broadway and Tiemann Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Tiemann Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Tiemann Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723520f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723520f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75a9f5d0-c553-012f-8a74-58d385a7bc34",
     "original_title": "Manhattan: Tiemann Place - 125th Street (West)",
     "text": "(1) Adjoining the intersection of Tiemann Place, (West 127th St.), showing a portion of the north side of 125th St., east of Old Broadway. In the centre is the rear view of a frame house which has a 125th St., No. (550 West 125 St.).\n\nJune 21, 1934.\n\nP. L. Sperr.\n\n(2) The same, a close-up of the frame house in No. 1.\n\nMay 23, 1929.\n\nP. L. Sperr.\n",
@@ -70,9 +152,41 @@
       "1934-06-21",
       "1934-06-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Tiemann Place"
+      },
+      "source": "Broadway and Tiemann Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Tiemann Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Tiemann Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723522f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723522f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7689aea0-c553-012f-85d0-58d385a7bc34",
     "original_title": "Manhattan: Tiemann Place - 125th Street (West)",
     "text": "(1) 16-26 Tiemann Place, (West 127th St.,) south side, between 125th St., and Broadway. No. 16 is a double frame house.\n\nJune 21, 1934.\n\nP. L. Sperr.\n\n(2) The same, showing a close-up of No. 16.\n\nJune 21, 1934.\n\nP. L. Sperr.\n",
@@ -92,9 +206,41 @@
       "1934-06-21",
       "1934-06-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Tiemann Place"
+      },
+      "source": "Broadway and Tiemann Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Tiemann Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Tiemann Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723522f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723522f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7689aea0-c553-012f-85d0-58d385a7bc34",
     "original_title": "Manhattan: Tiemann Place - 125th Street (West)",
     "text": "(1) 16-26 Tiemann Place, (West 127th St.,) south side, between 125th St., and Broadway. No. 16 is a double frame house.\n\nJune 21, 1934.\n\nP. L. Sperr.\n\n(2) The same, showing a close-up of No. 16.\n\nJune 21, 1934.\n\nP. L. Sperr.\n",

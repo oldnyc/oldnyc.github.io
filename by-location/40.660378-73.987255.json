@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 7th Avenue - 18th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702455f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/702455f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Delicatessens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a4b7540-c532-012f-07ab-58d385a7bc34",
     "original_title": "Brooklyn: 7th Avenue - 18th Street",
     "rotation": 90,

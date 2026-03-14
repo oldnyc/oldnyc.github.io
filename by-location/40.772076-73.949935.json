@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-10-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (East)",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: 80th Street (East) - York Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "714585f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714585f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76180470-c545-012f-16e6-58d385a7bc34",
     "original_title": "Manhattan: 80th Street (East) - York Avenue",
     "text": "East 80th Street, south side, east from and including York Ave., to the East River. Also shown is 1510 York Ave., at the S.E. corner of East 80th Street.\n\nOctober 1, 1934.\n\nP. L. Sperr.\n",

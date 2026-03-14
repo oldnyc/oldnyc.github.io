@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "97th Avenue",
+        "str2": "Sutphin Boulevard"
+      },
+      "source": "Queens: Sutphin Boulevard - 97th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "728056f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728056f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/293fc080-c55a-012f-75ec-58d385a7bc34",
     "original_title": "Queens: Sutphin Boulevard - 97th Avenue",
     "text": "97-01 Sutphin Boulevard, at the S. E. corner of 97th Avenue, showing Ira F. Bessey's real estate office.\n\nP. L. Sperr\nApril 6, 1932\n",

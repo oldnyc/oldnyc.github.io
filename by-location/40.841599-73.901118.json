@@ -2,9 +2,30 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "173rd Street (East)",
+        "str2": "Washington Avenue"
+      },
+      "source": "Bronx: Washington Avenue - 173rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "702025f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702025f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84526460-c531-012f-c48f-58d385a7bc34",
     "original_title": "Bronx: Washington Avenue - 173rd Street (East)",
     "text": "Washington Ave., north from but not including East 173rd Street, showing the thoroughfare before it was widened.\n\n1900.\n\nGift of Randall Comfort.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Futurity Place"
+      },
+      "source": "Richmond: Arthur Kill Road - Futurity Place",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "728422f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728422f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ruins"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfc8b200-c55a-012f-4088-58d385a7bc34",
     "original_title": "Richmond: Arthur Kill Road - Futurity Place",
     "text": "Arthur Kill Road, south side, between Futurity Place and Token Street, showing the ruins of the Bedell Home. The house was built in 1670.\n\nAbout 1905 (?)\n\nBy Eugene C. Putnam\nFrom Staten Island Museum Collection through P. L. Sperr\n",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1933-07-06"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1066,
+        "street": "East 92nd Street"
+      },
+      "source": "1066 East 92nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "92nd Street (East)",
+        "str2": "School Lane",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "92nd Street",
+        "str2": "School Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "702907f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702907f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d87d6740-c532-012f-bd3c-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street (East) - School Lane",
     "text": "1066 East 92nd Street, west side, between School Lane and Bayview Ave. Shown is an old frame house.\n\nJuly 6, 1933.\n\nP. L. Sperr.\n",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1932-05-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 849,
+        "street": "Richmond Avenue"
+      },
+      "source": "849 Richmond Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Leadley Place",
+        "str2": "Richmond Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Leadley Place",
+        "str2": "Richmond Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "729303f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729303f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d2f9f10-c55c-012f-baa9-58d385a7bc34",
     "original_title": "Richmond: Richmond Avenue - Leadley Place",
     "text": "849 Richmond Ave., adjoining the S.W. corner of Leadley Place, showing a rear view of the Simonson home (1874 to 1907 maps), as seen from Forest Ave.\n\nMay 4, 1932.\n\nP. L. Sperr.\n",

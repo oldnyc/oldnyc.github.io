@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "Sackett Street"
+      },
+      "source": "Brooklyn: Sackett Street - 4th Avenue",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "706557f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706557f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7eccd5a0-c538-012f-66d2-58d385a7bc34",
     "original_title": "Brooklyn: Sackett Street - 4th Avenue",
     "text": "Sackett Street, east from 4th Avenue, showing a W. P. A. sewer project. On 5th Avenue appears the Culver Line \"El\".\n\nJuly 5, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

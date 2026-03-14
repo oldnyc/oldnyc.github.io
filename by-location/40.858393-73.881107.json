@@ -2,9 +2,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2564,
+        "street": "Crotona Avenue"
+      },
+      "source": "2564 Crotona Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1557750",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557750.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Jacob H. Schiff Center main entrance"
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Synagogues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5dc599e0-c5ec-012f-46f0-58d385a7bc34",
     "text": null,
     "text_source": null,

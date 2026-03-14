@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street (South)",
+        "str2": "Roebling Street"
+      },
+      "source": "Brooklyn: 4th Street (South) - Roebling Street",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "702362f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702362f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/082be330-c532-012f-da22-58d385a7bc34",
     "original_title": "Brooklyn: 4th Street (South) - Roebling Street",
     "text": "South 4th Street, at and adjoining the N.E. corner of Roebling Street, showing the First Presbyterian Church of Williamsburg, erected in 1848. In the Brooklyn Atlas of 1880 the church structure was designated as the Episcopal-Presbyterian; in 1908 as Roman Catholic; and in 1929 no denomination.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street (South)",
+        "str2": "Roebling Street"
+      },
+      "source": "Brooklyn: 4th Street (South) - Roebling Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702363f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702363f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0889c370-c532-012f-e64a-58d385a7bc34",
     "original_title": "Brooklyn: 4th Street (South) - Roebling Street",
     "text": "207-215 South 4th Street, north side, at, adjoining and east of Roebling Street. Also shown is Roebling Street, east side, north from and including South 4th, to and including South 3rd Streets. The view shows St. Mary, Queen of Angels; Roman Catholic Church.\n\nOctober 19, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +78,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Roebling Avenue",
+        "str2": "South Fourth Street"
+      },
+      "source": "Roebling Avenue and South Fourth Street",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "1509697-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509697-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Williamsburg Bridge Plaza"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be7a8320-c5cd-012f-387f-58d385a7bc34",
     "text": null,
     "text_source": null,

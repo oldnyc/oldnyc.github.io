@@ -2,9 +2,48 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 428,
+        "street": "East 119th Street"
+      },
+      "source": "428 East 119th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "119th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 119th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 492,
     "id": "715184f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715184f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Factories",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a37bec0-c546-012f-72cc-58d385a7bc34",
     "original_title": "Manhattan: 119th Street (East) - East River Drive",
     "text": "East 119th Street, south side, west from the East River Drive, showing W.P.A. employees engaged in a sewer construction program. Shown in the center is the steeple atop the Holy Rosary R.C. Church, No. 428-442 East 119th Street, slightly west of Pleasant Ave.\n\nOctober 6, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

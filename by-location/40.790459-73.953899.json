@@ -2,9 +2,43 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "100th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "100th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 425,
     "id": "718319f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718319f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cathedral of St. John The Divine ; Riverside Baptist Church.",
+        "Manhattan: 5th Avenue - 100th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cathedral of St. John the Divine (New York, N.Y.)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Parks",
+          "Trails & paths",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a3141b0-c54b-012f-7d31-58d385a7bc34",
     "text": "Central Park: Pathways and Woods, Harlem Heights, a view west from Fifth Avenue at 100th Street, showing Morningside Heights in the background.\nThe Cathedral of St. John the Divine, at 112th Street, is approximately in the center background. To the right of it is the tower of the new Riverside Baptist Church.\nIn the Park, the East Drive may be seen in the center of the picture. The Loch is hidden by the trees west of the Drive.\nSeptember 8, 1931.\n\nWurts Brothers.\n",
     "text_source": "gpt",
@@ -18,9 +52,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "100th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "100th Street and Fifth Avenue",
+      "technique": "gpt"
+    },
     "height": 328,
     "id": "1517013-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1517013-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6c76a4f0-c5cf-012f-fdac-58d385a7bc34",
     "text": null,
     "text_source": null,

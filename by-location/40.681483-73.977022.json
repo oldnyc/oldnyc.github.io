@@ -2,9 +2,30 @@
   {
     "date": "1941-11-18",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bergen Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Bergen Street and Fifth Avenue",
+      "technique": "gpt"
+    },
     "height": 406,
     "id": "1509739-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509739-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5ad6ab0-c5cd-012f-0d3f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Bergen Street"
+      },
+      "source": "Brooklyn: 5th Avenue - Bergen Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702371f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702371f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b54d400-c532-012f-8f6e-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Bergen Street",
     "text": "P.L. Sperr, photographer  5-31-1942",
@@ -35,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Bergen Street"
+      },
+      "source": "Brooklyn: Bergen Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "703216f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703216f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fa4d460-c533-012f-7b5a-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - 5th Avenue",
     "text": "Remains of \"L\" for Trolley Support  5-31-1942\nP.L. Sperr, photographer\n",

@@ -6,9 +6,27 @@
       "1929-03",
       "1928-10"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kenmore Pl.",
+        "str2": "Woodruff Ave."
+      },
+      "source": "Brooklyn: Woodruff Ave. - Kenmore Pl.",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "707447f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707447f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d733c270-c539-012f-39e8-58d385a7bc34",
     "original_title": "Brooklyn: Woodruff Ave. - Kenmore Pl.",
     "text": "161 Woodruff Ave., opposite Kenmore Place,\nin March 1929.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",

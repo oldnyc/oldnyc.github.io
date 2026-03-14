@@ -5,9 +5,53 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 2275,
+        "street": "Homecrest Ave"
+      },
+      "source": "2275 Homecrest Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "12th Street (East)",
+        "str2": "Neck Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 12th Street",
+        "str2": "Neck Road",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Neck Road",
+        "str2": "Sheepshead Bay Road",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Homecrest Ave",
+        "str2": "Neck Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 329,
     "id": "705879f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705879f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7866f6b0-c537-012f-7ba0-58d385a7bc34",
     "original_title": "Brooklyn: Neck Road - 12th Street (East)",
     "text": "Neck Road, east from East 12th Street, showing the serpentine turn of Neck Road into Sheepshead Bay Road before continuing eastward at Homecrest Ave. At the right, is the Voorhies Sheppard house, and at the left background, is No. 2275 Homecrest Ave.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",
@@ -25,9 +69,53 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 2275,
+        "street": "Homecrest Ave"
+      },
+      "source": "2275 Homecrest Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "12th Street (East)",
+        "str2": "Neck Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 12th Street",
+        "str2": "Neck Road",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Neck Road",
+        "str2": "Sheepshead Bay Road",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Homecrest Ave",
+        "str2": "Neck Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 466,
     "id": "705880f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705880f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78b53e80-c537-012f-f46c-58d385a7bc34",
     "original_title": "Brooklyn: Neck Road - 12th Street (East)",
     "text": "Neck Road, east from East 12th Street, showing the serpentine turn of Neck Road into Sheepshead Bay Road before continuing eastward at Homecrest Ave. At the right is the Voorhies-Sheppard house, and at the left background is 2275 Homecrest Ave.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

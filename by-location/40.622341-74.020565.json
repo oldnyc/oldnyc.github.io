@@ -6,9 +6,27 @@
       "1923-04",
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "81st Street",
+        "str2": "Fort Hamilton"
+      },
+      "source": "Brooklyn: Fort Hamilton - 81st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704423f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704423f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ff579e0-c535-012f-5b0a-58d385a7bc34",
     "text": "(1) Fort Hamilton Parkway, east side, between 81st and 82nd Streets, showing an old stone house. April 1923. Eugene L. Armbruster Collection.\n\n(2) The same, showing a rear view. April 1923. Eugene L. Armbruster.\n",
     "text_source": "gpt",

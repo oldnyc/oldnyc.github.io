@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "145th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "145th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465533-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465533-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/336e7b90-c612-012f-6d14-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 705,
+        "street": "St. Nicholas Avenue"
+      },
+      "source": "705 St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465652-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465652-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/629ed2c0-c612-012f-6f2d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "145th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 145th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723131f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723131f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d01e75a0-c552-012f-0e44-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 145th Street",
     "text": "680-92 St. Nicholas Avenue at S.E. corner of 145th Street: The Majestic, an apartment house built around 1900, the first building in the block. About 1922.\n\nNew York Sun.\nGift of E. M. Jenks.\n",
@@ -51,9 +114,35 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "145th Street (West)",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 145th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 370,
     "id": "723130f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723130f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "City University of New York. City College"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cfb727f0-c552-012f-ebcc-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 145th Street (West)",
     "text": "St. Nicholas Avenue, south from West 145th Street. In the background is the Min Building of the College of the ity of New York.\n\nE. P. Chrystie\n\nDecember 30, 1923\n",
@@ -68,9 +157,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "145th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 145th Street",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "723132f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723132f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Markets",
+          "Meat"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d077c1e0-c552-012f-fb1e-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 145th Street",
     "text": "Subway Construction - 145th Street and St. Nicholas Ave.\n4-13-1928\n",

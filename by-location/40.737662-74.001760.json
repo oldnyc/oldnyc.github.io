@@ -6,9 +6,27 @@
       "1920-08-02",
       "1920-12-26"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Avenue - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "710743f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710743f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39efcd90-c53f-012f-8401-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - Greenwich Avenue",
     "text": "(1) Twelfth Avenue, 6th to Greenwich Avenue. (Before reconstruction). August 2, 1920.\n\n(2) Same, after reconstruction. President Borough of Manhatten.  December 26, 1920.\n",
@@ -28,9 +46,27 @@
       "1920-08-02",
       "1920-12-26"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Avenue - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "710743f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710743f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39efcd90-c53f-012f-8401-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - Greenwich Avenue",
     "text": "(1) Twelfth Avenue, 6th to Greenwich Avenue. (Before reconstruction). August 2, 1920.\n\n(2) Same, after reconstruction. President Borough of Manhatten.  December 26, 1920.\n",
@@ -49,9 +85,27 @@
     "dates_from_text": [
       "1932-07-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "711140f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711140f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc323c10-c53f-012f-db75-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Avenue",
     "text": "12th Street (formerly Troy Street), south side, east from 264 West 12th Street to Greenwich Avenue.\nJuly 30, 1932\n\nP. L. Sperr.\n",
@@ -66,9 +120,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711141f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711141f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dcb3bb30-c53f-012f-1c44-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Avenue",
     "text": "12th Street (formerly Troy Street), west from 269 West 12th Street, west of Greenwich Avenue.\n\nApril 3, 1932.\n\nP. L. Sperr.\n",
@@ -83,9 +158,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711141f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711141f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dcb3bb30-c53f-012f-1c44-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Avenue",
     "text": "12th Street (formerly Troy Street), west from 269 West 12th Street, west of Greenwich Avenue.\n\nApril 3, 1932.\n\nP. L. Sperr.\n",
@@ -100,9 +196,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "711143f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711143f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd7cac40-c53f-012f-7eb3-58d385a7bc34",
     "original_title": "Manhattan: 12th Street - Greenwich Avenue",
     "text": "12th Street east from Greenwich Avenue, showing the east side of Greenwich Avenue south the Sixth Avenue and 8th Street.\n\nJuly 30, 1932\nP.L. Sperr.\n\nLoew's Sheridan Theatre at center\n",
@@ -121,9 +238,27 @@
       "1932",
       "1933-03-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: Greenwich Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "720158f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/720158f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23095010-c54e-012f-46f4-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Avenue - 12th Street",
     "rotation": 90,
@@ -144,9 +279,27 @@
       "1932",
       "1933-03-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: Greenwich Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720158f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720158f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23095010-c54e-012f-46f4-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Avenue - 12th Street",
     "text": "(1)\n\n108-100 Greenwich Ave., east side, between 13th and 12th Streets, seen from Jane Street. 106 Greenwich Ave., the second house from the left, is a three-story frame structure faced with brick.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same.\n\nMarch 3, 1933.\n\nP. L. Sperr.\n",
@@ -167,9 +320,27 @@
       "1937-05-01",
       "1937-05-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "711139f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711139f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dbd03df0-c53f-012f-e046-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Avenue",
     "text": "(1)\nWest 12th Street, north side, east from Greenwich Ave., showing et the N.W. corner of Seventh Ave., demolition of the \"Old Rhinelander Flats\" in progress.\nMay 21, 1937.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, showing a view westward from Seventh to Greenwich Aves. The \"Flats\" shown on the right, extend north to West 13th Street. For further data, seen the N.Y. Sun of May 1, 1937.\n\nMay 7, 1937.\n\nP. L. Sperr.\n",
@@ -191,9 +362,27 @@
       "1937-05-01",
       "1937-05-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "711139f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711139f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dbd03df0-c53f-012f-e046-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Avenue",
     "text": "(1)\nWest 12th Street, north side, east from Greenwich Ave., showing et the N.W. corner of Seventh Ave., demolition of the \"Old Rhinelander Flats\" in progress.\nMay 21, 1937.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, showing a view westward from Seventh to Greenwich Aves. The \"Flats\" shown on the right, extend north to West 13th Street. For further data, seen the N.Y. Sun of May 1, 1937.\n\nMay 7, 1937.\n\nP. L. Sperr.\n",
@@ -210,9 +399,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711142f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711142f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd2a3430-c53f-012f-d6c0-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Avenue",
     "text": "West 12th Street, west from Greenwich Ave. (foreground) and showing the Greenwich (Motion Picture) Theatre at the S.W. corner of same; occupying what was formerly a garage, No. 97-101 Greenwich Ave.\n\nJuly 19, 1937.\n\nP. L. Sperr.\n",

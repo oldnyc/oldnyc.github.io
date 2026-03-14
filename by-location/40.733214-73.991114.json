@@ -2,9 +2,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "12th St",
+        "str2": "Broadway"
+      },
+      "source": "12th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 228,
     "id": "1627884",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627884.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4488f8c0-c6d2-012f-84bb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "12th St",
+        "str2": "Broadway"
+      },
+      "source": "12th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 227,
     "id": "1627885",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627885.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44d4cf50-c6d2-012f-7716-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +85,30 @@
     "dates_from_text": [
       "1916-12-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - Between 12th and 13th Streets",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "717318f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717318f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "840 Broadway and East Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab14a8f0-c549-012f-53ff-58d385a7bc34",
     "original_title": "Manhattan: Broadway - [Between 12th and 13th Streets]",
     "text": "Broadway and East Roadway opposite #840.\n(Before reconstruction).\n\nDecember 14, 1916.\n",
@@ -54,9 +123,34 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "717320f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717320f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Demarest Building ; Hilton Company Inc. ; Rochester Clothing Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa996430-c549-012f-715c-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 12th Street",
     "text": "Broadway, east side, from 14th to 12th Streets. The Demarest Building on the S.W. corner of 14th Street, built by the Domestic Sewing Machine Company in 1872, was at that time the highest building in New York, and was so advertised. It will be replaced by a twenty-three story building between 1925 and 1930. The Roosevelt Building, which adjoins it, will stand in 1936.\n\nAbout 1921.\n\nEdwin Levick.\n",

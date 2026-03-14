@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 611,
+        "street": "West 113th Street"
+      },
+      "source": "611 West 113th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465628",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465628.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5949c840-c612-012f-9c07-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 611,
+        "street": "West 113th Street"
+      },
+      "source": "611 West 113th Street",
+      "technique": "gpt"
+    },
     "height": 511,
     "id": "417395",
     "image_url": "https://images.nypl.org/?id=417395&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4ecf420-c611-012f-eb54-58d385a7bc34",
     "text": null,
     "text_source": null,

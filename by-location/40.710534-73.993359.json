@@ -2,9 +2,41 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 173,
+        "street": "Cherry Street"
+      },
+      "source": "173 Cherry Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Madonna House",
+        "technique": "title-cross"
+      }
+    ],
     "height": 477,
     "id": "718711f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718711f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cherry Street No. 173."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Convents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d69fbaf0-c54b-012f-7fe6-58d385a7bc34",
     "text": "Madonna House\n173 Cherry St.\nOne of the rooms after treatment.\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -18,9 +50,41 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 173,
+        "street": "Cherry Street"
+      },
+      "source": "173 Cherry Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Madonna House",
+        "technique": "title-cross"
+      }
+    ],
     "height": 475,
     "id": "718712f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718712f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cherry Street No. 173."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Convents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6f2c590-c54b-012f-6b2c-58d385a7bc34",
     "text": "Madonna House\n173 Cherry St.\n\nAnother bare room changed into an attractive kindergarten.\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -34,9 +98,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 173,
+        "street": "Cherry Street"
+      },
+      "source": "173 Cherry Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Porter Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Porter Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "718713f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718713f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Convents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d760f810-c54b-012f-bb23-58d385a7bc34",
     "original_title": "Manhattan: Cherry Street - Porter Avenue",
     "text": "Madonna House\n173 Cherry St.\n\nOne of the rooms before treatment.\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
@@ -51,9 +150,49 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 173,
+        "street": "Cherry Street"
+      },
+      "source": "173 Cherry Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Porter Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Porter Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718714f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718714f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Convents",
+          "Shrines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7bc5280-c54b-012f-7458-58d385a7bc34",
     "original_title": "Manhattan: Cherry Street - Porter Avenue",
     "text": "Shrine atop the roof of the R.C. Retreat at No. 173 Cherry Street, (\"Madonna House\"), a haven of charity for the unfortunate of the lower east side, for years. During the last depression thousands were fed in its bread line.\n\nMarch 6, 1934.\n\nP. L. Sperr,\n",

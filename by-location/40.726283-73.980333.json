@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "9th Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 9th Street (East) - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711009f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711009f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6089e70-c53f-012f-8f1f-58d385a7bc34",
     "original_title": "Manhattan: 9th Street (East) - Avenue B",
     "text": "605 East 9th Street, north side, between Avenues B, and C, east 9th Street, to 10th Street, showing P.S. 64.\n\nBoard of Education, N.Y.C.\n 1920.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "9th Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 9th Street",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "716424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716424f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35f99e40-c548-012f-ffbf-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 9th Street",
     "text": "German Lutheran Evangelical Church, Avenue B at southeast corner of 9th Street.\n\nAugust 31, 1928\n\nP.L. Sperr, Photographer\n",
@@ -36,9 +81,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ave. B",
+        "str2": "E. 9th St."
+      },
+      "source": "Ave. B and E. 9th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984807",
     "image_url": "https://images.nypl.org/?id=3984807&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82b40470-c5d7-012f-63a8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +121,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Av B",
+        "str2": "E. 9th St"
+      },
+      "source": "Av B and E. 9th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985222",
     "image_url": "https://images.nypl.org/?id=3985222&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09bdcb70-c5d8-012f-3b28-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -68,9 +161,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "9th Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 9th Street",
+      "technique": "title-cross"
+    },
     "height": 432,
     "id": "1507312-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507312-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Trinity Evangelical Lutheran Church"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cdfa9420-c5cd-012f-68d4-58d385a7bc34",
     "text": null,
     "text_source": null,

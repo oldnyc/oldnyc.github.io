@@ -2,9 +2,27 @@
   {
     "date": "1938-05-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": ", to Washington Ave.",
+        "str2": "East 188th Street"
+      },
+      "source": "Bronx: East 188th Street - , to Washington Ave.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700299f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700299f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/127a8410-c52f-012f-4f6f-58d385a7bc34",
     "text": "E. 188th Street, south side, east from Washington Avenue.\nMay 4, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

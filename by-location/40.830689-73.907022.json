@@ -2,9 +2,38 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1190,
+        "street": "Washington Avenue"
+      },
+      "source": "1190 Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Bronx",
+        "str2": "Washington Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 464,
     "id": "702021f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702021f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82cc70a0-c531-012f-26b0-58d385a7bc34",
     "text": null,
     "text_source": null,

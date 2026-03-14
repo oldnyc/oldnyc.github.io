@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "62nd Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Brooklyn: 6th Avenue - 62nd Street",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "702440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24897c90-c532-012f-78ef-58d385a7bc34",
     "original_title": "Brooklyn: 6th Avenue - 62nd Street",
     "text": "6th Avenue, at 62nd Street, viewing north along the former and showing a W. P. A. sewer project.\n\n1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

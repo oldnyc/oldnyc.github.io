@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "175th Street",
+        "str2": "Haven Avenue"
+      },
+      "source": "Manhattan: Haven Avenue - 175th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "720348f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720348f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6af21cf0-c54e-012f-d1de-58d385a7bc34",
     "original_title": "Manhattan: Haven Avenue - 175th Street",
     "text": "Haven Avenue, from 175th to 177th Streets. The gap between the apartment houses (built around 1924) is 176th Street. 175th Street was laid out but never cut through. There is no 174th Street. The house in the foreground is the modernized Howland farmhouse, which will be demolished about 1933.\n\nMay 27, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +41,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "175th Street",
+        "str2": "Haven Avenue"
+      },
+      "source": "175th Street and Haven Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "175th Street (West)",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "175th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 458,
     "id": "722839f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722839f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5142c2b0-c552-012f-f312-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 175th Street (West)",
     "text": "Riverside Drive, east side, on a line with W. 175th Street, showing a rocky slope and atop same, a frame dwelling. This stands between 173rd and 175th Streets and remained until about 1933-4 in what is today (1939) J. Hood Wright Park.\n\nAlong the line of the upper fence runs Haven Avenue and this structure is on the easterly side of same; the slope being the westerly side. For individual views of the building shown see files under the Park classification.\n\nFebruary, 1931\n\nGeorge L. Balgue\n",

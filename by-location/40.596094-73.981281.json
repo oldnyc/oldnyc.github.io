@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "10th St.",
+        "str2": "Ave. U"
+      },
+      "source": "Brooklyn: Ave. U - 10th St.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707096f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707096f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c40df90-c539-012f-b878-58d385a7bc34",
     "original_title": "Brooklyn: Ave. U - 10th St.",
     "text": "85-87 Ave. U. north side, at the N.E. corner of West 10th Street.\nApril 25, 1935.\nP. L. Sperr.\n",

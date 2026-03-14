@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "65th Street",
+        "str2": "Grand Avenue"
+      },
+      "source": "Queens: 65th Street - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725559f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725559f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85160070-c556-012f-0a59-58d385a7bc34",
     "original_title": "Queens: 65th Street - Grand Avenue",
     "text": "65th Street, south of Grand Avenue, showing a two-family house, erected by the Maspeth Realty Company. This is one of a group of similar homes on both sides of the street.\nAbout 1927\n",

@@ -2,9 +2,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 122,
+        "street": "William Street"
+      },
+      "source": "122 William Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558170",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558170.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Alexander Hamilton Residence"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Hamilton, Alexander, 1757-1804"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Homes and haunts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69e58380-c5ed-012f-a3b6-58d385a7bc34",
     "text": null,
     "text_source": null,

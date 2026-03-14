@@ -2,9 +2,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Adams Street",
+        "str2": "Concord Street"
+      },
+      "source": "Brooklyn: Concord Street - Adams Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703767f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703767f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28a06ff0-c534-012f-1882-58d385a7bc34",
     "original_title": "Brooklyn: Concord Street - Adams Street",
     "text": "Concord Street, east from Adams Street. Old Public School No. 1 is in the right foreground.\n\nP. L. Sperr\nSeptember 9, 1939\n",

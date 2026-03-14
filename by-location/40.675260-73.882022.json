@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Essex Street",
+        "str2": "Glenmore Avenue"
+      },
+      "source": "Brooklyn: Glenmore Avenue - Essex Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "704634f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704634f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86209a60-c535-012f-dfac-58d385a7bc34",
     "original_title": "Brooklyn: Glenmore Avenue - Essex Street",
     "text": "Glenmore Avenue, north side, east from Essex Street to Shepherd Avenue. Note the bales of paper and rags.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",

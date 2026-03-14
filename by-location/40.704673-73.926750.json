@@ -2,9 +2,48 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 400,
+        "street": "Melrose Street"
+      },
+      "source": "400 Melrose Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "162nd Street (East)",
+        "str2": "Melrose Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "162nd Street",
+        "str2": "Melrose Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705692f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705692f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Meeker Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/308438b0-c537-012f-8717-58d385a7bc34",
     "original_title": "Brooklyn: Melrose Street - 162nd Street (East)",
     "text": "Emanuel Evangelical Church\n400 Melrose St.\nBrooklyn, N.Y.\nRev. F.R. Riedel\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",

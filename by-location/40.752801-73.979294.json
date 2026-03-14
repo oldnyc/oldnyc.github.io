@@ -2,9 +2,39 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712974f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712974f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Church of the Holy Trinity."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edbc7ba0-c542-012f-40a2-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "Church of the Holy Trinity, erected 1873.\n\nNov. 1, 1895 - Church ceased to exist. Congregation combined with St. James P. E. Church, 71st St. and Madison Avenue.\n\nBuilding torn down summer of 1896. Map of 1897 shows empty lot.\n\nFrom Mr. Grumpelt, June 12, 1946.\n",
@@ -19,9 +49,36 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712975f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712975f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee280cd0-c542-012f-790a-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "East 42nd Street, north side, east from Madison Avenue, showing the Church of the Holy Trinity and the (1st) Grand Central Depot. The church, erected in 1873, was founded in 1864 by the younger Stephen H. Tyng. It has sacrilegiously been referred to as \"The Church of the Holy Oilcloth.\" The Grand Central Depot shown is the first to be erected on this site and stood from 1871 to 1900.\n\nAbout 1890\n\nGift of Ubrock Collection\n",
@@ -36,9 +93,32 @@
   {
     "date": "1897",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42th Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1507498-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507498-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Manhattan"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ffbcf50-c5ce-012f-7bcb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +132,34 @@
   {
     "date": "1903",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bryant Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eeb07980-c542-012f-77e5-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "42nd Street, south side, west from and including Madison Avenue, during the construction of the Interborough subway line. At the southwest corner of Fifth Avenue, in Bryant Park, the New York Public Library may be seen under construction.\nMay 1, 1903.\n",
@@ -69,9 +174,30 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "712982f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712982f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Dental offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f138d300-c542-012f-0071-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "20-28 East 42nd Street (old numbers), at and adjoining the S.W. corner of Madison Avenue, the site of the future Union Carbide Building, 40 East 42nd Street (new number). 1910.\n\nEwing Galloway.\n",
@@ -86,9 +212,41 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721318f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721318f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 42nd Street - 12th Avenue"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Times Building (New York, N.Y. : Park Row)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hotels",
+          "Presbyterian churches",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e835ef40-c54f-012f-1cf6-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "42nd Street, north side, west from Madison Avenue. At the right is the Hotel Manhattan. This structure was later converted into an office building. It stands on the site of the old Draper home. In the center is the Bristol Hotel (with flag atop) located at the N. W. corner of Fifth Avenue. Silhouetted against the Times Bldg is the spire of a Presbyterian Church that faces Bryant Park. Note the \"El\" station at Sixth Avenue; the subway kiosks in the foreground and the electrified street car tracks.\n\nAbout 1910\n\nEwing Galloway\n",
@@ -103,9 +261,31 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712984f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712984f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry",
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f23338a0-c542-012f-62b9-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street (East) - Madison Avenue",
     "text": "11-13 East 42nd Street, north side, between Fifth and Madison Avenues. 13 East 42nd Street, adjoining the Hotel Manhatten, will later be replaced by Schrafft's seven-story building. About 1915.\n\nIrving Underhill.\n",
@@ -120,9 +300,31 @@
   {
     "date": "1916",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "721324f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721324f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eaa9a2c0-c54f-012f-cf52-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street",
     "text": "Madison Avenue, north from 42nd Street. Old building on N.E. corner will be demolished in 1919 to make room for Liggett Drug Building. Manhattan Hotel, on N.W. corner will be remodelled in 1920-21. Tower of old St. Bartholomew's Church visible on S.W. corner of 44th Street, will be demolished in 1919-20. About 1921 Charles a Co's building on S.E. corner of 43rd Street will give place to Prudence Building. Covered subway entrances will go later.\nPicture taken during street car strike of 1916.\nSummer 1916.\nIrving Underhill, Photographer.\nGift of E.M. Jenks.\nie. 54Nc A 771\n~N0N9I NNe17.NNJC1.\n. (T 90\n",
@@ -140,9 +342,27 @@
     "dates_from_text": [
       "1916"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "721325f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721325f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb15e090-c54f-012f-b3f3-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street (East)",
     "text": "Madison Avenue, south from 42nd Street.\n1916.\n",
@@ -157,9 +377,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721321f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721321f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e98977d0-c54f-012f-4d6a-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street (East)",
     "text": "Madison Avenue, at northwest corner of 42nd Street, showing Hotel Manhattan, remodelled into National City Bank Building in 1921.\n1917 or 1918\n",
@@ -174,9 +415,35 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "730174f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730174f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 42nd Street - Madison Avenue ; Canadian Pacific Building ; Charles and Company ; Collegiate Church of St. Nicholas ; Hotel Biltmore ; Hotel Manhattan ; St. Patrick's Roman Catholic Cathedral."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Churches",
+          "Excavation",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8eb90930-c55d-012f-9577-58d385a7bc34",
     "text": "A general view of the midtown Manhattan Fifth Avenue zone above 42nd Street as photographed northward from the 25 story building at No. 309-13 Madison Avenue that adjoins the S. E. corner of 42nd Street. At the right margin appears the Charles & Co. Bldg. and the Hotel Biltmore. In the lower left corner is the rooftop of the Manhattan Hotel. This is shortly to become the National City Co. Bldg. The excavation in the foreground is for the Canadian Pacific Bldg. This site was formerly occupied by St. Bartholmews Church. The spires of the Collegiate Church of St. Nicholas and St. Patricks Cathedral indicate the line of Fifth Avenue.\n\n1919\n\nGift of E.M.Jenks\nJames Suydam, photo\n",
     "text_source": "gpt",
@@ -190,9 +457,32 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712983f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712983f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Musical instrument industry",
+          "Musical instruments",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f1b7ae00-c542-012f-a21d-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street (East) - Madison Avenue",
     "text": "18 East 42nd Street, south side, between Madison and Fifth Aves., showing the Hallet and Davis Piano Company salesroom.\n\nPrior to 1920.\n",
@@ -207,9 +497,31 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721323f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721323f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ea569cf0-c54f-012f-de6e-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street (East)",
     "text": "Madison Avenue, at S.W. corner of 42nd Street, the Union Carbide Building.\nOn the N.W. corner the Hotel Manhattan is being altered into the National City Bank Building, and in the foreground construction is proceeding on the new Liggett Building.\n1921.\nGift of E.M. Jenks.\n",
@@ -224,9 +536,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721326f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721326f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb6e2180-c54f-012f-2b30-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street (East)",
     "text": "National City Bank Building, formerly Manhattan Hotel, Madison Avenue\nAt N.W. corner of 42nd Street.\nAbout 1922.\nWinemiller & Miller, Photographers.\n",
@@ -241,9 +574,31 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "721327f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721327f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ebde6b60-c54f-012f-ba52-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street (East)",
     "text": "Madison Avenue, east side, between 42nd and 43rd Streets, showing Liggett Building.\nAbout 1922.\n",
@@ -261,9 +616,27 @@
     "dates_from_text": [
       "1928-10-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712981f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712981f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0d481a0-c542-012f-5961-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "Liggett Building, 42nd Street at N.E. corner of Madison Avenue, an unusual view, across the clearing on the south side of the street. October 22, 1928.\n\nP. L. Sperr.\n",
@@ -281,9 +654,27 @@
     "dates_from_text": [
       "1928"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "721322f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721322f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9e1aa80-c54f-012f-8cdd-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street (East)",
     "text": "Madison Avenue, south from E. 42nd Street, showing prominently the main office of Cushman and Wakefield Inc.;- occupying since 1927 the second floor of the Carbide and Carbon Building. This structure bears No. 30 E. 42nd Street and is at the southwest corner.\n\nAbout 1928\n",
@@ -298,9 +689,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712977f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712977f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef281d80-c542-012f-1df3-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "42nd Street skyscrapers, east from Madison Avenue. On the south side of the street are the Lincoln Building (1929) at 60 East 42nd Street, the Chanin Building (1928) at No. 122 on the S.W. corner of Lexington Avenue, and the Daily News Building (1929) at 220 East 42nd Street east of Third Avenue. At the right is the Chrysler Building, completed in the summer of 1930, diagonally opposite the Chanin Building.\n\n1930-1931.\n\nEwing Galloway.\n",
@@ -315,9 +733,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712979f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712979f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f002ff30-c542-012f-3d59-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "42nd Street, south side, east from west of Madison Avenue: an aerial view.\n\nJune 24, 1931.\n\nP. L. Sperr.\n",
@@ -332,9 +768,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712980f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712980f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f05e02a0-c542-012f-8659-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "42nd Street skyscrapers, east from and including Madison Avenue, an aerial view.\n\nJune 24, 1931.\n\nP. L. Sperr.\n",
@@ -349,9 +803,38 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 42nd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712978f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712978f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Night photography",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef8bafd0-c542-012f-5e10-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street - Madison Avenue",
     "text": "East 42nd Street, east from but not including Madison Ave., showing the Chrysler, News, Chanin and Lincoln Buildings at dusk. Across the background appears the East River and the Long Island City shore.\n\nAbout 1935.\n\nEwing Galloway.\n",
@@ -366,9 +849,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 309,
+        "street": "Madison Avenue"
+      },
+      "source": "Madison Avenue #309",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507617-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507617-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c4a3900-c5ce-012f-e04c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -382,9 +885,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 42nd Street (Park Avenue",
+        "str2": "Madison Avenue)"
+      },
+      "source": "Manhattan: 60 East 42nd Street (Park Avenue - Madison Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558219",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558219.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lincoln Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Art deco (Architecture)",
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd9c7b40-c5ec-012f-fc30-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -398,9 +930,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712973f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712973f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed3e6d80-c542-012f-20ac-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 42nd Street",
     "text": "Madison Avenue, East side and North east corner of 42nd Street, showing the P.E. Church of the Holy Trinity erected in 1873, since demolished account of business blocks.",

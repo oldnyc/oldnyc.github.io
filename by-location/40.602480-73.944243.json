@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "28th Street (East)",
+        "str2": "Avenue T"
+      },
+      "source": "Brooklyn: 28th Street (East) - Avenue T",
+      "technique": "title-cross"
+    },
     "height": 444,
     "id": "702691f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702691f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/842d0f90-c532-012f-e4e9-58d385a7bc34",
     "original_title": "Brooklyn: 28th Street (East) - Avenue T",
     "text": "East 28th Street, between Aves. T. and U.\nAbout 1928.\nBorough Advertising Agency.\n",

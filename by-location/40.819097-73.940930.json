@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "141st Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 141st Street",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "710029f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710029f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fee98b0-c53e-012f-d721-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 141st Street",
     "text": "7th Avenue, 141st to 142nd, west side. (Before Reconstruction).",

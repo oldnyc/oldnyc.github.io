@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Beechwood Avenue",
+        "str2": "Cleveland Street"
+      },
+      "source": "Richmond: Beechwood Avenue - Cleveland Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "728573f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728573f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fae4c450-c55a-012f-b1c9-58d385a7bc34",
     "original_title": "Richmond: Beechwood Avenue - Cleveland Street",
     "text": "Beechwood Avenue, south from Cleveland Street.\n\nJuly 19, 1940\n\nP. L. Sperr\n",
@@ -19,9 +40,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Beechwood Avenue",
+        "str2": "Cleveland Street"
+      },
+      "source": "Richmond: Cleveland Street - Beechwood Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "728694f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728694f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods",
+          "Picket fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2919c8f0-c55b-012f-1f2d-58d385a7bc34",
     "original_title": "Richmond: Cleveland Street - Beechwood Avenue",
     "text": "Cleveland St., east across Beechwood Ave., S.I.\nJuly 19, 1940\nP.L. Sperr, photographer\n",

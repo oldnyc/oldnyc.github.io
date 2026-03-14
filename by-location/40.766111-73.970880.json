@@ -2,9 +2,29 @@
   {
     "date": "1944-10-10",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1,
+        "street": "E 62nd Street"
+      },
+      "source": "62nd Street (East) #1",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508267-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508267-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/019d8c60-c5cf-012f-e01f-58d385a7bc34",
     "text": null,
     "text_source": null,

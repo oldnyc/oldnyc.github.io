@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street (East)",
+        "str2": "Katonah Avenue"
+      },
+      "source": "Bronx: 233rd Street (East) - Katonah Avenue",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "700356f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700356f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Ice cream parlors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/262f3880-c52f-012f-9faf-58d385a7bc34",
     "original_title": "Bronx: 233rd Street (East) - Katonah Avenue",
     "text": "East 233rd Street (left), at the N.W. corner of Katonah Ave. Katonah Ave. is seen running northward to the city line at Yonkers.\n\nAbout 1924.\n",
@@ -19,9 +40,29 @@
   {
     "date": "1942-08-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street",
+        "str2": "Katonah Avenue"
+      },
+      "source": "233rd Street and Katonah Avenue",
+      "technique": "gpt"
+    },
     "height": 344,
     "id": "1509489-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509489-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b3d1220-c5cd-012f-7065-58d385a7bc34",
     "text": null,
     "text_source": null,

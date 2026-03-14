@@ -2,9 +2,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "78th Street (East)"
+      },
+      "source": "Manhattan: 78th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "714546f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714546f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66671c70-c545-012f-8f72-58d385a7bc34",
     "original_title": "Manhattan: 78th Street (East) - 3rd Avenue",
     "text": "169-171 East 78th Street, (excavation) north side, between Third and Lexington Aves. Also shown is a rear view of Nos. 176-184 East 79th Street, south side, between Third and Lexington Aves. Note new building being erected on the north side of 79th. Street. Building with sign is the Manhattan Storage Warehouse.\n\nFebruary 2, 1928.\n\nP: L, Sperr.\n",
@@ -19,9 +41,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "78th Street (East)"
+      },
+      "source": "Manhattan: 78th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "714547f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714547f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile wrecking and used parts industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66ca7ec0-c545-012f-4653-58d385a7bc34",
     "original_title": "Manhattan: 78th Street (East) - 3rd Avenue",
     "text": "East 78th Street, south side, west from Third to and including Lexington Aves. Note demolition at the S.W. corner of Third Ave.\n\nSeptember 8, 1936.\n\nP. L. Sperr.\n",

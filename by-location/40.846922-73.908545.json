@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "175th Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 175th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4429be50-c530-012f-b092-58d385a7bc34",
     "text": "Grand Concourse, at the E.E. corner of East 175th 8treet, showing\nthe PilgriwChurch.\nGSgeegPe4wS\nJuly 17, 1935.\nP. L. Sperr.\n(2)\nThhe sawe, fram a different angle.\nJuly 17, 1935.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -18,9 +39,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "175th Street (East)",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 175th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701167f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701167f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4429be50-c530-012f-b092-58d385a7bc34",
     "text": "Grand Concourse, at the E.E. corner of East 175th 8treet, showing\nthe PilgriwChurch.\nGSgeegPe4wS\nJuly 17, 1935.\nP. L. Sperr.\n(2)\nThhe sawe, fram a different angle.\nJuly 17, 1935.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -34,9 +76,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "175th Street",
+        "str2": "Grand Concourse"
+      },
+      "source": "175th Street and Grand Concourse",
+      "technique": "gpt"
+    },
     "height": 468,
     "id": "1509441-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509441-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Christ Congregational Church-Pilgrim Church of New York"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92884ca0-c5cd-012f-5fd6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +115,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "175th Street",
+        "str2": "Grand Concourse"
+      },
+      "source": "175th Street and Grand Concourse",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "1509443",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509443.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Telephone Co. (drawing)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92ed6b60-c5cd-012f-3de1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +154,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Morris Avenue"
+      },
+      "source": "Bronx - 1791 Grand Concourse - Morris Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "1557752",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557752.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartments",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e8e4610-c5ec-012f-f787-58d385a7bc34",
     "text": null,
     "text_source": null,

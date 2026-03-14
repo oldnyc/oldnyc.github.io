@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 212,
+        "street": "E 49th St"
+      },
+      "source": "212 E 49th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "713373f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713373f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92d2bde0-c543-012f-6a8b-58d385a7bc34",
     "text": "Res. of Michael Meredith Hare, Architect\n212 E. 49th St. N.Y.C.\n",
     "text_source": "gpt",
@@ -18,9 +36,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 212,
+        "street": "E 49th St"
+      },
+      "source": "212 E 49th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "713374f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713374f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9355ff50-c543-012f-ed43-58d385a7bc34",
     "text": "Res. of Michael Meredith Hare, Architect\n212 E. 49th St. N.Y.C.\n",
     "text_source": "gpt",

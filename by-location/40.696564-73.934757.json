@@ -2,9 +2,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Stuyvesant Avenue"
+      },
+      "source": "Brooklyn: Stuyvesant Avenue - Broadway",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706922f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706922f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/080b24a0-c539-012f-4261-58d385a7bc34",
     "original_title": "Brooklyn: Stuyvesant Avenue - Broadway",
     "text": "2-10 Stuyvesant Ave., west side, south from Broadway to Vernon Aves. No. 10 at Vernon Ave., is in the foreground. The Broadway B.M.T. Elevated Lines are in the background.\n\nSeptember 9, 1932.\n\nP. L. Sperr.\n",
@@ -19,9 +44,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Stuyvesant Ave.",
+        "str2": "Vernon Ave."
+      },
+      "source": "Brooklyn: Vernon Ave. - Stuyvesant Ave.",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "707204f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707204f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75fcc290-c539-012f-8f71-58d385a7bc34",
     "original_title": "Brooklyn: Vernon Ave. - Stuyvesant Ave.",
     "text": "Vernon Avenue, west from near Stuyvesant Avenue, showing construction operations on a W. P. A. sewer project.\n\nMay 6, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",
@@ -36,9 +82,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Stuyvesant Avenue"
+      },
+      "source": "Brooklyn: Broadway - Stuyvesant Avenue",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "703341f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703341f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8003ef90-c533-012f-dfc6-58d385a7bc34",
     "original_title": "Brooklyn: Broadway - Stuyvesant Avenue",
     "text": "Broadway, at Stuyvesant Avenue, looking north up the latter and showing the Corn Exchange Bank and the \"EL\".\n\nP. L. Sperr\nSeptember 13, 1941\n",

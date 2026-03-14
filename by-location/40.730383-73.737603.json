@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "88th Avenue",
+        "str2": "Ashford Street"
+      },
+      "source": "Queens: Ashford Street - 88th Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31028f90-c557-012f-977a-58d385a7bc34",
     "original_title": "Queens: Ashford Street - 88th Avenue",
     "text": "Ashford Street, south from 88th Avenue to Braddock Avenue, showing newly erected homes in the Bellrose section of the borough.\nAbout 1928\n",

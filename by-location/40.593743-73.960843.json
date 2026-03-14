@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ave. W",
+        "str2": "Coney Island Ave."
+      },
+      "source": "Brooklyn: Ave. W - Coney Island Ave.",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "707234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/823a5e80-c539-012f-06bf-58d385a7bc34",
     "original_title": "Brooklyn: Ave. W - Coney Island Ave.",
     "text": "Ave. W. east from Coney Island Ave., to East 12th Street, showing the Voorhies-Sheppard house in the background.\n\nSeptember 1926.\n\nEugene L. Armbruster Collection.\n",

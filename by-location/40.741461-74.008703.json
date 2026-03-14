@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-04-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "10th Avenue and 13th Street",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "710453f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710453f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0da1f40-c53e-012f-ee64-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 13th and 14th Streets",
     "text": "Tenth Ave., east side, north from and including West 13th to and including 14th Streets.\n\nApril 2, 1929.\n\nP. L. Sperr.\n",
@@ -22,9 +40,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 13th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "710454f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710454f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Markets",
+          "Meat"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c13f3930-c53e-012f-502a-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 13th Street",
     "text": "(1)\n\nTenth Avenue, east side, from 13th to Little West 12th Streets, at the beginning of Tenth Avenue.\nP.L. Sperr, April 2, 1929.\n\n(2)\n\nTenth Avenue, east side, north from Little West 12th\nStreet. View 3 is the same.\nP.L. Sperr, April 2, 1929.\n",
@@ -39,9 +82,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 13th Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "710454f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710454f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Markets",
+          "Meat"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c13f3930-c53e-012f-502a-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 13th Street",
     "text": "(1)\n\nTenth Avenue, east side, from 13th to Little West 12th Streets, at the beginning of Tenth Avenue.\nP.L. Sperr, April 2, 1929.\n\n(2)\n\nTenth Avenue, east side, north from Little West 12th\nStreet. View 3 is the same.\nP.L. Sperr, April 2, 1929.\n",
@@ -56,9 +124,37 @@
   {
     "date": "1929; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 13th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "711361f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711361f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "500 West 13th Street ; 10th and 11th Avenues ; Strand Hotel."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Elevated railroads",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f47c20e0-c53f-012f-4248-58d385a7bc34",
     "original_title": "Manhattan: 13th Street - 10th Avenue",
     "text": "(1)\nAt the intersection of Tenth (right), and Eleventh (left) Aves., at West 13th Street, and looking northward. The 3-story house at the apex, is known as the Strand Hotel, and bears Nos. 2-4 Eleventh Ave., as well as No. 500 West 14th Street. Beyond that, is seen, the National Biscuit Co. plant at West 15th extending to 16th Streets, and facing on both Aves. Two bridges connect the main plant with a new annex, through which pass the elevated tracks of the New York Central R.R.\n\nMarch 31, 1937.\n\nP. L. Sperr.\n\n(2)\nTenth and Eleventh Avenues, looking North from their junction at Little West, 12th Street.\n\nApril 2nd, 1929.\n\nP.L. Sperr,\n",
@@ -74,9 +170,37 @@
   {
     "date": "1929; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 13th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "711361f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711361f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "500 West 13th Street ; 10th and 11th Avenues ; Strand Hotel."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Elevated railroads",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f47c20e0-c53f-012f-4248-58d385a7bc34",
     "original_title": "Manhattan: 13th Street - 10th Avenue",
     "text": "(1)\nAt the intersection of Tenth (right), and Eleventh (left) Aves., at West 13th Street, and looking northward. The 3-story house at the apex, is known as the Strand Hotel, and bears Nos. 2-4 Eleventh Ave., as well as No. 500 West 14th Street. Beyond that, is seen, the National Biscuit Co. plant at West 15th extending to 16th Streets, and facing on both Aves. Two bridges connect the main plant with a new annex, through which pass the elevated tracks of the New York Central R.R.\n\nMarch 31, 1937.\n\nP. L. Sperr.\n\n(2)\nTenth and Eleventh Avenues, looking North from their junction at Little West, 12th Street.\n\nApril 2nd, 1929.\n\nP.L. Sperr,\n",
@@ -92,9 +216,35 @@
   {
     "date": "1932; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 13th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "710455f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710455f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Cobblestone streets",
+          "Cold storage",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1b15950-c53e-012f-f5d0-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 13th Street",
     "text": "(1)\nTenth Avenue, north from 13th Street.\nJuly 16, 1932.\nP.L. Sperr, Photographer.\n\n(2)\nThe same, showing only the east side of the Ave., at a later date. Note the New York Central Railroad elevated tracks as they pass through a new annex of the National Biscuit Co., at West 15th Street. The two overhead bridges connect the annex with its main building on the west side\nof the avenue, from West 15th to West 16th Streets.\nMarch 31, 1937.\n\nP. L. Sperr.\n",
@@ -110,9 +260,35 @@
   {
     "date": "1932; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 13th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "710455f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710455f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Cobblestone streets",
+          "Cold storage",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1b15950-c53e-012f-f5d0-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 13th Street",
     "text": "(1)\nTenth Avenue, north from 13th Street.\nJuly 16, 1932.\nP.L. Sperr, Photographer.\n\n(2)\nThe same, showing only the east side of the Ave., at a later date. Note the New York Central Railroad elevated tracks as they pass through a new annex of the National Biscuit Co., at West 15th Street. The two overhead bridges connect the annex with its main building on the west side\nof the avenue, from West 15th to West 16th Streets.\nMarch 31, 1937.\n\nP. L. Sperr.\n",
@@ -128,9 +304,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "13th Street"
+      },
+      "source": "Manhattan: 13th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711198f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711198f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cold storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3f53e10-c53f-012f-7cd5-58d385a7bc34",
     "original_title": "Manhattan: 13th Street - 10th Avenue",
     "text": "13th Street, north side, east from Tenth Avenue (Delamater Square).\nApril 20, 1933.\nP. L. Sperr.\n",
@@ -145,9 +342,46 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "W 13th Street"
+      },
+      "source": "10th Avenue and W 13th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "11th Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "11th Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "719255f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719255f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Delamater Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Food industry",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b15c5650-c54c-012f-3d56-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 11th Avenue",
     "text": "Delamater Square: 10th and 11th Avenues, at W 13th Street, showing the apex of the triangular Strand Hotel at this point. W. 14th Street is where the bus appears. North of same is the National Biscuit Co. (Uneeda Biscuit).\n\nOctober 15, 1938\n\nGeorge D. Chinn\n",

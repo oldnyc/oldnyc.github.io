@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "102nd Avenue",
+        "str2": "Hollis Avenue"
+      },
+      "source": "Queens: Hollis Avenue - 102nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "726880f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726880f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c8f5a00-c558-012f-83b3-58d385a7bc34",
     "original_title": "Queens: Hollis Avenue - 102nd Avenue",
     "text": "Hollis Ave., east side, opposite 102nd Ave., showing fully the A. Oakley Ketcham house. D. Ketcham and E. Mason were the owners in 1891 and 1896 respectively.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "102nd Street",
+        "str2": "Hollis Avenue"
+      },
+      "source": "Queens: Hollis Avenue - 102nd Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "726885f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726885f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f3139d0-c558-012f-7a4e-58d385a7bc34",
     "original_title": "Queens: Hollis Avenue - 102nd Street",
     "text": "Hollis Ave. (foreground), at the S.W. corner of 102nd Street, showing in a set of two views the David Purdy house thereon. Other owners were C. Mott, 1860; D. J. Purdy, 1873-1891; and two sisters and a brother of David S. Purdy in 1934.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",
@@ -39,9 +78,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "102nd Street",
+        "str2": "Hollis Avenue"
+      },
+      "source": "Queens: Hollis Avenue - 102nd Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "726885f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726885f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f3139d0-c558-012f-7a4e-58d385a7bc34",
     "original_title": "Queens: Hollis Avenue - 102nd Street",
     "text": "Hollis Ave. (foreground), at the S.W. corner of 102nd Street, showing in a set of two views the David Purdy house thereon. Other owners were C. Mott, 1860; D. J. Purdy, 1873-1891; and two sisters and a brother of David S. Purdy in 1934.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",

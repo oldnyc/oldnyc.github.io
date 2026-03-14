@@ -2,9 +2,29 @@
   {
     "date": "1940-06-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "40th Road",
+        "str2": "Prince Street"
+      },
+      "source": "Prince Street at 40th Road, Queens",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "485941",
     "image_url": "https://images.nypl.org/?id=485941&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99ec4c40-c60e-012f-b718-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1940-06-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "40th Road",
+        "str2": "Prince Street"
+      },
+      "source": "40th Road at Prince Street, Queens",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "485971",
     "image_url": "https://images.nypl.org/?id=485971&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3f34f70-c60e-012f-f036-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-09-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "New Jersey Avenue",
+        "str2": "Pitkin Avenue"
+      },
+      "source": "Brooklyn: New Jersey Avenue - Pitkin Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706000f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706000f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a67e1d50-c537-012f-a441-58d385a7bc34",
     "original_title": "Brooklyn: New Jersey Avenue - Pitkin Avenue",
     "text": "New Jersey Avenue, north from Pitkin Avenue, showing subway construction, where numerous houses were razed.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",

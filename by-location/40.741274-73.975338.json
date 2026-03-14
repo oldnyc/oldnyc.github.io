@@ -2,9 +2,36 @@
   {
     "date": "1928; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "30th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 30th St. E.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707557f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707557f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bellevue Hospital ; Bellevue Hospital Chapel ; Bellevue Hospital Morgue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10b48c00-c53a-012f-509c-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 30th St. E.",
     "text": "First Avenue, east side, south from E. 30th Street, showing in the midground several units of Bellevue Hospital. First in appearance is the unit popularly known as the Morgue. South of same is the Chapel and other old portions of this medical center. Beyond appears the frame work of the new Out Patient Clinic building at 26th Street. Tenements seen in the foreground are to be demolished for the purposed Psychopathic unit. In View No. 2 this is accomplished the excavation has not started.\n\nSeptember 10, 1928.\nView 2: April 27, 1930.\n\nP.L. Sperr\n",
@@ -20,9 +47,36 @@
   {
     "date": "1928; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "30th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 30th St. E.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707557f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707557f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bellevue Hospital ; Bellevue Hospital Chapel ; Bellevue Hospital Morgue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10b48c00-c53a-012f-509c-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 30th St. E.",
     "text": "First Avenue, east side, south from E. 30th Street, showing in the midground several units of Bellevue Hospital. First in appearance is the unit popularly known as the Morgue. South of same is the Chapel and other old portions of this medical center. Beyond appears the frame work of the new Out Patient Clinic building at 26th Street. Tenements seen in the foreground are to be demolished for the purposed Psychopathic unit. In View No. 2 this is accomplished the excavation has not started.\n\nSeptember 10, 1928.\nView 2: April 27, 1930.\n\nP.L. Sperr\n",
@@ -41,9 +95,27 @@
     "dates_from_text": [
       "1928-09-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "30th Street"
+      },
+      "source": "Manhattan: 30th Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "711949f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711949f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c292ec0-c541-012f-7834-58d385a7bc34",
     "original_title": "Manhattan: 30th Street - 1st Avenue",
     "text": "30th Street, north side, east from First Avenue.\n\nSeptember 10, 1928.\n\nP. L. Sperr.\n",
@@ -61,9 +133,27 @@
     "dates_from_text": [
       "1928-09-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "30th Street"
+      },
+      "source": "Manhattan: 30th Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "711950f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711950f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c805ec0-c541-012f-42b1-58d385a7bc34",
     "original_title": "Manhattan: 30th Street - 1st Avenue",
     "text": "30th Street, south side, east from and including First Avenue. September 10, 1928.\n\nP. L. Sperr.\n",
@@ -78,9 +168,44 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "30th Street",
+        "str2": "First Avenue"
+      },
+      "source": "30th Street and First Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "30th Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "30th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "711948f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711948f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2bbb4050-c541-012f-a627-58d385a7bc34",
     "original_title": "Manhattan: 30th Street - East River Drive",
     "text": "30th Street, south side, west from East River, showing Kalcher's Fidelio Brewery on the west side of First Avenue from 30th to 29th Streets.\n\nApril 30, 1930.\n\nP. L. Sperr.\n",
@@ -95,9 +220,40 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "30th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 30th St. E.",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707560f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707560f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile equipment & supplies stores",
+          "Gasoline pumps",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Upholstery trade",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/103e8450-c53a-012f-3359-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 30th St. E.",
     "text": "First Avenue, north across East 31st Street as photographed from a point close to 30th Street. The gas station on the left occupies the N. W. corner of 31st Street and is of recent construction. Views 2 and 3 are closer to 31st Street. Tudor City is in the right background. The News Building and the Chrysler are individually depicted.\n\nViews 1,2: October 13, 1939\nView 3: September 19, 1939\n\nP. L. Sperr\n",
@@ -112,9 +268,40 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "30th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 30th St. E.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707560f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707560f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile equipment & supplies stores",
+          "Gasoline pumps",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Upholstery trade",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/103e8450-c53a-012f-3359-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 30th St. E.",
     "text": "First Avenue, north across East 31st Street as photographed from a point close to 30th Street. The gas station on the left occupies the N. W. corner of 31st Street and is of recent construction. Views 2 and 3 are closer to 31st Street. Tudor City is in the right background. The News Building and the Chrysler are individually depicted.\n\nViews 1,2: October 13, 1939\nView 3: September 19, 1939\n\nP. L. Sperr\n",
@@ -129,9 +316,40 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "30th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 30th St. E.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707560f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707560f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile equipment & supplies stores",
+          "Gasoline pumps",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Upholstery trade",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/103e8450-c53a-012f-3359-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 30th St. E.",
     "text": "First Avenue, north across East 31st Street as photographed from a point close to 30th Street. The gas station on the left occupies the N. W. corner of 31st Street and is of recent construction. Views 2 and 3 are closer to 31st Street. Tudor City is in the right background. The News Building and the Chrysler are individually depicted.\n\nViews 1,2: October 13, 1939\nView 3: September 19, 1939\n\nP. L. Sperr\n",

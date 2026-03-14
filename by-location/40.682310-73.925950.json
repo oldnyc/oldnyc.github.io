@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Decatur Street",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Decatur Street - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703949f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703949f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Congregational churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72a0e770-c534-012f-6308-58d385a7bc34",
     "original_title": "Brooklyn: Decatur Street - Patchen Avenue",
     "text": "Decatur Street, north side, between Patchen and Ralph Avenues, showing the St. Marks Congregational Church.\n\nP. L. Sperr\nOctober 24, 1940\n",

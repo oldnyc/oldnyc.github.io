@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 57,
+        "street": "East 75th Street"
+      },
+      "source": "57 East 75th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558324",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558324.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brownstone residences"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6d8bdf0-c5ec-012f-318d-58d385a7bc34",
     "text": null,
     "text_source": null,

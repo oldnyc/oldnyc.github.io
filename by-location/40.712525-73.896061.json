@@ -2,9 +2,35 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "65th Street",
+        "str2": "Metropolitan Avenue"
+      },
+      "source": "Queens: Metropolitan Avenue - 65th Street",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "727419f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727419f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Lutheran Cemetery (Queens, New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32ce2a70-c559-012f-fec0-58d385a7bc34",
     "original_title": "Queens: Metropolitan Avenue - 65th Street",
     "text": "Metropolitan Avenue between 65th Street and Mt. Olivet Crescent, showing on the south side of Metropolitan Avenue, a peaked roof house known as the W. Powell house of 1860, H. Homeyer owned it from 1873 to 1891; Christ Homeyer was the owner in 1909. This place was demolished in 1923. In the foreground of view No. 1 is a partial sight of the Lutheran Cemetery. The brick two story is 6522 Metropolitan Avenue. View No. 2 shows a rear view of the homes mentioned in view one. In addition on the north side of the above mentioned Avenue is seen from left to right the Burroughs and Marshal homes.\n\nMarch 1923.\nViews 1 and 2\n\nEugene L. Armbruster Collection\n",
@@ -19,9 +45,35 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "65th Street",
+        "str2": "Metropolitan Avenue"
+      },
+      "source": "Queens: Metropolitan Avenue - 65th Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "727419f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727419f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Lutheran Cemetery (Queens, New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32ce2a70-c559-012f-fec0-58d385a7bc34",
     "original_title": "Queens: Metropolitan Avenue - 65th Street",
     "text": "Metropolitan Avenue between 65th Street and Mt. Olivet Crescent, showing on the south side of Metropolitan Avenue, a peaked roof house known as the W. Powell house of 1860, H. Homeyer owned it from 1873 to 1891; Christ Homeyer was the owner in 1909. This place was demolished in 1923. In the foreground of view No. 1 is a partial sight of the Lutheran Cemetery. The brick two story is 6522 Metropolitan Avenue. View No. 2 shows a rear view of the homes mentioned in view one. In addition on the north side of the above mentioned Avenue is seen from left to right the Burroughs and Marshal homes.\n\nMarch 1923.\nViews 1 and 2\n\nEugene L. Armbruster Collection\n",
@@ -36,9 +88,49 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "65th Street",
+        "str2": "Metropolitan Avenue"
+      },
+      "source": "65th Street and Metropolitan Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "65th Street",
+        "str2": "Manhattan Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "65th Street",
+        "str2": "Manhattan Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 471,
     "id": "727418f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727418f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Lutheran Cemetery (Queens, New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/326a9980-c559-012f-4784-58d385a7bc34",
     "original_title": "Queens: Manhattan Avenue - 65th Street",
     "text": "Metropolitan Avenue, north side, east from 65th Street to Mt. Olivet Crescent, showing in the background a section of Lutheran Cemetery. In the foreground at the left are the steps leading to the Major house (brick) which is located at the N.W. corner of the above mentioned Streets. Beyond it is a two story house. The peaked section was once a one story peaked roof house of Chas. Way. The roof was removed and a story added about 50 years ago (1874), by Conrad Arzberger who also erected the flat two story extension. The next house is on the site of the old Ehrman house. About 1890 his son Charles built the present structure. The next two houses belonged to Judge Robert Burroughs (also Supervisor) who married a Way. In the first of the last two homes lived the judge. The other house he sold to one Deloughy a florist. His estate still owns it.\n\nFeb. 1924.\n\nEugene L. Armbruster Collection\n",

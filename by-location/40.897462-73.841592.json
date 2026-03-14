@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hill Avenue",
+        "str2": "Pitman Avenue"
+      },
+      "source": "Bronx: Hill Avenue - Pitman Avenue",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "701257f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701257f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/673f14a0-c530-012f-877b-58d385a7bc34",
     "original_title": "Bronx: Hill Avenue - Pitman Avenue",
     "text": "Hill Ave., east side, between Pitman and Bussing Aves. (Block 5030, lot 35).\n\nAbout 1927.\n\nW. B. Vernam.\n",

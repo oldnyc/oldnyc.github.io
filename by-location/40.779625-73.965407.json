@@ -2,9 +2,34 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779612,
+        "lng": -73.965414
+      },
+      "source": "Cleopatra's Needle",
+      "technique": "subjects"
+    },
     "height": 483,
     "id": "718303f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718303f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36af34e0-c55d-012f-e80f-58d385a7bc34",
     "text": "Central Park: The Obelisk, located in the easterly portion, near the Metropolitan Museum of Art.\n\nCirca 1890\n\nMildenburg, photo\nP. L. Sperr Collection\n\n315G\nLOCAL HISTORY\nAND GENEALOGY\n",
     "text_source": "gpt",
@@ -18,9 +43,38 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779612,
+        "lng": -73.965414
+      },
+      "source": "Cleopatra's Needle",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "733220f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733220f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Obelisk - Cleopatra's Needle."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks",
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e709ef0-c562-012f-992f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +88,38 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779612,
+        "lng": -73.965414
+      },
+      "source": "Cleopatra's Needle",
+      "technique": "subjects"
+    },
     "height": 409,
     "id": "733220f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733220f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Obelisk - Cleopatra's Needle."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks",
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e709ef0-c562-012f-992f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +133,38 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779612,
+        "lng": -73.965414
+      },
+      "source": "Cleopatra's Needle",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "733220f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733220f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Obelisk - Cleopatra's Needle."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks",
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e709ef0-c562-012f-992f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -69,9 +181,39 @@
     "dates_from_text": [
       "1945-01-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779638,
+        "lng": -73.9654
+      },
+      "source": "Central Park - The Obelisk",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Obelisk Cleopatra's Needle",
+        "technique": "title-cross"
+      }
+    ],
     "height": 478,
     "id": "718302f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718302f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Cleopatra's Needle",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33ea6bc0-c54b-012f-0305-58d385a7bc34",
     "text": "P.L. Sperr collection\nRec'd Jan. 13, 1945\n",
     "text_source": "gpt",
@@ -85,9 +227,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779612,
+        "lng": -73.965414
+      },
+      "source": "Cleopatra's Needle",
+      "technique": "subjects"
+    },
     "height": 389,
     "id": "718299f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718299f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35ae7630-c55d-012f-acfe-58d385a7bc34",
     "text": "Central Park. Arrival of Cleopatra's Needle.\nNo record of photography\nno date\n",
     "text_source": "gpt",
@@ -101,9 +268,43 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779638,
+        "lng": -73.9654
+      },
+      "source": "Central Park - Transportation of the Obelisk",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Transportation of the Obelisk Cleopatra's Needle",
+        "technique": "title-cross"
+      }
+    ],
     "height": 450,
     "id": "718300f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718300f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3375fbd0-c54b-012f-755f-58d385a7bc34",
     "text": "Central Park Obelisk .\nNo Record of Photography\nno date\nmount 2\n",
     "text_source": "gpt",
@@ -117,9 +318,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779612,
+        "lng": -73.965414
+      },
+      "source": "Cleopatra's Needle",
+      "technique": "subjects"
+    },
     "height": 388,
     "id": "718301f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718301f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/362b1950-c55d-012f-d3b8-58d385a7bc34",
     "text": "Central Park where the Obelisk is erected is one of the most beautiful and most famous of the urban parks in the world. It covers the territory between Fifth and Eighth Avenues, and 59th and 110th Streets a track over 2 1/2 miles long, by half a mile wide, including an area of 840 acres. The Obelisk or Cleopatra's Needle is placed to the east of the Reservoir and Metropolitan Museum of Art.\n\nNo Record of Photography\n\n315G\nLOCAL HISTORY\nAND GENEALOGY\n",
     "text_source": "gpt",
@@ -133,9 +359,43 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779638,
+        "lng": -73.9654
+      },
+      "source": "Central Park - The Obelisk",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Obelisk Cleopatra's Needle",
+        "technique": "title-cross"
+      }
+    ],
     "height": 389,
     "id": "718304f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718304f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Cleopatra's Needle",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34510350-c54b-012f-6cf2-58d385a7bc34",
     "text": "Central Park.  Obelisk or Cleopatra's Needle.\n\nDetroit Photo Company         no date\nCopyright\n",
     "text_source": "site",
@@ -149,9 +409,43 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.779638,
+        "lng": -73.9654
+      },
+      "source": "Central Park - Transportation of the Obelisk",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Transportation of the Obelisk Cleopatra's Needle",
+        "technique": "title-cross"
+      }
+    ],
     "height": 388,
     "id": "718306f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718306f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Central Railroad and Hudson River, showing the arrival of the Obelisk."
+      ],
+      "subjects": {
+        "geographic": [
+          "Cleopatra's Needle",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Monuments",
+          "Obelisks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34cf6750-c54b-012f-04b1-58d385a7bc34",
     "text": "Central Park:\n\nNew York Central Railroad and Hudson River, showing the arrival of the Obelisk.\n\nNo Record of Photography\n",
     "text_source": "gpt",

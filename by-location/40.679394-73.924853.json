@@ -2,9 +2,46 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1827,
+        "street": "Fulton Street"
+      },
+      "source": "1827 Fulton Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Fulton Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "704569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704569f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6b32e360-c535-012f-9113-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Debevoise Avenue",
     "text": "Fulton St., no.1827, & eastward, B'klyn.\nMay 12, 1942\nP.L. Sperr, photographer\n",

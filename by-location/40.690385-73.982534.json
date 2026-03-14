@@ -2,9 +2,49 @@
   {
     "date": "1932; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 9,
+        "street": "Dekalb Avenue"
+      },
+      "source": "9 Dekalb Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Fulton Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "703959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703959f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Albee Square (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/767100a0-c534-012f-5c2c-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Fulton Street",
     "text": "9 Dekalb Avenue, at the N. E. corner of Albee Square, showing, under construction, the Dime Savings Bank of Brooklyn. The William Kennedy Construction Company are the builders.\n\nApril 7, 1932\n\nP. L. Sperr\n\n(2)\n\nThe bank, when completed. The colonnade is in the Ionic order of classical Greek architecture.\n\nApril 27, 1940\n\nP. L. Sperr\n",
@@ -20,9 +60,49 @@
   {
     "date": "1932; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 9,
+        "street": "Dekalb Avenue"
+      },
+      "source": "9 Dekalb Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Fulton Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "703959f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703959f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Albee Square (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/767100a0-c534-012f-5c2c-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Fulton Street",
     "text": "9 Dekalb Avenue, at the N. E. corner of Albee Square, showing, under construction, the Dime Savings Bank of Brooklyn. The William Kennedy Construction Company are the builders.\n\nApril 7, 1932\n\nP. L. Sperr\n\n(2)\n\nThe bank, when completed. The colonnade is in the Ionic order of classical Greek architecture.\n\nApril 27, 1940\n\nP. L. Sperr\n",

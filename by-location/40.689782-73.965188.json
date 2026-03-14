@@ -2,9 +2,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Hall Street"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Hall Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "704001f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704001f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86d282f0-c534-012f-f335-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Hall Street",
     "text": "P.L. Sperr, photographer  6-19-1942",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 16,
+        "street": "Tiemann Place"
+      },
+      "source": "16 Tiemann Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Tiemann Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Tiemann Place",
+        "str2": "West 125th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 384,
     "id": "723521f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723521f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76122de0-c553-012f-9193-58d385a7bc34",
     "original_title": "Manhattan: Tiemann Place - 125th Street (West)",
     "text": "16-18 Tieman Place, south, between West 125th Street and Broadway.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York\n",

@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "114th Avenue",
+        "str2": "Farmers Boulevard"
+      },
+      "source": "Queens: Farmers Boulevard - 114th Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "726547f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726547f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dcbf39e0-c557-012f-54d1-58d385a7bc34",
     "original_title": "Queens: Farmers Boulevard - 114th Avenue",
     "text": "Farmers Boulevard, at the S.E. corner of One Hundred Fourteenth Ave., showing another Charles De Bevoise house.\n\nSeptember 1923.\n\nEugene L. Armbruster Collection.\n",

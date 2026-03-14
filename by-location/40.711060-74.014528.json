@@ -2,9 +2,64 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Liberty Street and West Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cortlandt Street",
+        "str2": "West Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cortlandt Street",
+        "str2": "West Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 389,
     "id": "724579f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724579f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Central Railroad of New Jersey"
+        ],
+        "topic": [
+          "Boats",
+          "Business enterprises",
+          "Carts & wagons",
+          "Cliffs",
+          "Fruit",
+          "Horse teams",
+          "Markets",
+          "Piers & wharves",
+          "Railroad companies",
+          "Railroad stations",
+          "Ships",
+          "Steamboats",
+          "Vegetables",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25371c40-c555-012f-3098-58d385a7bc34",
     "original_title": "Manhattan: West Street - Cortlandt Street",
     "text": "West Street, north from Cortlandt Street, as photographed, from the Central R. R. of New Jersey Building at Liberty and West Streets. North (Hudson) River Pier 13 is at the foot of Dey Street. The quadrangular structure on the right is Washington Market occupying the Fulton to Vesey Street block. Across the background is the New Jersey shore and its Jersey City community and its famous Palisades.\n\nEwing Galloway\n\nAbout 1900\n",
@@ -19,9 +74,36 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "724569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724569f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Contractors",
+          "Freight terminals",
+          "Horse teams",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21300060-c555-012f-0483-58d385a7bc34",
     "original_title": "Manhattan: West Street - Liberty Street",
     "text": "West Street, showing freight docks and stations from the foot of Liberty to Cedar Streets.\n\nStandard Photographic Co.  June 14, 1924\n",
@@ -36,9 +118,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724567f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/206470f0-c555-012f-e29a-58d385a7bc34",
     "original_title": "Manhattan: West Street - Liberty Street",
     "text": "107 West Street, adjoining the N.E. corner of Liberty Street, showing only store front.\nSeptember 5, 1930.\n\nP. L. Sperr.\n",
@@ -53,9 +157,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Liberty Street - West Street.",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "733423f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733423f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Central Railroad of New Jersey ; Ferry to New Jersey.",
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: Liberty Street - West Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9df975d0-c562-012f-b844-58d385a7bc34",
     "text": "Ferry: West Street, foot of Liberty Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-ld\nAug. 12, 1936\n\np. 58, Changing New York\n",
     "text_source": "gpt",
@@ -69,9 +195,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Liberty Street - West Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733424f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Central Railroad of New Jersey ; Ferry to New Jersey.",
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: Liberty Street - West Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e5e2980-c562-012f-eb52-58d385a7bc34",
     "text": "Ferry: West Street, foot of Liberty Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-1d\nAug. 12, 1936\n\np 58, Changing New York\n",
     "text_source": "gpt",
@@ -85,9 +233,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Liberty Street - West Street.",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "733425f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733425f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Central Railroad of New Jersey ; Ferry to New Jersey.",
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: Liberty Street - West Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ec9ee70-c562-012f-727a-58d385a7bc34",
     "text": "Ferry; Central Railroad of New Jersey\nFoot of Liberty Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-1d, I A-3\nMarch 23, 1938\n",
     "text_source": "gpt",
@@ -101,9 +271,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724568f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724568f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/20bba5c0-c555-012f-7e43-58d385a7bc34",
     "original_title": "Manhattan: West Street - Liberty Street",
     "text": "107 West Street, at the N. E. corner of Liberty Street, showing the Fred. W. Jensen watch store and museum.\n\n1939\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",

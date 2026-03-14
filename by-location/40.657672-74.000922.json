@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "30th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 30th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702332f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702332f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fcdf61c0-c531-012f-7268-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 30th Street",
     "text": "4th Avenue, east side, south from 30th to 31st Streets, showing two gasoline stations occupying the block.\n\nJuly 21, 1940\n\nP. L. Sperr\n",

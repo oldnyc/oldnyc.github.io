@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 28th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711882f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711882f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e672300-c541-012f-1963-58d385a7bc34",
     "original_title": "Manhattan: 28th Street (East) - Madison Avenue",
     "text": "20-16 East 28th Street, adjoining the S.W. corner of Madison Avenue. These buildings will soon be replaced by a thirteen-story building.\n1911.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1920-08-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 28th Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 393,
     "id": "711883f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711883f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ebdfc90-c541-012f-baaa-58d385a7bc34",
     "original_title": "Manhattan: 28th Street - Madison Avenue",
     "text": "28th St., Madison to 5 Ave.\nAug. 2, 1920\n",

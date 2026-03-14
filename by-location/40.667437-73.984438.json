@@ -2,9 +2,28 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "10th Street",
+        "str2": "Sixth Ave"
+      },
+      "source": "10th Street and Sixth Ave",
+      "technique": "gpt"
+    },
     "height": 466,
     "id": "720269f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720269f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Washington Square (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e90fcf50-c539-012f-936c-58d385a7bc34",
     "text": "An aerial view of Washington Square and its environs. This view includes an area east from Sixth Ave. (foreground) to Ave. B (far side of Tompkins Square; left background) and south from 10th (left) to Houston Streets (right diagonal).\n\nSeptember 7, 1931.\n\nFairchild Aerial Surveys, Inc.\n\nNeg. # 2374, Slide # 139\n",
     "text_source": "gpt",
@@ -18,9 +37,30 @@
   {
     "date": "1941-09-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "10th Street",
+        "str2": "Sixth Avenue"
+      },
+      "source": "10th Street and Sixth Avenue",
+      "technique": "gpt"
+    },
     "height": 392,
     "id": "1509705-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509705-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c00886f0-c5cd-012f-0a7c-58d385a7bc34",
     "text": null,
     "text_source": null,

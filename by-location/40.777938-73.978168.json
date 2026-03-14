@@ -2,9 +2,34 @@
   {
     "date": "1885",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "73rd Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 73rd Street - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 506,
     "id": "714412f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714412f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 73rd Street - 217th Street. [Dakota]"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3336f500-c545-012f-7034-58d385a7bc34",
     "original_title": "Manhattan: 73rd Street - Columbus Avenue",
     "text": "Looking west from Top of Dakota Along 73rd Street. Columbus \"L\" Station. At 72nd Street.\n\nCirca 1885?\n\n600/C4\n",
@@ -19,9 +44,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 46,
+        "street": "West 73d Street. Between Central Park West and Columbus Avenue"
+      },
+      "source": "46 West 73d Street. Between Central Park West and Columbus Avenue",
+      "technique": "title-address"
+    },
     "height": 530,
     "id": "417341",
     "image_url": "https://images.nypl.org/?id=417341&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dfa9b700-c611-012f-7b7a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +82,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 46,
+        "street": "West 73d Street"
+      },
+      "source": "46 West 73d Street",
+      "technique": "gpt"
+    },
     "height": 536,
     "id": "417342",
     "image_url": "https://images.nypl.org/?id=417342&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e018efc0-c611-012f-047c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +123,27 @@
     "dates_from_text": [
       "1941-04-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "73rd Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 73rd Street - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "714414f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714414f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34059d50-c545-012f-c18f-58d385a7bc34",
     "original_title": "Manhattan: 73rd Street - Columbus Avenue",
     "text": "73rd Street, northwest corner of Columbus Avenue.\n\nP. L. Sperr\nApril 20, 1941\n",

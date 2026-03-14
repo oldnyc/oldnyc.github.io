@@ -2,9 +2,36 @@
   {
     "date": "1951",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 72,
+        "street": "East 79th Street"
+      },
+      "source": "72 East 79th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558330",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558330.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Miss Hewlett's School for Girls"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f92c80e0-c5ec-012f-9cbf-58d385a7bc34",
     "text": null,
     "text_source": null,

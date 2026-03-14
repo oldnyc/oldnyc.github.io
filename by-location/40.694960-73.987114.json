@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-07-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jay Street",
+        "str2": "Johnson Street"
+      },
+      "source": "Brooklyn: Johnson Street - Jay Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "705137f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705137f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/515e5d70-c536-012f-be9e-58d385a7bc34",
     "original_title": "Brooklyn: Johnson Street - Jay Street",
     "text": "85-103 Johnson Street, north side, from Jay to Lawrence Streets.\n\nJuly 5, 1931.\n\nP. L. Sperr.\n",

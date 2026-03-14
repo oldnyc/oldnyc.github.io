@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 72nd Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714398f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714398f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2dcd1fa0-c545-012f-ed97-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street (West) - West End Avenue",
     "text": "253-249 West 72nd Street, north side, east of West End Avenue.\nAbout 1911.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 72nd Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714399f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714399f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e3d1b10-c545-012f-85de-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street (West) - West End Avenue",
     "text": "269 West 72nd Street, adjoining the N.E.corner of West End Avenue.\nAbout 1920.\n",
@@ -39,9 +81,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: West End Avenue - 72nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "724441f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724441f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0b6d520-c554-012f-eb51-58d385a7bc34",
     "original_title": "Manhattan: West End Avenue - 72nd Street (West)",
     "text": "West End Avenue at 72nd Street, looking across at the S.E. corner from the excavation on the N.W. corner, where the new Hudson Towers apartment building is to be erected. It replaces the original buildings on the site, which were erected about 1890.\nThe old residences across the avenue on the S.E. corner are about to be demolished to make room for a fifteen story apartment building. The building to the right of the picture, adjoining the excavation, is 303 West 72nd Street, erected between 1910 and 1916. Early 1924.\n\nGift of E. M. Jenks.\n",
@@ -56,9 +119,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 72nd Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714397f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714397f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d78ad50-c545-012f-3342-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street (West) - West End Avenue",
     "text": "249-271 West 72nd Street, east of, adjoining, and at the N. E. corner of West End Avenue.\n\nThe large apartment house in the centre of the picture is 253-263 West 72nd Street.\nAbout 1927.\n\nJoseph Smith.\n",

@@ -2,9 +2,45 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1586,
+        "street": "Madison Avenue"
+      },
+      "source": "1586 Madison Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Madison Avenue",
+        "str2": "Tompkins Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Madison Avenue",
+        "str2": "Tompkins Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 386,
     "id": "721461f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721461f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/235342b0-c550-012f-192a-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - Tompkins Avenue",
     "text": "M\nClearing at 1586-1590 Madison Ave.\n6-15-42\nP.L. Sperr\n",
@@ -19,9 +55,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 106th Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714986f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714986f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1229a250-c546-012f-6aaf-58d385a7bc34",
     "original_title": "Manhattan: 106th Street - Madison Avenue",
     "text": "106 St. adjoin. n.e. cor. Madison Ave.\n6-15-42\nNeg. No.\nA_543\nP.L. Sperr\n",

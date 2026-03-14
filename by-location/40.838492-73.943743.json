@@ -2,9 +2,48 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "163rd Street and Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Washington Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730764f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730764f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 163rd Street (West) - Washington Avenue ; N. Y. Central Tracks."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7153c160-c55e-012f-4934-58d385a7bc34",
     "text": "Up N. Y. Central Tracks, from West 163rd Street, showing the Manhattan side of the George Washington Bridge.\n\nSeptember 24, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +57,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street (West) - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715718f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715718f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2832f0b0-c547-012f-3bb1-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street (West) - Fort Washington Avenue",
     "text": "West 163rd Street, north side, west from Fort Washington Ave., showing the southern extremity of the grounds of the New York Institution for the Deaf. This set consists of 3 views, No. 3 of which is in the opposite direction, being eastward from Riverside Drive.\n\nJune 15, 1937.\n\nP. L. Sperr.\n",
@@ -35,9 +98,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street (West) - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "715718f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/715718f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2832f0b0-c547-012f-3bb1-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street (West) - Fort Washington Avenue",
     "rotation": 90,
@@ -53,9 +140,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street (West) - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715718f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/715718f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2832f0b0-c547-012f-3bb1-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street (West) - Fort Washington Avenue",
     "rotation": 90,
@@ -71,9 +182,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 163rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "719814f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719814f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97a94450-c54d-012f-2bfd-58d385a7bc34",
     "text": "Fort Washington Ave., north from West 163rd Street, and showing upon the west side of same, the New York Institution for the Deaf extending to 165th Street. Note the tower of the George Washington Bridge through the trees. This set consists of 3 views, Nos. 2 and 3 being from a view point slightly northward to show prominently the Vocational School at the S.W. corner of 165th Street.\n\nJune 15, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -87,9 +224,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 163rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "719814f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719814f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97a94450-c54d-012f-2bfd-58d385a7bc34",
     "text": "Fort Washington Ave., north from West 163rd Street, and showing upon the west side of same, the New York Institution for the Deaf extending to 165th Street. Note the tower of the George Washington Bridge through the trees. This set consists of 3 views, Nos. 2 and 3 being from a view point slightly northward to show prominently the Vocational School at the S.W. corner of 165th Street.\n\nJune 15, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -103,9 +266,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 163rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "719814f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719814f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97a94450-c54d-012f-2bfd-58d385a7bc34",
     "text": "Fort Washington Ave., north from West 163rd Street, and showing upon the west side of same, the New York Institution for the Deaf extending to 165th Street. Note the tower of the George Washington Bridge through the trees. This set consists of 3 views, Nos. 2 and 3 being from a view point slightly northward to show prominently the Vocational School at the S.W. corner of 165th Street.\n\nJune 15, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -119,9 +308,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street (West)",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 163rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 202,
     "id": "719815f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719815f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98304ba0-c54d-012f-0aeb-58d385a7bc34",
     "text": "Fort Washington Ave., west side, from West 163rd (left) to 165th (right) Streets, showing the buildings and grounds of the New York Institution for the Deaf extending westward to Riverside Drive. These 2 views form a panorama.\n\nJune 15, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -135,9 +348,40 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "163rd Street and Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "163rd Street (East)",
+        "str2": "Washington Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "715711f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715711f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Cobblestone streets",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25b634f0-c547-012f-559b-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street (East) - Washington Avenue",
     "text": "507 E. 163rd Street, north side, between Washington and Third Avenues, showing an old framed house with outside stairway, hemmed in between two garages.\n\nP. L. Sperr\nApril 30, 1941\n",
@@ -152,9 +396,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street - Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715712f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715712f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2600aca0-c547-012f-d60a-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street - Washington Avenue",
     "text": "E. 163rd Street, west from Washington to Brook Avenues. The north side of the street is occupied by a gasoline station and two frame dwellings. The south side of the street is the base of a triangular public square.\n\nP. L. Sperr\n\nApril 30, 1941\n",
@@ -169,9 +434,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "715717f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715717f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27c4dff0-c547-012f-58a3-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street - Fort Washington Avenue",
     "text": "(1)\n163rd Street, northwest corner and Fort Washington Avenue. Site of the old School for the Deaf, showing a portion of Fort Washington Bridge, to the north.\n\n(2) and (3)\nForth Washington Avenue, north of old school for the deaf at left and a Glimpse of Washington Bridge in foreground.\n\nP.L.Speer.\nApril 27, 1941.\n",
@@ -186,9 +476,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "715717f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715717f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27c4dff0-c547-012f-58a3-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street - Fort Washington Avenue",
     "text": "(1)\n163rd Street, northwest corner and Fort Washington Avenue. Site of the old School for the Deaf, showing a portion of Fort Washington Bridge, to the north.\n\n(2) and (3)\nForth Washington Avenue, north of old school for the deaf at left and a Glimpse of Washington Bridge in foreground.\n\nP.L.Speer.\nApril 27, 1941.\n",
@@ -203,9 +518,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "163rd Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 163rd Street - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 414,
     "id": "715717f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715717f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Special education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27c4dff0-c547-012f-58a3-58d385a7bc34",
     "original_title": "Manhattan: 163rd Street - Fort Washington Avenue",
     "text": "(1)\n163rd Street, northwest corner and Fort Washington Avenue. Site of the old School for the Deaf, showing a portion of Fort Washington Bridge, to the north.\n\n(2) and (3)\nForth Washington Avenue, north of old school for the deaf at left and a Glimpse of Washington Bridge in foreground.\n\nP.L.Speer.\nApril 27, 1941.\n",

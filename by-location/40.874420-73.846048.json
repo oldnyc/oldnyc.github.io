@@ -2,9 +2,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Corsa Avenue",
+        "str2": "Givan Avenue"
+      },
+      "source": "Bronx: Corsa Avenue - Givan Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700803f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700803f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4e62da0-c52f-012f-010d-58d385a7bc34",
     "original_title": "Bronx: Corsa Avenue - Givan Avenue",
     "text": "Corsa Ave., north from Givan Ave., to and including Boston Road. On the left appear the rears of houses facing on the east side of Fenton Ave., and in the background is visible Public School No. 78 on the north side of Hicks Street.\n\nNovember 11, 1932.\n\nP. L. Sperr.\n",
@@ -22,9 +47,27 @@
     "dates_from_text": [
       "1932-11-11"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Corosa Avenue",
+        "str2": "Givan Avenue"
+      },
+      "source": "Bronx: Givan Avenue - Corosa Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "701115f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701115f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3050c760-c530-012f-b216-58d385a7bc34",
     "original_title": "Bronx: Givan Avenue - Corosa Avenue",
     "text": "Givan Ave. (from left fore to background), east from but not including Corsa Ave., as it crosses Eastchester Road.\n\nNovember 11, 1932.\n\nP. L. Sperr.\n",

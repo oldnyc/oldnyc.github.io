@@ -2,9 +2,32 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 239,
+        "street": "W 45th Street"
+      },
+      "source": "45th Street (West) #239",
+      "technique": "title-address"
+    },
     "height": 471,
     "id": "1507937-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507937-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Music Box Theatre"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e269c090-c5ce-012f-4d99-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +41,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 226,
+        "street": "W 46th Street"
+      },
+      "source": "46th Street (West) #226",
+      "technique": "title-address"
+    },
     "height": 388,
     "id": "1507943",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507943.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e371eff0-c5ce-012f-8b70-58d385a7bc34",
     "text": null,
     "text_source": null,

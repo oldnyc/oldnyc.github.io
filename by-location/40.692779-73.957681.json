@@ -2,9 +2,29 @@
   {
     "date": "1941-04-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Willoughby Avenue at Franklin Avenue, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "485876",
     "image_url": "https://images.nypl.org/?id=485876&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84cba590-c60e-012f-1a1e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Franklin Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "704434f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704434f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34932fa0-c535-012f-dfff-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Willoughby Avenue",
     "text": "Brooklyn\ne. side Franklin Ave. n. of Willoughby Ave.\n7-8-42\nP.L. Sperr\n",
@@ -35,9 +76,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Franklin Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "704435f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704435f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34f0e8d0-c535-012f-4ffc-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Willoughby Avenue",
     "text": "Brooklyn\nn.e. cor. Franklin & Willoughby Aves.\n7-8-42\nP.L. Sperr\n",

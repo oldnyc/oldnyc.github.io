@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "South Avenue",
+        "str2": "Travis Avenue"
+      },
+      "source": "Richmond: Travis Avenue - South Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "729779f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729779f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d837b4a0-c55c-012f-4425-58d385a7bc34",
     "original_title": "Richmond: Travis Avenue - South Avenue",
     "text": "Travis Avenue, north side, about 500 feet east of South Avenue. James Butler's map of 1853 and Beers's map of 1874 show the house to have been owned by W. F. Carey. From 1898 on it belonged to William T. Meredith.\n\nNovember 1, 1922\nBy William T. Davis through P. L. Sperr\n",

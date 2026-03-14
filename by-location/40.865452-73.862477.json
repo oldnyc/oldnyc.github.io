@@ -2,9 +2,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Allerton Avenue",
+        "str2": "Boston Road"
+      },
+      "source": "Bronx: Boston Road - Allerton Avenue",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "700548f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700548f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ae3e4b0-c52f-012f-2faa-58d385a7bc34",
     "original_title": "Bronx: Boston Road - Allerton Avenue",
     "text": "Boston Road, north from Allerton Ave. On the east side of the thoroughfare is the extensive Lorillard Spencer Estate.\n\n1917.\n",
@@ -19,9 +40,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "Matthews Avenue"
+      },
+      "source": "Bronx: Matthews Avenue - Boston Road",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701437f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/abe7c5f0-c530-012f-5537-58d385a7bc34",
     "original_title": "Bronx: Matthews Avenue - Boston Road",
     "text": "Matthews Avenue, at the S.E. corner of Boston Road.\n\nApril 3, 1938.\n\nP. L. Sperr.\n",

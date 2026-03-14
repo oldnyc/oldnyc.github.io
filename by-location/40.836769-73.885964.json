@@ -2,9 +2,31 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "174th Street (East)",
+        "str2": "Vyse Avenue"
+      },
+      "source": "Bronx: Vyse Avenue - 174th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "701998f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701998f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79f241e0-c531-012f-c61c-58d385a7bc34",
     "original_title": "Bronx: Vyse Avenue - 174th Street (East)",
     "text": "Vyse Ave., south from and including East 174th Street.\n1917.\n",

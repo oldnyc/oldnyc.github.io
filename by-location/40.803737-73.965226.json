@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 527,
+        "street": "Cathedral Parkway"
+      },
+      "source": "527 Cathedral Parkway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417677-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417677-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11d0ad50-c6cd-012f-7316-58d385a7bc34",
     "text": null,
     "text_source": null,

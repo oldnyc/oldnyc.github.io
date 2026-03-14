@@ -2,9 +2,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Barnes Avenue",
+        "str2": "Rhinelander Avenue"
+      },
+      "source": "Bronx: Rhinelander Avenue - Barnes Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Educational facilities",
+          "Horse teams",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/106c5e70-c531-012f-b7dc-58d385a7bc34",
     "original_title": "Bronx: Rhinelander Avenue - Barnes Avenue",
     "text": "Rhinelander Avenue, east from Barnes Avenue. In the center of the view, at Matthews Avenue, is a very old house, formerly on the B. Downing property. In the right background is Public school No. 83, at Bogart Avenue.\nJune 22, 1940\nP.L. Sperr\n",
@@ -19,9 +45,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Barnes Avenue",
+        "str2": "Rhinelander Avenue"
+      },
+      "source": "Bronx: Rhinelander Avenue - Barnes Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "701701f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701701f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10d595e0-c531-012f-d834-58d385a7bc34",
     "original_title": "Bronx: Rhinelander Avenue - Barnes Avenue",
     "text": "Rhinelander Avenue (left), south side, east from Barnes to Matthews Avenues. The corner house is number 1872 Barnes Avenue.\nJune 22, 1940\nP.L. Sperr\n",

@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 414,
     "id": "703648f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703648f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f78bbaa0-c533-012f-9b42-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Lafayette Avenue",
     "text": "341 Clinton Ave., east side, South of Lafayette Ave; showing the \"Pouch Gallery\". This building was erected by Robert Graves in 1888 for his home; William A. Mundell was the architect. Alfred J. Pouch, after purchasing it, remodeled it to be suitable for assemblies and public gatherings.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 337,
+        "street": "Clinton Avenue"
+      },
+      "source": "Clinton Avenue #337",
+      "technique": "title-address"
+    },
     "height": 428,
     "id": "1509535-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509535-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Pouch Mansion"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3454ad0-c5cd-012f-ca3c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +80,27 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 410,
     "id": "703645f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703645f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f64d1910-c533-012f-48dc-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Lafayette Avenue",
     "text": "333, 329, 323 Clinton Avenue, at, adjoining and north of the N.E. corner of Lafayette Avenue, showing three private mansions in the Fort Greene Park section of the borough. View 2 shows the corner house, 333.\n\nP. L. Sperr\nOctober 12, 1940\nviews 1,2\n",
@@ -52,9 +115,27 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "703645f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703645f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f64d1910-c533-012f-48dc-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Lafayette Avenue",
     "text": "333, 329, 323 Clinton Avenue, at, adjoining and north of the N.E. corner of Lafayette Avenue, showing three private mansions in the Fort Greene Park section of the borough. View 2 shows the corner house, 333.\n\nP. L. Sperr\nOctober 12, 1940\nviews 1,2\n",
@@ -69,9 +150,33 @@
   {
     "date": "1941-09-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Clinton Avenue and Lafayette Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1509641-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509641-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Catholic College of Immaculate Conception"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4907180-c5cd-012f-d0d3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -88,9 +193,27 @@
     "dates_from_text": [
       "1941-06-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Lafayette Avenue - Clinton Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "705353f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705353f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a970bf80-c536-012f-d464-58d385a7bc34",
     "original_title": "Brooklyn: Lafayette Avenue - Clinton Avenue",
     "text": "1. Lafayette & Clinton Aves., s.e. corner, Bklyn. Neg. A-114\nP.L. Sperr, photographer\nJune 21, 1941\n",
@@ -108,9 +231,27 @@
     "dates_from_text": [
       "1942-06-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703646f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703646f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6c0d9c0-c533-012f-acd7-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Lafayette Avenue",
     "text": "Clinton Ave., e.s., s. across Lafayette Ave., B'klyn.\nJune 19, 1942\nP. L. Sperr, photographer\n",
@@ -125,9 +266,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703647f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703647f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f737e7b0-c533-012f-373c-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Lafayette Avenue",
     "text": "P.L. Sperr, photographer  6-19-1942",
@@ -142,9 +304,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Lafayette Avenue - Clinton Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "705354f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705354f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Housing",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9ebaf40-c536-012f-096e-58d385a7bc34",
     "original_title": "Brooklyn: Lafayette Avenue - Clinton Avenue",
     "text": "P.L. Speer, photographer 6-19-1942",

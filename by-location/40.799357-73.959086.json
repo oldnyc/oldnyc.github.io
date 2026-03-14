@@ -2,9 +2,32 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 108th Street",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "718543f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718543f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/963f4f50-c54b-012f-547b-58d385a7bc34",
     "text": "Central Park West, 108th to 109th Streets.(Before Reconstruction).\nMarch 22, 1920\n",
     "text_source": "gpt",

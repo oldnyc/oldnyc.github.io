@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "New York Avenue (East)",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: New York Avenue (East) - Rockaway Parkway",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "704059f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704059f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9dfddbf0-c534-012f-e95c-58d385a7bc34",
     "original_title": "Brooklyn: New York Avenue (East) - Rockaway Parkway",
     "text": "1124 East New York Ave., at the S.E. corner of Rockaway Parkway.\n\nSeptember 1928.\n\nEugene L. Armbruster Collection.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1936-05-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "New York Avenue (East)",
+        "str2": "Rockaway Parkway"
+      },
+      "source": "Brooklyn: Rockaway Parkway - New York Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706514f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706514f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e0a5500-c538-012f-5a4e-58d385a7bc34",
     "original_title": "Brooklyn: Rockaway Parkway - New York Avenue (East)",
     "text": "Rockaway Parkway, east side, at and south of East New York Ave., showing at the left a frame house (No. 1124 East New York Ave)., beyond which is the IRT Elevated New Lots Line.\nMay 8, 1936.\nP. L. Sperr.\n",

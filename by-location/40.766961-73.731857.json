@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 5105,
+        "street": "Browvale Lane"
+      },
+      "source": "5105 Browvale Lane",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Marathon Boulevard",
+        "str2": "Nassau Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Marathon Boulevard",
+        "str2": "Nassau Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 490,
     "id": "727456f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727456f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41206890-c559-012f-cfa3-58d385a7bc34",
     "original_title": "Queens: Nassau Boulevard - Marathon Boulevard",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, N.Y. 11362\n\n#16-38  4/14/26\n\nNassau Blvd. W. at Marathon Blvd.\n",

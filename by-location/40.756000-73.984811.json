@@ -2,9 +2,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 108,
+        "street": "West 43rd Street"
+      },
+      "source": "108 West 43rd Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558226",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558226.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Diplomat"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d08d3a50-c5ec-012f-7268-58d385a7bc34",
     "text": null,
     "text_source": null,

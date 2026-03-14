@@ -2,9 +2,32 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 5th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716420f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716420f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beauty shops",
+          "Photographic studios",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3477be40-c548-012f-125d-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 5th Street (East)",
     "text": "Avenue B, east side, north from a point (No. 81) midway between E. 5th and 6th Streets and across the latter, showing the business activity of a prominent East Side thoroughfare.\n\nMarch 24, 1938.\n\nP. L. Sperr\n",

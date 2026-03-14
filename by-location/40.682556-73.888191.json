@@ -2,9 +2,30 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Avenue",
+        "str2": "Warwick Street"
+      },
+      "source": "Brooklyn: Jamaica Avenue - Warwick Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705086f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705086f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d230240-c536-012f-59ac-58d385a7bc34",
     "original_title": "Brooklyn: Jamaica Avenue - Warwick Street",
     "text": "Jamaica Avenue, north side, between Warwick and Cleveland Streets, showing the Isaac Cornell Schenck barns in what later became Highland Park. View 1 was taken from the rising ground inside of the farm.\n\nEugene L. Armbruster\n1895\nviews 1,2\n",
@@ -19,9 +40,30 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Avenue",
+        "str2": "Warwick Street"
+      },
+      "source": "Brooklyn: Jamaica Avenue - Warwick Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705086f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705086f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d230240-c536-012f-59ac-58d385a7bc34",
     "original_title": "Brooklyn: Jamaica Avenue - Warwick Street",
     "text": "Jamaica Avenue, north side, between Warwick and Cleveland Streets, showing the Isaac Cornell Schenck barns in what later became Highland Park. View 1 was taken from the rising ground inside of the farm.\n\nEugene L. Armbruster\n1895\nviews 1,2\n",
@@ -36,9 +78,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Ave",
+        "str2": "Warwick Street"
+      },
+      "source": "Jamaica Ave and Warwick Street",
+      "technique": "gpt"
+    },
     "height": 376,
     "id": "704961f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704961f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Highland Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ab8f770-c536-012f-388b-58d385a7bc34",
     "text": "Highland Park: a general view south, showing Jamaica Ave., south side, between Warwick and Linwood Streets. On the north side of the Ave., from the extreme left to the extreme right, are the Stoothoff and Schenck homes\n\nAbout 1920.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

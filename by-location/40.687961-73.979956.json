@@ -2,9 +2,41 @@
   {
     "date": "1936-09-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 19,
+        "street": "Flatbush Avenue"
+      },
+      "source": "19 Flatbush Avenue",
+      "technique": "gpt"
+    },
     "height": 486,
     "id": "1557776",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557776.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Corn Exchange Bank Trust Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Flatbush (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Corn Exchange Bank Trust Company"
+        ],
+        "topic": [
+          "Banks and banking",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67fb0dc0-c5ec-012f-104f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +50,38 @@
   {
     "date": "1936-09-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 33,
+        "street": "Flatbush Avenue"
+      },
+      "source": "33 Flatbush Avenue",
+      "technique": "gpt"
+    },
     "height": 486,
     "id": "1557777",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557777.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn Radio Stores"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Flatbush Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Appliance stores",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/685f9da0-c5ec-012f-0b27-58d385a7bc34",
     "text": null,
     "text_source": null,

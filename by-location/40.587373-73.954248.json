@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "15th Street (East)",
+        "str2": "Sheepshead Bay Road"
+      },
+      "source": "Brooklyn: Sheepshead Bay Road - 15th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "706710f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706710f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b83793f0-c538-012f-b7de-58d385a7bc34",
     "original_title": "Brooklyn: Sheepshead Bay Road - 15th Street (East)",
     "text": "Sheepshead Bay Road, at the N.W. corner of East 15th Street, showing the Adelphi Hotel owned by Casper Schmuessler in 1891.\n\nMarch 1923.\n\nEugene L. Armbruster Collection.\n",

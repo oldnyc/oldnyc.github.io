@@ -2,9 +2,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "263rd Street",
+        "str2": "Riverdale Avenue"
+      },
+      "source": "Bronx: 263rd Street - Riverdale Avenue",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "700391f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700391f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "College of Mount Saint Vincent (Riverdale, New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32b8bdc0-c52f-012f-b3cf-58d385a7bc34",
     "original_title": "Bronx: 263rd Street - Riverdale Avenue",
     "text": "FONTHILL CASTLE  Mount St. Vincent-on-Hudson, Riverdale, Bronx. Built for Edwin Forrest, the tragedian, by Thomas L. Smith in 1849, this house has both Norman and Gothic elements. Inspired by Fonthill Abbey in England, loopholes and buttresses give the structure the appearance of a fortified castle. The highest of its grey granite octagonal towers rises to 70 feet. It now serves as the library of the College of Mount St. Vincent.\n\nBank of New York Calendar 1967-68\n",

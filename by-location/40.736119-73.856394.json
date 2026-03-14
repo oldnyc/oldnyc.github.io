@@ -2,9 +2,26 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "102nd Street",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "102nd Street and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
     "height": 466,
     "id": "730485f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730485f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/110f1e30-c55e-012f-d910-58d385a7bc34",
     "text": "A general view eastward from a point south of Horace Harding Boulevard at 102nd Street. This view is taken from A.V.S. Lott's house in 1909. In the foreground is Mill Creek. In the background are seen two white mansions, one of which is the Cadwaller Colden house and is located in the Cedar Grove Cemetery.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

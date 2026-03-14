@@ -2,9 +2,33 @@
   {
     "date": "1935; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave",
+        "str2": "E. 77th St."
+      },
+      "source": "1st Ave and E. 77th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984640",
     "image_url": "https://images.nypl.org/?id=3984640&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/60d72d50-c5d7-012f-c0b9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -19,9 +43,27 @@
   {
     "date": "1935-09-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "First Avenue",
+        "str2": "east 77th St."
+      },
+      "source": "Manhattan: First Avenue - east 77th St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707662f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707662f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd10d9f0-c53a-012f-1151-58d385a7bc34",
     "text": "First Ave., west side, north from East 77th Street.\nSeptember 25, 1935.\n\nP. L. Sperr,\n",
     "text_source": "gpt",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-09-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "2nd Street (South)",
+        "str2": "Driggs Avenue"
+      },
+      "source": "Brooklyn: 2nd Street (South) - Driggs Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702229f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702229f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d53dfa40-c531-012f-fd30-58d385a7bc34",
     "original_title": "Brooklyn: 2nd Street (South) - Driggs Avenue",
     "text": "167-169 So. 2nd Street, north side, near Driggs Avenue, showing the home of Jacob Wasser.\n\nSeptember 22, 1924.\n\nW.B. Vernon\n",
@@ -22,9 +40,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "2nd Street (South)",
+        "str2": "Driggs Avenue"
+      },
+      "source": "Brooklyn: 2nd Street (South) - Driggs Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702230f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702230f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d591fae0-c531-012f-c1bf-58d385a7bc34",
     "original_title": "Brooklyn: 2nd Street (South) - Driggs Avenue",
     "text": "193-199 South 2nd Street, between Driggs and Bedford Avenue. August 9, 1935. P.L. Sperr.\n\n(Note: The cross streets listed on the back of the photo are incorrect. This address is between Driggs and Roebling. The building at center exists as of May 2015 and serves as the Christian Pentecostal Church of God.)\n",

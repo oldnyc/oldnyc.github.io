@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1933-07-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Street (East)",
+        "str2": "Avenue Y"
+      },
+      "source": "Brooklyn: 18th Street (East) - Avenue Y",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702623f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702623f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a223960-c532-012f-de19-58d385a7bc34",
     "original_title": "Brooklyn: 18th Street (East) - Avenue Y",
     "text": "East 18th Street, west side, between Aves. Y and Z. A view of a frame house fronting, what was once a division of the Long Island R.R.\n\nJuly 9, 1933.\n\nP. L. Sperr.\n",

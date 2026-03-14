@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ave. U",
+        "str2": "West St."
+      },
+      "source": "Brooklyn: Ave. U - West St.",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "707100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4db96560-c539-012f-f9ef-58d385a7bc34",
     "original_title": "Brooklyn: Ave. U - West St.",
     "text": "Avenue U, west from West Street, showing the B. M. T. Culver Line Elevated on McDonald Avenue, formerly Gravesend Avenue.\n\nAbout 1910\n\nEugene L. Armbruster Collection\n",

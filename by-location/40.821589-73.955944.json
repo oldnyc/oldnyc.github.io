@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 629,
+        "street": "West 136th Street"
+      },
+      "source": "629 West 136th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465684-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465684-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f11c440-c612-012f-9c42-58d385a7bc34",
     "text": null,
     "text_source": null,

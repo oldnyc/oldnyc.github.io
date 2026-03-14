@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Berkeley Place"
+      },
+      "source": "Brooklyn: 5th Avenue - Berkeley Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702381f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702381f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f437be0-c532-012f-4479-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Berkeley Place",
     "text": "185 Fifth Ave., at the N.E. corner of Fifth Ave., and Berkeley Place.\n\nAugust 12, 1929.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Berkeley Place"
+      },
+      "source": "Brooklyn: Berkeley Place - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703242f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703242f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59b337a0-c533-012f-ad9a-58d385a7bc34",
     "original_title": "Brooklyn: Berkeley Place - 5th Avenue",
     "text": "Berkeley Place, north side, between Fifth and Sixth Avenues, showing Public School No. 4.\n\nBoard of Education of the City of New York. Early 1930's\n",
@@ -36,9 +81,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Sackett Street"
+      },
+      "source": "Brooklyn: Sackett Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 443,
     "id": "706558f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706558f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7f21b700-c538-012f-6e1e-58d385a7bc34",
     "original_title": "Brooklyn: Sackett Street - 5th Avenue",
     "text": "Sackett Street, west from 5th Avenue, showing the W. P. A. conducting a sewer project here. The buildings are on the north side of the street.\n\nSeptember 24, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",
@@ -53,9 +119,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Berkeley Place"
+      },
+      "source": "Brooklyn: Berkeley Place - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703241f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703241f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/595cf730-c533-012f-7e44-58d385a7bc34",
     "original_title": "Brooklyn: Berkeley Place - 5th Avenue",
     "text": "17 to 69 Berkeley Place, north side, between Fifth and Sixth Avenues, viewing east from near the former.\nNumber 23-43 is Public School No. 4, in the center of the block.\n\nJune 17, 1940\n\nP. L. Sperr\n",
@@ -70,9 +160,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Sackett Street"
+      },
+      "source": "Brooklyn: 5th Avenue - Sackett Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702380f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702380f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0eeb1fb0-c532-012f-e6ab-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Sackett Street",
     "text": "P.L. Sperr, photographer  5-31-1942",

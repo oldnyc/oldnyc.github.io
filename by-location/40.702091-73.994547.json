@@ -2,9 +2,48 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Heights",
+        "str2": "Doughty Street"
+      },
+      "source": "Columbia Heights and Doughty Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Fulton Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "704472f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704472f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Pharmaceutical industry",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44033ed0-c535-012f-a860-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Debevoise Avenue",
     "text": "Fulton Street, south side, east from the East River, showing the Fulton Street Elevated Line and station. At the right are the E.R. Squibb and Son buildings, which are located on the S.E. and S.W. corners of Columbia Heights and Doughty Street.\nApril 4, 1932.\n\nP. L. Sperr.\n",
@@ -19,9 +58,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 65,
+        "street": "Columbia Heights"
+      },
+      "source": "65 Columbia Heights",
+      "technique": "gpt"
+    },
     "height": 483,
     "id": "703711f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703711f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn Facade, 65-71 Columbia Heights, Brooklyn."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1108bd30-c534-012f-3bb2-58d385a7bc34",
     "text": "Columbia Heights, no.65-71, Brooklyn.\nFederal Art Project, \"Changing New York,\" photographs by Berenice Abbott.  Title: \"Brooklyn Facade\"\nMay 14, 1936\n",
     "text_source": "gpt",

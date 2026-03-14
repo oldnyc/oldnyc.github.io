@@ -2,9 +2,36 @@
   {
     "date": "1900-12-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Canal Street",
+        "str2": "Elm Street"
+      },
+      "source": "Canal Street and Elm Street",
+      "technique": "gpt"
+    },
     "height": 533,
     "id": "2040885",
     "image_url": "https://images.nypl.org/?id=2040885&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Canal Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Walker Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Railroad tracks",
+          "Streets",
+          "Subways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/414ca470-c62c-012f-e4e3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +45,37 @@
   {
     "date": "1900-12-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Canal Street",
+        "str2": "Elm Street"
+      },
+      "source": "Canal Street and Elm Street",
+      "technique": "gpt"
+    },
     "height": 533,
     "id": "2040893",
     "image_url": "https://images.nypl.org/?id=2040893&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Canal Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Advertising",
+          "Buildings, structures, etc.",
+          "Iron industry and trade",
+          "Streets",
+          "Subways",
+          "Tobacco"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/437ed780-c62c-012f-a44b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +92,27 @@
     "dates_from_text": [
       "1929-02-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Canal Street",
+        "str2": "Lafayette Street"
+      },
+      "source": "Manhattan: Canal Street - Lafayette Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718012f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718012f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4aba590-c54a-012f-536c-58d385a7bc34",
     "original_title": "Manhattan: Canal Street - Lafayette Street",
     "text": "Canal Street, south side west from and including Lafayette Street. This view also shows Lafayette Street, at, adjoining and south of the south west corner of Canal Street.\n\nFebruary 25, 1929.\n\nP.L. Sperr.\n",
@@ -54,9 +127,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Canal Street",
+        "str2": "Lafayette Street"
+      },
+      "source": "Manhattan: Lafayette Street - Canal Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720757f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720757f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Towers",
+          "Traffic police"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b977580-c54f-012f-46f9-58d385a7bc34",
     "original_title": "Manhattan: Lafayette Street - Canal Street",
     "text": "Lafayette Street, east side, north from Canal, to, and including Howard Streets. The view shows a traffic tower at said intersection.\n\nSeptember 20, 1930.\n\nP. L. Sperr.\n",

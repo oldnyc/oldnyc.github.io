@@ -2,9 +2,40 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dumont Avenue",
+        "str2": "Powell Street"
+      },
+      "source": "Dumont Avenue and Powell Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Dumont Avenue",
+        "str2": "Sackman Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "732660f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732660f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d91d920-c561-012f-915a-58d385a7bc34",
     "text": "Dumont Avenue, south side, from Sackman to Powell Streets, showing Public School No. 109, looking east from Sackman Street.\nBoard of Education of the City of New York  Early 1930s\n",
     "text_source": "gpt",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1920"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Wall Street - Water Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25891230-c554-012f-dada-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Water Street",
     "text": "Wall Street, north side, west from and including Water, to and including Pearl Streets.\nAbout 1920.\n\nEdwin Levick.\nGift of E. M. Jenks.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Wall Street - Water Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723948f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723948f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25e40d20-c554-012f-b5f8-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Water Street",
     "text": "Wall Street, north side, east from and including Water Street, to and including South Street.\nAbout 1922.\n\nGift of E. Mc Jenks.\n",
@@ -42,9 +78,38 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Wall Street - Water Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "723949f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723949f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Singer Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Business enterprises",
+          "Mass transit",
+          "Sewing machines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/265095b0-c554-012f-c355-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Water Street",
     "text": "Wall Street and environs, west from Water Street, showing office structures forming the financial district. The skyscraper under construction is the 70 storied Bank of Manhattan at No. 40 Wall Street. To the left is the 35 story Wall and Hanover Building. To the right are, the 26-story building (No. 62-67 Pine Street) at the rear of No. 60 Wall Street (H.L. Dougherty and Company), the domed Singer Building, the massive Equitable Building, the modern No. 1 Cedar Street, the Transportation Building and the ornate Woolworth Building. Note on Wall Street the glimpses of the Bankers Trust Company (pyramidal tower), the Electric Bond and Share Building and the New York Stock Exchange Building. The triangular structures in the left foreground are respectively the 15 storied Beaver Building and the 25 story Munson S.S. Line Building. Obscuring the lower portions of the latter is the 12 story Orient Building.\n\n1929\n\nEwing Galloway\n",
@@ -59,9 +124,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Wall Street - Water Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723951f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723951f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "East River Pier 12 (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27299650-c554-012f-a718-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Water Street",
     "text": "Wall Street, east from Water Street to the East River, as seen from the Seaman's Bank for Savings (No. 74 Wall Street). Shown at the foot of Wall Street is Pier No. 12, East River, with a vessel alongside.\n\nJune 13, 1929.\n\nP. L. Sperr.\n",
@@ -76,9 +161,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Front Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "719898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Food industry",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb6ad910-c54d-012f-c302-58d385a7bc34",
     "original_title": "Manhattan: Front Street - Wall Street",
     "text": "(1)\nFront Street (foreground), west side, south from but not including Wall Street, to and including Old Slip, showing the roof-tops of houses in the area immediately surrounding same. This view was taken from the American Sugar Refining Building, 120 Wall Street, at the N.W. corner of South Street.\nOctober 22, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nOctober 22, 1930.\n\nP. L. Sperr.\n",
@@ -93,9 +201,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Front Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "719898f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719898f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Food industry",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb6ad910-c54d-012f-c302-58d385a7bc34",
     "original_title": "Manhattan: Front Street - Wall Street",
     "text": "(1)\nFront Street (foreground), west side, south from but not including Wall Street, to and including Old Slip, showing the roof-tops of houses in the area immediately surrounding same. This view was taken from the American Sugar Refining Building, 120 Wall Street, at the N.W. corner of South Street.\nOctober 22, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nOctober 22, 1930.\n\nP. L. Sperr.\n",
@@ -110,9 +241,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Front Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "719899f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719899f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbc30360-c54d-012f-7c04-58d385a7bc34",
     "original_title": "Manhattan: Front Street - Wall Street",
     "text": "Front Street, east side, south from and including Wall Street. The view also shows Wall Street, at, adjoining and east of Front Street.\n\nApril 23, 1930.\n\nP. L. Sperr.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
@@ -130,9 +282,27 @@
     "dates_from_text": [
       "1930-05-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Front Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719900f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719900f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc45fe80-c54d-012f-2d8d-58d385a7bc34",
     "original_title": "Manhattan: Front Street - Wall Street",
     "text": "Front Street, north from and including Wall Street. (Front Street, is arbitrarily set to run north and south from Coenties Slip, to the Brooklyn Bridge).\n\nMay 11, 1930.\n\nP. L. Sperr.\n\nASSUMING STREET TO\nRUN NORTH AND SOUTH\n",
@@ -147,9 +317,28 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Front Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719901f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719901f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcbe29b0-c54d-012f-9d9e-58d385a7bc34",
     "original_title": "Manhattan: Front Street - Wall Street",
     "text": "Front Street, at, adjoining and south of the S.E. corner of Wall Street. The view shows a general view eastward, over the East River to Brooklyn. (Front Street, is arbitrarily set to run north and south from Coenties Slip, to the Brooklyn Bridge).\n\nAugust 7, 1930.\n\nP. L. Sperr.\n\nASSUMING STREET TO\nBE NORTH AND SOUTH\n",
@@ -167,9 +356,27 @@
     "dates_from_text": [
       "1930-06-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Wall Street - Water Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723950f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723950f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/26ac2380-c554-012f-61ea-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Water Street",
     "text": "Wall Street, north side, from and including Water Street, east to and including South Street.\n\nJune 14, 1930.\n\nP. L. Sperr.\n",
@@ -187,9 +394,27 @@
     "dates_from_text": [
       "1930-05-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723952f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723952f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/279bcc80-c554-012f-f629-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "Wall Street, north side, west from but not including Front Street, to and including Pearl Street.\nMay 11, 1930.\n\nP. L. Sperr.\n",
@@ -207,9 +432,27 @@
     "dates_from_text": [
       "1930-08-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723953f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723953f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27fc3610-c554-012f-f813-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "Wall Street, north side, from but not including Front to Water Streets.\nAugust 7, 1930.\n\nP. L. Sperr.\n",
@@ -228,9 +471,27 @@
       "1930-04-20",
       "1930-08-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723956f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723956f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29375230-c554-012f-3c0c-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "(1)\n104-98 Wall Street, at, adjoining and north of the N.W. corner of Front Street. This view also shows Nos. 118-120 Front Street, at, and adjoining the N.E. corner of Wall Street.\n\nApril 20, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, showing less of Front Street.\nAugust 7, 1930.\n\nP. L. Sperr.\n",
@@ -250,9 +511,27 @@
       "1930-04-20",
       "1930-08-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723956f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723956f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29375230-c554-012f-3c0c-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "(1)\n104-98 Wall Street, at, adjoining and north of the N.W. corner of Front Street. This view also shows Nos. 118-120 Front Street, at, and adjoining the N.E. corner of Wall Street.\n\nApril 20, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, showing less of Front Street.\nAugust 7, 1930.\n\nP. L. Sperr.\n",
@@ -271,9 +550,27 @@
     "dates_from_text": [
       "1930-08-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723957f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29b7fc60-c554-012f-fc9c-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "106-114 Wall Street, east from and including the N.E. corner of Front Street.\n\nAugust 7, 1930.\n\nP. L. Sperr.\n",
@@ -291,9 +588,27 @@
     "dates_from_text": [
       "1930-06-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Water Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ca01860-c554-012f-ccc3-58d385a7bc34",
     "original_title": "Manhattan: Water Street - Wall Street",
     "text": "Water Street, east side, north from but not including Wall Street.\n\nJune 14, 1930.\n\nP. L. Sperr.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
@@ -311,9 +626,27 @@
     "dates_from_text": [
       "1930-06-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Water Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724235f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724235f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d0f7b60-c554-012f-5c86-58d385a7bc34",
     "original_title": "Manhattan: Water Street - Wall Street",
     "text": "Water Street, north from and including Wall Street.\nJune 14, 1930.\n\nP. L. Sperr.\n\nCRANES\nJAPANESE LINEN\nMADE IN U.S.A.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
@@ -328,9 +661,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wall Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Water Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "724236f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724236f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d7e7b40-c554-012f-77e0-58d385a7bc34",
     "original_title": "Manhattan: Water Street - Wall Street",
     "text": "Water Street (center for fore to midground) south from Wall Street (foreground, not shown) to Coenties Slip as viewed from the Spreckels Bldg. at Wall Street. The two structures in the center and on opposides of this thoroughfare are the Arbuckle and the W.R. Grace and Co. Buildings. To the left of the former is the Seamans' Church Institute silhouetted against Governor's Island in the Upper Bay.\n\nOctober 1, 1930.\n\nP.L. Sperr\n",
@@ -345,9 +702,39 @@
   {
     "date": "1930; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 99,
+        "street": "Wall Street"
+      },
+      "source": "99 Wall Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Pier 11",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733986f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733986f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River Pier 11 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e90d9a0-c563-012f-a1ac-58d385a7bc34",
     "text": "(1)\nPier No. 11, East River, at South Street. Prominent buildings shown are No. 99-101 Wall St.; 60 Wall Street; and No. 120 Wall Street.\n\nOctober 18, 1933\n\nP. L. Sperr\n\n(2)\nThe same, from a different angle, at an earlier date. The prominent buildings are (left to right), the City Bank Farmers Trust Co., and the Bank of Manhattan.\n\nFebruary 1, 1932\n\nP. L. Sperr\n\n(3)\nAn additional view, at a still earlier date.\n\nDecember 13, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -363,9 +750,39 @@
   {
     "date": "1930; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 99,
+        "street": "Wall Street"
+      },
+      "source": "99 Wall Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Pier 11",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733986f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733986f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River Pier 11 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e90d9a0-c563-012f-a1ac-58d385a7bc34",
     "text": "(1)\nPier No. 11, East River, at South Street. Prominent buildings shown are No. 99-101 Wall St.; 60 Wall Street; and No. 120 Wall Street.\n\nOctober 18, 1933\n\nP. L. Sperr\n\n(2)\nThe same, from a different angle, at an earlier date. The prominent buildings are (left to right), the City Bank Farmers Trust Co., and the Bank of Manhattan.\n\nFebruary 1, 1932\n\nP. L. Sperr\n\n(3)\nAn additional view, at a still earlier date.\n\nDecember 13, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -381,9 +798,39 @@
   {
     "date": "1930; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 99,
+        "street": "Wall Street"
+      },
+      "source": "99 Wall Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Pier 11",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733986f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733986f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River Pier 11 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e90d9a0-c563-012f-a1ac-58d385a7bc34",
     "text": "(1)\nPier No. 11, East River, at South Street. Prominent buildings shown are No. 99-101 Wall St.; 60 Wall Street; and No. 120 Wall Street.\n\nOctober 18, 1933\n\nP. L. Sperr\n\n(2)\nThe same, from a different angle, at an earlier date. The prominent buildings are (left to right), the City Bank Farmers Trust Co., and the Bank of Manhattan.\n\nFebruary 1, 1932\n\nP. L. Sperr\n\n(3)\nAn additional view, at a still earlier date.\n\nDecember 13, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -399,9 +846,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723955f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723955f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Steamboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28d89de0-c554-012f-ceae-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "Wall Street, west from Front Street, showing mainly the south side of same. Note the South Ferry division of the Second and Third Aves. Elevated Lines on Pearl Street. At the S.W. corner of that point appears the 25-storied triangular structure of the Munson Steamship Line. Obscuring same is the 12-story Orient Building at the S.E. corner of that point.\n\nNovember 7, 1937.\n\nP. L. Sperr.\n",
@@ -416,9 +887,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "723954f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/723954f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Food industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/286d1870-c554-012f-eff9-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "rotation": 90,
@@ -434,9 +926,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Front Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Wall Street - Front Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723954f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723954f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Food industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/286d1870-c554-012f-eff9-58d385a7bc34",
     "original_title": "Manhattan: Wall Street - Front Street",
     "text": "(1)\nWall Street, at Front looking across the clearing at the northwest corner of Smith Street.\n\n(2)\n#120 Wall Street, showing the American Sugar Refinery\nbuilding of 33 stories.\n\nP.L. Sperr.\n\nSeptember 19, 1939.\n",

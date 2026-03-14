@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1890"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Franklin Street"
+      },
+      "source": "Manhattan: Broadway - Franklin Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "717249f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717249f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f211c20-c549-012f-f8d4-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Franklin Street",
     "text": "Broadway, north from and across Franklin Street. Note the hand operated street car switch in the foreground.\n\nAbout 1890\n\nGift Thru New York Historical Society\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1890"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Franklin Street"
+      },
+      "source": "Manhattan: Broadway - Franklin Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717250f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717250f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f8d1420-c549-012f-abdf-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Franklin Street",
     "text": "Broadway, north from Franklin Street, showing the wholesale zone and activity pertaining to same.\n\nAbout 1890\n\nGift Thru New York Historical Society\n",
@@ -42,9 +78,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Franklin St"
+      },
+      "source": "Broadway and Franklin St",
+      "technique": "gpt"
+    },
     "height": 230,
     "id": "1627858",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627858.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c5f6130-c6d2-012f-2479-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -58,9 +118,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Franklin Street"
+      },
+      "source": "Broadway and Franklin Street",
+      "technique": "gpt"
+    },
     "height": 227,
     "id": "1627859",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627859.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3caac670-c6d2-012f-2e06-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -74,9 +158,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Franklin Street"
+      },
+      "source": "Manhattan: Broadway - Franklin Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717248f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717248f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8eb1b1c0-c549-012f-1456-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Franklin Street",
     "text": "#361-363 Broadway at the South West corner of Franklin Street.\n\nMarch 30, 1912.\n\nPhotograph by,\nNorman Wurts.\n",

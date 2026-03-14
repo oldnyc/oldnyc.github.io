@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "62nd Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 62nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "715946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Handcarts",
+          "Shoe stores",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e02adf0-c547-012f-46a5-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 62nd Street (West)",
     "text": "Amsterdam Ave., east side, north from West 62nd Street, as viewed from the opposite side and across peddlers stands thereon.\n\nNovember 30, 1937.\n\nP. L. Sperr.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1939-04-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "62nd Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 62nd Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "714133f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714133f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5f1e4c0-c544-012f-b6af-58d385a7bc34",
     "original_title": "Manhattan: 62nd Street (West) - Amsterdam Avenue",
     "text": "West 62nd Street, north side of the street, west from Amsterdam Avenue.\n\nP. L. Sperr\n\nApril 15, 1939\n",

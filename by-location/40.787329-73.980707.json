@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 328,
+        "street": "West 83rd Street"
+      },
+      "source": "328 West 83rd Street",
+      "technique": "gpt"
+    },
     "height": 516,
     "id": "417190",
     "image_url": "https://images.nypl.org/?id=417190&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a1559de0-c611-012f-69b6-58d385a7bc34",
     "text": null,
     "text_source": null,

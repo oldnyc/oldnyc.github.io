@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Ave.",
+        "str2": "Wilson St."
+      },
+      "source": "Brooklyn: Wilson St. - Bedford Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707433f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707433f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2359a40-c539-012f-d41f-58d385a7bc34",
     "original_title": "Brooklyn: Wilson St. - Bedford Ave.",
     "text": "Wilson Street, north side, between Bedford and Lee Avenues, showing the new addition to Public School No. 16. The old school building is on the right.\nBoard of Education of the City of New York June 25, 1931\n",
@@ -19,9 +43,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Ave.",
+        "str2": "Wilson St."
+      },
+      "source": "Brooklyn: Wilson St. - Bedford Ave.",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "707434f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707434f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d280c690-c539-012f-ff54-58d385a7bc34",
     "original_title": "Brooklyn: Wilson St. - Bedford Ave.",
     "text": "Wilson Street, between Bedford and Lee Avenues, showing the old Public School No. 16. A new addition was later built to the left of this building.\n\nBoard of Education of the City of New York  June 25, 1931\n",

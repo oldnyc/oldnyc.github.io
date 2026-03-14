@@ -2,9 +2,35 @@
   {
     "date": "1890; 1916; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jackson Avenue",
+        "str2": "Pearson Street"
+      },
+      "source": "Queens: Jackson Avenue - Pearson Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "726946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Court Square (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Clubs",
+          "Freemasons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76f36ea0-c558-012f-575c-58d385a7bc34",
     "original_title": "Queens: Jackson Avenue - Pearson Street",
     "text": "Jackson Avenue, east side, between Pearson Street and Court Square, showing the Masonic Temple of Long Island City.\n\nMarch 23, 1932\n\nP.L. Sperr\n",

@@ -2,9 +2,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 25,
+        "street": "South William Street"
+      },
+      "source": "25 South William Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558171",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558171.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Falstaff Restaurant and Bar"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a3e0840-c5ed-012f-9d8c-58d385a7bc34",
     "text": null,
     "text_source": null,

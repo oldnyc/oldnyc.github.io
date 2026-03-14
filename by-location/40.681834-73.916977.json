@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Chauncey Street",
+        "str2": "Saratoga Avenue"
+      },
+      "source": "Brooklyn: Saratoga Avenue - Chauncey Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "706621f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706621f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9740b100-c538-012f-4300-58d385a7bc34",
     "original_title": "Brooklyn: Saratoga Avenue - Chauncey Street",
     "text": "Saratoga Avenue, east side, from Chauncey to Bainbridge Street, showing Public School No. 137.\nBoard of Education of the City of New York  June 25, 1931\n",

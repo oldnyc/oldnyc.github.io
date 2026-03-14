@@ -2,9 +2,33 @@
   {
     "date": "1927; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "62nd Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 62nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719063f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719063f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/631d5480-c54c-012f-d681-58d385a7bc34",
     "original_title": "Manhattan: Columbus Avenue - 62nd Street (West)",
     "text": "(1) Columbus Ave., east side, north from West 62nd to 63rd streets, as seen across clearance on the west side of the Ave. Prominent building shown, at the S.E. corner of 63rd Street, is the Hotel Empire.\nOctober 13, 1927.\nP.L. Sperr.\n(2) The same from the S.E. corner of Columbus Avenue and after demolition of \"L\".\nApril 19th, 1943\nP.L. Sperr\n",

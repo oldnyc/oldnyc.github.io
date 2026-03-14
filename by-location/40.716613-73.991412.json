@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1932-10-13"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 50,
+        "street": "Allen Street"
+      },
+      "source": "50 Allen Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Allen Street",
+        "str2": "Atlantic Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Allen Street",
+        "str2": "Atlantic Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 389,
     "id": "715916f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715916f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72a05190-c547-012f-504f-58d385a7bc34",
     "original_title": "Manhattan: Allen Street - Atlantic Avenue",
     "text": "Allen street No. 50-70\nOct. 13, 1932\n",

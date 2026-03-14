@@ -2,9 +2,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 24,
+        "street": "East 21st Street"
+      },
+      "source": "24 East 21st Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558139",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558139.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b562d910-c5ec-012f-cdfb-58d385a7bc34",
     "text": null,
     "text_source": null,

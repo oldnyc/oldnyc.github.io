@@ -2,9 +2,33 @@
   {
     "date": "1891",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 2nd Avenue - 34th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "709429f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709429f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11073310-c53d-012f-cfd5-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 34th Street (East)",
     "text": "Second Ave., north from East 34th Street. Intersection in the foreground is East 35th Street. On the right, north of that point appears a row of buildings that were included in the demolition for St. Gabriels park.\n\nAbout 1891.\n",
@@ -19,9 +43,32 @@
   {
     "date": "1902",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 564,
     "id": "707823f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707823f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b8e47e0-c53a-012f-70a9-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "STATION AT SECOND AVENUE & 34th STREET, APRIL 1902\n\nShowing the Second Avenue Elevated Railroad (Metropolitan Elevated Railway Company), and the joint station of the Second Avenue \"L\" & the 34th Street Spur (Third Avenue Line) at Second Avenue & 34th Street. Looking north. The spur structures were taken possession of by the City of New York, July 15, 1930, and removed.\n",
@@ -36,9 +83,29 @@
   {
     "date": "1919-08-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Second Avenue"
+      },
+      "source": "Manhattan: 34th Street (East) - Second Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "1507747-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507747-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cfe562c0-c5ce-012f-ae37-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +119,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707830f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707830f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e912730-c53a-012f-2dd5-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, north from East 35th Street as viewed from the extremity of the Downtown Station at 34th Street of the Second Avenue \"El\".\n\nTo the right is St. Gabriel's Park, the white building housing the New York Public Library branch of that name, the Hall structure, and the Church proper on 37th Street. All of these will be gone in early 1940 as this entire block will be cleared for the plaza approach to the Queens-Midtown Tunnel. Note in the background the group of apartment buildings forming Tudor City. Close observation will distinguish the fact of almost completion of same. Subsequently other units will be erected and the skyline changed, thereby obliterating a view of the long roofed Hospital for Ruptured and Crippled Children. This appears in the due center of this photo.\n\nP. L. Sperr\n\nFebruary 5, 1928\n",
@@ -69,9 +161,37 @@
   {
     "date": "1928; 1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712105f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712105f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7122e830-c541-012f-5763-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th Street, west from Second Avenue, showing the 34th Street Elevated Spur.\nMarch 23, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, two and a half years later, just before service is discontinued on the line. In the background may be seen the Empire State Building at Fifth Avenue and 34th Street, in the later stages of construction.\nSeptember 17, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, from the street level. Note completion of the Empire State Building.\nOctober 12, 1936.\n\nP. L. Sperr.\n",
@@ -88,9 +208,37 @@
   {
     "date": "1928; 1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712105f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712105f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7122e830-c541-012f-5763-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th Street, west from Second Avenue, showing the 34th Street Elevated Spur.\nMarch 23, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, two and a half years later, just before service is discontinued on the line. In the background may be seen the Empire State Building at Fifth Avenue and 34th Street, in the later stages of construction.\nSeptember 17, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, from the street level. Note completion of the Empire State Building.\nOctober 12, 1936.\n\nP. L. Sperr.\n",
@@ -107,9 +255,37 @@
   {
     "date": "1928; 1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 394,
     "id": "712105f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/712105f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7122e830-c541-012f-5763-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "rotation": 90,
@@ -127,9 +303,35 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue (Northwest)",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan - 34th Street (East) - 2nd Avenue (Northwest).",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "730239f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730239f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Commodore Hotel ; Graybar Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Hotel Commodore (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9a1a240-c55d-012f-da7e-58d385a7bc34",
     "text": "A general view northwestward from the \"El\" platform at E. 34th Street and Second Avenue, towards the Midtown-42nd Street district. Note the absence of the tall structures that will rise in the ensuing year. Close to the right margin is the Commodore Hotel with the Graybar Building above same. Both are on Lexington Avenue, north of 42nd Street. A later view will find these obstructed by the Chanin and Chrysler Buildings.\n\nFebruary 5, 1928.\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -143,9 +345,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "712110f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712110f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7357ba40-c541-012f-e391-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, West from Second Avenue (foreground, not seen) showing the spur that connects the Second and Third elevated lines at this point. The photographer is viewing westward from atop No. 321 East 34th Street, a building between First and Second Avenues. Note the absence of the Empire State Bldg.\n\nSeptember 16, 1929.\n\nP. L. Sperr\n",
@@ -160,9 +387,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712116f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712116f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75f15390-c541-012f-6d5b-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th Street, north side, west from No. 305 East, east of Second Avenue, showing the double Elevated station at the junction of the regular Second Avenue line and the 34th Street spur; the latter is shortly to go out of use.\nMarch 21, 1929.\n\nP. L. Sperr.\n",
@@ -177,9 +428,39 @@
   {
     "date": "1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730241f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730241f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aaa40280-c55d-012f-ba01-58d385a7bc34",
     "text": "317-323 E. 34th Street, (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, showing a general view northwestward from this location. In the foreground are, St. Gabriels Park, the 2nd Ave. \"E\" and various tenements. The photographer utilizes the changing 42nd Street outline for a background. Note the construction stage of the Chrysler and News Buildings. Of earlier birth than these is the Chanin Building as shown to the left. A close inspection of the two later views will disclose the erection details attending the building of the Hotel Waldorf-Astoria on Lexington and Park Avenues. This appears between the graceful Chrysler and the utilitarian News Buildings.\n\nView 1: September 10, 1929\nViews 2,3: Sept. 17, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -194,9 +475,39 @@
   {
     "date": "1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730241f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730241f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aaa40280-c55d-012f-ba01-58d385a7bc34",
     "text": "317-323 E. 34th Street, (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, showing a general view northwestward from this location. In the foreground are, St. Gabriels Park, the 2nd Ave. \"E\" and various tenements. The photographer utilizes the changing 42nd Street outline for a background. Note the construction stage of the Chrysler and News Buildings. Of earlier birth than these is the Chanin Building as shown to the left. A close inspection of the two later views will disclose the erection details attending the building of the Hotel Waldorf-Astoria on Lexington and Park Avenues. This appears between the graceful Chrysler and the utilitarian News Buildings.\n\nView 1: September 10, 1929\nViews 2,3: Sept. 17, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -211,9 +522,39 @@
   {
     "date": "1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730241f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730241f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aaa40280-c55d-012f-ba01-58d385a7bc34",
     "text": "317-323 E. 34th Street, (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, showing a general view northwestward from this location. In the foreground are, St. Gabriels Park, the 2nd Ave. \"E\" and various tenements. The photographer utilizes the changing 42nd Street outline for a background. Note the construction stage of the Chrysler and News Buildings. Of earlier birth than these is the Chanin Building as shown to the left. A close inspection of the two later views will disclose the erection details attending the building of the Hotel Waldorf-Astoria on Lexington and Park Avenues. This appears between the graceful Chrysler and the utilitarian News Buildings.\n\nView 1: September 10, 1929\nViews 2,3: Sept. 17, 1930\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -228,9 +569,47 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building (Northwest)",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "730244f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730244f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; Lefcourt Colonial Building ; Lincoln Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac0ec7e0-c55d-012f-f80b-58d385a7bc34",
     "text": "A general view northwestward from atop the Harriet Hubbard Ayer Building at No. 321 E. 34th Street, north side, between First and Second Avenues, showing the Midtown - 42nd Street outline. From left to right, these structures are: No. 10 E. 40th Street, Lefcourt - Colonial (construction), Lincoln, Chanin, Chrysler (construction), and the News (construction) Buildings. Across the lower foreground is the Second Avenue \"E1\".\n\nSeptember 10, 1929.\nViews 1 and 2\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -244,9 +623,47 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building (Northwest)",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "730244f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730244f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; Lefcourt Colonial Building ; Lincoln Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac0ec7e0-c55d-012f-f80b-58d385a7bc34",
     "text": "A general view northwestward from atop the Harriet Hubbard Ayer Building at No. 321 E. 34th Street, north side, between First and Second Avenues, showing the Midtown - 42nd Street outline. From left to right, these structures are: No. 10 E. 40th Street, Lefcourt - Colonial (construction), Lincoln, Chanin, Chrysler (construction), and the News (construction) Buildings. Across the lower foreground is the Second Avenue \"E1\".\n\nSeptember 10, 1929.\nViews 1 and 2\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -260,9 +677,52 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730242f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730242f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; New York Daily News ; Waldorf-Astoria Hotel."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Hotels",
+          "Parks",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab32daf0-c55d-012f-1632-58d385a7bc34",
     "text": "317-323 E. 34th Street, (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, (general view northward).\n\nTwo photos from the above location viewing towards the 42nd Street-Grand Central zone showing towering structures there. For identification of same see other views. Note in the foreground of View 2, a corner of St. Gabriel's Park, several of the school buildings and Library identified with this name, and the Second Avenue \"El\".\n\nSeptember 17, 1930\nViews: 1-2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -276,9 +736,52 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730242f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730242f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; New York Daily News ; Waldorf-Astoria Hotel."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Hotels",
+          "Parks",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab32daf0-c55d-012f-1632-58d385a7bc34",
     "text": "317-323 E. 34th Street, (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, (general view northward).\n\nTwo photos from the above location viewing towards the 42nd Street-Grand Central zone showing towering structures there. For identification of same see other views. Note in the foreground of View 2, a corner of St. Gabriel's Park, several of the school buildings and Library identified with this name, and the Second Avenue \"El\".\n\nSeptember 17, 1930\nViews: 1-2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -292,9 +795,42 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 202,
     "id": "730245f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730245f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "East 40th Street Building ; Empire State Building ; Fifth Avenue Building ; Lefcourt National Building ; Metropolitan Life Insurance Company ; New York Life Insurance Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Catholic churches",
+          "Elevated railroads",
+          "Insurance companies",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac90f990-c55d-012f-82bd-58d385a7bc34",
     "text": "321 E. 34th Street, north side, between First and Second Avenues, (Harriet Hubbard Ayer Building), panoramic view westward.\n\nThese two views form a panoramic arrangement of the lower midtown zone between Madison Square and 42nd Street. Near the former are the insurance companies buildings, the Metropolitan and the New York Life. In the center (under construction) is a portion of the Empire State Building. To the right appear, the No. 10 E. 40th Street Building, the 500 Fifth Avenue Building (under construction) and the recently completed Lefcourt National Building (No. 295 Madison Avenue, completed late 1929;) In the left corner of No. 1 is a portion of the Second Avenue \"El\" with its 34th Street station and spur line at the left margin of No. 2. This last mentioned feature was demolished in the Summer of 1938. E. 35th Street is the thoroughfare passing thru the center of this view. Note the spire of the Church of the Epiphany at Lexington Avenue. This structure was razed about the same time as the 34th Street spur line.\n\nSept. 17, 1939\nViews: 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -308,9 +844,49 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730246f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730246f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; Fifth Avenue Building ; Lefcourt Colonial Building ; Lincoln Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad1921b0-c55d-012f-4f01-58d385a7bc34",
     "text": "321 East 34th Street, north side, between First and Second Avenues, (Harriet Hubbard Ayer Building) general view northward.\n\nThree views forming a panoramic arrangement to show the 42nd Street-Midtown skyline of Manhattan. From left to right these buildings are: No. 10 E. 40th Street, No. 500 Fifth Avenue (under construction), The Leftcourt Colonial (No. 295 Madison Avenue), the Lincoln, the Chanin, the Chrysler and the News. Prior to 1929 none of these structures were standing.\n\nAcross the foreground runs the Second Avenue \"El\" passing the westerly side of St. Gabriel's Park. This garden and play area is between E. 35th and 36th Streets. In 1939, this will undergo radical changes as the new 38th Street-East River Tunnel approach will pass thru same to an entrance on 34th Street.\n\nP. L. Sperr\n\nSeptember 17, 1930\nViews: 1-2-3\n",
     "text_source": "gpt",
@@ -324,9 +900,49 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730246f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730246f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; Fifth Avenue Building ; Lefcourt Colonial Building ; Lincoln Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad1921b0-c55d-012f-4f01-58d385a7bc34",
     "text": "321 East 34th Street, north side, between First and Second Avenues, (Harriet Hubbard Ayer Building) general view northward.\n\nThree views forming a panoramic arrangement to show the 42nd Street-Midtown skyline of Manhattan. From left to right these buildings are: No. 10 E. 40th Street, No. 500 Fifth Avenue (under construction), The Leftcourt Colonial (No. 295 Madison Avenue), the Lincoln, the Chanin, the Chrysler and the News. Prior to 1929 none of these structures were standing.\n\nAcross the foreground runs the Second Avenue \"El\" passing the westerly side of St. Gabriel's Park. This garden and play area is between E. 35th and 36th Streets. In 1939, this will undergo radical changes as the new 38th Street-East River Tunnel approach will pass thru same to an entrance on 34th Street.\n\nP. L. Sperr\n\nSeptember 17, 1930\nViews: 1-2-3\n",
     "text_source": "gpt",
@@ -340,9 +956,49 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730246f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730246f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; Fifth Avenue Building ; Lefcourt Colonial Building ; Lincoln Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad1921b0-c55d-012f-4f01-58d385a7bc34",
     "text": "321 East 34th Street, north side, between First and Second Avenues, (Harriet Hubbard Ayer Building) general view northward.\n\nThree views forming a panoramic arrangement to show the 42nd Street-Midtown skyline of Manhattan. From left to right these buildings are: No. 10 E. 40th Street, No. 500 Fifth Avenue (under construction), The Leftcourt Colonial (No. 295 Madison Avenue), the Lincoln, the Chanin, the Chrysler and the News. Prior to 1929 none of these structures were standing.\n\nAcross the foreground runs the Second Avenue \"El\" passing the westerly side of St. Gabriel's Park. This garden and play area is between E. 35th and 36th Streets. In 1939, this will undergo radical changes as the new 38th Street-East River Tunnel approach will pass thru same to an entrance on 34th Street.\n\nP. L. Sperr\n\nSeptember 17, 1930\nViews: 1-2-3\n",
     "text_source": "gpt",
@@ -359,9 +1015,27 @@
     "dates_from_text": [
       "1931-09-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712091f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712091f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a9ccf50-c541-012f-8c24-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "341-301 East 34th Street, east of, adjoining, and at the N.E. corner of Second Avenue.\n\nSeptember 11, 1931.\n\nP. L. Sperr.\n",
@@ -376,9 +1050,35 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "712109f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712109f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72eb14f0-c541-012f-5ced-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th Street, west from and including Second Avenue. This shows the elevated structure running from Third Avenue to the East River. At the time this branch was built the law stated that all elevated branch that electricity was first used for experimentation, preparatory to electrifying all the lines. The structure is about to be torn down.\nThe picture shows a fine view of the Empire State Building.\n\nJune 25, 1931.\n\nInternational News.\n",
@@ -393,9 +1093,31 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712111f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712111f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73c2b4d0-c541-012f-47a5-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th Street, north side, west from and including Second Avenue, showing the double Elevated station at Second Avenue and 34th Street. Service has been discontinued on the 34th Street spur, and the elevated structure taken down east of Second Avenue. September 11, 1931.\n\nP. L. Sperr.\n",
@@ -413,9 +1135,27 @@
     "dates_from_text": [
       "1936-10-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712092f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712092f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6b260db0-c541-012f-a81b-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, north side, east from (No. 325), but not including Second Ave., to the East River.\nOctober 12, 1936.\n\nP. L. Sperr.\n",
@@ -430,9 +1170,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Orthodox churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76d5a640-c541-012f-de36-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "243 East 34th Street, adjoining the N.W. corner of Second Ave.\nShown is the Greek Orthodox Church of St. John the Baptist, formerly The Civic Club.\n\nOctober 12, 1936.\n\nP. L. Sperr.\n",
@@ -450,9 +1211,27 @@
     "dates_from_text": [
       "1936-10-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712120f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712120f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77ab1f30-c541-012f-a73e-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "235 East 34th Street, north side, west of Second Ave.\n\nOctober 12, 1936.\n\nP. L. Sperr.\n",
@@ -467,9 +1246,38 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712106f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712106f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Armories",
+          "Elevated railroads",
+          "Hotels",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71a63780-c541-012f-6e26-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, west from Second Avenue, showing this crosstown thoroughfare before and after the removal of the remaining portion of the spur line between the Second and Third Avenue's \"El\" lines. This section was allowed to remain in a stripped condition because of the power supply house at the right margin. In the left background appear the blending 71st Regiment Armory tower and the Vanderbilt Hotel, overshadowed by the dominant Empire State Bldg.\n\n1: April 26, 1937\n2&3: May 27, 1939\n\nW. P. A., photo\nFive Boroughs Project\n\nP. L. Sperr\n",
@@ -485,9 +1293,38 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "712106f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/712106f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Armories",
+          "Elevated railroads",
+          "Hotels",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71a63780-c541-012f-6e26-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "rotation": 90,
@@ -504,9 +1341,38 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 492,
     "id": "712106f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/712106f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Armories",
+          "Elevated railroads",
+          "Hotels",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71a63780-c541-012f-6e26-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "rotation": 90,
@@ -523,9 +1389,45 @@
   {
     "date": "1937; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 34th Street"
+      },
+      "source": "2nd Avenue and East 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Flatbush Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 34th Street",
+        "str2": "Flatbush Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 408,
     "id": "712121f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712121f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78336380-c541-012f-85e7-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - Flatbush Avenue",
     "text": "(1) East 34th Street at the end of street, at or near the entrance to Long Island Ferry, after demolition of the \"L\" Station. April 11th, 1940\n\n(2) #223-227 north side, and east of E.34th Street, between 2nd and 3rd Avenues showing road for tunnel clearing. P.L.Sperr,  May 26th, 1939\n\n(3) East 34th Street from the East River to 6th Avenue West, showing W.P.A. work of reconstruction. April 26, 1937\n\nManhattan Highway Comm.\n",
@@ -541,9 +1443,45 @@
   {
     "date": "1937; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 34th Street"
+      },
+      "source": "2nd Avenue and East 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Flatbush Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 34th Street",
+        "str2": "Flatbush Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "712121f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712121f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78336380-c541-012f-85e7-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - Flatbush Avenue",
     "text": "(1) East 34th Street at the end of street, at or near the entrance to Long Island Ferry, after demolition of the \"L\" Station. April 11th, 1940\n\n(2) #223-227 north side, and east of E.34th Street, between 2nd and 3rd Avenues showing road for tunnel clearing. P.L.Sperr,  May 26th, 1939\n\n(3) East 34th Street from the East River to 6th Avenue West, showing W.P.A. work of reconstruction. April 26, 1937\n\nManhattan Highway Comm.\n",
@@ -559,9 +1497,45 @@
   {
     "date": "1937; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "East 34th Street"
+      },
+      "source": "2nd Avenue and East 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Flatbush Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 34th Street",
+        "str2": "Flatbush Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 497,
     "id": "712121f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712121f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78336380-c541-012f-85e7-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - Flatbush Avenue",
     "text": "(1) East 34th Street at the end of street, at or near the entrance to Long Island Ferry, after demolition of the \"L\" Station. April 11th, 1940\n\n(2) #223-227 north side, and east of E.34th Street, between 2nd and 3rd Avenues showing road for tunnel clearing. P.L.Sperr,  May 26th, 1939\n\n(3) East 34th Street from the East River to 6th Avenue West, showing W.P.A. work of reconstruction. April 26, 1937\n\nManhattan Highway Comm.\n",
@@ -577,9 +1551,30 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712119f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712119f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Political clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/774e1040-c541-012f-783f-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "243 E. 34th Street, adjoining the N.W. corner of Second Avenue, showing the \"Civic Club.\" This structure was erected around 1900 by Norman Goddard as a Republican Clubhouse.\n\nNo. 1 October 16, 1938\n\nGeorge D. Chinn\n\nP. L. Sperr\nNo. 2 May 26, 1939\n",
@@ -595,9 +1590,30 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712119f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712119f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Political clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/774e1040-c541-012f-783f-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "243 E. 34th Street, adjoining the N.W. corner of Second Avenue, showing the \"Civic Club.\" This structure was erected around 1900 by Norman Goddard as a Republican Clubhouse.\n\nNo. 1 October 16, 1938\n\nGeorge D. Chinn\n\nP. L. Sperr\nNo. 2 May 26, 1939\n",
@@ -613,9 +1629,34 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712122f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712122f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Electrical apparatus",
+          "Repairing trades",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78b9baa0-c541-012f-099f-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "222 to 246 East 34th Street, south side, east from a point midway between Third and Second Aves., and to the latter, showing in the foreground four 4-story tenements (Nos. 222 to 228 inclusive) that will be demolished and upon whose sites will rise a 9-story modern, part glass, apartment house. For an account of same, see, the New York Times of January 23, 1938.\n\nJanuary 30, 1938.\n\nGeorge D. Chinn.\n",
@@ -630,9 +1671,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 430,
     "id": "712125f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712125f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a181d10-c541-012f-4c2f-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, north side, west from Second to Third Avenues. No. 221-29 is U. S. Post Office Station \"F\" and was the former Borden Co. plant site. To the right is the generating plant of the Manhattan Railroad Co. (Station No. 6) that hooked up to the spur line on this thoroughfare.\n\nOctober 16, 1938\n\nGeorge D. Chinn\n",
@@ -647,9 +1709,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "707825f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707825f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cigar industry",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c61a1a0-c53a-012f-d404-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, west side, north from E. 34th to 35th Streets.\n\nJanuary 8, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -664,9 +1750,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "707826f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707826f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cbdfc30-c53a-012f-9ef7-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, west side, south from E. 35th to 34th Streets. Note the \"El\" station at the latter point.\n\nJanuary 7, 1939\n\nSomach photo Service\nNew York City Tunnel Authority\n",
@@ -681,9 +1790,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "707827f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707827f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d34e690-c53a-012f-5bae-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, east side, south from E. 35th to 34th Streets, showing a row of old tenements occupying this frontage. Note the 34th Street \"El\" station at the right and its high double platform.\n\nJanuary 7, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -698,9 +1830,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "707828f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707828f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d9114e0-c53a-012f-ca11-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, east side, north from E. 34th to 35th Streets . North of the latter point,(at the left) appears of St. Gabriel's Park and the Public Library of the same name.\n\nJanuary 8, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -715,9 +1871,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "707837f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707837f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8152df40-c53a-012f-78ee-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, west side, south from E. 36th Street. Note the \"El\" station at 34th Street.\n\nJanuary 8, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -732,9 +1911,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 494,
     "id": "707838f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707838f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Parks",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81c1b100-c53a-012f-e4e1-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Second Avenue, east side, south from E. 36th Street, showing the westerly half of St. Gabriel's Park. Across same and facing the park is Columbia University's Institute of Public Administration. This building formerly housed said institutions College of Dental and Oral Surgery. The large loft structure is the Harriet Hubbard Ayer building No. 317-323 E. 34th Street.\n\nJanuary 8, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -749,9 +1956,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "712093f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712093f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ba60c40-c541-012f-a9be-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "E. 34th.Street, south side, east from Second Avenue to the East River.\n\nJanuary 7, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -766,9 +1996,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "712094f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712094f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6bf60670-c541-012f-5f08-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "E. 34th Street, north side, east from Second Avenue to the East River. Overhead is the Second Avenue \"El\" and its 34th Street Station. Note at the right the T beams to which were hooked the 34th Street spur line that formerly ran to the Borden Avenue Ferry terminal at the waters edge. To the center of this view and slightly east of the corner is the 4 story building housing Columbia University's College of Dental and Oral Surgery. Adjoining same is the 12 story Harriet Hubbard Ayer Building (No. 317-323 E. 34th Street.)\n\nSomach Photo Service\nnew York City Tunnel Authority\n\nJanuary 7, 1939\n",
@@ -783,9 +2037,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712096f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712096f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices",
+          "Power plants",
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6cd36c50-c541-012f-e575-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, at, adjoining and west of the N. W. corner of Second Avenue (extreme right, not shown), as photographed in a northeastward direction. On the left margin appears a portion of the new Post Office Station F. Views 2 & 3 detail the 3 story stable at No. 235 and the adjacent generating plant at No 237.\n\nMay 26, 1939\nNo's. 1-2-3\n\nP. L. Sperr\n",
@@ -800,9 +2077,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712096f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712096f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices",
+          "Power plants",
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6cd36c50-c541-012f-e575-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, at, adjoining and west of the N. W. corner of Second Avenue (extreme right, not shown), as photographed in a northeastward direction. On the left margin appears a portion of the new Post Office Station F. Views 2 & 3 detail the 3 story stable at No. 235 and the adjacent generating plant at No 237.\n\nMay 26, 1939\nNo's. 1-2-3\n\nP. L. Sperr\n",
@@ -817,9 +2117,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712096f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712096f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices",
+          "Power plants",
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6cd36c50-c541-012f-e575-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, at, adjoining and west of the N. W. corner of Second Avenue (extreme right, not shown), as photographed in a northeastward direction. On the left margin appears a portion of the new Post Office Station F. Views 2 & 3 detail the 3 story stable at No. 235 and the adjacent generating plant at No 237.\n\nMay 26, 1939\nNo's. 1-2-3\n\nP. L. Sperr\n",
@@ -838,9 +2161,27 @@
       "1939-10-11",
       "1939-06-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712097f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712097f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d58fac0-c541-012f-43db-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "(1) East 36th to 34th Street on site for East Side Tunnel Highway.\n\n(2) East 36th Street looking northwest across clearing at the west side of St. Gabriel Parks Library, between First and Second Avenues.\n\nP. L. Sperr\n\nView 1: October 11, 1939\nView 2: June 28, 1939\n",
@@ -860,9 +2201,27 @@
       "1939-10-11",
       "1939-06-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712097f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712097f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d58fac0-c541-012f-43db-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "(1) East 36th to 34th Street on site for East Side Tunnel Highway.\n\n(2) East 36th Street looking northwest across clearing at the west side of St. Gabriel Parks Library, between First and Second Avenues.\n\nP. L. Sperr\n\nView 1: October 11, 1939\nView 2: June 28, 1939\n",
@@ -878,9 +2237,35 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "712098f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712098f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Midtown-Queens Tunnel (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ded0490-c541-012f-e5fc-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, north side, east of Second Avenue, showing the by-pass roadway leading to the Midtown-Queens Tunnel under construction. This will run thru the 34th -35th Street block and into St. Gabriels Park. View 1 shows the Columbia University building at 310 being demolished. View 2 is the same site later showing the swath necessary. Note the library building on 36th Street still standing. View 3 is limited to the road bed thru the Park.\n\n1: October 11, 1939\n2&3: April 11, 1940\n\nP. L. Sperr\n",
@@ -896,9 +2281,35 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "712098f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712098f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Midtown-Queens Tunnel (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ded0490-c541-012f-e5fc-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, north side, east of Second Avenue, showing the by-pass roadway leading to the Midtown-Queens Tunnel under construction. This will run thru the 34th -35th Street block and into St. Gabriels Park. View 1 shows the Columbia University building at 310 being demolished. View 2 is the same site later showing the swath necessary. Note the library building on 36th Street still standing. View 3 is limited to the road bed thru the Park.\n\n1: October 11, 1939\n2&3: April 11, 1940\n\nP. L. Sperr\n",
@@ -914,9 +2325,35 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "712098f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712098f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Midtown-Queens Tunnel (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ded0490-c541-012f-e5fc-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, north side, east of Second Avenue, showing the by-pass roadway leading to the Midtown-Queens Tunnel under construction. This will run thru the 34th -35th Street block and into St. Gabriels Park. View 1 shows the Columbia University building at 310 being demolished. View 2 is the same site later showing the swath necessary. Note the library building on 36th Street still standing. View 3 is limited to the road bed thru the Park.\n\n1: October 11, 1939\n2&3: April 11, 1940\n\nP. L. Sperr\n",
@@ -936,9 +2373,27 @@
       "1939-05-26",
       "1941-07-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712099f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712099f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e5786e0-c541-012f-dfa1-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "1) East 34th Street, east across Second Avenue, showing prominently the distinctive \"El\" station there. This consisted of a double station to accomodate the former bisecting spur line on 34th Street. Note the Harriet Hubbard Ayer Bldg. in the background.\n\nMay 26, 1939\n\nP. L. Sperr\n\n2) 34th St., East, at 2nd Ave.\nHarriet & Hubbard Ayer Bldg. Neg. A-79\nJuly 20, 1941\n\nPhotographer: P.L. Sperr\n",
@@ -958,9 +2413,27 @@
       "1939-05-26",
       "1941-07-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "712099f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/712099f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e5786e0-c541-012f-dfa1-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "rotation": 90,
@@ -977,9 +2450,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712108f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712108f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/727bd520-c541-012f-7fb1-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "East 34th Street, at Second Avenue, as photographed from the Harriet Hubbard Ayer Bldg., showing prominently the Second Avenue \"El\" station. The buildings included are on the south side of 34th Street, being east and west of the Avenue. The photographer is viewing southwestward.\n\nOctober 13, 1939\n\nP. L. Sperr\n",
@@ -997,9 +2494,27 @@
     "dates_from_text": [
       "1939-05-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "712113f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712113f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74938e80-c541-012f-a762-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th St., east across 2nd Ave. May 27, 1939\nP.L. Sperr, photographer\n",
@@ -1014,9 +2529,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 491,
     "id": "712114f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712114f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75138880-c541-012f-4b5e-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "E. 34th Street, north side, west of Second Avenue, showing prominently the block extending between Second and Third Avenues. In the center of same is a 3 story structure housing U. S. Post Office Station \"F\". This site is proposed as the future entrance to the Midtown Queens Tunnel under the East River. It has only been possible in the last year to take such a photo since the spur line connecting the two \"El\" lines was demolished (Summer 1938). The link that extended to the East River came down in 1930.\n\nJanuary 7, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -1034,9 +2570,27 @@
     "dates_from_text": [
       "1939-01-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "712115f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712115f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/756ffd20-c541-012f-9196-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "No's 305, 307 and 309-15 E. 34th Street, north side, east of Second Avenue, showing mainly the 4 story building (No's 309-15) housing Columbia University's College of Dental and Oral Surgery. To the right is a portion of the 12 story Harriet Hubbard Ayer building (No 317-323).\n\nJanuary 12, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -1051,9 +2605,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 494,
     "id": "712126f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712126f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Coffee shops",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a7720c0-c541-012f-5b3b-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "E. 34th Street, south side, west from Second to Third Avenues, showing a row of structures that will remain and face the entrance to the 38th Street tunnel under the East River. On the two Avenues mentioned appear their respective \"E1\" lines and 34th Street stations. Previous to the Summer of 1938 these were joined by a spur line, a remnant of a link with the Ferry to Borden Avenue. Early legislation necessitated same, stating that all transportation facilities join up with either railroad terminals or water facilities. The writer believes the drug store appearing on the left to be place of business from which Col. O'Brien emanated and was fatally attacked during the Draft Riots of 1863. For accounts of same, see \"Gangs of New York\" by H. Asbury and \"Boss Tweed\" by Dennis Lynch etc.\n\nJanuary 7, 1939\n\nSomach Photo Service\nNew York City Tunnel Authority\n",
@@ -1068,9 +2646,49 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730250f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730250f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "Midtown-Queens Tunnel (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af086430-c55d-012f-618f-58d385a7bc34",
     "text": "321 East 34th Street (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, showing a (general view northeastward) across the westerly half of St. Gabriel's Park and the Second Avenue \"El,\" towards the midtown sector.\n\nAt the latter point appears the prominent Chrysler and the News Buildings. Under construction in the mid-ground is the plaza approach to the Midtown-Queens Tunnel. The sole remaining building at this site is the St. Gabriel's branch of the New York Public Library. This is to be demolished early in 1940.\n\nOctober 13, 1939\nViews 1, 2, 3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -1084,9 +2702,49 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730250f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730250f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "Midtown-Queens Tunnel (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af086430-c55d-012f-618f-58d385a7bc34",
     "text": "321 East 34th Street (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, showing a (general view northeastward) across the westerly half of St. Gabriel's Park and the Second Avenue \"El,\" towards the midtown sector.\n\nAt the latter point appears the prominent Chrysler and the News Buildings. Under construction in the mid-ground is the plaza approach to the Midtown-Queens Tunnel. The sole remaining building at this site is the St. Gabriel's branch of the New York Public Library. This is to be demolished early in 1940.\n\nOctober 13, 1939\nViews 1, 2, 3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -1100,9 +2758,49 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "34th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "Harriet Hubbard Ayer building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "730250f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730250f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; New York Daily News."
+      ],
+      "subjects": {
+        "geographic": [
+          "Midtown-Queens Tunnel (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "St. Vartan's Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af086430-c55d-012f-618f-58d385a7bc34",
     "text": "321 East 34th Street (Harriet Hubbard Ayer Building), north side, between First and Second Avenues, showing a (general view northeastward) across the westerly half of St. Gabriel's Park and the Second Avenue \"El,\" towards the midtown sector.\n\nAt the latter point appears the prominent Chrysler and the News Buildings. Under construction in the mid-ground is the plaza approach to the Midtown-Queens Tunnel. The sole remaining building at this site is the St. Gabriel's branch of the New York Public Library. This is to be demolished early in 1940.\n\nOctober 13, 1939\nViews 1, 2, 3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -1116,9 +2814,29 @@
   {
     "date": "1940-09-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street looking northeast",
+        "str2": "Second Avenue"
+      },
+      "source": "Manhattan: Second Avenue - 34th Street looking northeast",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1508695-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508695-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/823d8500-c5ce-012f-9ae9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1132,9 +2850,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712123f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712123f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7916ecc0-c541-012f-ca5e-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "Views 1, to 3;\nEast 34th Street, from Second Avenue elevated station showing location for new road to tunnel.\nP.L.Speer.\nSeptember 21, 1940.\n",
@@ -1149,9 +2892,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "712123f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/712123f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7916ecc0-c541-012f-ca5e-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "rotation": 90,
@@ -1167,9 +2935,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (East)"
+      },
+      "source": "Manhattan: 34th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712123f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712123f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7916ecc0-c541-012f-ca5e-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - 2nd Avenue",
     "text": "Views 1, to 3;\nEast 34th Street, from Second Avenue elevated station showing location for new road to tunnel.\nP.L.Speer.\nSeptember 21, 1940.\n",
@@ -1187,9 +2980,27 @@
     "dates_from_text": [
       "1941-07-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "712104f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712104f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70b604e0-c541-012f-6874-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34th St. W. from 2nd Ave.\nNeg. A-80 July 20, 1941\nP.L. Sperr\n",
@@ -1204,9 +3015,29 @@
   {
     "date": "1942-08-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "2nd Avenue and 34th Street",
+      "technique": "gpt"
+    },
     "height": 391,
     "id": "485727",
     "image_url": "https://images.nypl.org/?id=485727&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39007ee0-c60e-012f-5dd9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1220,9 +3051,29 @@
   {
     "date": "1942-08-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "2nd Avenue and 34th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "486011",
     "image_url": "https://images.nypl.org/?id=486011&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48d541e0-c60e-012f-f66a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1236,9 +3087,32 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Ave.",
+        "str2": "34th St. E."
+      },
+      "source": "Manhattan: 2nd Ave. - 34th St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707824f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707824f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7be67850-c53a-012f-ad01-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 34th St. E.",
     "text": "Park & Tun'l clearg. n. from 34 St. Sta. 2 Ave. \"L\"\n6-13-42\nP.L. Sperr\n",
@@ -1253,9 +3127,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "712100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ee1f2f0-c541-012f-f996-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "Downtown \"L\" Platform 34 St. & 2 Ave.\n6-13-42\nP.L. Sperr\n",
@@ -1270,9 +3168,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "712101f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712101f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f612370-c541-012f-cc4c-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "Uptown Platform 34 St. Sta. 2 Ave. \"L\" 6-13-42\nP.L. Sperr\n",
@@ -1287,9 +3209,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712102f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712102f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fbd88b0-c541-012f-0815-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "34 St. w. from 2 Ave. \"L\" Sta.\n6-13-42\nP.L. Sperr\n",
@@ -1304,9 +3250,34 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street (West)"
+      },
+      "source": "Manhattan: 34th Street (West) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "712103f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712103f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7034a3a0-c541-012f-9bee-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (West) - 2nd Avenue",
     "text": "34 St. w. from 2 Av. \"L\". Flag on P.O.\nP.L. Sperr\n6-13-42\n",
@@ -1321,9 +3292,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "712107f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712107f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/722220b0-c541-012f-390b-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "Demolition of 34th St. \"L\" Station\nP.L. Sperr, photographer\n7-19-1942\n",
@@ -1338,9 +3333,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "34th Street"
+      },
+      "source": "Manhattan: 34th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712112f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712112f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7439e550-c541-012f-bc2a-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 2nd Avenue",
     "text": "Harriet Hubbard Ayer Building\n34th St. from 2nd Ave. \"L\"\nJune 13, 1942\nP. L. Sperr, photographer\n",

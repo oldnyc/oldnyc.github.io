@@ -2,9 +2,33 @@
   {
     "date": "1901; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Portland Avenue S.)"
+      },
+      "source": "Brooklyn: Portland Avenue S.) - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "706832f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706832f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e65fd7b0-c538-012f-38cb-58d385a7bc34",
     "original_title": "Brooklyn: Portland Avenue S.) - Atlantic Avenue",
     "text": "(1)\n\n127-145 South Portland Ave., east side, north from north of Atlantic Ave., to Hanson Place, showing the Hanson Place Baptist Church at No. 127, at the S.E. corner of Hanson Place. November 26, 1927.\n\nP. L. Sperr.\n\n(2)\n\nThe same, showing only the church which was dedicated in 1860. This Congregation was organized in 1854. About 1901.\n\nEugene L. Armbruster Collection.\n",
@@ -20,9 +44,33 @@
   {
     "date": "1901; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Portland Avenue S.)"
+      },
+      "source": "Brooklyn: Portland Avenue S.) - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "706832f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706832f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e65fd7b0-c538-012f-38cb-58d385a7bc34",
     "original_title": "Brooklyn: Portland Avenue S.) - Atlantic Avenue",
     "text": "(1)\n\n127-145 South Portland Ave., east side, north from north of Atlantic Ave., to Hanson Place, showing the Hanson Place Baptist Church at No. 127, at the S.E. corner of Hanson Place. November 26, 1927.\n\nP. L. Sperr.\n\n(2)\n\nThe same, showing only the church which was dedicated in 1860. This Congregation was organized in 1854. About 1901.\n\nEugene L. Armbruster Collection.\n",
@@ -38,9 +86,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "South Portland Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - South Portland Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703038f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703038f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0aacb460-c533-012f-b38e-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - South Portland Avenue",
     "text": "669-681 Atlantic Ave., north side, from and including South Portland, to and including South Oxford Streets.  All the houses are frame.\n\nSeptember 26, 1927\n\nP.L. Sperr\n",
@@ -55,9 +125,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Avenue",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "703039f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703039f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b066550-c533-012f-c037-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - 6th Avenue",
     "text": "Atlantic Avenue, west from near Sixth Avenue, showing the W.P.A. highway and sewer project.  Also shown is the trestle of the Long Island Railroad.\n\n1936\n\nWorks Progress Administration\nFive Boroughs Project\n",
@@ -72,9 +166,30 @@
   {
     "date": "1941-09-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "South Portland Avenue"
+      },
+      "source": "Atlantic Avenue and South Portland Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1509509-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509509-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ef402c0-c5cd-012f-ff33-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -88,9 +203,30 @@
   {
     "date": "1941-09-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "South Portland Avenue"
+      },
+      "source": "Atlantic Avenue and South Portland Avenue",
+      "technique": "gpt"
+    },
     "height": 421,
     "id": "1509679-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509679-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb504930-c5cd-012f-306f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -107,9 +243,27 @@
     "dates_from_text": [
       "1941-09-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Portland Avenue S.)"
+      },
+      "source": "Brooklyn: Portland Avenue S.) - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706830f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706830f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e59857c0-c538-012f-5e38-58d385a7bc34",
     "original_title": "Brooklyn: Portland Avenue S.) - Atlantic Avenue",
     "text": "South Portland Avenue, east side, between Atlantic Avenue and Hanson Place, looking north toward the latter.\n\nP. L. Sperr\n\nSeptember 2, 1941\n",

@@ -2,9 +2,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Church Street and Fulton Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Church Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Church Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 511,
     "id": "717107f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717107f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "St. Paul Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5609bd50-c549-012f-4251-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Church Street",
     "text": "Neg. B-35 - B-36 Broadway, w. to Church St. & Fulton, n. to Vesey St. c. 1923 E.L. Armbruster - photographer St. Paul's Church",
@@ -19,9 +54,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Church Street and Fulton Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Church Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Church Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 456,
     "id": "717107f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717107f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "St. Paul Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5609bd50-c549-012f-4251-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Church Street",
     "text": "Neg. B-35 - B-36 Broadway, w. to Church St. & Fulton, n. to Vesey St. c. 1923 E.L. Armbruster - photographer St. Paul's Church",
@@ -36,9 +106,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Manhattan: Church Street - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10e82190-c54c-012f-e4dc-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Fulton Street",
     "text": "Church Street, west side, at Fulton Street.\nApril 1, 1928.\n\nP. L. Sperr.\n",
@@ -53,9 +146,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Manhattan: Fulton Street - Church Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719964f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719964f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Elevated railroads",
+          "Fire stations",
+          "Missions",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d77ac2d0-c54d-012f-b9e5-58d385a7bc34",
     "original_title": "Manhattan: Fulton Street - Church Street",
     "text": "(1) Fulton Street, north side, west from but not including Church, to and including West Streets. The 6 story buildings to the right center (triangular cornices) are Trinity Mission (No. 211) and St. Christopher Chapel (No. 213). P. L. Sperr.  August 6, 1930\n\n(2) The same view from Church Street. (Sixth Avenue \"E1\" overhead, demolished Spring 1939), showing in the center of this block the demolition of No's 201-3, the Lilly Building. In the foreground, adjoining the corner is Hook and Ladder No. 10. The 2 story structure at the corner (Nedicks) stands on the site of a former 5 story building (No. 191 Fulton Street) which was demolished when Church Street was widened during the construction period of the Municipal (Eighth Avenue) subway. At the left appears Pier 14, occupied by the Fall River Line, and the 10 story Glackner Building. The latter bears No's. 192 Greenwich Street and 227-229 Fulton Street and stands at the N.W. corner. Obscuring the lower portion of these is the Ninth Avenue \"E1\". P. L. Sperr.  August 2, 1938\n",
@@ -70,9 +190,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Manhattan: Fulton Street - Church Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "719964f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/719964f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Elevated railroads",
+          "Fire stations",
+          "Missions",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d77ac2d0-c54d-012f-b9e5-58d385a7bc34",
     "original_title": "Manhattan: Fulton Street - Church Street",
     "rotation": 90,
@@ -91,9 +238,27 @@
     "dates_from_text": [
       "1933-06-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Manhattan: Church Street - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "718858f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718858f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/108393b0-c54c-012f-2209-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Fulton Street",
     "text": "Church Street at the N.W. corner of Fulton Street.\n\nJune 23, 1933.\n\nP. L. Sperr.\n",
@@ -108,9 +273,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Church Street and Fulton Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1557902",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557902.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/360b8710-c5ed-012f-70a5-58d385a7bc34",
     "text": null,
     "text_source": null,

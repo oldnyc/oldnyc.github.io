@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1736,
+        "street": "Cropsey Avenue"
+      },
+      "source": "1736 Cropsey Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "703893f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703893f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cropsey Avenue No. 1736, Brooklyn."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c406da0-c534-012f-334e-58d385a7bc34",
     "text": "Cropsey Ave., no.1736.\nFederal Art Project, \"Changing New York,\" photographs by Berenice Abbott, 50 Commerce St., N.Y.C.\nOct. 29, 1936\n",
     "text_source": "gpt",

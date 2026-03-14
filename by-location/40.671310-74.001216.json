@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-08-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay Street",
+        "str2": "Court Street"
+      },
+      "source": "Brooklyn: Bay Street - Court Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703111f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703111f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2695e480-c533-012f-2b41-58d385a7bc34",
     "original_title": "Brooklyn: Bay Street - Court Street",
     "text": "Bay Street, north side, west of Court Street.  The house in the foreground, is No. 633 Court Street.\nAugust 5, 1934.\nP. L. Sperr.\n",

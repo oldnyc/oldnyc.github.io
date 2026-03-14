@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "169th Street",
+        "str2": "Jerome Avenue"
+      },
+      "source": "Bronx: Jerome Avenue - 169th Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "701336f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701336f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/859af9a0-c530-012f-abbc-58d385a7bc34",
     "original_title": "Bronx: Jerome Avenue - 169th Street",
     "text": "Clearing lot Jerome Ave & 169th St.\n\nPublication Subject to Written Permission or Invoice Hiram Meyers\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",

@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Street (East)",
+        "str2": "Sheepshead Bay Road"
+      },
+      "source": "Brooklyn: Sheepshead Bay Road - 16th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706711f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706711f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8aaab80-c538-012f-28e1-58d385a7bc34",
     "original_title": "Brooklyn: Sheepshead Bay Road - 16th Street (East)",
     "text": "Sheepshead Bay Road, south from East 16th Street. At the left is Jerome Ave.\n\nAugust 1, 1935.\n\nP. L. Sperr.\n",

@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1927-04-16"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1442,
+        "street": "West Farms Road"
+      },
+      "source": "1442 West Farms Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "E. P. Chrystie",
+        "str2": "West Farms Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 391,
     "id": "702072f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702072f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99ecded0-c531-012f-48e5-58d385a7bc34",
     "text": "1442-1444 West Farms Road, Bronx.\nE. P. Chrystie\nApril 16, 1927\n",
     "text_source": "gpt",
@@ -26,9 +52,27 @@
       "1938-04-26",
       "1927-04-16"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1442,
+        "street": "West Farms Road"
+      },
+      "source": "1442 West Farms Road",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "702073f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702073f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/969ff9a0-c531-012f-be87-58d385a7bc34",
     "text": "(1)\n\n1442-44 and 1448 West Farms Road, east side, between the terminus of Edgewater Road and East 172nd Street. The view is in a northerly direction.\n\nMay 31, 1928\n\nP. L. Sperr\n\n(2)\n\nAn exclusive view of No. 1442-44, ten years later.\n\nApril 26, 1938\n\nP. L. Sperr\n\n(3)\n\nAn additional view of No. 1442-44.\nThis print is mounted on a separate mount.\n\nE. P. Chrystie\n\nApril 16, 1927\n",
     "text_source": "gpt",
@@ -49,9 +93,27 @@
       "1938-04-26",
       "1927-04-16"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1442,
+        "street": "West Farms Road"
+      },
+      "source": "1442 West Farms Road",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "702073f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702073f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/969ff9a0-c531-012f-be87-58d385a7bc34",
     "text": "(1)\n\n1442-44 and 1448 West Farms Road, east side, between the terminus of Edgewater Road and East 172nd Street. The view is in a northerly direction.\n\nMay 31, 1928\n\nP. L. Sperr\n\n(2)\n\nAn exclusive view of No. 1442-44, ten years later.\n\nApril 26, 1938\n\nP. L. Sperr\n\n(3)\n\nAn additional view of No. 1442-44.\nThis print is mounted on a separate mount.\n\nE. P. Chrystie\n\nApril 16, 1927\n",
     "text_source": "gpt",
@@ -70,9 +132,35 @@
     "dates_from_text": [
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1440,
+        "street": "West Farms Road"
+      },
+      "source": "1440 West Farms Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "No. 1440",
+        "str2": "West Farms Road",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "702071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96308680-c531-012f-3f33-58d385a7bc34",
     "text": "1440 West Farms Road, east side, between Jennings Street and East 172nd Street, showing an old house. The house stands 150 feet back of the road.\n\nApril 26, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

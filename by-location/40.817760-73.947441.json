@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "136th Street (West)",
+        "str2": "Edgecombe Avenue"
+      },
+      "source": "Manhattan: Edgecombe Avenue - 136th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "719620f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719620f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42803780-c54d-012f-0143-58d385a7bc34",
     "original_title": "Manhattan: Edgecombe Avenue - 136th Street (West)",
     "text": "Edgecomb Avenue and West 136th Street, showing P.S. 136\n1920.\n",

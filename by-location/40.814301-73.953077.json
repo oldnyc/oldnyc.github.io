@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "129th Street",
+        "str2": "Convent Avenue"
+      },
+      "source": "129th Street and Convent Avenue",
+      "technique": "gpt"
+    },
     "height": 524,
     "id": "417269",
     "image_url": "https://images.nypl.org/?id=417269&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1d92ed0-c611-012f-a896-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "129th Street (West)",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - 129th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "719184f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719184f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94f82790-c54c-012f-421a-58d385a7bc34",
     "original_title": "Manhattan: Convent Avenue - 129th Street (West)",
     "text": "Convent Avenue, at the northwest corner of West 129th Street, showing the school of the convent of the Sacred Heart.\n\nGeorge L. Balgue\n\nApril, 1932\n",

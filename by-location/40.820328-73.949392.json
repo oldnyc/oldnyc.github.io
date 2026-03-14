@@ -2,9 +2,29 @@
   {
     "date": "1911-05",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "138th Street",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - 138th Street.",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "731415f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731415f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Convent Avenue - 138th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8121ea50-c55f-012f-156f-58d385a7bc34",
     "text": "College of the City of New York: The Main Building, on the east side of Convent Avenue between 138th and 140th Streets, seen from the campus.\nGeorge L. Balgue  May. 1911\n",
     "text_source": "site",

@@ -2,9 +2,44 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "118th Street and Pleasant Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 429,
     "id": "715166f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715166f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53957ae0-c546-012f-0440-58d385a7bc34",
     "original_title": "Manhattan: 118th Street - East River Drive",
     "text": "(1)\n118th Street, East River to Pleasant Avenue.\n(Before reconstruction).\n\nNovember 9, 1919.\n\n(2)\nSame, after reconstruction).\n\nAugust 2, 1920.\n",
@@ -22,9 +57,41 @@
     "dates_from_text": [
       "1920-08-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "118th Street and Pleasant Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 420,
     "id": "715167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53fcdf50-c546-012f-b5f7-58d385a7bc34",
     "original_title": "Manhattan: 118th Street - East River Drive",
     "text": "118th Street, East River to Pleasant Avenue. (Before Reconstruction).\nAugust 2, 1920.\n",
@@ -42,9 +109,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "118th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: 118th Street (East) - Pleasant Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715169f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715169f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54b88640-c546-012f-0ae4-58d385a7bc34",
     "original_title": "Manhattan: 118th Street (East) - Pleasant Avenue",
     "text": "502-504 East 118th Street, south side, just east of Pleasant Avenue. No. 502 is a 2\u00bd-story frame house.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -59,9 +144,30 @@
   {
     "date": "1934; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "118th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: 118th Street (East) - Pleasant Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715168f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715168f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54652c70-c546-012f-c6a8-58d385a7bc34",
     "original_title": "Manhattan: 118th Street (East) - Pleasant Avenue",
     "text": "(1) East 118th Street, north side, east from (No. 517), but not including Pleasant Ave., to the Harlem River. Notice building on Randall's Island in the background. September 12, 1934.\n\nP. L. Sperr.\n\n(2) The same, and showing a closer view of Nos. 517 to 529. July 15, 1936.\n\nP. L. Sperr.\n",
@@ -77,9 +183,30 @@
   {
     "date": "1934; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "118th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: 118th Street (East) - Pleasant Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715168f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715168f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54652c70-c546-012f-c6a8-58d385a7bc34",
     "original_title": "Manhattan: 118th Street (East) - Pleasant Avenue",
     "text": "(1) East 118th Street, north side, east from (No. 517), but not including Pleasant Ave., to the Harlem River. Notice building on Randall's Island in the background. September 12, 1934.\n\nP. L. Sperr.\n\n(2) The same, and showing a closer view of Nos. 517 to 529. July 15, 1936.\n\nP. L. Sperr.\n",

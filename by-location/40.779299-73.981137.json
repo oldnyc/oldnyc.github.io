@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "73d St",
+        "str2": "Amsterdam Ave"
+      },
+      "source": "73d St and Amsterdam Ave",
+      "technique": "gpt"
+    },
     "height": 552,
     "id": "464834-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464834-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12c02a20-c612-012f-7cd9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "73d St",
+        "str2": "Amsterdam Ave"
+      },
+      "source": "73d St and Amsterdam Ave",
+      "technique": "gpt"
+    },
     "height": 191,
     "id": "464834-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464834-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12c02a20-c612-012f-7cd9-58d385a7bc34",
     "text": null,
     "text_source": null,

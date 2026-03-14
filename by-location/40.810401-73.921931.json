@@ -2,9 +2,36 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "140th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: 140th Street (East) - Willis Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "700082f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700082f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Business districts",
+          "Elevated railroads",
+          "Moving & storage trade"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3a2dbd0-c52e-012f-4f86-58d385a7bc34",
     "original_title": "Bronx: 140th Street (East) - Willis Avenue",
     "text": "E. 140th Street, north side, west from Willis Avenue. The Third Avenue \"El\" crosses the street between Willis and Alexander Avenues.\n\nP. L. Sperr\n\nApril 29, 1941\n",
@@ -19,9 +46,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "140th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: Willis Avenue - 140th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702193f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702193f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4418880-c531-012f-4ef0-58d385a7bc34",
     "original_title": "Bronx: Willis Avenue - 140th Street (East)",
     "text": "Willis Avenue, north from E. 140th Street, showing the buildings on the east side of the avenue and the Willis Avenue Methodist Church, at E. 141st Street.\nP. L. Sperr\nApril 29, 1941\n",

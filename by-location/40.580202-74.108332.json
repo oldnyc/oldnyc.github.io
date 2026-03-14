@@ -2,9 +2,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Colfax Avenue",
+        "str2": "North Railroad Avenu"
+      },
+      "source": "Richmond: North Railroad Avenu - Colfax Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729225f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729225f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods",
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe9156d0-c55b-012f-a72f-58d385a7bc34",
     "text": "North Railroad Avenue, at the N. E. corner of Colfax Avenue.\nMay 26, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",

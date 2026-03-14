@@ -2,9 +2,30 @@
   {
     "date": "1941-10-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "20th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "20th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 413,
     "id": "1509749-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509749-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c74d1160-c5cd-012f-36c2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1941-10-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "20th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 7th Avenue - 20th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702457f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702457f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b176c40-c532-012f-992c-58d385a7bc34",
     "original_title": "Brooklyn: 7th Avenue - 20th Street",
     "text": "Seventh Avenue north of 20th Street, B'klyn.\nOct. 6, 1941\nP. L. Sperr, photographer\n",
@@ -41,9 +80,27 @@
     "dates_from_text": [
       "1941-10-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "20th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 20th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702642f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702642f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7122dda0-c532-012f-7952-58d385a7bc34",
     "original_title": "Brooklyn: 20th Street - 7th Avenue",
     "text": "20th St. adjoining the n.w. corner of 7th Ave., B'klyn.\nOct. 6, 1941\nP. L. Sperr, photographer\n",

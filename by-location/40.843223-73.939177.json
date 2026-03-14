@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "171st Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 171st Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 393,
     "id": "715768f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715768f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3afe91e0-c547-012f-0e0d-58d385a7bc34",
     "original_title": "Manhattan: 171st Street (West) - Broadway",
     "text": "565-560 West 171st Street, south side, east of Broadway.\n1932.\nJ.Clarence Davies Collection, Museum of the City of New York.\n",

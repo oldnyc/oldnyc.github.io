@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Conselyea Street",
+        "str2": "Graham Avenue"
+      },
+      "source": "Brooklyn: Conselyea Street - Graham Avenue",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "703806f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703806f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38818860-c534-012f-d1df-58d385a7bc34",
     "original_title": "Brooklyn: Conselyea Street - Graham Avenue",
     "text": "185 Conselyea Street, north side, between Graham Ave., and Humboldt Street, showing the older section of P.S. No. 23.\n\nSeptember 1928.\n\nEugene L Armbruster Collection.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Conselyea Street",
+        "str2": "Graham Avenue"
+      },
+      "source": "Brooklyn: Graham Avenue - Conselyea Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "704674f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704674f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Florist shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96a84900-c535-012f-08d2-58d385a7bc34",
     "original_title": "Brooklyn: Graham Avenue - Conselyea Street",
     "text": "366-378 Graham Ave., east side, north from Conselyea Street. Also seen 169-173A Conselyea Street, north side, east from Graham Ave. A manufactory of monuments is seen on Conselyea Street. In the foreground, is\nthe trolley tracks of the Graham Ave., trolley lines.\nMarch 3, 1935.\nP. L. Sperr.\n",
@@ -36,9 +81,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Conselyea Street",
+        "str2": "Graham Avenue"
+      },
+      "source": "Brooklyn: Graham Avenue - Conselyea Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "704673f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704673f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Florist shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9652eef0-c535-012f-4010-58d385a7bc34",
     "original_title": "Brooklyn: Graham Avenue - Conselyea Street",
     "text": "Graham Ave., north from the N.E. corner of Conselyea Street.\nJuly 23, 1937.\nP. L. Sperr.\n",

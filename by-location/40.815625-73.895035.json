@@ -2,9 +2,51 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1061,
+        "street": "Longwood Avenue"
+      },
+      "source": "1061 Longwood Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Lafayette Avenue",
+        "str2": "Longwood Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Lafayette Avenue",
+        "str2": "Longwood Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "701386f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701386f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York, New Haven, and Hartford Railroad Company"
+        ],
+        "topic": [
+          "Printers",
+          "Printing industry",
+          "Railroad bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98ecb4d0-c530-012f-a0ae-58d385a7bc34",
     "original_title": "Bronx: Lafayette Avenue - Longwood Avenue",
     "text": "Lafayette Avenue, east from Longwood Avenue, across the bridge over the New York, New Haven and Hartford Railroad tracks. Beyond the bridge is the plant of the American Bank Note Company, at Tiffany Street. The old house on the right is No. 1061 Longwood Avenue. View 2 shows the same area at a later date.\n\nP. L. Sperr\n\nView 1: July 4, 1928\nView 2: September 9, 1938\n",
@@ -19,9 +61,51 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1061,
+        "street": "Longwood Avenue"
+      },
+      "source": "1061 Longwood Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Lafayette Avenue",
+        "str2": "Longwood Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Lafayette Avenue",
+        "str2": "Longwood Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "701386f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701386f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York, New Haven, and Hartford Railroad Company"
+        ],
+        "topic": [
+          "Printers",
+          "Printing industry",
+          "Railroad bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98ecb4d0-c530-012f-a0ae-58d385a7bc34",
     "original_title": "Bronx: Lafayette Avenue - Longwood Avenue",
     "text": "Lafayette Avenue, east from Longwood Avenue, across the bridge over the New York, New Haven and Hartford Railroad tracks. Beyond the bridge is the plant of the American Bank Note Company, at Tiffany Street. The old house on the right is No. 1061 Longwood Avenue. View 2 shows the same area at a later date.\n\nP. L. Sperr\n\nView 1: July 4, 1928\nView 2: September 9, 1938\n",

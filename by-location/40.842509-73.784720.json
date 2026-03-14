@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Pell Street"
+      },
+      "source": "Bronx: City Island Avenue - Pell Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "700745f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700745f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b19acac0-c52f-012f-027a-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Pell Street",
     "text": "139 City Island Ave., at the S.W. corner of Pell Street, showing Bracker's Restaurant.\n\nJuly 26, 1928.\n\nP. L. Sperr.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1928-07-26"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Pell Street"
+      },
+      "source": "Bronx: City Island Avenue - Pell Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "700763f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700763f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b78ac620-c52f-012f-fcff-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Pell Street",
     "text": "City Island Avenue (City Island), west side, north from Pell to Winters Streets. The houses in the center background face on the north side of Winters Street; those on the extreme left, on the north side of Earley Street.\n\nJuly 26, 1928\n\nP. L. Sperr\n",

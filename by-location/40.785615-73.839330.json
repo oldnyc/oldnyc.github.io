@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "129th Street",
+        "str2": "14th Avenue"
+      },
+      "source": "Queens: 14th Avenue - 129th Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "725026f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725026f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d000b410-c555-012f-fc0e-58d385a7bc34",
     "original_title": "Queens: 14th Avenue - 129th Street",
     "text": "Fourteenth Ave., at the N.E. corner of 129th Street, showing the G. Lawrence Estate in 1873. This house appears in the Queens Atlas of 1873 and 1926. It does not appear in the Atlases of 1891 and 1909.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

@@ -6,9 +6,27 @@
       "1928-10",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "61st Avenue",
+        "str2": "Flushing Avenue"
+      },
+      "source": "Queens: 61st Avenue - Flushing Avenue",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "725514f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725514f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7520bb20-c556-012f-f252-58d385a7bc34",
     "original_title": "Queens: 61st Avenue - Flushing Avenue",
     "text": "Sixty-first Ave. (old Fresh Pond Road), at the N.E. corner of Flushing Ave., showing an old building which was demolished in October 1928; formerly used as a library.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

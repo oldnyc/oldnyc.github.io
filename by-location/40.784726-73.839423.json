@@ -2,9 +2,35 @@
   {
     "date": "1927; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "129th Street",
+        "str2": "15th Avenue"
+      },
+      "source": "129th Street and 15th Avenue",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "730523f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730523f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Flushing Airport"
+        ],
+        "topic": [
+          "Airports",
+          "Croplands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/20ced270-c55e-012f-08c0-58d385a7bc34",
     "text": "Flushing Airport (Queens): A view southeastward toward the airport, seen from 129th Street near 15th Avenue, College Point. The airport is situated between Flushing and College Point.\n\nP. L. Sperr\n\nView 1: March 3, 1932\nView 2: April 13, 1937\n\nView 2: The area that later became the Flushing Airport.\n",
     "text_source": "gpt",

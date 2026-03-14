@@ -2,9 +2,27 @@
   {
     "date": "1890; 1964",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 160th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722817f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722817f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47afcb80-c552-012f-8a44-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 160th Street",
     "text": "Riverside Drive, west side, below West 160th Street, showing rear of houses.\n\nP. L. sperr\n\nMay 18, 1940\n",
@@ -20,9 +38,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street looking east",
+        "str2": "Riverside Dr"
+      },
+      "source": "Manhattan: Riverside Dr. - 160th Street looking east",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "1508051-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508051-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5d49a7d0-c5ce-012f-870b-58d385a7bc34",
     "text": null,
     "text_source": null,

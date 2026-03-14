@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ralph Ave.",
+        "str2": "Sutter Ave."
+      },
+      "source": "Brooklyn: Sutter Ave. - Ralph Ave.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707008f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707008f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29aef360-c539-012f-451c-58d385a7bc34",
     "original_title": "Brooklyn: Sutter Ave. - Ralph Ave.",
     "text": "Sutter Ave., east from Ralph Ave.\nMay 8, 1936.\n\nP. L. Sperr.\n\nNeg. # 1815 (8x10 Neg).\n",

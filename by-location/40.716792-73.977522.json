@@ -2,9 +2,44 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Goerck Street and Rivington Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Goerck Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Goerck Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 454,
     "id": "720007f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720007f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e87bb8f0-c54d-012f-1ff7-58d385a7bc34",
     "original_title": "Manhattan: Goerck Street - Delancey Street",
     "text": "59-65 Goerk Street, west side, between Delancey and Rivington Streets, as viewed in a southwestern direction. Buildings shown are stables according to Bromley Atlas of 1922.\n\nAbout 1926.\n\nW. B. Vernam.\n",
@@ -19,9 +54,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck St.",
+        "str2": "Rivington St."
+      },
+      "source": "Goerck St. and Rivington St.",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984318",
     "image_url": "https://images.nypl.org/?id=3984318&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f14fc440-c5d6-012f-5d7a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +94,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck St.",
+        "str2": "Rivington St."
+      },
+      "source": "Goerck St. and Rivington St.",
+      "technique": "gpt"
+    },
     "height": 432,
     "id": "3984334",
     "image_url": "https://images.nypl.org/?id=3984334&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5b5b170-c5d6-012f-1a8a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +134,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck St.",
+        "str2": "Rivington St."
+      },
+      "source": "Goerck St. and Rivington St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984800",
     "image_url": "https://images.nypl.org/?id=3984800&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7fafa70-c5d7-012f-d955-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -67,9 +174,32 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Goerck Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99bfc9c0-c552-012f-be9b-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Goerck Street",
     "text": "Rivington Street, north side, west from Goerck Street, showing tenements interspersed with clearances. Upon the one in the foreground, which is between Goerck and Lewis Streets, stood three tenements that bore No's 314 to 318. To the west is the present recreation lot where former P.S. No. 88 formerly stood at the N.W. corner of Rivington and Lewis Streets. Note on the left margin a bare outline and the spire of the De Witt Memorial Church.\n\nJune 29, 1938.\n\nP.L. Sperr\n",
@@ -84,9 +214,29 @@
   {
     "date": "1939-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Goerck Street and Rivington Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "485732",
     "image_url": "https://images.nypl.org/?id=485732&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57d93750-c60e-012f-8a37-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -100,9 +250,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Goerck Street - Rivington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720008f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720008f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8e04c50-c54d-012f-df09-58d385a7bc34",
     "original_title": "Manhattan: Goerck Street - Rivington Street",
     "text": "Goe rck Street, north from Rivington Street. The cleared area shown lies between Rivington and Stanton Street's.\n\nMay 12, 1939\nNo's. 1-2-3\n\nP. L. Sperr\n",
@@ -117,9 +289,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Goerck Street - Rivington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720008f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720008f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8e04c50-c54d-012f-df09-58d385a7bc34",
     "original_title": "Manhattan: Goerck Street - Rivington Street",
     "text": "Goe rck Street, north from Rivington Street. The cleared area shown lies between Rivington and Stanton Street's.\n\nMay 12, 1939\nNo's. 1-2-3\n\nP. L. Sperr\n",
@@ -134,9 +328,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Goerck Street - Rivington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720008f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720008f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8e04c50-c54d-012f-df09-58d385a7bc34",
     "original_title": "Manhattan: Goerck Street - Rivington Street",
     "text": "Goe rck Street, north from Rivington Street. The cleared area shown lies between Rivington and Stanton Street's.\n\nMay 12, 1939\nNo's. 1-2-3\n\nP. L. Sperr\n",
@@ -151,9 +367,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Goerck Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Goerck Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722997f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722997f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a2a0940-c552-012f-7868-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Goerck Street",
     "text": null,

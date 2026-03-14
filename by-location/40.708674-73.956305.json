@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Street (South)",
+        "str2": "Rodney Street"
+      },
+      "source": "Brooklyn: 5th Street (South) - Rodney Street",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "702421f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702421f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e5511b0-c532-012f-30a7-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (South) - Rodney Street",
     "text": "South 5th Street, south side, at Rodney Street, viewing west and across the latter (truck) from near Keap St. and showing a W. P. A. street improvement project. On the left is St. Pauls Evangelical Lutheran Church.\n\nSeptember 25, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

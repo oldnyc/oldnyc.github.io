@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1906"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "13th St. E.",
+        "str2": "Ave. U"
+      },
+      "source": "Brooklyn: Ave. U - 13th St. E.",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "707097f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707097f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ca30490-c539-012f-3dd1-58d385a7bc34",
     "original_title": "Brooklyn: Ave. U - 13th St. E.",
     "text": "Ave. U. at the N.E. corner of East 13th Street. The buildings facing Ave. U, were razed to make way for 3-story business and residential brick buildings.\n\nAbout 1906.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,32 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broome Street",
+        "str2": "Forsyth Street"
+      },
+      "source": "Manhattan: Forsyth Street - Broome Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "719773f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719773f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cafeterias"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/849032d0-c54d-012f-df62-58d385a7bc34",
     "original_title": "Manhattan: Forsyth Street - Broome Street",
     "text": "Forsyth Street, west side, north from and including Broome, to Delancey Streets. Also shown, are Nos. 306-310 Broome Street, at, adjoining and west of the N.W. corner of Forsyth Street.\n\nJuly 18, 1929.\n\nP. L. Sperr.\n",

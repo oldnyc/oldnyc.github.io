@@ -2,9 +2,32 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street (East)"
+      },
+      "source": "Manhattan: 64th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714166f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714166f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Dwellings",
+          "Wilson, Orme, Jr"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2f6cbc0-c544-012f-25a1-58d385a7bc34",
     "original_title": "Manhattan: 64th Street (East) - 5th Avenue",
     "text": "#3-15 East 64th Street, North Side, between Fifth and Madison Avenues, showing the 5 story Orme Wilson, Jr. house, (#11), under construction. Between this and #3 lies #9, the property of E.P. Nichols which will shortly be demolished.\n\nAbout 1900.\n\nPhotography by, Brown Bros.\n108 Fulton Street,\n",
@@ -22,9 +45,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 64th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709099f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709099f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b4b52a0-c53c-012f-2511-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 64th Street",
     "text": "Fifth Avenue at S.E. corner of 64th Street. Residence of James Ben Ali Higgin. About 1910.",
@@ -42,9 +83,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 64th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709101f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709101f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c0d7a60-c53c-012f-1ce6-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 64th Street",
     "text": "834 and 835 Fifth Avenue, east side, between E. 64th and 65th Streets. Frank Gould is the owner of No. 834 and John W. Herbert of No. 835. The latter has been remodelled by Harry Allan Jacobs, Architect. F. Lewishon resided here until demolition in 1930 for the 15 story apartment house (No. 830), a structure that occupies this site and adjoining properties.\n\n1910\n\nFloyd E. Baker\n",
@@ -59,9 +118,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street (East)"
+      },
+      "source": "Manhattan: 64th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714165f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714165f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d298c470-c544-012f-6916-58d385a7bc34",
     "original_title": "Manhattan: 64th Street (East) - 5th Avenue",
     "text": "14-18 East 64th Street, south side, between Fifth and Madison Avenues.\n\nAbout 1922.\n\nGift of E. M. Jenks.\n",
@@ -76,9 +159,45 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "5th Avenue and 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "View of the Arsenal Building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 453,
     "id": "718190f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718190f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 64th Street ; Central Park Arsenal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Armories",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02d04af0-c54b-012f-a8d5-58d385a7bc34",
     "text": "Central Park: A set of 4 views of the Arsenal under reconstruction, photographed in a northeastward direction from in the Park, showing the rear of same with the menagerie to the south (frame structures on the right). Across the background are buildings on the east side of Fifth Ave. at about 64th Street. The corner stone of this structure was laid on July 4, 1847. Later it became the headquarters of the Park Police; who still occupy same today (1938).\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -92,9 +211,45 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "5th Avenue and 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "View of the Arsenal Building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 449,
     "id": "718190f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718190f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 64th Street ; Central Park Arsenal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Armories",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02d04af0-c54b-012f-a8d5-58d385a7bc34",
     "text": "Central Park: A set of 4 views of the Arsenal under reconstruction, photographed in a northeastward direction from in the Park, showing the rear of same with the menagerie to the south (frame structures on the right). Across the background are buildings on the east side of Fifth Ave. at about 64th Street. The corner stone of this structure was laid on July 4, 1847. Later it became the headquarters of the Park Police; who still occupy same today (1938).\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -108,9 +263,45 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "5th Avenue and 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "View of the Arsenal Building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 455,
     "id": "718190f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718190f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 64th Street ; Central Park Arsenal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Armories",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02d04af0-c54b-012f-a8d5-58d385a7bc34",
     "text": "Central Park: A set of 4 views of the Arsenal under reconstruction, photographed in a northeastward direction from in the Park, showing the rear of same with the menagerie to the south (frame structures on the right). Across the background are buildings on the east side of Fifth Ave. at about 64th Street. The corner stone of this structure was laid on July 4, 1847. Later it became the headquarters of the Park Police; who still occupy same today (1938).\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -124,9 +315,45 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "5th Avenue and 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "View of the Arsenal Building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 475,
     "id": "718190f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718190f-d.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 64th Street ; Central Park Arsenal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Armories",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02d04af0-c54b-012f-a8d5-58d385a7bc34",
     "text": "Central Park: A set of 4 views of the Arsenal under reconstruction, photographed in a northeastward direction from in the Park, showing the rear of same with the menagerie to the south (frame structures on the right). Across the background are buildings on the east side of Fifth Ave. at about 64th Street. The corner stone of this structure was laid on July 4, 1847. Later it became the headquarters of the Park Police; who still occupy same today (1938).\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -143,9 +370,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 64th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709098f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709098f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ad33da0-c53c-012f-d943-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 64th Street",
     "text": "824 to 827 Fifth Avenue, at S.E. corner of 64th Street. June, 1925.",
@@ -163,9 +408,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 64th Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "709100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b961de0-c53c-012f-de82-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 64th Street",
     "text": "Fifth Avenue, east side, 64th to 65th Streets. June 1925.\nHouses are those of James Ben Ali Haggin (corner bldg), William Guggenheim, Frank Jay Gould, John W. Herbert, and Mrs. Isador Wormser.\n",
@@ -180,9 +443,29 @@
   {
     "date": "1930-05-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "64th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 64th Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1508865-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508865-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9fd594f0-c5ce-012f-1af0-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -196,9 +479,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "709103f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709103f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cc86420-c53c-012f-f4fc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
     "text": "(1)\nFifth Avenue, east side, south from East 65th (left) to 64th (right) Streets, as viewed from the 65th Street transverse road thru Central Park. These structures in 1925 were listed as the properties of the following individuals: Sophie A. Sherman (No. 837); Kate Bover (No. 836); F. Lewisohn (No. 835); A. S. Guggenheimer (No. 833); M. V. Hoggin (No. 830).\n\nMarch 10, 1929\n\nP. L. Sperr.\n\n(2)\nA northward view from East 64th Street, showing the site for a modern apartment house, (No. 830 Fifth Avenue) being prepared. This included the entire block front exclusive of the corner structures as shown. The corner house is the James Ben Ali Haggin mansion.\n\nAug. 15, 1929\n\nP. L. Sperr.\n\n(3)\nA view similar to No. 1 but not as inclusive. Note the Sherman house at the S.E. corner of East 65th St. still standing.\n\nApril 23, 1938.\n\nP. L. Sperr.\n",
@@ -213,9 +517,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "709103f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709103f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cc86420-c53c-012f-f4fc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
     "text": "(1)\nFifth Avenue, east side, south from East 65th (left) to 64th (right) Streets, as viewed from the 65th Street transverse road thru Central Park. These structures in 1925 were listed as the properties of the following individuals: Sophie A. Sherman (No. 837); Kate Bover (No. 836); F. Lewisohn (No. 835); A. S. Guggenheimer (No. 833); M. V. Hoggin (No. 830).\n\nMarch 10, 1929\n\nP. L. Sperr.\n\n(2)\nA northward view from East 64th Street, showing the site for a modern apartment house, (No. 830 Fifth Avenue) being prepared. This included the entire block front exclusive of the corner structures as shown. The corner house is the James Ben Ali Haggin mansion.\n\nAug. 15, 1929\n\nP. L. Sperr.\n\n(3)\nA view similar to No. 1 but not as inclusive. Note the Sherman house at the S.E. corner of East 65th St. still standing.\n\nApril 23, 1938.\n\nP. L. Sperr.\n",
@@ -230,9 +555,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "709103f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709103f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cc86420-c53c-012f-f4fc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
     "text": "(1)\nFifth Avenue, east side, south from East 65th (left) to 64th (right) Streets, as viewed from the 65th Street transverse road thru Central Park. These structures in 1925 were listed as the properties of the following individuals: Sophie A. Sherman (No. 837); Kate Bover (No. 836); F. Lewisohn (No. 835); A. S. Guggenheimer (No. 833); M. V. Hoggin (No. 830).\n\nMarch 10, 1929\n\nP. L. Sperr.\n\n(2)\nA northward view from East 64th Street, showing the site for a modern apartment house, (No. 830 Fifth Avenue) being prepared. This included the entire block front exclusive of the corner structures as shown. The corner house is the James Ben Ali Haggin mansion.\n\nAug. 15, 1929\n\nP. L. Sperr.\n\n(3)\nA view similar to No. 1 but not as inclusive. Note the Sherman house at the S.E. corner of East 65th St. still standing.\n\nApril 23, 1938.\n\nP. L. Sperr.\n",
@@ -247,9 +593,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "709102f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709102f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "833-834 5th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c7f9b20-c53c-012f-a2bb-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
     "text": "(1) and (2)\n833-834/Fifth Avenue. Side Walk and curb conditions.\n No date.\n",
@@ -264,9 +631,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "64th Street"
+      },
+      "source": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "709102f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709102f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "833-834 5th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c7f9b20-c53c-012f-a2bb-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - Between 64th and 65th Streets",
     "text": "(1) and (2)\n833-834/Fifth Avenue. Side Walk and curb conditions.\n No date.\n",

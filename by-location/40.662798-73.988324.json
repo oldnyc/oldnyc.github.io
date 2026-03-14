@@ -2,9 +2,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Avenue",
+        "str2": "Prospect Avenue"
+      },
+      "source": "Brooklyn: Prospect Avenue - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "706339f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706339f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/299eed80-c538-012f-28b4-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Avenue - 6th Avenue",
     "text": "Prospect Ave., east from Sixth to Seventh Aves..\nJune 1926.\nBrown Brothers.\n",

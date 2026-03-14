@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 103rd Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715535f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715535f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e29d4900-c546-012f-d48d-58d385a7bc34",
     "original_title": "Manhattan: 103rd Street (West) - 7th Avenue",
     "text": "218-220 West 130th Street, south side, west of Seventh Ave. Shown is the Williams Institutional Church.\n\nJune 24, 1934.\n\nP. L. Sperr.\n",

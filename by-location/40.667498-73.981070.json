@@ -2,9 +2,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "7th Avenue",
+        "str2": "8th Street"
+      },
+      "source": "Brooklyn: 7th Avenue - 8th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702454f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702454f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a02cb20-c532-012f-ae14-58d385a7bc34",
     "original_title": "Brooklyn: 7th Avenue - 8th Street",
     "text": "7th Avenue, east side, north from 8th Street. P. L. Sperr\nMay 3, 1941\n",

@@ -2,9 +2,30 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "77th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 77th Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "721442f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721442f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b6ffe60-c550-012f-ca76-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 77th Street",
     "text": "North East corner Madison Ave. and 77th St.\n1890\nBrown Bro's\nNew York\n",
@@ -19,9 +40,29 @@
   {
     "date": "1944-11-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 50,
+        "street": "E 77th Street"
+      },
+      "source": "77th Street (East) #50",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508319-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508319-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0aa59070-c5cf-012f-26c2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +76,29 @@
   {
     "date": "1945-02-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 995,
+        "street": "Madison Avenue"
+      },
+      "source": "Madison Avenue #995",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507515-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507515-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35daad80-c5ce-012f-d5c7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +112,38 @@
   {
     "date": "1945-02-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 77th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 995 Madison Avenue - East 77th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557977",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557977.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Madison Motors"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44c40a10-c5ed-012f-4701-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -70,9 +160,41 @@
     "dates_from_text": [
       "1956-11-13"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 53,
+        "street": "E. 77th St."
+      },
+      "source": "53 E. 77th St.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "77th Street (East)",
+        "str2": "88th Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "77th Street",
+        "str2": "88th Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "714533f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714533f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61b9b630-c545-012f-537d-58d385a7bc34",
     "original_title": "Manhattan: 77th Street (East) - 88th Avenue",
     "text": "Nov. 13, 1956\n\nMac:\n\nWould you like a print for the NY scrapbooks or picture files?\n\nThis shows 53 and 55 E. 77th St., taken in the fall of 1956. 53 is the house, formerly numbered 37, where Paul Leicester Ford was murdered in 1902. The fa\u00e7ade has been redone, so it does not look as it did then. It was one of the first houses in New York to have a\nbuilt-in garage.\n\nEdwin H. Carpenter, Jr.\n",

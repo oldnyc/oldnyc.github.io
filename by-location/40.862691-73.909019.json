@@ -2,9 +2,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fordham Road (West)",
+        "str2": "Sedgwick Avenue"
+      },
+      "source": "Bronx: Sedgwick Avenue - Fordham Road (West)",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "701774f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701774f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24f23450-c531-012f-9166-58d385a7bc34",
     "original_title": "Bronx: Sedgwick Avenue - Fordham Road (West)",
     "text": "2297-2293 Sedgwick Ave., adjoining the S.W. corner of West Fordham Road. The view is southward.\n\n1917.\n\nGift of E.M. Jenks.\n",

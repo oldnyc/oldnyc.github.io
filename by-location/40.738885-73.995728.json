@@ -2,9 +2,35 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 16th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711364f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711364f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Francis Xavier Roman Catholic Church ; St. Francis Xavier College."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38a58c50-c540-012f-6123-58d385a7bc34",
     "original_title": "Manhattan: 16th Street (West) - 6th Avenue",
     "text": "West 16th Street, adjoining and east of the S.E. corner of Sixth Avenue, showing St. Francis Xavier R.C. Church and College. The latter is housed in the low structure on the left. It is a Jesuit Institution, opened in 1847, and chartered in 1861. About 1895.\nGift of Urbrook Collection.\n",
@@ -19,9 +45,27 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 16th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "711367f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711367f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39600c00-c540-012f-59e8-58d385a7bc34",
     "original_title": "Manhattan: 16th Street (West) - 6th Avenue",
     "text": "West 16th Street, looking east from 6th Avenue.\n(Before Reconstruction).\n\nNovember 21, 1918.\n",
@@ -36,9 +80,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 17th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711411f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711411f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d2beea0-c540-012f-1ddf-58d385a7bc34",
     "original_title": "Manhattan: 17th Street (West) - 6th Avenue",
     "text": "119-145 West 17th Street, North side, between Sixth and Seventh Avenues.\nabout 1922.\nEdwin Levick.\n",
@@ -53,9 +118,33 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709370f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709370f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f90a68e0-c53c-012f-3d60-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street",
     "text": "(1)\nSixth Avenue, east side, north from 16th Street.\nApril 3, 1935.\nP. L. Sperr, Photographer.\n\n(2)\nThe same slightly northward. Prominently shown is the former Siegel-Cooper Dep't. Store Building. Note the Empire State\nBuilding across the horizon.\nNEG # 3154  June 11, 1933.\nP. L. Sperr.\n\n(3)\nThe same.\nNeg. # 3878  June ll, 1933.\nP. L. Sperr.\n",
@@ -71,9 +160,33 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709370f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709370f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f90a68e0-c53c-012f-3d60-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street",
     "text": "(1)\nSixth Avenue, east side, north from 16th Street.\nApril 3, 1935.\nP. L. Sperr, Photographer.\n\n(2)\nThe same slightly northward. Prominently shown is the former Siegel-Cooper Dep't. Store Building. Note the Empire State\nBuilding across the horizon.\nNEG # 3154  June 11, 1933.\nP. L. Sperr.\n\n(3)\nThe same.\nNeg. # 3878  June ll, 1933.\nP. L. Sperr.\n",
@@ -89,9 +202,33 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709370f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709370f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f90a68e0-c53c-012f-3d60-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street",
     "text": "(1)\nSixth Avenue, east side, north from 16th Street.\nApril 3, 1935.\nP. L. Sperr, Photographer.\n\n(2)\nThe same slightly northward. Prominently shown is the former Siegel-Cooper Dep't. Store Building. Note the Empire State\nBuilding across the horizon.\nNEG # 3154  June 11, 1933.\nP. L. Sperr.\n\n(3)\nThe same.\nNeg. # 3878  June ll, 1933.\nP. L. Sperr.\n",
@@ -111,9 +248,27 @@
       "1939-05-17",
       "1935-04-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709364f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709364f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6e9c010-c53c-012f-a1f7-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "text": "Sixth Avenue, east side, from W. 16th to 17th Streets. A parking lot occupies the northerly half of this frontage; this being the S. E. corner of 17th Street. The two buildings remaining are at the N. E. corner of 16th Street. View 3 being of an earlier date shows four buildings there. Two of these were subsequently demolished. The towering loft structures are on the side streets, backing up to each other through the block.\n\nViews 1,2: May 17, 1939\nView 3: April 3, 1935\n\nP. L. Sperr\n",
@@ -133,9 +288,27 @@
       "1939-05-17",
       "1935-04-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709364f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709364f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6e9c010-c53c-012f-a1f7-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "text": "Sixth Avenue, east side, from W. 16th to 17th Streets. A parking lot occupies the northerly half of this frontage; this being the S. E. corner of 17th Street. The two buildings remaining are at the N. E. corner of 16th Street. View 3 being of an earlier date shows four buildings there. Two of these were subsequently demolished. The towering loft structures are on the side streets, backing up to each other through the block.\n\nViews 1,2: May 17, 1939\nView 3: April 3, 1935\n\nP. L. Sperr\n",
@@ -155,9 +328,27 @@
       "1939-05-17",
       "1935-04-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709364f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709364f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6e9c010-c53c-012f-a1f7-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "text": "Sixth Avenue, east side, from W. 16th to 17th Streets. A parking lot occupies the northerly half of this frontage; this being the S. E. corner of 17th Street. The two buildings remaining are at the N. E. corner of 16th Street. View 3 being of an earlier date shows four buildings there. Two of these were subsequently demolished. The towering loft structures are on the side streets, backing up to each other through the block.\n\nViews 1,2: May 17, 1939\nView 3: April 3, 1935\n\nP. L. Sperr\n",
@@ -173,9 +364,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 17th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "709369f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709369f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f8b84900-c53c-012f-157d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 17th Street",
     "text": "Sixth Avenue at N. E. corner of 17th Street.\nMarch 22, 1935.\nP.L. Sperr, Photographer.\n",
@@ -190,9 +402,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 17th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "709369f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709369f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f8b84900-c53c-012f-157d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 17th Street",
     "text": "Sixth Avenue at N. E. corner of 17th Street.\nMarch 22, 1935.\nP.L. Sperr, Photographer.\n",
@@ -207,9 +440,32 @@
   {
     "date": "1935; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 17th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "709371f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709371f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores",
+          "Furniture stores",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f99208b0-c53c-012f-098d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 17th Street (West)",
     "text": "Sixth Avenue, east side, north across West 17th Street. The gas station appearing is at the S. E. corner. This permits details of buildings at the N. E. corner to be clearly observed. View No. 3 is limited to this corner.\n\nThe earlier view is photographed during the period while the old 6th Avenue \"El\" darkened the Avenue. View 2 is taken immediately after demolition of same.\n\nThe ornate structure above 18th Street is the former Seigel-Cooper Department Store. This institution widely publicized the phrase \"Meet me at the fountain.\" This was derived from the presence of a magnificent interior fountain and stairway. During the World War,(1917-18) this structure was utilized as a hospital.\n\nApril 3, 1935\nMarch 29, 1939\nMay 17, 1939\n\nP. L. Sperr\n",
@@ -225,9 +481,32 @@
   {
     "date": "1935; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 17th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "709371f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709371f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores",
+          "Furniture stores",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f99208b0-c53c-012f-098d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 17th Street (West)",
     "text": "Sixth Avenue, east side, north across West 17th Street. The gas station appearing is at the S. E. corner. This permits details of buildings at the N. E. corner to be clearly observed. View No. 3 is limited to this corner.\n\nThe earlier view is photographed during the period while the old 6th Avenue \"El\" darkened the Avenue. View 2 is taken immediately after demolition of same.\n\nThe ornate structure above 18th Street is the former Seigel-Cooper Department Store. This institution widely publicized the phrase \"Meet me at the fountain.\" This was derived from the presence of a magnificent interior fountain and stairway. During the World War,(1917-18) this structure was utilized as a hospital.\n\nApril 3, 1935\nMarch 29, 1939\nMay 17, 1939\n\nP. L. Sperr\n",
@@ -243,9 +522,32 @@
   {
     "date": "1935; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 17th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709371f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709371f-c.270.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores",
+          "Furniture stores",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f99208b0-c53c-012f-098d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 17th Street (West)",
     "rotation": 270,
@@ -262,9 +564,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 16th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711365f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711365f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Francis Xavier College."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38f078e0-c540-012f-fa14-58d385a7bc34",
     "original_title": "Manhattan: 16th Street (West) - 6th Avenue",
     "text": "West 16th Street, south side, east from, but not including Sixth Ave.  Shown on the right, is a portion of St. Francis Xavier College.  Demolition further eastward is that of the former New York Hospital.\nApril 3, 1935.\nP. L. Sperr.\n",
@@ -279,9 +607,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "6th Ave.",
+        "str2": "W. 16th St."
+      },
+      "source": "6th Ave. and W. 16th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984697",
     "image_url": "https://images.nypl.org/?id=3984697&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70866a00-c5d7-012f-4cd1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -295,9 +647,31 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Avenue",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709362f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709362f-a.270.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f61c8780-c53c-012f-9b7b-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Avenue",
     "rotation": 270,
@@ -314,9 +688,31 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Avenue",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Avenue",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "709362f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709362f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f61c8780-c53c-012f-9b7b-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Avenue",
     "text": "(1)\nSixth Avenue west side north from west 15th Street.\n\n(2)\nSixth Avenue west side north from west 15th Street, The store now occupied by the Surprose Furniture people was formerly part of the Baumann and Bros.\n\nMarch 29, 1939.\n\n(3)\nSixth Avenue to Broadway at 14th Street, looking northwards.\n\nP.L.Speer.\nJune 23, 1937.\n",
@@ -332,9 +728,31 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Avenue",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Avenue",
+      "technique": "title-cross"
+    },
     "height": 492,
     "id": "709362f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709362f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f61c8780-c53c-012f-9b7b-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Avenue",
     "text": "(1)\nSixth Avenue west side north from west 15th Street.\n\n(2)\nSixth Avenue west side north from west 15th Street, The store now occupied by the Surprose Furniture people was formerly part of the Baumann and Bros.\n\nMarch 29, 1939.\n\n(3)\nSixth Avenue to Broadway at 14th Street, looking northwards.\n\nP.L.Speer.\nJune 23, 1937.\n",
@@ -350,9 +768,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709366f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709366f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f766d580-c53c-012f-370c-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street",
     "text": "6th Ave., w.s., at 16th St. March 29, 1939\nP.L. Sperr, photographer\n",
@@ -367,9 +806,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709367f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709367f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Restaurants",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7bfde80-c53c-012f-aae1-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "text": "Sixth Avenue, north from W. 16th Street, showing the vicinity that was for a period the shopping centre. Under construction underground is the new municipal subway.\n\nThe \"El\" structure at this date is being demolished. The station of same is at 18th Street where Siegel-Cooper and B. Altman held sway on opposite sides of this thoroughfare. The latter occupied the structure on the west side from 18th to 19th Streets.\n\nThis building appears at the left center of View No. 2, being photographed from 17th Street. An article on this subject appeared in the New York Times of March 7, 1939 titled \"122 Year Holding is Sold on Sixth Avenue.\"\n\nFebruary 19, 1939\nViews: 1-2\n\nP. L. Sperr\n\nSame as view 1, after demolition of \"El.\"\n\nP. L. Sperr\n\nOctober 28, 1939\n",
@@ -384,9 +846,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709367f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709367f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Restaurants",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7bfde80-c53c-012f-aae1-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "text": "Sixth Avenue, north from W. 16th Street, showing the vicinity that was for a period the shopping centre. Under construction underground is the new municipal subway.\n\nThe \"El\" structure at this date is being demolished. The station of same is at 18th Street where Siegel-Cooper and B. Altman held sway on opposite sides of this thoroughfare. The latter occupied the structure on the west side from 18th to 19th Streets.\n\nThis building appears at the left center of View No. 2, being photographed from 17th Street. An article on this subject appeared in the New York Times of March 7, 1939 titled \"122 Year Holding is Sold on Sixth Avenue.\"\n\nFebruary 19, 1939\nViews: 1-2\n\nP. L. Sperr\n\nSame as view 1, after demolition of \"El.\"\n\nP. L. Sperr\n\nOctober 28, 1939\n",
@@ -401,9 +886,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "709367f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709367f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Restaurants",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7bfde80-c53c-012f-aae1-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "rotation": 90,
@@ -419,9 +927,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "17th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 17th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "709368f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709368f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f83d3e30-c53c-012f-4027-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 17th Street",
     "text": "6th Avenue, southwest corner and 17th Street.\n\nP. L. Sperr\nMarch 29, 1939\n",
@@ -436,9 +965,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 16th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709674f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709674f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Catholic churches",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80504fc0-c53d-012f-aac7-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 16th Street (West)",
     "text": "Sixth Avenue, at the S. E. corner of West 16th Street, showing the Greenwich Savings Bank. Adjoining same to the east is St. Francis Xavier R. C. Church and College.\n\nMay 17, 1939\n\nP. L. Sperr\n",
@@ -453,9 +1007,29 @@
   {
     "date": "1948-05-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 582,
+        "street": "Sixth Avenue"
+      },
+      "source": "Sixth Avenue #582",
+      "technique": "title-address"
+    },
     "height": 462,
     "id": "1508925-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508925-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aac3db60-c5ce-012f-7f83-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -469,9 +1043,37 @@
   {
     "date": "1948-05-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sixth Avenue",
+        "str2": "West 17th Street"
+      },
+      "source": "Manhattan: 582 Sixth Avenue - West 17th Street",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "1558012",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558012.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brick's Gas Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobile service stations",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ec73a90-c5ec-012f-8abf-58d385a7bc34",
     "text": null,
     "text_source": null,

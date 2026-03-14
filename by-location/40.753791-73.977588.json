@@ -2,9 +2,35 @@
   {
     "date": "1889",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "44th street",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Manhattan: Vanderbilt Avenue - 44th street",
+      "technique": "title-cross"
+    },
     "height": 498,
     "id": "723707f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723707f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4e85eb0-c553-012f-8d69-58d385a7bc34",
     "text": "Old Grand Central Terminal, side entrance, Vanderbilt Avenue, east side, from 44th to 45th Streets.\n1889\nEwing Galloway\n",
     "text_source": "site",
@@ -18,9 +44,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 59,
+        "street": "West 44th Street"
+      },
+      "source": "59 West 44th Street",
+      "technique": "gpt"
+    },
     "height": 392,
     "id": "1558233-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558233-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Algonquin"
+      ],
+      "subjects": {
+        "geographic": [
+          "Forty-fourth Street (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Algonquin Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d35d06b0-c5ec-012f-c2b4-58d385a7bc34",
     "text": null,
     "text_source": null,

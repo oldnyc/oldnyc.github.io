@@ -2,9 +2,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "37th Street",
+        "str2": "Northern Boulevard"
+      },
+      "source": "Queens: Northern Boulevard - 37th Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "727593f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727593f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Business districts",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/787900f0-c559-012f-7369-58d385a7bc34",
     "original_title": "Queens: Northern Boulevard - 37th Street",
     "text": "Northern Boulevard, north side, east from 37th to 38th Streets. The gasoline station in the foreground occupies a small triangular plot, and the low buildings across it are on 37th Avenue.\n\nP. L. Sperr\nSeptember 5, 1940\n",

@@ -2,9 +2,47 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Herzl Street",
+        "str2": "Riverdale Avenue"
+      },
+      "source": "Herzl Street and Riverdale Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Douglass Street",
+        "str2": "Riverdale Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Douglass Street",
+        "str2": "Riverdale Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "706484f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706484f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62e8b020-c538-012f-543e-58d385a7bc34",
     "original_title": "Brooklyn: Riverdale Avenue - Douglass Street",
     "text": "Riverdale Avenue, south side, from Douglass to Herzl Streets, showing Public School No. 183.\n\nBoard of Education of the City of New York  Early 1930's\n",

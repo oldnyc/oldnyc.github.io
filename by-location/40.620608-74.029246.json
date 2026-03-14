@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Brooklyn: 4th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702348f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702348f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02ebf4c0-c532-012f-ae05-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 89th Street",
     "text": "Fourth Ave., east side, at 89th Street. The frame building on the N.E. corner is 8821 Fourth Ave; beyond it, appear houses on 88th Street.\n\nJune 5, 1931.\n\nP. L. Sperr.\n",
@@ -19,9 +40,34 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "89th Street",
+        "str2": "Fourth Ave"
+      },
+      "source": "89th Street and Fourth Ave",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "732136f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732136f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)",
+          "Plumb Island (N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae3a5fd0-c560-012f-f440-58d385a7bc34",
     "text": "Fourth Ave., east side, at 89th Street. The frame building on the N.E. corner is 8821 Fourth Ave; beyond it, appear houses on 88th Stree .\nJune S, 1931.\nP. L. Sperr.\n",
     "text_source": "site",

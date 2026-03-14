@@ -2,9 +2,32 @@
   {
     "date": "1951",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 255,
+        "street": "W 33rd Street"
+      },
+      "source": "33rd Street (West) #255",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507863-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507863-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "parking lot"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd093580-c5ce-012f-cfd1-58d385a7bc34",
     "text": null,
     "text_source": null,

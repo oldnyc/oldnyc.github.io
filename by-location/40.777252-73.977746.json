@@ -2,9 +2,29 @@
   {
     "date": "1950-05-16",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 37,
+        "street": "W 72nd Street"
+      },
+      "source": "72nd Street (West) #37",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508303",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508303.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/079753a0-c5cf-012f-676e-58d385a7bc34",
     "text": null,
     "text_source": null,

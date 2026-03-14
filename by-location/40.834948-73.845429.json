@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-04-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Waterbury Avenue",
+        "str2": "Zerega Avenue"
+      },
+      "source": "Bronx: Zerega Avenue - Waterbury Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702208f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702208f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca4ff640-c531-012f-6954-58d385a7bc34",
     "original_title": "Bronx: Zerega Avenue - Waterbury Avenue",
     "text": "Zerega Avenue, at Waterbury Avenue, showing a W.P.A. shack.\n\nApril 16, 1938\n\nP. L. Sperr.\n",

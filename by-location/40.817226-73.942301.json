@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "138th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 138th Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715613f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715613f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/002f7050-c547-012f-1e10-58d385a7bc34",
     "original_title": "Manhattan: 138th Street (West) - 7th Avenue",
     "text": "136-142 West 138th Street, slightly east of the S.E. corner of Seventh Ave., showing the Abyssinian Baptist Church. 1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -19,9 +43,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "138th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 138th Street",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "710025f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710025f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e39fc70-c53e-012f-f19b-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 138th Street",
     "text": "7th Avenue, at 138th Street, 139th, west side. (Before Reconstruction).",
@@ -36,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "138th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 138th Street",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "710026f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710026f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0eb16b40-c53e-012f-4430-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 138th Street",
     "text": "7th Avenue to 138th Street, west side.(Before Reconstruction).",

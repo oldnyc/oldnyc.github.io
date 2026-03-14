@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "144th Street",
+        "str2": "Broadway"
+      },
+      "source": "144th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465511",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465511.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a6130b0-c612-012f-a62e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "144th Street",
+        "str2": "Broadway"
+      },
+      "source": "144th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417670-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417670-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1464e2c0-c6cd-012f-25d6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "144th Street",
+        "str2": "Broadway"
+      },
+      "source": "144th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 550,
     "id": "417670-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417670-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1464e2c0-c6cd-012f-25d6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +113,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "144th Street",
+        "str2": "Broadway"
+      },
+      "source": "144th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417671",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417671.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/141023d0-c6cd-012f-2db6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +150,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 3531,
+        "street": "Broadway"
+      },
+      "source": "3531 Broadway",
+      "technique": "gpt"
+    },
     "height": 417,
     "id": "1509181-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509181-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f90b3c40-c5cd-012f-8855-58d385a7bc34",
     "text": null,
     "text_source": null,

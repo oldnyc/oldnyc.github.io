@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "67th Street",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 67th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726387f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726387f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Halls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4d41790-c557-012f-c3fb-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 67th Street",
     "text": "Cooper Ave., (left) east from 67th Street (right foreground), showing at the S.E. corner Hoffman Hall.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

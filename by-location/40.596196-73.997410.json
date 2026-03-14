@@ -2,9 +2,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 32nd Street",
+        "str2": "Cropsey Avenue"
+      },
+      "source": "Brooklyn: Bay 32nd Street - Cropsey Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703136f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703136f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f6fb8e0-c533-012f-bb5f-58d385a7bc34",
     "original_title": "Brooklyn: Bay 32nd Street - Cropsey Avenue",
     "text": "Corner of Bay 32nd St. & Cropsey Ave., B'klyn. Harper [Harbor] Hospital at right.\nMay 28, 1939\nP.L. Sperr, photographer\n",
@@ -19,9 +40,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 32nd Street",
+        "str2": "Cropsey Avenue"
+      },
+      "source": "Brooklyn: Cropsey Avenue - Bay 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703906f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703906f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/616de3e0-c534-012f-a05b-58d385a7bc34",
     "original_title": "Brooklyn: Cropsey Avenue - Bay 32nd Street",
     "text": "Cropsey Avenue, at and adjoining the southeast corner of Bay 32nd Street, showing an old home at the corner and the Harbor Hospital adjoining the corner house.\n\nP. L. Sperr\nMay 28, 1939\n",

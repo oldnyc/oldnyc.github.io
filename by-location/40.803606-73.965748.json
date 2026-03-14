@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 542,
+        "street": "Cathedral Parkway"
+      },
+      "source": "542 Cathedral Parkway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "718123f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718123f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cathedral Parkway No. 542, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e388a850-c54a-012f-43e4-58d385a7bc34",
     "text": "Cathedral Parkway, no. 542, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-2\nOct. 25, 1938\n",
     "text_source": "gpt",

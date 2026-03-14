@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Jamaica Avenue - Merrick Boulevard",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "727044f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727044f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Jamaica Town Hall."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e1fa0e0-c558-012f-d2c3-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - Merrick Boulevard",
     "text": "Jamaica Town Hall\n159-01 Jamaica Avenue, Jamaica, Queens.\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\nJune 1, 1937\n[Note: Negative at Museum of the City of New York],\nCode I A3\n",

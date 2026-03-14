@@ -2,9 +2,44 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Avenue",
+        "str2": "Pennsylvania Avenue"
+      },
+      "source": "Jamaica Avenue and Pennsylvania Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Avenue",
+        "str2": "Pellington Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Avenue",
+        "str2": "Pellington Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "706234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0056d4f0-c538-012f-0555-58d385a7bc34",
     "original_title": "Brooklyn: Pellington Place - Jamaica Avenue",
     "text": "Pellington Place, east side, north of Jamaica Ave. This house formerly faced Jamaica Ave., north side, just east of Pennsylvania Ave. It was erected in 1839 (?) and was operated as the Railroad House, a hotel,\nuntil 1860.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +54,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Jamaica Avenue",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "703453f",
     "image_url": "https://images.nypl.org/?id=703453f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9fba3a0-c533-012f-6029-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Jamaica Avenue",
     "text": null,

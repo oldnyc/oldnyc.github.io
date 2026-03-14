@@ -2,9 +2,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cross Bronx Expressw",
+        "str2": "Crotona Avenue"
+      },
+      "source": "Bronx: Cross Bronx Expressw - Crotona Avenue",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "700825f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700825f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Cross Bronx Expressway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc4378c0-c52f-012f-3b8f-58d385a7bc34",
     "text": "1. Cross Bronx Expressway at Crotona Ave.\n\n2. Cross Bronx Expressway at Southern Blvd.\n",
     "text_source": "gpt",
@@ -18,9 +42,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cross Bronx Expressw",
+        "str2": "Crotona Avenue"
+      },
+      "source": "Bronx: Cross Bronx Expressw - Crotona Avenue",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "700825f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700825f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Cross Bronx Expressway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc4378c0-c52f-012f-3b8f-58d385a7bc34",
     "text": "1. Cross Bronx Expressway at Crotona Ave.\n\n2. Cross Bronx Expressway at Southern Blvd.\n",
     "text_source": "gpt",

@@ -2,9 +2,50 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1560,
+        "street": "Broadway"
+      },
+      "source": "1560 Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway (West 46th Street",
+        "str2": "West 47th Street)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "num": 1560,
+        "street": "Broadway (West 46th Street",
+        "technique": "title-address"
+      }
+    ],
     "height": 468,
     "id": "1557822",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557822.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bond Clothes"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23da6530-c5ed-012f-5460-58d385a7bc34",
     "text": null,
     "text_source": null,

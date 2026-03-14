@@ -2,9 +2,42 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bay Park"
+      },
+      "source": "City Island Road and Pelham Bay Park",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Pelham Bay Park",
+        "str2": "refreshment stand",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "701592f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701592f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Food vendors",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7181a30-c530-012f-cef2-58d385a7bc34",
     "text": "Pelham Bay Park: A refreshment stand near City Island Road.\nSummer 1923.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

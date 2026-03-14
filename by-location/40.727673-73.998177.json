@@ -6,9 +6,27 @@
       "1860",
       "1928-10-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Square South",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Washington Square South - Wooster Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724039f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724039f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d219c80-c554-012f-4761-58d385a7bc34",
     "text": "76 Washington Square South (formerly 290 4th Street) at the S.W. corner of Wooster Street (Washington Square East). This is supposed to be the oldest house now standing on Washington Square. Washington Square South is part of 4th Street as originally laid out. In 1833, when 4th Street absorbed Asylum Street in Greenwich Village, the whole was renumbered from the northwest end at Gansevoort and 13th Streets. About 1860 the section from MacDougal to Wooster Streets was given its own house numbers as Washington Square South. October 4, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -23,9 +41,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Bleecker Street - Wooster Street",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "716685f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716685f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a51b1140-c548-012f-a990-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - Wooster Street",
     "text": "113-117, 121-123 Bleecker Street, north side, at and west across Wooster Street. Nos. 115 and 117 are the two old houses with dormer windows. This is part of that section of Bleecker Street, from Broadway to Hancock Street, which was originally David Street. It was joined to, and assimilated by, Bleecker Street, as early as 1827 and probably by 1820.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -40,9 +79,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Square South",
+        "str2": "Wooster Street"
+      },
+      "source": "Washington Square South and Wooster Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Washington Square South",
+        "str2": "West Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Washington Square South",
+        "str2": "West Broadway",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "724040f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724040f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d963140-c554-012f-ce0f-58d385a7bc34",
     "text": "Our Lady of Mercy Chapel (Roman Catholic) and a newly erected apartment building, 69-70 and 71 Washington Square South, between West Broadway and Wooster Streets.\nFebruary 12, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -56,9 +130,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Square South",
+        "str2": "Wooster Street"
+      },
+      "source": "Washington Square South and Wooster Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Street (West)",
+        "str2": "Wooster Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 3rd Street",
+        "str2": "Wooster Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 450,
     "id": "724821f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724821f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Craft shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80fdfab0-c555-012f-d83c-58d385a7bc34",
     "original_title": "Manhattan: Wooster Street - 3rd Street (West)",
     "text": "Wooster Street, west side, from West 3rd (formerly Amity) Street to Washington Square South (4th Street), inclusive, showing 43 West 3rd Street, on the N.W. corner, and 237 Wooster Street just north of it, two old frame houses, the latter faced with brick.\nAbout 1898.\n\nBrown Brothers.\n",
@@ -73,9 +182,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Bleecker Street - Wooster Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716686f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716686f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Coffee shops",
+          "Sewing machines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5908370-c548-012f-4506-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - Wooster Street",
     "text": "(1)\n\n122 Bleecker Street, a frame house with a brick front, on the S.E. corner of Wooster Street.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same, showing also No. 118 another frame house.\n\nJune 23, 1936.\n\nP. L. Sperr.\n",
@@ -90,9 +224,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Bleecker Street - Wooster Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716686f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716686f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Coffee shops",
+          "Sewing machines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5908370-c548-012f-4506-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - Wooster Street",
     "text": "(1)\n\n122 Bleecker Street, a frame house with a brick front, on the S.E. corner of Wooster Street.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same, showing also No. 118 another frame house.\n\nJune 23, 1936.\n\nP. L. Sperr.\n",

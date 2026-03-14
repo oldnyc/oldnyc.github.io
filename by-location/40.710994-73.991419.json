@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1937-03-21"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 226,
+        "street": "Cherry Street"
+      },
+      "source": "226 Cherry Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Pelham Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Pelham Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718722f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718722f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/daf3e6a0-c54b-012f-90b9-58d385a7bc34",
     "original_title": "Manhattan: Cherry Street - Pelham Street",
     "text": "226 Cherry Street, adjoining the N.W. corner of Pelham Street. Building bears tablet stating \"Luke Fay 1819, Fay Brothers 1876\".\n\nMarch 21, 1937.\n\nP. L. Sperr.\n",

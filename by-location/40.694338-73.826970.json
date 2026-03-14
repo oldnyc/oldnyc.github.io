@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-05-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "120th Street",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Queens: 120th Street - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725826f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725826f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/deb16670-c556-012f-1b04-58d385a7bc34",
     "original_title": "Queens: 120th Street - Atlantic Avenue",
     "text": "120th Street, east side, between Atlantic and 91st Avenues, showing a frame house of odd architectural design. Note the balcony on the third floor, with the cupola-shaped roof.\n\nP. L. Sperr\nMay 7, 1934\n",
@@ -22,9 +40,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "120th Street",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Queens: Atlantic Avenue - 120th Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "726115f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726115f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad signals",
+          "Signal stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45a5e0c0-c557-012f-997b-58d385a7bc34",
     "original_title": "Queens: Atlantic Avenue - 120th Street",
     "text": "(1) Atlantic Avenue, at 120th Street, showing the Long Island Railroad crossing and watch tower. The view is northeastward across the tracks on Atlantic Avenue, the frame houses being on the thoroughfare's north side.\n\nP. L. Sperr\n\nMay 7, 1934\n\n(2) Viewing southeastward across the railroad crossing, the brick houses being on the east side of 120th Street.\n\nP. L. Sperr\n\nMay 7, 1934\n",
@@ -39,9 +82,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "120th Street",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Queens: Atlantic Avenue - 120th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "726115f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726115f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad signals",
+          "Signal stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45a5e0c0-c557-012f-997b-58d385a7bc34",
     "original_title": "Queens: Atlantic Avenue - 120th Street",
     "text": "(1) Atlantic Avenue, at 120th Street, showing the Long Island Railroad crossing and watch tower. The view is northeastward across the tracks on Atlantic Avenue, the frame houses being on the thoroughfare's north side.\n\nP. L. Sperr\n\nMay 7, 1934\n\n(2) Viewing southeastward across the railroad crossing, the brick houses being on the east side of 120th Street.\n\nP. L. Sperr\n\nMay 7, 1934\n",

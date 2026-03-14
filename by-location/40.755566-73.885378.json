@@ -2,9 +2,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Street",
+        "str2": "Northern Boulevard"
+      },
+      "source": "Queens: Northern Boulevard - 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "727606f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727606f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Queens County (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d4a1700-c559-012f-8754-58d385a7bc34",
     "original_title": "Queens: Northern Boulevard - 82nd Street",
     "text": "Northern Boulevard at the N.E. corner of 82nd Street, showing the Queens County Park, formerly known as Fuhrer's Park, Casino.\n\nMarch 1924.\n\nEugene L. Armbruster Collection\n",

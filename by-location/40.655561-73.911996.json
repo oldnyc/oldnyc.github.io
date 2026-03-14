@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hegeman Avenue",
+        "str2": "Herzl Street"
+      },
+      "source": "Brooklyn: Hegeman Avenue - Herzl Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "704810f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704810f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cea9d550-c535-012f-81b6-58d385a7bc34",
     "original_title": "Brooklyn: Hegeman Avenue - Herzl Street",
     "text": "Hegeman Ave., north side, east of Herzl to Chester Streets, showing at left, the Ryerson house at its new site, and facing Hopkinson Ave.\n\nAugust 1922.\n\nEugene L. Armbruster Collection.\n",

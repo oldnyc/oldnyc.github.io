@@ -2,9 +2,31 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Reade Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Reade Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "724614f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724614f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33cb3130-c555-012f-cf18-58d385a7bc34",
     "original_title": "Manhattan: West Street - Reade Street",
     "text": "West Street, Chambers, to Reade Street. (Before reconstruction).\nMarch 21, 1920.\n",
@@ -19,9 +41,35 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "734645f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734645f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Duane Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a085eef0-c564-012f-8743-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +83,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Chambers Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "724613f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724613f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/336b7fc0-c555-012f-e389-58d385a7bc34",
     "original_title": "Manhattan: West Street - Chambers Street",
     "text": "West Street, east side, south from and including Chambers, to and including Warren Streets.\nAugust 4, 1930.\n\nP. L. Sperr.\n",
@@ -52,9 +124,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Reade Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Reade Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724615f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724615f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Cobblestone streets",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/341a8e50-c555-012f-8fc5-58d385a7bc34",
     "original_title": "Manhattan: West Street - Reade Street",
     "text": "West Street,on the East Side,South from and including Reade Street,\nto and including Warren Street.\n\nAugust 4th,1930\n\nP.L.Sperr,\n",
@@ -69,9 +164,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "724617f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724617f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coffee shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34e1d2f0-c555-012f-d4b3-58d385a7bc34",
     "original_title": "Manhattan: West Street - Duane Street",
     "text": "West Street, east side, at Duane Street. Also shown is Duane Street, north side, east from West, to but not including Hudson Streets.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n",
@@ -86,9 +202,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "724618f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724618f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Cobblestone streets",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/354afb60-c555-012f-0b3d-58d385a7bc34",
     "original_title": "Manhattan: West Street - Duane Street",
     "text": "(1) West Street, east side, south from and including Duane Street.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, showing West Street, east side, south from and including Duane Street, to and including Reade Street. Also shown is Reade Street, north side, east from West Street.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n",
@@ -103,9 +246,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "724618f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724618f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Cobblestone streets",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/354afb60-c555-012f-0b3d-58d385a7bc34",
     "original_title": "Manhattan: West Street - Duane Street",
     "text": "(1) West Street, east side, south from and including Duane Street.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, showing West Street, east side, south from and including Duane Street, to and including Reade Street. Also shown is Reade Street, north side, east from West Street.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n",
@@ -120,9 +290,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Chambers Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "724619f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724619f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Christmas decorations",
+          "Cobblestone streets",
+          "Dental offices",
+          "Horse teams",
+          "Markets",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35c6dcb0-c555-012f-ca1a-58d385a7bc34",
     "original_title": "Manhattan: West Street - Chambers Street",
     "text": "(1)\nWest Street, east side, north from and including Chambers, to\nbut not including Jay Streets.\nAugust 4, 1930.\n\nP. L. Sperr.\n\n(2)\nA portion of the same view, north to and including Reade Street.\nDecember 18, 1930.\n\nP. L. Sperr.\n",
@@ -137,9 +336,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Chambers Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "724619f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724619f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Christmas decorations",
+          "Cobblestone streets",
+          "Dental offices",
+          "Horse teams",
+          "Markets",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35c6dcb0-c555-012f-ca1a-58d385a7bc34",
     "original_title": "Manhattan: West Street - Chambers Street",
     "text": "(1)\nWest Street, east side, north from and including Chambers, to\nbut not including Jay Streets.\nAugust 4, 1930.\n\nP. L. Sperr.\n\n(2)\nA portion of the same view, north to and including Reade Street.\nDecember 18, 1930.\n\nP. L. Sperr.\n",
@@ -154,9 +382,35 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "734646f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734646f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Duane Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0e1a040-c564-012f-4c84-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -170,9 +424,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Chambers Street - West Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718617f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718617f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b23a2c90-c54b-012f-6882-58d385a7bc34",
     "original_title": "Manhattan: Chambers Street - West Street",
     "text": "1- Chambers Street, south side, east from West Street.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n\n2- Chambers Street, east from and including West Street.\n\nP. L. Sperr\nJuly 26, 1932.\n",
@@ -187,9 +463,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Chambers Street - West Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "718617f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/718617f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b23a2c90-c54b-012f-6882-58d385a7bc34",
     "original_title": "Manhattan: Chambers Street - West Street",
     "rotation": 90,
@@ -205,9 +503,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Reade Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Reade Street - West Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "722679f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722679f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/105b50b0-c552-012f-f651-58d385a7bc34",
     "original_title": "Manhattan: Reade Street - West Street",
     "text": "Reade Street, east from West, to Greenwich Street, showing part of the area generally known as the Washington Produce Market. In the background, is visible part of the Western Union Building.\n\nJuly 26, 1932.\n\nP. L. Sperr.\n",
@@ -222,9 +545,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Reade Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Reade Street.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "732463f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732463f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Reade Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Fruit",
+          "Horse teams",
+          "Street vendors",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32caa450-c561-012f-8604-58d385a7bc34",
     "text": "These crates of celery, being sold by a wholesale dealer, overflow from the sidewalk at the N.E. corner of West and Reade Streets.\n\nNovember 6, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -238,9 +590,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Chambers Street.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "732307f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732307f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Chambers Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5240440-c560-012f-bb83-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: Trees piled in the middle of West Street at Chambers Street awaiting sale for the Christmas trade.\n\nDecember 11, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -254,9 +633,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Between Duane and Chambers Streets.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "732308f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732308f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Between Duane and Chambers Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5935cf0-c560-012f-23b4-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: A set of 3 views of trees for the Christmas trade piled in the center of West Street. The photographers vantage point is at Duane Street (No. 1); and Chambers Street (Nos. 2 and 3).\n\nDecember 11, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -270,9 +676,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Between Duane and Chambers Streets.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "732308f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732308f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Between Duane and Chambers Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5935cf0-c560-012f-23b4-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: A set of 3 views of trees for the Christmas trade piled in the center of West Street. The photographers vantage point is at Duane Street (No. 1); and Chambers Street (Nos. 2 and 3).\n\nDecember 11, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -286,9 +719,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Between Duane and Chambers Streets.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "732308f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732308f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Between Duane and Chambers Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5935cf0-c560-012f-23b4-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: A set of 3 views of trees for the Christmas trade piled in the center of West Street. The photographers vantage point is at Duane Street (No. 1); and Chambers Street (Nos. 2 and 3).\n\nDecember 11, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -302,9 +762,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Chambers Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Chambers Street - West Street.",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "733427f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733427f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chambers Street ferry ; Erie Railroad ferry terminal.",
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: Chambers Street - West Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f96d1f0-c562-012f-342c-58d385a7bc34",
     "text": "Ferry: Chambers Street from the southwest West Street, foot of Chambers Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-1d\nMarch 23, 1938\n",
     "text_source": "gpt",
@@ -318,9 +800,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Duane Street - West Street",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "719363f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719363f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc21cb90-c54c-012f-cb10-58d385a7bc34",
     "original_title": "Manhattan: Duane Street - West Street",
     "text": "1-- Duane Street, east from West Street. Also shown is West Street, at, and adjoining the N.E. corner of Duane Street.\n\nJuly 26, 1932.\n\nP. L. Sperr.\n\n2--Duane Street, east side, at West Street showing produce wagon.\n\nP. L. Sperr\nAugust 15, 1939\n",
@@ -335,9 +839,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Duane Street - West Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "719363f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719363f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc21cb90-c54c-012f-cb10-58d385a7bc34",
     "original_title": "Manhattan: Duane Street - West Street",
     "text": "1-- Duane Street, east from West Street. Also shown is West Street, at, and adjoining the N.E. corner of Duane Street.\n\nJuly 26, 1932.\n\nP. L. Sperr.\n\n2--Duane Street, east side, at West Street showing produce wagon.\n\nP. L. Sperr\nAugust 15, 1939\n",
@@ -352,9 +878,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "724616f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724616f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "West Side Highway (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Elevated highways",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/348af960-c555-012f-cd94-58d385a7bc34",
     "original_title": "Manhattan: West Street - Duane Street",
     "text": "(1) and (2) West Street, east side from southwest corner of Duane Street, looking northwards showing Express Highway.\n\nP. L. Speer.\n\nAugust 15, 1939.\n",
@@ -369,9 +919,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "724616f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724616f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "West Side Highway (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Elevated highways",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/348af960-c555-012f-cd94-58d385a7bc34",
     "original_title": "Manhattan: West Street - Duane Street",
     "text": "(1) and (2) West Street, east side from southwest corner of Duane Street, looking northwards showing Express Highway.\n\nP. L. Speer.\n\nAugust 15, 1939.\n",

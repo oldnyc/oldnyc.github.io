@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-03-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "College Avenue",
+        "str2": "New York Place"
+      },
+      "source": "Richmond: College Avenue - New York Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c102470-c55b-012f-228c-58d385a7bc34",
     "original_title": "Richmond: College Avenue - New York Place",
     "text": "160 College Ave., at the S.W. corner of New York Place, showing the Anning S. Prall residence.\n\nMarch 22, 1930.\n\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Delmonico Place",
+        "str2": "Ellery Street"
+      },
+      "source": "Brooklyn: Ellery Street - Delmonico Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704081f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704081f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a712af40-c534-012f-01ce-58d385a7bc34",
     "original_title": "Brooklyn: Ellery Street - Delmonico Place",
     "text": "Ellery Street, adjoining the northeast corner of Delmonico Place, showing Public School No. 148.\n\nBoard of Education of the City of New York June 25, 1931\n",

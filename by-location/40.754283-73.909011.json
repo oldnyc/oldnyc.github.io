@@ -2,9 +2,33 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "51st Street",
+        "str2": "Broadway"
+      },
+      "source": "Queens: 51st Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "725424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725424f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifty-first Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ae139d0-c556-012f-2ad7-58d385a7bc34",
     "original_title": "Queens: 51st Street - Broadway",
     "text": "51st Street, north of Broadway, showing the F. Weher house of 1873. This house does not appear in 1928. Incidently this street is the dividing line between Long Island City and Newtown.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

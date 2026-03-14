@@ -2,9 +2,30 @@
   {
     "date": "1916",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "165th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 3rd Avenue - 165th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "700015f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700015f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9ff2820-c52e-012f-50b5-58d385a7bc34",
     "original_title": "Bronx: 3rd Avenue - 165th Street (East)",
     "text": "3353 Third Ave., west side, between East 165th and East 166th Streets, showing one of the James Butler stores.\n\nAbout 1916.\n",

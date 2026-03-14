@@ -2,9 +2,44 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hemlock Street",
+        "str2": "Linden Boulevard"
+      },
+      "source": "Hemlock Street and Linden Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Hemlock Street",
+        "str2": "Lorraine Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Hemlock Street",
+        "str2": "Lorraine Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "704813f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704813f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cfd724f0-c535-012f-a502-58d385a7bc34",
     "original_title": "Brooklyn: Hemlock Street - Lorraine Avenue",
     "text": "Hemlock Street, east side, between Lorraine Ave., (at the right fore- ground) and Linden Boulevard.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

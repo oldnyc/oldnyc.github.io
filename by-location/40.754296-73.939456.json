@@ -2,9 +2,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "23rd Street",
+        "str2": "40th Avenue"
+      },
+      "source": "Queens: 40th Avenue - 23rd Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "725320f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725320f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38866030-c556-012f-4bb3-58d385a7bc34",
     "original_title": "Queens: 40th Avenue - 23rd Street",
     "text": "40th Avenue (right), north side, east from 23rd to 24th Streets.\n\nP. L. Sperr\nSept. 5, 1940\n",

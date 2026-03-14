@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Amsterdam Avenue",
+        "str2": "Eighty-sixth Street"
+      },
+      "source": "Amsterdam Avenue and Eighty-sixth Street",
+      "technique": "gpt"
+    },
     "height": 542,
     "id": "417212",
     "image_url": "https://images.nypl.org/?id=417212&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa1318c0-c611-012f-1ccb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,34 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 86th Street - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 417,
     "id": "714733f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714733f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1c9c430-c545-012f-6b95-58d385a7bc34",
     "original_title": "Manhattan: 86th Street - Amsterdam Avenue",
     "text": "86th Street, Amsterdam, to Columbus Avenue. (Before reconstruction).\nMarch 19, 1918.\nPossibly Central Park West to Columbus Ave.\n",
@@ -35,9 +82,30 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 86th Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "715956f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715956f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/819b0460-c547-012f-08ef-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 86th Street",
     "text": "Amsterdam Avenue at S. W. corner of 86th Street. About 1921.",
@@ -52,9 +120,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 86th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "714736f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714736f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Drugstores",
+          "Presbyterian churches",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2db9cf0-c545-012f-e39b-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (West) - Amsterdam Avenue",
     "text": "West 86th Street, east from but not including Broadway and showing Amsterdam Ave. intersecting (foreground). At the N.E. corner of the latter is the West Park Pres. Church.\n\nNovember 18, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -69,9 +164,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 86th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 491,
     "id": "714738f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714738f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3b274c0-c545-012f-2b1b-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (West) - Amsterdam Avenue",
     "text": "West 86th Street, west from but not including Amsterdam Ave., across Broadway, to the North (Hudson) River. The towered structure shown on the right is St. Paul's M.E. Church and is at the N.E. corner of West End Ave.\n\nDecember 18, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -86,9 +206,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "West 86th Street"
+      },
+      "source": "Amsterdam Avenue and West 86th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985175",
     "image_url": "https://images.nypl.org/?id=3985175&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb99d160-c5d7-012f-4694-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -102,9 +246,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Ave",
+        "str2": "W 86th St"
+      },
+      "source": "Amsterdam Ave and W 86th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3998405",
     "image_url": "https://images.nypl.org/?id=3998405&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbfde450-c5d7-012f-2e0f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -118,9 +286,30 @@
   {
     "date": "1975",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 86th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "714735f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714735f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b28996f0-c545-012f-8f7a-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (West) - Amsterdam Avenue",
     "text": "West-Park Presbyterian Church 165 W. 86th n.e. corner / 86th and Amsterdam\nDate: February 1975\nfrom: Alice Hudson\n",
@@ -135,9 +324,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 86th Street - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "714734f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714734f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b21fea40-c545-012f-8717-58d385a7bc34",
     "original_title": "Manhattan: 86th Street - Amsterdam Avenue",
     "text": "86th Street, Amsterdam to Columbus Avenue, (Before.Re-construction). (1918)",

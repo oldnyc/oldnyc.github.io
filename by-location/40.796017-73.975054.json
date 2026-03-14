@@ -2,9 +2,29 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street.",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "731281f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731281f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Riverside Drive - 96th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d644a50-c55f-012f-a267-58d385a7bc34",
     "text": "A general view of Riverside Drive, north from 96th Street, during the Spanish-American War Celebration.(see Dewey Parade.)\n\n1899\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -18,9 +38,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Ninety-sixth Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Ninety-sixth Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 510,
     "id": "417312",
     "image_url": "https://images.nypl.org/?id=417312&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d40fdc50-c611-012f-2e8f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,36 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "722906f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722906f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Railroads",
+          "Trains"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f62f950-c552-012f-09de-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "Riverside Park, south from 96th Street.\nAbout 1912.\n",
@@ -51,9 +120,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "722738f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722738f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28318520-c552-012f-0c78-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "Riverside Drive, north from and including 96th Street.\nAbout 1930.\n\nEwing Galloway.\n",
@@ -68,9 +161,35 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722911f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722911f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Railroad crossings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71aa4fd0-c552-012f-39f3-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, from but not including 96th Street, showing the New York Central Railroad crossing.\n\nApril 29, 1934.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, showing more of the west side of the \"Drive\".\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(3) The same, as No. 2, with a further view northward.\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
@@ -86,9 +205,35 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722911f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722911f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Railroad crossings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71aa4fd0-c552-012f-39f3-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, from but not including 96th Street, showing the New York Central Railroad crossing.\n\nApril 29, 1934.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, showing more of the west side of the \"Drive\".\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(3) The same, as No. 2, with a further view northward.\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
@@ -104,9 +249,35 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722911f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722911f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Railroad crossings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71aa4fd0-c552-012f-39f3-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, from but not including 96th Street, showing the New York Central Railroad crossing.\n\nApril 29, 1934.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, showing more of the west side of the \"Drive\".\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(3) The same, as No. 2, with a further view northward.\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
@@ -122,9 +293,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 96th Street - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714896f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714896f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Delicatessens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef169010-c545-012f-7b3f-58d385a7bc34",
     "original_title": "Manhattan: 96th Street - Riverside Drive",
     "text": "96th Street, north side, west from but not including Riverside Drive.\n\nApril 3, 1932.\n\nP. L. Sperr.\n",
@@ -139,9 +331,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722737f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722737f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27dd3270-c552-012f-83da-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "Riverside Drive, east side, at 96th Street.\nApril 3, 1932.\n\nP. L. Sperr.\n",
@@ -156,9 +369,37 @@
   {
     "date": "1932; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "722910f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722910f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Illinois (Battleship)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/712ac700-c552-012f-2241-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1)\nRiverside Drive, west side, north from but not including 96th Street, showing the U.S.S. Illinois Naval Reserve at the left.\nApril 3, 1932.\n\nP. L. Sperr.\n\n(2)\nThe \"Illinois\" at the foot of East 98th Street, as viewed westward to the River and the Jersey highlands.\nApril 29, 1934.\n\nP. L. Sperr.\n",
@@ -174,9 +415,37 @@
   {
     "date": "1932; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "722910f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722910f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Illinois (Battleship)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/712ac700-c552-012f-2241-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1)\nRiverside Drive, west side, north from but not including 96th Street, showing the U.S.S. Illinois Naval Reserve at the left.\nApril 3, 1932.\n\nP. L. Sperr.\n\n(2)\nThe \"Illinois\" at the foot of East 98th Street, as viewed westward to the River and the Jersey highlands.\nApril 29, 1934.\n\nP. L. Sperr.\n",
@@ -192,9 +461,36 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722907f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722907f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Crowds",
+          "Parks",
+          "Ships",
+          "Walkways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fcf1b20-c552-012f-e2be-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, west side, from and including 96th Street, showing people waiting to go on a tour of inspection of Uncle Sam's Ships.\n\nP. L. Sperr.\n\n(2) The same, a further view north, showing the information bulletin of the Fleet.\n\nJune 10, 1934.\n\nP. L. Sperr.\n\n(3) The same, farther away and from a different angle.\n\nJune 10, 1934.\n\nP. L. Sperr.\n",
@@ -209,9 +505,36 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722907f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722907f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Crowds",
+          "Parks",
+          "Ships",
+          "Walkways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fcf1b20-c552-012f-e2be-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, west side, from and including 96th Street, showing people waiting to go on a tour of inspection of Uncle Sam's Ships.\n\nP. L. Sperr.\n\n(2) The same, a further view north, showing the information bulletin of the Fleet.\n\nJune 10, 1934.\n\nP. L. Sperr.\n\n(3) The same, farther away and from a different angle.\n\nJune 10, 1934.\n\nP. L. Sperr.\n",
@@ -226,9 +549,36 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722907f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722907f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Crowds",
+          "Parks",
+          "Ships",
+          "Walkways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fcf1b20-c552-012f-e2be-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, west side, from and including 96th Street, showing people waiting to go on a tour of inspection of Uncle Sam's Ships.\n\nP. L. Sperr.\n\n(2) The same, a further view north, showing the information bulletin of the Fleet.\n\nJune 10, 1934.\n\nP. L. Sperr.\n\n(3) The same, farther away and from a different angle.\n\nJune 10, 1934.\n\nP. L. Sperr.\n",
@@ -243,9 +593,40 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722908f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722908f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Illinois (Battleship)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Railroad crossings",
+          "Viaducts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/703d7450-c552-012f-de25-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street (West)",
     "text": "Riverside, Park at West 96th Street, showing in No. 1 the New York Central Railroad crossing and the vehicular bridge carrying Riverside Drive over this street.\n\nthe photographer is viewing eastward towards apartment buildings that line the east side of the Drive.\n\nApril 29, 1934\nViews: 1-2\n\nP. L. Sperr\n",
@@ -260,9 +641,40 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722908f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722908f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Illinois (Battleship)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Railroad crossings",
+          "Viaducts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/703d7450-c552-012f-de25-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street (West)",
     "text": "Riverside, Park at West 96th Street, showing in No. 1 the New York Central Railroad crossing and the vehicular bridge carrying Riverside Drive over this street.\n\nthe photographer is viewing eastward towards apartment buildings that line the east side of the Drive.\n\nApril 29, 1934\nViews: 1-2\n\nP. L. Sperr\n",
@@ -280,9 +692,27 @@
     "dates_from_text": [
       "1934-04-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 96th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "722909f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722909f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70afc910-c552-012f-5f89-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 96th Street (West)",
     "text": "Riverside Park; north from the foot of West 96th Street, showing the Weber-Bunke-Lange Coal Co. pocket. Note at the left, the U. S. S. \"Illinois\" a training ship, permanently stationed here as a Naval Reserve base.\n\nP. L. Sperr\n\nApril 29, 1934\n",

@@ -2,9 +2,32 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: 5th Avenue - President Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702383f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702383f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Florist shops",
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/101017c0-c532-012f-f4b1-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - President Street",
     "text": "P.L. Sperr, photographer 5-31-1942",
@@ -19,9 +42,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: 5th Avenue - President Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702384f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702384f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1080b930-c532-012f-cd04-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - President Street",
     "text": "P.L. Sperr, photographer  5-31-1942",

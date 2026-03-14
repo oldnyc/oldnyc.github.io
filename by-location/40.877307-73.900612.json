@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Terrace",
+        "str2": "Perot Street"
+      },
+      "source": "Bronx: Kingsbridge Terrace - Perot Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "701385f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701385f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98915fd0-c530-012f-2cd2-58d385a7bc34",
     "text": "3110 Kingsbridge Terrace, north of the N.E. corner of Perot Street.\nMay 28, 1927.\n",
     "text_source": "gpt",

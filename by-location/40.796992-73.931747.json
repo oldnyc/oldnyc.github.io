@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "119th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: Pleasant Avenue - 119th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "722637f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722637f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe9536d0-c551-012f-d42f-58d385a7bc34",
     "original_title": "Manhattan: Pleasant Avenue - 119th Street (East)",
     "text": "362 Pleasant Avenue, east side and north east corner East 119th Street, showing P.S. 78.\n\nBoard of Education, N.Y.C.\n1920.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "119th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: 119th Street (East) - Pleasant Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "715185f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715185f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hell Gate (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hospitals",
+          "Railroad bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5aa25120-c546-012f-f62f-58d385a7bc34",
     "original_title": "Manhattan: 119th Street (East) - Pleasant Avenue",
     "text": "East 119th Street, north side, east from (No. 511), but not including Pleasant Ave. to the Harlem River. Notice Hell Gate R.R. Bridge and Municipal Hospital in the background on Ward's Island.\n\nSeptember 12, 1934.\n\nP. L. Sperr.\n",
@@ -36,9 +84,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "119th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: 119th Street (East) - Pleasant Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715186f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715186f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5aec88f0-c546-012f-f987-58d385a7bc34",
     "original_title": "Manhattan: 119th Street (East) - Pleasant Avenue",
     "text": null,
@@ -53,9 +122,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "119th Street (East)",
+        "str2": "Pleasant Avenue"
+      },
+      "source": "Manhattan: 119th Street (East) - Pleasant Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715186f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715186f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5aec88f0-c546-012f-f987-58d385a7bc34",
     "original_title": "Manhattan: 119th Street (East) - Pleasant Avenue",
     "text": null,
@@ -70,9 +160,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E 119th St",
+        "str2": "Pleasant Ave"
+      },
+      "source": "E 119th St and Pleasant Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984868",
     "image_url": "https://images.nypl.org/?id=3984868&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9417b670-c5d7-012f-4bc9-58d385a7bc34",
     "text": null,
     "text_source": null,

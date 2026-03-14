@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Place",
+        "str2": "Penelope Avenue"
+      },
+      "source": "Queens: 82nd Place - Penelope Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725665f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725665f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7ec78a0-c556-012f-661a-58d385a7bc34",
     "original_title": "Queens: 82nd Place - Penelope Avenue",
     "text": "82nd Place, west side, between Penelope and 63rd Avenues, showing the West Forest Hills Community Church, erected in\n1933.\nP. L. Sperr  July 2, 1935\n",

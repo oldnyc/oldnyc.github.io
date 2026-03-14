@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-08-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "34th Street",
+        "str2": "Avenue J"
+      },
+      "source": "Brooklyn: 34th Street - Avenue J",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "702714f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702714f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cfd9a40-c532-012f-2c4b-58d385a7bc34",
     "original_title": "Brooklyn: 34th Street - Avenue J",
     "text": "1128 East 34th Street, west side, between Ave. J and Flatbush Ave. The building concerned is a frame house.\n\nAugust 7, 1931.\n\nP. L. Sperr.\n",

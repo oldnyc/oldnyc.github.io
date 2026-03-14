@@ -2,9 +2,32 @@
   {
     "date": "1923; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Ditmars Street",
+        "str2": "King Avenue"
+      },
+      "source": "Ditmars Street and King Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731375f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731375f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Long Island Sound (N.Y. and Conn.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72177f10-c55f-012f-263d-58d385a7bc34",
     "text": "Pelham Cemetery (City Island, Bronx): The entrance to the cemetery on the east side of King Avenue between Ditmars and Tier Streets.\n\nSummer, 1923\n\nP. L. Sperr\n\n(2)\n\nAn extensive view of the cemetery, seen from Long Island Sound.\n\nP. L. Sperr\n\nJuly 26, 1928\n",
     "text_source": "gpt",
@@ -19,9 +42,32 @@
   {
     "date": "1923; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Ditmars Street",
+        "str2": "King Avenue"
+      },
+      "source": "Ditmars Street and King Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731375f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731375f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Long Island Sound (N.Y. and Conn.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72177f10-c55f-012f-263d-58d385a7bc34",
     "text": "Pelham Cemetery (City Island, Bronx): The entrance to the cemetery on the east side of King Avenue between Ditmars and Tier Streets.\n\nSummer, 1923\n\nP. L. Sperr\n\n(2)\n\nAn extensive view of the cemetery, seen from Long Island Sound.\n\nP. L. Sperr\n\nJuly 26, 1928\n",
     "text_source": "gpt",

@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "34th Avenue",
+        "str2": "72nd Street"
+      },
+      "source": "Queens: 34th Avenue - 72nd Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "725229f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725229f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19cf6ca0-c556-012f-76bb-58d385a7bc34",
     "original_title": "Queens: 34th Avenue - 72nd Street",
     "text": "34th Avenue, north side, east from 72nd to 73rd Streets, showing new apartment-house construction. October 21, 1936. P. L. Sperr.",

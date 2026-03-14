@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-11-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "43rd Street",
+        "str2": "61st Street"
+      },
+      "source": "Queens: 61st Street - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725516f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725516f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75ec4400-c556-012f-2701-58d385a7bc34",
     "original_title": "Queens: 61st Street - 43rd Street",
     "text": "40-47 61st Street, east side, between 43rd and Woodside Avenues, showing an old mansion. This part of 61st Street was formely called Cameron Terrace.\n\nP. L. Sperr\n\nNovember 5, 1931\n",

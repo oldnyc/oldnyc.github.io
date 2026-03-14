@@ -2,9 +2,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Stanton Street"
+      },
+      "source": "Manhattan: Clinton Street - Stanton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719003f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719003f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Electric apparatus and appliances",
+          "Fur trade",
+          "Radios",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48a13570-c54c-012f-0714-58d385a7bc34",
     "original_title": "Manhattan: Clinton Street - Stanton Street",
     "text": "Clinton Street, east side, north from (No. 16), but not including Stanton, to and including East Houston Streets. Shown as a continuation is Ave. B, west side, north from East Houston Street.\n\nJanuary 14, 1936.\n\nP. L. Sperr.\n",
@@ -19,9 +46,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton St",
+        "str2": "Stanton St"
+      },
+      "source": "Clinton St and Stanton St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985146",
     "image_url": "https://images.nypl.org/?id=3985146&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2d6b340-c5d7-012f-2800-58d385a7bc34",
     "text": null,
     "text_source": null,

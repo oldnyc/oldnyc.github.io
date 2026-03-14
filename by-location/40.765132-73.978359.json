@@ -2,9 +2,46 @@
   {
     "date": "1931-04-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 123,
+        "street": "West 57th Street"
+      },
+      "source": "123 West 57th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Seventh Avenue",
+        "str2": "Sixth Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1558271",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558271.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Calvary Baptist Church"
+      ],
+      "subjects": {
+        "geographic": [
+          "Fifty-seventh Street (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e29017a0-c5ec-012f-a361-58d385a7bc34",
     "text": null,
     "text_source": null,

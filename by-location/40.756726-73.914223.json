@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-10-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "46th Street",
+        "str2": "Broadway"
+      },
+      "source": "Queens: Broadway - 46th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "726272f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726272f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e2cc700-c557-012f-ccb3-58d385a7bc34",
     "original_title": "Queens: Broadway - 46th Street",
     "text": "Broadway, at, adjoining and east of the N.E. corner of 46th Street. (left).\n\nOctober 31, 1936.\n\nP. L. Sperr.\n",

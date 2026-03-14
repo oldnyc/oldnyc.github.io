@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-03-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "31st Avenue",
+        "str2": "31st Street"
+      },
+      "source": "Queens: 31st Street - 31st Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725204f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725204f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/117c0080-c556-012f-fe4e-58d385a7bc34",
     "original_title": "Queens: 31st Street - 31st Avenue",
     "text": "31-09 31st Street, adjoining the S.E. corner of 31st Avenue. This old house was owned by C. Cranfield in 1873, 31st Street then having been known as Second Avenue.\n\nP. L. Sperr\nMarch 14, 1931\n",

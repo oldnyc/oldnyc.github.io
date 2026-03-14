@@ -6,9 +6,27 @@
       "1929-03",
       "1926-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ave. U",
+        "str2": "Ocean Ave."
+      },
+      "source": "Brooklyn: Ave. U - Ocean Ave.",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "707101f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707101f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e115f80-c539-012f-46e2-58d385a7bc34",
     "original_title": "Brooklyn: Ave. U - Ocean Ave.",
     "text": "Ave. U. at the N.E. corner of Ocean Ave., showing P.S. No. 96 which was demolished in March 1929.\n\nMay 1926.\n\nEugene L. Armbruster Collection.\n",

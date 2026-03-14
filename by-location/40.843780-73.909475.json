@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "173rd Street",
+        "str2": "Morris Avenue"
+      },
+      "source": "173rd Street and Morris Avenue",
+      "technique": "gpt"
+    },
     "height": 388,
     "id": "1509485",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509485.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a934970-c5cd-012f-862a-58d385a7bc34",
     "text": null,
     "text_source": null,

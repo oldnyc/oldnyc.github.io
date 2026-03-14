@@ -2,9 +2,41 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 106th Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 106th Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "106th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "719598f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719598f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Disasters",
+          "Fires",
+          "Ruins",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39e1b220-c54d-012f-8df4-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 106th Street (East)",
     "text": "East River Drive, north from East 106th Street.\n\n1935.\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Clove Road",
+        "str2": "Degroot Place"
+      },
+      "source": "Richmond: Clove Road - Degroot Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728747f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728747f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/407b5330-c55b-012f-d84c-58d385a7bc34",
     "original_title": "Richmond: Clove Road - Degroot Place",
     "text": "177-179 Clove Road, north of the N.E. corner of Degroot Place, showing the Norwegian Evangelical Church.\n\nMarch 24, 1930.\n\nP. L. Sperr.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1933-10-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albemarle Road",
+        "str2": "Buckingham Road"
+      },
+      "source": "Brooklyn: Buckingham Road - Albemarle Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703360f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703360f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86dfa020-c533-012f-eca1-58d385a7bc34",
     "original_title": "Brooklyn: Buckingham Road - Albemarle Road",
     "text": "125 Buckingham Road, east side, between Albermarle Road and Church Ave. The view shows a frame house.\n\nOctober 10, 1933\n\nP. L. Sperr.\n",

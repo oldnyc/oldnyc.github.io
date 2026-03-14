@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pitkin Ave.",
+        "str2": "Williams Ave."
+      },
+      "source": "Brooklyn: Williams Ave. - Pitkin Ave.",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "707354f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707354f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1e85350-c539-012f-2bc2-58d385a7bc34",
     "original_title": "Brooklyn: Williams Ave. - Pitkin Ave.",
     "text": "Williams Avenue, north from Pitkin Avenue, showing the east side of the avenue.\n\nP. L. Sperr\nSummer, 1941\n",

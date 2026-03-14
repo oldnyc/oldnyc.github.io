@@ -2,9 +2,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "87th Avenue",
+        "str2": "Queens Boulevard"
+      },
+      "source": "Queens: Queens Boulevard - 87th Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "727787f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727787f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Queens Boulevard (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Floor coverings industry",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c14ce1a0-c559-012f-66e7-58d385a7bc34",
     "original_title": "Queens: Queens Boulevard - 87th Avenue",
     "text": "Queens Boulevard, north from 87th Avenue, showing the thoroughfare being repaved by W.P.A. laborers.\n\nP. L. Sperr\nApril 23, 1936\n",
@@ -19,9 +45,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "87th Avenue",
+        "str2": "Queens Boulevard"
+      },
+      "source": "Queens: Queens Boulevard - 87th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "727788f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727788f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1b3d480-c559-012f-e70a-58d385a7bc34",
     "original_title": "Queens: Queens Boulevard - 87th Avenue",
     "text": "Queens Boulevard, at the N.W. corner of 87th Avenue, showing and old house and stable. It first appears on a 1909 map. 87th Avenue is in the foreground.\n\nP. L. Sperr\n\nApril 23, 1936\n",

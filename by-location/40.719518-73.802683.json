@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "164th Place",
+        "str2": "Goethal Avenue"
+      },
+      "source": "Queens: Goethal Avenue - 164th Place",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "726748f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726748f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ae47390-c558-012f-9f0a-58d385a7bc34",
     "original_title": "Queens: Goethal Avenue - 164th Place",
     "text": "Goethal Avenue, east from 164th Place, showing the avenue and the surrounding area before its development. Note the new dwellings in the right background.\n\nMarch 25, 1932\n\nP. L. Sperr\n",

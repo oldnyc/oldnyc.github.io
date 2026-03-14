@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "25th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 25th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702330f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702330f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc2f2ea0-c531-012f-a9cc-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 25th Street",
     "text": "4th Avenue, south from 25th Street, this being the west side of the avenue.\n\nP. L. Sperr\n\nJuly 21, 1940\n",

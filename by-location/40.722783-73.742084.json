@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-03-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "217th Street",
+        "str2": "92nd Avenue"
+      },
+      "source": "Queens: 217th Street - 92nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726007f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726007f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ee39a80-c557-012f-eda8-58d385a7bc34",
     "original_title": "Queens: 217th Street - 92nd Avenue",
     "text": "217th Street, east side, between Ninety-second and Ninety-third Avenues, showing the home Chas. F. Field of Queens Village.\n\nMarch 15, 1928.\n\nW.B. Vernam\n",

@@ -2,9 +2,42 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 11,
+        "street": "Vesay Street"
+      },
+      "source": "11 Vesay Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558120",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558120.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York County Lawyers Association, St. Paul's Chapel burial ground"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Trinity Church (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Cemeteries",
+          "Facilities",
+          "Historic buildings",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/622f0f80-c5ed-012f-08b5-58d385a7bc34",
     "text": null,
     "text_source": null,

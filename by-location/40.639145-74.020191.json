@@ -2,9 +2,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "63rd Street"
+      },
+      "source": "Brooklyn: 4th Avenue - 63rd Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "702344f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702344f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0164ffa0-c532-012f-bfe2-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 63rd Street",
     "text": "4th Avenue, at the northwest corner of 63rd Street, showing the Bay Ridge High School Annex.\nBoard of Education of the City of New York Early 1930's\n",

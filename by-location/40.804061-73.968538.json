@@ -2,9 +2,31 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 109th Street",
+      "technique": "title-cross"
+    },
     "height": 359,
     "id": "722762f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722762f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30fc8e30-c552-012f-b66b-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 109th Street",
     "text": "Riverside Drive at 109th St., looking south. William J. McAlpine, supervising engineer.\nSept. 30, 1897\nDeposited with NYPL by NYC Park Dept. 1931\n",
@@ -19,9 +41,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 312,
+        "street": "West 109th Street"
+      },
+      "source": "312 West 109th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464749-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464749-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/213a3b10-c612-012f-ae93-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +78,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 312,
+        "street": "West 109 Street"
+      },
+      "source": "312 West 109 Street",
+      "technique": "gpt"
+    },
     "height": 537,
     "id": "417158",
     "image_url": "https://images.nypl.org/?id=417158&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93813480-c611-012f-561b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +116,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 362,
+        "street": "Riverside Drive"
+      },
+      "source": "362 Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 513,
     "id": "417373",
     "image_url": "https://images.nypl.org/?id=417373&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec5dd350-c611-012f-7b9d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -70,9 +157,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 109th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715019f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715019f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e43d400-c546-012f-3b30-58d385a7bc34",
     "original_title": "Manhattan: 109th Street (West) - Riverside Drive",
     "text": "308 West 109th Street, south side, between Riverside Drive and Broadway.\nAbout 1911.\n",

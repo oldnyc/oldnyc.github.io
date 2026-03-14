@@ -2,9 +2,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Prospect Park South West",
+        "str2": "Seeley Street"
+      },
+      "source": "Prospect Park South West and Seeley Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Prospect Avenue",
+        "str2": "Seeley Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Prospect Avenue",
+        "str2": "Seeley Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "706696f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706696f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2bc9500-c538-012f-dfe9-58d385a7bc34",
     "original_title": "Brooklyn: Seeley Street - Prospect Avenue",
     "text": "218-222 Seeley Street, south side, between Prospect Avenue (right) and Prospect Park South West, showing in the center of the view the home of F.W. Bender in 1923.\n\nDecember 17, 1923.\n\nW. B. Vernam\n",

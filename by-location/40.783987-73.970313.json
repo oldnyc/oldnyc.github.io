@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "84th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 84th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714672f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714672f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98991920-c545-012f-4f69-58d385a7bc34",
     "text": "8-10 West 84th Street, south side, west of Central Park West.\nAbout 1911.\n",
     "text_source": "gpt",
@@ -24,9 +42,27 @@
     "dates_from_text": [
       "1928-09-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "84th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 84th Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "718499f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718499f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8546c650-c54b-012f-f454-58d385a7bc34",
     "text": "Central Park West, west side, north from 84th Street.\nSeptember 19, 1928.\n\nP. L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -40,9 +76,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "84th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 84th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718498f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718498f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84de2120-c54b-012f-bed5-58d385a7bc34",
     "text": "Hans W. Hannau, photographer\n#1332\n",
     "text_source": "gpt",

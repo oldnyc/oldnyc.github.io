@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "32nd St. W.",
+        "str2": "Surf Ave."
+      },
+      "source": "Brooklyn: Surf Ave. - 32nd St. W.",
+      "technique": "title-cross"
+    },
     "height": 500,
     "id": "707004f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707004f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/284ea3d0-c539-012f-17c7-58d385a7bc34",
     "original_title": "Brooklyn: Surf Ave. - 32nd St. W.",
     "text": "Surf Ave., north side, west from West 32nd Street. The second building from the corner (No. 3211), is the Maple Hotel.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",

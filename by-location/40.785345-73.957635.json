@@ -2,9 +2,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "92nd Street"
+      },
+      "source": "Manhattan: 92nd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714827f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714827f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d51bb7e0-c545-012f-bc46-58d385a7bc34",
     "original_title": "Manhattan: 92nd Street - 5th Avenue",
     "text": "8-2 East 92nd Street, east of, adjoining, and at the S.E. corner of Fifth Avenue.\n1922.\nGift of E. M. Jenks.\n",
@@ -22,9 +46,30 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "92nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 92nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709192f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709192f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Warburg (Felix) House."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1439350-c53c-012f-1d04-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 92nd Street",
     "text": "Home of Felix M. Warburg, Fifth Avenue at N.E. corner of 92nd Street.\nJune, 1925.\n\nPresented to the Jewish Theological Seminary of America. Jan 25/44.\n",

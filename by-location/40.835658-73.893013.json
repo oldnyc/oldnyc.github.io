@@ -6,9 +6,27 @@
       "1932-09",
       "1906"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "Charlotte Street"
+      },
+      "source": "Bronx: Charlotte Street - Boston Road",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "700721f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700721f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8fd5020-c52f-012f-c051-58d385a7bc34",
     "original_title": "Bronx: Charlotte Street - Boston Road",
     "text": "1537 to 1531 Charlotte Street, at and adjoining the S.W. corner of Boston Road, showing the Beck House, on the former estate of William J. Beck. The G.W. Bromley map of 1924 as revised to September 1932 shows the site to be occupied by a 5-story brick structure.\n\n1906.\n\nGift of Randall Comfort.\n",

@@ -2,9 +2,43 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 102nd Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 102nd Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "102nd Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 411,
     "id": "719594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719594f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Electric household appliances industry",
+          "Factories",
+          "Plazas",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38592220-c54d-012f-d2c4-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 102nd Street",
     "text": "(1) East River drive, at the eastern end of East 102nd Street, prior to clearance. Also shown is a view westward on 102nd Street.\n\nOctober 17, 1934.\n\nP. L. Sperr.\n\n(2) At the same point, and viewing northward to East 103rd Street. Shown in the center is the Harlem Market (Farmers Square).\n\nOctober 17, 1934.\n\nP. L. Sperr.\n\n(3) A view northward from East 103rd to 104th Streets.\n\nNovember 8, 1934.\n\nP. L. Sperr.\n\nAccording to the New York Times of November 8, 1937, page 25: Commissioner of Parks, Moses proposes the acquisition of a lot 250 x 100 for an approach to a proposed pedestrian bridge to Wards Island. Said lot would be on the north side of East 103rd Street and west of the East River Drive. It appears in these views with a heap of granite thereon.\n",
@@ -19,9 +53,54 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 102nd Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 102nd Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "103rd Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 103rd Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 104th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "719597f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719597f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barges",
+          "Disasters",
+          "Fires",
+          "Ruins",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3989e8d0-c54d-012f-2da1-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 103rd Street (East)",
     "text": "(1)\nEast River Drive, north from East 103rd (left, not seen) to East 104th Streets, showing a steam shovel dumping the debris of the burned warehouse which occupied that site, into the barge the \"Frances P.\" In the right center appear Nos. 453-447 East 104th Street, a 1-story garage on the north side of the street, and 445-439, two units of the Manhattan Grocery Co.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view of the activity at the N.W. corner of East 103rd Street (obscured, in view 1, by the barge cabin). The activity is that of a loading machine of the Department of Sanitation clearing away brewer's grain, after the burning of the warehouse which contained it.\n\nP. L. Sperr.\n\n(3)\nA more inclusive view southward to East 102nd Street.\n\nP. L. Sperr.\n",
@@ -36,9 +115,54 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 102nd Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 102nd Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "103rd Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 103rd Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 104th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "719597f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719597f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barges",
+          "Disasters",
+          "Fires",
+          "Ruins",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3989e8d0-c54d-012f-2da1-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 103rd Street (East)",
     "text": "(1)\nEast River Drive, north from East 103rd (left, not seen) to East 104th Streets, showing a steam shovel dumping the debris of the burned warehouse which occupied that site, into the barge the \"Frances P.\" In the right center appear Nos. 453-447 East 104th Street, a 1-story garage on the north side of the street, and 445-439, two units of the Manhattan Grocery Co.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view of the activity at the N.W. corner of East 103rd Street (obscured, in view 1, by the barge cabin). The activity is that of a loading machine of the Department of Sanitation clearing away brewer's grain, after the burning of the warehouse which contained it.\n\nP. L. Sperr.\n\n(3)\nA more inclusive view southward to East 102nd Street.\n\nP. L. Sperr.\n",
@@ -53,9 +177,54 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 102nd Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 102nd Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "103rd Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 103rd Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 104th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 389,
     "id": "719597f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719597f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barges",
+          "Disasters",
+          "Fires",
+          "Ruins",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3989e8d0-c54d-012f-2da1-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 103rd Street (East)",
     "text": "(1)\nEast River Drive, north from East 103rd (left, not seen) to East 104th Streets, showing a steam shovel dumping the debris of the burned warehouse which occupied that site, into the barge the \"Frances P.\" In the right center appear Nos. 453-447 East 104th Street, a 1-story garage on the north side of the street, and 445-439, two units of the Manhattan Grocery Co.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view of the activity at the N.W. corner of East 103rd Street (obscured, in view 1, by the barge cabin). The activity is that of a loading machine of the Department of Sanitation clearing away brewer's grain, after the burning of the warehouse which contained it.\n\nP. L. Sperr.\n\n(3)\nA more inclusive view southward to East 102nd Street.\n\nP. L. Sperr.\n",

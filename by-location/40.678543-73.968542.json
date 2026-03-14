@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-09-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "St. Mark's Avenue",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Brooklyn: St. Mark's Avenue - Vanderbilt Avenue",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "706585f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706585f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/896b2930-c538-012f-7f38-58d385a7bc34",
     "original_title": "Brooklyn: St. Mark's Avenue - Vanderbilt Avenue",
     "text": "St. Marks Avenue, west from Vanderbilt Avenue.\n\nP. L. Sperr\nSeptember 2, 1941\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd St. E.",
+        "str2": "Vanderveer Pl."
+      },
+      "source": "Brooklyn: Vanderveer Pl. - 23rd St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707181f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707181f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d38cfa0-c539-012f-2a3f-58d385a7bc34",
     "original_title": "Brooklyn: Vanderveer Pl. - 23rd St. E.",
     "text": "2232-2236 Vanderveer Place, south side, 75 ft. west of E. 23rd Street (left, not shown) showing the home of Ethel Lewis (No. 2232 Vanderveer Place).\n\nAbout 1925.\n\nW. B. Vernam\n",

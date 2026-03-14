@@ -2,9 +2,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Knickerbocker Avenue",
+        "str2": "Weirfield Street"
+      },
+      "source": "Knickerbocker Avenue and Weirfield Street",
+      "technique": "gpt"
+    },
     "height": 472,
     "id": "732684f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732684f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8637a410-c561-012f-2fcc-58d385a7bc34",
     "text": "Knickerbocker Avenue, north side, from Weirfield to Halsey streets, showing Public School No. 151, looking south from the former.\nBoard of Education of the City of New York  June 30, 1931\n",
     "text_source": "gpt",

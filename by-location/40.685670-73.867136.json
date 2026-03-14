@@ -6,9 +6,41 @@
       "1847",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 218,
+        "street": "Elderts Lane"
+      },
+      "source": "218 Elderts Lane",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Elderts Lane",
+        "str2": "Fulton Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Elderts Lane",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 468,
     "id": "704077f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704077f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a57c0b90-c534-012f-e81d-58d385a7bc34",
     "original_title": "Brooklyn: Elderts Lane - Fulton Street",
     "text": "218 Elderts Lane, west side, north of Fulton Street, showing a home erected about 1847 on the site of the original Eldert barn. This house once had a cupola.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

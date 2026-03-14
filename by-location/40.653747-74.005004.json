@@ -2,9 +2,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "37th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 37th Street",
+      "technique": "title-cross"
+    },
     "height": 410,
     "id": "702337f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702337f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fea25030-c531-012f-bfe2-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 37th Street",
     "text": "4th Avenue (right), at the southeast corner of 37th Street, showing an old dwelling.\n\nP. L. Sperr\n\nJuly 21, 1940\n",

@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "227th Street (West)",
+        "str2": "Adrian Avenue"
+      },
+      "source": "Manhattan: 227th Street (West) - Adrian Avenue",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "715831f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715831f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5295a750-c547-012f-7687-58d385a7bc34",
     "original_title": "Manhattan: 227th Street (West) - Adrian Avenue",
     "text": "West 227th Street, from Adrian to Marble Hill Avenue showing Federal employees repairing this street pavement and curbing.\n\nMay 8, 1936\n\nW.P.A Photo\nFederal Art Project\n",
@@ -19,9 +43,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "227th Street (West)",
+        "str2": "Adrian Avenue"
+      },
+      "source": "Manhattan: 227th Street (West) - Adrian Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715832f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715832f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52e44510-c547-012f-c48b-58d385a7bc34",
     "original_title": "Manhattan: 227th Street (West) - Adrian Avenue",
     "text": "West 227th Street, north side, east from Adrian Ave.\n\nMay 8, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

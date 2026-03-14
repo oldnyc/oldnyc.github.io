@@ -2,9 +2,33 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "71st Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 71st Street",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "715952f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715952f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Ansonia Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/804707e0-c547-012f-13f4-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 71st Street",
     "text": "Amsterdam Ave, north from but not including 71st Street, showing the Northern extremity of Sherman Square, The view also shows Broadway, north from and including 72nd Street, included are the Ansonia and St. Andrew Hotels in the left background.\n\nAbout 1905.\n\nEugene L. Armbruster, Collection.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "71st Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 71st Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714339f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714339f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15826ad0-c545-012f-5f37-58d385a7bc34",
     "original_title": "Manhattan: 71st Street (West) - Amsterdam Avenue",
     "text": "220-224 West 71st Street, south side, west of Amsterdam Avenue.\nabout 1911.\n",
@@ -36,9 +84,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "71st Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 71st Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714340f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714340f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15fa0b40-c545-012f-a9ad-58d385a7bc34",
     "original_title": "Manhattan: 71st Street (West) - Broadway",
     "text": "225-229 West 71st Street, north side, west of Broadway.\nAbout 1911.\n",
@@ -53,9 +125,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "71st Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 71st Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714341f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714341f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/164cb1d0-c545-012f-665b-58d385a7bc34",
     "original_title": "Manhattan: 71st Street (West) - Amsterdam Avenue",
     "text": "226 West 71st Street, south side, between Amsterdam and West End Avenues.\nAbout 1911.\n",
@@ -70,9 +166,33 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "71st Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 71st Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "714347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18cfc5d0-c545-012f-88d3-58d385a7bc34",
     "original_title": "Manhattan: 71st Street - Broadway",
     "text": "71st Street, West End Avenue, to Broadway. (Before Reconstruction).\nDecember 10, 1918.\n",
@@ -87,9 +207,29 @@
   {
     "date": "1919-11-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "71st Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 71st Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "1509121-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509121-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee3da1b0-c5cd-012f-b07c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -103,9 +243,38 @@
   {
     "date": "1925-10-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 71st Street"
+      },
+      "source": "Manhattan: West 71st Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "1558307",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558307.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Section of street in front of Christ Protestant Episcopal Church"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Seventy-first Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/efea0550-c5ec-012f-a79d-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Hudson River"
+      },
+      "source": "34th Street and Hudson River",
+      "technique": "gpt"
+    },
     "height": 492,
     "id": "734534f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734534f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Metropolitan Life Insurance Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Insurance companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71452c50-c564-012f-2505-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Hudson River"
+      },
+      "source": "34th Street and Hudson River",
+      "technique": "gpt"
+    },
     "height": 260,
     "id": "734534f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734534f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Metropolitan Life Insurance Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Insurance companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71452c50-c564-012f-2505-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-08-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gates Avenue",
+        "str2": "Washington Avenue"
+      },
+      "source": "Brooklyn: Gates Avenue - Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "704612f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704612f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c678c10-c535-012f-c452-58d385a7bc34",
     "original_title": "Brooklyn: Gates Avenue - Washington Avenue",
     "text": "Gates Avenue(right), east from Washington Avenue.\n\nP. L. Sperr\nAugust 28, 1941\n",

@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "218th Street",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - 218th Street",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "727090f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727090f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "General stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b00e1a30-c558-012f-e792-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - 218th Street",
     "text": "Jamaica Avenue, at the S.W. corner of 218th Street, showing C. Scudorfi's country store.\n\nEugene L. Armbruster Collection\nApril, 1925\n",

@@ -2,9 +2,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burke Avenue",
+        "str2": "Cruger Avenue"
+      },
+      "source": "Bronx: Burke Avenue - Cruger Avenue",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "700686f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700686f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9caff790-c52f-012f-41b9-58d385a7bc34",
     "original_title": "Bronx: Burke Avenue - Cruger Avenue",
     "text": "Burke Ave., east from (No. 717) and including Cruger Ave., to but not including Bronxwood Ave. The view is from the lower end of the uptown platform of the Burke Ave. elevated station of the I.R.T. subway, on White Plains Road. This area was formerly the J.T. Adee estate.\n\nAbout 1917.\n",

@@ -2,9 +2,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 127,
+        "street": "Manhattan Street"
+      },
+      "source": "127 Manhattan Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 125,
+        "street": "Manhattan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "465692-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465692-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/725f0e50-c612-012f-1f84-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 127,
+        "street": "Manhattan Street"
+      },
+      "source": "127 Manhattan Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 125,
+        "street": "Manhattan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 516,
     "id": "465692-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465692-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/725f0e50-c612-012f-1f84-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +92,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 127,
+        "street": "Manhattan Street"
+      },
+      "source": "127 Manhattan Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 125,
+        "street": "Manhattan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "465692-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465692-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/725f0e50-c612-012f-1f84-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +137,29 @@
   {
     "date": "1919-06-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 127,
+        "street": "Manhattan Street"
+      },
+      "source": "Manhattan Street #127",
+      "technique": "title-address"
+    },
     "height": 430,
     "id": "1507529-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507529-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a67d420-c5ce-012f-cd24-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Dekalb Avenue"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Clinton Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703998f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703998f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85a673e0-c534-012f-1fa2-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Clinton Avenue",
     "text": "Brooklyn\nDeKalb Ave. at Clinton from Vanderbilt Ave.\nP.L. Sperr\n7-8-42\n",

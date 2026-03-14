@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-09-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Avenue",
+        "str2": "Vermont Street"
+      },
+      "source": "Brooklyn: Glenmore Avenue - Vermont Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "704628f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704628f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8392e710-c535-012f-e83f-58d385a7bc34",
     "original_title": "Brooklyn: Glenmore Avenue - Vermont Street",
     "text": "Glenmore Avenue, east from and across Vermont Street, showing the buildings on the north side of the thoroughfare.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",
@@ -22,9 +40,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Ave.",
+        "str2": "Vermont St."
+      },
+      "source": "Brooklyn: Vermont St. - Glenmore Ave.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707200f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707200f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7483b470-c539-012f-e367-58d385a7bc34",
     "original_title": "Brooklyn: Vermont St. - Glenmore Ave.",
     "text": "Vermont Street (right), at the S. E. corner of Glenmore Avenue.\nSeptember 14, 1940\n\nP. L. Sperr\n",
@@ -39,9 +80,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Ave.",
+        "str2": "Vermont St."
+      },
+      "source": "Brooklyn: Vermont St. - Glenmore Ave.",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "707201f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707201f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74d0aea0-c539-012f-b4e5-58d385a7bc34",
     "original_title": "Brooklyn: Vermont St. - Glenmore Ave.",
     "text": "Vermont Street, west side, north from Glenmore Avenue. Note the steeple of St. Johannes Church, on New Jersey Avenue.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",

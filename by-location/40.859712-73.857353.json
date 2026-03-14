@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1937-01-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Astor Avenue",
+        "str2": "Williamsbridge Road"
+      },
+      "source": "Bronx: Astor Avenue - Williamsbridge Road",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "700438f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700438f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43615dc0-c52f-012f-e750-58d385a7bc34",
     "original_title": "Bronx: Astor Avenue - Williamsbridge Road",
     "text": "Astor Avenue, west from Williamsbridge Road, showing the thoroughfare after it had been repaved by the W.P.A.\n\nJanuary 26, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

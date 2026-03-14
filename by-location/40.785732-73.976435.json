@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 83rd Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 358,
     "id": "714655f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714655f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/918e64d0-c545-012f-23ed-58d385a7bc34",
     "original_title": "Manhattan: 83rd Street (West) - Amsterdam Avenue",
     "text": "161-165 West 83rd Street, north side, east of Amsterdam Avenue. These buildings will soon be demolished to make way for a large apartment house.\n\n1912.\n",

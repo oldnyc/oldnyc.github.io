@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Quentin Road"
+      },
+      "source": "Brooklyn: Bedford Avenue - Quentin Road",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "703182f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703182f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41f52a50-c533-012f-423c-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Quentin Road",
     "text": "Bedford Ave., at the N.E. corner of Quentin Road. A side view of the James Madison  High School. 1928.",
@@ -19,9 +43,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Quentin Road"
+      },
+      "source": "Brooklyn: Bedford Avenue - Quentin Road",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "703183f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703183f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/426586b0-c533-012f-75af-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Quentin Road",
     "text": "Bedford Avenue (left) at the northeast corner of Quentin Road, showing the James Madison  High School.",

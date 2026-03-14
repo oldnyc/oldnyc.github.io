@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 160,
+        "street": "Central Park South"
+      },
+      "source": "160 Central Park South",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1557833-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557833-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Essex House"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/280955d0-c5ed-012f-db13-58d385a7bc34",
     "text": null,
     "text_source": null,

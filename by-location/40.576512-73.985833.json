@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "19th Street (West)",
+        "str2": "Mermaid Avenue"
+      },
+      "source": "Brooklyn: Mermaid Avenue - 19th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705694f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705694f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31372590-c537-012f-402d-58d385a7bc34",
     "original_title": "Brooklyn: Mermaid Avenue - 19th Street (West)",
     "text": "Mermaid Ave., north side, at West 19th Street. A view of Our Lady of Solace R.C. Church. (Coney Island). May 17, 1936 P.L. Sperr",

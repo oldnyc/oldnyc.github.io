@@ -2,9 +2,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724802f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724802f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Business enterprises",
+          "Printers",
+          "Printing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a6b4a50-c555-012f-9e02-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "No. 134 William Street, east side, between John and Fulton Streets.\nAbout 1912.\n",
@@ -19,9 +43,46 @@
   {
     "date": "1915-05-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 99,
+        "street": "William Street"
+      },
+      "source": "99 William Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Ditmars Street",
+        "str2": "William Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Ditmars Street",
+        "str2": "William Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "724795f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724795f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "shutters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77fe4680-c555-012f-58b5-58d385a7bc34",
     "original_title": "Manhattan: William Street - Ditmars Street",
     "text": "#99-101 William Street, showing the rear wall of that building.\n\nMay 1st, 1915.\n\nWurts Brothers,\n",
@@ -36,9 +97,30 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724799f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724799f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7972ce00-c555-012f-4798-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "110-114, 118 and 120 William Street (right to left) at, adjoining and north of the N.E. corner of John Street. The 9-story structure (No. 120) appearing on the left, stands upon the former site of The Rigging House which was the first place fitted up for Methodist worship in New York. Services were held in this building between 1766-1788. For a lithograph of same, see, D.T. Valentine's Manual.\n\nAbout 1915.\n\nEdwin Levick.\n",
@@ -56,9 +138,27 @@
     "dates_from_text": [
       "1917-05-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 442,
     "id": "724798f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724798f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79134070-c555-012f-03a6-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "110 to 120 William Street, at, adjoining and north of the N.E. corner of John Street, showing houses (Nos. 110 to 116) being razed to make room for a 20-story office building bearing Nos. 110-116 William and 69-77 John Streets. On the extreme right is shown a portion of the Woodbridge Building at the S.E. corner of John Street.\nMay 15, 1917.\n\nGift of E. M. Jenks.\n",
@@ -73,9 +173,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724800f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724800f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79baa360-c555-012f-c33e-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "118-122 William Street, east side, north of John Street.\n\nMay 27, 1927.\n\nP. L. Sperr.\n",
@@ -90,9 +211,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724796f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724796f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Excavation",
+          "Insurance companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78622e00-c555-012f-d039-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "(1)\nWilliam Street, west side, north from (No. 101) and including John Street, showing workmen constructing three additional stories to a 6-story office building, Nos. 111-121 William Street, at the N.W. corner of John Street. On the opposite corner (S.W.) appears excavation for the foundation for the new 30-story New Amsterdam Casualty Building.\nJuly 7, 1930.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, viewing slightly westward and showing a part of the John Street side of the building that is being enlarged. Adjoining it is the 16-story Travelers Insurance Co. Building, No. 51-55 John Street, at the N.E. corner of Dutch Street. In the background is visible the tower of the Woolworth Building.\nJuly 7, 1930.\n\nP. L. Sperr.\n",
@@ -107,9 +254,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724796f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724796f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Excavation",
+          "Insurance companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78622e00-c555-012f-d039-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "(1)\nWilliam Street, west side, north from (No. 101) and including John Street, showing workmen constructing three additional stories to a 6-story office building, Nos. 111-121 William Street, at the N.W. corner of John Street. On the opposite corner (S.W.) appears excavation for the foundation for the new 30-story New Amsterdam Casualty Building.\nJuly 7, 1930.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, viewing slightly westward and showing a part of the John Street side of the building that is being enlarged. Adjoining it is the 16-story Travelers Insurance Co. Building, No. 51-55 John Street, at the N.E. corner of Dutch Street. In the background is visible the tower of the Woolworth Building.\nJuly 7, 1930.\n\nP. L. Sperr.\n",
@@ -124,9 +297,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724797f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724797f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78ad19d0-c555-012f-26e5-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "106-98 William Street, east side, south from John (left) to Platt {right, not shown} Streets, showing the 13-story Woodbridge Building with its 17-story annex (76-78 John Street). Excavation shown at the S.W. corner is for the 30-story New Amsterdam Casualty Co Building.\n\nJuly 7, 1930.\n\nP. L. Sperr.\n",
@@ -141,9 +335,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 100,
+        "street": "William Street"
+      },
+      "source": "William Street #100",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508625-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508625-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Woodbridge Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76f40370-c5ce-012f-2fd2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -157,9 +374,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724801f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724801f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a1c9c70-c555-012f-5b92-58d385a7bc34",
     "original_title": "Manhattan: William Street - John Street",
     "text": "William Street, south from John Street. On the left is Platt Street. Progressively thru the view appearing are Maiden Lane, Liberty and Cedar Streets.\n\n1938-9\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",

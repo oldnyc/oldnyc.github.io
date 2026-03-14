@@ -2,9 +2,33 @@
   {
     "date": "1897",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Road",
+        "str2": "Queens Boulevard"
+      },
+      "source": "Queens: 82nd Road - Queens Boulevard",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "725666f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725666f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lakes & ponds",
+          "Roadhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8460b20-c556-012f-8027-58d385a7bc34",
     "original_title": "Queens: 82nd Road - Queens Boulevard",
     "text": "82nd Road (foreground, not seen), just south of Queens Boulevard (right, not seen), showing Peter Opper's Roadhouse. This house standing in 1927, is on the south side of Eighty-second Ave., just west of Queens Boulevard. The pond does not appear after 1915 on any atlas.\n\n1897.\n\nEugene L. Armbruster Collection.\n",

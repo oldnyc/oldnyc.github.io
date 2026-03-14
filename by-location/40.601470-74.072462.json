@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-03-25"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Fingerboard Road",
+        "str2": "Hyland Boulevard"
+      },
+      "source": "Richmond: Fingerboard Road - Hyland Boulevard",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "728821f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728821f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5dfd4560-c55b-012f-e5c4-58d385a7bc34",
     "original_title": "Richmond: Fingerboard Road - Hyland Boulevard",
     "text": "375 Fingerboard Road, north side, between Hylan Boulevard and Sherman Ave., showing the Bethlehem Orphan and Half Orphan Asylum. The building is 225 feet back of the road.\n\nMarch 25, 1925.\n\nP. L. Sperr.\n",

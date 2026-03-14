@@ -2,9 +2,31 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Terrace",
+        "str2": "Treadwell Avenue"
+      },
+      "source": "Richmond: Richmond Terrace - Treadwell Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "729444f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729444f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Fishing boats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/538682c0-c55c-012f-d564-58d385a7bc34",
     "text": "Richmond Terrace, adjoining the S.E. corner of Treadwell Avenue, showing St. Mary's Roman Catholic Church. The house on the left, is the parish house.\n\nMay 22, 1929\n\nP. L. Sperr\n\n(2)\n\nAnother view of the church, and the neighboring houses, as seen from the shore of the Kill Van Kull.\n\nMay 22, 1929\n\nP. L. Sperr\n\n(3)\n\nAn additional view, at a later date.\n\nJune 1, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -19,9 +41,31 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Terrace",
+        "str2": "Treadwell Avenue"
+      },
+      "source": "Richmond: Richmond Terrace - Treadwell Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729444f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729444f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Fishing boats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/538682c0-c55c-012f-d564-58d385a7bc34",
     "text": "Richmond Terrace, adjoining the S.E. corner of Treadwell Avenue, showing St. Mary's Roman Catholic Church. The house on the left, is the parish house.\n\nMay 22, 1929\n\nP. L. Sperr\n\n(2)\n\nAnother view of the church, and the neighboring houses, as seen from the shore of the Kill Van Kull.\n\nMay 22, 1929\n\nP. L. Sperr\n\n(3)\n\nAn additional view, at a later date.\n\nJune 1, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -36,9 +80,31 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Terrace",
+        "str2": "Treadwell Avenue"
+      },
+      "source": "Richmond: Richmond Terrace - Treadwell Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729444f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/729444f-c.270.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Fishing boats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/538682c0-c55c-012f-d564-58d385a7bc34",
     "rotation": 270,
     "text": "Richmond Terrace, adjoining the S.E. corner of Treadwell Avenue, showing St. Mary's Roman Catholic Church. The house on the left, is the parish house.\n\nMay 22, 1929\n\nP. L. Sperr\n\n(2)\n\nAnother view of the church, and the neighboring houses, as seen from the shore of the Kill Van Kull.\n\nMay 22, 1929\n\nP. L. Sperr\n\n(3)\n\nAn additional view, at a later date.\n\nJune 1, 1935\n\nP. L. Sperr\n",
@@ -54,9 +120,45 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Terrace",
+        "str2": "Treadwell Avenue"
+      },
+      "source": "Richmond Terrace and Treadwell Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Loft Street",
+        "str2": "Nicholas Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Loft Street",
+        "str2": "Nicholas Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "729222f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729222f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd64e540-c55b-012f-3d65-58d385a7bc34",
     "original_title": "Richmond: Nicholas Avenue - Loft Street",
     "text": "Nicholas Avenue (houses thereon), east side, north from Loft Street (right) to Richmond Terrace. The view is eastward from near John Street and shows, in the left background, St. Marys Roman Catholic Church, on Richmond Terrace, near Treadwell Avenue.\n\nNovember 4, 1931\n\nP. L. Sperr\n",

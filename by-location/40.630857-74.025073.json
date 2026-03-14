@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Brooklyn: 4th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 410,
     "id": "702347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/027e6a60-c532-012f-241a-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 75th Street",
     "text": "Fourth Ave., west side, between 75th (left) and 74th (right) Streets, showing the Church of the Good Shepherd (Lutheran). Also shown are Nos. 371 to 365 (fore to background) 75th Street, north side, west of Fourth Ave.\n\nDecember 17, 1936.\n\nP. L. Sperr.\n",

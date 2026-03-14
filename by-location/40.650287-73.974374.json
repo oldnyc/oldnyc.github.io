@@ -2,9 +2,33 @@
   {
     "date": "1830",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fort Hamilton Parkway",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Ocean Parkway - Fort Hamilton Parkway",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "706110f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706110f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0b9dd90-c537-012f-369b-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Parkway - Fort Hamilton Parkway",
     "text": "Ocean Parkway, at the southwest corner of Fort Hamilton Parkway, showing Public School No. 130.\nBoard of Education of the City of New York Early 1830's\n",

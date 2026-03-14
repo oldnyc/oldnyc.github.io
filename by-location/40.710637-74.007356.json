@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1875"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Manhattan: Nassau Street - Ann Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721882f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721882f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cdb5b700-c550-012f-df11-58d385a7bc34",
     "original_title": "Manhattan: Nassau Street - Ann Street",
     "text": "Nassau Street, south across Ann Street, showing an early view of the business section of the City. On the right is the distinctive Bennett Building as it was originally. Subsequently its height was increased. The massive structure obscuring Trinity Church is the Equitable Building. Note the weather observation station atop same at the rear. (See pg. 832- King's Handbook of N. Y.-1893) This structure, erected in 1872 was enlarged in 1887. On the left appears the curved roof atop the old Post Office.\n\nAbout 1875-80\n\nAmerican Studio, photo\nGift of Urbrock Collection\n",
@@ -22,9 +40,32 @@
   {
     "date": "1897",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Manhattan: Ann Street - Nassau Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733324f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733324f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Ann Street - Nassau Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Consumers -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76991640-c562-012f-11ee-58d385a7bc34",
     "text": "Office workers taking lunch time stroll in Ann and Nassau Streets.\nAbout 1897.\n",
     "text_source": "gpt",
@@ -38,9 +79,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Manhattan: Ann Street - Nassau Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "716381f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716381f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Variety stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/254b02e0-c548-012f-fba4-58d385a7bc34",
     "original_title": "Manhattan: Ann Street - Nassau Street",
     "text": "35-41 Ann Street, at, adjoining and east of the N.E. corner of Nassau Street, as seen from Nassau Street and thru clearance at the S.E. corner.\nJune 30, 1928\nP. L. Sperr\n",
@@ -55,9 +117,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Manhattan: Nassau Street - Ann Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721883f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721883f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce2b9ea0-c550-012f-9b2d-58d385a7bc34",
     "original_title": "Manhattan: Nassau Street - Ann Street",
     "text": "Nassau Street, west side, at Ann Street, as seen through clearance on the S.E. corner of Nassau and Ann Streets. Also shown is Ann Street, north side, at Nassau Street.\n\nJune 30, 1928.\n\nP. L. Sperr.\n",
@@ -72,9 +155,38 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Ann Street and Nassau Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Nassau Street",
+        "str2": "Temple Court",
+        "technique": "title-cross"
+      }
+    ],
     "height": 457,
     "id": "721894f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721894f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d317a2a0-c550-012f-12a4-58d385a7bc34",
     "text": "(1) Nassau Street, south side, from near Ann Street, looking northwards towards Park Row.\n\nNO RECORD OF PHOTOGRAPHY\n\n(2) Nassau Street, showing Temple Court at the southwest corner of Beekman Street.\n\nP. L. Sperr\n\nJuly, 1928\n\nAugust, 1913\n",
     "text_source": "gpt",
@@ -88,9 +200,38 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Ann Street and Nassau Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Nassau Street",
+        "str2": "Temple Court",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "721894f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721894f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d317a2a0-c550-012f-12a4-58d385a7bc34",
     "text": "(1) Nassau Street, south side, from near Ann Street, looking northwards towards Park Row.\n\nNO RECORD OF PHOTOGRAPHY\n\n(2) Nassau Street, showing Temple Court at the southwest corner of Beekman Street.\n\nP. L. Sperr\n\nJuly, 1928\n\nAugust, 1913\n",
     "text_source": "gpt",
@@ -104,9 +245,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann St",
+        "str2": "Nassau St"
+      },
+      "source": "Ann St and Nassau St",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984302",
     "image_url": "https://images.nypl.org/?id=3984302&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ece5de50-c5d6-012f-8a09-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -123,9 +288,27 @@
     "dates_from_text": [
       "1939-12-18"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ann Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Manhattan: Ann Street - Nassau Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716383f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716383f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/260e0c70-c548-012f-cb28-58d385a7bc34",
     "original_title": "Manhattan: Ann Street - Nassau Street",
     "text": "Ann Street, at the N.E. corner of Nassau Street. The view also shows Nassau Street, east side, north from Ann to Beekman Streets.\nDecember 18, 1939.\nP.L. Sperr.\n",
@@ -140,9 +323,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 113,
+        "street": "Nassau Street"
+      },
+      "source": "113 Nassau Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "732254f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732254f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Nassau Street ; 113 Nassau Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df858bb0-c560-012f-7be9-58d385a7bc34",
     "text": "This building, at 113 Nassau Street, was occupied by \"The New York Times\" between 1851 and 1854.\n\nGift of \"The New York Times\".\n",
     "text_source": "gpt",

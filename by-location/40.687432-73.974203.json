@@ -2,9 +2,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 99,
+        "street": "Lafayette Avenue"
+      },
+      "source": "99 Lafayette Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1557792",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557792.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e7a4890-c5ec-012f-bc41-58d385a7bc34",
     "text": null,
     "text_source": null,

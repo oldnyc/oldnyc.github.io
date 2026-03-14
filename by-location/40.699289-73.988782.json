@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Adams Street",
+        "str2": "High Street"
+      },
+      "source": "Brooklyn: Adams Street - High Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7c0c190-c532-012f-2009-58d385a7bc34",
     "original_title": "Brooklyn: Adams Street - High Street",
     "text": "155 Adams Street, at the N.E. corner of High Street.\n1922.\nEugene L. Armbruster Collection.\n",

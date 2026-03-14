@@ -2,9 +2,44 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 3554,
+        "street": "Webster Avenue"
+      },
+      "source": "3554 Webster Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "211th Street (East)",
+        "str2": "Webster Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "E. 211th Street",
+        "str2": "Webster Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "702060f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702060f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91ae1d20-c531-012f-d988-58d385a7bc34",
     "original_title": "Bronx: Webster Avenue - 211th Street (East)",
     "text": "Webster Avenue, at E. 211th Street (Woodlawn Cemetery). The view is eastward across the avenue from a cliff near the wall of the cemetery. The two-story dwellings, on the east of the avenue bear numbers 3554 to 3544 (left to right).\n\nJune 16, 1938.\n\nP. L. Sperr\n",

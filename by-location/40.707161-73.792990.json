@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "168th Street",
+        "str2": "91st Avenue"
+      },
+      "source": "Queens: 91st Avenue - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725715f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725715f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Halls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8895cf0-c556-012f-7b27-58d385a7bc34",
     "original_title": "Queens: 91st Avenue - 168th Street",
     "text": "168-15 91st Avenue, north side, between 168th and 169th Streets, showing the Jamaica Saengerbund Hall.\n\nP. L. Sperr\n\nJuly 29, 1931\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1933-04-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Bovanizer Street"
+      },
+      "source": "Richmond: Amboy Road - Bovanizer Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "728316f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728316f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96d2b040-c55a-012f-740c-58d385a7bc34",
     "original_title": "Richmond: Amboy Road - Bovanizer Street",
     "text": "Amboy Road, north side, between Bovanizer Street and Bamberger Lane, showing Bamberger's Tavern. The view is eastward.\n\nApril 30, 1933\n\nP. L. Sperr\n",

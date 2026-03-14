@@ -2,9 +2,34 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 468,
     "id": "734062f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734062f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River Pier 6 (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Brooklyn Borough Hall (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a100fbb0-c563-012f-0fc7-58d385a7bc34",
     "text": "Bush Terminal, Brooklyn\n6-23-1930\nFairchild Aerial Surveys\n",
     "text_source": "gpt",
@@ -18,9 +43,46 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "733967f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733967f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: South Street - Coenties Slip."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River Pier 6 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7649cb10-c563-012f-4b11-58d385a7bc34",
     "text": "East River, river scene, showing barges docked at pier 6, the New York State Canal Terminal, off South Street, at the foot of Coenties Slip.\n\nMay 26, 1926.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -34,9 +96,46 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733969f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733969f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan - South Street - Coenties Slip."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River Pier 6 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/772b72c0-c563-012f-f4d7-58d385a7bc34",
     "text": "(1)\nEast River, showing pier 6, the New York State Barge Canal Terminal off South Street, at the foot of Coenties Slip. The view is in a northerly direction.\n\nApril 17, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\n\nApril 17, 1934.\n\nP. L. Sperr.\n\n(3)\nAn additional view at a later date.\n\nJuly 24, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -50,9 +149,46 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733969f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733969f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan - South Street - Coenties Slip."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River Pier 6 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/772b72c0-c563-012f-f4d7-58d385a7bc34",
     "text": "(1)\nEast River, showing pier 6, the New York State Barge Canal Terminal off South Street, at the foot of Coenties Slip. The view is in a northerly direction.\n\nApril 17, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\n\nApril 17, 1934.\n\nP. L. Sperr.\n\n(3)\nAn additional view at a later date.\n\nJuly 24, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -66,9 +202,46 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733969f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733969f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan - South Street - Coenties Slip."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River Pier 6 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/772b72c0-c563-012f-f4d7-58d385a7bc34",
     "text": "(1)\nEast River, showing pier 6, the New York State Barge Canal Terminal off South Street, at the foot of Coenties Slip. The view is in a northerly direction.\n\nApril 17, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\n\nApril 17, 1934.\n\nP. L. Sperr.\n\n(3)\nAn additional view at a later date.\n\nJuly 24, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -82,9 +255,41 @@
   {
     "date": "1951",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 490,
     "id": "2040849",
     "image_url": "https://images.nypl.org/?id=2040849&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "East River Pier 6 (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (State)"
+        ],
+        "name": [
+          "New York (N.Y.). Department of Docks and Ferries"
+        ],
+        "temporal": [
+          "1900-1999"
+        ],
+        "topic": [
+          "Buildings",
+          "Ferry terminals",
+          "Piers & wharves",
+          "Tugboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fba6a80-c6ce-012f-212c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -98,9 +303,41 @@
   {
     "date": "1951",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7016048,
+        "lng": -74.0093006
+      },
+      "source": "East River Pier 6 (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 489,
     "id": "2040850",
     "image_url": "https://images.nypl.org/?id=2040850&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "East River Pier 6 (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (State)"
+        ],
+        "name": [
+          "New York (N.Y.). Department of Docks and Ferries"
+        ],
+        "temporal": [
+          "1900-1999"
+        ],
+        "topic": [
+          "Buildings",
+          "Ferry terminals",
+          "Piers & wharves",
+          "Tugboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/502c2150-c6ce-012f-7b04-58d385a7bc34",
     "text": null,
     "text_source": null,

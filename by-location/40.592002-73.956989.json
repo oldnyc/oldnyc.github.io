@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-08-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "13th Street (East)",
+        "str2": "Avenue X"
+      },
+      "source": "Brooklyn: 13th Street (East) - Avenue X",
+      "technique": "title-cross"
+    },
     "height": 410,
     "id": "702534f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702534f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48243e90-c532-012f-c4ab-58d385a7bc34",
     "original_title": "Brooklyn: 13th Street (East) - Avenue X",
     "text": "E. 13th Street, east side, between Avenues X and Y, showing one of Harts houses in Sheepshead Bay.\n\nAugust 9, 1927\nW.B. Vernan\n",

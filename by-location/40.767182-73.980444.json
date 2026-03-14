@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 222,
+        "street": "West 59th Street"
+      },
+      "source": "222 West 59th Street",
+      "technique": "gpt"
+    },
     "height": 293,
     "id": "465642-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465642-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e6a17d0-c612-012f-090c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 222,
+        "street": "West 59th Street"
+      },
+      "source": "222 West 59th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465642-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465642-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e6a17d0-c612-012f-090c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 222,
+        "street": "West 59th Street"
+      },
+      "source": "222 West 59th Street",
+      "technique": "title-address"
+    },
     "height": 488,
     "id": "714037f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714037f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "222 West 59th Street ; Central Park South."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a15d2f80-c544-012f-b441-58d385a7bc34",
     "text": "General Photographic Co., Inc.\n3293 3rd Ave., N.Y.\nn.d.\n",
     "text_source": "gpt",
@@ -50,9 +113,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 222,
+        "street": "Central Park South"
+      },
+      "source": "222 Central Park South",
+      "technique": "gpt"
+    },
     "height": 488,
     "id": "719104f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719104f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "222-230 Central Park South."
+      ],
+      "subjects": {
+        "geographic": [
+          "Columbus Circle (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Studios"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74798cc0-c54c-012f-4baa-58d385a7bc34",
     "text": "Columbus Circle, Manhattan.\nAt the left are nos. 222-230 Central Park South.\n\nGeneral Photographic Co., Inc.\n3293 Third Ave., NYC\n\nn.d.\n",
     "text_source": "gpt",

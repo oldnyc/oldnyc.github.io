@@ -2,9 +2,44 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 79,
+        "street": "Furman Street"
+      },
+      "source": "79 Furman Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "Middagh Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "Middagh Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "704593f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704593f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74cee5f0-c535-012f-1262-58d385a7bc34",
     "original_title": "Brooklyn: Furman Street - Middagh Street",
     "text": "Furman Street, east side, south from No. 79, near Middagh Street.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

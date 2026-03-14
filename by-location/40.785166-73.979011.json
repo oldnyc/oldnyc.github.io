@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Eighty-first Street"
+      },
+      "source": "Broadway and Eighty-first Street",
+      "technique": "gpt"
+    },
     "height": 530,
     "id": "417209",
     "image_url": "https://images.nypl.org/?id=417209&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8d1f500-c611-012f-dc38-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,33 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 81st Street",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "717673f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717673f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34171d90-c54a-012f-c349-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 81st Street",
     "text": "Broadway, north from 81st Street. About 1910.",
@@ -35,9 +81,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "81st Street",
+        "str2": "Broadway"
+      },
+      "source": "81st Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 510,
     "id": "416454",
     "image_url": "https://images.nypl.org/?id=416454&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42c92e60-c6db-012f-8ce8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +119,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 81st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "717674f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717674f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34634570-c54a-012f-daa8-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 81st Street (West)",
     "text": "Broadway, north from W. 81st Street as photographed from a point to the south of same. To the right, at the S.E. corner of 81st Street is Keiths' 81st Street Theatre. Note on the same side the new apartment house under construction at the N.E. corner of 82nd Street. The Forres (No. 2261-71) and the Saxony (No. 2273-79) are at the left, occupying the west side frontage of Broadway from 81st to 82nd Streets. These photos appeared in the publication \"Silver Jubilee of Greater New York.\n\n1923\nViews 1 and 2\n\nv. 1 Neg # 744\n\nBrown Bros.\nView 2: Neg 744A\n",
@@ -68,9 +158,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 81st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717674f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717674f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34634570-c54a-012f-daa8-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 81st Street (West)",
     "text": "Broadway, north from W. 81st Street as photographed from a point to the south of same. To the right, at the S.E. corner of 81st Street is Keiths' 81st Street Theatre. Note on the same side the new apartment house under construction at the N.E. corner of 82nd Street. The Forres (No. 2261-71) and the Saxony (No. 2273-79) are at the left, occupying the west side frontage of Broadway from 81st to 82nd Streets. These photos appeared in the publication \"Silver Jubilee of Greater New York.\n\n1923\nViews 1 and 2\n\nv. 1 Neg # 744\n\nBrown Bros.\nView 2: Neg 744A\n",

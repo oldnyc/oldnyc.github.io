@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "31st Street (East)",
+        "str2": "Tilden Avenue"
+      },
+      "source": "Brooklyn: 31st Street (East) - Tilden Avenue",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "702700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/874761e0-c532-012f-8597-58d385a7bc34",
     "original_title": "Brooklyn: 31st Street (East) - Tilden Avenue",
     "text": "East 31st Street at the N.E. corner of Tilden Ave., showing building known as Thomas Maquire's Hotel in 1873. This building is no longer in existence.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

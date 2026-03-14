@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 255,
+        "street": "W 27th Street"
+      },
+      "source": "27th Street (West) #255",
+      "technique": "title-address"
+    },
     "height": 368,
     "id": "1507833",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507833.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7bb05b0-c5ce-012f-4a85-58d385a7bc34",
     "text": null,
     "text_source": null,

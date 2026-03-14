@@ -2,9 +2,47 @@
   {
     "date": "1932-04-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 112,
+        "street": "Schermerhorn Street"
+      },
+      "source": "112 Schermerhorn Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Boerum Place",
+        "str2": "Smith Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "1557806",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557806.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Friends meeting house and school"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Buses",
+          "Historic buildings",
+          "Playgrounds",
+          "Schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73f1dc10-c5ec-012f-b218-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +56,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 112,
+        "street": "Schermerhorn Street"
+      },
+      "source": "112 Schermerhorn Street",
+      "technique": "gpt"
+    },
     "height": 463,
     "id": "1557804",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557804.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn Friends School"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Art education",
+          "Buildings, structures, etc",
+          "Classrooms",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/731b44a0-c5ec-012f-636c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +101,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 112,
+        "street": "Schermerhorn Street"
+      },
+      "source": "112 Schermerhorn Street",
+      "technique": "gpt"
+    },
     "height": 470,
     "id": "1557805",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557805.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn Friends School"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Classrooms",
+          "Historic buildings",
+          "Students"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/738a1930-c5ec-012f-4ebe-58d385a7bc34",
     "text": null,
     "text_source": null,

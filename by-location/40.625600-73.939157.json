@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Avenue K",
+        "str2": "East 38th Street"
+      },
+      "source": "Avenue K and East 38th Street",
+      "technique": "gpt"
+    },
     "height": 477,
     "id": "732667f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732667f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8012a670-c561-012f-155d-58d385a7bc34",
     "text": "Avenue K (right), at the northeast corner of East 38th Street, showing Public School No. 119.\nBoard of Education of the city of New York December 3, 1930\n",
     "text_source": "gpt",

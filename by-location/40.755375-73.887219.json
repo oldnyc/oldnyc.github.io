@@ -2,9 +2,33 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "80th Street",
+        "str2": "Northern Boulevard"
+      },
+      "source": "Queens: Northern Boulevard - 80th Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "727604f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727604f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Queens County (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c951710-c559-012f-2320-58d385a7bc34",
     "original_title": "Queens: Northern Boulevard - 80th Street",
     "text": "Northern Boulevard, east from 80th Street, showing at the left in the distance Fuhrer's Park Casino of 1908.\n\nMarch 1923\n\nEugene L. Armbruster Collection\n",
@@ -19,9 +43,38 @@
   {
     "date": "1925-07-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "80th Street",
+        "str2": "Northern Boulevard"
+      },
+      "source": "80th Street and Northern Boulevard",
+      "technique": "gpt"
+    },
     "height": 474,
     "id": "1558445",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558445.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Jackson Heights garden view - The Towers"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Gardens",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/718bd1c0-c5ed-012f-1d5c-58d385a7bc34",
     "text": null,
     "text_source": null,

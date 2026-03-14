@@ -2,9 +2,46 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 1535,
+        "street": "Richmond Terrace"
+      },
+      "source": "1535 Richmond Terrace",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Barrett Lane",
+        "str2": "Richmond Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Barrett Lane",
+        "str2": "Richmond Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "729488f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729488f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64a50950-c55c-012f-e61d-58d385a7bc34",
     "text": "1535 and 1533 Richmond Terrace, east side, at Barrett Lane (between Van Street and Broadway). The view is southward.\n\nOctober 10, 1930\n\nP. L, Sperr\n",
     "text_source": "gpt",

@@ -2,9 +2,35 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "87th Avenue",
+        "str2": "Range Street"
+      },
+      "source": "Queens: Range Street - 87th Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "727867f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727867f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Creedmoor Village"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Fire stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e0576400-c559-012f-35d5-58d385a7bc34",
     "original_title": "Queens: Range Street - 87th Avenue",
     "text": "Range Street, adjoining the N.E. corner of 87th Avenue, Creedmoor, showing the Creedmoor Hose Company's fire house. Creedmoor is an old village in the southeastern corner of Flushing, near the Jamaica town line.\n\nP. L. Sperr\nJune 6, 1927\n",

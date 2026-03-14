@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "3rd Avenue",
+        "str2": "Bathgate Avenue"
+      },
+      "source": "Bronx: Bathgate Avenue - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700476f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700476f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50e247a0-c52f-012f-e0ad-58d385a7bc34",
     "original_title": "Bronx: Bathgate Avenue - 3rd Avenue",
     "text": "Bathgate Ave & 3rd Ave. s.w. cor.\n8-27-1942\nP.L. Sperr\n",
@@ -19,9 +43,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "185th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 185th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700283f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700283f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c909390-c52f-012f-3c4b-58d385a7bc34",
     "original_title": "Bronx: 185th Street - 3rd Avenue",
     "text": "185th ST. n.w. cor. & Third Ave.\n8-27-1942\nP.L. Sperr\n",

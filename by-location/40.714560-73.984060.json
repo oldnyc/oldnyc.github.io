@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East Broadway",
+        "str2": "Gouverneur Street"
+      },
+      "source": "Manhattan: East Broadway - Gouverneur Street",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "719427f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719427f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5c6e490-c54c-012f-fb21-58d385a7bc34",
     "original_title": "Manhattan: East Broadway - Gouverneur Street",
     "text": "293 East Broadway south side between Gouverneur and Scammel Streets, showing P.S. 147.\nBoard of Education, N.Y.C.  1920\n",

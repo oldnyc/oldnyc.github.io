@@ -2,9 +2,30 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Downing Street",
+        "str2": "Quincy Street"
+      },
+      "source": "Brooklyn: Downing Street - Quincy Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704026f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704026f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90fa13b0-c534-012f-2591-58d385a7bc34",
     "original_title": "Brooklyn: Downing Street - Quincy Street",
     "text": "Downing Street, west side, at Quincy Street. the 4-story building is Nos. 6-8 Downing Street; its right hand portion and the vacant lots adjoining it, correspond to the course of the Clove Road, which was also known as \"the old road to Bedford\". The frame houses in the background, front on Grand Ave.\n\nAbout 1910.\n\nEugene L. Armbruster Collection.\n",

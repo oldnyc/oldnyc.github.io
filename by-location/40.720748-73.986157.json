@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-05-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Norfolk Street",
+        "str2": "Stanton Street"
+      },
+      "source": "Manhattan: Norfolk Street - Stanton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9019e60-c550-012f-ab7a-58d385a7bc34",
     "original_title": "Manhattan: Norfolk Street - Stanton Street",
     "text": "170-178 Norfolk Street, west side, between Stanton and East Houston Streets. No. 174 is a Hungarian Synagogue.\nMay 8, 1934.\nP. L. Sperr.\n",

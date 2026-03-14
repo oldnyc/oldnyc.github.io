@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "147th Avenue",
+        "str2": "231st Street"
+      },
+      "source": "Queens: 147th Avenue - 231st Street",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "725881f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725881f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f19a4ab0-c556-012f-3bfc-58d385a7bc34",
     "original_title": "Queens: 147th Avenue - 231st Street",
     "text": "147th Avenue, north side, near 231st Street, showing an old farmhouse, repainted and slightly modernized. The view is east toward Brookville Boulevard. 147th Avenue was formerly known as Cherry Avenue.\n\nP. L. Sperr\nMarch 9, 1927\n",

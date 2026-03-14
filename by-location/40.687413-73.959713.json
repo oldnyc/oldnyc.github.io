@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-08-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Classon Avenue",
+        "str2": "Greene Avenue"
+      },
+      "source": "Brooklyn: Greene Avenue - Classon Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704699f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704699f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0eb2b30-c535-012f-7636-58d385a7bc34",
     "original_title": "Brooklyn: Greene Avenue - Classon Avenue",
     "text": "Greene Ave. adj. n.e. cor. Classon Ave., Brooklyn.\nP. L. Sperr, photographer\nAug. 24, 1941\n",

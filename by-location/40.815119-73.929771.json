@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "140th Street (East)",
+        "str2": "Walton Avenue"
+      },
+      "source": "Bronx: Walton Avenue - 140th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702007f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702007f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d403a30-c531-012f-ac53-58d385a7bc34",
     "original_title": "Bronx: Walton Avenue - 140th Street (East)",
     "text": "342 to 346 (right to left) Walton Ave., adjoining and north of the N.E. corner of East 140th Street.\n\nNovember 9, 1930.\n\nP. L. Sperr.\n",

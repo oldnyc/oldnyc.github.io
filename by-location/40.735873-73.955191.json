@@ -2,9 +2,34 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dupont Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Brooklyn: Dupont Street - Manhattan Avenue",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "704045f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704045f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Hotels",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9853e1a0-c534-012f-bd8b-58d385a7bc34",
     "original_title": "Brooklyn: Dupont Street - Manhattan Avenue",
     "text": "Dupont Street, south side, at and west of Manhattan Ave., showing at the corner, the former Hotel National and beyond it the School of S.S. Cyril and Methodius.\nSeptember 1923.\nEugene L. Armbruster Collection.\n",
@@ -19,9 +44,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dupont Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Brooklyn: Dupont Street - Manhattan Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704044f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704044f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97ea1350-c534-012f-4a6c-58d385a7bc34",
     "original_title": "Brooklyn: Dupont Street - Manhattan Avenue",
     "text": "Dupont Street, south side, between Manhattan Avenue and Franklin Street, showing Public School No. 31.\n\nBoard of Education of the City of New York. May 13, 1931.\n",

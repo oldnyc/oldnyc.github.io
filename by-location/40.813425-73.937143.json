@@ -2,9 +2,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "136th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 136th Street - 5th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "732467f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732467f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 136th Street - 5th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Food vendors",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3467be60-c561-012f-4a78-58d385a7bc34",
     "text": "Jack Smith's \"Harlem\" sidewalk restaurant, at 136th Street and Fifth Ave.\nJune 24, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +46,28 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "136th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 136th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "715590f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715590f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7cb0f00-c546-012f-93db-58d385a7bc34",
     "original_title": "Manhattan: 136th Street (West) - 5th Avenue",
     "text": "West 136th Street, north side, west from Fifth Ave., showing a 2-story addition to Harlem Hospital, numbered 3 to 13. North of same is the rear of the 7-story Women's Pavilion, another unit of the Hospital.\n\nJanuary 6, 1937.\n\nW.P.A. Photo.\nCity Wide Project.\n",

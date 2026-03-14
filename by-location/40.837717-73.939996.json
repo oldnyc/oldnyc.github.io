@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "164th Street",
+        "str2": "St. Nicolas Avenue"
+      },
+      "source": "164th Street and St. Nicolas Avenue",
+      "technique": "gpt"
+    },
     "height": 512,
     "id": "416474",
     "image_url": "https://images.nypl.org/?id=416474&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/498529e0-c6db-012f-4190-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,34 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "164th Street (West)",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 164th Street (West) - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715720f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715720f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28eab500-c547-012f-1572-58d385a7bc34",
     "original_title": "Manhattan: 164th Street (West) - St. Nicholas Avenue",
     "text": "View 1;\nWest 164th Street, north east corner and St. Nicholas Avenue, showing St. Roses School.\nAugust 21, 1939.\n\nView 2,\nWest 164th Street, south east corner and St. Nicholas Avenue, looking across parking space towards apartments on Amsterdam Ave.\n\nP.L. Speer.\nMay 18, 1940.\n",
@@ -36,9 +83,34 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "164th Street (West)",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 164th Street (West) - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "715720f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715720f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28eab500-c547-012f-1572-58d385a7bc34",
     "original_title": "Manhattan: 164th Street (West) - St. Nicholas Avenue",
     "text": "View 1;\nWest 164th Street, north east corner and St. Nicholas Avenue, showing St. Roses School.\nAugust 21, 1939.\n\nView 2,\nWest 164th Street, south east corner and St. Nicholas Avenue, looking across parking space towards apartments on Amsterdam Ave.\n\nP.L. Speer.\nMay 18, 1940.\n",

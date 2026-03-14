@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Irving Place",
+        "str2": "Putnam Avenue"
+      },
+      "source": "Brooklyn: Putnam Avenue - Irving Place",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "706405f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706405f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4487e770-c538-012f-30a3-58d385a7bc34",
     "original_title": "Brooklyn: Putnam Avenue - Irving Place",
     "text": "South side of Putnam Ave., east of Irving Pl., B'klyn.",

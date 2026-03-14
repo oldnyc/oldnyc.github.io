@@ -2,9 +2,46 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 523,
+        "street": "East 70th Street"
+      },
+      "source": "523 East 70th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "70th Street (East)",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 70th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "714278f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714278f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fdf31b10-c544-012f-582f-58d385a7bc34",
     "original_title": "Manhattan: 70th Street (East) - Marie Curie Avenue",
     "text": "523-533 East 70th Street, adjoining and west of the N.W. corner of Marie Curie avenue.\n\nAugust 21, 1929.\n\nP. L. Sperr.\n",

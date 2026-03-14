@@ -2,9 +2,37 @@
   {
     "date": "1923-01-16",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 222,
+        "street": "West 34th Street"
+      },
+      "source": "222 West 34th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558184",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558184.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Oppenheim Collins Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Clothing stores",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd113330-c5ec-012f-a1fb-58d385a7bc34",
     "text": null,
     "text_source": null,

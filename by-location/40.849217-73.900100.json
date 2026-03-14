@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "178th Street",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: Webster Avenue - 178th Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "702036f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702036f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/886d6e30-c531-012f-9f50-58d385a7bc34",
     "original_title": "Bronx: Webster Avenue - 178th Street",
     "text": "Webster Ave., adj. s.e. cor. 178th St.\n8-31-1942\nP.L.Sperr\n",

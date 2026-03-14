@@ -2,9 +2,32 @@
   {
     "date": "1939-10",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 33,
+        "street": "Liberty Street"
+      },
+      "source": "Liberty Street #33",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507611-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507611-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Federal Reserve Bank"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a5f2bf0-c5ce-012f-bc68-58d385a7bc34",
     "text": null,
     "text_source": null,

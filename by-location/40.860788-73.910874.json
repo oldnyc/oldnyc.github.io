@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1917"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "183rd Street (West)",
+        "str2": "Sedgwick Avenue"
+      },
+      "source": "Bronx: Sedgwick Avenue - 183rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "701772f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701772f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/241db760-c531-012f-19f3-58d385a7bc34",
     "original_title": "Bronx: Sedgwick Avenue - 183rd Street (West)",
     "text": "Sedgwick Ave., south from (No. 2225) West 183rd Street. On the left, through the trees, is discernible the Hall of Fame of New York University.\n\n1917.\n\nGift of E.M. Jenks.\n",
@@ -22,9 +40,51 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2241,
+        "street": "Sedgwick Avenue"
+      },
+      "source": "2241 Sedgwick Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "182nd Street",
+        "str2": "Sedgwick Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Sedgwick Avenue",
+        "str2": "W. 182nd Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "num": 2225,
+        "street": "W. 182nd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "701773f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701773f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Fraternities and Sororities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24853740-c531-012f-f5a1-58d385a7bc34",
     "original_title": "Bronx: Sedgwick Avenue - 182nd Street",
     "text": "Sedgwick Avenue, west side, north from (No. 2225) W. 182nd Street. The third house from the left, and directly next to the tall apartment house, is the Kappa Sigma Fraternity, bearing No. 2241.\n\nJanuary 30, 1938\n\nP. L. Sperr\n",

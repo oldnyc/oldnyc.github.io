@@ -2,9 +2,34 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "85th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 85th Street",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "722721f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722721f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buses",
+          "Educational facilities",
+          "Private schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2125eb40-c552-012f-cbff-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 85th Street",
     "text": "Riverside Drive, north from West 85th Street, showing prominently a predecessor of the present (1937) Fifth Ave. busses. On the right is the Misses Ely's School for Young Ladies which was formerly the Episcopal Home of Mercy and occupying a setback position from the building line, between 85th and 86th Streets. North of same appears a row of brick homes, from 85th to 87th Streets.\n\nAbout 1905.\n",
@@ -19,9 +44,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "85th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "85th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 525,
     "id": "417291",
     "image_url": "https://images.nypl.org/?id=417291&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb11c3f0-c611-012f-58ec-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +82,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 85th Street",
+        "str2": "East River Drive"
+      },
+      "source": "E. 85th Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "85th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 408,
     "id": "719583f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719583f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/340b76e0-c54d-012f-c30e-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 85th Street (East)",
     "text": "1. East River Drive, showing construction work at E. 85th Street. 2. East River Drive at E. 86th Street, showing corner of the Carl Schurz Park.\n3. Same, different angle\nP. L. Sperr\nAugust 13, 1939\n",
@@ -52,9 +127,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 85th Street",
+        "str2": "East River Drive"
+      },
+      "source": "E. 85th Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "85th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 408,
     "id": "719583f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719583f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/340b76e0-c54d-012f-c30e-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 85th Street (East)",
     "text": "1. East River Drive, showing construction work at E. 85th Street. 2. East River Drive at E. 86th Street, showing corner of the Carl Schurz Park.\n3. Same, different angle\nP. L. Sperr\nAugust 13, 1939\n",
@@ -69,9 +172,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 85th Street",
+        "str2": "East River Drive"
+      },
+      "source": "E. 85th Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "85th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 409,
     "id": "719583f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719583f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/340b76e0-c54d-012f-c30e-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 85th Street (East)",
     "text": "1. East River Drive, showing construction work at E. 85th Street. 2. East River Drive at E. 86th Street, showing corner of the Carl Schurz Park.\n3. Same, different angle\nP. L. Sperr\nAugust 13, 1939\n",

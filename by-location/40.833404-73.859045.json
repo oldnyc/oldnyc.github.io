@@ -2,9 +2,47 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "Westchester Avenue"
+      },
+      "source": "East 177th Street and Westchester Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "177th Street (East)",
+        "str2": "Leland Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "Leland Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 388,
     "id": "700244f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700244f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pelham Bay Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe5cd5e0-c52e-012f-bdce-58d385a7bc34",
     "original_title": "Bronx: 177th Street (East) - Leland Avenue",
     "text": "East 177th Street, east from Leland Ave. to Westchester Ave., showing, on the latter, the elevated station of the I.R.T. Pelham Bay Park subway line. The W.P.A. will conduct street repair work here.\n\nSeptember 2, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",

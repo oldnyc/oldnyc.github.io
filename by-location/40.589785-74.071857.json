@@ -2,9 +2,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Andrews Street",
+        "str2": "Quincy Avenue"
+      },
+      "source": "Richmond: Andrews Street - Quincy Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "728334f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728334f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Andrews Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9db4a680-c55a-012f-44ac-58d385a7bc34",
     "original_title": "Richmond: Andrews Street - Quincy Avenue",
     "text": "Andrews Street, east side, south from Quincy Ave.\n\nAugust 25, 1929.\n\nP. L. Sperr.\n",

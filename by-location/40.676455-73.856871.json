@@ -5,9 +5,37 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "80th Street",
+        "str2": "Pitkin Avenue"
+      },
+      "source": "80th Street and Pitkin Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "81st Street",
+        "str2": "Pitkin Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "731332f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731332f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bayside cemetery"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6188dfb0-c55f-012f-40d2-58d385a7bc34",
     "text": "Bayside Cemetery (Queens): Shown are two old houses within the cemetery grounds on the north side of Pitkin Avenue. The house in view 1 is opposite 81st Street, and the one in view 2 is near the N. E. corner of 80th Street.\n\n1922\nViews 1,2\n\nEugene L, Armbruster Collection\n",
     "text_source": "gpt",
@@ -24,9 +52,37 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "80th Street",
+        "str2": "Pitkin Avenue"
+      },
+      "source": "80th Street and Pitkin Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "81st Street",
+        "str2": "Pitkin Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "731332f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731332f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bayside cemetery"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6188dfb0-c55f-012f-40d2-58d385a7bc34",
     "text": "Bayside Cemetery (Queens): Shown are two old houses within the cemetery grounds on the north side of Pitkin Avenue. The house in view 1 is opposite 81st Street, and the one in view 2 is near the N. E. corner of 80th Street.\n\n1922\nViews 1,2\n\nEugene L, Armbruster Collection\n",
     "text_source": "gpt",

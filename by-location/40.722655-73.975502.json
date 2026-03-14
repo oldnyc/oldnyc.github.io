@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "7th Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Manhattan: 7th Street - Lewis Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "710964f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710964f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Boat & ship industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/937e8240-c53f-012f-0ce3-58d385a7bc34",
     "original_title": "Manhattan: 7th Street - Lewis Street",
     "text": null,

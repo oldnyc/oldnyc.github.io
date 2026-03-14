@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burnside Avenue (East)",
+        "str2": "Walton Avenue"
+      },
+      "source": "Bronx: Walton Avenue - Burnside Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702015f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702015f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/805676d0-c531-012f-26ae-58d385a7bc34",
     "original_title": "Bronx: Walton Avenue - Burnside Avenue (East)",
     "text": "2069-2071 Walton Ave., north of the N.W. corner of East Burnside Ave., showing the Walborn Court, prior to completion.\nAbout 1923.\n",

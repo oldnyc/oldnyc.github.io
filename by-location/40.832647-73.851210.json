@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Castle Avenue",
+        "str2": "Ellis Avenue"
+      },
+      "source": "Bronx: Ellis Avenue - Castle Avenue",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "701009f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701009f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a5fd760-c530-012f-afef-58d385a7bc34",
     "original_title": "Bronx: Ellis Avenue - Castle Avenue",
     "text": "2164 Ellis Ave., west of the S.W. corner of Castle Hill Ave.\n\nAbout 1927.\n\nW. B. Vernam.\n",

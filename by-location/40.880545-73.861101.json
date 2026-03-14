@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "216th Street (East)",
+        "str2": "Barnes Avenue"
+      },
+      "source": "Bronx: 216th Street (East) - Barnes Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "700331f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700331f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d58f320-c52f-012f-80a4-58d385a7bc34",
     "original_title": "Bronx: 216th Street (East) - Barnes Avenue",
     "text": "762 East 216th Street, at the S.W. corner of Barnes Ave., showing St. Mary's Roman Catholic School. The view is northward across an empty lot as seen from East 215th Street.\n\nMay 25, 1928.\n\nP. L. Sperr.\n",

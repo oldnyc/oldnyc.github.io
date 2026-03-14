@@ -2,9 +2,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Beaver Street",
+        "str2": "Flushing Avenue"
+      },
+      "source": "Brooklyn: Flushing Avenue - Beaver Street",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "704395f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704395f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile equipment & supplies stores",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2449bc00-c535-012f-4413-58d385a7bc34",
     "original_title": "Brooklyn: Flushing Avenue - Beaver Street",
     "text": "Flushing Ave., south side, at and west of Beaver Street, showing an auto body repair shop.\n1923.\nEugene L. Armbruster Collection.\n",

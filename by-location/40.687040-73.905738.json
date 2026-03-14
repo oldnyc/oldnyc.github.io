@@ -2,9 +2,38 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Central Avenue",
+        "str2": "Chauncey Street"
+      },
+      "source": "Brooklyn: Central Avenue - Chauncey Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "703511f",
     "image_url": "https://images.nypl.org/?id=703511f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cemetery of the Evergreens (New York, N.Y.)",
+          "Most Holy Trinity Cemetery (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries",
+          "Stores & shops",
+          "Tombs & sepulchral monuments"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfd831f0-c533-012f-7428-58d385a7bc34",
     "original_title": "Brooklyn: Central Avenue - Chauncey Street",
     "text": null,

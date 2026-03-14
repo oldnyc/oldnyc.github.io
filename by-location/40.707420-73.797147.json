@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "89th Avenue"
+      },
+      "source": "Queens: 164th Street - 89th Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725952f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725952f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Christian Science churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b0a1b00-c557-012f-1f02-58d385a7bc34",
     "original_title": "Queens: 164th Street - 89th Avenue",
     "text": "164th Street, adjoining the S. W. corner of 89th Avenue, showing the First Church of Christ, Scientist.\n\nApril 1, 1932\n\nP. L. Sperr\n",
@@ -19,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "89th Avenue"
+      },
+      "source": "Queens: 164th Street - 89th Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725953f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725953f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b5b5360-c557-012f-0fdc-58d385a7bc34",
     "original_title": "Queens: 164th Street - 89th Avenue",
     "text": "89-48 164th Street, west side, between 89th and Jamaica Avenues, showing an old dwelling. Note the ornamentation. The house on the right is an old mansion influenced by Norman architecture.\n\nP. L. Sperr\n\nApril 1, 1932\n",

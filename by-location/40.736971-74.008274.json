@@ -2,9 +2,30 @@
   {
     "date": "1932-07-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bethune Street",
+        "str2": "Washington Street"
+      },
+      "source": "Bethune Street and Washington Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716676f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716676f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a181b870-c548-012f-d776-58d385a7bc34",
     "text": "Bethune Street, south side, east from and including Washington Street.\n\nJuly 9, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +39,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bethune Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Bethune Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724210f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724210f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92611140-c554-012f-d0e7-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Bethune Street",
     "text": "(1)\n725, 727-729, 731, and 733 Washington Street, east side, south of and at Bank Street, from cleared west side.\nSeptember 30, 1930.\n\nP. L. Sperr.\n\n(2)\n725, 727-729, 731 Washington Street, east side, south of and towards Bank Street, from and including cleared west side.\nThe center building is the Belvedere Boarding Stable.\nNovember 8, 1930.\n\nP. L. Sperr.\n",

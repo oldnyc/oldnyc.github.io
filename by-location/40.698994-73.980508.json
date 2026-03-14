@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "High Street",
+        "str2": "Navy Street"
+      },
+      "source": "Brooklyn: High Street - Navy Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704957f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/092eed80-c536-012f-a57e-58d385a7bc34",
     "original_title": "Brooklyn: High Street - Navy Street",
     "text": "High Street, north side, west from Navy Street. In the background, is the steeple of St. Michael's Episcopal Church.\n\nOctober 31, 1927.\n\nP. L. Sperr.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1927-10-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "High Street",
+        "str2": "Navy Street"
+      },
+      "source": "Brooklyn: Navy Street - High Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "705830f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705830f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6501b3e0-c537-012f-2c03-58d385a7bc34",
     "original_title": "Brooklyn: Navy Street - High Street",
     "text": "34-45 Navy Street, west side, from High to Nassau Streets.\nOctober 31, 1927.\n\nP. L. Sperr.\n",

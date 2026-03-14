@@ -2,9 +2,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "Bowling Green",
+        "str2": "Broadway"
+      },
+      "source": "Bowling Green and Broadway",
+      "technique": "gpt"
+    },
     "height": 229,
     "id": "1627839",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627839.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/364cc150-c6d2-012f-4b27-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,45 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bowling Green",
+        "str2": "Broadway"
+      },
+      "source": "Bowling Green and Broadway",
+      "technique": "gpt"
+    },
     "height": 390,
     "id": "730056f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730056f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Singer Manufacturing Company ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Singer Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Aquariums",
+          "Business enterprises",
+          "Monuments & memorials",
+          "Parks",
+          "Sewing machines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/601ae4d0-c55d-012f-9b85-58d385a7bc34",
     "text": "A general view of lower Manhattan as photographed northward from over the Upper Bay. In the foreground is Battery Park, the Aquarium, South Ferry and its \"El's\", etc. Broadway, beginning at Bowling Green, divides the center. At the left is the marginal West Street, paralleling the shore of the North (Hudson) River. The three outstanding buildings at this date are the Singer, Woolworth and Municipal Bldgs.\n\nAbout 1925\n\nEwing Galloway\n",
     "text_source": "gpt",
@@ -34,9 +94,38 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bowling Green",
+        "str2": "Broadway"
+      },
+      "source": "Bowling Green and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716528f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716528f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Battery Park: The Bowling Green-Broadway area as viewed from the rear of the Aquarium..."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Aquariums",
+          "Banks",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/604713e0-c548-012f-974a-58d385a7bc34",
     "text": "Battery Park: The Bowling Green-Broadway area as viewed from the rear of the Aquarium.  Outstanding there is the distinctive Standard Oil Company Building.  The inspiring Bank Of Manhattan Tower is just beyond.\n1938-9\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N.Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
     "text_source": "site",
@@ -50,9 +139,40 @@
   {
     "date": "1959-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bowling Green",
+        "str2": "Broadway"
+      },
+      "source": "Bowling Green and Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Bowling Green, looking southeast",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "1509023-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509023-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "First Nat'l City Bank"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc7ec130-c5cd-012f-ebbf-58d385a7bc34",
     "text": null,
     "text_source": null,

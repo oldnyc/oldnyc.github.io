@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 332,
+        "street": "Eldert Street"
+      },
+      "source": "332 Eldert Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Eldert Street",
+        "str2": "Irving Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Eldert Street",
+        "str2": "Irving Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 464,
     "id": "704075f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704075f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4aeab10-c534-012f-6b19-58d385a7bc34",
     "original_title": "Brooklyn: Eldert Street - Irving Avenue",
     "text": "Eldert Street, south of Irving Ave., showing at the left a row of two-story frame houses (Nos. 332 to 344) in a set of two views.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -25,9 +57,41 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 332,
+        "street": "Eldert Street"
+      },
+      "source": "332 Eldert Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Eldert Street",
+        "str2": "Irving Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Eldert Street",
+        "str2": "Irving Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 470,
     "id": "704075f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704075f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4aeab10-c534-012f-6b19-58d385a7bc34",
     "original_title": "Brooklyn: Eldert Street - Irving Avenue",
     "text": "Eldert Street, south of Irving Ave., showing at the left a row of two-story frame houses (Nos. 332 to 344) in a set of two views.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

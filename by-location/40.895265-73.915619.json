@@ -2,9 +2,30 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "247th Street (West)",
+        "str2": "Palisade Avenue"
+      },
+      "source": "Bronx: 247th Street (West) - Palisade Avenue",
+      "technique": "title-cross"
+    },
     "height": 381,
     "id": "700370f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700370f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cottages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b08d400-c52f-012f-290b-58d385a7bc34",
     "original_title": "Bronx: 247th Street (West) - Palisade Avenue",
     "text": "West 247th Street, north side, between Palisade Ave. and the Hudson River (near tracks of the New York Central Railroad), showing the Canal Street Cottage. This cottage stood originally on Canal Street, Manhattan, and was floated up on a canal boat and re-erected on its present location in Riverdale. For additional data see Randall Comfort's History of Bronx Borough, p.19.\n\n1901.\n\nRandall Comfort.\n",

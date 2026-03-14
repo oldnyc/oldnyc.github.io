@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "One Hundred and Third Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "One Hundred and Third Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 524,
     "id": "417241",
     "image_url": "https://images.nypl.org/?id=417241&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b603fc70-c611-012f-30dd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +43,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 103rd Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "722746f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722746f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b1e28b0-c552-012f-e318-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 103rd Street",
     "text": "310-311 Riverside Drive, at and adjoining the N.E. corner of 103rd Street.\nAbout 1912.\n",
@@ -38,9 +78,34 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 103rd Street - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "722917f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722917f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/748dc300-c552-012f-fc51-58d385a7bc34",
     "original_title": "Manhattan: 103rd Street - Riverside Drive",
     "text": "Riverside Park: Three views photographed in a southwestern direction from about 103rd Street. Nos. 2 and 3 show ships at anchor on the Hudson River; several of which are U.S. Navy vessels.\n\nViews 1 & 2:- June 7, 1921.\nView 3:- June 14, 1921.\n\nWalter L. Bogert.\n",
@@ -55,9 +120,34 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 103rd Street - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "722917f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722917f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/748dc300-c552-012f-fc51-58d385a7bc34",
     "original_title": "Manhattan: 103rd Street - Riverside Drive",
     "text": "Riverside Park: Three views photographed in a southwestern direction from about 103rd Street. Nos. 2 and 3 show ships at anchor on the Hudson River; several of which are U.S. Navy vessels.\n\nViews 1 & 2:- June 7, 1921.\nView 3:- June 14, 1921.\n\nWalter L. Bogert.\n",
@@ -72,9 +162,34 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 103rd Street - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "722917f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722917f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/748dc300-c552-012f-fc51-58d385a7bc34",
     "original_title": "Manhattan: 103rd Street - Riverside Drive",
     "text": "Riverside Park: Three views photographed in a southwestern direction from about 103rd Street. Nos. 2 and 3 show ships at anchor on the Hudson River; several of which are U.S. Navy vessels.\n\nViews 1 & 2:- June 7, 1921.\nView 3:- June 14, 1921.\n\nWalter L. Bogert.\n",
@@ -89,9 +204,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 103rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722747f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722747f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b697fe0-c552-012f-f8af-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 103rd Street",
     "text": "312-311 Riverside Drive, adjoining and north of the N.E. corner of 103rd Street.\nAbout 1922.\n\nGift of E. M. Jenks.\n",
@@ -106,9 +242,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 103rd Street"
+      },
+      "source": "Manhattan: West 103rd Street - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558346",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558346.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Master Hotel - Roerich Museum"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0004f320-c5ed-012f-46d8-58d385a7bc34",
     "text": null,
     "text_source": null,

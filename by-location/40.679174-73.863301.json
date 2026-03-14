@@ -2,9 +2,29 @@
   {
     "date": "1941-07-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Drew Street",
+        "str2": "Liberty Avenue"
+      },
+      "source": "Liberty Avenue at Drew Street, Queens",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "485938",
     "image_url": "https://images.nypl.org/?id=485938&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9930c0c0-c60e-012f-0423-58d385a7bc34",
     "text": null,
     "text_source": null,

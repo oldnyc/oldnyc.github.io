@@ -2,9 +2,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "32nd Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702334f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702334f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Political clubs",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd95aaa0-c531-012f-99df-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 32nd Street",
     "text": "4th Avenue, north of, adjoining and at the N. E. corner of 32nd Street. The first building is the Betania Baptist Kirke (Church) and next to it is the Let's Go Democratic Club, at No. 863.\n\nApril 9, 1939\n\nP. L. Sperr\n",

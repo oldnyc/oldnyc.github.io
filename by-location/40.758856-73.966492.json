@@ -2,9 +2,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 228,
+        "street": "East 56th Street"
+      },
+      "source": "228 East 56th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558262",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558262.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de6708d0-c5ec-012f-1e0e-58d385a7bc34",
     "text": null,
     "text_source": null,

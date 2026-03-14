@@ -2,9 +2,34 @@
   {
     "date": "1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 90th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "718507f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718507f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction",
+          "Clubs",
+          "Hospitals",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88556b60-c54b-012f-d013-58d385a7bc34",
     "text": "Central Park West, south from West 90th Street, showing a row of residential apartment structures facing the western side of Central Park. Enumerating same in their respective orders are: the Cayuga (No. 296-7), the New Windsor (No. 294-5), a hospital (5 story, No. 292-3), the Melbourne (No. 1 West 89th Street), the St. Urban (prominent structure with corner dome, No. 285), the Progress Club (No. 1 West 88th Street), the Minnewaska (No. 2 West 88th Street) and the Mohonk (No. 275). Building under construction is the 12 story Hotel Peter Stuyvesant, No. 2 West 86th Street, at the S.W. corner. Note the electric street car tracks on the easterly side of this thoroughfare. These were finally removed about 1933.\n\nApril 1906.\n\nGeorge L. Balgue.\n",
     "text_source": "gpt",
@@ -18,9 +43,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Ninetieth Street"
+      },
+      "source": "Central Park West and Ninetieth Street",
+      "technique": "gpt"
+    },
     "height": 535,
     "id": "417317",
     "image_url": "https://images.nypl.org/?id=417317&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d5ffbfa0-c611-012f-4b83-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +81,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Ninetieth Street"
+      },
+      "source": "Central Park West and Ninetieth Street",
+      "technique": "gpt"
+    },
     "height": 522,
     "id": "417428",
     "image_url": "https://images.nypl.org/?id=417428&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01fbb100-c612-012f-e91b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +119,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - Between 90th and 91st Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718193f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718193f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Central Park West - Between 90th and 91st Streets ; El Dorado Apartments."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0420ca80-c54b-012f-784e-58d385a7bc34",
     "text": "\"Bridle path in Central Park\"\n\nEl Dorado Towers bet. 90th and 91st Streets CPW\n\nHans W. Hannau, photographer\n\n#1338\n",
     "text_source": "gpt",

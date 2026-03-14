@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-03-30"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "South Road",
+        "str2": "Waltham Street"
+      },
+      "source": "Queens: South Road - Waltham Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "727996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/125fced0-c55a-012f-5b92-58d385a7bc34",
     "original_title": "Queens: South Road - Waltham Street",
     "text": "South Road, north side, east from Waltham Street, across Sutphin Boulevard. The frame houses on the left are on Sutphin Boulevard, which was formely known, at this point, as Jay Street.\n\nP. L. Sperr\nMarch 30, 1932\n",

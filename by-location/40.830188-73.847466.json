@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-07-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Havemeyer Avenue",
+        "str2": "Watson Avenue"
+      },
+      "source": "Bronx: Havemeyer Avenue - Watson Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701231f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701231f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ce5d400-c530-012f-907c-58d385a7bc34",
     "original_title": "Bronx: Havemeyer Avenue - Watson Avenue",
     "text": "Havemeyer Ave., east side, north from Watson Ave. The first house is Hoffman's Casino, No. 1118, at the S.E. corner of Haviland Ave.\n\nJuly 1, 1928.\n\nP. L. Sperr.\n",

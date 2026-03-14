@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "37th Street (East)",
+        "str2": "Avenue L"
+      },
+      "source": "Brooklyn: 37th Street (East) - Avenue L",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702736f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702736f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9570f1a0-c532-012f-adb2-58d385a7bc34",
     "original_title": "Brooklyn: 37th Street (East) - Avenue L",
     "text": "East 37th Street, east side, between Ave. L and Kings Highway. A view of the Kings Highway Methodist Episcopal Church.\n\nApril 27, 1931.\n\nP. L. Sperr.\n",
@@ -19,9 +40,28 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "37th Street (East)",
+        "str2": "Avenue L"
+      },
+      "source": "Brooklyn: 37th Street (East) - Avenue L",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "704234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Boardwalk (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e40bede0-c534-012f-3c2d-58d385a7bc34",
     "original_title": "Brooklyn: 37th Street (East) - Avenue L",
     "text": "West 37th Street, east side, north from Coney Island (Reigelmann) Boardwalk to Surf Ave., showing a long frame structure rented to roomers, who come vacationing to Coney Island.\n\nAugust 8, 1932.\n\nP. L. Sperr.\n",

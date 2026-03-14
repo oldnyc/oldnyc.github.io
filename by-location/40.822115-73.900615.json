@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "163rd Street (East)",
+        "str2": "Prospect Avenue"
+      },
+      "source": "Bronx: Prospect Avenue - 163rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701656f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701656f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ffaf39b0-c530-012f-6ca7-58d385a7bc34",
     "original_title": "Bronx: Prospect Avenue - 163rd Street (East)",
     "text": "985 Prospect Avenue, west side, Between E. 163rd and E. 165th Streets, showing Loew's Burland Theatre\nApril 26, 1938\nP. L. Sperr\n",

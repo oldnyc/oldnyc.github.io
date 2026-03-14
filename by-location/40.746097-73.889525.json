@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 85,
+        "street": "Broadway"
+      },
+      "source": "85 Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "58th Avenue",
+        "str2": "Rodman Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "58th Avenue",
+        "str2": "Rodman Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 389,
     "id": "727924f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727924f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5d63350-c559-012f-2151-58d385a7bc34",
     "original_title": "Queens: Rodman Street - 58th Avenue",
     "text": "Rodman Street, west side, on Mill Creek, about 200 feet north from Fifty-eighth Ave., showing a barn used as a storehouse by Bowne's, the operator of Bowne's Red Mill. This barn was used for bailing hay. The mill was operated until 1909. These brothers also had a feed store at 85 Broadway. Abraham Cock, who was born in 1779 and died in 1827, also operated this mill.\n\nAbout 1922.\n\nEugene L. Armbruster Collection.\n",

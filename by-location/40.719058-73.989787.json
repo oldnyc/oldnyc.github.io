@@ -2,9 +2,32 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722010f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722010f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02b44390-c551-012f-4703-58d385a7bc34",
     "original_title": "Manhattan: Orchard Street - Delancey Street",
     "text": "Orchard Street, west side, north from (Nos. 123-25), but not including Delancey to East Houston Streets. Shown is a pushcart market a feature of this east side locality. In fact the street name itself is synonymous with this mercantile endeavor.\n\nAbout 1910.\n\nEwing Galloway.\n",
@@ -19,9 +42,49 @@
   {
     "date": "1923; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Delancey Street and Orchard Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hicks Street",
+        "str2": "Orchard Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hicks Street",
+        "str2": "Orchard Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "732475f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732475f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Hicks Street ; Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Candy",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36e7ca60-c561-012f-4bdd-58d385a7bc34",
     "text": "(1)\nAn oriental sweets vendor, selling Turkish halvah, on Orchard Street.\nFall 1923.\n\nP. L. Sperr.\n\n(2)\nCandy delicacies, being sold on the corner of Delancey and Orchard Streets\nAbout April 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -36,9 +99,49 @@
   {
     "date": "1923; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Delancey Street and Orchard Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hicks Street",
+        "str2": "Orchard Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hicks Street",
+        "str2": "Orchard Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "732475f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732475f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Hicks Street ; Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Candy",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36e7ca60-c561-012f-4bdd-58d385a7bc34",
     "text": "(1)\nAn oriental sweets vendor, selling Turkish halvah, on Orchard Street.\nFall 1923.\n\nP. L. Sperr.\n\n(2)\nCandy delicacies, being sold on the corner of Delancey and Orchard Streets\nAbout April 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -53,9 +156,36 @@
   {
     "date": "1928; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "722009f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722009f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Antique stores",
+          "Business districts",
+          "Handcarts",
+          "Opticians' shops",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0253f7f0-c551-012f-8912-58d385a7bc34",
     "original_title": "Manhattan: Orchard Street - Delancey Street",
     "text": "(1)\nOrchard Street, north from Delancey Street. The view shows the pushcart peddler's market on Orchard Street.\nFebruary 17, 1928.\nP. L. Sperr.\n(2)\nThe same, at a later date, from a point slightly northward.\nMarch 26, 1937.\nP. L. Sperr.\n",
@@ -71,9 +201,36 @@
   {
     "date": "1928; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "722009f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722009f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Antique stores",
+          "Business districts",
+          "Handcarts",
+          "Opticians' shops",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0253f7f0-c551-012f-8912-58d385a7bc34",
     "original_title": "Manhattan: Orchard Street - Delancey Street",
     "text": "(1)\nOrchard Street, north from Delancey Street. The view shows the pushcart peddler's market on Orchard Street.\nFebruary 17, 1928.\nP. L. Sperr.\n(2)\nThe same, at a later date, from a point slightly northward.\nMarch 26, 1937.\nP. L. Sperr.\n",
@@ -89,9 +246,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "722008f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722008f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01dc9c40-c551-012f-4837-58d385a7bc34",
     "original_title": "Manhattan: Orchard Street - Delancey Street",
     "text": "120-124 Orchard Street, adjoining and north of the N.E. corner of Delancey Street.\n\nApril 7, 1929.\n\nP. L. Sperr.\n",
@@ -106,9 +284,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Delancey Street - Orchard Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719268f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719268f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6b1d300-c54c-012f-ce6a-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Orchard Street",
     "text": "Delancey Street, at the S.E. corner of Orchard Street.\nOctober 20, 1934.\n\nP. L. Sperr.\n",
@@ -123,9 +322,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722011f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722011f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0325e9f0-c551-012f-34e1-58d385a7bc34",
     "original_title": "Manhattan: Orchard Street - Delancey Street",
     "text": "Orchard Street, east side, north from but not including Delancey, to and including East Houston Streets. The view shows the pushcarts peddler's market on Orchard Street.\n\nApril 28, 1934.\n\nP. L. Sperr.\n",
@@ -140,9 +361,36 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732350f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732350f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hats",
+          "Jewelry",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0596aff0-c561-012f-04dd-58d385a7bc34",
     "text": "(1) Collar buttons and cheap jewelry, being sold by peddler of notions, at Delancey and Orchard Streets.\n\nMay 5, 1934.\n\nP. L. Sperr.\n\n(2) The same; showing a cap and hat vendor on Orchard Street.\n\nMay 5, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -156,9 +404,36 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732350f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732350f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hats",
+          "Jewelry",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0596aff0-c561-012f-04dd-58d385a7bc34",
     "text": "(1) Collar buttons and cheap jewelry, being sold by peddler of notions, at Delancey and Orchard Streets.\n\nMay 5, 1934.\n\nP. L. Sperr.\n\n(2) The same; showing a cap and hat vendor on Orchard Street.\n\nMay 5, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -172,9 +447,35 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Delancey Street - Orchard Street.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "732359f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/732359f-a.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Delancey Street - Orchard Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Neckties",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09031750-c561-012f-9616-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\n(Neck-ties) at 15 cents each, at Delancey and Orchard Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(2)\nAnother merchant selling similar merchandise, on another part of Delancey Street.\nApril 25, 1934.\n\nP. L. Sperr.\n",
@@ -189,9 +490,35 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Delancey Street - Orchard Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732359f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732359f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Delancey Street - Orchard Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Neckties",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09031750-c561-012f-9616-58d385a7bc34",
     "text": "(1)\n(Neck-ties) at 15 cents each, at Delancey and Orchard Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(2)\nAnother merchant selling similar merchandise, on another part of Delancey Street.\nApril 25, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -205,9 +532,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732454f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732454f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street.",
+        "Yiddish pickle dealer."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Jews",
+          "Pickles",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ee997d0-c561-012f-9b95-58d385a7bc34",
     "text": "Yiddish pickle dealer, Orchard & Delancey Sts.\nApril 28, 1934\nP.L. Sperr, photographer\n(This duplicate print has been mounted with non-acidic materials because the original print is deteriorating.\nJune 20, 1913.)\n",
     "text_source": "gpt",
@@ -221,9 +576,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732474f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732474f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cakes",
+          "Confectionery",
+          "Cookies",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3677a8a0-c561-012f-b1d8-58d385a7bc34",
     "text": "(1) Macaroons, at 10 cents a pound, on the corner of Orchard and Delancey Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(2) Macaroons being sold at Delancey and Ludlow Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(3) Cakes and candies peddler, at corner of Delancey and Allen Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -237,9 +620,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732474f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732474f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cakes",
+          "Confectionery",
+          "Cookies",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3677a8a0-c561-012f-b1d8-58d385a7bc34",
     "text": "(1) Macaroons, at 10 cents a pound, on the corner of Orchard and Delancey Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(2) Macaroons being sold at Delancey and Ludlow Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(3) Cakes and candies peddler, at corner of Delancey and Allen Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -253,9 +664,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732474f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732474f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cakes",
+          "Confectionery",
+          "Cookies",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3677a8a0-c561-012f-b1d8-58d385a7bc34",
     "text": "(1) Macaroons, at 10 cents a pound, on the corner of Orchard and Delancey Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(2) Macaroons being sold at Delancey and Ludlow Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n\n(3) Cakes and candies peddler, at corner of Delancey and Allen Streets.\nApril 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -269,9 +708,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Delancey Street - Orchard Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719269f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719269f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Cigar industry",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b707db50-c54c-012f-fddf-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Orchard Street",
     "text": "(1)\nDelancey Street, north side, east from, but not including Orchard Street. Note the Williamsburg Bridge, in the bakground.\n\nMay 14, 1936.\nP.L. Sperr.\n\n(2)\nThe same, slightly more inclusive.\n\nApril 30, 1936.\nP.L. Sperr.\n",
@@ -286,9 +749,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Delancey Street - Orchard Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "719269f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/719269f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Cigar industry",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b707db50-c54c-012f-fddf-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Orchard Street",
     "rotation": 90,
@@ -304,9 +791,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Orchard Street"
+      },
+      "source": "Manhattan: Orchard Street - Delancey Street.",
+      "technique": "title-cross"
+    },
     "height": 513,
     "id": "732447f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732447f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Orchard Street - Delancey Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Clothing & dress",
+          "Fruit",
+          "Street vendors",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c142a00-c561-012f-c0c7-58d385a7bc34",
     "text": "Peddlers--foodstuffs and clothing: The Orchard Street push-cart market, between Delancey and Rivington Streets.\n\n1937-8\n\nAllexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
     "text_source": "gpt",
@@ -320,9 +835,47 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 78,
+        "street": "Delancey Street"
+      },
+      "source": "78 Delancey Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Davis Avenue",
+        "str2": "Delancey Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Davis Avenue",
+        "str2": "Delancey Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "719281f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719281f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Confectioneries",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbaf80a0-c54c-012f-827e-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Davis Avenue",
     "text": "Man selling patent clasps to replace lost buttons on garments.\nn.d. American Press Assn.\n78-80 Delancey St.\n",

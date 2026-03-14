@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-07-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Pilot Street"
+      },
+      "source": "Bronx: City Island Avenue - Pilot Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700744f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700744f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b14e1f40-c52f-012f-8027-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Pilot Street",
     "text": "128 City Island Ave. (City Island), adjoining the N.E. corner of Pilot Street.\n\nJuly 6, 1936.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Pilot Street"
+      },
+      "source": "Bronx: City Island Avenue - Pilot Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700764f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700764f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7d37700-c52f-012f-ce01-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Pilot Street",
     "text": "City Island Avenue (City Island), at the S. E. corner of Pilot Street, showing Grace Protestant Episcopal Church, as seen from Reynold Street.\n\nJuly 6, 1936\n\nP. L. Sperr\n",

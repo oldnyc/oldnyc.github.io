@@ -2,9 +2,28 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "152nd Street",
+        "str2": "Macombs Place"
+      },
+      "source": "Manhattan: 152nd Street - Macombs Place",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "715670f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715670f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/160376b0-c547-012f-7ffe-58d385a7bc34",
     "original_title": "Manhattan: 152nd Street - Macombs Place",
     "text": "152nd Street, east side, north on Macombs Place, towards Central Bridge across the Harlem River.\n\nP. L. Sperr\nAugust 29, 1935\n",
@@ -19,9 +38,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "152nd Street (West)",
+        "str2": "Macombs Place"
+      },
+      "source": "Manhattan: Macombs Place - 152nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "721175f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721175f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac802e40-c54f-012f-49fb-58d385a7bc34",
     "original_title": "Manhattan: Macombs Place - 152nd Street (West)",
     "text": "Macombs Place, east side, south from and including West 152nd Street.\nAugust 29, 1935.\n\nP. L. Sperr.\n",

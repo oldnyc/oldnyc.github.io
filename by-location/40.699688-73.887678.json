@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "66th Street",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 66th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726380f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726380f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a28cfcb0-c557-012f-0d55-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 66th Street",
     "text": "Cooper Ave., north side, between 66th Street (left, formerly Delta Place) and 66th Place (right, formerly Gamma Place), showing a small bungalow formerly 2689 Cooper Ave.\n\n1923.\n\nEugene L. Armbruster Collection.\n",

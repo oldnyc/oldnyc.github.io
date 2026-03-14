@@ -2,9 +2,39 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "121st Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 121st Street",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "722930f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722930f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7abf2510-c552-012f-5dce-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 121st Street",
     "text": "RIVERSIDE PARK.\n\nRiverside Drive, north from and including 121st Street, showing Grant's Tomb, the Hudson River and part of the New Jersey Shore.\n\nAbout 1926.\n",

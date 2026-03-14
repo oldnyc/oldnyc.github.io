@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 167,
+        "street": "W 34th Street"
+      },
+      "source": "34th Street (West) #167",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507871-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507871-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce8560a0-c5ce-012f-be59-58d385a7bc34",
     "text": null,
     "text_source": null,

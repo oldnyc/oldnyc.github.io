@@ -2,9 +2,29 @@
   {
     "date": "1936-04-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 148,
+        "street": "East Broadway"
+      },
+      "source": "East Broadway #148",
+      "technique": "title-address"
+    },
     "height": 416,
     "id": "1509321-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509321-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1178add0-c5ce-012f-1141-58d385a7bc34",
     "text": null,
     "text_source": null,

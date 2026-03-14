@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "25th Avenue",
+        "str2": "Benson Avenue"
+      },
+      "source": "Brooklyn: 25th Avenue - Benson Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "702668f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702668f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b135110-c532-012f-3413-58d385a7bc34",
     "original_title": "Brooklyn: 25th Avenue - Benson Avenue",
     "text": "25th Avenue, at the southwest corner of Benson Avenue, showing Public School No. 231.\n\nBoard of Education of the City of New York  Early 1930's\n",
@@ -19,9 +43,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "25th Avenue",
+        "str2": "Benson Avenue"
+      },
+      "source": "Brooklyn: Benson Avenue - 25th Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "703198f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703198f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48ce5f20-c533-012f-7c17-58d385a7bc34",
     "original_title": "Brooklyn: Benson Avenue - 25th Avenue",
     "text": "Benson Ave., at the S.E. corner of Twenty Fifth Ave. A view of frame buildings, comprising Public School No. 231. The street at the left, is Twenty Fifth Ave.\nApril 27, 1935.\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1945",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Bedford Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "703048f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703048f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Railroad crossings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e927cb0-c533-012f-8a45-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - Bedford Avenue",
     "text": "P.L. Sperr collection\nRec'd January 13, 1945\n",

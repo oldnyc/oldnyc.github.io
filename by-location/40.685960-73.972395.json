@@ -2,9 +2,41 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Cumberland St",
+        "str2": "Greene Av"
+      },
+      "source": "Cumberland St and Greene Av",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Greene Av",
+        "str2": "S. Oxford St",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "3984370",
     "image_url": "https://images.nypl.org/?id=3984370&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13c7e130-c5d7-012f-5a2c-58d385a7bc34",
     "text": null,
     "text_source": null,

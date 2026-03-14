@@ -2,9 +2,35 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 2626,
+        "street": "Broadway"
+      },
+      "source": "2626 Broadway",
+      "technique": "gpt"
+    },
     "height": 426,
     "id": "733548f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733548f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway (South) ; 2626 Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc99d440-c562-012f-f37e-58d385a7bc34",
     "text": "2626 Broadway, looking south. Repaved by owner.\n April 13, 1921.\n",
     "text_source": "gpt",

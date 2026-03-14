@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Beverly Rd.",
+        "str2": "Veronica Pl."
+      },
+      "source": "Brooklyn: Veronica Pl. - Beverly Rd.",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "707212f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707212f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/790f9380-c539-012f-3812-58d385a7bc34",
     "original_title": "Brooklyn: Veronica Pl. - Beverly Rd.",
     "text": "Veronica Place, north from Beverly Road.\nOctober 1928.\nEugene L. Armbruster Collection.\n",

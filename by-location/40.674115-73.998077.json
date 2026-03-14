@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Garnet Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: Garnet Street - Smith Street",
+      "technique": "title-cross"
+    },
     "height": 445,
     "id": "704603f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704603f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78c27370-c535-012f-1d42-58d385a7bc34",
     "original_title": "Brooklyn: Garnet Street - Smith Street",
     "text": "Garnett Street, west from Smith Street, showing the W. P. A. conducting a sewer project.\n\nSeptember 4, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

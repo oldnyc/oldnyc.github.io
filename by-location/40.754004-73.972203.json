@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "47th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "708078f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708078f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e70640d0-c53a-012f-b15f-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 47th Street",
     "text": "Demolition of buildings on Third Avenue, west side, from 47th to 48th Street.\n\nOctober 26, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +40,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "47th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "708079f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708079f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e78258a0-c53a-012f-96c1-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 47th Street",
     "text": "West side of Third Avenue from 48th to 47th Street.\nOctober 24, 1928.\nP.L. Sperr, Photographer.\n",
@@ -39,9 +83,27 @@
     "dates_from_text": [
       "1928-10-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "47th Street"
+      },
+      "source": "Manhattan: 47th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "713287f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713287f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/708b98a0-c543-012f-589b-58d385a7bc34",
     "original_title": "Manhattan: 47th Street - 3rd Avenue",
     "text": "47th Street at the N.W. corner of Third Ave. This corner building has been demolished. October 26, 1928.\n\nP. L. Sperr.\n",
@@ -56,9 +118,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 155,
+        "street": "E 47th Street"
+      },
+      "source": "47th Street (East) #155",
+      "technique": "title-address"
+    },
     "height": 450,
     "id": "1507947-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507947-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e4268920-c5ce-012f-966f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -72,9 +154,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 47th Street",
+        "str2": "Third Avenue"
+      },
+      "source": "Manhattan: 757 Third Avenue - East 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557860",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557860.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The Merchants Bank of New York"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Merchants' Bank (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c8d60e0-c5ec-012f-53a7-58d385a7bc34",
     "text": null,
     "text_source": null,

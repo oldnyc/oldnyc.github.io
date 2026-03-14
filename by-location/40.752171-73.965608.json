@@ -2,9 +2,44 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 435,
+        "street": "East 48th Street"
+      },
+      "source": "435 East 48th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "48th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "713310f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713310f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Alleys"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79646f80-c543-012f-a373-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (East) - East River Drive",
     "text": "Cooperage, 435 East 48th Street, north side, just west of the East River. July 3, 1934.\n\nP. L. Sperr.\n",

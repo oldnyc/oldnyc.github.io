@@ -2,9 +2,29 @@
   {
     "date": "1941-08-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Madison Street"
+      },
+      "source": "Madison Street at Franklin Avenue, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "485846",
     "image_url": "https://images.nypl.org/?id=485846&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b96fbe0-c60e-012f-b45d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Madison Street"
+      },
+      "source": "Brooklyn: Franklin Avenue - Madison Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36d9c470-c535-012f-590f-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Madison Street",
     "text": "Franklin Avenue, north from near Madison Street. View 2 shows No. 421, near the southeast corner of Monroe Street.\n\nP. L. Sperr\nAugust 30, 1941\nViews 1,2\n",
@@ -35,9 +76,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Madison Street"
+      },
+      "source": "Brooklyn: Franklin Avenue - Madison Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704440f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/704440f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36d9c470-c535-012f-590f-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Madison Street",
     "rotation": 90,

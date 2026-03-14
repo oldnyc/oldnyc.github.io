@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hicks St.",
+        "str2": "Warren St."
+      },
+      "source": "Brooklyn: Warren St. - Hicks St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707266f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707266f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ee1b090-c539-012f-1c8c-58d385a7bc34",
     "original_title": "Brooklyn: Warren St. - Hicks St.",
     "text": "Warren Street, north side, east from Hicks Street, showing St. Peter's R.C. Church.\nAugust 5, 1934.\n\nP. L. Sperr.\n",

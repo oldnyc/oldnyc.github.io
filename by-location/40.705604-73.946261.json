@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum Street",
+        "str2": "Leonard Street"
+      },
+      "source": "Boerum Street and Leonard Street",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "732678f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732678f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Ice cream parlors",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/840d7790-c561-012f-f78c-58d385a7bc34",
     "text": "Leonard Street, west side, from Boerum to McKibbin Streets, showing Public School No. 141. The view is south from Boerum Street.\n\nBoard of Education of the City of New York  June 23, 1931\n",
     "text_source": "gpt",

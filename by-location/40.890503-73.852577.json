@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 875,
+        "street": "East 231st Street"
+      },
+      "source": "875 East 231st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "East 231st Street",
+        "str2": "No. 875",
+        "technique": "title-cross"
+      }
+    ],
     "height": 454,
     "id": "700349f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700349f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23b76e60-c52f-012f-0057-58d385a7bc34",
     "text": "875 East 231st Street, adjoining the N.W. corner of Bronxwood Ave.\n\nAbout 1925.\n\nW. B. Vernam.\n",
     "text_source": "gpt",

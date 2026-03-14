@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "43rd Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 7th Avenue - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "702458f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702458f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b65c480-c532-012f-d76a-58d385a7bc34",
     "original_title": "Brooklyn: 7th Avenue - 43rd Street",
     "text": "7th Avenue, east side, from 43rd to 44th Streets, showing Public School No. 169.\n\nBoard of Education of the City of New York       early 1930's\n",

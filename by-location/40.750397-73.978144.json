@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 104,
+        "street": "East Fortieth Street"
+      },
+      "source": "104 East Fortieth Street",
+      "technique": "gpt"
+    },
     "height": 534,
     "id": "417199",
     "image_url": "https://images.nypl.org/?id=417199&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4e813c0-c611-012f-dcae-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,31 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 97th Street",
+      "technique": "title-cross"
+    },
     "height": 417,
     "id": "718523f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718523f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ed20d60-c54b-012f-53ac-58d385a7bc34",
     "text": "Central Park West, 98th Street, 97th. (Before Reconstruction)/\nMarch 22, 1920\n",
     "text_source": "gpt",
@@ -18,9 +40,33 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 97th Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "714903f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714903f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f1a62560-c545-012f-cf6f-58d385a7bc34",
     "text": "97th Street corner of Central Park West, looking eastwards.\n(Before reconstruction).\n\n September 30, 1921.\n",
     "text_source": "gpt",
@@ -34,9 +80,33 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 97th Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "714904f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714904f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f208f160-c545-012f-d53d-58d385a7bc34",
     "text": "97th Street, Corner of Central Park West front of #38 looking west. (Before reconstruction).\n\n September 30, 1921.\n",
     "text_source": "gpt",
@@ -50,9 +120,33 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 97th Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "714905f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714905f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f25618b0-c545-012f-854f-58d385a7bc34",
     "text": "97th Street, Corner Central Park West front of #157\nlooking east.\n(Before Reconstruction)\n",
     "text_source": "site",
@@ -66,9 +160,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 97th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "718521f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718521f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Excavation",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e033840-c54b-012f-a009-58d385a7bc34",
     "text": "Central Park West, north from 97th Street. Note repaving in progress after completing excavation work on Eighth Avenue.\n\nSeptember 10, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

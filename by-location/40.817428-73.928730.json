@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1930-08-28"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 141,
+        "street": "East 146th Street"
+      },
+      "source": "141 East 146th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "141st Street (East)",
+        "str2": "Walton Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 141st Street",
+        "str2": "Walton Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700111f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700111f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cded68a0-c52e-012f-1122-58d385a7bc34",
     "original_title": "Bronx: 141st Street (East) - Walton Avenue",
     "text": "141 East 146th Street (right), at the N.E. corner of Walton Ave. P. L. Sperr refers to this house as the Hague House, whereas the G. W. Bromley map of 1911 designates it as the \"Ridgeview\".\n\nAugust 28, 1930.\n\nP. L. Sperr.\n",

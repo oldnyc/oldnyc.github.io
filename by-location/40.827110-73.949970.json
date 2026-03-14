@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One hundred and forty-sixth Street"
+      },
+      "source": "Broadway and One hundred and forty-sixth Street",
+      "technique": "gpt"
+    },
     "height": 594,
     "id": "464760-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464760-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25e054c0-c612-012f-e74e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One hundred and forty-sixth Street"
+      },
+      "source": "Broadway and One hundred and forty-sixth Street",
+      "technique": "gpt"
+    },
     "height": 463,
     "id": "464760-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464760-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25e054c0-c612-012f-e74e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "W. 146th St"
+      },
+      "source": "Broadway and W. 146th St",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3985283",
     "image_url": "https://images.nypl.org/?id=3985283&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a82a800-c5d8-012f-352c-58d385a7bc34",
     "text": null,
     "text_source": null,

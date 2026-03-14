@@ -2,9 +2,39 @@
   {
     "date": "1875; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "18th Street (East)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 18th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "717326f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717326f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Madison Square Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Fruit",
+          "Markets",
+          "Parks",
+          "Sidewalks",
+          "Street maintenance & repair",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae13d140-c549-012f-3dae-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 18th Street (East)",
     "text": "(1) Broadway, west side, north from and including East 18th Street to Madison Square, showing the retail dry goods area of this date. W. Arnold, Constable and Company and Lord and Taylor are occupying the S.W. corners of East 19th and 20th Streets respectively. These, including Thomas Lotan (fruit store) appear in Gouldings Business Directory of New York, 1875.\n\nAbout 1875.\n\nGift of H.D. Jewett.\n\n(2) Broadway, the same, showing W.P.A. reconstruction work.\n\nAugust 10th, 1937\n\nW.P.A. Photography.\n",
@@ -20,9 +50,39 @@
   {
     "date": "1875; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "18th Street (East)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 18th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717326f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717326f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Madison Square Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Fruit",
+          "Markets",
+          "Parks",
+          "Sidewalks",
+          "Street maintenance & repair",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae13d140-c549-012f-3dae-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 18th Street (East)",
     "text": "(1) Broadway, west side, north from and including East 18th Street to Madison Square, showing the retail dry goods area of this date. W. Arnold, Constable and Company and Lord and Taylor are occupying the S.W. corners of East 19th and 20th Streets respectively. These, including Thomas Lotan (fruit store) appear in Gouldings Business Directory of New York, 1875.\n\nAbout 1875.\n\nGift of H.D. Jewett.\n\n(2) Broadway, the same, showing W.P.A. reconstruction work.\n\nAugust 10th, 1937\n\nW.P.A. Photography.\n",
@@ -38,9 +98,29 @@
   {
     "date": "1919-05-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 18th Street, ",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "1509077-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509077-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6a5bc30-c5cd-012f-d4a6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +134,29 @@
   {
     "date": "1921-07-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 870,
+        "street": "Broadway"
+      },
+      "source": "870 Broadway",
+      "technique": "gpt"
+    },
     "height": 419,
     "id": "1509165-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509165-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6057ba0-c5cd-012f-cff9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -70,9 +170,48 @@
   {
     "date": "1937-05-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Broadway"
+      },
+      "source": "18th Street and Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Union Square (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Union Square West",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "731173f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731173f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Union Square (West) - 18th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2486a5f0-c55f-012f-844a-58d385a7bc34",
     "text": "(1) Communist Demonstration: A semi-humorous reminder of former gatherings at this focal point of free thought.\n\nMay 1, 1937.\n\nP. L. Sperr.\n\n(2) A northeast view from Union Square West (Broadway) and 18th Street showing the masses in front of the reviewing stand. Buildings shown are on the north side of 17th Street between Broadway and Fourth Ave.\n\nMay 1, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -86,9 +225,48 @@
   {
     "date": "1937-05-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Broadway"
+      },
+      "source": "18th Street and Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Union Square (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "18th Street",
+        "str2": "Union Square West",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "731173f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731173f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Union Square (West) - 18th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2486a5f0-c55f-012f-844a-58d385a7bc34",
     "text": "(1) Communist Demonstration: A semi-humorous reminder of former gatherings at this focal point of free thought.\n\nMay 1, 1937.\n\nP. L. Sperr.\n\n(2) A northeast view from Union Square West (Broadway) and 18th Street showing the masses in front of the reviewing stand. Buildings shown are on the north side of 17th Street between Broadway and Fourth Ave.\n\nMay 1, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

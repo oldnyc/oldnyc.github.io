@@ -2,9 +2,59 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 131,
+        "street": "Lewis Street"
+      },
+      "source": "131 Lewis Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Horestone Street (East)",
+        "str2": "Lewis Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Horestone Street",
+        "str2": "Lewis Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Lewis Street",
+        "str2": "Manhattan Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 3rd Street",
+        "str2": "East Houston Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 499,
     "id": "720910f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720910f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45755060-c54f-012f-787e-58d385a7bc34",
     "original_title": "Manhattan: Lewis Street - Horestone Street (East)",
     "text": "131 Lewis Street, and east side of East Horestone Street, between \"Manhattan and Lewis Streets and East Houston to East 3rd Streets showing P.S. 188.\n\nBoard of Education, N.Y./c.\n1920.\n",
@@ -19,9 +69,29 @@
   {
     "date": "1935-09-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 310,
+        "street": "Delancey Street"
+      },
+      "source": "Delancey Street #310",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1509293-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509293-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0cfff200-c5ce-012f-1ed4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +105,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey St.",
+        "str2": "Lewis St."
+      },
+      "source": "Delancey St. and Lewis St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984503",
     "image_url": "https://images.nypl.org/?id=3984503&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39c8a1a0-c5d7-012f-bf17-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +145,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey St.",
+        "str2": "Lewis St."
+      },
+      "source": "Delancey St. and Lewis St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985140",
     "image_url": "https://images.nypl.org/?id=3985140&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f099fcf0-c5d7-012f-d0d7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -67,9 +185,29 @@
   {
     "date": "1939-05-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Manhattan: Delancey Street - Lewis Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509289-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509289-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c3fb0a0-c5ce-012f-fe58-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -83,9 +221,29 @@
   {
     "date": "1939-05-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Manhattan: Delancey Street - Lewis Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509289-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509289-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c3fb0a0-c5ce-012f-fe58-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -99,9 +257,29 @@
   {
     "date": "1939-05-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancy Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Delancy Street and Lewis Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "485737",
     "image_url": "https://images.nypl.org/?id=485737&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/598f0cf0-c60e-012f-f6ab-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -118,9 +296,27 @@
     "dates_from_text": [
       "1939-05-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Manhattan: Delancey Street - Lewis Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719296f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719296f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c18f39d0-c54c-012f-d8dc-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Lewis Street",
     "text": "Delancey Street, north side, west from Lewis Street. At the right is a clearance that separates the corner from the balance of the Lewis to Cannon Street's frontage. This, and the corner structure are detailed in view 2.\n\nMay 7, 1939\nNo's. 1-2\n\nP. L. Sperr\n",
@@ -138,9 +334,27 @@
     "dates_from_text": [
       "1939-05-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Delancey Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Manhattan: Delancey Street - Lewis Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719296f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719296f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c18f39d0-c54c-012f-d8dc-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Lewis Street",
     "text": "Delancey Street, north side, west from Lewis Street. At the right is a clearance that separates the corner from the balance of the Lewis to Cannon Street's frontage. This, and the corner structure are detailed in view 2.\n\nMay 7, 1939\nNo's. 1-2\n\nP. L. Sperr\n",

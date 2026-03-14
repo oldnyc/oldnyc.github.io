@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "159th Street",
+        "str2": "Rockaway Boulevard"
+      },
+      "source": "Queens: Rockaway Boulevard - 159th Street",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "727912f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727912f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f151b690-c559-012f-0077-58d385a7bc34",
     "original_title": "Queens: Rockaway Boulevard - 159th Street",
     "text": "Rockaway Boulevard, south side, between 159th and 160th Streets, showing an old house, believed to be that of one Lott at one time.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Tremont Avenue (East)",
+        "str2": "Valentine Avenue"
+      },
+      "source": "Bronx: Valentine Avenue - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 413,
     "id": "700992f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700992f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Echo Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0449afc0-c530-012f-aabc-58d385a7bc34",
     "original_title": "Bronx: Valentine Avenue - Tremont Avenue (East)",
     "text": "Echo Park (Bronx): An early view of the small park on the west side of Valentine Avenue, between East Tremont and East Burnside Avenues. The property was once owned by James Buckhout (1879-1885)+\n\nGift of Mott Haven Library\nabout 1900\n",

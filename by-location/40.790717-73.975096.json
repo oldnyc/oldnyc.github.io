@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 2431,
+        "street": "Broadway"
+      },
+      "source": "2431 Broadway",
+      "technique": "gpt"
+    },
     "height": 425,
     "id": "1509175-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509175-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7fa4350-c5cd-012f-774d-58d385a7bc34",
     "text": null,
     "text_source": null,

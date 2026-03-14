@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Fifty-fifth Street"
+      },
+      "source": "Broadway and Fifty-fifth Street",
+      "technique": "gpt"
+    },
     "height": 522,
     "id": "417392",
     "image_url": "https://images.nypl.org/?id=417392&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3871e40-c611-012f-bb8f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "717577f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717577f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10215fe0-c54a-012f-e3bc-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "text": "Broadway, east side, from 55th to 56th Streets, showing the Sonoma and Rockingham Apartments.\nJune, 1925.\n",
@@ -35,9 +81,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "717579f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717579f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Churches",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10f0a160-c54a-012f-98a3-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "text": "(1)\nBroadway, east side, north from West 55th to 57th Streets. The demolition in the foreground between West 55th and 56th Streets, was the former site of the Sonoma and Rockingham, apartment hotels. The Broadway Tabernacle (Congregational), appears at the N.E. corner of 56th Street, with the 9-story Cadillac salesroom (General Motors Co), adjoining same, and occupying the S.E. corner of 57th Street.\n\nAugust 24, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, from a slightly different angle.\n\nAugust 24, 1936.\n\nP. L. Sperr.\n",
@@ -52,9 +123,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "717579f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717579f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Churches",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10f0a160-c54a-012f-98a3-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "text": "(1)\nBroadway, east side, north from West 55th to 57th Streets. The demolition in the foreground between West 55th and 56th Streets, was the former site of the Sonoma and Rockingham, apartment hotels. The Broadway Tabernacle (Congregational), appears at the N.E. corner of 56th Street, with the 9-story Cadillac salesroom (General Motors Co), adjoining same, and occupying the S.E. corner of 57th Street.\n\nAugust 24, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, from a slightly different angle.\n\nAugust 24, 1936.\n\nP. L. Sperr.\n",
@@ -69,9 +165,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717580f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717580f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11422f60-c54a-012f-a2f3-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "text": "(1)\n1731-1745 Broadway, west side, from West 55th to 56th Streets. This view does not show the entire building, at the S.W. corner of West 56th Street. Clearance in the foreground, is on east side of Broadway; the former sites of the Sonoma and Rockingham Apartment Hotels.\n\nAugust 28, 1936.\n\nP. L. Sperr.\n\n(2)\nA view mainly of Nos. 1739 (1-story) and No. 1741 (4-stories).\n\nAugust 28, 1936.\n\nP. L. Sperr.\n\n(3)\nThe new Dodge Automobile showrooms, Nos. 1743-1745, at the S.W. corner of West 56th Street. Also shown, is a view westward, on the south side of 56th Street to Eighth Ave.\n\nAugust 28, 1936.\n\nP. L. Sperr.\n",
@@ -86,9 +204,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "717580f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/717580f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11422f60-c54a-012f-a2f3-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "rotation": 90,
@@ -104,9 +244,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717580f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717580f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11422f60-c54a-012f-a2f3-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "text": "(1)\n1731-1745 Broadway, west side, from West 55th to 56th Streets. This view does not show the entire building, at the S.W. corner of West 56th Street. Clearance in the foreground, is on east side of Broadway; the former sites of the Sonoma and Rockingham Apartment Hotels.\n\nAugust 28, 1936.\n\nP. L. Sperr.\n\n(2)\nA view mainly of Nos. 1739 (1-story) and No. 1741 (4-stories).\n\nAugust 28, 1936.\n\nP. L. Sperr.\n\n(3)\nThe new Dodge Automobile showrooms, Nos. 1743-1745, at the S.W. corner of West 56th Street. Also shown, is a view westward, on the south side of 56th Street to Eighth Ave.\n\nAugust 28, 1936.\n\nP. L. Sperr.\n",
@@ -121,9 +283,36 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717578f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717578f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business enterprises",
+          "Churches",
+          "Rubber industry",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1089a4a0-c54a-012f-cba4-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street (West)",
     "text": "Broadway, east side, north from West 55th Street. The two story taxpayer with the Hudson Motor Co. sign atop, is at the N. E. corner of this point. Occupying a similar location at 56th Street, is the Broadway Tabernacle Church. Adjoining same is the Cadillac Motor Co. at 57th Street. Above, utilizing the 57th to 58th Street frontage are the 26 story No. 1778 Broadway and the 20 story U. S. Rubber Co. buildings. In 1940 the latter will remove to their new building in Rockefeller Center on Sixth Avenue. Separating the aforementioned structures is the 12 story Goodrich Tire Co. Bldg. Note the twin towered Century Apartments up Broadway. This is located on Central Park West and West 62nd Street.\n\nJanuary 8, 1939\n\nMay 21, 1939\n\nP. L. Sperr\n",
@@ -138,9 +327,36 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717578f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717578f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business enterprises",
+          "Churches",
+          "Rubber industry",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1089a4a0-c54a-012f-cba4-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street (West)",
     "text": "Broadway, east side, north from West 55th Street. The two story taxpayer with the Hudson Motor Co. sign atop, is at the N. E. corner of this point. Occupying a similar location at 56th Street, is the Broadway Tabernacle Church. Adjoining same is the Cadillac Motor Co. at 57th Street. Above, utilizing the 57th to 58th Street frontage are the 26 story No. 1778 Broadway and the 20 story U. S. Rubber Co. buildings. In 1940 the latter will remove to their new building in Rockefeller Center on Sixth Avenue. Separating the aforementioned structures is the 12 story Goodrich Tire Co. Bldg. Note the twin towered Century Apartments up Broadway. This is located on Central Park West and West 62nd Street.\n\nJanuary 8, 1939\n\nMay 21, 1939\n\nP. L. Sperr\n",
@@ -155,9 +371,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717576f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717576f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fd20320-c54a-012f-4bde-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 55th Street",
     "text": "Broadway, n.e. cor. & 55th St.\nP.L. Sperr\n7-20-1942\n",

@@ -2,9 +2,32 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street looking north",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 90th Street looking north",
+      "technique": "title-cross"
+    },
     "height": 551,
     "id": "1508901-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508901-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Home of Andrew Carnegie"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6a58760-c5ce-012f-bc79-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +44,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "90th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 90th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "709187f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709187f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af6571d0-c53c-012f-69dc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 90th Street",
     "text": "Residence of Andrew Carnegie, Fifth Avenue, east side, 90th to 91st Streets.\nJune, 1925.\n",
@@ -41,9 +82,27 @@
     "dates_from_text": [
       "1929-03-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "90th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 90th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "709186f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709186f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af17c040-c53c-012f-c191-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 90th Street",
     "text": "Andrew Carnegie's Mansion, East side, of Fifth Avenue, 90th to 91st Streets.\nMarch 28, 1929.\nP.L.Sperr, Photographer.\n",
@@ -58,9 +117,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "90th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 90th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709188f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709188f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/afca9a00-c53c-012f-4de5-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 90th Street",
     "text": "Church of the Heavenly Rest (Protestant Episcopal), Fifth Avenue at S.E. corner of 90th Street.\nMarch 28, 1929.\n\nP.L. Sperr, Photographer.\n",
@@ -75,9 +155,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 90th Street, ",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "1508899-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508899-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Church of Heavenly Rest"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a63b7f10-c5ce-012f-9dcf-58d385a7bc34",
     "text": null,
     "text_source": null,

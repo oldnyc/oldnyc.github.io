@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "168th Street",
+        "str2": "Jumel Place"
+      },
+      "source": "Manhattan: Jumel Place - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "720719f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720719f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd97d810-c54e-012f-fcc3-58d385a7bc34",
     "original_title": "Manhattan: Jumel Place - 168th Street",
     "text": "21 Jumel Place, a three-story frame house opposite the S.W. corner of 168th Street.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

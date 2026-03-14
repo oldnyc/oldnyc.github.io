@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 316,
+        "street": "West 97th Street"
+      },
+      "source": "316 West 97th Street",
+      "technique": "gpt"
+    },
     "height": 583,
     "id": "465661-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465661-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66357740-c612-012f-a4dd-58d385a7bc34",
     "text": null,
     "text_source": null,

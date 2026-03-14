@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 945,
+        "street": "St. Nicholas Avenue"
+      },
+      "source": "945 St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465703-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465703-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76f6b010-c612-012f-43fc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 945,
+        "street": "St. Nicholas Avenue"
+      },
+      "source": "945 St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465703-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465703-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76f6b010-c612-012f-43fc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "158th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 158th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "723143f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723143f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d506d550-c552-012f-1703-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 158th Street",
     "text": "(1)\n953-955-957 St. Nicholas Avenue at S.W. corner of 158th Street, three three-story frame residences.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\nAnother view of the same buildings.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -51,9 +114,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "158th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 158th Street",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "723143f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723143f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d506d550-c552-012f-1703-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 158th Street",
     "text": "(1)\n953-955-957 St. Nicholas Avenue at S.W. corner of 158th Street, three three-story frame residences.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\nAnother view of the same buildings.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -71,9 +155,27 @@
     "dates_from_text": [
       "1934-10-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "158th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 158th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "723144f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723144f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d553f660-c552-012f-16ed-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 158th Street",
     "text": "953-55-57 St. Nicholas Avenue (old Kingsbridge Road) at S.W. corner of 158th Street. These three wooden houses were built around 1895. October 12, 1934.\n\nP. L. Sperr.\n",

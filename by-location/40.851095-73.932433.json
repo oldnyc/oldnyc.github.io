@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "184th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "184th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 575,
     "id": "465534-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465534-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33e0fff0-c612-012f-8dc2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "184th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "184th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 484,
     "id": "465534-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465534-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33e0fff0-c612-012f-8dc2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +79,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "184th Street (West)",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 184th Street (West) - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715796f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715796f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4545e6a0-c547-012f-c86b-58d385a7bc34",
     "original_title": "Manhattan: 184th Street (West) - St. Nicholas Avenue",
     "text": "567 West 184th Street, north side, east of St. Nicholas Avenue. This is a three-story frame house with a stucco front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

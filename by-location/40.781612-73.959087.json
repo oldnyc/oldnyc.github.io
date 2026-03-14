@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 12,
+        "street": "East 87th Street"
+      },
+      "source": "12 East 87th Street",
+      "technique": "gpt"
+    },
     "height": 534,
     "id": "417178",
     "image_url": "https://images.nypl.org/?id=417178&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9bee46f0-c611-012f-8719-58d385a7bc34",
     "text": null,
     "text_source": null,

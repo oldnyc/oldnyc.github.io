@@ -2,9 +2,30 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "724599f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724599f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d745a60-c555-012f-6107-58d385a7bc34",
     "original_title": "Manhattan: West Street - Barclay Street",
     "text": "West Street, Barclay, to Park Place. (Before Reconstruction).\n June 9, 1918.\n",
@@ -19,9 +40,27 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724597f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724597f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ca9aeb0-c555-012f-8cc9-58d385a7bc34",
     "original_title": "Manhattan: West Street - Barclay Street",
     "text": "An aerial view of West Street, north from but not including Barclay Street.\nAugust 6, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +75,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "724598f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724598f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Business districts",
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d109c60-c555-012f-d641-58d385a7bc34",
     "original_title": "Manhattan: West Street - Barclay Street",
     "rotation": 90,
@@ -54,9 +116,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724598f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724598f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Business districts",
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d109c60-c555-012f-d641-58d385a7bc34",
     "original_title": "Manhattan: West Street - Barclay Street",
     "text": "(1) West Street, at, adjoining and north of the N.E. corner of Barclay Street.\n\nAugust 2, 1930.\n\nP. L. Sperr.\n\n(2) The same, but also showing Barclay Street, at, adjoining and east of the N.E. corner of West Street.\n\nAugust 4, 1930.\n\nP. L. Sperr.\n",
@@ -71,9 +156,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "730087f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730087f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Western Union."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d394970-c55d-012f-922d-58d385a7bc34",
     "text": "General View--West Side lower Manhattan: Looking northeast from the New York Telephone Building at West and Barclay Streets. In the center is the Western Union Building on Hudson Street. Note the \"El\" (left) on Greenwich Street..\n\nP. L. Sperr\nAugust 6, 1930\n",
     "text_source": "gpt",
@@ -87,9 +197,42 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730088f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730088f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Pulitzer Building ; Transportation Building ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Publishers and publishing",
+          "Publishing industry",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d8fa380-c55d-012f-a61c-58d385a7bc34",
     "text": "General View--Lower Manhattan, West Side: View 1 is northeastward from 60 West Street across an industrial and warehouse area. In the right background is the Woolworth Building\n\nView 2 is east from \"est Street and Barclay Street toward the East River. The prominent buildings (right to left) are: Transportation, Woolworth, and Municipal Buildings. View 3 shows the Pulitzer Building and tower of the Municipal Building.\n\nP. L. Sperr\n\nView 1: July 30, 1930\nView 2: August 6, 1930\nView 3: April 3, 1931\n",
     "text_source": "gpt",
@@ -104,9 +247,42 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730088f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730088f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Pulitzer Building ; Transportation Building ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Publishers and publishing",
+          "Publishing industry",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d8fa380-c55d-012f-a61c-58d385a7bc34",
     "text": "General View--Lower Manhattan, West Side: View 1 is northeastward from 60 West Street across an industrial and warehouse area. In the right background is the Woolworth Building\n\nView 2 is east from \"est Street and Barclay Street toward the East River. The prominent buildings (right to left) are: Transportation, Woolworth, and Municipal Buildings. View 3 shows the Pulitzer Building and tower of the Municipal Building.\n\nP. L. Sperr\n\nView 1: July 30, 1930\nView 2: August 6, 1930\nView 3: April 3, 1931\n",
     "text_source": "gpt",
@@ -121,9 +297,42 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730088f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730088f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Pulitzer Building ; Transportation Building ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)",
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Publishers and publishing",
+          "Publishing industry",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d8fa380-c55d-012f-a61c-58d385a7bc34",
     "text": "General View--Lower Manhattan, West Side: View 1 is northeastward from 60 West Street across an industrial and warehouse area. In the right background is the Woolworth Building\n\nView 2 is east from \"est Street and Barclay Street toward the East River. The prominent buildings (right to left) are: Transportation, Woolworth, and Municipal Buildings. View 3 shows the Pulitzer Building and tower of the Municipal Building.\n\nP. L. Sperr\n\nView 1: July 30, 1930\nView 2: August 6, 1930\nView 3: April 3, 1931\n",
     "text_source": "gpt",
@@ -138,9 +347,33 @@
   {
     "date": "1930; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "732305f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732305f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f465e4a0-c560-012f-ad7d-58d385a7bc34",
     "text": "(1)\nChristmas trees for the yuletide; West Street.\n\nDecember 18, 1930.\n\nP. L. Sperr.\n\n(2)\nChristmas tree dealers, unloading on West Street, near Barclay Street.\nDecember 17, 1935.\n\nP. L. Sperr.\n\n(3)\nThe same as No. 2.\n\nP. L. Sperr.\n\nDecember 17, 1935.\n",
     "text_source": "gpt",
@@ -155,9 +388,33 @@
   {
     "date": "1930; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "732305f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732305f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f465e4a0-c560-012f-ad7d-58d385a7bc34",
     "text": "(1)\nChristmas trees for the yuletide; West Street.\n\nDecember 18, 1930.\n\nP. L. Sperr.\n\n(2)\nChristmas tree dealers, unloading on West Street, near Barclay Street.\nDecember 17, 1935.\n\nP. L. Sperr.\n\n(3)\nThe same as No. 2.\n\nP. L. Sperr.\n\nDecember 17, 1935.\n",
     "text_source": "gpt",
@@ -172,9 +429,33 @@
   {
     "date": "1930; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Barclay Street and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "732305f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732305f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f465e4a0-c560-012f-ad7d-58d385a7bc34",
     "text": "(1)\nChristmas trees for the yuletide; West Street.\n\nDecember 18, 1930.\n\nP. L. Sperr.\n\n(2)\nChristmas tree dealers, unloading on West Street, near Barclay Street.\nDecember 17, 1935.\n\nP. L. Sperr.\n\n(3)\nThe same as No. 2.\n\nP. L. Sperr.\n\nDecember 17, 1935.\n",
     "text_source": "gpt",
@@ -189,9 +470,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "734644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734644f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Barclay Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a02053b0-c564-012f-62f0-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -205,9 +512,36 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "732306f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732306f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Barclay Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4b9b820-c560-012f-810b-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: Mounds of trees for the coming festival season, piled in the center of West Street at Barclay Street. This is a set of three views.\n\nDecember 17, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -221,9 +555,36 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "732306f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732306f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Barclay Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4b9b820-c560-012f-810b-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: Mounds of trees for the coming festival season, piled in the center of West Street at Barclay Street. This is a set of three views.\n\nDecember 17, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -237,9 +598,36 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "732306f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732306f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: West Street - Barclay Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Christmas decorations",
+          "Street vendors",
+          "Trees"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4b9b820-c560-012f-810b-58d385a7bc34",
     "text": "Peddlers, Christmas Trees: Mounds of trees for the coming festival season, piled in the center of West Street at Barclay Street. This is a set of three views.\n\nDecember 17, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -253,9 +641,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barclay Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Barclay Street",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "724596f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724596f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c515380-c555-012f-f739-58d385a7bc34",
     "original_title": "Manhattan: West Street - Barclay Street",
     "text": "West Street, Barclay to Vesey.\n(Before Reconstruction).\n",

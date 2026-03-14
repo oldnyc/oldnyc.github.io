@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 375,
+        "street": "Park Avenue"
+      },
+      "source": "375 Park Avenue",
+      "technique": "gpt"
+    },
     "height": 519,
     "id": "416439",
     "image_url": "https://images.nypl.org/?id=416439&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3cbfafd0-c6db-012f-c8f5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,32 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 375,
+        "street": "Park Avenue"
+      },
+      "source": "Park Avenue #375",
+      "technique": "title-address"
+    },
     "height": 467,
     "id": "1508135-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508135-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan Palace (Main Hall)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a227910-c5ce-012f-8489-58d385a7bc34",
     "text": null,
     "text_source": null,

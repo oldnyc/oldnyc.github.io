@@ -2,9 +2,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "117th Street",
+        "str2": "Liberty Street"
+      },
+      "source": "Queens: Liberty Street - 117th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "727227f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727227f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beauty shops",
+          "Business districts",
+          "Drugstores",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e5d556d0-c558-012f-dc49-58d385a7bc34",
     "original_title": "Queens: Liberty Street - 117th Street",
     "text": "Liberty Avenue, at the northeast corner of 117th Street.\n\nJuly 23, 1941\nP. L. Sperr\n",

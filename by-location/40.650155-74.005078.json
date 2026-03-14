@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "41st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Brooklyn: 5th Avenue - 41st Street",
+      "technique": "title-cross"
+    },
     "height": 435,
     "id": "706938f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706938f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sunset Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Checker players",
+          "Checkers",
+          "Parks",
+          "Play (Recreation)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e747b10-c539-012f-2f63-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - 41st Street",
     "text": "Sunset Park, Fifth Avenue, east side, between 41st and 44th Streets, showing a partial view of the park. Note the group in the foreground whittling away time at checkers.\n\nA. L. Schussler\nC. L. I.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gates Avenue",
+        "str2": "St. James Place"
+      },
+      "source": "Brooklyn: Gates Avenue - St. James Place",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704613f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704613f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cc39f30-c535-012f-43f0-58d385a7bc34",
     "original_title": "Brooklyn: Gates Avenue - St. James Place",
     "text": "Gates Avenue, east from St. James Place.\n\nP. L. Sperr\nAugust 28, 1941\n",

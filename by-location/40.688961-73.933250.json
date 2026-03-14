@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Quincy Street",
+        "str2": "Stuyvesant Avenue"
+      },
+      "source": "Brooklyn: Quincy Street - Stuyvesant Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706421f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706421f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4aa7ffe0-c538-012f-1531-58d385a7bc34",
     "original_title": "Brooklyn: Quincy Street - Stuyvesant Avenue",
     "text": "667-669 Quincy Street, north side, about 210 ft. east of Stuyvesant Avenue (left not shown), showing a frame house owned\nby Mrs. Flynn.\n\nAbout 1925.\n\nW.B. Vernam\n",

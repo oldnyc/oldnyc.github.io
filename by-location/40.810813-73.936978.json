@@ -2,9 +2,29 @@
   {
     "date": "1919-10-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "133rd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 133rd Street (East) - Madison Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "1508429-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508429-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d081b40-c5cf-012f-7c5c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +41,27 @@
     "dates_from_text": [
       "1936-12-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "133rd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 133rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "724944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724944f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/adcdabb0-c555-012f-f898-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 133rd Street (East)",
     "text": "Madison Ave., west side, north from, but not including East 133rd Street.\n\nDecember 16, 1936.\n\nP. L. Sperr.\n",

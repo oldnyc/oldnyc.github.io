@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "61st Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens: 61st Street - Roosevelt Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725517f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725517f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/763d88d0-c556-012f-bc36-58d385a7bc34",
     "original_title": "Queens: 61st Street - Roosevelt Avenue",
     "text": "61st Street, east side, north of Roosevelt Avenue, showing an old mansion in the former village of Woodside. The street was previously named Kelly Avenue.\n\nP. L. Sperr\nOctober 27, 1931\n",

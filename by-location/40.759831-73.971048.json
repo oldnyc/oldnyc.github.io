@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 116,
+        "street": "E 55th Street"
+      },
+      "source": "55th Street (East) #116",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508203-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508203-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f66a0150-c5ce-012f-0bcc-58d385a7bc34",
     "text": null,
     "text_source": null,

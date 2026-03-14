@@ -2,9 +2,44 @@
   {
     "date": "1864",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "59th Street and 6th Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Rustic Arbor",
+        "technique": "title-cross"
+      }
+    ],
     "height": 504,
     "id": "718385f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718385f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 6th Avenue - 59th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5715cb40-c54b-012f-0148-58d385a7bc34",
     "text": "Central Park: Rustic arbor on the heights in the southeasterly quarter; same being near the Sixth Avenue - 59th Street entrance.\n\n1864\n\nGift of George T. Bagoe\n",
     "text_source": "gpt",
@@ -18,9 +53,49 @@
   {
     "date": "1873",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.706096,
+        "lng": -73.996823
+      },
+      "source": "Bridges - Brooklyn ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Roosevelt Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 460,
     "id": "730663f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730663f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Roosevelt Street (West) ; Harper's Building ; New York Tribune ; Newsboy's Home ; United States Post Office."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Tribune Building"
+        ],
+        "topic": [
+          "Bridges",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41481c60-c55e-012f-1278-58d385a7bc34",
     "text": "(2)\n\nA general view westward from the Brooklyn Bridge (under construction), over the Cherry Hill section, Printing House Square, City Hall Commons and westward to the Hudson (North) River. Shown in the foreground, is the Manhattan abutment of the bridge, with the Roosevelt Street Ferry to Broadway, Brooklyn adjoining. Points of interest shown are, U.S. Post Office, Tribune Building, Harper's and the Newsboy's Home.\n\nAbout 1870-1875.\n\nBrown Brothers.\n\nPublished in the American on December 1908, and the New York Times of October 20, 1912.\n",
     "text_source": "gpt",
@@ -34,9 +109,41 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.706096,
+        "lng": -73.996823
+      },
+      "source": "Bridges - Brooklyn ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730665f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730665f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "City Hall ; New York Tribune ; United States Post Office."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Printing House Square (New York, N.Y.)"
+        ],
+        "name": [
+          "New York City Hall (New York, N.Y.)",
+          "New York Tribune Building"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Plazas",
+          "Printing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/424a8e00-c55e-012f-29fa-58d385a7bc34",
     "text": "The Brooklyn Bridge under construction, with the \"Catwalk\" and Manhattan anchorage in the foreground. Also shown is a general view westward over the City Hall and Printing House Square area, to the Hudson River, with its Jersey shore line just beyond. Note how the U.S. Post Office and the Tribune Buildings predominated at this date.\n\nAbout 1878-1879.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -50,9 +157,32 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.66143,
+        "lng": -73.97035
+      },
+      "source": "Prospect Park",
+      "technique": "subjects"
+    },
     "height": 347,
     "id": "706348f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706348f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d747fd0-c538-012f-2684-58d385a7bc34",
     "text": "Brooklyn.  Parks Department.\nAnnual Report of the Commissioners from Jan. 1874 to\nDec. 31, 1879.  Brooklyn, 1880.\n\nIllustrations removed from N.Y.P.L. copy of above book (classmark MSP, acc. no. 154937), April 1973.\n",
     "text_source": "site",
@@ -66,9 +196,30 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Mott Street",
+        "str2": "Park Street"
+      },
+      "source": "Manhattan: Mott Street - Park Street",
+      "technique": "title-cross"
+    },
     "height": 532,
     "id": "721756f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721756f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/986a08f0-c550-012f-b47e-58d385a7bc34",
     "original_title": "Manhattan: Mott Street - Park Street",
     "text": "Mott Street, north from, but not including Park Street, to, but not including Bayard Street.\nAbout 1890.\nEugene L. Armbruster Collection.\n",
@@ -83,9 +234,29 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Street",
+        "str2": "Broadway"
+      },
+      "source": "Bedford Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 306,
     "id": "734085f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734085f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Williamsburg Savings Bank."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa227090-c563-012f-3f02-58d385a7bc34",
     "text": "East River, shore and skyline, Brooklyn: The Williamsburg-Wallabout Bay section northeastward. At the left appears the dome of the Williamsburg Savings Bank in the Broadway-Bedford Street locale.\n\n1880-90\n",
     "text_source": "gpt",
@@ -99,9 +270,39 @@
   {
     "date": "1892",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.753982,
+        "lng": -73.984127
+      },
+      "source": "Central Park - Terrace Fountain and the Lake",
+      "technique": "subjects"
+    },
     "height": 491,
     "id": "718262f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718262f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bethesda Fountains."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bethseda Terrace (New York, N.Y.)",
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Angel of Waters (Statue)",
+          "Fountains",
+          "Parks",
+          "Sculpture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23916710-c54b-012f-5520-58d385a7bc34",
     "text": "Central Park, the Mall: Bethesda Fountain, on the shore of the Lake (eastern bay), above the Esplanade at the northern end of the Mall. The design is by Miss Emma Stebbins, a New York sculptor; and represents the angel blessing the waters of the pool of Bethesda. In her left hand the angel holds a branch of lilies, emblem of purity. The four figures supporting the basin symbolize Temperance, Purity, Health, and Peace.\n\nMay, 1892.\n\nEwing Galloway.\n\n315G\nLOCAL HISTORY AND GENEALOGY\n",
     "text_source": "gpt",
@@ -115,9 +316,43 @@
   {
     "date": "1892",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.772352,
+        "lng": -73.97159
+      },
+      "source": "Central Park - The Mall",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Mall",
+        "technique": "title-cross"
+      }
+    ],
     "height": 475,
     "id": "718272f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718272f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Central Park West."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27f605e0-c54b-012f-53af-58d385a7bc34",
     "text": "Central Park: The Mall, a view north.\nAbout 1892.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -131,9 +366,38 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broad Street",
+        "str2": "Wall Street"
+      },
+      "source": "Manhattan: Broad Street - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "716841f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716841f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Stock Exchange"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Handcarts",
+          "Stock exchanges",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e94d8560-c548-012f-4629-58d385a7bc34",
     "original_title": "Manhattan: Broad Street - Wall Street",
     "text": "Broad Street, south from Wall Street on the left is J.P. Morgans Office.\n\nCharles Ritzman\n1169 Broadway N.Y.\nAbout 1900.\n",
@@ -148,9 +412,30 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 34th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "717404f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717404f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd2483b0-c549-012f-ad21-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 34th Street (West)",
     "text": "Broadway, west side, north from West 34th Street. The buildings to the left of the center were removed for the Macy Dept. Store. The Herald Square (formerly Park) Theatre is at the N. W. corner of 35th Street. In the block above is the Hotel Marlbro. On the right appears the Metropolitan Opera building.\n\nAbout 1901\n\nH. N. Tiemann, photo\nGift of Urbrock Collection\n",
@@ -165,9 +450,31 @@
   {
     "date": "1903",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.71369,
+        "lng": -73.972616
+      },
+      "source": "Bridges - Williamsburg Bridge ",
+      "technique": "subjects"
+    },
     "height": 388,
     "id": "731081f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731081f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Foundries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd8c2c30-c55e-012f-b279-58d385a7bc34",
     "text": "The Williamsburg (East River) Bridge under construction as viewed southeastward from the Manhattan shore. In the foreground is the area that will be cleared (1939) for the East River Drive. The R. Hoe and Company foundry on the right will shortly be removed.\n\nAbout 1903-4\n\nEwing Galloway\n",
     "text_source": "gpt",
@@ -181,9 +488,45 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "110th Street",
+        "str2": "Central Park",
+        "technique": "gpt"
+      }
+    ],
     "height": 462,
     "id": "718242f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718242f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Central Park, showing the pond at 110th Street and the botanical gardens"
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Skaters",
+          "Skating rinks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ab1ddd0-c54b-012f-d852-58d385a7bc34",
     "text": "Central Park, showing the pond at 110th Street and the botanical gardens.\n\nGeorge L. Balgue\n\nView 1: 1905\nView 2: 1906\n-NEG#3202\n",
     "text_source": "gpt",
@@ -201,9 +544,41 @@
       "1924-02",
       "1908-09-07"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 17,
+        "street": "Bayard Street"
+      },
+      "source": "17 Bayard Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Bayard Street",
+        "str2": "Chrystie Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bayard Street",
+        "str2": "Chrystie Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "716608f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716608f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85027000-c548-012f-a17c-58d385a7bc34",
     "original_title": "Manhattan: Bayard Street - Chrystie Street",
     "text": "Bayard Street, south side, west from Chrystie to the Bowery, showing in the foreground a 3-story frame house, No. 17 Bayard Street, that also bore No. 11 Chrystie Street. This building was demolished in 1929 and an empty lot still is there. (1937)\n\nFebruary 1924.\n\nEugene L. Armbruster Collection.\n\nView 2.\n#20 Bayard Street, showing Mrs. Plotters residence.\nSeptember 7, 1908.\n",
@@ -219,9 +594,45 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway",
+        "str2": "Williamsbridge Road"
+      },
+      "source": "Pelham Parkway and Williamsbridge Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "Sacket Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "Sacket Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 437,
     "id": "701498f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701498f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Morris Park Race Track (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Racetracks (Horse racing) -- New York (State) -- 1660-1669"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2abb670-c530-012f-d4b2-58d385a7bc34",
     "original_title": "Bronx: Pelham Parkway South - Sacket Avenue",
     "text": "Morris Park Race Track (Bronx): Viewing north across the fashionable track from near the grand stand. The track was bounded on the east by Williamsbridge Road; on the west by Barnes Avenue; on the north by Pelham Parkway; and on the south by Sackett Avenue. In June, 1913 \"the most remarkable real estate sale in the history of the city\", as the New York Times commented editorially, took place when the track property was offered for auction by Joseph P. Day and Clarence Davies. For additional data see \"The New York Times,\" April 27, June 15, and June 22, 1913.\n\nAbout 1910?\nViews 1,2:\nProbably earlier.\n",
@@ -239,9 +650,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708760f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708760f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ff233180-c53b-012f-55a2-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 42nd Street",
     "text": "Fifth Avenue, west side, north, from a point to the south of W. 42nd Street and across same.\n\nAbout 1910\n\nGift of Urbrock Collection\n",
@@ -256,9 +685,41 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.57149,
+        "lng": -74.0931627
+      },
+      "source": "Poppy Joe's Island (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Poppy Joe Island Beach",
+        "str2": "Stroud place",
+        "technique": "title-cross"
+      }
+    ],
     "height": 481,
     "id": "730622f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730622f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Poppy Joe's Island (New York, N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Islands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e1bf880-c55d-012f-41cb-58d385a7bc34",
     "text": "Poppy Joe Island Beach (Staten Island): A group of local muskrat hunters and hunting dogs in front of their work-and-storage barn. From left to right they are: Louis Stroud, George W. Stroud, John (\"Jeff\") Davis, and James A. Stroud. Poppy Joe Island is on the Lower New York Bay, near New Creek, between Ocean Breeze and Midland Beach.\n\nAbout 1911\n\nPhoto by J.E. Davis\nCopied by P. L. Sperr\n",
     "text_source": "gpt",
@@ -272,9 +733,31 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "708795f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708795f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Double-decker buses",
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d806360-c53c-012f-c9e1-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 42nd Street",
     "text": "North on Fifth Avenue from S. W. corner of 42nd Street, showing early type of Fifth Avenue motor-drawn bus,. Bristol Building, formerly Bristol Hotel, at left foreground. Temple Emanu-El at right centre.\n1912.\nEwing Galloway, Photographer.\n",
@@ -289,9 +772,34 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 42nd Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "712987f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712987f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f34cb9a0-c542-012f-b1c1-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street (East) - 5th Avenue",
     "text": "East 42nd Street, north side, east from Fifth Ave., showing construction work in progress on Grand Central Station, Vanderbilt Ave., to Depew Place (no longer in existence). Grand Central station was opened in 1913 and is the terminal for the new York Central Railroad, and the New York, New Haven and Hartford Railroad\nPrior to 1913.\n\nEwing Galloway.\n",
@@ -306,9 +814,36 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park",
+      "technique": "subjects"
+    },
     "height": 390,
     "id": "718284f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718284f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Ten thousand schoolboys drilling in Central Park held under auspices of Public Schools Athletic League."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "School children"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ee60b00-c54b-012f-2bcf-58d385a7bc34",
     "text": "TEN THOUSAND NEW YORK SCHOOLBOYS DRILLING IN CENTRAL PARK.\nThis is a great army of schoolboys from all boroughs of the big city, attired in white shirtwaists & dark knickerbockers, gave an exhibition drill in the physical exercises in the city's largest park last month before a distinguished company of invited guests, relatives & friends.  The purpose of this impressive demonstration, which was held under the auspices of the Public Schools Athletic League, was to show the results of physical and hygienic training in the schools.  Colonel Roosevelt, who was one of the spectators, spoke of the work of the League as a great force for good not only in the city but in the nation.\n\nDated:  June 10, 1913.  American Press Ass'n\n",
     "text_source": "site",
@@ -322,9 +857,29 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 472,
     "id": "730942f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730942f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1cab930-c55e-012f-716c-58d385a7bc34",
     "text": "Route: Queensboro Bridge Connection, (566) Sec 4c No 6\nLocation: Queensboro Bridge\nSubject: Construction Photograph\nDescription: Car used in distributing track material.\nJune 26, 1917\n",
     "text_source": "site",
@@ -338,9 +893,37 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "25th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 25th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731285f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731285f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 25th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Dewey, George, 1837-1917"
+        ],
+        "topic": [
+          "Memorial arches",
+          "Peace",
+          "Spanish-American War, 1898"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ed466a0-c55f-012f-1da0-58d385a7bc34",
     "text": "Celebrations, Parades and Municipal Events: The Victory Arch on Fifth Avenue at 25th Street as viewed southward. Thru the center appears the Fuller (Flatiron) Building. On the right, silhouetted against the Fifth Ave. Building, is the Worth Monument.\n\n1918\n\nUrbrock Collection\n",
     "text_source": "gpt",
@@ -354,9 +937,36 @@
   {
     "date": "1921-11-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 34th Street"
+      },
+      "source": "Manhattan: Broadway - West 34th Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "1558433",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558433.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Herald Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21019970-c5ed-012f-2587-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -370,9 +980,35 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": null,
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Madison Street",
+        "str2": "New Chambers Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Madison Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 423,
     "id": "721912f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721912f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da408c60-c550-012f-854b-58d385a7bc34",
     "original_title": "Manhattan: New Chambers Street - Madison Street",
     "text": "(1) New Chambers Street to New Bowery. \"Before Reconstruction\". About 1917.\n\n(2) New Chambers Street to New Bowery. \"After Reconstruction\". May 22, 1921.\n\n-President Borough Manhatten.\n",
@@ -387,9 +1023,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "147th Avenue",
+        "str2": "150th Street"
+      },
+      "source": "Queens: 150th Street - 147th Avenue",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "725900f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725900f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f81444e0-c556-012f-481c-58d385a7bc34",
     "original_title": "Queens: 150th Street - 147th Avenue",
     "text": "150th Street, west side, north of One Hundred Forty-seventh Ave. This set consists of four views showing the Christian Nicklaus farmhouse. For further data, see additional views. 1922.\n\nEugene L. Armbruster Collection.\n",
@@ -404,9 +1061,50 @@
   {
     "date": "1924; 1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 11014,
+        "street": "Colonial Avenue"
+      },
+      "source": "11014 Colonial Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Nassau Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Nassau Boulevard",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Van Doren Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 462,
     "id": "726358f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726358f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b3ed390-c557-012f-9576-58d385a7bc34",
     "original_title": "Queens: Colonial Avenue - Nassau Boulevard",
     "text": "110-14 - 110-16 Colonial Avenue, east side, south from Nassau Boulevard (to be constructed at right of house in foreground). Van Doren Street is seen in the foreground. This set of three views shows the De La Carte living quarters and Inn. of 1922. It was erected by John Heeg who kept a roadhouse. Arthur Mayer owned it in 1897. He was followed by William Gier.\n\nJan. 1924.\nViews 2&3: May 1926.\n\nEugene L. Armbruster Collection\n",
@@ -422,9 +1120,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "MacDougal Street",
+        "str2": "Minetta Lane"
+      },
+      "source": "Manhattan: Minetta Lane - MacDougal Street",
+      "technique": "title-cross"
+    },
     "height": 505,
     "id": "721650f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721650f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6eb90680-c550-012f-90f0-58d385a7bc34",
     "original_title": "Manhattan: Minetta Lane - MacDougal Street",
     "text": "Minetta Lane, from MacDougal Street, to the intersection of Sixth Ave. and Carmine Street, showing a modern paved street with several new buildings.\nAbout 1925.\n",
@@ -439,9 +1158,45 @@
   {
     "date": "1926-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "President Street",
+        "str2": "Prospect Park West"
+      },
+      "source": "President Street and Prospect Park West",
+      "technique": "gpt"
+    },
     "height": 515,
     "id": "706346f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706346f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+          "Mount Prospect Reservoir (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park South (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Art schools",
+          "Building construction",
+          "Educational facilities",
+          "Galleries & museums",
+          "Parks",
+          "Plazas",
+          "Reservoirs",
+          "Science",
+          "Soldiers' and Sailors' Memorial Arch (New York, N.Y.)",
+          "Study and teaching"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cb052e0-c538-012f-689c-58d385a7bc34",
     "text": "Prospect Park,Plaza: A general view east from the Knights of Columbus Building located at the N.W. corner of President Street and Prospect Park West, showing in the foreground the Memorial Arch.  In the center of the view, east from Flatbush Ave., (trolley car thereon) is Eastern Parkway.  The buildings on the south side of the Parkway are the Mt. Prospect Reservoir, and the Brooklyn Institute of Arts and Sciences; on the north side in their order are the Union Temple of Brooklyn, the Copley Plaza Apartments (under construction), the Abraham Lincoln, etc.\n\nJune 1926.\n\nBrown Brothers.\n",
     "text_source": "site",
@@ -455,9 +1210,33 @@
   {
     "date": "1927; 1929; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Christopher Street",
+        "str2": "Weehawken Street"
+      },
+      "source": "Manhattan: Weehawken Street - Christopher Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "724321f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724321f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Newspaper vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf131060-c554-012f-d8ed-58d385a7bc34",
     "original_title": "Manhattan: Weehawken Street - Christopher Street",
     "text": "(1)\n\nWeehawken Street, west side, from Christopher to 10th Streets. The view also shows the corner building north side of Christopher Street, from Weehawken to West Streets.\nMay 12, 1927.\n\nP. L. Sperr.\n\n(2)\n\nThe same, two years later. March 8, 1929.\n\nP. L. Sperr.\n\n(3)\n\nA similar view at a later date, showing demolition of Nos. 388 (corner building) and 390 (old 2\u00bd story building, adjoining) West Street. Shown in a state of collapse is No. 391 West Street.\nMay 15, 1937.\n\nP. L. Sperr.\n",
@@ -474,9 +1253,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 42nd Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713050f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713050f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ea0dc10-c543-012f-dbdd-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street (West) - 6th Avenue",
     "text": "West 42nd Street, west from but not including Sixth Ave. Also shown (background) is the 42nd Street station of the Ninth Ave. Elevated Line.\n\nAbout 1928.\n\nEwing Galloway.\n\n3309\n",
@@ -491,9 +1291,38 @@
   {
     "date": "1930; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sixth Avenue",
+        "str2": "West 42nd Street"
+      },
+      "source": "Manhattan: Sixth Avenue - West 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 594,
     "id": "1558013",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558013.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Elevated Sixth Avenue El 42nd Street Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Elevated railroads",
+          "Historic buildings",
+          "Newspaper vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f2f88b0-c5ec-012f-ebf0-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -508,9 +1337,31 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "46th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 46th Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "708851f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708851f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Double-decker buses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/237b3ab0-c53c-012f-8868-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 46th Street",
     "text": "Fifth Avenue, west side, north from 46th Street,\n1931.\nNew York Edison Company Collection.\n",
@@ -525,9 +1376,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "86th Street (East)"
+      },
+      "source": "Manhattan: 86th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "714705f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714705f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Bookstores",
+          "Business districts",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6676100-c545-012f-16e2-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (East) - 3rd Avenue",
     "text": "204-208 East 86th Street, east of, adjoining, and at the S.E. corner of Third Avenue.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -542,9 +1417,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Canal Street",
+        "str2": "Chrystie Street"
+      },
+      "source": "Manhattan: Canal Street - Chrystie Street",
+      "technique": "title-cross"
+    },
     "height": 508,
     "id": "718806f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718806f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sarah d. Roosevelt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc30d880-c54b-012f-500f-58d385a7bc34",
     "original_title": "Manhattan: Canal Street - Chrystie Street",
     "text": "A general view northward along Chrystie (left) and Forsyth (right) Streets, from the Manhattan Bridge, at Canal Street, and showing clearance for the Sarah Delano Roosevelt Park. Intersecting streets, shown in the order of their appearance, are Hester, Grand, Broome, Delancey, Rivington, Stanton and East Houston.\n\nJanuary 14, 1932.\n\nInternational News Photo.\n",
@@ -559,9 +1458,50 @@
   {
     "date": "1932; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.706096,
+        "lng": -73.996823
+      },
+      "source": "Bridges - Brooklyn Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "num": 60,
+        "street": "Wall Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "730718f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730718f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "East River (N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Industrial facilities",
+          "Monuments & memorials",
+          "Piers & wharves",
+          "Ships",
+          "Steam"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5bfda8c0-c55e-012f-3215-58d385a7bc34",
     "text": "1- Brooklyn and Manhattan Bridges; as seen southeast from No. 60 Wall Street. The steam is from New York Steam Company, plant.\n\nP. L. Sperr\nFebruary 10, 1934\n\n2- Brooklyn Bridge, as seen east from the Municipal Building.\n\nP. L. Sperr\nJuly 18, 1934\n\n3- Brooklyn Bridge as seen across the skyline\n\nP. L. Sperr\nJune 8, 1932\n",
     "text_source": "site",
@@ -576,9 +1516,32 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 42nd Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "713043f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713043f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b2e1040-c543-012f-1190-58d385a7bc34",
     "original_title": "Manhattan: 42nd Street (West) - 6th Avenue",
     "text": "West 42nd Street, east from Sixth Ave. Overhead is the \"L\" structure that acquires its name from this Avenue.\nApril 3, 1933.\nIrvin., Fitterman.\n",
@@ -593,9 +1556,49 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "51st Street",
+        "str2": "Sixth Avenue"
+      },
+      "source": "51st Street and Sixth Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Aerial view from Radio City",
+        "str2": "Central Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 398,
     "id": "718179f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718179f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Metropolitan Museum of Art ; Riverside Baptist Church."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Churches",
+          "Galleries & museums",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fdbcd2b0-c54a-012f-1f4c-58d385a7bc34",
     "text": "Central Park: Aerial View from Radio City (Sixth Avenue and 51st Street), showing the Park and the Fifth Avenue side. In the center foreground may be seen the Pond, north of it the Mall, then the Lake, of which the eastern bay is at the northern end of the Mall and the main body on the west side of the Park, about 70th to 80th Streets. The bare spot further north is the site of the old reservoir; above it may be seen the north reservoir, still in use. The buildings of the Metropolitan Museum of Art may be seen on the Fifth Avenue side at 81st Street.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n\nThe same, another view. In the southwestern quarter of the Park may be seen a ball ground, and north of it the Meadow or Green. The 72nd Street cross drive separates the Green and the Lake.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n\nThe same, also showing the West Side of town and the Hudson River. The Riverside Church, at 122nd Street, and the George Washington Bridge, at 181st Street, stand out very clearly.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -609,9 +1612,44 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.772352,
+        "lng": -73.97159
+      },
+      "source": "Central Park - The Mall",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Mall",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "718268f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718268f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Central Park West."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2651d3d0-c54b-012f-4c6e-58d385a7bc34",
     "text": "Central Park: The Mall, crowd with roller skaters. During this and the following year, this sport, always more or less popular, suddenly became a craze; young, middle aged, and old, children and adults, all took to roller skates. The Mall and the Central Park walks, together with the east sidewalk of Central Park West, were favorite locations, but by no means the only ones.\nMay 15, 1933.\n\nP. L. Sperr.\n\nThe same, another view.\nMay 15, 1933.\n\nP. L. Sperr.\n\nThe same another view.\nThe seated statue represents Fitz-Greene Halleck, by Wilson MacDonald (erected in 1877).\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -625,9 +1663,33 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.76808,
+        "lng": -73.981896
+      },
+      "source": "Columbus Circle",
+      "technique": "special"
+    },
     "height": 464,
     "id": "719145f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719145f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Columbus Circle (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Columbus, Christopher"
+        ],
+        "topic": [
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85b40bd0-c54c-012f-0794-58d385a7bc34",
     "text": "Celebrations: Pay Tribute to Columbus. About 1,000 gathered around Columbus Circle October 12, to pay tribute to the Great Navigator on the 441st Anniversary of his discovery of America. Wreaths were placed at the base of the statue, and addressed in tribute to Columbus were made. Mayor O'Brien was one of those to speak. Here is a general view looking into Central Park in Background.\n\nAssociated Press Photo\n\nOctober 12, 1933.\n",
     "text_source": "gpt",
@@ -641,9 +1703,32 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "Washington Square South"
+      },
+      "source": "Manhattan: Washington Square South - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730568f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730568f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Washington Square South - 5th Avenue ; Semi - annual Art Exhibit."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Art fairs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cddd460-c55e-012f-7918-58d385a7bc34",
     "text": "(1) The village artist anticipates sales, and renown during the semi-annual Art Exhibit at Washington Square.\n\nP. L. Sperr.\n\n(2) Same.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -657,9 +1742,39 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.762161,
+        "lng": -73.949964
+      },
+      "source": "Islands - Welfare Island ",
+      "technique": "subjects"
+    },
     "height": 474,
     "id": "732193f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732193f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Blackwell's Island ; Roosevelt Island."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Roosevelt Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Piers & wharves",
+          "Prisons",
+          "Ships",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c694bdd0-c560-012f-c77b-58d385a7bc34",
     "text": "Lower end of Welfare Island; formerly Blackwell's Island: showing the City prison and workhouse, and also the City Hospital.\n\nAbout 1933.\n\nEwing Galloway.\n",
     "text_source": "site",
@@ -673,9 +1788,32 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Hudson Street",
+        "str2": "King Street"
+      },
+      "source": "Manhattan: Hudson Street - King Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733360f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733360f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Hudson Street - King Street ; 367-381 Hudson Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84b12a10-c562-012f-4e45-58d385a7bc34",
     "text": "(1)\nThanksgiving Ragamuffins, 1933, No. 31. A little girl applying lipstick, at 367 Hudson Street, west side, between King and West Houston Streets.\nNovember 30, 1933.\n\nP. L. Sperr.\n\n(2)\nNo. 32. This one got a very liberal application of lipstick. The location is 381 Hudson Street, in the same block. Notice the NRA Blue Eagle in the window; these had just come in that fall.\nNovember 30, 1933.\n\nP. L. Sperr.\n\n(3)\nNo. 33. In the same block, a group including the little tyke shown in No. 32.\nNovember 30, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -689,9 +1827,29 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 42nd Street, ",
+      "technique": "title-cross"
+    },
     "height": 434,
     "id": "1508783-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508783-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91ed6770-c5ce-012f-e263-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -705,9 +1863,42 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.703717,
+        "lng": -74.016094
+      },
+      "source": "Battery Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Aquarium",
+        "str2": "Battery Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "716520f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716520f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Aquariums",
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c60a8d0-c548-012f-8df5-58d385a7bc34",
     "text": "Battery Park:  A set of three views westward across the southwestern corner of same, showing the Aquarium at the foot of the North (Hudson) River.  Across the latter appears the New Jersey shoreline.  In Nos. 2 and 3, we see the giant \"Normandie\" putting to sea.\n\nSeptember 16, 1936\nP. L. Sperr.\n",
     "text_source": "site",
@@ -721,9 +1912,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 481,
     "id": "730166f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730166f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Harlem River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b95fa50-c55d-012f-4f83-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -737,9 +1952,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "40th Street (West)",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 9th Avenue - 40th Street (West).",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "732438f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732438f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 9th Avenue - 40th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fruit",
+          "Street vendors",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/283789a0-c561-012f-f463-58d385a7bc34",
     "text": "Peddlers, Fruit: A market scene on Ninth Ave., near West 40th street, showing a retail general produce area. This is a set of 2 views. 1936.\n\nGift of Dr. Michael Wishengrad, A.R.P.S.\n",
     "text_source": "gpt",
@@ -753,9 +1995,40 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.766014,
+        "lng": -73.974004
+      },
+      "source": "Central Park - The Pond",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Pond",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718346f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718346f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46376f10-c54b-012f-91fc-58d385a7bc34",
     "text": "Central Park--The Pond: A girl feeding the swans.\n\n1938-9\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
     "text_source": "gpt",
@@ -769,9 +2042,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "42nd Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 42nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "709480f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709480f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bryant Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cf5f200-c53d-012f-9004-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 42nd Street (West)",
     "text": "Sixth Avenue, at W. 42nd Street, showing demolition of the Sixth Avenue \"El\" structure and its 42nd Street station. The photographer is viewing north-westward from a vantage point in Bryant Park towards Times Square where the Times Building appears.\n\nApril 4, 1939\n\nMr. Nathan Schwartz\nNew York Public Library\n",
@@ -786,9 +2084,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Duane Street - West Street",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "719363f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719363f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc21cb90-c54c-012f-cb10-58d385a7bc34",
     "original_title": "Manhattan: Duane Street - West Street",
     "text": "1-- Duane Street, east from West Street. Also shown is West Street, at, and adjoining the N.E. corner of Duane Street.\n\nJuly 26, 1932.\n\nP. L. Sperr.\n\n2--Duane Street, east side, at West Street showing produce wagon.\n\nP. L. Sperr\nAugust 15, 1939\n",
@@ -803,9 +2123,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.574926,
+        "lng": -73.985941
+      },
+      "source": "Islands - Coney Island ",
+      "technique": "subjects"
+    },
     "height": 388,
     "id": "731939f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731939f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Coney Island (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Boardwalks",
+          "Crowds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5856bb50-c560-012f-1e5a-58d385a7bc34",
     "text": "Coney Island: The beach and boardwalk on a hot August afternoon, looking east.\n\n1939\n\nAlexander Alland\n",
     "text_source": "gpt",
@@ -819,9 +2161,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 468,
     "id": "1558509",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558509.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fort Washington Park - Hudson River"
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bd3f030-c5ed-012f-dd7a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -835,9 +2205,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Spring in Central Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 479,
     "id": "718194f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718194f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0485b580-c54b-012f-699b-58d385a7bc34",
     "text": "Spring in Central Park.\nInternational Newsreel, 226 William St., N.Y.C.\n",
     "text_source": "gpt",
@@ -851,9 +2252,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Quiet corner in Central Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 396,
     "id": "718280f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718280f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ce406a0-c54b-012f-89b2-58d385a7bc34",
     "text": "\"Quiet corner in Central Park\"\n\nHans W. Hannau, photographer\n",
     "text_source": "gpt",
@@ -867,9 +2299,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "San Remo Towers",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718282f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718282f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "San Remo Apartments."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2de2d9c0-c54b-012f-f511-58d385a7bc34",
     "text": "Central Park and San Remo Towers in the background\n\nHans W. Hannau, photographer\n\n#1348\n",
     "text_source": "gpt",
@@ -883,9 +2350,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.782865,
+        "lng": -73.965355
+      },
+      "source": "Central Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Playgrounds",
+        "technique": "title-cross"
+      }
+    ],
     "height": 428,
     "id": "718333f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718333f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42c32540-c54b-012f-6cf3-58d385a7bc34",
     "text": "\"Playground in Central Park\"\n\nHans W. Hannau, photographer\n\n# 1611\n",
     "text_source": "gpt",

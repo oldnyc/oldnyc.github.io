@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-09-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bergen Street",
+        "str2": "Franklin Avenue"
+      },
+      "source": "Brooklyn: Bergen Street - Franklin Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703221f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703221f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/51e00f30-c533-012f-f81a-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - Franklin Avenue",
     "text": "Bergen Street, north side, west from Franklin Avenue, showing the old H. J. Heinz buildings.\n\nP. L. Sperr\n\nSeptember 6, 1941\n",

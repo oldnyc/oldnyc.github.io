@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-04-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Duane Street"
+      },
+      "source": "Manhattan: Church Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718880f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718880f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18bf0200-c54c-012f-801e-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Duane Street",
     "text": "Church Street at the N.W. corner of Duane Street.\nApril 2, 1932.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Duane Street"
+      },
+      "source": "Manhattan: Church Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718881f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718881f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Diners (Restaurants)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/190c2b70-c54c-012f-9f8f-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Duane Street",
     "text": "Church Street, east side, from and including Duane to Worth Streets.\nFebruary 11, 1931.\n\nP. L. Sperr.\n",
@@ -42,9 +81,27 @@
     "dates_from_text": [
       "1932-03-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Duane Street"
+      },
+      "source": "Manhattan: Church Street - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718882f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718882f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/197618e0-c54c-012f-e495-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Duane Street",
     "text": "Church Street, east side, south from and including Worth Street,\nas seen from the west side.\n\nMarch 20, 1932.\n\nP. L. Sperr.\n",

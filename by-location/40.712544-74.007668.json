@@ -2,9 +2,36 @@
   {
     "date": "1867",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717154f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717154f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "American",
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Military facilities",
+          "Parks",
+          "Recruiting and enlistment"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6970efb0-c549-012f-26c2-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Broadway, from Park Place to Chambers Street, showing\nCity Hall Park;\n\n1867.\n\nIrving Underhill, Photographer,\n",
@@ -19,9 +46,40 @@
   {
     "date": "1897",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "717187f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717187f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Postal Telegraph Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Insurance companies",
+          "Parks",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76663670-c549-012f-446d-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Broadway, west side, from Park Place (left) to Warren (right) Street's, as photographed across City Hall Park and it's contained City Hall, from the Pulitzer (World) Building. Thru the center runs Murray Street. At the N. W. corner is the Postal Telegraph Building. Adjoining same is the taller Home Life Insurance Co. Building. In the background is the North (Hudson) River and it's Jersey Shore.\n\nAbout 1897\n\nGift of Urbrock Collection\n",
@@ -36,9 +94,54 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Broadway and Park Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "City Hall Park",
+        "str2": "City Hall view showing subway under construction",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Mail Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "718922f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718922f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "United States Post Office ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2881b8d0-c54c-012f-00f0-58d385a7bc34",
     "text": "City Hall Park: a view of the southwestern corner, showing subway construction under progress. The boundaries of this corner are mail Street (left to center), and Broadway (right). Intersecting the latter is Park Place. Note at the S.W. corner of same, the buildings which have been replaced by the Woolworth Tower. Occupying the major portion of the background is the rear of the U.S. Post Office, which forms the south side of Mail Street.\n\nMay 6, 1901.\n\nWilliam B. Parsons Collection.\n",
     "text_source": "site",
@@ -55,9 +158,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 355,
     "id": "717157f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717157f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ac2d8a0-c549-012f-9a99-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Three views of\nBroadway at the southwest corner of Park Place, showing group of buildings demolished for erection of Woolworth Building.\n\nP. L. Sperr\nabout 1910\n",
@@ -75,9 +196,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 366,
     "id": "717157f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717157f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ac2d8a0-c549-012f-9a99-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Three views of\nBroadway at the southwest corner of Park Place, showing group of buildings demolished for erection of Woolworth Building.\n\nP. L. Sperr\nabout 1910\n",
@@ -95,9 +234,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 351,
     "id": "717157f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717157f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ac2d8a0-c549-012f-9a99-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Three views of\nBroadway at the southwest corner of Park Place, showing group of buildings demolished for erection of Woolworth Building.\n\nP. L. Sperr\nabout 1910\n",
@@ -112,9 +269,35 @@
   {
     "date": "1911-10-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Broadway and Park Place",
+      "technique": "gpt"
+    },
     "height": 478,
     "id": "1648988",
     "image_url": "https://images.nypl.org/?id=1648988&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Foundations",
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27d111b0-c623-012f-a6f3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -128,9 +311,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717169f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717169f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f1e6f80-c549-012f-0ac9-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Here's how the world's largest ship, the Imperator, and the tallest building, the Woolworth building, compare in size\n1912\nAmerican Press assn.\n",
@@ -145,9 +349,29 @@
   {
     "date": "1918-01-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509049-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509049-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e0bbdd40-c5cd-012f-31d1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -161,9 +385,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Park Place - Broadway",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "722420f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722420f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6614440-c551-012f-c4c8-58d385a7bc34",
     "original_title": "Manhattan: Park Place - Broadway",
     "text": "Park Place, Broadway to West Broadway. (After Reconstruction).\nOctober 19, 1919.\n",
@@ -178,9 +426,36 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 494,
     "id": "717192f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717192f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Cigar industry",
+          "Clothing stores",
+          "Photographic studios"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78887f00-c549-012f-5292-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "239-247 Broadway, west side, north from Park Place to Murray Street. Notice the Woolworth Building on the extreme left.\n\nAbout 1924.\n\nGift of E. M. Jenks.\n",
@@ -195,9 +470,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717193f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717193f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78ffafb0-c549-012f-fbf7-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "(1)\n239 to 247 Broadway, west side, north from Park Place (left) to Murray Street (right) as viewed westward from City Hall Park. Partially shown on the extreme left is the Woolworth Building.\n\nOctober 30, 1928.\n\nP. L. Sperr.\n\n(2)\nA detail of the same, showing only Nos. 241 to 247 Broadway.\n\nOctober 30, 1928.\n\nP. L. Sperr.\n",
@@ -212,9 +511,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717193f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717193f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78ffafb0-c549-012f-fbf7-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "(1)\n239 to 247 Broadway, west side, north from Park Place (left) to Murray Street (right) as viewed westward from City Hall Park. Partially shown on the extreme left is the Woolworth Building.\n\nOctober 30, 1928.\n\nP. L. Sperr.\n\n(2)\nA detail of the same, showing only Nos. 241 to 247 Broadway.\n\nOctober 30, 1928.\n\nP. L. Sperr.\n",
@@ -229,9 +552,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "717186f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/717186f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Business districts",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75f59c80-c549-012f-31b2-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "rotation": 90,
@@ -247,9 +596,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717186f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717186f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Business districts",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75f59c80-c549-012f-31b2-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "Broadway, north from Park Place, as photographed across the former site of the old Post Office. This is the apex of the triangular City Hall Park formed at the point of convergence by Park Row and Broadway. The buildings shown are on the west side of the latter. Chambers Street is on the right. View No. 2 is limited to the blockfront extending from Park Place to Murray Street.\n\nMay 5, 1940\nNo's. 1-2\n\nP. L. Sperr\n",
@@ -264,9 +639,32 @@
   {
     "date": "1947-10-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place N."
+      },
+      "source": "Manhattan: Broadway - Park Place N",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509051-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509051-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Home Life Insurance"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e101d620-c5cd-012f-94ed-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -280,9 +678,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717156f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717156f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Business enterprises",
+          "Furniture industry",
+          "Wicker furniture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a4e34e0-c549-012f-b254-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Park Place",
     "text": "The s. w. Cor. of Park Place And Broadway- The Woolworth Bldg. now stands on it.\n\nPhoto by Brown Brothers\n220 West 42nd St.\nNew York City.\n",
@@ -297,9 +721,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Park Place"
+      },
+      "source": "Manhattan: Park Place - Broadway",
+      "technique": "title-cross"
+    },
     "height": 429,
     "id": "722419f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722419f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a602a660-c551-012f-fb03-58d385a7bc34",
     "original_title": "Manhattan: Park Place - Broadway",
     "text": "Park Place, Broadway to Church Street. (Before Reconstruction).",

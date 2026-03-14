@@ -2,9 +2,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 90th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "715957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715957f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Gasoline pumps",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81e84710-c547-012f-b8b3-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 90th Street (West)",
     "text": "Amsterdam Ave., south from and including West 90th Street, showing W.P.A. employees resurfacing the former street car track bed.\nJune 5, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

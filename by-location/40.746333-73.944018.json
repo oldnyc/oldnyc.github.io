@@ -2,9 +2,32 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Court Square",
+        "str2": "Jackson Avenue"
+      },
+      "source": "Queens: Court Square - Jackson Avenue",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "726426f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726426f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Insurance companies",
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2cbd140-c557-012f-3eee-58d385a7bc34",
     "text": "Court Square (left, not seen), north from the Pennsylvania Railroad yards to Jackson Ave., showing in the foreground the jail. Beyond it is the Court house of Queens County. At the right is shown the Metropolitan Life Insurance Company printing plant.\n\nAbout 1927.\n",
     "text_source": "site",
@@ -18,9 +41,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 4506,
+        "street": "Court Square"
+      },
+      "source": "4506 Court Square",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985147",
     "image_url": "https://images.nypl.org/?id=3985147&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3478f50-c5d7-012f-fd07-58d385a7bc34",
     "text": null,
     "text_source": null,

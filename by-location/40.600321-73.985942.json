@@ -2,9 +2,33 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Avenue S",
+        "str2": "Stillwell Avenue"
+      },
+      "source": "Brooklyn: Stillwell Avenue - Avenue S",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "706897f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706897f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fea7f0e0-c538-012f-554b-58d385a7bc34",
     "original_title": "Brooklyn: Stillwell Avenue - Avenue S",
     "text": "Stillwell Avenue, east side, between Avenue S and 24th Avenue, showing Public School No. 97. An addition was made to the school several years later.\n\nBoard of Education of the City of New York August 17, 1921\n",
@@ -19,9 +43,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Avenue S",
+        "str2": "Stillwell Avenue"
+      },
+      "source": "Brooklyn: Stillwell Avenue - Avenue S",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "706896f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706896f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe55fc20-c538-012f-0ff4-58d385a7bc34",
     "original_title": "Brooklyn: Stillwell Avenue - Avenue S",
     "text": "Stillwell Avenue, east side, between Avenue S and 24th Avenue, showing Public School No. 97. The buildings on the right are new additions.\n\nBoard of Education of the City of New York\tOctober 1, 1925\n",

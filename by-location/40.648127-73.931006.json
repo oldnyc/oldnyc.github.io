@@ -2,9 +2,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "49th St. E.",
+        "str2": "Tilden Ave."
+      },
+      "source": "Brooklyn: Tilden Ave. - 49th St. E.",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "707053f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707053f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Tilden Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3b8e0060-c539-012f-3f1c-58d385a7bc34",
     "original_title": "Brooklyn: Tilden Ave. - 49th St. E.",
     "text": "Tilden Avenue, west from and across E. 49th Street, showing a W. P. A. highway project. In the background is Holy Cross Cemetery.\n\nSeptember 25, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

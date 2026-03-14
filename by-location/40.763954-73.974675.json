@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 18,
+        "street": "W 58th Street"
+      },
+      "source": "58th Street (West) #18",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508243",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508243.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd76ab80-c5ce-012f-4b81-58d385a7bc34",
     "text": null,
     "text_source": null,

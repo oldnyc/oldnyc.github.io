@@ -2,9 +2,50 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6848252,
+        "lng": -74.0140286
+      },
+      "source": "Buttermilk Channel (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "40th Street",
+        "str2": "50th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "40th Street",
+        "str2": "50th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 387,
     "id": "733884f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733884f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: 40th Street - 50th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Ships",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/51e23640-c563-012f-a46b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +59,37 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6848252,
+        "lng": -74.0140286
+      },
+      "source": "Buttermilk Channel (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Buttermilk Channel",
+        "str2": "State Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 466,
     "id": "733687f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733687f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04fde7a0-c563-012f-0c13-58d385a7bc34",
     "text": "Buttermilk Channel, Recreation Pier, at the foot of State Street.\nOctober 1928.\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -34,9 +103,41 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6848252,
+        "lng": -74.0140286
+      },
+      "source": "Buttermilk Channel (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Hamilton Avenue",
+        "str2": "Wyckoff Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Hamilton Avenue",
+        "str2": "Wyckoff Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 409,
     "id": "704743f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704743f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Buttermilk Channel (N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2e042d0-c535-012f-94cd-58d385a7bc34",
     "original_title": "Brooklyn: Hamilton Avenue - Wyckoff Avenue",
     "text": "Hamilton Ave., at Buttermilk Channel, showing tugboats of the Wyle Lighterage Corporation.\n\nJune 6, 1931.\n\nP. L. Sperr.\n",
@@ -51,9 +152,34 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6848252,
+        "lng": -74.0140286
+      },
+      "source": "Buttermilk Channel (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Hamilton Ave",
+        "str2": "Pier 33",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "733689f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733689f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05ad4f30-c563-012f-9056-58d385a7bc34",
     "text": "Buttermilk Channel, southeast from Governors Island, showing the Brooklyn shore and skyline, and south of Hamilton Ave. Note the Grace Lines occupying pier 33 at the extreme left. May 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -67,9 +193,35 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6848252,
+        "lng": -74.0140286
+      },
+      "source": "Buttermilk Channel (N.Y.)",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "734061f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734061f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "[Borough Hall]."
+      ],
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Pharmaceutical industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a08c3ad0-c563-012f-0cdc-58d385a7bc34",
     "text": "East River, shore and skyline, south of the Brooklyn Bridge, seen at the extreme left. The shore area seen beyond the piers is known as Borough Hall Area.\n\nAugust 2, 1929\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -83,9 +235,50 @@
   {
     "date": "1945",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6848252,
+        "lng": -74.0140286
+      },
+      "source": "Buttermilk Channel (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "South Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "65th Street",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 481,
     "id": "723217f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723217f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Business enterprises",
+          "Carts & wagons",
+          "Horse teams",
+          "Steamboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f38cd650-c552-012f-7233-58d385a7bc34",
     "original_title": "Manhattan: South Street - 65th Street",
     "text": "P.L. Sperr collection\nRec'd January 13, 1945\n",

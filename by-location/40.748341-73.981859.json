@@ -2,9 +2,29 @@
   {
     "date": "1946-01-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 31,
+        "street": "E 35th Street"
+      },
+      "source": "35th Street (East) #31",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507753-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507753-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0e06d00-c5ce-012f-4b62-58d385a7bc34",
     "text": null,
     "text_source": null,

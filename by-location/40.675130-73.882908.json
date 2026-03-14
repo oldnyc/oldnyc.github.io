@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-09-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Avenue",
+        "str2": "Linwood Street"
+      },
+      "source": "Brooklyn: Glenmore Avenue - Linwood Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704633f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704633f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85aa23a0-c535-012f-c347-58d385a7bc34",
     "original_title": "Brooklyn: Glenmore Avenue - Linwood Street",
     "text": "Glenmore Avenue, north side, east from Linwood Street to Essex Street.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",

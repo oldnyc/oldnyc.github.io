@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "194th Street",
+        "str2": "Marion Avenue"
+      },
+      "source": "Bronx: 194th Street - Marion Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "702192f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702192f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Neighborhoods",
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3d5cc50-c531-012f-eea6-58d385a7bc34",
     "original_title": "Bronx: 194th Street - Marion Avenue",
     "text": "P.L. Sperr, photographer\n8-7-1942\n",

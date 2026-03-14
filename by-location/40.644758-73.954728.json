@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-03-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Beverly Road"
+      },
+      "source": "Brooklyn: Bedford Avenue - Beverly Road",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703176f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703176f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3f77dcb0-c533-012f-fe52-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Beverly Road",
     "text": "Bedford Ave., north from, but not including Beverly Road. March 29, 1932.\nP. L. Sperr.\n",
@@ -22,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Beverly Road"
+      },
+      "source": "Brooklyn: Beverly Road - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "703247f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703247f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5bb27d20-c533-012f-011c-58d385a7bc34",
     "original_title": "Brooklyn: Beverly Road - Bedford Avenue",
     "text": null,

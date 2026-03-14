@@ -2,9 +2,34 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "4th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 4th St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707502f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707502f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f94ae100-c539-012f-8cce-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 4th St. E.",
     "text": "First Ave., west side, north from East 4th., to, but not including East 5th Streets. The Second Ave., Elevated is shown on First Ave.\n\nAbout 1910.\n",
@@ -19,9 +44,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "4th St."
+      },
+      "source": "Manhattan: 1st Ave. - 4th St.",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "707503f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707503f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Clothing stores",
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f9c85a90-c539-012f-9911-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 4th St.",
     "text": "68-76 First Avenue, east side, between 4th and 5th Streets. June 25, 1934.\n\nP. L. Sperr.\n",

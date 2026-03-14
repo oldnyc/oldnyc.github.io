@@ -2,9 +2,47 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 41st Street",
+        "str2": "Harway Avenue"
+      },
+      "source": "Bay 41st Street and Harway Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Harway Avenue",
+        "str2": "Stryker Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Harway Avenue",
+        "str2": "Stryker Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "704805f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704805f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ccbfa570-c535-012f-278d-58d385a7bc34",
     "original_title": "Brooklyn: Harway Avenue - Stryker Street",
     "text": "Harway Ave., west side, between Stryker and Bay 41st Streets, showing P.S. No. 81.\nMarch 1925.\nEugene L. Armbruster Collectuon.\n",

@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 344,
+        "street": "E 112th Street"
+      },
+      "source": "112th Street (East) #344",
+      "technique": "title-address"
+    },
     "height": 430,
     "id": "1508393-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508393-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/171a01b0-c5cf-012f-28d9-58d385a7bc34",
     "text": null,
     "text_source": null,

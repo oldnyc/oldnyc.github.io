@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clarkson Avenue",
+        "str2": "New York Avenue"
+      },
+      "source": "Brooklyn: New York Avenue - Clarkson Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "706051f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706051f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8fbdb20-c537-012f-6e08-58d385a7bc34",
     "original_title": "Brooklyn: New York Avenue - Clarkson Avenue",
     "text": "New York Ave., north side, east of Clarkson Ave. In the center is the Chapel of the Poor-farm in the Kings County Hospital's grounds; the large building on the left is on Clarkson Ave.\n\nMarch 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clarkson Ave",
+        "str2": "New York Ave"
+      },
+      "source": "Clarkson Ave and New York Ave",
+      "technique": "gpt"
+    },
     "height": 457,
     "id": "731392f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731392f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Circuses & shows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/789a2150-c55f-012f-c478-58d385a7bc34",
     "text": "(1) Ringling Bros., circus tents at the south side of Clarkson Ave., from New York to Brooklyn Aves. The house is No. 340 Clarkson Ave. Tennis Courts now occupy this site.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(2) Same, looking in opposite direction from New York Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(3) The same, showing Zebras and Camels on Clarkson Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(4) The same, showing the ticket office for reserved and grandstand seats, situated between the big tent and the striped one.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -35,9 +76,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clarkson Ave",
+        "str2": "New York Ave"
+      },
+      "source": "Clarkson Ave and New York Ave",
+      "technique": "gpt"
+    },
     "height": 455,
     "id": "731392f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731392f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Circuses & shows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/789a2150-c55f-012f-c478-58d385a7bc34",
     "text": "(1) Ringling Bros., circus tents at the south side of Clarkson Ave., from New York to Brooklyn Aves. The house is No. 340 Clarkson Ave. Tennis Courts now occupy this site.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(2) Same, looking in opposite direction from New York Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(3) The same, showing Zebras and Camels on Clarkson Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(4) The same, showing the ticket office for reserved and grandstand seats, situated between the big tent and the striped one.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -51,9 +112,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clarkson Ave",
+        "str2": "New York Ave"
+      },
+      "source": "Clarkson Ave and New York Ave",
+      "technique": "gpt"
+    },
     "height": 455,
     "id": "731392f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731392f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Circuses & shows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/789a2150-c55f-012f-c478-58d385a7bc34",
     "text": "(1) Ringling Bros., circus tents at the south side of Clarkson Ave., from New York to Brooklyn Aves. The house is No. 340 Clarkson Ave. Tennis Courts now occupy this site.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(2) Same, looking in opposite direction from New York Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(3) The same, showing Zebras and Camels on Clarkson Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(4) The same, showing the ticket office for reserved and grandstand seats, situated between the big tent and the striped one.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -67,9 +148,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clarkson Ave",
+        "str2": "New York Ave"
+      },
+      "source": "Clarkson Ave and New York Ave",
+      "technique": "gpt"
+    },
     "height": 453,
     "id": "731392f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731392f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Circuses & shows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/789a2150-c55f-012f-c478-58d385a7bc34",
     "text": "(1) Ringling Bros., circus tents at the south side of Clarkson Ave., from New York to Brooklyn Aves. The house is No. 340 Clarkson Ave. Tennis Courts now occupy this site.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(2) Same, looking in opposite direction from New York Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(3) The same, showing Zebras and Camels on Clarkson Ave.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n\n(4) The same, showing the ticket office for reserved and grandstand seats, situated between the big tent and the striped one.\n\nMay 8, 1929.\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

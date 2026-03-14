@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 562,
+        "street": "West End Avenue"
+      },
+      "source": "562 West End Avenue",
+      "technique": "gpt"
+    },
     "height": 511,
     "id": "416443",
     "image_url": "https://images.nypl.org/?id=416443&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e8668b0-c6db-012f-254f-58d385a7bc34",
     "text": null,
     "text_source": null,

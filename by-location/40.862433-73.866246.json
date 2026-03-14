@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "Cruger Avenue"
+      },
+      "source": "Bronx: Boston Road - Cruger Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "700544f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700544f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pelham Parkway (New York. N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/697528d0-c52f-012f-84c8-58d385a7bc34",
     "original_title": "Bronx: Boston Road - Cruger Avenue",
     "text": "Boston Road, north from Cruger Avenue.\n\nP. L. Sperr.\n\nApril 3, 1938.\n",

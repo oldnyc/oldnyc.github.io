@@ -2,9 +2,38 @@
   {
     "date": "1933-11-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1865,
+        "street": "Benson Avenue"
+      },
+      "source": "1865 Benson Avenue",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "1557772",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557772.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "United States Post Office - Bath Beach"
+      ],
+      "subjects": {
+        "geographic": [
+          "Bath Beach (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/668ed0b0-c5ec-012f-4c55-58d385a7bc34",
     "text": null,
     "text_source": null,

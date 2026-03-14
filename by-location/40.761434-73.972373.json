@@ -2,9 +2,35 @@
   {
     "date": "1945-06-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 59,
+        "street": "East 56th Street"
+      },
+      "source": "59 East 56th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558258",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558258.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dcda4fe0-c5ec-012f-d044-58d385a7bc34",
     "text": null,
     "text_source": null,

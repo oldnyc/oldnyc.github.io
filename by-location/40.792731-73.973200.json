@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 93rd Street"
+      },
+      "source": "Manhattan: Broadway - West 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557815",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557815.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Teitelbaum drug store"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/215f0210-c5ed-012f-c969-58d385a7bc34",
     "text": null,
     "text_source": null,

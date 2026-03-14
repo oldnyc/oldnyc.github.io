@@ -2,9 +2,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "66th Drive",
+        "str2": "69th Street"
+      },
+      "source": "Queens: 69th Street - 66th Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725587f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725587f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Glass industry",
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8dd043b0-c556-012f-0193-58d385a7bc34",
     "original_title": "Queens: 69th Street - 66th Drive",
     "text": "69th Street, east side, at 66th Drive, showing the Trinity Lutheran Church. The sign over the basement doorway reads: Charles T. Schmedcke--Glass specialties.\n\nP. L. Sperr\nJuly 2, 1935\n",
@@ -19,9 +41,32 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "66th Road",
+        "str2": "69th Street"
+      },
+      "source": "Queens: 69th Street - 66th Road",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "725588f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725588f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Contractors",
+          "Farmhouses",
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e2e0060-c556-012f-974f-58d385a7bc34",
     "original_title": "Queens: 69th Street - 66th Road",
     "text": "69th Street, west side, between 66th Road and 66th Drive, showing Wagenbrenner's masonry yard. An old farmhouse is in back of the garage.\n\nP. L. Sperr\n\nJuly 2, 1935\n",

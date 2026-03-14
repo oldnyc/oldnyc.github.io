@@ -2,9 +2,32 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "69th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 69th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707905f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707905f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Delicatessens",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d04e100-c53a-012f-3b14-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 69th Street",
     "text": "2nd Avenue, east side, at East 69th to 70th Street.\nP. L. sperr\nApril 7, 1941\n",

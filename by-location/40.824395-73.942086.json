@@ -2,9 +2,41 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.824293,
+        "lng": -73.942172
+      },
+      "source": "Jackie Robinson Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "West 152nd Street",
+        "str2": "West 155th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "719035f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719035f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jackie Robinson Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Viaducts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56eeaab0-c54c-012f-a1bd-58d385a7bc34",
     "text": "Colonial Park: A view northward of the northern half, showing the viaduct at the farthermost end that carries West 155th Street across this grassed slope. Photographers point of vantage is on a line with West 152nd Street.\n\nAugust 29, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +50,50 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.824293,
+        "lng": -73.942172
+      },
+      "source": "Colonial Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Colonial Park",
+        "str2": "W. 153rd Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Colonial Park",
+        "str2": "W. 155th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 489,
     "id": "719038f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719038f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 153rd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Jackie Robinson Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58373e50-c54c-012f-b9a8-58d385a7bc34",
     "text": "Colonial Park: A view of the new playground and wading pool being constructed by the W. P. A. in the northern end of the Park. The photographers vantage point is on a line with W. 153rd Street and shows an elevated viaduct on what would be W. 155th Street.\n\nMarch 16, 1936.\n\nW. P. A. Photo\nFederal Art Project\n",
     "text_source": "gpt",
@@ -34,9 +107,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "147th Street (West)",
+        "str2": "Bradhurst Avenue"
+      },
+      "source": "Manhattan: Bradhurst Avenue - 147th Street (West).",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "719039f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719039f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Bradhurst Avenue - 147th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Jackie Robinson Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/588da980-c54c-012f-0d48-58d385a7bc34",
     "text": "Colonial Park: A view northward showing the new swimming pool under construction by the W.P.A. On the right appears buildings that line the east side of Bradhurst Ave., north from and including West 147th Street. This view is taken from the southern extremity of the Park, near 146th Street.\n\nMarch 16, 1937.\n\nW.P.A. Photo.\nFederal Art Project.\n",
     "text_source": "gpt",
@@ -50,9 +150,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "147th Street (West)",
+        "str2": "Bradhurst Avenue"
+      },
+      "source": "Manhattan: Bradhurst Avenue - 147th Street (West).",
+      "technique": "title-cross"
+    },
     "height": 491,
     "id": "719041f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719041f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Bradhurst Avenue - 147th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Jackie Robinson Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5988bf20-c54c-012f-b92b-58d385a7bc34",
     "text": "Colonial Park: The new swimming pool under construction by the W.P.A. This view is southward from a point near West 147th Street and shows the southern extremity of the Park. Across the background is West 145th Street (southernmost edge) with buildings upon the south side of same, between Bradhurst (left) and Edgecombe (right) Aves. These are numbered 320 to 338 respectively.\n\nMarch 16, 1937.\n\nW.P.A. Photo.\nFederal Art Project.\n",
     "text_source": "gpt",
@@ -66,9 +193,46 @@
   {
     "date": "1938; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.824293,
+        "lng": -73.942172
+      },
+      "source": "Jackie Robinson Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "150th Street (West)",
+        "str2": "Cromwell Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "150th Street",
+        "str2": "Cromwell Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "719040f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719040f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jackie Robinson Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/590a77f0-c54c-012f-c31b-58d385a7bc34",
     "original_title": "Manhattan: 150th Street (West) - Cromwell Avenue",
     "text": null,
@@ -84,9 +248,46 @@
   {
     "date": "1938; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.824293,
+        "lng": -73.942172
+      },
+      "source": "Jackie Robinson Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "150th Street (West)",
+        "str2": "Cromwell Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "150th Street",
+        "str2": "Cromwell Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "719040f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719040f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jackie Robinson Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/590a77f0-c54c-012f-c31b-58d385a7bc34",
     "original_title": "Manhattan: 150th Street (West) - Cromwell Avenue",
     "text": null,

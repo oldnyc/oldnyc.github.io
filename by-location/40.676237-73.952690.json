@@ -2,9 +2,47 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bergen Street",
+        "str2": "Rogers Avenue"
+      },
+      "source": "Bergen Street and Rogers Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "20th Street",
+        "str2": "Bergen Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "20th Street",
+        "str2": "Bergen Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 390,
     "id": "704692f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704692f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Clubs",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e207720-c535-012f-3f1e-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - 20th Street",
     "text": "Grant Square, looking north from Bergen Street, showing the General Grant Monument. To the right of the monument is the Union League Club on the corner of Dean Street. The Avenue is Rogers Avenue. One block north of Dean Street, at the S.E. corner of Pacific St., is the Imperial House. On the left is the 23rd Regiment Armory, la- ter the 106th Infantry Armory. Rogers Avenue north from Dean Street is Bedford Avenue.\n\nUrbrock Collection\n\nAbout 1905\n",

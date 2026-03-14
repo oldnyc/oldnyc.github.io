@@ -2,9 +2,35 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Edgewater Street",
+        "str2": "Sylva Lane"
+      },
+      "source": "Richmond: Edgewater Street - Sylva Lane",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "728809f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728809f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Boathouses",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59815780-c55b-012f-3034-58d385a7bc34",
     "original_title": "Richmond: Edgewater Street - Sylva Lane",
     "text": "Edgewater Street (foreground), east side, at the foot of Sylva Lane, showing the boat house of the Clifton Boat Club, on the Upper New York Bay. Also shown are several freighters tied up to one of the wharves.\n\nP. L. Sperr\n\n1924\n",

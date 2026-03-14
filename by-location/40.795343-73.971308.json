@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1893"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 97th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "714912f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714912f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f52bf160-c545-012f-e671-58d385a7bc34",
     "original_title": "Manhattan: 97th Street - Broadway",
     "text": "97th St. and Broadway\n\nCopyright\nBrown Bro's\nNew York\n\n1893\n",

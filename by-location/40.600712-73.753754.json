@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Beach 20th Street",
+        "str2": "New Haven Avenue"
+      },
+      "source": "Queens: Beach 20th Street - New Haven Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726146f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726146f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50ab7990-c557-012f-fffa-58d385a7bc34",
     "original_title": "Queens: Beach 20th Street - New Haven Avenue",
     "text": "Beach 20th, at the N.E. corner of New Haven Ave., showing St. Mary's Queen of the Sea (Roman Catholic) Church; Rev. Zimmer was the pastor at one time.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",

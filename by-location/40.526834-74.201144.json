@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Foster Road"
+      },
+      "source": "Richmond: Amboy Road - Foster Road",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "728307f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728307f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93756d30-c55a-012f-169c-58d385a7bc34",
     "original_title": "Richmond: Amboy Road - Foster Road",
     "text": "5741 Amboy Road, east of the N.E. corner of Foster Road, showing the Starin house. The 1874 map by Beers indicates it to have been the T. Asson residence.\n\n1924.\n\nP. L. Sperr.\n",

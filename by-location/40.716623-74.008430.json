@@ -2,9 +2,34 @@
   {
     "date": "1918; 1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "724374f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724374f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d576cc50-c554-012f-5e2e-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Duane Street",
     "text": "(1) West Broadway, Duane, to Thomas Street. (Before Reconstruction). January 26, 1918.\n\n(2) Same. (After Reconstruction).\n: August 2, 1920.\n",
@@ -20,9 +45,34 @@
   {
     "date": "1918; 1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "724374f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724374f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d576cc50-c554-012f-5e2e-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Duane Street",
     "text": "(1) West Broadway, Duane, to Thomas Street. (Before Reconstruction). January 26, 1918.\n\n(2) Same. (After Reconstruction).\n: August 2, 1920.\n",
@@ -38,9 +88,29 @@
   {
     "date": "1919-08-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 156,
+        "street": "Duane Street"
+      },
+      "source": "Duane Street #156",
+      "technique": "title-address"
+    },
     "height": 442,
     "id": "1509313-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509313-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10439b30-c5ce-012f-a267-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +124,31 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: Duane Street - West Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719372f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719372f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Shoe industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dfb82160-c54c-012f-30f4-58d385a7bc34",
     "original_title": "Manhattan: Duane Street - West Broadway",
     "text": "135-141 Duane Street, north side, east of West Broadway.\n\n1926.\n\nAlbert Rothschild.\n",
@@ -71,9 +163,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: Duane Street - West Broadway",
+      "technique": "title-cross"
+    },
     "height": 505,
     "id": "719373f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719373f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Repairing trades",
+          "Shoe industry",
+          "Shoe stores",
+          "Shoes",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e01b3cf0-c54c-012f-42ce-58d385a7bc34",
     "original_title": "Manhattan: Duane Street - West Broadway",
     "text": "149 and 147 Duane Street, at, adjoining the N.E. corner of West Broadway. No. 149, the corner building bears No. 133 West Broadway also.\n\nNovember 9, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -88,9 +207,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Duane Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Duane Street",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "724373f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724373f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coffee shops",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d5231f40-c554-012f-ab7a-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Duane Street",
     "text": "West Broadway, east side, south from No. 135, a building adjoining the N.E. corner of Duane, to Reade Streets. Overhead is the Sixth Ave. Elevated Line.\n\nNovember 9, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

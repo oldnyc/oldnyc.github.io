@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "36th Street (East)",
+        "str2": "Avenue P"
+      },
+      "source": "Brooklyn: 36th Street (East) - Avenue P",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "702726f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702726f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91e370a0-c532-012f-9395-58d385a7bc34",
     "original_title": "Brooklyn: 36th Street (East) - Avenue P",
     "text": null,

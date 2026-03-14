@@ -6,9 +6,27 @@
       "1923-05",
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Broadway",
+        "str2": "Dougan Avenue"
+      },
+      "source": "Queens: Broadway - Dougan Avenue",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "726226f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726226f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6dd7ceb0-c557-012f-9c2c-58d385a7bc34",
     "original_title": "Queens: Broadway - Dougan Avenue",
     "text": "Broadway, west side, south from Dougan Avenue, to St. James Avenue. All buildings seen on this side of Broadway were demolished in May 1923.\n\nMay 1923.\n\nEugene L. Armbruster Collection\n",

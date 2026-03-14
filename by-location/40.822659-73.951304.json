@@ -2,9 +2,45 @@
   {
     "date": "1888",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Hamilton Place",
+        "str2": "West 140th Street"
+      },
+      "source": "Manhattan: Hamilton Place - West 140th Street",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "1557907",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557907.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hamilton Grange house"
+      ],
+      "subjects": {
+        "geographic": [
+          "Hamilton Grange National Memorial (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Hamilton, Alexander, 1757-1804"
+        ],
+        "temporal": [
+          "1800-1899"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Homes and haunts",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37f1c560-c5ed-012f-8db7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +54,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "140th Street",
+        "str2": "Hamilton Place"
+      },
+      "source": "140th Street and Hamilton Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465527-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465527-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30ef8800-c612-012f-5597-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +91,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "140th Street",
+        "str2": "Hamilton Place"
+      },
+      "source": "140th Street and Hamilton Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465694-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465694-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7328c6e0-c612-012f-2a92-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +128,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "140th Street",
+        "str2": "Hamilton Place"
+      },
+      "source": "140th Street and Hamilton Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465694-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465694-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7328c6e0-c612-012f-2a92-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +165,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "140th Street",
+        "str2": "Hamilton Place"
+      },
+      "source": "140th Street and Hamilton Place",
+      "technique": "gpt"
+    },
     "height": 591,
     "id": "465694-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465694-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7328c6e0-c612-012f-2a92-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -82,9 +202,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "140th Street (West)",
+        "str2": "Hamilton Place"
+      },
+      "source": "Manhattan: 140th Street (West) - Hamilton Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04f98c50-c547-012f-b5c0-58d385a7bc34",
     "original_title": "Manhattan: 140th Street (West) - Hamilton Place",
     "text": "516-518 West 140th Street, south side, east of Hamilton Place.\nAbout 1913.\n",
@@ -99,9 +240,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "140th Street (West)",
+        "str2": "Hamilton Place"
+      },
+      "source": "Manhattan: 140th Street (West) - Hamilton Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715627f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715627f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0559b540-c547-012f-71f1-58d385a7bc34",
     "original_title": "Manhattan: 140th Street (West) - Hamilton Place",
     "text": "516-520 West 140th Street, south side, east of Hamilton Place.\nAbout 1913.\n",

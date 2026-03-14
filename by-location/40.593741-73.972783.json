@@ -6,9 +6,41 @@
       "1923-04",
       "1931-03-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 76,
+        "street": "Village Road East"
+      },
+      "source": "76 Village Road East",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Neck Rd.",
+        "str2": "Village Rd. E.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Neck Rd.",
+        "str2": "Village Rd. E.",
+        "technique": "gpt"
+      }
+    ],
     "height": 394,
     "id": "707215f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707215f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a628570-c539-012f-9fc9-58d385a7bc34",
     "original_title": "Brooklyn: Village Rd. E. - Neck Rd.",
     "text": "(1)\n76 Village Road East, west side, between Neck Road and West 1st Street, showing the Schumacher house occupied by a Van Sicklen in 1860, and a Mrs. Van Sicklen in 1873.\nApril 1923.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, a more extensive view west to West 1st Street.\nMarch 2, 1931.\n\nP. L. Sperr.\n",
@@ -28,9 +60,41 @@
       "1923-04",
       "1931-03-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 76,
+        "street": "Village Road East"
+      },
+      "source": "76 Village Road East",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Neck Rd.",
+        "str2": "Village Rd. E.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Neck Rd.",
+        "str2": "Village Rd. E.",
+        "technique": "gpt"
+      }
+    ],
     "height": 464,
     "id": "707215f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707215f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a628570-c539-012f-9fc9-58d385a7bc34",
     "original_title": "Brooklyn: Village Rd. E. - Neck Rd.",
     "text": "(1)\n76 Village Road East, west side, between Neck Road and West 1st Street, showing the Schumacher house occupied by a Van Sicklen in 1860, and a Mrs. Van Sicklen in 1873.\nApril 1923.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, a more extensive view west to West 1st Street.\nMarch 2, 1931.\n\nP. L. Sperr.\n",

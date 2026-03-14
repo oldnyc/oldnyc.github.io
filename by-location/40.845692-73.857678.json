@@ -2,9 +2,31 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fowler Avenue",
+        "str2": "Van Nest Avenue"
+      },
+      "source": "Fowler Avenue and Van Nest Avenue",
+      "technique": "gpt"
+    },
     "height": 457,
     "id": "701496f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701496f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Morris Park Race Track (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Racetracks (Horse racing) -- New York (State) -- 1660-1669"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1fa8440-c530-012f-f0a8-58d385a7bc34",
     "text": "Morris Park Race Track (Bronx): The club house at the southwestern edge of the fashionable race track. It was later torn down when the track was abandoned and the property sold at auction in 1913. Its present-day location would be on the south side of Van Nest Avenue, between Fowler and Bogart Avenues.\n\nBrown Brothers\n\nAbout 1910\n",
     "text_source": "gpt",
@@ -18,9 +40,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fowler Avenue",
+        "str2": "Van Nest Avenue"
+      },
+      "source": "Bronx: Fowler Avenue - Van Nest Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701092f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701092f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobile industry",
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27d2ee30-c530-012f-8fd5-58d385a7bc34",
     "original_title": "Bronx: Fowler Avenue - Van Nest Avenue",
     "text": "Fowler Ave., adjoining the S.E. corner of Van Nest Ave., showing the factory building of the Frank De Rosa Company, auto body builders, occupying that site. The view is eastward across Bronxdale Ave. (foreground).\nJuly 28, 1928.\nP. L. Sperr.\n",

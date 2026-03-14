@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "181st Street",
+        "str2": "Lafontaine Avenue"
+      },
+      "source": "Bronx: 181st Street - Lafontaine Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700271f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700271f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/085f19e0-c52f-012f-aa70-58d385a7bc34",
     "original_title": "Bronx: 181st Street - Lafontaine Avenue",
     "text": "181st St e of Lafontaine Ave\n8-27-1942\nP.L.Sperr\n",

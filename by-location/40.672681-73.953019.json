@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Rogers Avenue",
+        "str2": "Sterling Place"
+      },
+      "source": "Brooklyn: Rogers Avenue - Sterling Place",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "706536f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706536f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/769b2ff0-c538-012f-1c04-58d385a7bc34",
     "original_title": "Brooklyn: Rogers Avenue - Sterling Place",
     "text": "Rogers Ave., at the S.W. corner of Sterling Place, showing the Swedish Hospital.\nJanuary 11, 1932.\n\nP. L. Sperr.\n",

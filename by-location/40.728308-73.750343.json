@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "215th Place",
+        "str2": "Spencer Avenue"
+      },
+      "source": "215th Place and Spencer Avenue",
+      "technique": "gpt"
+    },
     "height": 404,
     "id": "727845f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727845f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queens Village (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d70b4690-c559-012f-3d46-58d385a7bc34",
     "text": "Queens Village, Queens: Viewing southeastward across a vast area of Queens Village, showing newly erected two-family homes, part of a large real estate development. Some of this land was owned by Wheeler Brothers in 1909 and the area was known as Inglewood. Running south from the lower left hand corner of the photograph is 215th Place, commencing at Spencer Avenue and crossing Hillside Avenue where the two-story brick buildings are. View 2 is in a more easterly direction. The dirt road is Spencer Avenue.\n\nP. L. Sperr\nMarch 4, 1927\nViews 1,2\n",
     "text_source": "gpt",
@@ -18,9 +40,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "215th Place",
+        "str2": "Spencer Avenue"
+      },
+      "source": "215th Place and Spencer Avenue",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "727845f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727845f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queens Village (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d70b4690-c559-012f-3d46-58d385a7bc34",
     "text": "Queens Village, Queens: Viewing southeastward across a vast area of Queens Village, showing newly erected two-family homes, part of a large real estate development. Some of this land was owned by Wheeler Brothers in 1909 and the area was known as Inglewood. Running south from the lower left hand corner of the photograph is 215th Place, commencing at Spencer Avenue and crossing Hillside Avenue where the two-story brick buildings are. View 2 is in a more easterly direction. The dirt road is Spencer Avenue.\n\nP. L. Sperr\nMarch 4, 1927\nViews 1,2\n",
     "text_source": "gpt",
@@ -34,9 +78,40 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "215th Place",
+        "str2": "Spencer Avenue"
+      },
+      "source": "215th Place and Spencer Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Hillside Avenue",
+        "str2": "Spencer Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 477,
     "id": "727846f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727846f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jamaica Hill (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queens Village (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7857970-c559-012f-199b-58d385a7bc34",
     "text": "Queens Village, Queens: This is a general view south- ward showing an immense real estate development on former farmland owned by Wheeler Brothers and J. Van De Graw (1909). This development of low-cost two-family homes is known as \"Jamaica Hillside.\" The unpaved street in the center, running toward the background, is 215th Place. In the immediate foreground is Spencer Avenue; below it is Whitehall Terrace; below that is the main east-west thoroughfare, Hillside Avenue.\n\nJoseph P. Day\nPhotograph Department\n\nMarch, 1927\n",
     "text_source": "gpt",

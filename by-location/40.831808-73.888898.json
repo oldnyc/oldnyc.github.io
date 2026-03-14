@@ -2,9 +2,30 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Jennings Avenue",
+        "str2": "Vyse Avenue"
+      },
+      "source": "Bronx: Vyse Avenue - Jennings Avenue",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "701996f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701996f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7943ad10-c531-012f-d4a8-58d385a7bc34",
     "original_title": "Bronx: Vyse Avenue - Jennings Avenue",
     "text": "(1)\n1489 Vyse Ave., west side, between Jennings and East 172nd Streets.\n1915.\nW. D. Eassler.\n(2)\n1491 Vyse Ave., west side, between Jennings and East 172nd Streets.\n1916.\nW. D. Eassler.\n",

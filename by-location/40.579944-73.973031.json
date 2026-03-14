@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1924-01"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 527,
+        "street": "Neptune Avenue"
+      },
+      "source": "527 Neptune Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Cortlandt Street",
+        "str2": "Neptune Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Cortlandt Street",
+        "str2": "Neptune Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 476,
     "id": "705931f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705931f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cb12190-c537-012f-8790-58d385a7bc34",
     "original_title": "Brooklyn: Neptune Avenue - Cortlandt Street",
     "text": "527 Neptune Ave., north side, opposite Cortlandt Street.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",

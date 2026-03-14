@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Stockholm St",
+        "str2": "Wyckoff Ave"
+      },
+      "source": "Stockholm St and Wyckoff Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984930",
     "image_url": "https://images.nypl.org/?id=3984930&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3917f10-c5d7-012f-c92b-58d385a7bc34",
     "text": null,
     "text_source": null,

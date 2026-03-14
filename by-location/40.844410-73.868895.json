@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Filmore Street",
+        "str2": "Morris Park Avenue"
+      },
+      "source": "Bronx: Morris Park Avenue - Filmore Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701480f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701480f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Paint industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc306290-c530-012f-aa9c-58d385a7bc34",
     "original_title": "Bronx: Morris Park Avenue - Filmore Street",
     "text": "626 to 632 (right to left) Morris Park Ave., adjoining and east of the S.E. corner of Filmore Street.\n\nJuly 28, 1928.\n\nP. L. Sperr.\n\nASSUMING STREET TO BE EAST AND WEST\n",

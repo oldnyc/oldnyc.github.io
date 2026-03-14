@@ -2,9 +2,29 @@
   {
     "date": "1940-05-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "152nd Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "152nd Street and Amsterdam Avenue",
+      "technique": "gpt"
+    },
     "height": 405,
     "id": "486043",
     "image_url": "https://images.nypl.org/?id=486043&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/537667c0-c60e-012f-21c2-58d385a7bc34",
     "text": null,
     "text_source": null,

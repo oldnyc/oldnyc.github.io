@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1929-05-06"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 704,
+        "street": "Willowbrook Road"
+      },
+      "source": "704 Willowbrook Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Darcey Avenue",
+        "str2": "Willowbrook Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Darcey Avenue",
+        "str2": "Willowbrook Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "729911f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729911f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c8224f0-c55d-012f-a84d-58d385a7bc34",
     "original_title": "Richmond: Willowbrook Road - Darcey Avenue",
     "text": "704 Willowbrook Road, west side, at Darcey Avenue, showing \"Willowbrook Manor.\" From 1898 to 1917 it was owned by the Augustus Dryer Estate.\n\nMay 6, 1929\n\nP. L. Sperr\n",

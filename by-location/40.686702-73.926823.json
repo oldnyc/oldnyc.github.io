@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Patchen Avenue",
+        "str2": "Putnam Avenue"
+      },
+      "source": "Brooklyn: Putnam Avenue - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "706414f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706414f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47b8bed0-c538-012f-d1b2-58d385a7bc34",
     "original_title": "Brooklyn: Putnam Avenue - Patchen Avenue",
     "text": "Putnam Avenue, east from Patchen Avenue. Midway toward Ralph Avenue, on the north side of the avenue, is the Church of Our Lady of Good Counsel (R. C.).\n\nOctober 24, 1940\n\nP. L. Sperr\n",

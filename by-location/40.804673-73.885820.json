@@ -2,9 +2,50 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Manida Street",
+        "str2": "Ryawa Avenue"
+      },
+      "source": "Manida Street and Ryawa Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Manida Street",
+        "str2": "Ryans Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Manida Street",
+        "str2": "Ryans Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 427,
     "id": "734038f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734038f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bronx: Ryans Avenue - Manida Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Food industry",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95e33ff0-c563-012f-feae-58d385a7bc34",
     "text": "East River, showing Baretto Point, the Bronx. This area is west of Hunts Point, near Ryawa Avenue and Manida Street. In the background is a gas tank at Hunts Point. The view is east from the foot of Tiffany Street.\n\nJuly 4, 1928\n\nP. L. Sperr\n",
     "text_source": "gpt",

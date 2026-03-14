@@ -2,9 +2,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Guyon Avenue",
+        "str2": "Railroad Crossing"
+      },
+      "source": "Guyon Avenue and Railroad Crossing",
+      "technique": "gpt"
+    },
     "height": 388,
     "id": "105084",
     "image_url": "https://images.nypl.org/?id=105084&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3b55e550-c5ef-012f-3f84-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 136th Street",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "East 136th Street and Lincoln Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "136th Street (East)",
+        "str2": "Alexander Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Alexander Avenue",
+        "str2": "East 136th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 477,
     "id": "700056f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700056f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba310200-c52e-012f-06e0-58d385a7bc34",
     "original_title": "Bronx: 136th Street (East) - Alexander Avenue",
     "text": "(1) East 136th Street, west from number 297 (between Alexander and Lincoln Avenues, showing where the Works Progress Administration is going to start a project.\n\nW.P.A.Photo.\nFive Boroughs Project\n\n(2) west from No. 286 and across Lincoln Avenue.\n\nMay 17, 1937\n\nW.P.A.Photo.\nFive Boroughs Project\n\n(3) The south side of East 136th Street and Third Avenue, looking westward. The three views were taken the same day.\n\nMarch 17, 1937\n\nW.P.A.Photo\nFive Boroughs Project\n",
@@ -19,9 +57,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 136th Street",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "East 136th Street and Lincoln Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "136th Street (East)",
+        "str2": "Alexander Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Alexander Avenue",
+        "str2": "East 136th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "700056f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700056f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba310200-c52e-012f-06e0-58d385a7bc34",
     "original_title": "Bronx: 136th Street (East) - Alexander Avenue",
     "text": "(1) East 136th Street, west from number 297 (between Alexander and Lincoln Avenues, showing where the Works Progress Administration is going to start a project.\n\nW.P.A.Photo.\nFive Boroughs Project\n\n(2) west from No. 286 and across Lincoln Avenue.\n\nMay 17, 1937\n\nW.P.A.Photo.\nFive Boroughs Project\n\n(3) The south side of East 136th Street and Third Avenue, looking westward. The three views were taken the same day.\n\nMarch 17, 1937\n\nW.P.A.Photo\nFive Boroughs Project\n",
@@ -36,9 +112,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 136th Street",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "East 136th Street and Lincoln Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "136th Street (East)",
+        "str2": "Alexander Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Alexander Avenue",
+        "str2": "East 136th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 475,
     "id": "700056f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700056f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba310200-c52e-012f-06e0-58d385a7bc34",
     "original_title": "Bronx: 136th Street (East) - Alexander Avenue",
     "text": "(1) East 136th Street, west from number 297 (between Alexander and Lincoln Avenues, showing where the Works Progress Administration is going to start a project.\n\nW.P.A.Photo.\nFive Boroughs Project\n\n(2) west from No. 286 and across Lincoln Avenue.\n\nMay 17, 1937\n\nW.P.A.Photo.\nFive Boroughs Project\n\n(3) The south side of East 136th Street and Third Avenue, looking westward. The three views were taken the same day.\n\nMarch 17, 1937\n\nW.P.A.Photo\nFive Boroughs Project\n",
@@ -53,9 +167,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "136th Street (East)",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "Bronx: 136th Street (East) - Lincoln Avenue",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "700059f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700059f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb3fa460-c52e-012f-55d4-58d385a7bc34",
     "original_title": "Bronx: 136th Street (East) - Lincoln Avenue",
     "text": "E. 136th Street, south side, west from Lincoln Avenue. The W.P.A. signs indicate that a sidewalk repair job is to be started here.\n\nMay 17, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",
@@ -70,9 +208,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "136th Street (East)",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "Bronx: Lincoln Avenue - 136th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "701403f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701403f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f1487a0-c530-012f-166e-58d385a7bc34",
     "original_title": "Bronx: Lincoln Avenue - 136th Street (East)",
     "text": "Lincoln Ave., east side, south from (No. 170) but not including East 136th Street.  In the center of the view is visible the clearance between East 135th and 134th Streets which will be constructed into the westerly approach to the Triborough Bridge, and in the background appears the Third Ave. Elevated Line bridge across the Harlem River.\n\nJuly 29, 1937.\n\nF.L.[? possibly P. L.] Sperr.\n",

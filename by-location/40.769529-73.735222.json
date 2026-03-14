@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Browvale Drive",
+        "str2": "Hand Road"
+      },
+      "source": "Queens: Hand Road - Browvale Drive",
+      "technique": "title-cross"
+    },
     "height": 443,
     "id": "726837f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726837f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d1d0640-c558-012f-9006-58d385a7bc34",
     "original_title": "Queens: Hand Road - Browvale Drive",
     "text": "Hand Road (formerly Stanley Place) at the S.W. corner of Browvale Drive showing the home of Wm. H. Wulfeff.\n\nAbout 1925.\n\nW. B. Vernam\n",

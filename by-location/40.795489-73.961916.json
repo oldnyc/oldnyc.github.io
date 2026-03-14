@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "One Hundred and Second Street"
+      },
+      "source": "Central Park West and One Hundred and Second Street",
+      "technique": "gpt"
+    },
     "height": 528,
     "id": "417313",
     "image_url": "https://images.nypl.org/?id=417313&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d46017d0-c611-012f-fc01-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "102nd Street",
+        "str2": "Central Park West"
+      },
+      "source": "102nd Street and Central Park West",
+      "technique": "gpt"
+    },
     "height": 527,
     "id": "417424",
     "image_url": "https://images.nypl.org/?id=417424&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0075b660-c612-012f-147c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +81,27 @@
     "dates_from_text": [
       "1920-03-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "102nd Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 102nd Street",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "718532f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718532f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92506df0-c54b-012f-9a87-58d385a7bc34",
     "text": "Central Park West 103rd to 102nd Street, (Before Reconstruction).\nMarch 22, 1920\n",
     "text_source": "gpt",

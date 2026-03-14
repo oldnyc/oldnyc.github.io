@@ -2,9 +2,29 @@
   {
     "date": "1949-08-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 41,
+        "street": "E 67th Street"
+      },
+      "source": "67th Street (East) #41",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508277-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508277-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/033478e0-c5cf-012f-b971-58d385a7bc34",
     "text": null,
     "text_source": null,

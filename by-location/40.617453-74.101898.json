@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Grand Avenue",
+        "str2": "Victory Boulevard"
+      },
+      "source": "Richmond: Victory Boulevard - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729848f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729848f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f36d3090-c55c-012f-c5cc-58d385a7bc34",
     "original_title": "Richmond: Victory Boulevard - Grand Avenue",
     "text": "Victory Boulevard, east side, between Grand Avenue and Clove Road, showing the Clove Valley Chapel.\n\nApril 27, 1929\n\nP. L. Sperr\n",

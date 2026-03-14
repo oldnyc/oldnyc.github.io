@@ -2,9 +2,45 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 233rd Street",
+        "str2": "East 234th Street"
+      },
+      "source": "East 233rd Street and East 234th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "234th Street (East)",
+        "str2": "Kepler Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 234th Street",
+        "str2": "Kepler Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 476,
     "id": "700360f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700360f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "East Two Hundred Thirty-fourth Street (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/277cb620-c52f-012f-5133-58d385a7bc34",
     "original_title": "Bronx: 234th Street (East) - Kepler Avenue",
     "text": "E. 234th Street, east from E. 233rd Street, at Kepler Avenue.\n\nMarch 16, 1937\n\nW.P.A. Photo\n",
@@ -19,9 +55,29 @@
   {
     "date": "1942-08-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street",
+        "str2": "234th Street"
+      },
+      "source": "233rd Street and 234th Street",
+      "technique": "gpt"
+    },
     "height": 343,
     "id": "1509487-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509487-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ae403d0-c5cd-012f-0378-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +91,32 @@
   {
     "date": "1942-08-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street",
+        "str2": "234th Street"
+      },
+      "source": "233rd Street and 234th Street",
+      "technique": "gpt"
+    },
     "height": 354,
     "id": "1509491-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509491-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "PS (Public School) 9"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b7b8920-c5cd-012f-df49-58d385a7bc34",
     "text": null,
     "text_source": null,

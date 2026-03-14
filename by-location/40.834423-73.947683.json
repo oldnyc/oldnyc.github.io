@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "156th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "156th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 528,
     "id": "417196",
     "image_url": "https://images.nypl.org/?id=417196&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3c3dc60-c611-012f-e3c7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "156th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "156th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 521,
     "id": "417202",
     "image_url": "https://images.nypl.org/?id=417202&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6335ec0-c611-012f-5ad0-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +78,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "156th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 156th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722811f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722811f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4558dc70-c552-012f-6be5-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 156th Street",
     "text": "788 Riverside Drive, at the S.E. corner of 156th Street.\nAbout 1924.\nGift of E. M. Jenks.\n",

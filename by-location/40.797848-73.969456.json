@@ -2,9 +2,33 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "101st Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 101st Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02aecca0-c546-012f-532a-58d385a7bc34",
     "original_title": "Manhattan: 101st Street (West) - Broadway",
     "text": "232-234 West 101st Street, at, adjoining, and west of the S.W. corner of Broadway.\nAbout 1913.\n",

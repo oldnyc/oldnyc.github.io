@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Tilden Ave.",
+        "str2": "Veronica Pl."
+      },
+      "source": "Brooklyn: Veronica Pl. - Tilden Ave.",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "707211f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707211f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78bca740-c539-012f-eb48-58d385a7bc34",
     "original_title": "Brooklyn: Veronica Pl. - Tilden Ave.",
     "text": "Veronica Place, east side, north from No. 131 at the extreme right, which is near Tilden Ave.\nOctober 1928.\nEugene L. Armbruster Collection.\n",

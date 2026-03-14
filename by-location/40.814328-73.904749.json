@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "151st Street (East)",
+        "str2": "Union Avenue"
+      },
+      "source": "Bronx: Union Avenue - 151st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701921f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701921f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c8cbc10-c531-012f-a994-58d385a7bc34",
     "original_title": "Bronx: Union Avenue - 151st Street (East)",
     "text": "619 to 625 Union Avenue, at, adjoining, and north of the N.W. corner of E. 151st Street. The view is west along E. 151st Street and across the clearance at the N.E. corner of the two thoroughfares.\n\nApril 26, 1938.\n\nP. L. Sperr\n",

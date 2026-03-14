@@ -2,9 +2,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Portland Avenue"
+      },
+      "source": "Brooklyn: Fulton Street - Portland Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704534f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704534f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Antique stores",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ccb5a10-c535-012f-b91d-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Portland Avenue",
     "text": "Fulton Street, at the N. E. corner of South Portland Avenue, seen from underneath the B. M. T. Fulton Street \"El.\" The houses on the left are on South Portland Avenue.\n\nJune 15, 1940\n\nP. L. Sperr\n",
@@ -19,9 +43,29 @@
   {
     "date": "1941-06-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "S. Portland Avenue"
+      },
+      "source": "S. Portland Avenue at Fulton Street, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "485865",
     "image_url": "https://images.nypl.org/?id=485865&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81493e80-c60e-012f-ac2c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +79,30 @@
   {
     "date": "1942-05-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "South Portland Avenue"
+      },
+      "source": "Fulton Street and South Portland Avenue",
+      "technique": "gpt"
+    },
     "height": 412,
     "id": "1509607-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509607-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af02f510-c5cd-012f-a318-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +119,41 @@
     "dates_from_text": [
       "1942-05-13"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 759,
+        "street": "Fulton Street"
+      },
+      "source": "759 Fulton Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Fulton Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "704537f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704537f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5dff0eb0-c535-012f-bb91-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Debevoise Avenue",
     "text": "759 Fulton St. & eastward, Bklyn.\nMay 13, 1942\nP.L. Sperr, photographer\n",
@@ -71,9 +168,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Portland Avenue S.)"
+      },
+      "source": "Brooklyn: Portland Avenue S.) - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "706831f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706831f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Antique stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e60b9370-c538-012f-8c14-58d385a7bc34",
     "original_title": "Brooklyn: Portland Avenue S.) - Fulton Street",
     "text": "South Portland Ave., n.e. cor. & Fulton St., B'klyn.\nMay 13, 1942\nP.L. Sperr, photographer\n",

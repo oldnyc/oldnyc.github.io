@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "161st Street",
+        "str2": "Union Avenue"
+      },
+      "source": "Bronx: Union Avenue - 161st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701922f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701922f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cf8eb10-c531-012f-9835-58d385a7bc34",
     "original_title": "Bronx: Union Avenue - 161st Street",
     "text": "887 and 889 (left to right) Union Ave., north of the N.W. corner of East 161st Street.\n\nAbout 1924.\n\nW. B. Vernam.\n",

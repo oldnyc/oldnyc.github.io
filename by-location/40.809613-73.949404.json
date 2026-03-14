@@ -2,9 +2,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 231,
+        "street": "West 125th Street"
+      },
+      "source": "231 West 125th Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558365",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558365.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Empire City Savings Bank"
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Banks and banking",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/072ddd70-c5ed-012f-704b-58d385a7bc34",
     "text": null,
     "text_source": null,

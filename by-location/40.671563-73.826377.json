@@ -2,9 +2,44 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "114th Avenue",
+        "str2": "135th Street"
+      },
+      "source": "114th Avenue and 135th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "111th Avenue",
+        "str2": "Lincoln Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "111th Avenue",
+        "str2": "Lincoln Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 460,
     "id": "727237f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727237f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9a0b060-c558-012f-2be0-58d385a7bc34",
     "original_title": "Queens: Lincoln Street - 111th Avenue",
     "text": "Lincoln Street between One Hundred and Eleventh and One Hundred and Fourteenth Avenues, showing two views of the J. Van Siclen house and barns. This house may be in the line of the N.W. corner of One hundred and Fourteenth Avenue and 135th Street, or in the westerly street line of Van Wyck Boulevard, or on the west side of the first mentioned Street at the first mentioned location.\n\n1922\nViews 1 and 2\n\nEugene L. Armbruster Collection\n",
@@ -19,9 +54,44 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "114th Avenue",
+        "str2": "135th Street"
+      },
+      "source": "114th Avenue and 135th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "111th Avenue",
+        "str2": "Lincoln Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "111th Avenue",
+        "str2": "Lincoln Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 458,
     "id": "727237f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727237f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9a0b060-c558-012f-2be0-58d385a7bc34",
     "original_title": "Queens: Lincoln Street - 111th Avenue",
     "text": "Lincoln Street between One Hundred and Eleventh and One Hundred and Fourteenth Avenues, showing two views of the J. Van Siclen house and barns. This house may be in the line of the N.W. corner of One hundred and Fourteenth Avenue and 135th Street, or in the westerly street line of Van Wyck Boulevard, or on the west side of the first mentioned Street at the first mentioned location.\n\n1922\nViews 1 and 2\n\nEugene L. Armbruster Collection\n",

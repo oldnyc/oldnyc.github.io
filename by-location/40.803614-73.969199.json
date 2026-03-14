@@ -2,9 +2,31 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 108th Street",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "722758f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722758f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f505c70-c552-012f-0be7-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 108th Street",
     "text": "Riverside Drive at 108th St., looking south.\nB. Hufnagel, photographer.\nWilliam J. McAlpine, supervising engineer.\nThe subgrade having been excavated a little too low, the foundation stones which have been placed in May 1879, had to be at least twelve to fourteen inches depth as are shown in this picture.\nMay 13, 1879\n\nDeposited with NYPL by NYC Park Dept. 1931\n",
@@ -19,9 +41,31 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 108th Street",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "722759f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722759f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fc57900-c552-012f-c837-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 108th Street",
     "text": "Riverside Drive at 108th St., looking north.\nB. Hufnagel, photographer.\nWilliam J. McAlpin, supervising engineer.\nApril 4, 1879\ncloudy & windy\nDeposited with NYPL by NYC Park Dept. 1931\n",
@@ -39,9 +83,27 @@
     "dates_from_text": [
       "1921"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 108th Street",
+      "technique": "title-cross"
+    },
     "height": 594,
     "id": "722761f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722761f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/308ea5b0-c552-012f-c6ad-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 108th Street",
     "text": "355 Riverside Drive, at the S.E. corner of 108th Street, showing the Residence of S. G. Bayne, which will soon be demolished to make way for a 14-story apartment house.\n\nAbout 1921.\n\nGift of E. M. Jenks.\n",
@@ -56,9 +118,42 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "West 108th Street"
+      },
+      "source": "Riverside Park and West 108th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "167th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722924f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722924f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77fa6140-c552-012f-5e80-58d385a7bc34",
     "original_title": "Manhattan: 108th Street - 167th Street",
     "text": "Riverside Park: A set of 3 views in a generally westward direction from a point, near Columbia University's boathouse (about West 115th Street). Through the trees appears a vista of the Hudson River and the palisades of New Jersey. Upon the former appears several vessels of the U.S. Navy.\n\nJune 19, 1921.\n\nWalter L. Bogert.\n",
@@ -73,9 +168,42 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "West 108th Street"
+      },
+      "source": "Riverside Park and West 108th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "167th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722924f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722924f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77fa6140-c552-012f-5e80-58d385a7bc34",
     "original_title": "Manhattan: 108th Street - 167th Street",
     "text": "Riverside Park: A set of 3 views in a generally westward direction from a point, near Columbia University's boathouse (about West 115th Street). Through the trees appears a vista of the Hudson River and the palisades of New Jersey. Upon the former appears several vessels of the U.S. Navy.\n\nJune 19, 1921.\n\nWalter L. Bogert.\n",
@@ -90,9 +218,42 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "West 108th Street"
+      },
+      "source": "Riverside Park and West 108th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "167th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722924f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722924f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77fa6140-c552-012f-5e80-58d385a7bc34",
     "original_title": "Manhattan: 108th Street - 167th Street",
     "text": "Riverside Park: A set of 3 views in a generally westward direction from a point, near Columbia University's boathouse (about West 115th Street). Through the trees appears a vista of the Hudson River and the palisades of New Jersey. Upon the former appears several vessels of the U.S. Navy.\n\nJune 19, 1921.\n\nWalter L. Bogert.\n",
@@ -107,9 +268,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "108th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 108th Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "722760f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722760f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/301f6630-c552-012f-bca5-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 108th Street",
     "text": "Riverside Drive, at and adjoining the S.E. corner of 108th Street. The view also shows 108th Street, at and adjoining the S.E. corner of Riverside Drive. 1923.\n\nGift of E. M. Jenks.\n",

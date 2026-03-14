@@ -2,9 +2,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "46th Street"
+      },
+      "source": "Brooklyn: 3rd Avenue - 46th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702300f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702300f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f37ee0-c531-012f-105d-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Avenue - 46th Street",
     "text": "3rd Avenue, at 46th Street, showing the B. M. T. elevated station thereon. The view is west across the avenue along the north side of 46th Street.\n\nSeptember 9, 1940\n\nP. L. Sperr\n",

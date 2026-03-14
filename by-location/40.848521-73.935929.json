@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "179th Street",
+        "str2": "Wadsworth Avenue"
+      },
+      "source": "179th Street and Wadsworth Avenue",
+      "technique": "gpt"
+    },
     "height": 545,
     "id": "465695-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465695-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73977570-c612-012f-25fc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Wadsworth Avenue",
+        "str2": "West 179th Street"
+      },
+      "source": "Wadsworth Avenue and West 179th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465698-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465698-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74ea0780-c612-012f-5ad4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Wadsworth Avenue",
+        "str2": "West 179th Street"
+      },
+      "source": "Wadsworth Avenue and West 179th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465698-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465698-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74ea0780-c612-012f-5ad4-58d385a7bc34",
     "text": null,
     "text_source": null,

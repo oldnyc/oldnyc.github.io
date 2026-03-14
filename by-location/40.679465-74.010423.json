@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Van Brunt St.",
+        "str2": "Visitation Pl."
+      },
+      "source": "Brooklyn: Visitation Pl. - Van Brunt St.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707226f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707226f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7efa9440-c539-012f-e40d-58d385a7bc34",
     "original_title": "Brooklyn: Visitation Pl. - Van Brunt St.",
     "text": "Visitation Place, north side, between Van Brunt and Richards Streets, showing Parochial School of the R.C. Church of the Visitation.\n\nJune 25, 1931.\n\nP. L. Sperr.\n",

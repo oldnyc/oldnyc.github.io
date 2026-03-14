@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Christopher Avenue",
+        "str2": "Pitkin Avenue"
+      },
+      "source": "Brooklyn: Pitkin Avenue - Christopher Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706293f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706293f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16f5cbb0-c538-012f-1c4a-58d385a7bc34",
     "original_title": "Brooklyn: Pitkin Avenue - Christopher Avenue",
     "text": "Pitkin$ and Christopher Avenues, s.e. corner\nBrooklyn\n6/25/42\n",

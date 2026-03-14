@@ -2,9 +2,51 @@
   {
     "date": "1923; 1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 1118,
+        "street": "Foam Place"
+      },
+      "source": "1118 Foam Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Far Rockaway Bouleva",
+        "str2": "Mott Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Far Rockaway Boulevard",
+        "str2": "Mott Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 470,
     "id": "726569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726569f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad stations",
+          "Railroad tracks",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e43048f0-c557-012f-82e6-58d385a7bc34",
     "text": "Far Rockaway Boulevard, at Mott Avenue (vantage point). The views are northeastward along the Long Island Railroad tracks and show the Far Rockaway station and the John Winkler storage plant at 1118 Foam Place.\n\nEugene L. Armbruster Collection\nView 1: 1923\nView 2: 1925\n",
     "text_source": "gpt",
@@ -19,9 +61,51 @@
   {
     "date": "1923; 1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 1118,
+        "street": "Foam Place"
+      },
+      "source": "1118 Foam Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Far Rockaway Bouleva",
+        "str2": "Mott Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Far Rockaway Boulevard",
+        "str2": "Mott Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "726569f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726569f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad stations",
+          "Railroad tracks",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e43048f0-c557-012f-82e6-58d385a7bc34",
     "text": "Far Rockaway Boulevard, at Mott Avenue (vantage point). The views are northeastward along the Long Island Railroad tracks and show the Far Rockaway station and the John Winkler storage plant at 1118 Foam Place.\n\nEugene L. Armbruster Collection\nView 1: 1923\nView 2: 1925\n",
     "text_source": "gpt",

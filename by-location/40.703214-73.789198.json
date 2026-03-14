@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "169th Street",
+        "str2": "Liberty Avenue"
+      },
+      "source": "Queens: Liberty Avenue - 169th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "727233f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727233f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e81133b0-c558-012f-c46e-58d385a7bc34",
     "original_title": "Queens: Liberty Avenue - 169th Street",
     "text": "Liberty Avenue, north side, east from 169th Street, showing old and new type homes. This part of Liberty Avenue was formerly South Street.\n\nP. L. Sperr\n\nApril 1, 1932\n",

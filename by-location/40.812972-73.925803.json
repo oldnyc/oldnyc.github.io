@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-04-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "140th Street (East)",
+        "str2": "Morris Avenue"
+      },
+      "source": "Bronx: Morris Avenue - 140th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701472f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701472f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8f62e40-c530-012f-f3df-58d385a7bc34",
     "original_title": "Bronx: Morris Avenue - 140th Street (East)",
     "text": "Morris Avenue, at the northeast corner of E. 140th Street. Corrugated paper and other paper waste materials are bought and sold here. The tall tenement fronts on E, 141st Street.\n\nP. L. Sperr\n\nApril 29, 1941\n",

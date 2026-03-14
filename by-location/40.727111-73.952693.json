@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Manhattan Avenue",
+        "str2": "Meserole Avenue"
+      },
+      "source": "Brooklyn: Meserole Avenue - Manhattan Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705695f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705695f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3182c160-c537-012f-118c-58d385a7bc34",
     "original_title": "Brooklyn: Meserole Avenue - Manhattan Avenue",
     "text": "112-116 Meserole Ave., south side, between Manhattan Ave., and Leonard Street. The church which bears the above number is the Corner Stone Temple Church (M.E.)\n\nSeptember 1, 1936.\n\nP. L. Sperr.\n",

@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Columbus Avenue",
+        "str2": "West Seventy-fifth Street"
+      },
+      "source": "Columbus Avenue and West Seventy-fifth Street",
+      "technique": "gpt"
+    },
     "height": 540,
     "id": "417401",
     "image_url": "https://images.nypl.org/?id=417401&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f73c3ac0-c611-012f-08bf-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 75th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714459f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714459f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4526bdb0-c545-012f-ec5c-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (West) - Columbus Avenue",
     "text": "46 West 75th Street, south side, west of Columbus Avenue.\nAbout 1911.\n",
@@ -35,9 +81,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 75th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "714458f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714458f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hotels",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44dd0730-c545-012f-50a5-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (West) - Columbus Avenue",
     "text": "West 75th Street, east from (about No. 36 on right) a point east of Columbus Ave., to Central Park West. At the latter point are the Kenilworth and the Hotel San Remo occupying the N.W. and S.W. corners respectively.\n\nSeptember 29, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -52,9 +123,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 75th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "714460f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714460f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4591da60-c545-012f-bd25-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (West) - Columbus Avenue",
     "text": "West 75th Street, west from (No. 50 on left) a point east of Columbus Ave. (Sixth and Ninth Aves. Elevated Line thereon), to the North (Hudson) River. The five private dwellings on the left are Nos. 50 to 58. At the corner is a 6-story apartment house, No. 60 (also 313-315 Columbus Ave.). Opposite the latter is the 7-story Del Monte, 100-102 (also 306-316 Columbus Ave.) and another apartment house located at the S.W. corner of Columbus Ave.\n\nSeptember 29, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

@@ -2,9 +2,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Broadway",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Broadway",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729466f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729466f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Blacksmiths",
+          "Boat & ship industry",
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c317480-c55c-012f-20b5-58d385a7bc34",
     "text": "Richmond Terrace, east from Broadway.\n\nNovember 4, 1931\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -18,9 +43,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Broadway",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729467f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729467f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c8069a0-c55c-012f-81c0-58d385a7bc34",
     "text": "Richmond Terrace, south side, west of Broadway, showing an old dwelling about 125 feet south of the street. A narrow lane, situated between numbers 1516 and 1520 Richmond Terrace, leads to the house.\n\nJuly 5, 1932\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -34,9 +80,46 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Broadway",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Broadway and Richmond Terrace",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Campbell Avenue",
+        "str2": "Richmond Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Campbell Avenue",
+        "str2": "Richmond Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "729487f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729487f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64586180-c55c-012f-db29-58d385a7bc34",
     "text": "1478 to 1492 Richmond Terrace, south side, between Campbell Avenue and Broadway. The view is westward.\n\nJuly 5, 1932\n\nP. L. Sperr\n",
     "text_source": "gpt",

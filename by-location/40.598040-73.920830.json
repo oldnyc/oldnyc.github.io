@@ -2,9 +2,48 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "167th Street (East)",
+        "str2": "Gerritsen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "167th Street",
+        "str2": "Gerritsen Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "704620f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704620f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Jamaica Bay (N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/801134f0-c535-012f-67d3-58d385a7bc34",
     "original_title": "Brooklyn: Gerritsen Avenue - 167th Street (East)",
     "text": "(1) Gerritsen Ave., north from Jamaica Bay. In the foreground, is the beginning of Marine Park on Jamaica Bay. June 23, 1935.\n\nP. L. Sperr.\n\n(2) A portion of view No. 1 and showing buildings, partially seen on the right. June 23, 1935.\n\nP. L. Sperr.\n",
@@ -19,9 +58,48 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "167th Street (East)",
+        "str2": "Gerritsen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "167th Street",
+        "str2": "Gerritsen Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "704620f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704620f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Jamaica Bay (N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/801134f0-c535-012f-67d3-58d385a7bc34",
     "original_title": "Brooklyn: Gerritsen Avenue - 167th Street (East)",
     "text": "(1) Gerritsen Ave., north from Jamaica Bay. In the foreground, is the beginning of Marine Park on Jamaica Bay. June 23, 1935.\n\nP. L. Sperr.\n\n(2) A portion of view No. 1 and showing buildings, partially seen on the right. June 23, 1935.\n\nP. L. Sperr.\n",
@@ -36,9 +114,46 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "167th Street (East)",
+        "str2": "Gerritsen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "167th Street",
+        "str2": "Gerritsen Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "704621f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704621f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/808e4900-c535-012f-7232-58d385a7bc34",
     "original_title": "Brooklyn: Gerritsen Avenue - 167th Street (East)",
     "text": "Gerritsen Avenue (left) northward from Marine Park at Plumb Beach Channel.\n\nJune 23, 1935\n\nP. L. Sperr\n",
@@ -53,9 +168,35 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "705580f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705580f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Canals",
+          "Parks",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/037314c0-c537-012f-8f18-58d385a7bc34",
     "text": "Marine Park: Marine Park Canal in Marine Park showing a set of two views at different angles. Note the pretzel vendor in view No. 2.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -70,9 +211,35 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "705580f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705580f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Canals",
+          "Parks",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/037314c0-c537-012f-8f18-58d385a7bc34",
     "text": "Marine Park: Marine Park Canal in Marine Park showing a set of two views at different angles. Note the pretzel vendor in view No. 2.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -87,9 +254,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Marine Park Beach",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705581f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705581f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03ead860-c537-012f-5e96-58d385a7bc34",
     "text": "Marine Park: A set of three views looking southeastward from Marine Park Beach at Gerritsen Creek and Plumb Beach Channel, towards Flatbush Ave. (seen in the background with cars thereon). This area will be filled leaving only a canal, the rest of it to be used for recreational purposes.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -104,9 +304,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Marine Park Beach",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705581f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705581f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03ead860-c537-012f-5e96-58d385a7bc34",
     "text": "Marine Park: A set of three views looking southeastward from Marine Park Beach at Gerritsen Creek and Plumb Beach Channel, towards Flatbush Ave. (seen in the background with cars thereon). This area will be filled leaving only a canal, the rest of it to be used for recreational purposes.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -121,9 +354,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Marine Park Beach",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705581f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705581f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03ead860-c537-012f-5e96-58d385a7bc34",
     "text": "Marine Park: A set of three views looking southeastward from Marine Park Beach at Gerritsen Creek and Plumb Beach Channel, towards Flatbush Ave. (seen in the background with cars thereon). This area will be filled leaving only a canal, the rest of it to be used for recreational purposes.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -138,9 +404,41 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marine Park",
+        "str2": "Marine Park Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "705582f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705582f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0453e170-c537-012f-8bba-58d385a7bc34",
     "text": "Marine Park: A view of Marine Park Beach near the Canal. June 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -155,9 +453,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marine Park",
+        "str2": "Marine Park Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "705583f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705583f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04aab980-c537-012f-d1a1-58d385a7bc34",
     "text": "Marine Park, showing boats at anchorage at Marine Park Beach. In the left background is the Administrative buildings of Floyd Bennett Field. The writer believes this view is south east and that the boats are anchored in Mill Creek.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -172,9 +503,41 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marine Park",
+        "str2": "Marine Park Canal",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "705584f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705584f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Canals",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/050cfe60-c537-012f-0eb5-58d385a7bc34",
     "text": "Marine Park: A view of Marine Park Canal.\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -189,9 +552,41 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marine Park",
+        "str2": "Marine Park Canal",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "705585f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705585f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05731b90-c537-012f-dbc8-58d385a7bc34",
     "text": "Marine Park: At Marine Park Canal, showing a refreshment truck catering to the wants of the bathers. This view is east.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -206,9 +601,46 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marine Park",
+        "str2": "foot of Gerritsen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Gerritsen Avenue",
+        "str2": "Marine Park",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "705587f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705587f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/06364740-c537-012f-dfde-58d385a7bc34",
     "text": "Marine Park; as seen from foot of Gerritsen Ave. A panoramic set of two views.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -223,9 +655,46 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marine Park",
+        "str2": "foot of Gerritsen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Gerritsen Avenue",
+        "str2": "Marine Park",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "705587f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705587f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/06364740-c537-012f-dfde-58d385a7bc34",
     "text": "Marine Park; as seen from foot of Gerritsen Ave. A panoramic set of two views.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -240,9 +709,34 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "705589f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705589f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/070d9530-c537-012f-7998-58d385a7bc34",
     "text": "Marine Park: Gerritsen Creek, west bank, in Marine Park, viewed southeastward, towards Floyd Bennett Field.\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -257,9 +751,42 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Marine Park Beach",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "705590f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705590f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/07965420-c537-012f-5c24-58d385a7bc34",
     "text": "Marine Park: A view of Gerritsen Creek, from Marine Park Beach at Plumb Beach Channel, viewed eastward to Flatbush Ave. At the left background are seen the Administrative buildings of Floyd Bennett Field.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -273,9 +800,34 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "705591f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705591f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/08140730-c537-012f-d85e-58d385a7bc34",
     "text": "Marine Park, west bank of Gerritsen Creek (Marine Park Canal), south towards Gerritsen Inlet and Mill Creek, showing a set of 3 views, of the beach. In No. 3 the Administrative buildings of Floyd Bennett Field may be seen at the left background.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -290,9 +842,34 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "705591f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705591f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/08140730-c537-012f-d85e-58d385a7bc34",
     "text": "Marine Park, west bank of Gerritsen Creek (Marine Park Canal), south towards Gerritsen Inlet and Mill Creek, showing a set of 3 views, of the beach. In No. 3 the Administrative buildings of Floyd Bennett Field may be seen at the left background.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -307,9 +884,34 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "705591f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705591f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Beaches",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/08140730-c537-012f-d85e-58d385a7bc34",
     "text": "Marine Park, west bank of Gerritsen Creek (Marine Park Canal), south towards Gerritsen Inlet and Mill Creek, showing a set of 3 views, of the beach. In No. 3 the Administrative buildings of Floyd Bennett Field may be seen at the left background.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -324,9 +926,42 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Plumb Beach Channel",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734706f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734706f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Gerritsen Inlet (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b95f9a40-c564-012f-5a1e-58d385a7bc34",
     "text": "Plumb Beach Channel, southward toward Flatbush Ave. (background cars thereon) across Gerritsen Inlet, showing a set of 3 views from slightly different angles. Most of this watered area will be filled and made a part of Marine Park.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -340,9 +975,42 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Plumb Beach Channel",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734706f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734706f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Gerritsen Inlet (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b95f9a40-c564-012f-5a1e-58d385a7bc34",
     "text": "Plumb Beach Channel, southward toward Flatbush Ave. (background cars thereon) across Gerritsen Inlet, showing a set of 3 views from slightly different angles. Most of this watered area will be filled and made a part of Marine Park.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -356,9 +1024,42 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.59804,
+        "lng": -73.92083
+      },
+      "source": "Marine Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Plumb Beach Channel",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734706f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734706f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Gerritsen Inlet (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Beach Channel (N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b95f9a40-c564-012f-5a1e-58d385a7bc34",
     "text": "Plumb Beach Channel, southward toward Flatbush Ave. (background cars thereon) across Gerritsen Inlet, showing a set of 3 views from slightly different angles. Most of this watered area will be filled and made a part of Marine Park.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

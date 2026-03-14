@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 147,
+        "street": "W 86th St"
+      },
+      "source": "147 W 86th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985176",
     "image_url": "https://images.nypl.org/?id=3985176&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc377110-c5d7-012f-a504-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,41 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 147,
+        "street": "W 86th St"
+      },
+      "source": "147 W 86th St",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam",
+        "str2": "Columbus",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "3985177",
     "image_url": "https://images.nypl.org/?id=3985177&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc850320-c5d7-012f-2cba-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +90,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 147,
+        "street": "W 86th St"
+      },
+      "source": "147 W 86th St",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3985178",
     "image_url": "https://images.nypl.org/?id=3985178&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fcbd5170-c5d7-012f-652d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +130,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 147,
+        "street": "W 86th St"
+      },
+      "source": "147 W 86th St",
+      "technique": "gpt"
+    },
     "height": 432,
     "id": "3985179",
     "image_url": "https://images.nypl.org/?id=3985179&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd0443f0-c5d7-012f-63f1-58d385a7bc34",
     "text": null,
     "text_source": null,

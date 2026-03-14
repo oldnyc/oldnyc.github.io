@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lawrence Avenue",
+        "str2": "McDonald Avenue"
+      },
+      "source": "Brooklyn: McDonald Avenue - Lawrence Avenue",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "705637f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705637f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a8a2650-c537-012f-d543-58d385a7bc34",
     "original_title": "Brooklyn: McDonald Avenue - Lawrence Avenue",
     "text": "McDonald Ave., at the S.E. corner of Lawrence Ave., this house was\nrazed between 1923 and 1929.\nApril 1923.\nEugene L. Armbruster Collection.\n",

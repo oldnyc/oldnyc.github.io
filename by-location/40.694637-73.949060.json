@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marcy Ave.",
+        "str2": "Vernon Ave."
+      },
+      "source": "Brooklyn: Vernon Ave. - Marcy Ave.",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "707207f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707207f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/772d0120-c539-012f-3977-58d385a7bc34",
     "original_title": "Brooklyn: Vernon Ave. - Marcy Ave.",
     "text": "Vernon Ave., north side, east of Marcy Ave.\nMay 1923.\nEugene L. Armbruster Collection.\n",

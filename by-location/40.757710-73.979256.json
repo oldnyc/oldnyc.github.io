@@ -2,9 +2,37 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Rockefeller Plaza"
+      },
+      "source": "Manhattan: Rockefeller Plaza - 48th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "723019f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723019f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Rockefeller Plaza (New York, N.Y.)"
+        ],
+        "name": [
+          "Radio City Music Hall (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Music-halls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3fb3170-c552-012f-2941-58d385a7bc34",
     "text": "Rockefeller Plaza, (center foreground and not constructed) from West 48th (left margin) to 51st (right margin) Street's, showing the development of the new midtown center. Prominent in the middle is the 70-story R.C.A. Building. To the left and right respectively are R.K.O. Centre Theatre and the 31-story R.K.O. Building and the International Music Hall. All of these structures front on Sixth Avenue on their far sides, and are viewed westward across Fifth Avenue. The photographer's vantage point is the 40-storied structure, No. 444 Madison Avenue that is to the rear of Saks Fifth Avenue Department Store. At the top appears a glimpse of the North (Hudson) River and its Jersey shore.\n\n1932\n\nGift of Rockefeller Center\nPublicity Department\n",
     "text_source": "gpt",
@@ -18,9 +46,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 10,
+        "street": "48th Street"
+      },
+      "source": "10 48th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 10,
+        "street": "E 48th Street",
+        "technique": "title-address"
+      }
+    ],
     "height": 600,
     "id": "1509357-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509357-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edfc2fe0-c5ce-012f-da90-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +90,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Rockefeller Plaza"
+      },
+      "source": "Manhattan: Rockefeller Plaza - 48th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "723022f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723022f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5402730-c552-012f-40d0-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "160th Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "160th Street and Fort Washington Avenue",
+      "technique": "gpt"
+    },
     "height": 572,
     "id": "465536-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465536-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34b65540-c612-012f-0f66-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Ave",
+        "str2": "W 160th St"
+      },
+      "source": "Fort Washington Ave and W 160th St",
+      "technique": "gpt"
+    },
     "height": 436,
     "id": "3985009",
     "image_url": "https://images.nypl.org/?id=3985009&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9d01960-c5d7-012f-e28c-58d385a7bc34",
     "text": null,
     "text_source": null,

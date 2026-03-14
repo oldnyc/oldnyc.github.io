@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "256th Street (West)",
+        "str2": "Fieldston Road"
+      },
+      "source": "Bronx: Fieldston Road - 256th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "701050f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701050f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Fieldston Road (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1855b720-c530-012f-0ace-58d385a7bc34",
     "original_title": "Bronx: Fieldston Road - 256th Street (West)",
     "text": "Fieldston Road, north from West 256th Street.\n\nJan. 13, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

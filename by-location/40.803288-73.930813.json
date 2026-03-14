@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street (East)",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 127th Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "715465f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715465f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7d327f0-c546-012f-6b46-58d385a7bc34",
     "original_title": "Manhattan: 127th Street (East) - 1st Avenue",
     "text": "(1)\n301-333 East 127th Street, north side, from and including Second to First Avenues. No. 303 is a three-story frame house.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\nThe same. Taken at a later date.\n\nJune 19th, 1941\n\nP.L. Sperr.\n",
@@ -19,9 +42,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street (East)",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 127th Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "715465f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715465f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7d327f0-c546-012f-6b46-58d385a7bc34",
     "original_title": "Manhattan: 127th Street (East) - 1st Avenue",
     "text": "(1)\n301-333 East 127th Street, north side, from and including Second to First Avenues. No. 303 is a three-story frame house.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\nThe same. Taken at a later date.\n\nJune 19th, 1941\n\nP.L. Sperr.\n",
@@ -36,9 +82,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E 127th St",
+        "str2": "First Av"
+      },
+      "source": "E 127th St and First Av",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984365",
     "image_url": "https://images.nypl.org/?id=3984365&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/124da080-c5d7-012f-5387-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +122,35 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 127th Street - 1st Avenue.",
+      "technique": "title-cross"
+    },
     "height": 493,
     "id": "731106f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731106f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 127th Street - 1st Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Willis Avenue Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/091dd7d0-c55f-012f-bfe7-58d385a7bc34",
     "text": "Willis Ave. Bridge. (also known as the First Ave. Bridge), at the 127th Street and First Ave. end; looking north east over the Harlem River.\n\nAbout 1934.\n\nEwing Galloway.\n",
     "text_source": "site",

@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "50th Street",
+        "str2": "Queens Boulevard"
+      },
+      "source": "Queens: Queens Boulevard - 50th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "727826f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727826f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0015eb0-c559-012f-2f0f-58d385a7bc34",
     "original_title": "Queens: Queens Boulevard - 50th Street",
     "text": "Queens Boulevard (cars thereon), at the S.E. corner of 50th Street, showing a former hotel and saloon.\n\nNovember 1, 1936.\n\nP. L. Sperr.\n",

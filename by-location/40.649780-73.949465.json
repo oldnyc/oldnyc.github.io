@@ -2,9 +2,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Erasmus Street",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn: Nostrand Avenue - Erasmus Street",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "706091f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706091f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Real property",
+          "Signs (Notices)",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca011d00-c537-012f-1db7-58d385a7bc34",
     "original_title": "Brooklyn: Nostrand Avenue - Erasmus Street",
     "text": "Nostrand Ave., at the S.W. corner of Erasmus Street. Built by the King's County Real Estate Corp. The buildings viewed are valued at 215,000.\n\nApril 3, 1928.\n",

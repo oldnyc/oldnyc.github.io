@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "Fulton Street"
+      },
+      "source": "Brooklyn: Albany Avenue - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702969f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702969f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f091d490-c532-012f-2290-58d385a7bc34",
     "original_title": "Brooklyn: Albany Avenue - Fulton Street",
     "text": "P.L. Sperr, photographer  5-26-1942",
@@ -19,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Street",
+        "str2": "Fulton Street"
+      },
+      "source": "Brooklyn: Fulton Street - Albany Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704565f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704565f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69ba3ae0-c535-012f-ce2f-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Albany Street",
     "text": "South side Fulton Street at Albany Street and eastward\nBrooklyn\n\n5/26/42\n",

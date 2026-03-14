@@ -2,9 +2,35 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "45th Street",
+        "str2": "Broadway"
+      },
+      "source": "45th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731326f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731326f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Field Day Parade."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Children",
+          "Parades & processions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f165470-c55f-012f-dc8f-58d385a7bc34",
     "text": "Celebrations and Parades: Children of Long Island City, Queens, are gathered for Field Day, 1939, on 45th Street, at Broadway.\n\nJohn Walsh\nPhotostat Division--New York Public Library  June, 1939\n",
     "text_source": "gpt",

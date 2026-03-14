@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "McDonald Avenue",
+        "str2": "Quentin Road"
+      },
+      "source": "Brooklyn: McDonald Avenue - Quentin Road",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "705642f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705642f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c6840d0-c537-012f-0841-58d385a7bc34",
     "original_title": "Brooklyn: McDonald Avenue - Quentin Road",
     "text": "1953-1961 Mc Donald Ave., between Quentin Road and King's Highway.\nApril 1923.\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,32 @@
   {
     "date": "1889",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "171st Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 3rd Avenue - 171st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 393,
     "id": "700021f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700021f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac2190f0-c52e-012f-e2cd-58d385a7bc34",
     "original_title": "Bronx: 3rd Avenue - 171st Street (East)",
     "text": "Third Ave., north from East 171st Street, showing the thoroughfare before the advent of the automobile and the Elevated Line.\n\n1889.\n\nGift of Randall Comfort.\n",
@@ -23,9 +46,27 @@
       "1932-09",
       "1898"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "171st Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 3rd Avenue - 171st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "700020f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700020f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/abbf5e90-c52e-012f-75a0-58d385a7bc34",
     "original_title": "Bronx: 3rd Avenue - 171st Street (East)",
     "text": "3807 to 3811 Third Ave., north of the N.W. corner of East 171st Street, showing the Bathgate House. The G.W. Bromley map of 1924 as revised to September 1932 shows the site to be occupied by two 5-story and one 1-story brick buildings.\n\n1898.\n\nGift of Randall Comfort.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 509,
+        "street": "Cathedral Parkway (110th Street)"
+      },
+      "source": "509 Cathedral Parkway (110th Street)",
+      "technique": "gpt"
+    },
     "height": 517,
     "id": "417691-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417691-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c8d5610-c6cd-012f-fe1d-58d385a7bc34",
     "text": null,
     "text_source": null,

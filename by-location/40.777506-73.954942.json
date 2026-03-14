@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "84th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 84th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708126f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708126f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lease and rental services",
+          "Millinery",
+          "Restaurants",
+          "Tuxedoes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/faddc870-c53a-012f-26f3-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 84th Street",
     "text": "1500 Third Avenue, west side, between 84th and 85th Streets, a three-story frame house.\n1932.\nJ. Clarence Davies Collection,Museum of the City of New York.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Degraw Street",
+        "str2": "Tompkins Place"
+      },
+      "source": "Brooklyn: Degraw Street - Tompkins Place",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "703955f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703955f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74e66570-c534-012f-49f8-58d385a7bc34",
     "original_title": "Brooklyn: Degraw Street - Tompkins Place",
     "text": "249-253 Degraw Street, between Tompkins Place and Court Street. A view of an old frame house in existence prior to 1880, and still standing in (1929). Next to it is the Trinity Evang. Lutheran Church.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",

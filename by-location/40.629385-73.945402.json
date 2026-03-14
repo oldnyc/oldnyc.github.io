@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "32nd Street",
+        "str2": "Avenue I"
+      },
+      "source": "Brooklyn: 32nd Street - Avenue I",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "702706f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702706f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89a263c0-c532-012f-de95-58d385a7bc34",
     "original_title": "Brooklyn: 32nd Street - Avenue I",
     "text": "961-963 E. 32nd Street, north side, between Avenue I and Avenue J, showing the Joquin R de Anego's house of 1924.\n\nJune 23, 1924.\n\nW. B. Vernam\n",

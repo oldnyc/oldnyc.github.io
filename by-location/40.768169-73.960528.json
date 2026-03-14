@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 219,
+        "street": "E 70th Street"
+      },
+      "source": "70th Street (East) #219",
+      "technique": "title-address"
+    },
     "height": 467,
     "id": "1508295-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508295-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Post office"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/062ad490-c5cf-012f-4a48-58d385a7bc34",
     "text": null,
     "text_source": null,

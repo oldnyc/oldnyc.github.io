@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1939-04-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dikeman Street",
+        "str2": "Otsego Street"
+      },
+      "source": "Brooklyn: Dikeman Street - Otsego Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "704016f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704016f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cb93040-c534-012f-743f-58d385a7bc34",
     "original_title": "Brooklyn: Dikeman Street - Otsego Street",
     "text": "Dikeman Street (left), north side, west from Otsego to Dwight Streets. On the right are Nos. 38 and 36 Otsego Street.\n\nApril 9, 1939\n\nP. L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Creamer Street",
+        "str2": "Otsego Street"
+      },
+      "source": "Brooklyn: Otsego Street - Creamer Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706148f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706148f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df860f00-c537-012f-0088-58d385a7bc34",
     "original_title": "Brooklyn: Otsego Street - Creamer Street",
     "text": "Otsego Street(left) north from Creamer Street, showing the Red Hook Houses, a low rent government housing center, under construction on the north side of Lorraine Street. The entire block from Creamer to Lorraine Streets is an empty lot.\nView 2 is north on Otsego Street, from a point nearer Lorraine Street.\nApril 19,1939\nViews 1, 2\n",
@@ -39,9 +78,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Creamer Street",
+        "str2": "Otsego Street"
+      },
+      "source": "Brooklyn: Otsego Street - Creamer Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706148f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706148f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df860f00-c537-012f-0088-58d385a7bc34",
     "original_title": "Brooklyn: Otsego Street - Creamer Street",
     "text": "Otsego Street(left) north from Creamer Street, showing the Red Hook Houses, a low rent government housing center, under construction on the north side of Lorraine Street. The entire block from Creamer to Lorraine Streets is an empty lot.\nView 2 is north on Otsego Street, from a point nearer Lorraine Street.\nApril 19,1939\nViews 1, 2\n",

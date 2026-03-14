@@ -2,9 +2,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "712504f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712504f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Thirty-eighth Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2128faf0-c542-012f-0a10-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 8th Avenue",
     "text": "38th Street, 8th Avenue to 9th. (Before Reconstruction).\n  December 7, 1919.\n",
@@ -19,9 +43,34 @@
   {
     "date": "1924-11-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue)",
+        "str2": "West 38th Street (Seventh Avenue"
+      },
+      "source": "Manhattan: 228 West 38th Street (Seventh Avenue - Eighth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558199",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558199.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c34f15c0-c5ec-012f-d033-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +84,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "710168f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710168f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Delicatessens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/496d5980-c53e-012f-68f6-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 38th Street",
     "text": "Eighth Avenue, east side, north from S. W. corner of 38th Street.\nMay 27, 1929.\nP.L. Sperr, Photographer.\n",
@@ -55,9 +125,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "710169f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710169f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49c49680-c53e-012f-4b86-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 38th Street",
     "text": "North on Eighth Avenue from 38th Street.\nApril 1925.\nBrown Brothers, Photographers.\n",
@@ -72,9 +160,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 38th Street - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712503f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712503f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/20b1fec0-c542-012f-e210-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - 8th Avenue",
     "text": "Garment Center, 38th Street, north side, east from but not including Eighth Avenue.\nAbout 1927.\nEwing Galloway.\n",
@@ -89,9 +198,32 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "710167f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710167f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cafeterias"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48f68960-c53e-012f-85d9-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 38th Street",
     "text": "Eighth Avenue, (thru Centre) north from W. 37th Street (foreground intersection) as viewed from the Printing Crafts Building at the S.W. corner of this avenue and W. 34th Street. The two prominent structures seen are (from right to left) at the S.W. corner of 38th Street and the N.E. corner of 37th Street respectively. The latter houses the American Union Bank. Note the Times Annex tower across the roof of same and the Times Bldg. to the east.\n\nAbout 1927.\n\nEwing Galloway\n",

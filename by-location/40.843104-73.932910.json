@@ -2,9 +2,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "720428f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720428f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b15c4e0-c54e-012f-6eae-58d385a7bc34",
     "text": "High Bridge Park: An old house between High and Washington Bridges. In the background appears the apartment ridges of the Bronx on the far side of the Harlem River. This is a set of two views; No. 1 being in a southward direction and showing the structure that carries the water tubes to Manhattan. No. 2 is in the opposite direction and shows the vehicular bond.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +43,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "720428f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720428f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b15c4e0-c54e-012f-6eae-58d385a7bc34",
     "text": "High Bridge Park: An old house between High and Washington Bridges. In the background appears the apartment ridges of the Bronx on the far side of the Harlem River. This is a set of two views; No. 1 being in a southward direction and showing the structure that carries the water tubes to Manhattan. No. 2 is in the opposite direction and shows the vehicular bond.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -34,9 +84,60 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "173rd Street",
+        "str2": "181st Street (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Edgecombe Ave",
+        "str2": "West 173rd Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Edgecombe Ave",
+        "str2": "West 181st Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "720430f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720430f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "High Bridge Tower."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "High Bridge (New York, N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Highbridge Water Tower (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bee4370-c54e-012f-a361-58d385a7bc34",
     "text": "Highbridge Park: A view northward of the southern extremity of this rocky area that parallels the Harlem River. The western boundary of same is Edgecombe Ave., which appears on the left. The water tower, reservoir and High Bridge are in the center of this elongated rocky slope, at the foot of West 173rd Street. North of the latter point and at the foot of West 181st Street is the Washington Bridge. These structures connect Manhattan with the Washington Heights section of the Bronx. This is a set of three views, more or less similar.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -50,9 +151,60 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "173rd Street",
+        "str2": "181st Street (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Edgecombe Ave",
+        "str2": "West 173rd Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Edgecombe Ave",
+        "str2": "West 181st Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "720430f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720430f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "High Bridge Tower."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "High Bridge (New York, N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Highbridge Water Tower (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bee4370-c54e-012f-a361-58d385a7bc34",
     "text": "Highbridge Park: A view northward of the southern extremity of this rocky area that parallels the Harlem River. The western boundary of same is Edgecombe Ave., which appears on the left. The water tower, reservoir and High Bridge are in the center of this elongated rocky slope, at the foot of West 173rd Street. North of the latter point and at the foot of West 181st Street is the Washington Bridge. These structures connect Manhattan with the Washington Heights section of the Bronx. This is a set of three views, more or less similar.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -66,9 +218,60 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "173rd Street",
+        "str2": "181st Street (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Edgecombe Ave",
+        "str2": "West 173rd Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Edgecombe Ave",
+        "str2": "West 181st Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "720430f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720430f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "High Bridge Tower."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "High Bridge (New York, N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Highbridge Water Tower (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bee4370-c54e-012f-a361-58d385a7bc34",
     "text": "Highbridge Park: A view northward of the southern extremity of this rocky area that parallels the Harlem River. The western boundary of same is Edgecombe Ave., which appears on the left. The water tower, reservoir and High Bridge are in the center of this elongated rocky slope, at the foot of West 173rd Street. North of the latter point and at the foot of West 181st Street is the Washington Bridge. These structures connect Manhattan with the Washington Heights section of the Bronx. This is a set of three views, more or less similar.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -82,9 +285,40 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "Highbridge Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "190th Street",
+        "str2": "192nd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734281f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734281f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00557c00-c564-012f-92e9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -98,9 +332,44 @@
   {
     "date": "1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "Highbridge Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "192nd Street",
+        "str2": "193rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734283f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734283f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Educational facilities",
+          "Parks",
+          "Public schools",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01450100-c564-012f-c27d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -115,9 +384,44 @@
   {
     "date": "1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "Highbridge Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "192nd Street",
+        "str2": "193rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734283f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734283f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Educational facilities",
+          "Parks",
+          "Public schools",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01450100-c564-012f-c27d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -132,9 +436,50 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street bridge",
+        "str2": "High Bridge Park",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "Harlem River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "720425f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720425f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89c3e340-c54e-012f-3f0f-58d385a7bc34",
     "text": "High Bridge Park: The new roadway that links the Harlem River Drive (right) with the George Washington Bridge over the Hudson River. At the left is the distinctive water tower. TPe bridge that identifies this locald is in the center. Beneath same is the vehicular connection with the Bronx. This was formerly the George Vashington Bridge. It is now popularly known as the\n181st Street Bridge over the Harlem River.\nMay 19, 1940\nViews 1,2\nP. L. Sperr\n",
     "text_source": "site",
@@ -148,9 +493,50 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street bridge",
+        "str2": "High Bridge Park",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "Harlem River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "720425f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720425f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Harlem River (N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89c3e340-c54e-012f-3f0f-58d385a7bc34",
     "text": "High Bridge Park: The new roadway that links the Harlem River Drive (right) with the George Washington Bridge over the Hudson River. At the left is the distinctive water tower. TPe bridge that identifies this locald is in the center. Beneath same is the vehicular connection with the Bronx. This was formerly the George Vashington Bridge. It is now popularly known as the\n181st Street Bridge over the Harlem River.\nMay 19, 1940\nViews 1,2\nP. L. Sperr\n",
     "text_source": "site",
@@ -164,9 +550,39 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Harlem River Driveway",
+        "technique": "gpt"
+      }
+    ],
     "height": 410,
     "id": "720426f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/720426f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a1d1840-c54e-012f-5b82-58d385a7bc34",
     "rotation": 90,
     "text": "High Bridge Park: Three views showing mainly the new improvements that have recently been completed. They consist of the distinctive new highway linking the Harlem River Driveway with the Hudson River's George Washington Bridge, and the new swimming pool. Close observation will disclose the latter in the center. Buildings on the left fronts on Amsterdam Avenue. Those on the right are in the Bronx.\n\nJune 20, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -181,9 +597,39 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Harlem River Driveway",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720426f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720426f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a1d1840-c54e-012f-5b82-58d385a7bc34",
     "text": "High Bridge Park: Three views showing mainly the new improvements that have recently been completed. They consist of the distinctive new highway linking the Harlem River Driveway with the Hudson River's George Washington Bridge, and the new swimming pool. Close observation will disclose the latter in the center. Buildings on the left fronts on Amsterdam Avenue. Those on the right are in the Bronx.\n\nJune 20, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -197,9 +643,39 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.843104,
+        "lng": -73.93291
+      },
+      "source": "High Bridge Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Harlem River Driveway",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720426f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720426f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a1d1840-c54e-012f-5b82-58d385a7bc34",
     "text": "High Bridge Park: Three views showing mainly the new improvements that have recently been completed. They consist of the distinctive new highway linking the Harlem River Driveway with the Hudson River's George Washington Bridge, and the new swimming pool. Close observation will disclose the latter in the center. Buildings on the left fronts on Amsterdam Avenue. Those on the right are in the Bronx.\n\nJune 20, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
     "text_source": "gpt",

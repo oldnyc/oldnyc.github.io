@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "37th Avenue",
+        "str2": "80th Street"
+      },
+      "source": "Queens: 80th Street - 37th Avenue",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "725658f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725658f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jackson Heights (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a59f6d90-c556-012f-9d4b-58d385a7bc34",
     "original_title": "Queens: 80th Street - 37th Avenue",
     "text": "80th Street, at 37th Avenue, showing part of a large real estate development in Jackson Heights. 80th Street is the street on which the buildings face and runs across the view from the lower left to the center right. 37th Avenue is between the two groups of buildings. The clearance in the foreground is between 81st Street (lower right hand corner) and 80th Street. The buildings in the center background are on the west side of 79th Street, above 37th Avenue. The view is in a northwesterly direction from a point south of 37th Avenue. About 1927. Ewing Galloway.",
@@ -19,9 +41,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "37th Avenue",
+        "str2": "80th Street"
+      },
+      "source": "Queens: 37th Avenue - 80th Street",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "725246f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725246f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f6c7840-c556-012f-948f-58d385a7bc34",
     "original_title": "Queens: 37th Avenue - 80th Street",
     "text": "37th Avenue, north side, from 81st to 80th Streets, showing the newly completed Ravena Court. About 1928. Brown Brothers.",

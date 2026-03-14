@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 56,
+        "street": "East 87th Street"
+      },
+      "source": "56 East 87th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465660-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465660-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65bf2f20-c612-012f-458e-58d385a7bc34",
     "text": null,
     "text_source": null,

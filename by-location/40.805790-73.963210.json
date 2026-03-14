@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 520,
+        "street": "West 114th Street"
+      },
+      "source": "520 West 114th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417680-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417680-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10c005e0-c6cd-012f-1ca8-58d385a7bc34",
     "text": null,
     "text_source": null,

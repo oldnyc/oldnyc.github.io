@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burnside Avenue (West)",
+        "str2": "Harrison Avenue"
+      },
+      "source": "Bronx: Harrison Avenue - Burnside Avenue (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701228f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701228f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5bdd6ad0-c530-012f-48db-58d385a7bc34",
     "original_title": "Bronx: Harrison Avenue - Burnside Avenue (West)",
     "text": "1925-1935 Harrison Ave., adjoining the S.W. corner of West Burn-side Ave. The view is southward.\n\nAbout 1923.\n",
@@ -19,9 +40,34 @@
   {
     "date": "1926; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Harrison Avenue",
+        "str2": "West Burnside Avenue"
+      },
+      "source": "Harrison Avenue and West Burnside Avenue",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "702063f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702063f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Croton Aqueduct and West Burnside Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Croton Aqueduct (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9301fb40-c531-012f-80f3-58d385a7bc34",
     "text": "Croton Aqueduct (old), south from but not including West Burnside Ave. The old aqueduct runs between Harrison (left) and University Aves. and shows the rears of buildings which face on the two thoroughfares. The vantage-point is the 5-story building No. 1925-1935 Harrison Ave., adjoining the S.W. corner of West Burnside Ave.\n\nAugust 5, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

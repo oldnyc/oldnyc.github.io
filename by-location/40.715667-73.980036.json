@@ -2,9 +2,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Delancey Street"
+      },
+      "source": "Manhattan: Cannon Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718077f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718077f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d026bf60-c54a-012f-f65f-58d385a7bc34",
     "original_title": "Manhattan: Cannon Street - Delancey Street",
     "text": "Cannon Street, at the S.E. corner of Delancey Street. The view shows both North and South sides of Delancey Street, with the Williamsburg Bridge overhead. The corner building is the Roman Catholic Church of St. Rosalia.\n\nApril 4, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +41,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Delancey Street"
+      },
+      "source": "Manhattan: Cannon Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718078f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718078f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d08cdc80-c54a-012f-b17c-58d385a7bc34",
     "original_title": "Manhattan: Cannon Street - Delancey Street",
     "text": "Cannon Street, east side, south from Delancey, to and including Grand Streets. Public School No. 110 is shown adjoining the Roman Catholic Church of St. Rosalia, and is on the N.E. corner of Broome Street.\n\nJune 6, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +79,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Delancey Street"
+      },
+      "source": "Manhattan: Delancey Street - Cannon Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719295f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719295f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c136e6d0-c54c-012f-a199-58d385a7bc34",
     "original_title": "Manhattan: Delancey Street - Cannon Street",
     "text": "Delancy Street, south side, east from and including Cannon Street, to, but not including Lewis Street. The view shows the Roman Catholic Church of St. Rosalio, at the S.E. corner of Cannon and Delancy\n\nJune 6, 1930.\n\nP. L. Sperr.\n",
@@ -53,9 +118,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon St",
+        "str2": "Delancey St"
+      },
+      "source": "Cannon St and Delancey St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984214",
     "image_url": "https://images.nypl.org/?id=3984214&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/faf86fc0-c5d6-012f-d3e8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -69,9 +158,32 @@
   {
     "date": "1940-09-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Delancey Street"
+      },
+      "source": "Manhattan: Cannon Street - Delancey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509195-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509195-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Church of St. Rose"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb884190-c5cd-012f-b6c8-58d385a7bc34",
     "text": null,
     "text_source": null,

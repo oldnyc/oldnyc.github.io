@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Neptune Avenue",
+        "str2": "Sheepshead Bay Road"
+      },
+      "source": "Brooklyn: Sheepshead Bay Road - Neptune Avenue",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "706728f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706728f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be80d860-c538-012f-7b20-58d385a7bc34",
     "original_title": "Brooklyn: Sheepshead Bay Road - Neptune Avenue",
     "text": "Sheepshead Bay Road, north side, east from its intersection with Neptune Ave., to West 6th Street. The cupola, near the smokestack, points out the Coney Island House.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",

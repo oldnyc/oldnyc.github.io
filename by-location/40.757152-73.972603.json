@@ -2,9 +2,29 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 570,
+        "street": "Lexington Avenue"
+      },
+      "source": "570 Lexington Avenue",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730398f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730398f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "570 Lexington Avenue - General Electric Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb3c2050-c55d-012f-390b-58d385a7bc34",
     "text": null,
     "text_source": null,

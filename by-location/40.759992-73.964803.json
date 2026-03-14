@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-03-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "58th Street (East)"
+      },
+      "source": "Manhattan: 58th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "713944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713944f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cddca10-c544-012f-0967-58d385a7bc34",
     "original_title": "Manhattan: 58th Street (East) - 2nd Avenue",
     "text": "311-313 East 58th Street, north side, east of Second Avenue\nMarch 20, 1928.\n\nP.L. Sperr\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1929-03-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "58th Street"
+      },
+      "source": "Manhattan: 58th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713943f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713943f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c5e7120-c544-012f-0558-58d385a7bc34",
     "original_title": "Manhattan: 58th Street - 2nd Avenue",
     "text": "58th Street, east from Second Avenue.\nMarch 22, 1929.\n\nP. L. Sperr.\n",

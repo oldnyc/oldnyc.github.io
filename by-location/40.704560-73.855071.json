@@ -2,9 +2,36 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Margaret Place",
+        "str2": "Trotting Course Lane"
+      },
+      "source": "Queens: Margaret Place - Trotting Course Lane",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "727344f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727344f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Factories",
+          "Railroad crossings",
+          "Railroad tracks",
+          "Ribbon industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15ca7410-c559-012f-b558-58d385a7bc34",
     "original_title": "Queens: Margaret Place - Trotting Course Lane",
     "text": "Margaret Place, north side; between the Long Island right of way and Trotting Course Lane, showing the Glendale Ribbon Company's buildings.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

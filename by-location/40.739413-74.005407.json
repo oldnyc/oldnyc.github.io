@@ -2,9 +2,44 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Gansevoort Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Gansevoort Street and Hudson Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street (West)",
+        "str2": "Gansevoort Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Gansevoort Street",
+        "str2": "West 4th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "719982f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719982f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dea40ce0-c54d-012f-a2cd-58d385a7bc34",
     "original_title": "Manhattan: Gansevoort Street - 4th Street (West)",
     "text": "6 to 22, 30 Gansevoort Street, south side, from west of West 4th Street to and including Hudson Street.\n1915.\n\nGift of W. L. Sherwood.\n",
@@ -19,9 +54,30 @@
   {
     "date": "1930; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Gansevoort Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Gansevoort Street - Hudson Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719981f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719981f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de34b2a0-c54d-012f-4559-58d385a7bc34",
     "original_title": "Manhattan: Gansevoort Street - Hudson Street",
     "text": "(1)\n15 to 1 Gansevoort Street, from Hudson Street to 13th Street at th northern end of West 4th (formerly Aaylum) Street. The history 0ansevoort Street is sketched in connection with the correspondi view of the south side, July 7, 1933. No. 15, at the left, is t south side of the Trio Building (o52-o64 Hudson Street). The houses in the background are 319 to 309 West 13th Street, on the\nnorth side.\nMay 27, 1930.\nL. Sperr.\n(2)\nThe same, at a later date. Note the absence of the 4-story str shown in No. 1 that bore Nos. 13 and 11-5-1 Gansevoort Street (also and 340-330 West 13th Street). A more extensive view appears of th buildings that are on the north side of West 13th Street, between H Street and Eighth Ave. They are, from left to right, Nos. 325 to 3\nApril 17, 1937.\nP. L. Sperr.\n",
@@ -37,9 +93,30 @@
   {
     "date": "1930; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Gansevoort Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Gansevoort Street - Hudson Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719981f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719981f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de34b2a0-c54d-012f-4559-58d385a7bc34",
     "original_title": "Manhattan: Gansevoort Street - Hudson Street",
     "text": "(1)\n15 to 1 Gansevoort Street, from Hudson Street to 13th Street at th northern end of West 4th (formerly Aaylum) Street. The history 0ansevoort Street is sketched in connection with the correspondi view of the south side, July 7, 1933. No. 15, at the left, is t south side of the Trio Building (o52-o64 Hudson Street). The houses in the background are 319 to 309 West 13th Street, on the\nnorth side.\nMay 27, 1930.\nL. Sperr.\n(2)\nThe same, at a later date. Note the absence of the 4-story str shown in No. 1 that bore Nos. 13 and 11-5-1 Gansevoort Street (also and 340-330 West 13th Street). A more extensive view appears of th buildings that are on the north side of West 13th Street, between H Street and Eighth Ave. They are, from left to right, Nos. 325 to 3\nApril 17, 1937.\nP. L. Sperr.\n",
@@ -58,9 +135,27 @@
     "dates_from_text": [
       "1932-07-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Gansevoort Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Hudson Street - Gansevoort Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "720589f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720589f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9f42b50-c54e-012f-dfb5-58d385a7bc34",
     "original_title": "Manhattan: Hudson Street - Gansevoort Street",
     "text": "Hudson Street, south from and including Gansevoort Street (formerly Greenwich Lane, East-West portion).\n\nJuly 30, 1932..\n\nP. L. Sperr.\n",
@@ -75,9 +170,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Gansevoort Street",
+        "str2": "Hudson Street"
+      },
+      "source": "Manhattan: Gansevoort Street - Hudson Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "719983f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719983f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df0ff220-c54d-012f-d60c-58d385a7bc34",
     "original_title": "Manhattan: Gansevoort Street - Hudson Street",
     "text": "Gansevoort Street, south side, east from and including Hudson Street. Gansevoort Street, originally the western end of Southampton Road, in Sir Peter Warren's farm, was later known as Great Kills Road. It was made part of Greenwich Lane (now Greenwich Avenue) early in the 19th Century. Later (in the 1830's) it was closed east of 13th Street at the upper end of Asylum Street (upper West 4th Street), and named Gansevoort Street. The nine-story building at West 4th Street is the Riker Hegeman Building.\n\nJuly 7, 1933.\n\nP. L. Sperr.\n",

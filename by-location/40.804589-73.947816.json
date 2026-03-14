@@ -2,9 +2,35 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "120th Street (West)",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue - 120th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "720846f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720846f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Construction equipment",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d60ac50-c54f-012f-4346-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 120th Street (West)",
     "text": "North on Lenox Avenue from 120th Street.\nMarch 12, 1901.\nWm B. Parsons - Collection\n",
@@ -19,9 +45,34 @@
   {
     "date": "1932-07-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "120th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "120th Street and Lenox Avenue",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "720849f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720849f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobiles",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e881ed0-c54f-012f-5bb6-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 120th Street: Lenox Avenue at S.W. corner of 120th Street.",
     "text": "Lenox Avenue at S. W. corner of 120th Street.\nP. L. Sperr, Photographer.\nJuly 28, 1932.\n",
@@ -36,9 +87,35 @@
   {
     "date": "1932-07-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "120th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "120th Street and Lenox Avenue",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "720850f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720850f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Handcarts",
+          "Stores & shops",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2eeedc90-c54f-012f-6169-58d385a7bc34",
     "text": "Lenox Avenue, east side, from 120th to 121st Streets. July 25, 1932.\nP.L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -52,9 +129,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "120th Street (West)",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue - 120th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "720848f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720848f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Grocery stores",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e36d270-c54f-012f-c83c-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 120th Street (West)",
     "text": "201-203 Lenox Ave., at the N.W. corner of West 120th Street, showing Mount Olivet Church (Baptist). It also bears No. 101 West 120th Street. It is situated in the heart of Negro Harlem.\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -69,9 +172,31 @@
   {
     "date": "1941-07-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "120th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "120th Street and Lenox Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "720847f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720847f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2dcaf330-c54f-012f-b805-58d385a7bc34",
     "text": "view1: Lenox Avenue, e.s., n. fr. 120th Street.\n\nview2: Lenox Avenue, e.s., n. fr. 120th Street\n\nP. L. Sperr, photographer\nJuly 9, 1941\n",
     "text_source": "gpt",
@@ -85,9 +210,31 @@
   {
     "date": "1941-07-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "120th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "120th Street and Lenox Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "720847f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720847f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2dcaf330-c54f-012f-b805-58d385a7bc34",
     "text": "view1: Lenox Avenue, e.s., n. fr. 120th Street.\n\nview2: Lenox Avenue, e.s., n. fr. 120th Street\n\nP. L. Sperr, photographer\nJuly 9, 1941\n",
     "text_source": "gpt",

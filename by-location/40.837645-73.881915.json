@@ -2,9 +2,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1826,
+        "street": "West Farms Road"
+      },
+      "source": "1826 West Farms Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "East 176th Street",
+        "str2": "West Farms Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 176th Street",
+        "str2": "West Farms Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "702077f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702077f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9813e8c0-c531-012f-0d75-58d385a7bc34",
     "original_title": "Bronx: West Farms Road - East 176th Street.",
     "text": "1826 West Farms Road, adjoining the southeast corner of E. 176th Street, showing an old farm house, The view is south.\n\nP. L. Sperr\nJuly 18, 1928\n",

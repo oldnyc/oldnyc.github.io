@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Argyle Road",
+        "str2": "Newkirk Avenue"
+      },
+      "source": "Brooklyn: Newkirk Avenue - Argyle Road",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "706056f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706056f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/baee52a0-c537-012f-6e97-58d385a7bc34",
     "original_title": "Brooklyn: Newkirk Avenue - Argyle Road",
     "text": "1302-1318 Newkirk Ave., south side, at the S.E. corner of Argyle Road.\nAbout 1928.\n",

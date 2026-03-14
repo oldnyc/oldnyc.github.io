@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 55,
+        "street": "Chrystie Street"
+      },
+      "source": "55 Chrystie Street",
+      "technique": "title-address"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Chrystie Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "733060f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733060f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Chrystie Street - Bowery ; 55 Chrystie Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bowery (New York, N.Y. : Street)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Diners (Restaurants)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1461aae0-c562-012f-6a12-58d385a7bc34",
     "text": "20268 UNEMPLOYMENT IN NEW YORK CITY\nAn old man eating a five cent lunch in Mr. Zero's Tub, 55 Chrystie Street, in the Bowery.\nBY EWING GALLOWAY, N.Y.\n",
     "text_source": "site",

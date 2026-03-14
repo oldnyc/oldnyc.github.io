@@ -2,9 +2,30 @@
   {
     "date": "1941-09-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flushing Avenue",
+        "str2": "Throop Avenue"
+      },
+      "source": "Flushing Avenue and Throop Avenue",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "1509687-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509687-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc9645c0-c5cd-012f-a413-58d385a7bc34",
     "text": null,
     "text_source": null,

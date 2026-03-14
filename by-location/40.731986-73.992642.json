@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 48,
+        "street": "E 10th Street"
+      },
+      "source": "10th Street (East) #48",
+      "technique": "title-address"
+    },
     "height": 387,
     "id": "1507721-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507721-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd84caf0-c5ce-012f-65ff-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,37 @@
   {
     "date": "1941-07-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "129th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "129th Street and 3rd Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "129th Street, East side to Northsouth & West",
+        "str2": "3rd Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "486037",
     "image_url": "https://images.nypl.org/?id=486037&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/515b56b0-c60e-012f-dd19-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +46,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "129th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 129th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715505f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715505f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d73f3bb0-c546-012f-b8fe-58d385a7bc34",
     "original_title": "Manhattan: 129th Street - 3rd Avenue",
     "text": "129th St., west to 3rd Ave. June 19, 1941\nP.L. Sperr, photographer\n",

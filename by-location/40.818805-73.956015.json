@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "133rd Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 133rd Street",
+      "technique": "title-cross"
+    },
     "height": 448,
     "id": "721976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f47422b0-c550-012f-8755-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 133rd Street",
     "text": "Old Broadway, at the S.E. corner of 133rd Street.\nAbout 1915.\n",

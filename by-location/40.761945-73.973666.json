@@ -2,9 +2,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 20,
+        "street": "East 56th Street"
+      },
+      "source": "20 East 56th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558259",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558259.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd3d5e80-c5ec-012f-ff1c-58d385a7bc34",
     "text": null,
     "text_source": null,

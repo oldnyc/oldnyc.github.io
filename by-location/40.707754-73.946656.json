@@ -2,9 +2,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Leonard Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Leonard Street - Meserole Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705422f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705422f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Dyeing",
+          "Textile industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c55f6fd0-c536-012f-4468-58d385a7bc34",
     "original_title": "Brooklyn: Leonard Street - Meserole Street",
     "text": "Leonard Street, east side, north from Meserole Street.\n\nOctober 25, 1934.\n\nP. L. Sperr.\n",
@@ -22,9 +44,27 @@
     "dates_from_text": [
       "1934-10-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Leonard Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Meserole Street - Leonard Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705698f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705698f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3298fef0-c537-012f-da6b-58d385a7bc34",
     "original_title": "Brooklyn: Meserole Street - Leonard Street",
     "text": "Meserole Street, east from Leonard Street. (Leonard Street runs north and south in foreground.)\nOctober 25, 1934.\n\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "47th Rd",
+        "str2": "Jackson Av"
+      },
+      "source": "47th Rd and Jackson Av",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984934",
     "image_url": "https://images.nypl.org/?id=3984934&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4acb710-c5d7-012f-20f5-58d385a7bc34",
     "text": null,
     "text_source": null,

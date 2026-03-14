@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burke Avenue",
+        "str2": "Wallace Avenue"
+      },
+      "source": "Bronx: Wallace Avenue - Burke Avenue",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "702006f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702006f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cdfecd0-c531-012f-c825-58d385a7bc34",
     "original_title": "Bronx: Wallace Avenue - Burke Avenue",
     "text": "3207 Wallace Ave., adjoining the N.W. corner of Burke Ave.\n\nAbout 1927.\n\nW. B. Vernam.\n",

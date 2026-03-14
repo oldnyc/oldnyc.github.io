@@ -2,9 +2,41 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "Water Street"
+      },
+      "source": "John Street and Water Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "Pike Slip",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "733792f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733792f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: John Street - Pike Slip."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d3bc3e0-c563-012f-3e5a-58d385a7bc34",
     "text": "East River, shore and skyline, north from John Street to Pike Slip and showing the Brooklyn Bridge. The steam emanates from the funnel of the New York Steam Co. plant at the S.W. corner of Water and John Streets.\n\nFebruary 9, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +50,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "John Street",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: John Street - Water Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "720714f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720714f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business enterprises",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbac8dd0-c54e-012f-c8d4-58d385a7bc34",
     "original_title": "Manhattan: John Street - Water Street",
     "text": "John Street, north side, west from and including Water, to and including Pearl Streets.\n\nApril 14, 1936.\n\nP. L. Sperr.\n",

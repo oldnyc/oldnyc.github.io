@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 151,
+        "street": "West 125th Street"
+      },
+      "source": "151 West 125th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558367",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558367.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia Trust Company"
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Financial facilities",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/07f6a590-c5ed-012f-51c7-58d385a7bc34",
     "text": null,
     "text_source": null,

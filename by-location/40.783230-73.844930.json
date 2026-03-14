@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "123rd Street",
+        "str2": "18th Avenue"
+      },
+      "source": "Queens: 18th Avenue - 123rd Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725046f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725046f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d767a6a0-c555-012f-8baf-58d385a7bc34",
     "original_title": "Queens: 18th Avenue - 123rd Street",
     "text": "18th Avenue, at the N.E. corner of 123rd Street, showing the Union Evangelical Lutheran church. In 1909 it was known as the Gospel Mission Church.\n\nP. L. Sperr\nMarch 3, 1932\n",

@@ -2,9 +2,47 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 551,
+        "street": "East 98th Street"
+      },
+      "source": "551 East 98th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "New Lots Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 443,
     "id": "706027f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706027f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New Lots Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b03ca2d0-c537-012f-fe78-58d385a7bc34",
     "original_title": "Brooklyn: New Lots Avenue - Church Avenue",
     "text": "New Lots Road, east from Church Ave., seen in the foreground. Building at right, is a 2-story brick at 551 East 98th Street. (The trolley line that once continued east on New Lots, now swings sharply right and goes south one block to Hegeman Ave., then east again along Hegeman Ave).\n\n1922.\n\nEugene L. Armbruster Collection.\n",

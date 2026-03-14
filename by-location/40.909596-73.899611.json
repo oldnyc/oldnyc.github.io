@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1914"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "261st Street (West)",
+        "str2": "Fieldston Road"
+      },
+      "source": "Bronx: 261st Street (West) - Fieldston Road",
+      "technique": "title-cross"
+    },
     "height": 320,
     "id": "700388f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700388f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31a53070-c52f-012f-8edf-58d385a7bc34",
     "original_title": "Bronx: 261st Street (West) - Fieldston Road",
     "text": "West 261st Street, north side, east from Fieldston Road to Broadway and Van Cortlandt Park. On the left appears Fieldston Road running north to West 262nd Street.\n\nAbout 1914.\n\nJames Suydam.\n",

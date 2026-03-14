@@ -2,9 +2,29 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 3267,
+        "street": "Third Avenue"
+      },
+      "source": "Third Avenue #3267",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1509495-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509495-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c3b9c50-c5cd-012f-a888-58d385a7bc34",
     "text": null,
     "text_source": null,

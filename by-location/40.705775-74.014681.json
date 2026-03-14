@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 38,
+        "street": "Greenwich Street"
+      },
+      "source": "38 Greenwich Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "732850f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732850f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Greenwich Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children",
+          "Courtyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8279680-c561-012f-9ca3-58d385a7bc34",
     "text": "(1) A shower in a back yard provides relief from the heat for these Manhattan children. This is in rear of 38 Greenwich Street.\nP.L. Sperr\nJuly, 1935\n",
     "text_source": "gpt",

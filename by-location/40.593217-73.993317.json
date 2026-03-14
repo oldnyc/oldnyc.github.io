@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 38th Street",
+        "str2": "Harway Avenue"
+      },
+      "source": "Brooklyn: Harway Avenue - Bay 38th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704804f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704804f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc58f7a0-c535-012f-1f4f-58d385a7bc34",
     "original_title": "Brooklyn: Harway Avenue - Bay 38th Street",
     "text": "2434-2442 Harway Ave., at the S.W. corner of Bay 38th Street.\nApril 27, 1935.\n\nP. L. Sperr.\n",

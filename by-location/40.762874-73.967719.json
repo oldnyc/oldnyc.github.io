@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-04-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721037f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721037f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/751aea60-c54f-012f-e145-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 60th Street",
     "text": "Lexington Avenue, east side, north from S. W. corner of 60th Street.\nApril 9, 1928.\nP.L. Sperr; Photographer.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 60th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714064f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714064f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile wrecking and used parts industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/abff4e00-c544-012f-f0fc-58d385a7bc34",
     "original_title": "Manhattan: 60th Street (East) - Lexington Avenue",
     "text": "East 60th Street, south side, west from Lexington, to, but not including Park Aves. (Building shown being demolished, is Nos. 128-130).\n\nAugust 16, 1935.\n\nP. L. Sperr.\n",

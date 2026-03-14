@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Congress Street",
+        "str2": "Court Street"
+      },
+      "source": "Brooklyn: Court Street - Congress Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703851f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703851f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a97abc0-c534-012f-e022-58d385a7bc34",
     "original_title": "Brooklyn: Court Street - Congress Street",
     "text": "Court Street, at the S.W. corner of Congress Street. This is a rear view of the St. Paul's R.C. Church, as seen from Congress Street.\n\nAugust 5, 1934.\n\nP. L. Sperr.\n",

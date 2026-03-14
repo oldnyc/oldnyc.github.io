@@ -2,9 +2,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Nassau Avenue",
+        "str2": "Van Dam Street"
+      },
+      "source": "Brooklyn: Nassau Avenue - Van Dam Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "705823f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705823f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/626dbc90-c537-012f-6cf5-58d385a7bc34",
     "original_title": "Brooklyn: Nassau Avenue - Van Dam Street",
     "text": "Nassau Ave., B'klyn., east of Van Dam St.\nSept. 1, 1939\nP.L. Sperr, photographer\n",

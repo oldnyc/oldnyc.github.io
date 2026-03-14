@@ -8,9 +8,35 @@
       "1928-10",
       "1938-04-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "100th Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "704427f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704427f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/319eb770-c535-012f-07e2-58d385a7bc34",
     "text": "(1)\nFort Hamilton Parkway, west side, between 100th and 101st Streets. showing the home of Colonel James C. Church, who was postmaster in 1838. His son Judge Charles W. Church lived here until his death in 1915.\n\n1922.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing the north side of the house.\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(3)\nThe same, showing the south side of the house.\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\nFor complete data see New York Times of April 10, 1938.\n",
     "text_source": "gpt",
@@ -33,9 +59,35 @@
       "1928-10",
       "1938-04-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "100th Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton",
+        "technique": "title-cross"
+      }
+    ],
     "height": 463,
     "id": "704427f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704427f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/319eb770-c535-012f-07e2-58d385a7bc34",
     "text": "(1)\nFort Hamilton Parkway, west side, between 100th and 101st Streets. showing the home of Colonel James C. Church, who was postmaster in 1838. His son Judge Charles W. Church lived here until his death in 1915.\n\n1922.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing the north side of the house.\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(3)\nThe same, showing the south side of the house.\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\nFor complete data see New York Times of April 10, 1938.\n",
     "text_source": "gpt",
@@ -52,9 +104,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "Brooklyn: 100th Street - Fort Hamilton Parkway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702942f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702942f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e653e750-c532-012f-18f2-58d385a7bc34",
     "original_title": "Brooklyn: 100th Street - Fort Hamilton Parkway",
     "text": "100th Street, at the N.W. corner of Fort Hamilton Parkway.\n\nJune 9, 1932.\n\nP. L. Sperr.\n",

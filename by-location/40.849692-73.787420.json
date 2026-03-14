@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Ditmars Street"
+      },
+      "source": "Bronx: City Island Avenue - Ditmars Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700751f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700751f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3ab2d70-c52f-012f-4238-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Ditmars Street",
     "text": "402 City Island Avenue (City Island), east side, between Ditmars and Bowne Streets, showing Horace E. Smith's garage.\n\nSummer, 1923\n\nP. L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Ditmars Street"
+      },
+      "source": "Bronx: City Island Avenue - Ditmars Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700759f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700759f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b62e0f50-c52f-012f-62a5-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Ditmars Street",
     "text": "City Island Avenue (City Island), at the S. E. corner of Ditmars Street. Note the sign pointing to Casino Beach, on the island's east shore.\n\nJuly 6, 1936\n\nP. L. Sperr\n",

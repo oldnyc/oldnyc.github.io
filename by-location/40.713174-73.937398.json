@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Catherine Street",
+        "str2": "Powers Street"
+      },
+      "source": "Brooklyn: Catherine Street - Powers Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703505f",
     "image_url": "https://images.nypl.org/?id=703505f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdc98650-c533-012f-ff75-58d385a7bc34",
     "original_title": "Brooklyn: Catherine Street - Powers Street",
     "text": null,

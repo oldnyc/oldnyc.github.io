@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Buffalo Avenue",
+        "str2": "Prospect Place"
+      },
+      "source": "Brooklyn: Prospect Place - Buffalo Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706399f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706399f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Political clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42430850-c538-012f-960b-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Place - Buffalo Avenue",
     "text": "1549-1583 Prospect Place, north side, east from Buffalo Ave., at the extreme left.\nMay 8, 1936.\nP. L. Sperr.\n",

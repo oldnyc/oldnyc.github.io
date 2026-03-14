@@ -2,9 +2,31 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 34th Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "709760f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709760f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Photographic studios"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4202790-c53d-012f-0878-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 34th Street",
     "text": "Seventh Avenue at S. W. corner of 34th Street. About 1900.\nPhotograph by Ewing Galloway.\n",
@@ -22,9 +44,27 @@
     "dates_from_text": [
       "1920"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "712170f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712170f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d600c90-c541-012f-26e1-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 7th Avenue",
     "text": "34th Street, north side, west from 227 West 34th, west of Seventh Avenue.\n1920.\nEugene L. Armbruster Collection.\n",
@@ -39,9 +79,30 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 459,
     "id": "712171f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712171f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8dc24440-c541-012f-a7c7-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (West) - 7th Avenue",
     "text": "34th Street, west from 237 West 34th, north side, west of Seventh Avenue.\nBetween the West Side Bank (later taken over by the Manufacturers' Trust Company), on the N.W. corner of Eighth Avenue, and the Manhattan Opera House, may be seen the tower of the abandoned Thirty-Fourth Street [Dutch] Reformed Church. Around 1927 this and the bank building will be demolished for the site of the Hotel New Yorker.\n\n1920.\n\nEugene L. Armbruster Collection.\n",
@@ -56,9 +117,35 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 34th Street",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "709757f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709757f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Hotels",
+          "Restaurants",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2ef57d0-c53d-012f-c0c8-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 34th Street",
     "text": "441-447 Seventh Ave., at, adjoining and north of the N.E. corner of 34th Street.\nAbout 1922.\nGift of E. M. Jenks.\n",
@@ -73,9 +160,38 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 34th Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "709745f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709745f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Garibaldi, Giuseppe, 1807-1882"
+        ],
+        "topic": [
+          "Hotels",
+          "Insurance companies",
+          "Railroad stations",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d89b650-c53d-012f-da9f-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 34th Street",
     "text": "A general view of the midtown Manhattan area containing the dominant Pennsylvania Railroad Station. To the right and left of same, on Seventh and Eighth Avenues respectively are the Pennsylvania Hotel and the Equitable Building, and the U.S.P.O. 's General Station. 34th Street runs diagonally across the center, while 42nd Street is across the top. On the former (left) is the unfinished Hotel New Yorker. Immediately beyond is the famous Garment Center of the City.\n\n1929\n\nDoherty, photo\nEwing Galloway\n",
@@ -90,9 +206,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 34th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709756f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709756f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a288f5e0-c53d-012f-3fa9-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 34th Street",
     "text": "R. H. Macy & Company's new building, Seventh Avenue, east side, from 34th to 35th Streets.\nOctober 4, 1929.\n\nP. L. Sperr.\n",
@@ -107,9 +244,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 34th Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "709762f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709762f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cafeterias",
+          "Hotels",
+          "Railroad stations",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4e999b0-c53d-012f-3d4f-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 34th Street",
     "text": "Seventh Avenue, east side, south from 34th Street. Pennsylvania Station at right centre. 1929.\nPhotograph by Ewing Galloway.\n",
@@ -124,9 +287,27 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c1296d0-c541-012f-59a6-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 7th Avenue",
     "text": "34th Street, south side, east from, but not including, Seventh Avenue: an aerial view.\n\nOctober 4, 1929.\n\nP. L. Sperr.\n",
@@ -144,9 +325,27 @@
     "dates_from_text": [
       "1929-03-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712168f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712168f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c841e50-c541-012f-fabc-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 7th Avenue",
     "text": "34th Street, north side, west from and including Seventh Avenue. March 12, 1929.\n\nP. L. Sperr.\n",
@@ -161,9 +360,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712169f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712169f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ce0a550-c541-012f-1b7f-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (West) - 7th Avenue",
     "text": "W. 34th Street (left foreground), south side, east from Seventh Avenue (right foreground), Street level not seen, as viewed southeastward from the Pennsylvania building and showing across the low structures, Gimbels Department Store in the center.  At the left margin is Macy's and above same, the Hotel McAlpin.  At the right is the framework of a building being erected at the N.W, corner of Seventh Avenue and W. 34th Street.  The Hotel Pennsylvania is above same and in the distance, the N.Y. Life Insurance Co. Building.\n\nOctober 4, 1929.\n\nP.L. Sperr\n",
@@ -178,9 +398,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "712173f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712173f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Seventh Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8eceb620-c541-012f-03c9-58d385a7bc34",
     "original_title": "Manhattan: 34th Street - 7th Avenue",
     "text": "34th Street, south side, from Seventh to Eighth Avenues, inclusive, showing demolition of the S.W. corner of Seventh Avenue.\n\nMay 30, 1929.\n\nP. L. Sperr.\n",
@@ -195,9 +437,49 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "34th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "Pennsylvania building",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "730240f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730240f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Equitable Life Assurance Society of The United States ; Hotel Governor Clinton ; Pennsylvania Railroad Power House ; Pennsylvania Railroad Station ; St. John The Baptist Roman Catholic Church."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Hotels",
+          "Insurance companies",
+          "Power plants",
+          "Railroad stations",
+          "Religious education",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa20a2c0-c55d-012f-e70d-58d385a7bc34",
     "text": "241 W. 34th Street, (Pennsylvania Building), north side, between Seventh and Eighth Avenues. (general view southward.).\n\nA perspective over the Pennsylvania Railroad station. Surrounding same are numerous loft structures lying to the south of this point. In the left foreground are, the 22 story Equitable Life Assurance Co. Building, the 31 story Hotel Governor Clinton and a 16 story loft structure (No. 362-78 Seventh Avenue). Adjoining the latter are low buildings comprising the Church and School of St. John the Baptist Roman Catholic Church. The smokestack at the right is atop the Pennsylvania Railroad power house. Note that Eighth Avenue is on the right and does not appear here.\n\nP. L. Sperr\n\nOctober 4, 1929\n",
     "text_source": "gpt",
@@ -211,9 +493,38 @@
   {
     "date": "1930; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Seventh Avenue)",
+        "str2": "West 34th Street (Broadway"
+      },
+      "source": "Manhattan: 167 West 34th Street (Broadway - Seventh Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558183",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558183.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Janice"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Clothing stores",
+          "Historic buildings",
+          "Window displays"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcb5f5f0-c5ec-012f-5ad6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -228,9 +539,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 34th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "709758f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709758f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3654460-c53d-012f-71a9-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 34th Street (West)",
     "text": "441 to 461 Seventh Ave., east side, north from West 34th (right) to 35th (left) Streets, showing a 16-story structure under demolition. Upon this site and in conjunction with the 4-story corner structure shown, R. H. Macy and Co., erected a 19-story building, there by occupying the entire block with the exclusion of two small corners; one of which would be on the left. Other buildings of this huge retail enterprise appear on the right; they, forming the north side of West 34th Street, from Seventh Ave., to Broadway. This set consists of a negative and a positive.\n\nMay 22, 1930.\n\nF. M. Demarest.\nGift of Albert A. Volk Co.\n",
@@ -245,9 +577,39 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (East) - 7th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731227f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731227f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Empire State Building.",
+        "Manhattan: 34th Street (East) - 7th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Macy's (Firm)"
+        ],
+        "topic": [
+          "Parades & processions",
+          "Thanksgiving Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/399f98f0-c55f-012f-931e-58d385a7bc34",
     "text": "Nos. 7 to 9:\n\nMacy's Thanksgiving Parade - 1931: A set of 3 views showing the ascent of \"Jumbo\" a walrus shaped affair. Photographers vantage point is on 34th Street, slightly east of Seventh Ave., viewing eastward to show also the mammoth Empire State Building.\n\nNovember 26, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -261,9 +623,39 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (East) - 7th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731227f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731227f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Empire State Building.",
+        "Manhattan: 34th Street (East) - 7th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Macy's (Firm)"
+        ],
+        "topic": [
+          "Parades & processions",
+          "Thanksgiving Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/399f98f0-c55f-012f-931e-58d385a7bc34",
     "text": "Nos. 7 to 9:\n\nMacy's Thanksgiving Parade - 1931: A set of 3 views showing the ascent of \"Jumbo\" a walrus shaped affair. Photographers vantage point is on 34th Street, slightly east of Seventh Ave., viewing eastward to show also the mammoth Empire State Building.\n\nNovember 26, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -277,9 +669,39 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (East) - 7th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731227f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731227f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Empire State Building.",
+        "Manhattan: 34th Street (East) - 7th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Macy's (Firm)"
+        ],
+        "topic": [
+          "Parades & processions",
+          "Thanksgiving Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/399f98f0-c55f-012f-931e-58d385a7bc34",
     "text": "Nos. 7 to 9:\n\nMacy's Thanksgiving Parade - 1931: A set of 3 views showing the ascent of \"Jumbo\" a walrus shaped affair. Photographers vantage point is on 34th Street, slightly east of Seventh Ave., viewing eastward to show also the mammoth Empire State Building.\n\nNovember 26, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -293,9 +715,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 435,
     "id": "712166f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712166f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bbb0000-c541-012f-4787-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (West) - 7th Avenue",
     "text": "(1) West 34th Street, north side, east from, but not including Seventh Ave. Pedestrians shown, are \"Shoppers\", a colorful feature of this neighborhood. Building extending from the left of view to Sixth Ave. (Elevated Line), is Macy's Department Store.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n\n(2) This is the same as No. 1, but the negative has been reversed in printing.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -310,9 +753,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (West) - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "712166f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712166f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Department stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bbb0000-c541-012f-4787-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (West) - 7th Avenue",
     "text": "(1) West 34th Street, north side, east from, but not including Seventh Ave. Pedestrians shown, are \"Shoppers\", a colorful feature of this neighborhood. Building extending from the left of view to Sixth Ave. (Elevated Line), is Macy's Department Store.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n\n(2) This is the same as No. 1, but the negative has been reversed in printing.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -327,9 +791,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street (West)",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 34th Street (West) - 7th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "712172f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712172f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Greyhound Bus Terminal, 33rd and 34th Streets between Seventh and Eighth Avenues, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bus terminals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e440f40-c541-012f-634c-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (West) - 7th Avenue.",
     "text": "Greyhound Bus Terminal\n33rd and 34th Streets, between Seventh and Eighth Avenues,\nManhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-2b\nJuly 14, 1936\n\np.126, Changing New York\n\nW.34 St., south side, betw. Seventh and Eighth Aves., showing the Greyhound Bus Terminal. This was erected in 1935 and the owner is given as the Hotel Statler Co., Inc. Same is silhouetted against the north side of the Pennsylvania Railroad Station with\n33rd St. between.\n",
@@ -344,9 +832,40 @@
   {
     "date": "1951-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Seventh Avenue",
+        "str2": "West 34th Street"
+      },
+      "source": "Seventh Avenue and West 34th Street",
+      "technique": "gpt"
+    },
     "height": 481,
     "id": "1558473",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558473.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Macys - Harold Square"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Macy's (Firm)"
+        ],
+        "topic": [
+          "Buildings",
+          "Buildings, structures, etc",
+          "Commercial streets",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cbc7d10-c5ed-012f-6b55-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -360,9 +879,38 @@
   {
     "date": "1951",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Seventh Avenue",
+        "str2": "West 34th Street"
+      },
+      "source": "Seventh Avenue and West 34th Street",
+      "technique": "gpt"
+    },
     "height": 483,
     "id": "1558476",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558476.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Macy's - Gimbel's - Farley Post Office - Penn Station - Hudson River"
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River Valley (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Department stores",
+          "Historic buildings",
+          "Office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e037c80-c5ed-012f-7432-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -376,9 +924,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "34th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1507651-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507651-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Macy's Department Store"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1ecabe0-c5ce-012f-6b24-58d385a7bc34",
     "text": null,
     "text_source": null,

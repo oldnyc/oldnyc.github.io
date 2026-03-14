@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "54th Avenue",
+        "str2": "83rd Street"
+      },
+      "source": "Queens: 83rd Street - 54th Avenue",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "725684f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725684f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae4e8e20-c556-012f-2503-58d385a7bc34",
     "original_title": "Queens: 83rd Street - 54th Avenue",
     "text": "83rd Street, north side, between 54th and Grand Avenues, viewing west toward the latter and showing St. Alberts Church (German) and the parsonage (right). st. Adelberts R.C. Ch.\n\nJune 7, 1927\n\nP. L. Sperr\n",

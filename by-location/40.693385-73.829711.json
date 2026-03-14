@@ -2,9 +2,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 154,
+        "street": "117th Street"
+      },
+      "source": "154 117th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "117th Street",
+        "str2": "2nd Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "117th Street",
+        "str2": "2nd Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 479,
     "id": "725818f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725818f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Junkyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dbcf32a0-c556-012f-ef4d-58d385a7bc34",
     "original_title": "Queens: 117th Street - 2nd Avenue",
     "text": "Q\n117th St. 154-12\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
@@ -19,9 +54,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "117th Street",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Queens: 117th Street - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "725815f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725815f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da9451b0-c556-012f-9e58-58d385a7bc34",
     "original_title": "Queens: 117th Street - Atlantic Avenue",
     "text": "(1)\n117th Street, east side, between Atlantic and 95th Avenues, showing the Parochial School of St. Benedicts Roman Catholic Church and the rear of the church. The\nchurch itself is on 118th Street.\nP. L. Sperr  May 7, 1934\n0Vg a 959S\n(2)\nThis is the old church edifice, just below the parochial achool. Note the steeple of the new church, which is on\n118th Street.\nP. L. Sperr  May 7, 1934\nNleg 2aa5h\n",
@@ -36,9 +96,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "117th Street",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Queens: 117th Street - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "725815f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725815f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da9451b0-c556-012f-9e58-58d385a7bc34",
     "original_title": "Queens: 117th Street - Atlantic Avenue",
     "text": "(1)\n117th Street, east side, between Atlantic and 95th Avenues, showing the Parochial School of St. Benedicts Roman Catholic Church and the rear of the church. The\nchurch itself is on 118th Street.\nP. L. Sperr  May 7, 1934\n0Vg a 959S\n(2)\nThis is the old church edifice, just below the parochial achool. Note the steeple of the new church, which is on\n118th Street.\nP. L. Sperr  May 7, 1934\nNleg 2aa5h\n",

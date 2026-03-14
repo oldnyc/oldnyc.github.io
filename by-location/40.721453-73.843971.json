@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "71st Avenue (West)",
+        "str2": "Queens Boulevard"
+      },
+      "source": "Queens: Queens Boulevard - 71st Avenue (West).",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "727774f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727774f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Backus (John E.) House."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc61df00-c559-012f-6365-58d385a7bc34",
     "original_title": "Queens: Queens Boulevard - 71st Avenue (West).",
     "text": "Queens Boulevard, south side, one block west of Seventy-first Avenue, showing a frame house belonging to J.E. Backus in 1896. Jacob W. Zipp was an occupant in 1924.\n\nApril 1923.\n\nEugene L. Armbruster Collection\n",
@@ -19,9 +40,29 @@
   {
     "date": "1940-07-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "71st Avenue",
+        "str2": "Queens Blvd"
+      },
+      "source": "Queens Blvd. at 71st Avenue, Queens",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "485951",
     "image_url": "https://images.nypl.org/?id=485951&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d13f420-c60e-012f-d690-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Townsend Avenue"
+      },
+      "source": "Richmond: Bay Street - Townsend Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "728549f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728549f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f186b840-c55a-012f-6a23-58d385a7bc34",
     "original_title": "Richmond: Bay Street - Townsend Avenue",
     "text": "Bay Street, west side, north from Townsend (left) to Norwood Avenues.\n\nMay 1, 1931\n\nP. L. Sperr\n",

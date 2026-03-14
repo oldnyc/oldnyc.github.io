@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Queens: Colonial Avenue - Horace Harding Boulevard",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "726347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97a0b5c0-c557-012f-54a4-58d385a7bc34",
     "original_title": "Queens: Colonial Avenue - Horace Harding Boulevard",
     "text": "Colonial Avenue, east side, in the Horace Harding Blvd., showing two views of the Titus house located on the site of the Coe house. Rikers map of Newtown (1852) shows a mill in this area, but no Coe or Titus house.\n\n1922\nViews 1 and 2\n\nEugene L. Armbruster Collection\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Queens: Colonial Avenue - Horace Harding Boulevard",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "726347f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726347f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97a0b5c0-c557-012f-54a4-58d385a7bc34",
     "original_title": "Queens: Colonial Avenue - Horace Harding Boulevard",
     "text": "Colonial Avenue, east side, in the Horace Harding Blvd., showing two views of the Titus house located on the site of the Coe house. Rikers map of Newtown (1852) shows a mill in this area, but no Coe or Titus house.\n\n1922\nViews 1 and 2\n\nEugene L. Armbruster Collection\n",
@@ -42,9 +78,48 @@
   {
     "date": "1923; 1924; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 472,
     "id": "726646f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726646f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Parks",
+          "Sanitary landfills",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00aeb990-c558-012f-c57c-58d385a7bc34",
     "text": "Flushing Meadow Park: (World's Fair Grounds). A set of 4 views showing what was once the Corona Dump for the City of New York. This putrid area has been converted into a place of beauty. Here, where once there were refuse heaps, will be held the greatest World's Fair of modern times. View number one is taken from 111th Street and Forty-sixth Avenue, looking eastward. The main exposition center will be at about where the train and steam shovel are seen in this view. View number two is taken looking northward from Horace Harding Boulevard at about Colonial Avenue, and shows an area that is now covered with the Grand Central Parkway, the Trylon and Perisphere, and the west side of the fair grounds. View number 3 and 4 are somewhat similar to view number two. In view 4 are seen hundreds of rust eaten hot water tanks doting the refuse heap.\n\nOctober 1928.\nViews 2&4: May 1923.\nView 3: October 1924.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -60,9 +135,48 @@
   {
     "date": "1923; 1924; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 464,
     "id": "726646f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726646f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Parks",
+          "Sanitary landfills",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00aeb990-c558-012f-c57c-58d385a7bc34",
     "text": "Flushing Meadow Park: (World's Fair Grounds). A set of 4 views showing what was once the Corona Dump for the City of New York. This putrid area has been converted into a place of beauty. Here, where once there were refuse heaps, will be held the greatest World's Fair of modern times. View number one is taken from 111th Street and Forty-sixth Avenue, looking eastward. The main exposition center will be at about where the train and steam shovel are seen in this view. View number two is taken looking northward from Horace Harding Boulevard at about Colonial Avenue, and shows an area that is now covered with the Grand Central Parkway, the Trylon and Perisphere, and the west side of the fair grounds. View number 3 and 4 are somewhat similar to view number two. In view 4 are seen hundreds of rust eaten hot water tanks doting the refuse heap.\n\nOctober 1928.\nViews 2&4: May 1923.\nView 3: October 1924.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -78,9 +192,48 @@
   {
     "date": "1923; 1924; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 474,
     "id": "726646f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726646f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Parks",
+          "Sanitary landfills",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00aeb990-c558-012f-c57c-58d385a7bc34",
     "text": "Flushing Meadow Park: (World's Fair Grounds). A set of 4 views showing what was once the Corona Dump for the City of New York. This putrid area has been converted into a place of beauty. Here, where once there were refuse heaps, will be held the greatest World's Fair of modern times. View number one is taken from 111th Street and Forty-sixth Avenue, looking eastward. The main exposition center will be at about where the train and steam shovel are seen in this view. View number two is taken looking northward from Horace Harding Boulevard at about Colonial Avenue, and shows an area that is now covered with the Grand Central Parkway, the Trylon and Perisphere, and the west side of the fair grounds. View number 3 and 4 are somewhat similar to view number two. In view 4 are seen hundreds of rust eaten hot water tanks doting the refuse heap.\n\nOctober 1928.\nViews 2&4: May 1923.\nView 3: October 1924.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -96,9 +249,48 @@
   {
     "date": "1923; 1924; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 455,
     "id": "726646f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726646f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Parks",
+          "Sanitary landfills",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00aeb990-c558-012f-c57c-58d385a7bc34",
     "text": "Flushing Meadow Park: (World's Fair Grounds). A set of 4 views showing what was once the Corona Dump for the City of New York. This putrid area has been converted into a place of beauty. Here, where once there were refuse heaps, will be held the greatest World's Fair of modern times. View number one is taken from 111th Street and Forty-sixth Avenue, looking eastward. The main exposition center will be at about where the train and steam shovel are seen in this view. View number two is taken looking northward from Horace Harding Boulevard at about Colonial Avenue, and shows an area that is now covered with the Grand Central Parkway, the Trylon and Perisphere, and the west side of the fair grounds. View number 3 and 4 are somewhat similar to view number two. In view 4 are seen hundreds of rust eaten hot water tanks doting the refuse heap.\n\nOctober 1928.\nViews 2&4: May 1923.\nView 3: October 1924.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -114,9 +306,45 @@
   {
     "date": "1923; 1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 461,
     "id": "726648f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726648f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/018a2830-c558-012f-279e-58d385a7bc34",
     "text": "Flushing Meadow Park (World's Fair Site) Horace Harding Blvd. (formerly Strongs Canseway), east from Colonial Avenue to Flushing Creek, showing in 4 views an area now covered by the Grand Central Parkway, the Amphitheatre, and the south part of the main Exposition Center of the World's Fair Site. The second building in view No. 2 houses Wm. Geyer's Saloon.\n\nView 2: April 1923.\nViews 3 & 4: June 1925.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -131,9 +359,45 @@
   {
     "date": "1923; 1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 456,
     "id": "726648f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726648f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/018a2830-c558-012f-279e-58d385a7bc34",
     "text": "Flushing Meadow Park (World's Fair Site) Horace Harding Blvd. (formerly Strongs Canseway), east from Colonial Avenue to Flushing Creek, showing in 4 views an area now covered by the Grand Central Parkway, the Amphitheatre, and the south part of the main Exposition Center of the World's Fair Site. The second building in view No. 2 houses Wm. Geyer's Saloon.\n\nView 2: April 1923.\nViews 3 & 4: June 1925.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -148,9 +412,45 @@
   {
     "date": "1923; 1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 476,
     "id": "726648f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726648f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/018a2830-c558-012f-279e-58d385a7bc34",
     "text": "Flushing Meadow Park (World's Fair Site) Horace Harding Blvd. (formerly Strongs Canseway), east from Colonial Avenue to Flushing Creek, showing in 4 views an area now covered by the Grand Central Parkway, the Amphitheatre, and the south part of the main Exposition Center of the World's Fair Site. The second building in view No. 2 houses Wm. Geyer's Saloon.\n\nView 2: April 1923.\nViews 3 & 4: June 1925.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -165,9 +465,45 @@
   {
     "date": "1923; 1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 469,
     "id": "726648f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726648f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/018a2830-c558-012f-279e-58d385a7bc34",
     "text": "Flushing Meadow Park (World's Fair Site) Horace Harding Blvd. (formerly Strongs Canseway), east from Colonial Avenue to Flushing Creek, showing in 4 views an area now covered by the Grand Central Parkway, the Amphitheatre, and the south part of the main Exposition Center of the World's Fair Site. The second building in view No. 2 houses Wm. Geyer's Saloon.\n\nView 2: April 1923.\nViews 3 & 4: June 1925.\n\nEugene L. Armbruster Collection\n",
     "text_source": "gpt",
@@ -185,9 +521,27 @@
     "dates_from_text": [
       "1924-01"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "62nd Avenue",
+        "str2": "Colonial Avenue"
+      },
+      "source": "Queens: Colonial Avenue - 62nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 532,
     "id": "726365f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726365f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d8fe730-c557-012f-8546-58d385a7bc34",
     "original_title": "Queens: Colonial Avenue - 62nd Avenue",
     "text": "Colonial Ave., west side, north of 62nd Drive, showing the Coe farmhouse. See other views for more data.\n\nJan. 1924.\n\nEugene L. Armbruster Collection\n",
@@ -202,9 +556,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "726898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64957770-c558-012f-a979-58d385a7bc34",
     "text": "Horace Harding Boulevard, east from Colonial Avenue. Note the machinery and shacks indicating road construction.\n\nP. L. Sperr\nNovember 10, 1936\n",
     "text_source": "gpt",
@@ -218,9 +601,41 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "726899f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726899f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6501d760-c558-012f-50f4-58d385a7bc34",
     "text": "Horace Harding Boulevard, at Colonial Avenue, showing parking areas for visitors to the New York World's Fair of 1939-40.\n\nJune 23, 1940\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -234,9 +649,41 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 407,
     "id": "726899f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726899f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6501d760-c558-012f-50f4-58d385a7bc34",
     "text": "Horace Harding Boulevard, at Colonial Avenue, showing parking areas for visitors to the New York World's Fair of 1939-40.\n\nJune 23, 1940\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -250,9 +697,41 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Colonial Avenue and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Colonial Avenue",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 404,
     "id": "726899f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726899f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6501d760-c558-012f-50f4-58d385a7bc34",
     "text": "Horace Harding Boulevard, at Colonial Avenue, showing parking areas for visitors to the New York World's Fair of 1939-40.\n\nJune 23, 1940\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",

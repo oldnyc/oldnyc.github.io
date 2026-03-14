@@ -2,9 +2,38 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Utopia Parkway",
+        "str2": "Willets Point Boulevard"
+      },
+      "source": "Utopia Parkway and Willets Point Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Utopia Parkway",
+        "str2": "Willets Point Boulev",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "728203f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728203f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61127040-c55a-012f-ed48-58d385a7bc34",
     "text": null,
     "text_source": null,

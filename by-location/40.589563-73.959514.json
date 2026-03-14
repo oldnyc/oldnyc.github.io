@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "11th Street",
+        "str2": "Avenue Y"
+      },
+      "source": "Brooklyn: 11th Street - Avenue Y",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "702521f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702521f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43566410-c532-012f-d181-58d385a7bc34",
     "original_title": "Brooklyn: 11th Street - Avenue Y",
     "text": "2465 East 11th Street, at the N.E. corner of Ave. Y., showing a rear view.\n\nAugust 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1933-07-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "11th St. E.",
+        "str2": "Ave. Y"
+      },
+      "source": "Brooklyn: Ave. Y - 11th St. E.",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "707476f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707476f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2422fb0-c539-012f-cd9d-58d385a7bc34",
     "original_title": "Brooklyn: Ave. Y - 11th St. E.",
     "text": "Avenue Y, west from East 11th Street, showing the effects of a heavy shower. The houses are on the north side of the avenue.\n\nJuly 9, 1933\nViews 1,2\n\nP. L. Sperr\n",
@@ -42,9 +81,27 @@
     "dates_from_text": [
       "1933-07-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "11th St. E.",
+        "str2": "Ave. Y"
+      },
+      "source": "Brooklyn: Ave. Y - 11th St. E.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707476f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707476f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2422fb0-c539-012f-cd9d-58d385a7bc34",
     "original_title": "Brooklyn: Ave. Y - 11th St. E.",
     "text": "Avenue Y, west from East 11th Street, showing the effects of a heavy shower. The houses are on the north side of the avenue.\n\nJuly 9, 1933\nViews 1,2\n\nP. L. Sperr\n",

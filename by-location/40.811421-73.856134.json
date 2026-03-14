@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "O'Brien Avenue",
+        "str2": "Soundview Avenue"
+      },
+      "source": "Bronx: Soundview Avenue - O'Brien Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701803f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701803f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f9e89d0-c531-012f-2871-58d385a7bc34",
     "original_title": "Bronx: Soundview Avenue - O'Brien Avenue",
     "text": "Soundview Avenue, west side, south of O'Brien Avenue, showing the Soundview Presbyterian Church.\n\nAugust 21, 1940\n\nP. L. Sperr\n",

@@ -2,9 +2,31 @@
   {
     "date": "1875",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jones Walk",
+        "str2": "Surf Ave."
+      },
+      "source": "Brooklyn: Surf Ave. - Jones Walk",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706959f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706959f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Pavilions",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16eb54a0-c539-012f-4e49-58d385a7bc34",
     "text": "Surf Ave., (rear view), south side, between Jones Walk and West 10th Street. This is a view of Feltman's Restaurant, pavilion and bathhouse, showing a part of the Beach and Surf Ave., in the early 1870'.\nAbout 1875.\nEugene L. Armbruster Collection.\n",
     "text_source": "site",
@@ -18,9 +40,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jones Walk",
+        "str2": "Surf Ave."
+      },
+      "source": "Brooklyn: Surf Ave. - Jones Walk",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "706962f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706962f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1816d0c0-c539-012f-4c14-58d385a7bc34",
     "text": "Surf Ave., south side, east from Jones Walk. (Coney Island).\n\nJuly 1, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -34,9 +77,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jones Walk",
+        "str2": "Surf Ave."
+      },
+      "source": "Brooklyn: Surf Ave. - Jones Walk",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706961f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706961f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17bf44d0-c539-012f-c8b9-58d385a7bc34",
     "text": "Surf Ave., south side, east from Jones Walk. (Coney Island).\nJuly 1, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "114th Street and Manhattan Avenue",
+      "technique": "gpt"
+    },
     "height": 568,
     "id": "1238849-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1238849-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d5bab60-c612-012f-14fe-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "114th Street and Manhattan Avenue",
+      "technique": "gpt"
+    },
     "height": 508,
     "id": "1238849-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1238849-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d5bab60-c612-012f-14fe-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +79,35 @@
     "dates_from_text": [
       "1945-01-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Manhattan: Manhattan Avenue - 114th Street",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "721602f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721602f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bartholdi, Fr\u00e9d\u00e9ric Auguste, 1834-1904",
+          "Lafayette, Marie Joseph Paul Yves Roch Gilbert Du Motier, marquis de, 1757-1834",
+          "Washington, George, 1732-1799"
+        ],
+        "topic": [
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b1f2560-c550-012f-a3ab-58d385a7bc34",
     "original_title": "Manhattan: Manhattan Avenue - 114th Street",
     "text": "Washington & Lafayette Statues\nP.L. Sperr collection\nRec'd January 13, 1945\n",
@@ -54,9 +122,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Manhattan Avenue",
+        "str2": "West 114th Street"
+      },
+      "source": "Manhattan: 338 Manhattan Avenue - West 114th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557983",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557983.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4708c5e0-c5ed-012f-4729-58d385a7bc34",
     "text": null,
     "text_source": null,

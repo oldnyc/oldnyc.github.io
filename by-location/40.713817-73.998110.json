@@ -2,9 +2,35 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 475,
     "id": "718661f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718661f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c29cc960-c54b-012f-ac0b-58d385a7bc34",
     "text": "CONTRACT  ROUTE  Dig. SECTION 1  No. 5\nLOCATION  Chatham Square\nSUBJECT  Construction Photo.\nDESCRIPTION  Sidewalk on west side  Looking South\nDATE  Dec. 23, 1914\n\nPurchased from Neikrug Galleries, Inc., May 25, 1976\n",
     "text_source": "gpt",
@@ -18,9 +44,55 @@
   {
     "date": "1933; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 7,
+        "street": "Chatham Square"
+      },
+      "source": "7 Chatham Square",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Mott Street",
+        "str2": "Redfern Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Doyers Street",
+        "str2": "Mott Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Park Row",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718667f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718667f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Cafeterias",
+          "Catholic churches",
+          "Cigar industry",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4cf04b0-c54b-012f-e83a-58d385a7bc34",
     "original_title": "Manhattan: Mott Street - Redfern Avenue",
     "text": "(1) Chatham Square, west side, north from (about No. 7), from a point between Mott and Doyers Streets and towards the latter. The street forms the west side of the connecting link between Park Row and the Bowery; the latter starting at the end. Note the Third Avenue \"E1\" overhead and which follows the Bowery northward.\n\nOctober 8, 1933\n\nP. L. Sperr\n\n(2) A portion of the same and showing mainly, No. 11 Chatham Square, a barber shop just south of Doyers Street.\n\nOctober 8, 1933.\n\nP. L. Sperr\n\n(3) Chatham Square \"L\", looking North, West side of Mott Street. At #7-9 may be seen the Port Arthur Tavern, and towards the bend in Street the tower on the R.C. church of the Transfiguration.\n\nApril 8th, 1941.\n\nP.L.Sperr,\n",
@@ -36,9 +108,55 @@
   {
     "date": "1933; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 7,
+        "street": "Chatham Square"
+      },
+      "source": "7 Chatham Square",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Mott Street",
+        "str2": "Redfern Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Doyers Street",
+        "str2": "Mott Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Park Row",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718667f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718667f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Cafeterias",
+          "Catholic churches",
+          "Cigar industry",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4cf04b0-c54b-012f-e83a-58d385a7bc34",
     "original_title": "Manhattan: Mott Street - Redfern Avenue",
     "text": "(1) Chatham Square, west side, north from (about No. 7), from a point between Mott and Doyers Streets and towards the latter. The street forms the west side of the connecting link between Park Row and the Bowery; the latter starting at the end. Note the Third Avenue \"E1\" overhead and which follows the Bowery northward.\n\nOctober 8, 1933\n\nP. L. Sperr\n\n(2) A portion of the same and showing mainly, No. 11 Chatham Square, a barber shop just south of Doyers Street.\n\nOctober 8, 1933.\n\nP. L. Sperr\n\n(3) Chatham Square \"L\", looking North, West side of Mott Street. At #7-9 may be seen the Port Arthur Tavern, and towards the bend in Street the tower on the R.C. church of the Transfiguration.\n\nApril 8th, 1941.\n\nP.L.Sperr,\n",
@@ -54,9 +172,55 @@
   {
     "date": "1933; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 7,
+        "street": "Chatham Square"
+      },
+      "source": "7 Chatham Square",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Mott Street",
+        "str2": "Redfern Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Doyers Street",
+        "str2": "Mott Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Park Row",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718667f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718667f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Cafeterias",
+          "Catholic churches",
+          "Cigar industry",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4cf04b0-c54b-012f-e83a-58d385a7bc34",
     "original_title": "Manhattan: Mott Street - Redfern Avenue",
     "text": "(1) Chatham Square, west side, north from (about No. 7), from a point between Mott and Doyers Streets and towards the latter. The street forms the west side of the connecting link between Park Row and the Bowery; the latter starting at the end. Note the Third Avenue \"E1\" overhead and which follows the Bowery northward.\n\nOctober 8, 1933\n\nP. L. Sperr\n\n(2) A portion of the same and showing mainly, No. 11 Chatham Square, a barber shop just south of Doyers Street.\n\nOctober 8, 1933.\n\nP. L. Sperr\n\n(3) Chatham Square \"L\", looking North, West side of Mott Street. At #7-9 may be seen the Port Arthur Tavern, and towards the bend in Street the tower on the R.C. church of the Transfiguration.\n\nApril 8th, 1941.\n\nP.L.Sperr,\n",
@@ -72,9 +236,46 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Chatham Square",
+        "str2": "Elevated tracks",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718662f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718662f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2e9bfa0-c54b-012f-0c0e-58d385a7bc34",
     "text": "1. Chatham Square, showing \"El\" tracks at square, and the Municipal Building in the background.\n2. Chatham Square, 3rd Avenue \"El\" train to City Hall.\n3. Chatham Square \"El\" tracks and station from north end.\n\nP. L. Sperr\nApril 8, 1941\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -88,9 +289,46 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Chatham Square",
+        "str2": "Elevated tracks",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718662f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718662f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2e9bfa0-c54b-012f-0c0e-58d385a7bc34",
     "text": "1. Chatham Square, showing \"El\" tracks at square, and the Municipal Building in the background.\n2. Chatham Square, 3rd Avenue \"El\" train to City Hall.\n3. Chatham Square \"El\" tracks and station from north end.\n\nP. L. Sperr\nApril 8, 1941\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -104,9 +342,46 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Chatham Square",
+        "str2": "Elevated tracks",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718662f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718662f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2e9bfa0-c54b-012f-0c0e-58d385a7bc34",
     "text": "1. Chatham Square, showing \"El\" tracks at square, and the Municipal Building in the background.\n2. Chatham Square, 3rd Avenue \"El\" train to City Hall.\n3. Chatham Square \"El\" tracks and station from north end.\n\nP. L. Sperr\nApril 8, 1941\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -120,9 +395,47 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "Chatham Square",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718664f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718664f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3be1850-c54b-012f-1c9b-58d385a7bc34",
     "text": "1Chatham Square to Municipal Building from the \"El\"\nP. L. Sperr\n\n2-Chatham Square \"El\" station from the north end of tracks.\n3-same\nP. L. Sperr\n\n4-Chatham Square \"El\" station.\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -136,9 +449,47 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "Chatham Square",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718664f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718664f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3be1850-c54b-012f-1c9b-58d385a7bc34",
     "text": "1Chatham Square to Municipal Building from the \"El\"\nP. L. Sperr\n\n2-Chatham Square \"El\" station from the north end of tracks.\n3-same\nP. L. Sperr\n\n4-Chatham Square \"El\" station.\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -152,9 +503,47 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "Chatham Square",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718664f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718664f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3be1850-c54b-012f-1c9b-58d385a7bc34",
     "text": "1Chatham Square to Municipal Building from the \"El\"\nP. L. Sperr\n\n2-Chatham Square \"El\" station from the north end of tracks.\n3-same\nP. L. Sperr\n\n4-Chatham Square \"El\" station.\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -168,9 +557,47 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7137798,
+        "lng": -73.998077
+      },
+      "source": "Chatham Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "Chatham Square",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "718664f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718664f-d.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chatham Square Elevated Station"
+      ],
+      "subjects": {
+        "geographic": [
+          "Chatham Square (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3be1850-c54b-012f-1c9b-58d385a7bc34",
     "text": "1Chatham Square to Municipal Building from the \"El\"\nP. L. Sperr\n\n2-Chatham Square \"El\" station from the north end of tracks.\n3-same\nP. L. Sperr\n\n4-Chatham Square \"El\" station.\nP. L. Sperr\n",
     "text_source": "gpt",

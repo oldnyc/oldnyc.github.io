@@ -2,9 +2,29 @@
   {
     "date": "1940-06-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "*Rodman Street",
+        "str2": "59th Avenue"
+      },
+      "source": "59th Avenue at *Rodman Street, Queens",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "485980",
     "image_url": "https://images.nypl.org/?id=485980&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6fd1cc0-c60e-012f-caab-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1940-06-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "*Rodman Street",
+        "str2": "59th Avenue"
+      },
+      "source": "59th Avenue at *Rodman Street, Queens",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "485981",
     "image_url": "https://images.nypl.org/?id=485981&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a743bdd0-c60e-012f-172a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +74,47 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "59th Avenue",
+        "str2": "Rodman Street"
+      },
+      "source": "59th Avenue and Rodman Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "58th Road",
+        "str2": "Rodman Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "58th Road",
+        "str2": "Rodman Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "727927f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727927f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f702f5b0-c559-012f-832e-58d385a7bc34",
     "original_title": "Queens: Rodman Street - 58th Road",
     "text": "Rodman Street, east side south from 58th Road to 59th Avenue. The parking space is an accommodation for World's Fair visitors.\n\nJune 29, 1940\n\nP. L. Sperr\n",

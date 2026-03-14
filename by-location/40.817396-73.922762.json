@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-04-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "149th Street (East)",
+        "str2": "Morris Avenue"
+      },
+      "source": "Bronx: 149th Street (East) - Morris Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700128f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700128f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d42cf4b0-c52e-012f-5722-58d385a7bc34",
     "original_title": "Bronx: 149th Street (East) - Morris Avenue",
     "text": "277 and 279 E. 149th Street, adjoining the northeast corner of Morris Avenue, showing two old frame houses.\n\nP. L. Sperr\n\nApril 28, 1941\n",

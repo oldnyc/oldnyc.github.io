@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "17th Street (West)",
+        "str2": "Neptune Avenue"
+      },
+      "source": "Brooklyn: 17th Street (West) - Neptune Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "702591f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702591f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5df889e0-c532-012f-af2d-58d385a7bc34",
     "original_title": "Brooklyn: 17th Street (West) - Neptune Avenue",
     "text": "West 17th Street, adjoining the southwest corner of Neptune Avenue, showing Public School No. 80.\n\nBoard of Education of the City of New York  Early 1930s\n",

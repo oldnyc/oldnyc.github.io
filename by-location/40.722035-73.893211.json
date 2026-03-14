@@ -2,9 +2,35 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "59th Drive",
+        "str2": "69th Street"
+      },
+      "source": "Queens: 69th Street - 59th Drive",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "725583f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725583f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Mount Olivet Cemetery (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c861a50-c556-012f-c6a0-58d385a7bc34",
     "original_title": "Queens: 69th Street - 59th Drive",
     "text": "Sixty-ninth Street, north from about 59th Drive, showing at the left foreground a part of the Olivet Cemetery. The house therein was the Gerner house. At the right is the Herte house. Ernest Nurge is the present owner.\n\nApril 1923.\n\nEugene L. Armbruster Collection\n",

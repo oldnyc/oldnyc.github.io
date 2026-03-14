@@ -2,9 +2,33 @@
   {
     "date": "1860",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 306,
     "id": "732034f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732034f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Liberty Island (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80b631c0-c560-012f-c21c-58d385a7bc34",
     "text": "A panoramic view of Governor's Island, as seen from the south of Brooklyn. Bedloe's Island is also seen in the center background.\n\nAbout 1860.?\n",
     "text_source": "gpt",
@@ -18,9 +42,34 @@
   {
     "date": "1886",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732035f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/732035f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/813736a0-c560-012f-64e1-58d385a7bc34",
     "rotation": 90,
     "text": "Governor's Island (center background) in the Upper New York Bay, as viewed southward on the East River from Brooklyn Bridge. On the right appear piers at the tip of Manhattan.\n\nAbout 1886.\n\nJ. Koehler.\n",
@@ -35,9 +84,53 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Coenties Slip",
+        "str2": "South Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "723240f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723240f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Business enterprises",
+          "Carts & wagons",
+          "Horse teams",
+          "Hotels",
+          "Ships",
+          "Steamboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fdab74c0-c552-012f-159f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +144,32 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 487,
     "id": "732036f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732036f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Prisons",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81936560-c560-012f-266b-58d385a7bc34",
     "text": "Governors Island: \"Castle William\" photographed\nfrom the Upper Bay.\nAbout 1890\nLangill, photo\nGift of Urbrock Collection\n",
     "text_source": "site",
@@ -67,9 +183,31 @@
   {
     "date": "1894",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 334,
     "id": "723210f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723210f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f074f6f0-c552-012f-38be-58d385a7bc34",
     "text": "South Ferry, Governors Island and the Upper Bay.\n\n1894\n\nCopyright, 1894\nJ. S. Johnston, photo\nGift of Urbrock Collection\nREPRODUCTION RIGHTS UNKNOWN\n",
     "text_source": "gpt",
@@ -83,9 +221,30 @@
   {
     "date": "1898; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732051f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732051f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/883f06d0-c560-012f-6482-58d385a7bc34",
     "text": "1.\n\nGovernor's Island: A view of the northeastern shore of the Island, as seen from Buttermilk Channel. The view is northwestward and shows the lower Manhattan skyline on the right.\n\nP. L. Sperr.\n\nOctober 20, 1934.\n\n2.\n\nGovernor's Island. Snapshot made about 1898 and presented by Mrs. A. Gould.\n",
     "text_source": "gpt",
@@ -100,9 +259,30 @@
   {
     "date": "1898; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 476,
     "id": "732051f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732051f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/883f06d0-c560-012f-6482-58d385a7bc34",
     "text": "1.\n\nGovernor's Island: A view of the northeastern shore of the Island, as seen from Buttermilk Channel. The view is northwestward and shows the lower Manhattan skyline on the right.\n\nP. L. Sperr.\n\nOctober 20, 1934.\n\n2.\n\nGovernor's Island. Snapshot made about 1898 and presented by Mrs. A. Gould.\n",
     "text_source": "gpt",
@@ -117,9 +297,37 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 468,
     "id": "732064f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732064f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fort Jay (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Forts & fortifications",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e2eddc0-c560-012f-aafb-58d385a7bc34",
     "text": "Governors Island--Fort Jay: The downtown skyline of Manhattan.\n\nOctober 21, 1924\n\nWurtz Brothers\n",
     "text_source": "gpt",
@@ -133,9 +341,40 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 309,
     "id": "732065f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732065f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fort Jay (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Forts & fortifications",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ea9c1b0-c560-012f-4b6d-58d385a7bc34",
     "text": "The grim battlements of Fort Jay (built in 1812), upon Governor's Island, stand ready to defend New York Bay and the metropolitan area. Manhattan's southern tip is to the north.\n\n1925.\n\nWurts Brothers.\n",
     "text_source": "gpt",
@@ -149,9 +388,29 @@
   {
     "date": "1926; 1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "732060f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732060f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c766590-c560-012f-aa5e-58d385a7bc34",
     "text": "(1) The circular fortress, Castle William, now used as a military prison; at the northern end of Governor's Island.\n\nJuly 7, 1930.\n\nP. L. Sperr.\n\n(2) The same, a closer view at an earlier date. Viewed from a different angle.\n\nMay 4, 1926.\n\nP. L. Sperr.\n\n(3) The same as view 2. In the background is visible the Brooklyn skyline.\n\nFebruary 10, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -167,9 +426,29 @@
   {
     "date": "1926; 1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 396,
     "id": "732060f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732060f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c766590-c560-012f-aa5e-58d385a7bc34",
     "text": "(1) The circular fortress, Castle William, now used as a military prison; at the northern end of Governor's Island.\n\nJuly 7, 1930.\n\nP. L. Sperr.\n\n(2) The same, a closer view at an earlier date. Viewed from a different angle.\n\nMay 4, 1926.\n\nP. L. Sperr.\n\n(3) The same as view 2. In the background is visible the Brooklyn skyline.\n\nFebruary 10, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -185,9 +464,29 @@
   {
     "date": "1926; 1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "732060f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732060f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c766590-c560-012f-aa5e-58d385a7bc34",
     "text": "(1) The circular fortress, Castle William, now used as a military prison; at the northern end of Governor's Island.\n\nJuly 7, 1930.\n\nP. L. Sperr.\n\n(2) The same, a closer view at an earlier date. Viewed from a different angle.\n\nMay 4, 1926.\n\nP. L. Sperr.\n\n(3) The same as view 2. In the background is visible the Brooklyn skyline.\n\nFebruary 10, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -203,9 +502,26 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732042f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732042f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/840e6080-c560-012f-eb8f-58d385a7bc34",
     "text": "Governors Island: Two photos taken at an unknown social and military event. View 1 shows the refreshment stands facing the officers residences: No. 2 is self-explanatory.\n\nAbout, 1927\nViews: 1-2\n",
     "text_source": "gpt",
@@ -219,9 +535,26 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 396,
     "id": "732042f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732042f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/840e6080-c560-012f-eb8f-58d385a7bc34",
     "text": "Governors Island: Two photos taken at an unknown social and military event. View 1 shows the refreshment stands facing the officers residences: No. 2 is self-explanatory.\n\nAbout, 1927\nViews: 1-2\n",
     "text_source": "gpt",
@@ -235,9 +568,27 @@
   {
     "date": "1927; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "732043f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732043f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/848062a0-c560-012f-4504-58d385a7bc34",
     "text": "(1)\nGovernors Island: A view of the southern shore with downtown Manhattan for a background. Photographer is viewing northward from a point in the Upper Bay.\nAugust 25, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, at a later date and showing new federal units thereon; this area being used by the Military.\nAugust 29, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -252,9 +603,27 @@
   {
     "date": "1927; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732043f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732043f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/848062a0-c560-012f-4504-58d385a7bc34",
     "text": "(1)\nGovernors Island: A view of the southern shore with downtown Manhattan for a background. Photographer is viewing northward from a point in the Upper Bay.\nAugust 25, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, at a later date and showing new federal units thereon; this area being used by the Military.\nAugust 29, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -269,9 +638,29 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 394,
     "id": "732071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91375b60-c560-012f-7354-58d385a7bc34",
     "text": "Governors Island: A set of three views showing a sham battle on the Parade Grounds. In the background appears the serrated horizon of lower Manhattan.\n\nAbout 1927.\n",
     "text_source": "gpt",
@@ -285,9 +674,29 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 389,
     "id": "732071f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732071f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91375b60-c560-012f-7354-58d385a7bc34",
     "text": "Governors Island: A set of three views showing a sham battle on the Parade Grounds. In the background appears the serrated horizon of lower Manhattan.\n\nAbout 1927.\n",
     "text_source": "gpt",
@@ -301,9 +710,29 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "732071f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732071f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91375b60-c560-012f-7354-58d385a7bc34",
     "text": "Governors Island: A set of three views showing a sham battle on the Parade Grounds. In the background appears the serrated horizon of lower Manhattan.\n\nAbout 1927.\n",
     "text_source": "gpt",
@@ -317,9 +746,36 @@
   {
     "date": "1929; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 413,
     "id": "732044f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732044f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lower Manhattan skyline."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84f07fd0-c560-012f-3ac9-58d385a7bc34",
     "text": "Governors Island: Two views of the island, view 1 being south across the battery and view 2 north toward the Lower Manhattan skyline.\n\nP. L. Sperr\n\nView 1: August 20, 1929\nView 2: August 2, 1939\n",
     "text_source": "gpt",
@@ -334,9 +790,36 @@
   {
     "date": "1929; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 406,
     "id": "732044f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732044f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lower Manhattan skyline."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84f07fd0-c560-012f-3ac9-58d385a7bc34",
     "text": "Governors Island: Two views of the island, view 1 being south across the battery and view 2 north toward the Lower Manhattan skyline.\n\nP. L. Sperr\n\nView 1: August 20, 1929\nView 2: August 2, 1939\n",
     "text_source": "gpt",
@@ -351,9 +834,29 @@
   {
     "date": "1929; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "732062f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732062f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d5f4da0-c560-012f-1600-58d385a7bc34",
     "text": "Governors Island. Two views of the old Castle William on the island.\n\nView 1: George L. Balgue  1929\n\nViews 2: P. L. Sperr  1934\n",
     "text_source": "gpt",
@@ -368,9 +871,29 @@
   {
     "date": "1929; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 470,
     "id": "732062f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732062f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d5f4da0-c560-012f-1600-58d385a7bc34",
     "text": "Governors Island. Two views of the old Castle William on the island.\n\nView 1: George L. Balgue  1929\n\nViews 2: P. L. Sperr  1934\n",
     "text_source": "gpt",
@@ -385,9 +908,39 @@
   {
     "date": "1929; 1932; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "14th Street",
+        "str2": "Battery",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "734504f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734504f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Boats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63e38630-c564-012f-916c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -403,9 +956,39 @@
   {
     "date": "1929; 1932; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "14th Street",
+        "str2": "Battery",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "734504f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734504f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Boats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63e38630-c564-012f-916c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -421,9 +1004,31 @@
   {
     "date": "1930; 1931; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732047f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732047f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Children playing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86597cb0-c560-012f-6794-58d385a7bc34",
     "text": "(1) A view north west across Governor's Island to Manhattan, as seen from Brooklyn. June 6, 1931.\n\nP. L. Sperr.\n\n(2) The same, another view. About 1932.\n\nP. L. Sperr.\n\n(3) An additional view. Also shown (right background) is the Brooklyn Bridge. September 10, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -439,9 +1044,31 @@
   {
     "date": "1930; 1931; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732047f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732047f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Children playing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86597cb0-c560-012f-6794-58d385a7bc34",
     "text": "(1) A view north west across Governor's Island to Manhattan, as seen from Brooklyn. June 6, 1931.\n\nP. L. Sperr.\n\n(2) The same, another view. About 1932.\n\nP. L. Sperr.\n\n(3) An additional view. Also shown (right background) is the Brooklyn Bridge. September 10, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -457,9 +1084,31 @@
   {
     "date": "1930; 1931; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "732047f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732047f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Children playing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86597cb0-c560-012f-6794-58d385a7bc34",
     "text": "(1) A view north west across Governor's Island to Manhattan, as seen from Brooklyn. June 6, 1931.\n\nP. L. Sperr.\n\n(2) The same, another view. About 1932.\n\nP. L. Sperr.\n\n(3) An additional view. Also shown (right background) is the Brooklyn Bridge. September 10, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -475,9 +1124,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 458,
     "id": "732073f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732073f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Grandstands -- New York (State) -- New York",
+          "Polo"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/920c24c0-c560-012f-fa5d-58d385a7bc34",
     "text": "Governors Island: Several airplanes flying over the polo field stands.\nAbout 1930.\n",
     "text_source": "gpt",
@@ -491,9 +1162,30 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "730000f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730000f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/461b6710-c55d-012f-b135-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -508,9 +1200,30 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "730000f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730000f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/461b6710-c55d-012f-b135-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -525,9 +1238,30 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730000f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730000f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/461b6710-c55d-012f-b135-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -542,9 +1276,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 436,
     "id": "732037f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732037f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Horses",
+          "Railroads",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/820df4d0-c560-012f-3c1b-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRailroad tressel being demolished & Grounds clean up after Wartime? construction.\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -558,9 +1316,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 434,
     "id": "732037f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732037f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Horses",
+          "Railroads",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/820df4d0-c560-012f-3c1b-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRailroad tressel being demolished & Grounds clean up after Wartime? construction.\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -574,9 +1356,29 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 434,
     "id": "732038f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732038f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Greenhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82850780-c560-012f-90ac-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad-loading gang\nPhotos by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -590,9 +1392,29 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 434,
     "id": "732038f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732038f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Greenhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82850780-c560-012f-90ac-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad-loading gang\nPhotos by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -606,9 +1428,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 434,
     "id": "732039f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732039f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82daa6d0-c560-012f-f7dd-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad-loading gang &\nRailroad wrecking gang\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -622,9 +1467,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 433,
     "id": "732039f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732039f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82daa6d0-c560-012f-f7dd-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad-loading gang &\nRailroad wrecking gang\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -638,9 +1506,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 434,
     "id": "732040f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732040f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Sidewalks",
+          "Street maintenance & repair",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/834fc970-c560-012f-8e90-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad- loading gang &\nRailroad dock to be demolished\nPhotos by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -654,9 +1547,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 435,
     "id": "732040f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732040f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Sidewalks",
+          "Street maintenance & repair",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/834fc970-c560-012f-8e90-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad- loading gang &\nRailroad dock to be demolished\nPhotos by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -670,9 +1588,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 435,
     "id": "732041f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732041f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83bc48d0-c560-012f-bc00-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad & Clearance Repair Gang\nPhotos by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -686,9 +1627,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 433,
     "id": "732041f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732041f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83bc48d0-c560-012f-bc00-58d385a7bc34",
     "text": "Photo by Signal Corps U.S.A.\nFeb. 2, 1931\nGovernor's Island, N.Y.\nRoad & Clearance Repair Gang\nPhotos by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -702,9 +1666,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732046f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732046f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85d9ffc0-c560-012f-349c-58d385a7bc34",
     "text": "(1)\nN.E. portion of Governor's Island, seen from Hamilton Ave., ferry-boat, in Buttermilk Channel.\n\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle.\n\nJune 6, 1931.\n\nP. L. Sperr.\n\n(3)\nThe same, view, from a slightly different angle.\n\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -718,9 +1700,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732046f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732046f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85d9ffc0-c560-012f-349c-58d385a7bc34",
     "text": "(1)\nN.E. portion of Governor's Island, seen from Hamilton Ave., ferry-boat, in Buttermilk Channel.\n\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle.\n\nJune 6, 1931.\n\nP. L. Sperr.\n\n(3)\nThe same, view, from a slightly different angle.\n\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -734,9 +1734,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "732046f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732046f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85d9ffc0-c560-012f-349c-58d385a7bc34",
     "text": "(1)\nN.E. portion of Governor's Island, seen from Hamilton Ave., ferry-boat, in Buttermilk Channel.\n\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle.\n\nJune 6, 1931.\n\nP. L. Sperr.\n\n(3)\nThe same, view, from a slightly different angle.\n\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -750,9 +1768,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732049f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732049f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lower Manhattan skyline."
+      ],
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8754fa40-c560-012f-a84e-58d385a7bc34",
     "text": "(1)\nLooking across Governor's Island, from Buttermilk Channel, north\nwest to the Manhattan Skyline.\nJuly 9, 1933.\nP. L. Sperr.\n(2)\nThe same, at a slightly different angle.\nJuly 9, 1933.\nP. L. Sperr.\n(3)\nThe same, closer to the Island.\nJuly 9, 1933.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -766,9 +1805,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "732049f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732049f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lower Manhattan skyline."
+      ],
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8754fa40-c560-012f-a84e-58d385a7bc34",
     "text": "(1)\nLooking across Governor's Island, from Buttermilk Channel, north\nwest to the Manhattan Skyline.\nJuly 9, 1933.\nP. L. Sperr.\n(2)\nThe same, at a slightly different angle.\nJuly 9, 1933.\nP. L. Sperr.\n(3)\nThe same, closer to the Island.\nJuly 9, 1933.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -782,9 +1842,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "732049f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732049f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lower Manhattan skyline."
+      ],
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8754fa40-c560-012f-a84e-58d385a7bc34",
     "text": "(1)\nLooking across Governor's Island, from Buttermilk Channel, north\nwest to the Manhattan Skyline.\nJuly 9, 1933.\nP. L. Sperr.\n(2)\nThe same, at a slightly different angle.\nJuly 9, 1933.\nP. L. Sperr.\n(3)\nThe same, closer to the Island.\nJuly 9, 1933.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -798,9 +1879,43 @@
   {
     "date": "1933; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "732050f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/732050f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Liberty Island (N.Y.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "name": [
+          "Bartholdi, Fr\u00e9d\u00e9ric Auguste, 1834-1904"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Hotels",
+          "Piers & wharves",
+          "Ships",
+          "Statue of Liberty (New York, N.Y.)",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87dcd5a0-c560-012f-3c18-58d385a7bc34",
     "rotation": 90,
     "text": "Governors Island: A set of 3 views photographed from atop the Hotel St. George in Brooklyn showing Butter-milk Channel separating the above mentioned Island from the Brooklyn mainland. Generally speaking this is more or less included in the Upper New York Bay.\n\nNote beyond the Statue of Liberty on Bedloes Island, the Bayonne, New Jersey shoreline. The photographer is viewing eastward and has eliminated lower Manhattan, which if shown would be on the right.\n\nViews 1-2: June 15, 1933\nView 3: August 24, 1938\n\nP. L. Sperr\n",
@@ -816,9 +1931,43 @@
   {
     "date": "1933; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "732050f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/732050f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Liberty Island (N.Y.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "name": [
+          "Bartholdi, Fr\u00e9d\u00e9ric Auguste, 1834-1904"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Hotels",
+          "Piers & wharves",
+          "Ships",
+          "Statue of Liberty (New York, N.Y.)",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87dcd5a0-c560-012f-3c18-58d385a7bc34",
     "rotation": 90,
     "text": "Governors Island: A set of 3 views photographed from atop the Hotel St. George in Brooklyn showing Butter-milk Channel separating the above mentioned Island from the Brooklyn mainland. Generally speaking this is more or less included in the Upper New York Bay.\n\nNote beyond the Statue of Liberty on Bedloes Island, the Bayonne, New Jersey shoreline. The photographer is viewing eastward and has eliminated lower Manhattan, which if shown would be on the right.\n\nViews 1-2: June 15, 1933\nView 3: August 24, 1938\n\nP. L. Sperr\n",
@@ -834,9 +1983,43 @@
   {
     "date": "1933; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732050f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732050f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "Liberty Island (N.Y.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "name": [
+          "Bartholdi, Fr\u00e9d\u00e9ric Auguste, 1834-1904"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Hotels",
+          "Piers & wharves",
+          "Ships",
+          "Statue of Liberty (New York, N.Y.)",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87dcd5a0-c560-012f-3c18-58d385a7bc34",
     "text": "Governors Island: A set of 3 views photographed from atop the Hotel St. George in Brooklyn showing Butter-milk Channel separating the above mentioned Island from the Brooklyn mainland. Generally speaking this is more or less included in the Upper New York Bay.\n\nNote beyond the Statue of Liberty on Bedloes Island, the Bayonne, New Jersey shoreline. The photographer is viewing eastward and has eliminated lower Manhattan, which if shown would be on the right.\n\nViews 1-2: June 15, 1933\nView 3: August 24, 1938\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -851,9 +2034,35 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8af56440-c560-012f-e3f5-58d385a7bc34",
     "text": "(1) Bird's eye view of Governor's Island, in New York Harbor; as seen south from atop No. 60 Wall Street, Manhattan.\n\nApril 13, 1933.\n\nP. L. Sperr.\n\n(2) The same view. two months later.\n\nJune 14, 1933.\n\nP. L. Sperr.\n\n(3) The same view, looking southeasterly beyond the Narrows of New York Bay.\n\nJune 14, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -867,9 +2076,35 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732057f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732057f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8af56440-c560-012f-e3f5-58d385a7bc34",
     "text": "(1) Bird's eye view of Governor's Island, in New York Harbor; as seen south from atop No. 60 Wall Street, Manhattan.\n\nApril 13, 1933.\n\nP. L. Sperr.\n\n(2) The same view. two months later.\n\nJune 14, 1933.\n\nP. L. Sperr.\n\n(3) The same view, looking southeasterly beyond the Narrows of New York Bay.\n\nJune 14, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -883,9 +2118,35 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732057f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732057f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Buttermilk Channel (N.Y.)",
+          "East River (N.Y.)",
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8af56440-c560-012f-e3f5-58d385a7bc34",
     "text": "(1) Bird's eye view of Governor's Island, in New York Harbor; as seen south from atop No. 60 Wall Street, Manhattan.\n\nApril 13, 1933.\n\nP. L. Sperr.\n\n(2) The same view. two months later.\n\nJune 14, 1933.\n\nP. L. Sperr.\n\n(3) The same view, looking southeasterly beyond the Narrows of New York Bay.\n\nJune 14, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -899,9 +2160,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "732069f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732069f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lighthouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/906c5ee0-c560-012f-41c7-58d385a7bc34",
     "text": "Governors Island: A view of the \"Light\" that is located at the northwestern corner of the Island. The photographers view is southward and shows Staten Island in the background.\n\nFebruary 24, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -915,9 +2197,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732052f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732052f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Golf"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88b4f700-c560-012f-e009-58d385a7bc34",
     "text": "Looking north west across the golf course green on Governor's Island.\n\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -931,9 +2233,26 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "732053f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732053f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/891a3fa0-c560-012f-75b8-58d385a7bc34",
     "text": "South east end of the south battery, on Governor's Island.\n\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -947,9 +2266,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732061f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732061f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Battlements"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cebe8e0-c560-012f-9252-58d385a7bc34",
     "text": "(1) Governor's Island: southern Manhattan may be seen above the north Battlements.\nMay 1, 1935.\n\nP. L. Sperr.\n\n(2) The same view, from a slightly different angle.\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -963,9 +2302,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732061f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732061f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Battlements"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cebe8e0-c560-012f-9252-58d385a7bc34",
     "text": "(1) Governor's Island: southern Manhattan may be seen above the north Battlements.\nMay 1, 1935.\n\nP. L. Sperr.\n\n(2) The same view, from a slightly different angle.\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -979,9 +2338,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732063f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732063f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Docks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8db34d50-c560-012f-2ef1-58d385a7bc34",
     "text": "\"Soissons Dock\", the ferry landing at the northern end of Governor's Island.\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -995,9 +2374,32 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732070f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732070f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "American",
+          "Officers' quarters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90c2e150-c560-012f-2883-58d385a7bc34",
     "text": "(1) Residence of the Commanding general for the Second Corps Area: on Governor's Island.\nMay 1, 1935.\n\nP. L. Sperr.\n\n(2) The south east end of \"General's Row\" in the officers' quarters on Governor's Island.\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -1011,9 +2413,32 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732070f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732070f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "American",
+          "Officers' quarters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90c2e150-c560-012f-2883-58d385a7bc34",
     "text": "(1) Residence of the Commanding general for the Second Corps Area: on Governor's Island.\nMay 1, 1935.\n\nP. L. Sperr.\n\n(2) The south east end of \"General's Row\" in the officers' quarters on Governor's Island.\nMay 1, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -1027,9 +2452,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732054f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732054f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barracks",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89705920-c560-012f-e413-58d385a7bc34",
     "text": "Governors Island, viewed northward, in a set of two views, showing the U.S. Hospital and barracks.\n\nOctober 15, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -1043,9 +2489,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "732054f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732054f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barracks",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89705920-c560-012f-e413-58d385a7bc34",
     "text": "Governors Island, viewed northward, in a set of two views, showing the U.S. Hospital and barracks.\n\nOctober 15, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -1059,9 +2526,26 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors ",
+      "technique": "subjects"
+    },
     "height": 390,
     "id": "732067f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732067f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f97e4f0-c560-012f-1c34-58d385a7bc34",
     "text": "Governors Island: New York's famed skyline contrasted against antiquated cannons.\n\n1938-9\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
     "text_source": "gpt",
@@ -1076,9 +2560,26 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 390,
     "id": "732068f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732068f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fff5ec0-c560-012f-c075-58d385a7bc34",
     "text": "Governors Island; Cannonballs and equipment of an old bastion.\n\n1938-9\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Riesenberg and Alex. Alland, IRGV.\n",
     "text_source": "gpt",
@@ -1093,9 +2594,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 305,
     "id": "732072f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732072f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Gas industry",
+          "Parades & processions",
+          "Polo",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91b49b50-c560-012f-f481-58d385a7bc34",
     "text": "Governors Island: The honor guard and band on the parade grounds prior to a polo watch.\n\n1940\nViews 1,2,3\n\nGift of Beecher Ogden\n",
     "text_source": "gpt",
@@ -1109,9 +2636,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 298,
     "id": "732072f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732072f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Gas industry",
+          "Parades & processions",
+          "Polo",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91b49b50-c560-012f-f481-58d385a7bc34",
     "text": "Governors Island: The honor guard and band on the parade grounds prior to a polo watch.\n\n1940\nViews 1,2,3\n\nGift of Beecher Ogden\n",
     "text_source": "gpt",
@@ -1125,9 +2678,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Islands - Governors Island ",
+      "technique": "subjects"
+    },
     "height": 291,
     "id": "732072f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732072f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Gas industry",
+          "Parades & processions",
+          "Polo",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91b49b50-c560-012f-f481-58d385a7bc34",
     "text": "Governors Island: The honor guard and band on the parade grounds prior to a polo watch.\n\n1940\nViews 1,2,3\n\nGift of Beecher Ogden\n",
     "text_source": "gpt",
@@ -1141,9 +2720,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732074f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732074f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Horses",
+          "Polo"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92841f60-c560-012f-0169-58d385a7bc34",
     "text": "Governors Island: Polo players and their mounts playing on the Parade Ground.\n\n1940\nViews 1,2\n\nGift of Beecher Ogden\n",
     "text_source": "gpt",
@@ -1157,9 +2758,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "732074f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732074f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Horses",
+          "Polo"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92841f60-c560-012f-0169-58d385a7bc34",
     "text": "Governors Island: Polo players and their mounts playing on the Parade Ground.\n\n1940\nViews 1,2\n\nGift of Beecher Ogden\n",
     "text_source": "gpt",
@@ -1173,9 +2796,28 @@
   {
     "date": "1945",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 482,
     "id": "723211f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723211f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f0ca50-c552-012f-1a05-58d385a7bc34",
     "text": "P.L. Sperr collection\nRec'd September 12, 1945\n",
     "text_source": "gpt",
@@ -1189,9 +2831,37 @@
   {
     "date": "1957-04-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.68945,
+        "lng": -74.016792
+      },
+      "source": "Governors Island (New York County, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 436,
     "id": "1558502",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558502.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "South Ferry - Governors Island - Hudson River"
+      ],
+      "subjects": {
+        "geographic": [
+          "Governors Island (New York County, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Ferry terminals",
+          "Harbors",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8907b680-c5ed-012f-5c5f-58d385a7bc34",
     "text": null,
     "text_source": null,

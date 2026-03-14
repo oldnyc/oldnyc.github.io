@@ -2,9 +2,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hudson Avenue",
+        "str2": "Prospect Street"
+      },
+      "source": "Brooklyn: Prospect Street - Hudson Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706402f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706402f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43651fc0-c538-012f-7ebe-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Street - Hudson Avenue",
     "text": null,

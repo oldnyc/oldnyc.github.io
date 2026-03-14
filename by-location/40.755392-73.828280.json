@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1890"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Main Street",
+        "str2": "Maple Avenue"
+      },
+      "source": "Queens: Main Street - Maple Avenue",
+      "technique": "title-cross"
+    },
     "height": 442,
     "id": "727309f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727309f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/073d6760-c559-012f-8bd2-58d385a7bc34",
     "original_title": "Queens: Main Street - Maple Avenue",
     "text": "Main Street, south from and across Maple Avenue to Franklin Avenue, showing an early view of the street when it was still known as Jagger Avenue.\n\nTownsend Lawrence\n\nabout 1890\n",

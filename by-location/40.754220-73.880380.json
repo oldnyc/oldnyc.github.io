@@ -2,9 +2,28 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "34th Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Queens: 87th Street - 34th Avenue",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "725700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jackson Heights (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3732210-c556-012f-b680-58d385a7bc34",
     "original_title": "Queens: 87th Street - 34th Avenue",
     "text": "87th Street, near 34th Avenue, showing one of a number of new private homes erected in this section of Jackson Heights. About 1928. Brown Brothers.",

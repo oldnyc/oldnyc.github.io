@@ -2,9 +2,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 87th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714747f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714747f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6efcd70-c545-012f-9465-58d385a7bc34",
     "original_title": "Manhattan: 87th Street (West) - Columbus Avenue",
     "text": "140-142 West 87th Street, south side, between Columbus and Amsterdam Avenues.\nAbout 1912.\n",

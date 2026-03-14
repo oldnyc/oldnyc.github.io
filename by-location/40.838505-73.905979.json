@@ -2,9 +2,29 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "171st Street",
+        "str2": "Webster Avenue"
+      },
+      "source": "171st Street and Webster Avenue",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "1509473",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509473.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/985bd850-c5cd-012f-c3bd-58d385a7bc34",
     "text": null,
     "text_source": null,

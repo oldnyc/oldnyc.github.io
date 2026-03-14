@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "109th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "109th Street and Amsterdam Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465584",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465584.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/481c8ed0-c612-012f-c7ab-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 109th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715017f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715017f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d7f57e0-c546-012f-1a4d-58d385a7bc34",
     "original_title": "Manhattan: 109th Street (West) - Amsterdam Avenue",
     "text": "221 West 109th Street, north side, west of Amsterdam Avenue. This is a \u00bd-story and in the rear is a three-story frame house.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

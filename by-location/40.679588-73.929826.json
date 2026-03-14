@@ -2,9 +2,30 @@
   {
     "date": "1942-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1735,
+        "street": "Fulton Street"
+      },
+      "source": "Fulton Street #1735",
+      "technique": "title-address"
+    },
     "height": 391,
     "id": "1509615-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509615-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b04e60c0-c5cd-012f-7b94-58d385a7bc34",
     "text": null,
     "text_source": null,

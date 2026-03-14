@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "29th Street (East)",
+        "str2": "Quentin Road"
+      },
+      "source": "Brooklyn: 29th Street (East) - Quentin Road",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "702697f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702697f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/863630f0-c532-012f-401f-58d385a7bc34",
     "original_title": "Brooklyn: 29th Street (East) - Quentin Road",
     "text": "East 29th Street, between Quentin Road and Ave. R. A typical row of houses in this area of Brooklyn.\nAbout 1929.\n",

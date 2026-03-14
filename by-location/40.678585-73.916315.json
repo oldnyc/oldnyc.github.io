@@ -2,9 +2,29 @@
   {
     "date": "1942-05-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Saratoga Avenue"
+      },
+      "source": "Fulton Street and Saratoga Avenue",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "485819",
     "image_url": "https://images.nypl.org/?id=485819&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71c9af40-c60e-012f-bf8e-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "144th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "144th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 591,
     "id": "417639-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417639-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/207ed490-c6cd-012f-d4d9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "144th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "144th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417639-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417639-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/207ed490-c6cd-012f-d4d9-58d385a7bc34",
     "text": null,
     "text_source": null,

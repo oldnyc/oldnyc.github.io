@@ -2,9 +2,32 @@
   {
     "date": "1885",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 53,
+        "street": "Bond Street"
+      },
+      "source": "Bond Street #53",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508971-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508971-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Free Circulating Library"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3c9d3c0-c5cd-012f-0408-58d385a7bc34",
     "text": null,
     "text_source": null,

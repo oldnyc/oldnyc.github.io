@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Adee Avenue",
+        "str2": "Radcliff Avenue"
+      },
+      "source": "Bronx: Adee Avenue - Radcliff Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "700396f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700396f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34929080-c52f-012f-ed02-58d385a7bc34",
     "original_title": "Bronx: Adee Avenue - Radcliff Avenue",
     "text": "Adee Avenue, south side, between Radcliff and Bronxwood Avenues, showing Public School No. 76.\n\nBoard of Education of the City of New York\n\n1930's\n",

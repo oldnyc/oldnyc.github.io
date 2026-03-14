@@ -2,9 +2,38 @@
   {
     "date": "1933-12-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1075,
+        "street": "Lafayette Avenue"
+      },
+      "source": "1075 Lafayette Avenue",
+      "technique": "gpt"
+    },
     "height": 471,
     "id": "1557793",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557793.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "United States Post Office - Postal Station S mail room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f0617e0-c5ec-012f-a119-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,38 @@
   {
     "date": "1933-12-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1075,
+        "street": "Lafayette Avenue"
+      },
+      "source": "1075 Lafayette Avenue",
+      "technique": "gpt"
+    },
     "height": 483,
     "id": "1557794",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557794.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "United States Post Office - Postal Station S interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f518780-c5ec-012f-30c1-58d385a7bc34",
     "text": null,
     "text_source": null,

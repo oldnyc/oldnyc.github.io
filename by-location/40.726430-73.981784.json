@@ -2,9 +2,35 @@
   {
     "date": "1928; 1930; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72642949999999,
+        "lng": -73.9817841
+      },
+      "source": "Tompkins Square Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "732846f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732846f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "City Hall Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Children playing",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c68d4bd0-c561-012f-d771-58d385a7bc34",
     "text": "(1) Recreations--Swimming: Seeking relief from the heat, these children find Central Park a good cooling-off place.\nAbout 1928\n\n(2) In the fountain of Civic Virtue, City Hall Park, Manhattan.\nP. L. Sperr\n1932\n\n(3) This beach is in Tompkins Square Park, on the lower East Side.\nP. L. Sperr\nJult, 1930\n",
     "text_source": "gpt",
@@ -20,9 +46,35 @@
   {
     "date": "1928; 1930; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72642949999999,
+        "lng": -73.9817841
+      },
+      "source": "Tompkins Square Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "732846f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732846f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "City Hall Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Children playing",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c68d4bd0-c561-012f-d771-58d385a7bc34",
     "text": "(1) Recreations--Swimming: Seeking relief from the heat, these children find Central Park a good cooling-off place.\nAbout 1928\n\n(2) In the fountain of Civic Virtue, City Hall Park, Manhattan.\nP. L. Sperr\n1932\n\n(3) This beach is in Tompkins Square Park, on the lower East Side.\nP. L. Sperr\nJult, 1930\n",
     "text_source": "gpt",
@@ -38,9 +90,35 @@
   {
     "date": "1928; 1930; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72642949999999,
+        "lng": -73.9817841
+      },
+      "source": "Tompkins Square Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "732846f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732846f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "City Hall Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Children playing",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c68d4bd0-c561-012f-d771-58d385a7bc34",
     "text": "(1) Recreations--Swimming: Seeking relief from the heat, these children find Central Park a good cooling-off place.\nAbout 1928\n\n(2) In the fountain of Civic Virtue, City Hall Park, Manhattan.\nP. L. Sperr\n1932\n\n(3) This beach is in Tompkins Square Park, on the lower East Side.\nP. L. Sperr\nJult, 1930\n",
     "text_source": "gpt",
@@ -56,9 +134,47 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72642949999999,
+        "lng": -73.9817841
+      },
+      "source": "Tompkins Square Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Avenue A",
+        "str2": "Victory Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Avenue A",
+        "str2": "Victory Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 417,
     "id": "723556f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723556f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84926400-c553-012f-8266-58d385a7bc34",
     "original_title": "Manhattan: Avenue A - Victory Boulevard",
     "text": null,

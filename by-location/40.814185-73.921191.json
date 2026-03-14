@@ -2,9 +2,36 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "145th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 145th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700108f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700108f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Factories",
+          "Morgues & mortuaries",
+          "Store fixtures"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cccca600-c52e-012f-8a57-58d385a7bc34",
     "original_title": "Bronx: 145th Street (East) - 3rd Avenue",
     "text": "352 to 364 East 145th Street, south side, just east of Third Avenue, and the \"El.\" The two buildings in view 1 are Nos. 352 and 356; the factory, in view 2 is No. 358-364. It was formerly a warehouse, erected in 1882, and is now the store fixtures manufacturing plant of Silverberg and Trattner.\n\nP. L. Sperr\n\nApril 29, 1941\nViews 1, 2\n",
@@ -19,9 +46,36 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "145th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 145th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700108f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700108f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Factories",
+          "Morgues & mortuaries",
+          "Store fixtures"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cccca600-c52e-012f-8a57-58d385a7bc34",
     "original_title": "Bronx: 145th Street (East) - 3rd Avenue",
     "text": "352 to 364 East 145th Street, south side, just east of Third Avenue, and the \"El.\" The two buildings in view 1 are Nos. 352 and 356; the factory, in view 2 is No. 358-364. It was formerly a warehouse, erected in 1882, and is now the store fixtures manufacturing plant of Silverberg and Trattner.\n\nP. L. Sperr\n\nApril 29, 1941\nViews 1, 2\n",
@@ -39,9 +93,41 @@
     "dates_from_text": [
       "1941-04-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 145th Street",
+        "str2": "Third Avenue"
+      },
+      "source": "E. 145th Street and Third Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "145th Street (East)",
+        "str2": "146th Street (East)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "E. 145th Street",
+        "str2": "E. 146th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "700110f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700110f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd8532b0-c52e-012f-799a-58d385a7bc34",
     "original_title": "Bronx: 146th Street (East) - 145th Street (East)",
     "text": "E. 146th Street, north side, east from E. 145th Street (just east of Third Avenue), showing some remaining old frame houses among the newer type of home, the tenement.\n\nP. L. Sperr\nApril 8, 1941\n",

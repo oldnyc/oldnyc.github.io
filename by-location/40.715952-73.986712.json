@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Grand Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "720108f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720108f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f961f20-c54e-012f-7716-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Clinton Street",
     "text": "(1)\n\n407-401 Grand Street, at, adjoining, and west of the S.W. corner of Clinton Street. Nos. 407-405 are frame houses with brick fronts.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same, another view.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -19,9 +41,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Grand Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "720108f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720108f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f961f20-c54e-012f-7716-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Clinton Street",
     "text": "(1)\n\n407-401 Grand Street, at, adjoining, and west of the S.W. corner of Clinton Street. Nos. 407-405 are frame houses with brick fronts.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same, another view.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -39,9 +83,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Grand Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720109f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720109f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10021f10-c54e-012f-d18f-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Clinton Street",
     "text": "412 Grand Street, north side, east of Clinton Street.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -56,9 +118,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton St.",
+        "str2": "Grand St."
+      },
+      "source": "Clinton St. and Grand St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984812",
     "image_url": "https://images.nypl.org/?id=3984812&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/841f6c70-c5d7-012f-63be-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -72,9 +158,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Clinton Street - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "719005f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719005f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Restaurants",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/497d0110-c54c-012f-4b13-58d385a7bc34",
     "original_title": "Manhattan: Clinton Street - Grand Street",
     "text": "Clinton Street, east side, north from Grand Street.\nMarch 26, 1937.\n\nP. L. Sperr.\n",

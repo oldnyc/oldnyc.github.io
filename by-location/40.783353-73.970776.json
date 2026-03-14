@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Eighty-third Street"
+      },
+      "source": "Central Park West and Eighty-third Street",
+      "technique": "gpt"
+    },
     "height": 517,
     "id": "417430",
     "image_url": "https://images.nypl.org/?id=417430&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02cf77e0-c612-012f-a879-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +43,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 83rd Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714654f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714654f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/913859e0-c545-012f-b363-58d385a7bc34",
     "text": "25, 35 and 37 West 83rd Street, north side, between Central Park West and Columbus Ave.\n\nAbout 1910.\n\nJames Suydam\n",
     "text_source": "gpt",
@@ -37,9 +77,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Central Park West",
+        "str2": "West 83rd Street"
+      },
+      "source": "Manhattan: 7 West 83rd Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558336",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558336.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Temple Rodeph Sholom"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb656e30-c5ec-012f-8ffe-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -53,9 +120,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Central Park West",
+        "str2": "West 83rd Street"
+      },
+      "source": "Manhattan: 7 West 83rd Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 439,
     "id": "1558337",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558337.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Temple Rodeph Sholom exterior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fbd08d20-c5ec-012f-ca63-58d385a7bc34",
     "text": null,
     "text_source": null,

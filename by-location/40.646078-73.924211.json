@@ -2,9 +2,53 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 436,
+        "street": "East 56th Street"
+      },
+      "source": "436 East 56th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "55th Street (East)",
+        "str2": "Clarendon Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Clarendon Road",
+        "str2": "East 55th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 55th Street",
+        "str2": "Hunterfly Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "702782f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702782f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8351260-c532-012f-475a-58d385a7bc34",
     "original_title": "Brooklyn: 55th Street (East) - Clarendon Road",
     "text": "(1) East 55th Street, east side, north from Clarendon to Beverly Roads, showing P.S. No. 121. On the right appears No. 436 East 56th Street.\n\nSeptember 1925.\n\nEugene L. Armbruster Collection.\n\n(2) The same from another angle.\nSeptember 1925.\n\nEugene L. Armbruster Collection.\n\n(3) The same as No. 2, and showing the Schoolhouse in the center of King's Highway. This view also shows the new location of King's house.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n\n(4) An earlier view in the opposite direction, showing the convergence of Hunterfly Road (now King's Highway) and East 55th Street.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +63,53 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 436,
+        "street": "East 56th Street"
+      },
+      "source": "436 East 56th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "55th Street (East)",
+        "str2": "Clarendon Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Clarendon Road",
+        "str2": "East 55th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 55th Street",
+        "str2": "Hunterfly Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 470,
     "id": "702782f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702782f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8351260-c532-012f-475a-58d385a7bc34",
     "original_title": "Brooklyn: 55th Street (East) - Clarendon Road",
     "text": "(1) East 55th Street, east side, north from Clarendon to Beverly Roads, showing P.S. No. 121. On the right appears No. 436 East 56th Street.\n\nSeptember 1925.\n\nEugene L. Armbruster Collection.\n\n(2) The same from another angle.\nSeptember 1925.\n\nEugene L. Armbruster Collection.\n\n(3) The same as No. 2, and showing the Schoolhouse in the center of King's Highway. This view also shows the new location of King's house.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n\n(4) An earlier view in the opposite direction, showing the convergence of Hunterfly Road (now King's Highway) and East 55th Street.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -36,9 +124,53 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 436,
+        "street": "East 56th Street"
+      },
+      "source": "436 East 56th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "55th Street (East)",
+        "str2": "Clarendon Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Clarendon Road",
+        "str2": "East 55th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 55th Street",
+        "str2": "Hunterfly Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 455,
     "id": "702782f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702782f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8351260-c532-012f-475a-58d385a7bc34",
     "original_title": "Brooklyn: 55th Street (East) - Clarendon Road",
     "text": "(1) East 55th Street, east side, north from Clarendon to Beverly Roads, showing P.S. No. 121. On the right appears No. 436 East 56th Street.\n\nSeptember 1925.\n\nEugene L. Armbruster Collection.\n\n(2) The same from another angle.\nSeptember 1925.\n\nEugene L. Armbruster Collection.\n\n(3) The same as No. 2, and showing the Schoolhouse in the center of King's Highway. This view also shows the new location of King's house.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n\n(4) An earlier view in the opposite direction, showing the convergence of Hunterfly Road (now King's Highway) and East 55th Street.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",

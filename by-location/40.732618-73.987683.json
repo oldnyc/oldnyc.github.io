@@ -2,9 +2,27 @@
   {
     "date": "1933-07-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "13th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 13th Street.",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "708005f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708005f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c626e3a0-c53a-012f-132e-58d385a7bc34",
     "text": "Third Avenue at N.W. corner 13th Street. P. L. Sperr, Photographer.\nJuly 7, 1933.\n",
     "text_source": "gpt",
@@ -18,9 +36,27 @@
   {
     "date": "1934-05-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "13th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "13th Street and 3rd Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "708007f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708007f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6e89d30-c53a-012f-f713-58d385a7bc34",
     "text": "Third Avenue, west side, north from No. 118 between 13th and 14th Streets.\n\nMay 21, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

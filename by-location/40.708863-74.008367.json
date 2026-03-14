@@ -2,9 +2,43 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 49,
+        "street": "Maiden Lane"
+      },
+      "source": "49 Maiden Lane",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Pearl Street",
+        "str2": "William Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 463,
     "id": "1557982",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557982.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Doors & doorways",
+          "Historic buildings",
+          "Office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46955d50-c5ed-012f-f3fe-58d385a7bc34",
     "text": null,
     "text_source": null,

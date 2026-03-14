@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1921"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "46th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 46th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713272f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713272f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/695a2910-c543-012f-62f7-58d385a7bc34",
     "original_title": "Manhattan: 46th Street (West) - 8th Avenue",
     "text": "316-322 West 46th Street, south side, west of Eighth Avenue.\nAbout 1921.\n\nPublishers' Photo Service.\nGift of E. M. Jenks.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "46th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 46th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "713273f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713273f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69b0d370-c543-012f-038a-58d385a7bc34",
     "original_title": "Manhattan: 46th Street (West) - 8th Avenue",
     "text": "322-350 West 46th Street, south side, between Eighth and Ninth Avenues.\n\nAbout 1923.\n\nJames Suydam.\nGift of E. M. Jenks.\n",
@@ -42,9 +78,37 @@
   {
     "date": "1925; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue)",
+        "str2": "West 46th Street (Seventh Avenue"
+      },
+      "source": "Manhattan: 226 West 46th Street (Seventh Avenue - Eighth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "1558236",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558236.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin's 46th Street Theater"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Theaters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d4abdd40-c5ec-012f-4621-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -59,9 +123,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "46th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 46th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713271f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713271f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68ef27c0-c543-012f-591b-58d385a7bc34",
     "original_title": "Manhattan: 46th Street (West) - 8th Avenue",
     "text": "316-300 West 46th Street, west of, adjoining, and at the S.W. corner of Eight Avenue. Saint Luke's Church (Evangelical Lutheran) is in the centre.\n\nOctober 22, 1927.\nP. L. Sperr.\n",
@@ -76,9 +161,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "46th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 46th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713270f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713270f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/688b8710-c543-012f-de17-58d385a7bc34",
     "original_title": "Manhattan: 46th Street (West) - 8th Avenue",
     "text": "308-320 West 46th Street, south side, just west of Eighth Avenue. In the centre is Saint Luke's Church (Evangelical Lutheran). June 30, 1930.\n\nP. L. Sperr.\n",

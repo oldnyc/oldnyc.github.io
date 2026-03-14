@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Eighty-seventh Street"
+      },
+      "source": "Central Park West and Eighty-seventh Street",
+      "technique": "gpt"
+    },
     "height": 504,
     "id": "416450",
     "image_url": "https://images.nypl.org/?id=416450&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/418de770-c6db-012f-d062-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "718501f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718501f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Private schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85fd3940-c54b-012f-5fe6-58d385a7bc34",
     "text": "(1)\nCentral Park West, west side, from 87th to 89th Streets. The Mohonk and Minnewaska Apartments, shown at the S.W. corner of 88th Street, have been demolished and replaced by a modern apartment house. The Walden School is on the N.W. corner of 88th Street and beyond it is the St. Urban. These buildings are still standing (1935).\nFebruary 2, 1929.\n\nP. L. Sperr, Photographer.\n\n(2)\nThe same, from a somewhat greater distance.\nFebruary 2, 1929.\n\nP. L. Sperr, Photographer.\n\nTHE NEW YORK\nPUBLIC LIBRARY\nASTOR, LENOX AND\nTILDEN FOUNDATIONS\nR L\n",
     "text_source": "gpt",
@@ -34,9 +81,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "718501f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718501f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Private schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85fd3940-c54b-012f-5fe6-58d385a7bc34",
     "text": "(1)\nCentral Park West, west side, from 87th to 89th Streets. The Mohonk and Minnewaska Apartments, shown at the S.W. corner of 88th Street, have been demolished and replaced by a modern apartment house. The Walden School is on the N.W. corner of 88th Street and beyond it is the St. Urban. These buildings are still standing (1935).\nFebruary 2, 1929.\n\nP. L. Sperr, Photographer.\n\n(2)\nThe same, from a somewhat greater distance.\nFebruary 2, 1929.\n\nP. L. Sperr, Photographer.\n\nTHE NEW YORK\nPUBLIC LIBRARY\nASTOR, LENOX AND\nTILDEN FOUNDATIONS\nR L\n",
     "text_source": "gpt",
@@ -53,9 +125,27 @@
     "dates_from_text": [
       "1935-06-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 87th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718502f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718502f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/864b65a0-c54b-012f-733e-58d385a7bc34",
     "text": "Central Park, West, west side, north from and including West 87th Street. Note surface car and tracks, soon after replaced by busses. A portion of Central Park appears on the right.\n\nJune 28, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

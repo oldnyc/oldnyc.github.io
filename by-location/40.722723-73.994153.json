@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth Street",
+        "str2": "Prince Street"
+      },
+      "source": "Manhattan: Elizabeth Street - Prince Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719643f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719643f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4be12b40-c54d-012f-9247-58d385a7bc34",
     "original_title": "Manhattan: Elizabeth Street - Prince Street",
     "text": "211 Elizabeth Street, west side, south of Prince Street. Building shown is a frame structure, with a stucco front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -22,9 +40,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth Street",
+        "str2": "Prince Street"
+      },
+      "source": "Manhattan: Elizabeth Street - Prince Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "719644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719644f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fruit",
+          "Markets",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c2e48a0-c54d-012f-4079-58d385a7bc34",
     "original_title": "Manhattan: Elizabeth Street - Prince Street",
     "text": "213-215 Elizabeth Street, adjoining and south of the S.W. corner of Prince Street. Buildings shown are frame structures.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -39,9 +82,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth St",
+        "str2": "Prince St"
+      },
+      "source": "Elizabeth St and Prince St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984369",
     "image_url": "https://images.nypl.org/?id=3984369&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/137273c0-c5d7-012f-5b0a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -55,9 +122,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Elizabeth St.",
+        "str2": "Prince St."
+      },
+      "source": "Elizabeth St. and Prince St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984668",
     "image_url": "https://images.nypl.org/?id=3984668&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68baff80-c5d7-012f-9841-58d385a7bc34",
     "text": null,
     "text_source": null,

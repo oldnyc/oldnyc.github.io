@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Leonard Street",
+        "str2": "Meserole Avenue"
+      },
+      "source": "Brooklyn: Meserole Avenue - Leonard Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705696f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705696f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31e78e00-c537-012f-37a7-58d385a7bc34",
     "original_title": "Brooklyn: Meserole Avenue - Leonard Street",
     "text": "128-134 Meserole Ave., south side, east from Leonard to Eckford Streets. Note in the foreground a church, so designated in the 1929 Atlas of Brooklyn, but with no denomination.\n\nSeptember 1, 1936.\n\nP. L. Sperr.\n",

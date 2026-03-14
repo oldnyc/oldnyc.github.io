@@ -2,9 +2,36 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 111,
+        "street": "John Street"
+      },
+      "source": "111 John Street",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "730708f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730708f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "East River (N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56a12b20-c55e-012f-206f-58d385a7bc34",
     "text": "(1)\nBrooklyn and Manhattan Bridges, in their order, as seen from 111 John Street, looking in a north easterly direction.\nJuly 8, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, taken from the twenty-second floor of the Municipal Building.\nJune 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -19,9 +46,36 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 111,
+        "street": "John Street"
+      },
+      "source": "111 John Street",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "730708f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730708f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "East River (N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56a12b20-c55e-012f-206f-58d385a7bc34",
     "text": "(1)\nBrooklyn and Manhattan Bridges, in their order, as seen from 111 John Street, looking in a north easterly direction.\nJuly 8, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, taken from the twenty-second floor of the Municipal Building.\nJune 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -36,9 +90,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold Street",
+        "str2": "John Street"
+      },
+      "source": "Brooklyn: John Street - Gold Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705130f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705130f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Foundries",
+          "Lead industry",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e87cf60-c536-012f-1465-58d385a7bc34",
     "original_title": "Brooklyn: John Street - Gold Street",
     "text": "John Street, at the N.E. corner of Gold Street, showing a portion of the National Lead Company.\nJune 26, 1934.\n\nP. L. Sperr.\n",
@@ -53,9 +130,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold St.",
+        "str2": "John St."
+      },
+      "source": "Gold St. and John St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984912",
     "image_url": "https://images.nypl.org/?id=3984912&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae08a190-c5d7-012f-2a56-58d385a7bc34",
     "text": null,
     "text_source": null,

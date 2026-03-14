@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Halsey Street",
+        "str2": "Knickerbocker Avenue"
+      },
+      "source": "Brooklyn: Halsey Street - Knickerbocker Avenue",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "704736f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704736f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/afd3df80-c535-012f-3ad6-58d385a7bc34",
     "original_title": "Brooklyn: Halsey Street - Knickerbocker Avenue",
     "text": "Halsey Street, east side, at the north of Knickerbocker Ave., showing the Alhambra Theatre at the corner.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n",

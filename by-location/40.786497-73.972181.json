@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Columbus Avenue",
+        "str2": "West 86th Street"
+      },
+      "source": "Columbus Avenue and West 86th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465520",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465520.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e2991f0-c612-012f-5402-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "86th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "86th Street and Columbus Avenue",
+      "technique": "gpt"
+    },
     "height": 546,
     "id": "417180",
     "image_url": "https://images.nypl.org/?id=417180&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9cd13cc0-c611-012f-804b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +80,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 86th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714727f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714727f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af3c4410-c545-012f-992c-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (West) - Columbus Avenue",
     "text": "42-46 West 86th Street, south side, east of Columbus Avenue.\nAbout 1911.\n",
@@ -57,9 +118,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 86th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714728f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714728f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/afb51aa0-c545-012f-658f-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (West) - Columbus Avenue",
     "text": "46-50 West 86th Street, adjoining and east of the S.E. corner of Columbus Avenue.\nAbout 1912.\n",
@@ -77,9 +156,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 86th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714732f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714732f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b14fb730-c545-012f-3ca2-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (West) - Columbus Avenue",
     "text": "106-108 West 86th Street, south side, west of Columbus Avenue.\nAbout 1912.\n",
@@ -94,9 +191,31 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 86th Street - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 415,
     "id": "714731f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714731f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0f41a10-c545-012f-871e-58d385a7bc34",
     "original_title": "Manhattan: 86th Street - Columbus Avenue",
     "text": "86th Street, Columbus Avenue, to Amsterdam. (Before Reconstruction).\nMarch 19, 1918.\n",
@@ -111,9 +230,31 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 86th Street - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "714729f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714729f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0094c90-c545-012f-f696-58d385a7bc34",
     "original_title": "Manhattan: 86th Street - Columbus Avenue",
     "text": "86th Street, Columbus Avenue to Amsterdam.\n(Before Reconstruction).\n\n September 12, 1920.\n",
@@ -131,9 +272,27 @@
     "dates_from_text": [
       "1920-09-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 86th Street - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "714730f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714730f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b08071a0-c545-012f-c17e-58d385a7bc34",
     "original_title": "Manhattan: 86th Street - Columbus Avenue",
     "text": "86th Street, Columbus to Amsterdam Avenues. (Before Reconstruction).\nSeptember 12, 1920\n",
@@ -148,9 +307,29 @@
   {
     "date": "1940-06-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Columbus Avenue at 86th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "486021",
     "image_url": "https://images.nypl.org/?id=486021&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c41f290-c60e-012f-c0dd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -164,9 +343,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 86th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "719089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e0a24e0-c54c-012f-de7a-58d385a7bc34",
     "original_title": "Manhattan: Columbus Avenue - 86th Street (West)",
     "text": "Columbus Avenue, south from W. 86th Street, as viewed from the uptown \"El\" platform. Shown is the opposite station (downtown) and the tracks below this point. Buildings appearing are on the west side of the Avenue. West 86th Street is on the right.\n\nJune 6, 1940\nViews 1,2\n\nP. L. Sperr\n\nView 1 - Neg. # 1259\nView 2\n",
@@ -181,9 +384,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 86th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "719089f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719089f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e0a24e0-c54c-012f-de7a-58d385a7bc34",
     "original_title": "Manhattan: Columbus Avenue - 86th Street (West)",
     "text": "Columbus Avenue, south from W. 86th Street, as viewed from the uptown \"El\" platform. Shown is the opposite station (downtown) and the tracks below this point. Buildings appearing are on the west side of the Avenue. West 86th Street is on the right.\n\nJune 6, 1940\nViews 1,2\n\nP. L. Sperr\n\nView 1 - Neg. # 1259\nView 2\n",
@@ -198,9 +425,29 @@
   {
     "date": "1941-04-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Columbus Avenue at 86th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "486049",
     "image_url": "https://images.nypl.org/?id=486049&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/557f7e70-c60e-012f-75f3-58d385a7bc34",
     "text": null,
     "text_source": null,

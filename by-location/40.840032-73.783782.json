@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-07-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Buckley Street",
+        "str2": "City Island Avenue"
+      },
+      "source": "Bronx: Buckley Street - City Island Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700724f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700724f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa18d0c0-c52f-012f-8f83-58d385a7bc34",
     "original_title": "Bronx: Buckley Street - City Island Avenue",
     "text": "Buckley Street (City Island), south side, west from but not including City Island Ave.\n\nJuly 6, 1936.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Buckley Street",
+        "str2": "City Island Avenue"
+      },
+      "source": "Bronx: City Island Avenue - Buckley Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700755f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700755f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4eefbf0-c52f-012f-c893-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Buckley Street",
     "text": "City Island Avenue (City Island), at the S. W. corner of Buckley Street, showing an Italian sea food restaurant. The view is north from Buckley Street.\n\nJuly 6, 1936\n\nP. L. Sperr\n",

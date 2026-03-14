@@ -2,9 +2,34 @@
   {
     "date": "1947-09-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 69th Street",
+        "str2": "Third Avenue"
+      },
+      "source": "East 69th Street and Third Avenue",
+      "technique": "gpt"
+    },
     "height": 506,
     "id": "1558297",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558297.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec2a94f0-c5ec-012f-2367-58d385a7bc34",
     "text": null,
     "text_source": null,

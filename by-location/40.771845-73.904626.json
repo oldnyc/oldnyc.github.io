@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-05-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "42nd Street",
+        "str2": "Ditmars Boulevard"
+      },
+      "source": "Queens: Ditmars Boulevard - 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "726474f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726474f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c43c2360-c557-012f-9c74-58d385a7bc34",
     "original_title": "Queens: Ditmars Boulevard - 42nd Street",
     "text": "Ditmars Boulevard, at the N.W. corner of 42nd Street, showing an old mansion.\n\nP. L. Sperr\n\nMay 27, 1934\n",

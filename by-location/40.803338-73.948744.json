@@ -2,9 +2,30 @@
   {
     "date": "1893",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "118th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: 118th Street - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "715183f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715183f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59d1e5c0-c546-012f-d3e3-58d385a7bc34",
     "original_title": "Manhattan: 118th Street - Lenox Avenue",
     "text": "118 to 119th St. Looking toward Lenox Ave.\n\nCopyright\nBrown Bro's\nNew York\n\n1893\n",

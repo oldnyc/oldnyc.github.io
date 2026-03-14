@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Madison Street"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Madison Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "703431f",
     "image_url": "https://images.nypl.org/?id=703431f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a178e260-c533-012f-f706-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Madison Street",
     "text": null,

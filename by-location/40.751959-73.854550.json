@@ -2,9 +2,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "112th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens: Roosevelt Avenue - 112th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "727947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Private schools",
+          "Ruins"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fefc1e10-c559-012f-c024-58d385a7bc34",
     "original_title": "Queens: Roosevelt Avenue - 112th Street",
     "text": "Roosevelt Avenue, north side, between 112th and 114th Streets, showing the Bocce Academy.\n\nSeptember 30, 1935\n\nP. L. Sperr\n",

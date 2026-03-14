@@ -2,9 +2,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 35th Street",
+        "str2": "Benson Avenue"
+      },
+      "source": "Brooklyn: Benson Avenue - Bay 35th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "703197f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703197f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48631ff0-c533-012f-e3fc-58d385a7bc34",
     "original_title": "Brooklyn: Benson Avenue - Bay 35th Street",
     "text": "Benson Avenue, south side, from Bay 35th Street to 24th Avenue, viewing west from the latter and showing Public School No. 101. An addition to the school was later built behind this building.\n\nBoard of Education of the City of New York\n\nDecember 21, 1927\n",
@@ -19,9 +43,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 35th Street",
+        "str2": "Benson Avenue"
+      },
+      "source": "Brooklyn: Benson Avenue - Bay 35th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "703196f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703196f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/480f6060-c533-012f-f7a2-58d385a7bc34",
     "original_title": "Brooklyn: Benson Avenue - Bay 35th Street",
     "text": "Benson Avenue, south side (left), from Bay 35th Street to 24th Avenue, showing Public School No. 101. The right wing is the new addition.\n\nBoard of Education of the City of New York Early 1930's\n",

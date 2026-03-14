@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "48th Street",
+        "str2": "9th Avenue"
+      },
+      "source": "Brooklyn: 9th Avenue - 48th Street",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "702477f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702477f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3290c5f0-c532-012f-74bc-58d385a7bc34",
     "original_title": "Brooklyn: 9th Avenue - 48th Street",
     "text": "9th Avenue, west side, from 48th to 49th Streets, showing Public School No. 220. The view is from 49th Street.\n\nBoard of Education of the City of New York early 1930's\n",

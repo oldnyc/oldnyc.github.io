@@ -2,9 +2,30 @@
   {
     "date": "1916",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "165th Street (East)",
+        "str2": "Teller Avenue"
+      },
+      "source": "Bronx: 165th Street (East) - Teller Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700199f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700199f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edf7dd30-c52e-012f-4a97-58d385a7bc34",
     "original_title": "Bronx: 165th Street (East) - Teller Avenue",
     "text": "325-331 East 165th Street, at the N.W. corner of Teller Ave.\nAbout 1916.\n",

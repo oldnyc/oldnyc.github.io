@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "73rd Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 73rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 509,
     "id": "721053f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721053f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b1e28a0-c54f-012f-44c3-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 73rd Street (East)",
     "text": "Lexington Ave., north from East 73rd Street, showing surface car track removal project under operation.\n\nOctober 23, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

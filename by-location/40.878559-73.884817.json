@@ -2,9 +2,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Mosholu Parkway Sout"
+      },
+      "source": "Bronx: Mosholu Parkway Sout - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "700908f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700908f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Courtyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7f14a30-c52f-012f-ed32-58d385a7bc34",
     "text": "East Mosholu Parkway South, south side, east from Grand Concourse, to Van Cortlandt Ave., showing an Italian garden in an interior court of the Pickwick Arms; large triangular apartment building.\n\nAbout 1925.\n\nBrowning Studios.\n",
     "text_source": "gpt",
@@ -18,9 +40,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Mosholu Parkway Sout"
+      },
+      "source": "Bronx: Mosholu Parkway Sout - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "700909f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700909f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8479120-c52f-012f-e71a-58d385a7bc34",
     "text": "East Mosholu Parkway South (left), south side, east from Grand Concourse to Van Cortlandt Ave. East, showing the Pickwick Arms. The building occupies the triangular block bounded on the east by Grand Concourse (right); on the south by Van Cortlandt Ave. East, and on the west by East Mosholu Parkway South.\n\nAbout 1925.\n\nBrowning Studios.\n",
     "text_source": "gpt",

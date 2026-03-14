@@ -2,9 +2,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boone Avenue",
+        "str2": "Freeman Street"
+      },
+      "source": "Bronx: Freeman Street - Boone Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701096f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701096f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/295220d0-c530-012f-7f2c-58d385a7bc34",
     "original_title": "Bronx: Freeman Street - Boone Avenue",
     "text": "Freeman Street, north side, east from Boone to Westchester Avenues. Shown too is the bridge that carries the Interborough subway across the Bronx River; it is on Westchester Avenue.\n\nP. L. Sperr\n\nAugust 21, 1940\n",

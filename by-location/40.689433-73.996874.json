@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Amity Street",
+        "str2": "Henry Street"
+      },
+      "source": "Brooklyn: Henry Street - Amity Street",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "704846f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704846f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dcfb9710-c535-012f-1c3a-58d385a7bc34",
     "original_title": "Brooklyn: Henry Street - Amity Street",
     "text": "Henry Street, west side, north of Amity Street. A view of the Long Island College Hospital. About 1908.",

@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street (West)",
+        "str2": "Edgecombe Avenue"
+      },
+      "source": "Manhattan: Edgecombe Avenue - 160th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719627f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719627f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Roger Morris Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/456ba7e0-c54d-012f-3753-58d385a7bc34",
     "original_title": "Manhattan: Edgecombe Avenue - 160th Street (West)",
     "text": "(1) Edgecombe Ave., at the N.W. corner of West 160th Street. Shown is the Jumel Mansion, located in the Roger Morris Park.\n\nApril 8, 1934.\n\nP. L. Sperr.\n\n(2) The same, from Edgecombe ave.\n\nApril 8, 1934.\n\nP. L. Sperr.\n\n(3) The same, from a different angle.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street (West)",
+        "str2": "Edgecombe Avenue"
+      },
+      "source": "Manhattan: Edgecombe Avenue - 160th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "719627f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/719627f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Roger Morris Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/456ba7e0-c54d-012f-3753-58d385a7bc34",
     "original_title": "Manhattan: Edgecombe Avenue - 160th Street (West)",
     "rotation": 90,
@@ -37,9 +85,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street (West)",
+        "str2": "Edgecombe Avenue"
+      },
+      "source": "Manhattan: Edgecombe Avenue - 160th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719627f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719627f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Roger Morris Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/456ba7e0-c54d-012f-3753-58d385a7bc34",
     "original_title": "Manhattan: Edgecombe Avenue - 160th Street (West)",
     "text": "(1) Edgecombe Ave., at the N.W. corner of West 160th Street. Shown is the Jumel Mansion, located in the Roger Morris Park.\n\nApril 8, 1934.\n\nP. L. Sperr.\n\n(2) The same, from Edgecombe ave.\n\nApril 8, 1934.\n\nP. L. Sperr.\n\n(3) The same, from a different angle.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
@@ -54,9 +126,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street",
+        "str2": "Edgecombe Avenue"
+      },
+      "source": "160th Street and Edgecombe Avenue",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "1509331",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509331.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Morris-Jumel Mansion"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13366d60-c5ce-012f-c498-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -70,9 +165,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "160th Street (West)",
+        "str2": "Edgecombe Avenue"
+      },
+      "source": "Manhattan: Edgecombe Avenue - 160th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "719626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4506ab40-c54d-012f-ad70-58d385a7bc34",
     "original_title": "Manhattan: Edgecombe Avenue - 160th Street (West)",
     "text": "\"The Jumel Mansion\" p,147\n\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",

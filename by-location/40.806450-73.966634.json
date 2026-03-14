@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 622,
+        "street": "West 113th Street"
+      },
+      "source": "622 West 113th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417682",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417682.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fedd5b0-c6cd-012f-9b71-58d385a7bc34",
     "text": null,
     "text_source": null,

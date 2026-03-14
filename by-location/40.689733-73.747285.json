@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "121st Avenue",
+        "str2": "Springfield Boulevard"
+      },
+      "source": "Queens: Springfield Boulevard - 121st Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "728026f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728026f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d662960-c55a-012f-6e4b-58d385a7bc34",
     "original_title": "Queens: Springfield Boulevard - 121st Avenue",
     "text": "Springfield Boulevard, west side, at 121st Avenue, viewing northward and showing an old farmhouse and barns converted into a Jewish dairy lunch room.\n\nMarch 9, 1927\n\nP. L. Sperr\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 82nd Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714628f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714628f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/873f2ba0-c545-012f-2c59-58d385a7bc34",
     "original_title": "Manhattan: 82nd Street (West) - Columbus Avenue",
     "text": "63-59 West 82nd Street, at, adjoining, and west of the N.W. corner of Columbus Avenue.\nAbout 1911.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 82nd Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714629f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714629f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87b58380-c545-012f-159c-58d385a7bc34",
     "original_title": "Manhattan: 82nd Street (West) - Columbus Avenue",
     "text": "72-76 West 82nd Street, south side, west of Columbus Avenue.\n1913.\n",
@@ -42,9 +78,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509279-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509279-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a9d22a0-c5ce-012f-773b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -58,9 +114,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Columbus Avenue",
+        "str2": "West 82nd Street"
+      },
+      "source": "Manhattan: Columbus Avenue - West 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557889",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557889.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Endicott Pharmacy"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3134bb70-c5ed-012f-fee8-58d385a7bc34",
     "text": null,
     "text_source": null,

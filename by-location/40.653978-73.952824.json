@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lenox Road",
+        "str2": "Rogers Avenue"
+      },
+      "source": "Brooklyn: Lenox Road - Rogers Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705407f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705407f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/befb18c0-c536-012f-7f94-58d385a7bc34",
     "original_title": "Brooklyn: Lenox Road - Rogers Avenue",
     "text": "219 Lenox Road, north side, near Rogers Ave.\nMarch 29, 1932.\n\nP. L. Sperr.\n",

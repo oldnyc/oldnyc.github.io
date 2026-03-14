@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Hillside Terrace",
+        "str2": "Locust Place"
+      },
+      "source": "Richmond: Hillside Terrace - Locust Place",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "728946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Moravian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f6816b0-c55b-012f-4a0d-58d385a7bc34",
     "text": "Hillside Terrace, at the S. W. corner of Locust Place, showing the Great Kills Moravian Church.\n\nMay 6, 1930.\n\nP. L. Sperr,\n",
     "text_source": "gpt",

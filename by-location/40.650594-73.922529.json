@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "58th Street (East)",
+        "str2": "Snyder Avenue"
+      },
+      "source": "Brooklyn: 58th Street (East) - Snyder Avenue",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "702789f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702789f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aaa2f4d0-c532-012f-5f18-58d385a7bc34",
     "original_title": "Brooklyn: 58th Street (East) - Snyder Avenue",
     "text": "East 58th Street, (center of view) between Snyder (right) and Tilden (left Aves. (general view) west from East 59th Street to King's Highway, showing a rear view of two large homes facing the Highway, occupied, from left to right, by Jacob D. Remsen and Teunis Schenck Remsen.\n\n1923.\n\nEugene L. Armbruster Collection.\n",

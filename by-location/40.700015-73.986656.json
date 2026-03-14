@@ -2,9 +2,49 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 117,
+        "street": "Sands Street"
+      },
+      "source": "117 Sands Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Sands Street",
+        "str2": "Seaside Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Sands Street",
+        "str2": "Seaside Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "706612f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706612f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93f39780-c538-012f-6bed-58d385a7bc34",
     "original_title": "Brooklyn: Sands Street - Seaside Boulevard",
     "text": "117-119 Sands Street, north side, at the Manhattan Bridge, showing the Immaculate Conception Day Nursery and Kindergarten.\n\nNovember 1, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +59,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jay Street",
+        "str2": "Sands Street"
+      },
+      "source": "Brooklyn: Sands Street - Jay Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "706613f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706613f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/944c9660-c538-012f-d4e5-58d385a7bc34",
     "original_title": "Brooklyn: Sands Street - Jay Street",
     "text": "Sands Street, north side, east from the Manhattan Bridge, over Jay Street. Also seen is Bridge Street, east side, south from Sands Street.\n\nNovember 1, 1927.\n\nP. L. Sperr.\n",

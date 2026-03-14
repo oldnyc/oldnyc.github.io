@@ -2,9 +2,30 @@
   {
     "date": "1941-08-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Madison Street"
+      },
+      "source": "Bedford Avenue and Madison Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "1509511-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509511-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f4f3120-c5cd-012f-e188-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,29 @@
   {
     "date": "1941-08-24",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Madison Street"
+      },
+      "source": "Madison Street at Bedford Avenue, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "485845",
     "image_url": "https://images.nypl.org/?id=485845&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b4f7740-c60e-012f-2533-58d385a7bc34",
     "text": null,
     "text_source": null,

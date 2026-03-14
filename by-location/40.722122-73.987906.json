@@ -2,9 +2,32 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 192,
+        "street": "Orchard Street"
+      },
+      "source": "192 Orchard Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1516949-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1516949-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Orchard St. #192, street scene (shops)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a96eed20-c5cf-012f-97ed-58d385a7bc34",
     "text": null,
     "text_source": null,

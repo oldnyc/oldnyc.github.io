@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "173rd Street (East)",
+        "str2": "Southern Boulevard"
+      },
+      "source": "Bronx: 173rd Street (East) - Southern Boulevard",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700217f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700217f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4c64390-c52e-012f-2820-58d385a7bc34",
     "original_title": "Bronx: 173rd Street (East) - Southern Boulevard",
     "text": "E.173rd St. e from Southern Blvd\n9-5-1942\nP.L.Sperr\n",

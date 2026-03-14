@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1940"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 73,
+        "street": "MacDougal Street"
+      },
+      "source": "73 MacDougal Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "MacDougal Street",
+        "str2": "Stone Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "MacDougal Street",
+        "str2": "Stone Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "721160f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721160f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a60d8430-c54f-012f-0f2d-58d385a7bc34",
     "original_title": "Manhattan: MacDougal Street - Stone Avenue",
     "text": "73-77 MacDougal Street, west side, between West Houston and Bleecker Street's, showing the three remaining unique structures of a row of six. They are of frame construction with iron balconies. Two or three other examples of this type of architecture remain in the City, tho the best known, the Rhinelander Flats on Seventh Ave. were demolished several years ago.\n\n1940\n\nAlexander Alland, photo\n",

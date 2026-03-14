@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 47,
+        "street": "W. 116 St."
+      },
+      "source": "W. 116 St. #47",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1516927-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1516927-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "W. 116 St. #47 between Lenox Avenue and Fifth Avenue, street scene (shops)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7247920-c5cf-012f-79f3-58d385a7bc34",
     "text": null,
     "text_source": null,

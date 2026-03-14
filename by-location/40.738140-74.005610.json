@@ -2,9 +2,32 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Hudson Street",
+        "str2": "Jane Street"
+      },
+      "source": "Manhattan: Jane Street - Hudson Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "720681f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720681f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Metalworking",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ede745d0-c54e-012f-faec-58d385a7bc34",
     "original_title": "Manhattan: Jane Street - Hudson Street",
     "text": "Jane Street, south side, from Hudson to 4th Streets, inclusive. July 7, 1933.\n\nP. L. Sperr.\n",

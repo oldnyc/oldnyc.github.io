@@ -6,9 +6,41 @@
       "1932",
       "1934-06-21"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 420,
+        "street": "West 127th Street"
+      },
+      "source": "420 West 127th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Lawrence Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Lawrence Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "715483f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715483f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ced18840-c546-012f-3bd3-58d385a7bc34",
     "original_title": "Manhattan: 127th Street (West) - Lawrence Street",
     "text": "422-420 West 127th Street, south side, east of Lawrence Street. No. 420 is a three-story frame house with a brick wall up to the first story. No. 422 has a one-story frame shack in the front with a two-story house connecting in the rear. 1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 369.\n\nThe same view at a later date. Note the 1-story frame house at No. 422 replaced with one of brick. June 21, 1934.\n\nP. L. Sperr.\n",
@@ -28,9 +60,41 @@
       "1932",
       "1934-06-21"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 420,
+        "street": "West 127th Street"
+      },
+      "source": "420 West 127th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Lawrence Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Lawrence Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "715483f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715483f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ced18840-c546-012f-3bd3-58d385a7bc34",
     "original_title": "Manhattan: 127th Street (West) - Lawrence Street",
     "text": "422-420 West 127th Street, south side, east of Lawrence Street. No. 420 is a three-story frame house with a brick wall up to the first story. No. 422 has a one-story frame shack in the front with a two-story house connecting in the rear. 1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 369.\n\nThe same view at a later date. Note the 1-story frame house at No. 422 replaced with one of brick. June 21, 1934.\n\nP. L. Sperr.\n",

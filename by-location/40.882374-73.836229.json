@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boller Avenue",
+        "str2": "Boston Avenue"
+      },
+      "source": "Bronx: Boller Avenue - Boston Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700499f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700499f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Diners (Restaurants)",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59d23fd0-c52f-012f-f26d-58d385a7bc34",
     "original_title": "Bronx: Boller Avenue - Boston Avenue",
     "text": "Boller Avenue, at the south side of Boston Road. The view is eastward across the avenue.\n\nJune 16, 1938.\n\nP. L. Sperr.\n",

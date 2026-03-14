@@ -2,9 +2,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707939f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707939f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab240aa0-c53a-012f-4f27-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 89th Street",
     "text": "Second Avenue, east side, north from 89th Street.\nOctober 9, 1934.\nP. L. Sperr, Photographer.\n",

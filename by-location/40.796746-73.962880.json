@@ -2,9 +2,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 73,
+        "street": "Manhattan Street"
+      },
+      "source": "73 Manhattan Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Manhattan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "465714-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465714-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b524c60-c612-012f-d63e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,38 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 73,
+        "street": "Manhattan Street"
+      },
+      "source": "73 Manhattan Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Manhattan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "465714-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465714-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b524c60-c612-012f-d63e-58d385a7bc34",
     "text": null,
     "text_source": null,

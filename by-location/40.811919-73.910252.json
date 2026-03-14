@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "147th Street (East)",
+        "str2": "Trinity Avenue"
+      },
+      "source": "Bronx: Trinity Avenue - 147th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "701911f",
     "image_url": "https://images.nypl.org/?id=701911f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5866baf0-c531-012f-3b1d-58d385a7bc34",
     "original_title": "Bronx: Trinity Avenue - 147th Street (East)",
     "text": "plate\nwanting\n",
@@ -19,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "147th Street (East)",
+        "str2": "Trinity Avenue"
+      },
+      "source": "Bronx: Trinity Avenue - 147th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "701912f",
     "image_url": "https://images.nypl.org/?id=701912f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58c727c0-c531-012f-b669-58d385a7bc34",
     "original_title": "Bronx: Trinity Avenue - 147th Street (East)",
     "text": "plate\nwanting\n",

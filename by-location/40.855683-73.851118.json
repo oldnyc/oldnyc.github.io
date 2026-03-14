@@ -2,9 +2,44 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Narragansett Ave.",
+        "str2": "Neill Ave."
+      },
+      "source": "Narragansett Ave. and Neill Ave.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Hillside Avenue",
+        "str2": "Nagle Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Hillside Avenue",
+        "str2": "Nagle Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "701522f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701522f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc22f780-c530-012f-25d5-58d385a7bc34",
     "original_title": "Bronx: Nagle Avenue - Hillside Avenue",
     "text": "Narragansett Ave., south from Neill Ave.\nP. L. Sperr.\nAugust 3, 1928.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
@@ -19,9 +54,44 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Narragansett Ave.",
+        "str2": "Neill Ave."
+      },
+      "source": "Narragansett Ave. and Neill Ave.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Hillside Avenue",
+        "str2": "Nagle Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Hillside Avenue",
+        "str2": "Nagle Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "701522f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701522f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc22f780-c530-012f-25d5-58d385a7bc34",
     "original_title": "Bronx: Nagle Avenue - Hillside Avenue",
     "text": "Narragansett Ave., south from Neill Ave.\nP. L. Sperr.\nAugust 3, 1928.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
@@ -40,9 +110,27 @@
       "1937-04-12",
       "1937-04-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Narragansett Avenue",
+        "str2": "Neill Avenue"
+      },
+      "source": "Bronx: Narragansett Avenue - Neill Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "701523f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701523f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc88c050-c530-012f-44a8-58d385a7bc34",
     "original_title": "Bronx: Narragansett Avenue - Neill Avenue",
     "text": "(1) Neill Avenue, west from Lurting Avenue, showing a W.P.A. highway project.\nApril 12, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n\n(2) The N.W. corner of the two thoroughfares.\nApril 12, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

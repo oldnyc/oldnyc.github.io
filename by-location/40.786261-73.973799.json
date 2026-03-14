@@ -2,9 +2,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 126,
+        "street": "West 85th Street"
+      },
+      "source": "126 West 85th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Columbus Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1558341",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558341.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brownstone residences"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd6cde90-c5ec-012f-fc19-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Beard Street",
+        "str2": "Richard Street"
+      },
+      "source": "Brooklyn: Beard Street - Richard Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703141f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703141f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Dry docks",
+          "Repairing trades",
+          "Shipyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/317fca10-c533-012f-539e-58d385a7bc34",
     "original_title": "Brooklyn: Beard Street - Richard Street",
     "text": "Beard Street, south side, between Richard and Otsego Streets.\nAt the left is a view of one of the many buildings of the Robin Dry Dock and Repair Co. June 6, 1931. P.L. Sperr. \n\nNote: the business name is sometimes spelled Robbins or Robins (always with an 'S'). Not sure of correct spelling, but this caption may have it wrong.\nSubmitted by Carolina Salguero, PortSide NewYork, www.portsidenewyork.org, portsidenewyork@gmail.com\n",

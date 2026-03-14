@@ -2,9 +2,32 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Myrtle Ave.",
+        "str2": "Suydam St."
+      },
+      "source": "Brooklyn: Suydam St. - Myrtle Ave.",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "707018f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707018f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d79e2d0-c539-012f-3f37-58d385a7bc34",
     "original_title": "Brooklyn: Suydam St. - Myrtle Ave.",
     "text": "83-101 Suydam Street, west side, north of Myrtle Ave., showing an old general store on the corner. 1924.\nEugene L. Armbruster Collection.\n",

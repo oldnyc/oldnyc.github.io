@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "177th Street",
+        "str2": "Broadway"
+      },
+      "source": "177th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417651-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417651-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1bc34f60-c6cd-012f-3f10-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,35 @@
   {
     "date": "1918; 1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "177th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 177th Street",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "717776f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717776f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Cobblestone streets",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a80d5c0-c54a-012f-6842-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 177th Street",
     "text": "(1)\nBroadway, 177th to 178th Street.\n(Before reconstruction).\nAugust 21, 1918.\n\n(2)\nSame, after reconstruction.\n\nJanuary 30, 1919.\n",
@@ -36,9 +83,35 @@
   {
     "date": "1918; 1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "177th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 177th Street",
+      "technique": "title-cross"
+    },
     "height": 429,
     "id": "717776f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717776f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Cobblestone streets",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a80d5c0-c54a-012f-6842-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 177th Street",
     "text": "(1)\nBroadway, 177th to 178th Street.\n(Before reconstruction).\nAugust 21, 1918.\n\n(2)\nSame, after reconstruction.\n\nJanuary 30, 1919.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "70th Street",
+        "str2": "Calamus Avenue"
+      },
+      "source": "Queens: Calamus Avenue - 70th Street",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "726298f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726298f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86eaf5b0-c557-012f-63db-58d385a7bc34",
     "original_title": "Queens: Calamus Avenue - 70th Street",
     "text": "Calamus Ave., adjoining the N.E. Corner of 70th Street (left, not seen). Between the two houses, in the background is the steeple of St. Mary's Roman Catholic Church.\n\nMay 1925.\n\nEugene L. Armbruster Collection.\n",

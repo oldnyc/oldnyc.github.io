@@ -2,9 +2,32 @@
   {
     "date": "1950",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 55,
+        "street": "E 34th Street"
+      },
+      "source": "34th Street (East) #55",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507745-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507745-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "(drawing)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf9ac360-c5ce-012f-62de-58d385a7bc34",
     "text": null,
     "text_source": null,

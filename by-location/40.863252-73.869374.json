@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Barker Avenue",
+        "str2": "Mace Avenue"
+      },
+      "source": "Bronx: Mace Avenue - Barker Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "701415f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701415f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3647460-c530-012f-c297-58d385a7bc34",
     "original_title": "Bronx: Mace Avenue - Barker Avenue",
     "text": "Mace Avenue, at, adjoining and east of the N.E. corner of Barker Avenue. The two low buildings bear numbers 653 and 655. The view is from Barker Avenue.\n\nApril 3, 1938.\n\nP. L. Sperr.\n",

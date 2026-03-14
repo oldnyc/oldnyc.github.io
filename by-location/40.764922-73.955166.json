@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: 69th Street - York Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714251f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714251f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f36b1f60-c544-012f-83fe-58d385a7bc34",
     "original_title": "Manhattan: 69th Street - York Avenue",
     "text": "69th Street, north side, west from and including York Avenue\nFebruary 13, 1928\nP.L. Sperr.\n",
@@ -19,9 +40,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "York Avenue"
+      },
+      "source": "69th Street and York Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "714252f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714252f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3b9de10-c544-012f-6d26-58d385a7bc34",
     "original_title": "Manhattan: 69th Street - Marie Curie Avenue",
     "text": "69th Street, south side, between Marie Curie and York Avenues. The building is the Central Brewing Company.\n\nFebruary 13, 1928.\n\nP. L. Sperr.\n",
@@ -36,9 +92,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 537,
+        "street": "East 69th Street"
+      },
+      "source": "537 East 69th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street (East)",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "714253f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714253f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Office equipment & supplies industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f42f2810-c544-012f-dc72-58d385a7bc34",
     "original_title": "Manhattan: 69th Street (East) - Marie Curie Avenue",
     "text": "537 East 69th Street, north side, adjoining and west of the N.W. corner of Marie Curie Avenue. This building will soon be demolished to make way for the Cornell University -- New York Hospital buildings.\n\nFebruary 13, 1928.\n\nP. L. Sperr.\n",
@@ -53,9 +144,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 537,
+        "street": "East 69th Street"
+      },
+      "source": "537 East 69th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street (East)",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "714254f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714254f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Office equipment & supplies industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f484df60-c544-012f-eee6-58d385a7bc34",
     "original_title": "Manhattan: 69th Street (East) - Marie Curie Avenue",
     "text": "537 East 69th Street, north side, adjoining and west of the N.W. corner of Marie Curie Avenue. This building, the former Hammond Typewriter building, will soon be demolished to make way for the Cornell-University -- New York Hospital buildings.\n\nFebruary 13, 1928.\n\nP. L. Sperr.\n",
@@ -70,9 +196,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 69th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "724898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e357e70-c555-012f-0be6-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 69th Street",
     "text": "York Avenue (Avenue A) at S.W. Corner of 69th Street, showing the long building adjoining the corner and running through the block to 68th Street. It used to be a stable belonging to Thomas Crimmins, Contractor.\n\nFebruary 13, 1928\nP. L. Sperr.\n",
@@ -87,9 +234,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 69th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "724899f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724899f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e859660-c555-012f-7748-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 69th Street",
     "text": "(1)\nYork Avenue, from 69th to 71st Streets, seen from the east side at 69th Street, with clearing on east side in foreground. Excavation for the new New York Hospital and Cornell Medical College buildings is going on on the east side of the Avenue from 68th to 70th Streets. The buildings on the east side from 70th to 71st Streets are being demolished. On the west side, the garage on the N.W. corner of 69th Street is new, since 1920. The other buildings date back to the 1890's and in some cases a little earlier. August 21, 1929.\n\nP. L. Sperr.\n\n(2)\nThe same, not showing the entire N.W. corner of 69th Street. August 21, 1929.\n\nP. L. Sperr.\n",
@@ -104,9 +272,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 69th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "724899f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724899f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e859660-c555-012f-7748-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 69th Street",
     "text": "(1)\nYork Avenue, from 69th to 71st Streets, seen from the east side at 69th Street, with clearing on east side in foreground. Excavation for the new New York Hospital and Cornell Medical College buildings is going on on the east side of the Avenue from 68th to 70th Streets. The buildings on the east side from 70th to 71st Streets are being demolished. On the west side, the garage on the N.W. corner of 69th Street is new, since 1920. The other buildings date back to the 1890's and in some cases a little earlier. August 21, 1929.\n\nP. L. Sperr.\n\n(2)\nThe same, not showing the entire N.W. corner of 69th Street. August 21, 1929.\n\nP. L. Sperr.\n",

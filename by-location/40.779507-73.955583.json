@@ -2,9 +2,29 @@
   {
     "date": "1919-12-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 86th Street (East) - Lexington Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 382,
     "id": "1508353-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508353-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/102f33b0-c5cf-012f-815d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,41 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 86th Street - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 503,
     "id": "714711f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714711f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Young Men\u2019s Christian Association of the City of New York. Eighty-sixth Street Branch"
+        ],
+        "topic": [
+          "Business districts",
+          "Cafeterias",
+          "Clubs",
+          "Electric apparatus and appliances",
+          "Elevated railroads",
+          "Radios",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8cba520-c545-012f-544d-58d385a7bc34",
     "original_title": "Manhattan: 86th Street - Lexington Avenue",
     "text": "86th Street, from Lexington to Third Avenues, inclusive. A further view east is blocked by the Third Avenue Elevated lines. 1926.",
@@ -35,9 +87,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 86th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714713f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714713f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Young Men\u2019s Christian Association of the City of New York. Eighty-sixth Street Branch"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9805da0-c545-012f-fbe0-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (East) - Lexington Avenue",
     "text": "153-151 East 86th Street, east of, adjoining, and at the N.E. corner of Lexington Ave. No. 153 is a branch of the Y, M. C. A.\n\nAugust 2, 1927.\n\nP. L. Sperr.\n",
@@ -55,9 +131,27 @@
     "dates_from_text": [
       "1927-06-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 86th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714715f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714715f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa3b2750-c545-012f-c554-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (East) - Lexington Avenue",
     "text": "113-115 East 86th Street, north side, between Lexington and Park Aves. Building shown is occupied by the Congregation Agudath Jeshorim.\n\nJune 21, 1927.\n\nP. L. Sperr.\n",
@@ -72,9 +166,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 86th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "714710f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714710f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Billiard parlors",
+          "Cafeterias"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8593840-c545-012f-b3e5-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (East) - Lexington Avenue",
     "text": "165-163 East 86th Street, north side, between Lexington and Third Avenues. No. 165 is the Horn & Hardart Company's Automat Cafeteria for which F. P. Platt Brothers were the architects. 1930.\n\nAlbert Rothschild.\n",
@@ -89,9 +207,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 86th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "714714f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714714f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9e856f0-c545-012f-7a47-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (East) - Lexington Avenue",
     "text": "East 86th Street, west from Lexington to Fifth Aves., showing at the latter point a portion of Central Park.\n\nOctober 8, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -106,9 +248,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 86th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 412,
     "id": "721074f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721074f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Language schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/830755e0-c54f-012f-baf4-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 86th Street (East)",
     "text": "Lexington Ave., east side, north from East 86th to 89th Streets. The apartment house at the left occupies the entire Avenue frontage from 88th to 89th Streets and among its tenants lists United States Senator Geo. Wagner.\n\nAugust 13, 1937.\n\nGift of:Geo. D. Chinn.\n",

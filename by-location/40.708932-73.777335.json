@@ -6,9 +6,27 @@
       "1924-02",
       "1923-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "183rd Street",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - 183rd Street",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "727069f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727069f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a80c7650-c558-012f-0901-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - 183rd Street",
     "text": "Jamaica Ave., north side, at and adjoining 183rd Street (along line of picket fence on the left).  This building was demolished in February 1924.  September 1923.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "175th Street",
+        "str2": "Wadsworth Avenue"
+      },
+      "source": "Manhattan: Wadsworth Avenue - 175th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723803f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723803f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ecc93a90-c553-012f-92de-58d385a7bc34",
     "original_title": "Manhattan: Wadsworth Avenue - 175th Street",
     "text": "45 Wadsworth Avenue, east side, between 175th and 176th Streets, a little frame house dating back to the early 1880's. To the right is shown part of The Burwood, built around 1914.\nMay 27, 1927.\n\nP. L. Sperr.\n",

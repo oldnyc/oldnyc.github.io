@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Clinton Street",
+        "str2": "Van Duzer Street"
+      },
+      "source": "Richmond: Van Duzer Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "729805f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729805f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)",
+          "Van Duzer Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2677890-c55c-012f-a62f-58d385a7bc34",
     "original_title": "Richmond: Van Duzer Street - Clinton Street",
     "text": "Van Duzer Street, north from Clinton Street.\n\nMay 25, 1935\n\nP. L. Sperr\n",

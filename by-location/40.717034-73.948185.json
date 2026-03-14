@@ -2,9 +2,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Leonard St.",
+        "str2": "Withers St."
+      },
+      "source": "Brooklyn: Withers St. - Leonard St.",
+      "technique": "title-cross"
+    },
     "height": 380,
     "id": "707440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d49f9450-c539-012f-11c0-58d385a7bc34",
     "original_title": "Brooklyn: Withers St. - Leonard St.",
     "text": "Withers Street, east from Leonard Street.\n\nP. L. Sperr\nSeptember 1, 1939\n",

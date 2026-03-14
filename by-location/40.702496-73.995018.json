@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Doughty Street",
+        "str2": "Furman Street"
+      },
+      "source": "Brooklyn: Furman Street - Doughty Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704591f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704591f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/740bbd60-c535-012f-6089-58d385a7bc34",
     "original_title": "Brooklyn: Furman Street - Doughty Street",
     "text": "Furman Street, north from Doughty to Fulton Streets, showing the old Fulton Street Elevated station. This was the first Brooklyn stop from manhattan via the Brooklyn Bridge. It has long been abandoned.\nApril 1, 1937.\nP. L. Sperr.\n",

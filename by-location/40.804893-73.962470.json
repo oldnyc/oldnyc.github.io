@@ -5,9 +5,30 @@
     "dates_from_text": [
       "1880"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 113th Street",
+      "technique": "title-cross"
+    },
     "height": 343,
     "id": "715974f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715974f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Old de Peyster Mansion, sold in 1892 to St. Lukes Hospital."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88f8c3e0-c547-012f-40fa-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 113th Street",
     "text": "Old De Peyster Mansion, sold in 1892 to St. Luke's Hospital, Amsterdam Avenue, west side, at 113th Street About 1880.\n\nHenry Lowe, owner, lived here from 1842-1892, when he sold it.\n",
@@ -25,9 +46,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 113th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715072f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715072f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31046670-c546-012f-e495-58d385a7bc34",
     "original_title": "Manhattan: 113th Street (West) - Amsterdam Avenue",
     "text": "500-536 West 113th Street, adjoining and west of the S.W. corner of Amsterdam Avenue.\n\nAbout 1923.\n\nGift of E. M. Jenks.\n",
@@ -45,9 +84,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 113th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "715073f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715073f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31738250-c546-012f-c4a7-58d385a7bc34",
     "original_title": "Manhattan: 113th Street (West) - Amsterdam Avenue",
     "text": "500-536 West 113th Street, adjoining and west of the S.W. corner of Amsterdam Avenue.\nAbout 1923.\n\nGift of E. M. Jenks.\n",
@@ -65,9 +122,27 @@
     "dates_from_text": [
       "1928"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 113th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715074f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715074f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31deb280-c546-012f-1bed-58d385a7bc34",
     "original_title": "Manhattan: 113th Street (West) - Amsterdam Avenue",
     "text": "521-507 West 113th Street, north side, adjoining and west of Amsterdam Avenue.\nAbout 1928.\n\nNeg, # 3890\n",
@@ -82,9 +157,32 @@
   {
     "date": "1931-08-17",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 113th Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "1507302-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507302-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cathedral of St. John the Divine"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc2185e0-c5cd-012f-091b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -98,9 +196,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue (Cathedral Parkway",
+        "str2": "West 113th Street)"
+      },
+      "source": "Manhattan: 1047 Amsterdam Avenue (Cathedral Parkway - West 113th Street)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558391",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558391.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "\"Synod House, Cathedral of St. John the Divine\""
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11617b60-c5ed-012f-2d4d-58d385a7bc34",
     "text": null,
     "text_source": null,

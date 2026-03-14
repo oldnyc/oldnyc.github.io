@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-06-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "92nd Street",
+        "str2": "Dahlgreen Place"
+      },
+      "source": "Brooklyn: 92nd Street - Dahlgreen Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702903f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702903f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6fdbb30-c532-012f-7938-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street - Dahlgreen Place",
     "text": "613 92nd Street, north side, between Dahlgreen and Gatling Place. The view shows an old frame house.\n\nJune 9, 1932.\n\nP. L. Sperr.\n",

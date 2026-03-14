@@ -2,9 +2,29 @@
   {
     "date": "1941-11-05",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "4th Street"
+      },
+      "source": "4th Avenue and 4th Street",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "485880",
     "image_url": "https://images.nypl.org/?id=485880&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8600e380-c60e-012f-f1c7-58d385a7bc34",
     "text": null,
     "text_source": null,

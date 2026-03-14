@@ -2,9 +2,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marcy Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Myrtle Avenue - Marcy Avenue",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "705815f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705815f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Myrtle Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cottages",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f6784e0-c537-012f-2924-58d385a7bc34",
     "original_title": "Brooklyn: Myrtle Avenue - Marcy Avenue",
     "text": "875-893 Myrtle Ave., north side, between Marcy and Tompkins Aves., showing 9 cottages known as \"Doctor's Row\".\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 170,
+        "street": "East 73rd Street (Third Avenue"
+      },
+      "source": "170 East 73rd Street (Third Avenue",
+      "technique": "title-address"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 73rd Street (Third Avenue",
+        "str2": "Lexington Avenue)",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "1558321",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558321.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Edel Laboratories"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5764cb0-c5ec-012f-1aaa-58d385a7bc34",
     "text": null,
     "text_source": null,

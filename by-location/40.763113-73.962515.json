@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "63rd Street (East)"
+      },
+      "source": "Manhattan: 63rd Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714136f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714136f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c73695c0-c544-012f-9e54-58d385a7bc34",
     "original_title": "Manhattan: 63rd Street (East) - 2nd Avenue",
     "text": "220 East 63rd Street, south side, between Second and Third Avenues showing P.S. 74.\nBoard of Education, N.Y.C.\n1920.\n",
@@ -19,9 +43,29 @@
   {
     "date": "1941-04-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "63rd Street, looking south",
+        "str2": "Second Avenue"
+      },
+      "source": "Manhattan: Second Avenue - 63rd Street, looking south",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "1508701-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508701-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/834fe730-c5ce-012f-7299-58d385a7bc34",
     "text": null,
     "text_source": null,

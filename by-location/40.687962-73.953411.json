@@ -2,9 +2,33 @@
   {
     "date": "1930; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 430,
+        "street": "Greene Avenue"
+      },
+      "source": "430 Greene Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "704700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a162a740-c535-012f-a291-58d385a7bc34",
     "text": "430 Greene Avenue, south side, between Bedford and Nostrand Avenues, showing an annex of the Brooklyn Girl's Continuation School.\n\nBoard of Education of the City of New York  Early 1930's\n",
     "text_source": "gpt",

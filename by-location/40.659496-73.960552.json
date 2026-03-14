@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Midwood Street"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Midwood Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "704221f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704221f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df541bf0-c534-012f-4a3f-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Midwood Street",
     "text": "Flatbush Ave., east side, between Midwood Street and Rutland Road. In the background, is seen homes and apartments on Rutland Road.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1929-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Midwood Street"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Midwood Street",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "704220f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704220f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/def89710-c534-012f-037d-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Midwood Street",
     "text": "Flatbush Ave., west side, opposite Midwood Street, showing the Patio Theatre.\nJune 1929.\nEugene L. Armbruster Collection.\n",

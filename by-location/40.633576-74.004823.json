@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "59th Street",
+        "str2": "Fort Hamilton"
+      },
+      "source": "Brooklyn: Fort Hamilton - 59th Street",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "704422f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704422f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f9c45e0-c535-012f-829c-58d385a7bc34",
     "text": "Fort Greene Place, east side (extreme right), south from Fulton Street, showing debris after a row of buildings both on Fort Green Place and Fulton Street were razed and the area later cleared for a used car sales lot. In the background is the rear of the Y.M.C.A. Building which\nfronts on Hanson Place.\nJuly 5, 1930\nP. L. Sperr\n(2)\nSouth on the east side of Fort Greene Place from Fulton Street, ten years later. Note the used car sales\nlot.\nJuly 5, 1930\nP. L. Sperr\n",
     "text_source": "site",
@@ -18,9 +42,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "59th Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "59th Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
     "height": 484,
     "id": "732656f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732656f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c2884e0-c561-012f-48dc-58d385a7bc34",
     "text": "59th Street, north side, just east of Fort Hamilton Parkway, showing Public School No. 105.\nBoard of Education of the City of New York Early 1930's\n",
     "text_source": "gpt",

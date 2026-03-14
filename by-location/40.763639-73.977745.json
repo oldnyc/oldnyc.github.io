@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "56th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 56th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713814f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713814f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47562700-c544-012f-ad2f-58d385a7bc34",
     "original_title": "Manhattan: 56th Street (West) - 6th Avenue",
     "text": "46 West 56th Street, north side, east of Sixth Avenue. About 1912.",
@@ -26,9 +44,27 @@
       "1928-03-28",
       "1928-04-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "56th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 56th Street - 6th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713812f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713812f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/466c87f0-c544-012f-5338-58d385a7bc34",
     "original_title": "Manhattan: 56th Street - 6th Avenue.",
     "text": "(1)\n56th Street, north side, east from Sixth Avenue.\nMarch 28, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, but not including the N.E. corner of Sixth Avenue.\nApril 3, 1928.\n\nP. L. Sperr.\n",
@@ -47,9 +83,27 @@
     "dates_from_text": [
       "1928-04-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "56th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 56th Street - 6th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "713813f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713813f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46f68d90-c544-012f-9005-58d385a7bc34",
     "original_title": "Manhattan: 56th Street - 6th Avenue.",
     "text": "56th Street, north side, west from and including Sixth Avenue. April 3, 1928.\n\nP. L. Sperr.\n",
@@ -67,9 +121,27 @@
     "dates_from_text": [
       "1931-06-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "56th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 56th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709583f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709583f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a5c8cf0-c53d-012f-82e7-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 56th Street",
     "text": "1381-1399 (old numbers 993-1011) Sixth Avenue, west side, from 56th to 57th Streets, inclusive.\nJune 28, 1931.\n\nP. L. Sperr.\n",
@@ -84,9 +156,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 104,
+        "street": "W 56th Street"
+      },
+      "source": "56th Street (West) #104",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508205",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508205.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6b91e50-c5ce-012f-2e51-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -100,9 +192,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sixth Avenue (southwest corner)",
+        "str2": "West 56th Street"
+      },
+      "source": "Manhattan: West 56th Street - Sixth Avenue (southwest corner)",
+      "technique": "title-cross"
+    },
     "height": 442,
     "id": "1558265",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558265.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hanscom Bake Shop"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dfdb7620-c5ec-012f-c408-58d385a7bc34",
     "text": null,
     "text_source": null,

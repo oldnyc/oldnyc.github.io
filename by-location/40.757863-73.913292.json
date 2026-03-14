@@ -6,9 +6,27 @@
       "1890",
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "46th Street",
+        "str2": "Newton Road"
+      },
+      "source": "Queens: Newton Road - 46th Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "727463f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727463f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44222580-c559-012f-70f1-58d385a7bc34",
     "original_title": "Queens: Newton Road - 46th Street",
     "text": "46-02 Newtown Road (foreground) at the S.E. corner of 46th Street (right, not shown), showing the home occupied by Fred Hampert about 1890.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

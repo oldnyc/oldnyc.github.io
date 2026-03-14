@@ -2,9 +2,33 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "162nd Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 162nd Street",
+      "technique": "title-cross"
+    },
     "height": 414,
     "id": "726859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54bbada0-c558-012f-89d2-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 162nd Street",
     "text": "Hillside Ave., south side, between 162nd and 163rd Streets, showing the former Jamaica High School now an annex of the Teachers Training School.\n\nAbout 1910.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "162nd Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 162nd Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "726850f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726850f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/51a1faf0-c558-012f-9869-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 162nd Street",
     "text": "162-01 - 379 Hillside Avenue, north side, east from 162nd Street. (left).\n\nMarch 12, 1938.\n\nP.L. Sperr\n",
@@ -36,9 +81,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "162nd Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 162nd Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "726858f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726858f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/546fc250-c558-012f-a2c5-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 162nd Street",
     "text": "Hillside Avenue, at the N.W. corner of 162nd Street (right), showing an outdoor auto sales place. Two old frame dwellings formerly stood there.\n\nP. L. Sperr\nMarch 12, 1938\n",

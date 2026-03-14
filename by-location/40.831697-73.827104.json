@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Greene Place",
+        "str2": "Tremont Avenue (East)"
+      },
+      "source": "Bronx: Greene Place - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "701194f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701194f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e11db60-c530-012f-cb92-58d385a7bc34",
     "original_title": "Bronx: Greene Place - Tremont Avenue (East)",
     "text": "2922 Greene Place, south side, between East Tremont and Edison Aves.\n\nAbout 1924.\n\nW. B. Vernam.\n",

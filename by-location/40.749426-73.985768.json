@@ -2,9 +2,46 @@
   {
     "date": "1943-06-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 17,
+        "street": "West 34th Street"
+      },
+      "source": "17 West 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fifth Avenue",
+        "str2": "Sixth Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1558150",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558150.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lerner Shops"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Thirty-fourth Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b9498170-c5ec-012f-4b38-58d385a7bc34",
     "text": null,
     "text_source": null,

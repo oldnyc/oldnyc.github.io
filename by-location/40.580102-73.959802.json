@@ -2,9 +2,35 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Ocean Parkway",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "703299f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703299f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brighton Beach (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Oriental Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f8b6720-c533-012f-362d-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Ocean Parkway",
     "text": "Brighton Beach.\nAtlantic Ocean, Brighton Beach from Coney Island Ave., to Oriental point. At the right is the Manhattan Beach and Oriental Hotels.\n\nAbout 1905.?\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +45,32 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Ocean Parkway",
+      "technique": "title-cross"
+    },
     "height": 207,
     "id": "703306f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703306f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brighton Beach (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72ae78a0-c533-012f-43f5-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Ocean Parkway",
     "text": "Brighton Beach, eastward to Oriental Point. At the left, is seen a part of the Brighton Beach Hotel. Coney Island Ave., is to out into the visible corner of the Hotel. On the left, is also seen Brighton Beach Park;\n\nAbout 1908.?\n\nEugene L. Armbruster Collection.\n",
@@ -36,9 +85,32 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Ocean Parkway",
+      "technique": "title-cross"
+    },
     "height": 513,
     "id": "703306f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703306f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brighton Beach (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beaches",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72ae78a0-c533-012f-43f5-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Ocean Parkway",
     "text": "Brighton Beach, eastward to Oriental Point. At the left, is seen a part of the Brighton Beach Hotel. Coney Island Ave., is to out into the visible corner of the Hotel. On the left, is also seen Brighton Beach Park;\n\nAbout 1908.?\n\nEugene L. Armbruster Collection.\n",
@@ -53,9 +125,42 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Coney Island Avenue and Ocean Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Gate No. 5",
+        "str2": "Prospect Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 387,
     "id": "706386f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706386f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3cd6bd10-c538-012f-4736-58d385a7bc34",
     "text": "Prospect Park Gate No. 5, at the intersection of Coney Island Avenue, Ocean Parkway, and Parkside Avenue.\n\nAbout 1913\n\nUrbrock Collection\n Neg. #2669\n",
     "text_source": "site",
@@ -69,9 +174,32 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Ocean Parkway",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "703792f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703792f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33049c40-c534-012f-aa4c-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Ocean Parkway",
     "text": "(1) Coney Island Ave., north from Reigelman Boardwalk, showing a part of Coney Island Ave., shut off from vehicular traffic. Also seen is the Brighton Beach train coming out of Brighton Beach Ave, this is the B.M.T.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n\n(2) The same, another view.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n",
@@ -86,9 +214,32 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Ocean Parkway"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Ocean Parkway",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "703792f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703792f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33049c40-c534-012f-aa4c-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Ocean Parkway",
     "text": "(1) Coney Island Ave., north from Reigelman Boardwalk, showing a part of Coney Island Ave., shut off from vehicular traffic. Also seen is the Brighton Beach train coming out of Brighton Beach Ave, this is the B.M.T.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n\n(2) The same, another view.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n",

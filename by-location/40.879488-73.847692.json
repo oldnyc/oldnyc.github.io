@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Eastchester Road",
+        "str2": "Hicks Street"
+      },
+      "source": "Bronx: Hicks Street - Eastchester Road",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701256f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701256f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66ef37f0-c530-012f-a0de-58d385a7bc34",
     "original_title": "Bronx: Hicks Street - Eastchester Road",
     "text": "Hicks Street (running from right to left, on which school and low buildings are facing), north side, west from Eastchester Road (right) to Wilson Ave., showing Public School No. 78 at the N.E. corner of Fish Ave. The vantage point is the north side of Boston Road at Corsa Ave.\nNovember 11, 1932.\nP. L. Sperr.\n",

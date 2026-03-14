@@ -2,9 +2,31 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 113th Street",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "722766f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722766f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32b04190-c552-012f-a4c7-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 113th Street",
     "text": "Riverside Drive at 113th St., looking south.\nB. Hufnagel, photographer.\nWilliam J. McAlpine, supervising engineer.\nThe stone foundation of the drive as rebuilt in May 1879, with the stones laid to exactly ten inches depth, as per contract. The work shown on the right of the picture represents the condition of the old foundation of stone, which is now being reset.\n\nMay 13, 1879\n\nDeposited with NYPL by NYC Park Dept. 1931\n",
@@ -19,9 +41,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "113th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "113th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417692-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417692-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c218400-c6cd-012f-96e6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +78,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "113th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "113th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 541,
     "id": "417207",
     "image_url": "https://images.nypl.org/?id=417207&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a86d6170-c611-012f-544f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +116,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "One Hundred and Thirteenth Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "One Hundred and Thirteenth Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 529,
     "id": "417297",
     "image_url": "https://images.nypl.org/?id=417297&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cdba8590-c611-012f-b9fa-58d385a7bc34",
     "text": null,
     "text_source": null,

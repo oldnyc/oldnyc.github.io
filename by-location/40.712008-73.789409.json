@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "173rd Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 173rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "726864f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726864f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5687ee50-c558-012f-910c-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 173rd Street",
     "text": "The \"LADY OF PEACE\"\n\nB-4\n\nFull\n\nQueens\nMajor John W. Mark Park\nHillside Ave., 173 & 175th Streets\nJamaica\n\nC. Manley DeBevoise\nLittle Neck, N.Y.\n",

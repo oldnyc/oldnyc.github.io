@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Auburndale Lane",
+        "str2": "Courtney Avenue"
+      },
+      "source": "Queens: Courtney Avenue - Auburndale Lane",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "726425f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726425f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b26a3120-c557-012f-dcd0-58d385a7bc34",
     "original_title": "Queens: Courtney Avenue - Auburndale Lane",
     "text": "Courtney Avenue, north side, between Auburndale Lane and Utopia Parkway, showing one of a row of similar homes, recently erected here.\n\nCapitol Photo Service\nAbout 1927\n",

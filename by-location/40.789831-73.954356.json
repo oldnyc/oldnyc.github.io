@@ -2,9 +2,45 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "99th Street"
+      },
+      "source": "5th Avenue and 99th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Pathways",
+        "technique": "title-cross"
+      }
+    ],
     "height": 397,
     "id": "718314f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718314f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue (South) - 99th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Trails & paths"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37dd16f0-c54b-012f-7c98-58d385a7bc34",
     "text": "Central Park: Pathways and greensward on the eastern side, showing Fifth Avenue south from about 99th Street.\nMay 15, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

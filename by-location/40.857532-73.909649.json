@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hall Of Fame Terrace",
+        "str2": "University Avenue"
+      },
+      "source": "Bronx: Hall Of Fame Terrace - University Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701220f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701220f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/590efd30-c530-012f-d7b3-58d385a7bc34",
     "text": "Hall of Fame Terrace, at the N.W. corner of University Avenue, showing the University Heights Presbyterian Church.\n\nJanuary 30, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

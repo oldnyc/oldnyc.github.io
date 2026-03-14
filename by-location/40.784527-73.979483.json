@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Eightieth Street"
+      },
+      "source": "Broadway and Eightieth Street",
+      "technique": "gpt"
+    },
     "height": 538,
     "id": "417174",
     "image_url": "https://images.nypl.org/?id=417174&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a16fe70-c611-012f-25e1-58d385a7bc34",
     "text": null,
     "text_source": null,

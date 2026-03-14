@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-09-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "97th Street (East)"
+      },
+      "source": "Manhattan: 3rd Avenue - 97th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "708140f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/708140f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00bdfa00-c53b-012f-32f4-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 97th Street (East)",
     "rotation": 90,
@@ -26,9 +44,27 @@
     "dates_from_text": [
       "1938-09-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "97th Street (East)"
+      },
+      "source": "Manhattan: 3rd Avenue - 97th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708140f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708140f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00bdfa00-c53b-012f-32f4-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 97th Street (East)",
     "text": "Third Avenue, east side, north from East 97th Street, showing tenements interspersed with clearances. The latter are a direct result of Mayor La Guardia's & Tenement House Commissioner Langdon Post's campaign for slum clearance.\nNo. 2 is northward from the middle of the 97th - 98th Street block and shows across a corner clearance (S.E. corner) the buildings north of 98th Street. Note the Third Avenue \"El\" overhead and casting dense shadows over the street level. The station thereof is at 99th Street.\n\nSeptember 13, 1938\nViews 1 and 2\n\nP.L. Sperr\n",
@@ -43,9 +79,29 @@
   {
     "date": "1941-08-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "97th Street"
+      },
+      "source": "3rd Avenue at 97th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "485798",
     "image_url": "https://images.nypl.org/?id=485798&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c4b1e20-c60e-012f-a662-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -59,9 +115,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 209,
+        "street": "E 97th Street"
+      },
+      "source": "97th Street (East) #209",
+      "technique": "title-address"
+    },
     "height": 432,
     "id": "1508367-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508367-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12846240-c5cf-012f-b24a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -75,9 +151,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 211,
+        "street": "E 97th Street"
+      },
+      "source": "97th Street (East) #211",
+      "technique": "title-address"
+    },
     "height": 421,
     "id": "1508369-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508369-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12e728b0-c5cf-012f-30af-58d385a7bc34",
     "text": null,
     "text_source": null,

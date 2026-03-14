@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Mace Avenue",
+        "str2": "Seymour Avenue"
+      },
+      "source": "Bronx: Mace Avenue - Seymour Avenue",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "701416f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701416f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3cdb9a0-c530-012f-0490-58d385a7bc34",
     "original_title": "Bronx: Mace Avenue - Seymour Avenue",
     "text": "Mace Ave., north side, west from Seymour Ave. (right), to Fish Ave., showing Public School No. 97.\n\nAbout 1932.\n\nBoard of Education of the City of New York.\n",

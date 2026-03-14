@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Linden Boulevard",
+        "str2": "Montauk Avenue"
+      },
+      "source": "Brooklyn: Montauk Avenue - Linden Boulevard",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "705779f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705779f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/518dc480-c537-012f-36bf-58d385a7bc34",
     "original_title": "Brooklyn: Montauk Avenue - Linden Boulevard",
     "text": "547 to 561 Montauk Avenue, east side, between Linden Boulevard and Stanley Avenue, viewing south toward the latter.\n\nAbout 1929\n",

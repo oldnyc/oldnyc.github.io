@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "11th Avenue",
+        "str2": "New Utrecht Avenue"
+      },
+      "source": "11th Avenue and New Utrecht Avenue",
+      "technique": "gpt"
+    },
     "height": 433,
     "id": "3984525",
     "image_url": "https://images.nypl.org/?id=3984525&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3ff4f100-c5d7-012f-3c29-58d385a7bc34",
     "text": null,
     "text_source": null,

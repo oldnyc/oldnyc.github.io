@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "97th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "97th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 573,
     "id": "465578-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465578-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45b6dc30-c612-012f-5448-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Ninety-seventh Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Ninety-seventh Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 532,
     "id": "417343",
     "image_url": "https://images.nypl.org/?id=417343&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e079cf30-c611-012f-ee2e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,38 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "97th Street (West)",
+        "str2": "Riverside Park"
+      },
+      "source": "Manhattan: Riverside Park - 97th Street (West).",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "722912f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722912f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Annual visit of the U. S. Fleet"
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7212ed40-c552-012f-c17a-58d385a7bc34",
     "text": "Riverside Park, at the foot of West 97th Street, showing the landing platform during the U. S. Fleets visit; an annual event.\n\nJune 17, 1934\n\nP. L. Sperr\n",
     "text_source": "gpt",

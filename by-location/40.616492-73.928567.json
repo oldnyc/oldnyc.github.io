@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-03-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "48th Street (East)",
+        "str2": "Avenue O"
+      },
+      "source": "Brooklyn: Avenue O - 48th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "706094f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706094f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb1ae910-c537-012f-d871-58d385a7bc34",
     "original_title": "Brooklyn: Avenue O - 48th Street (East)",
     "text": "Avenue O at the S.W. corner of E. 48th Street, showing the home of Alfred Manning in 1925.\n\nMarch 24, 1925.\n\nW. B. Vernam\n",

@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "15th Street",
+        "str2": "Livingston Place"
+      },
+      "source": "Manhattan: 15th Street - Livingston Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711326f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711326f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a306bd0-c540-012f-6eb5-58d385a7bc34",
     "original_title": "Manhattan: 15th Street - Livingston Place",
     "text": null,

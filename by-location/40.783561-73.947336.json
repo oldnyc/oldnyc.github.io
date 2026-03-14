@@ -2,9 +2,32 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1840,
+        "street": "Second Ave."
+      },
+      "source": "Second Ave. #1840",
+      "technique": "title-address"
+    },
     "height": 483,
     "id": "1517279-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1517279-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Second Ave. #1840, between E. 95th Street and E. 96th Street, with election banner."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9aa97a60-c5cf-012f-3ff2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +41,32 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1840,
+        "street": "Second Ave."
+      },
+      "source": "Second Ave. #1840",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1517201-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1517201-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Second Ave. #1840-42, between 95th Street and 96th Street [street scene (shops)]"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/863c2330-c5cf-012f-241e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +80,32 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "95th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "95th Street and Second Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1517271-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1517271-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Second Avenue and E. 95th street, exterior landing, balcony."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99353b00-c5cf-012f-23dc-58d385a7bc34",
     "text": null,
     "text_source": null,

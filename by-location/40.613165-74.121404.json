@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922-05-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Victory Boulevard",
+        "str2": "Winthrop Place"
+      },
+      "source": "Richmond: Victory Boulevard - Winthrop Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729864f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729864f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f9cc4730-c55c-012f-4d39-58d385a7bc34",
     "original_title": "Richmond: Victory Boulevard - Winthrop Place",
     "text": "Victory Boulevard, west from Winthrop Place, across Manor Road (bus parked), Castleton Corners.\n\nMay 6, 1922\n\nP. L. Sperr\n",

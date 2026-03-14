@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-03-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "10th Avenue",
+        "str2": "147th Street"
+      },
+      "source": "Queens: 10th Avenue - 147th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724995f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724995f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5a214a0-c555-012f-f0c7-58d385a7bc34",
     "original_title": "Queens: 10th Avenue - 147th Street",
     "text": "10th Avenue (right), at the N.E. corner of 147th Street, showing a frame house with watch tower, popular in the second half of the nineteenth century. It was owned by W. S. Overton Douglass in 1891 and by George B. Douglas in 1909. The house on the right was owned by O'Brien.\n\nP. L. Sperr\n\nMarch 5, 1932\n",
@@ -22,9 +40,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "10th Avenue",
+        "str2": "147th Street"
+      },
+      "source": "Queens: 147th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725882f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725882f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f1eec4a0-c556-012f-518c-58d385a7bc34",
     "original_title": "Queens: 147th Street - 10th Avenue",
     "text": "147th Street, north from 10th Avenue, Whitestone. The land on the left was owned(in 1891) by E. Powell, and that on the right by S. Overton Douglass.\n\nP. L. Sperr\n\nMarch 5, 1932\n",

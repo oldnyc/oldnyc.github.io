@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "Nintieth Street",
+        "str2": "West End Avenue"
+      },
+      "source": "Nintieth Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 536,
     "id": "417177",
     "image_url": "https://images.nypl.org/?id=417177&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b727ed0-c611-012f-1f91-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: West End Avenue - 90th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "724464f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724464f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f957ccb0-c554-012f-a131-58d385a7bc34",
     "original_title": "Manhattan: West End Avenue - 90th Street (West)",
     "text": "620-638 West End Avenue, from 90th to 91st Streets, a block of residences built between 1891 and 1897, except the twin houses at either end of the block, which were erected a few years later, probably about 1900.\n\nJune 1925.\n",

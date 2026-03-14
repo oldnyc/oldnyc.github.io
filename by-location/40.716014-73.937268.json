@@ -2,9 +2,52 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.716014,
+        "lng": -73.937268
+      },
+      "source": "Cooper Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cooper Park",
+        "str2": "Peter Cooper Statue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "4th Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "719201f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719201f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Convergence of 3rd and 4th Avenue"
+      ],
+      "subjects": {
+        "geographic": [
+          "Cooper Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cooper, Peter, 1791-1883"
+        ],
+        "topic": [
+          "Sculpture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b683360-c54c-012f-c9f8-58d385a7bc34",
     "text": "Cooper Park: A view of the Peter Cooper statue located in the northern part of the triangular plot at the convergence of Third and Fourth Aves. This figure by St. Gaudens, depicts this philanthropist as he daily appeared; looking down the Bowery. It was unveiled on May 29, 1897.\n\nAugust 12, 1937.\n\nGeorge D. Chinn.\n",
     "text_source": "gpt",

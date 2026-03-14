@@ -2,9 +2,33 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Audubon Avenue",
+        "str2": "W. 192nd Street"
+      },
+      "source": "Manhattan: Audubon Avenue - W. 192nd Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "715888f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715888f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67faa6e0-c547-012f-1b69-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - W. 192nd Street",
     "text": "George Washington High School is located at 549 Audubon Avenue at West 193rd Street in the Fort George neighborhood of the Washington Heights, Manhattan, New York City.\n\nBoard of Education, N.Y.C.\nMay 6, 1926\n",

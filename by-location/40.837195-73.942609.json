@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "162nd Street",
+        "str2": "Broadway"
+      },
+      "source": "162nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417657",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417657.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/195f7e60-c6cd-012f-d2c5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "162nd Street",
+        "str2": "Broadway"
+      },
+      "source": "162nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417659-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417659-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/189a7600-c6cd-012f-b33a-58d385a7bc34",
     "text": null,
     "text_source": null,

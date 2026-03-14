@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1933-07-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "17th St. E.",
+        "str2": "Ave. Z"
+      },
+      "source": "Brooklyn: Ave. Z - 17th St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707489f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707489f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7c8d130-c539-012f-d807-58d385a7bc34",
     "original_title": "Brooklyn: Ave. Z - 17th St. E.",
     "text": "Ave. Z at the N.E. corner of East 17th Street. Automobiles are parked on the Long Island Railroad right of way which once extended along the front of homes in this view.\n\nJuly 9, 1933.\n\nP. L. Sperr.\n",

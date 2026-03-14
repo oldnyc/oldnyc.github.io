@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Empire Boulevard",
+        "str2": "Lamont Court"
+      },
+      "source": "Brooklyn: Empire Boulevard - Lamont Court",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "704141f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704141f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf045280-c534-012f-9aa8-58d385a7bc34",
     "text": "Empire Boulevard, south side, west from Lamont Court to Brooklyn Ave.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

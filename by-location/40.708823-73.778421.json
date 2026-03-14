@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "182nd Place",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - 182nd Place",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "727068f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727068f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7b238c0-c558-012f-bbdc-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - 182nd Place",
     "text": "Jamaica Ave., north side, between 182nd Place and 183rd Street, showing Belmont Cottage, a hotel, demolished in February, 1924. 1922.",

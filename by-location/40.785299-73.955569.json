@@ -2,9 +2,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 93rd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "714836f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714836f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d86dae50-c545-012f-085c-58d385a7bc34",
     "original_title": "Manhattan: 93rd Street - Madison Avenue",
     "text": "East 93rd Street, west from but not including Madison to Fifth Aves. Note Central Park forming the west side of the latter Ave.\n\nJune 22, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -19,9 +45,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 93rd Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 493,
     "id": "714837f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714837f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d8d41330-c545-012f-2565-58d385a7bc34",
     "original_title": "Manhattan: 93rd Street - Madison Avenue",
     "text": "East 93rd Street, south side, west from (No. 16, extreme left) but not including Madison to Fifth Aves. (right), showing a row of 4-story basement houses, Nos. 16 to 6 included. At the S.E. corner of Fifth Ave. is a new apartment house No. 1116.\n\nJune 22, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

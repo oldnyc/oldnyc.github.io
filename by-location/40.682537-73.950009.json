@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hancock Street",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn: Nostrand Avenue - Hancock Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "706085f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/706085f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c76fd750-c537-012f-964b-58d385a7bc34",
     "original_title": "Brooklyn: Nostrand Avenue - Hancock Street",
     "rotation": 90,
@@ -20,9 +41,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hancock Street",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn: Nostrand Avenue - Hancock Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706085f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706085f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c76fd750-c537-012f-964b-58d385a7bc34",
     "original_title": "Brooklyn: Nostrand Avenue - Hancock Street",
     "text": "Nostrand Avenue, east side north from Hancock Street.  At the southeast corner of Jefferson Avenue is the Greenpoint Masonic Temple, also seen in view 2.\n\nF. L. Sperr\nAugust 26, 1941\n",

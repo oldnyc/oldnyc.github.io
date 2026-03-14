@@ -2,9 +2,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "74th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 74th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714439f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714439f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3dd147e0-c545-012f-d972-58d385a7bc34",
     "original_title": "Manhattan: 74th Street (West) - Riverside Drive",
     "text": "323 West 74th Street, adjoining the N.E. corner of Riverside Drive.\nAbout 1913.\n",

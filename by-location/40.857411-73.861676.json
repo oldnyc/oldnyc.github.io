@@ -2,9 +2,34 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx and Pelham Parkway",
+        "str2": "Bronxwood Avenue"
+      },
+      "source": "Bronx and Pelham Parkway and Bronxwood Avenue",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "700597f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700597f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "White Plains Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d13c6a0-c52f-012f-ec62-58d385a7bc34",
     "text": "Bronx and Pelham Parkway, west from about Bronxwood Ave., showing, in the background, part of the elevated station of the I.R.T. White Plains Road subway line.\n\n1923.\n\nJoseph P. Day.\n",
     "text_source": "gpt",

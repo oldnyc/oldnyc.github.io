@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-06-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Macon Street",
+        "str2": "Tompkins Avenue"
+      },
+      "source": "Brooklyn: Macon Street - Tompkins Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "705543f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705543f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f53d1200-c536-012f-599f-58d385a7bc34",
     "original_title": "Brooklyn: Macon Street - Tompkins Avenue",
     "text": "Macon Street, south side, between Tompkins and Throop Aves., showing a rear view of a mansion at 87 Mc Donough Street.\n\nJune 2, 1929\n\nP.L. Sperr\n",

@@ -2,9 +2,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Lafayette Street",
+        "str2": "Walker Street"
+      },
+      "source": "Lafayette Street and Walker Street",
+      "technique": "gpt"
+    },
     "height": 483,
     "id": "1558153",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558153.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The Chas Fischer Spring Company interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Industry",
+          "Interiors",
+          "Springs (Mechanism)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/630ee450-c5ed-012f-7541-58d385a7bc34",
     "text": null,
     "text_source": null,

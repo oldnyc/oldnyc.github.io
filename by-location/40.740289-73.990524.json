@@ -2,9 +2,30 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708368f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708368f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5df77fb0-c53b-012f-da2a-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street (West)",
     "text": "Fifth Avenue, at the N. W. corner of West 21st Street, showing the 4th clubhouse of the Union Club, occupied from 1856 to 1903. The entrance as shown is on the street side.\n\nPrior to 1890\n\nGift of Urbroock Collection\n",
@@ -19,9 +40,30 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708370f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708370f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ebef550-c53b-012f-2b45-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street",
     "text": "Union Club, Fifth Avenue at the N.W. corner of 21st Street. This is the fourth clubhouse of the Union Club, occupied from 1855 to 1903. Adjoining the 21st Street side, No. 3 West 21st Street has been demolished for rebuilding.\nAbout 1890\nBrown Bothers.\n",
@@ -36,9 +78,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7404269544056,
+        "lng": -73.99051398038864
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 218,
     "id": "1113240",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113240.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Architectural elements",
+          "Buildings",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ca86580-c6ca-012f-32a6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +118,35 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 21st Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711580f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711580f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Clothing stores",
+          "Fur trade",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f3576f0-c540-012f-79ce-58d385a7bc34",
     "original_title": "Manhattan: 21st Street (West) - 5th Avenue",
     "text": "16 West 21st Street, south side, west of Fifth Avenue.\nAbout 1912.\nJames Suyden.\n",
@@ -69,9 +161,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708369f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708369f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Garibaldi, Giuseppe, 1807-1882"
+        ],
+        "topic": [
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e6e8540-c53b-012f-001d-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street",
     "text": "Fifth Avenue, west side, 21st to 22nd Streets.\n\nAbout 1922.\n\nUnderwood & Underwood, Photographers.\n",
@@ -89,9 +205,27 @@
     "dates_from_text": [
       "1929"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708367f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708367f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5d9ba5c0-c53b-012f-8b71-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street",
     "text": "Fifth Avenue, west side between 21st and 22nd Streets. About 1929.",
@@ -106,9 +240,27 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708362f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708362f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b64e5d0-c53b-012f-d651-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street (East)",
     "text": "149-151 Fifth Ave., at the N.E. corner of East 21st STreet.\n\nApril 26, 1935.\n\nP. L. Sperr.\n",
@@ -123,9 +275,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 21st Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711578f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711578f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e7f7030-c540-012f-6404-58d385a7bc34",
     "original_title": "Manhattan: 21st Street - 5th Avenue",
     "text": "Looking through the parking lot from W21st to W22nd st between 5th and sixth ave the lot is still there though they have started constuction of a building on the lot you can still see the outline of the torn down build on the building adjacent to the lot as well as the now faded advertising on the building",
@@ -140,9 +314,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 21st Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711578f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711578f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e7f7030-c540-012f-6404-58d385a7bc34",
     "original_title": "Manhattan: 21st Street - 5th Avenue",
     "text": "Looking through the parking lot from W21st to W22nd st between 5th and sixth ave the lot is still there though they have started constuction of a building on the lot you can still see the outline of the torn down build on the building adjacent to the lot as well as the now faded advertising on the building",
@@ -157,9 +353,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 21st Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711578f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711578f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e7f7030-c540-012f-6404-58d385a7bc34",
     "original_title": "Manhattan: 21st Street - 5th Avenue",
     "text": "Looking through the parking lot from W21st to W22nd st between 5th and sixth ave the lot is still there though they have started constuction of a building on the lot you can still see the outline of the torn down build on the building adjacent to the lot as well as the now faded advertising on the building",
@@ -174,9 +392,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 21st Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711579f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711579f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ecdca40-c540-012f-5941-58d385a7bc34",
     "original_title": "Manhattan: 21st Street (West) - 5th Avenue",
     "text": "West 21st Street, west from Fifth Avenue, showing prominently the north side of this thoroughfare.\n\nMay 22, 1935\n\nP. L. Sperr\n",
@@ -191,9 +430,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 21st St",
+        "str2": "Fifth Av"
+      },
+      "source": "E. 21st St and Fifth Av",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985157",
     "image_url": "https://images.nypl.org/?id=3985157&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f614af50-c5d7-012f-dd2d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -207,9 +470,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708365f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708365f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cb71a10-c53b-012f-4b27-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street",
     "text": "This is a picture of 5th ave and 21st st in Brooklyn not Manhattan as indicated in the hand writing above the type",
@@ -224,9 +508,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708365f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708365f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cb71a10-c53b-012f-4b27-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street",
     "text": "This is a picture of 5th ave and 21st st in Brooklyn not Manhattan as indicated in the hand writing above the type",
@@ -241,9 +546,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708365f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708365f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5cb71a10-c53b-012f-4b27-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 21st Street",
     "text": "This is a picture of 5th ave and 21st st in Brooklyn not Manhattan as indicated in the hand writing above the type",
@@ -258,9 +584,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "21st Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 21st Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1508735",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508735.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/894f6670-c5ce-012f-7d69-58d385a7bc34",
     "text": null,
     "text_source": null,

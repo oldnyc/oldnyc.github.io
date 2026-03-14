@@ -2,9 +2,27 @@
   {
     "date": "1934-05-18",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "north from 12th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - north from 12th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708003f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708003f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c556ac20-c53a-012f-272f-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - north from 12th Street.",
     "text": "Third Avenue, east side, north from No. 97, north of 12th Street. May 18, 1934.\n\nP. L. Sperr.\n",
@@ -22,9 +40,27 @@
     "dates_from_text": [
       "1938"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 12th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711128f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711128f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6c6c910-c53f-012f-c3c7-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (East) - 3rd Avenue",
     "text": "208 E. 12th Street, south side of Third Avenue, showing a vacant property. On the right is a portion of a three story stable that runs on the east side of Stuyvesant Alley thru to 11th Street.\n\nFall, 1938\nViews: 1-2\n\nGift of Committee on Housing\nCharity Organization Society\n",
@@ -42,9 +78,27 @@
     "dates_from_text": [
       "1938"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 12th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711128f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711128f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6c6c910-c53f-012f-c3c7-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (East) - 3rd Avenue",
     "text": "208 E. 12th Street, south side of Third Avenue, showing a vacant property. On the right is a portion of a three story stable that runs on the east side of Stuyvesant Alley thru to 11th Street.\n\nFall, 1938\nViews: 1-2\n\nGift of Committee on Housing\nCharity Organization Society\n",
@@ -59,9 +113,30 @@
   {
     "date": "1972",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 12th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711127f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711127f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d67699b0-c53f-012f-baf5-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (East) - 3rd Avenue",
     "text": "E. 12th Street, e. toward Third Ave., Manhattan.\nSt. Ann's Church, 110 E. 12 St.\n\nNov. 1972\nGift of Gunther Pohl\n",
@@ -76,9 +151,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "east 12th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - between east 12th and east 13th Street.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "708004f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708004f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5ceb110-c53a-012f-acfb-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - between east 12th and east 13th Street.",
     "text": "No. 100 Third Avenue, west side, between East 12th and East 13th Streets.\n\nVictor Volnar\nno date\n",

@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 454,
+        "street": "W 155th Street"
+      },
+      "source": "155th Street (West) #454",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508447",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508447.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "William McKinley Temple"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2056a190-c5cf-012f-b5be-58d385a7bc34",
     "text": null,
     "text_source": null,

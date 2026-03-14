@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-04-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marcy Avenue",
+        "str2": "Wallabout Street"
+      },
+      "source": "Brooklyn: Marcy Avenue - Wallabout Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "705575f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705575f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01a3a290-c537-012f-9de5-58d385a7bc34",
     "original_title": "Brooklyn: Marcy Avenue - Wallabout Street",
     "text": "Marcy Ave., east side, north from Wallabout Street.\nApril 20, 1931.\n\nP. L. Sperr.\n",
@@ -22,9 +40,39 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marcy Ave.",
+        "str2": "Wallabout St."
+      },
+      "source": "Marcy Ave. and Wallabout St.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "March Ave.",
+        "str2": "Wallabout St.",
+        "technique": "title-cross"
+      }
+    ],
     "height": 404,
     "id": "707250f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707250f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Paint industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/888449c0-c539-012f-0ea6-58d385a7bc34",
     "original_title": "Brooklyn: Wallabout St. - March Ave.",
     "text": "Wallabout Street, south side, east from Marcy Ave.\n\nApril 20, 1931.\n\nP. L. Sperr.\n",

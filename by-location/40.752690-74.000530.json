@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street"
+      },
+      "source": "Manhattan: 31st Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "712016f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712016f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49513ce0-c541-012f-2d43-58d385a7bc34",
     "original_title": "Manhattan: 31st Street - 10th Avenue",
     "text": "31st Street, between Tenth and Eleventh Aves., showing the New York Central Railroad tracks.\nMay 17, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 31st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710530f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710530f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e15acf50-c53e-012f-3d00-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 31st Street (West)",
     "text": "Tenth Avenue, east side, at W. 31st Street, showing buildings at the S. E. corner and a gas station at the N. E. corner. The brick chimney appearing in View 2 is at the rear of the former.\n\nAugust 25, 1940\nViews 1,2\n\nP. L. Sperr\n",
@@ -36,9 +81,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 31st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "710530f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/710530f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e15acf50-c53e-012f-3d00-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 31st Street (West)",
     "rotation": 90,
@@ -54,9 +123,37 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 31st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "710532f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710532f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central and Hudson River Railroad Company"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Postal service",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e24167a0-c53e-012f-85c5-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 31st Street (West)",
     "text": "Tenth Avenue, north from W. 31st Street, On the west side of the Avenue are the New York Central Railroad yards. View 2 being westward is limited to this detail.\n\nAugust 25, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -71,9 +168,37 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 31st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710532f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710532f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central and Hudson River Railroad Company"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Postal service",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e24167a0-c53e-012f-85c5-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 31st Street (West)",
     "text": "Tenth Avenue, north from W. 31st Street, On the west side of the Avenue are the New York Central Railroad yards. View 2 being westward is limited to this detail.\n\nAugust 25, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -88,9 +213,37 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 31st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710532f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710532f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central and Hudson River Railroad Company"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Postal service",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e24167a0-c53e-012f-85c5-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 31st Street (West)",
     "text": "Tenth Avenue, north from W. 31st Street, On the west side of the Avenue are the New York Central Railroad yards. View 2 being westward is limited to this detail.\n\nAugust 25, 1940\nViews 1,2,3\n\nP. L. Sperr\n",
@@ -108,9 +261,27 @@
     "dates_from_text": [
       "1968-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "31st Street"
+      },
+      "source": "Manhattan: 10th Avenue - 31st Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "710533f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710533f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2c611f0-c53e-012f-badf-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 31st Street",
     "text": "Received from Cross & Brown Co., March 1968",

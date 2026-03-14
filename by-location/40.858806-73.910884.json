@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hall Of Fame Terrace",
+        "str2": "Loring Place North"
+      },
+      "source": "Bronx: Hall Of Fame Terrace - Loring Place North",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "701222f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701222f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59bf8530-c530-012f-e85c-58d385a7bc34",
     "text": "(1) Hall of Fame Terrace, north side, between Loring Place North and Sedgewick Avenue. The house was the B. Andrews home (1879 map) and later (1893 map) the New York Skin and Cancer Hospital. The views were taken the same day.\n\nJanuary 30, 1938\n\nP.L.Sperr\n\n(2) The same, another view.\n\nJanuary 30, 1938\n\nP.L.Sperr\n",
     "text_source": "gpt",
@@ -18,9 +39,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hall Of Fame Terrace",
+        "str2": "Loring Place North"
+      },
+      "source": "Bronx: Hall Of Fame Terrace - Loring Place North",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "701222f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701222f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59bf8530-c530-012f-e85c-58d385a7bc34",
     "text": "(1) Hall of Fame Terrace, north side, between Loring Place North and Sedgewick Avenue. The house was the B. Andrews home (1879 map) and later (1893 map) the New York Skin and Cancer Hospital. The views were taken the same day.\n\nJanuary 30, 1938\n\nP.L.Sperr\n\n(2) The same, another view.\n\nJanuary 30, 1938\n\nP.L.Sperr\n",
     "text_source": "gpt",
@@ -37,9 +79,27 @@
     "dates_from_text": [
       "1938-01-30"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hall Of Fame Terrace",
+        "str2": "Loring Place North"
+      },
+      "source": "Bronx: Hall Of Fame Terrace - Loring Place North",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701223f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701223f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a206310-c530-012f-cd6b-58d385a7bc34",
     "text": "Hall of Fame Terrace, at the N.E. corner of Loring Place North.\n\nJanuary 30, 1938.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -53,9 +113,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hall of Fame Terrace",
+        "str2": "Loring Place North"
+      },
+      "source": "Bronx: Loring Place North - Hall of Fame Terrace",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "701411f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701411f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a24bde90-c530-012f-dd1a-58d385a7bc34",
     "text": "Loring Place North, west side, between Hall of Fame Terrace and West 183rd Street.\n\nJanuary 30, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

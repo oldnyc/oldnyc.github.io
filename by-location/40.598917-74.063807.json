@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-06-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Lilly Pond Avenue",
+        "str2": "McClean Avenue"
+      },
+      "source": "Richmond: McClean Avenue - Lilly Pond Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729134f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729134f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da676ea0-c55b-012f-0508-58d385a7bc34",
     "original_title": "Richmond: McClean Avenue - Lilly Pond Avenue",
     "text": "45 McClean Avenue, at the N.E. corner of Lily Pond Avenue. The mansion was owned by Richardson, in 1874 (Beers's map); by Anna M. King, from 1898 to 1907 (Robinson maps); and by E. H. Eglinton, in 1917 (Bromley's map).\n\nJune 2, 1935\n\nP. L. Sperr\n",

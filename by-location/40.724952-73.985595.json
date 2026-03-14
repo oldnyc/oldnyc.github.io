@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1921-04-15"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 159,
+        "street": "East 4th Street"
+      },
+      "source": "159 East 4th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "5th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "5th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "710896f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710896f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/784e1460-c53f-012f-22a5-58d385a7bc34",
     "original_title": "Manhattan: 4th Street - 5th Street",
     "text": "159 East 4th street. (Before reconstruction).\n  April 15, 1921.\n",
@@ -25,9 +57,41 @@
     "dates_from_text": [
       "1921-04-15"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 159,
+        "street": "East 4th Street"
+      },
+      "source": "159 East 4th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "5th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "5th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "710896f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710896f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/784e1460-c53f-012f-22a5-58d385a7bc34",
     "original_title": "Manhattan: 4th Street - 5th Street",
     "text": "159 East 4th street. (Before reconstruction).\n  April 15, 1921.\n",

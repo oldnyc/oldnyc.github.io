@@ -2,9 +2,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 2nd Avenue - 104th Street",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "707959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707959f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "A and P Food Stores",
+          "Great Atlantic & Pacific Tea Company"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3499bb0-c53a-012f-92d5-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 104th Street",
     "text": "2nd Avenue and 104th Street, looking south, showing the Atlantic and Pacific Tea Company, on northwest corner of 2nd Avenue.\n1930\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-05-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Edgewater Street",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Richmond: Hylan Boulevard - Edgewater Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "728993f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728993f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a279cf50-c55b-012f-0d97-58d385a7bc34",
     "original_title": "Richmond: Hylan Boulevard - Edgewater Street",
     "text": "Hylan Boulevard, south side, at Edgewater Street, showing the Austin House, said to have been erected in 1710 by a Dutch merchant. It is a stone and wood dwelling.\n\nMay 28, 1926.\n\nP. L. Sperr\n",

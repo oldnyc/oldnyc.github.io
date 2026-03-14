@@ -2,9 +2,31 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Little Neck Parkway",
+        "str2": "Nassau Boulevard"
+      },
+      "source": "Queens: Little Neck Parkway - Nassau Boulevard",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "727278f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727278f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f9a201c0-c558-012f-482d-58d385a7bc34",
     "original_title": "Queens: Little Neck Parkway - Nassau Boulevard",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, N.Y. 11362\n",

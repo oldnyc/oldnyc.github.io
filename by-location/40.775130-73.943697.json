@@ -2,9 +2,35 @@
   {
     "date": "1923; 1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "718085f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718085f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3901740-c54a-012f-e536-58d385a7bc34",
     "text": "(1)\nCarl Schurz Park: A view northward from the northern extremity and showing a portion of the Promenade in the foreground. Shown in the background is the Hell Gate Bridge spanning the East River.\n1923.\nP. L. Sperr.\n\n(2)\nA view eastward from the Promenade showing several pleasure boats silhouetted against the Astoria (formerly Dutch Kille) Long Island shore line.\n1924.\nP. L. Sperr.\n\n(3)\nA view southward from the Promenade, along the East River and showing on the left a portion of Welfare Island. Note the Queensboro Bridge in the distance.\n1924.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -19,9 +45,35 @@
   {
     "date": "1923; 1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "718085f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718085f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3901740-c54a-012f-e536-58d385a7bc34",
     "text": "(1)\nCarl Schurz Park: A view northward from the northern extremity and showing a portion of the Promenade in the foreground. Shown in the background is the Hell Gate Bridge spanning the East River.\n1923.\nP. L. Sperr.\n\n(2)\nA view eastward from the Promenade showing several pleasure boats silhouetted against the Astoria (formerly Dutch Kille) Long Island shore line.\n1924.\nP. L. Sperr.\n\n(3)\nA view southward from the Promenade, along the East River and showing on the left a portion of Welfare Island. Note the Queensboro Bridge in the distance.\n1924.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -36,9 +88,35 @@
   {
     "date": "1923; 1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "718085f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/718085f-c.270.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3901740-c54a-012f-e536-58d385a7bc34",
     "rotation": 270,
     "text": "(1)\nCarl Schurz Park: A view northward from the northern extremity and showing a portion of the Promenade in the foreground. Shown in the background is the Hell Gate Bridge spanning the East River.\n1923.\nP. L. Sperr.\n\n(2)\nA view eastward from the Promenade showing several pleasure boats silhouetted against the Astoria (formerly Dutch Kille) Long Island shore line.\n1924.\nP. L. Sperr.\n\n(3)\nA view southward from the Promenade, along the East River and showing on the left a portion of Welfare Island. Note the Queensboro Bridge in the distance.\n1924.\nP. L. Sperr.\n",
@@ -54,9 +132,43 @@
   {
     "date": "1924; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 86th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 380,
     "id": "718087f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718087f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d4ab1f80-c54a-012f-c567-58d385a7bc34",
     "text": "Carl Schurz Park: A set of 2 views northeastward, across the East River to Astoria, Long Island. Note the Hellgate (Long Island Connecting Railroad) Bridge on the left. In view No. 1 appears a pier at the foot of East 86th Street with a tug boat that conveys individuals to Welfare (Blackwells) Island, tied thereto.\n\nSpring 1924.\nView 2:--June 24, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -71,9 +183,27 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "718083f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718083f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2a14620-c54a-012f-202f-58d385a7bc34",
     "text": "Carl Schurz Park: A new pedestrian over pass is in the central portion of the Park; built by the W.P.A. The photographers vantage point is eastward and shows through same the Astoria shoreline across the East River.\nAugust 17, 1936.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -87,9 +217,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "718086f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718086f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d41acb50-c54a-012f-2126-58d385a7bc34",
     "text": "Carl Schurz Park: A view northward, from the northern extremity of the Park, over the East River, and showing the new \"streamlined\" Triboro Bridge silhouetted against the curved span of the Hellgate Bridge. This set of 3 views are similar; No. 1, being of a slightly earlier date.\n\nNo. 1-------March 29, 1937.\nNos. 2 & 3-August 17, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -103,9 +257,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "718086f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718086f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d41acb50-c54a-012f-2126-58d385a7bc34",
     "text": "Carl Schurz Park: A view northward, from the northern extremity of the Park, over the East River, and showing the new \"streamlined\" Triboro Bridge silhouetted against the curved span of the Hellgate Bridge. This set of 3 views are similar; No. 1, being of a slightly earlier date.\n\nNo. 1-------March 29, 1937.\nNos. 2 & 3-August 17, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -119,9 +297,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "718086f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718086f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d41acb50-c54a-012f-2126-58d385a7bc34",
     "text": "Carl Schurz Park: A view northward, from the northern extremity of the Park, over the East River, and showing the new \"streamlined\" Triboro Bridge silhouetted against the curved span of the Hellgate Bridge. This set of 3 views are similar; No. 1, being of a slightly earlier date.\n\nNo. 1-------March 29, 1937.\nNos. 2 & 3-August 17, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -135,9 +337,29 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
     "height": 507,
     "id": "718088f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718088f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Gracie Mansion."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d5086c90-c54a-012f-af9f-58d385a7bc34",
     "text": "Carl Schurz Park: The Gracie Mansion viewed westward and showing the East River frontage.\n\n1939\n\nGift of George Jiranek\nPhotostat Division\nNew York Public Library\n",
     "text_source": "gpt",
@@ -151,9 +373,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Carl Schurz Park",
+        "str2": "Gracie Mansion",
+        "technique": "title-cross"
+      }
+    ],
     "height": 505,
     "id": "718089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d57956d0-c54a-012f-01df-58d385a7bc34",
     "text": "Carl Schurz Park: Musical instruments inside of the Gracie Mansion.\n\n1939\n\nGift of George Jiranek\nPhotostat Division\nNew York Public Library\n",
     "text_source": "gpt",
@@ -167,9 +414,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77513,
+        "lng": -73.943697
+      },
+      "source": "Carl Schurz Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Carl Schurz Park",
+        "str2": "Gracie Mansion",
+        "technique": "title-cross"
+      }
+    ],
     "height": 506,
     "id": "718090f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718090f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d5ca1660-c54a-012f-56a5-58d385a7bc34",
     "text": "Carl Schurz Park: An interior view of a room in the Gracie Mansion.\n\n1939\n\nGift of George Jiranek\nPhotostat Division\nNew York Public Library\n",
     "text_source": "gpt",

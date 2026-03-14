@@ -2,9 +2,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Lafayette Avenue",
+        "str2": "Zerega Avenue"
+      },
+      "source": "Lafayette Avenue and Zerega Avenue",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "734845f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734845f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Westchester Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streams -- New York (State) -- New York",
+          "Waste disposal facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2cb5610-c564-012f-983e-58d385a7bc34",
     "text": "Westchester Creek: Looking north from about Lafayette Avenue and showing the Zerega Avenue garbage disposal plant of the Department of Sanitation.\n\nMay 1, 1938\n\nP. L. Sperr\n",
     "text_source": "gpt",

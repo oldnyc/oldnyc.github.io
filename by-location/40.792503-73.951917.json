@@ -2,9 +2,29 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1220,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #1220",
+      "technique": "title-address"
+    },
     "height": 404,
     "id": "1508909-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508909-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8150350-c5ce-012f-cc95-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1220,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #1220",
+      "technique": "title-address"
+    },
     "height": 370,
     "id": "1508907",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508907.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7cd2300-c5ce-012f-aa59-58d385a7bc34",
     "text": null,
     "text_source": null,

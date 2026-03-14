@@ -2,9 +2,46 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1049,
+        "street": "East 92nd Street"
+      },
+      "source": "1049 East 92nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "92nd Street (East)",
+        "str2": "Smith's Lane",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 92nd Street",
+        "str2": "Smith's Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 460,
     "id": "702906f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702906f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d82d3950-c532-012f-2cae-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street (East) - Smith's Lane",
     "text": "1049-1057 East 92nd Street, at the S.E. corner of Smith's Lane, showing Kreier's Store; 1870.\n1922.\n\nEugene L. Armbruster Collection.\n",

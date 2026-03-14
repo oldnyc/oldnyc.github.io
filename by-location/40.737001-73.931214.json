@@ -2,9 +2,35 @@
   {
     "date": "1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Borden Avenue",
+        "str2": "Greenpoint Avenue"
+      },
+      "source": "Queens: Greenpoint Avenue - Between Borden and Gale Avenues.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "732371f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732371f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Vesey Street - West Broadway ; Queens: Greenpoint Avenue - Between Borden and Gale Avenues."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Flowers",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d8abfe0-c561-012f-3e34-58d385a7bc34",
     "text": "(1) Peddlers--flowers: Selling flowers at Vessey Street and West Broadway, Manhattan.\n\nAbout 1930\n\n(2) The flower market on the north side of Greenpoint Avenue, between Borden and Gale Avenues, Queens. The flower shops are operated by J. T. Byrne and Owen Dalley.\n\nP. L. Sperr\n\nNovember 1, 1936\n",
     "text_source": "gpt",
@@ -19,9 +45,35 @@
   {
     "date": "1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Borden Avenue",
+        "str2": "Greenpoint Avenue"
+      },
+      "source": "Queens: Greenpoint Avenue - Between Borden and Gale Avenues.",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "732371f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732371f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Vesey Street - West Broadway ; Queens: Greenpoint Avenue - Between Borden and Gale Avenues."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Flowers",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d8abfe0-c561-012f-3e34-58d385a7bc34",
     "text": "(1) Peddlers--flowers: Selling flowers at Vessey Street and West Broadway, Manhattan.\n\nAbout 1930\n\n(2) The flower market on the north side of Greenpoint Avenue, between Borden and Gale Avenues, Queens. The flower shops are operated by J. T. Byrne and Owen Dalley.\n\nP. L. Sperr\n\nNovember 1, 1936\n",
     "text_source": "gpt",
@@ -36,9 +88,29 @@
   {
     "date": "1940-07-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Borden Avenue",
+        "str2": "Greenpoint Avenue"
+      },
+      "source": "Borden Avenue and Greenpoint Avenue",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "485927",
     "image_url": "https://images.nypl.org/?id=485927&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95c9fda0-c60e-012f-6610-58d385a7bc34",
     "text": null,
     "text_source": null,

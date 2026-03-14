@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Thames St.",
+        "str2": "Vandervoort Pl."
+      },
+      "source": "Brooklyn: Thames St. - Vandervoort Pl.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707041f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707041f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36516260-c539-012f-600c-58d385a7bc34",
     "original_title": "Brooklyn: Thames St. - Vandervoort Pl.",
     "text": "Thames Street, at the southeast corner of Vandervoort Place, showing\nPublic School No. 88.\nBoard of Education of the City of New York June 25, 1931\n",
@@ -22,9 +46,41 @@
     "dates_from_text": [
       "1931-06-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Thames Street",
+        "str2": "Vandervoort Place"
+      },
+      "source": "Thames Street and Vandervoort Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Sutter Ave.",
+        "str2": "Thatford St.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Sutter Ave.",
+        "str2": "Thatford St.",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "707042f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707042f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36b69af0-c539-012f-d963-58d385a7bc34",
     "original_title": "Brooklyn: Thatford St. - Sutter Ave.",
     "text": "Thames Street, at the southeast corner of Vandervoort Place, showing Public School No. 88.\nBoard of Education of the City of New  ork  June 25, 1931\n",

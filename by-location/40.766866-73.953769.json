@@ -5,9 +5,33 @@
     "dates_from_text": [
       "1927-09-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street",
+        "str2": "Avenue A"
+      },
+      "source": "Manhattan: 72nd Street - Avenue A",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714353f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714353f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1aecca60-c545-012f-2b71-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street - Avenue A",
     "text": "72nd Street, north side, from First Avenue to Second Avenues.\n\nSeptember 24, 1927.\n\nP. L. Sperr.\n",
@@ -22,9 +46,30 @@
   {
     "date": "1929; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: 72nd Street - York Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "714350f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714350f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19e04610-c545-012f-0a4b-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street - York Avenue",
     "text": "(1)\n72nd Street, west from and including York Avenue.\n\nP. L. Sperr\n\n'August 21, 1929\nViews 1 and 2\n\n(2) Same.\nP.L.Sperr,\n\nSeptember 29, 1940\n",
@@ -40,9 +85,30 @@
   {
     "date": "1929; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: 72nd Street - York Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "714350f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714350f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19e04610-c545-012f-0a4b-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street - York Avenue",
     "text": "(1)\n72nd Street, west from and including York Avenue.\n\nP. L. Sperr\n\n'August 21, 1929\nViews 1 and 2\n\n(2) Same.\nP.L.Sperr,\n\nSeptember 29, 1940\n",
@@ -61,9 +127,27 @@
     "dates_from_text": [
       "1929-08-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 72nd Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "724904f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724904f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a02bc260-c555-012f-f79e-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 72nd Street",
     "text": "York Avenue (Formerly Avenue A), north from 72nd Street. Most of this section was built up in the late 1880's. The building on the N.W. corner of 72nd Street is newer, around 1900; a two-story wooden house used to stand on that corner.\n\nAugust 21, 1929.\n\nP. L. Sperr.\n",

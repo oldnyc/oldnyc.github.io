@@ -2,9 +2,29 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1626,
+        "street": "Lexington Avenue"
+      },
+      "source": "Lexington Avenue #1626",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507609-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507609-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29cbb460-c5ce-012f-c3a4-58d385a7bc34",
     "text": null,
     "text_source": null,

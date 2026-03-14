@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Castle Hill Avenue",
+        "str2": "Glover Street"
+      },
+      "source": "Bronx: Glover Street - Castle Hill Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31688c30-c530-012f-ca42-58d385a7bc34",
     "original_title": "Bronx: Glover Street - Castle Hill Avenue",
     "text": "1615 and 1613 Glover Street, east side, between Castle Hill and St. Raymond Aves.\n\nAbout 1925.\n\nW. B. Vernam.\n",

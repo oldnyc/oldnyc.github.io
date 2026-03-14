@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "183rd Street",
+        "str2": "Bassford Avenue"
+      },
+      "source": "Bronx: Bassford Avenue - 183rd Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700470f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700470f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ed13b80-c52f-012f-23b4-58d385a7bc34",
     "original_title": "Bronx: Bassford Avenue - 183rd Street",
     "text": "Bassford Ave. n. of 183rd St.\nP.L. Sperr\n8-31-1942\n",

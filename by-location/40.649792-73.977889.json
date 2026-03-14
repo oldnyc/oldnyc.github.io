@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 108,
+        "street": "E. 4th Street"
+      },
+      "source": "108 E. 4th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "4th Street (East)",
+        "str2": "Glenwood Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "4th Street",
+        "str2": "Glenwood Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "702358f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702358f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/06d25930-c532-012f-064b-58d385a7bc34",
     "original_title": "Brooklyn: 4th Street (East) - Glenwood Avenue",
     "text": "108 E. 4th Street, west side, between Glenwood Avenue, and Hamilton Parkway, showing a house belonging to Agnes Heaney.\nabout 1922.\n\nW. B. Vernam\n",

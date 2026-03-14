@@ -2,9 +2,44 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 464,
+        "street": "Herkimer Street"
+      },
+      "source": "464 Herkimer Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Herkimer Street",
+        "str2": "Sacket Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Herkimer Street",
+        "str2": "Sacket Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "704872f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704872f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7418e00-c535-012f-1e1d-58d385a7bc34",
     "original_title": "Brooklyn: Herkimer Street - Sacket Avenue",
     "text": "Herkimer Street, east from 464 Herkimer Street. In the right foreground is the rectory of St. John's Episcopal Church.\n\nJune 2, 1929.\n\nP. L. Sperr.\n",

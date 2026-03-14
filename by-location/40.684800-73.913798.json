@@ -2,9 +2,30 @@
   {
     "date": "1941-08-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Covert Street"
+      },
+      "source": "Broadway and Covert Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1509563-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509563-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7ebc070-c5cd-012f-487d-58d385a7bc34",
     "text": null,
     "text_source": null,

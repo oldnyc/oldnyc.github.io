@@ -2,9 +2,30 @@
   {
     "date": "1905-03-10",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 48,
+        "street": "Prince Street"
+      },
+      "source": "Prince Street #48",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1509661-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509661-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b81713f0-c5cd-012f-0a4e-58d385a7bc34",
     "text": null,
     "text_source": null,

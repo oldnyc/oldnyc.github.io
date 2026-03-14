@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 520,
+        "street": "West 148th Street"
+      },
+      "source": "520 West 148th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465713-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465713-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7afb4ad0-c612-012f-ae98-58d385a7bc34",
     "text": null,
     "text_source": null,

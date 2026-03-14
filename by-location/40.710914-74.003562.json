@@ -2,9 +2,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Gold Street"
+      },
+      "source": "Manhattan: Frankfort Street - Gold Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719879f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719879f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cigar industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b35850c0-c54d-012f-3bcb-58d385a7bc34",
     "original_title": "Manhattan: Frankfort Street - Gold Street",
     "text": "Frankfort Street, south side, west from and including Gold Street.\n\nApril 3, 1931.\n\nP. L. Sperr.\n",
@@ -19,9 +42,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Frankfort Street",
+        "str2": "Rose Street"
+      },
+      "source": "Manhattan: Rose Street - Frankfort Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723074f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723074f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b97d3e50-c552-012f-9812-58d385a7bc34",
     "original_title": "Manhattan: Rose Street - Frankfort Street",
     "text": "Rose Street, west side, north from Frankfort, to the Brooklyn Bridge, (shown on the right). Also shown is Frankfort Street, north side, west from Rose Street.\n\nMarch 20, 1936.\n\nP. L. Sperr.\n",

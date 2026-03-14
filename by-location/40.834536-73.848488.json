@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-04-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Havemeyer Avenue",
+        "str2": "Waterbury Avenue"
+      },
+      "source": "Bronx: Havemeyer Avenue - Waterbury Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "701233f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701233f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5db874a0-c530-012f-05ae-58d385a7bc34",
     "original_title": "Bronx: Havemeyer Avenue - Waterbury Avenue",
     "text": "Havemeyer Avenue, east side, south from Waterbury Avenue.\n\nApril 16, 1938.\n\nP. L. Sperr.\n",
@@ -22,9 +40,32 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Havemeyer Avenue",
+        "str2": "Waterbury Avenue"
+      },
+      "source": "Bronx: Havemeyer Avenue - Waterbury Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "701234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e0ceb70-c530-012f-9860-58d385a7bc34",
     "original_title": "Bronx: Havemeyer Avenue - Waterbury Avenue",
     "text": "1306 Havemeyer Avenue, east side, between Waterbury and Westchester Avenues. On the left is visible the elevated trestle of the I.R.T. subway.\n\nApril 16, 1938\n\nP. L. Sperr\n",

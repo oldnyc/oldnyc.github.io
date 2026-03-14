@@ -2,9 +2,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Jewett Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Jewett Avenue",
+      "technique": "title-cross"
+    },
     "height": 393,
     "id": "729448f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729448f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Insurance, Fire",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5509fee0-c55c-012f-d2e1-58d385a7bc34",
     "text": "Richmond Terrace, north side, west from Bodines Pond (west of Clove Road) to Jewett Avenue. Part of the sign, which is a fire-insurance advertisement, reads: \"Mrs O'Dooley's Cow knocked over the lamp which started the Great Chicago Fire. Not the Cow's Fault.\"\n\nMarch 5, 1927\n\nP. L. Sperr\n",
     "text_source": "gpt",

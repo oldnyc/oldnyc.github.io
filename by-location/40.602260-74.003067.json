@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bath Avenue",
+        "str2": "Bay 22nd Street"
+      },
+      "source": "Brooklyn: Bath Avenue - Bay 22nd Street",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "703103f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703103f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/232a87e0-c533-012f-3a30-58d385a7bc34",
     "original_title": "Brooklyn: Bath Avenue - Bay 22nd Street",
     "text": "Bath Ave., east side, between Bay 22nd and 23rd. The two frame buildings at the corners, from left to right, are Nos. [Numbers] 1945-1949 Bath Ave. To the right of the brick building at the extreme left, is a frame house that does not appear in the 1929 Brooklyn Atlas. [Date] March 1925.",

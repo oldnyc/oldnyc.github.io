@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 106,
+        "street": "West 69th Street"
+      },
+      "source": "106 West 69th Street",
+      "technique": "gpt"
+    },
     "height": 501,
     "id": "416469",
     "image_url": "https://images.nypl.org/?id=416469&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4830fbd0-c6db-012f-6fbf-58d385a7bc34",
     "text": null,
     "text_source": null,

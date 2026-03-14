@@ -2,9 +2,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Carroll Street",
+        "str2": "Hoyt Street"
+      },
+      "source": "Brooklyn: Carroll Street - Hoyt Street",
+      "technique": "title-cross"
+    },
     "height": 384,
     "id": "703500f",
     "image_url": "https://images.nypl.org/?id=703500f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses",
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbc42210-c533-012f-ab49-58d385a7bc34",
     "original_title": "Brooklyn: Carroll Street - Hoyt Street",
     "text": null,

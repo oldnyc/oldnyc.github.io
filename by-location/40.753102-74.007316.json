@@ -2,9 +2,31 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "28th Street"
+      },
+      "source": "Manhattan: 12th Avenue - 28th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "710744f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710744f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coal",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a423c40-c53f-012f-d358-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - 28th Street",
     "text": "North on Twelfth and Thirteenth Avenues from 28th Street. The southern extremity of Twelfth Avenue is at 30th Street. April 22, 1931.\n\nP. L. Sperr, Photographer.\n",
@@ -19,9 +41,29 @@
   {
     "date": "1951-04-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "Twelfth Avenue"
+      },
+      "source": "Manhattan: 28th Street (West) - Twelfth Avenue",
+      "technique": "title-cross"
+    },
     "height": 368,
     "id": "1507837",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507837.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c85e4130-c5ce-012f-6902-58d385a7bc34",
     "text": null,
     "text_source": null,

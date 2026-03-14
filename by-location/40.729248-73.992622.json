@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 428,
+        "street": "Lafayette Street"
+      },
+      "source": "428 Lafayette Street",
+      "technique": "gpt"
+    },
     "height": 565,
     "id": "1557953",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557953.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Colonnade Row"
+      ],
+      "subjects": {
+        "geographic": [
+          "Lafayette Street (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Astor, John Jacob, 1763-1848"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Homes and haunts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3bb2b0b0-c5ed-012f-6dd3-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-05-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "92nd Street"
+      },
+      "source": "Brooklyn: 5th Avenue - 92nd Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "702415f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702415f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c1d5c70-c532-012f-6dc8-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - 92nd Street",
     "text": "9325 Fifth Ave., east side, between 94th and 92nd Streets. The view shows a frame house.\nMay 10, 1929.\n\nP. L. Sperr.\n",
@@ -22,9 +40,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "92nd Street"
+      },
+      "source": "Brooklyn: 5th Avenue - 92nd Street.",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "732654f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732654f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: 5th Avenue - 92nd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b675370-c561-012f-3ca5-58d385a7bc34",
     "text": null,
     "text_source": null,

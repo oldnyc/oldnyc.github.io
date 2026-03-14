@@ -7,9 +7,27 @@
       "1908",
       "1928-05-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bridge Road"
+      },
+      "source": "Bronx: City Island Road - Pelham Bridge Road",
+      "technique": "title-cross"
+    },
     "height": 438,
     "id": "701604f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/701604f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb56e2f0-c530-012f-4e0f-58d385a7bc34",
     "original_title": "Bronx: City Island Road - Pelham Bridge Road",
     "rotation": 90,
@@ -32,9 +50,27 @@
       "1908",
       "1928-05-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bridge Road"
+      },
+      "source": "Bronx: City Island Road - Pelham Bridge Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701604f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701604f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb56e2f0-c530-012f-4e0f-58d385a7bc34",
     "original_title": "Bronx: City Island Road - Pelham Bridge Road",
     "text": "(1)\nPelham Bay Park: A view of Glover's Rock on the south side of City Island Road, slightly east of Pelham Bridge Road. Here began the Battle of Pell's Point under Colonel Glover, who held back the British long enough to allow Washington to reach White Plains. The tablet was erected on October 18, 1901 by the Daughters of the American Revolution, Mount Vernon, New York, Bronx chapter.\n1908.\nGift of Randall Comfort.\n(2)\nThe same, another view.\nMay 29, 1928.\nP. L. Sperr.\n",
@@ -56,9 +92,27 @@
       "1908",
       "1928-05-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bridge Road"
+      },
+      "source": "Bronx: City Island Road - Pelham Bridge Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701604f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701604f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb56e2f0-c530-012f-4e0f-58d385a7bc34",
     "original_title": "Bronx: City Island Road - Pelham Bridge Road",
     "text": "(1)\nPelham Bay Park: A view of Glover's Rock on the south side of City Island Road, slightly east of Pelham Bridge Road. Here began the Battle of Pell's Point under Colonel Glover, who held back the British long enough to allow Washington to reach White Plains. The tablet was erected on October 18, 1901 by the Daughters of the American Revolution, Mount Vernon, New York, Bronx chapter.\n1908.\nGift of Randall Comfort.\n(2)\nThe same, another view.\nMay 29, 1928.\nP. L. Sperr.\n",
@@ -80,9 +134,35 @@
       "1928-05-29",
       "1928-05-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bridge Road"
+      },
+      "source": "City Island Road and Pelham Bridge Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Rodman's Neck",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "701611f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701611f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee1333d0-c530-012f-1510-58d385a7bc34",
     "text": "(1) Pelham Bay Park: A view of City Island Road running east towards Rodman's Neck.\nSummer 1923.\nP. L. Sperr.\n\n(2) A view of dogwood blossoms along the road.\nMay 29, 1928.\nP. L. Sperr.\n\n(3) Along City Island Road, east of Pelham Bridge Road.\nMay 29, 1928.\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -103,9 +183,35 @@
       "1928-05-29",
       "1928-05-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bridge Road"
+      },
+      "source": "City Island Road and Pelham Bridge Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Rodman's Neck",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "701611f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701611f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee1333d0-c530-012f-1510-58d385a7bc34",
     "text": "(1) Pelham Bay Park: A view of City Island Road running east towards Rodman's Neck.\nSummer 1923.\nP. L. Sperr.\n\n(2) A view of dogwood blossoms along the road.\nMay 29, 1928.\nP. L. Sperr.\n\n(3) Along City Island Road, east of Pelham Bridge Road.\nMay 29, 1928.\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -126,9 +232,35 @@
       "1928-05-29",
       "1928-05-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Pelham Bridge Road"
+      },
+      "source": "City Island Road and Pelham Bridge Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "City Island Road",
+        "str2": "Rodman's Neck",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "701611f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701611f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee1333d0-c530-012f-1510-58d385a7bc34",
     "text": "(1) Pelham Bay Park: A view of City Island Road running east towards Rodman's Neck.\nSummer 1923.\nP. L. Sperr.\n\n(2) A view of dogwood blossoms along the road.\nMay 29, 1928.\nP. L. Sperr.\n\n(3) Along City Island Road, east of Pelham Bridge Road.\nMay 29, 1928.\nP. L. Sperr.\n",
     "text_source": "gpt",

@@ -2,9 +2,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Beach 20th Street",
+        "str2": "Mott Avenue"
+      },
+      "source": "Queens: Beach 20th Street - Mott Avenue",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "726140f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726140f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e8f4ec0-c557-012f-e51e-58d385a7bc34",
     "original_title": "Queens: Beach 20th Street - Mott Avenue",
     "text": "Beach 20th Street, northward to Mott Ave., showing at the S.W. corner a turreted building housing the Capital Lunch in 1923.\n\nJanuary 1923.\n\nEugene L. Armbruster Collection.\n",

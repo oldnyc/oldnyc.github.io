@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-05-17"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "31st Street (West)",
+        "str2": "Neptune Avenue"
+      },
+      "source": "Brooklyn: 31st Street (West) - Neptune Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702703f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702703f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/884ef530-c532-012f-c823-58d385a7bc34",
     "original_title": "Brooklyn: 31st Street (West) - Neptune Avenue",
     "text": "West 31st Street (rear view), between Neptune (right) to Canal Aves., (left), showing filled in swamp land, to be used as a recreational center.\n\nMay 17, 1936.\n\nP. L. Sperr.\n",

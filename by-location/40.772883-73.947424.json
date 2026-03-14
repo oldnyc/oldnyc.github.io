@@ -2,9 +2,29 @@
   {
     "date": "1945-04-16",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 533,
+        "street": "E 82nd Street"
+      },
+      "source": "82nd Street (East) #533",
+      "technique": "title-address"
+    },
     "height": 487,
     "id": "1508341-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508341-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e2c2fe0-c5cf-012f-efd6-58d385a7bc34",
     "text": null,
     "text_source": null,

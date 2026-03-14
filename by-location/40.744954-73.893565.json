@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "41st Avenue",
+        "str2": "72nd Street"
+      },
+      "source": "Queens: 72nd Street - 41st Avenue",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "725600f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725600f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/925ca160-c556-012f-2b25-58d385a7bc34",
     "original_title": "Queens: 72nd Street - 41st Avenue",
     "text": "72nd Street, east side, at 41st Avenue, showing a group of houses that were condemned for the cutting through of 41st Avenue, seen in the foreground, toward 72nd Street. At this point 41st Avenue passes over the tracks of the Long Island Railroad.\n\nP. L. Sperr\nMay 4, 1928\n",

@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 153,
+        "street": "E 60th Street"
+      },
+      "source": "60th Street (East) #153",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508263-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508263-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00ffbd50-c5cf-012f-c34c-58d385a7bc34",
     "text": null,
     "text_source": null,

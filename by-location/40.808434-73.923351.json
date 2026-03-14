@@ -2,9 +2,30 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "137th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: 137th Street (East) - Willis Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700061f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700061f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbe4d730-c52e-012f-1d54-58d385a7bc34",
     "original_title": "Bronx: 137th Street (East) - Willis Avenue",
     "text": "455 to 469 (left to right) East 137th Street, north side, between Willis Ave. and Brown Place.\nAbout 1914.\n",

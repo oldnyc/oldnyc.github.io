@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "101st Street",
+        "str2": "West End Avenue"
+      },
+      "source": "101st Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465512",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465512.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2adea310-c612-012f-ec2b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "101st Street",
+        "str2": "West End Avenue"
+      },
+      "source": "101st Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 519,
     "id": "417383",
     "image_url": "https://images.nypl.org/?id=417383&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f03a0f30-c611-012f-3657-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "One Hundred and First Street",
+        "str2": "West End Avenue"
+      },
+      "source": "One Hundred and First Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 523,
     "id": "416453",
     "image_url": "https://images.nypl.org/?id=416453&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4267fb90-c6db-012f-188f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +115,34 @@
   {
     "date": "1944-05-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "West 101st Street (Broadway",
+        "str2": "West End Avenue)"
+      },
+      "source": "Manhattan: 247 West 101st Street (Broadway - West End Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558345",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558345.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ff93c330-c5ec-012f-7856-58d385a7bc34",
     "text": null,
     "text_source": null,

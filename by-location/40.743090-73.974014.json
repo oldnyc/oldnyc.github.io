@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1919-12-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "33rd Street"
+      },
+      "source": "Manhattan: 33rd Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "712029f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712029f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f0c1900-c541-012f-813e-58d385a7bc34",
     "original_title": "Manhattan: 33rd Street - 1st Avenue",
     "text": "33rd Street, 2nd Avenue to 1st. (Before Reconstruction). December 7, 1919. President Borough of Manhattan.",
@@ -22,9 +40,31 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "33rd Street"
+      },
+      "source": "Manhattan: 33rd Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "712030f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712030f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Thirty-third Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f8e84f0-c541-012f-c362-58d385a7bc34",
     "original_title": "Manhattan: 33rd Street - 1st Avenue",
     "text": "1. 33rd Street, 2nd Avenue to 1st. (Before reconstruction). December 7, 1919.\n\n2. Same, after reconstruction. June 20, 1921. President Borough of Manhattan.\n",
@@ -39,9 +79,31 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "33rd Street"
+      },
+      "source": "Manhattan: 33rd Street - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "712030f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712030f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Thirty-third Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f8e84f0-c541-012f-c362-58d385a7bc34",
     "original_title": "Manhattan: 33rd Street - 1st Avenue",
     "text": "1. 33rd Street, 2nd Avenue to 1st. (Before reconstruction). December 7, 1919.\n\n2. Same, after reconstruction. June 20, 1921. President Borough of Manhattan.\n",
@@ -56,9 +118,37 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "33rd St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 33rd St. E.",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "707567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707567f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13d83330-c53a-012f-74da-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 33rd St. E.",
     "text": "1. First Avenue, west side, north from E. 33rd to 36th Streets, showing buildings occupying the 33rd-34th and 34th-35th Streets block fronts. Across the roof tops of the former appear the Chrysler and the News buildings while over the latter towers a unit of Tudor City. St. Gabriels Park forms an open space between 35th and 36th Streets and is partially seen at the extreme right. March 27, 1938.\n\n2. Same as above. October 13, 1939\n\nP. L. Sperr.\n",
@@ -74,9 +164,37 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "33rd St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 33rd St. E.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707567f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707567f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13d83330-c53a-012f-74da-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 33rd St. E.",
     "text": "1. First Avenue, west side, north from E. 33rd to 36th Streets, showing buildings occupying the 33rd-34th and 34th-35th Streets block fronts. Across the roof tops of the former appear the Chrysler and the News buildings while over the latter towers a unit of Tudor City. St. Gabriels Park forms an open space between 35th and 36th Streets and is partially seen at the extreme right. March 27, 1938.\n\n2. Same as above. October 13, 1939\n\nP. L. Sperr.\n",
@@ -92,9 +210,37 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "33rd Street (East)"
+      },
+      "source": "Manhattan: 33rd Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712028f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712028f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4eaad120-c541-012f-fce9-58d385a7bc34",
     "original_title": "Manhattan: 33rd Street (East) - 1st Avenue",
     "text": "1. East 33rd St., west from 1st Avenue (right foreground) and showing at the north west corner of same a gasoline station. Note in the background the Empire State Building at Fifth Ave. Underneath the street surface runs a tunnel of the Pennsylvania Railroad, connecting their terminal at 7th Ave. with Long Island. March 27, 1938.\n\n2. A similar view from a point of vantage between 1st and 2nd Aves. Note at the right the Church and School of the Sacred Heart Roman Catholic Church. The former bears No. 309-15 and the latter No. 317-23; both east of 2nd Avenue. May 8, 1938.\n\n3. A detail, showing Nos. 303 to 331 with the aforementioned Church and School. March 27, 1938.\n\nP. L. Sperr.\n",
@@ -109,9 +255,37 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "33rd Street (East)"
+      },
+      "source": "Manhattan: 33rd Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "712028f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/712028f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4eaad120-c541-012f-fce9-58d385a7bc34",
     "original_title": "Manhattan: 33rd Street (East) - 1st Avenue",
     "rotation": 90,
@@ -127,9 +301,37 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "33rd Street (East)"
+      },
+      "source": "Manhattan: 33rd Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712028f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712028f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4eaad120-c541-012f-fce9-58d385a7bc34",
     "original_title": "Manhattan: 33rd Street (East) - 1st Avenue",
     "text": "1. East 33rd St., west from 1st Avenue (right foreground) and showing at the north west corner of same a gasoline station. Note in the background the Empire State Building at Fifth Ave. Underneath the street surface runs a tunnel of the Pennsylvania Railroad, connecting their terminal at 7th Ave. with Long Island. March 27, 1938.\n\n2. A similar view from a point of vantage between 1st and 2nd Aves. Note at the right the Church and School of the Sacred Heart Roman Catholic Church. The former bears No. 309-15 and the latter No. 317-23; both east of 2nd Avenue. May 8, 1938.\n\n3. A detail, showing Nos. 303 to 331 with the aforementioned Church and School. March 27, 1938.\n\nP. L. Sperr.\n",

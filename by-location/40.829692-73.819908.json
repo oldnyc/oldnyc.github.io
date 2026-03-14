@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Philip Avenue",
+        "str2": "Throgs Neck Boulevard"
+      },
+      "source": "Bronx: Philip Avenue - Throgs Neck Boulevard",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "701625f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701625f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Philip Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3b19bd0-c530-012f-aa4c-58d385a7bc34",
     "original_title": "Bronx: Philip Avenue - Throgs Neck Boulevard",
     "text": "Philip Ave., west from Throggs Neck Boulevard.\n\n1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",

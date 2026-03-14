@@ -2,9 +2,40 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Rockaway Beach Boulevard",
+        "str2": "Seaside Avenue"
+      },
+      "source": "Rockaway Beach Boulevard and Seaside Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Rockaway Beach Boule",
+        "str2": "Seaside Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 420,
     "id": "727888f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727888f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Business districts",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e87b3850-c559-012f-16bd-58d385a7bc34",
     "text": "Rockaway Beach Boulevard, east of Seaside Ave., showing at the extreme right Felio's New York Hotel.\n\nAbout 1905.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

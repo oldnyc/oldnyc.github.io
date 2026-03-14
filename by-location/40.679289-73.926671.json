@@ -2,9 +2,33 @@
   {
     "date": "1942-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 7,
+        "street": "Sumpter Street"
+      },
+      "source": "Sumpter Street #7",
+      "technique": "title-address"
+    },
     "height": 409,
     "id": "1509681-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509681-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Good Tidings Gospel Hall"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bba06f10-c5cd-012f-1dac-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Sumpter Street"
+      },
+      "source": "Brooklyn: Sumpter Street - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "706932f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706932f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0bf66100-c539-012f-1202-58d385a7bc34",
     "original_title": "Brooklyn: Sumpter Street - Fulton Street",
     "text": "Intersection of Sumpter & Fulton St., B'klyn.\nMay 12, 1942\nP.L. Sperr, photographer.\n",

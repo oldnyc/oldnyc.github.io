@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "7th Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 7th Street (East) - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710968f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710968f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9520c8d0-c53f-012f-7ef7-58d385a7bc34",
     "original_title": "Manhattan: 7th Street (East) - Avenue B",
     "text": "188 East 7th Street, south side, between Avenues B, and C, showing P. . 71.\nBoard of Education, N.Y.C.\n1920.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "7th Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 7th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "716421f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716421f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34ec4980-c548-012f-6df8-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 7th Street",
     "text": "Avenue B at N. W. corner of 7th Street, showing in background New York Life and Empire State Buildings across\nTompkins Square.\n\nApril 26, 1935.\n\nP.L. Sperr, Photographer.\n",

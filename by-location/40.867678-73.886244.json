@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-06-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Marion Avenue",
+        "str2": "Oliver Place"
+      },
+      "source": "Bronx: Oliver Place - Marion Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701548f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701548f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d635dc20-c530-012f-1cb6-58d385a7bc34",
     "original_title": "Bronx: Oliver Place - Marion Avenue",
     "text": "Oliver Place, at N.E. corner of Marion Avenue, showing a frame house. The view is northwestward across the unpaved street from near Decatur Avenue.\n\nJune 16, 1938\n\nP. L. Sperr\n",

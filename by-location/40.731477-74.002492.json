@@ -2,9 +2,47 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 29,
+        "street": "Cornelia Street"
+      },
+      "source": "29 Cornelia Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cornelia Street",
+        "str2": "Wilson Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cornelia Street",
+        "str2": "Wilson Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "719233f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719233f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a88c9e00-c54c-012f-dc74-58d385a7bc34",
     "original_title": "Manhattan: Cornelia Street - Wilson Avenue",
     "text": "\"Old houses on Cornelia Street\"  p.73\n29 and 29 1/2 Cornelia Street\n\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",

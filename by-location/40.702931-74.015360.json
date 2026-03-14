@@ -2,9 +2,41 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 474,
     "id": "734488f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734488f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Municipal Building ; Singer Manufacturing Company ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Singer Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Night photography"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c76f770-c564-012f-e64f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +50,42 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "734496f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734496f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bank of Manhattan ; City Bank-Farmers Trust Company ; Downtown Athletic Club ; Irving Trust Company ; Singer Manufacturing Company ; Transportation Building ; Whitehall Building ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Singer Building (New York, N.Y.)",
+          "Whitehall Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs",
+          "Banks",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/601f9460-c564-012f-1f7b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +99,41 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "William Blabes at pier no. 1",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "734447f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734447f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4934cdc0-c564-012f-b723-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +147,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733333f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733333f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hail to Moscow - the communist salute."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79f0a130-c562-012f-8248-58d385a7bc34",
     "text": "(1) Hail to Moscow- the communist salute. March 3, 1934. P. L. Sperr.\n\n(2) A communist demonstration in Battery Place. March 3, 1934. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -66,9 +188,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733333f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733333f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hail to Moscow - the communist salute."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79f0a130-c562-012f-8248-58d385a7bc34",
     "text": "(1) Hail to Moscow- the communist salute. March 3, 1934. P. L. Sperr.\n\n(2) A communist demonstration in Battery Place. March 3, 1934. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -82,9 +229,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733334f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733334f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a6911a0-c562-012f-c80d-58d385a7bc34",
     "text": "The spirit of Communism being displayed at Battery Place.\nMarch 3, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -98,9 +267,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733335f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733335f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Communist demonstration against Hitler."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Parades & processions",
+          "Peace movements"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7abf0390-c562-012f-83bb-58d385a7bc34",
     "text": "(1) Parade forming in Communist demonstration against Hitler, at Battery Place.\nMarch 3, 1934.\n\nP. L. Sperr.\n\n(2) The same.\nMarch 3, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -114,9 +311,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733335f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733335f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Communist demonstration against Hitler."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Parades & processions",
+          "Peace movements"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7abf0390-c562-012f-83bb-58d385a7bc34",
     "text": "(1) Parade forming in Communist demonstration against Hitler, at Battery Place.\nMarch 3, 1934.\n\nP. L. Sperr.\n\n(2) The same.\nMarch 3, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -130,9 +355,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733336f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733336f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Peddling communist literature."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b361dc0-c562-012f-f9cd-58d385a7bc34",
     "text": "(1) Communism bars no one from its ranks. Negro peddling Communist literature at Battery Place demonstration.\n\nMarch 3, 1934.\n\nP. L. Sperr.\n\n(2) A fellow comrade peddling same literature at Battery Place.\n\nMarch 3, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -146,9 +396,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.70293119999999,
+        "lng": -74.0153603
+      },
+      "source": "Battery Place (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "733336f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733336f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Peddling communist literature."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Place (New York, N.Y.)",
+          "New York (N.Y.)",
+          "United States"
+        ],
+        "topic": [
+          "Demonstrations",
+          "Memorial Day"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b361dc0-c562-012f-f9cd-58d385a7bc34",
     "text": "(1) Communism bars no one from its ranks. Negro peddling Communist literature at Battery Place demonstration.\n\nMarch 3, 1934.\n\nP. L. Sperr.\n\n(2) A fellow comrade peddling same literature at Battery Place.\n\nMarch 3, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

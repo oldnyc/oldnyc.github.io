@@ -2,9 +2,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 7th Avenue - 4th Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "702453f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702453f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Vocational education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29a38f00-c532-012f-14fa-58d385a7bc34",
     "original_title": "Brooklyn: 7th Avenue - 4th Street",
     "text": "7th Avenue, west side, from Fourth to Fifth Street, showing the Manual Training High School.\n\nBoard of Education of the City of New York.\nSeptember 9, 1930.\n",

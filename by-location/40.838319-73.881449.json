@@ -2,9 +2,40 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1920,
+        "street": "West Farms Road"
+      },
+      "source": "1920 West Farms Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "East 176th Street",
+        "str2": "West Farms Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "702081f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702081f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile equipment & supplies stores",
+          "Furniture stores",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99844190-c531-012f-d779-58d385a7bc34",
     "text": "1920 to 1926 West Farms Road, north of the N.E. corner of East 176th Street (at the head of Rodman Place). The view is in a northerly direction.\n\nApril 1, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th St. E.",
+        "str2": "2nd Ave."
+      },
+      "source": "Manhattan: 2nd Ave. - 16th St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707791f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707791f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e74e7c0-c53a-012f-dc60-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 16th St. E.",
     "text": "Second Avenue, west side, north from E. 16th Street, showing prominently the former Lying In Hospital occupying the frontage between 17th and 18th Streets. This structure, erected about 1900, stands on a site that included the Hamilton Fish residence.\nIn September of 1932, this organization will lose its identity on entering the new medical center of the N. Y. Hospital and Cornell Medical College on York Ave. In 1935 the Manhattan General Hospital will take over this building.\nViews 2 and 3 are limited to the hospital building. Note the surface car and tracks. This line will be discontinued in 1933 and replaced by bus service.\n\nP. L. Sperr\nView 1 - Neg.# 4887\nView 2 - Neg.# 793\nView 3 - Neg.# 794\n\nDecember 22, 1929\nViews 1,2,3\n",
@@ -19,9 +43,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th St. E.",
+        "str2": "2nd Ave."
+      },
+      "source": "Manhattan: 2nd Ave. - 16th St. E.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707791f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/707791f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e74e7c0-c53a-012f-dc60-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 16th St. E.",
     "rotation": 90,
@@ -37,9 +85,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th St. E.",
+        "str2": "2nd Ave."
+      },
+      "source": "Manhattan: 2nd Ave. - 16th St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707791f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707791f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e74e7c0-c53a-012f-dc60-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 16th St. E.",
     "text": "Second Avenue, west side, north from E. 16th Street, showing prominently the former Lying In Hospital occupying the frontage between 17th and 18th Streets. This structure, erected about 1900, stands on a site that included the Hamilton Fish residence.\nIn September of 1932, this organization will lose its identity on entering the new medical center of the N. Y. Hospital and Cornell Medical College on York Ave. In 1935 the Manhattan General Hospital will take over this building.\nViews 2 and 3 are limited to the hospital building. Note the surface car and tracks. This line will be discontinued in 1933 and replaced by bus service.\n\nP. L. Sperr\nView 1 - Neg.# 4887\nView 2 - Neg.# 793\nView 3 - Neg.# 794\n\nDecember 22, 1929\nViews 1,2,3\n",
@@ -54,9 +126,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "16th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "15th Street",
+        "str2": "Stuyvesant Square Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 493,
     "id": "723437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723437f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54d1e8a0-c553-012f-9fe3-58d385a7bc34",
     "text": "Stuyvesant Park: A small park between E. 15th E 17th Streets, bisected by Second Avenue. Photo No. 1 is in a northwestward direction from a point near Second Ave. and 16th Street. At the left is the darkened shadow of St. George's Church on Rutherford Place. No. 2 is taken in the easterly half of the park and is southeastward in direction. The buildings there are on Livingston Place and run from 16th (left) to 15th Streets.\nAbout 1935\nNo's. 1-2\nGift of the Committee on Housing\nCharity Organization Society\n",
     "text_source": "site",
@@ -70,9 +168,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th Street",
+        "str2": "Second Avenue"
+      },
+      "source": "16th Street and Second Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "15th Street",
+        "str2": "Stuyvesant Square Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 435,
     "id": "723437f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723437f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54d1e8a0-c553-012f-9fe3-58d385a7bc34",
     "text": "Stuyvesant Park: A small park between E. 15th E 17th Streets, bisected by Second Avenue. Photo No. 1 is in a northwestward direction from a point near Second Ave. and 16th Street. At the left is the darkened shadow of St. George's Church on Rutherford Place. No. 2 is taken in the easterly half of the park and is southeastward in direction. The buildings there are on Livingston Place and run from 16th (left) to 15th Streets.\nAbout 1935\nNo's. 1-2\nGift of the Committee on Housing\nCharity Organization Society\n",
     "text_source": "site",
@@ -89,9 +213,27 @@
     "dates_from_text": [
       "1939-07-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th St.",
+        "str2": "2nd Ave."
+      },
+      "source": "Manhattan: 2nd Ave. - 16th St.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707792f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/707792f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ed1b080-c53a-012f-08f5-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 16th St.",
     "rotation": 90,
@@ -110,9 +252,27 @@
     "dates_from_text": [
       "1939-07-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "16th St.",
+        "str2": "2nd Ave."
+      },
+      "source": "Manhattan: 2nd Ave. - 16th St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707792f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707792f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ed1b080-c53a-012f-08f5-58d385a7bc34",
     "original_title": "Manhattan: 2nd Ave. - 16th St.",
     "text": "(1)\nSecond Avenue east side at 16th Street, showing Stuyvesant Park Square across the Parkway may be seen the N.Y. INfirmary for the Women and Childrens Dispensary.\n\n(2)\nSecond Avenue, east side and north of 17th Street, showing at the southeast corner of 17th Street a bit of Stuyvesant Square.\n\nP.L.Speer.\n\nJuly 19, 1939.\n",

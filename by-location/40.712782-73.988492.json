@@ -2,9 +2,29 @@
   {
     "date": "1939-04-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Jefferson Street",
+        "str2": "Madison Street"
+      },
+      "source": "Jefferson Street and Madison Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "485741",
     "image_url": "https://images.nypl.org/?id=485741&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5adbe9f0-c60e-012f-5681-58d385a7bc34",
     "text": null,
     "text_source": null,

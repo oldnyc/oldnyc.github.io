@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Barnes Avenue",
+        "str2": "Waring Avenue"
+      },
+      "source": "Bronx: Waring Avenue - Barnes Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "702017f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702017f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81131ed0-c531-012f-e1fd-58d385a7bc34",
     "original_title": "Bronx: Waring Avenue - Barnes Avenue",
     "text": "Waring Avenue, at the N.E. corner of Barnes Avenue.\nApril 3, 1938.\n\nP. L. Sperr.\n",

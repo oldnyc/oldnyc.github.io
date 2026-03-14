@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "244th Street",
+        "str2": "Van Zandt Avenue"
+      },
+      "source": "Queens: 244th Street - Van Zandt Avenue",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "726015f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726015f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21acc630-c557-012f-9a6e-58d385a7bc34",
     "original_title": "Queens: 244th Street - Van Zandt Avenue",
     "text": "244th Street (right), north from Van Zandt Avenue, Douglaston.\n\nP. L. Sperr\n\nJune 10, 1927\n",

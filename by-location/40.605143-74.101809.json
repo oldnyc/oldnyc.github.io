@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Emerson Avenue",
+        "str2": "Ocean Terrace"
+      },
+      "source": "Richmond: Emerson Avenue - Ocean Terrace",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "728813f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728813f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Mailboxes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b008c60-c55b-012f-bc2a-58d385a7bc34",
     "text": "Emerson Ave., east from Ocean Terrace.\n\nJuly 20, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

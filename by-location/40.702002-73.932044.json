@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Central Avenue",
+        "str2": "Noll Street"
+      },
+      "source": "Central Avenue and Noll Street",
+      "technique": "gpt"
+    },
     "height": 475,
     "id": "732680f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732680f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84bee580-c561-012f-24c6-58d385a7bc34",
     "text": "Noll Street, east side, from Central to Evergreen Avenues, showing Public School No. 145. The view is north from near Evergreen Avenue and shows the new addition to the school.\n\nBoard of Education of the City of New York  Early 1930's\n",
     "text_source": "gpt",
@@ -18,9 +42,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Central Avenue",
+        "str2": "Noll Street"
+      },
+      "source": "Central Avenue and Noll Street",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "732681f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732681f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/852bb3e0-c561-012f-5873-58d385a7bc34",
     "text": "Noll Street, east side, from Central to Evergreen Avenues, showing Public School No. 145. The view is south from Central Avenue.\n\nBoard of Education of the City of New York March 6, 1931\n",
     "text_source": "gpt",

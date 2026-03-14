@@ -2,9 +2,34 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pearl Street",
+        "str2": "Plymouth Street"
+      },
+      "source": "Brooklyn: Plymouth Street - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706302f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706302f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a9a5110-c538-012f-99cf-58d385a7bc34",
     "original_title": "Brooklyn: Plymouth Street - Pearl Street",
     "text": "Plymouth Street, west from Pearl Street, showing at the right one of the Arbuckle Bros. Coffee Co. building. In order is also shown the Manhattan and Brooklyn Bridges.\n\nApril 4, 1938.\n\nP. L. Sperr\n",

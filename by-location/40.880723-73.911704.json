@@ -2,9 +2,53 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Johnson Avenue",
+        "str2": "West 230th Street"
+      },
+      "source": "Johnson Avenue and West 230th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "227th Street (West)",
+        "str2": "Ewen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ewen Avenue",
+        "str2": "West 227th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ewen Avenue",
+        "str2": "West 230th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "701016f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701016f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Railroad shops & yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0cb6ed80-c530-012f-fab4-58d385a7bc34",
     "original_title": "Bronx: Ewen Avenue - 227th Street (West)",
     "text": "(1) Ewen Avenue, north from W. 227th to W. 230th Streets, showing on the east side of the avenue, the freight yard of the New York Central Railroad. Also shown is a general view northeastward of the neighboring area as seen from Johnson Avenue.\n\nOctober 27, 1927\n\nP. L. Sperr\n\n(2) Looking eastward across the yard along W. 230th Street (left).\n\nOctober 27, 1927\n\nP. L. Sperr\n",
@@ -19,9 +63,53 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Johnson Avenue",
+        "str2": "West 230th Street"
+      },
+      "source": "Johnson Avenue and West 230th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "227th Street (West)",
+        "str2": "Ewen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ewen Avenue",
+        "str2": "West 227th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ewen Avenue",
+        "str2": "West 230th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "701016f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701016f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Railroad shops & yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0cb6ed80-c530-012f-fab4-58d385a7bc34",
     "original_title": "Bronx: Ewen Avenue - 227th Street (West)",
     "text": "(1) Ewen Avenue, north from W. 227th to W. 230th Streets, showing on the east side of the avenue, the freight yard of the New York Central Railroad. Also shown is a general view northeastward of the neighboring area as seen from Johnson Avenue.\n\nOctober 27, 1927\n\nP. L. Sperr\n\n(2) Looking eastward across the yard along W. 230th Street (left).\n\nOctober 27, 1927\n\nP. L. Sperr\n",

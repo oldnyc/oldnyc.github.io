@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "137th Avenue",
+        "str2": "229th Street"
+      },
+      "source": "Queens: 137th Avenue - 229th Street",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "725857f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725857f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8f19cc0-c556-012f-7499-58d385a7bc34",
     "original_title": "Queens: 137th Avenue - 229th Street",
     "text": "137th Avenue, north side, from 229th to 230th Streets, showing Public School No. 156.\n\nBoard of Education of the City of New York  March 24, 1931\n",

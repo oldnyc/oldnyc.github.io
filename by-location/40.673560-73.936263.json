@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Prospect Place",
+        "str2": "Troy Avenue"
+      },
+      "source": "Brooklyn: Prospect Place - Troy Avenue",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "706398f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706398f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41cb2460-c538-012f-d1e1-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Place - Troy Avenue",
     "text": "Prospect Place, west from Troy to Albany Avenues, showing St. Johns Place Catholic Orphan Asylum on the north side of the thoroughfare. The intersection is bound by Prospect Place and Troy, Albany and St. Marks Avenues.",
@@ -19,9 +37,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Prospect Place",
+        "str2": "Troy Avenue"
+      },
+      "source": "Brooklyn: Prospect Place - Troy Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706398f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706398f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41cb2460-c538-012f-d1e1-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Place - Troy Avenue",
     "text": "Prospect Place, west from Troy to Albany Avenues, showing St. Johns Place Catholic Orphan Asylum on the north side of the thoroughfare. The intersection is bound by Prospect Place and Troy, Albany and St. Marks Avenues.",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-10-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "190th Street",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: Audubon Avenue - 190th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716414f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716414f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/320d89f0-c548-012f-a794-58d385a7bc34",
     "original_title": "Manhattan: Audubon Avenue - 190th Street",
     "text": "Isabella Home, Audubon Avenue, at N.E. corner of 190th Street.\nOctober 26, 1927.\nP.L. Sperr, Photographer.\n",

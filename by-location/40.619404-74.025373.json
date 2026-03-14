@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "88th Street",
+        "str2": "Fort Hamilton"
+      },
+      "source": "Brooklyn: Fort Hamilton - 88th Street",
+      "technique": "title-cross"
+    },
     "height": 414,
     "id": "704424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704424f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/306c5bb0-c535-012f-2313-58d385a7bc34",
     "text": "8829 Fort Hamilton Parkway, east side, between 88th and 90th Streets, showing a view of a modern apartment house.\n\nSeptember 1928.\n",
     "text_source": "gpt",

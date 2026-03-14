@@ -2,9 +2,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "32nd Street"
+      },
+      "source": "Manhattan: 12th Avenue - Between 32nd and 34th Streets (West).",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "734673f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734673f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 12th Avenue - Between 32nd and 34th Streets (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab5ea6e0-c564-012f-1c43-58d385a7bc34",
     "text": "North (Hudson) River, showing (right to left) piers 72, 73 and 74, off Twelfth Ave., at the foot of West 32nd, 33rd and 34th Streets, respectively.\n\nAbout 1929.\n",
     "text_source": "gpt",
@@ -18,9 +44,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "32nd Street"
+      },
+      "source": "Manhattan: 12th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "710750f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710750f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Railroad shops & yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c8d6d90-c53f-012f-06ce-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - 32nd Street",
     "text": "12th Avenue, east side, between W. 32nd and 33rd Streets, showing the New York Central Railroad yards. April 22, 1931. P. L. Sperr.",
@@ -35,9 +85,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "32nd Street"
+      },
+      "source": "Manhattan: 12th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "710750f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710750f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Railroad shops & yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c8d6d90-c53f-012f-06ce-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - 32nd Street",
     "text": "12th Avenue, east side, between W. 32nd and 33rd Streets, showing the New York Central Railroad yards. April 22, 1931. P. L. Sperr.",

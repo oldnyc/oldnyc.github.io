@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Adams Street",
+        "str2": "Sands Street"
+      },
+      "source": "Brooklyn: Sands Street - Adams Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "706608f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706608f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/922da6b0-c538-012f-06cf-58d385a7bc34",
     "original_title": "Brooklyn: Sands Street - Adams Street",
     "text": "(1)\n56-66 Sands Street, south side, between Adams and Pearl Streets. The building in the foreground, is at Adams Street.\nMarch 1925.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, viewed in the opposite direction.\n1922.\nEugene L. Armbruster Collection.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1930-07-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Adams Street",
+        "str2": "Sands Street"
+      },
+      "source": "Brooklyn: Sands Street - Adams Street",
+      "technique": "title-cross"
+    },
     "height": 395,
     "id": "706609f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706609f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92a1d100-c538-012f-7dbc-58d385a7bc34",
     "original_title": "Brooklyn: Sands Street - Adams Street",
     "text": "59 Sands Street, north side, between Adams and Pearl Streets, showing an electric tattooing shop.\n\nJuly 5, 1930.\n\nP. L. Sperr.\n",

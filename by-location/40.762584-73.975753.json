@@ -2,9 +2,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 18,
+        "street": "West 56th Street"
+      },
+      "source": "18 West 56th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558264",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558264.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df656d90-c5ec-012f-c47b-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 254,
+        "street": "West 82nd Street"
+      },
+      "source": "254 West 82nd Street",
+      "technique": "gpt"
+    },
     "height": 527,
     "id": "417211",
     "image_url": "https://images.nypl.org/?id=417211&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9a7eee0-c611-012f-1eb6-58d385a7bc34",
     "text": null,
     "text_source": null,

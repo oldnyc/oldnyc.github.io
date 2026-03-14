@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Clarence Avenue",
+        "str2": "Randall Avenue"
+      },
+      "source": "Bronx: Clarence Avenue - Randall Avenue",
+      "technique": "title-cross"
+    },
     "height": 434,
     "id": "700774f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700774f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb3fb300-c52f-012f-1c64-58d385a7bc34",
     "original_title": "Bronx: Clarence Avenue - Randall Avenue",
     "text": "704 Clarence Ave., adjoining the N.E. corner of Randall Ave.\n\nAbout 1927.\n\nW. B. Vernam.\n",

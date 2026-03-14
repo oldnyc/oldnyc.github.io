@@ -2,9 +2,30 @@
   {
     "date": "1916",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Avenue",
+        "str2": "66th Street"
+      },
+      "source": "Brooklyn: 18th Avenue - 66th Street",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "702599f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702599f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Political clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/60eb9c50-c532-012f-343b-58d385a7bc34",
     "original_title": "Brooklyn: 18th Avenue - 66th Street",
     "text": "Eighteenth Ave., east side, between 66th and 67th Streets, showing an old home in which the West End Democratic Club held its meetings. The long side of the house faced 67th Street. This building was demolished in late 1916 or early 1917.\n\nAbout 1916.\n\nEugene L. Armbruster Collection.\n",

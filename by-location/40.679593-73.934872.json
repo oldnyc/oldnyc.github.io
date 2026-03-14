@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton St.",
+        "str2": "Troy Ave."
+      },
+      "source": "Brooklyn: Troy Ave. - Fulton St.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "707089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49c49a40-c539-012f-49ef-58d385a7bc34",
     "original_title": "Brooklyn: Troy Ave. - Fulton St.",
     "text": "Troy Avenue s.e. corner Fulton Street\nBrooklyn\n5/26/42\n",

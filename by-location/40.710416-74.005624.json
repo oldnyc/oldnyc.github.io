@@ -2,9 +2,29 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 233,
+        "street": "William Street"
+      },
+      "source": "William Street #233",
+      "technique": "title-address"
+    },
     "height": 418,
     "id": "1508629-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508629-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77ab5710-c5ce-012f-d89a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,34 @@
   {
     "date": "1925; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: Beekman Street - William Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716660f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716660f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Post offices",
+          "Variety stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ac77920-c548-012f-c419-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - William Street",
     "text": "(1)\nBeekman Street, west from No. 23 (left) a point midway between William and Nassau Streets to Park Row, showing at the latter point a portion of the old United States Post Office, in the southern end of City Hall Park. Overtowering same is the Woolworth Building.\nApril 19, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same.\nJanuary 20, 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -36,9 +81,34 @@
   {
     "date": "1925; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: Beekman Street - William Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "716660f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/716660f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Post offices",
+          "Variety stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ac77920-c548-012f-c419-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - William Street",
     "rotation": 90,
@@ -55,9 +125,30 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724809f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724809f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ceb8e60-c555-012f-c9d5-58d385a7bc34",
     "original_title": "Manhattan: William Street - Beekman Street",
     "text": "(1)\nWilliam Street, west side, north from and including Beekman Street.\nApril 3, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from Beekman Street and across clearance on the N.E. corner.\nDecember 18, 1930.\n\nP. L. Sperr.\n",
@@ -73,9 +164,30 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724809f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724809f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ceb8e60-c555-012f-c9d5-58d385a7bc34",
     "original_title": "Manhattan: William Street - Beekman Street",
     "text": "(1)\nWilliam Street, west side, north from and including Beekman Street.\nApril 3, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from Beekman Street and across clearance on the N.E. corner.\nDecember 18, 1930.\n\nP. L. Sperr.\n",
@@ -91,9 +203,30 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "724811f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724811f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d966d90-c555-012f-30b5-58d385a7bc34",
     "original_title": "Manhattan: William Street - Beekman Street",
     "rotation": 90,
@@ -110,9 +243,30 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "724811f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724811f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d966d90-c555-012f-30b5-58d385a7bc34",
     "original_title": "Manhattan: William Street - Beekman Street",
     "rotation": 90,
@@ -129,9 +283,30 @@
   {
     "date": "1930; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724811f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724811f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d966d90-c555-012f-30b5-58d385a7bc34",
     "original_title": "Manhattan: William Street - Beekman Street",
     "text": "(1)\n\nWilliam Street, west side, north from Beekman Street, to and including Spruce Street. This view also shows Beekman Street, north side, west from William Street, to but not including Nassau Street.\n\nDecember 18, 1930.\n\nP. L. Sperr.\n\n(2)\n\nThe same view from a different angle.\n\nApril 3, 1931.\n\nP. L. Sperr.\n\n(3)\n\nAnother view similar to No. 1.\n\nDecember 18, 1930.\n\nP. L. Sperr.\n",
@@ -147,9 +322,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: Beekman Street - William Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716661f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716661f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b1e1280-c548-012f-5756-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - William Street",
     "text": "(1)\n39-53 Beekman Street, at, adjoining, and east of the S.E. corner of William Street.\nApril 3, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, showing more of the buildings north of Beekman Street.\nApril 3, 1931.\n\nP. L. Sperr.\n",
@@ -164,9 +360,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: Beekman Street - William Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "716661f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/716661f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b1e1280-c548-012f-5756-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - William Street",
     "rotation": 90,
@@ -182,9 +399,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "William Street"
+      },
+      "source": "Manhattan: William Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724810f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724810f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d36de10-c555-012f-09d1-58d385a7bc34",
     "original_title": "Manhattan: William Street - Beekman Street",
     "text": "William Street, south from and including Beekman Street. This view also shows Beekman Street, at the intersection of William Street.\n\nApril 3, 1931.\n\nP. L. Sperr.\n",

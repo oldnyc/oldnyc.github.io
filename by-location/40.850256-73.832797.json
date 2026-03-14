@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1926,
+        "street": "Pilgrim Avenue"
+      },
+      "source": "1926 Pilgrim Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Morris Park Avenue",
+        "str2": "Pilgrim Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Morris Park Avenue",
+        "str2": "Pilgrim Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f40fcd00-c530-012f-c33f-58d385a7bc34",
     "original_title": "Bronx: Pilgrim Avenue - Morris Park Avenue",
     "text": "1926 Pilgrim Ave., east side, between Morris Park Ave. and Mildred Place.\n\nAbout 1927.\n\nW. B. Vernam.\n",

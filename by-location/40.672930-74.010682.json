@@ -2,9 +2,47 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Otsego Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Van Dyke Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "733145f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733145f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/322fd530-c562-012f-7ff5-58d385a7bc34",
     "text": "(1)\nDiscarded automobile bodies being used for shelter, by squatters; between Columbia and Otsego Streets, at Van Dyke Street, Brooklyn.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same; another view.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(3)\nThe same; from a different angle.\nOctober 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +56,47 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Otsego Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Van Dyke Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "733145f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733145f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/322fd530-c562-012f-7ff5-58d385a7bc34",
     "text": "(1)\nDiscarded automobile bodies being used for shelter, by squatters; between Columbia and Otsego Streets, at Van Dyke Street, Brooklyn.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same; another view.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(3)\nThe same; from a different angle.\nOctober 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -34,9 +110,47 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Otsego Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Van Dyke Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "733145f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733145f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/322fd530-c562-012f-7ff5-58d385a7bc34",
     "text": "(1)\nDiscarded automobile bodies being used for shelter, by squatters; between Columbia and Otsego Streets, at Van Dyke Street, Brooklyn.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same; another view.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(3)\nThe same; from a different angle.\nOctober 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -50,9 +164,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 404,
     "id": "733172f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733172f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Paint industry",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3bbf95b0-c562-012f-b9c0-58d385a7bc34",
     "text": "(1) Squatter shacks near Otsego and Van Dyke Streets. (Brooklyn). October 4, 1934. P. L. Sperr.\n\n(2) The same, from another angle. October 4, 1934. P. L. Sperr.\n\n(3) The same, showing shacks nearer Columbia Street. October 4, 1934. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -66,9 +205,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "733172f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733172f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Paint industry",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3bbf95b0-c562-012f-b9c0-58d385a7bc34",
     "text": "(1) Squatter shacks near Otsego and Van Dyke Streets. (Brooklyn). October 4, 1934. P. L. Sperr.\n\n(2) The same, from another angle. October 4, 1934. P. L. Sperr.\n\n(3) The same, showing shacks nearer Columbia Street. October 4, 1934. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -82,9 +246,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "733172f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733172f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Paint industry",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3bbf95b0-c562-012f-b9c0-58d385a7bc34",
     "text": "(1) Squatter shacks near Otsego and Van Dyke Streets. (Brooklyn). October 4, 1934. P. L. Sperr.\n\n(2) The same, from another angle. October 4, 1934. P. L. Sperr.\n\n(3) The same, showing shacks nearer Columbia Street. October 4, 1934. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -98,9 +287,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "733173f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733173f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c10eb10-c562-012f-3d3b-58d385a7bc34",
     "text": "(1)\nSquatters shacks, near Otsego and Wan Dyke Streets, Brooklyn.\nOctober 4, 1934.\nP. L. Sperr.\n(2)\nThe sawe, from a different angle.\nOctober 4, 1934.\nP. L. Sperr.\n(3)\nAnother view, between Columbia and Otsego, at Van Dyke\nStreets.\nOctober 4, 1934.\n",
     "text_source": "site",
@@ -114,9 +325,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "733173f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733173f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c10eb10-c562-012f-3d3b-58d385a7bc34",
     "text": "(1)\nSquatters shacks, near Otsego and Wan Dyke Streets, Brooklyn.\nOctober 4, 1934.\nP. L. Sperr.\n(2)\nThe sawe, from a different angle.\nOctober 4, 1934.\nP. L. Sperr.\n(3)\nAnother view, between Columbia and Otsego, at Van Dyke\nStreets.\nOctober 4, 1934.\n",
     "text_source": "site",
@@ -130,9 +363,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "733173f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733173f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c10eb10-c562-012f-3d3b-58d385a7bc34",
     "text": "(1)\nSquatters shacks, near Otsego and Wan Dyke Streets, Brooklyn.\nOctober 4, 1934.\nP. L. Sperr.\n(2)\nThe sawe, from a different angle.\nOctober 4, 1934.\nP. L. Sperr.\n(3)\nAnother view, between Columbia and Otsego, at Van Dyke\nStreets.\nOctober 4, 1934.\n",
     "text_source": "site",
@@ -146,9 +401,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "733174f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733174f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c725f00-c562-012f-faaf-58d385a7bc34",
     "text": "(1)\nSquatter colonies; a shack made of large tin cans, and used by unemployed probably; at Otsego and Van Dyke Streets in Brooklyn.\nMay 18, 1935.\nP. L. Sperr.\n(2)\nMore shacks in Otsego Street near Beard Street, in Brooklyn.\nMay 18, 1935.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -162,9 +439,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Otsego Street",
+        "str2": "Van Dyke Street"
+      },
+      "source": "Otsego Street and Van Dyke Street",
+      "technique": "gpt"
+    },
     "height": 406,
     "id": "733174f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733174f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c725f00-c562-012f-faaf-58d385a7bc34",
     "text": "(1)\nSquatter colonies; a shack made of large tin cans, and used by unemployed probably; at Otsego and Van Dyke Streets in Brooklyn.\nMay 18, 1935.\nP. L. Sperr.\n(2)\nMore shacks in Otsego Street near Beard Street, in Brooklyn.\nMay 18, 1935.\nP. L. Sperr.\n",
     "text_source": "site",

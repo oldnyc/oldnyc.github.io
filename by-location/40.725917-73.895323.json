@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "69th Street",
+        "str2": "Grand Avenue"
+      },
+      "source": "Queens: Grand Avenue - 69th Street",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "726775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34c73750-c558-012f-fddf-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - 69th Street",
     "text": "Grand Avenue, at the northeast corner of 69th Street, showing Dr. W. Burcham's house of 1873. This shows the rear of the house seen from 69th Street.\n\nEugene L. Armbruster Collection\n\nFebruary, 1924\n",

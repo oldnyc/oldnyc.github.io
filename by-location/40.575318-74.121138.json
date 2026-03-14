@@ -2,9 +2,32 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Odin Street",
+        "str2": "Richmond Road"
+      },
+      "source": "Richmond: Richmond Road - Odin Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729374f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729374f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3863b470-c55c-012f-f475-58d385a7bc34",
     "original_title": "Richmond: Richmond Road - Odin Street",
     "text": "2475 Richmond Road, adjoining the N.E. corner of Odin Street (Union Place). The house belonged to J. M. Davis in 1874 and to G.A. Meyer from 1898 to 1907. Dates refer to maps on which the owners' names appear.\n\nApril 30, 1929\n\nP. L. Sperr\n",

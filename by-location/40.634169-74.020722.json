@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-10-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "68th Street"
+      },
+      "source": "Brooklyn: 68th Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702823f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702823f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7227fb0-c532-012f-41ef-58d385a7bc34",
     "original_title": "Brooklyn: 68th Street - 5th Avenue",
     "text": "Center of block at n.s. of 68th St. bet. 5th & 6th Ave., B'klyn.\nOct. 6, 1941\n\nP.L. Sperr, photographer\n",

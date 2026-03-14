@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-03"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Flushing Street",
+        "str2": "Rust Street"
+      },
+      "source": "Queens: Rust Street - Flushing Street",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "727951f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727951f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0090ab50-c55a-012f-2159-58d385a7bc34",
     "original_title": "Queens: Rust Street - Flushing Street",
     "text": "Rust Street (formerly Flushing Avenue), east side, between Flushing and Fifty-ninth Avenues, showing the Henry Wessel House.\n\nMarch 1923.\n\nEugene L. Armbruster Collection.\n",

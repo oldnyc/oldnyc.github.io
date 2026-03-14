@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Johnson Street",
+        "str2": "Navy Street"
+      },
+      "source": "Brooklyn: Navy Street - Johnson Street",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "705833f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705833f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/660427a0-c537-012f-9c90-58d385a7bc34",
     "original_title": "Brooklyn: Navy Street - Johnson Street",
     "text": "Navy Street, east side, north from 101 Navy Street, near Johnson Street. A view of the block, in which Al (Scar Face) Capone is said to have been born.\nAbout 1931.\n\nEwing Galloway.\n\nReader says Al Capone was born at 69 Park Ave., B'klyn.\n3/27/69\n\nNeg # 1807 (8x10 Neg)\n",

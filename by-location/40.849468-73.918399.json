@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "176th Street (West)",
+        "str2": "Andrews Avenue South"
+      },
+      "source": "Bronx: Andrews Avenue South - 176th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "700415f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700415f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3b420eb0-c52f-012f-c9f3-58d385a7bc34",
     "original_title": "Bronx: Andrews Avenue South - 176th Street (West)",
     "text": "1695 Andrews Ave. South, at the S.W. corner of West 176th Street.\nAbout 1924.\n",

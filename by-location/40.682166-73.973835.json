@@ -2,9 +2,51 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pacific Street",
+        "str2": "Sixth Ave."
+      },
+      "source": "Pacific Street and Sixth Ave.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "5th Street (West)",
+        "str2": "Pacific Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "5th Street",
+        "str2": "Pacific Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "702429f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702429f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Railroads",
+          "Trains"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21324ab0-c532-012f-3dff-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (West) - Pacific Street",
     "text": "Sixth Ave., north of Pacific Street; the Long Island Railroad Structure is seen overhead; freight yards are below.\n\nNovember 26, 1927.\n\nP. L. Sperr.\n",
@@ -22,9 +64,41 @@
     "dates_from_text": [
       "1930-02-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 630,
+        "street": "Pacific Street"
+      },
+      "source": "630 Pacific Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Pacific Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Pacific Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 396,
     "id": "706171f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706171f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e847bbb0-c537-012f-72dc-58d385a7bc34",
     "original_title": "Brooklyn: Pacific Street - 5th Avenue",
     "text": "630-634 Pacific Street, south side, between Fifth and Sixth Aves.\nFebruary 4, 1930.\n\nP. L. Sperr.\n",

@@ -2,9 +2,46 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ridge Street",
+        "str2": "Stanton Street"
+      },
+      "source": "Ridge Street and Stanton Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Ridge Street (looking southwest)",
+        "str2": "Stanton Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "1558111",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558111.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bell Clothing Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Lower East Side (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5e9f9fa0-c5ed-012f-41c1-58d385a7bc34",
     "text": null,
     "text_source": null,

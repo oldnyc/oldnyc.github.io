@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-06-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East Broadway",
+        "str2": "Montgomery Street"
+      },
+      "source": "Manhattan: East Broadway - Montgomery Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "719424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719424f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4765920-c54c-012f-2b62-58d385a7bc34",
     "original_title": "Manhattan: East Broadway - Montgomery Street",
     "text": "East Broadway, north side, west from but not including Montgomery Street, to but not including Clinton Street.\nJune 12, 1931.\n\nP. L. Sperr.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1931-06-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East Broadway",
+        "str2": "Montgomery Street"
+      },
+      "source": "Manhattan: East Broadway - Montgomery Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719426f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719426f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5565750-c54c-012f-4177-58d385a7bc34",
     "original_title": "Manhattan: East Broadway - Montgomery Street",
     "text": "East Broadway, North Side, east from but not including Montgomery Street and to, but not including Gouverneur Street.\n\nJune 12th, 1931\n\nP. L. Sperr\n",
@@ -42,9 +78,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East Broadway",
+        "str2": "Montgomery Street"
+      },
+      "source": "Manhattan: East Broadway - Montgomery Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719425f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719425f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4f5b260-c54c-012f-218c-58d385a7bc34",
     "original_title": "Manhattan: East Broadway - Montgomery Street",
     "text": "East Broadway, west from Montgomery Street, showing a perspective along the north side of this thoroughfare. In the background is the municipal center at City Hall Park distinguished by the tall structures there. Blending together are the Municipal Building, the Woolworth Tower and the slightly lower Transportation Building. These overshadow the latticed approach to the Manhattan Bridge. On the left is the building housing the Jewish Daily Forward.\n\n1939\n\nBeecher Ogden, photo\nMuseum Photographers Assn.\nGrand Central Terminal\n",

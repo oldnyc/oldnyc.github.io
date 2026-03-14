@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-08-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hone Avenue",
+        "str2": "Tremont Avenue (East)"
+      },
+      "source": "Bronx: Hone Avenue - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701284f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701284f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71c84540-c530-012f-cd96-58d385a7bc34",
     "original_title": "Bronx: Hone Avenue - Tremont Avenue (East)",
     "text": "Home Ave., north from but not including East Tremont Ave., to the tracks of the New York, New Haven and Hartford Railroad, showing the walk-bridge spanning the tracks.\n\nAugust 25, 1935.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "St. Peter's Avenue",
+        "str2": "Tremont Avenue (East)"
+      },
+      "source": "Bronx: St. Peter's Avenue - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701748f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701748f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Slums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b495490-c531-012f-ec7e-58d385a7bc34",
     "original_title": "Bronx: St. Peter's Avenue - Tremont Avenue (East)",
     "text": "(1) St. Peters Ave. (foreground), at the S.W. corner of East Tremont Ave. (right). P. L. Sperr. August 25, 1935.\n\n(2) The same, from a point slightly south of the corner. Note the 1\u00bd-story old frame dwelling. P. L. Sperr. August 25, 1935.\n",
@@ -39,9 +78,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "St. Peter's Avenue",
+        "str2": "Tremont Avenue (East)"
+      },
+      "source": "Bronx: St. Peter's Avenue - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "701748f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/701748f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Slums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b495490-c531-012f-ec7e-58d385a7bc34",
     "original_title": "Bronx: St. Peter's Avenue - Tremont Avenue (East)",
     "rotation": 90,
@@ -60,9 +120,27 @@
     "dates_from_text": [
       "1940-06-22"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Seddon Street",
+        "str2": "Tremont Avenue (East"
+      },
+      "source": "Bronx: Tremont Avenue (East - Seddon Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "700938f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700938f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2082e80-c52f-012f-378a-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - Seddon Street",
     "text": "E. Tremont Avenue, at the S. E. corner of Seddon Street, showing an old frame dwelling.\n\nJune 22, 1940\n\nP. L. Sperr\n",
@@ -80,9 +158,27 @@
     "dates_from_text": [
       "1940-06-22"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "St. Peter's Avenue",
+        "str2": "Tremont Avenue (East"
+      },
+      "source": "Bronx: Tremont Avenue (East - St. Peter's Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "700940f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700940f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2a6df90-c52f-012f-6563-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - St. Peter's Avenue",
     "text": "E. Tremont Avenue, east from St. Peters Avenue. The 3-story house (left) is at Lurting Avenue.\n\nJune 22, 1940\n\nP. L. Sperr\n",
@@ -97,9 +193,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "St. Peter's Avenue",
+        "str2": "Tremont Avenue (East)"
+      },
+      "source": "Bronx: St. Peter's Avenue - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701749f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701749f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b9dec20-c531-012f-a135-58d385a7bc34",
     "original_title": "Bronx: St. Peter's Avenue - Tremont Avenue (East)",
     "text": "St. Peters Avenue, at the S. W. corner of E. Tremont Avenue (tracks thereon), showing old frame houses.\n\nJune 22, 1940\n\nP. L. Sperr\n",
@@ -117,9 +236,27 @@
     "dates_from_text": [
       "1940-06-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Seddon Street",
+        "str2": "Tremont Avenue (East)"
+      },
+      "source": "Bronx: Seddon Street - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "701760f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701760f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1fa784b0-c531-012f-3a63-58d385a7bc34",
     "original_title": "Bronx: Seddon Street - Tremont Avenue (East)",
     "text": "Seddon Street, adjoining the S. E. corner of E. Tremont Avenue, showing an ancient frame house, still used as a residence at this date.\n\nJune 22, 1940\n\nP. L. Sperr\n",

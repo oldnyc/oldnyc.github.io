@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-05-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "110th Street",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Queens: Atlantic Avenue - 110th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "726110f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726110f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43dfbe20-c557-012f-515d-58d385a7bc34",
     "original_title": "Queens: Atlantic Avenue - 110th Street",
     "text": "Atlantic Avenue, north side, east from 110th Street. The Long Island Railroad tracks divide the north and south lanes of the avenue.\n\nP. L. Sperr\n\nMay 7, 1934\n",

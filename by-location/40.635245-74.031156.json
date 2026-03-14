@@ -2,9 +2,31 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "71st Street",
+        "str2": "Ridge Crest"
+      },
+      "source": "Brooklyn: 71st Street - Ridge Crest",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "702832f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702832f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bab91d30-c532-012f-e2e6-58d385a7bc34",
     "text": "166 71st Street, south side, between Ridge Crest and Perry Terraces. The above number is the segment of a row of brick houses beginning at the extreme left. The Iridge Club is the center mansion and faces on the north side of 72nd Street, and is designated as No. 167. The building with the tower is directly opposite, on the south side of 72nd Street. The view is taken from Colonial Road.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

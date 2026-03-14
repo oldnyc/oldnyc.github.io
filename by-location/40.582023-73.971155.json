@@ -2,9 +2,33 @@
   {
     "date": "1941-09-17",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Sheepshead Bay Rd.",
+        "str2": "West 5th Street"
+      },
+      "source": "Sheepshead Bay Rd. and West 5th Street",
+      "technique": "gpt"
+    },
     "height": 417,
     "id": "1509703-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509703-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Coney Island"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfb7ff10-c5cd-012f-5b0e-58d385a7bc34",
     "text": null,
     "text_source": null,

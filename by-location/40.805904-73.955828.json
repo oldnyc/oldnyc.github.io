@@ -2,9 +2,29 @@
   {
     "date": "1920-06-16",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 400,
+        "street": "Manhattan Avenue"
+      },
+      "source": "Manhattan Avenue #400",
+      "technique": "title-address"
+    },
     "height": 428,
     "id": "1507527-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507527-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39c26400-c5ce-012f-58dd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1920-06-16",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 408,
+        "street": "Manhattan Avenue"
+      },
+      "source": "Manhattan Avenue #408",
+      "technique": "title-address"
+    },
     "height": 423,
     "id": "1507528-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507528-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a196950-c5ce-012f-34b1-58d385a7bc34",
     "text": null,
     "text_source": null,

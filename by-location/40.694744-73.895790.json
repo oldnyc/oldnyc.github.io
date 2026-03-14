@@ -2,9 +2,33 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "80th Avenue",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 80th Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726377f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726377f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots",
+          "estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a18a4970-c557-012f-0955-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 80th Avenue",
     "text": "Cooper Ave., west of Eightieth Ave. (also known as Weisse Ave., and Dry Harbor Road.) Property in the right foreground belonged to George Kills in 1873.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

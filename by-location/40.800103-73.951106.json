@@ -2,9 +2,32 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue - 113th Street",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "720840f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720840f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Lenox Avenue (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b410680-c54f-012f-115e-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 113th Street",
     "text": "Lenox Avenue, east side, north from 113th Street, showing construct- ion of I. R. T. subway.\n\nApril 9, 1901.\n\nWm. B. Parsons - Collection\n",
@@ -22,9 +45,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street (West)",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: 113th Street (West) - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715070f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715070f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30440e10-c546-012f-3aaa-58d385a7bc34",
     "original_title": "Manhattan: 113th Street (West) - Lenox Avenue",
     "text": "57-53 West 113th Street, north side, east of Lenox Avenue.\nAbout 1912.\n",
@@ -39,9 +80,29 @@
   {
     "date": "1930; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue #62 - 113th Street, ",
+      "technique": "title-cross"
+    },
     "height": 446,
     "id": "1507588-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507588-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22225b40-c5ce-012f-5e15-58d385a7bc34",
     "text": null,
     "text_source": null,

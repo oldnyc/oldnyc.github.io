@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "15th Avenue",
+        "str2": "Willets Point Boulev"
+      },
+      "source": "Queens: Willets Point Boulev - 15th Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "728200f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728200f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ff453a0-c55a-012f-6bb5-58d385a7bc34",
     "text": "Willets Point Boulevard, at 15th Avenue, viewing east along the latter toward the intersection.\n\nP. L. Sperr\nJuly 28, 1935\n",
     "text_source": "site",

@@ -2,9 +2,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "177th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 177th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "716361f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716361f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1cea9750-c548-012f-9826-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 177th Street",
     "text": null,

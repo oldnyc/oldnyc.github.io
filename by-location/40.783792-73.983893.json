@@ -2,9 +2,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "77th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 77th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714543f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714543f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6549ecc0-c545-012f-9bc2-58d385a7bc34",
     "original_title": "Manhattan: 77th Street (West) - Riverside Drive",
     "text": "327 West 77th Street,north side, between Riverside Drive and West End Avenue.\nAbout 1912.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "77th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 77th Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "722705f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722705f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b5415c0-c552-012f-8e94-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 77th Street",
     "text": "50-52 Riverside Drive, at, adjoining and north of the N.E. corner of 77th Street. The view also shows 77th Street, south side, from Riverside Drive, to and including West End Ave.\n\n1913.\n",
@@ -39,9 +81,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 77th Street"
+      },
+      "source": "Riverside Drive and West 77th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "George Washington Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 481,
     "id": "734567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734567f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Riverside Drive - Between West 77th and 79th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ed04d10-c564-012f-a17d-58d385a7bc34",
     "text": null,
     "text_source": null,

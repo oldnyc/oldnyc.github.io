@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Carroll Street",
+        "str2": "City Island Avenue"
+      },
+      "source": "Bronx: City Island Avenue - Carroll Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700756f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700756f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5475690-c52f-012f-ecca-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Carroll Street",
     "text": "City Island Avenue (City Island), east side, north from Carroll Street, to Fordham Street.\nSummer, 1923\nP. L. Sperr\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-03-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Beach Street",
+        "str2": "Van Duzer Street"
+      },
+      "source": "Richmond: Beach Street - Van Duzer Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728569f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f9758010-c55a-012f-6dbd-58d385a7bc34",
     "original_title": "Richmond: Beach Street - Van Duzer Street",
     "text": "70 Beach Street, south side, between Van Duzer Street and Union Place (Stapleton), showing the Liberty Theatre. The view is westward.\n\nMarch 23, 1930.\n\nP.L. Sperr.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1930-02-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Beach Street",
+        "str2": "Van Duzer Street"
+      },
+      "source": "Richmond: Van Duzer Street - Beach Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "729804f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729804f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1fc54f0-c55c-012f-f7b8-58d385a7bc34",
     "original_title": "Richmond: Van Duzer Street - Beach Street",
     "text": "Van Duzer Street, north of, and adjoining the N. W. corner of Beach Street. Beers's 1874 map shows the two houses to have been owned by R. M. Hazard. The view is south.\n\nFebruary 9, 1930\n\nP. L. Sperr\n",
@@ -42,9 +78,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Beach Street",
+        "str2": "Van Duzer Street"
+      },
+      "source": "Richmond: Beach Street - Van Duzer Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "728570f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728570f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f9cb9070-c55a-012f-459f-58d385a7bc34",
     "original_title": "Richmond: Beach Street - Van Duzer Street",
     "text": "129, 131, and 135-137 (right to left) Beach Street, north side, between Van Duzer and Jackson Streets (Stapleton). The view is eastward.\n\nOctober 8, 1931.\n\nP. L. Sperr.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1939-04-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "22nd Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 22nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702328f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702328f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb77b4c0-c531-012f-c748-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 22nd Street",
     "text": "4th Avenue, east side, at 22nd Street, viewing south.\nApril 9, 1939\nP. L. Sperr\n",

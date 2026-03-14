@@ -2,9 +2,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Van Cortlandt Avenue"
+      },
+      "source": "Bronx: Grand Concourse - Van Cortlandt Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701193f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701193f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4db76870-c530-012f-bc74-58d385a7bc34",
     "text": "Grand Concourse, west side, north from but not including Van Cortlandt Ave., to and including East Mosholu Parkway South. Also shown is the elevated structure of the I.R.T. Van Cortlandt Park subway line running on Jerome Ave.\n\nMay 8, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +41,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Van Cortlandt Avenue"
+      },
+      "source": "Bronx: Grand Concourse - Van Cortlandt Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "701193f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701193f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4db76870-c530-012f-bc74-58d385a7bc34",
     "text": "Grand Concourse, west side, north from but not including Van Cortlandt Ave., to and including East Mosholu Parkway South. Also shown is the elevated structure of the I.R.T. Van Cortlandt Park subway line running on Jerome Ave.\n\nMay 8, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -34,9 +80,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Van Cortlandt Avenue"
+      },
+      "source": "Bronx: Van Cortlandt Avenue - Grand Concourse",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "701958f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701958f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6acdfd70-c531-012f-0299-58d385a7bc34",
     "text": "Van Cortlandt Avenue, west from Grand Concourse to Jerome Avenue (I.R.T. elevated structure thereon), showing the thoroughfare after it had been repaved by the W.P.A.\n\nJan. 27, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",
     "text_source": "gpt",
@@ -50,9 +118,39 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "Van Courtlandt Avenue"
+      },
+      "source": "Grand Concourse and Van Courtlandt Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Grand Concourse",
+        "str2": "St. George's Crescen",
+        "technique": "title-cross"
+      }
+    ],
     "height": 398,
     "id": "701734f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701734f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/198d8bc0-c531-012f-7380-58d385a7bc34",
     "text": "St. George's Crescent (running from center of view to background), south from Grand Concourse. The view is from the N.W. corner of the Concourse and Van Courtlandt Avenue.\n\nMay 5, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

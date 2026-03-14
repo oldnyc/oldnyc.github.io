@@ -2,9 +2,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "222nd Street (East)",
+        "str2": "Carpenter Avenue"
+      },
+      "source": "Bronx: Carpenter Avenue - 222nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "700703f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700703f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Retaining walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2cbca00-c52f-012f-151e-58d385a7bc34",
     "original_title": "Bronx: Carpenter Avenue - 222nd Street (East)",
     "text": "Carpenter Avenue, west side, at E. 222nd Street, showing the concrete wall erected by the W.P.A.\n\nOctober 11, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

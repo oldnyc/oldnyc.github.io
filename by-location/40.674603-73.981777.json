@@ -2,9 +2,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Garfield Place"
+      },
+      "source": "Brooklyn: 5th Avenue - Garfield Place",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702386f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702386f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/113c3c30-c532-012f-5239-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Garfield Place",
     "text": "P.L. Sperr, photographer  5-31-1942",

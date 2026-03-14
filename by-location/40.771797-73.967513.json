@@ -2,9 +2,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.771886717193745,
+        "lng": -73.96750599145889
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 205,
     "id": "1113290",
     "image_url": "https://images.nypl.org/?id=1113290&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Dwellings",
+          "Libraries",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e3464c0-c6ca-012f-84c2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +43,42 @@
   {
     "date": "1920-11-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 71st Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: East 71st Street - Fifth Avenue",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "1558306",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558306.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Henry Clay Frick residence"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Frick, Henry Clay, 1849-1919"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Homes and haunts",
+          "Libraries",
+          "Mansions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef75fe30-c5ec-012f-0df7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +92,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "71st Street"
+      },
+      "source": "Manhattan: 5th Avenue - 71st Street",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "709134f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709134f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a1ac800-c53c-012f-11c0-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 71st Street",
     "text": "Fifth Avenue north from 71st Street.\n1922.\nUnderwood & Underwood, Photographers.\n",
@@ -51,9 +130,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "71st Street"
+      },
+      "source": "Manhattan: 5th Avenue - 71st Street",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "709136f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709136f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ad95da0-c53c-012f-2068-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 71st Street",
     "text": "Fifth Ave., east side, south from East 73rd to 71st Streets, showing the lower stories of apartment houses that have replaced the former private mansions for which this avenue was justly famous.\n\nJuly 28, 1936.\n\nW.P.A. Photo\nFederal Art Project\n",
@@ -68,9 +168,38 @@
   {
     "date": "1943-10-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 71st Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 9 East 71st Street - Fifth Avenue",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "1558305",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558305.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Claires Hospital seventh floor laundry room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Houses",
+          "Laundries (Rooms & spaces)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef30c880-c5ec-012f-78a4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -84,9 +213,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1,
+        "street": "East 71st Street"
+      },
+      "source": "1 East 71st Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558304",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558304.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "James B. Duke residence"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eece6090-c5ec-012f-7daa-58d385a7bc34",
     "text": null,
     "text_source": null,

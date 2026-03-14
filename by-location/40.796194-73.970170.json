@@ -2,9 +2,36 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 2612,
+        "street": "Broadway"
+      },
+      "source": "2612 Broadway",
+      "technique": "gpt"
+    },
     "height": 438,
     "id": "733284f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733284f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway (West) ; 2612 Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fire hydrants",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/678e23b0-c562-012f-afea-58d385a7bc34",
     "text": "2612 Broadway, repaired by owner.\nCREDIT LINE TIME ATIVE. April 13, 1921.\n",
     "text_source": "gpt",

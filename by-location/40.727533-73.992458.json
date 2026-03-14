@@ -6,9 +6,47 @@
       "1936-05-03",
       "1937-12-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 31,
+        "street": "East 4th Street"
+      },
+      "source": "31 East 4th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "5th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "5th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Lafayette Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "710893f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710893f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/772e1510-c53f-012f-c211-58d385a7bc34",
     "original_title": "Manhattan: 4th Street - 5th Street",
     "text": "East 4th Street, north side, west from (No. 35-31, garage), a point midway between the Bowery and Lafayette Street, and to the latter (left). The 3\u00bd-story structure with dormer windows is the \"Old Merchants House\" built by Seabury Tredwell in 1836 and occupied by him and his spinster daughters until 1930. It is now a historical museum, under the auspices of the Historic Landmark Society. For a full account see the New York Times, Sunday May 3, 1936.\n\nDecember 9, 1937.\n\nGeorge D. Chinn.\n",

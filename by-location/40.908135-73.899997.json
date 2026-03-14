@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "260th Street (West)",
+        "str2": "Fieldston Road"
+      },
+      "source": "Bronx: Fieldston Road - 260th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 443,
     "id": "701051f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701051f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18b1d180-c530-012f-b342-58d385a7bc34",
     "original_title": "Bronx: Fieldston Road - 260th Street (West)",
     "text": "6033 Fieldston Road, west side, between West 260th and West 261st Streets.\n\nAbout 1925.\n\nW. B. Vernam.\n",

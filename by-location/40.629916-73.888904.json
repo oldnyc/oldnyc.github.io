@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "93rd Street (East)",
+        "str2": "Schenck Avenue"
+      },
+      "source": "Brooklyn: Schenck Avenue - 93rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "706625f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706625f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/988ac130-c538-012f-1384-58d385a7bc34",
     "original_title": "Brooklyn: Schenck Avenue - 93rd Street (East)",
     "text": "9225 Schenck Ave., at the S.W. corner of East 93rd Street, showing the former Robinson Hotel, owned by the Schenck estate. In 1860 it was C. Duley's Hotel.\n\nMay 1922.\n\nEugene L. Armbruster Collection.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-03-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "Dry Dock Street"
+      },
+      "source": "Manhattan: 12th Street (East) - Dry Dock Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "711116f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711116f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d1f24490-c53f-012f-f2c1-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (East) - Dry Dock Street",
     "text": "East 12th Street, south side, west from and including Dry Dock Street. Also shown is Dry Dock Street, at, adjoining and south of the S.W. corner of East 12th Street, as seen thru clearance at the S.E. corner.\n\nMarch 15, 1936.\n\nP. L. Sperr.\n",

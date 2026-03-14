@@ -2,9 +2,31 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 80th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "722710f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722710f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d30a230-c552-012f-1c03-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 80th Street (West)",
     "text": "Riverside Drive, north from West 80th Street, showing the transitional aspects of this marginal thoroughfare. In the foreground is one of the last squatters shacks. The row of buildings at the right is at the S. E. corner of West 82nd Street.\n\nAbout 1895\n\nGift of Urbrock Collection\n",
@@ -22,9 +44,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 80th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714602f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714602f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c988f20-c545-012f-9719-58d385a7bc34",
     "original_title": "Manhattan: 80th Street (West) - Riverside Drive",
     "text": "323 West 80th Street, at, and adjoining, the north east corner of Riverside Drive.\n\nAbout 1911.\n\nGift of E. M. Jenks.\n",
@@ -42,9 +82,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 80th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722709f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722709f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1cbed110-c552-012f-28e5-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 80th Street",
     "text": "Riverside Drive, at the N.E. corner of 80th Street.\n1912.\n",
@@ -59,9 +117,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 80th Street (West) - Riverside Drive.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "732464f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732464f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 80th Street (West) - Riverside Drive."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Frankfurters",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3325a0e0-c561-012f-41c4-58d385a7bc34",
     "text": "Hot dogs and pop vendor, at foot of West 80th Street and Riverside Drive.\nMarch 29, 1929.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

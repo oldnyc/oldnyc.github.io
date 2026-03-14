@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-04-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "84th Road",
+        "str2": "Daniels Street"
+      },
+      "source": "Queens: Daniels Street - 84th Road",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "726469f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726469f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c25f1640-c557-012f-3825-58d385a7bc34",
     "original_title": "Queens: Daniels Street - 84th Road",
     "text": "Daniels Street, north from 84th Road.\n\nP. L. Sperr\n\nApril 23, 1936\n",

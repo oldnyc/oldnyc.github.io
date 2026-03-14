@@ -2,9 +2,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Ave",
+        "str2": "West 172nd Street"
+      },
+      "source": "Amsterdam Ave and West 172nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "High Bridge Park",
+        "str2": "Swimming pool",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "720438f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720438f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "High Bridge Play Center."
+      ],
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Highbridge Water Tower (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f98d2e0-c54e-012f-9411-58d385a7bc34",
     "text": "High Bridge Park: The new swimming pool that was constructed on the site of the old reservoir. Photographers vantage point is on Amsterdam Ave., at West 172nd Street and viewing northward.\n\nJuly 30, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

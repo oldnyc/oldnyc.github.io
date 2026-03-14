@@ -2,9 +2,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "McDonald Ave.",
+        "str2": "Village Rd. S."
+      },
+      "source": "Brooklyn: Village Rd. S. - McDonald Ave.",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "707225f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707225f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Milk depots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e8b0220-c539-012f-5e2d-58d385a7bc34",
     "original_title": "Brooklyn: Village Rd. S. - McDonald Ave.",
     "text": "Village Road South, north side, at the N.W. corner of Mc Donald Ave., showing Borden's Milk Depot.\nMarch 2, 1931.\n\nP. L. Sperr.\n",

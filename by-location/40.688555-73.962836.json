@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Grand Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Lafayette Avenue - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "705366f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705366f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aeb8b790-c536-012f-2806-58d385a7bc34",
     "original_title": "Brooklyn: Lafayette Avenue - Grand Avenue",
     "text": "P.L. Sperr, photographer\n6-19-1942\n",

@@ -2,9 +2,34 @@
   {
     "date": "1927; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "99th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 99th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721098f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721098f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Storage facilities",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c8b1760-c54f-012f-3e39-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 99th Street",
     "text": "Green Lines car barns, Lexington Avenue, west side, from 99th to 100th Streets.\n\nMarch 1, 1928.\n\nP.L. Sperr, Photographer.\n",

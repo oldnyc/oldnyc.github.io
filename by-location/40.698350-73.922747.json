@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Myrtle Avenue",
+        "str2": "Stanhope Street"
+      },
+      "source": "Brooklyn: Myrtle Avenue - Stanhope Street",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "705818f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705818f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Myrtle Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/609a18f0-c537-012f-8a1c-58d385a7bc34",
     "original_title": "Brooklyn: Myrtle Avenue - Stanhope Street",
     "text": "Myrtle Ave., at the S.W. corner of Stanhope Street, also showing rear of buildings facing on Himrod Street. The house at right behind the pillar, is at 140 Stanhope Street. Overhead is the Myrtle Ave. Elevated Line of the B.M.T.\n\nMay 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1929-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Myrtle Avenue",
+        "str2": "Stanhope Street"
+      },
+      "source": "Brooklyn: Stanhope Street - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "706854f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706854f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eeac7f10-c538-012f-b033-58d385a7bc34",
     "original_title": "Brooklyn: Stanhope Street - Myrtle Avenue",
     "text": "128-132 Stanhope Street, south side, west of Myrtle Ave. No. 126 is at the extreme right.\n\nMay 1929.\n\nEugene L. Armbruster Collection.\n",

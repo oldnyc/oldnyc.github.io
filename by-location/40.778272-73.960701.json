@@ -2,9 +2,29 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 82nd Street (East) - Madison Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "1508343",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508343.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e8945c0-c5cf-012f-cabc-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "169th Street (East)",
+        "str2": "Washington Avenue"
+      },
+      "source": "Bronx: Washington Avenue - 169th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702023f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702023f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8394eea0-c531-012f-dac8-58d385a7bc34",
     "original_title": "Bronx: Washington Avenue - 169th Street (East)",
     "text": "1306 Washington Ave., north of the N.E. corner of East 169th Street, showing Macedonian Church, established in 1888.\n\nMay 24, 1936.\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "169th Street (East)",
+        "str2": "Boston Road"
+      },
+      "source": "Bronx: 169th Street (East) - Boston Road",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "700206f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700206f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f06d0000-c52e-012f-04d1-58d385a7bc34",
     "original_title": "Bronx: 169th Street (East) - Boston Road",
     "text": "East 169th Street, east from (No. 769) but not including Boston Road. Also shown is an extensive view northeastward of the surrrounding area.\n\nMay 1926\n\nBrown Brothers.\n",
@@ -19,9 +40,38 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "169th Street (East)",
+        "str2": "Boston Road"
+      },
+      "source": "Bronx: Boston Road - 169th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "700505f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700505f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Coffee shops",
+          "Delicatessens",
+          "Electric apparatus and appliances",
+          "Ice cream parlors",
+          "Radios",
+          "Shoe stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5bf99c50-c52f-012f-926e-58d385a7bc34",
     "original_title": "Bronx: Boston Road - 169th Street (East)",
     "text": "Boston Road, north from East 169th Street (McKinley Square).\nMay 1926.\n",

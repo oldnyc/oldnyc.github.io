@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "234th Street (West)",
+        "str2": "Bailly Avenue"
+      },
+      "source": "Bronx: Bailly Avenue - 234th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "700439f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700439f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43bf07f0-c52f-012f-db64-58d385a7bc34",
     "original_title": "Bronx: Bailly Avenue - 234th Street (West)",
     "text": "Bailly Avenue, south from W. 234th Street, showing W.P.A. operations.\n\nOctober 11, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

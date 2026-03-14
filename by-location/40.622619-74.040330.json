@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Narrows Avenue",
+        "str2": "Shore Road"
+      },
+      "source": "Brooklyn: Shore Road - Narrows Avenue",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "706787f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706787f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d5298760-c538-012f-2abc-58d385a7bc34",
     "original_title": "Brooklyn: Shore Road - Narrows Avenue",
     "text": "Shore Road, northward, at its intersection with Narrows Ave.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",

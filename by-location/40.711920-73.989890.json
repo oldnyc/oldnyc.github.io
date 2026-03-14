@@ -2,9 +2,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe Street",
+        "str2": "Rutgers Street"
+      },
+      "source": "Manhattan: Monroe Street - Rutgers Street",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "721683f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721683f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ba11b70-c550-012f-1f86-58d385a7bc34",
     "original_title": "Manhattan: Monroe Street - Rutgers Street",
     "text": "Monroe Street, Nos. 125-165 (Manhattan) SW from Rutgers Street\nc 1930\n",
@@ -19,9 +41,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe Street",
+        "str2": "Rutgers Street"
+      },
+      "source": "Manhattan: Monroe Street - Rutgers Street.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "732433f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732433f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Monroe Street - Rutgers Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fruit",
+          "Street vendors",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/26281620-c561-012f-33c4-58d385a7bc34",
     "text": "A peddler selling cherries to a group of women, at a corner of Monroe and Rutgers Streets. (The pushcart on the right, has a display of picture frames for sale).\n\nJune 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -35,9 +84,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe Street",
+        "str2": "Rutgers Street"
+      },
+      "source": "Manhattan: Monroe Street - Rutgers Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "721682f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721682f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b43f600-c550-012f-7002-58d385a7bc34",
     "original_title": "Manhattan: Monroe Street - Rutgers Street",
     "text": "Monroe Street, north side, east from but not including Rutgers, to, but not including Jefferson Streets.\n\nMarch 30, 1934.\n\nP. L. Sperr.\n",
@@ -52,9 +123,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe Street",
+        "str2": "Rutgers Street"
+      },
+      "source": "Manhattan: Rutgers Street - Monroe Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723083f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723083f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcf5e4a0-c552-012f-a645-58d385a7bc34",
     "original_title": "Manhattan: Rutgers Street - Monroe Street",
     "text": "Rutgers Street, north from but not including Monroe Street.\nMarch 30, 1934.\n\nP. L. Sperr.\n",
@@ -69,9 +163,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe St.",
+        "str2": "Rutgers St."
+      },
+      "source": "Monroe St. and Rutgers St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984794",
     "image_url": "https://images.nypl.org/?id=3984794&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a665e280-c5d7-012f-405f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -85,9 +203,29 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe Street",
+        "str2": "Rutgers Street"
+      },
+      "source": "Manhattan: Monroe Street - Rutgers Street",
+      "technique": "title-cross"
+    },
     "height": 431,
     "id": "1507538-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507538-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3da950a0-c5ce-012f-265d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -101,9 +239,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Monroe Street",
+        "str2": "Rutgers Street"
+      },
+      "source": "Manhattan: Rutgers Street - Monroe Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "723082f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723082f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc99d500-c552-012f-4075-58d385a7bc34",
     "original_title": "Manhattan: Rutgers Street - Monroe Street",
     "text": null,

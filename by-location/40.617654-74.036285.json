@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "95th Street",
+        "str2": "Marine Avenue"
+      },
+      "source": "Brooklyn: Marine Avenue - 95th Street",
+      "technique": "title-cross"
+    },
     "height": 412,
     "id": "705579f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705579f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0307bd80-c537-012f-4e88-58d385a7bc34",
     "original_title": "Brooklyn: Marine Avenue - 95th Street",
     "text": "112 Marine Ave.(right) at the N.W. corner of 95th Street (left), showing the \"Jeanne Ann\", one of many apartment houses being erected in this area of Brooklyn.\nAbout 1928.\n",

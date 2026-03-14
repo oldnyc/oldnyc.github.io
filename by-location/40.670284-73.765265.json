@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "142nd Street",
+        "str2": "Farmers Boulevard"
+      },
+      "source": "Queens: Farmers Boulevard - 142nd Street",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "726554f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726554f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df0d1ed0-c557-012f-594a-58d385a7bc34",
     "original_title": "Queens: Farmers Boulevard - 142nd Street",
     "text": "Farmers Boulevard, west side, between 142nd Ave. and 143rd Road.\n\nSeptember 1923.\n\nEugene L. Armbruster Collection.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "Avenue C"
+      },
+      "source": "Manhattan: Avenue C - 4th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "717953f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717953f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b8396d0-c54a-012f-6df7-58d385a7bc34",
     "original_title": "Manhattan: Avenue C - 4th Street",
     "text": "Avenue C at N.E. corner of 4th Street.\nApr 26, 1935.\nP.L. Sperr, Photographer.\n",
@@ -22,9 +40,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 57,
+        "street": "Avenue C"
+      },
+      "source": "57 Avenue C",
+      "technique": "gpt"
+    },
     "height": 432,
     "id": "1507314-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507314-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce4dd8c0-c5cd-012f-ef23-58d385a7bc34",
     "text": null,
     "text_source": null,

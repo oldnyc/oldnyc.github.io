@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hewitt Place",
+        "str2": "Macy Place"
+      },
+      "source": "Bronx: Hewitt Place - Macy Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701255f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701255f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6685d080-c530-012f-3d7b-58d385a7bc34",
     "original_title": "Bronx: Hewitt Place - Macy Place",
     "text": "Hewitt Place, east side, at the head of Macy Place, showing the Montefiore Hebrew Congregation Synagogue.\n\nApril 26, 1938.\n\nP. L. Sperr.\n",

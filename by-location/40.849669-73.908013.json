@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "177th Street (East)",
+        "str2": "Morris Avenue"
+      },
+      "source": "Bronx: Morris Avenue - 177th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701477f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701477f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/baf4e400-c530-012f-bf8b-58d385a7bc34",
     "original_title": "Bronx: Morris Avenue - 177th Street (East)",
     "text": "Morris Ave., at the N.W. corner of East 177th Street, showing St. Edmunds Protestant Episcopal Church.\n\nJuly 17, 1935.\n\nP. L. Sperr.\n",

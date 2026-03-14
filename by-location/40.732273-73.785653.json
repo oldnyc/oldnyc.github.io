@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "185th Street",
+        "str2": "73rd Avenue"
+      },
+      "source": "Queens: 73rd Avenue - 185th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725624f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725624f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a728c00-c556-012f-29d6-58d385a7bc34",
     "original_title": "Queens: 73rd Avenue - 185th Street",
     "text": "73rd Avenue, north side, at 185th Street, showing an old farmhouse. It was owned by F. Crommelin in 1873 and Heslin in 1891 and 1909. 73rd Avenue was formerly named Black Stump Road.\n\nP. L. Sperr\n\nMarch 31, 1927\n",

@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "77th Street",
+        "str2": "Woodside Avenue"
+      },
+      "source": "Queens: Woodside Avenue - 77th Street",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "728234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66b09670-c55a-012f-1626-58d385a7bc34",
     "original_title": "Queens: Woodside Avenue - 77th Street",
     "text": "Woodside Ave., north side, between 77th and 78th Streets, showing a view of the J. Penfold house of 1852, which was no longer standing in 1927. W.S. Walker was the owner in 1891. See Annals of Newtown by John Riker for more data.\n\n---\nArthur White.\n",

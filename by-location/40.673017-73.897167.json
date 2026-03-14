@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenmore Avenue",
+        "str2": "Sheffield Avenue"
+      },
+      "source": "Brooklyn: Sheffield Avenue - Glenmore Avenue",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "706729f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706729f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beverage industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/beccc3f0-c538-012f-c961-58d385a7bc34",
     "original_title": "Brooklyn: Sheffield Avenue - Glenmore Avenue",
     "text": "Sheffield ave., north of Glenmore Ave. The frame peaked structure at the left behind the telegraph pole, was once Piel Bros. Casino. It is now (1929) a part of Piel Bros. Beverage Mfg. Co.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

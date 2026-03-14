@@ -2,9 +2,53 @@
   {
     "date": "1927; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "242nd Street (West)",
+        "str2": "Spuyten Duyvil Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "242nd Street",
+        "str2": "Spuyten Duyvil Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701855f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701855f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43484b00-c531-012f-19c5-58d385a7bc34",
     "original_title": "Bronx: Spuyten Duyvil Road - 242nd Street (West)",
     "text": "(1)\nSpyuten Duyvil Road (foreground, not seen), at the foot of Spyuten Duyvil Hill, showing the railroad cut and tracks of the New York Central Railroad. The view is eastward from a narrow foot bridge over the tracks.\n\nP. L. Sperr\n\n(2)\nViewing westward from the other end of the railroad cut. Note, between the cliffs, the Henry Hudson Bridge.\n\nP. L. Sperr\n",
@@ -20,9 +64,53 @@
   {
     "date": "1927; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "242nd Street (West)",
+        "str2": "Spuyten Duyvil Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "242nd Street",
+        "str2": "Spuyten Duyvil Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701855f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701855f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43484b00-c531-012f-19c5-58d385a7bc34",
     "original_title": "Bronx: Spuyten Duyvil Road - 242nd Street (West)",
     "text": "(1)\nSpyuten Duyvil Road (foreground, not seen), at the foot of Spyuten Duyvil Hill, showing the railroad cut and tracks of the New York Central Railroad. The view is eastward from a narrow foot bridge over the tracks.\n\nP. L. Sperr\n\n(2)\nViewing westward from the other end of the railroad cut. Note, between the cliffs, the Henry Hudson Bridge.\n\nP. L. Sperr\n",
@@ -38,9 +126,38 @@
   {
     "date": "1927; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "734322f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734322f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Marble Hill (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1289b270-c564-012f-49c9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -55,9 +172,38 @@
   {
     "date": "1927; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "734322f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734322f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Marble Hill (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1289b270-c564-012f-49c9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -72,9 +218,38 @@
   {
     "date": "1927; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "734322f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734322f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Marble Hill (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1289b270-c564-012f-49c9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -89,9 +264,50 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "Targee Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "Targee Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "700576f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700576f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7566fa50-c52f-012f-a7d0-58d385a7bc34",
     "original_title": "Bronx: Broadway - Targee Street",
     "text": "(1)\nBroadway, north from but not including Lake View Place, showing the site (where shacks are seen, right) of the Henry Hudson Parkway Bridge which was thrown across Broadway later in the year.\n\nApril 23, 1935.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from the west side of the street.\n\nApril 23, 1935.\n\nP. L. Sperr.\n",
@@ -106,9 +322,50 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "Targee Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "Targee Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "700576f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700576f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7566fa50-c52f-012f-a7d0-58d385a7bc34",
     "original_title": "Bronx: Broadway - Targee Street",
     "text": "(1)\nBroadway, north from but not including Lake View Place, showing the site (where shacks are seen, right) of the Henry Hudson Parkway Bridge which was thrown across Broadway later in the year.\n\nApril 23, 1935.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from the west side of the street.\n\nApril 23, 1935.\n\nP. L. Sperr.\n",
@@ -123,9 +380,50 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "253rd Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "West 253rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "700577f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700577f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75d414b0-c52f-012f-8bac-58d385a7bc34",
     "original_title": "Bronx: Broadway - 253rd Street (West)",
     "text": "Broadway, at the S.W. corner of West 253rd Street, showing steam shovels breaking the ground for the construction of the Henry Hudson Parkway bridge which was thrown across Broadway.\n\nApril 30, 1935.\n\nP. L. Sperr.\n",
@@ -140,9 +438,43 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730818f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730818f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Construction equipment",
+          "Parks",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89c58a50-c55e-012f-eca4-58d385a7bc34",
     "text": "Henry Hudson Bridge: A set of 2 views of the concrete base under construction at the edge of Inwood Hill Park, Manhattan. Slightly north of same is the Railroad Bridge that carries the New York Central tracks across the Harlem River. In the right background is visible the New Jersey Shore.\n\nSeptember 31, 1935.\nView 2:-September 16, 1935.\n\nP. L. Sperr.\n(Not a dry mount item).\n",
     "text_source": "gpt",
@@ -156,9 +488,43 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "730818f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730818f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Construction equipment",
+          "Parks",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89c58a50-c55e-012f-eca4-58d385a7bc34",
     "text": "Henry Hudson Bridge: A set of 2 views of the concrete base under construction at the edge of Inwood Hill Park, Manhattan. Slightly north of same is the Railroad Bridge that carries the New York Central tracks across the Harlem River. In the right background is visible the New Jersey Shore.\n\nSeptember 31, 1935.\nView 2:-September 16, 1935.\n\nP. L. Sperr.\n(Not a dry mount item).\n",
     "text_source": "gpt",
@@ -172,9 +538,44 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Memorial ",
+      "technique": "subjects"
+    },
     "height": 488,
     "id": "730819f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730819f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bronx: Spuyten Duyvil."
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a62ed30-c55e-012f-be26-58d385a7bc34",
     "text": "Henry Hudson Memorial Bridge: A view southeastward of same while under construction. Photographers vantage point is in the Spuyten Duyvil section of the Bronx. On the far side of the Harlem River is Inwood Hill Park, Manhattan.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers project.\n(Not a dry mount item).\n",
     "text_source": "gpt",
@@ -188,9 +589,43 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Memorial Bridge ",
+      "technique": "subjects"
+    },
     "height": 473,
     "id": "730820f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730820f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bronx: Spuyten Duyvil."
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b00ab20-c55e-012f-63ae-58d385a7bc34",
     "text": "Henry Hudson Memorial Bridge: A view southwestward of this new structure that will carry an extension of Riverside Drive across to the Borough of the Bronx. This new highway will also bear the name, Henry Hudson. Photographers vantage point is in the Spuyten Duyvil section of the Bronx and he shows Inwood Hill Park on the far side of the Harlem River.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n{not a dry mount item}.\n",
     "text_source": "gpt",
@@ -204,9 +639,54 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Dyckman Street",
+        "str2": "Henry Hudson Parkway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Dyckman Street",
+        "str2": "Henry Hudson Parkway",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "720357f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720357f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e44e7e0-c54e-012f-5195-58d385a7bc34",
     "original_title": "Manhattan: Henry Hudson Parkway - Dyckman Street",
     "text": "Henry Hudson Parkway: An aerial view from a point, slightly south of Dyckman Street (shown in foreground with bridges crossing same) showing the Parkway, a feature of the West Side Improvement Project progressing northward through Inwood Hill Park and across the Henry Hudson Bridge over the Harlem River to the Spuyten Duyvil section of the Bronx. Note the New York Central Railroad tracks which more or less parallel this roadway in conjunction with the North (Hudson) River bank. The U shaped basin of the Harlem River, shown at the right top formed by the peninsula projecting southward will soon disappear, a ship canal is now under construction that will bisect the latter and the basin filled in. For an account of same, see the New York Times of April 27, 1927. This photograph appeared in a brochure published by the Department of Parks on October 12, 1937 and issued at the public ceremonies attending the opening.\n\n1937.\n\nGift of Department of Parks.\n",
@@ -221,9 +701,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "730821f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730821f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b70dfd0-c55e-012f-4fe0-58d385a7bc34",
     "text": "Henry Hudson Bridge over the Harlem River, seen from the Hudson River, In the foreground is the New York Central Railroad Bridge.\n\nP. L. Sperr\n\n1937\nViews 1,2\n",
     "text_source": "gpt",
@@ -237,9 +746,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "730821f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730821f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b70dfd0-c55e-012f-4fe0-58d385a7bc34",
     "text": "Henry Hudson Bridge over the Harlem River, seen from the Hudson River, In the foreground is the New York Central Railroad Bridge.\n\nP. L. Sperr\n\n1937\nViews 1,2\n",
     "text_source": "gpt",
@@ -253,9 +791,41 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730822f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730822f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Rivers",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c075380-c55e-012f-4e36-58d385a7bc34",
     "text": "(1)\nHenry Hudson Bridge: A view southwestward from Spuyten Duyvil Hill, Bronx. The bridge spans the Harlem River linking the Spuyten Duyvil section of the Bronx with Inwood Hill Park, Manhattan.\nMay 25, 1937.\nP. L. Sperr.\n(2)\nThe same, a more distant view.\nMay 25, 1937.\nP. L. Sperr.\n(3)\nA view southward toward Manhattan.\nMay 25, 1937.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -269,9 +839,41 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730822f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730822f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Rivers",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c075380-c55e-012f-4e36-58d385a7bc34",
     "text": "(1)\nHenry Hudson Bridge: A view southwestward from Spuyten Duyvil Hill, Bronx. The bridge spans the Harlem River linking the Spuyten Duyvil section of the Bronx with Inwood Hill Park, Manhattan.\nMay 25, 1937.\nP. L. Sperr.\n(2)\nThe same, a more distant view.\nMay 25, 1937.\nP. L. Sperr.\n(3)\nA view southward toward Manhattan.\nMay 25, 1937.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -285,9 +887,41 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "730822f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730822f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks",
+          "Rivers",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c075380-c55e-012f-4e36-58d385a7bc34",
     "text": "(1)\nHenry Hudson Bridge: A view southwestward from Spuyten Duyvil Hill, Bronx. The bridge spans the Harlem River linking the Spuyten Duyvil section of the Bronx with Inwood Hill Park, Manhattan.\nMay 25, 1937.\nP. L. Sperr.\n(2)\nThe same, a more distant view.\nMay 25, 1937.\nP. L. Sperr.\n(3)\nA view southward toward Manhattan.\nMay 25, 1937.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -301,9 +935,39 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson ",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "730823f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730823f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Railroad stations",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c908080-c55e-012f-3929-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nHenry Hudson Bridge: A view east from Independence\nAvenue, in the Spuyten Duyvil section of the Bronx.\nMay 25, 1937\nP. L. Sperr\n(2) and (3)\nTwo views, looking westward on the Harlem River, of the bridge, Spuyten Duyvil Hill, the Bronx, and the New Jersey shore on the west bank of the Hudson River. The apartment house is the Villa Victoria, and below the hill is visible the Spuyten Duyvil station of the New York Central Railroad.\nAugust 21, 1939\nP. L. Sperr\n",
@@ -319,9 +983,39 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730823f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730823f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Railroad stations",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c908080-c55e-012f-3929-58d385a7bc34",
     "text": "(1)\nHenry Hudson Bridge: A view east from Independence\nAvenue, in the Spuyten Duyvil section of the Bronx.\nMay 25, 1937\nP. L. Sperr\n(2) and (3)\nTwo views, looking westward on the Harlem River, of the bridge, Spuyten Duyvil Hill, the Bronx, and the New Jersey shore on the west bank of the Hudson River. The apartment house is the Villa Victoria, and below the hill is visible the Spuyten Duyvil station of the New York Central Railroad.\nAugust 21, 1939\nP. L. Sperr\n",
     "text_source": "site",
@@ -336,9 +1030,39 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson ",
+      "technique": "subjects"
+    },
     "height": 410,
     "id": "730823f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730823f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Railroad stations",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c908080-c55e-012f-3929-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nHenry Hudson Bridge: A view east from Independence\nAvenue, in the Spuyten Duyvil section of the Bronx.\nMay 25, 1937\nP. L. Sperr\n(2) and (3)\nTwo views, looking westward on the Harlem River, of the bridge, Spuyten Duyvil Hill, the Bronx, and the New Jersey shore on the west bank of the Hudson River. The apartment house is the Villa Victoria, and below the hill is visible the Spuyten Duyvil station of the New York Central Railroad.\nAugust 21, 1939\nP. L. Sperr\n",
@@ -354,9 +1078,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "218th Street",
+        "str2": "Spuyten Duyvil",
+        "technique": "gpt"
+      }
+    ],
     "height": 409,
     "id": "734321f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734321f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/120307f0-c564-012f-9b58-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -370,9 +1129,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "218th Street",
+        "str2": "Spuyten Duyvil",
+        "technique": "gpt"
+      }
+    ],
     "height": 411,
     "id": "734321f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734321f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/120307f0-c564-012f-9b58-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -386,9 +1180,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "730824f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730824f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d273ce0-c55e-012f-f995-58d385a7bc34",
     "text": "(1) Henry Hudson Bridge, spanning the Harlem River, between Inwood Hill Park, Manhattan and Spuyten Duyvil Hill, the Bronx. The view is west toward the palisades of New Jersey and shows, also, the New York Central Railroad bridge (left). August 2, 1939\n\nP. L. Sperr\n\n(2) The Henry Hudson Bridge and New York Central Railroad bridge (open), seen from Spuyten Duyvil Hill, the Bronx. In the background is the shore of New Jersey. July 15, 1939\n\nP. L. Sperr\n\n(3) Viewing northeastward from the Hudson River across the New York Central Railroad and Henry Hudson Bridge, toward Spuyten Duyvil. August 2, 1939\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -402,9 +1226,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730824f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730824f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d273ce0-c55e-012f-f995-58d385a7bc34",
     "text": "(1) Henry Hudson Bridge, spanning the Harlem River, between Inwood Hill Park, Manhattan and Spuyten Duyvil Hill, the Bronx. The view is west toward the palisades of New Jersey and shows, also, the New York Central Railroad bridge (left). August 2, 1939\n\nP. L. Sperr\n\n(2) The Henry Hudson Bridge and New York Central Railroad bridge (open), seen from Spuyten Duyvil Hill, the Bronx. In the background is the shore of New Jersey. July 15, 1939\n\nP. L. Sperr\n\n(3) Viewing northeastward from the Hudson River across the New York Central Railroad and Henry Hudson Bridge, toward Spuyten Duyvil. August 2, 1939\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -418,9 +1272,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 408,
     "id": "730824f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730824f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d273ce0-c55e-012f-f995-58d385a7bc34",
     "text": "(1) Henry Hudson Bridge, spanning the Harlem River, between Inwood Hill Park, Manhattan and Spuyten Duyvil Hill, the Bronx. The view is west toward the palisades of New Jersey and shows, also, the New York Central Railroad bridge (left). August 2, 1939\n\nP. L. Sperr\n\n(2) The Henry Hudson Bridge and New York Central Railroad bridge (open), seen from Spuyten Duyvil Hill, the Bronx. In the background is the shore of New Jersey. July 15, 1939\n\nP. L. Sperr\n\n(3) Viewing northeastward from the Hudson River across the New York Central Railroad and Henry Hudson Bridge, toward Spuyten Duyvil. August 2, 1939\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -434,9 +1318,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "734333f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734333f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/178e9740-c564-012f-ee57-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -450,9 +1363,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 408,
     "id": "734333f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734333f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/178e9740-c564-012f-ee57-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -466,9 +1408,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 406,
     "id": "734333f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734333f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/178e9740-c564-012f-ee57-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -482,9 +1453,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "734337f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734337f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19887ab0-c564-012f-d4da-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -498,9 +1499,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 408,
     "id": "734337f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734337f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19887ab0-c564-012f-d4da-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -514,9 +1545,39 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "734337f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734337f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Spuyten Duyvil (New York, N.Y.)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority",
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19887ab0-c564-012f-d4da-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -530,9 +1591,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "734347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Streams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e35dfe0-c564-012f-8f21-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -546,9 +1630,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "734347f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734347f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Streams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e35dfe0-c564-012f-8f21-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -562,9 +1669,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Henry Hudson Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "734347f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734347f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Streams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e35dfe0-c564-012f-8f21-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -578,9 +1708,40 @@
   {
     "date": "1971",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 480,
     "id": "730826f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730826f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Inwood (New York, N.Y.)",
+          "Inwood Hill Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobiles",
+          "Boats",
+          "Parks",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e48aa30-c55e-012f-68ce-58d385a7bc34",
     "text": "PLEASE CREDIT TRIBOROUGH BRIDGE AND TUNNEL AUTHORITY\nPhoto No. H-10 Date Taken 8/7/71\nDescription: General View of Henry Hudson Bridge, Harlem River in foreground, Hudson River in background. Inwood Hill Park to the left.\n",
     "text_source": "gpt",
@@ -594,9 +1755,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.877713,
+        "lng": -73.922302
+      },
+      "source": "Bridges - Henry Hudson Bridge ",
+      "technique": "subjects"
+    },
     "height": 488,
     "id": "730825f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730825f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "Henry Hudson Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Henry Hudson Parkway Authority"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8db5de90-c55e-012f-b59e-58d385a7bc34",
     "text": "PLEASE CREDIT TRIBOROUGH BRIDGE AND TUNNEL AUTHORITY\nPhoto No. #### H-1\nDescription: Henry Hudson Bridge\n",
     "text_source": "gpt",

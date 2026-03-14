@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "69th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens: 69th Street - Roosevelt Avenue",
+      "technique": "title-cross"
+    },
     "height": 395,
     "id": "725590f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725590f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8eda6fd0-c556-012f-aafb-58d385a7bc34",
     "original_title": "Queens: 69th Street - Roosevelt Avenue",
     "text": "69th Street, at Roosevelt Avenue (vantage point), viewing north and showing a general view of part of Woodside.\n\nP. L. Sperr\nMay 4, 1928\n",

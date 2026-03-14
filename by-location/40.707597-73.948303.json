@@ -2,9 +2,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lorimer Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Meserole Street - Lorimer Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705697f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705697f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/324b3ce0-c537-012f-51a6-58d385a7bc34",
     "original_title": "Brooklyn: Meserole Street - Lorimer Street",
     "text": "53-73 Meserole Street, north side, between Lorimer and Leonard Streets. The School of Biblical Instruction is at Nos. 61-65.\n\nApril 20, 1931.\n\nP. L. Sperr.\n",
@@ -19,9 +44,46 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lorimer Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Lorimer Street and Meserole Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "Lorimer Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "Lorimer Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705701f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705701f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry",
+          "Confectioneries",
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33b9f8a0-c537-012f-f661-58d385a7bc34",
     "original_title": "Brooklyn: Lorimer Street - 3rd Avenue",
     "text": "Meserole Street, south side, east from Lorimer Street, showing the Joseph Tallert Brewing Company. building erected about 1883.\n\nApril 20, 1931.\n\nP. L. Sperr.\n",

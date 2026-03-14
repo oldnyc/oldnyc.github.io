@@ -2,9 +2,50 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 58,
+        "street": "Columbia Heights"
+      },
+      "source": "58 Columbia Heights",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Heights",
+        "str2": "Poplar Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Heights",
+        "str2": "Poplar Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Heights",
+        "str2": "Middagh Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "703710f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703710f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10ac4910-c534-012f-41aa-58d385a7bc34",
     "text": "58-62 Columbia Heights, from, but not including Poplar, to and including Middagh Streets.\nApril 4, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

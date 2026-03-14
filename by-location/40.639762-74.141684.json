@@ -2,9 +2,44 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 2351,
+        "street": "Richmond Terrace"
+      },
+      "source": "2351 Richmond Terrace",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Irving Avenue",
+        "str2": "Richmond Terrace",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Irving Avenue",
+        "str2": "Richmond Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "729503f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729503f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boat clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a609e80-c55c-012f-acba-58d385a7bc34",
     "text": "2351 Richmond Terrace, north side, at Irving Avenue. Robinson's map of 1898 shows it to have been the Kill Van Kull Yacht Club. Mr. Sperr states that it was at one time Johnson's ship chandlery. In the background appears the Dean Linseed Oil Works.\n\nSeptember 28, 1924\n\nBy Wm. T. Davis through P. L. Sperr\n",
     "text_source": "gpt",

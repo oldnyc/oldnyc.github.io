@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Amity Street",
+        "str2": "Hicks Street"
+      },
+      "source": "Amity Street and Hicks Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984504",
     "image_url": "https://images.nypl.org/?id=3984504&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a00d550-c5d7-012f-e821-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +45,27 @@
     "dates_from_text": [
       "1941-01-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Amity Street",
+        "str2": "Hicks Street"
+      },
+      "source": "Brooklyn: Hicks Street - Amity Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "704938f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704938f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01898cc0-c536-012f-5926-58d385a7bc34",
     "original_title": "Brooklyn: Hicks Street - Amity Street",
     "text": "Hicks Street, west side, south from Pacific to Amity Streets. The clearance next to the corner (left) was occupied by tenement; and so was the clearance on the extreme left.\n\nP. L. Perr\n\nJanuary 10, 1941\n",

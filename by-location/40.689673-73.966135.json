@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "DeKalb Ave.",
+        "str2": "Washington Ave."
+      },
+      "source": "Brooklyn: Washington Ave. - DeKalb Ave.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707282f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707282f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95a3b010-c539-012f-1c7b-58d385a7bc34",
     "original_title": "Brooklyn: Washington Ave. - DeKalb Ave.",
     "text": "Washington and DeKalb Avenues, n.e. corner\nBrooklyn\n6/19/42\n",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1923-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 14502,
+        "street": "Farmers Boulevard"
+      },
+      "source": "14502 Farmers Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Farmers Boulevard",
+        "str2": "Sunrise Highway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Farmers Boulevard",
+        "str2": "Sunrise Highway",
+        "technique": "gpt"
+      }
+    ],
     "height": 477,
     "id": "726546f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726546f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8451a340-c55a-012f-85ad-58d385a7bc34",
     "text": "Farmers Boulevard, west side, south from Sunrise Highway, showing Ike Murray's house in the foreground. This house was moved to make way for the extension of the Highway. The second house in this view still stands and is No. 145-02 Farmers Boulevard.\n\nSeptember 1923.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

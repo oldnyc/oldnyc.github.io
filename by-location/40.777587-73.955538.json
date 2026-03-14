@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 160,
+        "street": "E 84th St."
+      },
+      "source": "E 84th St. #160",
+      "technique": "title-address"
+    },
     "height": 481,
     "id": "1517203-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1517203-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "E 84th St. #160 [street scene (neighborhood children on steps)]"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/868f5c80-c5cf-012f-9f36-58d385a7bc34",
     "text": null,
     "text_source": null,

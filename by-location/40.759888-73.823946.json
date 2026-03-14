@@ -2,9 +2,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "41st Street",
+        "str2": "Bowne Street"
+      },
+      "source": "Queens: 41st Street - Bowne Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "725327f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725327f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Reformed churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3ac32c90-c556-012f-cb2b-58d385a7bc34",
     "original_title": "Queens: 41st Street - Bowne Street",
     "text": "Forty-first Ave. (right), at, adjoining and east of the N.E. corner of Bowne Street, showing the Dutch Reformed Church of Flushing.\n? date.\n\nEugene L. Armbruster Collection.\n",

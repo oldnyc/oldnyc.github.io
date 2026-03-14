@@ -2,9 +2,36 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 60th Street",
+        "str2": "East River Drive"
+      },
+      "source": "E. 60th Street and East River Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733914f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733914f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 60th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ef96ba0-c563-012f-3e3e-58d385a7bc34",
     "text": "1. East River Drive, showing construction at E. 60th Street.\n2- Same, different angle\n\nP. L. Sperr\nAugust 1, 1939\nView 1,2\n",
     "text_source": "gpt",
@@ -18,9 +45,36 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 60th Street",
+        "str2": "East River Drive"
+      },
+      "source": "E. 60th Street and East River Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733914f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733914f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 60th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ef96ba0-c563-012f-3e3e-58d385a7bc34",
     "text": "1. East River Drive, showing construction at E. 60th Street.\n2- Same, different angle\n\nP. L. Sperr\nAugust 1, 1939\nView 1,2\n",
     "text_source": "gpt",

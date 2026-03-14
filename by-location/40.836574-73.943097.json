@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "161th Street",
+        "str2": "Broadway"
+      },
+      "source": "161th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 461,
     "id": "464764-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464764-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/277b3140-c612-012f-6e64-58d385a7bc34",
     "text": null,
     "text_source": null,

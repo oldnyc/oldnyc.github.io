@@ -2,9 +2,29 @@
   {
     "date": "1921-04-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 130,
+        "street": "87th Street"
+      },
+      "source": "87th Street #130",
+      "technique": "title-address"
+    },
     "height": 428,
     "id": "1508355-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508355-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/107485f0-c5cf-012f-865c-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Church Avenue",
+        "str2": "Coney Island Avenue"
+      },
+      "source": "Brooklyn: Church Avenue - Coney Island Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703527f",
     "image_url": "https://images.nypl.org/?id=703527f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c63b1280-c533-012f-e4e5-58d385a7bc34",
     "original_title": "Brooklyn: Church Avenue - Coney Island Avenue",
     "text": null,

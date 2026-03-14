@@ -2,9 +2,30 @@
   {
     "date": "1941-08-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Fulton Street and Vanderbilt Avenue",
+      "technique": "gpt"
+    },
     "height": 408,
     "id": "1509695-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509695-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be103a30-c5cd-012f-b691-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1942-05-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Fulton Street and Vanderbilt Avenue",
+      "technique": "gpt"
+    },
     "height": 405,
     "id": "1509609-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509609-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af597240-c5cd-012f-cc4c-58d385a7bc34",
     "text": null,
     "text_source": null,

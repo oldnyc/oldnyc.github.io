@@ -2,9 +2,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "48th St",
+        "str2": "Broadway"
+      },
+      "source": "48th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 227,
     "id": "1627908",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627908.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c424580-c6d2-012f-9789-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,32 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 48th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "717538f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717538f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01954640-c54a-012f-a777-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 48th Street (West)",
     "text": "Broadway, north from but not including West 48th Street, showing seven construction work in progress extending to West 49th Street. In the background is visible a portion of the Sixth Ave. Elevated Line running at this point east and west on West 53rd Street.\nOctober 8, 1900.\n\nBoard of Transportation Photograph.\nWilliam B. Parsons Collection.\n",
@@ -39,9 +86,27 @@
       "1919-05-11",
       "1921-09-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "713343f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713343f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86910c00-c543-012f-45ad-58d385a7bc34",
     "original_title": "Manhattan: 48th Street - Broadway",
     "text": "(1) 48th Street, Broadway 7th Avenue.\n\nMay 11, 1919.\n\n(2) Same.\n\nSeptember 9, 1921.\n",
@@ -61,9 +126,27 @@
       "1919-05-11",
       "1921-09-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "713343f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713343f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86910c00-c543-012f-45ad-58d385a7bc34",
     "original_title": "Manhattan: 48th Street - Broadway",
     "text": "(1) 48th Street, Broadway 7th Avenue.\n\nMay 11, 1919.\n\n(2) Same.\n\nSeptember 9, 1921.\n",
@@ -79,9 +162,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/882a69f0-c543-012f-29af-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (West) - Broadway",
     "text": "(1)\n227-245 West 48th Street, north side, between Broadway and Eighth Avenue. In the centre is the Union Church (Methodist Episcopal).\nApril 6, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same view, four years later. A new building stands at No. 239, and Nos. 241-243 have been demolished.\nMarch 21, 1934.\n\nP. L. Sperr.\n",
@@ -96,9 +200,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713347f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713347f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/882a69f0-c543-012f-29af-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (West) - Broadway",
     "text": "(1)\n227-245 West 48th Street, north side, between Broadway and Eighth Avenue. In the centre is the Union Church (Methodist Episcopal).\nApril 6, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same view, four years later. A new building stands at No. 239, and Nos. 241-243 have been demolished.\nMarch 21, 1934.\n\nP. L. Sperr.\n",
@@ -116,9 +241,27 @@
     "dates_from_text": [
       "1930-05-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 48th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717543f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717543f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0369a8c0-c54a-012f-0a76-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 48th Street",
     "text": "Broadway, east side, from 49th to 48th Streets, seen across the clearing left by the demolition of a two-story building on the N.W. corner of 49th Street.\nMay 3, 1930.\n\nP. L. Sperr.\n",
@@ -133,9 +276,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 48th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "717539f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717539f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01f32360-c54a-012f-0017-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 48th Street",
     "text": "Broadway, north from and including 48th Street.\nOctober 1, 1933.\n\nP. L. Sperr.\n",
@@ -150,9 +315,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "713341f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713341f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85c46fc0-c543-012f-15a5-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (West) - Broadway",
     "text": "West 48th Street, south side, west from (No. 212-216) a point slightly west of Broadway and showing prominently the Longacre Theatre occupying a building site numbered 220-228. The Hotel President is slightly west of same. This set of two, consists of a negative and a positive.\n\nSeptember 1935.\n\nW.P.A. Photo.\n",
@@ -167,9 +353,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "713341f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713341f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85c46fc0-c543-012f-15a5-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (West) - Broadway",
     "text": "West 48th Street, south side, west from (No. 212-216) a point slightly west of Broadway and showing prominently the Longacre Theatre occupying a building site numbered 220-228. The Hotel President is slightly west of same. This set of two, consists of a negative and a positive.\n\nSeptember 1935.\n\nW.P.A. Photo.\n",
@@ -184,9 +391,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "713342f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713342f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/861656d0-c543-012f-8f8c-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (West) - Broadway",
     "text": "West 48th Street, north side, west from (No. 213) a point slightly west of Broadway and showing the Ritz Theatre at No. 225 and the Union Methodist Episcopal Church at No. 227-233. The structure on the extreme right and only partially shown is the Eldorado Building, No. 209-213. This set consists of a negative and a positive view.\n\n1936.\n\nW.P.A. Photo.\n",
@@ -201,9 +429,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 48th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "713342f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713342f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/861656d0-c543-012f-8f8c-58d385a7bc34",
     "original_title": "Manhattan: 48th Street (West) - Broadway",
     "text": "West 48th Street, north side, west from (No. 213) a point slightly west of Broadway and showing the Ritz Theatre at No. 225 and the Union Methodist Episcopal Church at No. 227-233. The structure on the extreme right and only partially shown is the Eldorado Building, No. 209-213. This set consists of a negative and a positive view.\n\n1936.\n\nW.P.A. Photo.\n",
@@ -218,9 +467,29 @@
   {
     "date": "1944-12-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 48th Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509109-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509109-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec499bd0-c5cd-012f-43a9-58d385a7bc34",
     "text": null,
     "text_source": null,

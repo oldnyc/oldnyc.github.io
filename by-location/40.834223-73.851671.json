@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Castle Hill Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Bronx: Westchester Avenue - Castle Hill Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "702118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Billiard parlors",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7d6e5d0-c531-012f-96b5-58d385a7bc34",
     "original_title": "Bronx: Westchester Avenue - Castle Hill Avenue",
     "text": "Westchester Avenue, north side, east from a point midway between Castle Hill and Glebe Avenues. Westchester Avenue, upon which is the elevated structure of the I.R.T. subway, bends northward slightly beyond Glebe Avenue.\n\nApril 16, 1938\n\nP. L. Sperr\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1938-04-16"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Castle Hill",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Bronx: Westchester Avenue - Castle Hill",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702119f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702119f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a82d2160-c531-012f-6ed7-58d385a7bc34",
     "text": "Westchester Avenue, south side, between Castle Hill and Glebe Avenues, showing an old 2-story frame house, located on the grounds of St. Peters Rectory. The view is from underneath the elevated trestle of the I.R.T. subway.\n\nApril 16, 1938\n\nP. L. Sperr\n",
     "text_source": "gpt",

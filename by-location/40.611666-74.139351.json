@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-06-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Ardmore Avenue",
+        "str2": "Victory Boulevard"
+      },
+      "source": "Richmond: Ardmore Avenue - Victory Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728353f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728353f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a52999e0-c55a-012f-be1f-58d385a7bc34",
     "original_title": "Richmond: Ardmore Avenue - Victory Boulevard",
     "text": "Ardmore Ave., at Victory Boulevard.\n\nJune 26, 1926.\n\nP. L. Sperr.\n",

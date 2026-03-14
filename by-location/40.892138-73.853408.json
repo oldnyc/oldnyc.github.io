@@ -2,9 +2,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street (East)",
+        "str2": "Bussing Avenue"
+      },
+      "source": "Bronx: Bussing Avenue - 233rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700690f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700690f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e2c9130-c52f-012f-d713-58d385a7bc34",
     "original_title": "Bronx: Bussing Avenue - 233rd Street (East)",
     "text": "(1)\nBussing Ave., at the N.E. corner of East 233rd Street, showing Trinity Chapel Home.\nJune 6, 1928.\nP. L. Sperr.\n(2)\nA rear view of the Home as seen from Bronxwood Ave. East 233rd Street is on the left.\nJune 6, 1928.\nP. L. Sperr.\n",
@@ -19,9 +42,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street (East)",
+        "str2": "Bussing Avenue"
+      },
+      "source": "Bronx: Bussing Avenue - 233rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "700690f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/700690f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e2c9130-c52f-012f-d713-58d385a7bc34",
     "original_title": "Bronx: Bussing Avenue - 233rd Street (East)",
     "rotation": 90,

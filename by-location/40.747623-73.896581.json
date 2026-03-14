@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "37th Road",
+        "str2": "69th Street"
+      },
+      "source": "Queens: 69th Street - 37th Road",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "725582f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725582f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c3d8dd0-c556-012f-b93e-58d385a7bc34",
     "original_title": "Queens: 69th Street - 37th Road",
     "text": "69th Street, south from 37th Road. On Roosevelt Avenue is the elevated station of the Flushing subway line. 69th Street, here, was formerly called Fisk Avenue.\n\nP. L. Sperr\nJune 23, 1932\n",

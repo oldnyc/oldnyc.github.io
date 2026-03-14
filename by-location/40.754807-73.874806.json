@@ -2,9 +2,34 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "34th Avenue",
+        "str2": "93rd Street"
+      },
+      "source": "Queens: 34th Avenue - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725230f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725230f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a370070-c556-012f-041a-58d385a7bc34",
     "original_title": "Queens: 34th Avenue - 93rd Street",
     "text": "34th Avenue, north side, from 93rd to 94th Steets, showing Public School No. 149 under construction by the Works Progress Administration. October 19, 1935. P. L. Sperr.",

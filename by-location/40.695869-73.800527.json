@@ -2,9 +2,29 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "153rd Street",
+        "str2": "South Road"
+      },
+      "source": "Queens: South Road - Between 153rd and 154th Streets.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733654f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733654f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Queens: South Road - Between 153rd and 154th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f82aa910-c562-012f-32c1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "153rd Street",
+        "str2": "South Road"
+      },
+      "source": "Queens: South Road - Between 153rd and 154th Streets.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733654f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733654f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Queens: South Road - Between 153rd and 154th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f82aa910-c562-012f-32c1-58d385a7bc34",
     "text": null,
     "text_source": null,

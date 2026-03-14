@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 115th St",
+        "str2": "Madison Ave"
+      },
+      "source": "E. 115th St and Madison Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984618",
     "image_url": "https://images.nypl.org/?id=3984618&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a592780-c5d7-012f-3f12-58d385a7bc34",
     "text": null,
     "text_source": null,

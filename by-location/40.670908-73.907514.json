@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 41,
+        "street": "Watkins St"
+      },
+      "source": "41 Watkins St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984406",
     "image_url": "https://images.nypl.org/?id=3984406&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e373eb0-c5d7-012f-2c4d-58d385a7bc34",
     "text": null,
     "text_source": null,

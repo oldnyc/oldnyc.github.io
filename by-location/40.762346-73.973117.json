@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 14,
+        "street": "E 57th Street"
+      },
+      "source": "57th Street (East) #14",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508237-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508237-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc42ee40-c5ce-012f-6b16-58d385a7bc34",
     "text": null,
     "text_source": null,

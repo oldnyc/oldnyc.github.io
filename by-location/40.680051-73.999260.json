@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "2nd Place",
+        "str2": "Clinton Street"
+      },
+      "source": "Brooklyn: Clinton Street - 2nd Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703691f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703691f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09286fe0-c534-012f-7aa9-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Street - 2nd Place",
     "text": "Clinton Street, east side, at, adjoining and north of 3rd Place, to but not including 2nd Place, showing the Tabernacle Baptist Church at the N.E.\ncorner of 3rd Place.\nJuly 4, 1930.\nP. L. Sperr.\n",

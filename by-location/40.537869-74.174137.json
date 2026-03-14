@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Barclay Avenue"
+      },
+      "source": "Richmond: Amboy Road - Barclay Avenue",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "728313f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728313f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Children playing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95a47d10-c55a-012f-e0d5-58d385a7bc34",
     "original_title": "Richmond: Amboy Road - Barclay Avenue",
     "text": "Amboy Road (left), east from about Barclay to about Arden Aves.\n\nSpring 1924.\n\nP. L. Sperr.\n",

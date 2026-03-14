@@ -2,9 +2,29 @@
   {
     "date": "1934-10-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1393,
+        "street": "York Avenue"
+      },
+      "source": "York Avenue #1393",
+      "technique": "title-address"
+    },
     "height": 455,
     "id": "1508637-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508637-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78edb700-c5ce-012f-27eb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +41,27 @@
     "dates_from_text": [
       "1935-09-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "74th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 74th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724905f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724905f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0929880-c555-012f-2752-58d385a7bc34",
     "original_title": "Manhattan: York Avenue - 74th Street",
     "text": "York Ave (Avenue A), west side, north from and including East 74th Street. Shown at the N.W. corner of East 74th Street is an itinerant circus.\n\nSeptember 25, 1935.\n\nP. L. Sperr.\n",
@@ -38,9 +76,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "74th Street",
+        "str2": "York Avenue"
+      },
+      "source": "74th Street and York Avenue",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "732828f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732828f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 114th Street (East) ; York Avenue - 74th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf4b0a20-c561-012f-f637-58d385a7bc34",
     "text": "(1) Traveling carnival; York Ave., at the N.W. corner of 74th Street.\nSeptember 25, 1935.\n\nP. L. Sperr.\n\n(2) Carnival at East 114th Street near the Harlem River.\nJuly 19, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -54,9 +112,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "74th Street",
+        "str2": "York Avenue"
+      },
+      "source": "74th Street and York Avenue",
+      "technique": "gpt"
+    },
     "height": 397,
     "id": "732828f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732828f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 114th Street (East) ; York Avenue - 74th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf4b0a20-c561-012f-f637-58d385a7bc34",
     "text": "(1) Traveling carnival; York Ave., at the N.W. corner of 74th Street.\nSeptember 25, 1935.\n\nP. L. Sperr.\n\n(2) Carnival at East 114th Street near the Harlem River.\nJuly 19, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

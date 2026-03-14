@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay 43rd Street",
+        "str2": "Harway Avenue"
+      },
+      "source": "Brooklyn: Harway Avenue - Bay 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "704807f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704807f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Roadhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd8b3350-c535-012f-2966-58d385a7bc34",
     "original_title": "Brooklyn: Harway Avenue - Bay 43rd Street",
     "text": "2625-2633 Harway Ave., east side, between Bay 43rd and 44th Streets, showing in the foreground Hogan's roadhouse. The above numbers represent the first two houses in this view.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",

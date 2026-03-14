@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 239th Street",
+        "str2": "White Plains Road"
+      },
+      "source": "East 239th Street and White Plains Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "238th Street (East)",
+        "str2": "White Plains Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 238th Street",
+        "str2": "White Plains Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 411,
     "id": "702159f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702159f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b764d040-c531-012f-fa7d-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - 238th Street (East)",
     "text": "4432 White Plains Road, east side, between East 238th and East 239th Streets.\n\nAbout 1925.\n\nW. B. Vernam.\n",
@@ -22,9 +54,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "239th Street (East)",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: White Plains Road - 239th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702160f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702160f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Butcher shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7c02170-c531-012f-6461-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - 239th Street (East)",
     "text": "4526 White Plains Road (foreground), east side, between East 239th and East 240th Streets, showing a 1-story brick structure, used as a chicken market, occupying that site. The building is set back from the sidewalk about fifty feet and adjoins the elevated trestle of the I.R.T. subway line. The trestle connects the main White Plains Road subway line with the car yards. On the left appears the car house of the I.R.T. facing on the east side of Furman Ave.\nMay 24, 1928.\nP. L. Sperr.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-05-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "201st Street (East)",
+        "str2": "Bainbridge Avenue"
+      },
+      "source": "Bronx: Bainbridge Avenue - 201st Street (East)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700452f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700452f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/487916d0-c52f-012f-fd27-58d385a7bc34",
     "original_title": "Bronx: Bainbridge Avenue - 201st Street (East)",
     "text": "Bainbridge Avenue ( left), at the S.W. corner of E. 201st Street.\nMay 5, 1938.\n\nP. L. Sperr.\n",

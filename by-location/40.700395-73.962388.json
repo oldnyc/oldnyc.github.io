@@ -2,9 +2,32 @@
   {
     "date": "1903; 1913; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kent Avenue",
+        "str2": "Williamsburg Bridge"
+      },
+      "source": "Kent Avenue and Williamsburg Bridge",
+      "technique": "gpt"
+    },
     "height": 423,
     "id": "731086f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/731086f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Contractors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fffe35c0-c55e-012f-f6a7-58d385a7bc34",
     "rotation": 90,
     "text": "(1) Williamsburg Bridge across East River. This view, taken from about A Kent Ave., Brooklyn, shows its construction.\n\nAbout 1903?.\n\nEugene L. Armbruster Collection.\n\n(2) A view from the Manhattan side and showing the brick and steel underpinning. The road bed proper is shown projecting eastward to Brooklyn.\n\nMarch 5, 1937.\n\nGeo. D. Chinn.\n\n(3) The same from an angle.\n\n'Not a dry mount item'\n\nGeo. D. Chinn.\n\nMarch 5, 1937.\n",
@@ -21,9 +44,32 @@
   {
     "date": "1903; 1913; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kent Avenue",
+        "str2": "Williamsburg Bridge"
+      },
+      "source": "Kent Avenue and Williamsburg Bridge",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731086f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731086f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Contractors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fffe35c0-c55e-012f-f6a7-58d385a7bc34",
     "text": "(1) Williamsburg Bridge across East River. This view, taken from about A Kent Ave., Brooklyn, shows its construction.\n\nAbout 1903?.\n\nEugene L. Armbruster Collection.\n\n(2) A view from the Manhattan side and showing the brick and steel underpinning. The road bed proper is shown projecting eastward to Brooklyn.\n\nMarch 5, 1937.\n\nGeo. D. Chinn.\n\n(3) The same from an angle.\n\n'Not a dry mount item'\n\nGeo. D. Chinn.\n\nMarch 5, 1937.\n",
     "text_source": "gpt",
@@ -39,9 +85,32 @@
   {
     "date": "1903; 1913; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kent Avenue",
+        "str2": "Williamsburg Bridge"
+      },
+      "source": "Kent Avenue and Williamsburg Bridge",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731086f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731086f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Contractors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fffe35c0-c55e-012f-f6a7-58d385a7bc34",
     "text": "(1) Williamsburg Bridge across East River. This view, taken from about A Kent Ave., Brooklyn, shows its construction.\n\nAbout 1903?.\n\nEugene L. Armbruster Collection.\n\n(2) A view from the Manhattan side and showing the brick and steel underpinning. The road bed proper is shown projecting eastward to Brooklyn.\n\nMarch 5, 1937.\n\nGeo. D. Chinn.\n\n(3) The same from an angle.\n\n'Not a dry mount item'\n\nGeo. D. Chinn.\n\nMarch 5, 1937.\n",
     "text_source": "gpt",
@@ -57,9 +126,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hewes Street",
+        "str2": "Kent Avenue"
+      },
+      "source": "Brooklyn: Hewes Street - Kent Avenue",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "704899f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704899f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f1d8c020-c535-012f-6e8d-58d385a7bc34",
     "original_title": "Brooklyn: Hewes Street - Kent Avenue",
     "text": "Hewes Street, at the S.E. corner of Kent Ave. The long view of the building is on Hewes Street. In the foreground, is Classon Ave., intersecting with Hewes Street and Kent Ave.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",
@@ -74,9 +167,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hewes Street",
+        "str2": "Kent Avenue"
+      },
+      "source": "Brooklyn: Hewes Street - Kent Avenue",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "704898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f18755f0-c535-012f-c706-58d385a7bc34",
     "original_title": "Brooklyn: Hewes Street - Kent Avenue",
     "text": "Hewes Street, south side, west from Kent Ave. A view of D. Appleton's old plant. He founded the publishing house bearing his name in 1825.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

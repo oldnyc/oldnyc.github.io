@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "34th Street",
+        "str2": "98th Street"
+      },
+      "source": "Queens: 98th Street - 34th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725753f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725753f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5b96660-c556-012f-4c9f-58d385a7bc34",
     "original_title": "Queens: 98th Street - 34th Street",
     "text": "34-34 98th Street, west side, between 34th and 35th Avenues, showing the Grace Protestant Episcopal Church, Corona. March 22, 1927. P. L. Sperr.",

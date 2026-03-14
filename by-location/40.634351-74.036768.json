@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1917"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "74th Street",
+        "str2": "Shore Road"
+      },
+      "source": "Brooklyn: Shore Road - 74th Street",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "706771f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706771f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf1d0990-c538-012f-6bd5-58d385a7bc34",
     "original_title": "Brooklyn: Shore Road - 74th Street",
     "text": "Shore Road, east side, from 74th Street (left), to and including Bay Ridge Parkway (right), showing old homes no longer in existence. About 1917.\n\nEugene L. Armbruster Collection.\n",

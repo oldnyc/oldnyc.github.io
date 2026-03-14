@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Gun Hill Road (East)",
+        "str2": "Hering Avenue"
+      },
+      "source": "Bronx: Gun Hill Road (East) - Hering Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700900f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700900f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e57cc480-c52f-012f-1ce0-58d385a7bc34",
     "original_title": "Bronx: Gun Hill Road (East) - Hering Avenue",
     "text": "East Gunhill Road, south side, east from Hering Ave. The letter boxes are in front of No. 1164, and the 1-story frame real estate office is No. 1170 at the S.W. corner of Tenbroeck Ave.\n\nJune 1, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +40,45 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "E. Gunhill Road"
+      },
+      "source": "Boston Road and E. Gunhill Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Ferris Avenue",
+        "str2": "Philip Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ferris Avenue",
+        "str2": "Randall Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "731542f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731542f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Croplands",
+          "Farms",
+          "Plowing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2a4b160-c55f-012f-a8f2-58d385a7bc34",
     "text": "Farming in the Bronx: A farmer plowing his field on the east side of Ferris Avenue, between Philip and Randall Avenues.\n\nJuly 24, 1928\n\nP. L. Sperr\n\n(2) A scene on the north side of E. Gunhill Road, between Boston Road and Givan Avenue.\n\nJune 1, 1928\n\nP.L. Sperr\n\n(3) Farming in the Bronx: An orchard on West Farms Road, north of E. 173rd Street.\n\nMay 31, 1928\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -35,9 +92,45 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "E. Gunhill Road"
+      },
+      "source": "Boston Road and E. Gunhill Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Ferris Avenue",
+        "str2": "Philip Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ferris Avenue",
+        "str2": "Randall Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "731542f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731542f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Croplands",
+          "Farms",
+          "Plowing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2a4b160-c55f-012f-a8f2-58d385a7bc34",
     "text": "Farming in the Bronx: A farmer plowing his field on the east side of Ferris Avenue, between Philip and Randall Avenues.\n\nJuly 24, 1928\n\nP. L. Sperr\n\n(2) A scene on the north side of E. Gunhill Road, between Boston Road and Givan Avenue.\n\nJune 1, 1928\n\nP.L. Sperr\n\n(3) Farming in the Bronx: An orchard on West Farms Road, north of E. 173rd Street.\n\nMay 31, 1928\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -51,9 +144,45 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boston Road",
+        "str2": "E. Gunhill Road"
+      },
+      "source": "Boston Road and E. Gunhill Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Ferris Avenue",
+        "str2": "Philip Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Ferris Avenue",
+        "str2": "Randall Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 396,
     "id": "731542f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731542f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Croplands",
+          "Farms",
+          "Plowing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2a4b160-c55f-012f-a8f2-58d385a7bc34",
     "text": "Farming in the Bronx: A farmer plowing his field on the east side of Ferris Avenue, between Philip and Randall Avenues.\n\nJuly 24, 1928\n\nP. L. Sperr\n\n(2) A scene on the north side of E. Gunhill Road, between Boston Road and Givan Avenue.\n\nJune 1, 1928\n\nP.L. Sperr\n\n(3) Farming in the Bronx: An orchard on West Farms Road, north of E. 173rd Street.\n\nMay 31, 1928\n\nP. L. Sperr\n",
     "text_source": "gpt",

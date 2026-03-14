@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "De Reimer Avenue",
+        "str2": "Pitman Avenue"
+      },
+      "source": "Bronx: De Reimer Avenue - Pitman Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "700856f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700856f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6d6bf30-c52f-012f-32f9-58d385a7bc34",
     "original_title": "Bronx: De Reimer Avenue - Pitman Avenue",
     "text": "De Reimer Avenue, east side, south from Pitman Avenue.\n\nMay 16, 1938.\n\nP. L. Sperr\n",

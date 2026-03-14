@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-04-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "87th Street",
+        "str2": "Narrows Avenue"
+      },
+      "source": "Brooklyn: 87th Street - Narrows Avenue",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "702894f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702894f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d33800e0-c532-012f-27c4-58d385a7bc34",
     "original_title": "Brooklyn: 87th Street - Narrows Avenue",
     "text": "42-87th Street, south side, east of Narrows Avenue, showing the home of May Drunas in 1925.\nApril 1, 1925.\nW. B. Vernam\n",

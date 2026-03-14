@@ -2,9 +2,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "102nd Street",
+        "str2": "Northern Boulevard"
+      },
+      "source": "Queens: Northern Boulevard - 102nd Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "727612f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727612f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Clothing stores",
+          "Grocery stores",
+          "Ice cream parlors",
+          "Societies and clubs",
+          "Youth"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7f81efb0-c559-012f-8ad6-58d385a7bc34",
     "original_title": "Queens: Northern Boulevard - 102nd Street",
     "text": "Northern Boulevard, at the N.E. corner of 102nd Street. The Boulevard Boys Association occupies the top floor of the\ncorner building. October 17, 1933. P. L. Sperr.\n",

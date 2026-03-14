@@ -2,9 +2,38 @@
   {
     "date": "1950-07-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Battery Avenue",
+        "str2": "Ft. Hamilton Parkway"
+      },
+      "source": "Battery Avenue and Ft. Hamilton Parkway",
+      "technique": "gpt"
+    },
     "height": 500,
     "id": "1557770",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557770.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Ft. Hamilton Veterans Hospital - solution mixing room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Veterans' hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65e247a0-c5ec-012f-4189-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,38 @@
   {
     "date": "1950-07-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Battery Avenue",
+        "str2": "Ft. Hamilton Parkway"
+      },
+      "source": "Battery Avenue and Ft. Hamilton Parkway",
+      "technique": "gpt"
+    },
     "height": 492,
     "id": "1557771",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557771.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Ft. Hamilton Veterans Hospital - main operating room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Operating rooms",
+          "Veterans' hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/662ecb90-c5ec-012f-3c2e-58d385a7bc34",
     "text": null,
     "text_source": null,

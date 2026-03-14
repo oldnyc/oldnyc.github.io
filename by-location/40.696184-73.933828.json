@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1900"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Ditmars Street"
+      },
+      "source": "Brooklyn: Broadway - Ditmars Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703338f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703338f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ecc7f00-c533-012f-e763-58d385a7bc34",
     "original_title": "Brooklyn: Broadway - Ditmars Street",
     "text": "Broadway, north side, at Ditmars Street. In the foreground is Vernon Ave.\nAbout 1900.\nEugene L. Armbruster Collection.\n",

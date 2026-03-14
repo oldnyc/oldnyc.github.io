@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-10-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Vanderbilt Ave.",
+        "str2": "Willoughby Ave."
+      },
+      "source": "Brooklyn: Vanderbilt Ave. - Willoughby Ave.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707173f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707173f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a0d3de0-c539-012f-479f-58d385a7bc34",
     "original_title": "Brooklyn: Vanderbilt Ave. - Willoughby Ave.",
     "text": "Vanderbilt Avenue, at the S. E. corner of Willoughby Avenue, showing the Chas. E. Pratt Mansion and stables.\n\nOctober 12, 1940\n\nP. L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Vanderbilt Ave.",
+        "str2": "Willoughby Ave."
+      },
+      "source": "Brooklyn: Vanderbilt Ave. - Willoughby Ave.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "707175f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707175f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ae02c10-c539-012f-d1eb-58d385a7bc34",
     "original_title": "Brooklyn: Vanderbilt Ave. - Willoughby Ave.",
     "text": "P.L. Sperr, photographer\n6-19-42\n",
@@ -39,9 +78,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Vanderbilt Ave.",
+        "str2": "Willoughby Ave."
+      },
+      "source": "Brooklyn: Willoughby Ave. - Vanderbilt Ave.",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707363f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707363f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b562b7b0-c539-012f-25c0-58d385a7bc34",
     "original_title": "Brooklyn: Willoughby Ave. - Vanderbilt Ave.",
     "text": "P.L. Sperr, photographer  6-19-1942",

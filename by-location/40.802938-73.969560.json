@@ -2,9 +2,42 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "107th Street and Riverside Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "115th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 391,
     "id": "722921f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722921f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76938720-c552-012f-2681-58d385a7bc34",
     "original_title": "Manhattan: 107th Street - 115th Street",
     "text": "Riverside Park. Waterfront. 107th to 115th St. Deposited with NYPL by NYC Park Dept. 1931",
@@ -19,9 +52,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 107th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "722757f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722757f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ed96490-c552-012f-f9d4-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 107th Street",
     "text": "Riverside Drive, east side, from and including 107th, to and including 108th Streets.\n\nApril 3, 1932.\n\nP. L. Sperr.\n",

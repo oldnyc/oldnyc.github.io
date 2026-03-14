@@ -2,9 +2,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Columbus Place"
+      },
+      "source": "Brooklyn: Columbus Place - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703763f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703763f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2708e560-c534-012f-e3b5-58d385a7bc34",
     "original_title": "Brooklyn: Columbus Place - Atlantic Avenue",
     "text": "- Columbus Place, north of Atlantic Ave., to Herkimer Street, showing the steeple, rectory and school of St. Benedict's parish. The church faces on Fulton Street.\n\nApril 29, 1936.\n\nP. L. Sperr.\n",

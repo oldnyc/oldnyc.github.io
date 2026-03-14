@@ -2,9 +2,41 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 32,
+        "street": "Union Square"
+      },
+      "source": "32 Union Square",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Last dwelling house on Union Square",
+        "str2": "Union Square",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "723614f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723614f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "H. Davidson."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9bff3940-c553-012f-3815-58d385a7bc34",
     "text": "\"Last dwelling house on Union Square\"\n\nNo.32 Union Square\n\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",
     "text_source": "gpt",
@@ -18,9 +50,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 105,
+        "street": "East Fifteenth Street"
+      },
+      "source": "105 East Fifteenth Street",
+      "technique": "gpt"
+    },
     "height": 523,
     "id": "417347",
     "image_url": "https://images.nypl.org/?id=417347&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e201a600-c611-012f-e464-58d385a7bc34",
     "text": null,
     "text_source": null,

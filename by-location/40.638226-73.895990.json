@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "96th Street (East)",
+        "str2": "Avenue L"
+      },
+      "source": "Brooklyn: Avenue L - 96th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "705340f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705340f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a44ee5c0-c536-012f-37af-58d385a7bc34",
     "original_title": "Brooklyn: Avenue L - 96th Street (East)",
     "text": "9605 Ave. L, at the N.E. corner of East 96th Street, showing a 2-family dwelling, between two 1-family buildings.\n\nJuly 6, 1933.\n\nP. L. Sperr.\n",

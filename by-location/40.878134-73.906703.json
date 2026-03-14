@@ -2,9 +2,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Godwin Terrace",
+        "str2": "Kimberly Place"
+      },
+      "source": "Bronx: Godwin Terrace - Kimberly Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701119f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701119f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31d9e1a0-c530-012f-d194-58d385a7bc34",
     "text": "Godwin Terrace, at the N.E. corner of Kimberly Place, showing St. John's Roman Catholic School. The view is in a southerly direction.\n\nOctober 27, 1927.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

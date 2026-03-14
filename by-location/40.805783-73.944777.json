@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Mt. Morris Park West"
+      },
+      "source": "Manhattan: 123rd Street - Mt. Morris Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715284f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715284f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80e1ca20-c546-012f-0184-58d385a7bc34",
     "text": "3-5 West 123rd Street, west of, adjoining, and at the N.W. corner of Mt. Morris Avenue. Mt. Morris Avenue is a short avenue that extends from 120th to 124th Street, on the west side of Mt. Morris Park.\n\nAbout 1913.\n",
     "text_source": "gpt",
@@ -18,9 +40,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Mt. Morris Park West"
+      },
+      "source": "Manhattan: 123rd Street - Mt. Morris Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715285f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715285f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/812ab810-c546-012f-e058-58d385a7bc34",
     "text": "123 St. w. from Mt. Morris Pkwy.\nP.L. Sperr\n6-15-42\n",
     "text_source": "gpt",

@@ -2,9 +2,41 @@
   {
     "date": "1938; 1938-04-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx Park East",
+        "str2": "Reiss Place"
+      },
+      "source": "Bronx Park East and Reiss Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "a gulley",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "700618f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700618f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8510ed20-c52f-012f-da1d-58d385a7bc34",
     "text": "Bronx Park: A gully as seen from Bronx Park East, at Reiss Place.\n\nApril 3, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -19,9 +51,31 @@
   {
     "date": "1938; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx Park East",
+        "str2": "Reiss Place"
+      },
+      "source": "Bronx: Reiss Place - Bronx Park East",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701688f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701688f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b7c9c50-c531-012f-53e4-58d385a7bc34",
     "text": null,
     "text_source": null,

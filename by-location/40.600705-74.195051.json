@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1937-05-16"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Chelsea Road",
+        "str2": "Meredith Avenue"
+      },
+      "source": "Richmond: Meredith Avenue - Chelsea Road",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "729143f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729143f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dde4ccf0-c55b-012f-9cc8-58d385a7bc34",
     "original_title": "Richmond: Meredith Avenue - Chelsea Road",
     "text": "Meredith Avenue, southeast from and past Chelsea Road. Chelsea Creek can be seen winding its course through the marshes directly behind the dead tree.\n\nMay 16, 1937\n\nP. L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Chelsea Road",
+        "str2": "Meredith Avenue"
+      },
+      "source": "Richmond: Meredith Avenue - Chelsea Road",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "729144f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729144f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de3650b0-c55b-012f-4d1f-58d385a7bc34",
     "original_title": "Richmond: Meredith Avenue - Chelsea Road",
     "text": "Meredith Avenue, west from Chelsea Road, toward Arthur Kill.\n\nMay 16, 1937\n\nP.L. Sperr\n",

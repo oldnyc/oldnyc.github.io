@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Utopia Parkway"
+      },
+      "source": "Grand Central Parkway and Utopia Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkwa",
+        "str2": "Utopia Parkway",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726803f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726803f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "St. John's University (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/407bbfc0-c558-012f-1d81-58d385a7bc34",
     "text": "C. Manley De Bevoise\n51-05 Browvale Lane\nLittle Neck, N.Y. 11362\n\nSt. John's University - Jamaica\n\nGrand Central & Utopia Pkwys.\n",
     "text_source": "gpt",
@@ -18,9 +47,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Utopia Parkway"
+      },
+      "source": "Grand Central Parkway and Utopia Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkwa",
+        "str2": "Utopia Parkway",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726804f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726804f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "St. John's University (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40e4c820-c558-012f-5de2-58d385a7bc34",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, N.Y. 11362\n\nSt. John's University - Jamaica\n\nGrand Central & Utopia Pkwys.\n",
     "text_source": "gpt",
@@ -34,9 +92,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Utopia Parkway"
+      },
+      "source": "Grand Central Parkway and Utopia Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkwa",
+        "str2": "Utopia Parkway",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726805f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726805f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "St. John's University (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41565470-c558-012f-de54-58d385a7bc34",
     "text": "St. John's Hall, St. John's University - Jamaica Campus\n\nC. Manley De Bevoise\n51-05 Browvale Lane\nLittle Neck, N.Y.\n",
     "text_source": "gpt",

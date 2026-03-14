@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "92nd Street",
+        "str2": "Avenue L"
+      },
+      "source": "Brooklyn: 92nd Street - Avenue L",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "702922f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702922f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de3fe240-c532-012f-3c79-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street - Avenue L",
     "text": "East 92nd Street, (Canarsie Road), north from Ave. L, showing at the right foreground, Nos. 1385-1387, and said to have been the property of R. Monroe, in 1873.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1933-07-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "92nd Street (East)",
+        "str2": "Avenue L"
+      },
+      "source": "Brooklyn: 92nd Street (East) - Avenue L",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702923f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702923f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/deb58480-c532-012f-154b-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street (East) - Avenue L",
     "text": "East 92nd Street, east side, south from Ave. L. to Ave. M.\nJuly 6, 1933.\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1922; 1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Flushing Avenue"
+      },
+      "source": "Brooklyn: Flushing Avenue - Bushwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "704396f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704396f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24b1db50-c535-012f-bb94-58d385a7bc34",
     "original_title": "Brooklyn: Flushing Avenue - Bushwick Avenue",
     "text": "(1)\nFlushing Ave., north side, at Bushwick Ave.\n1923.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing a closer view of the N.E. corner with the buildings to the left, adjoining and south of it on Bushwick Ave.\n1922.\nEugene L. Armbruster Collection.\n",
@@ -20,9 +41,30 @@
   {
     "date": "1922; 1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Flushing Avenue"
+      },
+      "source": "Brooklyn: Flushing Avenue - Bushwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "704396f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704396f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24b1db50-c535-012f-bb94-58d385a7bc34",
     "original_title": "Brooklyn: Flushing Avenue - Bushwick Avenue",
     "text": "(1)\nFlushing Ave., north side, at Bushwick Ave.\n1923.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, showing a closer view of the N.E. corner with the buildings to the left, adjoining and south of it on Bushwick Ave.\n1922.\nEugene L. Armbruster Collection.\n",
@@ -38,9 +80,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Flushing Avenue"
+      },
+      "source": "Brooklyn: Flushing Avenue - Bushwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "704397f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704397f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/252bbf20-c535-012f-ab34-58d385a7bc34",
     "original_title": "Brooklyn: Flushing Avenue - Bushwick Avenue",
     "text": "Flushing Ave., south side, east of Bushwick Ave. (The corner in the foreground, was owned by Charles De Bovoise).\n\n1923.\n\nEugene L. Armbruster Collection.\n\nASSUMING STREET TO BE EAST AND WEST\n",
@@ -59,9 +122,41 @@
       "1929-03",
       "1929-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Flushing Avenue"
+      },
+      "source": "Bushwick Avenue and Flushing Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Old Woodpoint Road",
+        "str2": "Skillman Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Old Woodpoint Road",
+        "str2": "Skillman Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "706131f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706131f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d8f636d0-c537-012f-3ec2-58d385a7bc34",
     "original_title": "Brooklyn: Old Woodpoint Road - Skillman Avenue",
     "text": "Old Woodpoint Road, east side, between Skillman Ave., and Conselyea Street, showing two frame houses said to be the former Town Hall of Bushwick. ( De Veany Genealogy 1885,pp. 161-162). The original Town Hall and Court room occupied practically all the ground floor, with the exception of one room in which records were kept. The war of 1812 was responsible for moving the Hall to Abraham Bogart's Tavern, at the Cross-roads, (N.E. corner of Bushwick and Flushing aves.) because of the large crowds congregating at the Hall for news.\n\nMarch 1929.\n\nEugene L. Armbruster Collection.\n\nThe same, another view.\n\nMarch 1929.\n\nEugene L. Armbruster Collection.\n",

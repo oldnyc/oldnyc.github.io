@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street",
+        "str2": "Digney Avenue"
+      },
+      "source": "Bronx: Digney Avenue - 233rd Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "700867f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700867f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Digney Avenue (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da901b60-c52f-012f-4951-58d385a7bc34",
     "original_title": "Bronx: Digney Avenue - 233rd Street",
     "text": "Digney Avenue, north from E. 233rd Street, showing W.P.A. men repaving the thoroughfare.\nSeptember 22, 1937\nW.P.A. Photo\nFive Boroughs Project\n",

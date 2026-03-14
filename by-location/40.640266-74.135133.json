@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Faber Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Faber Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729501f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729501f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "name": [
+          "Knights of Columbus"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/699ea390-c55c-012f-e7f0-58d385a7bc34",
     "text": "2180 Richmond Terrace, adjoining the S. W. corner of Faber Avenue, showing the house of the Knights of Columbus, Assumption Council 1694. In 1874 the house was located on property owned by J. F. H. King; in 1898 it belonged to Mark Samuels; in 1907 to Florence W. Sweet, and in 1917 to Walter Sweet. Dates refer to maps on which the owners' names appear.\n\nJuly 2, 1932\n\nP. L. Sperr\n",
     "text_source": "gpt",

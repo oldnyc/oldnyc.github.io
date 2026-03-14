@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1918"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "79th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 79th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714583f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714583f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/755af270-c545-012f-d813-58d385a7bc34",
     "original_title": "Manhattan: 79th Street (West) - Broadway",
     "text": "220-222 West 79th Street, south side, east of Broadway.  About 1918.",
@@ -22,9 +40,33 @@
   {
     "date": "1928; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "79th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 79th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717672f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717672f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33a94e20-c54a-012f-2291-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 79th Street",
     "text": "(1) The First Baptist Church, Broadway at the N.W. corner of 79th Street.\nJuly 2, 1928.\n\nP. L. Sperr.\n\n(2) The same, three years later.\nMay 31, 1931.\n\nP. L. Sperr.\n",
@@ -40,9 +82,33 @@
   {
     "date": "1928; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "79th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 79th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717672f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717672f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/33a94e20-c54a-012f-2291-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 79th Street",
     "text": "(1) The First Baptist Church, Broadway at the N.W. corner of 79th Street.\nJuly 2, 1928.\n\nP. L. Sperr.\n\n(2) The same, three years later.\nMay 31, 1931.\n\nP. L. Sperr.\n",
@@ -58,9 +124,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "79th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 79th Street",
+      "technique": "title-cross"
+    },
     "height": 496,
     "id": "1509123-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509123-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee85a820-c5cd-012f-76bd-58d385a7bc34",
     "text": null,
     "text_source": null,

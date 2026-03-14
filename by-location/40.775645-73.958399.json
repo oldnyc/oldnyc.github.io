@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 80th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714596f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714596f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a785180-c545-012f-396a-58d385a7bc34",
     "original_title": "Manhattan: 80th Street (East) - Lexington Avenue",
     "text": "127-129 East 80th Street, north side, west of Lexington Avenue.\n\nAbout 1911.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 80th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714595f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714595f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a0a1d10-c545-012f-219f-58d385a7bc34",
     "original_title": "Manhattan: 80th Street (East) - Lexington Avenue",
     "text": "140-138 East 80th Street, at and adjoining the S.W. corner of Lexington Avenue.\nAbout 1913.\n",

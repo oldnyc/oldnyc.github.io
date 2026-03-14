@@ -2,9 +2,44 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 33,
+        "street": "Grand Avenue"
+      },
+      "source": "33 Grand Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Park Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Park Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "726751f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726751f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2bfa83b0-c558-012f-aa70-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - Park Avenue",
     "text": "33-35 Grand Avenue, east side, between Park and Flushing Avenues, showing the Jurgens stables, erected in 1898.\n\nP. L. Sperr\nApril 12, 1941\n",

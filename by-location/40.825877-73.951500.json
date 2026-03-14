@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 600,
+        "street": "W 144th Street"
+      },
+      "source": "144th Street (West) #600",
+      "technique": "title-address"
+    },
     "height": 427,
     "id": "1508441-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508441-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f5745f0-c5cf-012f-02de-58d385a7bc34",
     "text": null,
     "text_source": null,

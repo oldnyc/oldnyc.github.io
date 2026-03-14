@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Alabama Avenue",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - Alabama Avenue",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "703067f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703067f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15986d90-c533-012f-554d-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - Alabama Avenue",
     "text": null,
@@ -19,9 +40,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Alabama Avenue",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - Alabama Avenue",
+      "technique": "title-cross"
+    },
     "height": 448,
     "id": "703067f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703067f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15986d90-c533-012f-554d-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - Alabama Avenue",
     "text": null,
@@ -36,9 +78,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Alabama Avenue",
+        "str2": "Atlantic Avenue"
+      },
+      "source": "Brooklyn: Alabama Avenue - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "702963f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702963f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fulton Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee9109d0-c532-012f-c971-58d385a7bc34",
     "original_title": "Brooklyn: Alabama Avenue - Atlantic Avenue",
     "text": "Alabama Ave., from Atlantic Ave., to Fulton Street, showing in the background the Fulton Street Elevated Line of the B.M.T. In 1873 the Howard house a hotel on the Broadway and Jamaica Railroad Line stood on Atlantic Ave., between William and Alabama Aves. If standing to-day (1937), it would occupy the site now occupied by the brick building at the corner in the left foreground.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

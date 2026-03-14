@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "75th Street",
+        "str2": "Astoria Boulevard"
+      },
+      "source": "Queens: Astoria Boulevard - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c6bf4b0-c557-012f-b319-58d385a7bc34",
     "original_title": "Queens: Astoria Boulevard - 75th Street",
     "text": "Astoria Boulevard, at the S.W. corner of 75th Street, showing Mrs. Blackwell's house of 1873. It stood just east of St. Michaels Cemetery. The property was owned by J. L. Riker in 1909. Astoria Boulevard, here, is the former Flushing Avenue.\n\nEugene L. Armbruster Collection\nApril, 1923\n",

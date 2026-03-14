@@ -2,9 +2,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "57th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 57th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "710576f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710576f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4802670-c53e-012f-3d7a-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 57th Street",
     "text": "Tenth Ave., east side, south from West 58th (left) to 57th (right) Streets as viewed southeastward across an empty lot at the S.W. corner of the Ave. and 58th Street.\n\nNovember 25, 1937.\n\nP. L. Sperr.\n",
@@ -19,9 +42,29 @@
   {
     "date": "1939-04-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "57th Street looking south",
+        "str2": "Tenth Avenue"
+      },
+      "source": "Manhattan: Tenth Avenue - 57th Street looking south",
+      "technique": "title-cross"
+    },
     "height": 376,
     "id": "1507701-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507701-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba5ecfb0-c5ce-012f-125b-58d385a7bc34",
     "text": null,
     "text_source": null,

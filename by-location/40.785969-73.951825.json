@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "E 96th Street"
+      },
+      "source": "96th Street (East) #112",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508365",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508365.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Branch Library, NYPL"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12286dc0-c5cf-012f-6fb1-58d385a7bc34",
     "text": null,
     "text_source": null,

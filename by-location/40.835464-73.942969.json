@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 560,
+        "street": "West 160th Street"
+      },
+      "source": "560 West 160th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417615-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417615-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29d0c090-c6cd-012f-4ae7-58d385a7bc34",
     "text": null,
     "text_source": null,

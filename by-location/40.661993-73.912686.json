@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Amboy Street",
+        "str2": "Livonia Avenue"
+      },
+      "source": "Brooklyn: Amboy Street - Livonia Avenue",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "702976f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702976f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f32c30c0-c532-012f-f0e7-58d385a7bc34",
     "original_title": "Brooklyn: Amboy Street - Livonia Avenue",
     "text": "Amboy Street, east side, south of Livonia Avenue.\nApril 26, 1933\nIrvin Pitterman\n",

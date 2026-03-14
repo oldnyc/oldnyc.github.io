@@ -2,9 +2,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Mosholu Parkway",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: Webster Avenue - Mosholu Parkway",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "702050f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702050f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8dbf4700-c531-012f-7b96-58d385a7bc34",
     "original_title": "Bronx: Webster Avenue - Mosholu Parkway",
     "text": "Webster Avenue, north from Mosholu Parkway, showing the structure of the Third Avenue Elevated Line.\n\nMay 12, 1938.\n\nP. L. Sperr\n",

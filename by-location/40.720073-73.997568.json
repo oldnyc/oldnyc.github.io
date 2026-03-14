@@ -2,9 +2,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 6,
+        "street": "Centre Market Place"
+      },
+      "source": "6 Centre Market Place",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "732285f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732285f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Frank Lava Gunsmith.",
+        "Manhattan: Centre Market Place ; 6 Centre Market Place."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Gunsmithing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec3344a0-c560-012f-b662-58d385a7bc34",
     "text": "Gunsmith\n6 Centre Market Place, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode III H\nFeb. 4, 1937\n",
     "text_source": "gpt",
@@ -18,9 +45,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 6,
+        "street": "Centre Market Place"
+      },
+      "source": "6 Centre Market Place",
+      "technique": "title-address"
+    },
     "height": 481,
     "id": "732286f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732286f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Frank Lava Gunsmith.",
+        "Manhattan: Centre Market Place ; 6 Centre Market Place."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Gunsmithing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eca996b0-c560-012f-054b-58d385a7bc34",
     "text": "Gunsmith and Police Dep't. Bldg.\n6 Centre Market Place, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode III I-1 II D-1\nFeb. 4, 1937\n\np.64, Changing New York\n",
     "text_source": "gpt",

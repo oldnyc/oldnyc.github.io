@@ -2,9 +2,39 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "80th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens: Roosevelt Avenue - 80th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "727946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Barbershops",
+          "Cigar industry",
+          "Clothing stores",
+          "Elevated railroads",
+          "Grocery stores",
+          "Printers",
+          "Printing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe9c6790-c559-012f-a706-58d385a7bc34",
     "original_title": "Queens: Roosevelt Avenue - 80th Street",
     "text": "Roosevelt Avenue, east from 80th Street, with the subway \"El\" thereon. Now the 7 Line. About 1927. Brown Brothers.",

@@ -2,9 +2,32 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 19th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "711510f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711510f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coal",
+          "Cobblestone streets",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/746abb40-c540-012f-56e9-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 19th Street",
     "text": "19th Street, north side, east from Avenue B.\n\nP. L. Sperr.\n\nJuly 31, 1929.\n",
@@ -19,9 +42,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "19th Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 19th Street (East) - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "711511f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711511f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74c13020-c540-012f-7b23-58d385a7bc34",
     "original_title": "Manhattan: 19th Street (East) - Avenue B",
     "text": "534-538 East 19th Street, south side, west of Avenue B.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "160th Street",
+        "str2": "Goethal Avenue"
+      },
+      "source": "Queens: Goethal Avenue - 160th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "726747f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726747f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a9a1310-c558-012f-0990-58d385a7bc34",
     "original_title": "Queens: Goethal Avenue - 160th Street",
     "text": "Goethal Avenue, east from 160th Street. On the right are units of Queens General Hospital.\n\nMarch 25, 1932\n\nP. L. Sperr\n",

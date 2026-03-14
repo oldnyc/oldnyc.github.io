@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "29th Street",
+        "str2": "Kings Highway"
+      },
+      "source": "Brooklyn: 29th Street - Kings Highway",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "702696f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702696f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85d90bf0-c532-012f-ff75-58d385a7bc34",
     "text": "East 29th Street, cars thereon; north from Kings Highway.\n\nOctober 6, 1933.\n\nIrvin Fitterman.\n",
     "text_source": "gpt",
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1933-10-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "29th Street (East)",
+        "str2": "Kings Highway"
+      },
+      "source": "Brooklyn: Kings Highway - 29th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "705228f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705228f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7673a750-c536-012f-2c70-58d385a7bc34",
     "text": "Kings Highway, east from East 29th Street.\n\nOctober 6, 1933.\n\nIrvin Fitterman.\n",
     "text_source": "gpt",

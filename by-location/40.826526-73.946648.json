@@ -2,9 +2,30 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "147th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 147th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715653f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715653f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f6c3590-c547-012f-4a87-58d385a7bc34",
     "original_title": "Manhattan: 147th Street (West) - Amsterdam Avenue",
     "text": "460 West 147th Street, south side, east of Amsterdam Ave.\nAbout 1920.\n",
@@ -19,9 +40,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "West 147th Street"
+      },
+      "source": "Amsterdam Avenue and West 147th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Alex Brothers Fish Market",
+        "str2": "Lido Theater",
+        "technique": "title-cross"
+      }
+    ],
     "height": 425,
     "id": "1558393",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558393.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Alex Brothers Fish Market - Lido Theater"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12171c50-c5ed-012f-ee0d-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,33 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 56th Street",
+      "technique": "title-cross"
+    },
     "height": 416,
     "id": "708094f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708094f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed8f9230-c53a-012f-ef59-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 56th Street",
     "text": "Corner, 3rd Avenue, 56th Street, and looking west. (Before Re-construction).\n\nSeptember 30, 1921.\n",
@@ -19,9 +43,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "3rd Avenue and 56th Street",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "708096f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708096f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "203-207 East 56th Street ; Mannerchor Hall."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Halls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee47bb30-c53a-012f-2673-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 56th and 57th Streets (East)",
     "text": "Third Avenue, east side, from 56th to 57th Streets, also showing M\u00e4nnerchor Hall, the home of the German singing society, at 203-207 East 56th Street.\n\nOctober 22, 1928.\n\nP. L. Sperr.\n",
@@ -36,9 +85,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 56th Street - 3rd Avenue.",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "713790f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713790f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3dea8e00-c544-012f-87a9-58d385a7bc34",
     "original_title": "Manhattan: 56th Street - 3rd Avenue.",
     "text": "56th Street, at and adjoining S.E. corner of Third Avenue. October 23, 1928.\n\nP. L. Sperr.\n",
@@ -58,9 +128,27 @@
       "1928-09-11",
       "1933-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 56th Street - 3rd Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713791f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713791f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e6dff80-c544-012f-b08c-58d385a7bc34",
     "original_title": "Manhattan: 56th Street - 3rd Avenue.",
     "text": "(1)\n56th Street; north side, west from and including Third Avenue. March 28, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, but not including Third Avenue. September 11, 1928.\n\nP. L. Sperr.\n\n(3)\nA view similar to No. 2, but not including Lexington Ave. May 4, 1933.\n\nP. L. Sperr.\n",
@@ -82,9 +170,27 @@
       "1928-09-11",
       "1933-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 56th Street - 3rd Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713791f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713791f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e6dff80-c544-012f-b08c-58d385a7bc34",
     "original_title": "Manhattan: 56th Street - 3rd Avenue.",
     "text": "(1)\n56th Street; north side, west from and including Third Avenue. March 28, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, but not including Third Avenue. September 11, 1928.\n\nP. L. Sperr.\n\n(3)\nA view similar to No. 2, but not including Lexington Ave. May 4, 1933.\n\nP. L. Sperr.\n",
@@ -106,9 +212,27 @@
       "1928-09-11",
       "1933-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 56th Street - 3rd Avenue.",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "713791f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/713791f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e6dff80-c544-012f-b08c-58d385a7bc34",
     "original_title": "Manhattan: 56th Street - 3rd Avenue.",
     "rotation": 90,
@@ -129,9 +253,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street (East)"
+      },
+      "source": "Manhattan: 56th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713792f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713792f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d8f8d80-c544-012f-f944-58d385a7bc34",
     "original_title": "Manhattan: 56th Street (East) - 3rd Avenue",
     "text": "204-202 East 56th Street, south side, east of Third avenue. The former is a two-story and the latter is a three-story frame house.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -146,9 +288,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street (East)"
+      },
+      "source": "Manhattan: 3rd Avenue - 56th Street (East).",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "708095f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708095f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Sumner Healy Antique Shop, 942 Third Avenue and 57th Street, Manhattan.",
+        "Sumner Healey Antique Shop."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Antique stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edfab540-c53a-012f-7a21-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 56th Street (East).",
     "text": "Third Ave No. 942\n56th & 57th\n",
@@ -163,9 +330,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - Between 56th and 57th Streets.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732266f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732266f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "942 3rd Avenue ; Sumler Healey Antique Shop.",
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: 3rd Avenue - Between 56th and 57th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Antique stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e4c70a30-c560-012f-fa26-58d385a7bc34",
     "text": "Sumner Healey Antique Shop\n942 Third Avenue, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]*\nCode III H\nOctober 8, 1936\n\n*Negative available in Arents Collection, N.Y.P.L.\n\np.156, Changing New York\n\nA similar, but horizontal view by Berenice Abbott, is filed under \"Third Ave., no. 942\"\n",
     "text_source": "gpt",

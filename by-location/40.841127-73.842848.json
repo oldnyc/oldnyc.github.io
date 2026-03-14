@@ -2,9 +2,37 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fink Avenue",
+        "str2": "Westchester Square"
+      },
+      "source": "Bronx: Westchester Square - Fink Avenue",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "702139f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702139f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Westchester Square (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry -- New York (State) -- New York",
+          "Business districts",
+          "Grocery stores",
+          "Plazas",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b02b9d00-c531-012f-3878-58d385a7bc34",
     "text": "63 and 65 Westchester Square, east side, between Fink and Ponton Avenues. No. 63 is the James Butler store.\nAbout 1913\n",
     "text_source": "gpt",
@@ -18,9 +46,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fink Avenue",
+        "str2": "Tremont Avenue (East"
+      },
+      "source": "Bronx: Tremont Avenue (East - Fink Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "700944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700944f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4198830-c52f-012f-1d58-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - Fink Avenue",
     "text": "East Tremont Ave., east side, south from Fink to Westchester Aves. The G.W. Bromley map of 1927 designates the above houses with the numbers 70 to 80,on what appears to be Westchester Square. A portion of the elevated structure of the I.R.T. Pelham Bay Park\nsubway line is visible on the extreme right.\nAugust 25, 1935.\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1904",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Park Place"
+      },
+      "source": "Brooklyn: Park Place - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706214f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706214f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bedford Place (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f8e89e40-c537-012f-25d5-58d385a7bc34",
     "original_title": "Brooklyn: Park Place - Bedford Avenue",
     "text": "Park Place, west from Bedford Ave.\nAbout 1904.\nEugene L. Armbruster Collection.\n",

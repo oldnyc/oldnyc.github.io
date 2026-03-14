@@ -2,9 +2,33 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "Beach Avenue"
+      },
+      "source": "Bronx: 172nd Street (East) - Beach Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "700215f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700215f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3c88670-c52e-012f-c9f0-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - Beach Avenue",
     "text": "East 172nd Street, south side, west from Beach to St. Lawrence Aves., showing Public School No. 47.\n\nAbout 1915.\n\nJames Suydam.\n",

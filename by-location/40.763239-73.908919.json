@@ -2,9 +2,44 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "28th Avenue",
+        "str2": "46th Street"
+      },
+      "source": "28th Avenue and 46th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "27th Avenue",
+        "str2": "46th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "27th Avenue",
+        "str2": "46th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 359,
     "id": "725355f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725355f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/439b5a60-c556-012f-81c5-58d385a7bc34",
     "original_title": "Queens: 46th Street - 27th Avenue",
     "text": "25-74 to 25-40 46th Street, west side, between 28th and 25th Avenues, looking north. These are two-family brick homes built by the Stromrose Construction Company.\n\n1927\n",

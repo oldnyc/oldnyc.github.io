@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1933-07-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "92nd Street (East)",
+        "str2": "Conklin Avenue"
+      },
+      "source": "Brooklyn: 92nd Street (East) - Conklin Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "702910f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702910f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9a2ec70-c532-012f-3bf1-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street (East) - Conklin Avenue",
     "text": "1131- East 92nd Street, at the N.E. corner of Conklin Ave.\n\nJuly 6, 1933.\n\nP. L. Sperr.\n",

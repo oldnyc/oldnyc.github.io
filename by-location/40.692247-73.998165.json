@@ -2,9 +2,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 43,
+        "street": "Willow Pl."
+      },
+      "source": "43 Willow Pl.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "No. 49",
+        "str2": "Willow Pl., No. 43",
+        "technique": "title-cross"
+      }
+    ],
     "height": 383,
     "id": "707410f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707410f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Willow Place, nos. 43-49, Brooklyn."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c92be1d0-c539-012f-fd48-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 70,
+        "street": "Willow Place"
+      },
+      "source": "70 Willow Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "707411f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707411f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Willow Place no. 70, Brooklyn."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c986eee0-c539-012f-ecad-58d385a7bc34",
     "text": null,
     "text_source": null,

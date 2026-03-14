@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Courtlandt Av",
+        "str2": "E. 152nd St"
+      },
+      "source": "Courtlandt Av and E. 152nd St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985077",
     "image_url": "https://images.nypl.org/?id=3985077&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de0da130-c5d7-012f-9c9c-58d385a7bc34",
     "text": null,
     "text_source": null,

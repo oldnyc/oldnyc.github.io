@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Stanton St.",
+        "str2": "Suffolk St."
+      },
+      "source": "Stanton St. and Suffolk St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984496",
     "image_url": "https://images.nypl.org/?id=3984496&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/380f5b20-c5d7-012f-cbca-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Stanton St.",
+        "str2": "Suffolk St."
+      },
+      "source": "Stanton St. and Suffolk St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984497",
     "image_url": "https://images.nypl.org/?id=3984497&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38581990-c5d7-012f-2c68-58d385a7bc34",
     "text": null,
     "text_source": null,

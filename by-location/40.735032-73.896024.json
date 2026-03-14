@@ -2,9 +2,34 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "69th Street",
+        "str2": "Calamus Avenue"
+      },
+      "source": "Queens: Calamus Avenue - 69th Street",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "726297f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726297f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools",
+          "Roadhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/868cf510-c557-012f-dbe0-58d385a7bc34",
     "original_title": "Queens: Calamus Avenue - 69th Street",
     "text": "Calamus Ave., south side, east from 69th Street (Cobblestone Road), showing in the foreground an old roadhouse. It was a hotel in 1860. Subsequent owners of this place were T. Bennett in 1873 and Mrs. McGowan in 1891. Beyond the one story house in center of view is Public School No. 78, which is located on the S.E. Corner of 68th Street and faces on Maurice Ave., which is a continuation of Calamus Ave.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",

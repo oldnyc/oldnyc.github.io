@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Elm Avenue"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Elm Avenue",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "703784f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703784f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fb76ca0-c534-012f-73b6-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Elm Avenue",
     "text": "Coney Island Avenue, at the southeast corner of Elm Avenue, showing Public School No. 199.\n\nBoard of Education of the City of New York early 1930's\n",

@@ -2,9 +2,32 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Quincy Street"
+      },
+      "source": "Brooklyn: Bedford Avenue - Quincy Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703160f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703160f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39479800-c533-012f-9dba-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Quincy Street",
     "text": "Bedford Avenue, north from Quincy Street. The \"El\" is on Lexington Avenue.\nP.L. Sperr  August 30, 1941\n",
@@ -22,9 +45,27 @@
     "dates_from_text": [
       "1941-08-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Quincy Street"
+      },
+      "source": "Brooklyn: Quincy Street - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "706420f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706420f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a326c90-c538-012f-4270-58d385a7bc34",
     "original_title": "Brooklyn: Quincy Street - Bedford Avenue",
     "text": "Quincy Street, north side, east from near Bedford Avenue.\nP.L. Sperr  August 24, 1941\n",

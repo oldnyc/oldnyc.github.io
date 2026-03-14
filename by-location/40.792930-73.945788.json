@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 107th Street - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714994f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714994f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/152d5ad0-c546-012f-1d60-58d385a7bc34",
     "original_title": "Manhattan: 107th Street - Lexington Avenue",
     "text": "107th Street, east from and including Lexington Avenue.\n\nFebruary 27, 1928.\n\nP. L. Sperr.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1928-03-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 107th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "721104f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721104f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8efcc1e0-c54f-012f-e34a-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 107th Street",
     "text": "Lexington Avenue, west side, from 107th to 108th Streets.\nP.L. Sperr, Photographer.\nMarch 7, 1928.\n",
@@ -39,9 +81,38 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "107th Street and Lexington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Lexington Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "714995f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714995f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Recreation centers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/157c3d10-c546-012f-6e3c-58d385a7bc34",
     "text": "1. 107th St. at Lexington Ave. from Park Row, Man.\nP.L. Sperr, photographer\nNeg. A-74,\nJuly 16, 1941\n\n2. 107th St. east of Park Ave.\nP.L. Sperr\nJuly 16, 1941\n",
     "text_source": "gpt",
@@ -55,9 +126,38 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "107th Street and Lexington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "107th Street",
+        "str2": "Lexington Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 406,
     "id": "714995f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714995f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Recreation centers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/157c3d10-c546-012f-6e3c-58d385a7bc34",
     "text": "1. 107th St. at Lexington Ave. from Park Row, Man.\nP.L. Sperr, photographer\nNeg. A-74,\nJuly 16, 1941\n\n2. 107th St. east of Park Ave.\nP.L. Sperr\nJuly 16, 1941\n",
     "text_source": "gpt",

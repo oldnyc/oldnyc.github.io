@@ -2,9 +2,45 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Henry Hudson Parkway",
+        "str2": "West 239th Street"
+      },
+      "source": "Henry Hudson Parkway and West 239th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "238th Street (West)",
+        "str2": "Henry Hudson Parkway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Henry Hudson Parkway",
+        "str2": "West 238th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "701246f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701246f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Parkway (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/631be210-c530-012f-fd2a-58d385a7bc34",
     "original_title": "Bronx: Henry Hudson Parkway - 238th Street (West)",
     "text": "(1)\n\nHenry Hudson Parkway, north from West 238th Street, showing it under construction. The bridge spans the Parkway at West 239th Street. Also shown (right), among the trees, is the war memorial to the World War veterans of this area.\n\nMay 25, 1937.\n\nP. L. Sperr.\n\n(2)\n\nThe same, another view.\n\nP. L. Sperr.\n",
@@ -19,9 +55,45 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Henry Hudson Parkway",
+        "str2": "West 239th Street"
+      },
+      "source": "Henry Hudson Parkway and West 239th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "238th Street (West)",
+        "str2": "Henry Hudson Parkway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Henry Hudson Parkway",
+        "str2": "West 238th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "701246f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701246f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Henry Hudson Parkway (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/631be210-c530-012f-fd2a-58d385a7bc34",
     "original_title": "Bronx: Henry Hudson Parkway - 238th Street (West)",
     "text": "(1)\n\nHenry Hudson Parkway, north from West 238th Street, showing it under construction. The bridge spans the Parkway at West 239th Street. Also shown (right), among the trees, is the war memorial to the World War veterans of this area.\n\nMay 25, 1937.\n\nP. L. Sperr.\n\n(2)\n\nThe same, another view.\n\nP. L. Sperr.\n",

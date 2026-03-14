@@ -2,9 +2,37 @@
   {
     "date": "1902-01-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "112th Street",
+        "str2": "Broadway"
+      },
+      "source": "112th Street and Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "112th Street (West) (?)",
+        "str2": "Broadway tunnel",
+        "technique": "title-cross"
+      }
+    ],
     "height": 389,
     "id": "1508383",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508383.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15306cc0-c5cf-012f-0ad5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +46,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One hundred and twelfth Street"
+      },
+      "source": "Broadway and One hundred and twelfth Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464844-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464844-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/166997e0-c612-012f-17c6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +83,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One hundred and twelfth Street"
+      },
+      "source": "Broadway and One hundred and twelfth Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464844-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464844-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/166997e0-c612-012f-17c6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +120,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One hundred and twelfth Street"
+      },
+      "source": "Broadway and One hundred and twelfth Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464844-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464844-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/166997e0-c612-012f-17c6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +157,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "112th Street",
+        "str2": "Broadway"
+      },
+      "source": "112th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 525,
     "id": "417402",
     "image_url": "https://images.nypl.org/?id=417402&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7a63510-c611-012f-f935-58d385a7bc34",
     "text": null,
     "text_source": null,

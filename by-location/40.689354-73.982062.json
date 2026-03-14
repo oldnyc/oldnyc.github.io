@@ -2,9 +2,35 @@
   {
     "date": "1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Hanover Place"
+      },
+      "source": "Brooklyn: Fulton Street - Hanover Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704523f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704523f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Musical instrument industry",
+          "Musical instruments",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/585d7d20-c535-012f-0804-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Hanover Place",
     "text": "Fulton Street, south side, at adjoining and east of Hanover Place. Also seen is Hanover Place, east side, south of Fulton Street. Overhead on Fulton Street, is the Fulton Street Elevated Lines of the B.M.T. (On Hanover Place, next to the Sterling piano Co., S.S. Kresge has a department store beyond which Grove Place has been cut through, since this view was taken.)\n\nAbout 1906.\n",
@@ -19,9 +45,29 @@
   {
     "date": "1942-05-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Hanover Place"
+      },
+      "source": "Fulton Street at Hanover Place, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "485806",
     "image_url": "https://images.nypl.org/?id=485806&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d7155b0-c60e-012f-cbbd-58d385a7bc34",
     "text": null,
     "text_source": null,

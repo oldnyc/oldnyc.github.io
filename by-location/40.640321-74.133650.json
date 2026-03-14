@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Maple Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Maple Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "729440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5205e830-c55c-012f-bc08-58d385a7bc34",
     "text": "Richmond Terrace, south side, east from Maple Avenue to Richmond Avenue, showing the Empire Theatre, at No. 2094.\n\nJune 1, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",

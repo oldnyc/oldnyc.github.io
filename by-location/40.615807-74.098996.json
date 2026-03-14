@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-10-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Alpine Avenue",
+        "str2": "Grand Avenue"
+      },
+      "source": "Richmond: Grand Avenue - Alpine Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728883f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728883f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76767c90-c55b-012f-67a6-58d385a7bc34",
     "original_title": "Richmond: Grand Avenue - Alpine Avenue",
     "text": "100 Grand Avenue, south side, at Alpine Avenue.\n\nOctober 31, 1928.\n\nP.L. Sperr\n",

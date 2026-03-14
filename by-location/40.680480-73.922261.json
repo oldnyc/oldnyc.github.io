@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Marion Street - Ralph Avenue",
+      "technique": "title-cross"
+    },
     "height": 364,
     "id": "705601f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705601f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c2eb610-c537-012f-e6a1-58d385a7bc34",
     "original_title": "Brooklyn: Marion Street - Ralph Avenue",
     "text": "215-219 Marion Street, north side, between Ralph and Howard Aves. (A rear view).\n1922.\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Marion Street - Ralph Avenue",
+      "technique": "title-cross"
+    },
     "height": 411,
     "id": "705600f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705600f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0bc3e180-c537-012f-ff89-58d385a7bc34",
     "original_title": "Brooklyn: Marion Street - Ralph Avenue",
     "text": "Marion Street, west from Ralph Avenue, showing the north side of the thoroughfare.\n\nP. L. Sperr\nOctober 24, 1940\n",

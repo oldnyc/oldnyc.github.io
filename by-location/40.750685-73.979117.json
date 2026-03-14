@@ -2,9 +2,29 @@
   {
     "date": "1944-12-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 90,
+        "street": "Park Avenue"
+      },
+      "source": "Park Avenue #90",
+      "technique": "title-address"
+    },
     "height": 490,
     "id": "1508143-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508143-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b7697b0-c5ce-012f-2d00-58d385a7bc34",
     "text": null,
     "text_source": null,

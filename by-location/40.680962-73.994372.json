@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "President Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: Smith Street - President Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "706810f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706810f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Public comfort stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddf94cc0-c538-012f-bc37-58d385a7bc34",
     "original_title": "Brooklyn: Smith Street - President Street",
     "text": "Comfort Station\n8-6-1942\nP.L. Sperr, photographer\n",
@@ -19,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "President Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: President Street - Smith Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "706320f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706320f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21b9ecd0-c538-012f-ce36-58d385a7bc34",
     "original_title": "Brooklyn: President Street - Smith Street",
     "text": "P.L. Sperr, photographer 8-6-1942",

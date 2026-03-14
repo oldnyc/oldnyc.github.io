@@ -2,9 +2,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 769,
+        "street": "St. Marks Avenue"
+      },
+      "source": "St. Marks Avenue #769",
+      "technique": "title-address"
+    },
     "height": 388,
     "id": "1509669",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509669.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Buckingham Hall Apts."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b982d5b0-c5cd-012f-d1a1-58d385a7bc34",
     "text": null,
     "text_source": null,

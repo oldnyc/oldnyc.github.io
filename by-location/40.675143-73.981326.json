@@ -2,9 +2,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Carroll Street"
+      },
+      "source": "Brooklyn: Carroll Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703503f",
     "image_url": "https://images.nypl.org/?id=703503f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Elevated railroads",
+          "Reformed churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd034fa0-c533-012f-2eb6-58d385a7bc34",
     "original_title": "Brooklyn: Carroll Street - 5th Avenue",
     "text": null,
@@ -19,9 +44,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Carroll Street"
+      },
+      "source": "Brooklyn: 5th Avenue - Carroll Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702385f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702385f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dental offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10ebec40-c532-012f-3f32-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Carroll Street",
     "text": "P.L. Sperr, photographer  5-31-1942",

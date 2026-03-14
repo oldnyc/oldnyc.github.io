@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Mermaid Ave",
+        "str2": "W 16th St"
+      },
+      "source": "Mermaid Ave and W 16th St",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984239",
     "image_url": "https://images.nypl.org/?id=3984239&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02042390-c5d7-012f-0b0f-58d385a7bc34",
     "text": null,
     "text_source": null,

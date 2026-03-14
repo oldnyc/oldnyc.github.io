@@ -2,9 +2,29 @@
   {
     "date": "1942-08-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "233rd Street",
+        "str2": "Oneida Avenue"
+      },
+      "source": "233rd Street at Oneida Avenue, Bronx",
+      "technique": "title-cross"
+    },
     "height": 381,
     "id": "485771",
     "image_url": "https://images.nypl.org/?id=485771&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/631f45a0-c60e-012f-95d1-58d385a7bc34",
     "text": null,
     "text_source": null,

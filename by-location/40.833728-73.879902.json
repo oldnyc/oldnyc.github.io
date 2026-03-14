@@ -2,9 +2,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx River",
+        "str2": "E. 173rd Street"
+      },
+      "source": "Bronx River and E. 173rd Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "733682f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733682f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f47cdad0-c52e-012f-0e9b-58d385a7bc34",
     "text": null,
     "text_source": null,

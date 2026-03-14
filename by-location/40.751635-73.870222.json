@@ -2,9 +2,32 @@
   {
     "date": "1944-05-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 8,
+        "street": "37th Avenue"
+      },
+      "source": "37th Avenue #8",
+      "technique": "title-address"
+    },
     "height": 471,
     "id": "1510021-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1510021-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Jackson Heights"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/617a8170-c5cf-012f-eff5-58d385a7bc34",
     "text": null,
     "text_source": null,

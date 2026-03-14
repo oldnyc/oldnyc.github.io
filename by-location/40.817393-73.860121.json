@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Leland Avenue",
+        "str2": "Randall Avenue"
+      },
+      "source": "Bronx: Leland Avenue - Randall Avenue",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "701398f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701398f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d457240-c530-012f-09a8-58d385a7bc34",
     "original_title": "Bronx: Leland Avenue - Randall Avenue",
     "text": "639 Leland Ave., west side, between Randall and Seward Aves.\nAbout 1926.\n\nW. B. Vernam.\n",

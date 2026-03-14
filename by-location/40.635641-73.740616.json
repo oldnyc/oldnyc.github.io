@@ -2,9 +2,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 36,
+        "street": "3rd Street"
+      },
+      "source": "36 3rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "3rd Street",
+        "str2": "47th Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "3rd Street",
+        "str2": "47th Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 378,
     "id": "724972f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724972f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcfb6dc0-c555-012f-94ae-58d385a7bc34",
     "original_title": "Queens: 3rd Street - 47th Avenue",
     "text": "Third St. at 47th Ave. no.36",

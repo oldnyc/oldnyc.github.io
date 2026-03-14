@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Cross Street"
+      },
+      "source": "Bronx: City Island Avenue - Cross Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700758f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700758f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5e5eee0-c52f-012f-1796-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Cross Street",
     "text": "City Island Avenue (City Island), at the S.E. corner of Cross Street, showing Thwaite's Restaurant. The view is south.\n\nJuly 6, 1936\nViews 1, 2\n\nP. L. Sperr\n",
@@ -19,9 +40,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "City Island Avenue",
+        "str2": "Cross Street"
+      },
+      "source": "Bronx: City Island Avenue - Cross Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700758f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/700758f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5e5eee0-c52f-012f-1796-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Cross Street",
     "rotation": 90,

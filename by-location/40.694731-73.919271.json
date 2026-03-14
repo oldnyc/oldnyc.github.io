@@ -2,9 +2,34 @@
   {
     "date": "1925; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Central Avenue",
+        "str2": "Grove Street"
+      },
+      "source": "Brooklyn: Central Avenue - Grove Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703510f",
     "image_url": "https://images.nypl.org/?id=703510f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Catholic churches",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf8e3d40-c533-012f-52c4-58d385a7bc34",
     "original_title": "Brooklyn: Central Avenue - Grove Street",
     "text": null,

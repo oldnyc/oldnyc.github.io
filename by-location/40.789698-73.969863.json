@@ -2,9 +2,36 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "91st Street",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 9th Avenue - 91st Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710447f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710447f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Apthorpe Mansion."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be22f8b0-c53e-012f-cf7e-58d385a7bc34",
     "original_title": "Manhattan: 9th Avenue - 91st Street",
     "text": "\"The Apthorpe Mansion\" p.123\nW. 91st Street, No.\nPelletreau, William S.\nEarly New York Houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",
@@ -19,9 +46,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "91st Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 91st Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714810f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714810f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ced3ddf0-c545-012f-484f-58d385a7bc34",
     "original_title": "Manhattan: 91st Street (West) - Columbus Avenue",
     "text": "48-54 West 91st Street, south side, east of Columbus Avenue.\n1911.\n\nGift of E. M. Jenks.\n",
@@ -39,9 +90,27 @@
     "dates_from_text": [
       "1938-12-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "91st Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 91st Street - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714812f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714812f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cfa188b0-c545-012f-7000-58d385a7bc34",
     "original_title": "Manhattan: 91st Street - Columbus Avenue",
     "text": "91st  corner of  Columbus (formerly 9th)Avenue\n\nshowing the Apthorp Mansion, shortly before its demolition\nin 1892. Built 1790\nDecember 31st,1938.\nUrbrock Collection,\nArchetype by,\nE.Bierstsdt.\nRepro. in Stoke's Icon.\n",

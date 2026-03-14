@@ -2,9 +2,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.629194,
+        "lng": -73.883929
+      },
+      "source": "Canarsie Beach Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "703463f",
     "image_url": "https://images.nypl.org/?id=703463f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Canarsie Beach Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Farmhouses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/adb862f0-c533-012f-b2c2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1935; 1935-07-30",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.629194,
+        "lng": -73.883929
+      },
+      "source": "Golden City Amusement Park",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "704651f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704651f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d277ec0-c535-012f-e625-58d385a7bc34",
     "text": "Golden City Amusement Park, Canarsie Beach, showing fish market.\n\nJuly 30, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -35,9 +83,31 @@
   {
     "date": "1935; 1935-07-30",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.629194,
+        "lng": -73.883929
+      },
+      "source": "Golden City Amusement Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704652f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704652f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d94e3c0-c535-012f-642f-58d385a7bc34",
     "text": "Golden City Amusement Park, Canarsie Beach, showing children on swings.\n\nJuly 30, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -52,9 +122,31 @@
   {
     "date": "1935; 1935-07-30",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.629194,
+        "lng": -73.883929
+      },
+      "source": "Garden City Amusement Park",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "704653f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704653f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8dfcc880-c535-012f-b309-58d385a7bc34",
     "text": "Golden City Amusement Park, Canarsie Beach, showing miniature railroad, in front of the carousel house; sources of delightful entertainment for children.\n\nJuly 30, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

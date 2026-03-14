@@ -2,9 +2,46 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Washington Avenue",
+        "str2": "Willoughby Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Washington Avenue",
+        "str2": "Willoughby Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "726949f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726949f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/781bf800-c558-012f-374e-58d385a7bc34",
     "original_title": "Queens: Washington Avenue - Willoughby Avenue",
     "text": "Jacob Reis Park: showing a coast guard station on Washington Avenue near the western side of the Park.\n\nJuly 24, 1937.\n\nP. L. Sperr\n",
@@ -19,9 +56,42 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Jacob Riis Park",
+        "str2": "Rockaway Inlet",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "726958f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726958f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Inlet (N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c2fddc0-c558-012f-f2bf-58d385a7bc34",
     "text": "Jacob Riis Park (Queens): The Rockaway Inlet side of the park, which was opened to the public on June 19th, 1937. For additional data see \"The New York Times,\" June 7, 1937.\n\nP. L. Sperr\n\nJuly 18, 1937\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -35,9 +105,42 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Jacob Riis Park",
+        "str2": "Rockaway Inlet",
+        "technique": "title-cross"
+      }
+    ],
     "height": 404,
     "id": "726958f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726958f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Inlet (N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c2fddc0-c558-012f-f2bf-58d385a7bc34",
     "text": "Jacob Riis Park (Queens): The Rockaway Inlet side of the park, which was opened to the public on June 19th, 1937. For additional data see \"The New York Times,\" June 7, 1937.\n\nP. L. Sperr\n\nJuly 18, 1937\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -51,9 +154,42 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Jacob Riis Park",
+        "str2": "Rockaway Inlet",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "726958f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726958f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Inlet (N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c2fddc0-c558-012f-f2bf-58d385a7bc34",
     "text": "Jacob Riis Park (Queens): The Rockaway Inlet side of the park, which was opened to the public on June 19th, 1937. For additional data see \"The New York Times,\" June 7, 1937.\n\nP. L. Sperr\n\nJuly 18, 1937\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -67,9 +203,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "726959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726959f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Peninsula (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ca83ef0-c558-012f-bbdb-58d385a7bc34",
     "text": "Jacob Riis Park (Queens): Views of New York City's newest beach on the Rockaway Peninsula dividing Jamaica Bay from the Atlantic Ocean. This seaside park, named for Jacob Riis, was opened to the public on June 19, 1937. For additional data see \"The New York Times,\" June 7, 1937.\n\nP. L. Sperr\n\nJuly 18, 1937\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -83,9 +243,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "726959f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/726959f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Peninsula (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ca83ef0-c558-012f-bbdb-58d385a7bc34",
     "rotation": 90,
     "text": "Jacob Riis Park (Queens): Views of New York City's newest beach on the Rockaway Peninsula dividing Jamaica Bay from the Atlantic Ocean. This seaside park, named for Jacob Riis, was opened to the public on June 19, 1937. For additional data see \"The New York Times,\" June 7, 1937.\n\nP. L. Sperr\n\nJuly 18, 1937\nViews 1,2,3\n",
@@ -100,9 +284,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "726959f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726959f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Peninsula (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ca83ef0-c558-012f-bbdb-58d385a7bc34",
     "text": "Jacob Riis Park (Queens): Views of New York City's newest beach on the Rockaway Peninsula dividing Jamaica Bay from the Atlantic Ocean. This seaside park, named for Jacob Riis, was opened to the public on June 19, 1937. For additional data see \"The New York Times,\" June 7, 1937.\n\nP. L. Sperr\n\nJuly 18, 1937\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -116,9 +324,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.566623,
+        "lng": -73.876081
+      },
+      "source": "Jacob Riis Park",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "726960f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726960f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jacob Riis Park Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)",
+          "Rockaway Peninsula (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d2e1780-c558-012f-dbbc-58d385a7bc34",
     "text": "Jacob Riis Park (Queens): Views of New York City's newest beach on the Rockaway Peninsula dividing Jamaica Bay from the Atlantic Ocean. This seaside park, named for Jacob Riis, was opened to the public on June 19, 1937. For additional data, see The New York Times, June 7, 1937.\n\nP. L. Sperr, photographer\n\nJuly 18, 1937\n",
     "text_source": "gpt",

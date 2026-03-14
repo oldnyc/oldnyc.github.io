@@ -2,9 +2,38 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "168th Street",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701374f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701374f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lorelei Fountain; Joyce Kilmer Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Joyce Kilmer Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fountains",
+          "Lorelei (Sculpture)",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9427b520-c530-012f-2580-58d385a7bc34",
     "text": "Joyce Kilmer Park (Bronx): The Lorelei Fountain, depicting the legendary siren on Heinrich Heine's lyric, Die Lorelei. Ernst Herter, sculptor. The fountain stands near the Grand Concourse, at E. 164th Street.\n\nThe old Robert Simpson house and barn can be seen on the east side of the Concourse.\n\nabout 1900\n",
     "text_source": "gpt",
@@ -18,9 +47,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "168th Street",
+        "str2": "Grand Concourse"
+      },
+      "source": "Bronx: Grand Concourse - 168th Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "701160f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701160f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Almshouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/416687f0-c530-012f-f2f0-58d385a7bc34",
     "text": "A Palace Home for Millionaire Bankrupts.\n\nSuppose you had once been rich. Suppose you had lived in luxury and mingled in exclusive social circles. And suppose you lost every dollar you had. If you had lived in New York or other big city, if you had been banker, judge, or even idle social panderer, you would still be able to live as you had formerly. For Andrew Freedman, multi-millionaire, died and left $4,000,000 for the building and furnishing of a palace on the Grand Concourse, New York City, where those once rich could enjoy the luxuries of life even though broke. The conditions are that you must be 60 or more, be cultured, and be absolutely \"broke.\" Applicants are put through the most rigorous questionnaire and their stories carefully checked. Out of thousands of applications but thirty have taken in. The mansion covers an entire city block. Furnishings were collected and placed by most expert interior decorators. Every convenience of a millionaire's home is there. And it constitutes one of the most astounding heritages ever left.\n\nUnited Newspictures, Inc., 461 Eighth Ave., N.Y.C.\n",
     "text_source": "site",

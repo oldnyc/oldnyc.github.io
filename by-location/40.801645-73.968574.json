@@ -2,9 +2,35 @@
   {
     "date": "1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: West End Avenue - 106th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724488f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724488f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Straus Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Reformed churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01b6abd0-c555-012f-1bef-58d385a7bc34",
     "original_title": "Manhattan: West End Avenue - 106th Street (West)",
     "text": "Bloomingdale (Dutch) Reformed Church, West End Avenue, west side, between 106th and 107th Streets, the northernmost block of West End Avenue. The view is across Straus Park, a little triangle formed by the intersection of Broadway, West End Avenue, and 106th Street.\nThe church edifice and two apartment buildings are quite new as shown, erected since 1902: and the church will be demolished about 1915, to be replaced by another 12-story apartment building. 1906.\n\nBrown Brothers, Photographers.\n",
@@ -19,9 +45,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "106th Street",
+        "str2": "West End Avenue"
+      },
+      "source": "106th Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464848",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464848.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17dc2500-c612-012f-cb17-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +82,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "One Hundred and Sixth Street",
+        "str2": "West End Avenue"
+      },
+      "source": "One Hundred and Sixth Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 524,
     "id": "417285",
     "image_url": "https://images.nypl.org/?id=417285&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c88c01c0-c611-012f-73c2-58d385a7bc34",
     "text": null,
     "text_source": null,

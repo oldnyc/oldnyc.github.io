@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Avenue",
+        "str2": "77th Street"
+      },
+      "source": "Brooklyn: 77th Street - 12th Avenue",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "702841f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702841f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be62f820-c532-012f-28cf-58d385a7bc34",
     "original_title": "Brooklyn: 77th Street - 12th Avenue",
     "text": "1202-1216 77th Street, south side, between Twelfth and Thirteenth Aves.\nSeptember 1928.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Avenue",
+        "str2": "77th Street"
+      },
+      "source": "Brooklyn: 77th Street - 12th Avenue",
+      "technique": "title-cross"
+    },
     "height": 376,
     "id": "702842f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702842f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/beb0b8c0-c532-012f-da1b-58d385a7bc34",
     "original_title": "Brooklyn: 77th Street - 12th Avenue",
     "text": "1202-1228 77th Street, south side, between Twelfth & Thirteenth Aves.\nSeptember 1928.\n",

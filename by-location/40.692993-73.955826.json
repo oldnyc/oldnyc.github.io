@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-07-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Bedford Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703153f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703153f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3671d7f0-c533-012f-fa39-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Willoughby Avenue",
     "text": "903 Bedford Ve., at S.E. corner of Willoughby Ave., known as the Bedford Mansion. Also seen, is Willoughby Ave., south side, east from Bedford Ave.\n\nJuly 22, 1934.\n\nP.L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Bedford Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "703154f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703154f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36e506a0-c533-012f-822e-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Willoughby Avenue",
     "text": "Bedford and Willoughby Avenues, n.e. cor., Brooklyn.\n\nP.L. Sperr, photographer\nApril 22, 1941\n",
@@ -39,9 +78,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Bedford Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "703155f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703155f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/373e8eb0-c533-012f-075e-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Willoughby Avenue",
     "text": "Brooklyn\n\nn.e. cor. Bedford & Willoughby Aves.\n7-8-42\n\nP.L. Sperr\n",

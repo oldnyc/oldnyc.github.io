@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Hodges Place",
+        "str2": "Victory Boulevard"
+      },
+      "source": "Richmond: Victory Boulevard - Hodges Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729813f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729813f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e573c810-c55c-012f-468a-58d385a7bc34",
     "original_title": "Richmond: Victory Boulevard - Hodges Place",
     "text": "1649-1655 Victory Boulevard, at the N.E. corner of Hodges Place (at the head of Todt Hill Road), showing the Castleton Hill Moravian Church. In 1898 it was known as the Moravian Collegiate Church.and in 1907 as the United Brethen Church.\n\nApril, 1930\n\nP. L. Sperr\n",

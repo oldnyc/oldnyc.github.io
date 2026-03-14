@@ -2,9 +2,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "28th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 28th St. E.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707555f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707555f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Building construction",
+          "Medical education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f0ccdf0-c53a-012f-096d-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 28th St. E.",
     "text": "First Avenue, west side, south from E. 29th (right) to 28th (left) Streets, showing a row of tenements and a factory structure. To the south of the latter appears a corner of Cornell Medical College. The photographer is viewing southwestward across the clearance for the new Psychopathic unit of Bellevue Hospital on the eastside of this thoroughfare between 29th and 30th Streets.\n\nApril 30, 1930.\n\nP.L. Sperr\n",
@@ -19,9 +46,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "28th Street (East)"
+      },
+      "source": "Manhattan: 28th Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711875f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711875f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b767ec0-c541-012f-6f93-58d385a7bc34",
     "original_title": "Manhattan: 28th Street (East) - 1st Avenue",
     "text": "345-331 East 28th Street, adjoining and west of the N. W. corner of First Avenue. On the right is the Carmelite Roman Catholic Church.\n\nApril 27, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +84,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "28th Streets (East)"
+      },
+      "source": "Manhattan: 1st Avenue - 28th Streets (East)",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "731852f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731852f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 1st Avenue - 28th Streets (East) ; 479 1st Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Building construction",
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31e3a3b0-c560-012f-cde9-58d385a7bc34",
     "text": "Bellevue Hospital: A view showing on the right, the southern side of the Morgue. The building on the left, is No. 479 First Ave., and is located at the N.W. corner of East 28th Street. The foreground would be a continuation eastward, of 28th Street, if the Hospital grounds permitted.\n\nFebruary 4, 1937.\n\nW.P.A. Photo.\nCity Wide Project.\n",
     "text_source": "gpt",
@@ -52,9 +127,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "28th Street (East)"
+      },
+      "source": "Manhattan: 1st Avenue - 28th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "731853f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731853f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 1st Avenue - 28th Street (East) ; 479 1st Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/323a3b10-c560-012f-4ce5-58d385a7bc34",
     "text": "Bellevue Hospital: A view showing on the right, the southern side of the Morgue. The building on the left, is No. 479 First Ave., and is located at the N.W. corner of East 28th Street. The foreground would be a continuation eastward, of East 28th Street, if the Hospital grounds permitted. This is View B.\n\nFebruary 4, 1937.\n\nW.P.A. Photo,\nCity Wide Project.\n",
     "text_source": "gpt",
@@ -68,9 +169,38 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "28th Street"
+      },
+      "source": "Manhattan: 1st Avenue - Between 28th and 29th Streets (East).",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "731859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731859f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 1st Avenue - Between 28th and 29th Streets (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business districts",
+          "Hospitals",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/349bc9c0-c560-012f-fbbb-58d385a7bc34",
     "text": "Bellevue Hospital: A set of three showing a southerly view of the old Hospital building demolitions which are on the easterly side of First Ave; the photographer standing at East 29th and later 28th Streets. Shown across the tops of same are the upper portions of the new Administration and the Out Patient Buildings.\n\nMay 8, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -84,9 +214,38 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "28th Street"
+      },
+      "source": "Manhattan: 1st Avenue - Between 28th and 29th Streets (East).",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "731859f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731859f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 1st Avenue - Between 28th and 29th Streets (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business districts",
+          "Hospitals",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/349bc9c0-c560-012f-fbbb-58d385a7bc34",
     "text": "Bellevue Hospital: A set of three showing a southerly view of the old Hospital building demolitions which are on the easterly side of First Ave; the photographer standing at East 29th and later 28th Streets. Shown across the tops of same are the upper portions of the new Administration and the Out Patient Buildings.\n\nMay 8, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -100,9 +259,38 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Avenue",
+        "str2": "28th Street"
+      },
+      "source": "Manhattan: 1st Avenue - Between 28th and 29th Streets (East).",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "731859f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731859f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 1st Avenue - Between 28th and 29th Streets (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Bellevue Hospital"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business districts",
+          "Hospitals",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/349bc9c0-c560-012f-fbbb-58d385a7bc34",
     "text": "Bellevue Hospital: A set of three showing a southerly view of the old Hospital building demolitions which are on the easterly side of First Ave; the photographer standing at East 29th and later 28th Streets. Shown across the tops of same are the upper portions of the new Administration and the Out Patient Buildings.\n\nMay 8, 1938.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

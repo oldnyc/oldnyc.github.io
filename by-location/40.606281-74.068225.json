@@ -2,9 +2,47 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Fingerboard Road",
+        "str2": "Merle Place"
+      },
+      "source": "Fingerboard Road and Merle Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Fingerboard Road (We",
+        "str2": "Grant Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Fingerboard Road",
+        "str2": "Grant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "728823f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728823f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Mount Manresa (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5eed52f0-c55b-012f-9df0-58d385a7bc34",
     "original_title": "Richmond: Fingerboard Road (We - Grant Avenue",
     "text": "W. Fingerboard Road, north side, between Grant Ave. and Merle place, showing \"Mount Manresa.\" The maps from 1874 to 1907 show it to belong to the Meyer family. The house is about 125 feet back of the road.\n\nMay 14, 1932.\n\nP. L. Sperr.\n",

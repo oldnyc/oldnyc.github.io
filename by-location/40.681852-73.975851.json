@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dean Street",
+        "str2": "Flatbush Avenue"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Dean Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "704204f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704204f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7b83500-c534-012f-f419-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Dean Street",
     "text": "Flatbush Ave,, south from Dean Street.\n\nJuly 23, 1934.\n\nP. L. Sperr.\n",

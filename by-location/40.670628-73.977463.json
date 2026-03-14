@@ -2,9 +2,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 526,
+        "street": "Second Street"
+      },
+      "source": "526 Second Street",
+      "technique": "gpt"
+    },
     "height": 453,
     "id": "1509699-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509699-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/befea7d0-c5cd-012f-af0f-58d385a7bc34",
     "text": null,
     "text_source": null,

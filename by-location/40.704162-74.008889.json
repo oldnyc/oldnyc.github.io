@@ -2,9 +2,37 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Hanover Square",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Hanover Square - Water Street",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "720323f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720323f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Atlantic & Pacific Steamship Company",
+          "Hanover Square (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Steamboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61aa5540-c54e-012f-6819-58d385a7bc34",
     "text": "10-12 Hanover Square, at the N.W. corner of Water Street. Also shown on the right are Nos. 76 to 84 Water Street, at, adjoining and north of the N.W. corner of Hanover Square. The 4-story building occupied by the A and P. Steamship Company bears Nos. 10-12 Hanover Square and 76 Water Street.\n\nAbout 1913.\n\nGift of E.M. Jenks.\n",
     "text_source": "gpt",
@@ -18,9 +46,38 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Hanover Square",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Hanover Square - Water Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "720325f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720325f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Hanover Square (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Commodity exchanges",
+          "Fire stations",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62682620-c54e-012f-c7f6-58d385a7bc34",
     "text": "Hanover Square, west from (where man is seen crossing the street, in the foreground) and including Water, to and including Beaver Streets, showing (left) the 7-story W.R. Grace & Co. Building, a portion of the South Ferry division of the Second and Third Aves. Elevated lines running on Pearl Street, and across it the 3-story India House and the 11-story Maritime Agency Building. On the right, across the elevated structure, is visible a portion of the New York Cotton Exchange Building. The foreground is Old Slip, which actually, is a continuation of Hanover Square eastward to the East River. The 7-story Arbuckle Building appears at the S.E. corner of Water Street. On the right is the south wall of Hook and Ladder No. 15 of the Fire Dept.\n\nAbout 1920.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -37,9 +94,27 @@
     "dates_from_text": [
       "1929-06-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Water Street - Old Slip",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724233f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724233f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c42fac0-c554-012f-7a4d-58d385a7bc34",
     "text": "85-87 Water Street, east side, between Old Slip and Gouveneur Street, as seen through clearing from Pearl Street.\n\nJune 13, 1929.\n\nP. L. Sperr.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
     "text_source": "gpt",
@@ -53,9 +128,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Hanover Square",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Hanover Square - Water Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720324f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720324f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Hanover Square (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61faaf00-c54e-012f-af52-58d385a7bc34",
     "text": "13-3 Hanover Square, south side, west from and including Water, to and including Pearl Streets, showing the 7-story W.R. Grace & Co. Building.\n\nJuly 26, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -72,9 +168,27 @@
     "dates_from_text": [
       "1930-07-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Old Slip - Water Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "721978f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721978f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f55d1250-c550-012f-9bb1-58d385a7bc34",
     "text": "Old Slip, south side, east from but not including Water, to but not including South Streets.\n\nJuly 26, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -88,9 +202,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Old Slip - Water Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "721986f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721986f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f8d449d0-c550-012f-a462-58d385a7bc34",
     "text": "Old Slip, north side, east from but not including Water Street. In the background is the First Precinct Police Station.\n\nJuly 7, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -104,9 +239,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Old Slip - Water Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721987f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721987f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "name": [
+          "Hanover Square (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f93c9010-c550-012f-c73c-58d385a7bc34",
     "text": "Old Slip, adjoining (5-story house, No. 23), and at the S.E. corner of Water Street, showing the Arbuckle Building at the corner, and bearing No. 73 Water Street. Also shown is Hanover Square, south side, which begins at this point (Water Street), and continues westward to Stone Streets, being actually a continuation of Old Slip. The W.R. Grace & Co. Building occupies the block from Water to Pearl Streets, and bears Nos. 13-3 Hanover Square, as well as Nos. 62-68 on Water, and 102-106 on Pearl Streets. In the background, is discernible a portion of the South Ferry branch of the Second and Third Ave. Elevated Lines on Pearl Street. Across same appears the 3-story India House occupying the block from Pearl to Stone Streets, and bearing Nos. 101 on Pearl and 64-66 on Stone Streets. Beyond that is seen part of the 11-story Maritime Building, at the S.W. corner of Stone Street.\n\nJuly 26, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -124,9 +288,27 @@
       "1930-07-26",
       "1973-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Water Street - Old Slip",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724231f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724231f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b740b40-c554-012f-8d03-58d385a7bc34",
     "text": "Water Street, west side, south from and including Old Slip, to, but not including Cuylers Alley. Also shown is Old Slip, at and adjoining the S.E. corner of Water Street. July 26, 1930.\n\nP. L. Sperr.\n\nview 2 is a duplicate of the above, mounted in June 1973 with non-acidic glue, because the original print is deteriorating.\n",
     "text_source": "gpt",
@@ -145,9 +327,27 @@
       "1930-07-26",
       "1973-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: Water Street - Old Slip",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724231f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724231f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b740b40-c554-012f-8d03-58d385a7bc34",
     "text": "Water Street, west side, south from and including Old Slip, to, but not including Cuylers Alley. Also shown is Old Slip, at and adjoining the S.E. corner of Water Street. July 26, 1930.\n\nP. L. Sperr.\n\nview 2 is a duplicate of the above, mounted in June 1973 with non-acidic glue, because the original print is deteriorating.\n",
     "text_source": "gpt",
@@ -162,9 +362,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Old Slip",
+        "str2": "Water Street"
+      },
+      "source": "Manhattan: 73 Water Street - Old Slip",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "1558166",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558166.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Fire Department Engine 10 Ladder 15"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Buildings, structures, etc",
+          "Fire stations",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/683f6a40-c5ed-012f-eb36-58d385a7bc34",
     "text": null,
     "text_source": null,

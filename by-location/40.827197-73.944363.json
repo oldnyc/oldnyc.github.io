@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "149th Street",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - 149th Street",
+      "technique": "title-cross"
+    },
     "height": 394,
     "id": "719198f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719198f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a357c70-c54c-012f-d4bb-58d385a7bc34",
     "original_title": "Manhattan: Convent Avenue - 149th Street",
     "text": "Convent Avenue, west side, from 150th to 149th Street. Hamilton Grange Reformed Church is at the left in the background. At the right is 450-460 West 150th Street, at adjoining, and west of the S.W. corner of Convent Avenue. The six houses comprising the numbers from 450-460 are all 2\u00bd-story frame houses.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 376\n",
@@ -22,9 +40,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "149th Street (West)",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - 149th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "719196f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/719196f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/997cef40-c54c-012f-4355-58d385a7bc34",
     "original_title": "Manhattan: Convent Avenue - 149th Street (West)",
     "rotation": 90,
@@ -40,9 +79,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "149th Street (West)",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - 149th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719196f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719196f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/997cef40-c54c-012f-4355-58d385a7bc34",
     "original_title": "Manhattan: Convent Avenue - 149th Street (West)",
     "text": "Convent Avenue, east side, north across West 149th Street, showing at the right, the Cosmopolitan Tennis Club. This is hidden behind the sign boards on the Avenue. View 2 is limited to the entrance between the billboards.\n\nMay 19, 1940\nNo's. 1-2\n\nP. L. Sperr\n",

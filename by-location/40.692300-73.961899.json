@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-07-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Emerson Pl.",
+        "str2": "Willoughby Ave."
+      },
+      "source": "Brooklyn: Willoughby Ave. - Emerson Pl.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707366f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707366f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6947140-c539-012f-ca74-58d385a7bc34",
     "original_title": "Brooklyn: Willoughby Ave. - Emerson Pl.",
     "text": "Willoughby Ave., east from Emerson Place.\n\nJuly 22, 1934.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Emerson Pl.",
+        "str2": "Willoughby Ave."
+      },
+      "source": "Brooklyn: Willoughby Ave. - Emerson Pl.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707367f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707367f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b706b590-c539-012f-79e3-58d385a7bc34",
     "original_title": "Brooklyn: Willoughby Ave. - Emerson Pl.",
     "text": "Willoughby Ave., north side, between Emerson Place and Classon Ave., showing St. Mary's Protestant Episcopal Church.\n\nJuly 22, 1934.\n\nP. L. Sperr.\n",
@@ -39,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Emerson Place",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Emerson Place - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "704092f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704092f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab705fd0-c534-012f-1822-58d385a7bc34",
     "original_title": "Brooklyn: Emerson Place - Willoughby Avenue",
     "text": "Brooklyn\ne. side Emerson Pl. at Willoughby Ave.\nP.L. Sperr\n7-8-42\n",

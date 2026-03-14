@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Commonwealth Boulevard",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - Commonwealth Boulevard",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "726983f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726983f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85d237a0-c558-012f-3b21-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - Commonwealth Boulevard",
     "text": null,
@@ -19,9 +37,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Commonwealth Boulevard",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - Commonwealth Boulevard",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "726983f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726983f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85d237a0-c558-012f-3b21-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - Commonwealth Boulevard",
     "text": null,

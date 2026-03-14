@@ -2,9 +2,29 @@
   {
     "date": "1951",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1407,
+        "street": "Broadway"
+      },
+      "source": "1407 Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1509171-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509171-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7392970-c5cd-012f-deca-58d385a7bc34",
     "text": null,
     "text_source": null,

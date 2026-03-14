@@ -2,9 +2,47 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "13th Avenue",
+        "str2": "142nd Street"
+      },
+      "source": "13th Avenue and 142nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "12th Avenue",
+        "str2": "142nd Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "12th Avenue",
+        "str2": "142nd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "725867f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725867f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad stations",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec6f1fb0-c556-012f-0169-58d385a7bc34",
     "original_title": "Queens: 142nd Street - 12th Avenue",
     "text": "142nd Street, east side, between 12th and 13th Avenues (vantage point). The view is east toward the Malba Station of Whitestone spur of the Long Island Railroad. View 2 is from near the station.\n\nP. L. Sperr\n\nMarch 3, 1932\nViews 1,2\n",
@@ -19,9 +57,47 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "13th Avenue",
+        "str2": "142nd Street"
+      },
+      "source": "13th Avenue and 142nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "12th Avenue",
+        "str2": "142nd Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "12th Avenue",
+        "str2": "142nd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "725867f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725867f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad stations",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec6f1fb0-c556-012f-0169-58d385a7bc34",
     "original_title": "Queens: 142nd Street - 12th Avenue",
     "text": "142nd Street, east side, between 12th and 13th Avenues (vantage point). The view is east toward the Malba Station of Whitestone spur of the Long Island Railroad. View 2 is from near the station.\n\nP. L. Sperr\n\nMarch 3, 1932\nViews 1,2\n",

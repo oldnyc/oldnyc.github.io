@@ -2,9 +2,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 550,
+        "street": "Park Ave."
+      },
+      "source": "550 Park Ave.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Park Avenue",
+        "str2": "Vanderbilt Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Park Avenue",
+        "str2": "Vanderbilt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722304f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722304f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a47f630-c551-012f-2608-58d385a7bc34",
     "original_title": "Manhattan: Park Avenue - Vanderbilt Avenue",
     "text": "550 Park Ave., N.Y.",

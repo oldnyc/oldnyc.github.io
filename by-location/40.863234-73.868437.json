@@ -2,9 +2,35 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Mace Avenue",
+        "str2": "Olinville Avenue"
+      },
+      "source": "Bronx: Olinville Avenue - Mace Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701541f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701541f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cliffs",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3a87000-c530-012f-1f55-58d385a7bc34",
     "original_title": "Bronx: Olinville Avenue - Mace Avenue",
     "text": "Olinville Avenue, west side, south from (No. 2443) but not including Mace Avenue. In the foreground, cutting across the cliff, appears what still remains of the old White Plains Road which was the main northbound route along the eastern shore of the Bronx River before the present White Plains Road was laid out sometime after 1900. Still earlier this road was part of the Williamsbridge Road. In the background is Public School 96, at Waring Avenue.\n\nApril 3, 1938.\n\nP. L. Sperr.\n",

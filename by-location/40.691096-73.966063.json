@@ -2,9 +2,44 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 255,
+        "street": "Washington Avenue"
+      },
+      "source": "255 Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "189th St. E.",
+        "str2": "Washington Ave.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "189th St E",
+        "str2": "Washington Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "707281f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707281f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95374090-c539-012f-c37e-58d385a7bc34",
     "original_title": "Brooklyn: Washington Ave. - 189th St. E.",
     "text": "255 Washington Avenue\nChurch\nBrooklyn\n\n6/19/42\n",
@@ -19,9 +54,44 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 255,
+        "street": "Washington Avenue"
+      },
+      "source": "255 Washington Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "189th St. E.",
+        "str2": "Washington Ave.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "189th St E",
+        "str2": "Washington Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "707281f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707281f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95374090-c539-012f-c37e-58d385a7bc34",
     "original_title": "Brooklyn: Washington Ave. - 189th St. E.",
     "text": "255 Washington Avenue\nChurch\nBrooklyn\n\n6/19/42\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-10-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Crown Street",
+        "str2": "Rochester Avenue"
+      },
+      "source": "Brooklyn: Rochester Avenue - Crown Street",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "706497f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706497f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67e4ef70-c538-012f-a965-58d385a7bc34",
     "original_title": "Brooklyn: Rochester Avenue - Crown Street",
     "text": "Rochester Avenue, north from Crown Street, showing operations on a W. P. A. highway project.\n\nOctober 21, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

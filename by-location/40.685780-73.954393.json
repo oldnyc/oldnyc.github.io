@@ -6,9 +6,34 @@
       "1934-05-07",
       "1941-08-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Gates Avenue"
+      },
+      "source": "Bedford Avenue and Gates Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "143rd Street",
+        "str2": "Jamaica Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730519f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730519f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f0a1830-c55e-012f-f992-58d385a7bc34",
     "text": "ADVERTISING\n\nJamaica Avenue, at the S. E. corner of 143rd Street, viewing eastward across the latter and showing the \"El\" of the B. M. T. subway on Jamaica Avenue.\n\nP. L. Sperr\n\nView 1: May 7, 1934\nView 2: August 24, 1941\n\nView 3: Bedford and Gates Avenues, Brooklyn\n",
     "text_source": "gpt",
@@ -27,9 +52,34 @@
       "1934-05-07",
       "1941-08-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Gates Avenue"
+      },
+      "source": "Bedford Avenue and Gates Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "143rd Street",
+        "str2": "Jamaica Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730519f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730519f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f0a1830-c55e-012f-f992-58d385a7bc34",
     "text": "ADVERTISING\n\nJamaica Avenue, at the S. E. corner of 143rd Street, viewing eastward across the latter and showing the \"El\" of the B. M. T. subway on Jamaica Avenue.\n\nP. L. Sperr\n\nView 1: May 7, 1934\nView 2: August 24, 1941\n\nView 3: Bedford and Gates Avenues, Brooklyn\n",
     "text_source": "gpt",
@@ -48,9 +98,34 @@
       "1934-05-07",
       "1941-08-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Gates Avenue"
+      },
+      "source": "Bedford Avenue and Gates Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "143rd Street",
+        "str2": "Jamaica Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730519f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730519f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f0a1830-c55e-012f-f992-58d385a7bc34",
     "text": "ADVERTISING\n\nJamaica Avenue, at the S. E. corner of 143rd Street, viewing eastward across the latter and showing the \"El\" of the B. M. T. subway on Jamaica Avenue.\n\nP. L. Sperr\n\nView 1: May 7, 1934\nView 2: August 24, 1941\n\nView 3: Bedford and Gates Avenues, Brooklyn\n",
     "text_source": "gpt",
@@ -65,9 +140,32 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Gates Avenue"
+      },
+      "source": "Brooklyn: Bedford Avenue - Gates Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703161f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703161f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Clubs",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39b1ca40-c533-012f-efa5-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Gates Avenue",
     "text": "Bedford Avenue, south from Gates Avenue, showing the east side of the avenue. View F is south from Monroe Street.\n\nP. L. Sperr\nAugust 24, 1941\n",
@@ -82,9 +180,32 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Gates Avenue"
+      },
+      "source": "Brooklyn: Bedford Avenue - Gates Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703161f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703161f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Clubs",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39b1ca40-c533-012f-efa5-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Gates Avenue",
     "text": "Bedford Avenue, south from Gates Avenue, showing the east side of the avenue. View F is south from Monroe Street.\n\nP. L. Sperr\nAugust 24, 1941\n",
@@ -102,9 +223,27 @@
     "dates_from_text": [
       "1941-08-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Gates Avenue"
+      },
+      "source": "Brooklyn: Gates Avenue - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704607f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704607f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a74d3a0-c535-012f-cc52-58d385a7bc34",
     "original_title": "Brooklyn: Gates Avenue - Bedford Avenue",
     "text": "Gates Avenue, north side, west from Bedford Avenue.\n\nP. L. Sperr\nAugust 24, 1941\n",

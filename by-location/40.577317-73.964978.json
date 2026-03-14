@@ -2,9 +2,56 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 273,
+        "street": "Brighton Beach Avenue"
+      },
+      "source": "273 Brighton Beach Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Brightwater Court",
+        "str2": "Darby Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brightwater Court",
+        "str2": "Darby Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brighton Beach Avenue",
+        "str2": "Lakeland Place",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brighton Beach Avenue",
+        "str2": "East Third Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 483,
     "id": "703331f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703331f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c139060-c533-012f-e20d-58d385a7bc34",
     "text": "273 Brighton Beach Avenue, north side, between Lakeland Place and East Third Street, showing the Lakeland Theatre, looking east.\n\nP. L. Perr\n\nSeptember 3, 1939\n\nNeg # 1809 (8x10 Neg)\n",
     "text_source": "gpt",
@@ -18,9 +65,47 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 273,
+        "street": "Brighton Beach Avenue"
+      },
+      "source": "273 Brighton Beach Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Brighton Beach Avenue",
+        "str2": "Lakeland Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brighton Beach Avenue",
+        "str2": "Lakeland Place",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brighton Beach Avenue",
+        "str2": "East Third Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "703321f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703321f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/787d2ac0-c533-012f-8941-58d385a7bc34",
     "original_title": "Brooklyn: Brighton Beach Avenue - Lakeland Place",
     "text": "273 Brighton Beach Avenue, north side, between Lakeland Place and East Third Street, showing the Lakeland Theatre, looking east.\n\nP. L. Sperr\n\nSeptember 3, 1939\n\nNeg # 1809 (8x10 Neg)\n",

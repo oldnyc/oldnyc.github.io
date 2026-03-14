@@ -5,9 +5,28 @@
     "dates_from_text": [
       "1926-08-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Livingston Avenue"
+      },
+      "source": "Bronx: Livingston Avenue - 246th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 520,
     "id": "701404f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701404f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Delafield Park (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f82fc70-c530-012f-9920-58d385a7bc34",
     "original_title": "Bronx: Livingston Avenue - 246th Street (West)",
     "text": "Livingston Ave., west side, between West 246th and West 250th Streets, showing Delafield Park in the restricted residential section known as Fieldston. In the background appear (right to left) the homes of Walter Keenan and Oscar Ewing on the north side of Indian Road.\n\nAugust 19, 1926.\n\nMorris Rosenfeld.\n",

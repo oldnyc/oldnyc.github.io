@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Creston Avenue",
+        "str2": "Kingsbridge Road (East)"
+      },
+      "source": "Bronx: Creston Avenue - Kingsbridge Road (East)",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "700815f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700815f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8d23180-c52f-012f-1dbc-58d385a7bc34",
     "original_title": "Bronx: Creston Avenue - Kingsbridge Road (East)",
     "text": "Creston Avenue, east side, north from E. Kingsbridge Road.\n\nMay 16, 1938.\n\nP. L. Sperr.\n",

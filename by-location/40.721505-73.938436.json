@@ -2,9 +2,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Beadel Street",
+        "str2": "Morgan Avenue"
+      },
+      "source": "Beadel Street and Morgan Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Badel Street",
+        "str2": "Morgan Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 406,
     "id": "705784f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705784f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53983b00-c537-012f-8fce-58d385a7bc34",
     "original_title": "Brooklyn: Morgan Avenue - Badel Street",
     "text": "Morgan Avenue, north from Beadel Street.\nP. L. Sperr\nSeptember 1, 1939\n",

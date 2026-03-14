@@ -2,9 +2,44 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 569,
+        "street": "Kosciuszko Street"
+      },
+      "source": "569 Kosciuszko Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Kosciusko Street",
+        "str2": "Reid Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Kosciusko Street",
+        "str2": "Reid Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705336f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705336f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2bd2350-c536-012f-0cb6-58d385a7bc34",
     "original_title": "Brooklyn: Kosciusko Street - Reid Avenue",
     "text": "569 Kosciuszko Street, north side, near Reid Avenue, showing the home of Neil Brown.\n\nAbout 1925.\n\nW. B. Vernam\n",

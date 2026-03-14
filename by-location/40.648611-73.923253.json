@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "57th St. E.",
+        "str2": "Tilden Ave."
+      },
+      "source": "Brooklyn: Tilden Ave. - 57th St. E.",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "707055f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707055f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c4bbc20-c539-012f-fda4-58d385a7bc34",
     "original_title": "Brooklyn: Tilden Ave. - 57th St. E.",
     "text": "Tilden Avenue, south side, from East 57th to East 59th Streets, showing the Samuel J. Tilden High School.\nBoard of Education of the City of New York Early 1930's\n",

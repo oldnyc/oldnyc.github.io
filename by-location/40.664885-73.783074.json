@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1964-01-10"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 40,
+        "street": "155th St."
+      },
+      "source": "40 155th St.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "155th Street",
+        "str2": "Amsterdam Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "155th Street",
+        "str2": "Amsterdam Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 484,
     "id": "725912f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725912f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc818810-c556-012f-7560-58d385a7bc34",
     "original_title": "Queens: 155th Street - Amsterdam Avenue",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, New York\n\nMurray House\n\n40-25 155th St.\nFlushing, N.Y.\n\nJan. 10, 1964\n",

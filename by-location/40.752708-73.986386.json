@@ -2,9 +2,32 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 109,
+        "street": "W 38th Street"
+      },
+      "source": "38th Street (West) #109",
+      "technique": "title-address"
+    },
     "height": 467,
     "id": "1507773-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507773-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Maxine Elliott's Theatre"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3fe19c0-c5ce-012f-e0b0-58d385a7bc34",
     "text": null,
     "text_source": null,

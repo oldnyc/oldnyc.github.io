@@ -2,9 +2,39 @@
   {
     "date": "1925-08-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Lenox Avenue",
+        "str2": "West 133rd Street"
+      },
+      "source": "Manhattan: 102 West 133rd Street - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "1558370",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558370.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Grace Gospel Chapel interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Churches",
+          "Historic buildings",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09261340-c5ed-012f-27ea-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +51,27 @@
     "dates_from_text": [
       "1932-08-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "133rd Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: 133rd Street - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715570f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715570f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/effa3a20-c546-012f-7970-58d385a7bc34",
     "original_title": "Manhattan: 133rd Street - Lenox Avenue",
     "text": "The Refuge Church of Christ of the Apostolic Faith, 52-56 West 133rd Street, south side, east of Lenox Ave.\n\nAugust 1, 1932.\n\nP. L. Sperr.\n",
@@ -38,9 +86,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Lenox Av",
+        "str2": "W 133 St"
+      },
+      "source": "Lenox Av and W 133 St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985150",
     "image_url": "https://images.nypl.org/?id=3985150&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f426a5e0-c5d7-012f-af10-58d385a7bc34",
     "text": null,
     "text_source": null,

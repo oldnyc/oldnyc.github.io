@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Terrace",
+        "str2": "Webb Avenue"
+      },
+      "source": "Bronx: Webb Avenue - Devoe Terrace",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "702030f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702030f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/863213e0-c531-012f-eb73-58d385a7bc34",
     "text": "2470 and 2476 Webb Ave., east side, between Devoe Terrace and West 190th Street. The 6-story apartment house, No. 2476 is named the Nancy May.\n\n1928.\n\nCapital Photo Service.\n",
     "text_source": "gpt",

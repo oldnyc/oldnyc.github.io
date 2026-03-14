@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "135th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "135th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465564-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465564-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40387130-c612-012f-f1f4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "135th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "135th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417653",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417653.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1af19dc0-c6cd-012f-8a58-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,38 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "135th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "135th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "734592f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734592f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 135th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Shipping",
+          "Transportation facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89c08c20-c564-012f-78d7-58d385a7bc34",
     "text": null,
     "text_source": null,

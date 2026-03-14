@@ -2,9 +2,27 @@
   {
     "date": "1914-12-10",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Park Place",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724362f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724362f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0a7ef10-c554-012f-e839-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Park Place",
     "text": "46 West Broadway, west side, between Park Place and Murray St.\n\nDecember 10, 1914\n\nWurts Brothers\n",
@@ -19,9 +37,31 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Park Place",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724363f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724363f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Cigar industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d113f960-c554-012f-4701-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Park Place",
     "text": "48 West Broadway, west side, between Park Place and Murray St.\nDecember 10, 1914\nWurts Brothers\n",
@@ -39,9 +79,27 @@
     "dates_from_text": [
       "1923-03-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Park Place",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724364f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724364f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d180b500-c554-012f-1514-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Park Place",
     "text": "West Broadway, east side, north from and including Park Place, to and including Murray Street. Also shown is Park Place, north side, east from and including West Broadway, to, but not including Church Street.\n\nMarch 5, 1923.\n\nGift of E. M. Jenks.\n",
@@ -56,9 +114,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Park Place",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724361f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724361f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d05ba680-c554-012f-7b24-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Park Place",
     "text": "West Broadway, south from but not including Park Place, to and including Vesey Street. The view shows a wooden fence around site for the\nnew Post Office Building.\nMay 11, 1935.\nP. L. Sperr.\n",
@@ -73,9 +152,29 @@
   {
     "date": "1939-09-05",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Park Place",
+        "str2": "West Broadway"
+      },
+      "source": "Park Place and West Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "485756",
     "image_url": "https://images.nypl.org/?id=485756&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5eeed340-c60e-012f-4ee6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -89,9 +188,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Park Place",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Park Place",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "1508597-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508597-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/722e4a80-c5ce-012f-65e8-58d385a7bc34",
     "text": null,
     "text_source": null,

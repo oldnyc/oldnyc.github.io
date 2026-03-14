@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street (West)",
+        "str2": "Avenue S"
+      },
+      "source": "Brooklyn: Avenue S - 4th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "706551f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706551f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c7ef680-c538-012f-96f1-58d385a7bc34",
     "original_title": "Brooklyn: Avenue S - 4th Street (West)",
     "text": "Avenue S, south side, from West 4th to West 5th Streets, showing Public School No. 228, the David A. Boody Junior High School.\nBoard of Education of the City of New York Late 1920's\n",
@@ -19,9 +43,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street (West)",
+        "str2": "Avenue S"
+      },
+      "source": "Brooklyn: Avenue S - 4th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "706550f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706550f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c161040-c538-012f-9e0b-58d385a7bc34",
     "original_title": "Brooklyn: Avenue S - 4th Street (West)",
     "text": "Avenue S, south side, from West 4th to West 5th Streets, showing Public School No. 228, the David A. Boody Junior High School. An addition can be seen on West 5th Street (right).\n\nBoard of Education of the City of New York February 6, 1931\n",

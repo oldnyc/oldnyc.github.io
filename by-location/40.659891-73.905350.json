@@ -2,9 +2,33 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Newport Street",
+        "str2": "Watkins Street"
+      },
+      "source": "Brooklyn: Newport Street - Watkins Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "706057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb5d1540-c537-012f-bfb8-58d385a7bc34",
     "original_title": "Brooklyn: Newport Street - Watkins Street",
     "text": "Street\nNewport Avenue, north side, from Watkins Street to Stone Avenue, showing Public School No. 184.\nBoard of Education of the City of New York  July 18, 1923\n",

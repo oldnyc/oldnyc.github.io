@@ -2,9 +2,54 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 93,
+        "street": "East River"
+      },
+      "source": "93 East River",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 92nd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 96th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "733944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733944f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Consolidated Edison Company ; Riverside Fuel Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Coal",
+          "Petroleum industry",
+          "Piers & wharves",
+          "Public utility companies",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6beb1f90-c563-012f-8b12-58d385a7bc34",
     "text": "East River, shoreline, north from East 92nd to 96th Streets, showing the Riverside Fuel Co. coal yard between East 93rd and 94th Streets and the Consolidated Edison Co. plant between East 95th and 96th Streets.\n\nOctober 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

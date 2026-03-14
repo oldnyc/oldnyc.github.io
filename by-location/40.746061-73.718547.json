@@ -2,9 +2,44 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Little Neck Parkway",
+        "str2": "Shiloh Avenue"
+      },
+      "source": "Little Neck Parkway and Shiloh Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Little Neck Parkway",
+        "str2": "Motor Parkway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Little Neck Parkway",
+        "str2": "Motor Parkway",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "727274f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727274f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f8222a50-c558-012f-ea14-58d385a7bc34",
     "original_title": "Queens: Little Neck Parkway - Motor Parkway",
     "text": "Little Neck Parkway, at the S. E. corner of Motor Parkway (or Shiloh Avenue), showing an old farmstead which was owned by G. W. Walters in 1891 and compromised an area of 44 acres. The farm was subsequently broken up.\n\nP. L. Speer\n",

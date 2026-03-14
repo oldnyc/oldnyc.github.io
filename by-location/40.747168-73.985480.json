@@ -2,9 +2,27 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "708495f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708495f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92693630-c53b-012f-b769-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "Fifth Avenue, west side, north from 32nd Street.\n1900\nEwing Galloway, Photographer\n",
@@ -19,9 +37,30 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "708488f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708488f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/901f5f00-c53b-012f-48d0-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "Fifth Avenue, east side, north from 32nd Street.\n\n1907\n\nPhotographed by Brown Brothers\n",
@@ -36,9 +75,34 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "708490f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708490f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Police"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90f231a0-c53b-012f-1a9f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "Fifth Avenue, west side, north from 32nd Street. Waldorf-Astoria Hotel is in right background. 1907. Brown Brothers, Photographers.  Neg #607",
@@ -53,9 +117,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.747291507329884,
+        "lng": -73.98526221513748
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 217,
     "id": "1113253",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113253.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Antique stores",
+          "Buildings",
+          "Merchandise displays",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7143e640-c6ca-012f-b7fa-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -69,9 +158,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.747218354195454,
+        "lng": -73.9855894446373
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 218,
     "id": "1113254",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113254.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Carriages & coaches",
+          "Clubs",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71b5ef20-c6ca-012f-d61a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -85,9 +199,32 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 189,
     "id": "708491f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708491f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Consumers -- New York (State) -- New York",
+          "Employees",
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/913d9000-c53b-012f-bf5e-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "Fifth Avenue, west side, 32nd - 33rd Streets, showing the milling factory workers south of the first mentioned point and shoppers north of the latter as referred to by the 'Save New York Committee' and illustrated hereby.\n\nAbout 1918\n\nGift of E. M. Jenks\n",
@@ -105,9 +242,27 @@
     "dates_from_text": [
       "1921-08-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 32nd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "712048f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712048f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57a38990-c541-012f-1dee-58d385a7bc34",
     "original_title": "Manhattan: 32nd Street - 5th Avenue",
     "text": "32nd Street, corner 5th Avenue towards Broadway (Before Reconstruction).\n\nAugust 21, 1921.\n",
@@ -122,9 +277,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 32nd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712022f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712022f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Department stores",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4be441b0-c541-012f-c159-58d385a7bc34",
     "original_title": "Manhattan: 32nd Street - 5th Avenue",
     "text": "32nd Street, west from Fifth to Seventh Avenues, showing a little of the Pennsylvania Railroad Station. The bridge is from Gimbel Brothers to Saks Department store.\n\nMarch 17, 1929.\n\nP. L. Sperr.\n",
@@ -142,9 +321,27 @@
     "dates_from_text": [
       "1930-02-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708489f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708489f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9074e1a0-c53b-012f-d42e-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "Fifth Avenue, west side, from 33rd to 32nd Streets, inclusive\nFebruary 11, 1930\n",
@@ -159,9 +356,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708492f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708492f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91ac04e0-c53b-012f-3d0a-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "Fifth Avenue, west side, from 32nd to 34th Streets, showing in centre skeleton of Empire State Building.\nJune 15, 1930.\n\nP. L. Sperr, Photographer.\n",
@@ -179,9 +400,33 @@
     "dates_from_text": [
       "1945-01-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708486f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708486f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f1b5750-c53b-012f-379b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "P.L. Sperr collection\nRec'd January 13, 1945\n",
@@ -199,9 +444,33 @@
     "dates_from_text": [
       "1945-01-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "32nd Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 32nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708487f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708487f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fa131b0-c53b-012f-a3b6-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 32nd Street",
     "text": "P.L. Sperr collection\nRec'd January 13, 1945\n",
@@ -216,9 +485,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Fifth Avenue",
+        "str2": "West 32nd Street"
+      },
+      "source": "Fifth Avenue and West 32nd Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1557865",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557865.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Ovington Brothers Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ed14ce0-c5ec-012f-2898-58d385a7bc34",
     "text": null,
     "text_source": null,

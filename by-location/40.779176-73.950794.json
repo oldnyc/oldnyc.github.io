@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "88th Street (East)"
+      },
+      "source": "Manhattan: 88th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714758f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714758f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bae217f0-c545-012f-fa6f-58d385a7bc34",
     "original_title": "Manhattan: 88th Street (East) - 2nd Avenue",
     "text": "315G\nLOCAL HISTORY AND GENEALOGY\n\n230 East 88th Street, between Second and Third Avenues showing P.S. 30.\n\nBoard of Education, N.Y.C.\n 1920.\n\n315G\nLOCAL HISTORY AND GENEALOGY\n",
@@ -19,9 +43,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "88th Street"
+      },
+      "source": "Manhattan: 88th Street - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714757f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714757f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Dental offices",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba89d000-c545-012f-72a3-58d385a7bc34",
     "original_title": "Manhattan: 88th Street - 2nd Avenue",
     "text": "88th Street, at, adjoining, and east of the N.E. corner of Second Avenue.\n\nJanuary 31, 1928.\n\nP. L. Sperr.\n",
@@ -36,9 +84,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "88th Street (West)"
+      },
+      "source": "Manhattan: 88th Street (West) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714765f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714765f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdc84610-c545-012f-575e-58d385a7bc34",
     "original_title": "Manhattan: 88th Street (West) - 2nd Avenue",
     "text": null,

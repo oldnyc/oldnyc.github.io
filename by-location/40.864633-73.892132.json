@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "194th Street (East)",
+        "str2": "Bainbridge Avenue"
+      },
+      "source": "Bronx: 194th Street (East) - Bainbridge Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "700308f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700308f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15390a70-c52f-012f-ff46-58d385a7bc34",
     "original_title": "Bronx: 194th Street (East) - Bainbridge Avenue",
     "text": "E. 194th Street, east from Bainbridge Avenue.\n\nMay 16, 1938.\n\nP.L. Sperr\n",
@@ -19,9 +40,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "194th Street (East)",
+        "str2": "Bainbridge Avenue"
+      },
+      "source": "Bronx: Bainbridge Avenue - 194th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "700446f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700446f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46567530-c52f-012f-ef2b-58d385a7bc34",
     "original_title": "Bronx: Bainbridge Avenue - 194th Street (East)",
     "text": "Bainbridge Avenue, at, adjoining and north of the N.E. corner of E. 194th Street.\n\nMay 18, 1938.\n\nP. L. Sperr.\n",

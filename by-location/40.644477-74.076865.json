@@ -2,9 +2,31 @@
   {
     "date": "1930; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Terrace",
+        "str2": "Wall Street"
+      },
+      "source": "Richmond: Richmond Terrace - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "729464f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729464f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b54c5c0-c55c-012f-8382-58d385a7bc34",
     "text": "(1)\nRichmond Terrace, adjoining the N.W. corner of Wall Street, showing Police Headquarters of the Borough of Richmond. The view is north.\nAbout 1930\nP. L. Sperr\n(2)\nThe same, at a later date, from the opposite direction.\nJune 13, 1937\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -19,9 +41,31 @@
   {
     "date": "1930; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Richmond Terrace",
+        "str2": "Wall Street"
+      },
+      "source": "Richmond: Richmond Terrace - Wall Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "729464f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729464f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b54c5c0-c55c-012f-8382-58d385a7bc34",
     "text": "(1)\nRichmond Terrace, adjoining the N.W. corner of Wall Street, showing Police Headquarters of the Borough of Richmond. The view is north.\nAbout 1930\nP. L. Sperr\n(2)\nThe same, at a later date, from the opposite direction.\nJune 13, 1937\nP. L. Sperr\n",
     "text_source": "gpt",

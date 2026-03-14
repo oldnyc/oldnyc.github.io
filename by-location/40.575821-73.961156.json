@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Street (East)",
+        "str2": "Brightwater Court"
+      },
+      "source": "Brooklyn: Brightwater Court - 6th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 504,
     "id": "703332f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703332f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c7457d0-c533-012f-f26e-58d385a7bc34",
     "text": "Brightwater Court, north side, west from East 6th Street; a view of the Astor Apartments.\n\nAugust 12, 1929.\n",
     "text_source": "gpt",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-04-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 43rd Street - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713169f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713169f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/400c4fa0-c543-012f-1a24-58d385a7bc34",
     "original_title": "Manhattan: 43rd Street - 11th Avenue",
     "text": "43rd Street, east from and including Eleventh Avenue. April 15, 1931.\n\nP. L. Sperr.\n",
@@ -22,9 +40,34 @@
   {
     "date": "1931; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street (West)"
+      },
+      "source": "Manhattan: 43rd Street (West) - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "713170f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713170f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4084f350-c543-012f-26fe-58d385a7bc34",
     "original_title": "Manhattan: 43rd Street (West) - 11th Avenue",
     "text": "(1)\n\n609, 611-623 West 43rd Street, north side, between Eleventh and Twelfth Avenues, showing the offices and printing plant of \"The Gentlewoman.\"\n\nMay 29, 1931.\n\nP. L. Sperr.\n\n(2)\n\nThe same, four years later, seen across the clearing between 42nd and 43rd Streets; the view is northeast instead of northwest.\n\nMarch 20, 1935.\n\nP. L. Sperr.\n",
@@ -40,9 +83,34 @@
   {
     "date": "1931; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street (West)"
+      },
+      "source": "Manhattan: 43rd Street (West) - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "713170f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713170f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4084f350-c543-012f-26fe-58d385a7bc34",
     "original_title": "Manhattan: 43rd Street (West) - 11th Avenue",
     "text": "(1)\n\n609, 611-623 West 43rd Street, north side, between Eleventh and Twelfth Avenues, showing the offices and printing plant of \"The Gentlewoman.\"\n\nMay 29, 1931.\n\nP. L. Sperr.\n\n(2)\n\nThe same, four years later, seen across the clearing between 42nd and 43rd Streets; the view is northeast instead of northwest.\n\nMarch 20, 1935.\n\nP. L. Sperr.\n",
@@ -58,9 +126,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 11th Avenue - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710698f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710698f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27302820-c53f-012f-e722-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 43rd Street",
     "text": "Eleventh Avenue at N.E. corner of 43rd Street.\nMarch 26, 1935.\n\nP. L. Sperr.\n",
@@ -75,9 +167,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street (West)"
+      },
+      "source": "Manhattan: 11th Avenue - 43rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710700f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710700f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/282e6590-c53f-012f-c17c-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 43rd Street (West)",
     "text": "(1) Eleventh Ave., east side, south from West 44th to 43rd Streets. The gasoline station shown on the extreme right, is at the N.E. corner of West 43rd Street. Buildings shown being 588-580 inclusive.\n\nDecember 4, 1936.\n\nP. L. Sperr.\n\n(2) A portion of No. 1, showing only the corner buildings (Nos. 588-586). Also shown is West 44th Street, east from Eleventh Ave. Excavation on the left, is at the N.E. corner.\n\nDecember 4, 1936.\n\nP. L. Sperr.\n\nThe New York Sun of January 28, 1938 carried a notice of demolition of Nos. 580 and 584. (the Third and fifth from the left, S.E. corner of 44th Street respectively). The first is the property of the estate of Adolph D. Bendheim.\n",
@@ -92,9 +206,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street (West)"
+      },
+      "source": "Manhattan: 11th Avenue - 43rd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "710700f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710700f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Excavation",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/282e6590-c53f-012f-c17c-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 43rd Street (West)",
     "text": "(1) Eleventh Ave., east side, south from West 44th to 43rd Streets. The gasoline station shown on the extreme right, is at the N.E. corner of West 43rd Street. Buildings shown being 588-580 inclusive.\n\nDecember 4, 1936.\n\nP. L. Sperr.\n\n(2) A portion of No. 1, showing only the corner buildings (Nos. 588-586). Also shown is West 44th Street, east from Eleventh Ave. Excavation on the left, is at the N.E. corner.\n\nDecember 4, 1936.\n\nP. L. Sperr.\n\nThe New York Sun of January 28, 1938 carried a notice of demolition of Nos. 580 and 584. (the Third and fifth from the left, S.E. corner of 44th Street respectively). The first is the property of the estate of Adolph D. Bendheim.\n",
@@ -109,9 +245,29 @@
   {
     "date": "1940-09-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "11th Avenue and 43rd Street",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "485993",
     "image_url": "https://images.nypl.org/?id=485993&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43081e10-c60e-012f-95e9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -125,9 +281,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 11th Avenue - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710699f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710699f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27afed00-c53f-012f-ab91-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 43rd Street",
     "text": "(1) to (3)\nEleventh Avenue east side and north of 43rd Street, other views at different angles.\n\nP.L.Speer.\nSeptember 4, 1940.\n",
@@ -142,9 +319,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 11th Avenue - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710699f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710699f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27afed00-c53f-012f-ab91-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 43rd Street",
     "text": "(1) to (3)\nEleventh Avenue east side and north of 43rd Street, other views at different angles.\n\nP.L.Speer.\nSeptember 4, 1940.\n",
@@ -159,9 +357,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 11th Avenue - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "710699f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710699f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27afed00-c53f-012f-ab91-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 43rd Street",
     "text": "(1) to (3)\nEleventh Avenue east side and north of 43rd Street, other views at different angles.\n\nP.L.Speer.\nSeptember 4, 1940.\n",
@@ -176,9 +395,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 43rd Street - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "713168f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713168f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Gasoline pumps",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3fb5b580-c543-012f-7286-58d385a7bc34",
     "original_title": "Manhattan: 43rd Street - 11th Avenue",
     "text": "Views 1, and 2.\n43rd Street, and Eleventh Avenue north and westwards.\n\nP.L. Speer.\n\nSeptember 4, 1940.\n",
@@ -193,9 +435,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Manhattan: 43rd Street - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "713168f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713168f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Gasoline pumps",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3fb5b580-c543-012f-7286-58d385a7bc34",
     "original_title": "Manhattan: 43rd Street - 11th Avenue",
     "text": "Views 1, and 2.\n43rd Street, and Eleventh Avenue north and westwards.\n\nP.L. Speer.\n\nSeptember 4, 1940.\n",

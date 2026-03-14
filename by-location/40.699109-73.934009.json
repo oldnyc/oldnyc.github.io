@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Melrose Street",
+        "str2": "Stanwix Street"
+      },
+      "source": "Brooklyn: Stanwix Street - Melrose Street",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "706859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0b85d10-c538-012f-93a8-58d385a7bc34",
     "original_title": "Brooklyn: Stanwix Street - Melrose Street",
     "text": "Stanwix Street, east side, north from Melrose Street, shewing in the background, a 9-story building a part of Lpebman Breweries Ino., between Forest and Noll Streets.\n1922.\nEugene L. Armbruster Collection.\n",

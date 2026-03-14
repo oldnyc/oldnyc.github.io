@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "207th Street",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 9th Avenue - 207th Street",
+      "technique": "title-cross"
+    },
     "height": 379,
     "id": "710449f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710449f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Shipping",
+          "Transportation facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf015120-c53e-012f-a635-58d385a7bc34",
     "original_title": "Manhattan: 9th Avenue - 207th Street",
     "text": "Ninth Avenue, west side, from 207th to 208th Streets, the northern extremity of Ninth Avenue.\nThe Eighth Avenue subway yards are now (1935) located immediately beyond the garage shown in the foreground of this picture.\nAugust 25, 1927.\n\nP. L. Sperr, Photographer.\n",
@@ -23,9 +45,27 @@
       "1927-08-25",
       "1933-06-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "207th Street",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 207th Street - 9th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715811f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715811f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b2b2160-c547-012f-4c39-58d385a7bc34",
     "original_title": "Manhattan: 207th Street - 9th Avenue",
     "text": "1. 207th Street, south side from Tenth to Ninth Aves, showing University Heights and the Harlem River in the background. The Miramar is a salt water pool and one of the largest in the city. August 25, 1927. P. L . Sperr.\n\n2. The same, six years later. June 8, 1933. P. L. Sperr.\n",
@@ -45,9 +85,27 @@
       "1927-08-25",
       "1933-06-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "207th Street",
+        "str2": "9th Avenue"
+      },
+      "source": "Manhattan: 207th Street - 9th Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "715811f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/715811f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b2b2160-c547-012f-4c39-58d385a7bc34",
     "original_title": "Manhattan: 207th Street - 9th Avenue",
     "rotation": 90,

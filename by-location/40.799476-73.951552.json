@@ -2,9 +2,33 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "112th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue - 112th Street",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "720839f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720839f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Lenox Avenue (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Construction equipment",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ada1850-c54f-012f-a7de-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 112th Street",
     "text": "Lenox Avenue, north, from 112th Street, showing construction of I. R.  T. subway.\n  April 9, 1901.\nWm. D. Parsons - Collection\nThe New York\nPUBLIC LIBRARY\nAstor,Lenox AND\nrptoEN FoUNbAtIONS\nR1\nS15N\nREI3I\nC11iCStM\n",

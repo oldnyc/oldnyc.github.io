@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "149th Street",
+        "str2": "90th Road"
+      },
+      "source": "Queens: 149th Street - 90th Road",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "725892f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725892f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5613760-c556-012f-957b-58d385a7bc34",
     "original_title": "Queens: 149th Street - 90th Road",
     "text": "149th Street, east side, from 90th Road (foreground) to 90th Avenue, showing newly erected apartments.\n\nP. L. Sperr\nApril 6, 1932\n",

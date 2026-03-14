@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Myrtle Avenue",
+        "str2": "Ryerson Street"
+      },
+      "source": "Brooklyn: Ryerson Street - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706545f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706545f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79faa4a0-c538-012f-cd37-58d385a7bc34",
     "original_title": "Brooklyn: Ryerson Street - Myrtle Avenue",
     "text": "Ryerson Street, east side, just south of Myrtle Avenue, showing Public School No. 69. It was for a time the Brooklyn Continuation School.\n\nBoard of Education of the City of New York September 5, 1930\n",

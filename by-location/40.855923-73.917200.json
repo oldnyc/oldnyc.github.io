@@ -2,9 +2,39 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Cedar Avenue",
+        "str2": "W. 179 Street"
+      },
+      "source": "Cedar Avenue and W. 179 Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Cedar Avenue",
+        "str2": "S. Harlem River Terrace",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "734609f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734609f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90f54aa0-c564-012f-88a8-58d385a7bc34",
     "text": null,
     "text_source": null,

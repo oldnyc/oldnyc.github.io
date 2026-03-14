@@ -2,9 +2,33 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 60th Street",
+        "str2": "York Ave"
+      },
+      "source": "East 60th Street and York Ave",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "734034f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734034f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River Pier 102 (New York, N.Y.)",
+          "East River Pier 103 (New York, N.Y.)",
+          "East River Pier 104 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gas industry",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94272930-c563-012f-79b3-58d385a7bc34",
     "text": "(1)\nEast River, showing (left to right) piers 102, 103, and 104, off York Ave., at the foot of East 60th, 61st and 62nd Streets, respectively. Also shown is a general view westward of the surrounding area.\nApril 5, 1933.\nP. L. Sperr.\n\n(2)\nA close-up of pier 104, as viewed in a northerly direction from pier 103. On the right is visible the northern half of Welfare Island.\nSeptember 23, 1935.\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -19,9 +43,33 @@
   {
     "date": "1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 60th Street",
+        "str2": "York Ave"
+      },
+      "source": "East 60th Street and York Ave",
+      "technique": "gpt"
+    },
     "height": 397,
     "id": "734034f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734034f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River Pier 102 (New York, N.Y.)",
+          "East River Pier 103 (New York, N.Y.)",
+          "East River Pier 104 (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gas industry",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94272930-c563-012f-79b3-58d385a7bc34",
     "text": "(1)\nEast River, showing (left to right) piers 102, 103, and 104, off York Ave., at the foot of East 60th, 61st and 62nd Streets, respectively. Also shown is a general view westward of the surrounding area.\nApril 5, 1933.\nP. L. Sperr.\n\n(2)\nA close-up of pier 104, as viewed in a northerly direction from pier 103. On the right is visible the northern half of Welfare Island.\nSeptember 23, 1935.\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -36,9 +84,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: York Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 384,
     "id": "1508633-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508633-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7843a410-c5ce-012f-3b9b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +120,42 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "East River Drive"
+      },
+      "source": "Manhattan: East River Drive - 60th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "719562f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/719562f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Hospitals",
+          "Medical education",
+          "Medicine",
+          "Research",
+          "Research facilities",
+          "Sanitary landfills",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b6ed710-c54d-012f-85cd-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 60th Street (East)",
     "rotation": 90,
@@ -71,9 +172,42 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "East River Drive"
+      },
+      "source": "Manhattan: East River Drive - 60th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719562f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719562f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Hospitals",
+          "Medical education",
+          "Medicine",
+          "Research",
+          "Research facilities",
+          "Sanitary landfills",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b6ed710-c54d-012f-85cd-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 60th Street (East)",
     "text": "East River Drive, north from East 60th Street, showing constructional details of this new marginal highway,. In the background are hospital and laboratory structures. The latter is the Rockefeller Research and the former, the New York Hospital-Cornell Medical College Center.\n\nApril 10, 1940  No. 2\nAugust 1, 1939  No. 1\n\nP. L. Sperr\n",
@@ -89,9 +223,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "East River Drive"
+      },
+      "source": "Manhattan: East River Drive - 60th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "719563f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719563f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sanitary landfills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2bdd44e0-c54d-012f-02a3-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 60th Street (East)",
     "text": "East River Drive, at the foot of East 60th Street, show- constructional details of this new marginal thoroughfare. The view is eastward towards Welfare (Blackwells) Island. Thereupon appears new hospital facilities. Beyond is Long Island City and Astoria on the Queens shore.\nNo's. 1-2. August 1, 1939\n\nP. L. Sperr\n",
@@ -106,9 +262,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "East River Drive"
+      },
+      "source": "Manhattan: East River Drive - 60th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "719563f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719563f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sanitary landfills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2bdd44e0-c54d-012f-02a3-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 60th Street (East)",
     "text": "East River Drive, at the foot of East 60th Street, show- constructional details of this new marginal thoroughfare. The view is eastward towards Welfare (Blackwells) Island. Thereupon appears new hospital facilities. Beyond is Long Island City and Astoria on the Queens shore.\nNo's. 1-2. August 1, 1939\n\nP. L. Sperr\n",

@@ -2,9 +2,33 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "134th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 134th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 505,
     "id": "717747f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717747f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fd7a8c0-c54a-012f-c1ff-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 134th Street (West)",
     "text": "Broadway, south from but not including West 134th Street, showing the street in preparation for repairing. On the right, partially obscured by steam boiler is a 3-story brick house at the N.W. corner of West 133rd Street and south of it, a 5-story one, bearing No. 3289 Broadway, between West 133rd and West 132nd Streets.\n\nJune 30, 1900.\n\nBoard of Transportation Photograph.\n\nWilliam B. Parsons Collection.\n",

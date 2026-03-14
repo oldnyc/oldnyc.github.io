@@ -2,9 +2,29 @@
   {
     "date": "1919-03-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "190th Street (West)",
+        "str2": "Wadsworth Avenue"
+      },
+      "source": "Manhattan: 190th Street (West) - Wadsworth Avenue",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "1508457",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508457.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/21e41e70-c5cf-012f-b264-58d385a7bc34",
     "text": null,
     "text_source": null,

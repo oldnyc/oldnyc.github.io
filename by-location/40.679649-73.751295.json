@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "218th Street",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Merrick Boulevard - 218th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "727381f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727381f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24892be0-c559-012f-82c0-58d385a7bc34",
     "original_title": "Queens: Merrick Boulevard - 218th Street",
     "text": "Merrick Boulevard, at the N. E. corner of 218th Street, showing an old frame house, Wolverton's 1891 atlas (plate 28) shows it to be a hotel owned by L. Miller.\n\nP. L. Sperr\nMarch 9, 1927\n",

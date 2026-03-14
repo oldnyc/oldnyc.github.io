@@ -6,9 +6,35 @@
       "1912",
       "1920"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sheridan Square",
+        "str2": "Washington Place"
+      },
+      "source": "Sheridan Square and Washington Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "158th Street (East)",
+        "str2": "Sheridan Square",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "723188f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723188f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7263fc0-c552-012f-f0f5-58d385a7bc34",
     "text": "13 Sheridan Square, north side (135 Washington Place), an old frame house in the last stages of disrepair. The houses at the right are shortly to be demolished, but this one will stand until shortly after 1922. See 13, 14 Sheridan Square, the view about 1912 and the view taken about the same time as this one.\nAbout 1920.\n\nGift of E. M. Jenks.\n",
     "text_source": "gpt",
@@ -23,9 +49,45 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sheridan Square",
+        "str2": "Washington Place"
+      },
+      "source": "Sheridan Square and Washington Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "158th Street (East)",
+        "str2": "Sheridan Square",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "158th Street",
+        "str2": "Sheridan Square",
+        "technique": "gpt"
+      }
+    ],
     "height": 428,
     "id": "723189f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723189f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages",
+          "Gift shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e781d4f0-c552-012f-d043-58d385a7bc34",
     "text": "13-14 Sheridan Square, north side (135-133 Washington Place), an old frame house, which is said to have been a tavern, and now contains a curiosity shop.\nAbout 1912.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, about eight years later, shortly before the demolition of all but the house on the left, which, it will be noted, has had a middle tier of windows cut in the Washington Place side of it.\nAbout 1920.\n\nGift of E. M. Jenks.\n",
     "text_source": "gpt",
@@ -39,9 +101,45 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Sheridan Square",
+        "str2": "Washington Place"
+      },
+      "source": "Sheridan Square and Washington Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "158th Street (East)",
+        "str2": "Sheridan Square",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "158th Street",
+        "str2": "Sheridan Square",
+        "technique": "gpt"
+      }
+    ],
     "height": 459,
     "id": "723189f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723189f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages",
+          "Gift shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e781d4f0-c552-012f-d043-58d385a7bc34",
     "text": "13-14 Sheridan Square, north side (135-133 Washington Place), an old frame house, which is said to have been a tavern, and now contains a curiosity shop.\nAbout 1912.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, about eight years later, shortly before the demolition of all but the house on the left, which, it will be noted, has had a middle tier of windows cut in the Washington Place side of it.\nAbout 1920.\n\nGift of E. M. Jenks.\n",
     "text_source": "gpt",
@@ -55,9 +153,29 @@
   {
     "date": "1930-09-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barrow Street",
+        "str2": "Washington Place"
+      },
+      "source": "Barrow Street and Washington Place",
+      "technique": "gpt"
+    },
     "height": 447,
     "id": "1508065-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508065-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5fcdabc0-c5ce-012f-0466-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -71,9 +189,32 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barrow Street",
+        "str2": "Sheridan Square"
+      },
+      "source": "Manhattan: Sheridan Square - Barrow Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723186f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723186f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Greenwich Village (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Nightclubs",
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e64f99f0-c552-012f-0e8d-58d385a7bc34",
     "text": "3-4, 5 Sheridan Square, south side, at and adjoining the corner of Barrow Street. The Greenwich Village Inn is No. 5-6, which is not all included in the view.\n\nMay 1, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -87,9 +228,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Barrow Street",
+        "str2": "Sheridan Square"
+      },
+      "source": "Manhattan: Sheridan Square - Barrow Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723187f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723187f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Sheridan Square (New York, N.Y.)"
+        ],
+        "topic": [
+          "Nightclubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6b92000-c552-012f-542c-58d385a7bc34",
     "text": "Greenwich Village Inn, 5-6 Sheridan Square, south side, between Barrow and Grove Streets, one of the oldest and best known of Village night clubs, since the closing of Don Dickerman's \"Pirate's Den\" on Christopher Street.\n\nMay 1, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

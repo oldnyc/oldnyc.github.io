@@ -2,9 +2,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 3rd Avenue - 172nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700022f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700022f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac7c1d80-c52e-012f-05a9-58d385a7bc34",
     "original_title": "Bronx: 3rd Avenue - 172nd Street (East)",
     "text": "3888 to 3896 Third Ave., south of, adjoining and at the S.E. co of East 172nd Street. Also shown is the Third Avenue Elevated Line running north on the avenue.\nAbout 1911.\nJames Suydam.\n",

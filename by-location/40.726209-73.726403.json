@@ -2,9 +2,46 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "242nd Street",
+        "str2": "Braddock Avenue"
+      },
+      "source": "242nd Street and Braddock Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "244th Street",
+        "str2": "Braddock Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "244th Street",
+        "str2": "Braddock Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 423,
     "id": "726207f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726207f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66b08ad0-c557-012f-12ff-58d385a7bc34",
     "original_title": "Queens: Braddock Avenue - 244th Street",
     "text": "(1)\nBraddock Ave. (Rocky Hill Road), north side, west of 244th Street (Clinton), showing the C. Walter home of 1896 ? It does not appear in any atlas after 1928. According to the new layout of Queens County; it would be between 242nd and 243rd Street, north of Braddock Ave.\n\nAugust 1924.\nEugene L. Armbruster Collection.\n\n(2)\nThe same. Note the old well and the out buildings.\n\nJanuary 1923.\nEugene L. Armbruster Collection.\n",
@@ -19,9 +56,46 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "242nd Street",
+        "str2": "Braddock Avenue"
+      },
+      "source": "242nd Street and Braddock Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "244th Street",
+        "str2": "Braddock Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "244th Street",
+        "str2": "Braddock Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 419,
     "id": "726207f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726207f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66b08ad0-c557-012f-12ff-58d385a7bc34",
     "original_title": "Queens: Braddock Avenue - 244th Street",
     "text": "(1)\nBraddock Ave. (Rocky Hill Road), north side, west of 244th Street (Clinton), showing the C. Walter home of 1896 ? It does not appear in any atlas after 1928. According to the new layout of Queens County; it would be between 242nd and 243rd Street, north of Braddock Ave.\n\nAugust 1924.\nEugene L. Armbruster Collection.\n\n(2)\nThe same. Note the old well and the out buildings.\n\nJanuary 1923.\nEugene L. Armbruster Collection.\n",

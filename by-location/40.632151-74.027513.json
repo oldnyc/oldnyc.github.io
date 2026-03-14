@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "74th Street"
+      },
+      "source": "Brooklyn: 3rd Avenue - between 74th Street and 73rd Street.",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "702346f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702346f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0228afa0-c532-012f-25d3-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Avenue - between 74th Street and 73rd Street.",
     "text": "Fourth Ave., west side, between 74th and 73rd Streets, showing the church and buildings of the Parish of Our Lady of Angels R.C.\n\nDecember 17, 1936.\n\nP. L. Sperr.\n",

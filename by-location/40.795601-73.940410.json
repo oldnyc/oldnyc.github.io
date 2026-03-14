@@ -2,9 +2,29 @@
   {
     "date": "1921-05-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 103,
+        "street": "E 113th Street"
+      },
+      "source": "113th Street (East) #103",
+      "technique": "title-address"
+    },
     "height": 431,
     "id": "1508395-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508395-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/177e3070-c5cf-012f-0b70-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1921-05-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 103,
+        "street": "E 113th Street"
+      },
+      "source": "113th Street (East) #103",
+      "technique": "title-address"
+    },
     "height": 429,
     "id": "1508395-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508395-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/177e3070-c5cf-012f-0b70-58d385a7bc34",
     "text": null,
     "text_source": null,

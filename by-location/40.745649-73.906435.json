@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-10-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "58th Street",
+        "str2": "Woodside Avenue"
+      },
+      "source": "Queens: 58th Street - Woodside Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725496f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725496f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f397d30-c556-012f-eaaf-58d385a7bc34",
     "original_title": "Queens: 58th Street - Woodside Avenue",
     "text": "58th Street, east side, between Woodside and 39th Avenues, showing the mansion which was owned by N. Terret in 1891. 58th Street, here, was then named Fifth Street.\n\nP. L. Sperr\nOctober 27, 1931\n",
@@ -22,9 +40,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "58th Street",
+        "str2": "Woodside Avenue"
+      },
+      "source": "Queens: 58th Street - Woodside Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "725497f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725497f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f93ba50-c556-012f-fe10-58d385a7bc34",
     "original_title": "Queens: 58th Street - Woodside Avenue",
     "text": "58th Street, east side, north from Woodside Avenue, showing a group of old mansions. The thoroughfare was formerly called\nFifth Street.\nP. L. Sperr  October 27, 1931\n",
@@ -42,9 +81,27 @@
     "dates_from_text": [
       "1931-11-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "58th Street",
+        "str2": "Woodside Avenue"
+      },
+      "source": "Queens: Woodside Avenue - 58th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728230f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728230f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65318c10-c55a-012f-06df-58d385a7bc34",
     "original_title": "Queens: Woodside Avenue - 58th Street",
     "text": "58-07 Woodside Avenue, north side, between 58th and 59th Streets, showing an old home, about 175 feet back of the normal building line.\n\nP. L. Sperr\nNovember 5, 1931\n",

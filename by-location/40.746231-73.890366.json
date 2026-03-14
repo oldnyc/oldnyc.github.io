@@ -2,9 +2,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "75th Street",
+        "str2": "Broadway"
+      },
+      "source": "Queens: Broadway - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "726276f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726276f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7f859ed0-c557-012f-14d8-58d385a7bc34",
     "original_title": "Queens: Broadway - 75th Street",
     "text": "Broadway, at the S.E. corner of 75th Street, showing the entrance to the Independent Subway station and the plot where a new taxpayer will be erected. The apartment house is at 76th Street.\n\nP. L. Sperr\nOctober 15, 1939\n",

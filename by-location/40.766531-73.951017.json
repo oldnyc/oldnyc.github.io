@@ -2,9 +2,40 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 73rd Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 73rd Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "73rd Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "719567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719567f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d6054a0-c54d-012f-d2de-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 73rd Street (East)",
     "text": "East River Drive, at East 73rd Street, showing the garbage loading dock at the waters edge, and a commercial structure separated by this newly completed roadway.\n\nSeptember 28, 1940\nNo's. 1-2\n\nP. L. Sperr\n",
@@ -19,9 +50,40 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 73rd Street",
+        "str2": "East River Drive"
+      },
+      "source": "East 73rd Street and East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "73rd Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "719567f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719567f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d6054a0-c54d-012f-d2de-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 73rd Street (East)",
     "text": "East River Drive, at East 73rd Street, showing the garbage loading dock at the waters edge, and a commercial structure separated by this newly completed roadway.\n\nSeptember 28, 1940\nNo's. 1-2\n\nP. L. Sperr\n",

@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Jefferson Avenue"
+      },
+      "source": "Brooklyn: Jefferson Avenue - Bushwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "705117f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705117f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Delicatessens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49b05e90-c536-012f-2047-58d385a7bc34",
     "original_title": "Brooklyn: Jefferson Avenue - Bushwick Avenue",
     "text": "1. Jefferson & Bushwick Ave., n.e. cor., Bklyn. Neg. A-265\n\nAug. 3, 1941\n\nP.L. Sperr, photographer\n",

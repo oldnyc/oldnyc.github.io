@@ -2,9 +2,50 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 112,
+        "street": "Circle Road"
+      },
+      "source": "112 Circle Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "Redmond Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "Redmond Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Circle Road",
+        "str2": "New York Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 397,
     "id": "728685f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728685f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25c681b0-c55b-012f-65bb-58d385a7bc34",
     "original_title": "Richmond: Circle Road - Redmond Avenue",
     "text": "112 Circle Road, west side, between Redmond and New York Aves., showing the Theo W. Janeway residence.\n\nAugust 1932.\n",

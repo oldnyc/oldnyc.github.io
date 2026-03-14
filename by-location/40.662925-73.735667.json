@@ -2,9 +2,32 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "247th Street",
+        "str2": "Memphis Avenue"
+      },
+      "source": "Queens: 247th Street - Memphis Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "726017f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726017f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Fire stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22534d00-c557-012f-315c-58d385a7bc34",
     "original_title": "Queens: 247th Street - Memphis Avenue",
     "text": "247th Street, adjoining the N.E. corner of Memphis Avenue, showing the Rosedale Chemical Engine Company No. 1.\n\nP. L. Sperr\nMarch 9, 1927\n",

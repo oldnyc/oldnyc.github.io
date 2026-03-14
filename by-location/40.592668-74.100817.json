@@ -2,9 +2,27 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Forest Road",
+        "str2": "Richmond Road"
+      },
+      "source": "Forest Road and Richmond Road",
+      "technique": "gpt"
+    },
     "height": 404,
     "id": "729393f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729393f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3fc2ad40-c55c-012f-0956-58d385a7bc34",
     "text": "Richmond Road, west side, at Forest Road, showing the Dongan Hills Colony, a new residential development. This area is part of the former George Cromwell property.\n\nMay 6, 1926\n\nP. L. Sperr\n",
     "text_source": "gpt",

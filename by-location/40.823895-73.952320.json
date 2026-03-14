@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1904-10-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "141st Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 141st Street",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "717749f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717749f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5026ac20-c54a-012f-7c52-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 141st Street",
     "text": "Broadway north from and including 141st Street, after work on the Interborough Rapid Transit subway has been completed.\n\nOctober 31, 1904.\n\nWilliam B. Parsons Collection.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "141st Street",
+        "str2": "Broadway"
+      },
+      "source": "141st Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 450,
     "id": "465554-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465554-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c1f2010-c612-012f-ca9b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +77,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "One Hundred and Forty-first Street"
+      },
+      "source": "Broadway and One Hundred and Forty-first Street",
+      "technique": "gpt"
+    },
     "height": 537,
     "id": "417159",
     "image_url": "https://images.nypl.org/?id=417159&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93e1d480-c611-012f-4e72-58d385a7bc34",
     "text": null,
     "text_source": null,

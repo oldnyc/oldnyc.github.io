@@ -2,9 +2,33 @@
   {
     "date": "1917-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7308838,
+        "lng": -73.997332
+      },
+      "source": "Washington Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 469,
     "id": "1804021",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1804021.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Square (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings",
+          "Military decorations",
+          "World War, 1914-1918"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6adaca0-c62c-012f-449f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,37 @@
   {
     "date": "1917-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7308838,
+        "lng": -73.997332
+      },
+      "source": "Washington Square (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 469,
     "id": "1804030",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1804030.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Washington Square (New York, N.Y.)"
+        ],
+        "name": [
+          "Garibaldi, Giuseppe, 1807-1882"
+        ],
+        "topic": [
+          "Flags",
+          "Military decorations",
+          "Military personnel",
+          "Monuments",
+          "Participation, Italian",
+          "World War, 1914-1918"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e94dc7f0-c62c-012f-a6aa-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Guernsey Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Guernsey Street and Meserole Street",
+      "technique": "gpt"
+    },
     "height": 477,
     "id": "732671f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732671f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/819f5400-c561-012f-5189-58d385a7bc34",
     "text": "Meserole Street, north side, from Guernsey to Lorimer Streets, showing Public School No. 126. The view is east from Guernsey.\nBoard of Education of the City of New York    May 19, 1931\n",
     "text_source": "gpt",

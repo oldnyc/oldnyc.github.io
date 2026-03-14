@@ -2,9 +2,53 @@
   {
     "date": "1926; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7691902,
+        "lng": -73.9495306
+      },
+      "source": "John Jay Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "78th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "78th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "721618f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721618f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hell Gate Bridge (New York, N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Junior League of the City of New York"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Buildings",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62200a60-c550-012f-3e0d-58d385a7bc34",
     "original_title": "Manhattan: Marie Curie Avenue - 78th Street",
     "text": "Marie Curie Ave., (Exterior Street), west side, north from and including East 78th Street.\nSeptember 25, 1935.\n\nP. L. Sperr.\n",
@@ -20,9 +64,56 @@
   {
     "date": "1926; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7691902,
+        "lng": -73.9495306
+      },
+      "source": "John Jay Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "East 68th Street",
+        "str2": "East 71st Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "New York",
+        "str1": "East 59th Street",
+        "str2": "Queensborough Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733920f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733920f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Coal",
+          "Coal trade",
+          "Hospitals",
+          "Medical education",
+          "Ore industry",
+          "Parks",
+          "Piers & wharves",
+          "yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61c0ee80-c563-012f-bdf8-58d385a7bc34",
     "text": "(1)\nEast River, from East 71st (right) to East 68th Street, showing buildings of New York Hospital and Cornell Medical College. Also shown (center) are coal yards of the Trinity Coal Corporation and (left) of the Stokes Coal Co. April 5, 1933.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, at a later date, showing a closer view of the boiler room, laundry and dynamo buildings, and the Trinity Coal Corp. yard. Autumn 1935.\n\nP. L. Sperr.\n\n(3)\nThe same, an extensive view south to East 59th Street, and showing a portion of the Queensborough Bridge. In the left background is visible the Chrysler Building. The vantage point for these three views is Welfare Island.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -38,9 +129,56 @@
   {
     "date": "1926; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7691902,
+        "lng": -73.9495306
+      },
+      "source": "John Jay Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "East 68th Street",
+        "str2": "East 71st Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "New York",
+        "str1": "East 59th Street",
+        "str2": "Queensborough Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733920f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733920f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Coal",
+          "Coal trade",
+          "Hospitals",
+          "Medical education",
+          "Ore industry",
+          "Parks",
+          "Piers & wharves",
+          "yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61c0ee80-c563-012f-bdf8-58d385a7bc34",
     "text": "(1)\nEast River, from East 71st (right) to East 68th Street, showing buildings of New York Hospital and Cornell Medical College. Also shown (center) are coal yards of the Trinity Coal Corporation and (left) of the Stokes Coal Co. April 5, 1933.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, at a later date, showing a closer view of the boiler room, laundry and dynamo buildings, and the Trinity Coal Corp. yard. Autumn 1935.\n\nP. L. Sperr.\n\n(3)\nThe same, an extensive view south to East 59th Street, and showing a portion of the Queensborough Bridge. In the left background is visible the Chrysler Building. The vantage point for these three views is Welfare Island.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -56,9 +194,56 @@
   {
     "date": "1926; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7691902,
+        "lng": -73.9495306
+      },
+      "source": "John Jay Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "East 68th Street",
+        "str2": "East 71st Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "New York",
+        "str1": "East 59th Street",
+        "str2": "Queensborough Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733920f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733920f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Coal",
+          "Coal trade",
+          "Hospitals",
+          "Medical education",
+          "Ore industry",
+          "Parks",
+          "Piers & wharves",
+          "yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61c0ee80-c563-012f-bdf8-58d385a7bc34",
     "text": "(1)\nEast River, from East 71st (right) to East 68th Street, showing buildings of New York Hospital and Cornell Medical College. Also shown (center) are coal yards of the Trinity Coal Corporation and (left) of the Stokes Coal Co. April 5, 1933.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, at a later date, showing a closer view of the boiler room, laundry and dynamo buildings, and the Trinity Coal Corp. yard. Autumn 1935.\n\nP. L. Sperr.\n\n(3)\nThe same, an extensive view south to East 59th Street, and showing a portion of the Queensborough Bridge. In the left background is visible the Chrysler Building. The vantage point for these three views is Welfare Island.\n\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -74,9 +259,46 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7691902,
+        "lng": -73.9495306
+      },
+      "source": "John Jay Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 76th Street",
+        "str2": "East 79th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "733925f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733925f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Yard of Plaza Coal Corporation; John Jay Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Coal",
+          "Ore industry",
+          "Parks",
+          "yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63e25cd0-c563-012f-46bd-58d385a7bc34",
     "text": "East River, shoreline, north from East 76th to East 79th Streets, showing (left) the Plaza Coal Corporation's yard, and John Jay Park. August 31, 1926.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -90,9 +312,52 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7691902,
+        "lng": -73.9495306
+      },
+      "source": "John Jay Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 73rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 78th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "733922f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733922f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Interboro Rapid Transit Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "John Jay Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Mass transit",
+          "Parks",
+          "Sanitation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62a62820-c563-012f-0099-58d385a7bc34",
     "text": "East River, shoreline, north from East 73rd to East 78th Streets, showing (left to right) the incinerator of the Department of Sanitation, the power plant of the Interborough Rapid Transit and John Jay Park. The vantage point is Welfare Island.\n\nApril 5, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

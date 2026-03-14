@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-08-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bergen Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Brooklyn: Bergen Street - Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703219f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703219f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50fe6f00-c533-012f-759b-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - Washington Avenue",
     "text": "Bergen Street, east from Washington Avenue. Note the very old homes still standing.\n\nP. L. Sperr\nAugust 28, 1941\n",

@@ -2,9 +2,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "15th Street (West)",
+        "str2": "Bowery"
+      },
+      "source": "Brooklyn: 15th Street (West) - Bowery",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702565f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702565f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bowery (New York, N.Y. : Street)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/543707a0-c532-012f-410f-58d385a7bc34",
     "text": "(1)\nWest 15th Street, at the S.E. corner of Bowery. (Coney Island).\nA view of the Irish Center.\nJuly 4, 1936.\n\nP. L. Sperr.\n\n(2)\nAnother view of No. 1, showing the Irish House on the Bowery.\nJuly 4, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +40,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "15th Street",
+        "str2": "Bowery"
+      },
+      "source": "Brooklyn: Bowery - 15th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703275f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703275f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6655ff10-c533-012f-b90f-58d385a7bc34",
     "text": "Bowery, east of West 15th Street. (Coney Island).\n\nJuly 4, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

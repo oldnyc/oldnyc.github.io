@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "146th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "146th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465544-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465544-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37f12500-c612-012f-5e6b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "146th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "146th Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465544-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465544-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37f12500-c612-012f-5e6b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -37,9 +79,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "146th Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: St. Nicholas Avenue - 146th Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "723133f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723133f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0e20ad0-c552-012f-1af3-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Avenue - 146th Street",
     "text": "730-28 St. Nicholas Avenue, east side, between 146th and 147th Streets, showing the unusually large gap between 730 and 732. These houses were erected in the late 1880's.\n\nAbout 1910.\n",

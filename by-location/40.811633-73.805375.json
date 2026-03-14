@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Mitchell Place",
+        "str2": "Pennyfield Avenue"
+      },
+      "source": "Bronx: Pennyfield Avenue - Mitchell Place",
+      "technique": "title-cross"
+    },
     "height": 395,
     "id": "701620f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701620f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f1c88920-c530-012f-aea5-58d385a7bc34",
     "original_title": "Bronx: Pennyfield Avenue - Mitchell Place",
     "text": "Pennyfield Ave. (Fort Schuyler Road), north from Mitchell Place.\n\nJuly 25, 1928.\n\nP. L. Sperr.\n",

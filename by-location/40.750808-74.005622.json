@@ -2,9 +2,50 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "26th Street"
+      },
+      "source": "11th Avenue and 26th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "26th Street (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "26th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "27th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "710820f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710820f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5921e760-c53f-012f-2391-58d385a7bc34",
     "original_title": "Manhattan: 13th Avenue - 26th Street (West)",
     "text": "13th Avenue, east side, from W. 26th to 27th Streets, showing the skeletal frame work of the new Starrett-Lehigh Building. This massive building will occupy the entire block, extending eastward to 11th Avenue.\nNote on the left of View 1, the southerly side of the Central (Terminal) Stores building. This stands on the block to the north.\n\nApril 22, 1931\nViews 1,2\n\nP. L. Sperr\n",
@@ -19,9 +60,50 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "26th Street"
+      },
+      "source": "11th Avenue and 26th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "26th Street (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "26th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "27th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "710820f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710820f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5921e760-c53f-012f-2391-58d385a7bc34",
     "original_title": "Manhattan: 13th Avenue - 26th Street (West)",
     "text": "13th Avenue, east side, from W. 26th to 27th Streets, showing the skeletal frame work of the new Starrett-Lehigh Building. This massive building will occupy the entire block, extending eastward to 11th Avenue.\nNote on the left of View 1, the southerly side of the Central (Terminal) Stores building. This stands on the block to the north.\n\nApril 22, 1931\nViews 1,2\n\nP. L. Sperr\n",

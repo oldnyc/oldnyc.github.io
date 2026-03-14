@@ -2,9 +2,34 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Madison Street"
+      },
+      "source": "Manhattan: Madison Street - Bowery",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721528f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721528f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Churches",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3dfa0bb0-c550-012f-ae01-58d385a7bc34",
     "text": "Madison Street, north side, east from New Bowery, to, but not including James Street. The steeple of St, James Roman Catholic Church is shown in the background.\n\nSeptember 9, 1927.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +43,33 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bowery",
+        "str2": "Madison Street"
+      },
+      "source": "Manhattan: Madison Street - Bowery",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721527f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721527f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d9e40c0-c550-012f-90af-58d385a7bc34",
     "text": "Madison Street, east from New Bowery.\nJune 24, 1933.\nP. L. Sperr.\n",
     "text_source": "gpt",

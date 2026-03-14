@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "St. Mark's Place"
+      },
+      "source": "Brooklyn: 3rd Avenue - St. Mark's Place",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702252f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702252f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddccd210-c531-012f-cf99-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Avenue - St. Mark's Place",
     "text": "P.L. Sperr, photographer  7-22-1942",
@@ -19,9 +40,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "St. Mark's Avenue"
+      },
+      "source": "Brooklyn: St. Mark's Avenue - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "706606f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706606f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Butcher shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91794d80-c538-012f-b5f4-58d385a7bc34",
     "original_title": "Brooklyn: St. Mark's Avenue - 3rd Avenue",
     "text": "St. Marks Place and 3rd Avenue, s.e. corner\nBrooklyn\n7/22/42\n",
@@ -36,9 +79,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "St. Mark's Place"
+      },
+      "source": "Brooklyn: 3rd Avenue - St. Mark's Place",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702251f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702251f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd7500e0-c531-012f-ee53-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Avenue - St. Mark's Place",
     "text": "3rd Avenue south of St. Marks Place\nBrooklyn\n7/22/42\n",

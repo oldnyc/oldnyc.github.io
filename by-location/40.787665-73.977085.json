@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "85th Street",
+        "str2": "Broadway"
+      },
+      "source": "85th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "417319",
     "image_url": "https://images.nypl.org/?id=417319&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6c98b20-c611-012f-12a6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "85th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 85th Street",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "717678f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717678f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35e9ea70-c54a-012f-bd4d-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 85th Street",
     "text": "Broadway, west side, north from and including 85th Street, to and including 86th Street.\nAbout 1930.\n",

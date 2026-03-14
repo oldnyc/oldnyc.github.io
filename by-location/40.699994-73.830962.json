@@ -2,9 +2,30 @@
   {
     "date": "1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Lefferts Boulevard"
+      },
+      "source": "Queens: Lefferts Boulevard - Jamaica Avenue",
+      "technique": "title-cross"
+    },
     "height": 411,
     "id": "727207f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727207f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de0f8970-c558-012f-dbfe-58d385a7bc34",
     "original_title": "Queens: Lefferts Boulevard - Jamaica Avenue",
     "text": "Lefferts Boulevard, west side, south of Jamaica Ave. (about 190 feet, right not shown). The Queens County Wheelmen's Club was still in existence in 1912 (people standing in front of club). The house to the right of the club was No. 277 in 1918.\n\nAbout 1906.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "726971f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726971f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/816811f0-c558-012f-76ea-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - Myrtle Avenue",
     "text": "Jamaica Avenue, north side, between Myrtle Avenue and 117th Street, viewing west.\n\nP. L. Sperr\n\nAugust 22, 1932\n",
@@ -36,9 +78,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "726971f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726971f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/816811f0-c558-012f-76ea-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - Myrtle Avenue",
     "text": "Jamaica Avenue, north side, between Myrtle Avenue and 117th Street, viewing west.\n\nP. L. Sperr\n\nAugust 22, 1932\n",
@@ -53,9 +116,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Lefferts Boulevard"
+      },
+      "source": "Queens: Lefferts Boulevard - Jamaica Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "727208f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727208f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de789760-c558-012f-c405-58d385a7bc34",
     "original_title": "Queens: Lefferts Boulevard - Jamaica Avenue",
     "text": "Lefferts Boulevard, at the N.E. corner of Jamaica Avenue, the latter being on the extreme right with the subway \"El\" thereon. The building first appears on a 1909 map.\n\nP. L. Sperr\nAugust 22, 1932\n",

@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "71st Street",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 71st Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "726390f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726390f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5ca9210-c557-012f-c523-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 71st Street",
     "text": "Cooper Ave., north side, west from 71st Street, showing at the corner Theodore Zeb's house. Beyond the row of houses is seen the steeple of the Church of Annunciation (R.C.)\n\nEugene L. Armbruster Collection.\n\nMay 1923.\n",

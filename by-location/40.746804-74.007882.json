@@ -2,9 +2,31 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "20th Street"
+      },
+      "source": "Manhattan: 11th Avenue - 20th Street",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "710597f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710597f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores",
+          "Freight terminals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd67f180-c53e-012f-78a5-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 20th Street",
     "text": "11th Avenue, 20th to 21st West.(Before Reconstruction).\n?  June 9, 1918.\n",

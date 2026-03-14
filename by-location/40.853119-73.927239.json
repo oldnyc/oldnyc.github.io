@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "189th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 189th Street",
+      "technique": "title-cross"
+    },
     "height": 339,
     "id": "716373f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716373f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/221a8480-c548-012f-70a9-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 189th Street",
     "text": "Amsterdam Avenue, west side, from 189th to 190th Streets.\n\nAbout 1928\n",

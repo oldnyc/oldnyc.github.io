@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Avenue",
+        "str2": "East 5th Street"
+      },
+      "source": "18th Avenue and East 5th Street",
+      "technique": "gpt"
+    },
     "height": 475,
     "id": "732676f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732676f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/835d4330-c561-012f-e1bd-58d385a7bc34",
     "text": "18th Avenue, east side, at East 5th Street, showing Public School No. 134.\nBoard of Education of the City of New York  Early 1930's\n",
     "text_source": "gpt",

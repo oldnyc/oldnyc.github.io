@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "188th Street",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "Queens - 188th Street - Horace Harding Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558443",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558443.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bloomingdales receiving department"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Department stores",
+          "Historic buildings",
+          "Loading docks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70c0caa0-c5ed-012f-5ad4-58d385a7bc34",
     "text": null,
     "text_source": null,

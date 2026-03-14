@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 157,
+        "street": "Greene Street"
+      },
+      "source": "157 Greene Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Greene Avenue",
+        "str2": "Mansion Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Greene Avenue",
+        "str2": "Mansion Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 428,
     "id": "704706f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704706f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3c779d0-c535-012f-c402-58d385a7bc34",
     "original_title": "Brooklyn: Greene Avenue - Mansion Avenue",
     "text": "Greene st. no.157 (Greenpoint)\nc.1930\nLaddie Z. Sajor, photographer\n",

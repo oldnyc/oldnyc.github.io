@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 2nd St",
+        "str2": "E. Houston St"
+      },
+      "source": "E. 2nd St and E. Houston St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985075",
     "image_url": "https://images.nypl.org/?id=3985075&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd6d5110-c5d7-012f-1e1a-58d385a7bc34",
     "text": null,
     "text_source": null,

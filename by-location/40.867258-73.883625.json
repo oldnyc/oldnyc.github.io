@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-06-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bedford Park Boulevard",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: Webster Avenue - Bedford Park Boulevard",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702048f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702048f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cf94d80-c531-012f-2e98-58d385a7bc34",
     "original_title": "Bronx: Webster Avenue - Bedford Park Boulevard",
     "text": "2955-2959 Webster Avenue, adjoining the N.W. corner of Bedford Park Boulevard.\n\nJune 16, 1938.\n\nP. L. Sperr\n",
@@ -22,9 +40,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bedford Park Boulevard",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: Webster Avenue - Bedford Park Boulevard",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702049f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702049f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d556900-c531-012f-52a3-58d385a7bc34",
     "original_title": "Bronx: Webster Avenue - Bedford Park Boulevard",
     "text": "2985 to 2991 (left to right) Webster Avenue, west side, between Bedford Park Boulevard and E. 201st Street, as seen from underneath the Third Avenue Elevated structure.\n\nJune 16, 1938.\n\nP. L. Sperr\n",
@@ -39,9 +81,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bedford Park Blvd",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bedford Park Blvd and Webster Avenue",
+      "technique": "gpt"
+    },
     "height": 481,
     "id": "1516923-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1516923-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Bedford Park Blvd. (Bronx), and Webster Avenue, building (front and side) and street"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a664c7a0-c5cf-012f-dbac-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Tompkins Place"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Tompkins Place",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704004f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704004f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87d84e40-c534-012f-2a7c-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Tompkins Place",
     "text": "DeKalb Ave., no.665, & westward, Brooklyn. August 30, 1941 P. L. Sperr, photographer.",

@@ -2,9 +2,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "135th Street (East)",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "Bronx: 135th Street (East) - Lincoln Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "700042f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700042f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)",
+          "Triborough Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridge construction",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b47268d0-c52e-012f-6628-58d385a7bc34",
     "original_title": "Bronx: 135th Street (East) - Lincoln Avenue",
     "text": "East 135th Street, east from (No. 289), but not including Lincoln Ave., showing the clearance between East 135th and East 134th Streets which is being constructed into the westerly approach to the Triborough Bridge. In the background appears the Third Ave. Elevated structure between Alexander and Willis Aves.\n\nJuly 29, 1937.\n\nP. L. Sperr.\n",
@@ -19,9 +46,39 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "135th Street (East)",
+        "str2": "Lincoln Avenue"
+      },
+      "source": "Bronx: 135th Street (East) - Lincoln Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700052f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700052f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Harlem River (N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Triborough Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Buildings",
+          "Railroad bridges",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8a99d60-c52e-012f-b0e8-58d385a7bc34",
     "original_title": "Bronx: 135th Street (East) - Lincoln Avenue",
     "text": "East 135th Street (right), west from Lincoln Ave. (foreground), showing the clearance on both sides of the street which is being constructed into the westerly approach to the Triborough Bridge. In the background appears the New York Central Railroad bridge across the\nHarlem River.\nJuly 29, 1937.\nP. L. Sperr.\n",

@@ -2,9 +2,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Beekman Street - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716663f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716663f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Postal service"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9be96660-c548-012f-277b-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - Pearl Street",
     "text": "99-103 Beekman Street, at, adjoining the S.W. corner of Pearl Street. The view shows the Second and Third Ave., Elevated on Pearl Street.\n\nAbout 1923.\n\nGift of E. M. Jenks.\n",
@@ -19,9 +41,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Pearl Street"
+      },
+      "source": "Manhattan: Beekman Street - Pearl Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "1558399",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558399.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14574e20-c5ed-012f-9539-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Avenue",
+        "str2": "53rd Street"
+      },
+      "source": "Brooklyn: 14th Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "702536f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702536f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48ed8330-c532-012f-c22d-58d385a7bc34",
     "original_title": "Brooklyn: 14th Avenue - 53rd Street",
     "text": "14th Avenue, east side, from 53rd to 54th Streets, showing Public School No. 103.\n\nBoard of Education of the City of New York\nEarly 1930's\n",

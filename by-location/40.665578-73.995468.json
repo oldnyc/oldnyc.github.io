@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1940-07-22"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 629,
+        "street": "3rd Avenue"
+      },
+      "source": "629 3rd Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "188th Street (East)",
+        "str2": "3rd Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "188th Street",
+        "str2": "3rd Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "702264f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702264f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e29d9cb0-c531-012f-f65e-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Avenue - 188th Street (East)",
     "text": "Third Avenue, e.s., n. fr. no. 629, Brooklyn.\nP. L. Sperr, photographer\nJuly 22, 1940\n",

@@ -2,9 +2,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Rapelye Street"
+      },
+      "source": "Brooklyn: Henry Street - Rapelye Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "704852f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704852f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Lutheran churches",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/df31f480-c535-012f-3015-58d385a7bc34",
     "original_title": "Brooklyn: Henry Street - Rapelye Street",
     "text": "Henry Street, at the southwest corner of Rapelye Street, showing Public School No. 142. The view is south on the west side of Henry Street and shows also the Lutheran Church of Our Savior.\n\nBoard of Education of the City of New York early 1930's\n",

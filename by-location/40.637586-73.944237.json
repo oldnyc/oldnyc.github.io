@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "34th Road",
+        "str2": "Lefferts Avenue"
+      },
+      "source": "Brooklyn: Lefferts Avenue - 34th Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705396f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705396f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba7ee210-c536-012f-bd5c-58d385a7bc34",
     "original_title": "Brooklyn: Lefferts Avenue - 34th Road",
     "text": "Lefferts Boulevard. Shown is the All Saints Church.\n\nP. L. Sperr\nJuly 23, 1941\n",

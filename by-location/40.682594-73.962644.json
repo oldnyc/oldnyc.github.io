@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Cambridge Place",
+        "str2": "Fulton Street"
+      },
+      "source": "Brooklyn: Cambridge Place - Fulton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703460f",
     "image_url": "https://images.nypl.org/?id=703460f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac65a800-c533-012f-279b-58d385a7bc34",
     "original_title": "Brooklyn: Cambridge Place - Fulton Street",
     "text": null,

@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Park Avenue",
+        "str2": "Seventy-fourth Street"
+      },
+      "source": "Park Avenue and Seventy-fourth Street",
+      "technique": "gpt"
+    },
     "height": 542,
     "id": "417206",
     "image_url": "https://images.nypl.org/?id=417206&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7e91e20-c611-012f-68ab-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "74th Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: Park Avenue - 74th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722341f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722341f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/884add40-c551-012f-ec4f-58d385a7bc34",
     "original_title": "Manhattan: Park Avenue - 74th Street",
     "text": "Park Avenue, at north east corner of 74th Street.\nThe five-story corner house dates back at least to the 1890's.\nThe apartment house next to it, No. 101 East 74th Street, was built about 1917.\nThis corner lot was the object of a real estate deal in 1926 with the idea of erecting a new building; but nothing came of it.\nJune 8, 1928.\n\nP.L. Sperr, photographer.\n",

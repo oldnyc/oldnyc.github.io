@@ -2,9 +2,47 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 389,
     "id": "734561f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734561f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Harlem River (N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia-Presbyterian Medical Center"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Hospitals",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c3f3d00-c564-012f-2f0b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +56,35 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 469,
     "id": "730758f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730758f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6eb174f0-c55e-012f-9ba1-58d385a7bc34",
     "text": "George Washington Bridge: Three views showing the construction period attendant to this public work that connects Manhattan to New Jersey. The first two views are of the New York approach, while the third is of the Jersey side.\nViews: 1-2 February 1931\nView : 3 August 1929\nGeorge L. Balgue\n",
     "text_source": "site",
@@ -35,9 +99,35 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 466,
     "id": "730758f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730758f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6eb174f0-c55e-012f-9ba1-58d385a7bc34",
     "text": "George Washington Bridge: Three views showing the construction period attendant to this public work that connects Manhattan to New Jersey. The first two views are of the New York approach, while the third is of the Jersey side.\nViews: 1-2 February 1931\nView : 3 August 1929\nGeorge L. Balgue\n",
     "text_source": "site",
@@ -52,9 +142,35 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 445,
     "id": "730758f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730758f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6eb174f0-c55e-012f-9ba1-58d385a7bc34",
     "text": "George Washington Bridge: Three views showing the construction period attendant to this public work that connects Manhattan to New Jersey. The first two views are of the New York approach, while the third is of the Jersey side.\nViews: 1-2 February 1931\nView : 3 August 1929\nGeorge L. Balgue\n",
     "text_source": "site",
@@ -69,9 +185,48 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "162nd Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "734606f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734606f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 162nd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fc52550-c564-012f-04ee-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -86,9 +241,48 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "162nd Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "734606f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734606f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 162nd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fc52550-c564-012f-04ee-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -103,9 +297,48 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "162nd Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "734606f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734606f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 162nd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fc52550-c564-012f-04ee-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -120,9 +353,45 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730759f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730759f-a.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Washington Heights Apartments."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "name": [
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridge construction",
+          "Bridges",
+          "Lighthouses",
+          "Ships",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f3408c0-c55e-012f-2b20-58d385a7bc34",
     "rotation": 90,
     "text": "George Washington Bridge: A northward view up the North (Hudson) River showing the cables and piers of the uncompleted structure. Manhattan is on the right and New Jersey on the left. Note the United States Navy vessels off of Riverside Drive. View No. 2 is a close up of the Manhattan base. Note here, at the left, the small lighthouse on a promontory, the historic significance of which goes back to the Revolution, as it was from here that the chains extended across the River. Apartments seen in the background form the area known as Washington Heights.\n\nMay 10, 1930\n\nGift of W. A. Lucas\n",
@@ -137,9 +406,45 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730759f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730759f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Washington Heights Apartments."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "name": [
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridge construction",
+          "Bridges",
+          "Lighthouses",
+          "Ships",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f3408c0-c55e-012f-2b20-58d385a7bc34",
     "text": "George Washington Bridge: A northward view up the North (Hudson) River showing the cables and piers of the uncompleted structure. Manhattan is on the right and New Jersey on the left. Note the United States Navy vessels off of Riverside Drive. View No. 2 is a close up of the Manhattan base. Note here, at the left, the small lighthouse on a promontory, the historic significance of which goes back to the Revolution, as it was from here that the chains extended across the River. Apartments seen in the background form the area known as Washington Heights.\n\nMay 10, 1930\n\nGift of W. A. Lucas\n",
     "text_source": "gpt",
@@ -153,9 +458,45 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 349,
     "id": "730759f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730759f-c.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Washington Heights Apartments."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New Jersey",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "name": [
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridge construction",
+          "Bridges",
+          "Lighthouses",
+          "Ships",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f3408c0-c55e-012f-2b20-58d385a7bc34",
     "rotation": 90,
     "text": "George Washington Bridge: A northward view up the North (Hudson) River showing the cables and piers of the uncompleted structure. Manhattan is on the right and New Jersey on the left. Note the United States Navy vessels off of Riverside Drive. View No. 2 is a close up of the Manhattan base. Note here, at the left, the small lighthouse on a promontory, the historic significance of which goes back to the Revolution, as it was from here that the chains extended across the River. Apartments seen in the background form the area known as Washington Heights.\n\nMay 10, 1930\n\nGift of W. A. Lucas\n",
@@ -170,9 +511,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "730760f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730760f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge, looking west to the Palisades of New Jersey."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6facf560-c55e-012f-8d8d-58d385a7bc34",
     "text": "(1) The George Washington Bridge, looking west to the Palisades of N.J., while under construction. October 5, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle. October 5, 1930.\n\nP. L. Sperr.\n\n(3) The same, from still another angle. October 5, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -186,9 +555,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "730760f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730760f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge, looking west to the Palisades of New Jersey."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6facf560-c55e-012f-8d8d-58d385a7bc34",
     "text": "(1) The George Washington Bridge, looking west to the Palisades of N.J., while under construction. October 5, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle. October 5, 1930.\n\nP. L. Sperr.\n\n(3) The same, from still another angle. October 5, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -202,9 +599,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 396,
     "id": "730760f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730760f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge, looking west to the Palisades of New Jersey."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6facf560-c55e-012f-8d8d-58d385a7bc34",
     "text": "(1) The George Washington Bridge, looking west to the Palisades of N.J., while under construction. October 5, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle. October 5, 1930.\n\nP. L. Sperr.\n\n(3) The same, from still another angle. October 5, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -218,9 +643,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730761f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730761f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/700ad580-c55e-012f-a254-58d385a7bc34",
     "text": "(1) The George Washington Bridge, while under construction; on the Manhattan side looking west.\n\nOctober 5, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle; showing the Manhattan tower.\n\nOctober 5, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -234,9 +683,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730761f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730761f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/700ad580-c55e-012f-a254-58d385a7bc34",
     "text": "(1) The George Washington Bridge, while under construction; on the Manhattan side looking west.\n\nOctober 5, 1930.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle; showing the Manhattan tower.\n\nOctober 5, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -250,9 +723,49 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street (West)",
+        "str2": "Bryant Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "Bryant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 496,
     "id": "730762f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730762f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 181st Street (West) - Bryant Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/707a1940-c55e-012f-0a40-58d385a7bc34",
     "text": "Four square blocks of modern apartment buildings; sacrificed to make clearance for the Manhattan approach to the George Washington Bridge, at approximately West 181st Street, in Manhattan.\n\nLate 1930.?\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -266,9 +779,39 @@
   {
     "date": "1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730774f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730774f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge from Fort Tryon Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Cliffs",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75f138a0-c55e-012f-3127-58d385a7bc34",
     "text": "(1)\nThe George Washington Bridge, as viewed southwestward across Riverside Drive and the Hudson River, from Fort Tryon Park. This structure which unites the two states, terminates on the far side at Englewood, New Jersey.\n\nJune 22, 1936.\n\nP. L. Sperr.\n(Not a dry mount item).\n\n(2)\nThe same.\n\nJuly 30, 1936.\n\nP. L. Sperr.\n\n(3)\nAn earlier view from approximately the same vantage point, showing the spun cables connecting the pier heads prior to the suspension of the cat-walk.\n\nOctober 5, 1930.\n",
     "text_source": "gpt",
@@ -283,9 +826,39 @@
   {
     "date": "1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "730774f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730774f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge from Fort Tryon Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Cliffs",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75f138a0-c55e-012f-3127-58d385a7bc34",
     "text": "(1)\nThe George Washington Bridge, as viewed southwestward across Riverside Drive and the Hudson River, from Fort Tryon Park. This structure which unites the two states, terminates on the far side at Englewood, New Jersey.\n\nJune 22, 1936.\n\nP. L. Sperr.\n(Not a dry mount item).\n\n(2)\nThe same.\n\nJuly 30, 1936.\n\nP. L. Sperr.\n\n(3)\nAn earlier view from approximately the same vantage point, showing the spun cables connecting the pier heads prior to the suspension of the cat-walk.\n\nOctober 5, 1930.\n",
     "text_source": "gpt",
@@ -300,9 +873,39 @@
   {
     "date": "1930; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730774f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730774f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge from Fort Tryon Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges",
+          "Cliffs",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75f138a0-c55e-012f-3127-58d385a7bc34",
     "text": "(1)\nThe George Washington Bridge, as viewed southwestward across Riverside Drive and the Hudson River, from Fort Tryon Park. This structure which unites the two states, terminates on the far side at Englewood, New Jersey.\n\nJune 22, 1936.\n\nP. L. Sperr.\n(Not a dry mount item).\n\n(2)\nThe same.\n\nJuly 30, 1936.\n\nP. L. Sperr.\n\n(3)\nAn earlier view from approximately the same vantage point, showing the spun cables connecting the pier heads prior to the suspension of the cat-walk.\n\nOctober 5, 1930.\n",
     "text_source": "gpt",
@@ -317,9 +920,46 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Lexington Avenue",
+        "str2": "Park Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 485,
     "id": "730146f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730146f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Grand Central Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83784c80-c55d-012f-490d-58d385a7bc34",
     "text": "A general view of the midtown Manhattan Central Park zone as photographed northwestward from the Chrysler Bldg. In the lower right corner is Lexington Avenue; Park Ave. is towards the center. The tower ornamentation of the Grand Central Bldg. is in the lower left. In the background is the Hudson River, its Jersey shore, and the Geo. Washington Bridge crossing same.\n\nAbout 1931\n\nEwing Galloway\n",
     "text_source": "gpt",
@@ -333,9 +973,51 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 155th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 135th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730763f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730763f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 155th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70f466c0-c55e-012f-bd47-58d385a7bc34",
     "text": "(1)\nLooking north at the George Washington Bridge, from the Fort Lee Ferry.\n\nJuly 31, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same view, taken from dock at foot of West 135th Street, Manhattan.\n\nJuly 31, 1931.\n\nP. L. Sperr.\n",
     "text_source": "site",
@@ -349,9 +1031,51 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 155th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 135th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 406,
     "id": "730763f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730763f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 155th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70f466c0-c55e-012f-bd47-58d385a7bc34",
     "text": "(1)\nLooking north at the George Washington Bridge, from the Fort Lee Ferry.\n\nJuly 31, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same view, taken from dock at foot of West 135th Street, Manhattan.\n\nJuly 31, 1931.\n\nP. L. Sperr.\n",
     "text_source": "site",
@@ -365,9 +1089,45 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "155th Street",
+        "str2": "Hudson River",
+        "technique": "gpt"
+      }
+    ],
     "height": 407,
     "id": "730765f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730765f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 155th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71cc52b0-c55e-012f-36fd-58d385a7bc34",
     "text": "Railroad tracks and ramp to waterfront from about 155th Street, looking north west at the George Washington Bridge.\n\nSeptember 24, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -381,9 +1141,58 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "134th Street (West)",
+        "str2": "178th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "134th Street",
+        "str2": "West",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "178th Street",
+        "str2": "West",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "734591f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734591f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Frank Borick boat-house.",
+        "Manhattan: 134th Street (West) - 178th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Piers & wharves",
+          "Schooners"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8941a180-c564-012f-6c35-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -398,9 +1207,58 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "134th Street (West)",
+        "str2": "178th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "134th Street",
+        "str2": "West",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "178th Street",
+        "str2": "West",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "734591f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734591f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Frank Borick boat-house.",
+        "Manhattan: 134th Street (West) - 178th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Piers & wharves",
+          "Schooners"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8941a180-c564-012f-6c35-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -415,9 +1273,44 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hudson River",
+        "str2": "West 181st Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "730767f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730767f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of the bridge spanning the Hudson River from West 101st Street, Manhattan to Fort Lee Perry, New Jersey."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72a16a00-c55e-012f-1f62-58d385a7bc34",
     "text": "George Washington Bridge, in its majestic span of the Hudson River; from West 181st Street in Manhattan, to Fort Lee in New Jersey; as seen looking west to the Palisades from Manhattan. An added feature of this Bridge, are, the two observation platforms, atop both towers.\n\nAbout 1932.\n\nWurts Brothers.\n\nnot a dry mount item\n",
     "text_source": "gpt",
@@ -431,9 +1324,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 385,
     "id": "730768f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730768f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73205980-c55e-012f-f9bd-58d385a7bc34",
     "text": "An aerial view of George Washington Bridge, east from New Jersey, across to the Bronx. The older Washington Bridge, which spans the Harlem River, may be seen in the background, in the upper right corner.\n\nJanuary 1932.\n\nInternational Photos.\n\nnot a dry mount item\n",
     "text_source": "gpt",
@@ -447,9 +1364,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730769f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730769f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7394e020-c55e-012f-9735-58d385a7bc34",
     "text": "(1) The George Washington Bridge, looking towards New York, from the State line between New York and New Jersey.\n\nSeptember 29, 1932.\n\nP. L. Sperr.\n\n(2) A view emphasising the north side. Apartment houses shown are in the Washington Heights section of Manhattan.\n\nSeptember 29, 1932.\n\nP. L. Sperr.\n(No. 2, not a dry mount item).\n",
     "text_source": "gpt",
@@ -463,9 +1405,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730769f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730769f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7394e020-c55e-012f-9735-58d385a7bc34",
     "rotation": 90,
     "text": "(1) The George Washington Bridge, looking towards New York, from the State line between New York and New Jersey.\n\nSeptember 29, 1932.\n\nP. L. Sperr.\n\n(2) A view emphasising the north side. Apartment houses shown are in the Washington Heights section of Manhattan.\n\nSeptember 29, 1932.\n\nP. L. Sperr.\n(No. 2, not a dry mount item).\n",
@@ -480,9 +1447,42 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730770f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730770f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U.S.S. Northampton."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "name": [
+          "Northampton (Cruiser)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/741b7350-c55e-012f-763b-58d385a7bc34",
     "text": "(1) The Manhattan tower of the George Washington Bridge.\n\nJune 6, 1934.\n\nP. L. Sperr.\n\n(2) The same; showing U.S.S. Northampton at anchor; taken from another angle.\n\nJune 6, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -496,9 +1496,42 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730770f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730770f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U.S.S. Northampton."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Heights (New York, N.Y.)"
+        ],
+        "name": [
+          "Northampton (Cruiser)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/741b7350-c55e-012f-763b-58d385a7bc34",
     "text": "(1) The Manhattan tower of the George Washington Bridge.\n\nJune 6, 1934.\n\nP. L. Sperr.\n\n(2) The same; showing U.S.S. Northampton at anchor; taken from another angle.\n\nJune 6, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -512,9 +1545,42 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730771f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730771f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U.S. Naval Cruisers, Portland and Northampton ; Sailing ship Tusitala."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Northampton (Cruiser)",
+          "Portland (Cruiser)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Bridges",
+          "Piers & wharves",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/748019c0-c55e-012f-35d9-58d385a7bc34",
     "text": "U. S. Naval Cruisers, Portland and Northampton, riding and anchor beneath the majestic span of the George Washington Bridge. The sailing ship is the Tusitala.\n\nJune 6, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -528,9 +1594,39 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 406,
     "id": "730772f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730772f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. Naval Squadron."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "United States. Navy"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74fb5030-c55e-012f-b772-58d385a7bc34",
     "text": "(1) George Washington Bridge, from the north. U.S. Naval Squadron rides at anchor in its shadow.\nJune 8, 1934.\n\nP. L. Sperr.\n\n(2) The same view, from slightly further, to the north.\nJune 8, 1934.\n\nP. L. Sperr.\n\n(3) The same view, from a southern angle.\nJune 6, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -544,9 +1640,39 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "730772f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730772f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. Naval Squadron."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "United States. Navy"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74fb5030-c55e-012f-b772-58d385a7bc34",
     "text": "(1) George Washington Bridge, from the north. U.S. Naval Squadron rides at anchor in its shadow.\nJune 8, 1934.\n\nP. L. Sperr.\n\n(2) The same view, from slightly further, to the north.\nJune 8, 1934.\n\nP. L. Sperr.\n\n(3) The same view, from a southern angle.\nJune 6, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -560,9 +1686,39 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730772f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730772f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. Naval Squadron."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "United States. Navy"
+        ],
+        "topic": [
+          "Bridges",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74fb5030-c55e-012f-b772-58d385a7bc34",
     "text": "(1) George Washington Bridge, from the north. U.S. Naval Squadron rides at anchor in its shadow.\nJune 8, 1934.\n\nP. L. Sperr.\n\n(2) The same view, from slightly further, to the north.\nJune 8, 1934.\n\nP. L. Sperr.\n\n(3) The same view, from a southern angle.\nJune 6, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -576,9 +1732,50 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street (West)",
+        "str2": "Northern Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "Northern Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 490,
     "id": "715790f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715790f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges",
+          "Hoisting machinery",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42a6f780-c547-012f-7ce6-58d385a7bc34",
     "original_title": "Manhattan: 181st Street (West) - Northern Avenue",
     "text": null,
@@ -593,9 +1790,46 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Aven",
+        "str2": "Northern Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Fort Washington Ave",
+        "str2": "Northern Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "719861f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719861f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aaba8600-c54d-012f-cf79-58d385a7bc34",
     "text": "Fort Washington Ave. (foreground) at the S.W. corner of Northern Ave. (right). At this point, Overlook Terrace, both of these thoroughfares lose their identity, the former continuing through Fort Tryon Park as Park Drive. The photographer is viewing southwestward towards the George Washington Bridge from this point at the Park entrance, which would be on the right if seen.\n\nJune 22, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -609,9 +1843,49 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "179th Street",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "179th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730773f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730773f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: 179th Street - Riverside Drive."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/756a5c80-c55e-012f-a526-58d385a7bc34",
     "text": "George Washington Bridge\n179th Street and Riverside Drive, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-4b\nJan. 17, 1936\n\np. 176, Changing New York\n",
     "text_source": "gpt",
@@ -625,9 +1899,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 444,
     "id": "730776f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730776f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76ca86a0-c55e-012f-20db-58d385a7bc34",
     "text": "George Washington Bridge: A set of 4 views of same, taken from several different angles and showing in No. 1, a view westward to the Jersey Palisades; in No. 2, a perspective northward up the River; in No. 3, a visita southward of Manhattan, and in No. 4, the structual steelwork against the Washington Heights area of upper Manhattan.\n\nW.P.A. Photo.\nFederal Writers Project.\n\n(1304 B1 NEG #3400)\n",
     "text_source": "gpt",
@@ -641,9 +1939,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 460,
     "id": "730776f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730776f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76ca86a0-c55e-012f-20db-58d385a7bc34",
     "text": "George Washington Bridge: A set of 4 views of same, taken from several different angles and showing in No. 1, a view westward to the Jersey Palisades; in No. 2, a perspective northward up the River; in No. 3, a visita southward of Manhattan, and in No. 4, the structual steelwork against the Washington Heights area of upper Manhattan.\n\nW.P.A. Photo.\nFederal Writers Project.\n\n(1304 B1 NEG #3400)\n",
     "text_source": "gpt",
@@ -657,9 +1979,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 435,
     "id": "730776f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730776f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76ca86a0-c55e-012f-20db-58d385a7bc34",
     "text": "George Washington Bridge: A set of 4 views of same, taken from several different angles and showing in No. 1, a view westward to the Jersey Palisades; in No. 2, a perspective northward up the River; in No. 3, a visita southward of Manhattan, and in No. 4, the structual steelwork against the Washington Heights area of upper Manhattan.\n\nW.P.A. Photo.\nFederal Writers Project.\n\n(1304 B1 NEG #3400)\n",
     "text_source": "gpt",
@@ -673,9 +2019,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730776f-d",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730776f-d.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76ca86a0-c55e-012f-20db-58d385a7bc34",
     "rotation": 90,
     "text": "George Washington Bridge: A set of 4 views of same, taken from several different angles and showing in No. 1, a view westward to the Jersey Palisades; in No. 2, a perspective northward up the River; in No. 3, a visita southward of Manhattan, and in No. 4, the structual steelwork against the Washington Heights area of upper Manhattan.\n\nW.P.A. Photo.\nFederal Writers Project.\n\n(1304 B1 NEG #3400)\n",
@@ -690,9 +2060,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730777f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730777f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Lighthouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7745eab0-c55e-012f-4b4b-58d385a7bc34",
     "text": "George Washington Bridge: The Manhattan support as viewed southward on the Hudson River. Note the light house at its base. This is the last of its kind left on the island of Manhattan.\n\nJuly 19, 1937.\n\nP. L. Sperr.\n(Not a dry mount item).\n",
     "text_source": "gpt",
@@ -706,9 +2100,49 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "179th Street",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "179th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730778f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730778f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "George Washington Bridge, Riverside Drive and 179th Street, Manhattan.",
+        "Manhattan: Riverside Drive - 179th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77951f60-c55e-012f-1ba1-58d385a7bc34",
     "text": "George Washington Bridge\nRiverside Drive at 179th Street, Manhattan Federal Art Project\n\"Changing New York'\nBerenice Abbott, photographer\n[Note: negative at the Museum of the City of New York]\nCode HI A-4b\nNov. 16, 1937\n",
     "text_source": "site",
@@ -722,9 +2156,47 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "La Salle Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "La Salle Street",
+        "str2": "West 125th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "720824f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720824f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/256d5560-c54f-012f-4284-58d385a7bc34",
     "original_title": "Manhattan: La Salle Place - 125th Street (West)",
     "text": "La Salle Street (left) west from W. 125th Street (right). The 2 story structure at the convergence of these thoroughfares is the McGuire Building. Note the sign over same. View No. 2 emphasizes W. 125th Street and upon which appears the arched span carrying the subway lines at Broadway.\n\nMay 4, 1938.\nViews 1 and 2\n\nP.L. Sperr\n",
@@ -739,9 +2211,47 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "George Washington Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "La Salle Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "La Salle Street",
+        "str2": "West 125th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "720824f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720824f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/256d5560-c54f-012f-4284-58d385a7bc34",
     "original_title": "Manhattan: La Salle Place - 125th Street (West)",
     "text": "La Salle Street (left) west from W. 125th Street (right). The 2 story structure at the convergence of these thoroughfares is the McGuire Building. Note the sign over same. View No. 2 emphasizes W. 125th Street and upon which appears the arched span carrying the subway lines at Broadway.\n\nMay 4, 1938.\nViews 1 and 2\n\nP.L. Sperr\n",
@@ -756,9 +2266,35 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "730779f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730779f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs",
+          "Ships",
+          "estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/780fad90-c55e-012f-ffc3-58d385a7bc34",
     "text": "George Washington Bridge: A set of 2 views southwestward from Dr. Chas. V. Paterno's estate on the east bank of the North (Hudson) River, showing this span connecting Manhattan with Jersey thru a ribbon of steel. The castellated structure at the left is the home of the aforementioned individual and is at this time being razed to provide an apartment site. For views see Cabrini Blvd.\n\nAugust 23, 1938.\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -772,9 +2308,35 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 420,
     "id": "730779f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730779f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs",
+          "Ships",
+          "estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/780fad90-c55e-012f-ffc3-58d385a7bc34",
     "text": "George Washington Bridge: A set of 2 views southwestward from Dr. Chas. V. Paterno's estate on the east bank of the North (Hudson) River, showing this span connecting Manhattan with Jersey thru a ribbon of steel. The castellated structure at the left is the home of the aforementioned individual and is at this time being razed to provide an apartment site. For views see Cabrini Blvd.\n\nAugust 23, 1938.\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -788,9 +2350,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
     "height": 389,
     "id": "730780f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730780f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Night photography"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7889c920-c55e-012f-c1c8-58d385a7bc34",
     "text": "The George Washington Bridge at night as photographed southward from Fort Tryon Park in Manhattan.\n\n1939\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
     "text_source": "gpt",
@@ -804,9 +2390,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington ",
+      "technique": "subjects"
+    },
     "height": 468,
     "id": "1558509",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558509.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fort Washington Park - Hudson River"
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bd3f030-c5ed-012f-dd7a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -820,9 +2434,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.850425,
+        "lng": -73.945942
+      },
+      "source": "Bridges - George Washington Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "178th Street",
+        "str2": "179th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 479,
     "id": "730757f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730757f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e3105e0-c55e-012f-aa24-58d385a7bc34",
     "text": "Rush Construction of World's Longest Suspension Bridge. Right, construction work on one of the piers of the great Hudson River Bridge which will be opened in 1932 at a cost of about 170 million. The Bridge will connect Manhattan(lower right) between 178th Street and 179th Street and Fort Lee, New Jersey(left) where another pier is shown. The distance between the two piers, from which the Bridge will be suspended, is 3,500 feet -- over twice the length of the longest suspension bridge at present\n(Camden-Philadelphia span).\nn.d.  Underwood and Underwood\n",
     "text_source": "site",

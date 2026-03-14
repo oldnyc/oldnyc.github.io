@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "231st Street (East)",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: 231st Street (East) - White Plains Road",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "700348f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700348f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/236464e0-c52f-012f-adc6-58d385a7bc34",
     "original_title": "Bronx: 231st Street (East) - White Plains Road",
     "text": "711-715 East 231st Street, adjoining the N.E. corner of White Plains Road, showing the Wakefield Gables.\n\nAbout 1929.\n\nKnickerbocker Photo Service.\n",

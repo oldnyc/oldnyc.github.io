@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Clarence Avenue",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Bronx: Clarence Avenue - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "700775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb9a9b90-c52f-012f-8bad-58d385a7bc34",
     "original_title": "Bronx: Clarence Avenue - Lafayette Avenue",
     "text": "918 Clarence Ave., east side, between Lafayette and Barclay Aves.\n\nAbout 1927.\n\nW. B. Vernam.\n",

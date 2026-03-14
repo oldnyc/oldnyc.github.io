@@ -2,9 +2,34 @@
   {
     "date": "1909; 1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708339f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708339f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52af0b60-c53b-012f-6845-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street (East)",
     "text": "A view of the East 12th Street side of No. 53 Fifth Ave; the first home of the Institute of Musical Art, now the Juilliard School, which stood directly at the N.E. corner. Formerly the home of James Lenox.\nMay 29, 1909. Neg #538\nWalter L. Bogert.\n",
@@ -20,9 +45,34 @@
   {
     "date": "1909; 1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708339f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708339f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52af0b60-c53b-012f-6845-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street (East)",
     "text": "A view of the East 12th Street side of No. 53 Fifth Ave; the first home of the Institute of Musical Art, now the Juilliard School, which stood directly at the N.E. corner. Formerly the home of James Lenox.\nMay 29, 1909. Neg #538\nWalter L. Bogert.\n",
@@ -38,9 +88,35 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "12th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 467,
     "id": "708301f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708301f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Washington Arch ; [Hotel Brevoort]"
+      ],
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "Greenwich Village (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/452e9440-c53b-012f-078e-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Washington Square and 12th Street]",
     "text": "North on Fifth Avenue from Washington Arch. White building on the right is the hotel Brevoort.\nAbout 1910.\nPhotograph by Wurts Brothers.\n\nTHE NEW YORK\nPUBLIC LIBRARY\nAstor, Lenox and\nTilden Foundations\n\n315G\nLOCAL HISTORY\nAND GENEOLOGY\n",
@@ -55,9 +131,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.734679531027915,
+        "lng": -73.99444609880446
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 219,
     "id": "1113229",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113229.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Architectural elements",
+          "Buildings",
+          "Streets",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68e1b2a0-c6ca-012f-d6e0-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -71,9 +172,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.734781151736236,
+        "lng": -73.99463385343552
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 215,
     "id": "1113230",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113230.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Carts & wagons",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/694710a0-c6ca-012f-a3f9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -87,9 +212,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "708338f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708338f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/523773b0-c53b-012f-547f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street",
     "text": "(1)\nFifth Avenue, north east corner 12th Street. Neg # 537\n\n(2)\nFifth Avenue north east corner 12th Street.\n\nUrbrock Collection. March 26, 1911.\n",
@@ -104,9 +253,33 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 495,
     "id": "708338f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708338f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/523773b0-c53b-012f-547f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street",
     "text": "(1)\nFifth Avenue, north east corner 12th Street. Neg # 537\n\n(2)\nFifth Avenue north east corner 12th Street.\n\nUrbrock Collection. March 26, 1911.\n",
@@ -124,9 +297,27 @@
     "dates_from_text": [
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711132f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711132f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d86b41c0-c53f-012f-d120-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - 5th Avenue",
     "text": "50 West 12th Street, south side, between Fifth and Sixth Avenues. As it looked before alterations were made. About 1915.",
@@ -141,9 +332,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708341f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708341f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5387cfc0-c53b-012f-cb8b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street",
     "text": "Fifth Avenue at N.W. corner of 12th Street, showing MacMillan Building.\n\nAbout 1924.\n",
@@ -158,9 +373,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708342f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708342f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Publishers and publishing",
+          "Publishing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53ff14b0-c53b-012f-772e-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street (West)",
     "text": "60-62 Fifth Ave., at the N.W.corner of West 12th Street, showing the building of the MacMillan Company, a publishing house.  About 1928.",
@@ -175,9 +414,32 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 492,
     "id": "708335f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708335f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Art clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50d17b50-c53b-012f-cd0d-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street (East)",
     "text": "51, 49 and 47 Fifth Avenue, adjoining and south of the S.E. corner of E. 12th Street. The brownstone structure at the right is: Salmagundi Club, formerly of No. 49 West 22nd Street. This group, organized in 1871, and incorporated in 1880 for \"the promotion of social intercourse among artists, and for the advancement of art\" is made up of painters, draughtsman, sculptors, and crayon artists.\n\nApril 1925.\n\nBrown Bros.\n",
@@ -195,9 +457,27 @@
     "dates_from_text": [
       "1928-06-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "708334f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708334f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/507439f0-c53b-012f-0fac-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street",
     "text": "S.E. Corner Fifth Avenue and 12th Street.\nJune 16, 1928.\n\nP.L. Speer, Photographer.     Net. # 534\n\nTHE NEW YORK\nPUBLIC LIBRARY\nAstor, Lenox and\nTilden Foundations\n",
@@ -212,9 +492,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "711135f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711135f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9f99270-c53f-012f-b733-58d385a7bc34",
     "original_title": "Manhattan: 12th Street - 5th Avenue",
     "text": "(1)\n12th Street, from Fifth to Sixth Avenues, south side. The church on Fifth Avenue, between 12th and 11th Streets, is the First Presbyterian Church. May 19, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, giving a better view of the north side. June 11, 1933.\n\nP. L. Sperr.\n",
@@ -229,9 +530,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "711135f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711135f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9f99270-c53f-012f-b733-58d385a7bc34",
     "original_title": "Manhattan: 12th Street - 5th Avenue",
     "text": "(1)\n12th Street, from Fifth to Sixth Avenues, south side. The church on Fifth Avenue, between 12th and 11th Streets, is the First Presbyterian Church. May 19, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, giving a better view of the north side. June 11, 1933.\n\nP. L. Sperr.\n",
@@ -246,9 +568,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 12th St.",
+        "str2": "Fifth Ave"
+      },
+      "source": "E. 12th St. and Fifth Ave",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984456",
     "image_url": "https://images.nypl.org/?id=3984456&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c2ddfd0-c5d7-012f-74a3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -262,9 +608,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 382,
     "id": "711130f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711130f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Facade, 14 West 12th Street, Manhattan.",
+        "First Presbyterian Church in The City of New York."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d77a4f10-c53f-012f-e2aa-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - [5th Avenue]",
     "text": "14 West 12th Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\nNet. no. 146\n[Note: negative at the Museum of the City of New York]\nCode | A-2\nJuly 16, 1936\n",
@@ -279,9 +647,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711133f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711133f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9225390-c53f-012f-bfa6-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - 5th Avenue",
     "text": "West 12th Street, south side, east from a point to the west of Fifth Avenue and a cross same, showing the northerly side of the fenced Fifth Avenue plot of the First Presbyterian Church. These rails are of wood, though they give the appearance of being iron bars.\nThe apartment building seen is at the south east corner of the Avenue and was erected subsequent to 1922.\n\nP. L. Sperr,\n\nJune 15, 1938.\n",
@@ -296,9 +685,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711134f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711134f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d99f72b0-c53f-012f-090b-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - 5th Avenue",
     "text": null,
@@ -313,9 +723,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 12th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 60 Fifth Avenue - East 12th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557863",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557863.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The Macmillan Company Building"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Macmillan Company"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Publishers and publishing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7de9e940-c5ec-012f-a154-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -329,9 +770,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "708336f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708336f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/514c5930-c53b-012f-dbdc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street",
     "text": "n.e. cor. 12th Street & 5th Avenue\n\nWhere the Lenox Library was started.\n\nE.M. Jenks.    Neg. # 536\n",
@@ -346,9 +805,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 428,
     "id": "708337f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708337f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/51d5c230-c53b-012f-9ca6-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 12th Street",
     "text": "5th Ave. and 12th St. S.E. corner",
@@ -363,9 +840,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 12th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711131f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711131f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "24 West 12th Street ; Scott (Winfield) House."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7f72c70-c53f-012f-db8d-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - [5th Avenue]",
     "text": "\"Residence of General Winfield Scott\"\nW. 12th Street, No.24\n\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",

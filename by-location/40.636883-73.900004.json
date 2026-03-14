@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1933-07-06"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1384,
+        "street": "East 92nd Street"
+      },
+      "source": "1384 East 92nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "92nd Street (East)",
+        "str2": "Stillwell Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 92nd Street",
+        "str2": "Stillwell Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "702921f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702921f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dddff160-c532-012f-3bb7-58d385a7bc34",
     "original_title": "Brooklyn: 92nd Street (East) - Stillwell Place",
     "text": "1384 East 92nd Street, at the S.W. corner of Stillwell Place, Stillwell Place being the narrow lane in the foreground.\n\nJuly 6, 1933.\n\nP. L. Sperr.\n",

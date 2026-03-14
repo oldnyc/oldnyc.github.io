@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Clove Road",
+        "str2": "Disosway Place"
+      },
+      "source": "Richmond: Clove Road - Disosway Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728748f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728748f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40ca94b0-c55b-012f-db6d-58d385a7bc34",
     "original_title": "Richmond: Clove Road - Disosway Place",
     "text": "429 Clove Road, at the head of Disosway Place. The maps of 1874 to 1907 show it to have been the Disosway House. It was, according to P. L. Sperr, the Adler residence at the date of the photograph.\n\nMay 16, 1932.\n\nP. L. Sperr.\n",

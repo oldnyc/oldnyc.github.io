@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "164th Street (East)",
+        "str2": "River Avenue"
+      },
+      "source": "Bronx: River Avenue - 164th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "701516f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701516f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Mullaly Park (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9ed1f60-c530-012f-fc61-58d385a7bc34",
     "original_title": "Bronx: River Avenue - 164th Street (East)",
     "text": "Mullaly Park: A view eastward across the section of the park which is located between East 165th (left) and East 164th Streets. Also shown is the elevated structure of the Woodlawn subway line on River Ave. The vantage-point is the Park Plaza Building on the west side of Jerome Ave.\n\nWorks Progress Administration.\nFederal Writers' Project photo.\n\n1936.\n",

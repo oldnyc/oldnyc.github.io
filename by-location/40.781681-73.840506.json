@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "128th Street",
+        "str2": "20th Avenue"
+      },
+      "source": "Queens: 20th Avenue - 128th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725092f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725092f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8a4d1b0-c555-012f-3686-58d385a7bc34",
     "original_title": "Queens: 20th Avenue - 128th Street",
     "text": "20th Avenue, at 128th Street, viewing eastward across the Long Island Railroad crossing. The dwellings in the background are on 29th Street.\n\nP. L. Sperr\nMarch 3, 1932\n",

@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 108,
+        "street": "W 43rd Street"
+      },
+      "source": "43rd Street (West) #108",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507933-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507933-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1a50430-c5ce-012f-3e43-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 229,
+        "street": "West 43rd Street"
+      },
+      "source": "229 West 43rd Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "732259f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732259f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 43rd Street (West) ; 229 West 43rd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1f3da00-c560-012f-27b2-58d385a7bc34",
     "text": "\"The Times\" Annex, at No. 229 West 43rd Street, as it appeared from 1913 to 1923.\n\nGift of \"The New York Times\",\n\nPhot.  Dec. 20, 112\n",
     "text_source": "gpt",
@@ -34,9 +80,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 229,
+        "street": "West 43rd Street"
+      },
+      "source": "229 West 43rd Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "732260f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732260f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 43rd Street (West) ; 229 West 43rd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e257fa40-c560-012f-162d-58d385a7bc34",
     "text": "\"The Times\" Annex, at 229 West 43rd Street, again enlarged in 1923, showing it as it appeared from 1923 to 1931.\n\nGift of \"The New York Times\".\n",
     "text_source": "gpt",
@@ -50,9 +122,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 229,
+        "street": "West 43rd Street"
+      },
+      "source": "229 West 43rd Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "732261f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732261f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 43rd Street (West) ; 229 West 43rd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2ce7070-c560-012f-4295-58d385a7bc34",
     "text": "The most recent addition to \"The Times\" Annex, at No. 229 West 43rd Street, made in 1931, and as it appears to-day.\nGift of \"The New York Times\".\n",
     "text_source": "gpt",

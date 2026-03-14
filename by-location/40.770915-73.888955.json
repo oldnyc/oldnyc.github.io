@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "21st Avenue",
+        "str2": "81st Street"
+      },
+      "source": "Queens: 81st Street - 21st Avenue",
+      "technique": "title-cross"
+    },
     "height": 452,
     "id": "727490f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727490f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "North Beach (New York, N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f1f57b0-c559-012f-b8ca-58d385a7bc34",
     "original_title": "Queens: 81st Street - 21st Avenue",
     "text": "North Beach Amusement Park, at 81st Street, north of Twenty-first Avenue. At the right is the swimming pool. Beyond it is a section of the Rapelye house. All buildings in this area were gone by November 1933.\n\nMay 1929.\n\nEugene L. Armbruster Collection\n",

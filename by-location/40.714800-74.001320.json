@@ -2,9 +2,33 @@
   {
     "date": "1919; 1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Mission Place",
+        "str2": "Worth Street"
+      },
+      "source": "Manhattan: Worth Street - Mission Place",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "724836f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724836f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Worth Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86480230-c555-012f-922e-58d385a7bc34",
     "original_title": "Manhattan: Worth Street - Mission Place",
     "text": null,
@@ -20,9 +44,33 @@
   {
     "date": "1919; 1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Mission Place",
+        "str2": "Worth Street"
+      },
+      "source": "Manhattan: Worth Street - Mission Place",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "724836f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724836f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Worth Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86480230-c555-012f-922e-58d385a7bc34",
     "original_title": "Manhattan: Worth Street - Mission Place",
     "text": null,

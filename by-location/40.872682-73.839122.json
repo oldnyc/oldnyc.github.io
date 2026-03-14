@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hammersley Avenue",
+        "str2": "Wickham Avenue"
+      },
+      "source": "Bronx: Hammersley Avenue - Wickham Avenue",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "701224f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701224f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a79c800-c530-012f-59f9-58d385a7bc34",
     "original_title": "Bronx: Hammersley Avenue - Wickham Avenue",
     "text": "1801 Hammersley ave., north side, between Wickham and Bruner Aves.\n\nAbout 1930.\n\nW. B. Vernam.\n",

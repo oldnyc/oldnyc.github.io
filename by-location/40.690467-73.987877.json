@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Livingston Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: Livingston Street - Smith Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705486f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705486f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ded1cd40-c536-012f-152e-58d385a7bc34",
     "original_title": "Brooklyn: Livingston Street - Smith Street",
     "text": "(1)\n155-169 Livingston Street, north side, from Smith Street to Gallatin Place, as seen across automobile parking lot on Smith Street.\nApril 7, 1932.\n\nP. L. Sperr.\n\n(2)\nThe same, from a different angle.\nApril 7, 1932.\n\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Livingston Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: Livingston Street - Smith Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "705486f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/705486f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ded1cd40-c536-012f-152e-58d385a7bc34",
     "original_title": "Brooklyn: Livingston Street - Smith Street",
     "rotation": 90,
@@ -40,9 +82,27 @@
     "dates_from_text": [
       "1942-07-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Livingston Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: Smith Street - Livingston Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "706801f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706801f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da548600-c538-012f-3a9c-58d385a7bc34",
     "original_title": "Brooklyn: Smith Street - Livingston Street",
     "text": "Smith and Livingston Sts., n.e. cor., B'klyn.\nJuly 7, 1942\nP. L. Sperr, photographer\n",

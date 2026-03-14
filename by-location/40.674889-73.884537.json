@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-09-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Cleveland Street",
+        "str2": "Glenmore Avenue"
+      },
+      "source": "Brooklyn: Glenmore Avenue - Cleveland Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "704632f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704632f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/855229f0-c535-012f-5cb5-58d385a7bc34",
     "original_title": "Brooklyn: Glenmore Avenue - Cleveland Street",
     "text": "Glenmore Avenue, north side, east from Cleveland to Elton Streets.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",

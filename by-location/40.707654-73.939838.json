@@ -2,9 +2,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Montrose Avenue"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Montrose Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703401f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703401f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96386f40-c533-012f-5794-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Montrose Avenue",
     "text": "Bushwick Ave., north from Montrose Ave. The subway station at right foreground, leads to the 14th Street Canarsie Line of the B.M.T.\n\nOctober 25, 1934.\nP.L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "114th Street",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: 114th Street - Jamaica Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725803f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725803f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d68baff0-c556-012f-200c-58d385a7bc34",
     "original_title": "Queens: 114th Street - Jamaica Avenue",
     "text": "114th Street, west side, between Jamaica Avenue and 86th Avenue, showing St. Johns English Lutheran Church.\n\nP. L. Sperr\n\nAugust 22, 1932\n",
@@ -19,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "114th Street",
+        "str2": "Jamaica Avenue"
+      },
+      "source": "Queens: 114th Street - Jamaica Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725804f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725804f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d6e8e810-c556-012f-553d-58d385a7bc34",
     "original_title": "Queens: 114th Street - Jamaica Avenue",
     "text": "114th Street, east side, between Jamaica Avenue and 86th Avenue, showing the Masonic Temple of Richmond Hill.\n\nP. L. Sperr\n\nAugust 22, 1932\n",

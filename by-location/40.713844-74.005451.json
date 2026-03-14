@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 51,
+        "street": "Chambers Street"
+      },
+      "source": "51 Chambers Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1557881",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557881.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Emigrant Industrial Savings Bank"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e1163e0-c5ed-012f-850d-58d385a7bc34",
     "text": null,
     "text_source": null,

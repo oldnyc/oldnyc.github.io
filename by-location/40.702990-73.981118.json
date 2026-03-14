@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-07-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Evans Street",
+        "str2": "Hudson Avenue"
+      },
+      "source": "Brooklyn: Evans Street - Hudson Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "704150f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704150f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c28f8bf0-c534-012f-7dbf-58d385a7bc34",
     "original_title": "Brooklyn: Evans Street - Hudson Avenue",
     "text": "16-24 Evans Street, south side, between Hudson ave., and U.S. Navy Yard; as seen from the end of Little Street. No. 16 is at the extreme right.\n\nJuly 31, 1934.\n\nP. L. Sperr.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hudson Ave",
+        "str2": "Water St"
+      },
+      "source": "Hudson Ave and Water St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984816",
     "image_url": "https://images.nypl.org/?id=3984816&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85388540-c5d7-012f-ef2f-58d385a7bc34",
     "text": null,
     "text_source": null,

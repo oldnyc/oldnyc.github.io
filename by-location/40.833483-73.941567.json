@@ -6,9 +6,27 @@
       "1932",
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "158th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 158th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715694f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715694f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1eb50200-c547-012f-6058-58d385a7bc34",
     "original_title": "Manhattan: 158th Street (West) - Amsterdam Avenue",
     "text": "(1)\n519-521 West 158th Street, north side, west of Amsterdam Avenue. Both are three-story frame houses.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n517 to 513 West 158th Street, north side, west of Amsterdam Ave. Shown are 3 frame houses, No. 517 having a one story extension at its front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -28,9 +46,27 @@
       "1932",
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "158th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 158th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715694f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715694f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1eb50200-c547-012f-6058-58d385a7bc34",
     "original_title": "Manhattan: 158th Street (West) - Amsterdam Avenue",
     "text": "(1)\n519-521 West 158th Street, north side, west of Amsterdam Avenue. Both are three-story frame houses.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n517 to 513 West 158th Street, north side, west of Amsterdam Ave. Shown are 3 frame houses, No. 517 having a one story extension at its front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -46,9 +82,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "158th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 158th Street",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "716341f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716341f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/156dd140-c548-012f-b602-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 158th Street",
     "text": "Amsterdam Ave., north from West 158th Street.\n\nAugust 27, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

@@ -2,9 +2,34 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "18th Street"
+      },
+      "source": "Manhattan: 11th Avenue - 18th Street",
+      "technique": "title-cross"
+    },
     "height": 429,
     "id": "710594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710594f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Cash registers",
+          "Scales"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fc0739a0-c53e-012f-68b8-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 18th Street",
     "text": "11th Avenue, 18th to 19th Streets. (Before Reconstruction).",

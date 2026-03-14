@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "185th Street",
+        "str2": "Bassford Avenue"
+      },
+      "source": "Bronx: 185th Street - Bassford Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700282f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700282f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c306cd0-c52f-012f-9a23-58d385a7bc34",
     "original_title": "Bronx: 185th Street - Bassford Avenue",
     "text": "185th ST. s.e. cor. & Bassford Ave.\n8-27-1942\nP.L.Sperr\n",

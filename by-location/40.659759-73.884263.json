@@ -2,9 +2,50 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 876,
+        "street": "Hendrix Street"
+      },
+      "source": "876 Hendrix Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Jerome Street",
+        "str2": "Stanley Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Jerome Street",
+        "str2": "Stanley Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Stanley Avenue",
+        "str2": "Warwick Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "705128f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705128f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vegetable gardens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4dc74a10-c536-012f-8631-58d385a7bc34",
     "original_title": "Brooklyn: Jerome Street - Stanley Avenue",
     "text": "Jerome Street (center of view), between Stanley (left) Ave. and Linden Boulevard (right), showing at the left background No. 876 Hendrix Street and at the right foreground, rear view, No. 755 Jerome Street. This view also shows a vegetable garden at the N.W. corner of Warwick Street and Stanley Ave.\n\nJuly 5, 1934.\n\nP. L. Sperr.\n",

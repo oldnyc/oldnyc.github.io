@@ -2,9 +2,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Huntington Street"
+      },
+      "source": "Brooklyn: Henry Street - Huntington Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "704858f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704858f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e1795f00-c535-012f-31bd-58d385a7bc34",
     "original_title": "Brooklyn: Henry Street - Huntington Street",
     "text": "Henry Street, east side, north from Huntington Street. The buildings are being torn down for the widening of Hamilton Avenue--one block to the east --and its reconstruction into a link in the Belt Parkway system of roads.\n\nOctober, 1940\n\nP. L. Sperr\n",
@@ -22,9 +45,27 @@
     "dates_from_text": [
       "1940-10-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Huntington Street"
+      },
+      "source": "Brooklyn: Huntington Street - Henry Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31ca2750-c536-012f-0e7d-58d385a7bc34",
     "original_title": "Brooklyn: Huntington Street - Henry Street",
     "text": "75 Huntington Street, adjoining the N. W. corner of Henry Street, showing a very old frame house, probably dating back to pre-Revolutionary days.\n\nP. L. Sperr\n\nOctober 23, 1940\n",

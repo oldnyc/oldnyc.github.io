@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 105,
+        "street": "Greenway South"
+      },
+      "source": "105 Greenway South",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558440",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558440.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Frank A. Erickson residence interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Houses",
+          "Interiors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f6f1df0-c5ed-012f-b947-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,47 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Delafield Avenue",
+        "str2": "Greenleaf Avenue"
+      },
+      "source": "Delafield Avenue and Greenleaf Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Delafield Avenue",
+        "str2": "Greenfield Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Delafield Avenue",
+        "str2": "Greenfield Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "728789f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728789f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5192f7c0-c55b-012f-e4c4-58d385a7bc34",
     "original_title": "Richmond: Delafield Avenue - Greenfield Avenue",
     "text": "828 Delafield Ave., south side, between Greenleaf Ave. and Manor Road, showing the Blessed Sacrament School.\n\nMay 16, 1932.\n\nP. L. Sperr.\n",

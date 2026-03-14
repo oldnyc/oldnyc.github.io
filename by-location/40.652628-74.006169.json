@@ -2,9 +2,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "39th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 39th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702338f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702338f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fef43ee0-c531-012f-d13e-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 39th Street",
     "text": "4th Avenue, west side, south from 39th Street. Extending from 40th to 41st Streets is Public School No. 136. At 42nd Street is St. Michaels Roman Catholic Church.\n\nSeptember 8, 1940\n\nP. L. Sperr\n",
@@ -19,9 +44,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "39th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 39th Street - 4th Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702743f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702743f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/989094b0-c532-012f-cc82-58d385a7bc34",
     "original_title": "Brooklyn: 39th Street - 4th Avenue",
     "text": "39th Street, west from near Fourth Avenue toward the upper New York Bay. On Third Avenue is the B. M. T. elevated structure. The street-car tracks lead to the ferry which operates from the foot of 39th Street to St. George, Staten Island.\n\nSeptember 8, 1940\n\nP. L. Sperr\n",

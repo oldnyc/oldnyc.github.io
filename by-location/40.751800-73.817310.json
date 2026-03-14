@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Holly Avenue",
+        "str2": "Robinson Street"
+      },
+      "source": "Queens: Holly Avenue - Robinson Street",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "726895f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726895f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6308a860-c558-012f-4498-58d385a7bc34",
     "original_title": "Queens: Holly Avenue - Robinson Street",
     "text": "Holly Avenue, north side, from Robinson to Union Streets, showing Public School No. 24. This structure replaced an old one and a half-story frame schoolhouse.\n\nBoard of Education of the City of New York about 1931\n",

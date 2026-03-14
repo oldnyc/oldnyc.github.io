@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Drew Street",
+        "str2": "Glenmore Avenue"
+      },
+      "source": "Brooklyn: Drew Street - Glenmore Avenue",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "704027f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704027f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/916a9d10-c534-012f-05a2-58d385a7bc34",
     "original_title": "Brooklyn: Drew Street - Glenmore Avenue",
     "text": "533-543 Drew St., east side, south of Glenmore Ave. On the right is seen the beginning of a foundation for a new house. 533 is the house on the extreme left.\n\nNovember 22, 1924.\n",

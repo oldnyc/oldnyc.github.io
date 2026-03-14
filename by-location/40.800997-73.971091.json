@@ -2,9 +2,33 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 104th Street",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "722749f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722749f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c2fa240-c552-012f-e0b2-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 104th Street",
     "text": "Riverside Drive at 104th St., looking north.\nB. Hufnagel, photographer.\n\nApril 4, 1879\ncloudy & windy\n\nDeposited with NYPL by NYC Park Dept. 1931\n",
@@ -22,9 +46,30 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 104th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718422f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718422f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "311-315 West 104th Street ; West End Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0bdbb8d0-c546-012f-9511-58d385a7bc34",
     "original_title": "Manhattan: 104th Street (West) - Riverside Drive",
     "text": "315-311 West 104th Street, north side, between Riverside Drive and West End Avenue. About 1913.",
@@ -39,9 +84,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 104th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722750f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722750f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c7e6bf0-c552-012f-81e4-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 104th Street",
     "text": "Riverside Drive, east side, from but not including 104th to but not including 105th Streets.\n1925.\n",
@@ -56,9 +123,48 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street",
+        "str2": "Riverside Park"
+      },
+      "source": "104th Street and Riverside Park",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "104th Street",
+        "str2": "216th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 204,
     "id": "722919f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722919f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "George Washington Bridge (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75a84670-c552-012f-d94d-58d385a7bc34",
     "original_title": "Manhattan: 104th Street - 216th Street",
     "text": "Riverside Park at 104th Street. View, southward in No. 1 and northward in No. 2, showing the marginal lands that will be landscaped by the Park Department in 1936-37 as a part of the West Side Improvement Project. In the first, at West 96th Street appears the well known U.S.S. Illinois, while the second shows Grants Tomb, the George Washington Bridge and the Riverside Memorial Church in its background.\n\nJune 17, 1934.\nView 2:--June 11, 1934.\n\nP. L. Sperr.\n",

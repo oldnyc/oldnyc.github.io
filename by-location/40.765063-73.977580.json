@@ -2,9 +2,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 109,
+        "street": "West 57th Street"
+      },
+      "source": "109 West 57th Street",
+      "technique": "gpt"
+    },
     "height": 493,
     "id": "1558270",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558270.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Steinway Hall"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2327a20-c5ec-012f-a739-58d385a7bc34",
     "text": null,
     "text_source": null,

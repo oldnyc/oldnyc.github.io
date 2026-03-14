@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "173rd Street (West)",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: 173rd Street (West) - Audubon Avenue",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "715773f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715773f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3cf87bc0-c547-012f-6d22-58d385a7bc34",
     "original_title": "Manhattan: 173rd Street (West) - Audubon Avenue",
     "text": null,
@@ -19,9 +40,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "173rd Street (West)",
+        "str2": "Audubon Avenue"
+      },
+      "source": "Manhattan: 173rd Street (West) - Audubon Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715773f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/715773f-b.270.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3cf87bc0-c547-012f-6d22-58d385a7bc34",
     "original_title": "Manhattan: 173rd Street (West) - Audubon Avenue",
     "rotation": 270,

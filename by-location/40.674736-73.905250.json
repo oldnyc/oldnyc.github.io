@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "New York Avenue (East)",
+        "str2": "Powell Street"
+      },
+      "source": "Brooklyn: Powell Street - New York Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "706311f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706311f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e696600-c538-012f-f1ea-58d385a7bc34",
     "original_title": "Brooklyn: Powell Street - New York Avenue (East)",
     "text": "20-26 Powell Street, west side, between East New York and Liberty Aves, showing a frame structure, with the \"for sale\" sign, which once housed the Loretto Day Nursery.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

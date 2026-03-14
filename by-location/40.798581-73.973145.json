@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1905"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "100th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 100th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "722740f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722740f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28ed25c0-c552-012f-b4aa-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 100th Street (West)",
     "text": "Riverside Drive, north from W. 100th Street, showing private dwellings on the east side of same that face the North (Hudson) River.\n\nAbout 1905\nViews 1,2\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1905"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "100th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 100th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "722740f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722740f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28ed25c0-c552-012f-b4aa-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 100th Street (West)",
     "text": "Riverside Drive, north from W. 100th Street, showing private dwellings on the east side of same that face the North (Hudson) River.\n\nAbout 1905\nViews 1,2\n",
@@ -42,9 +78,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "100th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 100th Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "722741f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722741f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2955daf0-c552-012f-39f9-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 100th Street",
     "text": "Riverside Drive, at the S.E. corner of 100th Street, showing the Home of Peter Doegler, which will soon be demolished to make way for a large apartment house.\n\n1925.\n\nBrown Brothers.\n",
@@ -59,9 +116,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "100th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 100th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722742f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722742f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29b699e0-c552-012f-18ba-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 100th Street",
     "text": "280 Riverside Drive, east side, from and including 100th Street, showing the Firemen's Monument.\nAbout 1925.\n\nIrving Underhill.\n",
@@ -76,9 +154,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 100th Street"
+      },
+      "source": "Manhattan: Riverside Drive - West 100th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558090",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558090.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fireman's Memorial"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5664f680-c5ed-012f-4031-58d385a7bc34",
     "text": null,
     "text_source": null,

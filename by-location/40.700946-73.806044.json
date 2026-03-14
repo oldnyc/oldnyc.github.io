@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "148th Street",
+        "str2": "Archer Avenue"
+      },
+      "source": "Queens: Archer Avenue - 148th Street",
+      "technique": "title-cross"
+    },
     "height": 415,
     "id": "726051f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726051f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ef0a710-c557-012f-c3f7-58d385a7bc34",
     "original_title": "Queens: Archer Avenue - 148th Street",
     "text": "Archer Ave. (formerly Archer Place), east from 148th Street(formerly Tyndall Street).\n\nOctober 1924.\n\nEugene L. Armbruster Collection.\n",

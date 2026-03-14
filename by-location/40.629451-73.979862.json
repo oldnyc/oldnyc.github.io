@@ -2,9 +2,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Avenue",
+        "str2": "47th Street"
+      },
+      "source": "Brooklyn: 18th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "702594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702594f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f1abe50-c532-012f-3990-58d385a7bc34",
     "original_title": "Brooklyn: 18th Avenue - 47th Street",
     "text": "18th Avenue, east side, from 47th to 48th Streets, showing Public School No. 192. The view is north from 48th Street.\n\nBoard of Education of the City of New York October 29, 1924\n",

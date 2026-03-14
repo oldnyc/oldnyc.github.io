@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-01-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "50th Street"
+      },
+      "source": "Manhattan: 50th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae2938e0-c543-012f-71e8-58d385a7bc34",
     "original_title": "Manhattan: 50th Street - 3rd Avenue",
     "text": "50th Street, south side, west from 220 East, east from Third Ave.\nJanuary 24, 1928.\n\nP. L. Sperr.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "50th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - Between 50th and 51st Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708085f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708085f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "828-830 3rd Avenue ; Globe Trotter Antiques."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Antique stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ea2dc680-c53a-012f-357c-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - [Between 50th and 51st Streets]",
     "text": "Globe-Trotter Antiques\n828 Third Avenue\n\nJohn S. Fass, photographer n.d., but probably mid-1940's [appears in 1940's telephone directories]\n",

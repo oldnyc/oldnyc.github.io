@@ -2,9 +2,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Halleck Street",
+        "str2": "Smith Street"
+      },
+      "source": "Brooklyn: Halleck Street - Smith Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "704730f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704730f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Brooklyn Union Gas Company"
+        ],
+        "topic": [
+          "Excavation",
+          "Storage tanks",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad571000-c535-012f-dbf3-58d385a7bc34",
     "original_title": "Brooklyn: Halleck Street - Smith Street",
     "text": "Halleck Street, north side, between Smith Street and Gowanus Canal. The buildings at the right, are the Bowne Merton Stores, at 611 Smith Street. In the background on 13th Street, are the Brooklyn Union Gas Co. Tanks. In the extreme left, is the overhead lines of the Eighth Ave. Subway.\n\nOctober 4, 1934.\n\nP. L. Sperr.\n",

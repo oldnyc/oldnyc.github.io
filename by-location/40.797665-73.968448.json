@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 205,
+        "street": "West 101st Street"
+      },
+      "source": "205 West 101st Street",
+      "technique": "gpt"
+    },
     "height": 579,
     "id": "465639-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465639-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5d6426f0-c612-012f-c0d3-58d385a7bc34",
     "text": null,
     "text_source": null,

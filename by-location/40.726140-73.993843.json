@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 23,
+        "street": "Bond Street"
+      },
+      "source": "23 Bond Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Bond Street",
+        "str2": "Schermerhorn Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bond Street",
+        "str2": "Schermerhorn Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "716722f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716722f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5007480-c548-012f-fbb3-58d385a7bc34",
     "original_title": "Manhattan: Bond Street - Schermerhorn Street",
     "text": "\"Houses on Bond Street\" p.49\nNo.23 Bond Street\n\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",

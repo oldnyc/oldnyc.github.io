@@ -2,9 +2,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "46th Street",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Manhattan: Vanderbilt Avenue - 46th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723702f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723702f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Vanderbilt, From E. 46th Street, Manhattan.",
+        "10 Vanderbilt Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2c6fd60-c553-012f-4875-58d385a7bc34",
     "original_title": "Manhattan: Vanderbilt Avenue - 46th Street.",
     "text": "Manhattan\n#10 Vanderbilt Avenue\nfrom 46th Street\nTaken early in Oct. 1935\nFederal Art Project\n\"Changing New Yoek\"\nPhotographs by Berenice Abbott\n56 West 53rd St.\nN.Y.C.\n",

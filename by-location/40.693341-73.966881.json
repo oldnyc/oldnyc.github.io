@@ -2,9 +2,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Myrtle Ave.",
+        "str2": "Washington Ave."
+      },
+      "source": "Brooklyn: Washington Ave. - Myrtle Ave.",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "707279f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707279f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/947314c0-c539-012f-3f5f-58d385a7bc34",
     "original_title": "Brooklyn: Washington Ave. - Myrtle Ave.",
     "text": "1. Washington Ave. north from Myrtle Ave.\nP.L. Sperr, photographer\nApr. 11, 1941\n",

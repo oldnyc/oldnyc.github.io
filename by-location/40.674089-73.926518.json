@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1941-08-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1281,
+        "street": "St. Marks Avenue"
+      },
+      "source": "1281 St. Marks Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Hudson Street",
+        "str2": "St. Mark's Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Hudson Street",
+        "str2": "St. Mark's Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "706601f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706601f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f98d760-c538-012f-324d-58d385a7bc34",
     "original_title": "Brooklyn: St. Mark's Avenue - Hudson Street",
     "text": "1. St. Marks Ave., nos.1281-3, Bklyn.\nP.L. Sperr, photographer\nAug. 2, 1941.\n",

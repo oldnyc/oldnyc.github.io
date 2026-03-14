@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1910-04-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "82nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "709164f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709164f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a63149a0-c53c-012f-578b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 82nd Street",
     "text": "1015, 1014 Fifth Avenue, east side, between 83rd and 82nd Streets. No. 1015 is the residence of the newly married Mr. and Mrs. Anthony J. Drexel, Jr. (Marjorie Gould), a wedding present from the bride's father, George Jay Gould.\n\nApril 13, 1910.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "82nd Street (East)"
+      },
+      "source": "Manhattan: 82nd Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86694460-c545-012f-db44-58d385a7bc34",
     "original_title": "Manhattan: 82nd Street (East) - 5th Avenue",
     "text": "3-5 East 82nd Street, north side, between Fifth and Madison Avenues.\n1913.\n",
@@ -42,9 +78,32 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "82nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "709159f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709159f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4594190-c53c-012f-741c-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 82nd Street",
     "text": "Metropolitan Museum of Art, Fifth Avenue, west side, 82nd to 84th Streets.\n\nAbout 1915.\n",
@@ -62,9 +121,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "82nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709162f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709162f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5746c40-c53c-012f-60e4-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 82nd Street",
     "text": "1009 to 1006 Fifth Avenue, at S. E. corner of 82nd Street, showing private residences.\nJune 1925.\n",
@@ -79,9 +156,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "82nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709163f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709163f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5e0bae0-c53c-012f-f68f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 82nd Street",
     "text": "Fifth Ave., east side, north from and including 82nd, to and including 83rd Streets. Also shown is 82nd Street, north side, east from Fifth, to, but not including Madison Aves.\n\nAbout 1927,\n\nNeg.* 2479\n",
@@ -96,9 +194,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1008,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #1008",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508891-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508891-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4bd5550-c5ce-012f-18ca-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -112,9 +230,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 82nd Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 1000 Fifth Avenue - East 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "1557999",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557999.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Metropolitan Museum of Art"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Metropolitan Museum of Art (New York, N.Y.)"
+        ],
+        "topic": [
+          "Architectural sculpture",
+          "Buildings, structures, etc",
+          "Cornices",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99555370-c5ec-012f-c5b6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -128,9 +278,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 82nd Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 1000 Fifth Avenue - East 82nd Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "1558000",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558000.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Metropolitan Museum of Art"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Metropolitan Museum of Art (New York, N.Y.)"
+        ],
+        "topic": [
+          "Architectural sculpture",
+          "Buildings, structures, etc",
+          "Cornices",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99bfad00-c5ec-012f-9975-58d385a7bc34",
     "text": null,
     "text_source": null,

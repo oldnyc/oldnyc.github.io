@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "20th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 20th Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "702327f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702327f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb117990-c531-012f-5e40-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 20th Street",
     "text": "4th Avenue, at the southeast corner of 20th Street, showing Public School No. 60.\nBoard of Education of the City of New York  Early 1930's\n",

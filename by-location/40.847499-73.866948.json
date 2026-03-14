@@ -2,9 +2,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Rhinelander Avenue",
+        "str2": "White Plains Avenue"
+      },
+      "source": "Bronx: Rhinelander Avenue - White Plains Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "701699f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701699f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/101a08a0-c531-012f-398b-58d385a7bc34",
     "original_title": "Bronx: Rhinelander Avenue - White Plains Avenue",
     "text": "Rhinelander Avenue, north side, from White Plains Road (tracks) to Hunt Avenue.\nJune 22, 1940\nP. L. Sperr\n",

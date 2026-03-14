@@ -2,9 +2,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Lyman Avenue",
+        "str2": "Tompkins Avenue"
+      },
+      "source": "Richmond: Lyman Avenue - Tompkins Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "729093f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729093f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad crossings",
+          "Railroad tracks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9ffe6c0-c55b-012f-78f2-58d385a7bc34",
     "original_title": "Richmond: Lyman Avenue - Tompkins Avenue",
     "text": "Lyman Avenue, at Tompkins Avenue, showing the Staten Island Railroad crossing. The view is eastward.\n\nAugust 23, 1935\n\nP. L. Sperr\n",
@@ -19,9 +41,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Lyman Avenue",
+        "str2": "Tompkins Avenue"
+      },
+      "source": "Richmond: Tompkins Avenue - Lyman Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "729759f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729759f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d046bf60-c55c-012f-9031-58d385a7bc34",
     "original_title": "Richmond: Tompkins Avenue - Lyman Avenue",
     "text": "Tompkins Ave., at Lyman Ave. (foreground, not seen). The view is northward along the South Beach branch of the Staten Island Railroad, showing its Fort Wadsworth station (Fingerboard Road station), at Fingerboard Road. The latter road spans the tracks directly beyond the station. On the left are seen the rears of buildings facing on the south side of Fingerboard Road.\n\nAugust 23, 1935.\n\nP. L. Sperr.\n",

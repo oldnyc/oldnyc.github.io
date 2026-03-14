@@ -2,9 +2,29 @@
   {
     "date": "1943-11-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 730,
+        "street": "Park Avenue"
+      },
+      "source": "Park Avenue #730",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507999-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507999-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52e85250-c5ce-012f-6568-58d385a7bc34",
     "text": null,
     "text_source": null,

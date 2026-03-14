@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "59th Drive",
+        "str2": "59th Place"
+      },
+      "source": "Queens: 59th Drive - 59th Place",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "725507f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725507f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72eb51b0-c556-012f-87d3-58d385a7bc34",
     "original_title": "Queens: 59th Drive - 59th Place",
     "text": "5921 59th Drive, opposite 59th Place, showing the house of Ferdinand Keiser from 1891 to 1914.\n\nJanuary 1924.\n\nEugene L. Armbruster.\n",

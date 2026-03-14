@@ -2,9 +2,47 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2375,
+        "street": "Lorillard Avenue"
+      },
+      "source": "2375 Lorillard Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Barry Street",
+        "str2": "Lorillard Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Barry Street",
+        "str2": "Lorillard Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "701408f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701408f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a121cac0-c530-012f-d0be-58d385a7bc34",
     "original_title": "Bronx: Lorillard Avenue - Barry Street",
     "text": "Lorillard Ave., No.2375 & southward\n\nP.L.Sperr\n\n8-27-;942\n",

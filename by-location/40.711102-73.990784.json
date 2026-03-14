@@ -2,9 +2,29 @@
   {
     "date": "1939-12-10",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 228,
+        "street": "Cherry Street"
+      },
+      "source": "Cherry Street #228",
+      "technique": "title-address"
+    },
     "height": 390,
     "id": "1509253",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509253.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05e2ee00-c5ce-012f-c357-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,37 @@
   {
     "date": "1940-03-30",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 230,
+        "street": "Cherry Street"
+      },
+      "source": "Cherry Street #230",
+      "technique": "title-address"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "Pelham Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "1509247-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509247-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04d90ff0-c5ce-012f-71f6-58d385a7bc34",
     "text": null,
     "text_source": null,

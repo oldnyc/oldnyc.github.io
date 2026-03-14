@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-11-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burnside Avenue (East)",
+        "str2": "Creston Avenue"
+      },
+      "source": "Bronx: Creston Avenue - Burnside Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "700813f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700813f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c82f60e0-c52f-012f-7361-58d385a7bc34",
     "original_title": "Bronx: Creston Avenue - Burnside Avenue (East)",
     "text": "Creston Ave., at the south side of East Burnside Ave. In the foreground, at the S.E. corner of the two thoroughfares appears a small public place under construction by the W.P.A. The two buildings, at the S.W. corner bear Nos. 2043 and 2039 (right to left).\n\nNovember 12, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",
@@ -22,9 +40,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burnside Avenue (Eas",
+        "str2": "Creston Avenue"
+      },
+      "source": "Bronx: Burnside Avenue (Eas - Creston Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "700870f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700870f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Burnside Avenue (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/db8b8120-c52f-012f-25a4-58d385a7bc34",
     "original_title": "Bronx: Burnside Avenue (Eas - Creston Avenue",
     "text": "East Burnside Ave., east from Creston Ave., to and including Grand Concourse.\n\nNovember 12, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",

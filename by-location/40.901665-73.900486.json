@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 259,
+        "street": "West 254th Street"
+      },
+      "source": "259 West 254th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "254th Street (West)",
+        "str2": "Fieldston Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "254th Street",
+        "str2": "Fieldston Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 445,
     "id": "700382f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700382f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f6ebf10-c52f-012f-3e1f-58d385a7bc34",
     "original_title": "Bronx: 254th Street (West) - Fieldston Road",
     "text": "259 West 254th Street, north side, between Fieldston Road and Valles Ave.\n\nAbout 1924.\n\nW. B. Vernam.\n",

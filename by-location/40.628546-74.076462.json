@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Prospect Street"
+      },
+      "source": "Richmond: Prospect Street - Bay Street",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "729289f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729289f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17b60bc0-c55c-012f-f1ff-58d385a7bc34",
     "original_title": "Richmond: Prospect Street - Bay Street",
     "text": "Prospect Street, north side, east from Bay Street to the Staten Island Railroad tracks. The last 2-story house is that of Swift & Co.\n\nApril 19, 1929\n\nP. L. Sperr\n",
@@ -19,9 +43,36 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Prospect Street"
+      },
+      "source": "Richmond: Prospect Street - Bay Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729288f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729288f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Coal trade",
+          "Dairy products industry",
+          "Railroad crossings",
+          "Railroad signals",
+          "Railroad tracks",
+          "Signal stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/175f9b50-c55c-012f-baa5-58d385a7bc34",
     "original_title": "Richmond: Prospect Street - Bay Street",
     "text": "(1)\nProspect Street, south side, between Bay and Front Streets, showing the railroad crossing. The view is eastward.\nMay 25, 1935\n\nP. L. Sperr\n\n(2)\nAnother view of the grade crossing, looking northeastward.\nMay 25, 1935\n\nP. L. Sperr\n",
@@ -36,9 +87,36 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Prospect Street"
+      },
+      "source": "Richmond: Prospect Street - Bay Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "729288f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/729288f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Coal trade",
+          "Dairy products industry",
+          "Railroad crossings",
+          "Railroad signals",
+          "Railroad tracks",
+          "Signal stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/175f9b50-c55c-012f-baa5-58d385a7bc34",
     "original_title": "Richmond: Prospect Street - Bay Street",
     "rotation": 90,

@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "215th Place",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 215th Place",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "726851f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726851f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/51fe7780-c558-012f-60c4-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 215th Place",
     "text": "Hillside Ave., south side, at its intersection with 118th Street. Its location in 1910 was south of Church Street, at Hillside Ave., showing the Richmond Hill station of the Montauk division of the Long Island Railroad.\n\nAbout 1910.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,32 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "215th Place",
+        "str2": "Hillside Avenue"
+      },
+      "source": "215th Place and Hillside Avenue",
+      "technique": "gpt"
+    },
     "height": 404,
     "id": "727847f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727847f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jamaica Hill (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queens Village (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7f9b850-c559-012f-13e7-58d385a7bc34",
     "text": "Queens Village, Queens: Shown is a general view southward across an immense real estate development, consisting chiefly of two-family homes, fashioned after one pattern. This Queens Village development is known as \"Jamaica-Hillsides.\" Running toward the background, at the left, is 215th Place, crossing Hillside Avenue where the automobile can be seen. View 2 is in a southeasterly direction.\n\nP. L. Sperr\n\nMarch 4, 1927\nViews 1,2.\n",
     "text_source": "gpt",
@@ -35,9 +79,32 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "215th Place",
+        "str2": "Hillside Avenue"
+      },
+      "source": "215th Place and Hillside Avenue",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "727847f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727847f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jamaica Hill (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queens Village (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7f9b850-c559-012f-13e7-58d385a7bc34",
     "text": "Queens Village, Queens: Shown is a general view southward across an immense real estate development, consisting chiefly of two-family homes, fashioned after one pattern. This Queens Village development is known as \"Jamaica-Hillsides.\" Running toward the background, at the left, is 215th Place, crossing Hillside Avenue where the automobile can be seen. View 2 is in a southeasterly direction.\n\nP. L. Sperr\n\nMarch 4, 1927\nViews 1,2.\n",
     "text_source": "gpt",

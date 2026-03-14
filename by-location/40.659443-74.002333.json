@@ -2,9 +2,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "29th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Brooklyn: 3rd Avenue - 29th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702290f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702290f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Contractors",
+          "Lumberyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed3976c0-c531-012f-a3a0-58d385a7bc34",
     "original_title": "Brooklyn: 3rd Avenue - 29th Street",
     "text": "3rd Avenue, at the N.E. corner of 29th Street, showing the corner cleared of its buildings, and the Hamarine lumber yard. Third Avenue is being rebuilt into Brooklyn's northerly extension of the Belt Parkway, leading to and from the Brooklyn-Battery Tunnel.\n\nOctober 18, 1940\n\nP. L. Sperr\n",

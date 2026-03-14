@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-03-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd Street (East)",
+        "str2": "Beverly Road"
+      },
+      "source": "Brooklyn: 23rd Street (East) - Beverly Road",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "702657f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702657f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77197f50-c532-012f-b0c2-58d385a7bc34",
     "original_title": "Brooklyn: 23rd Street (East) - Beverly Road",
     "text": "149 East 23rd Street, east side, between Beverly Road and Tilden Ave., showing a frame house.\nMarch 29, 1932.\n\nP. L. Sperr.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1932-03-29"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd Street (East)",
+        "str2": "Beverly Road"
+      },
+      "source": "Brooklyn: 23rd Street (East) - Beverly Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702658f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702658f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7781c260-c532-012f-4e1a-58d385a7bc34",
     "original_title": "Brooklyn: 23rd Street (East) - Beverly Road",
     "text": "157-159 East 23rd Street, east side, between Beverly Road and Tilden Ave., showing a frame dwelling, No. 157, at the left.\nMarch 29, 1932.\n\nP. L. Sperr.\n",
@@ -42,9 +78,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd Street (East)",
+        "str2": "Beverly Road"
+      },
+      "source": "Brooklyn: Beverly Road - 23rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "703246f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703246f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b63bdf0-c533-012f-a56f-58d385a7bc34",
     "original_title": "Brooklyn: Beverly Road - 23rd Street (East)",
     "text": "2301-2309 Beverly Road, north side, from and including East 23rd Street, to, but not including Bedford Ave.\n\nMarch 29, 1932.\n\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "175th Street (East)",
+        "str2": "Townsend Avenue"
+      },
+      "source": "Bronx: Townsend Avenue - 175th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "701907f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701907f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The Mosholu or Tippett's Brook at the base of Spuyten Duyvil Hill."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/574aafe0-c531-012f-3e0c-58d385a7bc34",
     "original_title": "Bronx: Townsend Avenue - 175th Street (East)",
     "text": null,

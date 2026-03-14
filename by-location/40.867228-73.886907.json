@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "198th Street (East)",
+        "str2": "Marion Avenue"
+      },
+      "source": "Bronx: Marion Avenue - 198th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701434f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701434f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aab766f0-c530-012f-d801-58d385a7bc34",
     "original_title": "Bronx: Marion Avenue - 198th Street (East)",
     "text": "P.L. Sperr, photographer  8-7-1942",

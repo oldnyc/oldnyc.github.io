@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-10-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 82nd Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714627f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714627f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86c421c0-c545-012f-eed7-58d385a7bc34",
     "text": "82nd Street, at, adjoining and west of the N.W. corner of Central Park West. This view also shows Central Park West, west side, north from and including 82nd Street.\n\nOctober 20, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -21,9 +39,37 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - Between 82nd and 85th Streets.",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "718368f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/718368f-a.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Central Park West - Between 82nd and 85th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fde9bf0-c54b-012f-f2cc-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nCentral Park: Lower Reservoir, western side, the water gate opposite about 82nd Street and Central Park West.\nMarch 30, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, another water gate north of the first one, and opposite about 85th Street.\nMarch 30, 1931.\n\nP. L. Sperr.\n",
@@ -38,9 +84,37 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - Between 82nd and 85th Streets.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718368f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718368f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Central Park West - Between 82nd and 85th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fde9bf0-c54b-012f-f2cc-58d385a7bc34",
     "text": "(1)\nCentral Park: Lower Reservoir, western side, the water gate opposite about 82nd Street and Central Park West.\nMarch 30, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, another water gate north of the first one, and opposite about 85th Street.\nMarch 30, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

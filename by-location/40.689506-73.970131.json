@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clermont Avenue",
+        "str2": "DeKalb Avenue"
+      },
+      "source": "Brooklyn: Clermont Avenue - DeKalb Avenue",
+      "technique": "title-cross"
+    },
     "height": 383,
     "id": "703631f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703631f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f01bd830-c533-012f-4109-58d385a7bc34",
     "original_title": "Brooklyn: Clermont Avenue - DeKalb Avenue",
     "text": "Brooklyn\nClermont Ave. n. of DeKalb Ave.\nP.L. Sperr\n7-8-42\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street",
+        "str2": "5th Street"
+      },
+      "source": "Brooklyn: 4th Street - 5th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702357f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702357f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/066a0be0-c532-012f-4ecd-58d385a7bc34",
     "original_title": "Brooklyn: 4th Street - 5th Street",
     "text": "336-336A - 4th Street, south side, between Fifth and Sixth Avenues, showing the home of May F. Bach.\n\nabout 1925.\n\nW. B. Vernam\n",

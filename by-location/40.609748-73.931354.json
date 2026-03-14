@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "36th Street (East)",
+        "str2": "Avenue S"
+      },
+      "source": "Brooklyn: 36th Street (East) - Avenue S",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "702735f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702735f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/951a8910-c532-012f-7752-58d385a7bc34",
     "original_title": "Brooklyn: 36th Street (East) - Avenue S",
     "text": "East 36th Street, east side, just south of Avenue S, showing the Suydam farmhouse, south of Hendrick I. Lott house. A. Ditmars owned the property in 1890.\nEugene L. Armbruster, Collection\n1923\n",

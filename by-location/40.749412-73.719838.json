@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "73rd Avenue",
+        "str2": "Douglaston Parkway"
+      },
+      "source": "Queens: 73rd Avenue - Douglaston Parkway",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "725603f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725603f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93608070-c556-012f-3377-58d385a7bc34",
     "original_title": "Queens: 73rd Avenue - Douglaston Parkway",
     "text": "Seventy-third Ave., at the N.W. corner of Douglaston Parkway (Alley Road), showing Charles Kenninger's hotel known as the \"Bumble Bees Nest.\" This structure is either on the site or is the J.T. Neunts house of 1860. See Wallings map of Kings and Queens County, 1859.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

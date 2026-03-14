@@ -5,9 +5,30 @@
     "dates_from_text": [
       "1928-07-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bay Street",
+        "str2": "City Island Avenue"
+      },
+      "source": "Bronx: City Island Avenue - Bay Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "700749f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700749f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Public Library. City Island Branch"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2fecb90-c52f-012f-1337-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Bay Street",
     "text": "319 to 329 City Island Avenue (City Island), adjoining and at the S. W. corner of Bay Street. The long 2-story frame building bears Nos. 321 to 329. In the center of the house, at No. 325, is the City Island Branch of the New York Public Library (note small sign above entrance), and at 329, at the corner where the United States flag is seen, is the City Island station of the United States Post Office.\n\nJuly 6, 1928\n\nP. L. Sperr\n",
@@ -22,9 +43,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bay Street",
+        "str2": "City Island Avenue"
+      },
+      "source": "Bronx: City Island Avenue - Bay Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700752f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700752f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3f49ff0-c52f-012f-92d4-58d385a7bc34",
     "original_title": "Bronx: City Island Avenue - Bay Street",
     "text": "City Island Avenue (City Island), east side, at the head of Bay Street. The empty lot is for sale.\n\nJuly 6, 1936\n\nP. L. Sperr\n",

@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Metropolitian Avenue"
+      },
+      "source": "Brooklyn - Metropolitian Avenue - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "1557797",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557797.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Metropolitian Pool and Bathhouse"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bathhouses",
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Swimming pools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7082b110-c5ec-012f-197b-58d385a7bc34",
     "text": null,
     "text_source": null,

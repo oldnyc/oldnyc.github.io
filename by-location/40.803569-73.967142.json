@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 109th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715018f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715018f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1df46870-c546-012f-d676-58d385a7bc34",
     "original_title": "Manhattan: 109th Street (West) - Broadway",
     "text": "216-234 West 109th Street, south side, between Broadway and Amsterdam avenues, showing P.S. 165.\n\nBoard of Education, N.Y.C.\n 1920,\n",
@@ -19,9 +43,29 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street",
+        "str2": "Broadway"
+      },
+      "source": "109th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 485,
     "id": "733490f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733490f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 109th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6f25e30-c562-012f-cd40-58d385a7bc34",
     "text": "Subway Construction\n1-26-1928\n",
     "text_source": "gpt",

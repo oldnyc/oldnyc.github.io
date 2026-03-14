@@ -2,9 +2,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Chauncey Street",
+        "str2": "Lewis Avenue"
+      },
+      "source": "Brooklyn: Chauncey Street - Lewis Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703520f",
     "image_url": "https://images.nypl.org/?id=703520f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c378ba90-c533-012f-488c-58d385a7bc34",
     "original_title": "Brooklyn: Chauncey Street - Lewis Avenue",
     "text": null,
@@ -19,9 +43,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Chauncey Street",
+        "str2": "Lewis Avenue"
+      },
+      "source": "Brooklyn: Lewis Avenue - Chauncey Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "705429f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705429f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c80f1980-c536-012f-4a71-58d385a7bc34",
     "original_title": "Brooklyn: Lewis Avenue - Chauncey Street",
     "text": "P.L. Sperr, photographer  5-26-1942",

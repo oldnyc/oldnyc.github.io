@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1918-06-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Avenue",
+        "str2": "16th Street"
+      },
+      "source": "Manhattan: 11th Avenue - 16th Street",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "710591f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710591f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fad3ac90-c53e-012f-4149-58d385a7bc34",
     "original_title": "Manhattan: 11th Avenue - 16th Street",
     "text": "11th Avenue, 16th Street, to 17th Street. (Before Reconstruction).\n June 9, 1918.\n",

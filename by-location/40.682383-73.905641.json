@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Aberdeen Street",
+        "str2": "Bushwick Avenue"
+      },
+      "source": "Brooklyn: Aberdeen Street - Bushwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "702944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702944f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7054d60-c532-012f-3c42-58d385a7bc34",
     "original_title": "Brooklyn: Aberdeen Street - Bushwick Avenue",
     "text": "75-77 Aberdeen Street, north side, between Bushwick Ave., and Evergreen Cemetery. (The buildings do not appear on the 1929 maps).\n\n1923.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Aberdeen Street",
+        "str2": "Bushwick Avenue"
+      },
+      "source": "Brooklyn: Aberdeen Street - Bushwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702945f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702945f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e758ab80-c532-012f-d14d-58d385a7bc34",
     "original_title": "Brooklyn: Aberdeen Street - Bushwick Avenue",
     "text": "Aberdeen Street, south from Bushwick Avenue, showing the Church of Our Lady of Lourdes.\n\nP. L. Sperr\nAugust 3, 1941\n",

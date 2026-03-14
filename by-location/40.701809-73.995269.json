@@ -2,9 +2,44 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 25,
+        "street": "Furman Street"
+      },
+      "source": "25 Furman Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "William Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "William Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 467,
     "id": "704592f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704592f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74677380-c535-012f-f463-58d385a7bc34",
     "original_title": "Brooklyn: Furman Street - William Street",
     "text": "Furman Street, north from No. 25. At right foreground a view of warehouses built into solid rock; overhead are rear gardens of Columbia Street.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

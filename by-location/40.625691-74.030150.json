@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "3rd Avenue",
+        "str2": "83rd Street"
+      },
+      "source": "Brooklyn: 83rd Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702857f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702857f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c464f4d0-c532-012f-014b-58d385a7bc34",
     "original_title": "Brooklyn: 83rd Street - 3rd Avenue",
     "text": "225-83rd Street, north side, between Third Ave., and Ridge Blvd. The building concerned is a frame house.\n\nAbout 1930.\n\nA. E. Otis.\n",

@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 123,
+        "street": "W 48th Street"
+      },
+      "source": "48th Street (West) #123",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507961-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507961-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Belmont Theatre"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e678ba50-c5ce-012f-bffe-58d385a7bc34",
     "text": null,
     "text_source": null,

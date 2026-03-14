@@ -2,9 +2,31 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "59th Drive",
+        "str2": "63rd Street"
+      },
+      "source": "Queens: 59th Drive - 63rd Street",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "725506f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725506f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Oilcloth industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/728e16c0-c556-012f-df52-58d385a7bc34",
     "original_title": "Queens: 59th Drive - 63rd Street",
     "text": "59th Drive (along line of fence), east of 63rd Street (left not seen), showing in the background a part of the former Alden Sampson and Sons oil cloth factory. Most of it was demolished prior to 1929. Alden Sampson and Sons were owners from 1873-1896, and one Linnbergard owned it in 1924.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",

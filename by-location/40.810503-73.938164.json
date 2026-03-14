@@ -2,9 +2,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 25,
+        "street": "East 132nd Street"
+      },
+      "source": "25 East 132nd Street",
+      "technique": "gpt"
+    },
     "height": 481,
     "id": "715553f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715553f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Church of God, 25 East 132nd Street, Manhattan.",
+        "Pilgrim Pentecostal Church."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "United Pentecostal Church"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9743bc0-c546-012f-1cf3-58d385a7bc34",
     "text": "Church of God\nEast 132nd Street, no. 25, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode III F-2\nDec. 8, 1936\n\n25 East 132nd St, n.s., betw. Madison and Fifth Avenues, showing the parlor of the former brownstone residence occupied by the Pilgrim\nPentecostal Church.\n",
     "text_source": "gpt",

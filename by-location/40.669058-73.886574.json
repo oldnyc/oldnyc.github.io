@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Barbey Street",
+        "str2": "Blake Avenue"
+      },
+      "source": "Brooklyn: Barbey Street - Blake Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "703093f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703093f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f91d360-c533-012f-abbe-58d385a7bc34",
     "original_title": "Brooklyn: Barbey Street - Blake Avenue",
     "text": "Barbey Street, north from Blake Avenue, showing the W. P. A. conducting a sewer project.\n\n1936.\n\nWorks Progress Administration\nFive Boroughs Project\n",

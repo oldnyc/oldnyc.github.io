@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Maspeth Avenue",
+        "str2": "Varick Avenue"
+      },
+      "source": "Brooklyn: Maspeth Avenue - Varick Avenue",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "705612f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705612f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Croplands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10b51260-c537-012f-9d1d-58d385a7bc34",
     "original_title": "Brooklyn: Maspeth Avenue - Varick Avenue",
     "text": "Maspeth Ave., east from Varick Ave.\nMarch 1929.\nEugene L. Armbruster Collection.\n",

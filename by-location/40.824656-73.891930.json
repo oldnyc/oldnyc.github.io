@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Southern Boulevard",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Southern Boulevard and Westchester Avenue",
+      "technique": "gpt"
+    },
     "height": 373,
     "id": "465522-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465522-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ef2d5c0-c612-012f-32a9-58d385a7bc34",
     "text": null,
     "text_source": null,

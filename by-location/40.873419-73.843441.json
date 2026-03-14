@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-11-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burke Avenue",
+        "str2": "Mickle Avenue"
+      },
+      "source": "Bronx: Burke Avenue - Mickle Avenue",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "700688f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700688f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d63fd60-c52f-012f-1a64-58d385a7bc34",
     "original_title": "Bronx: Burke Avenue - Mickle Avenue",
     "text": "Burke Ave., at Mickle Ave. W.P.A. men are shown constructing a barrier near an embankment leading down to the tracks of the New York, Westchester and Boston Railroad. The houses in the background are on Mickle Ave; on the east side of the tracks.\n\nNovember 12, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",

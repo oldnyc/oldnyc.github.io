@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "136th Street",
+        "str2": "58th Road"
+      },
+      "source": "Queens: 136th Street - 58th Road",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "725499f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725499f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/703325a0-c556-012f-f537-58d385a7bc34",
     "original_title": "Queens: 136th Street - 58th Road",
     "text": "136th street, east side. from 58th road to 58th avenue showing PS 120. It replaces an old frame school house which stood at the south side of 58th ave, below 136th street BDofEd NYC about 1951  Area was called Queensboro Hill",

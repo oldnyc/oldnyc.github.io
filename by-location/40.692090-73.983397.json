@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold St.",
+        "str2": "Willoughby St."
+      },
+      "source": "Brooklyn: Willoughby St. - Gold St.",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "707406f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707406f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7a66910-c539-012f-032e-58d385a7bc34",
     "original_title": "Brooklyn: Willoughby St. - Gold St.",
     "text": "Willoughby Street, west from Gold Street, toward Fulton Street.\n\nSeptember 1928.\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1932-07-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold Street",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Gold Street - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "704650f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704650f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cc75710-c535-012f-a462-58d385a7bc34",
     "original_title": "Brooklyn: Gold Street - Willoughby Street",
     "text": "Gold Street, east side, north from Willoughby Street.  In the background, is seen the Myrtle Ave., Line of the B.M.T.\n\nJuly 10, 1932\n\nP. L. Sperr\n",
@@ -42,9 +78,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold St.",
+        "str2": "Willoughby St."
+      },
+      "source": "Gold St. and Willoughby St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984446",
     "image_url": "https://images.nypl.org/?id=3984446&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29901990-c5d7-012f-e5f8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -58,9 +118,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albee Square",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Albee Square - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702970f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702970f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Albee Square (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Clock towers",
+          "Parking lots",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f7b960-c532-012f-1a2b-58d385a7bc34",
     "text": "Albee Square, south from Willoughby Street. In the center is the rear of the Albee 'theatre; to its left is the cupola of the Dime Savings Bank and the 'ox Theatre tower.\n\nView 3 shows the dwellings just beyond the parking space. View 4 is east across Willoughby Street.\n\nP. L. Sperr\n\nJanuary 28, 1941\nViews 1-4\n",
     "text_source": "gpt",
@@ -74,9 +160,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albee Square",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Albee Square - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702970f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702970f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Albee Square (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Clock towers",
+          "Parking lots",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f7b960-c532-012f-1a2b-58d385a7bc34",
     "text": "Albee Square, south from Willoughby Street. In the center is the rear of the Albee 'theatre; to its left is the cupola of the Dime Savings Bank and the 'ox Theatre tower.\n\nView 3 shows the dwellings just beyond the parking space. View 4 is east across Willoughby Street.\n\nP. L. Sperr\n\nJanuary 28, 1941\nViews 1-4\n",
     "text_source": "gpt",
@@ -90,9 +202,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albee Square",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Albee Square - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702970f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702970f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Albee Square (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Clock towers",
+          "Parking lots",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f7b960-c532-012f-1a2b-58d385a7bc34",
     "text": "Albee Square, south from Willoughby Street. In the center is the rear of the Albee 'theatre; to its left is the cupola of the Dime Savings Bank and the 'ox Theatre tower.\n\nView 3 shows the dwellings just beyond the parking space. View 4 is east across Willoughby Street.\n\nP. L. Sperr\n\nJanuary 28, 1941\nViews 1-4\n",
     "text_source": "gpt",
@@ -106,9 +244,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albee Square",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Albee Square - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702970f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702970f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Albee Square (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Clock towers",
+          "Parking lots",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0f7b960-c532-012f-1a2b-58d385a7bc34",
     "text": "Albee Square, south from Willoughby Street. In the center is the rear of the Albee 'theatre; to its left is the cupola of the Dime Savings Bank and the 'ox Theatre tower.\n\nView 3 shows the dwellings just beyond the parking space. View 4 is east across Willoughby Street.\n\nP. L. Sperr\n\nJanuary 28, 1941\nViews 1-4\n",
     "text_source": "gpt",

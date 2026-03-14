@@ -2,9 +2,45 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "23rd Street",
+        "str2": "Jackson Avenue"
+      },
+      "source": "23rd Street and Jackson Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "23rd Street",
+        "str2": "24th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1558436",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558436.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "'The Towers' gardens"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Gardens",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6db9d940-c5ed-012f-0027-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "135th Street",
+        "str2": "Broadway"
+      },
+      "source": "135th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465519-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465519-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2dbadb00-c612-012f-8b4c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1933-06-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "135th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 135th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "717746f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717746f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f714c30-c54a-012f-3636-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 135th Street",
     "text": "Broadway at the S.E. corner of 135th Street.\nJune 2, 1933.\n\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 211,
+        "street": "E. 100th St."
+      },
+      "source": "211 E. 100th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985039",
     "image_url": "https://images.nypl.org/?id=3985039&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2e6b500-c5d7-012f-976a-58d385a7bc34",
     "text": null,
     "text_source": null,

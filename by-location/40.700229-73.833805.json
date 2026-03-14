@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-08-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "116th Street",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Queens: Myrtle Avenue - 116th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "727451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727451f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3f1d09c0-c559-012f-54ad-58d385a7bc34",
     "original_title": "Queens: Myrtle Avenue - 116th Street",
     "text": "Myrtle Avenue, at the N.W. corner of 116th Street.\n\nP. L. Sperr\nAugust 22, 1932\n",

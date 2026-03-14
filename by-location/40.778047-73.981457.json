@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 171,
+        "street": "West Seventy-first Street"
+      },
+      "source": "171 West Seventy-first Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464840-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464840-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14de2d80-c612-012f-5a05-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 166,
+        "street": "West 72nd Street"
+      },
+      "source": "166 West 72nd Street",
+      "technique": "gpt"
+    },
     "height": 536,
     "id": "417197",
     "image_url": "https://images.nypl.org/?id=417197&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a41b4210-c611-012f-a252-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 171,
+        "street": "West Seventy-first Street"
+      },
+      "source": "171 West Seventy-first Street",
+      "technique": "gpt"
+    },
     "height": 532,
     "id": "417283",
     "image_url": "https://images.nypl.org/?id=417283&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c7a04280-c611-012f-ef5b-58d385a7bc34",
     "text": null,
     "text_source": null,

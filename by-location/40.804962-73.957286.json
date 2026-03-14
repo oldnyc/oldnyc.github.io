@@ -2,9 +2,32 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 356,
+        "street": "West 116th Street"
+      },
+      "source": "356 West 116th Street",
+      "technique": "title-address"
+    },
     "height": 389,
     "id": "733007f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733007f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) ; 356 West 116th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Slums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02a2fd80-c562-012f-5321-58d385a7bc34",
     "text": "N.Y.C. Housing Authority\nSlum Clearance Program\nTenement Conditions\n1935\n",
     "text_source": "gpt",
@@ -18,9 +41,32 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 356,
+        "street": "West 116th Street"
+      },
+      "source": "356 West 116th Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "733008f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733008f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) ; 356 West 116th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Slums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/030767d0-c562-012f-b24f-58d385a7bc34",
     "text": "N.Y.C. Housing Authority\nSlum Clearance Program\nTenement Conditions\n1935\n",
     "text_source": "gpt",

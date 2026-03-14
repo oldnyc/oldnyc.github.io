@@ -2,9 +2,34 @@
   {
     "date": "1904; 1970",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.673889,
+        "lng": -73.97
+      },
+      "source": "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704677f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704677f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Plazas"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/981331e0-c535-012f-5652-58d385a7bc34",
     "text": "Hans W. Hannau, photographer\n#1020\n",
     "text_source": "gpt",
@@ -19,9 +44,55 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.673889,
+        "lng": -73.97
+      },
+      "source": "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Prospect Park Arch",
+        "str2": "entrance",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Eastern Parkway",
+        "str2": "Union Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East Plaza Street",
+        "str2": "West Plaza Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 504,
     "id": "706345f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706345f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Plazas",
+          "Soldiers' and Sailors' Memorial Arch (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c24af80-c538-012f-7d12-58d385a7bc34",
     "text": "The entrance to Prospect Park. The buildings from left to right are located at Eastern Parkway and Union Street.  The roads encircling the arch from left to right, are East and West Plaza Streets. This arch is dedicated to the Soldiers and Sailors of the Civil War.\nAbout 1928.\nEwing Galloway.\n",
     "text_source": "site",
@@ -35,9 +106,30 @@
   {
     "date": "1938-02-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.673889,
+        "lng": -73.97
+      },
+      "source": "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 477,
     "id": "704678f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704678f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Plazas"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/988e55c0-c535-012f-3b50-58d385a7bc34",
     "text": "Identification: Grand Army Plaza\nDate: 21 Feb. 1938\nPhotographer: Fairchild Aerial Surveys, Inc.\n270 W. 38 St., NYC\nReproduction rights: Held by Photographer\nNeg # 478 (Photostat)\n",
     "text_source": "gpt",
@@ -51,9 +143,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.673889,
+        "lng": -73.97
+      },
+      "source": "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 443,
     "id": "2040755",
     "image_url": "https://images.nypl.org/?id=2040755&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings",
+          "Soldiers' and Sailors' Memorial Arch (New York, N.Y.)",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b361e1c0-c6be-012f-0548-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -67,9 +182,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.673889,
+        "lng": -73.97
+      },
+      "source": "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704676f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704676f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Grand Army Plaza (Brooklyn, New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Plazas"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/979a83a0-c535-012f-9cf6-58d385a7bc34",
     "text": "Photograph\nC. Manley Delevoyce\n\nBrooklyn's Grand Army Plaza at the northerly entrance to Prospect Park\n\nFull\nB\n",
     "text_source": "gpt",

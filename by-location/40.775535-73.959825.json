@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 109,
+        "street": "E 79th Street"
+      },
+      "source": "79th Street (East) #109",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508323-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508323-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b4a12e0-c5cf-012f-4031-58d385a7bc34",
     "text": null,
     "text_source": null,

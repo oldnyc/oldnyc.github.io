@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 216,
+        "street": "W 23rd Street"
+      },
+      "source": "23rd Street (West) #216",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507815-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507815-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4bc8d60-c5ce-012f-0dfe-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 216,
+        "street": "West 23rd Street"
+      },
+      "source": "216 West 23rd Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558140",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558140.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Chelsea"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chelsea Hotel"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5c389c0-c5ec-012f-fd8d-58d385a7bc34",
     "text": null,
     "text_source": null,

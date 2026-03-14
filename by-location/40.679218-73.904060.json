@@ -2,9 +2,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Conway Street"
+      },
+      "source": "Brooklyn: Conway Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "703808f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703808f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops",
+          "Tombs & sepulchral monuments"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/394bae90-c534-012f-8fb5-58d385a7bc34",
     "original_title": "Brooklyn: Conway Street - Broadway",
     "text": "Conway Street, south side, east of Broadway.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,35 @@
   {
     "date": "1942-08-07",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bedford Park Blvd",
+        "str2": "Marion Ave"
+      },
+      "source": "Bedford Park Blvd and Marion Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Bedford Park Blvd",
+        "str2": "west from Marion Ave.",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "700492f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700492f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5735aec0-c52f-012f-a097-58d385a7bc34",
     "original_title": "Bronx: Bedford Park Blvd. - west from Marion Ave.",
     "text": "Bedford Park Blvd  w. from Marion Ave.\nP.L.Sperr\n8-7-1942\n",

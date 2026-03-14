@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "167th Street",
+        "str2": "Anderson Avenue"
+      },
+      "source": "Bronx: Anderson Avenue - 167th Street",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "700413f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700413f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a9fe320-c52f-012f-61c1-58d385a7bc34",
     "original_title": "Bronx: Anderson Avenue - 167th Street",
     "text": "1140-1150 Anderson Ave., at the S.E. corner of West 167th Street, showing the Anderson Gardens; a three unit 6-story apartment house. The view is westward.\n\nAbout 1929.\n",

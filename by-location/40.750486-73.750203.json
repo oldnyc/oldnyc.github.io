@@ -2,9 +2,38 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "228th Street",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "228th Street and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "228th Street",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726905f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726905f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/674f2aa0-c558-012f-cfaa-58d385a7bc34",
     "text": "Horace Harding Boulevard, east from about 228th Street, toward Alley Pond. This is the former West Alley Road which was later widened and made Horace Harding Boulevard.\n\nP. L. Sperr\nJune 6, 1927\nViews 1,2\n",
     "text_source": "gpt",
@@ -18,9 +47,38 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "228th Street",
+        "str2": "Horace Harding Boulevard"
+      },
+      "source": "228th Street and Horace Harding Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "228th Street",
+        "str2": "Horace Harding Boule",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726905f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726905f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/674f2aa0-c558-012f-cfaa-58d385a7bc34",
     "text": "Horace Harding Boulevard, east from about 228th Street, toward Alley Pond. This is the former West Alley Road which was later widened and made Horace Harding Boulevard.\n\nP. L. Sperr\nJune 6, 1927\nViews 1,2\n",
     "text_source": "gpt",

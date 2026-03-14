@@ -2,9 +2,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Monroe Street"
+      },
+      "source": "Manhattan: Clinton Street - Monroe Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719009f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719009f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b3f8260-c54c-012f-ee4a-58d385a7bc34",
     "original_title": "Manhattan: Clinton Street - Monroe Street",
     "text": "Clinton Street, west side, south from Monroe Street (Rutgers Place) to the East River, showing a block row of tenements that occupies the Monroe to Cherry Street frontage.\n\nApril 25, 1939\n\nP.L. Sperr\n",
@@ -19,9 +41,35 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Monroe Street"
+      },
+      "source": "Manhattan: Monroe Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721684f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721684f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7bf37990-c550-012f-97b7-58d385a7bc34",
     "original_title": "Manhattan: Monroe Street - Clinton Street",
     "text": null,

@@ -2,9 +2,44 @@
   {
     "date": "1971",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 35,
+        "street": "Snyder Avenue"
+      },
+      "source": "35 Snyder Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Snyder Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Snyder Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 426,
     "id": "706817f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706817f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e09277a0-c538-012f-e7eb-58d385a7bc34",
     "original_title": "Brooklyn: Snyder Avenue - Belmont Avenue",
     "text": "Snyder Avenue, no. 35\nFlatbush Town Hall, erected 1875.\n\nView 1 (horizontal):\nFlatbush Town Hall in 1877. Brainard Collection, Brooklyn Museum. (now at Bklyn Pub. Lib.)\n\nView 2 (vertical):\nSame building, 1971. Presently headquarters of the 67th Precinct, N. Y. Police Department.\nPhotographer: Irving Choban\n\nPhotostat Wey #A-1414\n",
@@ -19,9 +54,44 @@
   {
     "date": "1971",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 35,
+        "street": "Snyder Avenue"
+      },
+      "source": "35 Snyder Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Snyder Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Snyder Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "706817f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706817f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e09277a0-c538-012f-e7eb-58d385a7bc34",
     "original_title": "Brooklyn: Snyder Avenue - Belmont Avenue",
     "text": "Snyder Avenue, no. 35\nFlatbush Town Hall, erected 1875.\n\nView 1 (horizontal):\nFlatbush Town Hall in 1877. Brainard Collection, Brooklyn Museum. (now at Bklyn Pub. Lib.)\n\nView 2 (vertical):\nSame building, 1971. Presently headquarters of the 67th Precinct, N. Y. Police Department.\nPhotographer: Irving Choban\n\nPhotostat Wey #A-1414\n",

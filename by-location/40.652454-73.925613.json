@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "55th Street (East)",
+        "str2": "Church Avenue"
+      },
+      "source": "Brooklyn: 55th Street (East) - Church Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "702779f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702779f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a71078d0-c532-012f-3a17-58d385a7bc34",
     "original_title": "Brooklyn: 55th Street (East) - Church Avenue",
     "text": "East 55th Street, east side, north from Church Ave. Also seen is Church Ave., north side, at East 55th Street.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",

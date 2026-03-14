@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 127th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "721121f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721121f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/953c4f40-c54f-012f-19f3-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 127th Street (East)",
     "text": "Lexington Ave., east side, north from and including East 127th to, and including 128th Streets, showing a gasoline station occupying the entire block front. The two houses, on the extreme right, are Nos. 143 and 145 East 127th Streets.\n\nMarch 6, 1927.\n\nP. L. Sperr.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 127th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715467f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715467f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8993570-c546-012f-5848-58d385a7bc34",
     "original_title": "Manhattan: 127th Street (East) - Lexington Avenue",
     "text": "126-128 East 127th Street, south side, west of Lexington Avenue. No. 126 is a 2\u00bd-story frame house.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -39,9 +78,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street (East)",
+        "str2": "Lexington"
+      },
+      "source": "Manhattan: 127th Street (East) - Lexington",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715468f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715468f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c900b930-c546-012f-a66d-58d385a7bc34",
     "text": "121-123 East 127th Street, north side, west of Lexington Ave. Shown is the Holy Family Church, an Episcopal Spanish Mission, formerly St. Bartholomew Swedish Church.\n\nJuly 31, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -55,9 +118,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E 127th St",
+        "str2": "Lexington Ave"
+      },
+      "source": "E 127th St and Lexington Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985226",
     "image_url": "https://images.nypl.org/?id=3985226&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ad68480-c5d8-012f-e0b6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -71,9 +158,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E 127th St",
+        "str2": "Lexington Ave"
+      },
+      "source": "E 127th St and Lexington Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985227",
     "image_url": "https://images.nypl.org/?id=3985227&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b208c40-c5d8-012f-1167-58d385a7bc34",
     "text": null,
     "text_source": null,

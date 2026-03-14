@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "232nd Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: 232nd Street - Hillside Avenue",
+      "technique": "title-cross"
+    },
     "height": 357,
     "id": "726014f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726014f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/216512a0-c557-012f-f556-58d385a7bc34",
     "original_title": "Queens: 232nd Street - Hillside Avenue",
     "text": "232nd Street, east side, south from near Hillside Avenue, showing a row of new homes built for the Berko Holding Company.\n1920's\n",

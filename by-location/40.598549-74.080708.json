@@ -2,9 +2,31 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Hylan Boulevard",
+        "str2": "Malory Avenue"
+      },
+      "source": "Richmond: Malory Avenue - Hylan Boulevard",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "729102f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729102f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Mallory Avenue (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd6da680-c55b-012f-df93-58d385a7bc34",
     "original_title": "Richmond: Malory Avenue - Hylan Boulevard",
     "text": "Malory Avenue, south from Hylan Boulevard. The thoroughfare is being cut through as part of Boulevard Heights real estate development.\n\nMay 20, 1926.\n\nP. L. Sperr.\n",

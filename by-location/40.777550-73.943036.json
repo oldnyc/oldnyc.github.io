@@ -2,9 +2,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 90th Street",
+        "str2": "East End Ave"
+      },
+      "source": "East 90th Street and East End Ave",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "733940f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733940f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fire Department station and fire boat George B. McClellan."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Hospitals",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a49ad70-c563-012f-3f56-58d385a7bc34",
     "text": "East River, shoreline, at the foot of East 90th Street, showing the Fire Department station and fire boat George B. McClellan. The tall house on the left is Doctors Hospital, facing on East End Ave. from East 88th to East 87th Streets. The low buildings seen from the center to the right are on the south side of East 89th Street, west from East End Ave.\n\nSeptember 20, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

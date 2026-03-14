@@ -2,9 +2,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "94th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 94th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714853f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714853f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dea57c10-c545-012f-233f-58d385a7bc34",
     "original_title": "Manhattan: 94th Street (East) - Madison Avenue",
     "text": "21 East 94th Street, north side, west of Madison Avenue.\nAbout 1912.\n",

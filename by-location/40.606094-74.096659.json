@@ -2,9 +2,46 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 170,
+        "street": "Douglas Road"
+      },
+      "source": "170 Douglas Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Douglas Road",
+        "str2": "Milden Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Douglas Road",
+        "str2": "Milden Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "728798f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728798f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54f67590-c55b-012f-4fcf-58d385a7bc34",
     "original_title": "Richmond: Douglas Road - Milden Avenue",
     "text": "170 Douglas Road, west side, between Milden Avenue and Emerson Avenue, showing the house erected by Hans Hermansen.\n\nOctober 1931.\n\nP.L. Sperr\n",

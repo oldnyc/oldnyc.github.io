@@ -2,9 +2,47 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.804508,
+        "lng": -73.944046
+      },
+      "source": "Mount Morris Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Monroe Avenue",
+        "str2": "Mount Morris Park We",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Monroe Avenue",
+        "str2": "Mount Morris Park West",
+        "technique": "gpt"
+      }
+    ],
     "height": 463,
     "id": "721775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Marcus Garvey Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9fb6a750-c550-012f-77e9-58d385a7bc34",
     "text": "Mount Morris Park: View 1 is south along the west edge of the park, showing buildings on Mt. Morris Park West. On the right is the Harlem Presbyterian Church.\n\nGeorge L. Balgue\n\nMay, 1930\nViews 1,2\n",
     "text_source": "gpt",
@@ -18,9 +56,47 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.804508,
+        "lng": -73.944046
+      },
+      "source": "Mount Morris Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Monroe Avenue",
+        "str2": "Mount Morris Park We",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Monroe Avenue",
+        "str2": "Mount Morris Park West",
+        "technique": "gpt"
+      }
+    ],
     "height": 461,
     "id": "721775f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721775f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Marcus Garvey Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9fb6a750-c550-012f-77e9-58d385a7bc34",
     "text": "Mount Morris Park: View 1 is south along the west edge of the park, showing buildings on Mt. Morris Park West. On the right is the Harlem Presbyterian Church.\n\nGeorge L. Balgue\n\nMay, 1930\nViews 1,2\n",
     "text_source": "gpt",
@@ -34,9 +110,50 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.804508,
+        "lng": -73.944046
+      },
+      "source": "Mount Morris Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "120th Street",
+        "str2": "Mount Morris Park We",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "121 St",
+        "str2": "Mt. Morris Pkwy",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "120 St",
+        "str2": "Mt. Morris Pkwy",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "721781f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721781f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a26f6660-c550-012f-734a-58d385a7bc34",
     "text": "Mt. Morris Pkwy. at 121 St. from 120 St.\nP.L. Sperr\n6-15-42\n",
     "text_source": "gpt",
@@ -50,9 +167,46 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.804508,
+        "lng": -73.944046
+      },
+      "source": "Mount Morris Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "Mount Morris Park We",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "Mount Morris Park West",
+        "technique": "gpt"
+      }
+    ],
     "height": 424,
     "id": "721780f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721780f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a1f6aec0-c550-012f-c7b5-58d385a7bc34",
     "text": "Mount Morris Park - West to 5th Avenue (Before Reconstruction)",
     "text_source": "gpt",
@@ -66,9 +220,52 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.804508,
+        "lng": -73.944046
+      },
+      "source": "Marcus Garvey Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "120th Street (West)",
+        "str2": "Nathan Davis Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Nathan Davis Place",
+        "str2": "West 120th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Lenox Avenue",
+        "str2": "Nathan Davis Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 471,
     "id": "721783f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721783f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Marcus Garvey Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a33ff4c0-c550-012f-64c4-58d385a7bc34",
     "original_title": "Manhattan: Nathan Davis Place - 120th Street (West)",
     "text": "Mount Morris Park Bell Tower (formerly known as Mount Morris Park West and Mount Morris Avenue), west side; situated at Nathan Davis Place from West 120th to 124th Streets and east of Lenox Avenue.\n\nUnderhill, Photographer\n18 Park Place, N. Y.\n\nno date\n",

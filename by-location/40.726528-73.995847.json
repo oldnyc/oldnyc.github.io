@@ -2,9 +2,35 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717279f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717279f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Broadway Central Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Episcopal churches",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b752e70-c549-012f-33e7-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Bleecker Street",
     "text": "Broadway, north from Bleecker Street, showing prominently the Broadway Central Hotel on the west side of this thoroughfare, slightly to the south of West 3rd Street. In the distant background, at the point where this arterial causeway bends, is the shadowy outline of Grace Church.\nAbout 1895\nGift of Urbrock Collection\n",
@@ -19,9 +45,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Bleecker Street",
+        "str2": "Broadway"
+      },
+      "source": "Bleecker Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 232,
     "id": "1627874",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627874.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41517c60-c6d2-012f-734b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +85,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Bleecker Street",
+        "str2": "Broadway"
+      },
+      "source": "Bleecker Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 228,
     "id": "1627875",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627875.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41b20530-c6d2-012f-3b8a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +125,33 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724419f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724419f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Sewing machines"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7b934b0-c554-012f-61f1-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Bleecker Street",
     "text": "West Broadway, east side, north from but not including Bleecker Street, to and including Washington Square, North.\n\nAbout 1905.\n\nBrown Brothers.\n",
@@ -68,9 +166,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717277f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717277f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Florist shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9aa85ab0-c549-012f-56fc-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Bleecker Street",
     "text": "#635-637 Broadway, West Side, between Bleecker and West Houston Streets.\n\nNovember 7, th, 1913.\n\nWurts Brothers, Photographers,\n",
@@ -85,9 +205,29 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Broadway"
+      },
+      "source": "Bleecker Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 474,
     "id": "733526f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733526f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Bleecker Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3627880-c562-012f-b15b-58d385a7bc34",
     "text": "One of the last horse drawn trolley cars; this one ran on Bleecker Street and Broadway line, the last one to abandon this type of service.\n\nJuly 27, 1917.\n\nA story of the abandonment of the franchise of the Bleecker Street and Fulton Ferry Line with an account of the last trip, attended by notables, appeared in the New York Times of July 27, 1917, Page 18:3.\n",
     "text_source": "gpt",
@@ -101,9 +241,34 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: Bleecker Street - West Broadway.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716688f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716688f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Mori's Restaurant."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a66568d0-c548-012f-15b5-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - West Broadway.",
     "text": "144-6 Bleecker Street, adjoining the S.W. corner of West Broadway showing Mori's Restaurant, founded in 1884 by Placido Mori. These buildings were remodelled by Raymond Hood who resided on Washington Square North, above the restaurant proprietors. This photo was reproduced on page 88 of the published volume \"Changing New York.\"\n\nNovember 21, 1935\n\nBerenice Abbott, photo\nFederal Art Project\n",
@@ -118,9 +283,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: Bleecker Street - West Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716681f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716681f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Drugstores",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a38e0a20-c548-012f-21e2-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - West Broadway",
     "text": "(1)\nBleecker Street, west from, but not including West Broadway. Shown on the left, is the Mills House No. 1, at Nos. 156-168, south side,\nwest from Thompson to Sullivan Streets.\nJune 23, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, slightly westward.\nJune 23, 1936.\n\nP. L. Sperr.\n",
@@ -135,9 +323,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: Bleecker Street - West Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716681f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716681f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Drugstores",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a38e0a20-c548-012f-21e2-58d385a7bc34",
     "original_title": "Manhattan: Bleecker Street - West Broadway",
     "text": "(1)\nBleecker Street, west from, but not including West Broadway. Shown on the left, is the Mills House No. 1, at Nos. 156-168, south side,\nwest from Thompson to Sullivan Streets.\nJune 23, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, slightly westward.\nJune 23, 1936.\n\nP. L. Sperr.\n",
@@ -152,9 +363,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "724417f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724417f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroads",
+          "demolition"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6e87700-c554-012f-9fef-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Bleecker Street",
     "text": "West Broadway, north from Bleecker Street, showing a track removal project under way. Overhead is the Sixth Ave. Elevated Line.\n\nDecember 7, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -169,9 +406,35 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724416f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724416f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6724560-c554-012f-d02c-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Bleecker Street",
     "text": "West Broadway, north from the Bleecker Street platform of the Sixth Avenue Elevated line, to Washington Square. On the horizon, beyond that point appears the Metropolitan, New York Life and Chrysler Buildings. Note the westward bend on W. 3rd Street of this transportation line. Civic authorities at this time have filed notice of demolition for the complete Sixth Avenue Elevated line and same will shortly disappear from the Manhattan scene; its services being performed by the about to be completed Sixth Avenue Municipal Subway.\n\nMay 23, 1938.\nViews 1 and 2\n\nP. L. Sperr\n\nThe same thoroughfare subsequent to the \"El\" demolition. Note the distinctive apartment house, No. 1 Fifth Avenue, in the background. Washington Square intervenes between this point and the end of this street.\n\nMay 19, 1939\n\nP. L. Sperr\n",
@@ -187,9 +450,35 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724416f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724416f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6724560-c554-012f-d02c-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Bleecker Street",
     "text": "West Broadway, north from the Bleecker Street platform of the Sixth Avenue Elevated line, to Washington Square. On the horizon, beyond that point appears the Metropolitan, New York Life and Chrysler Buildings. Note the westward bend on W. 3rd Street of this transportation line. Civic authorities at this time have filed notice of demolition for the complete Sixth Avenue Elevated line and same will shortly disappear from the Manhattan scene; its services being performed by the about to be completed Sixth Avenue Municipal Subway.\n\nMay 23, 1938.\nViews 1 and 2\n\nP. L. Sperr\n\nThe same thoroughfare subsequent to the \"El\" demolition. Note the distinctive apartment house, No. 1 Fifth Avenue, in the background. Washington Square intervenes between this point and the end of this street.\n\nMay 19, 1939\n\nP. L. Sperr\n",
@@ -205,9 +494,35 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "West Broadway"
+      },
+      "source": "Manhattan: West Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "724416f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724416f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e6724560-c554-012f-d02c-58d385a7bc34",
     "original_title": "Manhattan: West Broadway - Bleecker Street",
     "rotation": 90,
@@ -224,9 +539,41 @@
   {
     "date": "1945",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Bleecker Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - Bleecker Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "717278f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717278f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "643-713 Broadway ; Broadway Central Hotel ; Young and Rutherford."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Broadway Central Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Carts & wagons",
+          "Clothing stores",
+          "Cobblestone streets",
+          "Horse teams",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9b21a190-c549-012f-2452-58d385a7bc34",
     "original_title": "Manhattan: Broadway - [Bleecker Street]",
     "text": "P.L. Sperr collection\nRec'd January 13, 1945\n",

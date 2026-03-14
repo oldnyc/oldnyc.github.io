@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Calyer Street",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Brooklyn: Manhattan Avenue - Calyer Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705553f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705553f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f8fe9c40-c536-012f-a7a7-58d385a7bc34",
     "original_title": "Brooklyn: Manhattan Avenue - Calyer Street",
     "text": "Manhattan Ave., east side, north from Calyer Street; at the right is seen St. Anthony's R.C. Church.\nMarch 3, 1935.\n\nP. L. Sperr.\n",

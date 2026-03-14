@@ -2,9 +2,43 @@
   {
     "date": "1942-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Stuyvesant Avenue"
+      },
+      "source": "Fulton Street and Stuyvesant Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Avaron Street",
+        "str2": "Fulton Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Avaron Street",
+        "str2": "Stuyvesant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "485823",
     "image_url": "https://images.nypl.org/?id=485823&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72ab4de0-c60e-012f-ae94-58d385a7bc34",
     "text": null,
     "text_source": null,

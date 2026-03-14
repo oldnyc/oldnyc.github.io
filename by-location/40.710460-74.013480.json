@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Liberty Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 431,
     "id": "724091f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724091f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/627d8ca0-c554-012f-ce98-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Liberty Street",
     "text": "159-161 Washington Street, east side, between Liberty and Cortlandt Streets.\n1933.\n",

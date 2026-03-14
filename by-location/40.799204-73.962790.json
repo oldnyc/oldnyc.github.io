@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 106th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "714989f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714989f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1327c430-c546-012f-5220-58d385a7bc34",
     "original_title": "Manhattan: 106th Street (West) - Columbus Avenue",
     "text": "West 106th Street, north side, west from Manhattan, to and across Columbus Avenues. The block front consists of structures numbered 49-51 (right) to 71 (left, corner building). The Ninth Avenue \"El\" which runs on Columbus Avenue at this point is obscured by the canopy at the left.\n\nSeptember 1934\n\nGeorge L. Balgue\n",
@@ -22,9 +40,29 @@
   {
     "date": "1941-04-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Columbus Avenue at 106th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "486032",
     "image_url": "https://images.nypl.org/?id=486032&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4fbb1c10-c60e-012f-4614-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +76,36 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 106th Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "719098f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719098f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Fruit",
+          "Furniture stores",
+          "Markets",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71d96190-c54c-012f-bd86-58d385a7bc34",
     "original_title": "Manhattan: Columbus Avenue - 106th Street",
     "text": "(1) Columbus Avenue, northwards from South west corner of 106th Street.\n\n(2) to (3) Same, different angles.\n\nP.L.Speer.\nApril 20, 1941.\n",
@@ -55,9 +120,36 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 106th Street",
+      "technique": "title-cross"
+    },
     "height": 412,
     "id": "719098f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719098f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Fruit",
+          "Furniture stores",
+          "Markets",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71d96190-c54c-012f-bd86-58d385a7bc34",
     "original_title": "Manhattan: Columbus Avenue - 106th Street",
     "text": "(1) Columbus Avenue, northwards from South west corner of 106th Street.\n\n(2) to (3) Same, different angles.\n\nP.L.Speer.\nApril 20, 1941.\n",
@@ -72,9 +164,36 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: Columbus Avenue - 106th Street",
+      "technique": "title-cross"
+    },
     "height": 409,
     "id": "719098f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719098f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Fruit",
+          "Furniture stores",
+          "Markets",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71d96190-c54c-012f-bd86-58d385a7bc34",
     "original_title": "Manhattan: Columbus Avenue - 106th Street",
     "text": "(1) Columbus Avenue, northwards from South west corner of 106th Street.\n\n(2) to (3) Same, different angles.\n\nP.L.Speer.\nApril 20, 1941.\n",
@@ -89,9 +208,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 76,
+        "street": "West 106th Street"
+      },
+      "source": "76 West 106th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558349-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558349-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Private Dwellings"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/014d76b0-c5ed-012f-37ff-58d385a7bc34",
     "text": null,
     "text_source": null,

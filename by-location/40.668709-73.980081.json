@@ -2,9 +2,33 @@
   {
     "date": "1902",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 6th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "702442f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702442f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/254e5a20-c532-012f-639d-58d385a7bc34",
     "original_title": "Brooklyn: 6th Street - 7th Avenue",
     "text": "Sixth Street at, adjoining, and west of Seventh Ave. A view of the Greenwood Baptist Church. In the foreground, are the tracks of the Seventh Ave., Trolley Line of the B.R.T.\n\nAbout 1902.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "6th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Brooklyn: 6th Street - 7th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702443f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702443f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25a2e0a0-c532-012f-94d0-58d385a7bc34",
     "original_title": "Brooklyn: 6th Street - 7th Avenue",
     "text": "468-6th Street, south side, west of Seventh Avenue (right), showing the home of Hans Sorensen in 1922.\n\nApril 24, 1922.\n\nW. B. Vernam\n",

@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Sixty-seventh Street"
+      },
+      "source": "Central Park West and Sixty-seventh Street",
+      "technique": "gpt"
+    },
     "height": 519,
     "id": "417375",
     "image_url": "https://images.nypl.org/?id=417375&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed274a40-c611-012f-9a55-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -22,9 +44,27 @@
       "1932",
       "1928-11-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "67th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 67th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714214f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714214f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e56da3f0-c544-012f-dd7b-58d385a7bc34",
     "text": "(1)\n\n28 West 67th Street, south side, west of Central Park West.\nThis is a two-story frame building.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same, five years earlier.\nNovember 1, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -43,9 +83,27 @@
       "1932",
       "1928-11-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "67th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 67th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "714214f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/714214f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e56da3f0-c544-012f-dd7b-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\n\n28 West 67th Street, south side, west of Central Park West.\nThis is a two-story frame building.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n\n(2)\n\nThe same, five years earlier.\nNovember 1, 1928.\n\nP. L. Sperr.\n",
@@ -61,9 +119,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "67th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 67th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718452f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718452f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Christian Science churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7232f680-c54b-012f-288f-58d385a7bc34",
     "text": "Central Park West, west side, from 67th to 68th Streets. In the centre, demolition work is about to begin on the Town House Apartments. Beyond it, on the S.W. corner of 68th Street, may be seen the Second Church of Christ Scientist. In the foreground, the sidewalk and street has been torn up for construction work on the Eighth Avenue subway. September 24, 1928.\n\nP. L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -77,9 +157,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Central Park West",
+        "str2": "West 67th Street"
+      },
+      "source": "Manhattan: 1 West 67th Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "1558294",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558294.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Interior of large studio"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb1f0470-c5ec-012f-8c3f-58d385a7bc34",
     "text": null,
     "text_source": null,

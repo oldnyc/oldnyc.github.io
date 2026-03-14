@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 55,
+        "street": "Central Park West"
+      },
+      "source": "55 Central Park West",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464747",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464747.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2067bb70-c612-012f-3a2b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Sixty-sixth Street"
+      },
+      "source": "Central Park West and Sixty-sixth Street",
+      "technique": "gpt"
+    },
     "height": 535,
     "id": "417229",
     "image_url": "https://images.nypl.org/?id=417229&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b12381f0-c611-012f-9179-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "66th Street",
+        "str2": "Central Park West"
+      },
+      "source": "66th Street and Central Park West",
+      "technique": "gpt"
+    },
     "height": 512,
     "id": "417361",
     "image_url": "https://images.nypl.org/?id=417361&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7ab55b0-c611-012f-6da7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +115,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "66th Street",
+        "str2": "Central Park West"
+      },
+      "source": "66th Street and Central Park West",
+      "technique": "gpt"
+    },
     "height": 535,
     "id": "417362",
     "image_url": "https://images.nypl.org/?id=417362&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e804dd70-c611-012f-2edf-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +153,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 55,
+        "street": "Central Park West"
+      },
+      "source": "55 Central Park West",
+      "technique": "gpt"
+    },
     "height": 515,
     "id": "417416",
     "image_url": "https://images.nypl.org/?id=417416&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd051e00-c611-012f-e4d8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -82,9 +191,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "66th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 66th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "714195f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/714195f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Armories",
+          "Elevated railroads",
+          "Moving & storage trade",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddd8e5a0-c544-012f-135e-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nWest 66th Street, west from (No. 36) but not including Central Park West, to Columbus Ave., showing on the south side of the street (left), the First Battery Armory (building with flag post). Also shown is the 66th Street station of the Sixth Ave. Elevated Line on Columbus Ave.\n\nMarch 2, 1937.\n\nP. L. Sperr.\n\n(2)\nThe same, but showing a limited view of the south side of the street.\nMarch 2, 1937.\n\nP. L. Sperr.\n",
@@ -99,9 +234,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "66th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 66th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714195f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714195f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Armories",
+          "Elevated railroads",
+          "Moving & storage trade",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddd8e5a0-c544-012f-135e-58d385a7bc34",
     "text": "(1)\nWest 66th Street, west from (No. 36) but not including Central Park West, to Columbus Ave., showing on the south side of the street (left), the First Battery Armory (building with flag post). Also shown is the 66th Street station of the Sixth Ave. Elevated Line on Columbus Ave.\n\nMarch 2, 1937.\n\nP. L. Sperr.\n\n(2)\nThe same, but showing a limited view of the south side of the street.\nMarch 2, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

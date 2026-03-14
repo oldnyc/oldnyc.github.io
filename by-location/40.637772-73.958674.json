@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Newkirk Avenue",
+        "str2": "Ocean Avenue"
+      },
+      "source": "Brooklyn: Ocean Avenue - Newkirk Avenue",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "706101f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706101f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cda09620-c537-012f-c8fe-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Avenue - Newkirk Avenue",
     "text": "Ocean Ave., west side, at Newkirk Ave.\nMay 1926.\nEugene L. Armbruster Collection.\n",

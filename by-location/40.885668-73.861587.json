@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "222nd Street (East)",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: 222nd Street (East) - White Plains Road",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "700337f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700337f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f67f6e0-c52f-012f-e1d3-58d385a7bc34",
     "original_title": "Bronx: 222nd Street (East) - White Plains Road",
     "text": "E. 222nd Street, east from White Plains Road.\n\nJanuary 13, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

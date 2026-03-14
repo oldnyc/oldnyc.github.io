@@ -2,9 +2,32 @@
   {
     "date": "1862; 1963",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 463,
     "id": "1635948",
     "image_url": "https://images.nypl.org/?id=1635948&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Bays -- New York (State)",
+          "Forts & fortifications",
+          "Military bases"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3b692210-c5d0-012f-0807-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -19,9 +42,31 @@
   {
     "date": "1862; 1963",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "1635949",
     "image_url": "https://images.nypl.org/?id=1635949&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Helicopters",
+          "Military bases"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3bcae890-c5d0-012f-1aa6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -36,9 +81,30 @@
   {
     "date": "1862; 1963",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 471,
     "id": "1635950",
     "image_url": "https://images.nypl.org/?id=1635950&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Military bases"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c344640-c5d0-012f-98d1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -53,9 +119,39 @@
   {
     "date": "1928; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "East River",
+        "str2": "Fort Tilden",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "726712f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726712f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Military reservations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d348710-c558-012f-468f-58d385a7bc34",
     "text": "Fort Totten (Queens): Viewing across the East River toward the United States Army Reservation, from Fort Schuyler on Throggs Neck, the Bronx.\n\nView 1: August 21, 1928\nView 2: July 1, 1937\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -70,9 +166,39 @@
   {
     "date": "1928; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "East River",
+        "str2": "Fort Tilden",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "726712f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726712f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Military reservations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d348710-c558-012f-468f-58d385a7bc34",
     "text": "Fort Totten (Queens): Viewing across the East River toward the United States Army Reservation, from Fort Schuyler on Throggs Neck, the Bronx.\n\nView 1: August 21, 1928\nView 2: July 1, 1937\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -87,9 +213,42 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Armed Forces Day",
+        "str2": "Fort Totten",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726714f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726714f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Wm. A. Leonard Post of the American Legion, of Flushing."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Flag bearers",
+          "Military reservations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e2184c0-c558-012f-dfc0-58d385a7bc34",
     "text": "Whenever the occasion warrants it, Fort Totten will stage a patriotic program. Here the Wm. A. Leonard Post of the American Legion, of Flushing, advances the colors in the opening ceremonies of the annual Armed Forces Day.\n\nC. Manley De Boevoise\n51-05 Browvale Lane\nLittle Neck, N.Y.\n",
     "text_source": "gpt",
@@ -103,9 +262,42 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7908824,
+        "lng": -73.7757324
+      },
+      "source": "Fort Totten Historic District (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Fort Totten",
+        "str2": "Old Fort Totten",
+        "technique": "title-cross"
+      }
+    ],
     "height": 480,
     "id": "726715f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726715f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fort Totten Historic District (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Forts & fortifications",
+          "Military reservations",
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e96fb60-c558-012f-5db6-58d385a7bc34",
     "text": "Old Fort Totten - built 1862-65\n\nC. Manley De Bevoise\n51-05 Browvale Lane\nLittle Neck, N.Y.\n",
     "text_source": "gpt",

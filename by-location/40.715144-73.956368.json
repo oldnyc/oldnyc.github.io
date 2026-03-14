@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-09-16"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Street (North)",
+        "str2": "Roebling Street"
+      },
+      "source": "Brooklyn: Roebling Street - 5th Street (North)",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "706533f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706533f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7574c1c0-c538-012f-ed66-58d385a7bc34",
     "original_title": "Brooklyn: Roebling Street - 5th Street (North)",
     "text": "Roebling Street, n.w. cor. N. 5th Street, Brooklyn.\n\nP. L. Sperr, photographer\nSept. 16, 1941\n",

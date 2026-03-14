@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Tremont Avenue (East)",
+        "str2": "Walton Avenue"
+      },
+      "source": "Bronx: Walton Avenue - Tremont Avenue (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702014f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702014f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ff32c60-c531-012f-86f1-58d385a7bc34",
     "original_title": "Bronx: Walton Avenue - Tremont Avenue (East)",
     "text": "1936 Walton Ave., adjoining the S.E. corner of East Tremont Ave., showing the Third Reformed Presbyterian Church.\n\nJuly 17, 1935.\n\nP. L. Sperr.\n",

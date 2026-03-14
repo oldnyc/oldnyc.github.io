@@ -2,9 +2,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1,
+        "street": "East 34th Street"
+      },
+      "source": "1 East 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "712082f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712082f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/667a7ab0-c541-012f-5452-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - East River Drive",
     "text": "(1) East 34th Street, at the East River. Shown is the abandoned L.I.R.R. Ferry Terminus with the derelict \"Mount Hood\" in the slip.\n\nApril 8, 1936.\n\nP. L. Sperr.\n\n(2) The \"Mount Hood\".\n\nApril 8, 1936.\n\nP. L. Sperr.\n",
@@ -19,9 +51,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1,
+        "street": "East 34th Street"
+      },
+      "source": "1 East 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "34th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "712082f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712082f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/667a7ab0-c541-012f-5452-58d385a7bc34",
     "original_title": "Manhattan: 34th Street (East) - East River Drive",
     "text": "(1) East 34th Street, at the East River. Shown is the abandoned L.I.R.R. Ferry Terminus with the derelict \"Mount Hood\" in the slip.\n\nApril 8, 1936.\n\nP. L. Sperr.\n\n(2) The \"Mount Hood\".\n\nApril 8, 1936.\n\nP. L. Sperr.\n",

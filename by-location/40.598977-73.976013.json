@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-04-25"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street (West)",
+        "str2": "Avenue T"
+      },
+      "source": "Brooklyn: 4th Street (West) - Avenue T",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702366f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702366f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09a37a80-c532-012f-798b-58d385a7bc34",
     "original_title": "Brooklyn: 4th Street (West) - Avenue T",
     "text": "1978=1994 West 4th Street, at and adjoining the N.W. corner of Ave. T. The frame building at the corner is No. 1994 West 4th Street.\n\nApril 25, 1935.\n\nP. L. Sperr.\n",
@@ -22,9 +40,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th St. W.",
+        "str2": "Ave. T"
+      },
+      "source": "Brooklyn: Ave. T - 4th St. W.",
+      "technique": "title-cross"
+    },
     "height": 434,
     "id": "707020f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707020f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Smokehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e3c0060-c539-012f-8caa-58d385a7bc34",
     "original_title": "Brooklyn: Ave. T - 4th St. W.",
     "text": "Ave. T. Hendrick J. Lotts, smokehouse or ice house, Ave. T, Flatlands. East side Strome Kill, Flatbush. on Ryders Pond Photographer: D.B. Austin, 22 Christopher St., Oceanside, L.I., N.Y. (90 yrs. old in 1952)",

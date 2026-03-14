@@ -2,9 +2,38 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Court Square",
+        "str2": "Thomson Avenue"
+      },
+      "source": "Court Square and Thomson Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Court Square",
+        "str2": "East Lane",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "726427f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726427f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b31ad2e0-c557-012f-aab9-58d385a7bc34",
     "text": "Court Square, east lane, just south of Thomson Avenue, showing the Queens County Jail and the entrance. The jail is in rear of the County Court House.\n\n1910's\n",
     "text_source": "gpt",

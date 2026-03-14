@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Fort Washington Avenue",
+        "str2": "West 180th Street"
+      },
+      "source": "Fort Washington Avenue and West 180th Street",
+      "technique": "gpt"
+    },
     "height": 546,
     "id": "465514-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465514-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ba621d0-c612-012f-22c5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "180th Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "180th Street and Fort Washington Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465624",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465624.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57d0b870-c612-012f-a38a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "180th Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "180th Street and Fort Washington Avenue",
+      "technique": "gpt"
+    },
     "height": 477,
     "id": "417632",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417632.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/233c9b60-c6cd-012f-6e7d-58d385a7bc34",
     "text": null,
     "text_source": null,

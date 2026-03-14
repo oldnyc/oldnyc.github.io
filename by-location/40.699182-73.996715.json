@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "Pineapple Street"
+      },
+      "source": "Brooklyn: Furman Street - Pineapple Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "704595f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704595f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/759304d0-c535-012f-6a78-58d385a7bc34",
     "original_title": "Brooklyn: Furman Street - Pineapple Street",
     "text": "Furman Street, east side, south from No. 155, near Pineapple Street.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

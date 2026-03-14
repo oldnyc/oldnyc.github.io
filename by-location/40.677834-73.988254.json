@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Carroll Street",
+        "str2": "Nevins Street"
+      },
+      "source": "Brooklyn: Carroll Street - Nevins Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703502f",
     "image_url": "https://images.nypl.org/?id=703502f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc8d02f0-c533-012f-3c2c-58d385a7bc34",
     "original_title": "Brooklyn: Carroll Street - Nevins Street",
     "text": null,

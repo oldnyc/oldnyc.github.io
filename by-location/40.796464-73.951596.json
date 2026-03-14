@@ -2,9 +2,45 @@
   {
     "date": "1931; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.796464,
+        "lng": -73.951596
+      },
+      "source": "Central Park - Harlem Mere",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Harlem Mere",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "718230f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718230f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Plaza Hotel (New York, N.Y.)",
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Hotels",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1541d7f0-c54b-012f-3e0f-58d385a7bc34",
     "text": "(1)\nCentral Park: The Lake, view south from the northern end, showing the midtown skyline between Fifth and Eighth Avenues, from\nthe Hotel Plaza to the General Motors Building.\nJune 28, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, four years later. The gigantic R. C. A. Building, at\nRadio City, has been added to the skyline.\nJune 24, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -19,9 +55,45 @@
   {
     "date": "1931; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.796464,
+        "lng": -73.951596
+      },
+      "source": "Central Park - Harlem Mere",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Harlem Mere",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "718230f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718230f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Plaza Hotel (New York, N.Y.)",
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Hotels",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1541d7f0-c54b-012f-3e0f-58d385a7bc34",
     "text": "(1)\nCentral Park: The Lake, view south from the northern end, showing the midtown skyline between Fifth and Eighth Avenues, from\nthe Hotel Plaza to the General Motors Building.\nJune 28, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, four years later. The gigantic R. C. A. Building, at\nRadio City, has been added to the skyline.\nJune 24, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

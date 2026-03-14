@@ -2,9 +2,36 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "St. Nicholas Terrace"
+      },
+      "source": "Manhattan: St. Nicholas Terrace - 127th Street",
+      "technique": "title-cross"
+    },
     "height": 456,
     "id": "723170f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723170f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "St. Nicholas Park (New York, N.Y.)",
+          "St. Nicholas Terrace (New York, N.Y.)"
+        ],
+        "topic": [
+          "Convents",
+          "Parks",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e02ae3f0-c552-012f-fb99-58d385a7bc34",
     "original_title": "Manhattan: St. Nicholas Terrace - 127th Street",
     "text": "St. Nicholas Terrace, south from about W. 133rd, to 127th Streets, showing on the right (west side) the grounds of the Convent of the Sacred Heart. Opposite same is the fenced slope that is St. Nicholas Park.\n\nJuly 1928.\n\nGeorge L. Balgue\n",

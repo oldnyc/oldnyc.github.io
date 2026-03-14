@@ -2,9 +2,31 @@
   {
     "date": "1898",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broome Street",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Wooster Street - Broome Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724815f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724815f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Printers",
+          "Printing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7eef4bf0-c555-012f-fefa-58d385a7bc34",
     "original_title": "Manhattan: Wooster Street - Broome Street",
     "text": "76, 80-82 Wooster Street, east side, between Broome and Spring Streets, showing a old three-story house made over for business, adjoining a more recent seven-story loft building. Rephotographed from an original made about 1898.",

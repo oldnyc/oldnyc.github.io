@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Havemeyer Avenue",
+        "str2": "Hermany Avenue"
+      },
+      "source": "Bronx: Hermany Avenue - Havemeyer Avenue",
+      "technique": "title-cross"
+    },
     "height": 340,
     "id": "701254f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701254f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/66371520-c530-012f-345e-58d385a7bc34",
     "original_title": "Bronx: Hermany Avenue - Havemeyer Avenue",
     "text": "Hermany Ave.,north side, between Havemeyer and Zerega Avenues. The view is eastward.\nAbout 1927.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Concord Street",
+        "str2": "Gold Street"
+      },
+      "source": "Brooklyn: Gold Street - Concord Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "704644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704644f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a57ecf0-c535-012f-f7c4-58d385a7bc34",
     "original_title": "Brooklyn: Gold Street - Concord Street",
     "text": "273-277 Gold Street, east side, between Concord and Tillary Streets. At 275 is the Shiloah Primitive Baptist Church.\n\nFebruary 3, 1931.\n\nP. L. Sperr.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Concord Street",
+        "str2": "Gold Street"
+      },
+      "source": "Brooklyn: Concord Street - Gold Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703772f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703772f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Presbyterian churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2aa940c0-c534-012f-347f-58d385a7bc34",
     "original_title": "Brooklyn: Concord Street - Gold Street",
     "text": "209 Concord Street, north side, between Gold Street and Hudson Ave., showing City Park Brooklyn Presbyterian Church.\n\nJune 26, 1934.\n",
@@ -39,9 +84,27 @@
     "dates_from_text": [
       "1934-07-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Concord Street",
+        "str2": "Gold Street"
+      },
+      "source": "Brooklyn: Gold Street - Concord Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "704643f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704643f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89e8f9d0-c535-012f-8c46-58d385a7bc34",
     "original_title": "Brooklyn: Gold Street - Concord Street",
     "text": "273-275 Gold Street, east side, between Concord and Tillary Streets, showing two gypsies in front of frame houses.\n\nJuly 1, 1934.\n\nP. L. Sperr.\n",

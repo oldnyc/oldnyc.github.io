@@ -5,9 +5,38 @@
     "dates_from_text": [
       "1935-09-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "34th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "34th Street and Fifth Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "East River",
+        "str2": "Grand Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734073f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734073f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: Grand Street.",
+        "Schooner James E. Newsom."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a570bf20-c563-012f-82b8-58d385a7bc34",
     "text": "East River, Brooklyn, shore and skyline, at the foot of Grand Street and showing the old piers remaining of the former Grand Street ferry. To the right is the schooner \"James E. Newsom.\" Across the river appears the Manhattan shoreline distinguished by gas holders and an electric generating plant in the vicinity of East 14th Street. Towering above same is the Empire State Building at Fifth Avenue and 34th Street.\n\nSeptember 10, 1935\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -24,9 +53,38 @@
     "dates_from_text": [
       "1935-09-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "34th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "34th Street and Fifth Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "East River",
+        "str2": "Grand Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734073f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734073f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: Grand Street.",
+        "Schooner James E. Newsom."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a570bf20-c563-012f-82b8-58d385a7bc34",
     "text": "East River, Brooklyn, shore and skyline, at the foot of Grand Street and showing the old piers remaining of the former Grand Street ferry. To the right is the schooner \"James E. Newsom.\" Across the river appears the Manhattan shoreline distinguished by gas holders and an electric generating plant in the vicinity of East 14th Street. Towering above same is the Empire State Building at Fifth Avenue and 34th Street.\n\nSeptember 10, 1935\nViews 1 and 2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -40,9 +98,30 @@
   {
     "date": "1941-11-05",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "34th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "34th Street and Fifth Avenue",
+      "technique": "gpt"
+    },
     "height": 413,
     "id": "1509735-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509735-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4dfd930-c5cd-012f-e360-58d385a7bc34",
     "text": null,
     "text_source": null,

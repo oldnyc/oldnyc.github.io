@@ -2,9 +2,34 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Bradford Street"
+      },
+      "source": "Brooklyn: Bradford Street - Atlantic Avenue",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "703280f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703280f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/686b6b70-c533-012f-38a3-58d385a7bc34",
     "original_title": "Brooklyn: Bradford Street - Atlantic Avenue",
     "text": "Bradford Street, (formerly Butler Street), west side, south of Atlantic Ave., showing the Turn Hall, a frame structure 57 1/2' x 60', erected at a cost of $4,000. It was formally opened on July 4, 1864. The small house next to the Hall was a school in 1873, but was subsequently converted into a court house.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

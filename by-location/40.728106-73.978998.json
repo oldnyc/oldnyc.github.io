@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 12th Street (East) - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "711121f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711121f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d423a310-c53f-012f-d392-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (East) - Avenue B",
     "text": "610 East Twelfth Street, south side between Avenues B, and C, showing P.S.61.\nBoard of Education, N.Y.C.\n1920.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 12th Street (East) - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711123f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711123f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d4d0b3d0-c53f-012f-6a31-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (East) - Avenue B",
     "text": "12th Street, south side, at and adjoining the S.W. corner of Avenue B, showing Public School No. 126 at 536 East 12th Street. July 24, 1930.\n\nP. L. Sperr.\n",

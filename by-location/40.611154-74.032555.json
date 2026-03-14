@@ -6,9 +6,35 @@
       "1928-10",
       "1933"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "101st Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "101st Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton",
+        "technique": "title-cross"
+      }
+    ],
     "height": 475,
     "id": "704429f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704429f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/327ec310-c535-012f-f413-58d385a7bc34",
     "text": "Fort Hamilton Parkway, (formerly State Road), west side, north from 101st Street, showing the home of Col. James C. and Judge Charles W. Church.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\nThe same, a closer view.\n1933.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -27,9 +53,35 @@
       "1928-10",
       "1933"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "101st Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "101st Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton",
+        "technique": "title-cross"
+      }
+    ],
     "height": 362,
     "id": "704429f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704429f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/327ec310-c535-012f-f413-58d385a7bc34",
     "text": "Fort Hamilton Parkway, (formerly State Road), west side, north from 101st Street, showing the home of Col. James C. and Judge Charles W. Church.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\nThe same, a closer view.\n1933.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -48,9 +100,35 @@
       "1929-05-10",
       "1929-05-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "101st Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "101st Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "704428f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704428f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32012d70-c535-012f-4e87-58d385a7bc34",
     "text": "(1) Fort Hamilton P'kway., west side, near 101st Street. A view of Judge Church homestead. Charles W. Church, for 40 odd years, Justice of the Peace, in Fort Hamilton. The Judge was in office prior and subsequent to the Civil War.\n\nMay 10, 1929.\n\nP. L. Sperr.\n\n(2) The same, from another angle.\n\nMay 10, 1929.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -69,9 +147,35 @@
       "1929-05-10",
       "1929-05-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "101st Street",
+        "str2": "Fort Hamilton Parkway"
+      },
+      "source": "101st Street and Fort Hamilton Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "100th Street",
+        "str2": "Fort Hamilton",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "704428f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704428f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32012d70-c535-012f-4e87-58d385a7bc34",
     "text": "(1) Fort Hamilton P'kway., west side, near 101st Street. A view of Judge Church homestead. Charles W. Church, for 40 odd years, Justice of the Peace, in Fort Hamilton. The Judge was in office prior and subsequent to the Civil War.\n\nMay 10, 1929.\n\nP. L. Sperr.\n\n(2) The same, from another angle.\n\nMay 10, 1929.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

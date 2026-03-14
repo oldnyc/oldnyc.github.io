@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "194th Street (East)",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: 194th Street (East) - Webster Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700307f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700307f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14d48740-c52f-012f-14e4-58d385a7bc34",
     "original_title": "Bronx: 194th Street (East) - Webster Avenue",
     "text": "384 East 194th Street (right), south side, west from Webster to Decatur Aves., showing the 3-unit apartment house, the Fordham Arms.\n\n1929.\n\nKnickerbocker Photo Service.\n",

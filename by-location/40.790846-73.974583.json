@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Ninetieth Street"
+      },
+      "source": "Broadway and Ninetieth Street",
+      "technique": "gpt"
+    },
     "height": 523,
     "id": "417263",
     "image_url": "https://images.nypl.org/?id=417263&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf56ea50-c611-012f-1059-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,31 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 90th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717689f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717689f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39a9ed80-c54a-012f-d228-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 90th Street",
     "text": "Construction work began on the Haroldon Court Apartment House, Broadway at the N.E. corner of 90th Street.\n1921.\n\nGift of E. M. Jenks.\n",
@@ -38,9 +82,27 @@
     "dates_from_text": [
       "1931-03-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 90th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717688f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717688f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/393f0aa0-c54a-012f-4f17-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 90th Street",
     "text": "Entrance to the Stoddard Theatre, Broadway at the S.W. corner of 90th Street.\nMarch 15, 1931.\n\nP. L. Sperr.\n",
@@ -55,9 +117,32 @@
   {
     "date": "1933-10-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 90th Street, ",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "1509125-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509125-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Stoddard Theatre"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eee9a840-c5cd-012f-5386-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -71,9 +156,37 @@
   {
     "date": "1933-10-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 90th Street"
+      },
+      "source": "Manhattan: 2431 Broadway - West 90th Street",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "1557824",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557824.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Stoddard Theater"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Motion picture theaters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24981fb0-c5ed-012f-5a16-58d385a7bc34",
     "text": null,
     "text_source": null,

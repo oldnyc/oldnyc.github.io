@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 125th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "715426f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715426f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7ad3230-c546-012f-9543-58d385a7bc34",
     "original_title": "Manhattan: 125th Street - Broadway",
     "text": "125th Street, east from and including Broadway.\nAbout 1910.\n",
@@ -22,9 +40,28 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 125th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "715424f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715424f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattanville (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6e6c4a0-c546-012f-2e6d-58d385a7bc34",
     "original_title": "Manhattan: 125th Street (West) - Broadway",
     "text": "West 125th (Manhattan) Street, east from Broadway (photographers vantage point being the elevated station at that point), showing an old thoroughfare which was formerly Manhattan Street and intersected Bloomingdale Road in the immediate foreground. Old Broadway, a thoroughfare that is not to be confused with Broadway is the street at the left and follows the line of the afore mentioned road. Close scrutiny will show the observer several of the old frame houses still standing and which remain from the days when this area was a village, known as Manhattanville. (q.v.)\n\nJuly 1913.\n\nGeorge L. Balgue.\n",
@@ -39,9 +76,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 125th Street",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "717735f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717735f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ae575d0-c54a-012f-e1ea-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 125th Street",
     "text": "(1)\nBroadway 125th to 126th Street, east side.\n(Before reconstruction.\n\n(2)\nSame, after reconstruction.\n\nJanuary 30, 1919.\n",
@@ -56,9 +117,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 125th Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "717735f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717735f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ae575d0-c54a-012f-e1ea-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 125th Street",
     "text": "(1)\nBroadway 125th to 126th Street, east side.\n(Before reconstruction.\n\n(2)\nSame, after reconstruction.\n\nJanuary 30, 1919.\n",
@@ -73,9 +158,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 125th Street",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "717736f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717736f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b47f370-c54a-012f-3f86-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 125th Street",
     "text": "Broadway, 125th to 126th Street. (After Reconstruction).\nJanuary 30, 1919.\n",
@@ -93,9 +202,41 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "125th Street and Broadway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "715423f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715423f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b67a2900-c546-012f-5a4f-58d385a7bc34",
     "original_title": "Manhattan: 125th Street - Riverside Drive",
     "text": "125th Street, from but not including, Riverside Drive to and including Broadway.\nSpring, 1924.\n\nP. L. Sperr.\n",
@@ -113,9 +254,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 125th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715425f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715425f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b7562680-c546-012f-b5de-58d385a7bc34",
     "original_title": "Manhattan: 125th Street - Broadway",
     "text": "125th Street, east from and including Broadway, with the elevated tracks of the west side Interborough subway overhead.\nSummer, 1924.\nP.L. Sperr.\n",
@@ -130,9 +289,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 125th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "717734f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717734f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a92d540-c54a-012f-9c7f-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 125th Street",
     "text": "3203-3189 Broadway, at, adjoining, and south of the S.W. corner of 125th Street.\n\nJuly 27, 1929.\n\nP. L. Sperr.\n",
@@ -147,9 +327,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 125th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "715421f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715421f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5b3d200-c546-012f-7971-58d385a7bc34",
     "original_title": "Manhattan: 125th Street (West) - Broadway",
     "text": "564- 66 West 125th Street, south side, east of Broadway.\n\nJune 21, 1934.\n\nP. L. Sperr.\n",
@@ -164,9 +367,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 125th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717733f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717733f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Stage Coach Parade."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parades & processions",
+          "Stagecoaches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a2783f0-c54a-012f-a985-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 125th Street",
     "text": "A stage coach parade on Broadway at West 125th Street.\nUnknown date.\n",
@@ -181,9 +411,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "125th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 125th Street",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "717737f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717737f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Elevated railroads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ba49230-c54a-012f-5aea-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 125th Street",
     "text": "Broadway, 125th Street, to 126th Street, west side. (Before Re-construction).",

@@ -6,9 +6,27 @@
       "1939-04-12",
       "1904"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Cliff Street"
+      },
+      "source": "Manhattan: Beekman Street - Cliff Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716664f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716664f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9c61b8c0-c548-012f-7776-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - Cliff Street",
     "text": "Beekman Street, north side, east from (No. 82, left) a point to the west of Cliff Street and across same to Pearl Street (\"El thereupon). The imposing structures at the left are No's. 82 and 84 Beekman Street and are separated by a narrow airway. The latter is the St. George Building and is directly at the N.W. corner of Cliff Street. The New York Times of April 12, 1939 reports the filing of improvement plans for this building. It is a part of the holdings (including adjoining structures) of the late Charles A. Schieren, the last Mayor of Brooklyn and is on a part of the old Rutgers farm. This is also the site of the St. George Chapel of 1752, a Trinity parish and which began its independent existence in 1812, moving in 1849 to the present structure on Stuyvesant Square.\n\nBrown Brothers\n\n1904\n",
@@ -24,9 +42,31 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Cliff Street"
+      },
+      "source": "Manhattan: Cliff Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718992f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718992f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Glass industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44ae8b70-c54c-012f-5740-58d385a7bc34",
     "original_title": "Manhattan: Cliff Street - Beekman Street",
     "text": null,

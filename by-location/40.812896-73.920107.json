@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "144th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: 144th Street (East) - Willis Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9e84a00-c52e-012f-0e9c-58d385a7bc34",
     "original_title": "Bronx: 144th Street (East) - Willis Avenue",
     "text": "406 to 410 East 144th Street, east of the S.E. corner of Willis Ave.\n\nAbout 1923.\n\nW. B. Vernam.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1941-04-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 144th Street",
+        "str2": "Willis Avenue"
+      },
+      "source": "East 144th Street and Willis Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "700099f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700099f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c99e6780-c52e-012f-7c76-58d385a7bc34",
     "text": "403 to 421 E. 144th Street, northside, just east of Willis Avenue. The school, which is St. Pius Roman Catholic School, is No. 413-17.\n\nP. L. Sperr\nApril 29, 1941\n",
     "text_source": "gpt",
@@ -38,9 +83,27 @@
     "dates_from_text": [
       "1941-04-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "144th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: Willis Avenue - 144th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "702196f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702196f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c55c83d0-c531-012f-377e-58d385a7bc34",
     "original_title": "Bronx: Willis Avenue - 144th Street (East)",
     "text": "Willis Avenue (right), at the northwest corner of E. 144th Street. On the left appears a portion of the Third Avenue \"El.\"\nP. L. Sperr\nApril 20, 1941\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-07-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "180th Street (West)",
+        "str2": "Loring Place"
+      },
+      "source": "Bronx: 180th Street (West) - Loring Place",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "700265f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700265f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0638eec0-c52f-012f-a07f-58d385a7bc34",
     "original_title": "Bronx: 180th Street (West) - Loring Place",
     "text": "W. 180th Street, north side, between Loring and Osborne Places, showing the Mrs. C. E. Schwab house (1888) on the New York University grounds. It is the site of Fort No. 8 in the Revolution, according to Mr. Chrystie.\n\nE. P. Chrystie\nJuly 7, 1923\n",

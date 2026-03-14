@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Andrews Avenue",
+        "str2": "Park Street"
+      },
+      "source": "Richmond: Park Street - Andrews Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "729271f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729271f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Garages",
+          "Housing developments"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/103986f0-c55c-012f-a968-58d385a7bc34",
     "original_title": "Richmond: Park Street - Andrews Avenue",
     "text": "Park Street, at the N.W. corner of Andrews Avenue, showing the new type home and garage in the Richmond Park development.\n\nMay 26, 1927\n\nP. L. Sperr\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-09-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hopkins Street",
+        "str2": "Tompkins Avenue"
+      },
+      "source": "Brooklyn: Hopkins Street - Tompkins Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704969f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704969f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e45c950-c536-012f-93f9-58d385a7bc34",
     "original_title": "Brooklyn: Hopkins Street - Tompkins Avenue",
     "text": "Hopkins St., no. 220, B'klyn.\nSept. 25, 1941\nP. L; Sperr, photographer\n",

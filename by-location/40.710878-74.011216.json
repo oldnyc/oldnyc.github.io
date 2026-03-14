@@ -2,9 +2,47 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 30,
+        "street": "Church Street"
+      },
+      "source": "30 Church Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Hudson River Tunnel",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "718852f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718852f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hudson Railroad Terminal ; Manhattan Railroad Terminal ; Randine Manufacturing Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Factories",
+          "Freight terminals",
+          "Tunnels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e3272a0-c54c-012f-c0e1-58d385a7bc34",
     "text": "Hudson River Tunnel; The terminal building of the M'Adoo Tunnel.\n\nApril 1908\n",
     "text_source": "gpt",
@@ -18,9 +56,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 30,
+        "street": "Church Street"
+      },
+      "source": "30 Church Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "718853f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718853f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hudson Railroad Terminal ; L. and M. Goldsticker Bar Glassware ; Manhattan Railroad Terminal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Equipment and supplies",
+          "Freight terminals",
+          "Restaurants",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e8ee5e0-c54c-012f-2dcc-58d385a7bc34",
     "text": "Church St., nos. 30-50. The Terminal Buildings, New York City.",
     "text_source": "gpt",

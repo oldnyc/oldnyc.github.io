@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Engert Avenue",
+        "str2": "Leonard Street"
+      },
+      "source": "Brooklyn: Engert Avenue - Leonard Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "704142f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704142f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf5b3710-c534-012f-8989-58d385a7bc34",
     "original_title": "Brooklyn: Engert Avenue - Leonard Street",
     "text": "Engert Avenue, at the N.E. corner of Leonard Street. In the left background, are seen buildings at the N.W. corner of Driggs and Manhattan Aves.\nSeptember 10, 1935\nP. L. Sperr.\n",

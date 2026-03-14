@@ -2,9 +2,30 @@
   {
     "date": "1939-10-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Carroll Street",
+        "str2": "Court Street"
+      },
+      "source": "Carroll Street and Court Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1509559-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509559-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a74216e0-c5cd-012f-d251-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1939-10-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Carroll Street",
+        "str2": "Court Street"
+      },
+      "source": "Carroll Street and Court Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1509559-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509559-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a74216e0-c5cd-012f-d251-58d385a7bc34",
     "text": null,
     "text_source": null,

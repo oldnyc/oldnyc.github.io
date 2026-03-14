@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-05-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "West Farms Road"
+      },
+      "source": "Bronx: 172nd Street (East) - West Farms Road",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "700211f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700211f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f24d41e0-c52e-012f-cb95-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - West Farms Road",
     "text": "E. 172nd Street, at the N.W. corner of West Farms Road.\nMay 31, 1928.\n\nP. L. Sperr.\n",
@@ -22,9 +40,38 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 172nd Street",
+        "str2": "West Farms Road"
+      },
+      "source": "E. 172nd Street and West Farms Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "172nd Street & 174th Street",
+        "str2": "West Farms Road",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "702076f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702076f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Junkyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97ac0f80-c531-012f-36af-58d385a7bc34",
     "original_title": "Bronx: West Farms Road - 172nd Street & 174th Street",
     "text": "West Farms Road, east side, between E. 172nd and E. 174th Streets, showing one of buildings of the Northern Union Gas Company and a number of shacks.\n\nP. L. Sperr\n\nMay 31, 1928\nViews 1,2\n",
@@ -39,9 +86,38 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 172nd Street",
+        "str2": "West Farms Road"
+      },
+      "source": "E. 172nd Street and West Farms Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "172nd Street & 174th Street",
+        "str2": "West Farms Road",
+        "technique": "title-cross"
+      }
+    ],
     "height": 407,
     "id": "702076f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702076f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Junkyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97ac0f80-c531-012f-36af-58d385a7bc34",
     "original_title": "Bronx: West Farms Road - 172nd Street & 174th Street",
     "text": "West Farms Road, east side, between E. 172nd and E. 174th Streets, showing one of buildings of the Northern Union Gas Company and a number of shacks.\n\nP. L. Sperr\n\nMay 31, 1928\nViews 1,2\n",
@@ -61,9 +137,27 @@
       "1938-04-26",
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "West Farms Road"
+      },
+      "source": "Bronx: 172nd Street (East) - West Farms Road",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700212f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700212f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2b3dc20-c52e-012f-a003-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - West Farms Road",
     "text": "(1)\nE. 172nd Street, at the N.W. corner of West Farms Road.\nApril 26, 1938.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nApril 26, 1938.\n\nP. L. Sperr.\n\n(3)\nAn additional view of the house, as seen from E. 172nd Street.\nThe view is eastward.\nApril 26, 1938.\n\nP. L. Sperr.\n",
@@ -85,9 +179,27 @@
       "1938-04-26",
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "West Farms Road"
+      },
+      "source": "Bronx: 172nd Street (East) - West Farms Road",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700212f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700212f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2b3dc20-c52e-012f-a003-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - West Farms Road",
     "text": "(1)\nE. 172nd Street, at the N.W. corner of West Farms Road.\nApril 26, 1938.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nApril 26, 1938.\n\nP. L. Sperr.\n\n(3)\nAn additional view of the house, as seen from E. 172nd Street.\nThe view is eastward.\nApril 26, 1938.\n\nP. L. Sperr.\n",
@@ -109,9 +221,27 @@
       "1938-04-26",
       "1938-04-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "172nd Street (East)",
+        "str2": "West Farms Road"
+      },
+      "source": "Bronx: 172nd Street (East) - West Farms Road",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700212f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700212f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2b3dc20-c52e-012f-a003-58d385a7bc34",
     "original_title": "Bronx: 172nd Street (East) - West Farms Road",
     "text": "(1)\nE. 172nd Street, at the N.W. corner of West Farms Road.\nApril 26, 1938.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nApril 26, 1938.\n\nP. L. Sperr.\n\n(3)\nAn additional view of the house, as seen from E. 172nd Street.\nThe view is eastward.\nApril 26, 1938.\n\nP. L. Sperr.\n",

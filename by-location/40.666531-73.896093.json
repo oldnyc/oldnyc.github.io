@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 415,
+        "street": "Georgia Ave"
+      },
+      "source": "415 Georgia Ave",
+      "technique": "gpt"
+    },
     "height": 429,
     "id": "3984755",
     "image_url": "https://images.nypl.org/?id=3984755&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80757e70-c5d7-012f-2e44-58d385a7bc34",
     "text": null,
     "text_source": null,

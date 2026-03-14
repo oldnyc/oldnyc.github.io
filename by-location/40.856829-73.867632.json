@@ -2,9 +2,30 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx and Pelham Parkway",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx and Pelham Parkway and White Plains Road",
+      "technique": "gpt"
+    },
     "height": 478,
     "id": "700595f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700595f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c6028b0-c52f-012f-4b9e-58d385a7bc34",
     "text": "Bronx and Pelham Parkway, east from White Plains Road.\n1914.\n",
     "text_source": "gpt",
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1928-07-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx and Pelham Parkway",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx and Pelham Parkway and White Plains Road",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "700594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700594f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c02ae00-c52f-012f-2e0d-58d385a7bc34",
     "text": "Bronx and Pelham Parkway, east from White Plains Road.\nJuly 28, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -37,9 +76,35 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: Pelham Parkway South - White Plains Road",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701619f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701619f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "White Plains Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f15b8ac0-c530-012f-179a-58d385a7bc34",
     "original_title": "Bronx: Pelham Parkway South - White Plains Road",
     "text": "(1)\nPelham Parkway South (running from left to right), at the S.E. corner of White Plains Road, showing excavation work in progress. On the left appears the elevated station of the I.R.T.White Plains Road subway line.\nJuly 28, 1928.\nP. L. Sperr.\n(2)\nThe same, as seen from the street.\nJuly 28, 1928.\nP. L. Sperr.\n",
@@ -54,9 +119,35 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: Pelham Parkway South - White Plains Road",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701619f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701619f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "White Plains Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads",
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f15b8ac0-c530-012f-179a-58d385a7bc34",
     "original_title": "Bronx: Pelham Parkway South - White Plains Road",
     "text": "(1)\nPelham Parkway South (running from left to right), at the S.E. corner of White Plains Road, showing excavation work in progress. On the left appears the elevated station of the I.R.T.White Plains Road subway line.\nJuly 28, 1928.\nP. L. Sperr.\n(2)\nThe same, as seen from the street.\nJuly 28, 1928.\nP. L. Sperr.\n",
@@ -71,9 +162,36 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: White Plains Road - Pelham Parkway South",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702146f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/702146f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pelham Bay Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Croplands",
+          "Elevated railroads",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2cbbc10-c531-012f-157a-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - Pelham Parkway South",
     "rotation": 90,
@@ -89,9 +207,36 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: White Plains Road - Pelham Parkway South",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702146f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702146f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pelham Bay Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Croplands",
+          "Elevated railroads",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2cbbc10-c531-012f-157a-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - Pelham Parkway South",
     "text": "(1)\n2181 White Plains Road, west side, between Pelham Parkway South and Lydig Ave. It is situated on the former John Jacob Astor Estate.\nJuly 27, 1928.\nP. L. Sperr.\n(2)\nA view of the south side of the house as seen from Bolton Street. Also shown is a portion of the elevated structure of the I.R.T. White Plains Road subway line.\nJuly 28, 1928.\nP. L. Sperr.\n(3)\nGate and wagon drive-in to the house, slightly to the south of it.\nJuly 27, 1928.\nP. L. Sperr.\n",
@@ -106,9 +251,36 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Pelham Parkway South",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: White Plains Road - Pelham Parkway South",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "702146f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/702146f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pelham Bay Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Croplands",
+          "Elevated railroads",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2cbbc10-c531-012f-157a-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - Pelham Parkway South",
     "rotation": 90,

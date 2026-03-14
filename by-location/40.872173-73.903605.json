@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2743,
+        "street": "Kingsbridge Terrace"
+      },
+      "source": "2743 Kingsbridge Terrace",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Terrace",
+        "str2": "Nindham Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Terrace",
+        "str2": "Nindham Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 477,
     "id": "701384f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701384f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9821d300-c530-012f-d0e4-58d385a7bc34",
     "text": "Kingsbridge Terrace, north from (No. 2743), but not including Nindham Place (the latter between West Kingsbridge Road and West 229th Street).\n\nAbout 1923.\n\nJoseph P. Day.\n",
     "text_source": "gpt",

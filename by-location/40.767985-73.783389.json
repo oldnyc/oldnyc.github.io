@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "205th Street",
+        "str2": "34th Avenue"
+      },
+      "source": "Queens: 34th Avenue - 205th Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "725231f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725231f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a91f750-c556-012f-288f-58d385a7bc34",
     "original_title": "Queens: 34th Avenue - 205th Street",
     "text": "34th Avenue, north side, east from 205th to 206th Streets, showing a row of new homes erected on the block by Fred Bergen. The homes sell at $8000 and up.\n\nAbout 1929\n",

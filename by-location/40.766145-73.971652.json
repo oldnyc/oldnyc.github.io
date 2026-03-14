@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "62nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 62nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709094f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709094f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89328ce0-c53c-012f-b1fd-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 62nd Street",
     "text": "807 Fifth Avenue, at S. E. corner of 62nd Street. 1912.",
@@ -22,9 +40,29 @@
   {
     "date": "1931-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "62nd Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "62nd Street and Fifth Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1508501",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508501.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29535350-c5cf-012f-32b9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +76,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 62nd Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 1 East 62nd Street - Fifth Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558289",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558289.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Drexel Biddle residence"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e94aaeb0-c5ec-012f-9c9c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +119,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "62nd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 62nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709093f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709093f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88b47e00-c53c-012f-4a93-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 62nd Street",
     "text": "Special\nThe apartment building on New York's Fifth Avenue at 62nd St., where Richard Nixon and Mrs. Mary T. Rockefeller, former wife of Nelson Rockefeller live.\n",

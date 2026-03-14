@@ -7,9 +7,41 @@
       "1915",
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "East 177th Street"
+      },
+      "source": "Devoe Avenue and East 177th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "174th Street (East)",
+        "str2": "Devoe Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "East 174th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700857f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700857f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7301df0-c52f-012f-9e61-58d385a7bc34",
     "original_title": "Bronx: Devoe Avenue - 174th Street (East)",
     "text": "(1)\n\nDevoe Ave., west side, between East 174th and East 177th Streets, showing the G. Wilson Mansion. It was demolished between 1913 and 1927 and on its site (and the surrounding land) was constructed Starlight Amusement Park. The house stood about fifty feet northwest of where the band stand of the park now (1938) stands.\n\n1915.\n\n(2)\n\nA view of the entrance to the mansion.\n\n1915.\n\n(3)\n\nThe remains of a small stone and brick structure adjoining the\nhouse, seen on the left in view 1.\n\n1915.\n",
@@ -31,9 +63,41 @@
       "1915",
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "East 177th Street"
+      },
+      "source": "Devoe Avenue and East 177th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "174th Street (East)",
+        "str2": "Devoe Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "East 174th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700857f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700857f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7301df0-c52f-012f-9e61-58d385a7bc34",
     "original_title": "Bronx: Devoe Avenue - 174th Street (East)",
     "text": "(1)\n\nDevoe Ave., west side, between East 174th and East 177th Streets, showing the G. Wilson Mansion. It was demolished between 1913 and 1927 and on its site (and the surrounding land) was constructed Starlight Amusement Park. The house stood about fifty feet northwest of where the band stand of the park now (1938) stands.\n\n1915.\n\n(2)\n\nA view of the entrance to the mansion.\n\n1915.\n\n(3)\n\nThe remains of a small stone and brick structure adjoining the\nhouse, seen on the left in view 1.\n\n1915.\n",
@@ -55,9 +119,41 @@
       "1915",
       "1915"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "East 177th Street"
+      },
+      "source": "Devoe Avenue and East 177th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "174th Street (East)",
+        "str2": "Devoe Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "East 174th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "700857f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700857f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7301df0-c52f-012f-9e61-58d385a7bc34",
     "original_title": "Bronx: Devoe Avenue - 174th Street (East)",
     "text": "(1)\n\nDevoe Ave., west side, between East 174th and East 177th Streets, showing the G. Wilson Mansion. It was demolished between 1913 and 1927 and on its site (and the surrounding land) was constructed Starlight Amusement Park. The house stood about fifty feet northwest of where the band stand of the park now (1938) stands.\n\n1915.\n\n(2)\n\nA view of the entrance to the mansion.\n\n1915.\n\n(3)\n\nThe remains of a small stone and brick structure adjoining the\nhouse, seen on the left in view 1.\n\n1915.\n",
@@ -74,9 +170,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "E. 177th Street"
+      },
+      "source": "Devoe Avenue and E. 177th Street",
+      "technique": "gpt"
+    },
     "height": 404,
     "id": "701861f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701861f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Swimming pools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45b15010-c531-012f-a23b-58d385a7bc34",
     "text": "Starlight Amusement Park (Bronx): The south end of the park showing the swimming pool and reservoir, seen from the E. 174th Street bridge over the Bronx River. The entrance to the park is on the south side of E. 177th Street, at Devoe Avenue.\n\nJuly 18, 1928\nViews 1, 2\n\nP. L. Sperr\n\n(3)\n\nThe same, years later.\n\nJuly 23, 1940.\n",
     "text_source": "gpt",
@@ -90,9 +211,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "E. 177th Street"
+      },
+      "source": "Devoe Avenue and E. 177th Street",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "701861f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701861f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Swimming pools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45b15010-c531-012f-a23b-58d385a7bc34",
     "text": "Starlight Amusement Park (Bronx): The south end of the park showing the swimming pool and reservoir, seen from the E. 174th Street bridge over the Bronx River. The entrance to the park is on the south side of E. 177th Street, at Devoe Avenue.\n\nJuly 18, 1928\nViews 1, 2\n\nP. L. Sperr\n\n(3)\n\nThe same, years later.\n\nJuly 23, 1940.\n",
     "text_source": "gpt",
@@ -106,9 +252,34 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "E. 177th Street"
+      },
+      "source": "Devoe Avenue and E. 177th Street",
+      "technique": "gpt"
+    },
     "height": 396,
     "id": "701861f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701861f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Swimming pools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/45b15010-c531-012f-a23b-58d385a7bc34",
     "text": "Starlight Amusement Park (Bronx): The south end of the park showing the swimming pool and reservoir, seen from the E. 174th Street bridge over the Bronx River. The entrance to the park is on the south side of E. 177th Street, at Devoe Avenue.\n\nJuly 18, 1928\nViews 1, 2\n\nP. L. Sperr\n\n(3)\n\nThe same, years later.\n\nJuly 23, 1940.\n",
     "text_source": "gpt",

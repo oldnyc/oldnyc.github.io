@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-03-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "Eastern Parkway"
+      },
+      "source": "Brooklyn: Eastern Parkway - Albany Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704070f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704070f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2ace2e0-c534-012f-6cae-58d385a7bc34",
     "original_title": "Brooklyn: Eastern Parkway - Albany Avenue",
     "text": "887 Eastern Parkway, north side, east of Albany Ave., showing Choveve Torah Synagogue.\nMarch 29, 1932.\n\nP. L. Sperr.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "177th Street",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 177th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "719828f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719828f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9dbf13c0-c54d-012f-3cbe-58d385a7bc34",
     "text": "Fort Washington Avenue, east side, north from 177th Street. May 23, 1929.\n\nP.L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -18,9 +39,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "177th Street",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 177th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719829f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719829f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e094e20-c54d-012f-ab33-58d385a7bc34",
     "text": "390-392 Fort Washington Avenue, east side, between 177th and  178th Street.\nP.L. Sperr,Photographer.  May 23, 1929.\nTHE NEW YORK\nPUBLC LIBRARY\n",
     "text_source": "site",
@@ -34,9 +76,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "177th Street",
+        "str2": "Fort Washington Aven"
+      },
+      "source": "Manhattan: Fort Washington Aven - 177th Street",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "719827f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719827f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d5445f0-c54d-012f-47df-58d385a7bc34",
     "text": "386 Ft. Washington Avenue, a 2 1/2-story frame residence adjoining the N.E. corner of 177th Street.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
     "text_source": "gpt",
@@ -50,9 +113,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft. Washington Ave",
+        "str2": "W. 177th St"
+      },
+      "source": "Ft. Washington Ave and W. 177th St",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3985014",
     "image_url": "https://images.nypl.org/?id=3985014&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb2e3d50-c5d7-012f-e50a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +153,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft. Washington Ave",
+        "str2": "W. 177th St."
+      },
+      "source": "Ft. Washington Ave and W. 177th St.",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3985026",
     "image_url": "https://images.nypl.org/?id=3985026&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ceae5ba0-c5d7-012f-fb21-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -82,9 +193,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft. Washington Av",
+        "str2": "W. 177th St"
+      },
+      "source": "Ft. Washington Av and W. 177th St",
+      "technique": "gpt"
+    },
     "height": 432,
     "id": "3985184",
     "image_url": "https://images.nypl.org/?id=3985184&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe78f8a0-c5d7-012f-1e69-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -98,9 +233,33 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft. Washington Av",
+        "str2": "W 177th St"
+      },
+      "source": "Ft. Washington Av and W 177th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985185",
     "image_url": "https://images.nypl.org/?id=3985185&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/febe75d0-c5d7-012f-cf96-58d385a7bc34",
     "text": null,
     "text_source": null,

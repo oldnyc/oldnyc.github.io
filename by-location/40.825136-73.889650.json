@@ -2,9 +2,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "165th Street (East)",
+        "str2": "Faile Street"
+      },
+      "source": "Bronx: Faile Street - 165th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701028f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701028f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10b4e3c0-c530-012f-573b-58d385a7bc34",
     "original_title": "Bronx: Faile Street - 165th Street (East)",
     "text": "1049 Faile Street, south of the S.W. corner of East 165th Street.\n1917.\n",

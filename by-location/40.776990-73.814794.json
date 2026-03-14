@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "150th Street",
+        "str2": "Willets Point Boulev"
+      },
+      "source": "Queens: Willets Point Boulev - 150th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728205f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728205f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61c2b4c0-c55a-012f-2574-58d385a7bc34",
     "text": "Willets Point Boulevard, north side, between 150th and Murray Streets, showing an old home.\nP.L. Sparr\nJuly 28, 1935\n",
     "text_source": "site",

@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "14th Avenue",
+        "str2": "Parsons Boulevard"
+      },
+      "source": "Queens: 14th Avenue - Parsons Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725034f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725034f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad signals",
+          "Signal stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2b84c40-c555-012f-88ed-58d385a7bc34",
     "original_title": "Queens: 14th Avenue - Parsons Boulevard",
     "text": "14th Avenue, at Parsons Boulevard, showing a police signal station and the site where Parsons Boulevard was later cut through to extend north to the East River.\n\nP. L. Sperr\nApril 13, 1927\n",
@@ -22,9 +44,27 @@
     "dates_from_text": [
       "1932-03-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "14th Avenue",
+        "str2": "Parsons Boulevard"
+      },
+      "source": "Queens: 14th Avenue - Parsons Boulevard",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "725033f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725033f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2554fd0-c555-012f-f668-58d385a7bc34",
     "original_title": "Queens: 14th Avenue - Parsons Boulevard",
     "text": "14th Avenue, south side, between Parsons Boulevard and 146th Street, showing, at the above location, the D.M. Talmadge mansion of 1873 and 1891.\n\nP. L. Sperr\nMarch 3, 1932\n",

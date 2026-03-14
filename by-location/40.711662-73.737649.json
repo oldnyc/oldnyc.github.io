@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "105th Avenue",
+        "str2": "Hollis Avenue"
+      },
+      "source": "Queens: Hollis Avenue - 105th Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "726881f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/726881f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ce1c390-c558-012f-dbd9-58d385a7bc34",
     "original_title": "Queens: Hollis Avenue - 105th Avenue",
     "rotation": 90,
@@ -20,9 +41,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "105th Avenue",
+        "str2": "Hollis Avenue"
+      },
+      "source": "Queens: Hollis Avenue - 105th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "726881f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726881f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ce1c390-c558-012f-dbd9-58d385a7bc34",
     "original_title": "Queens: Hollis Avenue - 105th Avenue",
     "text": "Hollis Avenue (left), north side, at 105th Avenue, showing St. Joachim & Anne Roman Catholic Church.\n\nP. L. Sperr  March 4, 1927\nViews 1, 2\n",

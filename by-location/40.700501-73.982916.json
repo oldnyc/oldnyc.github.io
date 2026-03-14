@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold Street",
+        "str2": "Prospect Street"
+      },
+      "source": "Brooklyn: Gold Street - Prospect Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "704642f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704642f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8990a1e0-c535-012f-33ca-58d385a7bc34",
     "original_title": "Brooklyn: Gold Street - Prospect Street",
     "text": null,

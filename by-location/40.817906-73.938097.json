@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "141st Street (West)",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: 141st Street (West) - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "715630f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715630f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0672c5f0-c547-012f-8a12-58d385a7bc34",
     "original_title": "Manhattan: 141st Street (West) - Lenox Avenue",
     "text": "73 West 141st Street, north side, east of Lenox Avenue. This is a two-story frame house with a plaster front.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 470.\n",

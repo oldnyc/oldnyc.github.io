@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1895"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "709143f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709143f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d9c59b0-c53c-012f-63ba-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street",
     "text": "Fifth Ave, east side, north from and including 75th Street. The view shows Temple Beth El, completed in 1891.\n\nAbout 1895.\n",
@@ -22,9 +40,35 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.77425920832201,
+        "lng": -73.9657625555992
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 202,
     "id": "1113292",
     "image_url": "https://images.nypl.org/?id=1113292&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Architectural elements",
+          "Buildings",
+          "Dwellings",
+          "Scaffolding",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ee67a10-c6ca-012f-402b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -41,9 +85,27 @@
     "dates_from_text": [
       "1927-07-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709144f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709144f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9dfb89c0-c53c-012f-e7c8-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street",
     "text": "Fifth Avenue, east side, at 76th Street, showing Temple Beth-Hi (\"House of God\") at the S.E. corner. The construction of this synagogue was completed in 1891.\nJuly 25, 1927.\n",
@@ -58,9 +120,34 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718391f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718391f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Pools",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/590e0c40-c54b-012f-abbb-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street",
     "text": "Central Park: Sailboat Pool, with Fifth Avenue and 75th Street in the background. The top of the Carlyle apartment house is just visible over the roof of the apartment building adjoining the synagogue on Fifth Avenue.\n\nMay 17, 1933.\n\nP. L. Sperr.\n",
@@ -75,9 +162,35 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718395f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718395f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Pools",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ad98ab0-c54b-012f-165f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street",
     "text": "(1)\nCentral Park: Sailboat Pool, with Fifth Avenue, from 75th to 76th Streets, inclusive, in the background.\nMay 17, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, another view. The synagogue on the S.E. corner of 76th Street is Temple Beth-El (\"House of God\").\nMay 17, 1933.\n\nP. L. Sperr.\n",
@@ -92,9 +205,35 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718395f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718395f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Pools",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5ad98ab0-c54b-012f-165f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street",
     "text": "(1)\nCentral Park: Sailboat Pool, with Fifth Avenue, from 75th to 76th Streets, inclusive, in the background.\nMay 17, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, another view. The synagogue on the S.E. corner of 76th Street is Temple Beth-El (\"House of God\").\nMay 17, 1933.\n\nP. L. Sperr.\n",
@@ -109,9 +248,46 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "5th Avenue and 75th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Sailboat pond",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718398f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718398f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 75th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Pools",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c421860-c54b-012f-e29a-58d385a7bc34",
     "text": "Central Park: The Sailboat Pool, near Fifth Avenue and 75th Street, the western edge of the pool; the view is north. Two models of racing yachts, a big one and a small one, have crossed the pool from different directions and are coming together at the finish. Their owners are waiting for them.\nMay 17, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -128,9 +304,27 @@
     "dates_from_text": [
       "1936"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "709142f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709142f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d2561c0-c53c-012f-7b07-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street",
     "text": "Fifth Ave., east side, south from and including East 75th Street. Shown on the right, is a portion of Central Park which forms the west side of Fifth Ave. at this point. 1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -145,9 +339,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street (East)"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718388f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718388f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Pools",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57d6c060-c54b-012f-accc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street (East)",
     "text": "Central Park: A set of 2 views northward across the Sailboat (also known as the Conservatory) Lake and showing buildings lining the eastern confine of the Park; Fifth Ave. Upon the latter, they progress northward from East 75th Street which appears on the right. The Synagogue shown is at the S.E. corner of East 76th Street and the Avenue.\n\nMay 2, 1936.\n\nP. L. Sperr.\n",
@@ -162,9 +382,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "75th Street (East)"
+      },
+      "source": "Manhattan: 5th Avenue - 75th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718388f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718388f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Pools",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57d6c060-c54b-012f-accc-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 75th Street (East)",
     "text": "Central Park: A set of 2 views northward across the Sailboat (also known as the Conservatory) Lake and showing buildings lining the eastern confine of the Park; Fifth Ave. Upon the latter, they progress northward from East 75th Street which appears on the right. The Synagogue shown is at the S.E. corner of East 76th Street and the Avenue.\n\nMay 2, 1936.\n\nP. L. Sperr.\n",
@@ -179,9 +425,34 @@
   {
     "date": "1950",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 75th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 945 Fifth Avenue - East 75th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557997",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557997.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98a4f390-c5ec-012f-8276-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -195,9 +466,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 75th Street, ",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1508881-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508881-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Temple Bethel"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2e408a0-c5ce-012f-8a45-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -211,9 +505,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 75th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: East 75th Street - Fifth Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558325",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558325.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Harkness residence"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f73bdd40-c5ec-012f-bddb-58d385a7bc34",
     "text": null,
     "text_source": null,

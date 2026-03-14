@@ -2,9 +2,35 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.78615694834286,
+        "lng": -73.95712047815321
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 201,
     "id": "1113302",
     "image_url": "https://images.nypl.org/?id=1113302&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Architectural elements",
+          "Billboards",
+          "Buildings",
+          "Dwellings",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82698830-c6ca-012f-ee09-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +44,33 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "93rd Street"
+      },
+      "source": "Manhattan: 93rd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "714838f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714838f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d91f3bc0-c545-012f-86e2-58d385a7bc34",
     "original_title": "Manhattan: 93rd Street - 5th Avenue",
     "text": "5-7 East 93rd Street, north side, east of Fifth Avenue.\nAbout 1912.\n",
@@ -35,9 +85,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "93rd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709193f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709193f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1b37520-c53c-012f-4c68-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 93rd Street",
     "text": "Fifth Avenue at S.E. corner of 93rd Street. June 1925.  Neg. # 1049",
@@ -52,9 +124,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "93rd Street"
+      },
+      "source": "Manhattan: 5th Avenue - 93rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709194f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709194f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1f62ae0-c53c-012f-9822-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 93rd Street",
     "text": "Fifth Avenue at N. E. corner of 93rd Street, across clearing at S. E. corner.\nAbout 1925.\n",
@@ -69,9 +162,35 @@
   {
     "date": "1928; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 93rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "723557f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/723557f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Missions",
+          "Parks",
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85154720-c553-012f-056b-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 93rd Street (East)",
     "rotation": 90,
@@ -88,9 +207,35 @@
   {
     "date": "1928; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 93rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "723557f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/723557f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Missions",
+          "Parks",
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85154720-c553-012f-056b-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 93rd Street (East)",
     "rotation": 90,
@@ -107,9 +252,35 @@
   {
     "date": "1928; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "93rd Street (East)",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: Avenue B - 93rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723557f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723557f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Tompkins Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Missions",
+          "Parks",
+          "Playgrounds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85154720-c553-012f-056b-58d385a7bc34",
     "original_title": "Manhattan: Avenue B - 93rd Street (East)",
     "text": "(1)\nTompkins Square: A northeastward view across the northeasterly corner of same, showing the wading pool in the central-easterly half. Buildings shown face on the east side of Ave. B, north from East 9th (right) to 10th (left) Streets, prominent of which is the Christodoro House at the N.E. corner of the first two points.\n\nAugust 31, 1928.\n\nP. L. Sperr.\n\n(2 & 3)\nA set of 2 views of the same pool. No. 2 is due east to Ave. B at East 8th Street and showing St. Brigid's Roman Catholic Church at the S.E. corner of same. No. 3 is in the opposite direction, westward to Ave. A.\n\nJuly 24, 1930.\n\nP. L. Sperr.\n",
@@ -125,9 +296,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "93rd Street"
+      },
+      "source": "Manhattan: 93rd Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "714839f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714839f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d98ebde0-c545-012f-f578-58d385a7bc34",
     "original_title": "Manhattan: 93rd Street - 5th Avenue",
     "text": "East 93rd Street, at, adjoining and east of the S.E. corner of Fifth Ave (background to foreground). The private houses bear Nos. 4, 6 and 8 while the apartment house at the corner is No. 1116 Fifth Ave. Note a portion of Central Park in the background.\n\nJune 22, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

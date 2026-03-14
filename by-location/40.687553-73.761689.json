@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "119th Road",
+        "str2": "Farmers Boulevard"
+      },
+      "source": "Queens: Farmers Boulevard - 119th Road",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "726558f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726558f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e0761cf0-c557-012f-ea9a-58d385a7bc34",
     "original_title": "Queens: Farmers Boulevard - 119th Road",
     "text": "Farmers Boulevard, east side, north from 119th Road, showing in the right foreground an old home at the S.E. corner of St. Marks Ave., and Farmers Boulevard.\n\nSeptember 1923.\n\nEugene L. Armbruster Collection.\n",

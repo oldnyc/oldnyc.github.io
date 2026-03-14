@@ -2,9 +2,32 @@
   {
     "date": "1912; 1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Arbutus Avenue and Hylan Boulevard",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "733618f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733618f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Arbutus Lake (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Lakes & ponds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e91bc4e0-c562-012f-68c0-58d385a7bc34",
     "text": "(1)\nArbutus Lake (Staten Island): A view of the lake, located on the east side of Arbutus Avenue, south of Hylan Boulevard.\n\nOctober 20, 1912\n\nBy Wm. T. Davis through P. L. Sperr\n\n(2)\nThe same, at a later date.\n\nJune 14, 1924\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -19,9 +42,32 @@
   {
     "date": "1912; 1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Arbutus Avenue and Hylan Boulevard",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "733618f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733618f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Arbutus Lake (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Lakes & ponds"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e91bc4e0-c562-012f-68c0-58d385a7bc34",
     "text": "(1)\nArbutus Lake (Staten Island): A view of the lake, located on the east side of Arbutus Avenue, south of Hylan Boulevard.\n\nOctober 20, 1912\n\nBy Wm. T. Davis through P. L. Sperr\n\n(2)\nThe same, at a later date.\n\nJune 14, 1924\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -36,9 +82,30 @@
   {
     "date": "1926; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Arbutus Avenue and Hylan Boulevard",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731577f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731577f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gardens",
+          "Livestock"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c053b790-c55f-012f-96e6-58d385a7bc34",
     "text": "(1)\nFarming on Staten Island: A scene on Livingston Avenue.\nAugust 9, 1926\n\nP. L. Sperr\n\n(2)\nAt the west side of Arbutus Avenue, south of Hylan Boulevard.\nMay 14, 1932\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -53,9 +120,30 @@
   {
     "date": "1926; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Arbutus Avenue and Hylan Boulevard",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731577f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731577f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gardens",
+          "Livestock"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c053b790-c55f-012f-96e6-58d385a7bc34",
     "text": "(1)\nFarming on Staten Island: A scene on Livingston Avenue.\nAugust 9, 1926\n\nP. L. Sperr\n\n(2)\nAt the west side of Arbutus Avenue, south of Hylan Boulevard.\nMay 14, 1932\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -74,9 +162,27 @@
       "1932-05-14",
       "1932-05-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Richmond: Arbutus Avenue - Hylan Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "728342f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728342f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0af2c10-c55a-012f-ceae-58d385a7bc34",
     "original_title": "Richmond: Arbutus Avenue - Hylan Boulevard",
     "text": "(1)\n349 Arbutus Ave., adjoining the S.E. corner of Hylan Boulevard (Huguenot), showing the Crouse house (1874 to 1898 maps).\n\nMay 14, 1932.\n\nP. L. Sperr.\n\n(2)\nThe same, as viewed from the opposite direction.\n\nMay 14, 1932.\n\nP. L. Sperr.\n",
@@ -96,9 +202,27 @@
       "1932-05-14",
       "1932-05-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Richmond: Arbutus Avenue - Hylan Boulevard",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "728342f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/728342f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0af2c10-c55a-012f-ceae-58d385a7bc34",
     "original_title": "Richmond: Arbutus Avenue - Hylan Boulevard",
     "rotation": 90,
@@ -118,9 +242,27 @@
     "dates_from_text": [
       "1932-05-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arbutus Avenue",
+        "str2": "Hylan Boulevard"
+      },
+      "source": "Richmond: Arbutus Avenue - Hylan Boulevard",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "728343f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728343f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a1200f10-c55a-012f-9a4c-58d385a7bc34",
     "original_title": "Richmond: Arbutus Avenue - Hylan Boulevard",
     "text": "361 Arbutus Ave., south of the S.E. corner of Hylan Boulevard (Huguenot). This house was occupied by Doty (1874 to 1887) and later (1898) by Stein. The dates refer to maps on which the owners'\nnames appear.\nMay 14, 1932.\nP. L. Sperr.\n",

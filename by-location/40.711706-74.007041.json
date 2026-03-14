@@ -2,9 +2,58 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Park Row"
+      },
+      "source": "Beekman Street and Park Row",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Park Row",
+        "str2": "William Street (North)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Park Row",
+        "str2": "William Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 587,
     "id": "722437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722437f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Newspaper Row."
+      ],
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newspaper Row"
+        ],
+        "name": [
+          "New York Times Building (New York, N.Y. : Park Row)",
+          "New York Tribune Building"
+        ],
+        "topic": [
+          "Hotels",
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/adad4800-c551-012f-62f9-58d385a7bc34",
     "text": "Park Row, east side, south from but not including North William, to, but not including Beekman Streets, with City Hall Park in the foreground. The view shows \"Newspaper Row,\" prior to the turn of the Century, with from left to right, The New York Mail Building, French's Hotel (site of the Pulitzer or World Building,) The Sun Building, The New York Tribune Building (tower with clock) and The New York Times Building, at the junction of Park Row and Nassau Street.\n\nAbout 1880.\n\nBrown Brothers.\n\nPhotostat Neg. No. 108\n",
     "text_source": "gpt",
@@ -18,9 +67,30 @@
   {
     "date": "1904; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722435f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722435f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/acac0020-c551-012f-fc47-58d385a7bc34",
     "text": "Park Row, east side, south from and including Beekman Street, to and including Broadway. The view shows the United States Post Office on the right and St. Paul's Protestant Episcopal Chapel in the background.\nMay 26, 1904.\nBrown Brothers.\n(2)\nPark Row,East Side and Mail Street,showing beginning of Post Office demolition.\nAugust 23rd,1938\nP.L.Sperr,\n",
     "text_source": "site",
@@ -35,9 +105,30 @@
   {
     "date": "1904; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722435f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722435f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/acac0020-c551-012f-fc47-58d385a7bc34",
     "text": "Park Row, east side, south from and including Beekman Street, to and including Broadway. The view shows the United States Post Office on the right and St. Paul's Protestant Episcopal Chapel in the background.\nMay 26, 1904.\nBrown Brothers.\n(2)\nPark Row,East Side and Mail Street,showing beginning of Post Office demolition.\nAugust 23rd,1938\nP.L.Sperr,\n",
     "text_source": "site",
@@ -52,9 +143,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722436f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722436f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "City Hall Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad244190-c551-012f-e953-58d385a7bc34",
     "text": "Park Row, north from Beekman Street, to the Brooklyn Bridge Approach, (near North William Street). (Also shown is the intersection of Centre Street and Park Row). In the foreground, is seen a portion of City Hall Park, with a minute portion of the City Hall on the extreme left, at its rear is observed the Hall of Records, and towering above all is the Municipal Building. (The pedestrian approach to the Brooklyn Bridge Station of the Second and Third Aves., Elevated is shown crossing Park Row at Centre Street).\n\nAbout 1930.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -68,9 +187,40 @@
   {
     "date": "1968",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Park Row"
+      },
+      "source": "Manhattan: Park Row - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 441,
     "id": "722434f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722434f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Printing House Square (New York, N.Y.)"
+        ],
+        "name": [
+          "World Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities",
+          "Plazas",
+          "Printing industry",
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac51bc00-c551-012f-f372-58d385a7bc34",
     "text": "Park Row, east side, north across Beekman Street, showing an early view of the publishing center, popularly known as \"Printing House Square\". At the left is the terminus of Nassau Street, with it's intersecting Frankfort Street. Note the \"Sun\" occupying the former Tammany Hotel. This, effected in 1868 and the obvious construction of the old U. S. Post Office (photographers vantage point) in 1869 dates this photo.\n\n1868-70\n\nGift of Urbrock Collection\n",
     "text_source": "gpt",
@@ -84,9 +234,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street)",
+        "str2": "Park Row (Ann Street"
+      },
+      "source": "Manhattan: 15 Park Row (Ann Street - Beekman Street)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558049",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558049.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Park Row (New York, N.Y.)"
+        ],
+        "topic": [
+          "Advertising",
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Real estate business",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/531d7340-c5ed-012f-512f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -100,9 +278,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 33,
+        "street": "Park Row"
+      },
+      "source": "33 Park Row",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558050",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558050.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Thompson's restaurant"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Park Row (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/538b7c30-c5ed-012f-94c8-58d385a7bc34",
     "text": null,
     "text_source": null,

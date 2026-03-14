@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-06-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "54th Street"
+      },
+      "source": "Manhattan: 54th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "713742f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713742f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a2b94d0-c544-012f-48e9-58d385a7bc34",
     "original_title": "Manhattan: 54th Street - 10th Avenue",
     "text": "54th Street, north side, east from 519, west of Tenth Ave.\n\nJune 30, 1930.\n\nP. L. Sperr.\n",

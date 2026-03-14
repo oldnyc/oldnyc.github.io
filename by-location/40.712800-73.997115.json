@@ -2,9 +2,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Catherine Street",
+        "str2": "Henry Street"
+      },
+      "source": "Manhattan: Henry Street - Catherine Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720360f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720360f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f851f00-c54e-012f-ce37-58d385a7bc34",
     "original_title": "Manhattan: Henry Street - Catherine Street",
     "text": "Henry Street, north side, east from and including Catharine, to Market Streets. Also shown is a portion of the Manhattan Bridge, in the background.\n\nSeptember 5, 1927.\n\nP. L. Sperr.\n",

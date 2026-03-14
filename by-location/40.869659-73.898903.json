@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "195th Street (West)",
+        "str2": "Reservoir Avenue"
+      },
+      "source": "Bronx: 195th Street (West) - Reservoir Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700310f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700310f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15ec6db0-c52f-012f-147c-58d385a7bc34",
     "original_title": "Bronx: 195th Street (West) - Reservoir Avenue",
     "text": "West 195th Street, north side, between Reservoir Ave. and Jerome Ave., showing Public School No. 86. At the time of this photograph the school was located on the east side of Reservoir Ave., at the head of Strong Street from which it was removed to its present (1937) location. On the school's original site was constructed Walton High School. A modern 5-story elementary school, bearing the same number, was constructed at the N.E. corner of Reservoir Ave. and West 195th Street. The old school house now constitutes an annex to the main building.\n\nMay 8, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +43,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Reservoir Av",
+        "str2": "W. 195th St"
+      },
+      "source": "Reservoir Av and W. 195th St",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984383",
     "image_url": "https://images.nypl.org/?id=3984383&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17618010-c5d7-012f-d062-58d385a7bc34",
     "text": null,
     "text_source": null,

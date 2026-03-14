@@ -2,9 +2,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "23rd Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 23rd Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711640f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711640f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Furniture stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a77bef10-c540-012f-610e-58d385a7bc34",
     "original_title": "Manhattan: 23rd Street (East) - 3rd Avenue",
     "text": "155-259 East 23rd Street, adjoining N.W. corner of Third Avenue.  This is now the Hospital Supply Company.  About 1913.",
@@ -19,9 +40,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "23rd Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 23rd Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711641f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711641f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Dental offices",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7cb1c30-c540-012f-f0e7-58d385a7bc34",
     "original_title": "Manhattan: 23rd Street - 3rd Avenue",
     "text": "152-150 East 23rd Street, south side, between Third and Lexington Aves.\nOctober 2, 1936.\n\nP. L. Sperr.\n",
@@ -36,9 +79,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "23rd Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 23rd Street (East).",
+      "technique": "title-cross"
+    },
     "height": 381,
     "id": "732550f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732550f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 3rd Avenue - 23rd Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Newspaper vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54499160-c561-012f-84ac-58d385a7bc34",
     "text": "Newspaper dealer at the S.E. corner of Third Ave., and East 23rd Street.\n1936.\n\nGeo. D. Chinn.\n",
     "text_source": "gpt",
@@ -52,9 +120,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "23rd Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 23rd Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711639f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711639f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Halls",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a714c3b0-c540-012f-6672-58d385a7bc34",
     "original_title": "Manhattan: 23rd Street (East) - 3rd Avenue",
     "text": "East 23rd Street, north side, west from Third Avenue. The low structure at the right is the newly constructed Post Office replacing the former station that stood in the next block on the opposite side. Adjacent to this is the well-known Kenmore Hall. West of the latter and occupying the easterly side of Lexington Avenue is the George Washington, a similar enterprise. Note the Metropolitan Life Insurance Company tower dominating the scene. Same is at Madison Square towards which the photographer is viewing.\nJune, 1938\n\nGeorge D. Chinn\n",

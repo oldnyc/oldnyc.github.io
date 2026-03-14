@@ -2,9 +2,30 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "89th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 89th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714786f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714786f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5b92b60-c545-012f-afe4-58d385a7bc34",
     "original_title": "Manhattan: 89th Street (West) - Columbus Avenue",
     "text": "39-35 West 89th Street, north side, west of Columbus Avenue.\nAbout 1915.\n",

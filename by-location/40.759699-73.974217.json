@@ -2,9 +2,27 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 53rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721380f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721380f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02dac5e0-c550-012f-02d6-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 53rd Street (East)",
     "text": "#523-525  Madison Avenue, East Side, between E.53rd and E.54th Streets, showing Schmitt Bros. Building.\n\nAbout 1922.\n\nWurts Brothers,\nGeneral Photographers,\n1358 Broadway, corner 36th St.\n",
@@ -19,9 +37,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721381f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721381f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/032a5050-c550-012f-63aa-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 53rd Street",
     "text": "531-529 Madison Avenue, east side, between 53rd and 54th Streets. About 1912 or 1913.",
@@ -36,9 +75,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 53rd Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713645f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713645f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01fa0b40-c544-012f-9bc6-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (East) - Madison Avenue",
     "text": "East 53rd Street, north side, east from Madison, to and including park Aves.\nOctober 28, 1930.\n\nP. L. Sperr.\n",
@@ -53,9 +113,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 53rd Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713646f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713646f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02512310-c544-012f-a55e-58d385a7bc34",
     "original_title": "Manhattan: 53rd Street (East) - Madison Avenue",
     "text": "East 53rd Street, at, adjoining and east of the S.E. corner of Madison Ave., as seen thru clearance at the N.E. corner. Prominent building shown under construction, is the General Electric Building.\n\nDecember 21, 1930.\n\nP. L. Sperr.\n",
@@ -73,9 +154,27 @@
     "dates_from_text": [
       "1930-12-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "721377f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721377f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/018bf2f0-c550-012f-4012-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 53rd Street",
     "text": "Madison Avenue at N.W. corner of 53rd Street, from S.E. corner. On the N.E. corner, where a clearing is shown, the new 42-story International Mart is about to be erected. December 21, 1930.\n\nP. L. Sperr, Photographer.\n",
@@ -90,9 +189,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 53rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721379f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721379f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02700b70-c550-012f-d81b-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 53rd Street",
     "text": "Madison Ave., east side, north from and including East 53rd Street.\n\nOctober 28, 1930.\n\nP. L. Sperr.\n",
@@ -107,9 +227,37 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "East 53rd Street and Madison Avenue",
+      "technique": "gpt"
+    },
     "height": 436,
     "id": "1558467",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558467.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "East River - Queensboro Bridge"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a4fe520-c5ed-012f-db34-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -123,9 +271,29 @@
   {
     "date": "1951-08-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 44,
+        "street": "E 53rd Street"
+      },
+      "source": "53rd Street (East) #44",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1509395-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509395-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3b579d0-c5ce-012f-6900-58d385a7bc34",
     "text": null,
     "text_source": null,

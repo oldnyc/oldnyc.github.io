@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 28,
+        "street": "Beekman Street"
+      },
+      "source": "Beekman Street #28",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508955",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508955.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0d5d020-c5cd-012f-8dad-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "Nassau Street"
+      },
+      "source": "Manhattan: Nassau Street - Beekman Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "732255f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732255f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Nassau Street - Beekman Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Times Building (New York, N.Y. : Park Row)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dff93c60-c560-012f-e463-58d385a7bc34",
     "text": null,
     "text_source": null,

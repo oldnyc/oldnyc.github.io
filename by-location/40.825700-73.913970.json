@@ -2,9 +2,38 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Courtlandt Avenue",
+        "str2": "E. 163rd Street"
+      },
+      "source": "Courtlandt Avenue and E. 163rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "4th Place",
+        "str2": "Courtlandt Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "700809f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700809f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6db2df0-c52f-012f-a137-58d385a7bc34",
     "original_title": "Bronx: Courtlandt Avenue - 4th Place",
     "text": "Courtlandt Avenue, west side, north from E. 163rd Street to its terminus at the New York Central Railroad tracks.\n\nFebruary 17, 1938.\n\nP. L. Sperr\n",

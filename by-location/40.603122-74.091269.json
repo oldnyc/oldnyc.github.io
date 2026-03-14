@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Naples Street",
+        "str2": "Targee Street"
+      },
+      "source": "Richmond: Targee Street - Naples Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "729726f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729726f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2ceed10-c55c-012f-1321-58d385a7bc34",
     "original_title": "Richmond: Targee Street - Naples Street",
     "text": "Targee Street, east side, between Naples Street and Venice Avenue, showing the newly erected Public School No. 48.\n\nMay 1, 1931\n\nBoard of Education of the City of New York\nBureau of Construction and Maintenance\n",

@@ -2,9 +2,38 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Brooklyn",
+        "str2": "Flatbush Avenue"
+      },
+      "source": "Brooklyn and Flatbush Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1823566",
     "image_url": "https://images.nypl.org/?id=1823566&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Flatbush Avenue (New York, N.Y.)",
+          "Mount Prospect Reservoir (N.Y.)",
+          "New York",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "temporal": [
+          "1900-1909"
+        ],
+        "topic": [
+          "Architecture, Romanesque",
+          "Water towers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47918140-c6da-012f-63b8-58d385a7bc34",
     "text": null,
     "text_source": null,

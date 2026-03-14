@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 259,
+        "street": "South 4th Street"
+      },
+      "source": "259 South 4th Street",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "732695f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732695f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Vocational education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a5bde80-c561-012f-3f5a-58d385a7bc34",
     "text": "259 South 4th Street, north side, west of Marcy Avenue, showing the Williamsburg Construction School, the former Public School No. 166.\n\nBoard of Education of the City of New York June 24, 1931\n",
     "text_source": "gpt",

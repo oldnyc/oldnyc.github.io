@@ -2,9 +2,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Prince Street",
+        "str2": "Thompson Street"
+      },
+      "source": "Manhattan: Thompson Street - Prince Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723513f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723513f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72ce94e0-c553-012f-dc66-58d385a7bc34",
     "original_title": "Manhattan: Thompson Street - Prince Street",
     "text": "Thompson Street, east side, north from and including No. 131, west side, north of Prince Street. This is the center of one of New York's most important Italian colonies.\nSeptember 26, 1929.\n\nP. L. Sperr.\n",

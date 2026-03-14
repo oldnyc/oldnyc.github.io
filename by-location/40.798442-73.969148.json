@@ -2,9 +2,32 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 2671,
+        "street": "Broadway"
+      },
+      "source": "2671 Broadway",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "733285f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733285f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway ; 2671 Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Fire hydrants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67de1da0-c562-012f-26af-58d385a7bc34",
     "text": "2671 Broadway, repaired by City.\n April 10, 1921.\n",
     "text_source": "gpt",
@@ -18,9 +41,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "102nd Street",
+        "str2": "Broadway"
+      },
+      "source": "102nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "730518f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730518f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway ; 102nd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Signs (Notices)",
+          "Theaters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1eb2f540-c55e-012f-44b2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +83,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "102nd Street",
+        "str2": "Broadway"
+      },
+      "source": "102nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "730518f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730518f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway ; 102nd Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Signs (Notices)",
+          "Theaters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1eb2f540-c55e-012f-44b2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +125,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "102nd Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 102nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "717701f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717701f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e05f5a0-c54a-012f-a4d8-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 102nd Street (West)",
     "text": "(positive)\n\nBroadway, east side, from W. 102nd (right not seen) to 105th (left) as viewed northeastward from the S.W. corner of Broadway and 102nd Street.  The low structures in the center occupy the 103rd to 104th Streets frontage.  Note the subway kiosk at 103rd Street.\n\n1937.\n\nAnonymous gift.\n",

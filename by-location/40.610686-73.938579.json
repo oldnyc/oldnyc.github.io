@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "31st Street (East)",
+        "str2": "Avenue R"
+      },
+      "source": "Brooklyn: 31st Street (East) - Avenue R",
+      "technique": "title-cross"
+    },
     "height": 250,
     "id": "702702f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702702f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88011b10-c532-012f-0b77-58d385a7bc34",
     "original_title": "Brooklyn: 31st Street (East) - Avenue R",
     "text": "East 31st Street, west side, north from Ave. R. 1929.",

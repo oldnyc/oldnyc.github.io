@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-09-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 27th Street (West) - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711870f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711870f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0951f2e0-c541-012f-acd4-58d385a7bc34",
     "original_title": "Manhattan: 27th Street (West) - 10th Avenue",
     "text": "Building being demolished for the New York Central elevated structure, 505-509 West 27th Street, adjoining the N. W. corner of Tenth Avenue, seen from a similar clearing on the south side of the street.\n\nSeptember 8, 1930.\n\nP. L. Sperr.\n",
@@ -22,9 +40,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 27th Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "733291f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733291f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 10th Avenue - 27th Street ; 268 10th Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bookstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a1c39b0-c562-012f-5541-58d385a7bc34",
     "text": "Street SCenes: a cooperative book shop at 268 Tenth Avenue, Manhattan.\n1930's\n",
     "text_source": "gpt",
@@ -38,9 +79,29 @@
   {
     "date": "1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street"
+      },
+      "source": "Manhattan: 27th Street - 10th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733294f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733294f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6b4f9580-c562-012f-b29b-58d385a7bc34",
     "text": "(1)\n\nThe vanishing American is rarely ever seen in this fashion, in New York City, as here shown at 27th Street and Tenth Ave.\n\nJanuary 25, 1930.\n\nP. L. Sperr.\n\n(2)\n\nOld fashioned wooden Indian in front of tobacconist's shop at No. 122 Seventh Ave.\n\nApril 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -55,9 +116,29 @@
   {
     "date": "1930; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street"
+      },
+      "source": "Manhattan: 27th Street - 10th Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733294f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733294f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6b4f9580-c562-012f-b29b-58d385a7bc34",
     "text": "(1)\n\nThe vanishing American is rarely ever seen in this fashion, in New York City, as here shown at 27th Street and Tenth Ave.\n\nJanuary 25, 1930.\n\nP. L. Sperr.\n\n(2)\n\nOld fashioned wooden Indian in front of tobacconist's shop at No. 122 Seventh Ave.\n\nApril 1, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -72,9 +153,39 @@
   {
     "date": "1937; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Tenth Avenue",
+        "str2": "West 27th Street"
+      },
+      "source": "Tenth Avenue and West 27th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "732854f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732854f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Columbus Circle (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Maine (Battleship)"
+        ],
+        "topic": [
+          "Children playing",
+          "Commemoration",
+          "Fountains",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9d49100-c561-012f-50b6-58d385a7bc34",
     "text": "Recreation--Children playing: Boys and girls diving for coins in the Maine Monument fountain base at the entrance to Central Park, Columbus Circle.\nGift of George D. Chinn\n\n2-Seeking relief from the heat on West 27th Street, near Tenth Avenue.\n\nP. L. Sperr\n\nView 1view 2- Neg # 1535\n",
     "text_source": "gpt",
@@ -89,9 +200,39 @@
   {
     "date": "1937; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Tenth Avenue",
+        "str2": "West 27th Street"
+      },
+      "source": "Tenth Avenue and West 27th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "732854f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732854f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Columbus Circle (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Maine (Battleship)"
+        ],
+        "topic": [
+          "Children playing",
+          "Commemoration",
+          "Fountains",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9d49100-c561-012f-50b6-58d385a7bc34",
     "text": "Recreation--Children playing: Boys and girls diving for coins in the Maine Monument fountain base at the entrance to Central Park, Columbus Circle.\nGift of George D. Chinn\n\n2-Seeking relief from the heat on West 27th Street, near Tenth Avenue.\n\nP. L. Sperr\n\nView 1view 2- Neg # 1535\n",
     "text_source": "gpt",
@@ -106,9 +247,36 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 27th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "710512f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710512f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Chelsea Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Cobblestone streets",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9cfa8f0-c53e-012f-1124-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 27th Street (West)",
     "text": "View 1;\nTenth Avenue north wards from West 27th Street, and showing a corner of the Chelsea Park, Boy's Playground on east side. Neg. No. A-899\n\nView 2;\nTenth Avenue and south west corner and West 28th Street.\n\nAugust 25, 1940.\n\nView 3.\nTenth Avenue east side looking so thwards from west 27th to west 26th Street.\n\nP.L. Sperr.\nSeptember 15, 1941.\n",
@@ -124,9 +292,36 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 27th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710512f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710512f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Chelsea Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Cobblestone streets",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9cfa8f0-c53e-012f-1124-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 27th Street (West)",
     "text": "View 1;\nTenth Avenue north wards from West 27th Street, and showing a corner of the Chelsea Park, Boy's Playground on east side. Neg. No. A-899\n\nView 2;\nTenth Avenue and south west corner and West 28th Street.\n\nAugust 25, 1940.\n\nView 3.\nTenth Avenue east side looking so thwards from west 27th to west 26th Street.\n\nP.L. Sperr.\nSeptember 15, 1941.\n",
@@ -142,9 +337,36 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 10th Avenue - 27th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "710512f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710512f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Chelsea Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Cobblestone streets",
+          "Elevated railroads",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9cfa8f0-c53e-012f-1124-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 27th Street (West)",
     "text": "View 1;\nTenth Avenue north wards from West 27th Street, and showing a corner of the Chelsea Park, Boy's Playground on east side. Neg. No. A-899\n\nView 2;\nTenth Avenue and south west corner and West 28th Street.\n\nAugust 25, 1940.\n\nView 3.\nTenth Avenue east side looking so thwards from west 27th to west 26th Street.\n\nP.L. Sperr.\nSeptember 15, 1941.\n",
@@ -160,9 +382,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 27th Street (West) - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "711871f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/711871f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09b31ed0-c541-012f-6bd7-58d385a7bc34",
     "original_title": "Manhattan: 27th Street (West) - 10th Avenue",
     "rotation": 90,
@@ -178,9 +421,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 27th Street (West) - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711871f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711871f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09b31ed0-c541-012f-6bd7-58d385a7bc34",
     "original_title": "Manhattan: 27th Street (West) - 10th Avenue",
     "text": "View 1; West 27th Street, south east corner and Tenth Street.\n\nSeptember 19, 1941.\n\nView 2;\nWest 27th Street, south side west to Tenth Avenue, showing the Hudson Guild riglet centre.\n\nAugust 29, 1941.\n\nView 3;\nWest 27th Street, between Ninth and Tenth Avenues, showing the Hudson Guild Free Mills Station.\n\nP.L. Speer.\nAugust 29, 1941.\n",
@@ -195,9 +459,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street (West)"
+      },
+      "source": "Manhattan: 27th Street (West) - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711871f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711871f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09b31ed0-c541-012f-6bd7-58d385a7bc34",
     "original_title": "Manhattan: 27th Street (West) - 10th Avenue",
     "text": "View 1; West 27th Street, south east corner and Tenth Street.\n\nSeptember 19, 1941.\n\nView 2;\nWest 27th Street, south side west to Tenth Avenue, showing the Hudson Guild riglet centre.\n\nAugust 29, 1941.\n\nView 3;\nWest 27th Street, between Ninth and Tenth Avenues, showing the Hudson Guild Free Mills Station.\n\nP.L. Speer.\nAugust 29, 1941.\n",
@@ -212,9 +497,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street"
+      },
+      "source": "Manhattan: 27th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "711873f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711873f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0aa71680-c541-012f-1a58-58d385a7bc34",
     "original_title": "Manhattan: 27th Street - 10th Avenue",
     "text": "27th St. and 10th Ave. n.w. corner Neg. A-168 Aug. 1, 1941\nP.L.Sperr\n",
@@ -229,9 +535,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "27th Street"
+      },
+      "source": "Manhattan: 27th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "711872f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711872f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a31a2f0-c541-012f-c00a-58d385a7bc34",
     "original_title": "Manhattan: 27th Street - 10th Avenue",
     "text": "M\n27th St. e. of 10th Ave.\n7-3-42\nP.L. Sperr\n",

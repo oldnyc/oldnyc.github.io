@@ -2,9 +2,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "135th Avenue",
+        "str2": "Hawtree Creek Road"
+      },
+      "source": "Queens: Hawtree Creek Road - 135th Avenue",
+      "technique": "title-cross"
+    },
     "height": 464,
     "id": "726842f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726842f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ec622e0-c558-012f-3a86-58d385a7bc34",
     "original_title": "Queens: Hawtree Creek Road - 135th Avenue",
     "text": "Hawtree Creek Road, east side, north of One Hundred Thirty-fifth Ave. (formerly Hegeman Ave.), showing the Bethel Union Sunday School. It was used as a school in 1860. In 1873 it was designated District School No. 6; St. Mathews Lutheran Church in 1922. This building is not the original structure of 1860.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

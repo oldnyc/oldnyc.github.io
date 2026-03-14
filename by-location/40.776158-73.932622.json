@@ -2,9 +2,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Avenue",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 26th Avenue - 4th Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "725145f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725145f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Door industry",
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fceae870-c555-012f-d70c-58d385a7bc34",
     "original_title": "Queens: 26th Avenue - 4th Street",
     "text": "26th Ave., north side, east of 4th Street, showing in the center, to the east of the Weisberg-Baer sash and door factory (left), the John J. Halsey house. This house was demolished prior to 1928. A. L. Hatch was the owner in 1891.\n\n1922.\n\nEugene L. Ambruster Collection.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1931-03-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Avenue",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 4th Street - 26th Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "724975f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724975f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be34c550-c555-012f-f098-58d385a7bc34",
     "original_title": "Queens: 4th Street - 26th Avenue",
     "text": "4th Street, east side, between 27th and 26th Avenues, showing an old home about 150 feet back of the main building line. The house appears in Wolverton's 1891 atlas, but its ownership is not given.\n\nP. L. Sperr\n\nMarch 13, 1931\n",
@@ -42,9 +84,27 @@
     "dates_from_text": [
       "1931-03-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Avenue",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 26th Avenue - 4th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725146f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725146f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd3f31b0-c555-012f-46f1-58d385a7bc34",
     "original_title": "Queens: 26th Avenue - 4th Street",
     "text": "26th Avenue, south side, east of 4th Street, showing the lumber yard of the Tisdale Lumber Company.\n\nP. L. Sperr\nMarch 13, 1931\n",
@@ -59,9 +119,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Avenue",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 4th Street - 26th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724973f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724973f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd526cf0-c555-012f-b4fa-58d385a7bc34",
     "original_title": "Queens: 4th Street - 26th Avenue",
     "text": "Information on front of photo reads:\n26-46 Fourth Street  Block 910\n\nDate?: 10-9-35\n",
@@ -76,9 +154,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Avenue",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 4th Street - 26th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724973f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724973f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd526cf0-c555-012f-b4fa-58d385a7bc34",
     "original_title": "Queens: 4th Street - 26th Avenue",
     "text": "Information on front of photo reads:\n26-46 Fourth Street  Block 910\n\nDate?: 10-9-35\n",
@@ -93,9 +189,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Street",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 4th Street - 26th Street",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "724974f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724974f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdbea000-c555-012f-836e-58d385a7bc34",
     "original_title": "Queens: 4th Street - 26th Street",
     "text": "Information on front of photo reads:\n26-02 fourth Street  Block 910\nDate?: 10-9-35\n\nT???? Lombard Co\n",
@@ -110,9 +227,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "26th Street",
+        "str2": "4th Street"
+      },
+      "source": "Queens: 4th Street - 26th Street",
+      "technique": "title-cross"
+    },
     "height": 375,
     "id": "724974f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724974f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Garages"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdbea000-c555-012f-836e-58d385a7bc34",
     "original_title": "Queens: 4th Street - 26th Street",
     "text": "Information on front of photo reads:\n26-02 fourth Street  Block 910\nDate?: 10-9-35\n\nT???? Lombard Co\n",

@@ -5,9 +5,30 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 271,
+        "street": "West 10th Street"
+      },
+      "source": "271 West 10th Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "711033f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711033f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "271 West 10th Street ; Empire Brewery."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b07cb6f0-c53f-012f-a166-58d385a7bc34",
     "original_title": "Manhattan: 10th Street (West) - [Greenwich and Washington Streets]",
     "text": "271 West 10th Street (formerly 171 Amos Street), north side, between Greenwich and Washington Streets, showing the doorway of what must have been an outlying house in old Greenwich, when Greenwich was a village on the outskirts of the city.  It is possibly as much as a hundred years old, as pictured here. Before 1916 it will have been demolished and replaced by a three-story building.\n\n1913.\n",

@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "126th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 126th Street",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "709997f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709997f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/038989f0-c53e-012f-273b-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 126th Street",
     "text": "Seventh Avenue, 126th to 127th Street, West side. (Before Reconstruction).",
@@ -19,9 +37,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "126th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 126th Street",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "709998f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709998f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03fd3790-c53e-012f-e791-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 126th Street",
     "text": "7th Avenue, 126th to 127th Street. East side. (Before Reconstruction).",

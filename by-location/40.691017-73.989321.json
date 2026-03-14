@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum Place",
+        "str2": "Livingston Street"
+      },
+      "source": "Brooklyn: Livingston Street - Boerum Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705481f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705481f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Courthouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dccc1180-c536-012f-9a81-58d385a7bc34",
     "original_title": "Brooklyn: Livingston Street - Boerum Place",
     "text": "Livingston Street, east from, but not including Boerum Place. In the foreground, is shown the rear of the Supreme Court Building.\n\n1928.\n",
@@ -19,9 +40,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Boerum Place",
+        "str2": "Livingston Street"
+      },
+      "source": "Brooklyn: Livingston Street - Boerum Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705482f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705482f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd206e50-c536-012f-be8a-58d385a7bc34",
     "original_title": "Brooklyn: Livingston Street - Boerum Place",
     "text": "131 Livingston Street, north side, between Boerum and Smith Streets, showing the borough offices of the Board of Education.\n\nBoard of Education of the City of New York Early 1930's\n",

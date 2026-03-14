@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-08-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton St.",
+        "str2": "Washington Ave."
+      },
+      "source": "Brooklyn: Washington Ave. - Fulton St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707285f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707285f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96baf900-c539-012f-7924-58d385a7bc34",
     "original_title": "Brooklyn: Washington Ave. - Fulton St.",
     "text": "Washington Avenue, north from near Fulton Street, showing the east side of the thoroughfare.\nP. L. Sperr\nAugust 28, 1941\n",
@@ -22,9 +40,30 @@
   {
     "date": "1942-05-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Fulton Street and Washington Avenue",
+      "technique": "gpt"
+    },
     "height": 407,
     "id": "1509611-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509611-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aface6e0-c5cd-012f-cde9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +77,29 @@
   {
     "date": "1942-05-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Fulton Street at Washington Avenue, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "485825",
     "image_url": "https://images.nypl.org/?id=485825&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73560be0-c60e-012f-a456-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +113,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fulton Street",
+        "str2": "Washington Avenue"
+      },
+      "source": "Brooklyn: Fulton Street - Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "704545f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704545f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61680710-c535-012f-1263-58d385a7bc34",
     "original_title": "Brooklyn: Fulton Street - Washington Avenue",
     "text": "Fulton Street and Washington Avenue, n.w. corner\nBrooklyn\n6/19/42\n",

@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "114th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "114th Street and Amsterdam Avenue",
+      "technique": "gpt"
+    },
     "height": 429,
     "id": "465697-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465697-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/746fc410-c612-012f-82d3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 114th Street - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "715091f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715091f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3832e9b0-c546-012f-71c1-58d385a7bc34",
     "original_title": "Manhattan: 114th Street - Amsterdam Avenue",
     "text": "114th Street, Amsterdam to Morning Side Avenue. (Before Reconstruction). President Borough of Manhattan.  December 10, 1918.",
@@ -35,9 +77,30 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 114th Street - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "715092f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715092f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/387789e0-c546-012f-f521-58d385a7bc34",
     "original_title": "Manhattan: 114th Street - Amsterdam Avenue",
     "text": "114th Street, Amsterdam to Morning Side Avenue. (Before Reconstruction).\n\n   December 10, 1918.\n",
@@ -52,9 +115,30 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 114th Street - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "715093f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715093f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/38dc5230-c546-012f-b40f-58d385a7bc34",
     "original_title": "Manhattan: 114th Street - Amsterdam Avenue",
     "text": "114th Street, Amsterdam to MorningSide Avenue. (Before Reconstruction). President Borough of Manhattan.  December 10, 1918.",
@@ -69,9 +153,38 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 114th Street (West) - Between Amsterdam and Claremont Avenues.",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "715098f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715098f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "[West 114th Street to West 122nd Street ; School of Journalism ; Columbia University."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d353a70-c53b-012f-d7e7-58d385a7bc34",
     "original_title": "Manhattan: 114th Street (West) - Between Amsterdam and Claremont Avenues.",
     "text": "Columbia University\nSchool of Journalism\n1/10/27\nPhoto by Ewing Galloway, N.Y.\n",
@@ -86,9 +199,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 114th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "715096f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715096f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39f57c20-c546-012f-da44-58d385a7bc34",
     "original_title": "Manhattan: 114th Street (West) - Amsterdam Avenue",
     "text": "Columbia University. Air view.\nIts president, Dr. Butler, finds 8 in this country really justified in calling themselves universities.\n\nThe following was written on tracing paper over the photo: \"Mr. Hughes - Note that dark veil has been run over all except central group of buildings. Please keep this contrast and make it even brighter in the central\ngroup if possible.\"\n",
@@ -103,9 +242,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 114th Street (West) - Between Amsterdam and Claremont Avenues.",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "715097f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715097f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 114th Street to West 122nd Street ; Low Library ; Columbia University."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c2290c0-c53b-012f-5e1f-58d385a7bc34",
     "original_title": "Manhattan: 114th Street (West) - Between Amsterdam and Claremont Avenues.",
     "text": "University Enrolments Often Equal City Populations\n\nAt Columbia University last spring, 25,570 resident students were enrolled, a few of whom are pictured above crossing the South Court before the University Library.\n\nPhoto by A. Tennvson Beals\n2929 Broadway - New York\n",

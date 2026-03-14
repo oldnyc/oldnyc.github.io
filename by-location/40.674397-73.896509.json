@@ -2,9 +2,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Liberty Avenue",
+        "str2": "Pennsylvania Avenue"
+      },
+      "source": "Brooklyn: Pennsylvania Avenue - Liberty Avenue",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "706239f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706239f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs",
+          "Political clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/023eac30-c538-012f-1816-58d385a7bc34",
     "original_title": "Brooklyn: Pennsylvania Avenue - Liberty Avenue",
     "text": "Pennsylvania Ave., at the S.W. corner of Liberty Ave., showing the Y.M.C.A building in 1912. In 1929, this building housed the Polish Democratic Club of the 22nd Assembly District of Brooklyn.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +41,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Liberty Avenue",
+        "str2": "Pennsylvania Avenue"
+      },
+      "source": "Liberty Avenue and Pennsylvania Avenue",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "732698f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732698f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b879860-c561-012f-8a5a-58d385a7bc34",
     "text": "Pennsylvania Avenue, east side, between Liberty and Glenmore Avenues, showing Public School No. 173.\n\nBoard of Education of the City of New York  Early 1930's\n",
     "text_source": "gpt",

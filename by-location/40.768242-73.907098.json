@@ -2,9 +2,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "43rd Road",
+        "str2": "44th Drive"
+      },
+      "source": "43rd Road and 44th Drive",
+      "technique": "gpt"
+    },
     "height": 407,
     "id": "734106f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734106f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Food industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b372a440-c563-012f-4764-58d385a7bc34",
     "text": "East River, Queens shore, Long Island City, showing the waterfront area bounded approximately by 43rd Road and 44th Drive. Prominently shown in the center is a large macaroni factory. On the left is the Queensboro Bridge.\n\nP. L. Sperr\n\nMay 4, 1933\nViews 1,2\n",
     "text_source": "gpt",
@@ -18,9 +40,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "43rd Road",
+        "str2": "44th Drive"
+      },
+      "source": "43rd Road and 44th Drive",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "734106f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734106f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Food industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b372a440-c563-012f-4764-58d385a7bc34",
     "text": "East River, Queens shore, Long Island City, showing the waterfront area bounded approximately by 43rd Road and 44th Drive. Prominently shown in the center is a large macaroni factory. On the left is the Queensboro Bridge.\n\nP. L. Sperr\n\nMay 4, 1933\nViews 1,2\n",
     "text_source": "gpt",

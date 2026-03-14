@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Avenue",
+        "str2": "55th Street"
+      },
+      "source": "Brooklyn: 18th Avenue - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 470,
     "id": "702596f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702596f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5fdac4a0-c532-012f-6107-58d385a7bc34",
     "original_title": "Brooklyn: 18th Avenue - 55th Street",
     "text": "Eighteenth Ave., at the S.E. corner of 55th Street, showing an old barn not in existence in (1929).\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "18th Ave.",
+        "str2": "55th St."
+      },
+      "source": "18th Ave. and 55th St.",
+      "technique": "gpt"
+    },
     "height": 433,
     "id": "3984527",
     "image_url": "https://images.nypl.org/?id=3984527&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/407dffd0-c5d7-012f-5f2c-58d385a7bc34",
     "text": null,
     "text_source": null,

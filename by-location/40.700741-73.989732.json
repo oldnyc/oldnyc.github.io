@@ -2,9 +2,38 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Prospect St.",
+        "str2": "Washington St."
+      },
+      "source": "Brooklyn: Washington St. - Prospect St.",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "707291f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707291f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Manhattan Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Factories",
+          "Handcarts",
+          "Ice cream parlors",
+          "Paper industry",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99638480-c539-012f-9fa0-58d385a7bc34",
     "original_title": "Brooklyn: Washington St. - Prospect St.",
     "text": "Washington Street, north from Prospect Street, to the Manhattan Bridge, and the East River.\n\nJune 1926.\n\nBrown Brothers.\n",

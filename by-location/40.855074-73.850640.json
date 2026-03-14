@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Choctaw Place",
+        "str2": "Narragansett Avenue"
+      },
+      "source": "Bronx: Choctaw Place - Narragansett Avenue",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "700722f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700722f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9626a40-c52f-012f-1dfc-58d385a7bc34",
     "original_title": "Bronx: Choctaw Place - Narragansett Avenue",
     "text": "Choctaw Place, at the N.E. corner of Narragansett Ave.\nAbout 1928.\nGoode Studio, Inc.\n",

@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 932,
+        "street": "Flatbush Avenue"
+      },
+      "source": "932 Flatbush Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1557778",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557778.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Lerner Shops"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Flatbush Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Clothing stores",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68b222e0-c5ec-012f-8d08-58d385a7bc34",
     "text": null,
     "text_source": null,

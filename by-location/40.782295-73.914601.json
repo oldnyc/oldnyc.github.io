@@ -2,9 +2,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "21st Avenue",
+        "str2": "21st Street"
+      },
+      "source": "Queens: 21st Avenue - 21st Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725109f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725109f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hell Gate Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Gardens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef89d3f0-c555-012f-83a0-58d385a7bc34",
     "original_title": "Queens: 21st Avenue - 21st Street",
     "text": "21st Avenue, south side, between 21st and 23rd Streets. Shown is an old frame house and gardens. The driveway on the left leads to the house. In the background is the Hellgate Bridge.\n\nP. L. Sperr\n\nMay 27, 1934\n",

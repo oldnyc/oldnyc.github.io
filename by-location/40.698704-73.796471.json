@@ -2,9 +2,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "159th Street",
+        "str2": "South Road"
+      },
+      "source": "Queens: 159th Street - South Road",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "725925f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725925f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Private schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/016c2e70-c557-012f-491e-58d385a7bc34",
     "original_title": "Queens: 159th Street - South Road",
     "text": "105-43 159th Street, (formerly 103 Prospect Street), east side, north of South Street, showing the S. Chapman house of 1873 which faces the last mentioned point and was still standing here in 1931. In the background, east of same appears the steeple of an undesignated church.\n\nAugust 1924.\n\nEugene L. Armbruster Collection\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1932-04-06"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "159th Street",
+        "str2": "South Road"
+      },
+      "source": "Queens: 159th Street - South Road",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "725929f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725929f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03058740-c557-012f-f7e2-58d385a7bc34",
     "original_title": "Queens: 159th Street - South Road",
     "text": "105-43 159th Street, east side, just north of South Road, showing a frame dwelling, in all probability of colonial origin.\n\nP. L. Sperr\nApril 6, 1932\n",

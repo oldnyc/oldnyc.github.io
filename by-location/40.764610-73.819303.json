@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "147th Street",
+        "str2": "37th Avenue"
+      },
+      "source": "Queens: 147th Street - 37th Avenue",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "725885f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725885f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f305e2e0-c556-012f-8bd2-58d385a7bc34",
     "original_title": "Queens: 147th Street - 37th Avenue",
     "text": "147th Street, east side, opposite Thirty-seventh Ave. If Thirty-seventh Ave. is extended on its present line, this house would be at the S.E. corner of the above mentioned street. This view shows the home of William Barolay Parsons in 1925.\n\n1922.\n\nEugene L. Armbruster.\n",

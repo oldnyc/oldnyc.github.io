@@ -2,9 +2,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 69th Street - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714259f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714259f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Hunter College"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f69cda40-c544-012f-0d4d-58d385a7bc34",
     "original_title": "Manhattan: 69th Street - Lexington Avenue",
     "text": "East 69th Street, south side, west from Lexington to Park Aves., and showing the northern side of Hunter College.\n\nJune 12, 1937.\n\nP. L. Sperr.\n",
@@ -19,9 +40,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "69th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 69th Street #129",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1507599-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507599-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/264f0e30-c5ce-012f-95b5-58d385a7bc34",
     "text": null,
     "text_source": null,

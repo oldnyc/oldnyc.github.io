@@ -2,9 +2,29 @@
   {
     "date": "1934-10-01",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "25th Street",
+        "str2": "Third Avenue"
+      },
+      "source": "25th Street and Third Avenue",
+      "technique": "gpt"
+    },
     "height": 469,
     "id": "1508719-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508719-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/867498c0-c5ce-012f-0963-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "25th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 25th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708027f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708027f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf7299f0-c53a-012f-a30f-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 25th Street (East)",
     "text": "(1) Third Ave., east side, north from and including East 25th Street. Note Chrysler Building across the Third Ave. Elevated structure.\n\nMay 23, 1936.\n\nP. L. Sperr.\n\n(2) The same, slightly northward.\n\nMay 23, 1936.\n\nP. L. Sperr.\n\n(3) The same, at a later date.\n\nDecember 23, 1936.\n\nP. L. Sperr.\n",
@@ -35,9 +82,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "25th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 25th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708027f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708027f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf7299f0-c53a-012f-a30f-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 25th Street (East)",
     "text": "(1) Third Ave., east side, north from and including East 25th Street. Note Chrysler Building across the Third Ave. Elevated structure.\n\nMay 23, 1936.\n\nP. L. Sperr.\n\n(2) The same, slightly northward.\n\nMay 23, 1936.\n\nP. L. Sperr.\n\n(3) The same, at a later date.\n\nDecember 23, 1936.\n\nP. L. Sperr.\n",
@@ -52,9 +126,36 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "25th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - 25th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708027f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708027f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf7299f0-c53a-012f-a30f-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 25th Street (East)",
     "text": "(1) Third Ave., east side, north from and including East 25th Street. Note Chrysler Building across the Third Ave. Elevated structure.\n\nMay 23, 1936.\n\nP. L. Sperr.\n\n(2) The same, slightly northward.\n\nMay 23, 1936.\n\nP. L. Sperr.\n\n(3) The same, at a later date.\n\nDecember 23, 1936.\n\nP. L. Sperr.\n",

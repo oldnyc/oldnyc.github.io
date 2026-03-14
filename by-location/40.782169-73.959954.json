@@ -2,9 +2,35 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.78204233429313,
+        "lng": -73.96006017923355
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 204,
     "id": "1113299",
     "image_url": "https://images.nypl.org/?id=1113299&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Carts & wagons",
+          "Gates",
+          "Sidewalks",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81670ae0-c6ca-012f-7c24-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -22,9 +48,27 @@
       "1922",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "709174f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709174f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa049100-c53c-012f-a00d-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 87th Street",
     "rotation": 90,
@@ -45,9 +89,27 @@
       "1922",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709174f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709174f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa049100-c53c-012f-a00d-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 87th Street",
     "text": "(1)\n\n1058 Fifth Ave., at the S.E. corner of East 87th Street. Also shown are Nos. 2-6 East 87th Street, adjoining and east of said corner. No. 1058, is the residence of James Speyer, Banker.\n\nPrior to 1922.\n\nBrown Brothers.\n\n(2)\n\nA view of the Fifth Ave., side.\n\nPrior to 1922.\n",
@@ -63,9 +125,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "709175f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709175f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa5fa840-c53c-012f-b667-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 87th Street",
     "text": "Fifth Avenue, east side, from 87th to 88th Street. June, 1925.",
@@ -80,9 +163,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "87th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709176f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709176f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aad1c730-c53c-012f-e8c1-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 87th Street",
     "text": "1060 Fifth Avenue, at N.E. corner of 87th Street, a large cooperative apartment.\n1928.\n",

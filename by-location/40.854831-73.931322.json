@@ -2,9 +2,34 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "189th Street",
+        "str2": "Wadsworth Avenue"
+      },
+      "source": "Manhattan: Wadsworth Avenue - 189th Street",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "723812f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723812f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/efe24eb0-c553-012f-58c2-58d385a7bc34",
     "original_title": "Manhattan: Wadsworth Avenue - 189th Street",
     "text": "Wadsworth Avenue between 189th and 190th Street. (Before reconstruction).\n\n April 12, 1919.\n",

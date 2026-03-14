@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Thames St.",
+        "str2": "Varick Ave."
+      },
+      "source": "Brooklyn: Varick Ave. - Thames St.",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "707197f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707197f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Freight terminals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/733fdf30-c539-012f-569d-58d385a7bc34",
     "original_title": "Brooklyn: Varick Ave. - Thames St.",
     "text": "Varick Ave., at the N.E. corner of Thames Street, showing the Long Island R.R. Freight Station.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",

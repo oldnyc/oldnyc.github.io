@@ -2,9 +2,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ridge Boulevard",
+        "str2": "Wakeman Pl."
+      },
+      "source": "Brooklyn: Wakeman Pl. - Ridge Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707235f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707235f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82939610-c539-012f-a5b7-58d385a7bc34",
     "original_title": "Brooklyn: Wakeman Pl. - Ridge Boulevard",
     "text": "220 Wakeman Place, south side, between Ridge Blvd. and Third Avenue, showing the home of May A. Denniger in 1926.\n\nMay 12, 1926.\n\nW. B. Vernam\n",

@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Beach 34th Street",
+        "str2": "Edgemere Avenue"
+      },
+      "source": "Queens: Beach 34th Street - Edgemere Avenue",
+      "technique": "title-cross"
+    },
     "height": 516,
     "id": "726147f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726147f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50f21b10-c557-012f-227c-58d385a7bc34",
     "original_title": "Queens: Beach 34th Street - Edgemere Avenue",
     "text": "Beach 34th Street at Edgemere Avenue, Far Rockaway, showing Public School No. 106.\nBoard of Education of the City of New York  June, 1931\n",

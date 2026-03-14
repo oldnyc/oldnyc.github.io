@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Brooklyn: 23rd Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 447,
     "id": "702659f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702659f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77cf3ee0-c532-012f-add5-58d385a7bc34",
     "original_title": "Brooklyn: 23rd Street - 6th Avenue",
     "text": "23rd Street, west from near 6th Avenue, showing a W. P. A. sewer project. On 5th Avenue appears the Culver Line elevated.\n\nSeptember 28, 1936\n\nWorks Project Administration\nFive Boroughs Project\n",

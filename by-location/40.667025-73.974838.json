@@ -2,9 +2,33 @@
   {
     "date": "1928; 1928-08-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Street",
+        "str2": "Prospect Park"
+      },
+      "source": "5th Street and Prospect Park",
+      "technique": "gpt"
+    },
     "height": 430,
     "id": "706373f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/706373f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37a111f0-c538-012f-92d1-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nProspect Park, east of 5th Street, showing the rear view of the Litchfield house, which is near the entrance of gate 10.\nAugust 2, 1928.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another view.\nAugust 2, 1928.\nEugene L. Armbruster Collection.\n",
@@ -20,9 +44,33 @@
   {
     "date": "1928; 1928-08-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Street",
+        "str2": "Prospect Park"
+      },
+      "source": "5th Street and Prospect Park",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "706373f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706373f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Prospect Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37a111f0-c538-012f-92d1-58d385a7bc34",
     "text": "(1)\nProspect Park, east of 5th Street, showing the rear view of the Litchfield house, which is near the entrance of gate 10.\nAugust 2, 1928.\nEugene L. Armbruster Collection.\n\n(2)\nThe same, another view.\nAugust 2, 1928.\nEugene L. Armbruster Collection.\n",
     "text_source": "site",

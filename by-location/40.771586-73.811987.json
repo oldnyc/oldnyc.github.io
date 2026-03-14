@@ -2,9 +2,33 @@
   {
     "date": "1898",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "152nd Street",
+        "str2": "Bayside Avenue"
+      },
+      "source": "152nd Street and Bayside Avenue",
+      "technique": "gpt"
+    },
     "height": 458,
     "id": "734110f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734110f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Whitestone (New York, N.Y.)"
+        ],
+        "topic": [
+          "Beaches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b54bf970-c563-012f-1810-58d385a7bc34",
     "text": "East River, Queens shore, at Whitestone Landing, showing the shore as seen from the Boerum boat house, looking east. On the extreme right is a portion of Stimmel's Pavilion, at the foot of Bayside Avenue, later 152nd Street. Stimmel's later became Beckmann's Pavilion. The pavilion bears the sign N.Y. Herald.\n\nEugene L. Armbruster Collection\nMay, 1898\n",
     "text_source": "gpt",

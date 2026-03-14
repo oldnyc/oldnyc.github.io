@@ -2,9 +2,31 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717079f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717079f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clock towers",
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49b2f9f0-c549-012f-8134-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "Broadway, south from John Street. In the right background is the spire of Trinity Church, at the head of Wall Street.\n\nAbout 1880\n\nAmerican Studio, phpto\n87 Nassau St., N.Y.C.\n\nGift of Urbrock Collection\nREPRODUCTION RIGHTS UNKNOWN\n",
@@ -19,9 +41,34 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717081f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717081f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Carts & wagons",
+          "Horse teams",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a865fa0-c549-012f-0482-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Dey Street",
     "text": "P.L. Sperr collection\nRec'd January 13, 1945\n",
@@ -36,9 +83,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Broadway and Dey Street",
+      "technique": "gpt"
+    },
     "height": 230,
     "id": "1627848",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627848.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/393fb630-c6d2-012f-c415-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -52,9 +123,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "John St"
+      },
+      "source": "Broadway and John St",
+      "technique": "gpt"
+    },
     "height": 228,
     "id": "1627849",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627849.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3990b580-c6d2-012f-7422-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -68,9 +163,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717083f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717083f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Postal service"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b5a5310-c549-012f-3087-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Dey Street",
     "text": "195 Broadway, at the N.W. corner of Dey Street (left) showing the 11-story Western Union Building under demolition. Upon this site, in conjunction with three additional plots numbered 14, 16 and 18 Dey Street, will rise the new 28-story Western Union Building. On Dey Street appears an extensive view westward from Broadway to the North (Hudson) River. The tower appearing on the right is atop the Mail and Express Building. This set consists of a negative and a positive.\n\n1913.\n\nF. M. Demarest.\nGift of Albert A. Volk Co.\n",
@@ -85,9 +201,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717083f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717083f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Postal service"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b5a5310-c549-012f-3087-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Dey Street",
     "text": "195 Broadway, at the N.W. corner of Dey Street (left) showing the 11-story Western Union Building under demolition. Upon this site, in conjunction with three additional plots numbered 14, 16 and 18 Dey Street, will rise the new 28-story Western Union Building. On Dey Street appears an extensive view westward from Broadway to the North (Hudson) River. The tower appearing on the right is atop the Mail and Express Building. This set consists of a negative and a positive.\n\n1913.\n\nF. M. Demarest.\nGift of Albert A. Volk Co.\n",
@@ -102,9 +239,33 @@
   {
     "date": "1916",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717080f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717080f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores",
+          "Handcarts",
+          "Restaurants",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a1a66c0-c549-012f-d41b-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Dey Street",
     "text": "191-189 & 187 Broadway, at and adjoining the S. W. corner of Dey Street. Shown on the right is a vacant lot, which on the 1922 Bromley Map of New York City is occupied by the 15 story Gillespie Building, No. 5 Dey St.\nGift of E. M. Jenks\nPrior to 1916\n",
@@ -119,9 +280,29 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Between Fulton and Dey Streets.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "730327f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730327f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway - Between Fulton and Dey Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce969a30-c55d-012f-0efb-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -135,9 +316,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Dey Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719312f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719312f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Pedestrian bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c80b7040-c54c-012f-0307-58d385a7bc34",
     "original_title": "Manhattan: Dey Street - Broadway",
     "text": "(1) Dey Street, west from Broadway, to the Hudson River.\n\nJune 4, 1933.\n\nP. L. Sperr.\n\n(2) The same, showing more of the south side of Dey Street.\n\nJune 4, 1933.\n\nP. L. Sperr.\n\n(3) The same, from a different angle.\n\nJuly 1, 1933.\n\nP. L. Sperr.\n",
@@ -152,9 +355,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Dey Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719312f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719312f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Pedestrian bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c80b7040-c54c-012f-0307-58d385a7bc34",
     "original_title": "Manhattan: Dey Street - Broadway",
     "text": "(1) Dey Street, west from Broadway, to the Hudson River.\n\nJune 4, 1933.\n\nP. L. Sperr.\n\n(2) The same, showing more of the south side of Dey Street.\n\nJune 4, 1933.\n\nP. L. Sperr.\n\n(3) The same, from a different angle.\n\nJuly 1, 1933.\n\nP. L. Sperr.\n",
@@ -169,9 +394,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Dey Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "719312f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719312f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Pedestrian bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c80b7040-c54c-012f-0307-58d385a7bc34",
     "original_title": "Manhattan: Dey Street - Broadway",
     "text": "(1) Dey Street, west from Broadway, to the Hudson River.\n\nJune 4, 1933.\n\nP. L. Sperr.\n\n(2) The same, showing more of the south side of Dey Street.\n\nJune 4, 1933.\n\nP. L. Sperr.\n\n(3) The same, from a different angle.\n\nJuly 1, 1933.\n\nP. L. Sperr.\n",
@@ -186,9 +433,31 @@
   {
     "date": "1934; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717087f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717087f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry",
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d1894d0-c549-012f-30ad-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "(1)\nBroadway, east side, from about the south west corner\nof Fulton street looking southwards across John Street.\nThe Title Guarantee and Trust Company looms towards the background.\nJuly 17, 1934\n\n(2)\nBroadway east side, the south east corner of Fulton Street, looking southwards.\n\nF.L.Speer\n\nApril 8, 1940.\n",
@@ -204,9 +473,31 @@
   {
     "date": "1934; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717087f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717087f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cigar industry",
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d1894d0-c549-012f-30ad-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "(1)\nBroadway, east side, from about the south west corner\nof Fulton street looking southwards across John Street.\nThe Title Guarantee and Trust Company looms towards the background.\nJuly 17, 1934\n\n(2)\nBroadway east side, the south east corner of Fulton Street, looking southwards.\n\nF.L.Speer\n\nApril 8, 1940.\n",
@@ -222,9 +513,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717088f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717088f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Chase National Bank of the City of New York",
+          "St. Paul Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Cigar industry",
+          "Episcopal churches",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d6cfdf0-c549-012f-9177-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "(1)\nBroadway, east side, north from but not including John Street to Park Row. On the extreme left, appears the United States Post Office, with the 25-story St. Paul building and the 7-story, ornate, Chase National Building (National Park Branch) preceding.\n\nDecember 27, 1936.\n\nP. L. Sperr.\n\n(2)\nA portion of the view shown in No. 1, in a southward direction. On the extreme left, appears a portion of the Chase National Bank, with the 6-story United Building adjoining (N.E. corner of Fulton Street).\n\nDecember 27, 1936.\n\nP. L. Sperr.\n\n(3)\nA view of the stores in the 10-story building, No. 204-210 Broadway, at the S.E. corner of Fulton Street. This property has been leased for 21 years. The present structure is to be demolished and a 2-story building constructed on its site.\n\nDecember 27, 1936.\n\nP. L. Sperr.\n\nNo. 204-210 Broadway (also No. 156 Fulton Street), the building to be razed is the former home of the Evening Post. This structure shown was one of the first large office buildings to be erected in New York. For a further account and a picture of same, see Kings Hand book of New York 1892 page 567.\n",
@@ -239,9 +558,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717088f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717088f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Chase National Bank of the City of New York",
+          "St. Paul Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Cigar industry",
+          "Episcopal churches",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d6cfdf0-c549-012f-9177-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "(1)\nBroadway, east side, north from but not including John Street to Park Row. On the extreme left, appears the United States Post Office, with the 25-story St. Paul building and the 7-story, ornate, Chase National Building (National Park Branch) preceding.\n\nDecember 27, 1936.\n\nP. L. Sperr.\n\n(2)\nA portion of the view shown in No. 1, in a southward direction. On the extreme left, appears a portion of the Chase National Bank, with the 6-story United Building adjoining (N.E. corner of Fulton Street).\n\nDecember 27, 1936.\n\nP. L. Sperr.\n\n(3)\nA view of the stores in the 10-story building, No. 204-210 Broadway, at the S.E. corner of Fulton Street. This property has been leased for 21 years. The present structure is to be demolished and a 2-story building constructed on its site.\n\nDecember 27, 1936.\n\nP. L. Sperr.\n\nNo. 204-210 Broadway (also No. 156 Fulton Street), the building to be razed is the former home of the Evening Post. This structure shown was one of the first large office buildings to be erected in New York. For a further account and a picture of same, see Kings Hand book of New York 1892 page 567.\n",
@@ -256,9 +603,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "717088f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/717088f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Chase National Bank of the City of New York",
+          "St. Paul Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Cigar industry",
+          "Episcopal churches",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4d6cfdf0-c549-012f-9177-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "rotation": 90,
@@ -274,9 +649,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 343,
     "id": "717089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Chase National Bank of the City of New York"
+        ],
+        "topic": [
+          "Banks",
+          "Cigar industry",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4de6e950-c549-012f-4cba-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "New York City in 1842, looking south from the steeple of St. Paul's Church.\n\nBroadway, south from Fulton Street, Manhattan.\n",
@@ -291,9 +692,29 @@
   {
     "date": "1940-05-05",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street, ",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "1509035",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509035.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de693fb0-c5cd-012f-4e1c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -307,9 +728,29 @@
   {
     "date": "1942-10-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Broadway and John Street",
+      "technique": "gpt"
+    },
     "height": 427,
     "id": "1509153-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509153-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3ed19d0-c5cd-012f-2313-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -323,9 +764,29 @@
   {
     "date": "1942-01-27",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Dey Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509297-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509297-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0dad1460-c5ce-012f-5265-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -342,9 +803,34 @@
     "dates_from_text": [
       "1945-11-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717082f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717082f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Clothing stores",
+          "Horse teams",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ae91a40-c549-012f-efde-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "P.L. Sperr collection\nRec'd November 13, 1945\n",
@@ -362,9 +848,35 @@
     "dates_from_text": [
       "1945-11-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: Broadway - John Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717086f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717086f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Carts & wagons",
+          "Clothing stores",
+          "Horse teams",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ca9b4e0-c549-012f-b0d4-58d385a7bc34",
     "original_title": "Manhattan: Broadway - John Street",
     "text": "P. L. Sperr collection\nReceived Nov. 13, 1945\n",
@@ -379,9 +891,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: John Street #182 - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1509043-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509043-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dfc991a0-c5cd-012f-bd80-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -395,9 +927,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "John Street"
+      },
+      "source": "Manhattan: 182 John Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557952",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557952.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fanny Farmer Candies"
+      ],
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3b2d7130-c5ed-012f-b045-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -411,9 +972,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717084f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717084f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "American Telephone and Telegraph Company"
+        ],
+        "topic": [
+          "Service to the Nation in Peace and War (Statue)",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4bd7dd90-c549-012f-da07-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Dey Street",
     "text": "\"Service to the Nation,\" a sculpture in bronze and marble, by Chester Beach, placed in the Headquarters Building of the American Telephone and Telegraph Company. 195 B'way\n\nFrom-Information Department\nAmerican Telephone and Telegraph Co.\n195 Broadway, New York.\n",
@@ -428,9 +1014,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Dey Street"
+      },
+      "source": "Manhattan: Broadway - Dey Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717085f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717085f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c2b8b90-c549-012f-d049-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Dey Street",
     "text": "AT&T Building, 195 Broadway.\n\nn.d.\n",

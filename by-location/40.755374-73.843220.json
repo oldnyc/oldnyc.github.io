@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "126th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "Queens: 126th Street - Roosevelt Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725842f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725842f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e3e752b0-c556-012f-1240-58d385a7bc34",
     "original_title": "Queens: 126th Street - Roosevelt Avenue",
     "text": "126th Street, north from Roosevelt Avenue and Willets Point Blvd., showing at the right a residential area that will not be developed until after the termination of the World Fair Ground.\n\nMay 5, 1938.\n\nP.L. Sperr\n",
@@ -19,9 +40,53 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "126th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "126th Street and Roosevelt Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Roosevelt Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Roosevelt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "726649f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726649f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Elevated railroads",
+          "Parks",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01e8f720-c558-012f-eb0e-58d385a7bc34",
     "original_title": "Queens: Roosevelt Avenue - Grand Central Parkway",
     "text": "Flushing Meadow Park (Worlds Fair Grounds) south of Roosevelt Avenue, at the left, elevated structure thereon) near the Grand Central Parkway. The area in the foreground is the site for the Army Camp. Beyond it is the ramp to the I.R.T. and B.M.T. station. View No. 2 is at a slightly different angle and shows at the right the I.R.T. storage yards. View No. 3 shows the background of views one and two, also shown is the Willets Point Blvd. station on Roosevelt Avenue at 126th Street.\n\nMay 30, 1938.\nViews 1, 2 and 3\n\nP.L. Sperr\n",
@@ -36,9 +101,53 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "126th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "126th Street and Roosevelt Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Roosevelt Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Roosevelt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "726649f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726649f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Elevated railroads",
+          "Parks",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01e8f720-c558-012f-eb0e-58d385a7bc34",
     "original_title": "Queens: Roosevelt Avenue - Grand Central Parkway",
     "text": "Flushing Meadow Park (Worlds Fair Grounds) south of Roosevelt Avenue, at the left, elevated structure thereon) near the Grand Central Parkway. The area in the foreground is the site for the Army Camp. Beyond it is the ramp to the I.R.T. and B.M.T. station. View No. 2 is at a slightly different angle and shows at the right the I.R.T. storage yards. View No. 3 shows the background of views one and two, also shown is the Willets Point Blvd. station on Roosevelt Avenue at 126th Street.\n\nMay 30, 1938.\nViews 1, 2 and 3\n\nP.L. Sperr\n",
@@ -53,9 +162,53 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "126th Street",
+        "str2": "Roosevelt Avenue"
+      },
+      "source": "126th Street and Roosevelt Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Roosevelt Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Central Parkway",
+        "str2": "Roosevelt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "726649f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726649f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Construction equipment",
+          "Elevated railroads",
+          "Parks",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01e8f720-c558-012f-eb0e-58d385a7bc34",
     "original_title": "Queens: Roosevelt Avenue - Grand Central Parkway",
     "text": "Flushing Meadow Park (Worlds Fair Grounds) south of Roosevelt Avenue, at the left, elevated structure thereon) near the Grand Central Parkway. The area in the foreground is the site for the Army Camp. Beyond it is the ramp to the I.R.T. and B.M.T. station. View No. 2 is at a slightly different angle and shows at the right the I.R.T. storage yards. View No. 3 shows the background of views one and two, also shown is the Willets Point Blvd. station on Roosevelt Avenue at 126th Street.\n\nMay 30, 1938.\nViews 1, 2 and 3\n\nP.L. Sperr\n",

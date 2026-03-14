@@ -2,9 +2,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Baltic Street",
+        "str2": "Nevins Street"
+      },
+      "source": "Brooklyn: Baltic Street - Nevins Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "703088f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703088f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Street vendors",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1dc8e070-c533-012f-c804-58d385a7bc34",
     "original_title": "Brooklyn: Baltic Street - Nevins Street",
     "text": "P.L. Sperr, photographer         7-22-1942",
@@ -19,9 +43,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Baltic Street",
+        "str2": "Nevins Street"
+      },
+      "source": "Brooklyn: Baltic Street - Nevins Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "703089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e24ae00-c533-012f-2789-58d385a7bc34",
     "original_title": "Brooklyn: Baltic Street - Nevins Street",
     "text": "P.L Sperr, photographer 8-6-1942",

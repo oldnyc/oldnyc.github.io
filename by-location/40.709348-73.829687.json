@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Austin Street",
+        "str2": "Lefferts Boulevard"
+      },
+      "source": "Austin Street and Lefferts Boulevard",
+      "technique": "gpt"
+    },
     "height": 465,
     "id": "1558450",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558450.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Storefronts"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Commercial streets",
+          "Historic buildings",
+          "Storefronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/737e3e10-c5ed-012f-14dc-58d385a7bc34",
     "text": null,
     "text_source": null,

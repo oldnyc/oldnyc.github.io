@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "123rd Street",
+        "str2": "Broadway"
+      },
+      "source": "123rd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465570-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465570-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/428d5500-c612-012f-8452-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 123rd Street",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "717728f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717728f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48429c30-c54a-012f-c511-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 123rd Street",
     "text": "(1)\nBroadway, 123, to 124th Street, East Broadway looking north.\n(Before reconstruction).\n\n(2)\nSame, after reconstruction).\n\nDecember 30, 1919.\n",
@@ -35,9 +80,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 123rd Street",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "717728f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717728f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48429c30-c54a-012f-c511-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 123rd Street",
     "text": "(1)\nBroadway, 123, to 124th Street, East Broadway looking north.\n(Before reconstruction).\n\n(2)\nSame, after reconstruction).\n\nDecember 30, 1919.\n",
@@ -52,9 +121,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 123rd Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "717729f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717729f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48a4db80-c54a-012f-3140-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 123rd Street",
     "text": "(1)\nBroadway 123rd to 124th Street, west side.\n(Before reconstruction).\n\n(2)\nSame, after reconstruction).\n\nDecember 30, 1919.\n",
@@ -69,9 +162,33 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 123rd Street",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "717729f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717729f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48a4db80-c54a-012f-3140-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 123rd Street",
     "text": "(1)\nBroadway 123rd to 124th Street, west side.\n(Before reconstruction).\n\n(2)\nSame, after reconstruction).\n\nDecember 30, 1919.\n",
@@ -86,9 +203,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "123rd Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 123rd Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "715295f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715295f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/851a7c90-c546-012f-50be-58d385a7bc34",
     "original_title": "Manhattan: 123rd Street (West) - Broadway",
     "text": "551-537 West 123rd Street, at, adjoining, and east of the N.E. corner of Broadway, seen across the excavation for the Jewish Theological Seminary.\n\nMarch 21, 1929.\n\nP. L. Sperr.\n",

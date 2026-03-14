@@ -6,9 +6,27 @@
       "1921-01",
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Greene Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Greene Avenue",
+      "technique": "title-cross"
+    },
     "height": 395,
     "id": "703650f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703650f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f85f4470-c533-012f-cb16-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Greene Avenue",
     "text": "424 Clinton Ave., west side, between Greene and Gates Aves., showing the home of E. Jackson Jr., purchased by George W. Baker in January 1921.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -24,9 +42,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clinton Avenue",
+        "str2": "Greene Avenue"
+      },
+      "source": "Brooklyn: Clinton Avenue - Greene Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "703649f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703649f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7ff6b00-c533-012f-8add-58d385a7bc34",
     "original_title": "Brooklyn: Clinton Avenue - Greene Avenue",
     "text": "P.L. Sperr, photographer\n6-19-1942\n",

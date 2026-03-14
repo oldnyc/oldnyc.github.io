@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "8th Street (South)",
+        "str2": "Driggs Avenue"
+      },
+      "source": "Brooklyn: 8th Street (South) - Driggs Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702476f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702476f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32404270-c532-012f-4f0b-58d385a7bc34",
     "original_title": "Brooklyn: 8th Street (South) - Driggs Avenue",
     "text": "South 8th Street, north side, just west of Driggs Avenue, showing Public School NO. 166.\n\nBoard of Education of the City of New York June 24, 1931\n",

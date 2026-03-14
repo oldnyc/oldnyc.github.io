@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Kendrick Place",
+        "str2": "Mayfield Road"
+      },
+      "source": "Queens: Kendrick Place - Mayfield Road",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "727143f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727143f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4478c60-c558-012f-543b-58d385a7bc34",
     "original_title": "Queens: Kendrick Place - Mayfield Road",
     "text": null,

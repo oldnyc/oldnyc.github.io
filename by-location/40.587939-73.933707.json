@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bragg St.",
+        "str2": "Voorhies Ave."
+      },
+      "source": "Brooklyn: Voorhies Ave. - Bragg St.",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "707229f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707229f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Waste disposal facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8047aff0-c539-012f-4f90-58d385a7bc34",
     "original_title": "Brooklyn: Voorhies Ave. - Bragg St.",
     "text": "Voorhies Ave., north side, east from Bragg Street in foreground (not visible). At the left was erected a sewage plant for Sheepshead Bay area.\n\nJuly 7, 1935.\n\nP. L. Sperr.\n",

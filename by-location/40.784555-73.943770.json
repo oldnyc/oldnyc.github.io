@@ -2,9 +2,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "98th St. E."
+      },
+      "source": "Manhattan: 1st Ave. - 98th St. E.",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "707678f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707678f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Educational facilities",
+          "Public schools",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41c0fad0-c53a-012f-d1ed-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 98th St. E.",
     "text": "First Avenue and East 98th Street, n.e. cor.\nP. L. Sperr, photographer\nJune 19, 1941\n",

@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 218,
+        "street": "E 57th Street"
+      },
+      "source": "57th Street (East) #218",
+      "technique": "title-address"
+    },
     "height": 455,
     "id": "1508241-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508241-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd072860-c5ce-012f-cf53-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 220,
+        "street": "East 57th Street"
+      },
+      "source": "220 East 57th Street",
+      "technique": "gpt"
+    },
     "height": 480,
     "id": "1558266",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558266.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e0398250-c5ec-012f-fb5d-58d385a7bc34",
     "text": null,
     "text_source": null,

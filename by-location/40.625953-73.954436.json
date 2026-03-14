@@ -2,9 +2,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Avenue J",
+        "str2": "Elmore Place"
+      },
+      "source": "Avenue J and Elmore Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Avenue I",
+        "str2": "Elmore Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Avenue I",
+        "str2": "Elmore Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "704087f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704087f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9577280-c534-012f-93a9-58d385a7bc34",
     "original_title": "Brooklyn: Elmore Place - Avenue I",
     "text": "(1)\n1041 Elmore Place, (East 22nd Street), east side, between Aves. I and J, showing the Robert Magaw farmhouse.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, from another angle.\n\n1923.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +54,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Avenue J",
+        "str2": "Elmore Place"
+      },
+      "source": "Avenue J and Elmore Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Avenue I",
+        "str2": "Elmore Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Avenue I",
+        "str2": "Elmore Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "704087f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704087f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9577280-c534-012f-93a9-58d385a7bc34",
     "original_title": "Brooklyn: Elmore Place - Avenue I",
     "text": "(1)\n1041 Elmore Place, (East 22nd Street), east side, between Aves. I and J, showing the Robert Magaw farmhouse.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n\n(2)\nThe same, from another angle.\n\n1923.\n\nEugene L. Armbruster Collection.\n",

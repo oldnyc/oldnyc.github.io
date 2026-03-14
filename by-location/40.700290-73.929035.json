@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Central Ave.",
+        "str2": "Troutman St."
+      },
+      "source": "Brooklyn: Troutman St. - Central Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707088f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707088f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4977ee00-c539-012f-57bb-58d385a7bc34",
     "original_title": "Brooklyn: Troutman St. - Central Ave.",
     "text": "Troutman Street, east side, between Central and Wilson Avenues, looking south towards the latter.\nBoard of Education of the City of New York. March 6, 1931\n",

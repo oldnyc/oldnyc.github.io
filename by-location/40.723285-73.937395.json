@@ -2,9 +2,29 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Anthony Street",
+        "str2": "Vandervoort Avenue"
+      },
+      "source": "Anthony Street and Vandervoort Avenue",
+      "technique": "gpt"
+    },
     "height": 421,
     "id": "732785f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732785f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae43c650-c561-012f-dce8-58d385a7bc34",
     "text": "Anthony Street, at Vandervoort Avenue, showing W. P. A. workmen working on a sewer project.\n\nAugust 20, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",
     "text_source": "gpt",

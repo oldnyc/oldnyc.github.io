@@ -2,9 +2,29 @@
   {
     "date": "1950; 1959",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 117,
+        "street": "E 37th Street"
+      },
+      "source": "37th Street (East) #117",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507763",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507763.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d271b590-c5ce-012f-85e4-58d385a7bc34",
     "text": null,
     "text_source": null,

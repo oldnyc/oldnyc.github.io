@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E 134th St",
+        "str2": "Willis Ave"
+      },
+      "source": "E 134th St and Willis Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984393",
     "image_url": "https://images.nypl.org/?id=3984393&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a60b6b0-c5d7-012f-c87b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "134th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: 134th Street (East) - Willis Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "700041f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700041f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Triborough Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b3fa1d60-c52e-012f-fe7a-58d385a7bc34",
     "original_title": "Bronx: 134th Street (East) - Willis Avenue",
     "text": "East 134th Street, north side, east from Willis Ave., showing buildings being razed to make way for the later construction of an approach to the Triborough Bridge.\n\nMay 7, 1937.\n\nP. L. Sperr.\n",
@@ -35,9 +82,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "134th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: Willis Avenue - 134th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702189f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702189f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2afb3b0-c531-012f-59bc-58d385a7bc34",
     "original_title": "Bronx: Willis Avenue - 134th Street (East)",
     "text": null,
@@ -52,9 +117,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "134th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: Willis Avenue - 134th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702189f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702189f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2afb3b0-c531-012f-59bc-58d385a7bc34",
     "original_title": "Bronx: Willis Avenue - 134th Street (East)",
     "text": null,

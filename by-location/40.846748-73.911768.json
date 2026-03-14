@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1720,
+        "street": "Townsend Ave"
+      },
+      "source": "1720 Townsend Ave",
+      "technique": "gpt"
+    },
     "height": 457,
     "id": "701908f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701908f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57ade360-c531-012f-0db7-58d385a7bc34",
     "text": "1728 to 1720 Townsend Ave., adjoining and south of the S.E. corner of East 175th Street. In the background appears the rear of the 17-story Lewis Morris Apartments facing on the west side of Grand Concourse.\n\nAbout 1924.\n",
     "text_source": "gpt",

@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 601,
+        "street": "West 172nd Street"
+      },
+      "source": "601 West 172nd Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417645",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417645.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e1ab6e0-c6cd-012f-07d1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1927-11-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "172nd Street (West)",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "Manhattan: 172nd Street (West) - St. Nicholas Avenue",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "715771f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715771f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3c33b9c0-c547-012f-0793-58d385a7bc34",
     "original_title": "Manhattan: 172nd Street (West) - St. Nicholas Avenue",
     "text": "West 172nd Street, nort hside, west from, but not including St. Nicholas Ave., showing a temporary woodwork shack at the N.E. corner of Broadway. November 9, 1927\n\nP.L. Sperr.\n",

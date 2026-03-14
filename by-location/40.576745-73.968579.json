@@ -2,9 +2,45 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 3044,
+        "street": "Ocean Parkway"
+      },
+      "source": "3044 Ocean Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Ocean Parkway",
+        "str2": "Seaside Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Ocean Parkway",
+        "str2": "Seaside Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 480,
     "id": "706118f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706118f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3efa7f0-c537-012f-2496-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Parkway - Seaside Boulevard",
     "text": "3044 Ocean Parkway, west side, north of the Brighton Beach subway right of way, showing the Atlantic House, demolished prior to 1929. A 6-story brick building occupies the site in 1929.\n\nDecember 1923.\n\nEugene L. Armbruster Collection.\n",

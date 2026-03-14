@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "181st Street",
+        "str2": "Arthur Avenue"
+      },
+      "source": "Bronx: 181st Street - Arthur Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700270f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700270f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/080f4780-c52f-012f-1713-58d385a7bc34",
     "original_title": "Bronx: 181st Street - Arthur Avenue",
     "text": "181st St s e cor & Arthur Ave\n8-27-1942\nP.L.Sperr\n",
@@ -19,9 +37,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "181st Street",
+        "str2": "Arthur Avenue"
+      },
+      "source": "Bronx: Arthur Avenue - 181st Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700430f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700430f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/406a2e30-c52f-012f-90a6-58d385a7bc34",
     "original_title": "Bronx: Arthur Avenue - 181st Street",
     "text": "Arthur Ave. adj n.e. cor. 181st Street\n\n8-27-1942\n",

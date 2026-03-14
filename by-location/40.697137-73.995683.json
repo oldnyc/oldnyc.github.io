@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 131,
+        "street": "Willow Street"
+      },
+      "source": "131 Willow Street",
+      "technique": "gpt"
+    },
     "height": 477,
     "id": "707432f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707432f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Willow Street, nos. 131-137, Brooklyn."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d1cb4a80-c539-012f-4215-58d385a7bc34",
     "text": "Willow St., no.131-137, B'klyn.\nFederal Art Project, \"Changing New York,\" photographs by Berenice Abbott. Negative # 126.\nMay 14, 1936.\n",
     "text_source": "gpt",

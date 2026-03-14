@@ -2,9 +2,41 @@
   {
     "date": "1859; 1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 14th Street",
+        "str2": "Union Square East"
+      },
+      "source": "East 14th Street and Union Square East",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "723594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723594f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Everett House."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Union Square Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Washington, George, 1732-1799"
+        ],
+        "topic": [
+          "Hotels",
+          "Parks",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95e687c0-c553-012f-b846-58d385a7bc34",
     "text": "Union Square East, north from East 14th Street, showing the Henry K. Browne equestrian Washington Statue facing west- ward towards the Park. The latter is on the left and extends to East 17th Street where appears the old Everett House. North of that point, this thoroughfare becomes Fourth Avenue.\n\nView 1: 1859\n\nBrown Brothers\n\nView 2: February 1906\n\nGeorge L. Balgue\n",
     "text_source": "gpt",
@@ -19,9 +51,41 @@
   {
     "date": "1859; 1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 14th Street",
+        "str2": "Union Square East"
+      },
+      "source": "East 14th Street and Union Square East",
+      "technique": "gpt"
+    },
     "height": 441,
     "id": "723594f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723594f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Everett House."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Union Square Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Washington, George, 1732-1799"
+        ],
+        "topic": [
+          "Hotels",
+          "Parks",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95e687c0-c553-012f-b846-58d385a7bc34",
     "text": "Union Square East, north from East 14th Street, showing the Henry K. Browne equestrian Washington Statue facing west- ward towards the Park. The latter is on the left and extends to East 17th Street where appears the old Everett House. North of that point, this thoroughfare becomes Fourth Avenue.\n\nView 1: 1859\n\nBrown Brothers\n\nView 2: February 1906\n\nGeorge L. Balgue\n",
     "text_source": "gpt",
@@ -36,9 +100,45 @@
   {
     "date": "1898",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 14th Street",
+        "str2": "Union Square East"
+      },
+      "source": "East 14th Street and Union Square East",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "14th Street (East)",
+        "str2": "George Washington Statue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 452,
     "id": "723596f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723596f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Union Square Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Washington, George, 1732-1799"
+        ],
+        "topic": [
+          "Parks",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f137720-c553-012f-1d7e-58d385a7bc34",
     "text": "Union Square: A view northward across the Park from East 14th Street (foreground) and Union Square East (right). Note the Equestrian Washington, the work of Henry K. Browne in the circle. This is now (1937) located in the Park, being moved to its present site about 1930. 1898.\n\nGift of M. Van Der Weyde.\n",
     "text_source": "gpt",
@@ -52,9 +152,33 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 14th Street",
+        "str2": "Union Square East"
+      },
+      "source": "East 14th Street and Union Square East",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "723597f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723597f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Union Square Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3c8ff00-c553-012f-07c9-58d385a7bc34",
     "text": "Union Square East, north from East 14th to 17th Streets (where it becomes Fourth Ave.), showing the Park on the left and across same a row of buildings on East 17th Street; the latter forming the northern boundary. Materials shown in the foreground are for subway construction. April 5, 1901.",
     "text_source": "gpt",
@@ -68,9 +192,37 @@
   {
     "date": "1904",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 14th Street",
+        "str2": "Union Square East"
+      },
+      "source": "East 14th Street and Union Square East",
+      "technique": "gpt"
+    },
     "height": 389,
     "id": "723599f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723599f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Union Square Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Washington, George, 1732-1799"
+        ],
+        "topic": [
+          "Parks",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/acaf91b0-c553-012f-4f7f-58d385a7bc34",
     "text": "Union Square Park: A northward view from East 14th Street, showing this open area bounded at the left, by Union Square West (Broadway), in the center, by East 17th Street and in the foreground, by Union Square East (Fourth Avenue).\n\nThe equestrian Washington monument was removed about 1932 to the Park proper. Close observation will show a political banner on Fourth Avenue bearing the names of Theodore Roosevelt and Charles Fairbanks.\n\n1904\n\nEwing Galloway\n",
     "text_source": "gpt",

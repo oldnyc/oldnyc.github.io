@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Avenue",
+        "str2": "Division Place"
+      },
+      "source": "Brooklyn: Debevoise Avenue - Division Place",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "703942f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703942f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fe5a1f0-c534-012f-77d6-58d385a7bc34",
     "original_title": "Brooklyn: Debevoise Avenue - Division Place",
     "text": "Debevoise Ave., west side, between Division Place and Richardson Street. Old Woodpoint Road, went southward on ground occupied by these homes.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

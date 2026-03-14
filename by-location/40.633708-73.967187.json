@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Newkirk Avenue"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Newkirk Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "703782f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703782f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ee864c0-c534-012f-39ed-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Newkirk Avenue",
     "text": "Coney Island Avenue, at the southeast corner of Newkirk Avenue, showing Public School No. 217.\n\nBoard of Education of the City of New York Early 1930's\n",

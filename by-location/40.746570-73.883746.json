@@ -2,9 +2,35 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "82nd Street",
+        "str2": "Ithaca Street"
+      },
+      "source": "Queens: 82nd Street - Ithaca Street",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "725664f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725664f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Jackson Heights (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a7a9a0e0-c556-012f-e3d7-58d385a7bc34",
     "original_title": "Queens: 82nd Street - Ithaca Street",
     "text": "82nd Street, north from Baxter Avenue, Jackson Heights, across Roosevelt Avenue on which appears elevated station of the I.R.T. - B.M.T. subway lines. On the right is the Jackson Theatre.\n\nBrown Brothers\n\nAbout 1928\n",

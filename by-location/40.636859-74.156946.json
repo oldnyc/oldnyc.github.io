@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-09-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "De Hart Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - De Hart Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "729513f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729513f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e6b9ab0-c55c-012f-4421-58d385a7bc34",
     "text": "2876 Richmond Terrace, between DeHart and Van Pelt Avenues, showing the Barnes House, built by Stephen D. Barnes.\nSeptember 28, 1924\n\nBy William T. Davis through P. L. Sperr\n",
     "text_source": "gpt",

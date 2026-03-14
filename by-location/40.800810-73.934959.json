@@ -2,9 +2,29 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 330,
+        "street": "E 122nd Street"
+      },
+      "source": "122nd Street (East) #330",
+      "technique": "title-address"
+    },
     "height": 422,
     "id": "1508415-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508415-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1abe0330-c5cf-012f-bfb3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +41,41 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 450,
+        "street": "East 122nd Street"
+      },
+      "source": "450 East 122nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "122nd Street (East)",
+        "str2": "Pleasant Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "Pleasant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "715251f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715251f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/742b80d0-c546-012f-05f6-58d385a7bc34",
     "original_title": "Manhattan: 122nd Street (East) - Pleasant Avenue",
     "text": "450-452 East 122nd Street, south side, west of Pleasant Avenue. No. 450 is a four-story frame house with a stone front and side.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -38,9 +90,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (East)",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 2nd Avenue - 122nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "707969f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707969f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b76f5900-c53a-012f-c7c7-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 122nd Street (East)",
     "text": "Second Ave., north from but not including East 122nd Street, showing the center roadway after street car track removal by the W.P.A. Note the station of the Second Ave. Elevated Line at East 125th Street.\n\nOctober 28, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

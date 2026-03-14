@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1931-08-07"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1203,
+        "street": "East 48th Street"
+      },
+      "source": "1203 East 48th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "48th Street (East)",
+        "str2": "No. 1205",
+        "technique": "title-cross"
+      }
+    ],
     "height": 407,
     "id": "702762f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702762f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9fea3560-c532-012f-f5db-58d385a7bc34",
     "text": "1203 East 48th Street, (rear view) east side, south of King's Highway.\n\nAugust 7, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

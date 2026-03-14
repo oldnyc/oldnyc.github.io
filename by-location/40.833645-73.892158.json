@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1905"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Charlotte Street",
+        "str2": "Seabury Place"
+      },
+      "source": "Bronx: Seabury Place - Charlotte Street",
+      "technique": "title-cross"
+    },
     "height": 286,
     "id": "701758f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701758f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ef6e030-c531-012f-2e04-58d385a7bc34",
     "original_title": "Bronx: Seabury Place - Charlotte Street",
     "text": "Seabury Place (horse and buggy thereon), between Charlotte and East 172nd Streets. The view is eastward across the Beck and Bathgate estates, showing streets being laid out prior to the sale of the property at auction.\n\n1905.\n",

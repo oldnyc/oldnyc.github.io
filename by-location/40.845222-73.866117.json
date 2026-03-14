@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-06-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Morris Park Avenue",
+        "str2": "White Plains Road"
+      },
+      "source": "Bronx: Morris Park Avenue - White Plains Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701482f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701482f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bce09480-c530-012f-cba6-58d385a7bc34",
     "original_title": "Bronx: Morris Park Avenue - White Plains Road",
     "text": "689 to 615 Morris Park Avenue, north side, west from White Plains Road to Victor Street.\n\nJune 22, 1940\n\nP. L. Sperr\n",

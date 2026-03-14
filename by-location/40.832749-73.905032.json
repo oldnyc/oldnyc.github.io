@@ -2,9 +2,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "169th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 3rd Avenue - 169th Street",
+      "technique": "title-cross"
+    },
     "height": 434,
     "id": "700207f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700207f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0df9a00-c52e-012f-0ea0-58d385a7bc34",
     "original_title": "Bronx: 3rd Avenue - 169th Street",
     "text": "Front: Third Avenue \"L\" structure and stairways at 169th Street.\n\nBack: no text\n",

@@ -2,9 +2,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 3000,
+        "street": "Avenue X"
+      },
+      "source": "3000 Avenue X",
+      "technique": "gpt"
+    },
     "height": 487,
     "id": "732727f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732727f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: Avenue X ; 3000 Avenue X."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9645ab30-c561-012f-7765-58d385a7bc34",
     "text": null,
     "text_source": null,

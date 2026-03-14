@@ -7,9 +7,41 @@
       "1923-01",
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Simonson Street"
+      },
+      "source": "Grand Avenue and Simonson Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Washington Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Washington Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "726761f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726761f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f9943f0-c558-012f-a1c5-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - Washington Avenue",
     "text": "Grand Avenue, south side, opposite Simonson Street, showing three views of an old colonial structure. This structure was owned by Jonathan Fish who was born in 1728 and died in 1779. Peter Gorshine, a New York City merchant was the owner in 1852. Other owners were Mrs. Fowler, 1873; and Dr. Eichacker from 1922 to 1925.\n\n1922\nView 2: January 1923\nView 3: June 1925.\n\nEugene L. Armbruster Collection\n",
@@ -31,9 +63,41 @@
       "1923-01",
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Simonson Street"
+      },
+      "source": "Grand Avenue and Simonson Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Washington Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Washington Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 472,
     "id": "726761f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726761f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f9943f0-c558-012f-a1c5-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - Washington Avenue",
     "text": "Grand Avenue, south side, opposite Simonson Street, showing three views of an old colonial structure. This structure was owned by Jonathan Fish who was born in 1728 and died in 1779. Peter Gorshine, a New York City merchant was the owner in 1852. Other owners were Mrs. Fowler, 1873; and Dr. Eichacker from 1922 to 1925.\n\n1922\nView 2: January 1923\nView 3: June 1925.\n\nEugene L. Armbruster Collection\n",
@@ -55,9 +119,41 @@
       "1923-01",
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Simonson Street"
+      },
+      "source": "Grand Avenue and Simonson Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Washington Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Washington Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 480,
     "id": "726761f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726761f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f9943f0-c558-012f-a1c5-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - Washington Avenue",
     "text": "Grand Avenue, south side, opposite Simonson Street, showing three views of an old colonial structure. This structure was owned by Jonathan Fish who was born in 1728 and died in 1779. Peter Gorshine, a New York City merchant was the owner in 1852. Other owners were Mrs. Fowler, 1873; and Dr. Eichacker from 1922 to 1925.\n\n1922\nView 2: January 1923\nView 3: June 1925.\n\nEugene L. Armbruster Collection\n",
@@ -74,9 +170,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Simonson Street"
+      },
+      "source": "Queens: Grand Avenue - Simonson Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "726760f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726760f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brick walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f309ef0-c558-012f-a718-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - Simonson Street",
     "text": "Grand Avenue, south side, opposite block formed by Simonson and Goldsmith Streets. This house according to the newly laid out streets is on the west side of Van Horn Street, which extends along the one and one half story wing of the house directly in Fifty-second Avenue. It was built by John I Van Alst (1805-1877) about 1845. He married in 1834 Ellen Debevoise. A daughter of John J. Van Alst occupied this house in 1882. Isaac Van Alst (1705-1852) father of John I. married Helen Gorsline and lived at Dutch Kills.\n1922\nView 2: June 1925.\nEumene L. Armbruster Collection\n",
@@ -91,9 +208,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Simonson Street"
+      },
+      "source": "Queens: Grand Avenue - Simonson Street",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "726760f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726760f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brick walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f309ef0-c558-012f-a718-58d385a7bc34",
     "original_title": "Queens: Grand Avenue - Simonson Street",
     "text": "Grand Avenue, south side, opposite block formed by Simonson and Goldsmith Streets. This house according to the newly laid out streets is on the west side of Van Horn Street, which extends along the one and one half story wing of the house directly in Fifty-second Avenue. It was built by John I Van Alst (1805-1877) about 1845. He married in 1834 Ellen Debevoise. A daughter of John J. Van Alst occupied this house in 1882. Isaac Van Alst (1705-1852) father of John I. married Helen Gorsline and lived at Dutch Kills.\n1922\nView 2: June 1925.\nEumene L. Armbruster Collection\n",

@@ -2,9 +2,40 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.720029,
+        "lng": -73.981559
+      },
+      "source": "Hamilton Fish Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hamilton Fish Park",
+        "str2": "Swimming pool",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "720298f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720298f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "One of many public pools planned by Park Commissioner Moses."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/578d6850-c54e-012f-6f93-58d385a7bc34",
     "text": "Hamilton Fish Park: A westward view of the northern half of same, showing a new swimming pool (constructed by the W.P.A.). This is one of the many public pools planned by Park Commissioner Moses.\n\nApril 26, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

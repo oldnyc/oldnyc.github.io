@@ -2,9 +2,30 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "46th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 46th Street",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "702341f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702341f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hospitals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/002d8560-c532-012f-8db0-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 46th Street",
     "text": "Fourth Ave., at the N.W. corner of 46th Street, showing the Norwegian Hospital, (Lutheran).\nAbout 1910.\nEugene L. Armbruster Collection.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-04-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Post Lane",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Post Lane - Richmond Terrace",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729286f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729286f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/166a2200-c55c-012f-1098-58d385a7bc34",
     "text": "Post Lane, east side (houses thereon), south of Richmond Terrace. The view is in a southeasterly direction from Grandview Avenue.\nApril 23, 1932.\n\nP.L. Sperr\n",
     "text_source": "site",

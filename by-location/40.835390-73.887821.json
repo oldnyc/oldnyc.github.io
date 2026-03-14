@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "173rd Street",
+        "str2": "Hoe Avenue"
+      },
+      "source": "Bronx: Hoe Avenue - 173rd Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701264f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701264f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69d467b0-c530-012f-2817-58d385a7bc34",
     "original_title": "Bronx: Hoe Avenue - 173rd Street",
     "text": "Hoe Avenue north from 173rd St.\nP.L.Sperr\n9-5-1942\n",

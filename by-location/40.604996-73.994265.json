@@ -2,9 +2,32 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "21st Avenue",
+        "str2": "83rd Street"
+      },
+      "source": "21st Avenue and 83rd Street",
+      "technique": "gpt"
+    },
     "height": 484,
     "id": "732673f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732673f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/825309f0-c561-012f-fca1-58d385a7bc34",
     "text": "21st Avenue, west side, from 83rd to 84th Streets, showing Public School No. 128. On the left is the new 84th Street addition.\nBoard of Education of the City of New York November 9, 1925\n",
     "text_source": "gpt",

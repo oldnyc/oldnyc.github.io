@@ -2,9 +2,40 @@
   {
     "date": "1916",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 228,
+        "street": "Rivington St"
+      },
+      "source": "228 Rivington St",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "M. Fireman Cloth Hats and Caps",
+        "str2": "Rivington St",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1516925-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1516925-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Rivington St.#228-32, street scene (shops)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6bc1b60-c5cf-012f-2822-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +49,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Pitt Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Pitt Street",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "722990f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722990f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97524230-c552-012f-dc22-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Pitt Street",
     "text": "199-215 Rivington Street, south side and Pitt, between Pitt and Ridge, showing P.S. #4.\n\nBoard of Education, N.Y.C.\n\n1920.\n",

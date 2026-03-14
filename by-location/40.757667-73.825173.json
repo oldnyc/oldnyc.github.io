@@ -2,9 +2,33 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Sanford Avenue",
+        "str2": "Union Street"
+      },
+      "source": "Queens: Sanford Avenue - Union Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "727957f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727957f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/02dd2e30-c55a-012f-00c2-58d385a7bc34",
     "original_title": "Queens: Sanford Avenue - Union Street",
     "text": "Sanford Ave., north side, between Union St. (left) and Bowne Street (right), showing a former Public School No. 22 which is listed in 1926 as Public School No. 20.\n\nAbout 1909.\n\nEugene L. Armbruster Collection.\n",

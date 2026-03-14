@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-05-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Ann Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Richmond: Park Avenue - Ann Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "729264f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729264f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d8ca600-c55c-012f-671e-58d385a7bc34",
     "original_title": "Richmond: Park Avenue - Ann Street",
     "text": "93 Park Avenue, at the S.E. corner of Ann Street, showing the Port Richmond Day Nursery. It was at one time (1898-1907) the Alfred DeGroot house.\n\nMay 22, 1929\n\nP. L. Sperr\n",

@@ -2,9 +2,32 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "116th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 469,
     "id": "1508399-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508399-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Library of Columbia University"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/18311b40-c5cf-012f-8da7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +41,32 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "715148f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715148f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ccf9ef0-c546-012f-a1dd-58d385a7bc34",
     "original_title": "Manhattan: 116th Street - Broadway",
     "text": "The Library of Columbia University, 116th Street, north side, between Broadway and Amsterdam Avenue. The building was erected in 1897, from designs by the famous firm, McKim, Mead and White.\n\nAbout 1912.\n",
@@ -35,9 +81,41 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street",
+      "technique": "title-cross"
+    },
     "height": 509,
     "id": "717711f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717711f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "General Grant National Memorial (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College",
+          "Columbia University",
+          "Grant, Julia Dent, 1826-1902",
+          "Grant, Ulysses S. (Ulysses Simpson), 1822-1885",
+          "Union Theological Seminary (New York, N.Y.)"
+        ],
+        "topic": [
+          "Theological seminaries",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/41d0d6d0-c54a-012f-d647-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 116th Street",
     "text": "Broadway, north from, but not including, 116th Street, favoring the east side. The first street seen, on the left, is 119th Street; 117th and 118th Streets do not intersect Broadway because of the grounds of Columbia University, whose buildings flank Broadway to 119th Street. The U-shaped building on the north side of 119th Street is Barnard College. Behind the college is the Union Theological Seminary. At the extreme left is Grant's Tomb. North of 122nd Street the subway may be seen emerging from its tunnel. From 122nd to 125th Streets, the subway trains run on an elevated trestle, with an elevated station at 125th Street.\n\nMay, 1926.\n\nBrown Brothers.\n",
@@ -52,9 +130,38 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "715147f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715147f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Automobiles",
+          "Dormitories",
+          "Halls",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c6b33a0-c546-012f-6317-58d385a7bc34",
     "original_title": "Manhattan: 116th Street - Broadway",
     "text": "116 Street, south side, east from but not including Broadway, to and including Amsterdam Ave., showing Columbia University Campus, dormitories and Halls.\n\nAbout 1929.\n\nEwing Galloway.\n",
@@ -69,9 +176,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "715145f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715145f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business districts",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ba472d0-c546-012f-4056-58d385a7bc34",
     "original_title": "Manhattan: 116th Street - Broadway",
     "text": "116th Street, south side, looking west from between Broadway and Amsterdam Avenue.\n\nJuly 31, 1931.\n\nP. L. Sperr.\n",
@@ -86,9 +218,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "717710f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717710f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College",
+          "Columbia University",
+          "Union Theological Seminary (New York, N.Y.)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Dormitories",
+          "Theological seminaries",
+          "Universities & colleges",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4154c5a0-c54a-012f-fb61-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 116th Street (West)",
     "text": "(1) Broadway, west side, north from West 116th to 122nd Streets, showing in the foreground, Barnard College and grounds, with the Riverside Baptist Church, overpowering same. The Gothic structure on the extreme right, is a portion of the Administration Building and Library of the Union Theological Seminary. Preceding same, is a unit of Barnard College, containing Fiske, Milbank and Brinkerhoff Halls. 1936. Walter L. Bogert.\n\n(2) A limited view to West 120th Street, from a slight altitude, showing the Students Building of Barnard College completely. 1936. Walter L. Bogert.\n\n(3) A detail of the same, to a point slightly southward, from a different angle. Right to left appear; the southern portion of the Students' Building of Barnard College, the Barnard College Dormitory, and Brooks Hall Dormitory. 1936. Walter L. Bogert.\n",
@@ -103,9 +267,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 451,
     "id": "717710f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717710f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College",
+          "Columbia University",
+          "Union Theological Seminary (New York, N.Y.)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Dormitories",
+          "Theological seminaries",
+          "Universities & colleges",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4154c5a0-c54a-012f-fb61-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 116th Street (West)",
     "text": "(1) Broadway, west side, north from West 116th to 122nd Streets, showing in the foreground, Barnard College and grounds, with the Riverside Baptist Church, overpowering same. The Gothic structure on the extreme right, is a portion of the Administration Building and Library of the Union Theological Seminary. Preceding same, is a unit of Barnard College, containing Fiske, Milbank and Brinkerhoff Halls. 1936. Walter L. Bogert.\n\n(2) A limited view to West 120th Street, from a slight altitude, showing the Students Building of Barnard College completely. 1936. Walter L. Bogert.\n\n(3) A detail of the same, to a point slightly southward, from a different angle. Right to left appear; the southern portion of the Students' Building of Barnard College, the Barnard College Dormitory, and Brooks Hall Dormitory. 1936. Walter L. Bogert.\n",
@@ -120,9 +316,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 429,
     "id": "717710f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717710f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College",
+          "Columbia University",
+          "Union Theological Seminary (New York, N.Y.)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Dormitories",
+          "Theological seminaries",
+          "Universities & colleges",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4154c5a0-c54a-012f-fb61-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 116th Street (West)",
     "text": "(1) Broadway, west side, north from West 116th to 122nd Streets, showing in the foreground, Barnard College and grounds, with the Riverside Baptist Church, overpowering same. The Gothic structure on the extreme right, is a portion of the Administration Building and Library of the Union Theological Seminary. Preceding same, is a unit of Barnard College, containing Fiske, Milbank and Brinkerhoff Halls. 1936. Walter L. Bogert.\n\n(2) A limited view to West 120th Street, from a slight altitude, showing the Students Building of Barnard College completely. 1936. Walter L. Bogert.\n\n(3) A detail of the same, to a point slightly southward, from a different angle. Right to left appear; the southern portion of the Students' Building of Barnard College, the Barnard College Dormitory, and Brooks Hall Dormitory. 1936. Walter L. Bogert.\n",
@@ -137,9 +365,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street.",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "731433f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731433f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway - 116th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/881752d0-c55f-012f-93e5-58d385a7bc34",
     "text": "(1) Columbia University: A view westward on West 116th Street, north side, from, but not including Amsterdam Ave., to the Hudson River, and showing at the N.E. corner of Broadway, the School for Business, with the School of Mines adjoining same on the north. 1936. Walter L. Bogert.\n\n(2) A closer view in the same direction from in front of The Library (not shown). Building on the right, is located on the S.E. corner of Broadway at 116th Street. 1936. Walter L. Bogert.\n\n(3) Similar to No. 2. 1936. Walter L. Bogert.\n\n(4) The same as No. 3. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -153,9 +409,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street.",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "731433f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731433f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway - 116th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/881752d0-c55f-012f-93e5-58d385a7bc34",
     "text": "(1) Columbia University: A view westward on West 116th Street, north side, from, but not including Amsterdam Ave., to the Hudson River, and showing at the N.E. corner of Broadway, the School for Business, with the School of Mines adjoining same on the north. 1936. Walter L. Bogert.\n\n(2) A closer view in the same direction from in front of The Library (not shown). Building on the right, is located on the S.E. corner of Broadway at 116th Street. 1936. Walter L. Bogert.\n\n(3) Similar to No. 2. 1936. Walter L. Bogert.\n\n(4) The same as No. 3. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -169,9 +453,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street.",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "731433f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731433f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway - 116th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/881752d0-c55f-012f-93e5-58d385a7bc34",
     "text": "(1) Columbia University: A view westward on West 116th Street, north side, from, but not including Amsterdam Ave., to the Hudson River, and showing at the N.E. corner of Broadway, the School for Business, with the School of Mines adjoining same on the north. 1936. Walter L. Bogert.\n\n(2) A closer view in the same direction from in front of The Library (not shown). Building on the right, is located on the S.E. corner of Broadway at 116th Street. 1936. Walter L. Bogert.\n\n(3) Similar to No. 2. 1936. Walter L. Bogert.\n\n(4) The same as No. 3. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -185,9 +497,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 116th Street.",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "731433f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731433f-d.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway - 116th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/881752d0-c55f-012f-93e5-58d385a7bc34",
     "text": "(1) Columbia University: A view westward on West 116th Street, north side, from, but not including Amsterdam Ave., to the Hudson River, and showing at the N.E. corner of Broadway, the School for Business, with the School of Mines adjoining same on the north. 1936. Walter L. Bogert.\n\n(2) A closer view in the same direction from in front of The Library (not shown). Building on the right, is located on the S.E. corner of Broadway at 116th Street. 1936. Walter L. Bogert.\n\n(3) Similar to No. 2. 1936. Walter L. Bogert.\n\n(4) The same as No. 3. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -201,9 +541,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street (West) - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "731434f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731434f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/888879b0-c55f-012f-160a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -217,9 +585,38 @@
   {
     "date": "1936; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Broadway and West 116th Street",
+      "technique": "gpt"
+    },
     "height": 405,
     "id": "731435f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731435f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hamilton Hall ; Harley Hall ; John Jay Hall ; Livingston Hall.",
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88fa41f0-c55f-012f-346c-58d385a7bc34",
     "text": "(1) Columbia University: A view southward, from in front of The Library and across West 116th Street; showing from left to right, Hamilton Hall, Harley Hall, Livingston Hall, John Jay Hall, South Hall and The Library across South Field. 1936. Walter L. Bogert.\n\n(2) The same, and showing slightly more of South Hall and The Library. 1936. Walter L. Bogert.\n\n(3) A view solely of South Hall (called the Library in 1 and 2). September 3, 1937. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -234,9 +631,38 @@
   {
     "date": "1936; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Broadway and West 116th Street",
+      "technique": "gpt"
+    },
     "height": 427,
     "id": "731435f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731435f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hamilton Hall ; Harley Hall ; John Jay Hall ; Livingston Hall.",
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88fa41f0-c55f-012f-346c-58d385a7bc34",
     "text": "(1) Columbia University: A view southward, from in front of The Library and across West 116th Street; showing from left to right, Hamilton Hall, Harley Hall, Livingston Hall, John Jay Hall, South Hall and The Library across South Field. 1936. Walter L. Bogert.\n\n(2) The same, and showing slightly more of South Hall and The Library. 1936. Walter L. Bogert.\n\n(3) A view solely of South Hall (called the Library in 1 and 2). September 3, 1937. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -251,9 +677,38 @@
   {
     "date": "1936; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Broadway and West 116th Street",
+      "technique": "gpt"
+    },
     "height": 420,
     "id": "731435f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731435f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hamilton Hall ; Harley Hall ; John Jay Hall ; Livingston Hall.",
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88fa41f0-c55f-012f-346c-58d385a7bc34",
     "text": "(1) Columbia University: A view southward, from in front of The Library and across West 116th Street; showing from left to right, Hamilton Hall, Harley Hall, Livingston Hall, John Jay Hall, South Hall and The Library across South Field. 1936. Walter L. Bogert.\n\n(2) The same, and showing slightly more of South Hall and The Library. 1936. Walter L. Bogert.\n\n(3) A view solely of South Hall (called the Library in 1 and 2). September 3, 1937. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -268,9 +723,39 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Broadway and West 116th Street",
+      "technique": "gpt"
+    },
     "height": 422,
     "id": "731436f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731436f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Universities & colleges",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89533610-c55f-012f-e803-58d385a7bc34",
     "text": "(1) Columbia University: A view northward across South Field, and West 116th Street, and showing from left to right, the School of Business, Earl Hall, Riverside Baptist Church, Havemeyer Hall, The Library and Hamilton Hall. 1936. Walter L. Bogert.\n\n(2) A view, showing solely The Library and Earl Hall. 1936. Walter L. Bogert.\n\n(3) A view of The Library, from another direction. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -284,9 +769,39 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Broadway and West 116th Street",
+      "technique": "gpt"
+    },
     "height": 439,
     "id": "731436f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731436f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Universities & colleges",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89533610-c55f-012f-e803-58d385a7bc34",
     "text": "(1) Columbia University: A view northward across South Field, and West 116th Street, and showing from left to right, the School of Business, Earl Hall, Riverside Baptist Church, Havemeyer Hall, The Library and Hamilton Hall. 1936. Walter L. Bogert.\n\n(2) A view, showing solely The Library and Earl Hall. 1936. Walter L. Bogert.\n\n(3) A view of The Library, from another direction. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -300,9 +815,39 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Broadway and West 116th Street",
+      "technique": "gpt"
+    },
     "height": 441,
     "id": "731436f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731436f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Baptist churches",
+          "Universities & colleges",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/89533610-c55f-012f-e803-58d385a7bc34",
     "text": "(1) Columbia University: A view northward across South Field, and West 116th Street, and showing from left to right, the School of Business, Earl Hall, Riverside Baptist Church, Havemeyer Hall, The Library and Hamilton Hall. 1936. Walter L. Bogert.\n\n(2) A view, showing solely The Library and Earl Hall. 1936. Walter L. Bogert.\n\n(3) A view of The Library, from another direction. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -316,9 +861,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street (West) - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "731438f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731438f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a2cf430-c55f-012f-ba8f-58d385a7bc34",
     "text": "(1) Columbia University: West 116th Street, north side, between Broadway and Amsterdam Ave., and showing from left to right, The Library, St. Paul's Chapel, College Hall and the Philosophy Buildings. 1936. Walter L. Bogert.\n\n(2) The same. 1936. Walter L. Bogert.\n\n(3) A closer view, and not showing The Library. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -332,9 +905,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street (West) - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "731438f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731438f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a2cf430-c55f-012f-ba8f-58d385a7bc34",
     "text": "(1) Columbia University: West 116th Street, north side, between Broadway and Amsterdam Ave., and showing from left to right, The Library, St. Paul's Chapel, College Hall and the Philosophy Buildings. 1936. Walter L. Bogert.\n\n(2) The same. 1936. Walter L. Bogert.\n\n(3) A closer view, and not showing The Library. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -348,9 +949,37 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street (West) - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "731438f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731438f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a2cf430-c55f-012f-ba8f-58d385a7bc34",
     "text": "(1) Columbia University: West 116th Street, north side, between Broadway and Amsterdam Ave., and showing from left to right, The Library, St. Paul's Chapel, College Hall and the Philosophy Buildings. 1936. Walter L. Bogert.\n\n(2) The same. 1936. Walter L. Bogert.\n\n(3) A closer view, and not showing The Library. 1936. Walter L. Bogert.\n",
     "text_source": "gpt",
@@ -364,9 +993,34 @@
   {
     "date": "1937; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "116th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 468,
     "id": "731408f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731408f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ee00b30-c55f-012f-ae8f-58d385a7bc34",
     "text": "1Barnard College at 116th Street and Broadway.\n2-Barnard College\n3-Barnard College from Horace Mann School\nWalter L. Bogert\n25 Claremont avenue\n",
     "text_source": "gpt",
@@ -381,9 +1035,34 @@
   {
     "date": "1937; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "116th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 468,
     "id": "731408f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731408f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ee00b30-c55f-012f-ae8f-58d385a7bc34",
     "text": "1Barnard College at 116th Street and Broadway.\n2-Barnard College\n3-Barnard College from Horace Mann School\nWalter L. Bogert\n25 Claremont avenue\n",
     "text_source": "gpt",
@@ -398,9 +1077,34 @@
   {
     "date": "1937; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "116th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 482,
     "id": "731408f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731408f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Barnard College"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ee00b30-c55f-012f-ae8f-58d385a7bc34",
     "text": "1Barnard College at 116th Street and Broadway.\n2-Barnard College\n3-Barnard College from Horace Mann School\nWalter L. Bogert\n25 Claremont avenue\n",
     "text_source": "gpt",
@@ -415,9 +1119,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "116th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 484,
     "id": "731439f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731439f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a7c6d30-c55f-012f-ffb3-58d385a7bc34",
     "text": "Columbia University - The Library as viewed north eastward across W. 116th Street. To the left is the facade of East Hall; Havemeyer Hall and Riverside Baptist Church. Note the legend over the Library entrance and the statue \"Alma Mater\" before same.\n\nApril 28, 1937.\n\nW.P.A.Photo\nFive Boroughs Project\n",
     "text_source": "gpt",
@@ -431,9 +1163,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "731440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731440f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ae4c600-c55f-012f-19d0-58d385a7bc34",
     "text": "(1)\nColumbia University: 116th Street and Broadway.\n\nJune 11, 1937.\n\nViews, 2-3-4-5-6.\nSame, but are at different angles.\n\nJune 8, 1937.\n",
     "text_source": "gpt",
@@ -447,9 +1207,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "731440f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731440f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ae4c600-c55f-012f-19d0-58d385a7bc34",
     "text": "(1)\nColumbia University: 116th Street and Broadway.\n\nJune 11, 1937.\n\nViews, 2-3-4-5-6.\nSame, but are at different angles.\n\nJune 8, 1937.\n",
     "text_source": "gpt",
@@ -463,9 +1251,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "731440f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731440f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ae4c600-c55f-012f-19d0-58d385a7bc34",
     "text": "(1)\nColumbia University: 116th Street and Broadway.\n\nJune 11, 1937.\n\nViews, 2-3-4-5-6.\nSame, but are at different angles.\n\nJune 8, 1937.\n",
     "text_source": "gpt",
@@ -479,9 +1295,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 461,
     "id": "731440f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731440f-d.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ae4c600-c55f-012f-19d0-58d385a7bc34",
     "text": "(1)\nColumbia University: 116th Street and Broadway.\n\nJune 11, 1937.\n\nViews, 2-3-4-5-6.\nSame, but are at different angles.\n\nJune 8, 1937.\n",
     "text_source": "gpt",
@@ -495,9 +1339,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "731440f-e",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731440f-e.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ae4c600-c55f-012f-19d0-58d385a7bc34",
     "text": "(1)\nColumbia University: 116th Street and Broadway.\n\nJune 11, 1937.\n\nViews, 2-3-4-5-6.\nSame, but are at different angles.\n\nJune 8, 1937.\n",
     "text_source": "gpt",
@@ -511,9 +1383,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "731447f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731447f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8da09b60-c55f-012f-d18d-58d385a7bc34",
     "text": "Columbia University: A view westward on West 116th Street, north side, across Broadway and showing (foreground) the School for Business at the N.E. corner of same. Across Broadway, and between that and Claremont Ave. appears the older Brooks Hall, a dormitory of Barnard College. On the right appears a portion of the School of Mines.\n\nSeptember 3, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -527,9 +1427,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 116th Street (West) - Broadway.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "731451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731451f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 116th Street (West) - Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University"
+        ],
+        "topic": [
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f31a6a0-c55f-012f-e74e-58d385a7bc34",
     "text": "Columbia University: A view eastward on West 116th Street, from Broadway, showing on the left (N.E. corner) the School for Business and on the right (S.E. corner) the School of Journalism. In the center is a clear perspective of Kent Hall which is at the N.W. corner of this street and Amsterdam Ave.\n\nSeptember 3, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -543,9 +1471,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Manhattan: Broadway - West 116th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "1557819-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557819-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia University - Butler Library"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22ba0980-c5ed-012f-4696-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -559,9 +1514,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Manhattan: Broadway - West 116th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557820",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557820.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Columbia University - Butler Library"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23268770-c5ed-012f-2206-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -575,9 +1557,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "West 116th Street"
+      },
+      "source": "Manhattan: Broadway - West 116th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "1558418",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558418.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "\"Lewisohn Hall, Columbia University\""
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b5f0980-c5ed-012f-1062-58d385a7bc34",
     "text": null,
     "text_source": null,

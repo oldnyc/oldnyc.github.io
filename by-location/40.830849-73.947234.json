@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "152nd Street",
+        "str2": "Broadway"
+      },
+      "source": "152nd Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 489,
     "id": "417669-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417669-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14ccf1d0-c6cd-012f-7952-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Boynton Avenue",
+        "str2": "Story Avenue"
+      },
+      "source": "Bronx: Story Avenue - Boynton Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "701876f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701876f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Salt mining"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b812db0-c531-012f-bcf9-58d385a7bc34",
     "original_title": "Bronx: Story Avenue - Boynton Avenue",
     "text": "Story Ave. (activity thereon), west from Boynton to Elder Aves., showing the thoroughfare being cut through by the W.P.A. Also shown is a general view westward across the salt meadows.\n\nDecember 14, 1936.\n\nWorks Progress Administration.\nFederal Art Project photo.\n",

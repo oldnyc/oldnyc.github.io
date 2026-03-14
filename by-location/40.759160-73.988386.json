@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-10-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "45th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 45th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "710194f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710194f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/540cf2e0-c53e-012f-4220-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 45th Street",
     "text": "Subway excavation, Eighth Avenue at S. E. corner of 45th Street.\nOctober 22, 1927.\nP.L. Sperr, Photographer.\n",
@@ -22,9 +40,31 @@
   {
     "date": "1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "45th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 45th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 342,
     "id": "713234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Photographic studios",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a450690-c543-012f-c94b-58d385a7bc34",
     "original_title": "Manhattan: 45th Street (West) - 8th Avenue",
     "text": "West 45th Street, south side, west from Eighth to Ninth Aves., showing the Martin Beck Theater (No. 302) adjoining the 3-story structure at the S.W. corner of Eighth Ave. This set consists of a negative and a positive view.\n\nNovember 1935.\n\nW.P.A. Photo.\n",
@@ -40,9 +80,31 @@
   {
     "date": "1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "45th Street (West)",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 45th Street (West) - 8th Avenue",
+      "technique": "title-cross"
+    },
     "height": 337,
     "id": "713234f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713234f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Photographic studios",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a450690-c543-012f-c94b-58d385a7bc34",
     "original_title": "Manhattan: 45th Street (West) - 8th Avenue",
     "text": "West 45th Street, south side, west from Eighth to Ninth Aves., showing the Martin Beck Theater (No. 302) adjoining the 3-story structure at the S.W. corner of Eighth Ave. This set consists of a negative and a positive view.\n\nNovember 1935.\n\nW.P.A. Photo.\n",
@@ -58,9 +120,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Eighth Avenue)",
+        "str2": "West 45th Street (Seventh Avenue"
+      },
+      "source": "Manhattan: 227 West 45th Street (Seventh Avenue - Eighth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558235",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558235.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Piccadilly"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d445b2e0-c5ec-012f-6c03-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,50 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 101,
+        "street": "East River Drive"
+      },
+      "source": "101 East River Drive",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "101st Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "101st Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "102nd Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "719593f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719593f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coal trade"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37eadba0-c54d-012f-d284-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 101st Street",
     "text": "East River Drive (prior to improvement), south from East 102nd to 101st Streets, showing buildings that will be demolished for the construction of this new highway. This view is taken from a pier at the foot of East 102nd Street.\n\nOctober 17, 1934.\n\nP. L. Sperr.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Elmhurst Avenue",
+        "str2": "Ithaca Street"
+      },
+      "source": "Queens: Elmhurst Avenue - Ithaca Street",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "726530f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726530f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d78bd8c0-c557-012f-d51c-58d385a7bc34",
     "original_title": "Queens: Elmhurst Avenue - Ithaca Street",
     "text": "41 Elmhurst Ave. (foreground), at the N.E. corner of Ithaca Street.\n\n1922.\n\nEugene L. Armbruster Collection.\n",

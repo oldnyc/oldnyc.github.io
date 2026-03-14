@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1930-06"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 20,
+        "street": "Seagate Road"
+      },
+      "source": "20 Seagate Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Seagate Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Seagate Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "729620f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729620f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99258990-c55c-012f-af8e-58d385a7bc34",
     "original_title": "Richmond: Seagate Road - Bay Street",
     "text": "20 Seagate Road, east of Bay Street, Rosebank, showing a private residence, newly erected.\n\nJune, 1930\n\nP. L. Sperr\n",

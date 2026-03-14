@@ -2,9 +2,29 @@
   {
     "date": "1935-05-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 327,
+        "street": "E 119th Street"
+      },
+      "source": "119th Street (East) #327",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508411-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508411-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1a11c360-c5cf-012f-2fa2-58d385a7bc34",
     "text": null,
     "text_source": null,

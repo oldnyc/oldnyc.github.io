@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "225th Street (West)",
+        "str2": "Marble Hill Avenue"
+      },
+      "source": "Manhattan: Marble Hill Avenue - 225th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "721605f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721605f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c55ee30-c550-012f-0c7d-58d385a7bc34",
     "original_title": "Manhattan: Marble Hill Avenue - 225th Street (West)",
     "text": "No. 1-11 Marble Hill Ave., at the N.W. corner of West 225th Street. This structure also bears Nos. 121-129 on the latter street.\n\nAbout 1929.\n\nKnickerbocker Photo Service.\n",

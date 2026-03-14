@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Tremont Avenue (East",
+        "str2": "Waterbury Avenue"
+      },
+      "source": "Bronx: Tremont Avenue (East - Waterbury Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops",
+          "Tombs & sepulchral monuments"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5015290-c52f-012f-efe9-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - Waterbury Avenue",
     "text": "3215 and 3217 East Tremont Ave., east side, between Waterbury and Mayflower Aves., showing the monumental work of C. Di Tullio at No. 3215.\n\nJuly 9, 1928.\n\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lewis Avenue",
+        "str2": "Quincy Street"
+      },
+      "source": "Brooklyn: Quincy Street - Lewis Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706422f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706422f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b19f8e0-c538-012f-0ee0-58d385a7bc34",
     "original_title": "Brooklyn: Quincy Street - Lewis Avenue",
     "text": "Quincy Street, south side, between Lewis and Stuyvesant Avenues. Shown is Public School No. 129, this being the Gates Avenue side of the building.\nBoard of Education of the City of New York.\nMarch 31, 1931.\n",

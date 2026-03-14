@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-08-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "28th Avenue",
+        "str2": "Cropsey Avenue"
+      },
+      "source": "Brooklyn: Cropsey Avenue - 28th Avenue",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "703909f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703909f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62954bc0-c534-012f-d6e8-58d385a7bc34",
     "original_title": "Brooklyn: Cropsey Avenue - 28th Avenue",
     "text": "2763 Cropsey Avenue, north side, near 28th Avenue, showing the home of one Rattano in 1925.\n\nAugust 11, 1925.\n\nW. B. Vernam\n",

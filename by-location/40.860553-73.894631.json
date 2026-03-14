@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-05-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "188th Street (East)",
+        "str2": "Elm Place"
+      },
+      "source": "Bronx: 188th Street (East) - Elm Place",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "700294f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700294f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/105f0fb0-c52f-012f-9c08-58d385a7bc34",
     "original_title": "Bronx: 188th Street (East) - Elm Place",
     "text": "331 to 361 E. 188th Street, north side, east from Elm Place to Marion Avenue.\n\nMay 13, 1938.\n\nP.L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "188th Street (East)",
+        "str2": "Elm Place"
+      },
+      "source": "Bronx: Elm Place - 188th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701011f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701011f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b1d0360-c530-012f-b03c-58d385a7bc34",
     "original_title": "Bronx: Elm Place - 188th Street (East)",
     "text": "Elm Place, west side, north from E. 188th Street to E. Fordham Road.\n\nMay 13, 1938.\n\nP. L. Sperr.\n",

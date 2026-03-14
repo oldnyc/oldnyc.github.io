@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "75th Street (East)"
+      },
+      "source": "Manhattan: 75th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714445f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714445f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40053750-c545-012f-5a5a-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (East) - 2nd Avenue",
     "text": "213 East 75th Street, north side, between Third and Second Avenues, showing P.S.70.\n\nBoard of Education, N.Y.C.\n\n1920.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1941-04-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Avenue",
+        "str2": "75th Street"
+      },
+      "source": "Manhattan: 2nd Avenue - 75th Street",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "707920f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707920f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3603700-c53a-012f-662e-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 75th Street",
     "text": "Second Avenue, e.s., s. fr. 75th Street. P. L. Sperr, photographer\nApril 7, 1941\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-06-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ferris Street",
+        "str2": "Sullivan Street"
+      },
+      "source": "Brooklyn: Sullivan Street - Ferris Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "706928f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706928f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a688e60-c539-012f-0b91-58d385a7bc34",
     "original_title": "Brooklyn: Sullivan Street - Ferris Street",
     "text": "197 Sullivan Street, south side, west from Ferris Street.\nJune 6, 1931.\n\nP. L. Sperr.\n",
@@ -25,9 +43,41 @@
     "dates_from_text": [
       "1935-05-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ferris St",
+        "str2": "Sullivan St"
+      },
+      "source": "Ferris St and Sullivan St",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Morgan Ave.",
+        "str2": "Wolcott St.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Morgan Ave",
+        "str2": "Wolcott St",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "707442f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707442f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d558a210-c539-012f-e2cf-58d385a7bc34",
     "original_title": "Brooklyn: Wolcott St. - Morgan Ave.",
     "text": "Wolcott Street, east of Buttermilk Channel. At the left is the Acorn Insulated Wire Co., (at the N.W. corner of Sullivan and Ferris Streets). To the right, is the A.B. Murray Co., Mfgs. of Steel Boiler tubes. In the center of the view, is the Segal Hardware and Lock Co., at the N.E. corner of Ferris and Wolcott Streets.\n\nMay 15, 1935.\n\nP. L. Sperr.\n",

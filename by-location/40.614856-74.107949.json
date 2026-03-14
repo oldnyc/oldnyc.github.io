@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-04-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Renwick Avenue",
+        "str2": "Victory Boulevard"
+      },
+      "source": "Richmond: Victory Boulevard - Renwick Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f7c339f0-c55c-012f-8c1e-58d385a7bc34",
     "original_title": "Richmond: Victory Boulevard - Renwick Avenue",
     "text": "Victory Boulevard, east from about Renwick Avenue, down to Clove Valley.\n\nApril 2, 1924\n\nP. L. Sperr\n",

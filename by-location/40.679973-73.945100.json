@@ -2,9 +2,30 @@
   {
     "date": "1942-05-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1392,
+        "street": "Fulton Street"
+      },
+      "source": "Fulton Street #1392",
+      "technique": "title-address"
+    },
     "height": 402,
     "id": "1509613-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509613-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0084a80-c5cd-012f-5480-58d385a7bc34",
     "text": null,
     "text_source": null,

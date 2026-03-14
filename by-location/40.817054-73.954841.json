@@ -2,9 +2,29 @@
   {
     "date": "1919-07-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1430,
+        "street": "Amsterdam Avenue"
+      },
+      "source": "Amsterdam Avenue #1430",
+      "technique": "title-address"
+    },
     "height": 432,
     "id": "1507286-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507286-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c946cd40-c5cd-012f-3520-58d385a7bc34",
     "text": null,
     "text_source": null,

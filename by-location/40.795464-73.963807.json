@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Manhattan Avenue",
+        "str2": "One hundred and first Street"
+      },
+      "source": "Manhattan Avenue and One hundred and first Street",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "464756-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464756-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24287490-c612-012f-3845-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Manhattan Avenue",
+        "str2": "One hundred and first Street"
+      },
+      "source": "Manhattan Avenue and One hundred and first Street",
+      "technique": "gpt"
+    },
     "height": 473,
     "id": "464756-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464756-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/24287490-c612-012f-3845-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 305,
+        "street": "E 7th Street"
+      },
+      "source": "7th Street (East) #305",
+      "technique": "title-address"
+    },
     "height": 368,
     "id": "1507715",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507715.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc794870-c5ce-012f-638d-58d385a7bc34",
     "text": null,
     "text_source": null,

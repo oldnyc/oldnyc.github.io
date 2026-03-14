@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1920-03-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "101st Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 101st Street",
+      "technique": "title-cross"
+    },
     "height": 427,
     "id": "718530f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718530f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/91761c40-c54b-012f-3c07-58d385a7bc34",
     "text": "Central Park West, 102nd Street, to lost Street, (Before Reconstruction).\n\nMarch 22, 1920.\n",
     "text_source": "gpt",
@@ -21,9 +39,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "101st Street",
+        "str2": "Central Park West"
+      },
+      "source": "101st Street and Central Park West",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Pond",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "718364f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718364f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 101st Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e36bb70-c54b-012f-0b1b-58d385a7bc34",
     "text": "Central Park: The Pool, on the west side, near 101st Street, showing seven wild geese in the water. This pool empties into the Loch, which in turn drains into Harlem Mere.\n\n1923.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

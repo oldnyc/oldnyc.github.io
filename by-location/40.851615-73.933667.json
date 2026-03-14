@@ -2,9 +2,37 @@
   {
     "date": "1924-12-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wadsworth Avenue",
+        "str2": "West 184th Street"
+      },
+      "source": "Manhattan: West 184th Street - Wadsworth Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558388",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558388.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Tenement buildings"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10500470-c5ed-012f-0d5a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +46,38 @@
   {
     "date": "1924-12-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Wadsworth Avenue",
+        "str2": "West 184th Street"
+      },
+      "source": "Manhattan: West 184th Street - Wadsworth Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558389",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558389.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Tenement buildings"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Fire escapes",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10a4d440-c5ed-012f-52c3-58d385a7bc34",
     "text": null,
     "text_source": null,

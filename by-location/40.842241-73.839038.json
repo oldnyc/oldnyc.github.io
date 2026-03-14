@@ -2,9 +2,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Waters Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Bronx: Westchester Avenue - Waters Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702130f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702130f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pelham Bay Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Meadows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac978180-c531-012f-4d07-58d385a7bc34",
     "original_title": "Bronx: Westchester Avenue - Waters Avenue",
     "text": "Westchester Ave. (left, where elevated structure is seen), east side, north from Waters Ave. to Middletown Road, showing the swampy meadow bounded on the right by Appleton Ave, and in the foreground by East Tremont Ave. (not seen). The elevated structure is that of the I.R.T. Pelham Bay Park subway line.\n\nJuly 9, 1928.\n\nP. L. Sperr.\n",

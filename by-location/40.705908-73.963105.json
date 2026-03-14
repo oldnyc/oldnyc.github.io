@@ -2,9 +2,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Taylor Street"
+      },
+      "source": "Brooklyn: Bedford Avenue - Taylor Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "703150f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703150f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/353325a0-c533-012f-5e4c-58d385a7bc34",
     "original_title": "Brooklyn: Bedford Avenue - Taylor Street",
     "text": "Bedford Avenue, south side, east from Taylor Street, showing St. Johns Methodist Episcopal Church at Wilson Street.\nEugene L. Armbruster Collection\n1922\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "139th Avenue",
+        "str2": "Farmers Boulevard"
+      },
+      "source": "Queens: Farmers Boulevard - 139th Avenue",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "726552f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726552f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de6cfd00-c557-012f-4a8d-58d385a7bc34",
     "original_title": "Queens: Farmers Boulevard - 139th Avenue",
     "text": "Farmers Boulevard, west side, between 139th Road (right) and 140th Ave. (left), showing the Nicholas Hendrickson house of 1891.\n\nSeptember 1923.\n\nEugene L. Armbruster Collection.\n",

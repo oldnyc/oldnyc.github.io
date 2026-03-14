@@ -2,9 +2,35 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "723574f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723574f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Ninth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries",
+          "Elevated railroads",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8caadf20-c553-012f-0708-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "90-88, 86-78 and (part of) 76-70 Trinity Place, at, adjoining and south of the S.W. corner of Thames Street (right, not shown), showing consecutively, the New York University School of Commerce (Wall Street divisions), the New York Curb Exchange and Trinity Court building. Also shown is Trinity Grave Yard and a portion of the Ninth Ave. Elevated Line on Trinity Place.\n\nSubsequent to 1921.\n\nEwing Galloway.\n",
@@ -23,9 +49,27 @@
       "1927-06-01",
       "1929-06-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Cedar Street - Trinity Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718150f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718150f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/efaa66e0-c54a-012f-6d98-58d385a7bc34",
     "original_title": "Manhattan: Cedar Street - Trinity Place",
     "text": "(1)\n116-118 Cedar Street, south side, between Trinity Place and Greenwich Street.\nJune 1, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view.\nJune 22, 1929.\n\nP. L. Sperr.\n",
@@ -45,9 +89,27 @@
       "1927-06-01",
       "1929-06-22"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Cedar Street - Trinity Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718150f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718150f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/efaa66e0-c54a-012f-6d98-58d385a7bc34",
     "original_title": "Manhattan: Cedar Street - Trinity Place",
     "text": "(1)\n116-118 Cedar Street, south side, between Trinity Place and Greenwich Street.\nJune 1, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view.\nJune 22, 1929.\n\nP. L. Sperr.\n",
@@ -63,9 +125,32 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Liberty Street"
+      },
+      "source": "Manhattan: Church Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718849f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718849f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d057df0-c54c-012f-9290-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Liberty Street",
     "text": "Church Street, north from and including Liberty Street, as seen from No. 74 Trinity Place, between Thames and Rector Streets. Also shown is the Sixth Ave. Elevated Line running north to Murray Street, where it makes a sharp bend westward. It continues on the latter street to West Broadway where it resumes its northward course again.\n\nAugust 20, 1929.\n\nP. L. Sperr.\n",
@@ -80,9 +165,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Thames Street - Trinity Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723501f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723501f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d782cd0-c553-012f-06f8-58d385a7bc34",
     "original_title": "Manhattan: Thames Street - Trinity Place",
     "text": "Thames Street, west from, but not including Trinity Place, to and including Greenwich Street, showing a silhouette of a portion of the Sixth Ave. Elevated Line, against a 3 1/2-story house, No. 126 on the latter Street. In the background is visible part of the 28-story West Street Building on the N.F. corner of West and Albany Streets.\n\nJuly 5, 1929.\n\nP. L. Sperr.\n",
@@ -102,9 +208,27 @@
       "1941-05-04",
       "1941-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723573f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723573f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c2af820-c553-012f-9a8c-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "(1)\n88-90 Trinity Place at the South West corner of Thames Street, showing the New York University School of Commerce, Wall Street Division, as seen from Trinity Church Grave Yard. Also shown, is a portion of the Sixth Avenue Elevated Line.\nAugust 7th, 1929\n\n(2)\nThe same taken from the West side of Trinity Place and Thames Street.\nMay 4th, 1941\n\n(3)\nThe same from a point South of Cedar Street.\nMay 4th, 1941\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -126,9 +250,27 @@
       "1941-05-04",
       "1941-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723573f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723573f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c2af820-c553-012f-9a8c-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "(1)\n88-90 Trinity Place at the South West corner of Thames Street, showing the New York University School of Commerce, Wall Street Division, as seen from Trinity Church Grave Yard. Also shown, is a portion of the Sixth Avenue Elevated Line.\nAugust 7th, 1929\n\n(2)\nThe same taken from the West side of Trinity Place and Thames Street.\nMay 4th, 1941\n\n(3)\nThe same from a point South of Cedar Street.\nMay 4th, 1941\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -150,9 +292,27 @@
       "1941-05-04",
       "1941-05-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723573f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723573f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c2af820-c553-012f-9a8c-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "(1)\n88-90 Trinity Place at the South West corner of Thames Street, showing the New York University School of Commerce, Wall Street Division, as seen from Trinity Church Grave Yard. Also shown, is a portion of the Sixth Avenue Elevated Line.\nAugust 7th, 1929\n\n(2)\nThe same taken from the West side of Trinity Place and Thames Street.\nMay 4th, 1941\n\n(3)\nThe same from a point South of Cedar Street.\nMay 4th, 1941\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -169,9 +329,36 @@
   {
     "date": "1929; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723577f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723577f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e091d60-c553-012f-e813-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "(1) Trinity Place, west side, at and adjoining the S.W. corner of Cedar Street, showing the St. Peter's (R.C.) Girl's School. Also shown (foreground) is a portion of the Sixth Ave. Elevated Line.\n\nAugust 20, 1929.\n\nP. L. Sperr.\n\n(2) The same, showing a view farther south.\n\nJune 2, 1933.\n\nP. L. Sperr.\n\n(3) The same, from a different angle, viewing northward.\n\nJune 4, 1933.\n\nP. L. Sperr.\n",
@@ -187,9 +374,36 @@
   {
     "date": "1929; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723577f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723577f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e091d60-c553-012f-e813-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "(1) Trinity Place, west side, at and adjoining the S.W. corner of Cedar Street, showing the St. Peter's (R.C.) Girl's School. Also shown (foreground) is a portion of the Sixth Ave. Elevated Line.\n\nAugust 20, 1929.\n\nP. L. Sperr.\n\n(2) The same, showing a view farther south.\n\nJune 2, 1933.\n\nP. L. Sperr.\n\n(3) The same, from a different angle, viewing northward.\n\nJune 4, 1933.\n\nP. L. Sperr.\n",
@@ -205,9 +419,36 @@
   {
     "date": "1929; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723577f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723577f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e091d60-c553-012f-e813-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "(1) Trinity Place, west side, at and adjoining the S.W. corner of Cedar Street, showing the St. Peter's (R.C.) Girl's School. Also shown (foreground) is a portion of the Sixth Ave. Elevated Line.\n\nAugust 20, 1929.\n\nP. L. Sperr.\n\n(2) The same, showing a view farther south.\n\nJune 2, 1933.\n\nP. L. Sperr.\n\n(3) The same, from a different angle, viewing northward.\n\nJune 4, 1933.\n\nP. L. Sperr.\n",
@@ -223,9 +464,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Liberty Street"
+      },
+      "source": "Manhattan: Liberty Street - Church Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721130f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721130f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98c01210-c54f-012f-dfc4-58d385a7bc34",
     "original_title": "Manhattan: Liberty Street - Church Street",
     "text": "Liberty Street, north side, between Greenwich and Washington Streets, showing a '9 foot alley between No's 129 and 131 which according to the City Record appears to be ownerless. It is 72 feet deep and of irregular width, leading to the rear of buildings that face on the west side of Greenwich Street. At the northern extremity is the side of the building in which John Thomas Smith lived and recently died in; No. 154 Greenwich Street.\n\nAugust 1938\n\nGeorge D. Chinn\n",
@@ -240,9 +507,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Liberty Street"
+      },
+      "source": "Manhattan: Liberty Street - Church Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721130f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721130f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98c01210-c54f-012f-dfc4-58d385a7bc34",
     "original_title": "Manhattan: Liberty Street - Church Street",
     "text": "Liberty Street, north side, between Greenwich and Washington Streets, showing a '9 foot alley between No's 129 and 131 which according to the City Record appears to be ownerless. It is 72 feet deep and of irregular width, leading to the rear of buildings that face on the west side of Greenwich Street. At the northern extremity is the side of the building in which John Thomas Smith lived and recently died in; No. 154 Greenwich Street.\n\nAugust 1938\n\nGeorge D. Chinn\n",
@@ -257,9 +550,35 @@
   {
     "date": "1933; 1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723575f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723575f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d105be0-c553-012f-4c4b-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "(1) Trinity Place, West Side and North from Thames Street, showing the St. Peter's Parochial School for Girls. (R.C.) It is located at the South West corner of Cedar Street. A portion of the Sixth Avenue \"L\", since demolished, may be seen in picture. June 4th, 1933\n\n(2) Same from South West corner of Cedar Street. May 4th, 1941\n\n(3) Same from a different angle. May 4th, 1940\n\nPhotographs by, P.L. Sperr,\n",
@@ -276,9 +595,35 @@
   {
     "date": "1933; 1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723575f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723575f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d105be0-c553-012f-4c4b-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "(1) Trinity Place, West Side and North from Thames Street, showing the St. Peter's Parochial School for Girls. (R.C.) It is located at the South West corner of Cedar Street. A portion of the Sixth Avenue \"L\", since demolished, may be seen in picture. June 4th, 1933\n\n(2) Same from South West corner of Cedar Street. May 4th, 1941\n\n(3) Same from a different angle. May 4th, 1940\n\nPhotographs by, P.L. Sperr,\n",
@@ -295,9 +640,35 @@
   {
     "date": "1933; 1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Thames Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Thames Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723575f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723575f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d105be0-c553-012f-4c4b-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Thames Street",
     "text": "(1) Trinity Place, West Side and North from Thames Street, showing the St. Peter's Parochial School for Girls. (R.C.) It is located at the South West corner of Cedar Street. A portion of the Sixth Avenue \"L\", since demolished, may be seen in picture. June 4th, 1933\n\n(2) Same from South West corner of Cedar Street. May 4th, 1941\n\n(3) Same from a different angle. May 4th, 1940\n\nPhotographs by, P.L. Sperr,\n",
@@ -314,9 +685,34 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723576f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723576f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Elevated railroads",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d8b3950-c553-012f-8437-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "Trinity Place, west side, at and adjoining the S.W. corner of Cedar Street.\n\nJune 2, 1933\nP. L. Sperr, photographer\n",
@@ -331,9 +727,33 @@
   {
     "date": "1933; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723578f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723578f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e73acc0-c553-012f-f765-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "(1) Trinity Place, West Side and North from, but not including Cedar Street, There is also shown a portion of the Sixth Avenue \"I\". The intersection shown is Liberty Street.\n\nP.L.Sperr,\n\nJune 4th, 1933\n\n(2) Trinity Place, North of Cedar Street after the removal of the \"I\".\n\nP.L.Sperr,\n\nJuly 17th, 1939\n\n(3) Trinity Place, North across Thames Street, (rear of Trinity Church and Grave Yard,) also the Trinity Building on Sixth Avenue. The \"I\" was removed 1940-41.\n\nP.L.Sperr,\n\nMarch 4th, 1939\n",
@@ -349,9 +769,33 @@
   {
     "date": "1933; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723578f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723578f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e73acc0-c553-012f-f765-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "(1) Trinity Place, West Side and North from, but not including Cedar Street, There is also shown a portion of the Sixth Avenue \"I\". The intersection shown is Liberty Street.\n\nP.L.Sperr,\n\nJune 4th, 1933\n\n(2) Trinity Place, North of Cedar Street after the removal of the \"I\".\n\nP.L.Sperr,\n\nJuly 17th, 1939\n\n(3) Trinity Place, North across Thames Street, (rear of Trinity Church and Grave Yard,) also the Trinity Building on Sixth Avenue. The \"I\" was removed 1940-41.\n\nP.L.Sperr,\n\nMarch 4th, 1939\n",
@@ -367,9 +811,33 @@
   {
     "date": "1933; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 357,
     "id": "723578f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/723578f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e73acc0-c553-012f-f765-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "rotation": 90,
@@ -386,9 +854,34 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723580f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723580f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Camping",
+          "Jewelry stores",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8f636ca0-c553-012f-bfd8-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "Trinity Place, east side, north from but not including Cedar to and including Liberty Streets. (Trinity Place is called Church Street, north of Liberty Street.)\n\nJune 23, 1933\n\nP. L. Sperr.\n",
@@ -403,9 +896,29 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 72,
+        "street": "Trinity Place"
+      },
+      "source": "Trinity Place #72",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508527-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508527-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/662d0510-c5ce-012f-3196-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -419,9 +932,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Liberty Street"
+      },
+      "source": "Manhattan: Church Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718848f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718848f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c9abc60-c54c-012f-3152-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Liberty Street",
     "text": "(1)\nAn aerial view of Church Street, east side, north from but not including Liberty Street, showing the Sixth Avenue Elevated lines.\nMarch 5, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, showing more of the buildings without the elevated structure.\nMarch 5, 1934.\n\nP. L. Sperr\n",
@@ -436,9 +972,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Liberty Street"
+      },
+      "source": "Manhattan: Church Street - Liberty Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718848f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718848f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c9abc60-c54c-012f-3152-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Liberty Street",
     "text": "(1)\nAn aerial view of Church Street, east side, north from but not including Liberty Street, showing the Sixth Avenue Elevated lines.\nMarch 5, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, showing more of the buildings without the elevated structure.\nMarch 5, 1934.\n\nP. L. Sperr\n",
@@ -453,9 +1012,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cedar Street",
+        "str2": "Trinity Place"
+      },
+      "source": "Manhattan: Trinity Place - Cedar Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723579f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723579f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Insurance companies",
+          "Investments"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ee6b1a0-c553-012f-ece9-58d385a7bc34",
     "original_title": "Manhattan: Trinity Place - Cedar Street",
     "text": "Trinity Place, east side, at Cedar Street, showing the 12-story building of the Fidelity Casualty Co., at the N.E. corner, and a portion of the 21-story United States Realty Building, at the S.E. corner.\n\nMarch 5, 1934.\n\nP. L. Sperr.\n",
@@ -470,9 +1052,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "Trinity Place"
+      },
+      "source": "112 Trinity Place",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "731487f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731487f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Trinity Place ; 112 Trinity Place.",
+        "Trinity Bar."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9cd61a60-c55f-012f-b5d8-58d385a7bc34",
     "text": "112 Trinity Pl.\nMarket T. Henry Jr.\n",
     "text_source": "gpt",
@@ -486,9 +1092,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "Trinity Place"
+      },
+      "source": "112 Trinity Place",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "731487f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731487f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Trinity Place ; 112 Trinity Place.",
+        "Trinity Bar."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9cd61a60-c55f-012f-b5d8-58d385a7bc34",
     "text": "112 Trinity Pl.\nMarket T. Henry Jr.\n",
     "text_source": "gpt",
@@ -502,9 +1132,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "Trinity Place"
+      },
+      "source": "112 Trinity Place",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "731487f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731487f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Trinity Place ; 112 Trinity Place.",
+        "Trinity Bar."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9cd61a60-c55f-012f-b5d8-58d385a7bc34",
     "text": "112 Trinity Pl.\nMarket T. Henry Jr.\n",
     "text_source": "gpt",

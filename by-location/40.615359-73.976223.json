@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "23rd Avenue",
+        "str2": "60th Street"
+      },
+      "source": "Brooklyn: 23rd Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "732725f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732725f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/957ce240-c561-012f-09b2-58d385a7bc34",
     "original_title": "Brooklyn: 23rd Avenue - 60th Street",
     "text": "23rd Avenue, West Side, From 60th to 61st street, showing Public School No. 226. On the right is the 60th Street side of the building.\n\nBoard of Education of the City of New York. May 12, 1930\n",

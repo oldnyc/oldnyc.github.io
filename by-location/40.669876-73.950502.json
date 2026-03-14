@@ -2,9 +2,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Eastern Parkway",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn - Eastern Parkway - Nostrand Avenue",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "1557774",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557774.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kings County Savings Bank"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks",
+          "Banks and banking",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6743a250-c5ec-012f-b54c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +47,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Eastern Parkway",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn - Eastern Parkway - Nostrand Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1557775",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1557775.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kings County Savings Bank detail"
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Banks and banking",
+          "Buildings, structures, etc",
+          "Clocks & watches",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67b2c070-c5ec-012f-c355-58d385a7bc34",
     "text": null,
     "text_source": null,

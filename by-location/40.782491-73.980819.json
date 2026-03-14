@@ -2,9 +2,35 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "77th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 77th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "717670f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717670f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Baptist churches",
+          "Hotels",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32f37160-c54a-012f-7052-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 77th Street (West)",
     "text": "Broadway, west side, north from and including 79th Streets, showing at the S.W. and N.W. corners respectively of these two extremes, the Hotel Belleclaire (No. 2171-77 Broadway), and the First Baptist Church. South of the latter is the newly constructed block square apartment house, the Apthorp (No. 2201 -17 Broadway).\n\nNote the summer type electric street car about to take on several passengers at West 77th Street; the photographer viewing same from a point to the south (about 76th Street).\n\nOctober 1908.\n\nGeorge L. Balgue.\n",
@@ -19,9 +45,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Broadway",
+        "str2": "Seventy-seventh Street"
+      },
+      "source": "Broadway and Seventy-seventh Street",
+      "technique": "gpt"
+    },
     "height": 534,
     "id": "417267",
     "image_url": "https://images.nypl.org/?id=417267&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0eb1310-c611-012f-4f06-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +83,30 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "77th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 77th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717669f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717669f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3291f8f0-c54a-012f-8995-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 77th Street",
     "text": "Broadway at the N.W. corner of 77th Street. This site will later be occupied by a 14-story apartment house.\nAbout 1920.\n\nGift of E. M. Jenks.\n",

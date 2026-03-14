@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Cornaga Avenue",
+        "str2": "Read's Lane"
+      },
+      "source": "Queens: Read's Lane - Cornaga Avenue",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "727879f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727879f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e501cc10-c559-012f-5043-58d385a7bc34",
     "original_title": "Queens: Read's Lane - Cornaga Avenue",
     "text": "Read's Lane, west side, between Cornaga and Frisco Aves., showing one of many mansions in this area.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",

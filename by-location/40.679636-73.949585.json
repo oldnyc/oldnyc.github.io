@@ -2,9 +2,38 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Herkimer Street",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn: Nostrand Avenue - Herkimer Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "706088f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706088f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Butcher shops",
+          "Elevated railroads",
+          "Fruit",
+          "Markets",
+          "Railroad stations",
+          "Restaurants",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8b5fd00-c537-012f-4771-58d385a7bc34",
     "original_title": "Brooklyn: Nostrand Avenue - Herkimer Street",
     "text": "Nostrand Avenue, north from Herkimer Street. The \"EL\" station is on Fulton Street.\n\nP. L. Sperr\nAugust 26, 1941\n",

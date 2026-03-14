@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-03-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "President Street",
+        "str2": "Rochester Avenue"
+      },
+      "source": "Brooklyn: President Street - Rochester Avenue",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "706326f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706326f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/242fe5f0-c538-012f-480f-58d385a7bc34",
     "original_title": "Brooklyn: President Street - Rochester Avenue",
     "text": "1731-1737 President Street, north side, 165 ft. West of Rochester Avenue (right not shown) showing the home of Jacob Gerber (No. 1733, center house) in 1926.\n\nMarch 9, 1926.\n\nW. S. Vernan\n",

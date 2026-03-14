@@ -2,9 +2,29 @@
   {
     "date": "1941-11-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "12th Street at 5th Avenue, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "485881",
     "image_url": "https://images.nypl.org/?id=485881&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8672ef20-c60e-012f-9352-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1941-10-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "5th Avenue at 12th Street, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "485897",
     "image_url": "https://images.nypl.org/?id=485897&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b837e30-c60e-012f-3ab2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +74,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Street",
+        "str2": "5th Street (West)"
+      },
+      "source": "Brooklyn: 5th Street (West) - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702437f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23555480-c532-012f-cab9-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (West) - 12th Street",
     "text": "1. Brownstones, e.s. of 6th Ave., 14th to 13th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n\n2. 6th Ave., n.e. corner of 15th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n\n3. E.S. of 6th Ave. to 16th St. from near 15th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n",
@@ -51,9 +116,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Street",
+        "str2": "5th Street (West)"
+      },
+      "source": "Brooklyn: 5th Street (West) - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702437f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702437f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23555480-c532-012f-cab9-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (West) - 12th Street",
     "text": "1. Brownstones, e.s. of 6th Ave., 14th to 13th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n\n2. 6th Ave., n.e. corner of 15th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n\n3. E.S. of 6th Ave. to 16th St. from near 15th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n",
@@ -68,9 +158,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "12th Street",
+        "str2": "5th Street (West)"
+      },
+      "source": "Brooklyn: 5th Street (West) - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "702437f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702437f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23555480-c532-012f-cab9-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (West) - 12th Street",
     "text": "1. Brownstones, e.s. of 6th Ave., 14th to 13th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n\n2. 6th Ave., n.e. corner of 15th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n\n3. E.S. of 6th Ave. to 16th St. from near 15th St., B'klyn.\nSept. 27, 1941\nP.L. Sperr, photographer\n",

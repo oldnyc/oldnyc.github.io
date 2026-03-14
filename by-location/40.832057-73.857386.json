@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "Pugsley Avenue"
+      },
+      "source": "East 177th Street and Pugsley Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "177th Street (East)",
+        "str2": "Pugsley Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 431,
     "id": "700231f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700231f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f97858e0-c52e-012f-c57d-58d385a7bc34",
     "original_title": "Bronx: 177th Street (East) - Pugsley Avenue",
     "text": "East 177th Street, south side, west from and including Pugsley Ave., to and including Newbold Ave.\nAbout 1925.\n",

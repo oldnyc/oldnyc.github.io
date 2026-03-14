@@ -2,9 +2,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.834176,
+        "lng": -73.881968
+      },
+      "source": "Starlight Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "701859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/44dbf850-c531-012f-22ef-58d385a7bc34",
     "text": "Active Atheism\n\nThese huge caricatures of the Church & Czarism, made by New York Communists, are like those constantly used in Russian antireligious propaganda.\n\nThese grotesque figures may have meant a great deal to real grown- up r e d s at meeting in Starlight Park, th Bronx, in New York City, March 16th, 1930, but they were just amusing toys to the youngsters gathered about them. The figure at left represents the Church - (Rasputin, the Black Monk) and at right is Imperialism in figure of Nicholas - Czar of all the Russians.\n",
     "text_source": "gpt",
@@ -18,9 +40,33 @@
   {
     "date": "1940; 1940-07-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.834176,
+        "lng": -73.881968
+      },
+      "source": "Starlight Amusement Park",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "701860f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701860f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks",
+          "Swimming pools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/453b7010-c531-012f-3b87-58d385a7bc34",
     "text": "Starlight Amusement Park (Bronx): Viewing east across the Bronx River and the park's swimming pool.\n\nP. L. Sperr\nJuly 23, 1940\n",
     "text_source": "gpt",

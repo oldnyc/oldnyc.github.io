@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "30th Road",
+        "str2": "46th Street"
+      },
+      "source": "Queens: 46th Street - 30th Road",
+      "technique": "title-cross"
+    },
     "height": 465,
     "id": "725356f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725356f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43fa57b0-c556-012f-d8f4-58d385a7bc34",
     "original_title": "Queens: 46th Street - 30th Road",
     "text": "46th Street, south of 30th Road, looking towards Newtown Road.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

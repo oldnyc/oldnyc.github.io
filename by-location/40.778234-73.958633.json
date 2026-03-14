@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "83rd Street",
+        "str2": "Park Avenue"
+      },
+      "source": "83rd Street and Park Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464739-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464739-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1cf4c520-c612-012f-6e56-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "83rd Street",
+        "str2": "Park Avenue"
+      },
+      "source": "83rd Street and Park Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "464739-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464739-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1cf4c520-c612-012f-6e56-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Eighty-third Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Eighty-third Street and Park Avenue",
+      "technique": "gpt"
+    },
     "height": 527,
     "id": "417155",
     "image_url": "https://images.nypl.org/?id=417155&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92600240-c611-012f-fb4f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +114,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Eighty-third Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Eighty-third Street and Park Avenue",
+      "technique": "gpt"
+    },
     "height": 515,
     "id": "417377",
     "image_url": "https://images.nypl.org/?id=417377&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/edeba6c0-c611-012f-30f3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -69,9 +155,27 @@
     "dates_from_text": [
       "1927-11-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street (East)",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: 83rd Street (East) - Park Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714642f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714642f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c97f6a0-c545-012f-45ea-58d385a7bc34",
     "original_title": "Manhattan: 83rd Street (East) - Park Avenue",
     "text": "East 83rd Street, south side, east from and including Park Ave. Also shown is Nos. 977-79 Park Ave., at and adjoining the S.E. corner of East 83rd Street.\n\nNovember 9, 1927.\n\nP. L. Sperr.\n",
@@ -86,9 +190,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: Park Avenue - 83rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722350f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722350f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b699eb0-c551-012f-649b-58d385a7bc34",
     "original_title": "Manhattan: Park Avenue - 83rd Street",
     "text": "983 Park Avenue, at N.E. corner of 83rd Street, a new apartment house, which replaces old 9-story Hanover Apartments.\n1927.\n\nJoseph Smith, Photographer.\n",
@@ -103,9 +228,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: Park Avenue - 83rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722351f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/722351f-a.270.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bc92e90-c551-012f-be8f-58d385a7bc34",
     "original_title": "Manhattan: Park Avenue - 83rd Street",
     "rotation": 270,
@@ -121,9 +268,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street (East)",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: 83rd Street (East) - Park Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714643f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714643f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Galleries & museums",
+          "Garages",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cfdf4b0-c545-012f-82af-58d385a7bc34",
     "original_title": "Manhattan: 83rd Street (East) - Park Avenue",
     "text": "East 83rd Street, west from (No. 117, 3-story garage on the right) a point east of Park Ave., and across same to Fifth Ave., showing at the latter point the Metropolitan Museum of Art.\n\nAugust 27, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -138,9 +311,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street (East)",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: 83rd Street (East) - Park Avenue",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "714644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714644f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Galleries & museums",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d65e530-c545-012f-d089-58d385a7bc34",
     "original_title": "Manhattan: 83rd Street (East) - Park Avenue",
     "text": "East 83rd Street, west from Park to Fifth Aves., and showing at the latter point a portion of the Metropolitan Museum of Art.\n\nAugust 27, 1936.\n\nW.P.A. Photo.\nFederal Art Project\n",
@@ -155,9 +353,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "83rd Street (East)",
+        "str2": "Park Avenue"
+      },
+      "source": "Manhattan: 83rd Street (East) - Park Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714647f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714647f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e67aca0-c545-012f-d7be-58d385a7bc34",
     "original_title": "Manhattan: 83rd Street (East) - Park Avenue",
     "text": "East 83rd Street, west from a point midway between Park and Madison Aves., and across the latter to Fifth Ave. The building on the extreme right is No. 47.\n\nAugust 27, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

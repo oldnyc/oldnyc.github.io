@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Stratford Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Bronx: Stratford Avenue - Westchester Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "701879f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701879f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c931920-c531-012f-4c67-58d385a7bc34",
     "original_title": "Bronx: Stratford Avenue - Westchester Avenue",
     "text": "Stratford Ave., south from Westchester Ave.\n\nP. L. Sperr.\n\nJuly 30, 1928.\n",

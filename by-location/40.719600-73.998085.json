@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Baxter Street",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Baxter Street - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716603f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716603f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Plumbing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82f000c0-c548-012f-1787-58d385a7bc34",
     "original_title": "Manhattan: Baxter Street - Grand Street",
     "text": "151-155 Baxter Street, east side, south of Grand Street. No. 153 is a three-story frame building with a brick front.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -19,9 +42,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Centre Market Place",
+        "str2": "Grand Street"
+      },
+      "source": "Manhattan: Centre Market Place - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 360,
     "id": "718545f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718545f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/96fe6c30-c54b-012f-0f9b-58d385a7bc34",
     "original_title": "Manhattan: Centre Market Place - Grand Street",
     "text": "Centre Market Place, north from Grand, to and including Broome Streets. Building shown on the left, is the Central Headquarters of the New York Police\nDepattment.\nJune 9, 1933.\nP. L. Sperr.\n",

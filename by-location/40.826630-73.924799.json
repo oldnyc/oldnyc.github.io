@@ -2,9 +2,44 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 845,
+        "street": "Walton Avenue"
+      },
+      "source": "845 Walton Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "159th Street (East)",
+        "str2": "Walton Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "East 159th Street",
+        "str2": "Walton Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "702011f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702011f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ed88790-c531-012f-0a78-58d385a7bc34",
     "original_title": "Bronx: Walton Avenue - 159th Street (East)",
     "text": "Walton Ave. (running from left to right), at East 159th Street (foreground). The 5-story apartment house on the left, bears No. 845 and is on the west side of the avenue between East 158th and East 161st Streets. The building on the right bears No. 850 and is at the N.E. corner of East 159th Street. The latter building, as well as this section of East 159th Street, are at this date (1938) no longer in existence. Their site is occupied by the Bronx County Court House which extends from East 161st Street to 158th Street and from Walton Ave. to Grand Concourse.\n\nJames Suydam.\n\nAbout 1915.\n",

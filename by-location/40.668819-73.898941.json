@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Sutter Ave.",
+        "str2": "Williams Ave."
+      },
+      "source": "Brooklyn: Williams Ave. - Sutter Ave.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707355f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707355f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b25da960-c539-012f-fee5-58d385a7bc34",
     "original_title": "Brooklyn: Williams Ave. - Sutter Ave.",
     "text": "P.L. Sperr, photographer  6-25-1942",

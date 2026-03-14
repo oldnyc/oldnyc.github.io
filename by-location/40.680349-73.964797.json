@@ -2,9 +2,30 @@
   {
     "date": "1941-08-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pacific Street",
+        "str2": "Underhill Avenue"
+      },
+      "source": "Pacific Street and Underhill Avenue",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "1509689-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509689-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcf020c0-c5cd-012f-2f10-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1941-08-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pacific Street",
+        "str2": "Underhill Avenue"
+      },
+      "source": "Pacific Street and Underhill Avenue",
+      "technique": "gpt"
+    },
     "height": 392,
     "id": "1509689-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509689-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcf020c0-c5cd-012f-2f10-58d385a7bc34",
     "text": null,
     "text_source": null,

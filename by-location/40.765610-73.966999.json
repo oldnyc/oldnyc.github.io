@@ -2,9 +2,45 @@
   {
     "date": "1923; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "East 64th Street"
+      },
+      "source": "112 East 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "64th Street (East)",
+        "str2": "Avenue N",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "64th Street",
+        "str2": "Avenue N",
+        "technique": "gpt"
+      }
+    ],
     "height": 493,
     "id": "714158f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714158f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "American Labor Party",
+          "Japan Society (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cfa1dda0-c544-012f-abc4-58d385a7bc34",
     "original_title": "Manhattan: 64th Street (East) - Avenue N",
     "text": "The entrance lobby of Asia House, new permanent headquarters of the Asia Society and the Japan Society, at 112 East 64th Street, New York 21.\n-- Photographed by Joseph Molitor\n",
@@ -20,9 +56,45 @@
   {
     "date": "1928; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "East 64th Street"
+      },
+      "source": "112 East 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "64th Street (East)",
+        "str2": "Avenue N",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "64th Street",
+        "str2": "Avenue N",
+        "technique": "gpt"
+      }
+    ],
     "height": 489,
     "id": "714159f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714159f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "American Labor Party",
+          "Japan Society (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cff60b20-c544-012f-eb47-58d385a7bc34",
     "original_title": "Manhattan: 64th Street (East) - Avenue N",
     "text": "The Library of Asia House, new permanent headquarters of the Asia Society and the Japan Society, at 112 East 64th Street, New York 21.\n-- Photographed by Joseph Molitor\n",
@@ -38,9 +110,45 @@
   {
     "date": "1931; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "East 64th Street"
+      },
+      "source": "112 East 64th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "64th Street (East)",
+        "str2": "Avenue N",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "64th Street",
+        "str2": "Avenue N",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "714157f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714157f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "American Labor Party",
+          "Japan Society (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf21cc90-c544-012f-0d3e-58d385a7bc34",
     "original_title": "Manhattan: 64th Street (East) - Avenue N",
     "text": "Facade of Asia House, new permanent headquarters of the Asia Society and the Japan Society, at 112 East 64th Street, New York 21.\n-- Photographed by Joseph Molitor\n",

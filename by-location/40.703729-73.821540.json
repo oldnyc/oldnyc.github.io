@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "131st Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: 131st Street - Hillside Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725848f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725848f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e5eb7810-c556-012f-bf04-58d385a7bc34",
     "original_title": "Queens: 131st Street - Hillside Avenue",
     "text": "131st Street, north of Hillside Avenue, showing one of a group of new homes built by the Kew Gardens Park Homes Corporation.\nAbout 1928\n",

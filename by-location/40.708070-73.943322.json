@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-10-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Graham Avenue",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Graham Avenue - Meserole Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "704666f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704666f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93476110-c535-012f-5098-58d385a7bc34",
     "original_title": "Brooklyn: Graham Avenue - Meserole Street",
     "text": "Graham Ave., north from Meserole Street.\n- October 25, 1934.\n\nP. L. Sperr.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Graham Avenue",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Meserole Street - Graham Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "705699f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705699f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32fe0160-c537-012f-4d68-58d385a7bc34",
     "original_title": "Brooklyn: Meserole Street - Graham Avenue",
     "text": "Meserole Street, north side, east from 151 Meserole Street, at the N.E. corner of Graham Ave.\n\nOctober 25, 1934.\n\nP. L. Sperr.\n",

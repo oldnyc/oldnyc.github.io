@@ -2,9 +2,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "23rd Avenue",
+        "str2": "98th Street"
+      },
+      "source": "Queens: 98th Street - 23rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "725752f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725752f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c574e1a0-c556-012f-9c72-58d385a7bc34",
     "original_title": "Queens: 98th Street - 23rd Avenue",
     "text": "98th Street, east side, between 23rd and 24th Avenues, showing the Italian Christian Church.\n\nP. L. Sperr\nOctober 18, 1939\n",

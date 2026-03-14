@@ -2,9 +2,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "72nd Road",
+        "str2": "Vleigh Place"
+      },
+      "source": "Queens: Vleigh Place - 72nd Road",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "728177f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728177f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Country clubs",
+          "Golf",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/573f0bf0-c55a-012f-f731-58d385a7bc34",
     "original_title": "Queens: Vleigh Place - 72nd Road",
     "text": "Vleigh Place, at 72nd Road, showing the entrance to the Queens Valley Golf Club.\n\nMarch 3, 1937\n\nP. L. Sperr\n",

@@ -2,9 +2,31 @@
   {
     "date": "1895",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 70th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "718460f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718460f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75b1aa50-c54b-012f-c22c-58d385a7bc34",
     "text": "Central Park West, west side, from 70th to 74th Streets. From 71st to 72nd Streets stands the new Hotel Majestic. Above it is the Dakota, and beyond the Dakota is the San Remo. Of these three, only the oldest, the Dakota (built between 1879 and 1885) stands today. The Majestic and San Remo have been replaced by apartment houses bearing the same names. The wooden building nearer the Majestic is a saloon, with a beer wagon in front of it drawn by the brewer's big horses. 1895.\n\nAugust Loeffler, from Ewing Galloway Collection.\n",
     "text_source": "gpt",
@@ -18,9 +40,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Seventieth Street"
+      },
+      "source": "Central Park West and Seventieth Street",
+      "technique": "gpt"
+    },
     "height": 512,
     "id": "417365",
     "image_url": "https://images.nypl.org/?id=417365&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9436e30-c611-012f-c4f7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +78,33 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 70th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714298f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714298f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/057b5b40-c545-012f-f9f2-58d385a7bc34",
     "text": "24-26 West 70th Street, south side, between Central Park West and Columbus Avenue.\n\nAbout 1910.\n\nGift of E. M. Jenks.\n",
     "text_source": "gpt",
@@ -54,9 +122,27 @@
       "1929-03-04",
       "1929-03-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 70th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718459f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718459f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/754d8680-c54b-012f-d3c3-58d385a7bc34",
     "text": "(1) Congregation Shearith Israel, a Partuguese Synagogue, Central Park West, at the S.W. corner of 70th Street. March 4, 1929. P. L. Sperr.\n\n(2) The same, from a different angle. March 11, 1929. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -75,9 +161,27 @@
       "1929-03-04",
       "1929-03-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 70th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718459f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718459f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/754d8680-c54b-012f-d3c3-58d385a7bc34",
     "text": "(1) Congregation Shearith Israel, a Partuguese Synagogue, Central Park West, at the S.W. corner of 70th Street. March 4, 1929. P. L. Sperr.\n\n(2) The same, from a different angle. March 11, 1929. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -95,9 +199,27 @@
     "dates_from_text": [
       "1929-02-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 70th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718465f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718465f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77a7a9e0-c54b-012f-c20e-58d385a7bc34",
     "text": "Central Park West, west side, from 71st to 70th Streets. At the extreme left may be seen the Portuguese synagogue, Congregation Shearith Israel. In the foreground is a portion of Central Park. February 2, 1929.\n\nP. L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -111,9 +233,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 70th Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "718474f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718474f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7beb2900-c54b-012f-588f-58d385a7bc34",
     "text": "Central Park West, west side, from 74th to 70th Streets. At the extreme right is the San Remo, now replaced by a modern apartment house of the same name. Following this are seen the Langham, the Dakota, and the Hotel Majestic. The first two still stand; the Majestic has been replaced by an apartment house bearing the same name. Note the tower of the new Oliver Cromwell, 12-18 West 72nd Street.\n\nFebruary 2, 1929.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -127,9 +271,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Central Park West"
+      },
+      "source": "70th Street and Central Park West",
+      "technique": "gpt"
+    },
     "height": 476,
     "id": "1509217-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509217-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "San Remo Towers"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ff74fc90-c5cd-012f-0100-58d385a7bc34",
     "text": null,
     "text_source": null,

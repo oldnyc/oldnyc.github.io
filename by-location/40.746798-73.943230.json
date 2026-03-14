@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jackson Avenue",
+        "str2": "Thomson Avenue"
+      },
+      "source": "Queens: Jackson Avenue - Thomson Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "726938f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726938f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/740802a0-c558-012f-cb10-58d385a7bc34",
     "original_title": "Queens: Jackson Avenue - Thomson Avenue",
     "text": "Jackson Avenue, east side, at Thompson Avenue, showing the Queens County Court House. Directly behind the Court House is the county jail, seen in part.\n\nMarch 23, 1932\n\nP.L. Sperr\n",
@@ -19,9 +41,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jackson Avenue",
+        "str2": "Thomson Avenue"
+      },
+      "source": "Queens: Jackson Avenue - Thomson Avenue",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "726937f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726937f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Prisons"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73b72780-c558-012f-2515-58d385a7bc34",
     "original_title": "Queens: Jackson Avenue - Thomson Avenue",
     "text": "Jackson Avenue, south side, at Thomson Avenue. Shown is part of the west side of the Queens County Court House and the County Jail (right), seen from Court Square. The Works Progress Administration is making improvements here.\n\nFederal Art Project -- W.P.A.\nPhotographic Division\n\nNovember, 1936\n",

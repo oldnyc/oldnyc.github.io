@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-04-01"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "98th Avenue"
+      },
+      "source": "Queens: 164th Street - 98th Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "725954f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725954f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0bc68dc0-c557-012f-5d49-58d385a7bc34",
     "original_title": "Queens: 164th Street - 98th Avenue",
     "text": "89-40 164th Street, west side, between 89th and Jamaica Avenues, showing an old mansion.\n\nP. L. Sperr\nApril 1, 1932\n",

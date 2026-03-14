@@ -2,9 +2,30 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "120th Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 120th Street",
+      "technique": "title-cross"
+    },
     "height": 417,
     "id": "726854f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726854f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52f3d5d0-c558-012f-c94d-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 120th Street",
     "text": "Hillside Ave., south side, east from 120th Street to Lefferts Boulevard, showing in the foreground the Union Club of Union Hill.\n\nAbout 1910.\n\nEugene L. Armbruster Collection.\n",

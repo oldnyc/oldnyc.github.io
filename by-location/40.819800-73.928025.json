@@ -2,9 +2,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "150th Street (East)",
+        "str2": "Walton Avenue"
+      },
+      "source": "Bronx: Walton Avenue - 150th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702008f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702008f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7da0a240-c531-012f-a0e7-58d385a7bc34",
     "original_title": "Bronx: Walton Avenue - 150th Street (East)",
     "text": "567 (empty lot) to 583 Walton Ave., south of, adjoining and at the S.W. corner of East 150th Street.\n\nMay 6, 1934.\n\nP. L. Sperr.\n",

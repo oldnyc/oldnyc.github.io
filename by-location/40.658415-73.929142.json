@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "52nd St. E.",
+        "str2": "Winthrop St."
+      },
+      "source": "Brooklyn: Winthrop St. - 52nd St. E.",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "707435f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707435f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d2e063d0-c539-012f-dad1-58d385a7bc34",
     "original_title": "Brooklyn: Winthrop St. - 52nd St. E.",
     "text": "Winthrop Street (right), north side, from East 52nd to East 53rd Street, showing Public School No. 232, the Winthrop Junior High School.\n\nBoard of Education of the City of New York February 6, 1931\n",

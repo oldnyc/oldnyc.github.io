@@ -2,9 +2,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "num": 12560,
+        "street": "Sutphin Boulevard"
+      },
+      "source": "12560 Sutphin Boulevard",
+      "technique": "gpt"
+    },
     "height": 466,
     "id": "1558444",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558444.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Baisley Park Gardens apartment housing"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71218d50-c5ed-012f-561c-58d385a7bc34",
     "text": null,
     "text_source": null,

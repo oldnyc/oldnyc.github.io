@@ -2,9 +2,31 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "60th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708107f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708107f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f31637d0-c53a-012f-0f82-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 60th Street",
     "text": "N.E. corner of Third Avenue and 60th Street. March 22, 1917.",
@@ -19,9 +41,33 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "60th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "708108f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708108f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f38986c0-c53a-012f-e687-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 60th Street",
     "text": "N.E. corner of Third Avenue and 60th Street.\nMarch 22, 1917.\n",
@@ -39,9 +85,27 @@
     "dates_from_text": [
       "1917-04-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "60th Street (East)"
+      },
+      "source": "Manhattan: 60th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714063f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714063f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ab8f8540-c544-012f-b4d3-58d385a7bc34",
     "original_title": "Manhattan: 60th Street (East) - 3rd Avenue",
     "text": "213-215 East 60th Street, north side, east of Third Avenue.\nApril 21, 1917.\n\nUnderwood & Underwood.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1913-03-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "19th Street (East)",
+        "str2": "Dorchester Road"
+      },
+      "source": "Brooklyn: 19th Street (East) - Dorchester Road",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "702630f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702630f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6cb3cc10-c532-012f-c11d-58d385a7bc34",
     "original_title": "Brooklyn: 19th Street (East) - Dorchester Road",
     "text": "539 (535) E. 19th Street, east side, south of Dorchester Road, showing home of J. Frazee. H. Gratterm was the builder.\n\nMarch 27, 1913.\n",

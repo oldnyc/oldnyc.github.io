@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Greenwich Street",
+        "str2": "Warren Street"
+      },
+      "source": "Manhattan: Greenwich Street - Warren Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "720213f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720213f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37155c20-c54e-012f-d957-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - Warren Street",
     "text": "Greenwich Street, south from Warren Street as photographed from the Ninth Avenue Elevated Line station there. At the left is the massive white structure that is the newely erected U. S. Office Building and Post Office.\n\nJune 1940\n\nP. L. Sperr\n",
@@ -19,9 +40,29 @@
   {
     "date": "1942-10-11",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 278,
+        "street": "Greenwich Street"
+      },
+      "source": "Greenwich Street #278",
+      "technique": "title-address"
+    },
     "height": 434,
     "id": "1507563-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507563-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19bd5510-c5ce-012f-aa2c-58d385a7bc34",
     "text": null,
     "text_source": null,

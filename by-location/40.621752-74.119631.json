@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-07-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Martling Avenue",
+        "str2": "Slosson Avenue"
+      },
+      "source": "Richmond: Martling Avenue - Slosson Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729129f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729129f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d83bed60-c55b-012f-b29d-58d385a7bc34",
     "original_title": "Richmond: Martling Avenue - Slosson Avenue",
     "text": "Martling Avenue, south side, 400 feet west of Slosson Avenue. Beers's 1874 map shows the house to be on the A. B. Martling property. It later became part of the Lucy P. Smith estate.\n\nJuly 2, 1929\n\nP. L. Sperr\n",

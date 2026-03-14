@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Greene Avenue",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Greene Avenue - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 429,
     "id": "704705f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704705f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a36bcdd0-c535-012f-e5a4-58d385a7bc34",
     "original_title": "Brooklyn: Greene Avenue - Patchen Avenue",
     "text": "Green Avenue, west from near Broadway across Patchen Avenue, showing a W. P. A. sewer project and buildings on the north side of the Avenue.\n\nJuly 11, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1941-09-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Greene Avenue",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Greene Avenue - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "704704f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704704f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2f9c0f0-c535-012f-214c-58d385a7bc34",
     "original_title": "Brooklyn: Greene Avenue - Patchen Avenue",
     "text": "992 Green Avenue, adjoining the southwest corner of Patchen Avenue, showing one of the few remaining old homes in this neighborhood.\n\nP. L. Sperr\n\nSeptember 13, 1941\n",
@@ -42,9 +81,27 @@
     "dates_from_text": [
       "1941-09-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Greene Avenue",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Patchen Avenue - Greene Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706229f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706229f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe808330-c537-012f-1afa-58d385a7bc34",
     "original_title": "Brooklyn: Patchen Avenue - Greene Avenue",
     "text": "Patchen Avenue, at the southeast corner of Greene Avenue, showing a synagogue.\n\nP. L. Sperr\nSeptember 13, 1941\n",

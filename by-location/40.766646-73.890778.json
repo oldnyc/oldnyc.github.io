@@ -2,9 +2,46 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Astoria Boulevard",
+        "str2": "Grand Central Parkway"
+      },
+      "source": "Astoria Boulevard and Grand Central Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "48th Street",
+        "str2": "Grand Central Parkwa",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "48th Street",
+        "str2": "Grand Central Parkway",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "726815f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726815f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Grand Central Parkway (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4542e8d0-c558-012f-ce9e-58d385a7bc34",
     "text": "Grand Central Parkway, east from 48th Street, showing the new boroughwide highway under construction. On the right is Astoria Boulevard.\nView 2 shows the Parkway east from Hazen Street, and view 3 west from Hazen Street.\n\nP. L. Sperr\n\nOctober 28, 1935\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -18,9 +55,46 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Astoria Boulevard",
+        "str2": "Grand Central Parkway"
+      },
+      "source": "Astoria Boulevard and Grand Central Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "48th Street",
+        "str2": "Grand Central Parkwa",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "48th Street",
+        "str2": "Grand Central Parkway",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "726815f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726815f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Grand Central Parkway (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4542e8d0-c558-012f-ce9e-58d385a7bc34",
     "text": "Grand Central Parkway, east from 48th Street, showing the new boroughwide highway under construction. On the right is Astoria Boulevard.\nView 2 shows the Parkway east from Hazen Street, and view 3 west from Hazen Street.\n\nP. L. Sperr\n\nOctober 28, 1935\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -34,9 +108,46 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Astoria Boulevard",
+        "str2": "Grand Central Parkway"
+      },
+      "source": "Astoria Boulevard and Grand Central Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "48th Street",
+        "str2": "Grand Central Parkwa",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "48th Street",
+        "str2": "Grand Central Parkway",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "726815f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726815f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Grand Central Parkway (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4542e8d0-c558-012f-ce9e-58d385a7bc34",
     "text": "Grand Central Parkway, east from 48th Street, showing the new boroughwide highway under construction. On the right is Astoria Boulevard.\nView 2 shows the Parkway east from Hazen Street, and view 3 west from Hazen Street.\n\nP. L. Sperr\n\nOctober 28, 1935\nViews 1,2,3\n",
     "text_source": "gpt",

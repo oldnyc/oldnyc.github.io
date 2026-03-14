@@ -2,9 +2,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 226,
+        "street": "W. 39th St."
+      },
+      "source": "226 W. 39th St.",
+      "technique": "gpt"
+    },
     "height": 480,
     "id": "732902f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732902f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Police",
+          "Sanitation workers",
+          "Strikes and lockouts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dc5ccca0-c561-012f-a2c9-58d385a7bc34",
     "text": "Police guarding strike breakers who are taking their cart loads of garbage to the dump ground.\n\nPhoto-News Dept.\nAmerican Press Assoc.\n226-229 W. 39th St., N.Y.\n",
     "text_source": "gpt",

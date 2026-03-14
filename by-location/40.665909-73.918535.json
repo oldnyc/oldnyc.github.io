@@ -2,9 +2,40 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Grafton Street",
+        "str2": "Sutter Avenue"
+      },
+      "source": "Grafton Street and Sutter Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Barrett Street",
+        "str2": "Sutter Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "732688f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732688f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87c94390-c561-012f-4655-58d385a7bc34",
     "text": "Sutter Avenue, south side (left), from Barrett to Grafton Streets, showing Public School No. 156.\nBoard of Education of the City of New York July 2, 1931\n",
     "text_source": "gpt",

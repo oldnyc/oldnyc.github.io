@@ -2,9 +2,32 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "63rd Street (East)",
+        "str2": "Avenue N"
+      },
+      "source": "Brooklyn: 63rd Street (East) - Avenue N",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "702807f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702807f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0d3b4e0-c532-012f-63f1-58d385a7bc34",
     "original_title": "Brooklyn: 63rd Street (East) - Avenue N",
     "text": "East 63rd Street, south of Ave. N, (general view) showing the Schenck-Crooke house and a group of factories in the background.\n\n1923.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +42,40 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "63rd Street",
+        "str2": "Avenue N"
+      },
+      "source": "63rd Street and Avenue N",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "63rd Street (East)",
+        "str2": "99th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 464,
     "id": "702808f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702808f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b16ec490-c532-012f-5b5c-58d385a7bc34",
     "original_title": "Brooklyn: 63rd Street (East) - 99th Street",
     "text": "(1) East 63rd Street, south of Ave. N. A general view of the Schenck-Crooke house, with a group of factories in the background.\n\n1923.\n\nEugene L. Armbruster Collection.\n\n(2) The same, from a different angle.\n\n1923.\n\nEugene L. Armbruster Collection.\n",
@@ -36,9 +90,40 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "63rd Street",
+        "str2": "Avenue N"
+      },
+      "source": "63rd Street and Avenue N",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "63rd Street (East)",
+        "str2": "99th Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 470,
     "id": "702808f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702808f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b16ec490-c532-012f-5b5c-58d385a7bc34",
     "original_title": "Brooklyn: 63rd Street (East) - 99th Street",
     "text": "(1) East 63rd Street, south of Ave. N. A general view of the Schenck-Crooke house, with a group of factories in the background.\n\n1923.\n\nEugene L. Armbruster Collection.\n\n(2) The same, from a different angle.\n\n1923.\n\nEugene L. Armbruster Collection.\n",

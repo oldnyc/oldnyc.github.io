@@ -2,9 +2,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Morris Street - Washington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721731f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721731f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Machine shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e851180-c550-012f-9d54-58d385a7bc34",
     "original_title": "Manhattan: Morris Street - Washington Street",
     "text": "Morris Street, north side, west from but not including Washington Street, to and including West Street.\n\nJuly 7, 1917.\n\nUnderwood & Underwood.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "724058f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724058f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55327c00-c554-012f-5cee-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, at the N. W. corner of Morris Street, showing a cleared lot preparatory to new construction.\n\nJuly 2, 1917\n\nUnderwood and Underwood\n",
@@ -36,9 +78,35 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Morris Street - Washington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721732f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721732f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Drugstores",
+          "Stationery trade",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8eeb3ed0-c550-012f-0548-58d385a7bc34",
     "original_title": "Manhattan: Morris Street - Washington Street",
     "text": "Morris Street, west from and including Washington, to and including West Streets.\nAbout 1920.\n\nBrown Brothers.\n",
@@ -53,9 +121,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724059f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724059f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/558940f0-c554-012f-d90e-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1) Washington Street, West Side, north from but not including Morris Street.\nJune 22nd, 1929\n\n(2) The same from a closer view.\nMarch 27th, 1928\n\n(3) The same, taken at a later date.\nApril 28th, 1940\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -70,9 +160,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724059f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724059f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/558940f0-c554-012f-d90e-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1) Washington Street, West Side, north from but not including Morris Street.\nJune 22nd, 1929\n\n(2) The same from a closer view.\nMarch 27th, 1928\n\n(3) The same, taken at a later date.\nApril 28th, 1940\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -87,9 +199,31 @@
   {
     "date": "1928; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724073f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724073f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b5de460-c554-012f-bff6-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n\n57-61 Washington Street, east side, north of Morris Street. St. Joseph's Roman Catholic Church is in the foreground.\n\nMarch 23, 1928.\n\nP. L. Sperr.\n\n(2)\n\nThe same, showing a closer view.\nJune 11, 1929.\n\nP. L. Sperr.\n",
@@ -105,9 +239,31 @@
   {
     "date": "1928; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724073f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724073f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b5de460-c554-012f-bff6-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n\n57-61 Washington Street, east side, north of Morris Street. St. Joseph's Roman Catholic Church is in the foreground.\n\nMarch 23, 1928.\n\nP. L. Sperr.\n\n(2)\n\nThe same, showing a closer view.\nJune 11, 1929.\n\nP. L. Sperr.\n",
@@ -123,9 +279,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724062f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724062f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56cfed80-c554-012f-b346-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, east side, north from above Morris Street, showing buildings to the center of this block that extend to Rector Street. At the right is the Lebanon Bank at No. 59. This adjoins to the north, the not shown St. Josephs R. C. Church (No. 57). The Faour Bank is at No. 81-85. Tenements to the north of the latter were subsequently demolished and a 35-story office structure arected. This bears Nos 91 Washington Street, 21 Rector Street, and 88\nGreenwich Street.\nJune 11, 1929\nP. L. Sperr\nWashington Street, adjoining the southeast corner\nof Morris Stfeet, looking north.\nApril 28, 1940.\n",
@@ -140,9 +318,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724062f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724062f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks",
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56cfed80-c554-012f-b346-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, east side, north from above Morris Street, showing buildings to the center of this block that extend to Rector Street. At the right is the Lebanon Bank at No. 59. This adjoins to the north, the not shown St. Josephs R. C. Church (No. 57). The Faour Bank is at No. 81-85. Tenements to the north of the latter were subsequently demolished and a 35-story office structure arected. This bears Nos 91 Washington Street, 21 Rector Street, and 88\nGreenwich Street.\nJune 11, 1929\nP. L. Sperr\nWashington Street, adjoining the southeast corner\nof Morris Stfeet, looking north.\nApril 28, 1940.\n",
@@ -157,9 +357,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724065f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724065f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Ninth Avenue (New York, N.Y.)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5821da60-c554-012f-9fdd-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "41 Washington Street, at the N.E. corner of Morris Street. Also shown is Morris Street, north side, east from and including Washington Street, to and including Trinity Place. Noe the Sixth and Ninth Aves., Elevated on Greenwich Street.\n\nJune 20, 1929.\n\nP. L. Sperr.\n",
@@ -174,9 +399,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724066f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724066f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5892e8a0-c554-012f-c309-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n43-61 Washington Street, adjoining and north of the N.E. corner of Morris Street.\nSeptember 20, 1929.\n\nP. L. Sperr.\n\n(2)\nThe same, a closer view.\nSeptember 20, 1929.\n\nP. L. Sperr.\n",
@@ -191,9 +437,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724066f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724066f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5892e8a0-c554-012f-c309-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n43-61 Washington Street, adjoining and north of the N.E. corner of Morris Street.\nSeptember 20, 1929.\n\nP. L. Sperr.\n\n(2)\nThe same, a closer view.\nSeptember 20, 1929.\n\nP. L. Sperr.\n",
@@ -211,9 +478,27 @@
     "dates_from_text": [
       "1929-06-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724067f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724067f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58f1cf90-c554-012f-4dbd-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "49-43 Washington Street, north of and adjoining the N.E. corner of Morris Street.\nJune 11, 1929.\n\nP. L. Sperr.\n",
@@ -228,9 +513,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "724068f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724068f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/596514b0-c554-012f-1c84-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n\n49-51 Washington Street, east side, north of Morris Street. The view shows the first story of the buildings.\n\nJune 11, 1929.\n\nP. L. Sperr.\n\n(2)\n\nThe same, including No. 53. June 11, 1929.\n\nP. L. Sperr.\n",
@@ -245,9 +552,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724068f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724068f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/596514b0-c554-012f-1c84-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n\n49-51 Washington Street, east side, north of Morris Street. The view shows the first story of the buildings.\n\nJune 11, 1929.\n\nP. L. Sperr.\n\n(2)\n\nThe same, including No. 53. June 11, 1929.\n\nP. L. Sperr.\n",
@@ -262,9 +591,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724069f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724069f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gift shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/59b68960-c554-012f-b68c-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "53 Washington Street, east side, north of Morris Street, showing the first story of the building.\n\nJuly 22, 1929.\n\nP. L. Sperr.\n",
@@ -282,9 +632,27 @@
     "dates_from_text": [
       "1929-09-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724070f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724070f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a1f7920-c554-012f-47d0-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "55 Washington Street, east side, north of Morris Street.\nSeptember 20, 1929.\n\nP. L. Sperr.\n",
@@ -299,9 +667,30 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724072f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724072f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5aed1af0-c554-012f-7e31-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n57 Washington Street, east side, north of Morris Street. This is St. Joseph's Roman Catholic Church.\nJuly 1, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view.\nSeptember 20, 1929.\n\nP. L. Sperr.\n",
@@ -317,9 +706,30 @@
   {
     "date": "1929; 1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724072f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724072f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5aed1af0-c554-012f-7e31-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n57 Washington Street, east side, north of Morris Street. This is St. Joseph's Roman Catholic Church.\nJuly 1, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a closer view.\nSeptember 20, 1929.\n\nP. L. Sperr.\n",
@@ -335,9 +745,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 391,
     "id": "724057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gift shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54c3ac40-c554-012f-9a30-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "54 Washington Street west side and North of Morris Street, showing Oriental Store.\n\nVictor Volmer\n\nAbout 1930\n",
@@ -352,9 +783,31 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a965d50-c554-012f-9797-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n55-59 Washington Street, east side, north of Morris Street.\nJuly 1, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, a closer view.\nJuly 1, 1931.\n\nP. L. Sperr.\n",
@@ -369,9 +822,31 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724071f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724071f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a965d50-c554-012f-9797-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\n55-59 Washington Street, east side, north of Morris Street.\nJuly 1, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, a closer view.\nJuly 1, 1931.\n\nP. L. Sperr.\n",
@@ -386,9 +861,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris St",
+        "str2": "Washington St"
+      },
+      "source": "Morris St and Washington St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984246",
     "image_url": "https://images.nypl.org/?id=3984246&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03f07cf0-c5d7-012f-0661-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -402,9 +901,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery-Morris St",
+        "str2": "Washington St"
+      },
+      "source": "Battery-Morris St and Washington St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984300",
     "image_url": "https://images.nypl.org/?id=3984300&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec6e9c70-c5d6-012f-8981-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -421,9 +944,27 @@
     "dates_from_text": [
       "1935-07-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724056f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724056f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/544e4910-c554-012f-a77c-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, east side, north from Morris Street.\n\nJuly 11, 1935.\n\nP. L. Sperr.\n",
@@ -441,9 +982,27 @@
     "dates_from_text": [
       "1935-07-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724063f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724063f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/573eb5f0-c554-012f-fc08-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, east side, north from No. 29. The building bearing a tavern sign, is on the corner of Morris Street.\n\nJuly 11, 1935.\n\nP. L. Sperr.\n",
@@ -458,9 +1017,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "724060f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724060f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55f80780-c554-012f-0f98-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "rotation": 90,
@@ -476,9 +1056,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724060f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724060f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55f80780-c554-012f-0f98-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\nWashington Street, west side, south from Morris Street.\nMarch 27, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, but not including Morris Street.\nMarch 27, 1928.\n\nP. L. Sperr.\n\n(3)\nWashington Street, West Side, south of Morris Street and looking North.\nApril 28th, 1940.\n\nP. L. Sperr,\n",
@@ -493,9 +1094,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724060f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724060f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55f80780-c554-012f-0f98-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "(1)\nWashington Street, west side, south from Morris Street.\nMarch 27, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, but not including Morris Street.\nMarch 27, 1928.\n\nP. L. Sperr.\n\n(3)\nWashington Street, West Side, south of Morris Street and looking North.\nApril 28th, 1940.\n\nP. L. Sperr,\n",
@@ -513,9 +1135,27 @@
     "dates_from_text": [
       "1940-04-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724061f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724061f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56563200-c554-012f-2c60-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, north across Morris Street. The latter is the intersecting thoroughfare in the foreground of both views, one of which shows mainly the east side and the other the west side. The dominant white structure in the east background is the 35 story No. 19 Rector Street Bldg.\n\nApril 28, 1940\nNo's. 1-2\n\nP. L. Sperr\n",
@@ -533,9 +1173,27 @@
     "dates_from_text": [
       "1940-04-28"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Morris Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Morris Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724061f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724061f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56563200-c554-012f-2c60-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Morris Street",
     "text": "Washington Street, north across Morris Street. The latter is the intersecting thoroughfare in the foreground of both views, one of which shows mainly the east side and the other the west side. The dominant white structure in the east background is the 35 story No. 19 Rector Street Bldg.\n\nApril 28, 1940\nNo's. 1-2\n\nP. L. Sperr\n",

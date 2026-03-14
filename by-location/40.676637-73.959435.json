@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Classon Avenue",
+        "str2": "St. Mark's Avenue"
+      },
+      "source": "Brooklyn: Classon Avenue - St. Mark's Avenue",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "703621f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703621f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec33e720-c533-012f-ca4d-58d385a7bc34",
     "original_title": "Brooklyn: Classon Avenue - St. Mark's Avenue",
     "text": "Classson Avenue (right), at the northwest corner of St. Marks Avenue, showing Public School No. 42.\n\nBoard of Education of the City of New York October 15, 1929\n",

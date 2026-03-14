@@ -2,9 +2,34 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "135th Street (West)",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: 135th Street (West) - Convent Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "715587f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715587f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Art schools",
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6aecd70-c546-012f-7e66-58d385a7bc34",
     "original_title": "Manhattan: 135th Street (West) - Convent Avenue",
     "text": "West 135th Street and Convent Avenue, showing the High School of Music and Art.\nBoard of Education, N.Y.C.\nApril 13, 1926.\n",
@@ -19,9 +44,44 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "135th Street",
+        "str2": "Convent Avenue"
+      },
+      "source": "Manhattan: Convent Avenue - Between 135th and 144th Street (West).",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "731419f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731419f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "City College ; Main Building ; Lewisohn Stadium ; Morris Raphael Cohen Library ; School of Technics and Chemical Arts ; Townsend Harris Hall ; Orphans' Home and Asylum of The Protestant Episcopal Church ; Wadleigh High School Annex ; Gymnasium.",
+        "Manhattan: Convent Avenue - Between 135th and 144th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Jasper Oval Athletic Field",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "City University of New York. City College"
+        ],
+        "topic": [
+          "Athletic fields",
+          "Educational facilities",
+          "Gymnasiums",
+          "Public schools",
+          "Stadiums",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82c1af30-c55f-012f-479c-58d385a7bc34",
     "text": "College of the City of New York:\n\nConvent Ave. (center), north from and including West 135th, to but not including West 144th Streets, showing the grounds and buildings of the College of the City of New York and its surrounding area. Also shown are; Amsterdam Ave. (left), St. Nicholas Terrace (right) and St. Nicholas Ave. (extreme right) below St. Nicholas Park. In the right foreground is seen Wadleigh High School Annex (P.S. No. 93) at the N.E. corner of West 135th Street; directly to the north of same is Jasper Oval Athletic Field, and beyond the latter is the Main Building of the College. Across the northwestern edge of the Main Building is seen the 2-story Library Building, adjoining the N.E. corner of Convent Ave. and St. Nicholas Terrace. On the opposite side of Convent Ave., at the S.W. corner of West 140th Street is the Chemical Building and to the south, the Gymnasium Building at the N.W. corner of West 138th Street. Next in order, in the same direction is Lewisohn Stadium, sloped in the form of an amphitheatre. On Amsterdam Ave. appears Townsend Harris Hall, at the N.E. corner of West 138th Street and north of it the School of Technics and Chemical Arts, at the S.E. corner of West 140th Street. In the center foreground (U shaped building) is the Orphans' Home and Asylum of the Protestant Episcopal Church, on Convent Ave., west side, from West 135th to West 136th Streets.\nAbout 1936.\n\nEwing Galloway.\n",
     "text_source": "gpt",

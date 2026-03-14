@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "President Street"
+      },
+      "source": "Brooklyn: Columbia Street - President Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703734f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703734f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1accce40-c534-012f-6fe4-58d385a7bc34",
     "original_title": "Brooklyn: Columbia Street - President Street",
     "text": "Columbia Street, east side, north from president Street.\n\nAugust 10, 1935.\n\nP. L. Sperr.\n",

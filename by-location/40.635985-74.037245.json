@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "72nd Street",
+        "str2": "Shore Road"
+      },
+      "source": "Brooklyn: Shore Road - 72nd Street",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "706770f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706770f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cea99ca0-c538-012f-179e-58d385a7bc34",
     "original_title": "Brooklyn: Shore Road - 72nd Street",
     "text": "Shore Road, east side, south of 72nd Street, showing a building on land which at one time belonged to John L. Bennett.\n\n1922.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "72nd Street",
+        "str2": "Shore Road"
+      },
+      "source": "Brooklyn: Shore Road - 72nd Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "706769f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706769f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce4f9690-c538-012f-8d25-58d385a7bc34",
     "original_title": "Brooklyn: Shore Road - 72nd Street",
     "text": "Shore Road, north from 72nd Street. One of many apartments erected in this area. It is one of the finest residential places in this Borough.\n\nJune 5, 1931.\n\nP. L. Sperr.\n",

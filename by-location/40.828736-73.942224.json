@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-03-18"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "St. Nicholas Avenue",
+        "str2": "West 152nd Street"
+      },
+      "source": "St. Nicholas Avenue and West 152nd Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "715672f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715672f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16c052a0-c547-012f-445c-58d385a7bc34",
     "original_title": "Manhattan: West 152nd Street - St. Nicholas and Amsterdam Avenues.",
     "text": "West 152nd Street, north side, between St. Nicholas and Amsterdam Avenues, showing a frome house and an old mill stove.\n\nE. P. Chrystie\nMarch 18, 1923\n",
@@ -22,9 +40,29 @@
   {
     "date": "1940-05-19",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "152nd Street",
+        "str2": "St. Nicholas Avenue"
+      },
+      "source": "152nd Street and St. Nicholas Avenue",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "486040",
     "image_url": "https://images.nypl.org/?id=486040&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/526ffe90-c60e-012f-b90f-58d385a7bc34",
     "text": null,
     "text_source": null,

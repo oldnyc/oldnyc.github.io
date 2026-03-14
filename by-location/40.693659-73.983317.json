@@ -2,9 +2,32 @@
   {
     "date": "1927; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704340f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704340f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Business enterprises",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e3ecbf0-c535-012f-517f-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
     "text": "Flatbush Avenue Extension, east side, north from Myrtle Avenue to Duffield Street. The buildings on the extreme right are on the east side of Gold Street. View 2 shows some slight changes that have taken place, especially the rebuilt gasoline station and the removal of the diner. Close observation will also show that occupancy of some of the buildings have changed. The low building directly across the roof of the diner in view 1 and behind the Sobol Bros. sign in view 2 is the Brooklyn Vocational School Annex.\n\nP. L. Sperr\nView 1: October 31, 1927\nView 2: October 11, 1940\n",
@@ -20,9 +43,32 @@
   {
     "date": "1927; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 395,
     "id": "704340f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704340f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Business enterprises",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e3ecbf0-c535-012f-517f-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
     "text": "Flatbush Avenue Extension, east side, north from Myrtle Avenue to Duffield Street. The buildings on the extreme right are on the east side of Gold Street. View 2 shows some slight changes that have taken place, especially the rebuilt gasoline station and the removal of the diner. Close observation will also show that occupancy of some of the buildings have changed. The low building directly across the roof of the diner in view 1 and behind the Sobol Bros. sign in view 2 is the Brooklyn Vocational School Annex.\n\nP. L. Sperr\nView 1: October 31, 1927\nView 2: October 11, 1940\n",
@@ -38,9 +84,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave. Ext.",
+        "str2": "Gold St."
+      },
+      "source": "Flatbush Ave. Ext. and Gold St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984424",
     "image_url": "https://images.nypl.org/?id=3984424&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/235f2b50-c5d7-012f-a87f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +124,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Myrtle Avenue - Flatbush Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "705789f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705789f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Drugstores",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/556afb20-c537-012f-fa92-58d385a7bc34",
     "original_title": "Brooklyn: Myrtle Avenue - Flatbush Avenue",
     "text": "Myrtle Ave., north side, east from Flatbush Ave., Extension.\nJune 29, 1934.\n\nP. L. Sperr.\n",
@@ -71,9 +164,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave Extension",
+        "str2": "Myrtle Ave"
+      },
+      "source": "Flatbush Ave Extension and Myrtle Ave",
+      "technique": "gpt"
+    },
     "height": 407,
     "id": "732391f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732391f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fruit",
+          "Street vendors",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1563a740-c561-012f-2798-58d385a7bc34",
     "text": "Peddlers, of foodstuffs along Myrtle Ave., and the Flatbush Ave., Extension, in Brooklyn.\nJune 29, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -87,9 +204,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave Ext",
+        "str2": "Myrtle Ave"
+      },
+      "source": "Flatbush Ave Ext and Myrtle Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984452",
     "image_url": "https://images.nypl.org/?id=3984452&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b0e9a60-c5d7-012f-42d3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -103,9 +244,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave Ext",
+        "str2": "Myrtle Ave"
+      },
+      "source": "Flatbush Ave Ext and Myrtle Ave",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984453",
     "image_url": "https://images.nypl.org/?id=3984453&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b696500-c5d7-012f-41e3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -119,9 +284,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "704338f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704338f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Millinery",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d561ee0-c535-012f-93bc-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
     "text": "Flatbush Ave. Extension, west side, between Myrtle Ave., (left), and Johnson Street (right). Also shown are Nos. 134-144 Duffield Street, west aide, between Myrtle Ave. (left) and Johnson Street (right).  No. 134 is as the right. The tall building at the right background, is the Wilcox Millinery Building.\nDecember 15, 1936.\nP. L. Sperr.\n",
@@ -136,9 +325,30 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold Street",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Gold Street - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "704649f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704649f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c5189f0-c535-012f-b752-58d385a7bc34",
     "original_title": "Brooklyn: Gold Street - Myrtle Avenue",
     "text": "335-341 Gold Street, east side, near the N.E. corner of Myrtle Avenue, showing Dugal G. Campbell's auto showroom. It was formerly the car barn of the Manhattan Bridge street car line.\n\nView 1: October 11, 1940\nView 2: Sept. 6, 1939\n\nP. L. Sperr\n",
@@ -154,9 +364,30 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gold Street",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Gold Street - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 412,
     "id": "704649f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704649f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c5189f0-c535-012f-b752-58d385a7bc34",
     "original_title": "Brooklyn: Gold Street - Myrtle Avenue",
     "text": "335-341 Gold Street, east side, near the N.E. corner of Myrtle Avenue, showing Dugal G. Campbell's auto showroom. It was formerly the car barn of the Manhattan Bridge street car line.\n\nView 1: October 11, 1940\nView 2: Sept. 6, 1939\n\nP. L. Sperr\n",
@@ -172,9 +403,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "704339f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704339f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Commercial facilities",
+          "Draperies",
+          "Glass industry",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0dc5eb30-c535-012f-9efe-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Myrtle Avenue",
     "text": "Flatbush Avenue Extension, at Myrtle Avenue, showing the Subway theatre.\n\nP. L. Sperr\nAugust 22, 1941\n",
@@ -189,9 +444,32 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Myrtle Avenue"
+      },
+      "source": "Brooklyn: Myrtle Avenue - Flatbush Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "705788f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705788f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5520a400-c537-012f-78bd-58d385a7bc34",
     "original_title": "Brooklyn: Myrtle Avenue - Flatbush Avenue",
     "text": "P.L. Sperr, photographer  5-30-1942",

@@ -2,9 +2,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx and Pelham Parkway",
+        "str2": "Stillwell Avenue"
+      },
+      "source": "Bronx and Pelham Parkway and Stillwell Avenue",
+      "technique": "gpt"
+    },
     "height": 429,
     "id": "700590f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700590f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York, New Haven, and Hartford Railroad Company"
+        ],
+        "topic": [
+          "Railroad tracks -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a9c0080-c52f-012f-7e70-58d385a7bc34",
     "text": "Bronx and Pelham Parkway, east from about Stillwell Ave., across the bridge over the tracks of the New York, New Haven and Hartford Railroad.\n\nAugust 3, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

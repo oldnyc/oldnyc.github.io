@@ -2,9 +2,29 @@
   {
     "date": "1919-07-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1435,
+        "street": "Amsterdam Avenue"
+      },
+      "source": "Amsterdam Avenue #1435",
+      "technique": "title-address"
+    },
     "height": 441,
     "id": "1507288-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507288-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9a82020-c5cd-012f-3577-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "131st Street",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: Amsterdam Avenue - 131st Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "716324f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716324f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ef3e2e0-c548-012f-bdc6-58d385a7bc34",
     "original_title": "Manhattan: Amsterdam Avenue - 131st Street",
     "text": "P.L. Speer, photographer   6-15-1942",

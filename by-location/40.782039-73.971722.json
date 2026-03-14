@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1914"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 81st Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714607f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714607f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e84e240-c545-012f-f512-58d385a7bc34",
     "text": "3 West 81st Street, at and adjoining the N.W. corner of Central Park West.\n1914.\n",
     "text_source": "gpt",
@@ -21,9 +39,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "718497f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/718497f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8476eaf0-c54b-012f-3cb1-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nThe Beresford, Central Park West, west side, from 81st to 82nd Streets. In foreground is shown construction work on Eighth Avenue subway.\nJuly 13, 1927.\n\nP. L. Sperr, Photographer.\n\n(2)\nClearing after demolition of the Beresford. A new building with the same name will be erected on the site.\nOctober 28, 1928.\n\nP. L. Sperr, Photographer.\n",
@@ -38,9 +77,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718497f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718497f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8476eaf0-c54b-012f-3cb1-58d385a7bc34",
     "text": "(1)\nThe Beresford, Central Park West, west side, from 81st to 82nd Streets. In foreground is shown construction work on Eighth Avenue subway.\nJuly 13, 1927.\n\nP. L. Sperr, Photographer.\n\n(2)\nClearing after demolition of the Beresford. A new building with the same name will be erected on the site.\nOctober 28, 1928.\n\nP. L. Sperr, Photographer.\n",
     "text_source": "gpt",
@@ -54,9 +114,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 81st Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "714608f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714608f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ef43c50-c545-012f-ea96-58d385a7bc34",
     "text": "West 81st Street, at, adjoining and west of the N.W. corner of Central Park West (right), as photographed from the grounds surrounding the Museum of Natural History. Shown are several new apartment buildings and the older, tho more distinctive Hotel Beresford. The latter is at Central Park West.\n\nJuly, 1931\nNo's. 1-2\n\nGeorge L. Balgue, photo\n",
     "text_source": "gpt",
@@ -70,9 +155,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 81st Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 460,
     "id": "714608f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714608f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ef43c50-c545-012f-ea96-58d385a7bc34",
     "text": "West 81st Street, at, adjoining and west of the N.W. corner of Central Park West (right), as photographed from the grounds surrounding the Museum of Natural History. Shown are several new apartment buildings and the older, tho more distinctive Hotel Beresford. The latter is at Central Park West.\n\nJuly, 1931\nNo's. 1-2\n\nGeorge L. Balgue, photo\n",
     "text_source": "gpt",
@@ -86,9 +196,48 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Central Park West"
+      },
+      "source": "81st Street and Central Park West",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Lake",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "718250f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718250f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Beresford from Central Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1dff0650-c54b-012f-aeb0-58d385a7bc34",
     "text": "(1)\nCentral Park: The Lake, northern end, a view northwest towards\nthe Hotel Beresford at 81st Street.\nMay 17, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nMay 17, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -102,9 +251,48 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Central Park West"
+      },
+      "source": "81st Street and Central Park West",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "The Lake",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "718250f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718250f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Beresford from Central Park."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1dff0650-c54b-012f-aeb0-58d385a7bc34",
     "text": "(1)\nCentral Park: The Lake, northern end, a view northwest towards\nthe Hotel Beresford at 81st Street.\nMay 17, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nMay 17, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -118,9 +306,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Central Park West",
+        "str2": "West 81st Street"
+      },
+      "source": "Manhattan: West 81st Street - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 459,
     "id": "1558333",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558333.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hayden Planetarium"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "American Museum of Natural History"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fa565ed0-c5ec-012f-c880-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -134,9 +352,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718490f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718490f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81ca0ad0-c54b-012f-80ba-58d385a7bc34",
     "text": "The Beresford Apartments\nHans W. Hannau, photographer\n#1637\n",
     "text_source": "gpt",
@@ -150,9 +392,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718491f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718491f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/823feb50-c54b-012f-5dc5-58d385a7bc34",
     "text": "The Beresford Apartments\nHans W. Hannau, photographer\n#1326\n",
     "text_source": "gpt",
@@ -166,9 +432,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "718492f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/718492f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)",
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82a8fd80-c54b-012f-40a9-58d385a7bc34",
     "rotation": 90,
     "text": "(1) The Beresford Apartments located at Central Park West between W.81st and 82nd Streets, from a view looking Westwards across the Park.\n\n(2) Fifth Avenue looking across Central Park from the East Side, in the evening sun.\n\n(3) The Municipal Building at Park Row and Centre Street, from St. Paul's Chapel on Broadway. (Fulton to Vesey Streets.)\n\nHannan, Photographer,\n416 W.57th Street,\nNew York City.\n\nNo date.\n",
@@ -183,9 +478,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718492f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718492f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)",
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82a8fd80-c54b-012f-40a9-58d385a7bc34",
     "text": "(1) The Beresford Apartments located at Central Park West between W.81st and 82nd Streets, from a view looking Westwards across the Park.\n\n(2) Fifth Avenue looking across Central Park from the East Side, in the evening sun.\n\n(3) The Municipal Building at Park Row and Centre Street, from St. Paul's Chapel on Broadway. (Fulton to Vesey Streets.)\n\nHannan, Photographer,\n416 W.57th Street,\nNew York City.\n\nNo date.\n",
     "text_source": "gpt",
@@ -199,9 +523,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "81st Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 81st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718492f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718492f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Beresford Hotel (New York, N.Y.)",
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/82a8fd80-c54b-012f-40a9-58d385a7bc34",
     "text": "(1) The Beresford Apartments located at Central Park West between W.81st and 82nd Streets, from a view looking Westwards across the Park.\n\n(2) Fifth Avenue looking across Central Park from the East Side, in the evening sun.\n\n(3) The Municipal Building at Park Row and Centre Street, from St. Paul's Chapel on Broadway. (Fulton to Vesey Streets.)\n\nHannan, Photographer,\n416 W.57th Street,\nNew York City.\n\nNo date.\n",
     "text_source": "gpt",

@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "4th Street",
+        "str2": "Avenue B"
+      },
+      "source": "Manhattan: 4th Street - Avenue B",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710888f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710888f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75415890-c53f-012f-92ac-58d385a7bc34",
     "original_title": "Manhattan: 4th Street - Avenue B",
     "text": "269 East 4th Street, north side between Avenue B, and Avenue C, showing P.S. 105.\n\nBoard of Education, N.Y.C.\n\n1920.\n",

@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pitkin Ave.",
+        "str2": "Watkins St."
+      },
+      "source": "Brooklyn: Watkins St. - Pitkin Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707330f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707330f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8e665f0-c539-012f-9fa6-58d385a7bc34",
     "original_title": "Brooklyn: Watkins St. - Pitkin Ave.",
     "text": "P.L. Sperr, photographer  6-25-1942",

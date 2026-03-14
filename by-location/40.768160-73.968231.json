@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 780,
+        "street": "Madison Avenue"
+      },
+      "source": "780 Madison Avenue",
+      "technique": "gpt"
+    },
     "height": 542,
     "id": "417189",
     "image_url": "https://images.nypl.org/?id=417189&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0e374c0-c611-012f-47b1-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Madison Avenue",
+        "str2": "Sixty-sixth Street"
+      },
+      "source": "Madison Avenue and Sixty-sixth Street",
+      "technique": "gpt"
+    },
     "height": 535,
     "id": "417325",
     "image_url": "https://images.nypl.org/?id=417325&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d91602b0-c611-012f-d1eb-58d385a7bc34",
     "text": null,
     "text_source": null,

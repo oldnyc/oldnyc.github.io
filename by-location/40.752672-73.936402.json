@@ -2,9 +2,47 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "28th Street",
+        "str2": "40th Avenue"
+      },
+      "source": "28th Street and 40th Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "28th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "28th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "725169f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725169f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/050dbcb0-c556-012f-b231-58d385a7bc34",
     "original_title": "Queens: 28th Street - 11th Avenue",
     "text": "28th Street, at the N.E. corner of 40th Avenue, showing the rear of St. Patricks Roman Catholic School, seen from 40th Avenue.\n\nP. L. Sperr\nMarch 23, 1932\n",

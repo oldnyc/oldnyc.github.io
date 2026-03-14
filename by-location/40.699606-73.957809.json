@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-04-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Lynch St.",
+        "str2": "Wallabout St."
+      },
+      "source": "Brooklyn: Wallabout St. - Lynch St.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707244f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707244f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/861ab2d0-c539-012f-8958-58d385a7bc34",
     "original_title": "Brooklyn: Wallabout St. - Lynch St.",
     "text": "Intersection of Wallabout Street (right) and Lynch Street, looking north. The New York and Brooklyn Casket Company occupies the large factory.\n\nP. L. Sperr\n\nApril 12, 1941\n",

@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "1st Street",
+        "str2": "27th Avenue"
+      },
+      "source": "Queens: 1st Street - 27th Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "724952f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724952f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Stonecutting"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5078ce0-c555-012f-1b2a-58d385a7bc34",
     "original_title": "Queens: 1st Street - 27th Avenue",
     "text": "1st Street, at the S. W. corner of 27th Avenue (formerly Franklin Avenue), showing two old frame structures, part of the R. Reid and Company Marble and Mosaic Works of 1909.\nP. L. Sperr  March 13, 1931\n",
@@ -19,9 +43,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "1st Street",
+        "str2": "27th Avenue"
+      },
+      "source": "Queens: 27th Avenue - 1st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725148f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725148f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe003d90-c555-012f-02f2-58d385a7bc34",
     "original_title": "Queens: 27th Avenue - 1st Street",
     "text": "27th Ave. at First St. nos. 4 & 12",
@@ -36,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "1st Street",
+        "str2": "27th Avenue"
+      },
+      "source": "Queens: 27th Avenue - 1st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725148f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725148f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe003d90-c555-012f-02f2-58d385a7bc34",
     "original_title": "Queens: 27th Avenue - 1st Street",
     "text": "27th Ave. at First St. nos. 4 & 12",
@@ -53,9 +113,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "1st Street",
+        "str2": "27th Avenue"
+      },
+      "source": "Queens: 27th Avenue - 1st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725149f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725149f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe64c830-c555-012f-6c4e-58d385a7bc34",
     "original_title": "Queens: 27th Avenue - 1st Street",
     "text": "27th Ave. at First St. no.14",

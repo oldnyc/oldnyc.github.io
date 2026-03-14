@@ -2,9 +2,30 @@
   {
     "date": "1941-06-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Auburn Place",
+        "str2": "North Portland Avenue"
+      },
+      "source": "Auburn Place and North Portland Avenue",
+      "technique": "gpt"
+    },
     "height": 409,
     "id": "1509653-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509653-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b6a55e30-c5cd-012f-207e-58d385a7bc34",
     "text": null,
     "text_source": null,

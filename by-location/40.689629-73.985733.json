@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-06-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hoyt Street",
+        "str2": "Livingston Street"
+      },
+      "source": "Brooklyn: Livingston Street - Hoyt Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "705483f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705483f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dd93ccb0-c536-012f-5e07-58d385a7bc34",
     "original_title": "Brooklyn: Livingston Street - Hoyt Street",
     "text": "Livingston Street, north side, east from Hoyt Street.\n\nJune 1, 1929.\n\nP. L. Sperr.\n",

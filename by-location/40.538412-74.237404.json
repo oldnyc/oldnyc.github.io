@@ -2,9 +2,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Sharrotts Road"
+      },
+      "source": "Richmond: Arthur Kill Road - Sharrotts Road",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "728454f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728454f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc337d20-c55a-012f-01ef-58d385a7bc34",
     "original_title": "Richmond: Arthur Kill Road - Sharrotts Road",
     "text": "Arthur Kill Road (right, telephoae poles thereon), north of Sharrotts Road. Shown, in a northeasterly direction from the clay pit on the west side of Arthur Kill Road, are the Charleston Reformed Church (left), Public School No. 4 (tall building) and\nthe old Storer house on the extreme right.\nMay 6, 1930\nP. L. Sperr\n(2)\nAnother view in the same direction, across the clay pit\nnear Sharrotts Road.\nMay 6, 1930\nP. L. Sperr\n",
@@ -19,9 +44,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Sharrotts Road"
+      },
+      "source": "Richmond: Arthur Kill Road - Sharrotts Road",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "728454f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728454f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc337d20-c55a-012f-01ef-58d385a7bc34",
     "original_title": "Richmond: Arthur Kill Road - Sharrotts Road",
     "text": "Arthur Kill Road (right, telephoae poles thereon), north of Sharrotts Road. Shown, in a northeasterly direction from the clay pit on the west side of Arthur Kill Road, are the Charleston Reformed Church (left), Public School No. 4 (tall building) and\nthe old Storer house on the extreme right.\nMay 6, 1930\nP. L. Sperr\n(2)\nAnother view in the same direction, across the clay pit\nnear Sharrotts Road.\nMay 6, 1930\nP. L. Sperr\n",
@@ -36,9 +86,34 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Sharrotts Road"
+      },
+      "source": "Richmond: Arthur Kill Road - Sharrotts Road",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "728454f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728454f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc337d20-c55a-012f-01ef-58d385a7bc34",
     "original_title": "Richmond: Arthur Kill Road - Sharrotts Road",
     "text": "Arthur Kill Road (right, telephoae poles thereon), north of Sharrotts Road. Shown, in a northeasterly direction from the clay pit on the west side of Arthur Kill Road, are the Charleston Reformed Church (left), Public School No. 4 (tall building) and\nthe old Storer house on the extreme right.\nMay 6, 1930\nP. L. Sperr\n(2)\nAnother view in the same direction, across the clay pit\nnear Sharrotts Road.\nMay 6, 1930\nP. L. Sperr\n",
@@ -56,9 +131,35 @@
     "dates_from_text": [
       "1930-06-01"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Sharrotts Road"
+      },
+      "source": "Arthur Kill Road and Sharrotts Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Arthur Mill Road",
+        "str2": "Sharrotts Road",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "729647f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729647f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a4143550-c55c-012f-bac4-58d385a7bc34",
     "original_title": "Richmond: Sharrotts Road - Arthur Mill Road",
     "text": "Sharrotts Road, adjoining the S.E. corner of Arthur Kill Road. Note the tall outside chimney, on the right.\n\nJune 1, 1930\n\nP. L. Sperr\n",
@@ -73,9 +174,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Sharrotts Road"
+      },
+      "source": "Richmond: Arthur Kill Road - Sharrotts Road",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "728455f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728455f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Petroleum industry",
+          "Public schools",
+          "Tankers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cca24540-c55a-012f-e23c-58d385a7bc34",
     "original_title": "Richmond: Arthur Kill Road - Sharrotts Road",
     "text": "Arthur Kill Road (right, telerhone poles thereon), north of Sharrotts Road. The view is in a northeasterly direction across a clay pit on the west side of Arthur Kill Road and shows the Socony oil tanks lining the Arthur Fill shore. That area is known as Soconyport. AAso shown is the Charleston Reformed Church (center) and\nPublic School No. 4 (right).\nMay 12, 1937\nL. Sperr\n(2)\nViewing in a northwesterly direction toward Soconyport across\nthe clay pit.\nMay 12, 1937\nP. L. Sperr\n",
@@ -90,9 +218,36 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Arthur Kill Road",
+        "str2": "Sharrotts Road"
+      },
+      "source": "Richmond: Arthur Kill Road - Sharrotts Road",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "728455f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728455f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Petroleum industry",
+          "Public schools",
+          "Tankers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cca24540-c55a-012f-e23c-58d385a7bc34",
     "original_title": "Richmond: Arthur Kill Road - Sharrotts Road",
     "text": "Arthur Kill Road (right, telerhone poles thereon), north of Sharrotts Road. The view is in a northeasterly direction across a clay pit on the west side of Arthur Kill Road and shows the Socony oil tanks lining the Arthur Fill shore. That area is known as Soconyport. AAso shown is the Charleston Reformed Church (center) and\nPublic School No. 4 (right).\nMay 12, 1937\nL. Sperr\n(2)\nViewing in a northwesterly direction toward Soconyport across\nthe clay pit.\nMay 12, 1937\nP. L. Sperr\n",

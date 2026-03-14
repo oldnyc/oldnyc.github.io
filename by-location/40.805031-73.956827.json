@@ -2,9 +2,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (West)",
+        "str2": "Manhattan Avenue"
+      },
+      "source": "Manhattan: 116th Street (West) - Manhattan Avenue",
+      "technique": "title-cross"
+    },
     "height": 491,
     "id": "715144f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715144f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4b364ef0-c546-012f-940b-58d385a7bc34",
     "original_title": "Manhattan: 116th Street (West) - Manhattan Avenue",
     "text": "West 116th Street, east from but not including Manhattan Ave., showing the roadway after the removal of street car tracks. Note the Sixth and Ninth Aves. Elevated Lines on Eighth Ave. at this point.\n\nJanuary 4, 1937.\n\nW.P.A. Photo.\nFederal Art Project.\n",

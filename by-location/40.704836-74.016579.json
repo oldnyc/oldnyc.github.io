@@ -2,9 +2,41 @@
   {
     "date": "1889",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Battery Place - West Street",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "716573f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716573f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Welles Building (New York, N.Y.)"
+        ],
+        "temporal": [
+          "1800-1899"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Parks",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75cf1cd0-c548-012f-d64e-58d385a7bc34",
     "original_title": "Manhattan: Battery Place - West Street",
     "text": "Battery Place, east from West to State Streets and showing buildings on the north side of same which at this date contained numerous rookeries, the result of their proximity to Castle Garden; the immigrant landing depot. The latter is in Battery Park; which appears partially on the right. Prominent edifices are (from left to right) the Standard Oil Building; the Welles Building; the Washington Building; The United States Custom House (flag atop) and the Battery Park Building. Note at Greenwich Street the elevated station of the first elevated line in New York; this today (1937) is used as a portion of the Sixth and Ninth Ave. lines.\n\nAbout 1889.\n\nBrown Brothers.\n",
@@ -19,9 +51,42 @@
   {
     "date": "1905; 1911; 1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716531f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716531f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Battery Park: A view northward toward building outline at Battery Place, extending from West Street on the left to Broadway on the right..."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Bowling Green Offices Building (New York, N.Y.) ",
+          "Singer Building (New York, N.Y.)",
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6110ffa0-c548-012f-3521-58d385a7bc34",
     "text": "Battery Park: A northward view towards its building outline at Battery Place, extending from West Street on the left to Broadway on the right.  View No. 1 shows the outstanding structures identified as the Whitehall, the Washington, the Bowling Green, the U.S. Customs House, the Battery Park and the Chesebrough buildings.  View No. 21 includes the annex to the Whitehall Building and the West Street building.  Note the Singer Tower at the right.  At the right margin of View No. 3 is the Standard Oil Building.  The Downtown Athletic Club and an adjoining structure appear in No. 4.\n\n1: 1905\n2: 1911\n3: 1929, august\n4: 1930, July\n\nGeorge L. Balgue, photo\n",
     "text_source": "site",
@@ -38,9 +103,42 @@
   {
     "date": "1905; 1911; 1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 469,
     "id": "716531f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716531f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Battery Park: A view northward toward building outline at Battery Place, extending from West Street on the left to Broadway on the right..."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Bowling Green Offices Building (New York, N.Y.) ",
+          "Singer Building (New York, N.Y.)",
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6110ffa0-c548-012f-3521-58d385a7bc34",
     "text": "Battery Park: A northward view towards its building outline at Battery Place, extending from West Street on the left to Broadway on the right.  View No. 1 shows the outstanding structures identified as the Whitehall, the Washington, the Bowling Green, the U.S. Customs House, the Battery Park and the Chesebrough buildings.  View No. 21 includes the annex to the Whitehall Building and the West Street building.  Note the Singer Tower at the right.  At the right margin of View No. 3 is the Standard Oil Building.  The Downtown Athletic Club and an adjoining structure appear in No. 4.\n\n1: 1905\n2: 1911\n3: 1929, august\n4: 1930, July\n\nGeorge L. Balgue, photo\n",
     "text_source": "site",
@@ -57,9 +155,42 @@
   {
     "date": "1905; 1911; 1929; 1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 475,
     "id": "716531f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716531f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Battery Park: A view northward toward building outline at Battery Place, extending from West Street on the left to Broadway on the right..."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Bowling Green Offices Building (New York, N.Y.) ",
+          "Singer Building (New York, N.Y.)",
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6110ffa0-c548-012f-3521-58d385a7bc34",
     "text": "Battery Park: A northward view towards its building outline at Battery Place, extending from West Street on the left to Broadway on the right.  View No. 1 shows the outstanding structures identified as the Whitehall, the Washington, the Bowling Green, the U.S. Customs House, the Battery Park and the Chesebrough buildings.  View No. 21 includes the annex to the Whitehall Building and the West Street building.  Note the Singer Tower at the right.  At the right margin of View No. 3 is the Standard Oil Building.  The Downtown Athletic Club and an adjoining structure appear in No. 4.\n\n1: 1905\n2: 1911\n3: 1929, august\n4: 1930, July\n\nGeorge L. Balgue, photo\n",
     "text_source": "site",
@@ -76,9 +207,30 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "724545f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724545f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/179d8a10-c555-012f-137d-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "West Street, Battery Place to Morris Street (Before Reconstruction)\nJune 9, 1918\n",
@@ -93,9 +245,41 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 486,
     "id": "734474f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734474f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Aquarium ; Whitehall Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Aquariums",
+          "Fire stations",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55d3a500-c564-012f-027a-58d385a7bc34",
     "text": "North (Hudson) River, shore and skyline, at Battery Park, showing the circular New York Aquarium, the fireboat station of the New York Fire Department (left) and Lower Manhattan's skyline. The tall edifice on the left is the Whitehall Building, at the N.E. corner of Battery Place and West Street.\n\nAbout 1924.\n\nNew York Edison Company.\n",
     "text_source": "gpt",
@@ -114,9 +298,27 @@
       "1928-03-23",
       "1929-07-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "724544f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724544f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/173a6e20-c555-012f-da04-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "rotation": 90,
@@ -139,9 +341,27 @@
       "1928-03-23",
       "1929-07-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724544f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724544f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/173a6e20-c555-012f-da04-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "(1)\nWest Street, east side, north from but not including Battery Place, to and including Morris Street.\nMay 5, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same view, from a different angle.\nMarch 23, 1928.\n\nP. L. Sperr.\n\n(3)\nA part of the same view, at a later date.\nJuly 3, 1929.\n\nP. L. Sperr.\n",
@@ -163,9 +383,27 @@
       "1928-03-23",
       "1929-07-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "724544f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/724544f-c.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/173a6e20-c555-012f-da04-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "rotation": 90,
@@ -183,9 +421,36 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: Battery Place - West Street",
+      "technique": "title-cross"
+    },
     "height": 500,
     "id": "716571f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716571f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74f03500-c548-012f-9d86-58d385a7bc34",
     "original_title": "Manhattan: Battery Place - West Street",
     "text": "Battery place, north side, east from West Street, to Broadway, as seen from across Battery Park. On the left, appears the Whitehall Building.\n\nFebruary 29, 1928.\n\nNew York Edison Co.\n",
@@ -200,9 +465,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724538f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724538f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14ed3580-c555-012f-e993-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "West Street, east side, north from Battery Park (South Ferry). Also shown is Battery Place, north side, east from and including West, to Washington Streets. Prominently shown, is the Whitehall Building (Nos. 1-14 West Street); said building consisting of 2 units, 20 and 32 stories in height.\n\nFebruary 29, 1928.\n\nNew York Edison Company\n",
@@ -217,9 +503,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724541f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724541f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/160af260-c555-012f-6738-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "15 to 21 West Street, east side, between Battery Place and Morris Street.\n\nJuly 3, 1929.\n\nP. L. Sperr.\n",
@@ -234,9 +542,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "730322f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730322f-a.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Standard Oil Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cca46e70-c55d-012f-f9dc-58d385a7bc34",
     "rotation": 90,
     "text": "A general view northward (in No. 1) and eastward (No's 2 and 3) from the Whitehall Building at Battery Place and West Street, to show (in the first instance) the roof tops of the Syrian quarter and the office structures surrounding same. The latter are grouped around Bowling Green with the pyramidal Standard Oil Building doubly depicted. Beyond is the East River and the Borough of Brooklyn. In the background of No. 1 are the Telephone Company Building on West Street and the Woolworth and Singer Buildings on Broadway.\n\nJune 20, 1929\nViews 1,2 and 3\n\nP. L. Sperr\n\nNo. 17 Battery P.\nof\nNo. 1 West St\n",
@@ -251,9 +579,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730322f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730322f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Standard Oil Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cca46e70-c55d-012f-f9dc-58d385a7bc34",
     "text": "A general view northward (in No. 1) and eastward (No's 2 and 3) from the Whitehall Building at Battery Place and West Street, to show (in the first instance) the roof tops of the Syrian quarter and the office structures surrounding same. The latter are grouped around Bowling Green with the pyramidal Standard Oil Building doubly depicted. Beyond is the East River and the Borough of Brooklyn. In the background of No. 1 are the Telephone Company Building on West Street and the Woolworth and Singer Buildings on Broadway.\n\nJune 20, 1929\nViews 1,2 and 3\n\nP. L. Sperr\n\nNo. 17 Battery P.\nof\nNo. 1 West St\n",
     "text_source": "gpt",
@@ -267,9 +615,29 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "730322f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730322f-c.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Standard Oil Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cca46e70-c55d-012f-f9dc-58d385a7bc34",
     "rotation": 90,
     "text": "A general view northward (in No. 1) and eastward (No's 2 and 3) from the Whitehall Building at Battery Place and West Street, to show (in the first instance) the roof tops of the Syrian quarter and the office structures surrounding same. The latter are grouped around Bowling Green with the pyramidal Standard Oil Building doubly depicted. Beyond is the East River and the Borough of Brooklyn. In the background of No. 1 are the Telephone Company Building on West Street and the Woolworth and Singer Buildings on Broadway.\n\nJune 20, 1929\nViews 1,2 and 3\n\nP. L. Sperr\n\nNo. 17 Battery P.\nof\nNo. 1 West St\n",
@@ -287,9 +655,27 @@
     "dates_from_text": [
       "1930-10"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724546f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724546f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17e8a960-c555-012f-e374-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "West Street, east side, south of and including Morris Street, to, but not including Battery Place.\n\nAbout October 1930.\n\nAlbert Rothschild,\n",
@@ -304,9 +690,31 @@
   {
     "date": "1931; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724540f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724540f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15b97220-c555-012f-4089-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "(1)\nWest Street, north from and including Battery Place.\n\nJuly 12, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from a point further southward; and showing a portion of the Aquarium on the right. Prominently shown, are the 2 units of the Whitehall Building (N.E. corner of Battery Place).\n\nOctober 7, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same as No. 2.\n\nAugust 28, 1932.\n\nP. L. Sperr.\n",
@@ -323,9 +731,31 @@
   {
     "date": "1931; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724540f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724540f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15b97220-c555-012f-4089-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "(1)\nWest Street, north from and including Battery Place.\n\nJuly 12, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from a point further southward; and showing a portion of the Aquarium on the right. Prominently shown, are the 2 units of the Whitehall Building (N.E. corner of Battery Place).\n\nOctober 7, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same as No. 2.\n\nAugust 28, 1932.\n\nP. L. Sperr.\n",
@@ -342,9 +772,31 @@
   {
     "date": "1931; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724540f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724540f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15b97220-c555-012f-4089-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "(1)\nWest Street, north from and including Battery Place.\n\nJuly 12, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, as seen from a point further southward; and showing a portion of the Aquarium on the right. Prominently shown, are the 2 units of the Whitehall Building (N.E. corner of Battery Place).\n\nOctober 7, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same as No. 2.\n\nAugust 28, 1932.\n\nP. L. Sperr.\n",
@@ -361,9 +813,38 @@
   {
     "date": "1932; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716562f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716562f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Airships",
+          "Athletic clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6dc15700-c548-012f-e48e-58d385a7bc34",
     "text": "Battery park: A northwestward view towards Battery Place and West Street and showing upon the latter the two units of the Whitehall Building; the Downtown Athletic Club, and the United Fruit Building. This is a set of 3 views; No. 3 being photographed from the South Ferry Terminal of the Elevated Lines. Buildings appearing on the right of the latter are on State Street.\n\nJuly 23, 1932.\nView 2: -October 3, 1933.\nView 3: -May 25, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -379,9 +860,38 @@
   {
     "date": "1932; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716562f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716562f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Airships",
+          "Athletic clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6dc15700-c548-012f-e48e-58d385a7bc34",
     "text": "Battery park: A northwestward view towards Battery Place and West Street and showing upon the latter the two units of the Whitehall Building; the Downtown Athletic Club, and the United Fruit Building. This is a set of 3 views; No. 3 being photographed from the South Ferry Terminal of the Elevated Lines. Buildings appearing on the right of the latter are on State Street.\n\nJuly 23, 1932.\nView 2: -October 3, 1933.\nView 3: -May 25, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -397,9 +907,38 @@
   {
     "date": "1932; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716562f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716562f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Airships",
+          "Athletic clubs",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6dc15700-c548-012f-e48e-58d385a7bc34",
     "text": "Battery park: A northwestward view towards Battery Place and West Street and showing upon the latter the two units of the Whitehall Building; the Downtown Athletic Club, and the United Fruit Building. This is a set of 3 views; No. 3 being photographed from the South Ferry Terminal of the Elevated Lines. Buildings appearing on the right of the latter are on State Street.\n\nJuly 23, 1932.\nView 2: -October 3, 1933.\nView 3: -May 25, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -415,9 +954,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "716491f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716491f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50c5af10-c548-012f-6cc1-58d385a7bc34",
     "text": "(1)\nBattery Park: A northward view of the western half showing the S.S. \"Tourist\" at the Sea Wall.  Buildings at the northern confine are on the north side of Battery Place from West Street (left) to Whitehall Street (right). Note the Aquarium on the extreme left.\nJuly 10, 1937.\nP.L. Sperr.\n\n(2)\nThe same, slightly in towards shore.\nJuly 4, 1937.\nP.L. Sperr.\n",
     "text_source": "site",
@@ -431,9 +996,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "716491f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716491f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50c5af10-c548-012f-6cc1-58d385a7bc34",
     "text": "(1)\nBattery Park: A northward view of the western half showing the S.S. \"Tourist\" at the Sea Wall.  Buildings at the northern confine are on the north side of Battery Place from West Street (left) to Whitehall Street (right). Note the Aquarium on the extreme left.\nJuly 10, 1937.\nP.L. Sperr.\n\n(2)\nThe same, slightly in towards shore.\nJuly 4, 1937.\nP.L. Sperr.\n",
     "text_source": "site",
@@ -447,9 +1038,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "716503f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/716503f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Ellis Island Immigration Station (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Parks",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55cae9b0-c548-012f-aca3-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nBattery Park: The U.S. Barge Office and Ellis Island Ferry Building, as viewed eastward.  On the right appears the skyline of Brooklyn.\nSeptember 6, 1937.\nP.L. Sperr.\n\n(2)\nAnother view of the same structure; this time in a northward direction and showing across the roof of same, structures on West Street.\nOctober 1937.\nP.L. Sperr.\n",
@@ -464,9 +1084,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "716503f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716503f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Ellis Island Immigration Station (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Parks",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55cae9b0-c548-012f-aca3-58d385a7bc34",
     "text": "(1)\nBattery Park: The U.S. Barge Office and Ellis Island Ferry Building, as viewed eastward.  On the right appears the skyline of Brooklyn.\nSeptember 6, 1937.\nP.L. Sperr.\n\n(2)\nAnother view of the same structure; this time in a northward direction and showing across the roof of same, structures on West Street.\nOctober 1937.\nP.L. Sperr.\n",
     "text_source": "site",
@@ -480,9 +1129,38 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Battery Place and West Street",
+      "technique": "gpt"
+    },
     "height": 479,
     "id": "716545f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716545f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Aquarium ; Whitehall Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/708fe1e0-c548-012f-dee5-58d385a7bc34",
     "text": "Battery Park: Its Embarcadero and moored excursion steamers. Through the center appears a glimpse of the Aquarium. The Whitehall Bldg. is at the northwesterly confine of the Park, at Battery Place and West St. A section of Jersey City is at the left margin, separated from New York City by the North(Hudson) River.\n1939\nAlexander Alland\n",
     "text_source": "site",
@@ -496,9 +1174,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724539f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724539f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15489dc0-c555-012f-1c3b-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "West Street, north from Battery Place, showing an incisive view of this marginal thoroughfare with buildings lining the easterly side of same and facing North (Hudson) River piers.\n\nTo the right in View No. 1 are the Whitehall, the Downtown Athletic Club and the United Fruit Buildings. The prominent center structure is the 29 story N. Y. Telephone Building. View No. 2 shows only the pier fronts and the cars parked outside of same.\n\nOctober 18, 1939\nViews: 1-2\n\nP. L. Sperr\n",
@@ -513,9 +1216,34 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "724539f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724539f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15489dc0-c555-012f-1c3b-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "West Street, north from Battery Place, showing an incisive view of this marginal thoroughfare with buildings lining the easterly side of same and facing North (Hudson) River piers.\n\nTo the right in View No. 1 are the Whitehall, the Downtown Athletic Club and the United Fruit Buildings. The prominent center structure is the 29 story N. Y. Telephone Building. View No. 2 shows only the pier fronts and the cars parked outside of same.\n\nOctober 18, 1939\nViews: 1-2\n\nP. L. Sperr\n",
@@ -530,9 +1258,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724542f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724542f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1676b1c0-c555-012f-0d5d-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "Herald Tribune Editorial Art Dept.\nView from Park\nDowntown Athletic Club\n19 West Street\nNew York City\nby Duncanhunter- Consulting Architect and Adviser to Club.\nNo date.\n",
@@ -547,9 +1296,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Battery Place",
+        "str2": "West Street"
+      },
+      "source": "Manhattan: West Street - Battery Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724543f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724543f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Whitehall Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Athletic clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16e34300-c555-012f-8d57-58d385a7bc34",
     "original_title": "Manhattan: West Street - Battery Place",
     "text": "CAPTION FOR PICTURE\n\nA novel example of the set-back design of one building helping its neighbor----the tall downtown athletic club in the center and the thirty one story office building known as 21 West St. at the right, showing how the office structure was enabled to enjoy southern exposure on both the Washington st. and West St. sides of the site by virtue of the adjoining club building being set back from its building line at the street level. 'thus the office Building enjoys the unique position of an isolated structure with its Washington, Morris and West St. Frontages affording it light from all four directions. The Building at the left is the Whitehall Building at Battery Place.\n\nNo date.\n",

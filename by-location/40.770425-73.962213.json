@@ -2,9 +2,33 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 72nd Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714367f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714367f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2137f320-c545-012f-5f96-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street (East) - Lexington Avenue",
     "text": "158-160 East 72nd Street, adjoining and east of the S.E. corner of Lexington Avenue.\n\nAbout 1922.\n\nGift of E. M. Jenks.\n",
@@ -19,9 +43,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 72nd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721052f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721052f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7aad88e0-c54f-012f-fa98-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 72nd Street",
     "text": "Lexington Avenue at N.W. corner of 72nd Street. 1922.",
@@ -39,9 +84,27 @@
     "dates_from_text": [
       "1927-08-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "72nd Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 72nd Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714366f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714366f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/20c6d270-c545-012f-b1b6-58d385a7bc34",
     "original_title": "Manhattan: 72nd Street (East) - Lexington Avenue",
     "text": "158-162 East 72nd Street, adjoining and east of the S.E. corner of Lexington Avenue. 160 is the Kingdom Gould residence, which has recently been sold. The three houses are to be replaced in 1935 by an apartment building.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n",

@@ -2,9 +2,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 519,
+        "street": "Bay Street"
+      },
+      "source": "519 Bay Street",
+      "technique": "gpt"
+    },
     "height": 392,
     "id": "104946",
     "image_url": "https://images.nypl.org/?id=104946&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/048114c0-c5ef-012f-ff62-58d385a7bc34",
     "text": null,
     "text_source": null,

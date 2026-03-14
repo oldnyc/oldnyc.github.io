@@ -2,9 +2,28 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Esplanade",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Bronx: Lafayette Avenue - Esplanade",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "701389f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701389f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx River (N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a0b84c0-c530-012f-8ecc-58d385a7bc34",
     "text": "(1)\nLafayette Avenue, south side, on the west shore of the Bronx River, showing the wall erected by the W.P.A., on the river's edge.\n\nJan. 27, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",
     "text_source": "gpt",

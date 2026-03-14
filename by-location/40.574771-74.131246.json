@@ -2,9 +2,30 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Hitchcock Avenue",
+        "str2": "Mace Avenue"
+      },
+      "source": "Richmond: Hitchcock Avenue - Mace Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "728947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fd3d630-c55b-012f-5c8f-58d385a7bc34",
     "original_title": "Richmond: Hitchcock Avenue - Mace Avenue",
     "text": "Hitchcock Avenue, west side, between Mace Avenue and St. Andrews Road. The view is northward.\n\nMay 5, 1929.\nP.L. Sperr\n",

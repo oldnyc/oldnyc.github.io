@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Canarsie Lane - Ralph Avenue",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "703483f",
     "image_url": "https://images.nypl.org/?id=703483f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5376620-c533-012f-456d-58d385a7bc34",
     "original_title": "Brooklyn: Canarsie Lane - Ralph Avenue",
     "text": null,
@@ -19,9 +40,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Canarsie Lane - Ralph Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703486f",
     "image_url": "https://images.nypl.org/?id=703486f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b64e7a20-c533-012f-635d-58d385a7bc34",
     "original_title": "Brooklyn: Canarsie Lane - Ralph Avenue",
     "text": null,
@@ -36,9 +78,44 @@
   {
     "date": "1928; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ditmas Avenue",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Ditmas Avenue and Ralph Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 462,
     "id": "704018f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704018f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d8c27d0-c534-012f-aed0-58d385a7bc34",
     "original_title": "Brooklyn: Ditmas Avenue - Canarsie Lane",
     "text": "(1) Ditmas Ave., at its intersection with Canarsie Lane and Ralph Ave., showing the Wyckoff house in the background, and to the left foreground, is one of the Brooklyn Union Gas Co. plants.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(2) The same, viewed in the opposite direction, showing in the background fuel tanks of the Superior Coal Co.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(3) The same, showing a close rear view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n\n(4) The same, showing a front view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -54,9 +131,44 @@
   {
     "date": "1928; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ditmas Avenue",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Ditmas Avenue and Ralph Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "704018f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704018f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d8c27d0-c534-012f-aed0-58d385a7bc34",
     "original_title": "Brooklyn: Ditmas Avenue - Canarsie Lane",
     "text": "(1) Ditmas Ave., at its intersection with Canarsie Lane and Ralph Ave., showing the Wyckoff house in the background, and to the left foreground, is one of the Brooklyn Union Gas Co. plants.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(2) The same, viewed in the opposite direction, showing in the background fuel tanks of the Superior Coal Co.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(3) The same, showing a close rear view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n\n(4) The same, showing a front view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -72,9 +184,44 @@
   {
     "date": "1928; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ditmas Avenue",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Ditmas Avenue and Ralph Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 468,
     "id": "704018f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704018f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d8c27d0-c534-012f-aed0-58d385a7bc34",
     "original_title": "Brooklyn: Ditmas Avenue - Canarsie Lane",
     "text": "(1) Ditmas Ave., at its intersection with Canarsie Lane and Ralph Ave., showing the Wyckoff house in the background, and to the left foreground, is one of the Brooklyn Union Gas Co. plants.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(2) The same, viewed in the opposite direction, showing in the background fuel tanks of the Superior Coal Co.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(3) The same, showing a close rear view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n\n(4) The same, showing a front view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -90,9 +237,44 @@
   {
     "date": "1928; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ditmas Avenue",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Ditmas Avenue and Ralph Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ditmas Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 463,
     "id": "704018f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704018f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d8c27d0-c534-012f-aed0-58d385a7bc34",
     "original_title": "Brooklyn: Ditmas Avenue - Canarsie Lane",
     "text": "(1) Ditmas Ave., at its intersection with Canarsie Lane and Ralph Ave., showing the Wyckoff house in the background, and to the left foreground, is one of the Brooklyn Union Gas Co. plants.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(2) The same, viewed in the opposite direction, showing in the background fuel tanks of the Superior Coal Co.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n\n(3) The same, showing a close rear view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n\n(4) The same, showing a front view.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
@@ -108,9 +290,30 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Ralph Avenue - Canarsie Lane",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "706442f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706442f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5296c090-c538-012f-c872-58d385a7bc34",
     "original_title": "Brooklyn: Ralph Avenue - Canarsie Lane",
     "text": "The Wyckoff House, oldest in Brooklyn, about to be restored by descendants (see other photographs taken in 1937)\n\nC. Manley De Bevoise\n51-05 Browvale Lane\nLittle Neck, N.Y.\n",
@@ -125,9 +328,30 @@
   {
     "date": "1963",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Ralph Avenue - Canarsie Lane",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706444f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706444f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/53527d50-c538-012f-bfe9-58d385a7bc34",
     "original_title": "Brooklyn: Ralph Avenue - Canarsie Lane",
     "text": "Wyckoff House\nJune 1963\nC. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, N.Y. 11362\n",
@@ -142,9 +366,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Canarsie Lane",
+        "str2": "Ralph Avenue"
+      },
+      "source": "Brooklyn: Ralph Avenue - Canarsie Lane",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "706443f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706443f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52fe3af0-c538-012f-8896-58d385a7bc34",
     "original_title": "Brooklyn: Ralph Avenue - Canarsie Lane",
     "text": "Wyckoff Residence\nRalph Ave. and Canarsie Lane\n",

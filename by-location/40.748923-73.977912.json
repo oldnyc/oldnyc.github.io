@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 38th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712473f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712473f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/13f30030-c542-012f-a546-58d385a7bc34",
     "original_title": "Manhattan: 38th Street (East) - Lexington Avenue",
     "text": "123, 121 East 38th Street, adjoining the N.W. corner of Lexington Avenue.\nAbout 1912.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 38th Street - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "712475f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712475f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Thirty-eighth Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14ce2c40-c542-012f-205a-58d385a7bc34",
     "original_title": "Manhattan: 38th Street - Lexington Avenue",
     "text": "38th Street, Lexington Avenue to Park Avenue. (Before Reconstruction).\n\n December 7, 1918.\n",
@@ -39,9 +81,47 @@
   {
     "date": "1918",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Lexington Avenue",
+        "str2": "Thirty-eighth Street"
+      },
+      "source": "Lexington Avenue and Thirty-eighth Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Lexington Avenue",
+        "str2": "Park Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Lexington Avenue",
+        "str2": "Park Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 426,
     "id": "712476f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712476f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Thirty-eighth Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/154e8050-c542-012f-96c5-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - Park Avenue",
     "text": "38th Lexington Avenue to Park Avenue. (Before Reconstruction).\nDecember 17, 1918.\n",
@@ -56,9 +136,31 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 38th Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "712474f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/712474f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/144e2740-c542-012f-28fe-58d385a7bc34",
     "original_title": "Manhattan: 38th Street (East) - Lexington Avenue",
     "text": "East 38th Street, north side, east from Lexington Ave., to the East River. Note the construction of an apartment house (No. 137 East 38th Street).\n\nApril 8, 1936.\n\nP. L. Sperr.\n",
@@ -73,9 +175,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "38th Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 38th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720959f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5750df30-c54f-012f-9edc-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 38th Street",
     "text": "(1)\n\nLexington Avenue, east side, north from 38th Street.\n\nFebruary 27, 1928.\n\nP.L. Sperr, Photographer.\n\n(2)\n\nThe same, at a later date. Prominent building shown is the Chrysler.\n\nApril 8, 1936.\n\nP.L. Sperr.\n",

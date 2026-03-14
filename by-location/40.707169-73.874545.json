@@ -2,9 +2,36 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "76th Street",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 76th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "726393f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726393f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Gasoline",
+          "Hotels",
+          "Railroad crossings",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6f459b0-c557-012f-b8e1-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 76th Street",
     "text": "Cooper Ave. (corner thereon), west from the intersection of Cooper Ave. and 76th Street (right foreground), showing in the foreground a branch spur of the Long Island Railroad. In the center of the view is the Glendale Hotel formerly the N. Wyckoff house located at the S.E. corner of Cooper Ave. and 74th Street.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

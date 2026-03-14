@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "227th Street (West)",
+        "str2": "Arlington Avenue"
+      },
+      "source": "Bronx: Arlington Avenue - 227th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "700423f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700423f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3dee3640-c52f-012f-50f6-58d385a7bc34",
     "original_title": "Bronx: Arlington Avenue - 227th Street (West)",
     "text": "Arlington Ave., adjoining the S.E. corner of West 227th Street.\nAbout 1929.\n",

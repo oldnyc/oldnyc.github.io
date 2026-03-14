@@ -2,9 +2,34 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "East River",
+        "str2": "Fulton Street"
+      },
+      "source": "East River and Fulton Street",
+      "technique": "gpt"
+    },
     "height": 481,
     "id": "733779f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733779f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Fulton Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Ferries",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27c60920-c563-012f-b14f-58d385a7bc34",
     "text": "East River -River Scenes: The Fulton Street (Bklyn) ferry approaching or leaving it's Manhattan slip. In the background is the Columbia Heights section of Brooklyn. The Brooklyn Bridge, where this boat docks on the far shore is to the left and is not included. This photo is enlarged from an original lantern slide, the property of the donor.\n\nCirca 1890's\n\nGift of Russell Freeman\nNew York Public Library\n",
     "text_source": "gpt",
@@ -18,9 +43,48 @@
   {
     "date": "1923; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Beckman Street",
+        "str2": "South Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "723290f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723290f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Carts & wagons",
+          "Fish",
+          "Fishing boats",
+          "Horse teams",
+          "Markets",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/134194e0-c553-012f-068a-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beckman Street",
     "text": "(1) Rear view of South Street, east side, at the foot of Beekman Street, as seen from the North Dock on the East River. The view shows several of the buildings of the Fulton Street Fish Market, bordering on the river front. 1923.\n\nP. L. Sperr.\n\n(2) The same, a further view southward.\n\nFebruary 16, 1931.\n\nP. L. Sperr.\n\n(3) The same, still further south, and showing the site of the old Fulton Street Ferry.\n\nP. L. Sperr.\n",
@@ -36,9 +100,48 @@
   {
     "date": "1923; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Beckman Street",
+        "str2": "South Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "723290f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723290f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Carts & wagons",
+          "Fish",
+          "Fishing boats",
+          "Horse teams",
+          "Markets",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/134194e0-c553-012f-068a-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beckman Street",
     "text": "(1) Rear view of South Street, east side, at the foot of Beekman Street, as seen from the North Dock on the East River. The view shows several of the buildings of the Fulton Street Fish Market, bordering on the river front. 1923.\n\nP. L. Sperr.\n\n(2) The same, a further view southward.\n\nFebruary 16, 1931.\n\nP. L. Sperr.\n\n(3) The same, still further south, and showing the site of the old Fulton Street Ferry.\n\nP. L. Sperr.\n",
@@ -54,9 +157,48 @@
   {
     "date": "1923; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Beckman Street",
+        "str2": "South Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "723290f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723290f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Carts & wagons",
+          "Fish",
+          "Fishing boats",
+          "Horse teams",
+          "Markets",
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/134194e0-c553-012f-068a-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beckman Street",
     "text": "(1) Rear view of South Street, east side, at the foot of Beekman Street, as seen from the North Dock on the East River. The view shows several of the buildings of the Fulton Street Fish Market, bordering on the river front. 1923.\n\nP. L. Sperr.\n\n(2) The same, a further view southward.\n\nFebruary 16, 1931.\n\nP. L. Sperr.\n\n(3) The same, still further south, and showing the site of the old Fulton Street Ferry.\n\nP. L. Sperr.\n",
@@ -72,9 +214,36 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East River",
+        "str2": "South Street"
+      },
+      "source": "East River and South Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731810f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731810f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: South Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f8cc760-c560-012f-cf55-58d385a7bc34",
     "text": "Fulton Fish Market: Two views photographed at Manhattan's fish supply center on South Street, at the East River.\n\n1923\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -88,9 +257,36 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East River",
+        "str2": "South Street"
+      },
+      "source": "East River and South Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731810f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731810f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: South Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f8cc760-c560-012f-cf55-58d385a7bc34",
     "text": "Fulton Fish Market: Two views photographed at Manhattan's fish supply center on South Street, at the East River.\n\n1923\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -104,9 +300,37 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731816f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731816f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Beekman Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barrels",
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/221d0e10-c560-012f-88bf-58d385a7bc34",
     "text": "Fulton Fish Market: Men unloading and preparing cracked ice for the cities fish supply. This activity is on North Dock (Pier 18), an East River pier at the foot of Beekman Street. In the background are buildings on the river side of South Street, that are devoted to the pursuit of this enterprise.\n\n1923\nViews 1,2,3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -120,9 +344,37 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731816f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731816f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Beekman Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barrels",
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/221d0e10-c560-012f-88bf-58d385a7bc34",
     "text": "Fulton Fish Market: Men unloading and preparing cracked ice for the cities fish supply. This activity is on North Dock (Pier 18), an East River pier at the foot of Beekman Street. In the background are buildings on the river side of South Street, that are devoted to the pursuit of this enterprise.\n\n1923\nViews 1,2,3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -136,9 +388,37 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "731816f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731816f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Beekman Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barrels",
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/221d0e10-c560-012f-88bf-58d385a7bc34",
     "text": "Fulton Fish Market: Men unloading and preparing cracked ice for the cities fish supply. This activity is on North Dock (Pier 18), an East River pier at the foot of Beekman Street. In the background are buildings on the river side of South Street, that are devoted to the pursuit of this enterprise.\n\n1923\nViews 1,2,3\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -152,9 +432,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "723283f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723283f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10095df0-c553-012f-a03e-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beekman Street",
     "text": "(1)\n104 to 117 South Street, west side, north from Beekman Street, to, but not including Peck Slip. This is part of the area loosely described as Fulton Fish Market, and is reputed to be the largest fish trading center in the world.\nJanuary 31, 1932.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, showing only Nos. 104 to 108. Also shown (left), is Beekman Street, n\u00b0th side, west from South, to Water Streets, crossing Front Street.\nJanuary 31, 1932.\n\nP. L. Sperr.\n",
@@ -169,9 +474,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: South Street - Beekman Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "723283f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723283f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10095df0-c553-012f-a03e-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beekman Street",
     "text": "(1)\n104 to 117 South Street, west side, north from Beekman Street, to, but not including Peck Slip. This is part of the area loosely described as Fulton Fish Market, and is reputed to be the largest fish trading center in the world.\nJanuary 31, 1932.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, showing only Nos. 104 to 108. Also shown (left), is Beekman Street, n\u00b0th side, west from South, to Water Streets, crossing Front Street.\nJanuary 31, 1932.\n\nP. L. Sperr.\n",
@@ -186,9 +516,39 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 106,
+        "street": "South Street"
+      },
+      "source": "106 South Street",
+      "technique": "gpt"
+    },
     "height": 479,
     "id": "723285f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723285f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fish Market, South Street, Manhattan.",
+        "Berman Fish Co. ; Flag Fish Co. ; International Fish Co. ; John Dais Co. Wholesale Fish ; Market Shell Food Co. ; Meyer's Hotel ; South Fish Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Fish",
+          "Hotels",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10fabed0-c553-012f-2333-58d385a7bc34",
     "text": "Fish Markets\nSouth Street, nos. 106-115, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-3\nNov. 26, 1935\n",
     "text_source": "gpt",
@@ -202,9 +562,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Manhattan: Beekman Street - South Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716658f",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/716658f.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fish",
+          "Hospitals",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/99f67b80-c548-012f-bcb5-58d385a7bc34",
     "original_title": "Manhattan: Beekman Street - South Street",
     "rotation": 90,
@@ -220,9 +606,45 @@
   {
     "date": "1937; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Beckman Street",
+        "str2": "South Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "723289f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723289f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Bridges",
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12ca6680-c553-012f-df91-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beckman Street",
     "text": "South Street, east side, north from the foot of Beekman Street, showing the northerly unit of the Fulton Fish Market pier buildings. View 2 shows the replacement. The Brooklyn Bridge dominates the background.\n\n1: August 2, 1937\n2: Sept. 3, 1940\n\nP. L. Sperr\n",
@@ -238,9 +660,45 @@
   {
     "date": "1937; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Beekman Street",
+        "str2": "South Street"
+      },
+      "source": "Beekman Street and South Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Beckman Street",
+        "str2": "South Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "723289f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723289f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "Fulton Fish Market (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Bridges",
+          "Fish",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12ca6680-c553-012f-df91-58d385a7bc34",
     "original_title": "Manhattan: South Street - Beckman Street",
     "text": "South Street, east side, north from the foot of Beekman Street, showing the northerly unit of the Fulton Fish Market pier buildings. View 2 shows the replacement. The Brooklyn Bridge dominates the background.\n\n1: August 2, 1937\n2: Sept. 3, 1940\n\nP. L. Sperr\n",

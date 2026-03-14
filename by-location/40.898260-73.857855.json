@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "237th Street (East)",
+        "str2": "Carpenter Avenue"
+      },
+      "source": "Bronx: Carpenter Avenue - 237th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 363,
     "id": "700705f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700705f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3613b10-c52f-012f-2592-58d385a7bc34",
     "original_title": "Bronx: Carpenter Avenue - 237th Street (East)",
     "text": "4357 to 4373 Carpenter Ave., at, adjoining and north of the N.W. corner of East 237th Street.\n\nGift of New York World.\n\nApril 25, 1925.\n",

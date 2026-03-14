@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Morningstar Road",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Morningstar Road",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "729451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729451f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Goethals Bridge (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Smokestacks",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/564a9170-c55c-012f-4d0f-58d385a7bc34",
     "text": "(1) Richmond Terrace, west from Morningstar Road and showing a general view of Staten Island's north shore as seen from the Bayonne Bridge. In the far background is visible Goethals Bridge, spanning Arthur Kill.\n\nMay 19, 1935\n\nP. L. Sperr\n\n(2) Another general view, viewed southwestward.\n\nMay 19, 1935\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -18,9 +42,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Morningstar Road",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Morningstar Road",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729451f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729451f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Goethals Bridge (N.Y. and N.J.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Smokestacks",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/564a9170-c55c-012f-4d0f-58d385a7bc34",
     "text": "(1) Richmond Terrace, west from Morningstar Road and showing a general view of Staten Island's north shore as seen from the Bayonne Bridge. In the far background is visible Goethals Bridge, spanning Arthur Kill.\n\nMay 19, 1935\n\nP. L. Sperr\n\n(2) Another general view, viewed southwestward.\n\nMay 19, 1935\n\nP.L. Sperr\n",
     "text_source": "gpt",

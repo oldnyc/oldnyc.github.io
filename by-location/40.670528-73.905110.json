@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Pitkin Avenue",
+        "str2": "Sackman Street"
+      },
+      "source": "Brooklyn: Sackman Street - Pitkin Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706562f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706562f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8082ed60-c538-012f-5594-58d385a7bc34",
     "original_title": "Brooklyn: Sackman Street - Pitkin Avenue",
     "text": null,

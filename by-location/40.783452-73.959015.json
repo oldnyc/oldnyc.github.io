@@ -2,9 +2,33 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "no. 89"
+      },
+      "source": "Manhattan: 5th Avenue - no. 89.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "708353f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708353f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddbe2260-c53a-012f-af1a-58d385a7bc34",
     "text": "\"Northeast corner of Fifth Avenue and 16th Street\" p.81\n89 Fifth Avenue\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",
     "text_source": "gpt",
@@ -21,9 +45,27 @@
     "dates_from_text": [
       "1910"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709184f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709184f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae344ae0-c53c-012f-cda0-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "1082 Fifth Avenue, east side, between 89th and 90th Street. About 1910.",
@@ -38,9 +80,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.78332589377187,
+        "lng": -73.95920187234879
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 204,
     "id": "1113300",
     "image_url": "https://images.nypl.org/?id=1113300&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Dwellings",
+          "Parapets",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81bbe6f0-c6ca-012f-c36f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +121,29 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "89th Street looking south",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: Fifth Avenue - 89th Street looking south",
+      "technique": "title-cross"
+    },
     "height": 547,
     "id": "1508897-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508897-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a5e23d60-c5ce-012f-e423-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -73,9 +160,27 @@
     "dates_from_text": [
       "1912"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709182f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709182f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad3fb210-c53c-012f-b692-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "1080 Fifth Avenue, at N.E. corner of 89th Street. Residence of Percival Farquhar. About 1912.",
@@ -90,9 +195,34 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "718365f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718365f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ea06270-c54b-012f-f4ae-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "(1)\nCentral Park: Upper Reservoir, view east towards Fifth Avenue; 89th Street is about in the center of the background, where a water tower is seen on the horizon.\nSummer, 1923.\n\nP. L. Sperr.\n\n(2)\nThe same, view northeast, showing Fifth Avenue buildings north from 89th Street.\nSummer, 1923.\n\nP. L. Sperr.\n\n(3)\nThe same, view southwest, showing Central Park West buildings south from 89th Street.\nSummer, 1923.\n\nP. L. Sperr.\n",
@@ -107,9 +237,34 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "718365f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718365f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ea06270-c54b-012f-f4ae-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "(1)\nCentral Park: Upper Reservoir, view east towards Fifth Avenue; 89th Street is about in the center of the background, where a water tower is seen on the horizon.\nSummer, 1923.\n\nP. L. Sperr.\n\n(2)\nThe same, view northeast, showing Fifth Avenue buildings north from 89th Street.\nSummer, 1923.\n\nP. L. Sperr.\n\n(3)\nThe same, view southwest, showing Central Park West buildings south from 89th Street.\nSummer, 1923.\n\nP. L. Sperr.\n",
@@ -124,9 +279,34 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "718365f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718365f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ea06270-c54b-012f-f4ae-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "(1)\nCentral Park: Upper Reservoir, view east towards Fifth Avenue; 89th Street is about in the center of the background, where a water tower is seen on the horizon.\nSummer, 1923.\n\nP. L. Sperr.\n\n(2)\nThe same, view northeast, showing Fifth Avenue buildings north from 89th Street.\nSummer, 1923.\n\nP. L. Sperr.\n\n(3)\nThe same, view southwest, showing Central Park West buildings south from 89th Street.\nSummer, 1923.\n\nP. L. Sperr.\n",
@@ -144,9 +324,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709181f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709181f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/acd9a9a0-c53c-012f-27e1-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "Fifth Avenue at S.E. corner of 89th Street.\nJune 1925.\n",
@@ -164,9 +362,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709183f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709183f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/adbb4280-c53c-012f-6ad1-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "1080 to 1083 Fifth Avenue, at N.E. corner of 89th Street. June 1925.",
@@ -181,9 +397,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 89th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "709185f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709185f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae92f280-c53c-012f-9dc7-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 89th Street",
     "text": "Fifth Avenue, east side, from 89th to 90th Streets, showing Church of the Heavenly Rest (Protestant Episcopal) at extreme left.\nMarch 28, 1929.\n\nP. L. Sperr, Photographer.\n",
@@ -198,9 +435,37 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street"
+      },
+      "source": "Manhattan: 5th Avenue - Between 89th and 97th Streets.",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "718383f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718383f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - Between 89th and 97th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Reservoirs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56580f90-c54b-012f-36c2-58d385a7bc34",
     "text": "Central Park: The Upper Reservoir, seen from Central Park West, and showing Fifth Avenue from 89th to 97th Streets.\n\nMay 10, 1931.\n\nWurts Brothers.\n",
     "text_source": "site",
@@ -214,9 +479,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "89th Street (East)"
+      },
+      "source": "Manhattan: 89th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "714785f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714785f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5555080-c545-012f-42d6-58d385a7bc34",
     "original_title": "Manhattan: 89th Street (East) - 5th Avenue",
     "text": "89th St. & 5th Ave., n.e. cor.\nJune 29, 1941\nP.L. Sperr, photographer\n",
@@ -231,9 +517,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 89th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 1082 Fifth Avenue - East 89th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558001",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558001.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Jay Gould residence"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Gould, Jay, 1836-1892"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Homes and haunts",
+          "Mansions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a2d0350-c5ec-012f-cdb9-58d385a7bc34",
     "text": null,
     "text_source": null,

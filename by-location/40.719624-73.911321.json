@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Avenue",
+        "str2": "Rust Street"
+      },
+      "source": "Queens: Rust Street - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "727950f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727950f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00296bf0-c55a-012f-5b53-58d385a7bc34",
     "original_title": "Queens: Rust Street - Grand Avenue",
     "text": "5877 Rust Street (old Flushing Avenue), east side, about 200 feet south of Grand Avenue, showing Froelichs House and milk dairy farm for almost 50 years. Niles Brothers; truckmen, occupied it in 1923.\n\nMarch 1923.\n\nEugene L. Armbruster Collection.\n",

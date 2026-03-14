@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Arlington Avenue",
+        "str2": "Linwood Street"
+      },
+      "source": "Arlington Avenue and Linwood Street",
+      "technique": "gpt"
+    },
     "height": 475,
     "id": "732659f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732659f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d2ad5a0-c561-012f-a5e8-58d385a7bc34",
     "text": "Linwood Street, at the northwest corner of Arlington Avenue, showing public School No. 108.\nBoard of Education of the City of New York Early 1930's\n",
     "text_source": "gpt",

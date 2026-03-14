@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "33rd Street",
+        "str2": "36th Avenue"
+      },
+      "source": "Queens: 33rd Street - 36th Avenue",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "725227f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725227f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/192501e0-c556-012f-c744-58d385a7bc34",
     "original_title": "Queens: 33rd Street - 36th Avenue",
     "text": "33rd Street, west side, just north of Thirty-sixth Ave. (right), showing what was formerly 377 Fourth Ave. in the center of view. It was still standing in 1929.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

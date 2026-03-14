@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "86th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 86th Street",
+      "technique": "title-cross"
+    },
     "height": 433,
     "id": "709173f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709173f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9876200-c53c-012f-7465-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 86th Street",
     "text": "1048-1044 Fifth Ave., at, adjoining and south of the S.E. corner of East 86th Street. Also shown are Nos. 2-10 East 86th Street, adjoining and east of said corner. Corner building is the residence of William Starr Miller.\n\nPrior to 1922.\n\nBrown Brothers.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "86th Street (East)"
+      },
+      "source": "Manhattan: 86th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 480,
     "id": "714725f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714725f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae618390-c545-012f-b177-58d385a7bc34",
     "original_title": "Manhattan: 86th Street (East) - 5th Avenue",
     "text": "10-2 East 86th Street, adjoining and east of the S.E. corner of Fifth Avenue. These buildings will soon be demolished to make way for a large apartment house.\nAbout 1925.\n\nBrown Brothers.\n",
@@ -39,9 +78,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "5th Avenue",
+        "str2": "86th Street"
+      },
+      "source": "Manhattan: 5th Avenue - 86th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "709167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a75a65d0-c53c-012f-4817-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 86th Street",
     "text": "South on Fifth Avenue from 86th Street, showing Metropolitan Museum of Art, Fifth Avenue, west side, from 80th to 84th Streets.\n\nAbout 1928.\n\nEwing Galloway, Photographer.\n",
@@ -56,9 +118,29 @@
   {
     "date": "1944-12-22",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1046,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #1046",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508893-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508893-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a52553b0-c5ce-012f-250e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -72,9 +154,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 86th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "Manhattan: 12 East 86th Street - Fifth Avenue",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "1558342",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558342.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Hotel Croydon - Central Park view from bedroom window"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fdd1fdc0-c5ec-012f-7e65-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -88,9 +197,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 86th Street (Madison Avenue",
+        "str2": "Fifth Avenue)"
+      },
+      "source": "Manhattan: 12 East 86th Street (Madison Avenue - Fifth Avenue)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558343",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558343.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Main entrance to Hotel Croydon bar and lounge"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/feb8def0-c5ec-012f-3b65-58d385a7bc34",
     "text": null,
     "text_source": null,

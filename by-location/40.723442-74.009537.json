@@ -2,9 +2,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Desbrosses Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - Desbrosses Street",
+      "technique": "title-cross"
+    },
     "height": 206,
     "id": "720225f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720225f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3ba80600-c54e-012f-ae76-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - Desbrosses Street",
     "text": "Greenwich Street, east side, at Desbrosses Street, showing the express and uptown platforms and the tracks of the 9th Avenue Elevated Line. The photographer is on the downtown platform to photograph this panoramic view.\n\nJune 7, 1940\nViews 1,2\n\nP. L. Sperr\n",
@@ -23,9 +47,27 @@
       "1941-06",
       "1941-05-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Desbrosses Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Desbrosses Street - Greenwich Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "719300f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719300f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c334d6a0-c54c-012f-1893-58d385a7bc34",
     "original_title": "Manhattan: Desbrosses Street - Greenwich Street",
     "text": "(1) Desbrosses Street, south side northwest corner of Greenwich Street, showing piers of elevated after demolition, looking westwards.\n\nJune 1941.\n\n(2) Same, different angle,\n\nP.L.Speer.\n\nMay 5, 1941.\n",
@@ -45,9 +87,27 @@
       "1941-06",
       "1941-05-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Desbrosses Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Desbrosses Street - Greenwich Street",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "719300f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719300f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c334d6a0-c54c-012f-1893-58d385a7bc34",
     "original_title": "Manhattan: Desbrosses Street - Greenwich Street",
     "text": "(1) Desbrosses Street, south side northwest corner of Greenwich Street, showing piers of elevated after demolition, looking westwards.\n\nJune 1941.\n\n(2) Same, different angle,\n\nP.L.Speer.\n\nMay 5, 1941.\n",

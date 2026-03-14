@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Burnett Place",
+        "str2": "Tiffany Street"
+      },
+      "source": "Bronx: Burnett Place - Tiffany Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700689f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700689f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9dca4b20-c52f-012f-46bc-58d385a7bc34",
     "original_title": "Bronx: Burnett Place - Tiffany Street",
     "text": "Burnett Place, adjoining the S.W. corner of Tiffany Street (block 2737, lot 129).\n\nAbout 1923.\n\nW. B. Vernam.\n",

@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "105th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 105th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721460f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721460f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22dff570-c550-012f-bd0e-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 105th Street",
     "text": "M\nMadison Ave. at n.w. cor. 105th St.\n6-15-42\nP.L. Sperr\n",

@@ -2,9 +2,32 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 461,
     "id": "701979f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701979f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Lake (New York, N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lakes & ponds",
+          "Sawmills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72d2eea0-c531-012f-cf14-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): The Van Cortlandt saw and grist mill at the lower end of Van Cortlandt Lake. The mill burned down in 1901 after having been struck by lightning.\n\n1899\n\nGift of Randall Comfort\n",
     "text_source": "gpt",
@@ -18,9 +41,32 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 414,
     "id": "701978f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701978f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72576460-c531-012f-3879-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): The remains of the Van Cortlandt graveyard, burial ground of the early New York families.\nGift of Mott Haven Library\nabout 1900\n",
     "text_source": "gpt",
@@ -34,9 +80,40 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Van Cortlandt Mill",
+        "str2": "Van Cortlandt Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "701980f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701980f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Lake (New York, N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Lakes & ponds",
+          "Sawmills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/734846b0-c531-012f-0ee5-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): The Van Cortlandt saw and grist mill at the southernmost tip of Van Cortlandt Lake. The mill burned down in 1901 after having been struck by lightning.\n\nAbout 1900\n\nGift of Urbrock Collection\n",
     "text_source": "gpt",
@@ -50,9 +127,46 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "Targee Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "Targee Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 391,
     "id": "701984f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701984f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/74eb6b70-c531-012f-8cee-58d385a7bc34",
     "original_title": "Bronx: Broadway - Targee Street",
     "text": "Van Cortlandt Park (Bronx): A front view of the Van Cortlandt House Museum, about 150 yards east of Broadway, on the north side of the road that is the extension within the park of W. 246th Street. The house was built by Frederick Van Cortlandt in 1748. The house is maintained as a museum by the Colonial Dames.\n\nAbout 1900\n\nGift of Urbrock Collection\n",
@@ -67,9 +181,32 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 495,
     "id": "701985f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701985f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75622db0-c531-012f-3213-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): The Van Cortlandt House Museum, the former residence of the Van Cortlandts, built in 1748 and now maintained by the Colonial Dames. The estate was purchased by the City of New York to be used as a park in 1889.\n\nGift of Randall Comfort\n\n(2)\n\nAnother view of the Van Cortlandt House.\n\nAbout 1900\n\n1981\n",
     "text_source": "gpt",
@@ -83,9 +220,32 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 406,
     "id": "701985f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701985f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75622db0-c531-012f-3213-58d385a7bc34",
     "text": "Van Cortlandt Park (Bronx): The Van Cortlandt House Museum, the former residence of the Van Cortlandts, built in 1748 and now maintained by the Colonial Dames. The estate was purchased by the City of New York to be used as a park in 1889.\n\nGift of Randall Comfort\n\n(2)\n\nAnother view of the Van Cortlandt House.\n\nAbout 1900\n\n1981\n",
     "text_source": "gpt",
@@ -99,9 +259,46 @@
   {
     "date": "1906",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Van Cortlandt Park",
+        "str2": "cairn of stones on Indian Field",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Van Cortlandt Park East",
+        "str2": "West 237th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701977f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701977f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71fbf8a0-c531-012f-aec1-58d385a7bc34",
     "text": "Van Cortlandt Park: A view of the cairn of stones on Indian Field. The cairn is situated on the west side of Van Cortlandt Park East, at the head of West 237th Street and is dedicated to the Stockbridge Indians. The inscription of the tablet reads:\n\nAugust 31, 1778.\nUpon this field\nChief Nimham\nAnd seventeen Stockbridge Indians\nAs Allies of the Patriots,\nGave their lives for Liberty.\n\nErected by Bronx Chapter,\nDaughters of the American Revolution\nMount Vernon, N.Y.\n\nJune 14, 1906.\n\nGift of Randall Comfort.\n\n1906.\n",
     "text_source": "gpt",
@@ -115,9 +312,46 @@
   {
     "date": "1915; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "246th Street",
+        "str2": "Broadway",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701986f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701986f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75d23370-c531-012f-3c3a-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": null,
@@ -133,9 +367,46 @@
   {
     "date": "1915; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "246th Street",
+        "str2": "Broadway",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701986f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701986f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75d23370-c531-012f-3c3a-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": null,
@@ -151,9 +422,46 @@
   {
     "date": "1915; 1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "246th Street",
+        "str2": "Broadway",
+        "technique": "gpt"
+      }
+    ],
     "height": 464,
     "id": "701986f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701986f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75d23370-c531-012f-3c3a-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": null,
@@ -169,9 +477,52 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Nagle Avenue",
+        "str2": "St. Nicholas Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Nagle Avenue",
+        "str2": "St. Nicholas Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Dyckman Street",
+        "str2": "St. Nicholas Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "701519f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701519f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cafdf960-c530-012f-223e-58d385a7bc34",
     "original_title": "Bronx: Nagle Avenue - St. Nicholas Avenue",
     "text": "Nagle Avenue, Inwood, looking north from St. Nicholas Avenue and Dyckman Street.\nElevated structure of Interboro Subway, west side line, Broadway-Van Cortlandt Park branch, is shown.\nOctober 26, 1927.\n\nP.L. Sperr, Photographer.\n",
@@ -186,9 +537,53 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "West 246th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 397,
     "id": "701987f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701987f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Van Cortlandt House Museum."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Upton, Emory, 1839-1881"
+        ],
+        "topic": [
+          "Galleries & museums",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7633f2c0-c531-012f-4954-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": "(1)\nVan Cortlandt Park: The Van Cortlandt House Museum on the north side of the road which is the park extension of West 246th Street, about one hundred and fifty yards east of Broadway. The house was built in 1748 by Fredrick Van Cortlandt and is now (1937) maintained by the Colonial Dames as a museum.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, showing the west side of the house.\n\nP. L. Sperr.\nAugust 25, 1927.\n\n(3)\nThe same, showing the north side of the house. The statue in front of the house is that of General Upton, a civil war general in the Union armies.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n",
@@ -203,9 +598,53 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "West 246th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 395,
     "id": "701987f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701987f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Van Cortlandt House Museum."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Upton, Emory, 1839-1881"
+        ],
+        "topic": [
+          "Galleries & museums",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7633f2c0-c531-012f-4954-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": "(1)\nVan Cortlandt Park: The Van Cortlandt House Museum on the north side of the road which is the park extension of West 246th Street, about one hundred and fifty yards east of Broadway. The house was built in 1748 by Fredrick Van Cortlandt and is now (1937) maintained by the Colonial Dames as a museum.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, showing the west side of the house.\n\nP. L. Sperr.\nAugust 25, 1927.\n\n(3)\nThe same, showing the north side of the house. The statue in front of the house is that of General Upton, a civil war general in the Union armies.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n",
@@ -220,9 +659,53 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "West 246th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "701987f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701987f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Van Cortlandt House Museum."
+      ],
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Upton, Emory, 1839-1881"
+        ],
+        "topic": [
+          "Galleries & museums",
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7633f2c0-c531-012f-4954-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": "(1)\nVan Cortlandt Park: The Van Cortlandt House Museum on the north side of the road which is the park extension of West 246th Street, about one hundred and fifty yards east of Broadway. The house was built in 1748 by Fredrick Van Cortlandt and is now (1937) maintained by the Colonial Dames as a museum.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n\n(2)\nThe same, showing the west side of the house.\n\nP. L. Sperr.\nAugust 25, 1927.\n\n(3)\nThe same, showing the north side of the house. The statue in front of the house is that of General Upton, a civil war general in the Union armies.\n\nAugust 25, 1927.\n\nP. L. Sperr.\n",
@@ -237,9 +720,46 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "246th Street (West)",
+        "str2": "Broadway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "West 246th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "701988f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701988f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76970430-c531-012f-d8d8-58d385a7bc34",
     "original_title": "Bronx: 246th Street (West) - Broadway",
     "text": "Van Cortlandt Park: A view of the Van Cortlandt House which is located on the north side of the park extension of West 246th Street, and about one hundred and fifty yards east of Broadway. This structure was built in 1748 by Fredrick Van Cortlandt and is now (1937) maintained as a Museum by the Colonial Dames.\n\nP. L. Sperr.\n\nAugust 25, 1927.\n",
@@ -254,9 +774,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 489,
     "id": "701969f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701969f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6eed5b50-c531-012f-4fd3-58d385a7bc34",
     "text": "Van Cortland Park\nSwamps\nThis swamp completely drained & cleaned. Trees felled etc.\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "site",
@@ -270,9 +808,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 478,
     "id": "701970f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701970f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f3c1a80-c531-012f-e73c-58d385a7bc34",
     "text": "Swamps\nVan Cortland Park\nThis swamp drained & cleaned. Brush removed, trees felled, etc.\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -286,9 +842,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 478,
     "id": "701971f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701971f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6f9e18b0-c531-012f-bea7-58d385a7bc34",
     "text": "Feb. 18, 1931\nVan Cortland Park\n\nPhoto by Mr. A. Tennyson Beals\nEmergent Work Bureay\n1931\n",
     "text_source": "site",
@@ -302,9 +882,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 476,
     "id": "701972f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701972f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6fef2dc0-c531-012f-a103-58d385a7bc34",
     "text": "Gang at work\nVan Cortland Park\nStart of building of road\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -318,9 +922,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "701973f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701973f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7053a0a0-c531-012f-ca4c-58d385a7bc34",
     "text": "Stone work at Van Cortland Park\nWall - 1/2 mile stone wall and road widened from 30 to 60 feet.\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -334,9 +961,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 483,
     "id": "701974f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701974f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Stone walls"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70c3e370-c531-012f-49e2-58d385a7bc34",
     "text": "Apr. 6, 1931\nWall at Van Cortland Park\nOpposite skate house.\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -350,9 +1000,27 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 482,
     "id": "701975f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701975f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/711ea6b0-c531-012f-f7d4-58d385a7bc34",
     "text": "Feb. 16, 1931\nVan Cortland Park - Looking east from skate house.\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -366,9 +1034,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
     "height": 481,
     "id": "701976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/718d4250-c531-012f-2d75-58d385a7bc34",
     "text": "April 6, 1931\nWall at Van Cortland\nOpposite Skate House\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",
@@ -382,9 +1071,35 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.894709,
+        "lng": -73.890918
+      },
+      "source": "Van Cortlandt Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Van Cortlandt Mansion",
+        "str2": "Van Cortlandt Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 452,
     "id": "701983f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701983f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/748995b0-c531-012f-3a5f-58d385a7bc34",
     "text": "VAN CORTLANDT MANSION  Van Cortlandt Park, Bronx. Built in 1784 by Frederick Van Cortlandt, this Georgian mansion was visited by General Washington during the Revolutionary War. The ample stone house has an unpretentious exterior that contrasts strongly with the rich Georgian interior. The estate was held continuously by the Van Cortlandt family until 1889, when it was purchased by the city for a park.\n\nBank of New York Calendar 1967-68\n",
     "text_source": "gpt",

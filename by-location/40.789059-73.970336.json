@@ -2,9 +2,33 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 90th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "714800f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714800f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cae0a1f0-c545-012f-6ff5-58d385a7bc34",
     "original_title": "Manhattan: 90th Street (West) - Columbus Avenue",
     "text": "65-67 West 90th Street, north side, east of Columbus Ave.\nAbout 1913.\n\nBrown Brothers.\n",
@@ -19,9 +43,29 @@
   {
     "date": "1941-04-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "90th Street and Columbus Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "486022",
     "image_url": "https://images.nypl.org/?id=486022&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c9e4430-c60e-012f-44f7-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +79,29 @@
   {
     "date": "1941-04-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "90th Street",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Columbus Avenue at 90th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "486048",
     "image_url": "https://images.nypl.org/?id=486048&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/551c6ab0-c60e-012f-059d-58d385a7bc34",
     "text": null,
     "text_source": null,

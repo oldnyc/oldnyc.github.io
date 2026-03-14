@@ -2,9 +2,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ocean Avenue",
+        "str2": "Quentin Road"
+      },
+      "source": "Brooklyn: Ocean Avenue - Quentin Road",
+      "technique": "title-cross"
+    },
     "height": 570,
     "id": "706102f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706102f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce042440-c537-012f-cad7-58d385a7bc34",
     "original_title": "Brooklyn: Ocean Avenue - Quentin Road",
     "text": "Ocean Ave. & Quentin Road\nBrooklyn\n193-?\n",

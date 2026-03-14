@@ -2,9 +2,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bergen Street",
+        "str2": "Sixth Avenue"
+      },
+      "source": "Bergen Street and Sixth Avenue",
+      "technique": "gpt"
+    },
     "height": 489,
     "id": "1509745-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509745-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6a6f690-c5cd-012f-a537-58d385a7bc34",
     "text": null,
     "text_source": null,

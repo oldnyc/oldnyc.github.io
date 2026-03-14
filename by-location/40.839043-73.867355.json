@@ -2,9 +2,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Beach Avenue",
+        "str2": "Guerlain Avenue"
+      },
+      "source": "Bronx: Beach Avenue - Guerlain Avenue",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "700488f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700488f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55de7af0-c52f-012f-c247-58d385a7bc34",
     "original_title": "Bronx: Beach Avenue - Guerlain Avenue",
     "text": "Beach Ave., east side, south from Guerlain Street to Archer Street, showing newly erected buildings known as the Stratton Park Apartments. The south side of Guerlain Street is seen extending east to Taylor Ave.\n\nAbout 1929.\n\nGeneral Photographic Company.\n",

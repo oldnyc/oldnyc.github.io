@@ -2,9 +2,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 103,
+        "street": "W 135th Street"
+      },
+      "source": "135th Street (West) #103",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508431",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508431.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Schomburg Center, NYPL"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d721ff0-c5cf-012f-d040-58d385a7bc34",
     "text": null,
     "text_source": null,

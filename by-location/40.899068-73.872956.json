@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "238th Street (East)",
+        "str2": "Oneida Avenue"
+      },
+      "source": "Bronx: 238th Street (East) - Oneida Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "700366f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700366f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "East One Hundred Twenty-eighth Street (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29ab0080-c52f-012f-481f-58d385a7bc34",
     "original_title": "Bronx: 238th Street (East) - Oneida Avenue",
     "text": "E. 238th Street, east from Oneida Avenue, showing a Works Progress Administration highway project.\n\n1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

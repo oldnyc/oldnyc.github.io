@@ -2,9 +2,29 @@
   {
     "date": "1945-04-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 12,
+        "street": "E 69th Street"
+      },
+      "source": "69th Street (East) #12",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508283-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508283-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0429c4d0-c5cf-012f-e73a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1945-03-08",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 14,
+        "street": "E 69th Street"
+      },
+      "source": "69th Street (East) #14",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508285-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508285-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/04703540-c5cf-012f-25f5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +74,44 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 16,
+        "street": "E. 69th St."
+      },
+      "source": "16 E. 69th St.",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "66th Road",
+        "str2": "69th Street (East)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "66th Road",
+        "str2": "69th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "714261f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714261f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f798eb10-c544-012f-7c03-58d385a7bc34",
     "original_title": "Manhattan: 69th Street (East) - 66th Road",
     "text": "English Speaking Union\n16 E. 69th St.\nNYC\n",

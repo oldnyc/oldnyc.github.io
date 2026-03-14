@@ -2,9 +2,30 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street (East)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 20th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717334f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717334f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b127de20-c549-012f-41da-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 20th Street (East)",
     "text": "Broadway, at the S.W. corner of East 20th Street. Building shown was occupied by Lord & Taylor, a department store, from 1872 to a later date.\n\nAbout 1880.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "20th St",
+        "str2": "Broadway"
+      },
+      "source": "20th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 360,
     "id": "1627890-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627890-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4671f020-c6d2-012f-e299-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +80,33 @@
   {
     "date": "1899",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "20th St",
+        "str2": "Broadway"
+      },
+      "source": "20th St and Broadway",
+      "technique": "gpt"
+    },
     "height": 227,
     "id": "1627891",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1627891.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Broadway (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc.",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46c2db30-c6d2-012f-9bd5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +120,34 @@
   {
     "date": "1902",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street (East)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 20th Street (East) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711550f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711550f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/839c15a0-c540-012f-8247-58d385a7bc34",
     "original_title": "Manhattan: 20th Street (East) - Broadway",
     "text": "20-22-24 East 20th Street, South Side between Broadway and Fourth Avenue.\nSeptember 13, 1903 (?)\nWurtz Brothers\nReproductions\n",
@@ -68,9 +162,27 @@
   {
     "date": "1902-10-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street (East)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 20th Street (East) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711551f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711551f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83ea99a0-c540-012f-2c96-58d385a7bc34",
     "original_title": "Manhattan: 20th Street (East) - Broadway",
     "text": "20-22-24 E.20th Street, south side, between Broadway & Fourth Avenue, showing demolition in progress.\n\nWurts Brothers     October 9, 1902\n",
@@ -85,9 +197,27 @@
   {
     "date": "1902-10-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street (East)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 20th Street (East) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711552f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711552f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/845477d0-c540-012f-97fa-58d385a7bc34",
     "original_title": "Manhattan: 20th Street (East) - Broadway",
     "text": "20-24 E. 20th Street, south side, between Broadway and Fourth Avenue, showing demolition in progress.\n\nOctober 9, 1902\n",
@@ -102,9 +232,30 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 20th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717335f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717335f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clothing stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b18c7cf0-c549-012f-0292-58d385a7bc34",
     "original_title": "Manhattan: Broadway - 20th Street",
     "text": "Lord and Taylor, a large department store, Broadway at the S.W. corner of 20th Street. The store will soon move uptown to Fifth Avenue at the N.W. corner of 36th Street, but the building will stand in 1936 ['1936' crossed out] 1966.\n\nAbout 1900\n\nWurts Brothers.\n",
@@ -119,9 +270,38 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - Between 20th and 21st Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717337f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717337f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "911-915 Broadway ; Fishfield Desk Co. ; Levey Cleaner and Dyer."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Business enterprises",
+          "Furniture industry",
+          "Millinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2516b60-c549-012f-be11-58d385a7bc34",
     "original_title": "Manhattan: Broadway - [Between 20th and 21st Streets]",
     "text": "#911-913 Broadway, West Side.\n\nWurts Brothers, Photographers,\n\nMay 18th, 1914.\n",
@@ -136,9 +316,29 @@
   {
     "date": "1918-01-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 20th Street",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "1509089-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509089-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e8cc24e0-c5cd-012f-7e6f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -155,9 +355,27 @@
     "dates_from_text": [
       "1919-01-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 20th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "711553f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711553f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84c08500-c540-012f-7992-58d385a7bc34",
     "original_title": "Manhattan: 20th Street - Broadway",
     "text": "20th Street, Broadway to 5th Avenue.\n\nJanuary 29, 1919\n",
@@ -175,9 +393,27 @@
     "dates_from_text": [
       "1919-01-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "20th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 20th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "711554f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711554f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85134e30-c540-012f-010f-58d385a7bc34",
     "original_title": "Manhattan: 20th Street - Broadway",
     "text": "20th Street, Broadway to 5th Avenue.\n\nJanuary 29, 1919\n",

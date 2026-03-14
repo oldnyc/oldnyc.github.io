@@ -2,9 +2,33 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Berriman Street"
+      },
+      "source": "Brooklyn: Berriman Street - Belmont Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703243f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703243f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a2504f0-c533-012f-f918-58d385a7bc34",
     "original_title": "Brooklyn: Berriman Street - Belmont Avenue",
     "text": "It's Berriman Junior High School (a/k/a P. S. 64).",
@@ -19,9 +43,33 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Berriman Street"
+      },
+      "source": "Brooklyn: Berriman Street - Belmont Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703243f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703243f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a2504f0-c533-012f-f918-58d385a7bc34",
     "original_title": "Brooklyn: Berriman Street - Belmont Avenue",
     "text": "It's Berriman Junior High School (a/k/a P. S. 64).",

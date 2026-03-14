@@ -2,9 +2,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Princeton Street",
+        "str2": "Shore Avenue"
+      },
+      "source": "Queens: Shore Avenue - Princeton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "727974f",
     "image_url": "https://images.nypl.org/?id=727974f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09686200-c55a-012f-ebee-58d385a7bc34",
     "original_title": "Queens: Shore Avenue - Princeton Street",
     "text": "Shore Ave. from Princeton to Inwood St.",

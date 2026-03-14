@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-04-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Elder Avenue",
+        "str2": "Main Street"
+      },
+      "source": "Queens: Elder Avenue - Main Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "726518f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726518f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3cd0380-c557-012f-499c-58d385a7bc34",
     "original_title": "Queens: Elder Avenue - Main Street",
     "text": "Elder Avenue (telephone poles), west from near Main Street, Flushing.\n\nP. L. Sperr\n\nApril 19, 1936\n",
@@ -22,9 +40,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Elder Avenue",
+        "str2": "Main Street"
+      },
+      "source": "Elder Avenue and Main Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Elder Avenue",
+        "str2": "west from Main Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "726519f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726519f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e94ee70-c55a-012f-b782-58d385a7bc34",
     "original_title": "Queens: Elder Avenue - west from Main Street.",
     "text": "Elder Avenue, west from Main Street. On the right is Mill Creek, winding its course through the Flushing meadow.\n\nP. L. Sperr\nApril 19, 1936\n",

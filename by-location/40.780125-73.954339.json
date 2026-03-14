@@ -2,9 +2,29 @@
   {
     "date": "1931-03-02",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 165,
+        "street": "E 87th Street"
+      },
+      "source": "87th Street (East) #165",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508357-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508357-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10b396d0-c5cf-012f-a3d0-58d385a7bc34",
     "text": null,
     "text_source": null,

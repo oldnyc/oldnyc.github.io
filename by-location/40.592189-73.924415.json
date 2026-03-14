@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Florence Avenue",
+        "str2": "Gerritsen Avenue"
+      },
+      "source": "Brooklyn: Florence Avenue - Gerritsen Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704381f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704381f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ee5f720-c535-012f-083a-58d385a7bc34",
     "original_title": "Brooklyn: Florence Avenue - Gerritsen Avenue",
     "text": "Florence Ave., south side, west from Gerritsen Ave. In the foreground, is a view of St. James' Lutheran Church.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",

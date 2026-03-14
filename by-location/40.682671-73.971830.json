@@ -2,9 +2,30 @@
   {
     "date": "1941-09-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Cumberland Street"
+      },
+      "source": "Atlantic Avenue and Cumberland Street",
+      "technique": "gpt"
+    },
     "height": 397,
     "id": "1509565-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509565-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8348370-c5cd-012f-b6d8-58d385a7bc34",
     "text": null,
     "text_source": null,

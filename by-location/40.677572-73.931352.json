@@ -2,9 +2,30 @@
   {
     "date": "1905-04-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1703,
+        "street": "Atlantic Avenue"
+      },
+      "source": "Atlantic Avenue #1703",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1509507-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509507-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9eaac9c0-c5cd-012f-9e22-58d385a7bc34",
     "text": null,
     "text_source": null,

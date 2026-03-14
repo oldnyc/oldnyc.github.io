@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "Wyatt Street"
+      },
+      "source": "Bronx: Devoe Avenue - Wyatt Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "700860f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700860f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d836def0-c52f-012f-b517-58d385a7bc34",
     "original_title": "Bronx: Devoe Avenue - Wyatt Street",
     "text": "Devoe Ave., at the N.E. corner of Wyatt Street, showing a Scandinavian tent gospel meeting place.\n\nJuly 31, 1928.\n\nP. L. Sperr.\n\nASSUMING STREET TO BE NORTH AND SOUTH\n",
@@ -19,9 +40,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "Wyatt Street"
+      },
+      "source": "Bronx: Devoe Avenue - Wyatt Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700859f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700859f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d7e3de00-c52f-012f-4b64-58d385a7bc34",
     "original_title": "Bronx: Devoe Avenue - Wyatt Street",
     "text": "Devoe Avenue, at the northwest corner of Wyatt Street, showing a new United States Post office branch, erected 1935.\n\nP. L. Sperr\nJuly 23, 1940\n",

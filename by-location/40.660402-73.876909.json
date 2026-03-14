@@ -2,9 +2,27 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Elton Street",
+        "str2": "Wortman Street"
+      },
+      "source": "Brooklyn: Elton Street - Wortman Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "704089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa2ae3b0-c534-012f-80e2-58d385a7bc34",
     "original_title": "Brooklyn: Elton Street - Wortman Street",
     "text": "(1)\n953 Elton Street, east side, south of Wortman Ave.\nJuly 5, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle.\nJuly 5, 1934.\n\nP. L. Sperr.\n",
@@ -19,9 +37,27 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Elton Street",
+        "str2": "Wortman Street"
+      },
+      "source": "Brooklyn: Elton Street - Wortman Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704089f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704089f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa2ae3b0-c534-012f-80e2-58d385a7bc34",
     "original_title": "Brooklyn: Elton Street - Wortman Street",
     "text": "(1)\n953 Elton Street, east side, south of Wortman Ave.\nJuly 5, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle.\nJuly 5, 1934.\n\nP. L. Sperr.\n",
@@ -36,9 +72,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Elton Street",
+        "str2": "Wortman Avenue"
+      },
+      "source": "Brooklyn: Elton Street - Wortman Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704090f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704090f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Croplands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa84dfb0-c534-012f-69f6-58d385a7bc34",
     "original_title": "Brooklyn: Elton Street - Wortman Avenue",
     "text": "Elton Street, south from Wortman Ave., showing a city street, which continues as a winding farm road, on its way towards Jamaica Bay.\n\nJuly 5, 1934.\n\nP. L. Sperr.\n",
@@ -53,9 +110,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Elton St.",
+        "str2": "Wortman Ave."
+      },
+      "source": "Brooklyn: Wortman Ave. - Elton St.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "707451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707451f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses",
+          "Farms"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d8b8c8f0-c539-012f-2548-58d385a7bc34",
     "original_title": "Brooklyn: Wortman Ave. - Elton St.",
     "text": "457-473 Wortman Ave., north side, from Elton to Linwood Streets, showing Soiefer Milk and Cream Farm. Also seen is row of homes on Elton Street, east side, north from Wortman Ave.\n\nJuly 5, 1934.\n\nP. L. Sperr.\n",

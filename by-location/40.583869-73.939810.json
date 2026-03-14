@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-06-13"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "29th Street (East)",
+        "str2": "Emmons Avenue"
+      },
+      "source": "Brooklyn: Emmons Avenue - 29th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "704127f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704127f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b98baf70-c534-012f-494e-58d385a7bc34",
     "original_title": "Brooklyn: Emmons Avenue - 29th Street (East)",
     "text": "Emmons Avenue, north side, between East 29th Street and Nostrand Avenue. Shown is a row of bungalows, which appear on Hyde's 1929 map as Nos. 1 to 15 Cantor Avenue, the latter evidently being the stretch of low land in front of the dwellings.\n\nJune 13, 1940\n\nP. L. Sperr\n",

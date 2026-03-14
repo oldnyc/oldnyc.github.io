@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "37th Street",
+        "str2": "Flatbush Avenue"
+      },
+      "source": "37th Street and Flatbush Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "27th Street (East)",
+        "str2": "Flatbush Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "27th Street",
+        "str2": "Flatbush Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 482,
     "id": "702685f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702685f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81e44330-c532-012f-94a6-58d385a7bc34",
     "original_title": "Brooklyn: 27th Street (East) - Flatbush Avenue",
     "text": "East 27th to 37th Streets, and from Flatbush to Fillmore Aves. This area is known as Flatbush Center, and approximately 2000 houses have been built in it since this view was taken.\n\n1924.\n",

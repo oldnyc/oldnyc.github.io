@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Madison Avenue",
+        "str2": "Ninety-sixth Street"
+      },
+      "source": "Madison Avenue and Ninety-sixth Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465543-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465543-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37956fa0-c612-012f-9762-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Madison Avenue",
+        "str2": "Ninety-sixth Street"
+      },
+      "source": "Madison Avenue and Ninety-sixth Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465543-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465543-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37956fa0-c612-012f-9762-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Madison Avenue",
+        "str2": "Ninety-sixth Street"
+      },
+      "source": "Madison Avenue and Ninety-sixth Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465543-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465543-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37956fa0-c612-012f-9762-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +113,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "96th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "96th Street and Madison Avenue",
+      "technique": "gpt"
+    },
     "height": 493,
     "id": "465573-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465573-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43b4c8d0-c612-012f-c4e2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +150,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "96th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "96th Street and Madison Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465573-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465573-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43b4c8d0-c612-012f-c4e2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -85,9 +190,27 @@
     "dates_from_text": [
       "1923-09-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 96th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714880f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714880f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e93e99f0-c545-012f-e406-58d385a7bc34",
     "original_title": "Manhattan: 96th Street (East) - Madison Avenue",
     "text": "15 East 96th Street, north side, west of Madison Avenue.\n\nSeptember 5, 1923.\n\nUnderwood & Underwood.\n",
@@ -105,9 +228,27 @@
     "dates_from_text": [
       "1923-09-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 96th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714881f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714881f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e993e4c0-c545-012f-d5b7-58d385a7bc34",
     "original_title": "Manhattan: 96th Street (East) - Madison Avenue",
     "text": "15 East 96th Street, north side, west of Madison Avenue, showing the east wall.\nSeptember 5, 1923.\nUnderwood & Underwood.\n",
@@ -125,9 +266,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "96th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 96th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714882f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714882f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ea04dc20-c545-012f-b714-58d385a7bc34",
     "original_title": "Manhattan: 96th Street (East) - Madison Avenue",
     "text": "7 East 96th Street, north side, between Fifth and Madison Avenues.\n\nAbout 1927.\n\nBrown Brothers.\n",

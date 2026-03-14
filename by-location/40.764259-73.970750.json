@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1909-05-15"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 60th Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714069f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714069f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/adf4fde0-c544-012f-9e43-58d385a7bc34",
     "original_title": "Manhattan: 60th Street - Madison Avenue",
     "text": "60th Street, north side, east from, but not including Madison Ave.\n\nMay 15, 1909.\n\nWalter L. Bogert.\n",
@@ -22,9 +40,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 667,
+        "street": "Madison Avenue"
+      },
+      "source": "667 Madison Avenue",
+      "technique": "gpt"
+    },
     "height": 540,
     "id": "417232",
     "image_url": "https://images.nypl.org/?id=417232&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2800da0-c611-012f-3307-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +78,31 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 60th Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aea4d520-c544-012f-ebbb-58d385a7bc34",
     "original_title": "Manhattan: 60th Street - Madison Avenue",
     "text": "60th Street, south side, from, but not including, Madison Avenue to and including Fifth Avenue. The building in the center of the picture, 12-14 East 60th Street, is the Belleaire Apartment Hotel.\n\n1922.\n\nGift of E. M. Jenks.\n",
@@ -58,9 +120,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 60th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714068f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714068f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad85c890-c544-012f-a40f-58d385a7bc34",
     "original_title": "Manhattan: 60th Street (East) - Madison Avenue",
     "text": "19 East 60th Street, north side, west of Madison Avenue. This is the H. F. Dawson Building. The architect is Greville Rickard.\n\nAbout 1927.\n",
@@ -75,9 +155,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "721411f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/721411f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Hotel Savoy (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f2f1050-c550-012f-92c8-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 60th Street",
     "rotation": 90,
@@ -93,9 +201,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721411f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721411f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Hotel Savoy (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hotels",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f2f1050-c550-012f-92c8-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 60th Street",
     "text": "(1)\nMadison Avenue at S.W. corner of 60th Street.\nOctober 21, 1930.\nP.L. Sperr, Photographer.\n\n(2)\nMadison Avenue at S.W. corner of 60th Street, showing in background a part of the Savoy Plaza Hotel on Fifth Avenue.\nOctober 21, 1930.\nP.L. Sperr, Photographer.\n",
@@ -110,9 +246,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "60th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 60th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721412f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721412f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Methodist Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fa6a760-c550-012f-8c76-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 60th Street (East)",
     "text": "Madison Ave., at the N.E. corner of East 60th Street. Shown is the Madison Ave., M.E. Church.\nOctober 20, 1930.\n\nP. L. Sperr.\n",
@@ -127,9 +284,29 @@
   {
     "date": "1951-08-20",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 655,
+        "street": "Madison Avenue"
+      },
+      "source": "Madison Avenue #655",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507512-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507512-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34ac2230-c5ce-012f-9797-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -143,9 +320,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 29,
+        "street": "E 60th Street"
+      },
+      "source": "60th Street (East) #29",
+      "technique": "title-address"
+    },
     "height": 461,
     "id": "1508261-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508261-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00994890-c5cf-012f-9f9c-58d385a7bc34",
     "text": null,
     "text_source": null,

@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "84th Avenue",
+        "str2": "Home Lawn Street"
+      },
+      "source": "Queens: Home Lawn Street - 84th Avenue",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "726897f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/726897f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Grand Central Parkway (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63d06730-c558-012f-9888-58d385a7bc34",
     "original_title": "Queens: Home Lawn Street - 84th Avenue",
     "rotation": 90,
@@ -20,9 +42,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "84th Avenue",
+        "str2": "Home Lawn Street"
+      },
+      "source": "Queens: Home Lawn Street - 84th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "726897f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726897f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Grand Central Parkway (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63d06730-c558-012f-9888-58d385a7bc34",
     "original_title": "Queens: Home Lawn Street - 84th Avenue",
     "text": "Home Lawn Street, north from 84th Avenue toward Grand Central Parkway, showing the Grand Central parkway overpass under construction.\nMarch 26, 1932\nViews 1, 2\nP. L. Sperr\n",

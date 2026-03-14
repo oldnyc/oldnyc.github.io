@@ -2,9 +2,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Grand Avenue",
+        "str2": "Pacific Street"
+      },
+      "source": "Brooklyn: Pacific Street - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "706175f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706175f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e9c7e7f0-c537-012f-f10c-58d385a7bc34",
     "original_title": "Brooklyn: Pacific Street - Grand Avenue",
     "text": "Pacific Street, west from Grand Avenue, showing the north side of the street.\n\nP. L. Sperr\nAugust 28, 1941\n",

@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Street (East)",
+        "str2": "Avenue U"
+      },
+      "source": "Brooklyn: 4th Street (East) - Avenue U",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702359f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702359f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/07215700-c532-012f-75f4-58d385a7bc34",
     "original_title": "Brooklyn: 4th Street (East) - Avenue U",
     "text": "2140-2144 E. 4th Street, west side, north of Avenue U., showing the home of Rosario Ruisi (center, white) in 1925.\n\nMarch 20, 1925.\n\nW. B. Vernam\n",

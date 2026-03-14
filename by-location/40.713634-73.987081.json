@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1930-06-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Clinton Street",
+        "str2": "Henry Street"
+      },
+      "source": "Manhattan: Henry Street - Clinton Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720372f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720372f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/749f4b40-c54e-012f-a437-58d385a7bc34",
     "original_title": "Manhattan: Henry Street - Clinton Street",
     "text": "205 to 193 Henry Street, north side, adjoining and west of the N.W. corner of Clinton Street, showing the Anshei Bobruisk Synagogue (No. 203). The congregation was organized in 1892 and has an auxiliary called the Ladies' Society. Services are conducted in Hebrew and Yiddish.\nJune 6, 1930.\n\nP. L. Sperr.\n",

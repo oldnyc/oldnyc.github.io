@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 604,
+        "street": "W 48th Street"
+      },
+      "source": "48th Street (West) #604",
+      "technique": "title-address"
+    },
     "height": 388,
     "id": "1507959",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507959.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e62b1660-c5ce-012f-d0b2-58d385a7bc34",
     "text": null,
     "text_source": null,

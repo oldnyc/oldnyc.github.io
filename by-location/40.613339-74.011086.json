@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Avenue",
+        "str2": "85th Street"
+      },
+      "source": "Brooklyn: 85th Street - 14th Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "702885f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702885f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf5de280-c532-012f-8718-58d385a7bc34",
     "original_title": "Brooklyn: 85th Street - 14th Avenue",
     "text": "85th Street, north side, west of Fourteenth Ave., showing in the foreground the home of G. Van Brunt, from 1857 to 1873, at No. 1353.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

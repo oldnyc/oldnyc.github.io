@@ -2,9 +2,59 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "38th Avenue",
+        "str2": "Northern Boulevard"
+      },
+      "source": "38th Avenue and Northern Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "50th Avenue",
+        "str2": "Grand Central Parkwa",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "50th Avenue",
+        "str2": "Grand Central Parkway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Flushing River",
+        "str2": "Roosevelt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "726636f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726636f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Elevated railroads",
+          "Parks",
+          "Sanitary landfills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fca3a050-c557-012f-c22d-58d385a7bc34",
     "text": "Flushing Meadow Park (Queens): An extensive view, northeastward, across the swampy meadows from near Grand Central Parkway and 50th Avenue, showing the area that later became the main exposition center of the New York World's Fair 1939-40. On the horizon is the village of Flushing; on the left, the subway \"El\" on Roosevelt Avenue and the bridge that carries the avenue over the Flushing River.\n\nView 2 shows another portion of the park, viewing north toward Northern Boulevard from about 38th Avenue. Note the dump hills on the left.\n\nView 1: September 30, 1935\nView 2: October 4, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -18,9 +68,59 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "38th Avenue",
+        "str2": "Northern Boulevard"
+      },
+      "source": "38th Avenue and Northern Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "50th Avenue",
+        "str2": "Grand Central Parkwa",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "50th Avenue",
+        "str2": "Grand Central Parkway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Flushing River",
+        "str2": "Roosevelt Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "726636f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726636f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Flushing Meadows-Corona Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "New York World's Fair (1939-1940 : New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Elevated railroads",
+          "Parks",
+          "Sanitary landfills"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fca3a050-c557-012f-c22d-58d385a7bc34",
     "text": "Flushing Meadow Park (Queens): An extensive view, northeastward, across the swampy meadows from near Grand Central Parkway and 50th Avenue, showing the area that later became the main exposition center of the New York World's Fair 1939-40. On the horizon is the village of Flushing; on the left, the subway \"El\" on Roosevelt Avenue and the bridge that carries the avenue over the Flushing River.\n\nView 2 shows another portion of the park, viewing north toward Northern Boulevard from about 38th Avenue. Note the dump hills on the left.\n\nView 1: September 30, 1935\nView 2: October 4, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",

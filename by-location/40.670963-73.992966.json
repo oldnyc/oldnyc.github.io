@@ -2,9 +2,44 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 135,
+        "street": "11th Street"
+      },
+      "source": "135 11th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "11th Street",
+        "str2": "154th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "11th Street",
+        "str2": "154th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 408,
     "id": "702515f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702515f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/415d0dd0-c532-012f-0e23-58d385a7bc34",
     "original_title": "Brooklyn: 11th Street - 154th Street",
     "text": "11th St., no.135, & eastward, B'klyn.\nNov. 15, 1941\nP.L. Sperr, photographer\n",

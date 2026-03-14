@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "73rd Place",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 73rd Place",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "726384f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726384f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a3d1a1d0-c557-012f-eb83-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 73rd Place",
     "text": "Cooper Ave. (foreground), at the S.W. corner of 73rd Place. Nos. 7737-7739 '73rd Place are on the extreme left.\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",

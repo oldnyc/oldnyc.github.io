@@ -2,9 +2,27 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Emmons Ave",
+        "str2": "Gerritsen Ave"
+      },
+      "source": "Emmons Ave and Gerritsen Ave",
+      "technique": "gpt"
+    },
     "height": 480,
     "id": "729982f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729982f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Gerritsen Beach (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3cd47a80-c55d-012f-fa6b-58d385a7bc34",
     "text": "A general view of Gerritsen Beach, looking northwest from a point northwest of Gerritsen and Emmons Aves., showing the swamp lands which were reclaimed and named Gerritsen Beach. About 1923.",
     "text_source": "gpt",
@@ -18,9 +36,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Gerritsen Creek"
+      },
+      "source": "Flatbush Ave and Gerritsen Creek",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Gerritsen Creek, east",
+        "str2": "Marine Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "705588f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705588f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/06a310f0-c537-012f-7b0c-58d385a7bc34",
     "text": "Marine Park, west side of Gerritsen Creek, viewed eastward, showing Flatbush Ave. in the background. This is a set of 3 views taken from different angles.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -35,9 +86,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Gerritsen Creek"
+      },
+      "source": "Flatbush Ave and Gerritsen Creek",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Gerritsen Creek, east",
+        "str2": "Marine Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "705588f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705588f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/06a310f0-c537-012f-7b0c-58d385a7bc34",
     "text": "Marine Park, west side of Gerritsen Creek, viewed eastward, showing Flatbush Ave. in the background. This is a set of 3 views taken from different angles.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -52,9 +136,42 @@
   {
     "date": "1935; 1935-06-23",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Gerritsen Creek"
+      },
+      "source": "Flatbush Ave and Gerritsen Creek",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Gerritsen Creek, east",
+        "str2": "Marine Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "705588f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705588f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gerritsen Creek (New York, N.Y.)",
+          "Marine Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/06a310f0-c537-012f-7b0c-58d385a7bc34",
     "text": "Marine Park, west side of Gerritsen Creek, viewed eastward, showing Flatbush Ave. in the background. This is a set of 3 views taken from different angles.\n\nJune 23, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -69,9 +186,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Gerritsen Beach"
+      },
+      "source": "Flatbush Ave and Gerritsen Beach",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "732107f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732107f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Island (N.Y.)"
+        ],
+        "topic": [
+          "Walkways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0d4a340-c560-012f-9584-58d385a7bc34",
     "text": "(1)\nPlumb Island: A view of the remains of a wooden walk which led to shacks and boat landings on Plumb Beach Channel. This view is east towards Flatbush Ave., south of Gerritsen Beach.\nJune 18, 1937.\n\nP. L. Sperr.\n\n(2)\nThe same, at a different angle.\nJune 18, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -85,9 +225,32 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Ave",
+        "str2": "Gerritsen Beach"
+      },
+      "source": "Flatbush Ave and Gerritsen Beach",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "732107f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732107f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Plumb Island (N.Y.)"
+        ],
+        "topic": [
+          "Walkways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0d4a340-c560-012f-9584-58d385a7bc34",
     "text": "(1)\nPlumb Island: A view of the remains of a wooden walk which led to shacks and boat landings on Plumb Beach Channel. This view is east towards Flatbush Ave., south of Gerritsen Beach.\nJune 18, 1937.\n\nP. L. Sperr.\n\n(2)\nThe same, at a different angle.\nJune 18, 1937.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

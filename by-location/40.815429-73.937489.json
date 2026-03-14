@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 39,
+        "street": "W 138th Street"
+      },
+      "source": "138th Street (West) #39",
+      "technique": "title-address"
+    },
     "height": 428,
     "id": "1508437-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508437-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ea86ca0-c5cf-012f-18ed-58d385a7bc34",
     "text": null,
     "text_source": null,

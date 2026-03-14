@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "148th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 148th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715656f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715656f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10888610-c547-012f-6604-58d385a7bc34",
     "original_title": "Manhattan: 148th Street (West) - Riverside Drive",
     "text": "West 148th Street, east from Riverside Drive to and including Broadway (atop of hill).\n\nMay 5, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

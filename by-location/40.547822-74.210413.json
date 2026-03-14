@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1929-04-30"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 872,
+        "street": "Rossville Avenue"
+      },
+      "source": "872 Rossville Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Rossville Avenue",
+        "str2": "Tarbes Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Rossville Avenue",
+        "str2": "Tarbes Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "729550f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729550f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7cd1fc30-c55c-012f-eefc-58d385a7bc34",
     "original_title": "Richmond: Rossville Avenue - Tarbes Avenue",
     "text": "872 Rossville Avenue, west side, between Tarbes and Correll Avenues, showing the J.C. Usiak residence. The house was owned by Graham from 1874 to 1898; by Anna Kamauth in 1907, and by Ellen M. Graham in 1917.\n\nApril 30, 1929\n\nP. L. Sperr\n",

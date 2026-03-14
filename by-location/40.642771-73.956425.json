@@ -2,9 +2,30 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "22nd Street (East)",
+        "str2": "Clarendon Road"
+      },
+      "source": "Brooklyn: Clarendon Road - 22nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "703570f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703570f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barns"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d8167620-c533-012f-c7eb-58d385a7bc34",
     "original_title": "Brooklyn: Clarendon Road - 22nd Street (East)",
     "text": "Clarendon Road, north side, at East 22nd street, showing the barns on the Vanderveer farm. In 1890 the property was owned by Mary and Catherine Vanderveer and E. A. Martense.\n\nEugene L. Armbruster, Collection  about 1890\nNEGG ~~ 3528\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Kings Highway"
+      },
+      "source": "Brooklyn: Kings Highway - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "705226f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705226f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/759ec550-c536-012f-e972-58d385a7bc34",
     "text": "2519 Kings Highway, north side, between Bedford Ave., and East 26th Street, showing the Patrick Whalen house, occupied by him in 1873, and still being occupied by his daughter. April 1923.\n\nEugene L. Armbruster collection.\n",
     "text_source": "gpt",

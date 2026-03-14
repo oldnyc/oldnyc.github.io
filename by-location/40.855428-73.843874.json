@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Eastchester Road",
+        "str2": "McDonald Street"
+      },
+      "source": "Bronx: McDonald Street - Eastchester Road",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "701443f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701443f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "McDonald Street (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae659e90-c530-012f-3b16-58d385a7bc34",
     "original_title": "Bronx: McDonald Street - Eastchester Road",
     "text": "McDonald Street, east from Eastchester Road to Stillwell Avenue, showing W.P.A. operations.\n\nSeptember 22, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

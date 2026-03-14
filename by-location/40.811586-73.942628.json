@@ -2,9 +2,32 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "131st Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: Lenox Avenue - 131st Street",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "720869f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720869f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Lenox Avenue (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35f16bb0-c54f-012f-760e-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - 131st Street",
     "text": "Lenox Avenue, north from 131st Street.\nMarch 12, 1901.\n",
@@ -19,9 +42,47 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 419,
+        "street": "Lenox Avenue"
+      },
+      "source": "419 Lenox Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Lenox Avenue",
+        "str2": "Westchester Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Lenox Avenue",
+        "str2": "Westchester Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 433,
     "id": "720867f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720867f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3529ced0-c54f-012f-dd08-58d385a7bc34",
     "original_title": "Manhattan: Lenox Avenue - Westchester Avenue",
     "text": "419 Lenox Avenue.\n  May 3, 1921.\n",
@@ -36,9 +97,50 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 422,
+        "street": "Lenox Avenue"
+      },
+      "source": "422 Lenox Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "426",
+        "str2": "Lenox Avenue, nos. 422",
+        "technique": "title-cross"
+      }
+    ],
     "height": 472,
     "id": "720868f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720868f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Harlem Street: II. 422-424 Lenox Avenue, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "A. B. C. Auto School"
+        ],
+        "topic": [
+          "Automobile driver education",
+          "Barbershops",
+          "Beauty shops",
+          "Educational facilities",
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35988420-c54f-012f-b81d-58d385a7bc34",
     "text": null,
     "text_source": null,

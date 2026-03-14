@@ -2,9 +2,33 @@
   {
     "date": "1870; 1950",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "88th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 88th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714768f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714768f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bee34240-c545-012f-eba9-58d385a7bc34",
     "original_title": "Manhattan: 88th Street (West) - Amsterdam Avenue",
     "text": null,

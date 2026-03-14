@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1938-05-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "201st Street (East)",
+        "str2": "Valentine Avenue"
+      },
+      "source": "Bronx: 201st Street (East) - Valentine Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700316f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700316f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/17facd20-c52f-012f-3082-58d385a7bc34",
     "original_title": "Bronx: 201st Street (East) - Valentine Avenue",
     "text": "E. 201st Street, north side, west from Valentine Avenue.\nMay 5, 1938.\n\nP.L. Sperr\n",

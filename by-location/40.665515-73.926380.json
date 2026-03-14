@@ -2,9 +2,33 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "96th Street (East)",
+        "str2": "New York Avenue (East)"
+      },
+      "source": "Brooklyn: New York Avenue (East) - 96th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "704057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d29a340-c534-012f-8786-58d385a7bc34",
     "original_title": "Brooklyn: New York Avenue (East) - 96th Street (East)",
     "text": "East New York Avenue, south side, from East, 95th to Rockaway Parkway, showing Public School No. 189.\nBoard of Education of the City of New York March 18, 1924\n",

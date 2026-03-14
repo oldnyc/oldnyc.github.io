@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Brooklyn: 16th Avenue - 56th Street",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "702566f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702566f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54a44b90-c532-012f-4457-58d385a7bc34",
     "original_title": "Brooklyn: 16th Avenue - 56th Street",
     "text": "16th Avenue (right), east side, from 56th to 57th Streets, showing Public School No. 180.  The old P.S. 180, a frame house, was at the northwest corner of 18th Avenue and 57th Street.\n\nBoard of Education of the City of New York.  Early 1930's\n",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1941-08-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 13,
+        "street": "Marion Street"
+      },
+      "source": "13 Marion Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Occident Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Occident Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 406,
     "id": "705592f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705592f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0871f560-c537-012f-084b-58d385a7bc34",
     "original_title": "Brooklyn: Marion Street - Occident Avenue",
     "text": "Marion St., nos. 13-17, Bklyn.\n\nP.L. Sperr, photographer\n\nAug. 2, 1941\n",

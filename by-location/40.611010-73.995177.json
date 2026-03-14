@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925-06-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "19th Avenue",
+        "str2": "77th Street"
+      },
+      "source": "Brooklyn: 77th Street - 19th Avenue",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "702843f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702843f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf1849a0-c532-012f-86ac-58d385a7bc34",
     "original_title": "Brooklyn: 77th Street - 19th Avenue",
     "text": "1860-77th Street, south side, west of Nineteenth Avenue, showing the Jos. Halpern house of 1925.\n\nJune 24, 1925.\n\nW. B. Vernam\n",
@@ -22,9 +40,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "19th Avenue",
+        "str2": "77th Street"
+      },
+      "source": "Brooklyn: 77th Street - 19th Avenue",
+      "technique": "title-cross"
+    },
     "height": 462,
     "id": "702844f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702844f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf6b6570-c532-012f-3cd8-58d385a7bc34",
     "original_title": "Brooklyn: 77th Street - 19th Avenue",
     "text": "77th Street, east from 19th Avenue, showing W. P. A. sewer construction operations. On the left is public school No. 186.\n\n1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "250th Street (West)",
+        "str2": "Grosvenor Avenue"
+      },
+      "source": "Bronx: Grosvenor Avenue - 250th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 483,
     "id": "701195f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701195f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4e8c3d70-c530-012f-3df8-58d385a7bc34",
     "original_title": "Bronx: Grosvenor Avenue - 250th Street (West)",
     "text": "4720 Grosvenor Ave., adjoining the S.E. corner of West 250th Street. It is within the restricted residential section known as Fieldston.\n\nAbout 1929.\n\nBrown Brothers.\n",

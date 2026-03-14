@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "30th Avenue",
+        "str2": "43rd Street"
+      },
+      "source": "Queens: 30th Avenue - 43rd Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "725181f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725181f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Astoria (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Convents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0901f000-c556-012f-1d55-58d385a7bc34",
     "original_title": "Queens: 30th Avenue - 43rd Street",
     "text": "30th Avenue, north side, from 43rd to 44th Streets, looking east and showing St. Josephs Roman Catholic Church, the Convent (left) and rectory.\n\nP. L. Sparr\nJune 23, 1932\n",

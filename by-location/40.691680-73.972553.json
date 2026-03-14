@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Carlton Avenue",
+        "str2": "Willoughby Avenue"
+      },
+      "source": "Brooklyn: Carlton Avenue - Willoughby Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703494f",
     "image_url": "https://images.nypl.org/?id=703494f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b9578be0-c533-012f-471e-58d385a7bc34",
     "original_title": "Brooklyn: Carlton Avenue - Willoughby Avenue",
     "text": null,

@@ -2,9 +2,42 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 23,
+        "street": "Clinton Street"
+      },
+      "source": "23 Clinton Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "num": 51,
+        "street": "Clark Street",
+        "technique": "title-address"
+      }
+    ],
     "height": 400,
     "id": "730002f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730002f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "51 Clark Street - Hotel St. George ; 23 Clinton Street - Hotel Touraine."
+      ],
+      "subjects": {
+        "geographic": [
+          "Brooklyn Bridge (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46f773c0-c55d-012f-f4c4-58d385a7bc34",
     "text": "General view: A view northwest from the Hotel Touraine, located at No. 23 Clinton Street. In the center of the view, is the Brooklyn Bridge. In the left foreground, is the Hotel St. George.\n\nDecember 16, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

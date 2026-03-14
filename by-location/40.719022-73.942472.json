@@ -2,9 +2,44 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Richardson Street"
+      },
+      "source": "Henry Street and Richardson Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Henry Street (North)",
+        "str2": "Scammel Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Scammel Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "706071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c08ed760-c537-012f-e5ba-58d385a7bc34",
     "original_title": "Brooklyn: Henry Street (North) - Scammel Street",
     "text": "North Henry Street, east side, north from 18 North Henry Street, seen right foreground, just north of Richardson Street. At center is a partial view of St. Cecelia Church. (R.C.).\n\nMarch 3, 1935.\n\nP. L. Sperr.\n",

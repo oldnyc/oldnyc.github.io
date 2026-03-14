@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 16,
+        "street": "Cornelia Street"
+      },
+      "source": "16 Cornelia Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "6th Avenue",
+        "str2": "Cornelia Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "6th Avenue",
+        "str2": "Cornelia Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "719232f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719232f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a821b290-c54c-012f-384e-58d385a7bc34",
     "original_title": "Manhattan: Cornelia Street - 6th Avenue",
     "text": "16-14 Cornelia Street, south side, west of Sixth Ave.\n1932.\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

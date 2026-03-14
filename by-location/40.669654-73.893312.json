@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Sutter Ave.",
+        "str2": "Vermont St."
+      },
+      "source": "Brooklyn: Sutter Ave. - Vermont St.",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "707015f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707015f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c3dff00-c539-012f-1ed9-58d385a7bc34",
     "original_title": "Brooklyn: Sutter Ave. - Vermont St.",
     "text": "Sutter Avenue (left), south side, from Vermont to Wyona Streets, showing Public School No. 149. The Vermont Street side of the school is on the right.\n\nBoard of Education of the City of New York  July 9, 1931\n",

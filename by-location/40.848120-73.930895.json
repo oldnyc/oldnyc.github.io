@@ -2,9 +2,34 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "West 181st Street"
+      },
+      "source": "Amsterdam Avenue and West 181st Street",
+      "technique": "gpt"
+    },
     "height": 388,
     "id": "731076f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731076f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Harlem Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Washington Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/faffd6a0-c55e-012f-2453-58d385a7bc34",
     "text": "Washington Bridge, spanning the Harlem River, from upper Manhattan; at (West 181st Street and Amsterdam Ave), to the Bronx. The photographers vantage point is in the latter and he is viewing towards the former. About 1932.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -18,9 +43,36 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "George Washington Bridge"
+      },
+      "source": "181st Street and George Washington Bridge",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "734616f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734616f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 181st Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fort Washington Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94397bc0-c564-012f-f576-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +86,36 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "George Washington Bridge"
+      },
+      "source": "181st Street and George Washington Bridge",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "734616f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734616f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 181st Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fort Washington Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94397bc0-c564-012f-f576-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +129,36 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "181st Street",
+        "str2": "George Washington Bridge"
+      },
+      "source": "181st Street and George Washington Bridge",
+      "technique": "gpt"
+    },
     "height": 399,
     "id": "734616f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734616f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 181st Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Fort Washington Park (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94397bc0-c564-012f-f576-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -66,9 +172,41 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Washington Bridge"
+      },
+      "source": "Amsterdam Avenue and Washington Bridge",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "High Bridge Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 399,
     "id": "720429f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/720429f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Pumping stations",
+          "Water supply"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b71ca50-c54e-012f-5956-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nHighbridge Park: The pump house, set in a hollow between High Bridge and Washington Bridge. The latter appears partially on the right; photographers view being northward.\n\nApril 8, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, in the same direction and showing the general area. Buildings appearing on the left, line the western boundary of the Park, which at this point is Amsterdam Ave.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
@@ -83,9 +221,41 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "Washington Bridge"
+      },
+      "source": "Amsterdam Avenue and Washington Bridge",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "High Bridge Park",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "720429f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720429f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Pumping stations",
+          "Water supply"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8b71ca50-c54e-012f-5956-58d385a7bc34",
     "text": "(1)\nHighbridge Park: The pump house, set in a hollow between High Bridge and Washington Bridge. The latter appears partially on the right; photographers view being northward.\n\nApril 8, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, in the same direction and showing the general area. Buildings appearing on the left, line the western boundary of the Park, which at this point is Amsterdam Ave.\n\nApril 8, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -99,9 +269,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "George Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "George Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7655c680-c55e-012f-acb3-58d385a7bc34",
     "text": "The George Washington Bridge, a steel structure, connecting Manhattan at West 181st Street with Fort Lee, New Jersey. The view is westward from Manhattan, and just south of the Bridge. Control of this engineering masterpiece, is in the hands of the N.Y. Port Authority, who will charge a toll for crossing same. These 4 views are more or less similar, and are all by the same photographer.\n\n1936.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -115,9 +310,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "George Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "George Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
     "height": 436,
     "id": "730775f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730775f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7655c680-c55e-012f-acb3-58d385a7bc34",
     "text": "The George Washington Bridge, a steel structure, connecting Manhattan at West 181st Street with Fort Lee, New Jersey. The view is westward from Manhattan, and just south of the Bridge. Control of this engineering masterpiece, is in the hands of the N.Y. Port Authority, who will charge a toll for crossing same. These 4 views are more or less similar, and are all by the same photographer.\n\n1936.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -131,9 +351,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "George Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "George Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
     "height": 450,
     "id": "730775f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730775f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Cliffs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7655c680-c55e-012f-acb3-58d385a7bc34",
     "text": "The George Washington Bridge, a steel structure, connecting Manhattan at West 181st Street with Fort Lee, New Jersey. The view is westward from Manhattan, and just south of the Bridge. Control of this engineering masterpiece, is in the hands of the N.Y. Port Authority, who will charge a toll for crossing same. These 4 views are more or less similar, and are all by the same photographer.\n\n1936.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -147,9 +392,48 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "184th Street (West)",
+        "str2": "Harlem River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Harlem River Drive",
+        "str2": "West 184th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "720334f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720334f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "High Bridge (New York, N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Washington Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65b3e3b0-c54e-012f-a331-58d385a7bc34",
     "original_title": "Manhattan: Harlem River Drive - 184th Street (West)",
     "text": "(1)\nHarlem River Driveway, east side, south from (approximately) West 184th Street, showing the pedestrians walk and a portion of Highbridge Park. Also shown (left) is the Harlem River, and Washington and High Bridges spanning the river, linking Manhattan with the Bronx (left). Washington Bridge crosses the Harlem River at West 181st Street, and High Bridge at West 174th Street.\nApril 20, 1937.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nApril 20, 1937.\n\nP. L. Sperr.\n",
@@ -164,9 +448,48 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "184th Street (West)",
+        "str2": "Harlem River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Harlem River Drive",
+        "str2": "West 184th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "720334f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720334f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "High Bridge (New York, N.Y.)",
+          "Highbridge Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Washington Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65b3e3b0-c54e-012f-a331-58d385a7bc34",
     "original_title": "Manhattan: Harlem River Drive - 184th Street (West)",
     "text": "(1)\nHarlem River Driveway, east side, south from (approximately) West 184th Street, showing the pedestrians walk and a portion of Highbridge Park. Also shown (left) is the Harlem River, and Washington and High Bridges spanning the river, linking Manhattan with the Bronx (left). Washington Bridge crosses the Harlem River at West 181st Street, and High Bridge at West 174th Street.\nApril 20, 1937.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nApril 20, 1937.\n\nP. L. Sperr.\n",
@@ -181,9 +504,52 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "George Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "George Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "135th Street (West)",
+        "str2": "Willis Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 135th Street",
+        "str2": "Willis Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "722960f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722960f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a06a380-c552-012f-ba9b-58d385a7bc34",
     "original_title": "Manhattan: 135th Street (West) - Willis Avenue",
     "text": "Riverside Park, north from West 135th Street, showing the marginal lands between same and the Hudson River. Traversing this strip are the New York Central Railroad tracks and the new elevated Henry Hudson Parkway, a feature of the vast West Side Improvement Project (q.v.).\n\nTo the left is the U. S. Training Ship \"Illinois\". This formerly was anchored at West 98th Street and only recently was removed here. Across the background is the George Washington Bridge, extending from West 181st Street, Manhattan to the Palisades of New Jersey.\n\nP. L. Sperr\n\nApril 1, 1938\nViews: 1-2\n",
@@ -198,9 +564,52 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "George Washington Bridge",
+        "str2": "West 181st Street"
+      },
+      "source": "George Washington Bridge and West 181st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "135th Street (West)",
+        "str2": "Willis Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 135th Street",
+        "str2": "Willis Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "722960f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722960f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a06a380-c552-012f-ba9b-58d385a7bc34",
     "original_title": "Manhattan: 135th Street (West) - Willis Avenue",
     "text": "Riverside Park, north from West 135th Street, showing the marginal lands between same and the Hudson River. Traversing this strip are the New York Central Railroad tracks and the new elevated Henry Hudson Parkway, a feature of the vast West Side Improvement Project (q.v.).\n\nTo the left is the U. S. Training Ship \"Illinois\". This formerly was anchored at West 98th Street and only recently was removed here. Across the background is the George Washington Bridge, extending from West 181st Street, Manhattan to the Palisades of New Jersey.\n\nP. L. Sperr\n\nApril 1, 1938\nViews: 1-2\n",
@@ -215,9 +624,37 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "West 181st Street"
+      },
+      "source": "Amsterdam Avenue and West 181st Street",
+      "technique": "gpt"
+    },
     "height": 407,
     "id": "731080f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731080f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Harlem Bridge, spanning the Harlem River from upper Manhattan at West 181st Street and Amsterdam Avenue to the Bronx."
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Ferries",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd09f730-c55e-012f-2ec2-58d385a7bc34",
     "text": "Washington Bridge, spanning the Harlem River and connecting W. 181st Street, Manhattan (left), with the Bronx. The views are north from High Bridge.\n\nJune 20, 1940\nViews 1,2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -231,9 +668,37 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Amsterdam Avenue",
+        "str2": "West 181st Street"
+      },
+      "source": "Amsterdam Avenue and West 181st Street",
+      "technique": "gpt"
+    },
     "height": 410,
     "id": "731080f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731080f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Harlem Bridge, spanning the Harlem River from upper Manhattan at West 181st Street and Amsterdam Avenue to the Bronx."
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Washington Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Ferries",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd09f730-c55e-012f-2ec2-58d385a7bc34",
     "text": "Washington Bridge, spanning the Harlem River and connecting W. 181st Street, Manhattan (left), with the Bronx. The views are north from High Bridge.\n\nJune 20, 1940\nViews 1,2\n\nP. L. Sperr\n",
     "text_source": "gpt",

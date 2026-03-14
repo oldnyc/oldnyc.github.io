@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bedford Avenue",
+        "str2": "Monroe Street"
+      },
+      "source": "Brooklyn: Monroe Street - Bedford Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "705752f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705752f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Clubs"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4796e2f0-c537-012f-15b6-58d385a7bc34",
     "original_title": "Brooklyn: Monroe Street - Bedford Avenue",
     "text": "Monroe Street, at the N.E. corner of Bedford Ave. A view of the Bedford Branch of the Y.M.C.A., at No. 1121 Bedford Avenue.\n\nJune 1923.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,45 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 425,
+        "street": "48th Street"
+      },
+      "source": "425 48th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "713309f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713309f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7911c660-c543-012f-b854-58d385a7bc34",
     "original_title": "Manhattan: 48th Street - East River Drive",
     "text": "(1)\n48th Street, north side, at the East River.\n\nP.L.Sperr.\n\n(2)\nA view northward through space between Nos. 425 (2-story building) and 435 (warehouse) as shown in No. 1. Buildings across the background are on Mitchell Place with the Beekman Tower (N.E. corner of First Ave.) under construction.\n\nMarch 20, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +55,45 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 425,
+        "street": "48th Street"
+      },
+      "source": "425 48th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "48th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "713309f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713309f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Garages",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7911c660-c543-012f-b854-58d385a7bc34",
     "original_title": "Manhattan: 48th Street - East River Drive",
     "text": "(1)\n48th Street, north side, at the East River.\n\nP.L.Sperr.\n\n(2)\nA view northward through space between Nos. 425 (2-story building) and 435 (warehouse) as shown in No. 1. Buildings across the background are on Mitchell Place with the Beekman Tower (N.E. corner of First Ave.) under construction.\n\nMarch 20, 1928.\n\nP. L. Sperr.\n",

@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1931-03-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ave. V",
+        "str2": "East 5th Street"
+      },
+      "source": "Ave. V and East 5th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "5th Street (East)",
+        "str2": "Neck Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "East 5th Street",
+        "str2": "Neck Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "702418f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702418f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d3d1c50-c532-012f-8af5-58d385a7bc34",
     "original_title": "Brooklyn: 5th Street (East) - Neck Road",
     "text": "East 5th Street, west side, north from Neck Road to and including Ave. V, showing in the foreground, a barn at the N.W. corner of East 5th Street, and Neck Road. The row of brick houses, at the right, are at the N.W. corner of Ave. V.\n\nMarch 2, 1931.\n\nP. L. Sperr.\n",

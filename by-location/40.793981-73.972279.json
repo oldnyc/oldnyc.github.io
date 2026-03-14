@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "95th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - 95th Street",
+      "technique": "title-cross"
+    },
     "height": 418,
     "id": "1509127-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509127-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef3b3410-c5cd-012f-cf29-58d385a7bc34",
     "text": null,
     "text_source": null,

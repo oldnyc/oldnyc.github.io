@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-06-20"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Coney Island Avenue",
+        "str2": "Crawford Avenue"
+      },
+      "source": "Brooklyn: Coney Island Avenue - Crawford Avenue",
+      "technique": "title-cross"
+    },
     "height": 498,
     "id": "703791f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703791f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3297a7e0-c534-012f-61a1-58d385a7bc34",
     "original_title": "Brooklyn: Coney Island Avenue - Crawford Avenue",
     "text": "2653 Coney Island Avenue, east side, between Crawford Avenue (left) and Avenue X (right) showing the home of Angelo Sirna and Anthony Gangitano in 1923.\n\nJune 20, 1923.\n\nW. B. Vernam\n",

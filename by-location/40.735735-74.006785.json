@@ -2,9 +2,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "11th Street (West)",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - 11th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 492,
     "id": "720258f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720258f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Elevated railroads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48b319a0-c54e-012f-268b-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - 11th Street (West)",
     "text": "Greenwich Street, north from West 11th Street, showing conditions prior to track removal (surface) by the W.P.A. Incidently, the overhead elevated line (9th Ave. line) is shortly to be removed.\n\nJune 2, 1937\n\nWorks Progress Administration\nFive Boroughs Project\n",

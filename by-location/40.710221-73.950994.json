@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-09-24"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Maujer St.",
+        "str2": "Union Ave."
+      },
+      "source": "Brooklyn: Union Ave. - Maujer St.",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "707123f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707123f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56f22b90-c539-012f-6ade-58d385a7bc34",
     "original_title": "Brooklyn: Union Ave. - Maujer St.",
     "text": "N.E. corner of Union Ave. & Maujer St., B'klyn.\nSept. 24, 1941\nP.L. Sperr, photographer\n",

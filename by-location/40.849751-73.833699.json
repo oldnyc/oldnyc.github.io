@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 1912,
+        "street": "Mayflower Avenue"
+      },
+      "source": "1912 Mayflower Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Mayflower Avenue",
+        "str2": "Morris Park Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Mayflower Avenue",
+        "str2": "Morris Park Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 445,
     "id": "701440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ad391a40-c530-012f-18db-58d385a7bc34",
     "original_title": "Bronx: Mayflower Avenue - Morris Park Avenue",
     "text": "1912 Mayflower Ave., north of the N.E. corner of Morris Park Ave.\n\nAbout 1922.\n\nW. B. Vernam.\n",

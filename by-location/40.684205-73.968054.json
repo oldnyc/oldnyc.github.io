@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gates Avenue",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Gates Avenue and Vanderbilt Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465702-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465702-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76977330-c612-012f-966d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gates Avenue",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Gates Avenue and Vanderbilt Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465702-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465702-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76977330-c612-012f-966d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gates Avenue",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Gates Avenue and Vanderbilt Avenue",
+      "technique": "gpt"
+    },
     "height": 494,
     "id": "465702-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465702-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76977330-c612-012f-966d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -53,9 +116,27 @@
     "dates_from_text": [
       "1941-09-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Gates Ave.",
+        "str2": "Vanderbilt Ave."
+      },
+      "source": "Brooklyn: Vanderbilt Ave. - Gates Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707170f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707170f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/68da3f10-c539-012f-dc5e-58d385a7bc34",
     "original_title": "Brooklyn: Vanderbilt Ave. - Gates Ave.",
     "text": "Vanderbilt Avenue, north from near Gates Avenue, showing the east side of the thoroughfare.\n\nP. L. Sperr\nSeptember 19, 1941\n",

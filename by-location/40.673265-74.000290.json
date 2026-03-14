@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bush Street",
+        "str2": "Court Street"
+      },
+      "source": "Brooklyn: Court Street - Bush Street",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "703861f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703861f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ed95ce0-c534-012f-b68b-58d385a7bc34",
     "original_title": "Brooklyn: Court Street - Bush Street",
     "text": "600-616 Court Street, west side, from and including Bush, to and including Lorraine Streets. The houses concerned are frame.\n\nJune 1926.\n\nBrown Brothers.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1940-07-26",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bush Street",
+        "str2": "Court Street"
+      },
+      "source": "Bush Street and Court Street",
+      "technique": "gpt"
+    },
     "height": 395,
     "id": "1509555-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509555-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6933250-c5cd-012f-1e43-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +77,30 @@
   {
     "date": "1941-11-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bush Street",
+        "str2": "Court Street"
+      },
+      "source": "Bush Street and Court Street",
+      "technique": "gpt"
+    },
     "height": 434,
     "id": "1509557-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509557-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a6d6a9c0-c5cd-012f-c6e5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -54,9 +114,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bush Street",
+        "str2": "Court Street"
+      },
+      "source": "Brooklyn: Bush Street - Court Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703379f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703379f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bridge construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e0abb00-c533-012f-a4a2-58d385a7bc34",
     "original_title": "Brooklyn: Bush Street - Court Street",
     "text": "Bush St. from Court St. to Hamilton Ave., B'klyn. Work on new bridge.\nNov. 15, 1941\nP.L. Sperr, photographer\n",

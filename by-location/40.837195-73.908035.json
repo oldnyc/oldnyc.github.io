@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "170th Street (East)",
+        "str2": "Clay Avenue"
+      },
+      "source": "Bronx: Clay Avenue - 170th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700780f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700780f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd5caf20-c52f-012f-19ed-58d385a7bc34",
     "original_title": "Bronx: Clay Avenue - 170th Street (East)",
     "text": "1371 Clay Ave., south of the S.W. corner of East 170th Street.\nAbout 1922.\n\nW. B. Vernam.\n",

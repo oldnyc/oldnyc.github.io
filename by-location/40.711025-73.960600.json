@@ -2,9 +2,33 @@
   {
     "date": "1914",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th St. S.",
+        "str2": "5th St. (S.)"
+      },
+      "source": "Brooklyn: 5th St. (S.) - 4th St. S.",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "707358f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707358f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Washington, George, 1732-1799"
+        ],
+        "topic": [
+          "Statues"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b379c300-c539-012f-bf3f-58d385a7bc34",
     "original_title": "Brooklyn: 5th St. (S.) - 4th St. S.",
     "text": "Williamsburg Bridge Plaza, between South 5th Street (left), and South 4th Street (right), showing in the Plaza a statue of George Washington. Also shown at the N.W. corner of the Plaza is the Williamsburg Trust Co. Building. The South 3rd Street Presbyterian Church spire is seen in the center right of the view.\n\nAbout 1914\n\nUrbrock Collection\n",

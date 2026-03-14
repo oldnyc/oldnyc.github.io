@@ -2,9 +2,49 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Tiemann Place",
+        "str2": "West 125th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722954f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722954f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fort Lee Ferry Terminal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Piers & wharves",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87157110-c552-012f-cd15-58d385a7bc34",
     "text": "Riverside Park, north from a point in same, near Tiemann Place and showing tracks of the New York Central Railroad paralleling the North (Hudson) River, with piers and a ferry (Fort Lee, New Jersey) landing at the foot of West 125th Street.\n\nAbout 1890.\n\nEwing Galloway.\n",
     "text_source": "gpt",
@@ -18,9 +58,47 @@
   {
     "date": "1902",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "135th Street (West)",
+        "str2": "Willis Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "135th Street",
+        "str2": "Willis Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722961f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722961f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8a7e1270-c552-012f-daa1-58d385a7bc34",
     "original_title": "Manhattan: 135th Street (West) - Willis Avenue",
     "text": "Riverside Park: The Ottendorfer Pagoda at W. 135th Street and the North (Hudson) River on the former elaborate Oswald Ottendorfer Estate. This was also known as Eugene Kelleys Kiosk.\n\n1902.\n\nRandall Comfort.\n",
@@ -35,9 +113,48 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 467,
     "id": "722949f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722949f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84ad9000-c552-012f-870b-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 127th Street (West)",
     "text": "Riverside Park, south from Tiemann Place, (West 127th Street), showing the Claremont Inn on Riverside Drive. This structure was built before the Revolution, on land, sold August 4, 1796, by Nicholas de Peyster to George Pollock, a linen merchant who named the place for its beautiful trees and shrubbery, \"Strawberry Hill.\" His 5 year old son, St. Claire Pollock, fell off the cliffs and was drowned July 15, 1797. His father subsequently went to New Orleans, where his descendants there, are said to be called Polk. His land, expressly reserving the burial place containing the urn of his boy, which may still be seen near Grant's Tomb, was sold in 1803 to Joseph Alston, the husband of Theodosia Burr, who deeded it to Michael Hogan, the former British Consul at Havana. The latter named the place \"Claremont\" after the residence in Surrey of Prince William, Duke of Clarence, who became King William IV. The Earl of Devon, while living here in 1807, witnessed the trial of Fulton's \"Clermont\", and in 1815 an occupant was Joseph Bonaparte, the ex-King of Spain. The City finally bought the property, and since 1872 it has been a famous public restaurant. The land to the east and south of same is historical, being the scene of several of the sharpest engagements of the Battle of Harlem Heights on September 16, 1776.\n\nAbout 1907.\n\nWurts Brothers.\n",
@@ -52,9 +169,45 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "West 125th Street",
+        "str2": "West 72nd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 384,
     "id": "722944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722944f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The U. S. Fleet."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/820fcb60-c552-012f-75da-58d385a7bc34",
     "text": "Riverside Park: A set of 2 views showing Claremont Inn overlooking the Hudson River with the U.S. Fleet thereon. This historic site is at the northern tip of this elongated grassy strip that parallels the river from West 72nd to 125th Streets.\n\nOctober 13, 1912.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -68,9 +221,44 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "St. Clair Street",
+        "str2": "West 129th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 386,
     "id": "722953f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722953f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. Navy vessels."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86a277c0-c552-012f-7ce4-58d385a7bc34",
     "text": "Riverside Park: Two views from the northern extremity of same, across the Hudson River to the Palisades of New Jersey. Laying at anchor amidstream are vessels of the U.S. Navy on display. No. 1 of this set is northward to show the Recreation Pier at the foot of St. Clair (West 129th) Street, while No. 2 shows the Pergola which is the vantage point for No. 1.\n\nMay 10, 1915.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -84,9 +272,44 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "St. Clair Street",
+        "str2": "West 129th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 392,
     "id": "722953f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722953f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. Navy vessels."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/86a277c0-c552-012f-7ce4-58d385a7bc34",
     "text": "Riverside Park: Two views from the northern extremity of same, across the Hudson River to the Palisades of New Jersey. Laying at anchor amidstream are vessels of the U.S. Navy on display. No. 1 of this set is northward to show the Recreation Pier at the foot of St. Clair (West 129th) Street, while No. 2 shows the Pergola which is the vantage point for No. 1.\n\nMay 10, 1915.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -100,9 +323,51 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "143rd Street (West)",
+        "str2": "84th Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "84th Drive",
+        "str2": "West 143rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 480,
     "id": "722965f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722965f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8c665050-c552-012f-de85-58d385a7bc34",
     "original_title": "Manhattan: 143rd Street (West) - 84th Drive",
     "text": "Riverside Park: A northward view from West 143rd Street, showing prominently the New York Central Railroad tracks between the Park proper (right) and the North (Hudson) River. The marginal lands will be extended to form a new coastal line.\n\n1917.\n\nGift of E, M. Jenks.\n",
@@ -117,9 +382,41 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "The U. S. Fleet near Ulysses S. Grant's Tomb",
+        "technique": "title-cross"
+      }
+    ],
     "height": 406,
     "id": "722942f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722942f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/812d1fe0-c552-012f-69cc-58d385a7bc34",
     "text": "Riverside Park: Three views westward and southwestward across the Hudson River to the highlands of New Jersey. Amid stream are vessels of the United States Fleet on one of their periodic visits to New York. Photographers vantage point is near Grants Tomb.\n\nJune 28, 1919.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -133,9 +430,41 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "The U. S. Fleet near Ulysses S. Grant's Tomb",
+        "technique": "title-cross"
+      }
+    ],
     "height": 406,
     "id": "722942f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722942f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/812d1fe0-c552-012f-69cc-58d385a7bc34",
     "text": "Riverside Park: Three views westward and southwestward across the Hudson River to the highlands of New Jersey. Amid stream are vessels of the United States Fleet on one of their periodic visits to New York. Photographers vantage point is near Grants Tomb.\n\nJune 28, 1919.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -149,9 +478,41 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "The U. S. Fleet near Ulysses S. Grant's Tomb",
+        "technique": "title-cross"
+      }
+    ],
     "height": 408,
     "id": "722942f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722942f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/812d1fe0-c552-012f-69cc-58d385a7bc34",
     "text": "Riverside Park: Three views westward and southwestward across the Hudson River to the highlands of New Jersey. Amid stream are vessels of the United States Fleet on one of their periodic visits to New York. Photographers vantage point is near Grants Tomb.\n\nJune 28, 1919.\n\nWalter L. Bogert.\n",
     "text_source": "gpt",
@@ -165,9 +526,54 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "132nd Street (West)",
+        "str2": "Riverside Park",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "132nd Street",
+        "str2": "Riverside Park",
+        "technique": "gpt"
+      }
+    ],
     "height": 510,
     "id": "722955f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722955f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Central Railroad Tracks ; Burns Bros. Coal Co."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Coal trade",
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8794af10-c552-012f-dd71-58d385a7bc34",
     "text": "Riverside Park: Looking north along the New York Central tracks, showing grade crossing elimination at 132nd Street.\nOctober 16, 1925\n",
     "text_source": "gpt",
@@ -181,9 +587,50 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "134th Street",
+        "str2": "St. Ann's Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "134th Street",
+        "str2": "St. Ann's Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 481,
     "id": "722957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722957f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8882b580-c552-012f-ff0b-58d385a7bc34",
     "original_title": "Manhattan: 134th Street - St. Ann's Avenue",
     "text": "Riverside Park: The New York Central tracks, north from W. 134th Street.\nOctober 16, 1925\n",
@@ -198,9 +645,50 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "135th Street (West)",
+        "str2": "Willis Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "135th Street",
+        "str2": "Willis Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 484,
     "id": "722958f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722958f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88f76fc0-c552-012f-f8b7-58d385a7bc34",
     "original_title": "Manhattan: 135th Street (West) - Willis Avenue",
     "text": "Riverside Park: Elimination of Grade crossing at W. 135th Street, New York Central Railroad line.\nOctober 16, 1925\n",
@@ -215,9 +703,50 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "George Washington Bridge",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Soldiers and Sailors Monument",
+        "str2": "West 89th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "734572f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734572f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 89th Street ; Soldiers and Sailors Monument."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80e85a20-c564-012f-8897-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -231,9 +760,50 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "George Washington Bridge",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Soldiers and Sailors Monument",
+        "str2": "West 89th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "734572f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734572f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 89th Street ; Soldiers and Sailors Monument."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80e85a20-c564-012f-8897-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -247,9 +817,49 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "George Washington Bridge",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 72nd Street",
+        "str2": "West 79th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "734562f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734562f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "View of shoreline between West 72nd and 79th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c9ca3c0-c564-012f-620f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -263,9 +873,58 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 80th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 89th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "734571f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734571f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 80th Street - West 89th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)",
+          "West Side Highway (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Parks",
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80848900-c564-012f-83af-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -280,9 +939,58 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 80th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 89th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "734571f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734571f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 80th Street - West 89th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)",
+          "West Side Highway (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Parks",
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80848900-c564-012f-83af-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -297,9 +1005,58 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 80th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "West 89th Street",
+        "str2": "West Side Highway",
+        "technique": "gpt"
+      }
+    ],
     "height": 396,
     "id": "734571f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734571f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West 80th Street - West 89th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)",
+          "West Side Highway (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hoisting machinery",
+          "Parks",
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80848900-c564-012f-83af-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -314,9 +1071,49 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "Van Siclen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "Van Siclen Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722875f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722875f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Drive (New York, N.Y.)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61068050-c552-012f-8006-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - Van Siclen Avenue",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, west side, north from but not including 77th street, showing work being done on the reconstruction of the west side of the \"Drive\" which is to extend from 72nd to 125th Streets, when completed;\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(2) The same, a different angle, and more to the westward, showing reconstruction work in progress on the west side of the \"Drive\".\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(3) The same locality.\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
@@ -331,9 +1128,49 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "Van Siclen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "Van Siclen Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722875f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722875f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Drive (New York, N.Y.)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61068050-c552-012f-8006-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - Van Siclen Avenue",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, west side, north from but not including 77th street, showing work being done on the reconstruction of the west side of the \"Drive\" which is to extend from 72nd to 125th Streets, when completed;\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(2) The same, a different angle, and more to the westward, showing reconstruction work in progress on the west side of the \"Drive\".\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(3) The same locality.\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
@@ -348,9 +1185,49 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "Van Siclen Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "Van Siclen Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722875f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722875f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Drive (New York, N.Y.)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad tracks",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61068050-c552-012f-8006-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - Van Siclen Avenue",
     "text": "RIVERSIDE PARK:\n\n(1) Riverside Drive, west side, north from but not including 77th street, showing work being done on the reconstruction of the west side of the \"Drive\" which is to extend from 72nd to 125th Streets, when completed;\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(2) The same, a different angle, and more to the westward, showing reconstruction work in progress on the west side of the \"Drive\".\n\nJuly 11, 1931.\n\nP. L. Sperr.\n\n(3) The same locality.\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
@@ -365,9 +1242,46 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Tiemann Place",
+        "str2": "West 125th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "722947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722947f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Fort Lee Ferry Terminal."
+      ],
+      "subjects": {
+        "geographic": [
+          "George Washington Bridge (New York, N.Y.)",
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83ad1410-c552-012f-6988-58d385a7bc34",
     "text": "Riverside Park, northwestward across the North (Hudson) River from a point in same, near Tiemann Place. Shown at the foot of West 125th Street is a recreation pier and just beyond, the Fort Lee, New Jersey Ferry. In the background appears the new George Washington Bridge.\n\nJune 14, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -381,9 +1295,47 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 408,
     "id": "722950f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722950f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85333950-c552-012f-5946-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 127th Street (West)",
     "text": "RIVERSIDE PARK.\n\nClaremont Inn, Riverside Drive, south from Tiemann Place, (West 127th Street).\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -398,9 +1350,47 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722951f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722951f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85943a90-c552-012f-a8df-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 127th Street (West)",
     "text": "RIVERSIDE PARK.\n\n(1) Riverside Drive, south from Tiemann Place, showing the Claremont Inn.\nJune 2, 1933.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\nJune 2, 1933.\n\nP. L. Sperr.\n",
@@ -415,9 +1405,47 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722951f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722951f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85943a90-c552-012f-a8df-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 127th Street (West)",
     "text": "RIVERSIDE PARK.\n\n(1) Riverside Drive, south from Tiemann Place, showing the Claremont Inn.\nJune 2, 1933.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\nJune 2, 1933.\n\nP. L. Sperr.\n",
@@ -432,9 +1460,48 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street (West)",
+        "str2": "Riverside Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "Riverside Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "722952f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722952f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Parks",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/861a5c30-c552-012f-d21e-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 127th Street (West)",
     "text": "RIVERSIDE PARK.\n\nRiverside Drive, east side, south from but not including Tiemann Place, (West 127th Street,) showing the Claremont Inn in the foreground, and the Rockefeller Memorial Church in the background.\n\nJune 2, 1933.\n\nP. L. Sperr.\n",
@@ -449,9 +1516,49 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "U. S. battleships",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722941f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722941f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. battleships Tennessee and Pennsylvania."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Pennsylvania (Battleship)",
+          "Tennessee (Side-wheel steamer)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80a71c20-c552-012f-73f8-58d385a7bc34",
     "text": "Riverside Park: A set of 2 views westward from an undetermined point in same across the Hudson River to the Jersey highlands. Shown at anchor amid-stream are the U.S. battleships Tennessee and Pennsylvania in Nos. 1 and 2 respectively.\n\nJune 17, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -465,9 +1572,49 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.801234,
+        "lng": -73.97231
+      },
+      "source": "Riverside Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Riverside Park",
+        "str2": "U. S. battleships",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722941f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722941f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "U. S. battleships Tennessee and Pennsylvania."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "Pennsylvania (Battleship)",
+          "Tennessee (Side-wheel steamer)",
+          "United States. Navy"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/80a71c20-c552-012f-73f8-58d385a7bc34",
     "text": "Riverside Park: A set of 2 views westward from an undetermined point in same across the Hudson River to the Jersey highlands. Shown at anchor amid-stream are the U.S. battleships Tennessee and Pennsylvania in Nos. 1 and 2 respectively.\n\nJune 17, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

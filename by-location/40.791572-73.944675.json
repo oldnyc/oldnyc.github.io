@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "106th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 106th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "714980f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714980f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ff8e200-c546-012f-a1a2-58d385a7bc34",
     "original_title": "Manhattan: 106th Street - 3rd Avenue",
     "text": "106th Street, east from but not including Third Avenue.\n\nSeptember 21, 1930.\n\nP. L. Sperr.\n",
@@ -19,9 +43,38 @@
   {
     "date": "1933-11-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 106th Street (Second Avenue",
+        "str2": "Third Avenue)"
+      },
+      "source": "Manhattan: 226 East 106th Street (Second Avenue - Third Avenue)",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "1558347",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558347.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Post Office Station U interior"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0088d6a0-c5ed-012f-85d9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +88,38 @@
   {
     "date": "1933-11-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "East 106th Street (Second Avenue",
+        "str2": "Third Avenue)"
+      },
+      "source": "Manhattan: 226 East 106th Street (Second Avenue - Third Avenue)",
+      "technique": "title-cross"
+    },
     "height": 477,
     "id": "1558348",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558348.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Post Office Station U mail room"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Interiors",
+          "Post offices"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/00e7fee0-c5ed-012f-7e17-58d385a7bc34",
     "text": null,
     "text_source": null,

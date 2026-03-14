@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-03-09"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "109th Avenue",
+        "str2": "Springfield Avenue"
+      },
+      "source": "Queens: Springfield Avenue - 109th Avenue",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "728022f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728022f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1bf69630-c55a-012f-b0d6-58d385a7bc34",
     "original_title": "Queens: Springfield Avenue - 109th Avenue",
     "text": "Springfield Boulevard, at the N.E. corner of 109th Avenue.\n\nMarch 9, 1927\n\nP.L. Sperr\n",

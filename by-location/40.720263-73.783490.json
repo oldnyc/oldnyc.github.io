@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Grand Central Parkwa",
+        "str2": "Radnor Road"
+      },
+      "source": "Queens: Grand Central Parkwa - Radnor Road",
+      "technique": "title-cross"
+    },
     "height": 485,
     "id": "726796f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726796f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3d7fdbe0-c558-012f-43a0-58d385a7bc34",
     "text": "Grand Central Parkway, at the S.E. corner of Radnor Road, Jamaica, showing a private residence in the Jamaica Estates Development.\n\nAbout 1931\n",
     "text_source": "gpt",

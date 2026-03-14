@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "73rd Street",
+        "str2": "Central Park West"
+      },
+      "source": "73rd Street and Central Park West",
+      "technique": "gpt"
+    },
     "height": 363,
     "id": "464824-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/464824-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0eb6b6e0-c612-012f-8745-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Seventy-third Street"
+      },
+      "source": "Central Park West and Seventy-third Street",
+      "technique": "gpt"
+    },
     "height": 522,
     "id": "417275",
     "image_url": "https://images.nypl.org/?id=417275&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4637330-c611-012f-9587-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +77,30 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "73rd Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 73rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "718470f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718470f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7a7ca540-c54b-012f-90ed-58d385a7bc34",
     "text": "Central Park West, west side, north from 73rd Street. A detail of the Dakota Apartments (built between 1879 and 1885, and still standing in 1935) is shown at the extreme left. It is followed by the Langham, the San Remo (now replaced by a new apartment house with the same name), and the Kennilworth. About 1922.\n\nGift of E. M. Jenks.\n",
     "text_source": "gpt",
@@ -50,9 +114,34 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "73rd Street",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: Central Park West - 73rd Street",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "718471f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718471f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ae04f40-c54b-012f-b9cb-58d385a7bc34",
     "text": "Identification: Museum of Natural History, N.Y. Central Park West.\nDate: ca. 1927\nPhotographer: Fairchild Aerial Surveys, Inc., 270 W. 38th St.\nReproduction rights: Held by photographer\n",
     "text_source": "gpt",
@@ -66,9 +155,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "73rd Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 73rd Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714413f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714413f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/339ccdc0-c545-012f-7e79-58d385a7bc34",
     "text": "23 West 73rd Street, north side, between Central Park West and Columbus Avenue. This building is the Park Royal, an apartment hotel.\n\nAbout 1928.\n\nJoseph Smith.\n",
     "text_source": "gpt",

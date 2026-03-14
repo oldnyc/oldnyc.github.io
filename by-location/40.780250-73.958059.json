@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 68,
+        "street": "East 86th Street"
+      },
+      "source": "68 East 86th Street",
+      "technique": "gpt"
+    },
     "height": 504,
     "id": "416442",
     "image_url": "https://images.nypl.org/?id=416442&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e20a7e0-c6db-012f-33ab-58d385a7bc34",
     "text": null,
     "text_source": null,

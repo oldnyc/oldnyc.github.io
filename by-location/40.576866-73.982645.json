@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Mermaid Av",
+        "str2": "W. 15th St."
+      },
+      "source": "Mermaid Av and W. 15th St.",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984237",
     "image_url": "https://images.nypl.org/?id=3984237&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0177f070-c5d7-012f-87bf-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Mermaid Ave.",
+        "str2": "W. 15th St."
+      },
+      "source": "Mermaid Ave. and W. 15th St.",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984238",
     "image_url": "https://images.nypl.org/?id=3984238&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01ccd1a0-c5d7-012f-07ba-58d385a7bc34",
     "text": null,
     "text_source": null,

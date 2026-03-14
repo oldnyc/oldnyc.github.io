@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ashland Place",
+        "str2": "Lafayette Avenue"
+      },
+      "source": "Brooklyn: Ashland Place - Lafayette Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703003f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703003f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd868e90-c532-012f-719a-58d385a7bc34",
     "original_title": "Brooklyn: Ashland Place - Lafayette Avenue",
     "text": "Ashland Place, at the northwest corner of Lafayette Avenue, showing the Hotel Grenda. The view is west from Fulton Street.\n\nP. L. Sperr\nAugust 20, 1941\n",

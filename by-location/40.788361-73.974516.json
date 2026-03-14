@@ -2,9 +2,34 @@
   {
     "date": "1912; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street (West)",
+        "str2": "Amsterdam Avenue"
+      },
+      "source": "Manhattan: 87th Street (West) - Amsterdam Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714748f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714748f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b73f6690-c545-012f-b628-58d385a7bc34",
     "original_title": "Manhattan: 87th Street (West) - Amsterdam Avenue",
     "text": "153-149 West 87th Street, north side, between Amsterdam and Columbus Avenues.\nAbout 1912.\n",

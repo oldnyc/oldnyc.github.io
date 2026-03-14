@@ -2,9 +2,31 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Central Avenue",
+        "str2": "Hyatt Street"
+      },
+      "source": "Richmond: Central Avenue - Hyatt Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "728677f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728677f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New Brighton (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22b5e3e0-c55b-012f-8a10-58d385a7bc34",
     "original_title": "Richmond: Central Avenue - Hyatt Street",
     "text": "20 to 34 (right to left), Central Ave., west side, between Hyatt Street and Slosson Terrace. Also shown is a panoramic view westward of New Brighton as seen from No. 30 Bay Street.\n\nApril 29, 1929.\n\nP. L. Sperr.\n",
@@ -19,9 +41,50 @@
   {
     "date": "1930; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 15,
+        "street": "Hyatt Street"
+      },
+      "source": "15 Hyatt Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Hyatt Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Hyatt Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "728976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Public Library. St. George Branch"
+        ],
+        "topic": [
+          "Banks",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9bddd120-c55b-012f-0440-58d385a7bc34",
     "original_title": "Richmond: Hyatt Street - Bay Street",
     "text": "(1)\nHyatt Street, west from Bay Street to St. Marks Place. In the right foreground is visible part of the Borough Hall, and in the left background is the St. George Branch of the New York Public Library.\n\nMarch 1930\n\nP. L. Sperr\n\n(2)\nThe same, at a later date. The new building, on the right, is a branch of the Staten Island Savings Bank, 15 Hyatt Street, occupying the site of the two dwellings seen directly to the left of the Borough Hall in view 1.\n\nMay 26, 1937\n\nP. L. Sperr\n",
@@ -37,9 +100,50 @@
   {
     "date": "1930; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 15,
+        "street": "Hyatt Street"
+      },
+      "source": "15 Hyatt Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Hyatt Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Bay Street",
+        "str2": "Hyatt Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "728976f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728976f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Public Library. St. George Branch"
+        ],
+        "topic": [
+          "Banks",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9bddd120-c55b-012f-0440-58d385a7bc34",
     "original_title": "Richmond: Hyatt Street - Bay Street",
     "text": "(1)\nHyatt Street, west from Bay Street to St. Marks Place. In the right foreground is visible part of the Borough Hall, and in the left background is the St. George Branch of the New York Public Library.\n\nMarch 1930\n\nP. L. Sperr\n\n(2)\nThe same, at a later date. The new building, on the right, is a branch of the Staten Island Savings Bank, 15 Hyatt Street, occupying the site of the two dwellings seen directly to the left of the Borough Hall in view 1.\n\nMay 26, 1937\n\nP. L. Sperr\n",

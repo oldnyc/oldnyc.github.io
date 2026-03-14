@@ -2,9 +2,33 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenwood Road",
+        "str2": "Remsen Avenue"
+      },
+      "source": "Brooklyn: Remsen Avenue - Glenwood Road",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706451f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706451f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Baptist churches",
+          "churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56046440-c538-012f-03fb-58d385a7bc34",
     "original_title": "Brooklyn: Remsen Avenue - Glenwood Road",
     "text": "1186 Remsen Avenue, west side, between Glenwood Road and Flatlands Ave., showing the First Italian Baptist Church of Canarsie.\n\nJuly 6, 1933.\n\nP. L. Sperr.\n",
@@ -22,9 +46,27 @@
     "dates_from_text": [
       "1935-08-10"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Glenwood Road",
+        "str2": "Remsen Street"
+      },
+      "source": "Brooklyn: Remsen Street - Glenwood Road",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706456f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706456f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/581c1900-c538-012f-3c45-58d385a7bc34",
     "original_title": "Brooklyn: Remsen Street - Glenwood Road",
     "text": "Remsen Street, north side, west from Montague Terrace, at the East River, showing the Manhattan Skyline, in the background.\n\nAugust 10, 1935.\n\nP. L. Sperr.\n",

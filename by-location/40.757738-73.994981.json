@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1940-09-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "40th Street (West)",
+        "str2": "Dyer Avenue"
+      },
+      "source": "Manhattan: Dyer Avenue - 40th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "719409f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719409f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee7a5800-c54c-012f-1dc2-58d385a7bc34",
     "original_title": "Manhattan: Dyer Avenue - 40th Street (West)",
     "text": "1- Dyer Avenue, from 41st Street and looking northwards.\n\n2- Dyer Avenue, at W. 40th Street, between 9th and 10th Avenues.\n\nSeptember 4, 1940\n\nP.L. Sperr\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1940-09-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "40th Street (West)",
+        "str2": "Dyer Avenue"
+      },
+      "source": "Manhattan: Dyer Avenue - 40th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "719409f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719409f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee7a5800-c54c-012f-1dc2-58d385a7bc34",
     "original_title": "Manhattan: Dyer Avenue - 40th Street (West)",
     "text": "1- Dyer Avenue, from 41st Street and looking northwards.\n\n2- Dyer Avenue, at W. 40th Street, between 9th and 10th Avenues.\n\nSeptember 4, 1940\n\nP.L. Sperr\n",
@@ -42,9 +78,40 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 457,
+        "street": "West 40th Street"
+      },
+      "source": "457 West 40th Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558208",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558208.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Public Library West 40th Street Branch"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Public Library. West 40th Street (St. Raphael)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Public libraries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c72a19b0-c5ec-012f-ad02-58d385a7bc34",
     "text": null,
     "text_source": null,

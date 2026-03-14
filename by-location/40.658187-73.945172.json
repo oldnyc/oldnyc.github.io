@@ -2,9 +2,27 @@
   {
     "date": "1929-04",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Brooklyn Ave",
+        "str2": "Hawthorne St"
+      },
+      "source": "Brooklyn Ave and Hawthorne St",
+      "technique": "gpt"
+    },
     "height": 456,
     "id": "703357f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703357f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/85daf210-c533-012f-e259-58d385a7bc34",
     "text": "Brooklyn Ave., south from Hawthorne to Winthrop Streets, in the background, showing in the center, one of the Kings County Hospital Buildings.\n\nApril 1929.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

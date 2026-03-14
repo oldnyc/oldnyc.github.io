@@ -2,9 +2,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 247,
+        "street": "W 38th Street"
+      },
+      "source": "38th Street (West) #247",
+      "technique": "title-address"
+    },
     "height": 397,
     "id": "1507775-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507775-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d44f10b0-c5ce-012f-5746-58d385a7bc34",
     "text": null,
     "text_source": null,

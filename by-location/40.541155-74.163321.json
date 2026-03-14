@@ -2,9 +2,33 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Lyndale Avenue",
+        "str2": "Oakdale Street"
+      },
+      "source": "Richmond: Oakdale Street - Lyndale Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "729237f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729237f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Oakdale Street (New York, N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/031658a0-c55c-012f-e242-58d385a7bc34",
     "original_title": "Richmond: Oakdale Street - Lyndale Avenue",
     "text": "Oakdale Street, east from Lyndale Avenue.\n\nApril 30, 1933\n\nP. L. Sperr\n",

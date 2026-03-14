@@ -2,9 +2,29 @@
   {
     "date": "1921-06-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 132,
+        "street": "W 129th Street"
+      },
+      "source": "129th Street (West) #132",
+      "technique": "title-address"
+    },
     "height": 414,
     "id": "1508425-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508425-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c4e5290-c5cf-012f-53d9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 134,
+        "street": "W 129th Street"
+      },
+      "source": "129th Street (West) #134",
+      "technique": "title-address"
+    },
     "height": 429,
     "id": "1508427-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508427-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1cb1d420-c5cf-012f-c74f-58d385a7bc34",
     "text": null,
     "text_source": null,

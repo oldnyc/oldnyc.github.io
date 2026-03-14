@@ -2,9 +2,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "141st Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 141st Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710283f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710283f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78ebf190-c53e-012f-1476-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 141st Street",
     "text": "2635-2639 Eighth Avenue, three three-story frame houses which adjoin the S. W. corner of 141st Street. The corner building is also shown.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York, Negative No. 471.\n",

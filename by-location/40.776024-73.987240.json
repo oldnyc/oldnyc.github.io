@@ -2,9 +2,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "66th Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 66th Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 392,
     "id": "714196f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714196f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Railroad shops & yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de271b90-c544-012f-763b-58d385a7bc34",
     "original_title": "Manhattan: 66th Street (West) - West End Avenue",
     "text": "West 66th Street, west from West End Ave. to the North (Hudson) River. The elevated road bed shown at the water front is the West Side Vehicular Highway. Pier F. appears underneath same and across the N.Y. Central Railroad yards.\n\nAugust 25, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

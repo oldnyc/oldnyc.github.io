@@ -2,9 +2,34 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "92nd Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 92nd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721451f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721451f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Real property",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f1c38c0-c550-012f-d3ea-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 92nd Street (East)",
     "text": "1305 to 1309 Madison Ave., east side, between East 92nd and 93rd Streets.\nAbout 1920.\n",

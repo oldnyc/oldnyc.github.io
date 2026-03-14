@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "11th Avenue",
+        "str2": "78th Street"
+      },
+      "source": "Brooklyn: 78th Street - 11th Avenue",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "702846f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702846f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c03e0450-c532-012f-3e20-58d385a7bc34",
     "original_title": "Brooklyn: 78th Street - 11th Avenue",
     "text": "1115 78th Street, north side, east of Eleventh Ave.\nApril 1923.\nEugene L. Armbruster Collection.\n",

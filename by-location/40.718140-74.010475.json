@@ -2,9 +2,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Greenwich Street",
+        "str2": "Jay Street"
+      },
+      "source": "Manhattan: Greenwich Street - Jay Street",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "720215f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720215f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/37eba460-c54e-012f-2b38-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - Jay Street",
     "text": "Greenwich Street, north from Jay Street, showing surface conditions under the Ninth Avenue Elevated. The street car tracks are to be removed by the W.P.A.\n\nJune 2, 1937\n\nW. P. A. photo\nFive Boroughs Project\n",

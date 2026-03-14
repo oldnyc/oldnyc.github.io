@@ -6,9 +6,41 @@
       "1923-04",
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 242,
+        "street": "Sunnyside Avenue"
+      },
+      "source": "242 Sunnyside Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Avenue",
+        "str2": "Sunnyside Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Avenue",
+        "str2": "Sunnyside Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 471,
     "id": "706937f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706937f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0dfab6e0-c539-012f-a7a4-58d385a7bc34",
     "original_title": "Brooklyn: Sunnyside Avenue - Stone Avenue",
     "text": "(1) Sunnyside Ave., south side, west of Highland Park. The first house is numbered 242, the next 240, et sequitur.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n\n(2) The same, showing a rear view.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",
@@ -28,9 +60,41 @@
       "1923-04",
       "1923-04"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 242,
+        "street": "Sunnyside Avenue"
+      },
+      "source": "242 Sunnyside Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Avenue",
+        "str2": "Sunnyside Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Stone Avenue",
+        "str2": "Sunnyside Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 469,
     "id": "706937f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706937f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0dfab6e0-c539-012f-a7a4-58d385a7bc34",
     "original_title": "Brooklyn: Sunnyside Avenue - Stone Avenue",
     "text": "(1) Sunnyside Ave., south side, west of Highland Park. The first house is numbered 242, the next 240, et sequitur.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n\n(2) The same, showing a rear view.\n\nApril 1923.\n\nEugene L. Armbruster Collection.\n",

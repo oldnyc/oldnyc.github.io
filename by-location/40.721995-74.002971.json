@@ -2,9 +2,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Grand Street - Wooster Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "720073f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720073f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01f34af0-c54e-012f-a2dc-58d385a7bc34",
     "original_title": "Manhattan: Grand Street - Wooster Street",
     "text": "69-59 Grand Street, south side, at, adjoining, and west of the S.W. corner of Wooster Street. June 23, 1933.\n\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Grand Street",
+        "str2": "Wooster Street"
+      },
+      "source": "Manhattan: Wooster Street - Grand Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724816f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724816f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7f4a2f30-c555-012f-a550-58d385a7bc34",
     "original_title": "Manhattan: Wooster Street - Grand Street",
     "text": "Wooster Street, south from Grand Street to its southern end at Canal Street. Wooster Street is the third of a group of seven streets laid out parallel to and west of Broadway. The building in the background is the new New York Telephone Building. June 23, 1933.\n\nP. L. Sperr.\n",

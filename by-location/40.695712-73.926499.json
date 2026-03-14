@@ -2,9 +2,31 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Evergreen Avenue",
+        "str2": "Stockholm Street"
+      },
+      "source": "Brooklyn: Evergreen Avenue - Stockholm Street",
+      "technique": "title-cross"
+    },
     "height": 455,
     "id": "704153f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704153f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3d003d0-c534-012f-429c-58d385a7bc34",
     "original_title": "Brooklyn: Evergreen Avenue - Stockholm Street",
     "text": "259-269 Evergreen Ave., east side, between Stockholm and Stanhope Streets.\n1924.\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronxdale Avenue",
+        "str2": "Rhinelander Avenue"
+      },
+      "source": "Bronx: Bronxdale Avenue - Rhinelander Avenue",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "700656f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700656f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/92c2a240-c52f-012f-bc7b-58d385a7bc34",
     "original_title": "Bronx: Bronxdale Avenue - Rhinelander Avenue",
     "text": "Bronxdale Avenue at Rhinelander Avenue, showing a W.P.A. sewer project.\n\nMay 11, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

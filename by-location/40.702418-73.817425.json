@@ -2,9 +2,35 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Metropolitan Avenue"
+      },
+      "source": "Queens: Jamaica Avenue - Metropolitan Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "726970f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726970f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hardware stores",
+          "Markets",
+          "Meat"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8119b430-c558-012f-7cef-58d385a7bc34",
     "original_title": "Queens: Jamaica Avenue - Metropolitan Avenue",
     "text": "Jamaica Avenue, east from Metropolitan Avenue, showing the elevated structure of the B.M.T. subway.\n\nP. L. Sperr\nMay 7, 1934\n",
@@ -19,9 +45,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Jamaica Avenue",
+        "str2": "Metropolitan Avenue"
+      },
+      "source": "Queens: Metropolitan Avenue - Jamaica Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "727387f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727387f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/266c0960-c559-012f-3ef9-58d385a7bc34",
     "original_title": "Queens: Metropolitan Avenue - Jamaica Avenue",
     "text": "Metropolitan Avenue, north side, at Jamaica Avenue and Kew Gardens Road, showing the \"Twin Oaks,\" known in 1891 as the Maple Grove Hotel, owned by Jacob Hauswirth. Kew Gardens Road, the old Newtown Road, is on the extreme right; Jamaica Avenue is in the foreground, where the B. M. T. elevated throws its shadow across the street.\n\nP. L. Sperr\nMay 7, 1934\n",

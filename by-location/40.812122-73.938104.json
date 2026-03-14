@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "134th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 134th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715575f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715575f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f22437a0-c546-012f-6f7d-58d385a7bc34",
     "original_title": "Manhattan: 134th Street (West) - 5th Avenue",
     "text": null,

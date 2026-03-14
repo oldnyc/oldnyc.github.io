@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Van Sicklen Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - Van Sicklen Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16ff0e00-c533-012f-d300-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - Van Sicklen Avenue",
     "text": "Atlantic Ave., east from Van Sicklen Ave.  The view shows Burns Bros. coal pocket made of frame, at 2820 Atlantic Ave.\n\nJuly 27, 1930.\nP. L. Sperr.\n",

@@ -6,9 +6,27 @@
       "1870",
       "1870"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Empire Boulevard",
+        "str2": "Rogers Avenue"
+      },
+      "source": "Brooklyn: Rogers Avenue - Empire Boulevard",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "706535f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706535f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/76458fc0-c538-012f-cd08-58d385a7bc34",
     "original_title": "Brooklyn: Rogers Avenue - Empire Boulevard",
     "text": "Rogers Ave., and Empire Boulevard; a general view north west, about 1870. This picture includes properties of the Chadwick, Boyton, Needham, Morgan and Miller families. At present (1936), Stoddard Place and Ludlow Place are in this area.\n\nAbout 1870.\n\nEugene L. Armbruster Collection.\n",
@@ -24,9 +42,30 @@
   {
     "date": "1900",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Empire Boulevard",
+        "str2": "Rogers Avenue"
+      },
+      "source": "Brooklyn: Empire Boulevard - Rogers Avenue",
+      "technique": "title-cross"
+    },
     "height": 463,
     "id": "704139f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704139f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be3ba190-c534-012f-52df-58d385a7bc34",
     "original_title": "Brooklyn: Empire Boulevard - Rogers Avenue",
     "text": "Empire Blvd., at the N.E. corner of Rogers Ave. A view of the Arm-strong house, still standing in 1929.\n\n1900.\n\nEugene L. Armbruster Collection.\n",

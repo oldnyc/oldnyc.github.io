@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-06-02"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Florida Avenue",
+        "str2": "McLean Avenue"
+      },
+      "source": "Richmond: Florida Avenue - McLean Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "728831f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728831f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62117e60-c55b-012f-cc15-58d385a7bc34",
     "original_title": "Richmond: Florida Avenue - McLean Avenue",
     "text": "Florida Ave., north from McLean Ave.\n\nJune 2, 1935.\n\nP. L. Sperr.\n",

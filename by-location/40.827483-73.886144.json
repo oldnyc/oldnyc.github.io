@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 910,
+        "street": "Whitlock Avenue"
+      },
+      "source": "910 Whitlock Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Tiffany Street",
+        "str2": "Whitlock Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Tiffany Street",
+        "str2": "Whitlock Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "702172f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702172f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc7989b0-c531-012f-ee22-58d385a7bc34",
     "original_title": "Bronx: Whitlock Avenue - Tiffany Street",
     "text": "910-912 Whitlock Ave., adjoining the N.E. corner of Tiffany Street.\nAbout 1913.\n",
@@ -22,9 +54,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Westchester Avenue",
+        "str2": "Whitlock Avenue"
+      },
+      "source": "Bronx: Westchester Avenue - Whitlock Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702106f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702106f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a36e3ca0-c531-012f-6959-58d385a7bc34",
     "original_title": "Bronx: Westchester Avenue - Whitlock Avenue",
     "text": "Westchester Avenue, south side, between Whitlock Avenue and Edgewater Road, showing the Westchester Avenue station of the New York, New Haven and Hartford Railroad.\n\nAugust 21, 1940\n\nP.L. Sperr\n",

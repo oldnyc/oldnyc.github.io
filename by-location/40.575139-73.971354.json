@@ -2,9 +2,46 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.5751863,
+        "lng": -73.9713897
+      },
+      "source": "Asser Levy Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Concourse Drive",
+        "str2": "Ocean Parkway",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Concourse Drive",
+        "str2": "Ocean Parkway",
+        "technique": "gpt"
+      }
+    ],
     "height": 457,
     "id": "703775f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703775f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Asser Levy Park (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2be83c20-c534-012f-05a6-58d385a7bc34",
     "original_title": "Brooklyn: Concourse Drive - Ocean Parkway",
     "text": "Concourse Drive, north side, west of Ocean Parkway, showing at the N.W. corner a shelter house in Sea Side Park.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +59,41 @@
     "dates_from_text": [
       "1924-01"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 310,
+        "street": "Sea Breeze Avenue"
+      },
+      "source": "310 Sea Breeze Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "3rd Street (West)",
+        "str2": "Sea Breeze Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "3rd Street",
+        "str2": "Sea Breeze Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 455,
     "id": "706688f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706688f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b0040a10-c538-012f-922d-58d385a7bc34",
     "original_title": "Brooklyn: Sea Breeze Avenue - 3rd Street (West)",
     "text": "308-312 Sea Breeze Ave., north side, between West 5th and 3rd Streets, showing a synagogue at No. 310.\n\nJanuary 1924.\n\nEugene L. Armbruster Collection.\n",
@@ -39,9 +108,46 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.5751863,
+        "lng": -73.9713897
+      },
+      "source": "Asser Levy Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "3rd Street (West)",
+        "str2": "Surf Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Surf Avenue",
+        "str2": "West 3rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "706940f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706940f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Asser Levy Park (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f469120-c539-012f-014b-58d385a7bc34",
     "original_title": "Brooklyn: Surf Avenue - 3rd Street (West)",
     "text": "(1) Surf Ave., west from West 3rd Street, showing in the right foreground, a part of Seaside Park.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n\n(2) The same, showing more of Seaside Park in the foreground, on the north and south side of Concourse Drive.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n",
@@ -56,9 +162,46 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.5751863,
+        "lng": -73.9713897
+      },
+      "source": "Asser Levy Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "3rd Street (West)",
+        "str2": "Surf Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Surf Avenue",
+        "str2": "West 3rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 474,
     "id": "706940f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706940f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Asser Levy Park (New York, N.Y.)",
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f469120-c539-012f-014b-58d385a7bc34",
     "original_title": "Brooklyn: Surf Avenue - 3rd Street (West)",
     "text": "(1) Surf Ave., west from West 3rd Street, showing in the right foreground, a part of Seaside Park.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n\n(2) The same, showing more of Seaside Park in the foreground, on the north and south side of Concourse Drive.\n\nNovember 1924.\n\nEugene L. Armbruster Collection.\n",

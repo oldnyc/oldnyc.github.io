@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "194th Street",
+        "str2": "Decatur Avenue"
+      },
+      "source": "Bronx: 194th Street - Decatur Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "702191f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702191f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c379db40-c531-012f-27ed-58d385a7bc34",
     "original_title": "Bronx: 194th Street - Decatur Avenue",
     "text": "P.L. Sperr, photographer\n8-7-1942\n",

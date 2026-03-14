@@ -2,9 +2,50 @@
   {
     "date": "1971",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 910,
+        "street": "Flatbush Avenue"
+      },
+      "source": "910 Flatbush Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Toot Hill Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Flatbush Avenue",
+        "str2": "Toot Hill Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 434,
     "id": "704277f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704277f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Aluminum industry",
+          "Bakeries",
+          "Business districts",
+          "Factories",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5056a80-c534-012f-7900-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Toot Hill Road",
     "text": "Flatbush Avenue, nos. 910-890\nApril 8, 1971\nJoseph Halpern, photographer\n",

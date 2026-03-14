@@ -2,9 +2,43 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 322,
+        "street": "34th Street"
+      },
+      "source": "322 34th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 320,
+        "street": "W 34th Street",
+        "technique": "title-address"
+      },
+      {
+        "boro": "Manhattan",
+        "num": 320,
+        "street": "34th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1507873-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507873-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cedf2140-c5ce-012f-c306-58d385a7bc34",
     "text": null,
     "text_source": null,

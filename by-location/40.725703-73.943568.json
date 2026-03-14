@@ -2,9 +2,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Henry Street N.",
+        "str2": "Nassau Street"
+      },
+      "source": "Brooklyn: Henry Street N. - Nassau Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "706070f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706070f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0449a80-c537-012f-8ea5-58d385a7bc34",
     "original_title": "Brooklyn: Henry Street N. - Nassau Street",
     "text": "North Henry St., north from Nassau St., B'klyn.\nSept. 1, 1939\nP.L. Sperr, photographer\n",

@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "str1": "179th Street",
+        "str2": "Ft. Washington Avenue"
+      },
+      "source": "179th Street and Ft. Washington Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417649-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417649-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c7b9e90-c6cd-012f-5bd4-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "179th Street",
+        "str2": "Fort Washington Avenue"
+      },
+      "source": "Manhattan: 179th Street - Fort Washington Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "715784f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715784f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4056eea0-c547-012f-6929-58d385a7bc34",
     "original_title": "Manhattan: 179th Street - Fort Washington Avenue",
     "text": "179th Street, north side, east from Fort Washington Ave. Holyrood Church is No. 701, at the N.E. corner of Fort Washington Ave., and 179th\nStreet.\nMay 23, 1929.\nP.L. Sperr.\n",
@@ -35,9 +77,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft. Washington Ave",
+        "str2": "W. 179th St."
+      },
+      "source": "Ft. Washington Ave and W. 179th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985016",
     "image_url": "https://images.nypl.org/?id=3985016&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cbc8e180-c5d7-012f-5240-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -51,9 +117,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Ft Washington Ave",
+        "str2": "W 179th St"
+      },
+      "source": "Ft Washington Ave and W 179th St",
+      "technique": "gpt"
+    },
     "height": 434,
     "id": "3985027",
     "image_url": "https://images.nypl.org/?id=3985027&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf0f7f50-c5d7-012f-5952-58d385a7bc34",
     "text": null,
     "text_source": null,

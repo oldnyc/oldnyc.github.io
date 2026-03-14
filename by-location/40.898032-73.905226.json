@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-08-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "250th Street (West)",
+        "str2": "Iselin Avenue"
+      },
+      "source": "Bronx: Iselin Avenue - 250th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "701314f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701314f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7d620da0-c530-012f-84ad-58d385a7bc34",
     "original_title": "Bronx: Iselin Avenue - 250th Street (West)",
     "text": "4705 Iselin Ave., south of the S.W. corner of West 250th Street, showing the home of Mr. and Mrs. Edwin Grim Miller, in the restricted residential section known as Fieldston.\n\nMorris Rosenfeld.\n\nAugust 19, 1926.\n",

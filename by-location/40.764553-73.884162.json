@@ -6,9 +6,41 @@
       "1909",
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "85th Street",
+        "str2": "Astoria Avenue"
+      },
+      "source": "85th Street and Astoria Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "175th Street (East)",
+        "str2": "Trains Meadow Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "175th Street",
+        "str2": "Trains Meadow Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 467,
     "id": "728081f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728081f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32a4bf00-c55a-012f-d613-58d385a7bc34",
     "original_title": "Queens: Trains Meadow Road - 175th Street (East)",
     "text": "Trains Meadow Road (non-existent since prior to 1909, when it was a private lane in the Konwenhoven Estate property) west side north of Astoria Avenue. This house is either in the line of 85th Street; or on either side of it between Twenty-third and Twenty-fourth Avenues. It may also be on the north side of Astoria Avenue between 84th and 85th Streets.\n\nMay 1923.\n\nEugene L. Armbruster Collection\n",
@@ -24,9 +56,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "85th Street",
+        "str2": "Astoria Boulevard"
+      },
+      "source": "Queens: 85th Street - Astoria Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725689f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725689f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Eighty-fifth Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cottages",
+          "Farms",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b00bd2a0-c556-012f-a5f4-58d385a7bc34",
     "original_title": "Queens: 85th Street - Astoria Boulevard",
     "text": "85th Street, north from Astoria Boulevard, showing the thoroughfare shortly after it was constructed . All this land was formerly the Kouwenhoven farm. The cottage shown in View 2 is at 24th Avenue. Views 1 and 2: October 19, 1935. P. L. Sperr.",
@@ -41,9 +99,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "85th Street",
+        "str2": "Astoria Boulevard"
+      },
+      "source": "Queens: 85th Street - Astoria Boulevard",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725689f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/725689f-b.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Eighty-fifth Street (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Cottages",
+          "Farms",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b00bd2a0-c556-012f-a5f4-58d385a7bc34",
     "original_title": "Queens: 85th Street - Astoria Boulevard",
     "rotation": 90,

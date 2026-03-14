@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Hering Avenue",
+        "str2": "Pierce Avenue"
+      },
+      "source": "Bronx: Hering Avenue - Pierce Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "701253f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701253f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/65cc0920-c530-012f-cc0e-58d385a7bc34",
     "original_title": "Bronx: Hering Avenue - Pierce Avenue",
     "text": "Hering Ave., east side, south from Pierce to Sacket Aves.\nAbout 1924.\n",

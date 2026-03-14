@@ -2,9 +2,44 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 135,
+        "street": "Furman Street"
+      },
+      "source": "135 Furman Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "William Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Furman Street",
+        "str2": "William Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "704594f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704594f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75286560-c535-012f-efdf-58d385a7bc34",
     "original_title": "Brooklyn: Furman Street - William Street",
     "text": "Furman Street, east side, south from No. 135, at left foreground.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

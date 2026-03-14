@@ -2,9 +2,35 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 75th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "714463f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714463f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Restaurants",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46cfbb50-c545-012f-9476-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (West) - Broadway",
     "text": "West 75th Street, east from Broadway.\n\nJuly 27, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

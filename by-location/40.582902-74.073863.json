@@ -2,9 +2,41 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "Seaside Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "Seaside Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "729628f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729628f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9cb92060-c55c-012f-76e1-58d385a7bc34",
     "original_title": "Richmond: Seaside Boulevard - Sand Lane",
     "text": "(1)\nSeaside Boulevard, south side, at the foot of Sand Lane, showing crowds walking toward South Beach. The view is east on the Boulevard.\n\nJuly 4, 1929\n\nP. L. Sperr\n\n(2)\nThe entrance to the beach (right view 1), six years later.\n\nJune 2, 1935\n\nP. L. Sperr\n",
@@ -20,9 +52,41 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "Seaside Boulevard",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "Seaside Boulevard",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "729628f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729628f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9cb92060-c55c-012f-76e1-58d385a7bc34",
     "original_title": "Richmond: Seaside Boulevard - Sand Lane",
     "text": "(1)\nSeaside Boulevard, south side, at the foot of Sand Lane, showing crowds walking toward South Beach. The view is east on the Boulevard.\n\nJuly 4, 1929\n\nP. L. Sperr\n\n(2)\nThe entrance to the beach (right view 1), six years later.\n\nJune 2, 1935\n\nP. L. Sperr\n",
@@ -38,9 +102,44 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Seaside Boulevard",
+        "str2": "Wentworth Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Seaside Boulevard",
+        "str2": "Wentworth Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "729631f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729631f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ddf7520-c55c-012f-fe09-58d385a7bc34",
     "original_title": "Richmond: Seaside Boulevard - Wentworth Avenue",
     "text": "Seaside Boulevard, south side, near Wentworth Avenue, South Beach, showing Bessi's Hotel.\n\nJuly 4, 1929\n\nP. L. Sperr\n",
@@ -55,9 +154,46 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Beiret Avenue",
+        "str2": "South Beach",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Andrews Street",
+        "str2": "South Beach",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Fort Wadsworth",
+        "str2": "Ocean Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 407,
     "id": "730626f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730626f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35c23b50-c55e-012f-da3c-58d385a7bc34",
     "text": "(1)\nSouth Beach, Staten Island: A view east from about the foot of Beiret Avenue.\n\nJuly 4, 1929\n\nP.L. Sperr\n\n(2)\nLooking south toward the hotels and bungalows lining the beach, as seen from the foot of Andrews Street. In the foreground is an offshoot of New Creek.\n\nAugust 25, 1929.\n\nP.L. Sperr\n\n(3)\nAt the end of Ocean Avenue, near Fort Wadsworth.\n\nJune 30, 1935.\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -72,9 +208,46 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Beiret Avenue",
+        "str2": "South Beach",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Andrews Street",
+        "str2": "South Beach",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Fort Wadsworth",
+        "str2": "Ocean Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730626f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730626f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35c23b50-c55e-012f-da3c-58d385a7bc34",
     "text": "(1)\nSouth Beach, Staten Island: A view east from about the foot of Beiret Avenue.\n\nJuly 4, 1929\n\nP.L. Sperr\n\n(2)\nLooking south toward the hotels and bungalows lining the beach, as seen from the foot of Andrews Street. In the foreground is an offshoot of New Creek.\n\nAugust 25, 1929.\n\nP.L. Sperr\n\n(3)\nAt the end of Ocean Avenue, near Fort Wadsworth.\n\nJune 30, 1935.\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -89,9 +262,46 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Beiret Avenue",
+        "str2": "South Beach",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Andrews Street",
+        "str2": "South Beach",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Fort Wadsworth",
+        "str2": "Ocean Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730626f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730626f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/35c23b50-c55e-012f-da3c-58d385a7bc34",
     "text": "(1)\nSouth Beach, Staten Island: A view east from about the foot of Beiret Avenue.\n\nJuly 4, 1929\n\nP.L. Sperr\n\n(2)\nLooking south toward the hotels and bungalows lining the beach, as seen from the foot of Andrews Street. In the foreground is an offshoot of New Creek.\n\nAugust 25, 1929.\n\nP.L. Sperr\n\n(3)\nAt the end of Ocean Avenue, near Fort Wadsworth.\n\nJune 30, 1935.\n\nP.L. Sperr\n",
     "text_source": "gpt",
@@ -106,9 +316,47 @@
   {
     "date": "1929; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Jaeger's Baths",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Newark Hotel and Baths",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730627f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730627f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fae17b0-c55d-012f-ae29-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): A view northeastward from Jaeger's Baths, at the foot of Sand Lane.\n\nP. L. Sperr\n\nJuly 4, 1929\n\n(2)\nNortheastward from the Newark Hotel and Baths, east of Sand Lane.\n\nP. L. Sperr\n\nJuly 4, 1929\n\n(3)\nViewing eastward across the same area, years later, from near the newly-erected boardwalk.\n\nP. L. Sperr\n\nMay 30, 1937\n",
     "text_source": "gpt",
@@ -123,9 +371,47 @@
   {
     "date": "1929; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Jaeger's Baths",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Newark Hotel and Baths",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "730627f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730627f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fae17b0-c55d-012f-ae29-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): A view northeastward from Jaeger's Baths, at the foot of Sand Lane.\n\nP. L. Sperr\n\nJuly 4, 1929\n\n(2)\nNortheastward from the Newark Hotel and Baths, east of Sand Lane.\n\nP. L. Sperr\n\nJuly 4, 1929\n\n(3)\nViewing eastward across the same area, years later, from near the newly-erected boardwalk.\n\nP. L. Sperr\n\nMay 30, 1937\n",
     "text_source": "gpt",
@@ -140,9 +426,47 @@
   {
     "date": "1929; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Sand Lane",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Jaeger's Baths",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Newark Hotel and Baths",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730627f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730627f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fae17b0-c55d-012f-ae29-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): A view northeastward from Jaeger's Baths, at the foot of Sand Lane.\n\nP. L. Sperr\n\nJuly 4, 1929\n\n(2)\nNortheastward from the Newark Hotel and Baths, east of Sand Lane.\n\nP. L. Sperr\n\nJuly 4, 1929\n\n(3)\nViewing eastward across the same area, years later, from near the newly-erected boardwalk.\n\nP. L. Sperr\n\nMay 30, 1937\n",
     "text_source": "gpt",
@@ -157,9 +481,30 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730628f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730628f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3018c430-c55d-012f-8c8e-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): A bungalow alley at the lower end of the beach.\nAugust 25, 1929\n\nP. L. Sperr\n\n(2)\nA scene near the South Beach railroad station.\nJuly 4, 1929\n\nP. L. Sperr\n\n(3)\nPicnickers at the upper end of South Beach.\nJune 30, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -174,9 +519,30 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730628f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730628f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3018c430-c55d-012f-8c8e-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): A bungalow alley at the lower end of the beach.\nAugust 25, 1929\n\nP. L. Sperr\n\n(2)\nA scene near the South Beach railroad station.\nJuly 4, 1929\n\nP. L. Sperr\n\n(3)\nPicnickers at the upper end of South Beach.\nJune 30, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -191,9 +557,30 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730628f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730628f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3018c430-c55d-012f-8c8e-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): A bungalow alley at the lower end of the beach.\nAugust 25, 1929\n\nP. L. Sperr\n\n(2)\nA scene near the South Beach railroad station.\nJuly 4, 1929\n\nP. L. Sperr\n\n(3)\nPicnickers at the upper end of South Beach.\nJune 30, 1935\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -208,9 +595,38 @@
   {
     "date": "1929; 1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "730633f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730633f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31c403f0-c55d-012f-9b90-58d385a7bc34",
     "text": "'South Beach (Staten Island):  Northeast along the boardwalk and beach from below Sand Lane.\n\nP. L. Sperr\n\n(2)\n\nA close view of several of the amusement buildings on the boardwalk (left foreground in view 1).\n\nP. L. Sperr\n\n(3)\n\nA view southwest across filled-in land, toward the rifle range.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -226,9 +642,38 @@
   {
     "date": "1929; 1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "730633f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730633f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31c403f0-c55d-012f-9b90-58d385a7bc34",
     "text": "'South Beach (Staten Island):  Northeast along the boardwalk and beach from below Sand Lane.\n\nP. L. Sperr\n\n(2)\n\nA close view of several of the amusement buildings on the boardwalk (left foreground in view 1).\n\nP. L. Sperr\n\n(3)\n\nA view southwest across filled-in land, toward the rifle range.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -244,9 +689,38 @@
   {
     "date": "1929; 1935; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "730633f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730633f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31c403f0-c55d-012f-9b90-58d385a7bc34",
     "text": "'South Beach (Staten Island):  Northeast along the boardwalk and beach from below Sand Lane.\n\nP. L. Sperr\n\n(2)\n\nA close view of several of the amusement buildings on the boardwalk (left foreground in view 1).\n\nP. L. Sperr\n\n(3)\n\nA view southwest across filled-in land, toward the rifle range.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -262,9 +736,50 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harris's Hotel",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Doty Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730634f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730634f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Food vendors",
+          "Hotels",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32279590-c55d-012f-45f6-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): Harris's Baths and Hotel at the foot of Doty Avenue, looking east along the boardwalk.\n\nP. L. Sperr\nJuly 4, 1929\n\n(2)\nOn the boardwalk near Harris's Baths.\n\nP. L. Sperr\nJuly 4, 1929\n\n(3)\nAnother scene in the same area.\n\nP. L. Sperr\nJune 30, 1935\n",
     "text_source": "gpt",
@@ -279,9 +794,50 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harris's Hotel",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Doty Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730634f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730634f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Food vendors",
+          "Hotels",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32279590-c55d-012f-45f6-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): Harris's Baths and Hotel at the foot of Doty Avenue, looking east along the boardwalk.\n\nP. L. Sperr\nJuly 4, 1929\n\n(2)\nOn the boardwalk near Harris's Baths.\n\nP. L. Sperr\nJuly 4, 1929\n\n(3)\nAnother scene in the same area.\n\nP. L. Sperr\nJune 30, 1935\n",
     "text_source": "gpt",
@@ -296,9 +852,50 @@
   {
     "date": "1929; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Harris's Hotel",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Doty Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "730634f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730634f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Food vendors",
+          "Hotels",
+          "Street vendors",
+          "Vending stands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32279590-c55d-012f-45f6-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): Harris's Baths and Hotel at the foot of Doty Avenue, looking east along the boardwalk.\n\nP. L. Sperr\nJuly 4, 1929\n\n(2)\nOn the boardwalk near Harris's Baths.\n\nP. L. Sperr\nJuly 4, 1929\n\n(3)\nAnother scene in the same area.\n\nP. L. Sperr\nJune 30, 1935\n",
     "text_source": "gpt",
@@ -313,9 +910,39 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Bessie's Hotel",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "730624f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730624f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Lifeguards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2eddab60-c55d-012f-4a86-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): Bessie's Hotel (established in 1888) and the Life Saving Station (right), seen from the new boardwalk.\n\nP. L. Sperr\n\n(2)\nThe Life Saving Station (left) and the Happy Home Hotel.\n\nP. L. Sperr\n\nAugust 15, 1937\nAugust 15, 1937\n",
     "text_source": "gpt",
@@ -329,9 +956,39 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Bessie's Hotel",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "730624f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730624f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels",
+          "Lifeguards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2eddab60-c55d-012f-4a86-58d385a7bc34",
     "text": "(1)\nSouth Beach (Staten Island): Bessie's Hotel (established in 1888) and the Life Saving Station (right), seen from the new boardwalk.\n\nP. L. Sperr\n\n(2)\nThe Life Saving Station (left) and the Happy Home Hotel.\n\nP. L. Sperr\n\nAugust 15, 1937\nAugust 15, 1937\n",
     "text_source": "gpt",
@@ -345,9 +1002,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Liberty Baths",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Vulcan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730629f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730629f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30856b30-c55d-012f-34b3-58d385a7bc34",
     "text": "South Beach (Staten Island): East along the newly erected boardwalk from Vulcan Street, on the day of its opening.\n\nP. L. Sperr\n\n(2)\nThe upper end of the boardwalk near Fort Wadsworth, looking eastward.\n\nP. L. Sperr\n\n(3)\nThe Liberty Baths, at the upper end of South Beach.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -361,9 +1053,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Liberty Baths",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Vulcan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730629f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730629f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30856b30-c55d-012f-34b3-58d385a7bc34",
     "text": "South Beach (Staten Island): East along the newly erected boardwalk from Vulcan Street, on the day of its opening.\n\nP. L. Sperr\n\n(2)\nThe upper end of the boardwalk near Fort Wadsworth, looking eastward.\n\nP. L. Sperr\n\n(3)\nThe Liberty Baths, at the upper end of South Beach.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -377,9 +1104,44 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Liberty Baths",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Vulcan Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730629f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730629f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30856b30-c55d-012f-34b3-58d385a7bc34",
     "text": "South Beach (Staten Island): East along the newly erected boardwalk from Vulcan Street, on the day of its opening.\n\nP. L. Sperr\n\n(2)\nThe upper end of the boardwalk near Fort Wadsworth, looking eastward.\n\nP. L. Sperr\n\n(3)\nThe Liberty Baths, at the upper end of South Beach.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -393,9 +1155,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Winfield Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730630f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730630f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/362152e0-c55e-012f-06fb-58d385a7bc34",
     "text": "South Beach (Staten Island): The Silver Wave Hotel and Baths near Winfield Street, seen from the newly erected boardwalk.\n\nAugust 15, 1937\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -409,9 +1199,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "New York Bay",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "730631f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730631f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30de8370-c55d-012f-b37d-58d385a7bc34",
     "text": "South Beach (Staten Island): Two views across the beach and the Lower New York Bay during life boat races at the opening of the new boardwalk. In the right background is partially visible Hoffman Island.\n\nJuly 3, 1937\nViews 1,2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -425,9 +1241,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "New York Bay",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "730631f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730631f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30de8370-c55d-012f-b37d-58d385a7bc34",
     "text": "South Beach (Staten Island): Two views across the beach and the Lower New York Bay during life boat races at the opening of the new boardwalk. In the right background is partially visible Hoffman Island.\n\nJuly 3, 1937\nViews 1,2\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -441,9 +1283,45 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "McDermott Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Xenia Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730632f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730632f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3150ca70-c55d-012f-1906-58d385a7bc34",
     "text": "(1) South Beach (Staten Island): Viewing east from P. J. Crane's at about McDermott Avenue and showing the new boardwalk on the right. May 30, 1937\n\nP. L. Sperr\n\n(2) Looking across the old walk and carousel towards the newly erected boardwalk. May 30, 1937\n\nP. L. Sperr\n\n(3) A view north across the new boardwalk and May's Hotel, at about Xenia Street. May 30, 1937\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -457,9 +1335,45 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "McDermott Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Xenia Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730632f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730632f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3150ca70-c55d-012f-1906-58d385a7bc34",
     "text": "(1) South Beach (Staten Island): Viewing east from P. J. Crane's at about McDermott Avenue and showing the new boardwalk on the right. May 30, 1937\n\nP. L. Sperr\n\n(2) Looking across the old walk and carousel towards the newly erected boardwalk. May 30, 1937\n\nP. L. Sperr\n\n(3) A view north across the new boardwalk and May's Hotel, at about Xenia Street. May 30, 1937\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -473,9 +1387,45 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "McDermott Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Xenia Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730632f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730632f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3150ca70-c55d-012f-1906-58d385a7bc34",
     "text": "(1) South Beach (Staten Island): Viewing east from P. J. Crane's at about McDermott Avenue and showing the new boardwalk on the right. May 30, 1937\n\nP. L. Sperr\n\n(2) Looking across the old walk and carousel towards the newly erected boardwalk. May 30, 1937\n\nP. L. Sperr\n\n(3) A view north across the new boardwalk and May's Hotel, at about Xenia Street. May 30, 1937\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -489,9 +1439,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk opening",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "730635f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730635f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32a0df20-c55d-012f-6b52-58d385a7bc34",
     "text": "South Beach-Boardwalk Opening: Staten Islanders turn out to celebrate the opening of the new boardwalk at South Beach, on the Lower New York Bay. The boardwalk was constructed by the Works Progress Administration.\n\nP. L. Sperr\n\nJuly 3, 1937\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -505,9 +1484,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk opening",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "730635f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730635f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32a0df20-c55d-012f-6b52-58d385a7bc34",
     "text": "South Beach-Boardwalk Opening: Staten Islanders turn out to celebrate the opening of the new boardwalk at South Beach, on the Lower New York Bay. The boardwalk was constructed by the Works Progress Administration.\n\nP. L. Sperr\n\nJuly 3, 1937\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -521,9 +1529,38 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk opening",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      }
+    ],
     "height": 406,
     "id": "730635f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730635f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32a0df20-c55d-012f-6b52-58d385a7bc34",
     "text": "South Beach-Boardwalk Opening: Staten Islanders turn out to celebrate the opening of the new boardwalk at South Beach, on the Lower New York Bay. The boardwalk was constructed by the Works Progress Administration.\n\nP. L. Sperr\n\nJuly 3, 1937\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -537,9 +1574,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Parade for the new boardwalk opening",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730636f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730636f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Parades & processions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/331031c0-c55d-012f-6617-58d385a7bc34",
     "text": "South Beach-Boardwalk Opening: The parade for the opening of the new boardwalk at South Beach, Staten Island. The paraders are marching up the old walk, near Sand Lane.\n\nP. L. Sperr\n\nJuly 3, 1937\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -553,9 +1628,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Parade for the new boardwalk opening",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730636f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730636f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Parades & processions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/331031c0-c55d-012f-6617-58d385a7bc34",
     "text": "South Beach-Boardwalk Opening: The parade for the opening of the new boardwalk at South Beach, Staten Island. The paraders are marching up the old walk, near Sand Lane.\n\nP. L. Sperr\n\nJuly 3, 1937\nViews 1, 2, 3\n",
     "text_source": "gpt",
@@ -569,9 +1682,47 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.58290239999999,
+        "lng": -74.0738631
+      },
+      "source": "South Beach (N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Parade for the new boardwalk opening",
+        "str2": "South Beach",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Boardwalk",
+        "str2": "Sand Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730636f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730636f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "South Beach (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boardwalks",
+          "Parades & processions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/331031c0-c55d-012f-6617-58d385a7bc34",
     "text": "South Beach-Boardwalk Opening: The parade for the opening of the new boardwalk at South Beach, Staten Island. The paraders are marching up the old walk, near Sand Lane.\n\nP. L. Sperr\n\nJuly 3, 1937\nViews 1, 2, 3\n",
     "text_source": "gpt",

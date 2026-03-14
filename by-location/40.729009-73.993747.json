@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Broadway",
+        "str2": "Washington Place"
+      },
+      "source": "Manhattan: Broadway - Washington Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "717288f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717288f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f05ce90-c549-012f-ee48-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Washington Place",
     "text": "\"The Old London Gate\" p.131\n\nBroadway, e.s. Opposite Washington Place\n\nPelletreau, William S.\nEarly New York houses with historical - genealogical notes.\nNew York: Francis P. Harper, 1900.\n",

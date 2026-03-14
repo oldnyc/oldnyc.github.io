@@ -2,9 +2,44 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Metcalf Avenue",
+        "str2": "Story Avenue"
+      },
+      "source": "Metcalf Avenue and Story Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Eastern Boulevard",
+        "str2": "Metcalf Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Eastern Boulevard",
+        "str2": "Metcalf Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "701456f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701456f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Croplands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b32a8d60-c530-012f-2f8c-58d385a7bc34",
     "original_title": "Bronx: Metcalf Avenue - Eastern Boulevard",
     "text": "Metcalf Ave. (foreground, not seen), west side, between Eastern Boulevard and Story Ave. The view is in a southwesterly direction.\n\nJuly 30, 1928.\n\nP. L. Sperr.\n",

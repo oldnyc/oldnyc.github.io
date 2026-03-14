@@ -2,9 +2,30 @@
   {
     "date": "1971-10-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "16th Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 405,
     "id": "1509709-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509709-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0b5cef0-c5cd-012f-175c-58d385a7bc34",
     "text": null,
     "text_source": null,

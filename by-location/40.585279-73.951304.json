@@ -2,9 +2,46 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1729,
+        "street": "Sheepshead Bay Road"
+      },
+      "source": "1729 Sheepshead Bay Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Dean's Lane",
+        "str2": "Sheepshead Bay Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Dean's Lane",
+        "str2": "Sheepshead Bay Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "706716f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706716f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Opticians' shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ba750e70-c538-012f-f3ec-58d385a7bc34",
     "original_title": "Brooklyn: Sheepshead Bay Road - Dean's Lane",
     "text": "1729 Sheepshead Bay Road, east side, at the N.E. corner of Dean's Lane.\n\nJuly 8, 1933.\n\nP. L. Sperr.\n",

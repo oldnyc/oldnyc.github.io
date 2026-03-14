@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1930-11-23"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Northern Avenue",
+        "str2": "West 190th Street"
+      },
+      "source": "Northern Avenue and West 190th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "190th Street (West)",
+        "str2": "Northern Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "721957f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721957f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed336550-c550-012f-b429-58d385a7bc34",
     "original_title": "Manhattan: Northern Avenue - 190th Street (West)",
     "text": "Northern Ave., at the S.E. corner of West 190th Street.\nNovember 23, 1930.\n\nP. L. Sperr.\n",
@@ -22,9 +48,43 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Northern Avenue",
+        "str2": "West 190th Street"
+      },
+      "source": "Northern Avenue and West 190th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "190th Street (West)",
+        "str2": "Northern Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 401,
     "id": "721956f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721956f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Convents",
+          "Educational facilities",
+          "Hospitals",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ecb9ddb0-c550-012f-ed04-58d385a7bc34",
     "original_title": "Manhattan: Northern Avenue - 190th Street (West)",
     "text": "Northern Ave., east side, at West 190th Street, as viewed in a northward direction from a point slightly southward of the aforementioned intersection and showing St. Elizabeths Hospital on the north side of 190th Street, extending eastward to Fort Washington Ave., and upon which it bears Nos. 689-93. The tower seen across the roof of same is atop the Convent of the Missionary Sisters of the Sacred Heart who conduct Mother Cabrini's High School which is also located here. This set consists of 2 views.\n\nJune 22, 1936.\n\nP. L. Sperr.\n",
@@ -39,9 +99,43 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Northern Avenue",
+        "str2": "West 190th Street"
+      },
+      "source": "Northern Avenue and West 190th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "190th Street (West)",
+        "str2": "Northern Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 403,
     "id": "721956f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721956f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Convents",
+          "Educational facilities",
+          "Hospitals",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ecb9ddb0-c550-012f-ed04-58d385a7bc34",
     "original_title": "Manhattan: Northern Avenue - 190th Street (West)",
     "text": "Northern Ave., east side, at West 190th Street, as viewed in a northward direction from a point slightly southward of the aforementioned intersection and showing St. Elizabeths Hospital on the north side of 190th Street, extending eastward to Fort Washington Ave., and upon which it bears Nos. 689-93. The tower seen across the roof of same is atop the Convent of the Missionary Sisters of the Sacred Heart who conduct Mother Cabrini's High School which is also located here. This set consists of 2 views.\n\nJune 22, 1936.\n\nP. L. Sperr.\n",

@@ -2,9 +2,33 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "93rd Street",
+        "str2": "Ditmars Boulevard"
+      },
+      "source": "Queens: 93rd Street - Ditmars Boulevard",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "725722f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725722f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Ninety-third Street (New York, N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb09d7f0-c556-012f-4207-58d385a7bc34",
     "original_title": "Queens: 93rd Street - Ditmars Boulevard",
     "text": "93rd Street (Old Bowery Road) north from a point north of Ditmars Boulevard.\n\nAbout 1926.\n\nEugene L. Armbruster Collection\n",
@@ -19,9 +43,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "93rd Street",
+        "str2": "Ditmars Boulevard"
+      },
+      "source": "Queens: 93rd Street - Ditmars Boulevard",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "725721f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725721f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Ninety-third Street (New York, N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/baa84eb0-c556-012f-e032-58d385a7bc34",
     "original_title": "Queens: 93rd Street - Ditmars Boulevard",
     "text": "93rd Street, south from Ditmars Boulevard, showing the street under construction.\nP. L. Sperr   October 18, 1939\n",

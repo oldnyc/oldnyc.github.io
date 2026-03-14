@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-04-27"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Baugham Place",
+        "str2": "Flatbush Avenue"
+      },
+      "source": "Brooklyn: Flatbush Avenue - Baugham Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "704325f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704325f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/07c9a320-c535-012f-dc33-58d385a7bc34",
     "original_title": "Brooklyn: Flatbush Avenue - Baugham Place",
     "text": "Flatbush Ave., at the N.E. corner of Baugham Place, showing the trolley tracks on Flatbush Ave.\nApril 27, 1931.\nP. L. Sperr.\n",

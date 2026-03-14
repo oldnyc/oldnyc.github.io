@@ -2,9 +2,30 @@
   {
     "date": "1925-06",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "15th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "15th Street and 3rd Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "708012f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708012f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "158 - 160 Third Avenue west side between 15th and 16th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8b8e900-c53a-012f-de7e-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 15th and 16th Street.",
     "text": "158-160 Third Avenue west side between 15th and 16th Street. This property was bought for the estate of Peter Stuyvesant in 1664, and became a part of the Stuyvesant farm. June, 1925.",
@@ -19,9 +40,27 @@
   {
     "date": "1929-07-13",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "15th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 3rd Avenue - between East 14th and 15th Streets.",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "708009f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708009f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c79edba0-c53a-012f-7c91-58d385a7bc34",
     "text": "Third Ave., east side, between East 14th (right) and 15th Streets, as seen from the Consolidated Gas Co. Building.\n\nJuly 13, 1929.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -35,9 +74,27 @@
   {
     "date": "1934-05-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "north from No. 134, south of 15th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - north from No. 134, south of 15th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708010f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708010f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8066540-c53a-012f-a87a-58d385a7bc34",
     "text": "Third Avenue, west side, north from No. 134 south of 15th Street.\nMay 21, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -51,9 +108,27 @@
   {
     "date": "1934-05-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "north from 15th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - north from 15th Street.",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "708011f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708011f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c86d74d0-c53a-012f-9cad-58d385a7bc34",
     "text": "Third Avenue, west side, north from 15th Street. May 21, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -70,9 +145,27 @@
     "dates_from_text": [
       "1934-05-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "15th Street (East)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 15th Street (East) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711324f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711324f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29671230-c540-012f-3a7c-58d385a7bc34",
     "original_title": "Manhattan: 15th Street (East) - 3rd Avenue",
     "text": "201-207 East 15th Street, at end adjoining the N.W. corner of Third Avenue.\n\nMay 21, 1934\n\nF. L. Sperr\n",

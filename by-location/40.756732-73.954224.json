@@ -2,9 +2,33 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 387,
     "id": "730936f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730936f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ships",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf46cfa0-c55e-012f-9932-58d385a7bc34",
     "text": "Queensborough Bridge and Welfare Island, looking northeast across the East River.\n\nHellmich, Photographer\n1901\n",
     "text_source": "gpt",
@@ -18,9 +42,41 @@
   {
     "date": "1901",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "59th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 348,
     "id": "730937f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730937f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 59th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfa54200-c55e-012f-1108-58d385a7bc34",
     "text": "Queensborough Bridge over the East River approach in Manhattan is at E. 59th Street.\n\nHellmich, Photographer\n\n1901\n",
     "text_source": "gpt",
@@ -34,9 +90,29 @@
   {
     "date": "1917",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 472,
     "id": "730942f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730942f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1cab930-c55e-012f-716c-58d385a7bc34",
     "text": "Route: Queensboro Bridge Connection, (566) Sec 4c No 6\nLocation: Queensboro Bridge\nSubject: Construction Photograph\nDescription: Car used in distributing track material.\nJune 26, 1917\n",
     "text_source": "site",
@@ -50,9 +126,26 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 421,
     "id": "730943f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730943f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c21cb4d0-c55e-012f-2fc8-58d385a7bc34",
     "text": "Queensboro Bridge, showing Pavement. (Before Reconstruction).\nDecember 7, 1919.\n",
     "text_source": "site",
@@ -66,9 +159,26 @@
   {
     "date": "1919",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 427,
     "id": "730944f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730944f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c288cf50-c55e-012f-d125-58d385a7bc34",
     "text": "Queensboro Bridge, Stoning Pavement.\n\nDecember 7, 1919.\n",
     "text_source": "gpt",
@@ -82,9 +192,33 @@
   {
     "date": "1925; 1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "730945f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730945f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ships",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2e04a00-c55e-012f-7be0-58d385a7bc34",
     "text": "S.S. Providence. steaming north underneath the Queensboro Bridge, west of Welfare Island.\nJuly 17, 1925.\n\nP. L. Sperr.\n\n(2)\n\nA later view; toward Astoria from mid-stream, south of Welfare Island.\nAugust 31, 1926.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -99,9 +233,33 @@
   {
     "date": "1925; 1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 408,
     "id": "730945f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730945f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ships",
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c2e04a00-c55e-012f-7be0-58d385a7bc34",
     "text": "S.S. Providence. steaming north underneath the Queensboro Bridge, west of Welfare Island.\nJuly 17, 1925.\n\nP. L. Sperr.\n\n(2)\n\nA later view; toward Astoria from mid-stream, south of Welfare Island.\nAugust 31, 1926.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -116,9 +274,35 @@
   {
     "date": "1925; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "730946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Petroleum industry",
+          "Ships",
+          "Smokestacks",
+          "Tankers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3628fb0-c55e-012f-8d69-58d385a7bc34",
     "text": "(1) River traffic, passing by Welfare Island, underneath the Queensboro Bridge, going north. July 17, 1925.\n\nP. L. Sperr.\n\n(2) The same. July 17, 1925.\n\nP. L. Sperr.\n\n(3) The same, three years later. October 22, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -133,9 +317,35 @@
   {
     "date": "1925; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "730946f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730946f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Petroleum industry",
+          "Ships",
+          "Smokestacks",
+          "Tankers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3628fb0-c55e-012f-8d69-58d385a7bc34",
     "text": "(1) River traffic, passing by Welfare Island, underneath the Queensboro Bridge, going north. July 17, 1925.\n\nP. L. Sperr.\n\n(2) The same. July 17, 1925.\n\nP. L. Sperr.\n\n(3) The same, three years later. October 22, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -150,9 +360,35 @@
   {
     "date": "1925; 1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "730946f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730946f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Petroleum industry",
+          "Ships",
+          "Smokestacks",
+          "Tankers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3628fb0-c55e-012f-8d69-58d385a7bc34",
     "text": "(1) River traffic, passing by Welfare Island, underneath the Queensboro Bridge, going north. July 17, 1925.\n\nP. L. Sperr.\n\n(2) The same. July 17, 1925.\n\nP. L. Sperr.\n\n(3) The same, three years later. October 22, 1928.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -167,9 +403,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730947f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730947f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3ea9660-c55e-012f-25f4-58d385a7bc34",
     "text": "Waterfront scene, looking north west from underneath the Queensboro Bridge.\n\nAugust 31, 1926.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -183,9 +440,41 @@
   {
     "date": "1927; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 397,
     "id": "730952f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730952f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coastlines",
+          "Piers & wharves",
+          "Waterfronts",
+          "Waterways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c64a2a70-c55e-012f-933b-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nQueensborough Bridge, at the Manhattan shore and looking west across Manhattan.\n\nApril 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe Manhattan side section of the bridge, viewed from a different angle. The view is north along the shore from about East 55th Street.\n\nDecember 6, 1927.\n\nP. L. Sperr.\n(views 1 & 2, not dry mount items).\n",
@@ -201,9 +490,41 @@
   {
     "date": "1927; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730952f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730952f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coastlines",
+          "Piers & wharves",
+          "Waterfronts",
+          "Waterways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c64a2a70-c55e-012f-933b-58d385a7bc34",
     "text": "(1)\nQueensborough Bridge, at the Manhattan shore and looking west across Manhattan.\n\nApril 5, 1933.\n\nP. L. Sperr.\n\n(2)\nThe Manhattan side section of the bridge, viewed from a different angle. The view is north along the shore from about East 55th Street.\n\nDecember 6, 1927.\n\nP. L. Sperr.\n(views 1 & 2, not dry mount items).\n",
     "text_source": "gpt",
@@ -218,9 +539,47 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 50th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/581797d0-c563-012f-f258-58d385a7bc34",
     "text": "(1)\nEast River, shoreline, north from East 50th Street. In the center appears the 15-story apartment house, The Campanile and, in the background, the Queensborough Bridge.\n\nWinter 1927.\n\n(2)\nThe same, at an earlier date, showing a more limited view to (East 55th Street).\n\nSeptember 20, 1927.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -234,9 +593,72 @@
   {
     "date": "1927; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 51st Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 49th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 54th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 56th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733901f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733901f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry",
+          "Building construction",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/595769b0-c563-012f-8ff6-58d385a7bc34",
     "text": "(1)\nEast River, north from East 51st Street, showing under construction the River House, and a portion of the Queensborough Bridge. The point of vantage is the dock at the foot of East 49th Street (no dock number). September 20, 1927.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, at a later date (from East 53rd, left, to East 56th Streets), showing (center) the brewery of the Consumers Brewing Co., from East 54th to 55th Streets. The vantage point is Welfare Island.\nMay 4, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same as view No. 2, at a later date.\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -252,9 +674,72 @@
   {
     "date": "1927; 1933; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 51st Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 49th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 54th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 56th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733901f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733901f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry",
+          "Building construction",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/595769b0-c563-012f-8ff6-58d385a7bc34",
     "text": "(1)\nEast River, north from East 51st Street, showing under construction the River House, and a portion of the Queensborough Bridge. The point of vantage is the dock at the foot of East 49th Street (no dock number). September 20, 1927.\n\nP. L. Sperr.\n\n(2)\nA portion of the same, at a later date (from East 53rd, left, to East 56th Streets), showing (center) the brewery of the Consumers Brewing Co., from East 54th to 55th Streets. The vantage point is Welfare Island.\nMay 4, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same as view No. 2, at a later date.\nAutumn 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -270,9 +755,52 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "70th Street",
+        "str2": "Exterior Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "721616f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721616f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Excavation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6116dca0-c550-012f-f886-58d385a7bc34",
     "original_title": "Manhattan: Marie Curie Avenue - 70th Street",
     "text": "Marie Curie Avenue (Exterior Street), south from 70th Street, showing excavating work at the right where the New York Hospital and Cornell Medical School is to be built. Farther south, on the south side of 68th Street, a new laboratory building is under construction for the Rockefeller Institute. The name Exterior Street will not be changed to Marie Curie Avenue until 1935.\n\nAugust 21, 1929.\n\nP. L. Sperr.\n\nNeg. ** 1271\n",
@@ -287,9 +815,48 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Irving Place",
+        "str2": "Lexington Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 389,
     "id": "730150f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730150f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Grand Central Building ; Metropolitan Life Insurance Company ; New York Life Insurance Company ; Washington Irving High School for Girls."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Insurance companies",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84f6fc70-c55d-012f-fc72-58d385a7bc34",
     "text": "A general view of midtown Manhattan as photographed northward from the Consolidated Edison Co. Bldg. Running through the left center is Irving Place and Lexington Avenue. To the right is Third Avenue. Washington Irving High School for Girls is in the center foreground. Across the top, from left to right are the outstanding Metropolitan Life, the New York Life, the No. 10 East 40th Street, the Grand Central and Chanin Bldgs. In the upper right corner Tudor City, the East River and the Queensboro Bridge.\n\nMarch 27, 1929\n\nNew York Edison Company\n",
     "text_source": "gpt",
@@ -303,9 +870,47 @@
   {
     "date": "1930; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "43rd Street",
+        "str2": "Harris Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730949f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730949f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Hospital ; Rockefeller Institute for Medical Research."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Medicine",
+          "Research",
+          "Research facilities",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4eb5b50-c55e-012f-4577-58d385a7bc34",
     "text": "(1) Queensboro Bridge, as seen from foot of 43rd Street and Harris Ave., Long Island City, looking westward. November 6, 1930. P. L. Sperr.\n\n(2) A view further northward and showing the Rockefeller Research Laboratories and the New York Hospital, Cornell Medical College. June 24, 1932. P. L. Sperr.  (No. 2, not a dry mount item).\n",
     "text_source": "gpt",
@@ -320,9 +925,47 @@
   {
     "date": "1930; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "43rd Street",
+        "str2": "Harris Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730949f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730949f-b.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Hospital ; Rockefeller Institute for Medical Research."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Medicine",
+          "Research",
+          "Research facilities",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4eb5b50-c55e-012f-4577-58d385a7bc34",
     "rotation": 90,
     "text": "(1) Queensboro Bridge, as seen from foot of 43rd Street and Harris Ave., Long Island City, looking westward. November 6, 1930. P. L. Sperr.\n\n(2) A view further northward and showing the Rockefeller Research Laboratories and the New York Hospital, Cornell Medical College. June 24, 1932. P. L. Sperr.  (No. 2, not a dry mount item).\n",
@@ -338,9 +981,45 @@
   {
     "date": "1930; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street dock",
+        "str2": "S.S. Congo",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "730950f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730950f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry",
+          "Sand and gravel industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c54dde30-c55e-012f-4f79-58d385a7bc34",
     "text": "(1) Queensboro Bridge, as seen from building on East 53rd Street, in Manhattan. June 18, 1930. P. L. Sperr.\n\n(2) S.S. Osage, headed north under the Queensboro Bridge, as seen from East 53rd Street dock. May 4, 1933. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -355,9 +1034,45 @@
   {
     "date": "1930; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street dock",
+        "str2": "S.S. Congo",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "730950f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730950f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry",
+          "Sand and gravel industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c54dde30-c55e-012f-4f79-58d385a7bc34",
     "text": "(1) Queensboro Bridge, as seen from building on East 53rd Street, in Manhattan. June 18, 1930. P. L. Sperr.\n\n(2) S.S. Osage, headed north under the Queensboro Bridge, as seen from East 53rd Street dock. May 4, 1933. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -372,9 +1087,36 @@
   {
     "date": "1930; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "730960f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730960f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Hospitals",
+          "Medical education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c95b82d0-c55e-012f-1295-58d385a7bc34",
     "text": "(1)\nEast side of Cornell Medical Center, as seen from underneath\nQueensboro Bridge span.\nFall 1935.\nP. L. Sperr.\n(2)\nThe same, from a different angle.\nNovember 6, 1930.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -389,9 +1131,36 @@
   {
     "date": "1930; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 396,
     "id": "730960f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730960f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Hospitals",
+          "Medical education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c95b82d0-c55e-012f-1295-58d385a7bc34",
     "text": "(1)\nEast side of Cornell Medical Center, as seen from underneath\nQueensboro Bridge span.\nFall 1935.\nP. L. Sperr.\n(2)\nThe same, from a different angle.\nNovember 6, 1930.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -406,9 +1175,46 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East River banks",
+        "str2": "about 50th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "50th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 500,
     "id": "730951f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730951f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Coastlines",
+          "Waterfronts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5c7bba0-c55e-012f-fef1-58d385a7bc34",
     "text": "Queensboro Bridge, as seen from the East River banks at about 50th Street, in Manhattan.\nAbout 1932.\nKeystone-Underwood.\n",
     "text_source": "gpt",
@@ -422,9 +1228,34 @@
   {
     "date": "1933; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "727289f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727289f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Eastern Terra Cotta Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Long Island City (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe9454c0-c558-012f-39fe-58d385a7bc34",
     "text": "Long Island City (Queens): Industrial Long Island City and its waterfront, viewing southeastward from the Queensborough Bridge.\n\nP. L. Sperr\n\nView 1: May 4, 1933\nView 2: June 16, 1936\n",
     "text_source": "gpt",
@@ -439,9 +1270,34 @@
   {
     "date": "1933; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "727289f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727289f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Eastern Terra Cotta Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Long Island City (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business enterprises"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fe9454c0-c558-012f-39fe-58d385a7bc34",
     "text": "Long Island City (Queens): Industrial Long Island City and its waterfront, viewing southeastward from the Queensborough Bridge.\n\nP. L. Sperr\n\nView 1: May 4, 1933\nView 2: June 16, 1936\n",
     "text_source": "gpt",
@@ -456,9 +1312,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730953f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730953f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6a456f0-c55e-012f-8df2-58d385a7bc34",
     "rotation": 90,
     "text": "(1) Looking west along the south walk of the Queensboro Bridge. March 5, 1933. P. L. Sperr.\n\n(2) Looking northwest, from near the west end of the Queensboro Bridge. March 5, 1933. P. L. Sperr.\n",
@@ -473,9 +1350,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "730953f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730953f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Smokestacks",
+          "Warehouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6a456f0-c55e-012f-8df2-58d385a7bc34",
     "text": "(1) Looking west along the south walk of the Queensboro Bridge. March 5, 1933. P. L. Sperr.\n\n(2) Looking northwest, from near the west end of the Queensboro Bridge. March 5, 1933. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -489,9 +1387,41 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "East Fifty-ninth Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730954b",
     "image_url": "https://images.nypl.org/?id=730954b&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East Fifty-ninth Street (New York, N.Y.)",
+          "Midtown Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1ebf590-c563-012f-1546-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -505,9 +1435,49 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fremont Avenue",
+        "str2": "South Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Fremont Avenue",
+        "str2": "South Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "730955f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730955f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: South Road - Fremont Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "South Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Roads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c71a2b30-c55e-012f-84b0-58d385a7bc34",
     "text": "The South Road into Manhattan, of the Queensboro Bridge. March 5, 1933. F.L. Sperr.",
     "text_source": "site",
@@ -521,9 +1491,26 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "730956f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730956f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c784cc00-c55e-012f-6a9f-58d385a7bc34",
     "text": "Looking westward to Manhattan, on the south walk of the Queensboro Bridge.\nMarch 5, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -537,9 +1524,33 @@
   {
     "date": "1933; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730958f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730958f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Children",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8541160-c55e-012f-2499-58d385a7bc34",
     "text": "(1)\nChannel east of Welfare Island, underneath the Queensboro Bridge.\nMay 4, 1933.\n\nP. L. Sperr.\n\n(2)\nAnother view of the bridge.\nJune 16, 1934.\n\nP. L. Sperr.\n(No. 2 not a dry mount item)\n",
     "text_source": "gpt",
@@ -554,9 +1565,33 @@
   {
     "date": "1933; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 399,
     "id": "730958f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730958f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Children",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8541160-c55e-012f-2499-58d385a7bc34",
     "text": "(1)\nChannel east of Welfare Island, underneath the Queensboro Bridge.\nMay 4, 1933.\n\nP. L. Sperr.\n\n(2)\nAnother view of the bridge.\nJune 16, 1934.\n\nP. L. Sperr.\n(No. 2 not a dry mount item)\n",
     "text_source": "gpt",
@@ -571,9 +1606,45 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 60th Street",
+        "str2": "East 63rd Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 397,
     "id": "733915f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733915f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Colonial Sand and Stone Company ; Consolidated Edison Company ; Hotel Pierre ; Sherry Netherland Hotel."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Coal trade",
+          "Gas industry",
+          "Hotels",
+          "Public utility companies",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5f602190-c563-012f-a1ea-58d385a7bc34",
     "text": "East River, shoreline, north from East 60th (left) to East 63rd Streets, showing (left to right) piers 102, 103 and 104. Also shown (left to right) is a portion of Queensborough Bridge, yards of the Colonial Sand and Coal Co., and gas tanks and pumping station of the Consolidated Edison Co. In the left background are shown the Hotel Sherry-Netherland and Hotel Pierre. The vantage point is Welfare Island.\nMay 4, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -587,9 +1658,39 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730959f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 55th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8dee880-c55e-012f-3ff9-58d385a7bc34",
     "text": "(1) Queensboro Bridge, east from Allen Point, at foot of East 55th Street. Welfare Island, may also be seen.\n\nJuly 2, 1934.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJuly 2, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -603,9 +1704,39 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730959f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730959f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 55th Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c8dee880-c55e-012f-3ff9-58d385a7bc34",
     "text": "(1) Queensboro Bridge, east from Allen Point, at foot of East 55th Street. Welfare Island, may also be seen.\n\nJuly 2, 1934.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJuly 2, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -619,9 +1750,48 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 75th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 387,
     "id": "733923f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733923f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building ; New York Hospital."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Cornell University. Medical College"
+        ],
+        "topic": [
+          "Hospitals",
+          "Medical education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/631542e0-c563-012f-647a-58d385a7bc34",
     "text": "East River: A view southward from the Welfare Island Ferry, amid-stream, near East 75th Street, showing the Queenboro Bridge; the Chrysler Building, and the new New York Hospital & Cornell Medical College. Parts of Welfare Island appear on the left.\n\nGift of Dr. Michael Wishengrad A.R.P.S.\n\nnot a dry mount\n\nAbout 1934\n",
     "text_source": "gpt",
@@ -635,9 +1805,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "730961f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730961f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Sand and gravel industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9b79b10-c55e-012f-42d0-58d385a7bc34",
     "text": "(1) Sutton Place section in mid-town Manhattan, on the east side, directly south of the Manhattan approach to the Queensboro Bridge.\n\nFall 1935.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle.\n\nFall 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -651,9 +1842,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 400,
     "id": "730961f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730961f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Sand and gravel industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9b79b10-c55e-012f-42d0-58d385a7bc34",
     "text": "(1) Sutton Place section in mid-town Manhattan, on the east side, directly south of the Manhattan approach to the Queensboro Bridge.\n\nFall 1935.\n\nP. L. Sperr.\n\n(2) The same, from a slightly different angle.\n\nFall 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -667,9 +1879,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 389,
     "id": "730962f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730962f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Night photography"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ca268610-c55e-012f-b2b8-58d385a7bc34",
     "text": "A striking view of Queensboro Bridge in Silhouette; taken from Astoria, looking south west across Welfare Island, into the haze of Manhattan's Skyscrapers.\n\nAbout 1935.\n\nEwing Galloway.\n\nnot a dry mount item\n",
     "text_source": "site",
@@ -683,9 +1916,28 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730963f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730963f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/caa07d80-c55e-012f-bc7f-58d385a7bc34",
     "text": "(1) North up the East River to the Queensboro Bridge. Manhattan, Welfare Island and Queens, respectively from left to right; September 16, 1935. P. L. Sperr.\n\n(2) The same, from a slightly different angle. September 16, 1935. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -699,9 +1951,28 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "730963f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730963f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/caa07d80-c55e-012f-bc7f-58d385a7bc34",
     "text": "(1) North up the East River to the Queensboro Bridge. Manhattan, Welfare Island and Queens, respectively from left to right; September 16, 1935. P. L. Sperr.\n\n(2) The same, from a slightly different angle. September 16, 1935. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -715,9 +1986,48 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 24th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "733863f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733863f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building - Empire State Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48d53090-c563-012f-0786-58d385a7bc34",
     "text": "(1)\nEast River, north from about East 24th Street, showing the skyline of Mid-town Manhattan. Prominently visible are the Empire State and Chrysler Buildings. The point of vantage is the Brooklyn Eastern District Terminal.\nSeptember 10, 1935.\n\nP. L. Sperr.\n\n(2)\nThe same, a more extensive view, showing, in the background, the Queensborough Bridge. Also shown (right) are docks on the Brooklyn shore. The point of vantage is the Metropolitan Ave. dock, Brooklyn.\nSeptember 10, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -731,9 +2041,48 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 24th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "733863f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733863f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chrysler Building - Empire State Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48d53090-c563-012f-0786-58d385a7bc34",
     "text": "(1)\nEast River, north from about East 24th Street, showing the skyline of Mid-town Manhattan. Prominently visible are the Empire State and Chrysler Buildings. The point of vantage is the Brooklyn Eastern District Terminal.\nSeptember 10, 1935.\n\nP. L. Sperr.\n\n(2)\nThe same, a more extensive view, showing, in the background, the Queensborough Bridge. Also shown (right) are docks on the Brooklyn shore. The point of vantage is the Metropolitan Ave. dock, Brooklyn.\nSeptember 10, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -747,9 +2096,39 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 61st Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730964f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730964f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Waterways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb127a50-c55e-012f-5975-58d385a7bc34",
     "text": "Queensboro Bridge: A view southeastward of same from the foot of East 61st Street in Manhattan and showing lumber being unloaded at that point.\n\nJune 16, 1936.\n\nP. L. Sperr.\n(Not a dry mount item).\n",
     "text_source": "gpt",
@@ -763,9 +2142,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "First Ave",
+        "str2": "Triborough Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730984f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730984f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Piers & wharves",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3c08df0-c55e-012f-d292-58d385a7bc34",
     "text": "(1) Harlem River span of the Triborough Bridge; under construction, as seen from the Manhattan end of the First Ave., Bridge. It is of the lift drawbridge type, somewhat unusual in this city.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n\n(2) The same; from a slightly different angle, also showing other sections of the Triborough and the Hell Gate Bridges in the distance.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n\n(3) A similar view, from another angle.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -779,9 +2190,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "First Ave",
+        "str2": "Triborough Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "730984f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730984f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Piers & wharves",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3c08df0-c55e-012f-d292-58d385a7bc34",
     "text": "(1) Harlem River span of the Triborough Bridge; under construction, as seen from the Manhattan end of the First Ave., Bridge. It is of the lift drawbridge type, somewhat unusual in this city.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n\n(2) The same; from a slightly different angle, also showing other sections of the Triborough and the Hell Gate Bridges in the distance.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n\n(3) A similar view, from another angle.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -795,9 +2238,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "New York",
+        "str1": "First Ave",
+        "str2": "Triborough Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730984f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730984f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Harlem River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Piers & wharves",
+          "Rivers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3c08df0-c55e-012f-d292-58d385a7bc34",
     "text": "(1) Harlem River span of the Triborough Bridge; under construction, as seen from the Manhattan end of the First Ave., Bridge. It is of the lift drawbridge type, somewhat unusual in this city.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n\n(2) The same; from a slightly different angle, also showing other sections of the Triborough and the Hell Gate Bridges in the distance.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n\n(3) A similar view, from another angle.\n\nFebruary 6, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -811,9 +2286,45 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 83rd Street",
+        "str2": "East 97th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 95th Street",
+        "str2": "East 96th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "733932f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733932f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ferries",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67017560-c563-012f-ae6c-58d385a7bc34",
     "text": "(1)\nEast River, New York's skyline, from East 97th (right) to East 83rd (left) Streets, showing Hell Gate (center and right) and Mill Rock (right). On the left is shown the Astoria, Queens shore abutting into the river, and across it Carl Schurz Park. The rectangular building, on the extreme right, is a storage house of the New York Edison Company, from East 95th to East 96th Streets. Also shown is the excursion boat 'Calvert' approaching the Triborough Bridge, which is the point of vantage.\nJuly 25, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a more extensive view of the river in a southerly direction, with the Queensborough Bridge in the background.\nJuly 25, 1936.\n",
     "text_source": "gpt",
@@ -827,9 +2338,45 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 83rd Street",
+        "str2": "East 97th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 95th Street",
+        "str2": "East 96th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 399,
     "id": "733932f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733932f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ferries",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67017560-c563-012f-ae6c-58d385a7bc34",
     "text": "(1)\nEast River, New York's skyline, from East 97th (right) to East 83rd (left) Streets, showing Hell Gate (center and right) and Mill Rock (right). On the left is shown the Astoria, Queens shore abutting into the river, and across it Carl Schurz Park. The rectangular building, on the extreme right, is a storage house of the New York Edison Company, from East 95th to East 96th Streets. Also shown is the excursion boat 'Calvert' approaching the Triborough Bridge, which is the point of vantage.\nJuly 25, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, showing a more extensive view of the river in a southerly direction, with the Queensborough Bridge in the background.\nJuly 25, 1936.\n",
     "text_source": "gpt",
@@ -843,9 +2390,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "734097f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734097f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pot Cove (New York, N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)",
+          "Coal",
+          "Foundries",
+          "Iron industry",
+          "Ships",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af5572c0-c563-012f-a7df-58d385a7bc34",
     "text": "East River, Queens shore, Astoria, showing the neck of land which protrudes into the East River at Hell Gate and forms Pot Cove on the north and (left) Halletts Cove on the south. On the tip, where the river bends, was located old Fort Stevens. Some marble works, the Tisdale lumber and coal yards, an iron foundry, and other manufacturing plants line the shore. Also shown is Manhattan and the Queensboro bridge.\n\nP. L. Sperr\n\nJuly 25, 1936\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -859,9 +2435,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "734097f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734097f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pot Cove (New York, N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)",
+          "Coal",
+          "Foundries",
+          "Iron industry",
+          "Ships",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af5572c0-c563-012f-a7df-58d385a7bc34",
     "text": "East River, Queens shore, Astoria, showing the neck of land which protrudes into the East River at Hell Gate and forms Pot Cove on the north and (left) Halletts Cove on the south. On the tip, where the river bends, was located old Fort Stevens. Some marble works, the Tisdale lumber and coal yards, an iron foundry, and other manufacturing plants line the shore. Also shown is Manhattan and the Queensboro bridge.\n\nP. L. Sperr\n\nJuly 25, 1936\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -875,9 +2480,38 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "734097f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734097f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Pot Cove (New York, N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bays (Bodies of water)",
+          "Coal",
+          "Foundries",
+          "Iron industry",
+          "Ships",
+          "Storage"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af5572c0-c563-012f-a7df-58d385a7bc34",
     "text": "East River, Queens shore, Astoria, showing the neck of land which protrudes into the East River at Hell Gate and forms Pot Cove on the north and (left) Halletts Cove on the south. On the tip, where the river bends, was located old Fort Stevens. Some marble works, the Tisdale lumber and coal yards, an iron foundry, and other manufacturing plants line the shore. Also shown is Manhattan and the Queensboro bridge.\n\nP. L. Sperr\n\nJuly 25, 1936\nViews 1,2,3\n",
     "text_source": "gpt",
@@ -891,9 +2525,37 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "41st Road",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 479,
     "id": "730965f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730965f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Queensboro Bridge: II. Long Island City, Queens, looking southwest from pier at 41st Road, Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cb638700-c55e-012f-8dde-58d385a7bc34",
     "text": "Queensboro Bridge II\nTaken from Long Island City, Queens Looking south from pier at 41st Road\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-4b\nMay 25, 1937\n\np. 152, Changing New York\n",
     "text_source": "gpt",
@@ -907,9 +2569,41 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "63rd Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 480,
     "id": "730966f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730966f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Queensboro Bridge: I. From 63rd Street Pier, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barges",
+          "Hoisting machinery"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cbe20bd0-c55e-012f-4aa2-58d385a7bc34",
     "text": "Queensboro Bridge I\nManhattan\nTaken from 63rd Street pier\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-4b\nMay 7, 1937\n",
     "text_source": "gpt",
@@ -923,9 +2617,59 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 50th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 58th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 52nd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 49th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733899f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733899f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/588e8d40-c563-012f-7e1e-58d385a7bc34",
     "text": "(1)\nEast River, shoreline, north from East 50th (left) to East 58th Streets, showing prominently two structures, the 15-story Campanile and the 26-story River House; both at 52nd Street. On the extreme right appears a portion of that exclusive residential area, known as Sutton Place.\n\nP. L. Sperr\n\n(2)\nA similar view from East 49th Street dock. Note to the right the thoroughfare Sutton Place, an extension of York Avenue. In the summer of 1939 the foreground area will be filled in to carry the new East River Drive around the rim of Manhattan. It was proposed to carry same under the aforementioned thoroughfare by a tunnel but local objections forced the abandonment of this plan.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -940,9 +2684,59 @@
   {
     "date": "1937; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 50th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 58th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 52nd Street",
+        "str2": "East River",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 49th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733899f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733899f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/588e8d40-c563-012f-7e1e-58d385a7bc34",
     "text": "(1)\nEast River, shoreline, north from East 50th (left) to East 58th Streets, showing prominently two structures, the 15-story Campanile and the 26-story River House; both at 52nd Street. On the extreme right appears a portion of that exclusive residential area, known as Sutton Place.\n\nP. L. Sperr\n\n(2)\nA similar view from East 49th Street dock. Note to the right the thoroughfare Sutton Place, an extension of York Avenue. In the summer of 1939 the foreground area will be filled in to carry the new East River Drive around the rim of Manhattan. It was proposed to carry same under the aforementioned thoroughfare by a tunnel but local objections forced the abandonment of this plan.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -957,9 +2751,26 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 388,
     "id": "730120f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730120f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/79f6a090-c55d-012f-aa9e-58d385a7bc34",
     "text": "A general view of Midtown Manhattan and the Queensboro Bridge from one of the Grand Central-42nd Street skyscrapers. The Long Island City shoreline of the East River is separated from Manhattan by Welfare (Blackwells) Island.\n\n1938-9\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n",
     "text_source": "gpt",
@@ -973,9 +2784,41 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 49th Street",
+        "str2": "East River",
+        "technique": "gpt"
+      }
+    ],
     "height": 465,
     "id": "733893f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733893f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Campanile Apartments ; River House."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55d51c20-c563-012f-5b69-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -989,9 +2832,45 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "55th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "Franklin Delano Roosevelt Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "719561f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719561f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Franklin Delano Roosevelt Drive (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2af74c60-c54d-012f-0c4a-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 55th Street (East)",
     "text": "East River Drive, north from about East 55th Street, showstructional details of this new marginal thoroughfare. This will skirt the Sutton Square area and pass under the Queensboro Bridge. View 2 is later and shows a portion\nof this detail.\n\nAugust 2, 1939\nApril 10, 1940\n\nP. L. Sperr\n",
@@ -1007,9 +2886,45 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "55th Street (East)",
+        "str2": "East River Drive",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "Franklin Delano Roosevelt Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 406,
     "id": "719561f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/719561f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Franklin Delano Roosevelt Drive (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2af74c60-c54d-012f-0c4a-58d385a7bc34",
     "original_title": "Manhattan: East River Drive - 55th Street (East)",
     "text": "East River Drive, north from about East 55th Street, showstructional details of this new marginal thoroughfare. This will skirt the Sutton Square area and pass under the Queensboro Bridge. View 2 is later and shows a portion\nof this detail.\n\nAugust 2, 1939\nApril 10, 1940\n\nP. L. Sperr\n",
@@ -1025,9 +2940,46 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "69th Street (East)",
+        "str2": "Marie Curie Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 69th Street",
+        "str2": "Marie Curie Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 412,
     "id": "721614f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721614f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Walkways"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/60233730-c550-012f-7566-58d385a7bc34",
     "original_title": "Manhattan: Marie Curie Avenue - 69th Street (East)",
     "text": "Marie Curie Avenue, about East 69th Street, showing the Queensborough Bridge.\n\nP. L. sperr\n\nAugust 27, 1939\n",
@@ -1042,9 +2994,44 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "21st Street",
+        "str2": "Bridge Plaza North",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "21st Street",
+        "str2": "Bridge Plaza North",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "726211f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726211f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Housing"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/687f2d40-c557-012f-36a5-58d385a7bc34",
     "text": "Bridge Plaza North, west from 21st Street, showing erection of Queensbridge Houses, a low rent housing development of the New York City Housing Authority. On the left is the \"El\" structure and the Queensborough Bridge.\n\nP. L. Sperr\nJuly 26, 1939\n",
     "text_source": "gpt",
@@ -1058,9 +3045,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 48th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "730967f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730967f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc569810-c55e-012f-5c18-58d385a7bc34",
     "text": "Queensboro Bridge: Viewing north toward the bridge from East 48th Street, Manhattan.\n\nP. L. Sperr\n\nJuly 23, 1939\nViews 1,2\n",
     "text_source": "gpt",
@@ -1074,9 +3089,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 48th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "730967f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730967f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cc569810-c55e-012f-5c18-58d385a7bc34",
     "text": "Queensboro Bridge: Viewing north toward the bridge from East 48th Street, Manhattan.\n\nP. L. Sperr\n\nJuly 23, 1939\nViews 1,2\n",
     "text_source": "gpt",
@@ -1090,9 +3133,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensborough ",
+      "technique": "subjects"
+    },
     "height": 407,
     "id": "730968f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730968f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ferries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ccb429d0-c55e-012f-e8f2-58d385a7bc34",
     "text": "Queensborough Bridge: Tow views, seen from Manhattan.\n\nP. L. Sperr\nAugust 1, 1939\nViews 1, 2\n",
     "text_source": "gpt",
@@ -1106,9 +3170,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensborough ",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730968f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730968f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Ferries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ccb429d0-c55e-012f-e8f2-58d385a7bc34",
     "text": "Queensborough Bridge: Tow views, seen from Manhattan.\n\nP. L. Sperr\nAugust 1, 1939\nViews 1, 2\n",
     "text_source": "gpt",
@@ -1122,9 +3207,45 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 32nd Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 388,
     "id": "733871f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733871f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Consolidated Edison Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Piers & wharves",
+          "Power plants",
+          "Public utility companies"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4c546470-c563-012f-7252-58d385a7bc34",
     "text": "East River shore and skyline--Manhattan: A view north from the foot of East 32nd Street, showing the river frontage prior to the constructional fill required for the new East River Drive. At the left is the N. Y. Steam Company. The massed chimneys of the Consolidated Edison Company plant are beyond. In the distance appears the Queensboro Bridge.\n\nAlexander Alland\n\nThis photo is one of a series that appeared in the published volume \"Portrait of N. Y.\" by Felix Reisenberg and Alex. Alland, IRGV.\n\n1939\n",
     "text_source": "gpt",
@@ -1138,9 +3259,50 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "63rd Street (East)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "Franklin Delano Roosevelt Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "733905f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733905f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 53rd Street - 63rd Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Franklin Delano Roosevelt Drive (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gas industry",
+          "Road construction",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b265960-c563-012f-21b8-58d385a7bc34",
     "text": "East River, Manhattan shore, showing the area from E. 53rd (view 1) to East 63rd Streets in two views. Both Photographs show construction work on the East River Drive.\n\nView 2 shows the Queensboro Bridge and gas tanks between 61st and 63rd Streets.\n\nAugust 2, 1939\nviews 1,2\n",
     "text_source": "gpt",
@@ -1154,9 +3316,50 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "53rd Street",
+        "str2": "63rd Street (East)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 53rd Street",
+        "str2": "Franklin Delano Roosevelt Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "733905f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733905f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 53rd Street - 63rd Street (East)."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Franklin Delano Roosevelt Drive (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Gas industry",
+          "Road construction",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5b265960-c563-012f-21b8-58d385a7bc34",
     "text": "East River, Manhattan shore, showing the area from E. 53rd (view 1) to East 63rd Streets in two views. Both Photographs show construction work on the East River Drive.\n\nView 2 shows the Queensboro Bridge and gas tanks between 61st and 63rd Streets.\n\nAugust 2, 1939\nviews 1,2\n",
     "text_source": "gpt",
@@ -1170,9 +3373,45 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "733908f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733908f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Hospital; Rockefeller Institute for Medical Research."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hospitals",
+          "Medicine",
+          "Research",
+          "Research facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c8824e0-c563-012f-89dd-58d385a7bc34",
     "text": "East River, Manhattan shore, north from East 55th Street, showing the waterfront area where the East River Drive was later constructed. On the right is Welfare Island seen under the Queensboro Bridge.\n\nView 2 shows the area north from the bridge and dredging activities for the Drive. The Rockefeller Institute for Medical Research and the New York Hospital are on the right.\n\nP. L. Sperr\n\nView 1: February 9, 1939\nView 2: July 28, 1939\n",
     "text_source": "gpt",
@@ -1186,9 +3425,45 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 55th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "733908f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733908f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York Hospital; Rockefeller Institute for Medical Research."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Hospitals",
+          "Medicine",
+          "Research",
+          "Research facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c8824e0-c563-012f-89dd-58d385a7bc34",
     "text": "East River, Manhattan shore, north from East 55th Street, showing the waterfront area where the East River Drive was later constructed. On the right is Welfare Island seen under the Queensboro Bridge.\n\nView 2 shows the area north from the bridge and dredging activities for the Drive. The Rockefeller Institute for Medical Research and the New York Hospital are on the right.\n\nP. L. Sperr\n\nView 1: February 9, 1939\nView 2: July 28, 1939\n",
     "text_source": "gpt",
@@ -1202,9 +3477,47 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 58th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 59th Street",
+        "str2": "Queensboro Bridge",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "East 54th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "733910f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733910f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5d667ee0-c563-012f-786c-58d385a7bc34",
     "text": "East River, Manhattan, Shore and Skyline, north from E. 58th Street and under the Queensboro Bridge (at 59th Street). Retaining wall at the left supports a small thoroughfare that extends between these two points. This is Riverview Terrace and has houses on its westerly side facing the river. At its northerly extremity is the New York Steam Company plant and which appears at the left margin. Beneath same is its coal receiving platform. Present plans call for the usage of the rocky area in the foreground during construction of the East River Drive. At this date the rock drilling for same is underway at 54th Street and shortly will proceed to this location.\n\nFebruary 9, 1939\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -1218,9 +3531,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "East 57th Street",
+        "str2": "East River Drive",
+        "technique": "gpt"
+      }
+    ],
     "height": 479,
     "id": "730969f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730969f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd268090-c55e-012f-a8f0-58d385a7bc34",
     "text": "Queensboro Bridge, viewed northeastward from the foot of East 57th Street in Manhattan. In the foreground is the concrete roadway of the new East River Drive. Thru the midground and under the center span is Welfare Island with its new hospital buildings erected by the City with federal aid.\n\nMay 12, 1940\n\nGift of George Jiranek\nPhotostat Division\nNew York Public Library\n",
     "text_source": "gpt",
@@ -1234,9 +3573,27 @@
   {
     "date": "1963",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 487,
     "id": "730970f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730970f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cda8e430-c55e-012f-a021-58d385a7bc34",
     "text": "Queensboro Bridge, 1963\n\nC. Manley De Bevoise\n51-05 Browvale Lane\nLittle Neck, N.Y.\n",
     "text_source": "gpt",
@@ -1250,9 +3607,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "1558494-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558494-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Queensboro Bridge - Roosevelt Island - Tutor City"
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Windows"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8575de50-c5ed-012f-b2db-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1266,9 +3651,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "1558511-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558511-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Roosevelt Island - East River"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8cbbe750-c5ed-012f-5c5b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1282,9 +3695,37 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 473,
     "id": "1558512",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558512.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Roosevelt Island - East River"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)",
+          "Roosevelt Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d1e7a60-c5ed-012f-ba0f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1298,9 +3739,38 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 479,
     "id": "1558513",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558513.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "FDR Drive - East River- Roosevelt Island"
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "Franklin D. Roosevelt East River Drive (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Express highways",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d9c39b0-c5ed-012f-151e-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1314,9 +3784,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 487,
     "id": "730971f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730971f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Clock towers",
+          "Plazas"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce06b990-c55e-012f-12f5-58d385a7bc34",
     "text": "Photographer not established.",
     "text_source": "gpt",
@@ -1330,9 +3823,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 489,
     "id": "730972f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730972f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ce7ebe40-c55e-012f-518d-58d385a7bc34",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, New York 11362\nQueensboro Bridge\n",
     "text_source": "gpt",
@@ -1346,9 +3856,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Queensboro Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 398,
     "id": "730973f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730973f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Clock towers",
+          "Plazas"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf0a3240-c55e-012f-9cdc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -1362,9 +3893,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 282,
     "id": "730974f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730974f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Brewing industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf906520-c55e-012f-de68-58d385a7bc34",
     "text": "The Queensboro Bridge\nn.d. Paul Thompson, photographers\n",
     "text_source": "gpt",
@@ -1378,9 +3930,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.756732,
+        "lng": -73.954224
+      },
+      "source": "Bridges - Queensboro ",
+      "technique": "subjects"
+    },
     "height": 489,
     "id": "730976f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730976f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queensboro Bridge (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d0879ec0-c55e-012f-9ee2-58d385a7bc34",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, New York 11362\n\nQueensboro Bridge\n",
     "text_source": "gpt",

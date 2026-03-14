@@ -2,9 +2,44 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "150th Street",
+        "str2": "70th Road"
+      },
+      "source": "150th Street and 70th Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "105th Street",
+        "str2": "70th Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "105th Street",
+        "str2": "70th Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "725593f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725593f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8fe70410-c556-012f-d317-58d385a7bc34",
     "original_title": "Queens: 70th Road - 105th Street",
     "text": "70th Road, north side, at 150th Street, showing two farmhouses, before this area was developed into a modern residential neighborhood. 70th Road, here, is the former Head of the Vleigh Road.\n\nP. L. Sperr\n\nMarch 23, 1927\n",

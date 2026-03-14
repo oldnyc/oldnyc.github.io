@@ -2,9 +2,32 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "High Street",
+        "str2": "Hudson Avenue"
+      },
+      "source": "Brooklyn: High Street - Hudson Avenue",
+      "technique": "title-cross"
+    },
     "height": 502,
     "id": "704959f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704959f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Episcopal churches",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09f5b440-c536-012f-03d6-58d385a7bc34",
     "original_title": "Brooklyn: High Street - Hudson Avenue",
     "text": "High Street, west from Hudson Ave. On the right, in the center is seen the upper half and steeple of the St. Michael's Episcopal Church.\n\nJune 1926.\n\nBrown Brothers.\n",
@@ -22,9 +45,27 @@
     "dates_from_text": [
       "1934-06-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "High Street",
+        "str2": "Hudson Avenue"
+      },
+      "source": "Brooklyn: High Street - Hudson Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "704958f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704958f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/099ae240-c536-012f-2e1a-58d385a7bc34",
     "original_title": "Brooklyn: High Street - Hudson Avenue",
     "text": "242-252 High Street, south side, east from Hudson Ave., to Navy Street. No. 242 is at the right.\n\nJune 26, 1934.\n\nP. L. Sperr.\n",

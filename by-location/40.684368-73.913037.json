@@ -2,9 +2,35 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Broadway",
+        "str2": "Schaeffer Street"
+      },
+      "source": "Brooklyn: Broadway - Schaeffer Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "703345f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703345f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Fruit",
+          "Markets",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/819a8460-c533-012f-8971-58d385a7bc34",
     "original_title": "Brooklyn: Broadway - Schaeffer Street",
     "text": "Broadway, adj. n.e. cor. Schaeffer St., Brooklyn.\n\nP. L. Sperr, photographer\nAugust 3, 1941\n",

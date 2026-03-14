@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929-09-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street (East)",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 104th Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714958f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714958f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/070644c0-c546-012f-a3e7-58d385a7bc34",
     "original_title": "Manhattan: 104th Street (East) - 1st Avenue",
     "text": "336-344 East 104th Street, south side, east of First Avenue. No. 338-342 is St. Lucy's Roman Catholic Church.\nSeptember 2, 1929.\n\nP. L. Sperr.\n",
@@ -22,9 +40,32 @@
   {
     "date": "1934; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707690f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707690f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Banks",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46791860-c53a-012f-00ac-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": "(1)\nFirst Avenue, South from E. 104th Street.\nMay 23rd, 1934\n\n(2)\nThe same at a later date, showing the South West corner of 104th Street.\nApril 14th, 1940\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -40,9 +81,32 @@
   {
     "date": "1934; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707690f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707690f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Banks",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46791860-c53a-012f-00ac-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": "(1)\nFirst Avenue, South from E. 104th Street.\nMay 23rd, 1934\n\n(2)\nThe same at a later date, showing the South West corner of 104th Street.\nApril 14th, 1940\n\nPhotographs by,\nP.L. Sperr,\n",
@@ -61,9 +125,27 @@
     "dates_from_text": [
       "1935-08-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St. E.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St. E.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707691f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707691f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/46c9f480-c53a-012f-1add-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St. E.",
     "text": "2024 First Ave., adjoining the N.E. corner of East 104th Street. Building shown is a 2-story frame house.\n\nAugust 31, 1935.\n\nP. L. Sperr.\n",
@@ -78,9 +160,33 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave",
+        "str2": "E. 104th St."
+      },
+      "source": "1st Ave and E. 104th St.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985043",
     "image_url": "https://images.nypl.org/?id=3985043&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d3f2b5d0-c5d7-012f-cb89-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -94,9 +200,29 @@
   {
     "date": "1940-04-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th Street",
+        "str2": "1st Avenue"
+      },
+      "source": "1st Avenue at 104th Street, Manhattan",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "486031",
     "image_url": "https://images.nypl.org/?id=486031&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4f71d900-c60e-012f-0997-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -110,9 +236,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "707689f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707689f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Gas industry",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/460bae60-c53a-012f-81ac-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": null,
@@ -127,9 +276,32 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707689f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707689f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Gas industry",
+          "Storage tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/460bae60-c53a-012f-81ac-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": null,
@@ -144,9 +316,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "707683f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707683f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43d0fca0-c53a-012f-375b-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": "view 1: First Avenue, e.s., 104th-105th Streets.\n\nview 2: First Avenue and 102nd Street, n.e. cor.\n\nview 3: First Avenue, e.s., s. fr. 105th Street.\n\nP. L. Sperr, photographer\nJune 19, 1941\n",
@@ -161,9 +354,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "707683f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707683f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43d0fca0-c53a-012f-375b-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": "view 1: First Avenue, e.s., 104th-105th Streets.\n\nview 2: First Avenue and 102nd Street, n.e. cor.\n\nview 3: First Avenue, e.s., s. fr. 105th Street.\n\nP. L. Sperr, photographer\nJune 19, 1941\n",
@@ -178,9 +392,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "104th St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 104th St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707683f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707683f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/43d0fca0-c53a-012f-375b-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 104th St.",
     "text": "view 1: First Avenue, e.s., 104th-105th Streets.\n\nview 2: First Avenue and 102nd Street, n.e. cor.\n\nview 3: First Avenue, e.s., s. fr. 105th Street.\n\nP. L. Sperr, photographer\nJune 19, 1941\n",

@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "164th Street (East)",
+        "str2": "Walton Avenue"
+      },
+      "source": "Bronx: Walton Avenue - 164th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702013f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702013f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7fa4e720-c531-012f-a463-58d385a7bc34",
     "original_title": "Bronx: Walton Avenue - 164th Street (East)",
     "text": "Walton Ave., west side, north from East 164th Street.\n\nAbout 1927.\n\nEwing Galloway.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "164th Street (East)",
+        "str2": "Walton Avenue"
+      },
+      "source": "Bronx: 164th Street (East) - Walton Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "700197f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700197f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ed545e30-c52e-012f-1fe7-58d385a7bc34",
     "original_title": "Bronx: 164th Street (East) - Walton Avenue",
     "text": "E. 164th Street, at the northeast corner of Walton Avenue, showing the All Hallows Institute, seen from Joyce Kilmer Park. Between the Institute and the steel skeleton of a new building on the right is a narrow clearance, the former Butternut Street, now no longer used as a thoroughfare.\n\nP. L. Sperr\n\nApril 10, 1941\n",

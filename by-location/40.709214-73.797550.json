@@ -2,9 +2,31 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "165th Street",
+        "str2": "Hillside Avenue"
+      },
+      "source": "Queens: Hillside Avenue - 165th Street",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "726860f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726860f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/551ef090-c558-012f-0e8f-58d385a7bc34",
     "original_title": "Queens: Hillside Avenue - 165th Street",
     "text": "Hillside Avenue at and adjoining the N.W. corner of 165th Street. Note the encroachments upon an ideal living community.\n\nMarch 12, 1938.\n\nP.L. Sperr\n",

@@ -2,9 +2,34 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "153rd Street",
+        "str2": "River Avenue"
+      },
+      "source": "Bronx: River Avenue - 153rd Street",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "701706f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701706f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Stadiums",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/129a07d0-c531-012f-a6da-58d385a7bc34",
     "original_title": "Bronx: River Avenue - 153rd Street",
     "text": "Spreading Cinders\nRiver Ave. & 153rd St.\n\nPublication Subject to\nWritten Permission or Invoice\nHiram Myers\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n\n1931\n",
@@ -19,9 +44,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "153rd Street",
+        "str2": "River Avenue"
+      },
+      "source": "Bronx: River Avenue - 153rd Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "701707f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701707f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stadiums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12e54b10-c531-012f-1beb-58d385a7bc34",
     "original_title": "Bronx: River Avenue - 153rd Street",
     "text": "Dinner Bucket\nRiver Ave. and 153rd St.\n\nPublication Subject to\nWritten Permission or Invoice\nHiram Myers\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n\n1931\n",

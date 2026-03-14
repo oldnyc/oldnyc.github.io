@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Jarvis Avenue",
+        "str2": "Roberts Avenue"
+      },
+      "source": "Bronx: Jarvis Avenue - Roberts Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "701325f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701325f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8174f4f0-c530-012f-9f2e-58d385a7bc34",
     "original_title": "Bronx: Jarvis Avenue - Roberts Avenue",
     "text": "Jarvis Avenue, east side, south of Roberts Avenue (vantage point). The view is southeastward across the clearance on the east side of Jarvis Avenue and shows the rears of houses (left) that front on Mahan Avenue and extend to Middletown Road. In the center background are the rears of three dwellings that front on the north side of Middletown Road.\n\nMay 13, 1938\n\nP. L. Sperr\n",

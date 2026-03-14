@@ -2,9 +2,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atkins Avenue",
+        "str2": "Pitkin Avenue"
+      },
+      "source": "Brooklyn: Pitkin Avenue - Atkins Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706290f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706290f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/15d7c900-c538-012f-0894-58d385a7bc34",
     "original_title": "Brooklyn: Pitkin Avenue - Atkins Avenue",
     "text": "Pitkin Avenue, north side, east from Atkins Avenue, showing frame dwellings, the Fulton Street Line \"El\" station at Montauk Avenue, and construction of the Independent subway.\n\nSeptember 14, 1940\n\nP. L. Sperr\n",

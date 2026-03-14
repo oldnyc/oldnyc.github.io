@@ -2,9 +2,31 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 135,
+        "street": "West 58th Street"
+      },
+      "source": "135 West 58th Street",
+      "technique": "gpt"
+    },
     "height": 504,
     "id": "416444",
     "image_url": "https://images.nypl.org/?id=416444&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3f05d430-c6db-012f-98c0-58d385a7bc34",
     "text": null,
     "text_source": null,

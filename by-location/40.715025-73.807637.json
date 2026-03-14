@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-03-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Coolidge Avenue",
+        "str2": "Parsons Boulevard"
+      },
+      "source": "Queens: Coolidge Avenue - Parsons Boulevard",
+      "technique": "title-cross"
+    },
     "height": 394,
     "id": "726374f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726374f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a0999130-c557-012f-dffc-58d385a7bc34",
     "original_title": "Queens: Coolidge Avenue - Parsons Boulevard",
     "text": "Coolidge Avenue, at Parsons Boulevard, showing a selling place of garden rockery. March 23, 1927. P.L. Sperr",

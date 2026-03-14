@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1928-02-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Lispenard Street"
+      },
+      "source": "Manhattan: Lispenard Street - Church Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "721134f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721134f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a8d04f0-c54f-012f-2704-58d385a7bc34",
     "original_title": "Manhattan: Lispenard Street - Church Street",
     "text": "Lispenard Street, adjoining and west of the northwest corner of Church Street. Numbers 31, 29, and 27, adjoining and west of the corner, are frame houses with a brick front.\n\nFebruary 12th, 1928\n\nP.L. Sperr\n",
@@ -22,9 +40,29 @@
   {
     "date": "1935-05-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 321,
+        "street": "Church Street"
+      },
+      "source": "Church Street #321",
+      "technique": "title-address"
+    },
     "height": 390,
     "id": "1509265",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509265.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/07ef7e40-c5ce-012f-1540-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +76,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Lispenard Street"
+      },
+      "source": "Manhattan: Church Street - Lispenard Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "718896f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718896f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e940200-c54c-012f-be9e-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Lispenard Street",
     "text": "Church Street, west side, north from Lispenard (left) to Canal Streets, showing at that location the new Post Office site under clearance. Across same, at the right, appear buildings, on the north side of Canal Street, at Wooster Street (center). View No. I shows an early stage, while No. 2 is slightly later.\n\nView 2:\n\nP. L. Sperr.\n\nMarch 11, 1938.\nApril 23, 1938.\n",
@@ -55,9 +114,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Lispenard Street"
+      },
+      "source": "Manhattan: Church Street - Lispenard Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "718896f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718896f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e940200-c54c-012f-be9e-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Lispenard Street",
     "text": "Church Street, west side, north from Lispenard (left) to Canal Streets, showing at that location the new Post Office site under clearance. Across same, at the right, appear buildings, on the north side of Canal Street, at Wooster Street (center). View No. I shows an early stage, while No. 2 is slightly later.\n\nView 2:\n\nP. L. Sperr.\n\nMarch 11, 1938.\nApril 23, 1938.\n",
@@ -72,9 +152,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Church Street",
+        "str2": "Lispenard Street"
+      },
+      "source": "Manhattan: Church Street - Lispenard Street",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "718894f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718894f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Diners (Restaurants)",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1ded1570-c54c-012f-bffa-58d385a7bc34",
     "original_title": "Manhattan: Church Street - Lispenard Street",
     "text": "Church Street (left), at the N. E. corner of Lispenard Street (right), showing a dining car, where formerly stood two 3--story buildings bearing No. 323. To the left is a 4 story structure No. 325. A gas station occupies the remaining frontage extending to Canal Street. The loft buildings to the right, are on the north side of Lispenard Street and continue to Broadway.\n\nJuly 12, 1939\n\nP. L. Sperr\n",

@@ -2,9 +2,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Mott Avenue",
+        "str2": "Redfern Avenue"
+      },
+      "source": "Queens: Mott Avenue - Redfern Avenue",
+      "technique": "title-cross"
+    },
     "height": 467,
     "id": "727436f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727436f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Delicatessens",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/395d4880-c559-012f-e38b-58d385a7bc34",
     "original_title": "Queens: Mott Avenue - Redfern Avenue",
     "text": "Mott Ave., at the N.W. corner of Redfern Ave., showing the Hotel Montauk. Also shown is a branch line of the Long Island Railroad.\n\nJanuary 1923.\n\nEugene L. Armbruster Collection.\n",

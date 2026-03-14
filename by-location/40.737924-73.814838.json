@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "64th Avenue",
+        "str2": "Kissena Boulevard"
+      },
+      "source": "Queens: Kissena Boulevard - 64th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "727166f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727166f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Duplexes"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd4bc3d0-c558-012f-6792-58d385a7bc34",
     "original_title": "Queens: Kissena Boulevard - 64th Avenue",
     "text": "Kissena Boulevard, at 64th Avenue, showing an old-type dwelling and barns and rows of new-type 2-family homes\n\nMarch 23, 1927\n",
@@ -19,9 +40,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "64th Avenue",
+        "str2": "Kissena Boulevard"
+      },
+      "source": "Queens: Kissena Boulevard - 64th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "727167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Real property",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cdbeaed0-c558-012f-afcb-58d385a7bc34",
     "original_title": "Queens: Kissena Boulevard - 64th Avenue",
     "text": "Kissena Boulevard, north from Sixty-fourth Ave.\n\nView 1: March 3, 1937.\nView 2: March 23, 1927\n\nP.L. Sperr.\n",

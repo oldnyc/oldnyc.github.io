@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Overing Street",
+        "str2": "Tratman Avenue"
+      },
+      "source": "Bronx: Overing Street - Tratman Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "701561f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701561f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/daea88d0-c530-012f-356f-58d385a7bc34",
     "original_title": "Bronx: Overing Street - Tratman Avenue",
     "text": "Overing Street, at and adjoining (frame house and empty lot) the S.E. corner of Tratman Ave. The apartment house under construction is at the N.E. corner of Benson Street and Westchester Square.\n\nJuly 9, 1928.\n\nP. L. Sperr.\n",

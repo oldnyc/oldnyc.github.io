@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1941-07-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "84th Street",
+        "str2": "Liberty Avenue"
+      },
+      "source": "Queens: Liberty Avenue - 84th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "727221f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727221f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e3536d00-c558-012f-792e-58d385a7bc34",
     "original_title": "Queens: Liberty Avenue - 84th Street",
     "text": "Q. Liberty Ave. W. of 84th St. n. side Neg. A-41 July 23 1941\nP.L.Sperr\n",

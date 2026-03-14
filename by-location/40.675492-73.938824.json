@@ -2,9 +2,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "Bergen Street"
+      },
+      "source": "Brooklyn: Bergen Street - Albany Avenue",
+      "technique": "title-cross"
+    },
     "height": 388,
     "id": "703223f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703223f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "United States"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Vocational education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/52b5e680-c533-012f-eb6e-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - Albany Avenue",
     "text": "Bergen Street, at the N.W. corner of Albany Ave., showing a view of the Commercial High School.\nAbout 1928.\nEugene L. Armbruster Collection.\n",
@@ -19,9 +44,27 @@
   {
     "date": "1932; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "Bergen Street"
+      },
+      "source": "Brooklyn: Bergen Street - Albany Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "703222f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703222f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/525e2d00-c533-012f-e27b-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - Albany Avenue",
     "text": "Bergen Street, east from Albany Avenue. Note the old trolley barns on the left.\n\nMarch 29, 1932\n\nP. L. Sperr\n\n(2)\n\nThe same, at a later date. The car barns have been abandoned.\n\nSeptember 12, 1940\n\nP. L. Sperr\n",
@@ -37,9 +80,27 @@
   {
     "date": "1932; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "Bergen Street"
+      },
+      "source": "Brooklyn: Bergen Street - Albany Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703222f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703222f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/525e2d00-c533-012f-e27b-58d385a7bc34",
     "original_title": "Brooklyn: Bergen Street - Albany Avenue",
     "text": "Bergen Street, east from Albany Avenue. Note the old trolley barns on the left.\n\nMarch 29, 1932\n\nP. L. Sperr\n\n(2)\n\nThe same, at a later date. The car barns have been abandoned.\n\nSeptember 12, 1940\n\nP. L. Sperr\n",
@@ -55,9 +116,44 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "Bergen Street"
+      },
+      "source": "Albany Avenue and Bergen Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "St. Mark's Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Albany Avenue",
+        "str2": "St. Mark's Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 407,
     "id": "702968f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702968f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f0445ae0-c532-012f-c954-58d385a7bc34",
     "original_title": "Brooklyn: Albany Avenue - St. Mark's Avenue",
     "text": "Albany Avenue, east side, between St. Marks Avenue and Bergen Street, showing two old frame dwellings. The clearance is fifty feet wide, between numbers 169 and 159 Albany Avenue.\n\nSeptember 13, 1940\n\nP. L. Sperr\n",

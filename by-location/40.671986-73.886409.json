@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Belmont Avenue",
+        "str2": "Jerome Street"
+      },
+      "source": "Brooklyn: Belmont Avenue - Jerome Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "703187f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703187f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/440d8c20-c533-012f-9318-58d385a7bc34",
     "original_title": "Brooklyn: Belmont Avenue - Jerome Street",
     "text": "P.L. Sperr, photographer 6-25-1942",

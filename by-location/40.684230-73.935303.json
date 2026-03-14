@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Hancock Street",
+        "str2": "Lewis Street"
+      },
+      "source": "Brooklyn: Hancock Street - Lewis Street",
+      "technique": "title-cross"
+    },
     "height": 443,
     "id": "704782f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704782f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3769ea0-c535-012f-fde1-58d385a7bc34",
     "original_title": "Brooklyn: Hancock Street - Lewis Street",
     "text": "Hancock Street, east from Lewis Street, showing a W. P. A. sewer project.\n\nMay 5, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

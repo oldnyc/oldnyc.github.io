@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "122nd Street",
+        "str2": "Claremont Avenue"
+      },
+      "source": "122nd Street and Claremont Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417633",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417633.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22d11110-c6cd-012f-8be3-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1920-09-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: 122nd Street - Claremont Avenue",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "715272f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715272f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c5ff9a0-c546-012f-b875-58d385a7bc34",
     "original_title": "Manhattan: 122nd Street - Claremont Avenue",
     "text": "(1)\n122nd Street, Claremont Avenue to Riverside Drive.\n(Before reconstruction).\n\nSeptember 19, 1920.\n\n(2)\nSame after reconstruction.\n\nPresident  Borough of Manhattan.\n",
@@ -41,9 +80,27 @@
     "dates_from_text": [
       "1920-09-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: 122nd Street - Claremont Avenue",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "715272f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715272f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c5ff9a0-c546-012f-b875-58d385a7bc34",
     "original_title": "Manhattan: 122nd Street - Claremont Avenue",
     "text": "(1)\n122nd Street, Claremont Avenue to Riverside Drive.\n(Before reconstruction).\n\nSeptember 19, 1920.\n\n(2)\nSame after reconstruction.\n\nPresident  Borough of Manhattan.\n",
@@ -58,9 +115,37 @@
   {
     "date": "1928; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (West)",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: Claremont Avenue - 122nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 446,
     "id": "718982f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718982f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University",
+          "International House (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40de83d0-c54c-012f-5eb0-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - 122nd Street (West)",
     "text": "Claremont Ave., north from W. 122nd St., to Tiemann Place (W. 127th St.), showing at the left, a small park between this thoroughfare and Riverside Drive. The structure beyond same is the International House of Columbia University.\n\nJune 1928.\n\nGeorge L. Balgue,\n",
@@ -76,9 +161,37 @@
   {
     "date": "1929; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (West)",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: Claremont Avenue - 122nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "718981f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718981f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University",
+          "International House (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40750050-c54c-012f-9693-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - 122nd Street (West)",
     "text": "(1)\nClaremont Ave., west side, north from West 122nd Street, showing the International House and Intercollegiate Cosmopolitan Club, occupying Nos. 151-161. This building also faces on Riverside Drive, where its\nNo. is 500.\n1936.\n\nWalter L. Bogert.\n\n(2)\nA closer view. Riverside Drive is on the left, and Claremont Ave.,\non the right.\n1936.\n\nWalter L. Bogert.\n",
@@ -94,9 +207,37 @@
   {
     "date": "1929; 1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (West)",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: Claremont Avenue - 122nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 431,
     "id": "718981f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718981f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Columbia University",
+          "International House (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings",
+          "Universities & colleges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40750050-c54c-012f-9693-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - 122nd Street (West)",
     "text": "(1)\nClaremont Ave., west side, north from West 122nd Street, showing the International House and Intercollegiate Cosmopolitan Club, occupying Nos. 151-161. This building also faces on Riverside Drive, where its\nNo. is 500.\n1936.\n\nWalter L. Bogert.\n\n(2)\nA closer view. Riverside Drive is on the left, and Claremont Ave.,\non the right.\n1936.\n\nWalter L. Bogert.\n",
@@ -112,9 +253,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (West)",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: Claremont Avenue - 122nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "718980f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718980f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40057520-c54c-012f-d34d-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - 122nd Street (West)",
     "text": "(1) Claremont Ave., at and adjoining the N.E. corner of West 122nd Street, as seen from the east side of Riverside Drive, and across park between these streets. Buildings shown, house the Institute of Musical Art. 1936. Walter L. Bogert.\n\n(2) A view eastward on the north side of West 122nd Street, and showing the afore mentioned institute. 1936. Walter L. Bogert.\n\n(3) Broadway, west side, at West 122nd Street, and showing the Institute of Musical Art, at the N.E. corner of Claremont Ave, a street which parallels Broadway. 1936. Walter L. Bogert.\n",
@@ -129,9 +294,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (West)",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: Claremont Avenue - 122nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 431,
     "id": "718980f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718980f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40057520-c54c-012f-d34d-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - 122nd Street (West)",
     "text": "(1) Claremont Ave., at and adjoining the N.E. corner of West 122nd Street, as seen from the east side of Riverside Drive, and across park between these streets. Buildings shown, house the Institute of Musical Art. 1936. Walter L. Bogert.\n\n(2) A view eastward on the north side of West 122nd Street, and showing the afore mentioned institute. 1936. Walter L. Bogert.\n\n(3) Broadway, west side, at West 122nd Street, and showing the Institute of Musical Art, at the N.E. corner of Claremont Ave, a street which parallels Broadway. 1936. Walter L. Bogert.\n",
@@ -146,9 +335,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (West)",
+        "str2": "Claremont Avenue"
+      },
+      "source": "Manhattan: Claremont Avenue - 122nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 433,
     "id": "718980f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718980f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Music education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40057520-c54c-012f-d34d-58d385a7bc34",
     "original_title": "Manhattan: Claremont Avenue - 122nd Street (West)",
     "text": "(1) Claremont Ave., at and adjoining the N.E. corner of West 122nd Street, as seen from the east side of Riverside Drive, and across park between these streets. Buildings shown, house the Institute of Musical Art. 1936. Walter L. Bogert.\n\n(2) A view eastward on the north side of West 122nd Street, and showing the afore mentioned institute. 1936. Walter L. Bogert.\n\n(3) Broadway, west side, at West 122nd Street, and showing the Institute of Musical Art, at the N.E. corner of Claremont Ave, a street which parallels Broadway. 1936. Walter L. Bogert.\n",

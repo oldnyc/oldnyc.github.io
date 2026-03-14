@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 400,
+        "street": "E. 145th St."
+      },
+      "source": "400 E. 145th St.",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984366",
     "image_url": "https://images.nypl.org/?id=3984366&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12a6a450-c5d7-012f-a3e2-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "E. 145th St.",
+        "str2": "Willis Av"
+      },
+      "source": "E. 145th St. and Willis Av",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984367",
     "image_url": "https://images.nypl.org/?id=3984367&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12e8fb80-c5d7-012f-e0d8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +82,32 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "145th Street (East)",
+        "str2": "Willis Avenue"
+      },
+      "source": "Bronx: Willis Avenue - 145th Street (East)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702197f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702197f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5d45ca0-c531-012f-05a1-58d385a7bc34",
     "original_title": "Bronx: Willis Avenue - 145th Street (East)",
     "text": "Willis Avenue, west side, south from and across E. 145th Street. The \"El\" swings southwestward off the avenue and connects farther south with the Third Avenue elevated. It serves as a connecting link between the Third Avenue \"El\" and the subway on Westchester Avenue.\n\nP.L. Sperr\n\nApril 29, 1941\n",

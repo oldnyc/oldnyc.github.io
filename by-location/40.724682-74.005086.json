@@ -2,9 +2,35 @@
   {
     "date": "1951; 1960",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 131,
+        "street": "Avenue of the Americas"
+      },
+      "source": "131 Avenue of the Americas",
+      "technique": "gpt"
+    },
     "height": 385,
     "id": "732729f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732729f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chelsea School, P.S. 33, 9th Avenue"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/97425070-c561-012f-d9ba-58d385a7bc34",
     "text": null,
     "text_source": null,

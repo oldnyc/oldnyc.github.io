@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 537,
+        "street": "West 112th Street"
+      },
+      "source": "537 West 112th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417621",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417621.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/277a0c50-c6cd-012f-a30b-58d385a7bc34",
     "text": null,
     "text_source": null,

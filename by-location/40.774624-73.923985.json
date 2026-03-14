@@ -2,9 +2,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "21st Street",
+        "str2": "Astoria Park"
+      },
+      "source": "21st Street and Astoria Park",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "730805f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730805f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Astoria Park (New York, N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83e1d6f0-c55e-012f-f72b-58d385a7bc34",
     "text": "(1)\nHell Gate Bridge, northwest from Astoria Park, in Queens.\n\nMay 27, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same; from near 21st Street in Queens.\n\nMay 27, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -18,9 +43,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "21st Street",
+        "str2": "Astoria Park"
+      },
+      "source": "21st Street and Astoria Park",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "730805f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730805f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Astoria Park (New York, N.Y.)",
+          "Hell Gate Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridges",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83e1d6f0-c55e-012f-f72b-58d385a7bc34",
     "text": "(1)\nHell Gate Bridge, northwest from Astoria Park, in Queens.\n\nMay 27, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same; from near 21st Street in Queens.\n\nMay 27, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

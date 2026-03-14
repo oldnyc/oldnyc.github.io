@@ -2,9 +2,33 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "238th Street",
+        "str2": "Broadway"
+      },
+      "source": "Bronx: Broadway - 238th Street",
+      "technique": "title-cross"
+    },
     "height": 383,
     "id": "700566f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700566f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7187ff40-c52f-012f-4115-58d385a7bc34",
     "original_title": "Bronx: Broadway - 238th Street",
     "text": "Broadway (left), south from W. 238th Street, showing the elevated structure of the I.R.T. subway line thereon. On the right is Kingsbridge Avenue, running south from its commencement point at W. 238th Street.\n\nSeptember 28, 1913\n\nGift of M. Vaxer\n",
@@ -19,9 +43,34 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "238th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Bronx: 238th Street (West) - Broadway",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "700364f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700364f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Building construction",
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/28dd1fe0-c52f-012f-e053-58d385a7bc34",
     "original_title": "Bronx: 238th Street (West) - Broadway",
     "text": "West 238th Street, north side, east from Broadway to Review Place.  The 2-story building, at the corner bears No. 5820 Broadway.  On the extreme right, at the N.W. corner of Review Place, is shown under construction of a 5-story apartment house, bearing No. 233.  Also shown (left) under construction is a 5-story building bearing No. 5824 Broadway.  Overhead appears part of the 238th Street elevated station of the I.R.T. Van Cortlandt Park subway line.\n\nAbout 1915.\nJames Suydam\n",
@@ -36,9 +85,35 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "238th Street (West)",
+        "str2": "Broadway"
+      },
+      "source": "Bronx: Broadway - 238th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "700567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700567f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Real property",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71fa9290-c52f-012f-c4b9-58d385a7bc34",
     "original_title": "Bronx: Broadway - 238th Street (West)",
     "text": "Broadway (left), south from West 238th Street, showing the elevated structure of the I.R.T. Van Cortlandt Park subway line thereon. On the extreme right is Kingsbridge Ave., running south from its commencement point at West 238th Street.\n\n1915.\n\nJames Suydam.\n",
@@ -53,9 +128,47 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Broadway",
+        "str2": "West 238th Street"
+      },
+      "source": "Broadway and West 238th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "238th Street (West)",
+        "str2": "Spuyten Duyvil Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Spuyten Duyvil Road",
+        "str2": "West 238th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 483,
     "id": "700365f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700365f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Van Cortlandt Park (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/293ff470-c52f-012f-f6a0-58d385a7bc34",
     "original_title": "Bronx: 238th Street (West) - Spuyten Duyvil Road",
     "text": "West 238th Street (running from lower right hand corner to center background), east from Spuyten Duyvil Road to Broadway, showing, on the latter, the elevated structure of the I.R.T. Van Cortlandt Park subway line. Also shown is a general view eastward, and land being filled for extensive real estate development. The thoroughfares crossing West 238th Street are: Tibbett Ave; Corlear Ave. and Kingsbridge Ave. The vantage point is the N.E. corner of Waldo Ave. and West 238th Street.\n\nMay 1926.\n\nBrown Brothers.\n",

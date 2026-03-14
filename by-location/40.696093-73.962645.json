@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Emerson Place",
+        "str2": "Park Avenue"
+      },
+      "source": "Brooklyn: Park Avenue - Emerson Place",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "706208f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706208f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f68de360-c537-012f-06ed-58d385a7bc34",
     "original_title": "Brooklyn: Park Avenue - Emerson Place",
     "text": "Park Avenue, south side, east from Emerson Place to Classon Avenue.\n\nP. L. Sperr\n\nApril 12, 1941\n",

@@ -2,9 +2,41 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 217,
+        "street": "West Street"
+      },
+      "source": "217 West Street",
+      "technique": "gpt"
+    },
     "height": 480,
     "id": "724622f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724622f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West Street Row: II, 217-221 West Street, Manhattan.",
+        "A. Cohen Truck Covers and Aprons ; Empty Package Supply Co. ; Standard Oil Company Refinery ;Wallabout Market."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Cafeterias",
+          "Clothing stores",
+          "Cobblestone streets",
+          "Food industry",
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3711d3c0-c555-012f-2168-58d385a7bc34",
     "text": "West Street Row: 11\nWest Street, nos. 217-221, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II C-1 and I A-2\nMay 12, 1936\n",
     "text_source": "gpt",

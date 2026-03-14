@@ -6,9 +6,27 @@
       "1934-10-17",
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 2nd Avenue - 113th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707962f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707962f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4780300-c53a-012f-977b-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 113th Street",
     "text": "(1)\n\n2196 Second Avenue, adjoining the S.E. corner of 113th Street, a three-story frame house. October 17, 1934.\n\nP. L. Sperr.\n\n(2)\n\nThe same, two years earlier. 1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 256.\n",
@@ -28,9 +46,27 @@
       "1934-10-17",
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 2nd Avenue - 113th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707962f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707962f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b4780300-c53a-012f-977b-58d385a7bc34",
     "original_title": "Manhattan: 2nd Avenue - 113th Street",
     "text": "(1)\n\n2196 Second Avenue, adjoining the S.E. corner of 113th Street, a three-story frame house. October 17, 1934.\n\nP. L. Sperr.\n\n(2)\n\nThe same, two years earlier. 1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York. Negative No. 256.\n",
@@ -46,9 +82,33 @@
   {
     "date": "1934; 1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "2nd Av",
+        "str2": "E 113th St"
+      },
+      "source": "2nd Av and E 113th St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3985127",
     "image_url": "https://images.nypl.org/?id=3985127&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ec922930-c5d7-012f-5ba9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -63,9 +123,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "113th Street (East)",
+        "str2": "2nd Avenue"
+      },
+      "source": "Manhattan: 113th Street (East) - 2nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715057f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715057f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b6aa250-c546-012f-9e3c-58d385a7bc34",
     "original_title": "Manhattan: 113th Street (East) - 2nd Avenue",
     "text": "228-230 East 113th Street, south side, between Second and Third Aves. View shows Our Lady Queen of Angels R.C. Church.\n\nOctober 17, 1934.\n\nP. L. Sperr.\n",
@@ -80,9 +161,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 309,
+        "street": "E 112th Street"
+      },
+      "source": "112th Street (East) #309",
+      "technique": "title-address"
+    },
     "height": 434,
     "id": "1508391-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508391-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/16b70eb0-c5cf-012f-e41f-58d385a7bc34",
     "text": null,
     "text_source": null,

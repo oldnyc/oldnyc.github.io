@@ -2,9 +2,32 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Clarkson Avenue",
+        "str2": "Utica Avenue"
+      },
+      "source": "Brooklyn: Clarkson Avenue - Utica Avenue",
+      "technique": "title-cross"
+    },
     "height": 466,
     "id": "703606f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703606f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e66864e0-c533-012f-9180-58d385a7bc34",
     "original_title": "Brooklyn: Clarkson Avenue - Utica Avenue",
     "text": "Clarkson Ave., north side, west from Utica Ave. The building at left, stands on Potter's Field at the N.W. corner of Clarkson Ave., and East 49th Street.\n\nMarch 1925.\n\nEugene L. Armbruster Collection.\n",

@@ -2,9 +2,41 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Surf Avenue",
+        "str2": "West 7th Street"
+      },
+      "source": "Surf Avenue and West 7th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "7th Street (West)",
+        "str2": "Surf Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 461,
     "id": "706946f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706946f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Coney Island Amusement Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Amusement parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1166bc20-c539-012f-a2eb-58d385a7bc34",
     "original_title": "Brooklyn: Surf Avenue - 7th Street (West)",
     "text": "Surf Ave., west of West 7th Street, showing towers of Luna Park. The towered building on the right, is the Vanderveer house and is at the N.E. corner of West 8th Street.\n\nOctober 1928.\n\nEugene L. Armbruster Collection.\n",

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1926-12-26"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Westervelt Avenue",
+        "str2": "Winter Avenue"
+      },
+      "source": "Richmond: Westervelt Avenue - Winter Avenue",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "729898f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729898f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/076d14a0-c55d-012f-0450-58d385a7bc34",
     "original_title": "Richmond: Westervelt Avenue - Winter Avenue",
     "text": "Westervelt Avenue, north from Winter Avenue. On the left is visible part of the Morgan L. Ryan Mansion (1917 map). It was previously (1898-1907) the Schoverling House.\n\nDecember 26, 1926\n\nP. L. Sperr\n",
@@ -22,9 +40,30 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Westervelt Avenue",
+        "str2": "Winter Avenue"
+      },
+      "source": "Richmond: Winter Avenue - Westervelt Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "729930f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729930f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14429540-c55d-012f-caa2-58d385a7bc34",
     "original_title": "Richmond: Winter Avenue - Westervelt Avenue",
     "text": "Winter Avenue, west from Westervelt Avenue.\n\nDecember 26, 1926\n\nP. L. Sperr\n",

@@ -2,9 +2,30 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (East)",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: 75th Street (East) - York Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714440f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714440f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Power plants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e1d80d0-c545-012f-be0b-58d385a7bc34",
     "original_title": "Manhattan: 75th Street (East) - York Avenue",
     "text": "East '75th Street, south side, east from York (Ave. A.) Ave., to the East River. Prominent building shown is the Power House of the I.R.T. Co.\n\nSeptember 15, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 75th Street",
+        "str2": "York Ave"
+      },
+      "source": "E. 75th Street and York Ave",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984323",
     "image_url": "https://images.nypl.org/?id=3984323&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f2aa0240-c5d6-012f-f19d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -35,9 +80,29 @@
   {
     "date": "1939-02-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "75th Street (East)",
+        "str2": "York Avenue"
+      },
+      "source": "Manhattan: 75th Street (East) - York Avenue, ",
+      "technique": "title-cross"
+    },
     "height": 397,
     "id": "1508315-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508315-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09f44660-c5cf-012f-b132-58d385a7bc34",
     "text": null,
     "text_source": null,

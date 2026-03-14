@@ -2,9 +2,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 103,
+        "street": "Bowery"
+      },
+      "source": "103 Bowery",
+      "technique": "gpt"
+    },
     "height": 480,
     "id": "716750f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716750f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Blossom Restaurant.",
+        "Changing New York ; Federal Art Project. Works Progress Administration."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0cc01b0-c548-012f-291b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +44,35 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 103,
+        "street": "Bowery"
+      },
+      "source": "103 Bowery",
+      "technique": "gpt"
+    },
     "height": 113,
     "id": "716750f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716750f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Blossom Restaurant.",
+        "Changing New York ; Federal Art Project. Works Progress Administration."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barbershops",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0cc01b0-c548-012f-291b-58d385a7bc34",
     "text": null,
     "text_source": null,

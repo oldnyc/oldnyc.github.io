@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 142,
+        "street": "East 18th Street"
+      },
+      "source": "142 East 18th Street",
+      "technique": "gpt"
+    },
     "height": 471,
     "id": "711435f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711435f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Oldest apartment house in New York City, 142 East 18th Street, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57216db0-c540-012f-c04f-58d385a7bc34",
     "text": "Oldest apartment house in New York City\n142 East 18th Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-1\nDec. 18, 1935\n",
     "text_source": "gpt",

@@ -2,9 +2,35 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 2471,
+        "street": "Broadway"
+      },
+      "source": "2471 Broadway",
+      "technique": "gpt"
+    },
     "height": 425,
     "id": "733549f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733549f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Broadway ; 2471 Broadway."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cd04df10-c562-012f-5fd1-58d385a7bc34",
     "text": "2471 Broadway, repaired by owner.\n September 22, 1921.\n",
     "text_source": "gpt",

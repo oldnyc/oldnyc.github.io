@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "93rd Street (East)",
+        "str2": "Clarkson Avenue"
+      },
+      "source": "Brooklyn: Clarkson Avenue - 93rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "703608f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703608f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e722cdc0-c533-012f-b58f-58d385a7bc34",
     "original_title": "Brooklyn: Clarkson Avenue - 93rd Street (East)",
     "text": "Clarkson Avenue, east side, from East 93rd to East 94th Streets, showing Public School No. 219.\nBoard of Education of the City of New York  Early 1930's\n",

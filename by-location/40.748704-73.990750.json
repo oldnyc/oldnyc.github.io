@@ -2,9 +2,45 @@
   {
     "date": "1920-09-14",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 135,
+        "street": "West 31st Street"
+      },
+      "source": "135 West 31st Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Seventh Avenue",
+        "str2": "Sixth Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1558147",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558147.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "St. Francis of Assisi Franciscan Fathers"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Monasteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8458f60-c5ec-012f-8d0c-58d385a7bc34",
     "text": null,
     "text_source": null,

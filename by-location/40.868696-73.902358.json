@@ -2,9 +2,39 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Road",
+        "str2": "Webb Avenue"
+      },
+      "source": "Kingsbridge Road and Webb Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Road (We",
+        "str2": "Webb Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 492,
     "id": "702094f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702094f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Building construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f27b8e0-c531-012f-8d4b-58d385a7bc34",
     "original_title": "Bronx: Kingsbridge Road (We - Webb Avenue",
     "text": "119 W. Kingsbridge Road, at the N. E. corner of Webb Avenue, showing under construction, a 6-story apartment house. The property is part of the former estate of Mrs. M. A. Claflin.\n\nAutumn 1921\n",
@@ -19,9 +49,38 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Road",
+        "str2": "Webb Avenue"
+      },
+      "source": "Kingsbridge Road and Webb Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Kingsbridge Road (We",
+        "str2": "Webb Avenue",
+        "technique": "title-cross"
+      }
+    ],
     "height": 476,
     "id": "702095f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702095f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9f8df080-c531-012f-efef-58d385a7bc34",
     "original_title": "Bronx: Kingsbridge Road (We - Webb Avenue",
     "text": "125-127 W. Kingsbridge Road, adjoining the N. W. corner of Webb Avenue.\nAbout 1923\n",

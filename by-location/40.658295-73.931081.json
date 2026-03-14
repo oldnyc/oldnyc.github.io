@@ -2,9 +2,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Utica Ave.",
+        "str2": "Winthrop St."
+      },
+      "source": "Brooklyn: Winthrop St. - Utica Ave.",
+      "technique": "title-cross"
+    },
     "height": 422,
     "id": "707437f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707437f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Winthrop Street (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hospitals",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d385b670-c539-012f-d4db-58d385a7bc34",
     "original_title": "Brooklyn: Winthrop St. - Utica Ave.",
     "text": "Winthrop Street, west from Utica Avenue, showing the W. P. A. conducting a highway project. Shown, too, is the Brooklyn State Hospital.\n\nAugust 11, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

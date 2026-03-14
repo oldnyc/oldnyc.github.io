@@ -2,9 +2,48 @@
   {
     "date": "1928; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "Zerega Avenue"
+      },
+      "source": "East 177th Street and Zerega Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Eastern Boulevard",
+        "str2": "Zerega Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Eastern Boulevard",
+        "str2": "Zerega Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "700979f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700979f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Business enterprises",
+          "Petroleum industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fff3e770-c52f-012f-b862-58d385a7bc34",
     "original_title": "Bronx: Eastern Boulevard - Zerega Avenue",
     "text": "(1)\n2401 and 2407 Eastern Boulevard (East 177th Street), at and adjoining the N.E. corner of Zerega Ave. The yard of the Stephens Fuel Co. is located directly behind the 2-story frame house.\nJuly 1, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, at a later date.\nJuly 18, 1935.\n\nP. L. Sperr.\n",
@@ -20,9 +59,48 @@
   {
     "date": "1928; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "East 177th Street",
+        "str2": "Zerega Avenue"
+      },
+      "source": "East 177th Street and Zerega Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Eastern Boulevard",
+        "str2": "Zerega Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Eastern Boulevard",
+        "str2": "Zerega Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "700979f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700979f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Business enterprises",
+          "Petroleum industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fff3e770-c52f-012f-b862-58d385a7bc34",
     "original_title": "Bronx: Eastern Boulevard - Zerega Avenue",
     "text": "(1)\n2401 and 2407 Eastern Boulevard (East 177th Street), at and adjoining the N.E. corner of Zerega Ave. The yard of the Stephens Fuel Co. is located directly behind the 2-story frame house.\nJuly 1, 1928.\n\nP. L. Sperr.\n\n(2)\nThe same, at a later date.\nJuly 18, 1935.\n\nP. L. Sperr.\n",

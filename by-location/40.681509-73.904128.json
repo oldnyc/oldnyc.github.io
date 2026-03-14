@@ -2,9 +2,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Vanderveer Street"
+      },
+      "source": "Brooklyn: Vanderveer Street - Bushwick Avenue.",
+      "technique": "title-cross"
+    },
     "height": 434,
     "id": "732797f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732797f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Brooklyn: Vanderveer Street - Bushwick Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b2c395f0-c561-012f-c6ba-58d385a7bc34",
     "text": "Vanderveer Street, north from Bushwick Avenue, showing a W. P. A. sewer project.\n\nMay 20, 1936\n\nWorks Progress Administration\nFive Boroughs Project\n",
     "text_source": "gpt",

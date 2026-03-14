@@ -2,9 +2,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "15th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 15th Street - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "711335f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711335f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches",
+          "Coffee shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2dd69190-c540-012f-cf89-58d385a7bc34",
     "original_title": "Manhattan: 15th Street - 6th Avenue",
     "text": "1. 15th St. at 6th Ave., n.e. corner. Neg. A-241 P.L. Sperr, photographer   July 17, 1941",

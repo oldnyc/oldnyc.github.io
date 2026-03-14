@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1929-04-30"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 126,
+        "street": "Poplar Street"
+      },
+      "source": "126 Poplar Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Poplar Street",
+        "str2": "Winant Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Poplar Street",
+        "str2": "Winant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "729278f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729278f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12f7af80-c55c-012f-beae-58d385a7bc34",
     "original_title": "Richmond: Poplar Street - Winant Avenue",
     "text": "126 Poplar Street, south side, east of Winant Avenue, showing the rear of the house, among the trees.\n\nApril 30, 1929\n\nP. L. Sperr\n",
@@ -25,9 +57,41 @@
     "dates_from_text": [
       "1937-05-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Staten Island",
+        "num": 134,
+        "street": "Poplar Street"
+      },
+      "source": "134 Poplar Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Staten Island",
+        "str1": "Poplar Street",
+        "str2": "Winant Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Staten Island",
+        "str1": "Poplar Street",
+        "str2": "Winant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "729279f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729279f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/134da0d0-c55c-012f-733f-58d385a7bc34",
     "original_title": "Richmond: Poplar Street - Winant Avenue",
     "text": "134 Poplar Street, south side, east of Winant Avenue. In 1874 (Beers's map) the house belonged to B. P. Winant. The view is westward toward Winant Avenue.\n\nMay 5, 1937\n\nP. L. Sperr\n",

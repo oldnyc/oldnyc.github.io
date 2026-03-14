@@ -2,9 +2,28 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Emmons Avenue",
+        "str2": "Nostrand Avenue"
+      },
+      "source": "Brooklyn: Emmons Avenue - Nostrand Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704125f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704125f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Sheepshead Bay (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8cec160-c534-012f-0f3d-58d385a7bc34",
     "original_title": "Brooklyn: Emmons Avenue - Nostrand Avenue",
     "text": "Emmons Ave., at the N.E. corner of Nostrand Ave. The view shows a drive-way to a Carriage Shed, one of the few remaining in Sheepshead Bay.\n\nJuly 13, 1933.\n\nP. L. Sperr.\n",

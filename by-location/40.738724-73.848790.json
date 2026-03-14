@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "Horace Harding Boulevard",
+        "str2": "Van Doren Street"
+      },
+      "source": "Queens: Van Doren Street - Horace Harding Boulevard",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "728141f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728141f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/49692f90-c55a-012f-048a-58d385a7bc34",
     "original_title": "Queens: Van Doren Street - Horace Harding Boulevard",
     "text": "Van Doren Street, west from Horace Harding Boulevard. Most every empty lot in this area was turned into a parking space during the New York World's Fair of 1939-40.\n\nJune 23, 1940\nP.L. Sperr\n",

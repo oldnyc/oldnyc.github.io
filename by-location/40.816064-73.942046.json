@@ -2,9 +2,32 @@
   {
     "date": "1923-10-17",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 174,
+        "street": "W 137th Street"
+      },
+      "source": "137th Street (West) #174",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508435-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508435-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Mother of Zion Church"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1e4404d0-c5cf-012f-806f-58d385a7bc34",
     "text": null,
     "text_source": null,

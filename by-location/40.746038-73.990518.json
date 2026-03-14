@@ -2,9 +2,32 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 28th Street",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "709410f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709410f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/095976a0-c53d-012f-7f2e-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 28th Street",
     "text": "6th Avenue, East intersection of 28th Street. (Before Reconstruction).\nMarch 21, 1920.\n",
@@ -19,9 +42,32 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 28th Street",
+      "technique": "title-cross"
+    },
     "height": 424,
     "id": "709413f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709413f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a7b2200-c53d-012f-e3d9-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 28th Street",
     "text": "6th Avenue, 29th to 28th Street, east side. (Before Reconstruction).\n\n March 21, 1920.\n",
@@ -36,9 +82,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 28th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711887f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711887f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1094e740-c541-012f-59cb-58d385a7bc34",
     "original_title": "Manhattan: 28th Street (West) - 6th Avenue",
     "text": "103-123 West 28th Street, north side, adjoining and west of the N. W. corner of Sixth Avenue.\n\nJune 5, 1928.\n\nP. L. Sperr.\n",
@@ -53,9 +120,33 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 28th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "711888f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711888f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/10ee85e0-c541-012f-f963-58d385a7bc34",
     "original_title": "Manhattan: 28th Street (West) - 6th Avenue",
     "text": "124 West 28th Street, south side and West of 6th Avenue showing P. . 48.\nBoard of Education, N.Y. City.\n1920\nc. 1933\n",
@@ -70,9 +161,37 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "28th Street and 6th Avenue",
+      "technique": "gpt"
+    },
     "height": 483,
     "id": "733396f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733396f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "6th Avenue Elevated Station.",
+        "Changing New York ; Federal Art Project. Works Progress Administration.",
+        "Manhattan: 28th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/934e3440-c562-012f-1fdb-58d385a7bc34",
     "text": "\"E\" Station, Sixth Avenue Line, 28th Street Station\nManhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode II A-2 F-2\nNov. 10, 1938\n",
     "text_source": "gpt",
@@ -86,9 +205,29 @@
   {
     "date": "1939-03-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street",
+        "str2": "6th Avenue"
+      },
+      "source": "28th Street and 6th Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "485875",
     "image_url": "https://images.nypl.org/?id=485875&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3eae4970-c60e-012f-e857-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -102,9 +241,36 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 28th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "709411f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/709411f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Coffee shops",
+          "Newspaper vendors",
+          "Opticians' shops",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09c90230-c53d-012f-581d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 28th Street (West)",
     "rotation": 90,
@@ -121,9 +287,36 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 28th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709411f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709411f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Coffee shops",
+          "Newspaper vendors",
+          "Opticians' shops",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09c90230-c53d-012f-581d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 28th Street (West)",
     "text": "Sixth Avenue, West Side, at W. 28th Street .\n\nView 2, same area taken from north east side of Avenue, looking southwards.\n\nView 3, shows the south west corner of W. 28th Street and Sixth Avenue.\n\nView 1, September 7, 1940\nView 2, September 7, 1940\nView 3, April 5, 1939\n\nP.L. Sperr,\n",
@@ -139,9 +332,36 @@
   {
     "date": "1939; 1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 6th Avenue - 28th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709411f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709411f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Coffee shops",
+          "Newspaper vendors",
+          "Opticians' shops",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/09c90230-c53d-012f-581d-58d385a7bc34",
     "original_title": "Manhattan: 6th Avenue - 28th Street (West)",
     "text": "Sixth Avenue, West Side, at W. 28th Street .\n\nView 2, same area taken from north east side of Avenue, looking southwards.\n\nView 3, shows the south west corner of W. 28th Street and Sixth Avenue.\n\nView 1, September 7, 1940\nView 2, September 7, 1940\nView 3, April 5, 1939\n\nP.L. Sperr,\n",
@@ -157,9 +377,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 28th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "711885f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711885f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Tunnels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fb73510-c541-012f-22cb-58d385a7bc34",
     "original_title": "Manhattan: 28th Street (West) - 6th Avenue",
     "text": "6th Avenue, west side, showing the Hudson Tunnel entrance and old \"El\" stairway at West 28th Street.\n\nP. L. Sperr\nFebruary 19, 1939\n",
@@ -177,9 +419,27 @@
     "dates_from_text": [
       "1940-09-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "28th Street (West)",
+        "str2": "6th Avenue"
+      },
+      "source": "Manhattan: 28th Street (West) - 6th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711889f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711889f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1167e940-c541-012f-316b-58d385a7bc34",
     "original_title": "Manhattan: 28th Street (West) - 6th Avenue",
     "text": "West 28th Street, northwest side, from 6th Avenue.\nP. L. Sperr\nSeptember 7, 1940\n",

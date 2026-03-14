@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "25th Avenue",
+        "str2": "97th Street"
+      },
+      "source": "Queens: 97th Street - 25th Avenue",
+      "technique": "title-cross"
+    },
     "height": 495,
     "id": "725747f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725747f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c3a26190-c556-012f-abc3-58d385a7bc34",
     "original_title": "Queens: 97th Street - 25th Avenue",
     "text": "97th Street, adjoining the N.E. corner of 25th Avenue, showing two of a row of new brick homes.\nAbout 1927\n",

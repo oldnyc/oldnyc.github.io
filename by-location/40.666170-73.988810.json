@@ -2,9 +2,29 @@
   {
     "date": "1941-10-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "5th Avenue at 14th Street, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "485898",
     "image_url": "https://images.nypl.org/?id=485898&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8bf22540-c60e-012f-e49f-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,29 @@
   {
     "date": "1941-10-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "5th Avenue at 14th Street, Brooklyn",
+      "technique": "title-cross"
+    },
     "height": 396,
     "id": "486281",
     "image_url": "https://images.nypl.org/?id=486281&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Streetscapes (Urban design)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8db013d0-c60e-012f-06fb-58d385a7bc34",
     "text": null,
     "text_source": null,

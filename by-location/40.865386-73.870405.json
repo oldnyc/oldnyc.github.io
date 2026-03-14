@@ -2,9 +2,37 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Southern Boulevard"
+      },
+      "source": "Bronx: Bronx Park - Southern Boulevard",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700611f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700611f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Botanical Garden"
+        ],
+        "topic": [
+          "Botanical gardens",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8257a510-c52f-012f-2ab2-58d385a7bc34",
     "text": "Bronx Park: The entrance to the Botanical Garden on Southern Boulevard, above E. Fordham Road.\n\nMay 12, 1938.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -18,9 +46,46 @@
   {
     "date": "1938; 1938-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Mosholu Parkway"
+      },
+      "source": "Bronx Park and Mosholu Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Museum, N.Y. Botanical Garden",
+        "technique": "title-cross"
+      }
+    ],
     "height": 400,
     "id": "700616f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700616f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Botanical Garden"
+        ],
+        "topic": [
+          "Botanical gardens",
+          "Galleries & museums",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83f899a0-c52f-012f-bb97-58d385a7bc34",
     "text": "Bronx Park: A view of the Museum of the New York Botanical Garden. It is in the northwestern corner of the park, near Mosholu Parkway. This is a set of three views taken the same day.\n\nMay 12, 1938.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -35,9 +100,46 @@
   {
     "date": "1938; 1938-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Mosholu Parkway"
+      },
+      "source": "Bronx Park and Mosholu Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Museum, N.Y. Botanical Garden",
+        "technique": "title-cross"
+      }
+    ],
     "height": 405,
     "id": "700616f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700616f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Botanical Garden"
+        ],
+        "topic": [
+          "Botanical gardens",
+          "Galleries & museums",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83f899a0-c52f-012f-bb97-58d385a7bc34",
     "text": "Bronx Park: A view of the Museum of the New York Botanical Garden. It is in the northwestern corner of the park, near Mosholu Parkway. This is a set of three views taken the same day.\n\nMay 12, 1938.\n\nP. L. Sperr\n",
     "text_source": "gpt",
@@ -52,9 +154,46 @@
   {
     "date": "1938; 1938-05-12",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Mosholu Parkway"
+      },
+      "source": "Bronx Park and Mosholu Parkway",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Bronx Park",
+        "str2": "Museum, N.Y. Botanical Garden",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "700616f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700616f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Bronx Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Botanical Garden"
+        ],
+        "topic": [
+          "Botanical gardens",
+          "Galleries & museums",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/83f899a0-c52f-012f-bb97-58d385a7bc34",
     "text": "Bronx Park: A view of the Museum of the New York Botanical Garden. It is in the northwestern corner of the park, near Mosholu Parkway. This is a set of three views taken the same day.\n\nMay 12, 1938.\n\nP. L. Sperr\n",
     "text_source": "gpt",

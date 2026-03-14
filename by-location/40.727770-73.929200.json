@@ -2,9 +2,49 @@
   {
     "date": "1890",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Penny Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Schurz Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Schurz Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 491,
     "id": "705689f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705689f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f15cf90-c537-012f-585a-58d385a7bc34",
     "original_title": "Brooklyn: Meeker Avenue - Schurz Avenue",
     "text": "Meeker Ave., south side, at the view of the Duryea House. 1890.\nEugene L. Armbruster Collection.\n",
@@ -19,9 +59,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Penny Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "730930f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730930f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Ships",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc5cbbd0-c55e-012f-e03f-58d385a7bc34",
     "text": "Penny Bridge over Newtown Creek, linking Brooklyn and queens.\n\nP. L. Sperr\n1934\nViews 1-3\n",
     "text_source": "gpt",
@@ -35,9 +103,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Penny Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730930f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730930f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Ships",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc5cbbd0-c55e-012f-e03f-58d385a7bc34",
     "text": "Penny Bridge over Newtown Creek, linking Brooklyn and queens.\n\nP. L. Sperr\n1934\nViews 1-3\n",
     "text_source": "gpt",
@@ -51,9 +147,37 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Penny Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 401,
     "id": "730930f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730930f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Ships",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc5cbbd0-c55e-012f-e03f-58d385a7bc34",
     "text": "Penny Bridge over Newtown Creek, linking Brooklyn and queens.\n\nP. L. Sperr\n1934\nViews 1-3\n",
     "text_source": "gpt",
@@ -67,9 +191,32 @@
   {
     "date": "1936; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730863f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730863f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ed0e030-c55e-012f-777b-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The Brooklyn approach to the new bridge, still under construction.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-4\n",
     "text_source": "gpt",
@@ -84,9 +231,32 @@
   {
     "date": "1936; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "730863f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730863f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ed0e030-c55e-012f-777b-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The Brooklyn approach to the new bridge, still under construction.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-4\n",
     "text_source": "gpt",
@@ -101,9 +271,32 @@
   {
     "date": "1936; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 409,
     "id": "730863f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730863f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ed0e030-c55e-012f-777b-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The Brooklyn approach to the new bridge, still under construction.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-4\n",
     "text_source": "gpt",
@@ -118,9 +311,32 @@
   {
     "date": "1936; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730863f-d",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730863f-d.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Bridge construction",
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ed0e030-c55e-012f-777b-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The Brooklyn approach to the new bridge, still under construction.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-4\n",
     "text_source": "gpt",
@@ -135,9 +351,44 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730931f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730931f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge, linking Brooklyn [Kings County] and Queens at Meeker Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Signs (Notices)",
+          "Traffic signs & signals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcd4cb60-c55e-012f-253f-58d385a7bc34",
     "text": "Penny Bridge (Meeker Avenue Bridge) connecting Queens and Kings counties at Meeker Avenue.\nView 1: August 13, 1938.\nViews 2,3: August 22, 1939.\nP.L. Sperr\n\nViews 2,3 show the bridge after it was closed down to all vehicular traffic when the new Kosciusco Bridge was constructed to replace it. The new bridge can be seen in these views.\n",
     "text_source": "site",
@@ -152,9 +403,44 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 406,
     "id": "730931f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730931f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge, linking Brooklyn [Kings County] and Queens at Meeker Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Signs (Notices)",
+          "Traffic signs & signals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcd4cb60-c55e-012f-253f-58d385a7bc34",
     "text": "Penny Bridge (Meeker Avenue Bridge) connecting Queens and Kings counties at Meeker Avenue.\nView 1: August 13, 1938.\nViews 2,3: August 22, 1939.\nP.L. Sperr\n\nViews 2,3 show the bridge after it was closed down to all vehicular traffic when the new Kosciusco Bridge was constructed to replace it. The new bridge can be seen in these views.\n",
     "text_source": "site",
@@ -169,9 +455,44 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730931f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730931f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge, linking Brooklyn [Kings County] and Queens at Meeker Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Signs (Notices)",
+          "Traffic signs & signals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bcd4cb60-c55e-012f-253f-58d385a7bc34",
     "text": "Penny Bridge (Meeker Avenue Bridge) connecting Queens and Kings counties at Meeker Avenue.\nView 1: August 13, 1938.\nViews 2,3: August 22, 1939.\nP.L. Sperr\n\nViews 2,3 show the bridge after it was closed down to all vehicular traffic when the new Kosciusco Bridge was constructed to replace it. The new bridge can be seen in these views.\n",
     "text_source": "site",
@@ -186,9 +507,48 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730932f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730932f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge at Meeker Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Signs (Notices)",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York",
+          "Traffic signs & signals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd574400-c55e-012f-2a46-58d385a7bc34",
     "text": "Penny Bridge at the foot of Meeker Avenue.\nView 1: August 13, 1938.\nViews 2,3: August 22, 1939.\nP.L. Sperr\n",
     "text_source": "site",
@@ -203,9 +563,48 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730932f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730932f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge at Meeker Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Signs (Notices)",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York",
+          "Traffic signs & signals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd574400-c55e-012f-2a46-58d385a7bc34",
     "text": "Penny Bridge at the foot of Meeker Avenue.\nView 1: August 13, 1938.\nViews 2,3: August 22, 1939.\nP.L. Sperr\n",
     "text_source": "site",
@@ -220,9 +619,48 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Meeker Avenue",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730932f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730932f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge at Meeker Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad bridges",
+          "Signs (Notices)",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York",
+          "Traffic signs & signals"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd574400-c55e-012f-2a46-58d385a7bc34",
     "text": "Penny Bridge at the foot of Meeker Avenue.\nView 1: August 13, 1938.\nViews 2,3: August 22, 1939.\nP.L. Sperr\n",
     "text_source": "site",
@@ -237,9 +675,43 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "730933f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730933f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge ; Laurel Hill Boulevard."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdc24ad0-c55e-012f-c3ce-58d385a7bc34",
     "text": "Penny Bridge, showing the Bridge house at the foot of Laurel Hill Blvd.\nView 1: August 13, 1938.\nView 2: August 22, 1939.\nP.L. Sperr\n\nNote: The bridge was closed down when the new span, the Kosciusco Bridge, was built. The closing took place in 1939. These views are across Newtown Creek, from the Brooklyn shore.\n",
     "text_source": "site",
@@ -254,9 +726,43 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "730933f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730933f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge ; Laurel Hill Boulevard."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdc24ad0-c55e-012f-c3ce-58d385a7bc34",
     "text": "Penny Bridge, showing the Bridge house at the foot of Laurel Hill Blvd.\nView 1: August 13, 1938.\nView 2: August 22, 1939.\nP.L. Sperr\n\nNote: The bridge was closed down when the new span, the Kosciusco Bridge, was built. The closing took place in 1939. These views are across Newtown Creek, from the Brooklyn shore.\n",
     "text_source": "site",
@@ -271,9 +777,43 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Penny Bridge",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730933f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730933f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge ; Laurel Hill Boulevard."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdc24ad0-c55e-012f-c3ce-58d385a7bc34",
     "text": "Penny Bridge, showing the Bridge house at the foot of Laurel Hill Blvd.\nView 1: August 13, 1938.\nView 2: August 22, 1939.\nP.L. Sperr\n\nNote: The bridge was closed down when the new span, the Kosciusco Bridge, was built. The closing took place in 1939. These views are across Newtown Creek, from the Brooklyn shore.\n",
     "text_source": "site",
@@ -288,9 +828,46 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Kosciusko Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Meeker Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730860f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730860f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge replaced old Penny Bridge across Newtown Creek, linking Meeker Avenue in Brooklyn to Laurel Hill Boulevard in Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d5a7c90-c55e-012f-16e3-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The new vehicular bridge which replaced the old Penny Bridge.\n\nFor additional data see \"The New York Times, September 23, 1940.\"\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "gpt",
@@ -304,9 +881,46 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Kosciusko Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Meeker Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730860f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730860f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge replaced old Penny Bridge across Newtown Creek, linking Meeker Avenue in Brooklyn to Laurel Hill Boulevard in Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d5a7c90-c55e-012f-16e3-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The new vehicular bridge which replaced the old Penny Bridge.\n\nFor additional data see \"The New York Times, September 23, 1940.\"\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "gpt",
@@ -320,9 +934,46 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Kosciusko Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Meeker Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "730860f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730860f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge replaced old Penny Bridge across Newtown Creek, linking Meeker Avenue in Brooklyn to Laurel Hill Boulevard in Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Boats",
+          "Bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9d5a7c90-c55e-012f-16e3-58d385a7bc34",
     "text": "Kosciuszco Bridge, over Newtown Creek: The new vehicular bridge which replaced the old Penny Bridge.\n\nFor additional data see \"The New York Times, September 23, 1940.\"\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "gpt",
@@ -336,9 +987,40 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 403,
     "id": "730861f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730861f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The new vehicular bridge replaced the old Penny Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Sightseers",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York",
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ddbc8e0-c55e-012f-904c-58d385a7bc34",
     "text": "Kosciuszco Bridge over Newtown Creek: The new vehicular bridge which replaced the old Penny Bridge, seen in the foreground of view 1.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "gpt",
@@ -352,9 +1034,40 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "730861f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730861f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The new vehicular bridge replaced the old Penny Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Sightseers",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York",
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ddbc8e0-c55e-012f-904c-58d385a7bc34",
     "text": "Kosciuszco Bridge over Newtown Creek: The new vehicular bridge which replaced the old Penny Bridge, seen in the foreground of view 1.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "gpt",
@@ -368,9 +1081,40 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Kosciuszko Bridge (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 404,
     "id": "730861f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730861f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "The new vehicular bridge replaced the old Penny Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad tracks",
+          "Sightseers",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York",
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ddbc8e0-c55e-012f-904c-58d385a7bc34",
     "text": "Kosciuszco Bridge over Newtown Creek: The new vehicular bridge which replaced the old Penny Bridge, seen in the foreground of view 1.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "gpt",
@@ -384,9 +1128,47 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Kosciusko Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Meeker Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "730862f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730862f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Replaced old Penny Bridge across Newtown Creek, linking Meeker Avenue in Brooklyn to Laurel Hill Boulevard in Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad crossings",
+          "Railroad tracks",
+          "Ships",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e5faae0-c55e-012f-927a-58d385a7bc34",
     "text": "Kosciusco Bridge, over Newtown Creek: Three views of the Queens and of the bridge.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
     "text_source": "site",
@@ -400,9 +1182,47 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Kosciusko Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Meeker Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "730862f-b",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730862f-b.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Replaced old Penny Bridge across Newtown Creek, linking Meeker Avenue in Brooklyn to Laurel Hill Boulevard in Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad crossings",
+          "Railroad tracks",
+          "Ships",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e5faae0-c55e-012f-927a-58d385a7bc34",
     "rotation": 90,
     "text": "Kosciusco Bridge, over Newtown Creek: Three views of the Queens and of the bridge.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
@@ -417,9 +1237,47 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Kosciusko Bridge ",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Laurel Hill Boulevard",
+        "str2": "Meeker Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "730862f-c",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/730862f-c.90.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Replaced old Penny Bridge across Newtown Creek, linking Meeker Avenue in Brooklyn to Laurel Hill Boulevard in Queens."
+      ],
+      "subjects": {
+        "geographic": [
+          "Kosciuszko Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Newton Creek (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges",
+          "Railroad crossings",
+          "Railroad tracks",
+          "Ships",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9e5faae0-c55e-012f-927a-58d385a7bc34",
     "rotation": 90,
     "text": "Kosciusco Bridge, over Newtown Creek: Three views of the Queens and of the bridge.\n\nP. L. Sperr\n\nAugust 22, 1939\nViews 1-3\n",
@@ -434,9 +1292,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "730934f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730934f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be45e4a0-c55e-012f-b1b1-58d385a7bc34",
     "text": "Open draw, Penny Bridge from Brooklyn.\nAug. 22, 1939\nP.L. Sperr, photographer\n",
     "text_source": "gpt",
@@ -450,9 +1331,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
     "height": 409,
     "id": "730935f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730935f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Railroad bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bec46cc0-c55e-012f-4448-58d385a7bc34",
     "text": "1. The W.A. Forman towing sand barge, Newtown Creek at Penny Bridge.\nAug. 22, 1939\nP.L. Sperr, photographer\n\n2. Junk wagon, Queens end of Penny Bridge, Newtown Creek.\nAug. 22, 1939\nP.L. Sperr, photographer\n",
     "text_source": "gpt",
@@ -466,9 +1375,37 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.72777,
+        "lng": -73.9292
+      },
+      "source": "Bridges - Penny Bridge ",
+      "technique": "subjects"
+    },
     "height": 410,
     "id": "730935f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730935f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Kosciusko Bridge."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Newton Creek (New York, N.Y.)",
+          "Penny Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Carts & wagons",
+          "Horse teams",
+          "Railroad bridges",
+          "Smokestacks",
+          "Streams -- New York (State) -- New York"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bec46cc0-c55e-012f-4448-58d385a7bc34",
     "text": "1. The W.A. Forman towing sand barge, Newtown Creek at Penny Bridge.\nAug. 22, 1939\nP.L. Sperr, photographer\n\n2. Junk wagon, Queens end of Penny Bridge, Newtown Creek.\nAug. 22, 1939\nP.L. Sperr, photographer\n",
     "text_source": "gpt",

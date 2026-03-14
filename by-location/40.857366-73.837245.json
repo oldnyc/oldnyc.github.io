@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Lodovick Avenue",
+        "str2": "Pelham Parkway North"
+      },
+      "source": "Bronx: Pelham Parkway North - Lodovick Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701614f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701614f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef4b60c0-c530-012f-101e-58d385a7bc34",
     "original_title": "Bronx: Pelham Parkway North - Lodovick Avenue",
     "text": "Pelham Parkway North (running directly in front of the white house), at the N.E. corner of Lodovick Ave., showing the William T. Burke real estate office.\n\nAugust 3, 1928.\n\nP. L. Sperr.\n",

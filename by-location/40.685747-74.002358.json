@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Degraw Street"
+      },
+      "source": "Brooklyn: Columbia Street - Degraw Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703730f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703730f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Butcher shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19213610-c534-012f-64ca-58d385a7bc34",
     "original_title": "Brooklyn: Columbia Street - Degraw Street",
     "text": "Columbia Street, east side, northward from No 183, just south of Degraw Street.\nAugust 10, 1935\n",
@@ -19,9 +40,32 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Degraw Street"
+      },
+      "source": "Brooklyn: Columbia Street - Degraw Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703731f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703731f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Missions"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19805db0-c534-012f-9223-58d385a7bc34",
     "original_title": "Brooklyn: Columbia Street - Degraw Street",
     "text": "189-191 Columbia Street, east side, between Degraw and Sackett Streets, showing St. Peter Claver's Apostleship of the Sea for Seamen, at No. 189, an independent mission.\n\nAugust 10, 1935.\n\nP. L. Sperr.\n",
@@ -36,9 +80,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia St.",
+        "str2": "Degraw St."
+      },
+      "source": "Columbia St. and Degraw St.",
+      "technique": "gpt"
+    },
     "height": 431,
     "id": "3984905",
     "image_url": "https://images.nypl.org/?id=3984905&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ac11aa70-c5d7-012f-f755-58d385a7bc34",
     "text": null,
     "text_source": null,

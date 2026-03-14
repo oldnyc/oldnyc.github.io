@@ -2,9 +2,32 @@
   {
     "date": "1926",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.8038356,
+        "lng": -73.9618754
+      },
+      "source": "Cathedral of St. John the Divine",
+      "technique": "special"
+    },
     "height": 482,
     "id": "730016f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730016f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Cathedral of St. John the Divine."
+      ],
+      "subjects": {
+        "geographic": [
+          "Morningside Heights (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Cathedral of St. John the Divine (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4ee77c60-c55d-012f-1c93-58d385a7bc34",
     "text": "IDENTIFICATION: Aerial view of Morningside Heights, Manhattan, showing Cathedral of St. John the Divine, etc.\nDATE: 1 Sept. 1926\nPHOTOGRAPHER: Fairchild Aerial Surveys, Inc.\n270 W. 38, NYC\nREPRODUCTION RIGHTS: Held by Photographer\n",
     "text_source": "gpt",

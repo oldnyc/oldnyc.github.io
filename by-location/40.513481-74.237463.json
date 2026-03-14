@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1932-05-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Parker Street"
+      },
+      "source": "Richmond: Amboy Road - Parker Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "728309f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728309f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/943042f0-c55a-012f-c838-58d385a7bc34",
     "original_title": "Richmond: Amboy Road - Parker Street",
     "text": "7143 Amboy Road, at the N.E. corner of Parker Street (between Nashville and Cedar Streets), showing the John Tonhill (also Touhill) mansion. Beers's map of 1874 shows it to have been the Darling residence.\n\nMay 14, 1932\n\nP. L. Sperr\n",

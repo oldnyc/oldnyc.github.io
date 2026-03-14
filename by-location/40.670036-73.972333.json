@@ -2,9 +2,30 @@
   {
     "date": "1921",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Garfield Place",
+        "str2": "Prospect Park West"
+      },
+      "source": "Brooklyn: Prospect Park West - Garfield Place",
+      "technique": "title-cross"
+    },
     "height": 430,
     "id": "706389f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706389f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Society for Ethical Culture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3e15bfa0-c538-012f-c609-58d385a7bc34",
     "text": "28-35 Prospect Park West, west side, north from Garfield to Montgomery Places.  No. 35 is in the foreground, at the corner of Garfield Place.\n\nAugust 2, 1928.\n\nP. L. Sperr.\n",
     "text_source": "site",

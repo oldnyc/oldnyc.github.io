@@ -2,9 +2,34 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "3rd Avenue",
+        "str2": "66th Street"
+      },
+      "source": "Manhattan: 3rd Avenue - 66th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708115f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708115f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Railroad stations",
+          "Shoe stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f68cefc0-c53a-012f-85b1-58d385a7bc34",
     "original_title": "Manhattan: 3rd Avenue - 66th Street",
     "text": "Third Avenue, west side, north from 66th to 67th Streets. The corner house (Stein's Shoe Store) is No. 1130 Third Avenue. The new building on 66th Street, just showing at the left, was built in 1916.\n\nAbout 1920.\n\nEdwin Levick, Photographer.\nGift of E. M. Jenks.\n",

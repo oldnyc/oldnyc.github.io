@@ -2,9 +2,32 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "20th Street (West)",
+        "str2": "Neptune Avenue"
+      },
+      "source": "Brooklyn: Neptune Avenue - 20th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "705941f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705941f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/909a6730-c537-012f-4883-58d385a7bc34",
     "original_title": "Brooklyn: Neptune Avenue - 20th Street (West)",
     "text": "Neptune Ave., north side, at West 20th Street. (Coney Island).\nMay 17, 1936.\n\nP. L. Sperr.\n",
@@ -19,9 +42,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "20th Street (West)",
+        "str2": "Neptune Avenue"
+      },
+      "source": "Brooklyn: Neptune Avenue - 20th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "705942f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705942f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Gasoline pumps",
+          "Petroleum industry",
+          "Tankers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/90e63630-c537-012f-9f06-58d385a7bc34",
     "original_title": "Brooklyn: Neptune Avenue - 20th Street (West)",
     "text": "Neptune Ave., north side, east from West 20th Street. (Coney Island).\nMay 17, 1936.\n\nP. L. Sperr.\n",
@@ -36,9 +83,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Neptune Ave",
+        "str2": "West 20th Street"
+      },
+      "source": "Neptune Ave and West 20th Street",
+      "technique": "gpt"
+    },
     "height": 405,
     "id": "733705f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733705f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Coney Island Creek (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0be15200-c563-012f-b4b8-58d385a7bc34",
     "text": "(1)\nConey Island Creek at West 20th Street, showing the coal pockets of the Burns Brothers Coal Co. Buildings shown, face on Neptune Ave., which parallels the waters edge. July 1, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle, showing also P.S. No. 80 on the east side of West 19th Street, just south of Neptune Ave. May 17, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -52,9 +123,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Neptune Ave",
+        "str2": "West 20th Street"
+      },
+      "source": "Neptune Ave and West 20th Street",
+      "technique": "gpt"
+    },
     "height": 403,
     "id": "733705f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733705f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Coney Island Creek (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0be15200-c563-012f-b4b8-58d385a7bc34",
     "text": "(1)\nConey Island Creek at West 20th Street, showing the coal pockets of the Burns Brothers Coal Co. Buildings shown, face on Neptune Ave., which parallels the waters edge. July 1, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same, from another angle, showing also P.S. No. 80 on the east side of West 19th Street, just south of Neptune Ave. May 17, 1936.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

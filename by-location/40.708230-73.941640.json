@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1934-10-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Humboldt Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Humboldt Street - Meserole Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "705040f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705040f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ae8cc50-c536-012f-a378-58d385a7bc34",
     "original_title": "Brooklyn: Humboldt Street - Meserole Street",
     "text": "Humboldt Street, west side, at, adjoining and north of the N.W. corner of Meserole Street.\nOctober 25, 1934.\n\nP. L. Sperr.\n",
@@ -22,9 +40,32 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Humboldt Street",
+        "str2": "Meserole Street"
+      },
+      "source": "Brooklyn: Humboldt Street - Meserole Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "705041f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705041f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b40fb00-c536-012f-d821-58d385a7bc34",
     "original_title": "Brooklyn: Humboldt Street - Meserole Street",
     "text": "Humboldt Street, north from and including Meserole Street.\nOctober 29, 1934.\n\nP. L. Sperr;\n",

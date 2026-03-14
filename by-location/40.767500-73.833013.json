@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "32nd Avenue",
+        "str2": "Farrington Street"
+      },
+      "source": "Queens: Farrington Street - 32nd Avenue",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "726564f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726564f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Wooden fences"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e2721050-c557-012f-89a2-58d385a7bc34",
     "original_title": "Queens: Farrington Street - 32nd Avenue",
     "text": "Farrington Street (foreground), at the S.W. corner of Thirty-second Ave. (right), formerly Myrtle Ave., showing the Z. Roe house in 1873. John Walsh was the occupant about 1900.\n\nJuly 1923.\n\nEugene L. Armbruster Collection.\n",

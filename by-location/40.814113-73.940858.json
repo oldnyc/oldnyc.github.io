@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "135th Street (West)",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: 135th Street (West) - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "715578f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715578f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f355c950-c546-012f-e051-58d385a7bc34",
     "original_title": "Manhattan: 135th Street (West) - Lenox Avenue",
     "text": "58-66 West 135th Street, east of the S.E. corner of Lenox Ave. Building shown, is a motion picture house, the Lincoln Theatre. 1936.\n\nW.P.A. Photo. Federal Writers Project.\n\nPhotostat Neg: 2795\n",
@@ -25,9 +43,27 @@
     "dates_from_text": [
       "1941-08-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "135th Street",
+        "str2": "Lenox Avenue"
+      },
+      "source": "Manhattan: 135th Street - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "715579f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715579f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f3c9bd80-c546-012f-3b2c-58d385a7bc34",
     "original_title": "Manhattan: 135th Street - Lenox Avenue",
     "text": "135th Street, w. fr. Lenox Avenue\nP. L. Sperr, photographer\nAug. 21, 1941\n",
@@ -42,9 +78,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Lenox Avenue",
+        "str2": "West 135th Street"
+      },
+      "source": "Manhattan: 103 West 135th Street - Lenox Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "1558371",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558371.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "NYPL 135th Street Branch"
+      ],
+      "subjects": {
+        "geographic": [
+          "Harlem (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Public Library. 135th Street Branch"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings",
+          "Libraries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0993e8e0-c5ed-012f-9c35-58d385a7bc34",
     "text": null,
     "text_source": null,

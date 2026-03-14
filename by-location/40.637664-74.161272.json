@@ -2,9 +2,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Lockman Avenue",
+        "str2": "Richmond Terrace"
+      },
+      "source": "Richmond: Richmond Terrace - Lockman Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "729439f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/729439f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Reformed churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/519efdb0-c55c-012f-ddb6-58d385a7bc34",
     "text": "Richmond Terrace, at the S.E. corner of Lockman Avenue, showing the Mariners Harbor (Reformed in America) Church.\n\nApril 23, 1932\n\nP. L. Sperr\n",
     "text_source": "gpt",

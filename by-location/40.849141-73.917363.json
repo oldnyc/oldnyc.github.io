@@ -2,9 +2,32 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "176th Street (West)",
+        "str2": "University Avenue"
+      },
+      "source": "Bronx: University Avenue - 176th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 442,
     "id": "701941f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701941f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "estates"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63de60b0-c531-012f-e9ab-58d385a7bc34",
     "original_title": "Bronx: University Avenue - 176th Street (West)",
     "text": "1669 and 1681 University Ave., adjoining, and at the S.W. corner of West 176th Street. The buildings occupy part of the former Montgomery estate.\n\nAbout 1925.\n",

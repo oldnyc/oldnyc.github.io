@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 103rd Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "714963f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714963f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0911b490-c546-012f-8894-58d385a7bc34",
     "original_title": "Manhattan: 103rd Street (East) - Lexington Avenue",
     "text": "147-137 East 103rd Street, east of, adjoining, and at the N.W. corner of Lexington Avenue.\nMarch 7, 1928.\n\nP. L. Sperr.\n",
@@ -19,9 +40,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: Lexington Avenue - 103rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8d630a30-c54f-012f-09f9-58d385a7bc34",
     "original_title": "Manhattan: Lexington Avenue - 103rd Street",
     "text": "Blinn Memorial Church, Lexington Avenue at the S.W. corner of 103rd Street, erected in 1892.\n\nDecember 21, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +78,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "103rd Street (East)",
+        "str2": "Lexington Avenue"
+      },
+      "source": "Manhattan: 103rd Street (East) - Lexington Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714964f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714964f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Religious education"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/096cf610-c546-012f-60bc-58d385a7bc34",
     "original_title": "Manhattan: 103rd Street (East) - Lexington Avenue",
     "text": "141-145 East 103rd Street, north side, east of Lexington Avenue.\n\nP. L. Sperr.\n\nJune 26, 1931.\n",

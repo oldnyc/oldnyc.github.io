@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1931-06-25"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 105,
+        "street": "Mill Street"
+      },
+      "source": "105 Mill Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Mill Street",
+        "str2": "Old Mill Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Mill Street",
+        "str2": "Old Mill Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 405,
     "id": "705739f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705739f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/427073f0-c537-012f-05e3-58d385a7bc34",
     "original_title": "Brooklyn: Mill Street - Old Mill Road",
     "text": "Mill Street, east from No. 105, which is the partly visible brick building at left foreground. Also seen is No. 587-605 Clinton Street; 587 is the 3-story frame building at the left center of view.\n\nJune 25, 1931.\n\nP. L. Sperr.\n",

@@ -2,9 +2,64 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "31st Street",
+        "str2": "39th Avenue"
+      },
+      "source": "31st Street and 39th Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "29th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "29th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Queens",
+        "str1": "29th Street",
+        "str2": "Bridge Plaza North",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "727287f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727287f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Pennsylvania Railroad"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Elevated railroads",
+          "Factories",
+          "Plumbing stores",
+          "Public schools",
+          "Railroad shops & yards",
+          "Railroad stations",
+          "Railroad tracks -- New York (State) -- New York",
+          "Stadiums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd86e5b0-c558-012f-8aa4-58d385a7bc34",
     "original_title": "Queens: 29th Street - 11th Avenue",
     "text": "Long Island City, Queens: Shown is a general view, in a northeasterly direction, of Long Island City, seen from Bridge Plaza North and 29th Street. Many of the industrial buildings and old-type tenements are clearly visible. Shown, too, is the elevated structure, which carries the I.R.T. trains to Astoria, on 31st Street and the 39th Avenue station. Northern Boulevard, on which part of the \"El\" is on, can be seen bending eastward around the Standard Plumbing building. In the lower right-hand corner is part of the Queensboro Stadium.\n\nView 2 is directly north, from the same point, along 29th Street toward Astoria and the Hellgate Bridge. At the lower left-hand corner is Bryant High School, and north of the playground is St. Patricks Roman Catholic Church.\n\nView 3 is eastward across the Pennsylvania Railroad yards, viewing along Queens Boulevard on which the \"El\" runs toward Flushing. The elevated loop in the foreground is the Astoria line. Across the freight yards are numerous industrial plants.\n\nP. L. Sperr\n\n*Long Island City*\n\nMarch 23, 1932\nViews 1,2,3\n",
@@ -19,9 +74,64 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "31st Street",
+        "str2": "39th Avenue"
+      },
+      "source": "31st Street and 39th Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "29th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "29th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Queens",
+        "str1": "29th Street",
+        "str2": "Bridge Plaza North",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "727287f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727287f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Pennsylvania Railroad"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Elevated railroads",
+          "Factories",
+          "Plumbing stores",
+          "Public schools",
+          "Railroad shops & yards",
+          "Railroad stations",
+          "Railroad tracks -- New York (State) -- New York",
+          "Stadiums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd86e5b0-c558-012f-8aa4-58d385a7bc34",
     "original_title": "Queens: 29th Street - 11th Avenue",
     "text": "Long Island City, Queens: Shown is a general view, in a northeasterly direction, of Long Island City, seen from Bridge Plaza North and 29th Street. Many of the industrial buildings and old-type tenements are clearly visible. Shown, too, is the elevated structure, which carries the I.R.T. trains to Astoria, on 31st Street and the 39th Avenue station. Northern Boulevard, on which part of the \"El\" is on, can be seen bending eastward around the Standard Plumbing building. In the lower right-hand corner is part of the Queensboro Stadium.\n\nView 2 is directly north, from the same point, along 29th Street toward Astoria and the Hellgate Bridge. At the lower left-hand corner is Bryant High School, and north of the playground is St. Patricks Roman Catholic Church.\n\nView 3 is eastward across the Pennsylvania Railroad yards, viewing along Queens Boulevard on which the \"El\" runs toward Flushing. The elevated loop in the foreground is the Astoria line. Across the freight yards are numerous industrial plants.\n\nP. L. Sperr\n\n*Long Island City*\n\nMarch 23, 1932\nViews 1,2,3\n",
@@ -36,9 +146,64 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "31st Street",
+        "str2": "39th Avenue"
+      },
+      "source": "31st Street and 39th Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "29th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "11th Avenue",
+        "str2": "29th Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Queens",
+        "str1": "29th Street",
+        "str2": "Bridge Plaza North",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "727287f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727287f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "name": [
+          "Pennsylvania Railroad"
+        ],
+        "topic": [
+          "Catholic churches",
+          "Educational facilities",
+          "Elevated railroads",
+          "Factories",
+          "Plumbing stores",
+          "Public schools",
+          "Railroad shops & yards",
+          "Railroad stations",
+          "Railroad tracks -- New York (State) -- New York",
+          "Stadiums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd86e5b0-c558-012f-8aa4-58d385a7bc34",
     "original_title": "Queens: 29th Street - 11th Avenue",
     "text": "Long Island City, Queens: Shown is a general view, in a northeasterly direction, of Long Island City, seen from Bridge Plaza North and 29th Street. Many of the industrial buildings and old-type tenements are clearly visible. Shown, too, is the elevated structure, which carries the I.R.T. trains to Astoria, on 31st Street and the 39th Avenue station. Northern Boulevard, on which part of the \"El\" is on, can be seen bending eastward around the Standard Plumbing building. In the lower right-hand corner is part of the Queensboro Stadium.\n\nView 2 is directly north, from the same point, along 29th Street toward Astoria and the Hellgate Bridge. At the lower left-hand corner is Bryant High School, and north of the playground is St. Patricks Roman Catholic Church.\n\nView 3 is eastward across the Pennsylvania Railroad yards, viewing along Queens Boulevard on which the \"El\" runs toward Flushing. The elevated loop in the foreground is the Astoria line. Across the freight yards are numerous industrial plants.\n\nP. L. Sperr\n\n*Long Island City*\n\nMarch 23, 1932\nViews 1,2,3\n",

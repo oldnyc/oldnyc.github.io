@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1911"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 80th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714600f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714600f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7bf162f0-c545-012f-ba51-58d385a7bc34",
     "original_title": "Manhattan: 80th Street (West) - Columbus Avenue",
     "text": "134-136 West 80th Street, south side, between Columbus and Amsterdam avenues.\n1911.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "80th Street (West)",
+        "str2": "Columbus Avenue"
+      },
+      "source": "Manhattan: 80th Street (West) - Columbus Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714601f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714601f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7c5306c0-c545-012f-d50c-58d385a7bc34",
     "original_title": "Manhattan: 80th Street (West) - Columbus Avenue",
     "text": "142-144 West 80th Street, south side, between Columbus and Amsterdam avenues.\n\n1912.\n",

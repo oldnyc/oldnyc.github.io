@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "238th Street (West)",
+        "str2": "Orloff Avenue"
+      },
+      "source": "Bronx: 238th Street (West) - Orloff Avenue",
+      "technique": "title-cross"
+    },
     "height": 367,
     "id": "700363f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700363f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2891ab10-c52f-012f-d381-58d385a7bc34",
     "original_title": "Bronx: 238th Street (West) - Orloff Avenue",
     "text": "105 to 123 West 238th Street, east side, at, adjoining and north of its junction with Orloff Ave.\n\nAbout 1924.\n\nWurtz Brothers.\n",

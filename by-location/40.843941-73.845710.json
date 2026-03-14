@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-08-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Chesbrough Avenue",
+        "str2": "Williamsbridge Road"
+      },
+      "source": "Bronx: Williamsbridge Road - Chesbrough Avenue",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "702181f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702181f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bfe4b860-c531-012f-da37-58d385a7bc34",
     "original_title": "Bronx: Williamsbridge Road - Chesbrough Avenue",
     "text": "Williamsbridge Road, east side, south from (No. 1480) and including Chesbrough Ave.\n\nAugust 25, 1935\nP. L. Sperr.\n",

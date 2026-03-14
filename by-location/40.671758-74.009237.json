@@ -2,9 +2,45 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Halleck Street",
+        "str2": "Henry Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Halleck Street",
+        "str2": "Henry Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "704731f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704731f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Government facilities",
+          "Grain elevators"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/adc4f7c0-c535-012f-c46c-58d385a7bc34",
     "original_title": "Brooklyn: Halleck Street - Henry Street",
     "text": "Halleck Street, south side, between Henry Street Slip (left) and Columbia Street (right), showing the grain elevator of the New York State Canal Terminal.\n\nOctober 4, 1933.\n\nP. L. Sperr.\n",
@@ -22,9 +58,27 @@
     "dates_from_text": [
       "1934-08-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Brooklyn: Columbia Street - Halleck Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "703759f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703759f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/254fac60-c534-012f-d7bd-58d385a7bc34",
     "original_title": "Brooklyn: Columbia Street - Halleck Street",
     "text": "Columbia Street, east side, south of Halleck (left) Street, showing at the right background the New York State Canal Terminal Building. The two one story frame shacks at each end are numbered 597 and 601. Halleck Street appears prominently in the foreground.\nAugust 31, 1934.\n\nP. L. Sperr.\n",
@@ -42,9 +96,27 @@
     "dates_from_text": [
       "1934-08-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Brooklyn: Columbia Street - Halleck Street",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "703760f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703760f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25cc4070-c534-012f-d1f8-58d385a7bc34",
     "original_title": "Brooklyn: Columbia Street - Halleck Street",
     "text": "Columbia Street, south from Halleck Street to Gowanus Canal, showing the New York State Canal Terminal Grain Elevator on the left.\nAugust 31, 1934.\n\nP. L. Sperr.\n",
@@ -59,9 +131,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "733129f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733129f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c2548b0-c562-012f-df13-58d385a7bc34",
     "text": "(1) Squatters shacks, near Columbia Street, at about Halleck or Beard Streets. (Brooklyn). October 4, 1934.\n\nP. L. Sperr.\n\n(2) The same, from another angle. October 4, 1934.\n\nP. L. Sperr.\n\n(3) The same, from another angle. October 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -75,9 +169,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "733129f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733129f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c2548b0-c562-012f-df13-58d385a7bc34",
     "text": "(1) Squatters shacks, near Columbia Street, at about Halleck or Beard Streets. (Brooklyn). October 4, 1934.\n\nP. L. Sperr.\n\n(2) The same, from another angle. October 4, 1934.\n\nP. L. Sperr.\n\n(3) The same, from another angle. October 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -91,9 +207,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "733129f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733129f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c2548b0-c562-012f-df13-58d385a7bc34",
     "text": "(1) Squatters shacks, near Columbia Street, at about Halleck or Beard Streets. (Brooklyn). October 4, 1934.\n\nP. L. Sperr.\n\n(2) The same, from another angle. October 4, 1934.\n\nP. L. Sperr.\n\n(3) The same, from another angle. October 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -107,9 +245,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 398,
     "id": "733130f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733130f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c752c60-c562-012f-a7d5-58d385a7bc34",
     "text": "(1) Squatters shacks, near Columbia Street, at about Halleck or Beard Streets. (Brooklyn).\n\nOctober 4, 1934.\n\nP. L Sperr.\n\n(2) Another squatters shack, at Court and Bryant Streets, (Brooklyn).\n\nOctober 11, 1933.\n\nP. L Sperr.\n",
     "text_source": "gpt",
@@ -123,9 +283,31 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 401,
     "id": "733130f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733130f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Squatters"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c752c60-c562-012f-a7d5-58d385a7bc34",
     "text": "(1) Squatters shacks, near Columbia Street, at about Halleck or Beard Streets. (Brooklyn).\n\nOctober 4, 1934.\n\nP. L Sperr.\n\n(2) Another squatters shack, at Court and Bryant Streets, (Brooklyn).\n\nOctober 11, 1933.\n\nP. L Sperr.\n",
     "text_source": "gpt",
@@ -139,9 +321,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 402,
     "id": "733131f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733131f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hills",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cd89120-c562-012f-0865-58d385a7bc34",
     "text": "(1)\nRuins of the squatters shacks on \"Tin Can Hill\", Columbia Street, Bklyn.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, at the corner of Columbia and Halleck Streets.\nOctober 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -155,9 +361,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Halleck Street"
+      },
+      "source": "Columbia Street and Halleck Street",
+      "technique": "gpt"
+    },
     "height": 400,
     "id": "733131f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733131f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Hills",
+          "Squatters",
+          "refuse"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cd89120-c562-012f-0865-58d385a7bc34",
     "text": "(1)\nRuins of the squatters shacks on \"Tin Can Hill\", Columbia Street, Bklyn.\nOctober 4, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, at the corner of Columbia and Halleck Streets.\nOctober 4, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

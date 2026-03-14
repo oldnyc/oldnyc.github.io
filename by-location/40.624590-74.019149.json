@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "78th Street",
+        "str2": "7th Avenue"
+      },
+      "source": "78th Street and 7th Avenue",
+      "technique": "gpt"
+    },
     "height": 478,
     "id": "732672f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732672f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81edba60-c561-012f-17ca-58d385a7bc34",
     "text": "7th Avenue, east side, from '78th to 79th Streets, showing Public School No. 127.\nBoard of Education of the City of New York  Early 1930's\n",
     "text_source": "gpt",

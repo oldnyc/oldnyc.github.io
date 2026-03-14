@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "8th Street (South)",
+        "str2": "Kent Avenue"
+      },
+      "source": "Brooklyn: 8th Street (South) - Kent Avenue",
+      "technique": "title-cross"
+    },
     "height": 420,
     "id": "702470f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702470f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fa674a0-c532-012f-4bca-58d385a7bc34",
     "original_title": "Brooklyn: 8th Street (South) - Kent Avenue",
     "text": "South 8th Street, at the N.E. corner of Kent Ave., showing the former Carleton Hotel.\n1923.\nEugene L. Armbruster Collection.\n",
@@ -19,9 +40,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "8th Street (South)",
+        "str2": "Kent Avenue"
+      },
+      "source": "Brooklyn: 8th Street (South) - Kent Avenue",
+      "technique": "title-cross"
+    },
     "height": 423,
     "id": "702471f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702471f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Dyeing",
+          "Textile industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/30100db0-c532-012f-9181-58d385a7bc34",
     "original_title": "Brooklyn: 8th Street (South) - Kent Avenue",
     "text": "47 to 59 South 8th Street, north side between Kent and Wythe Avenues, viewing east toward the latter. The frame building of the \"O. K.\" Dye Works is number 51.\n\n1923\n\nEugene L. Armbruster Collection\n",
@@ -36,9 +79,48 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kent Ave",
+        "str2": "South 8th Street"
+      },
+      "source": "Kent Ave and South 8th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "8th Street",
+        "str2": "Mercer Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "8th Street",
+        "str2": "Mercer Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "702468f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702468f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Schooners",
+          "Steel industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ed91780-c532-012f-21fc-58d385a7bc34",
     "original_title": "Brooklyn: 8th Street - Mercer Street",
     "text": "(1)\nSouth 8th Street, at the East River, showing the bowsprit of the schooner \"Gerbeviller\"; the storage yards of the Columbia Steel Tube Co., and buildings on the east side of Kent Ave., north from South 8th Street (right) to Broadway (left).\nMarch 24, 1931.\n\nP. L. Sperr.\n\n(2)\nA view to the north, up the East River, showing the Williamsburg Bridge.\nMarch 24, 1931.\n\nP. L. Sperr.\n",
@@ -53,9 +135,48 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Kent Ave",
+        "str2": "South 8th Street"
+      },
+      "source": "Kent Ave and South 8th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "8th Street",
+        "str2": "Mercer Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "8th Street",
+        "str2": "Mercer Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "702468f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702468f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "East River (N.Y.)",
+          "New York (N.Y.)",
+          "Williamsburg Bridge (New York, N.Y.)"
+        ],
+        "topic": [
+          "Factories",
+          "Schooners",
+          "Steel industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ed91780-c532-012f-21fc-58d385a7bc34",
     "original_title": "Brooklyn: 8th Street - Mercer Street",
     "text": "(1)\nSouth 8th Street, at the East River, showing the bowsprit of the schooner \"Gerbeviller\"; the storage yards of the Columbia Steel Tube Co., and buildings on the east side of Kent Ave., north from South 8th Street (right) to Broadway (left).\nMarch 24, 1931.\n\nP. L. Sperr.\n\n(2)\nA view to the north, up the East River, showing the Williamsburg Bridge.\nMarch 24, 1931.\n\nP. L. Sperr.\n",
@@ -70,9 +191,31 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "8th Street",
+        "str2": "Kent Avenue"
+      },
+      "source": "Brooklyn: 8th Street - Kent Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702469f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702469f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "East River (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Schooners"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f54da40-c532-012f-4b99-58d385a7bc34",
     "original_title": "Brooklyn: 8th Street - Kent Avenue",
     "text": "South 8th Street, west from Kent Ave., to the East River, showing in the background the schooner \"Gerbeviller\".\nMarch 24, 1931.\n\nP. L. Sperr.\n",

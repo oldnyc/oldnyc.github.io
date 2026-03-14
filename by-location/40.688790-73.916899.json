@@ -2,9 +2,30 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Cornelia Street"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Cornelia Street",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "703436f",
     "image_url": "https://images.nypl.org/?id=703436f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Congregational churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a388ef90-c533-012f-9e33-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Cornelia Street",
     "text": null,
@@ -19,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Cornelia Street"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Cornelia Street",
+      "technique": "title-cross"
+    },
     "height": 383,
     "id": "703434f",
     "image_url": "https://images.nypl.org/?id=703434f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a2bfbfe0-c533-012f-b9c5-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Cornelia Street",
     "text": null,
@@ -36,9 +75,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bushwick Avenue",
+        "str2": "Cornelia Street"
+      },
+      "source": "Brooklyn: Bushwick Avenue - Cornelia Street",
+      "technique": "title-cross"
+    },
     "height": 386,
     "id": "703435f",
     "image_url": "https://images.nypl.org/?id=703435f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a31d0770-c533-012f-6386-58d385a7bc34",
     "original_title": "Brooklyn: Bushwick Avenue - Cornelia Street",
     "text": null,

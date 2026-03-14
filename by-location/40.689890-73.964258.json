@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Ryerson Avenue"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Ryerson Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "704002f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704002f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Drugstores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8721c740-c534-012f-5286-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Ryerson Avenue",
     "text": "P.L. Sperr, photographer 6-19-1942",
@@ -19,9 +40,31 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "DeKalb Avenue",
+        "str2": "Ryerson Street"
+      },
+      "source": "Brooklyn: Ryerson Street - DeKalb Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "706548f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706548f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7b4a93d0-c538-012f-46dc-58d385a7bc34",
     "original_title": "Brooklyn: Ryerson Street - DeKalb Avenue",
     "text": "P.L. Sperr, photographer  6-18-1942",

@@ -2,9 +2,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Glebe Avenue",
+        "str2": "Westchester Avenue"
+      },
+      "source": "Bronx: Glebe Avenue - Westchester Avenue",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "701116f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701116f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Parking lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/309f42d0-c530-012f-d71e-58d385a7bc34",
     "original_title": "Bronx: Glebe Avenue - Westchester Avenue",
     "text": "Glebe Ave. adj. n.w. cor. Westchester Ave., Bronx.\n\nP. L. Sperr, photographer\nJune 30, 1940\n",

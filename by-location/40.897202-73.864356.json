@@ -2,9 +2,31 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "234th Street (East)",
+        "str2": "Vireo Avenue"
+      },
+      "source": "Bronx: 234th Street (East) - Vireo Avenue",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "700361f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700361f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "East Two Hundred Thirty-fourth Street (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/27deb930-c52f-012f-6996-58d385a7bc34",
     "original_title": "Bronx: 234th Street (East) - Vireo Avenue",
     "text": "E. 234th Street, west from Vireo Avenue, showing W.P.A. highway operations.\n\nOctober 11, 1937\n\nW.P.A. Photo\nFive Boroughs Project\n",

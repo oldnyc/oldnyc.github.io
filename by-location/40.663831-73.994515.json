@@ -2,9 +2,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "19th Street",
+        "str2": "4th Avenue"
+      },
+      "source": "Brooklyn: 4th Avenue - 19th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "702326f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702326f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Fire stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fab0eff0-c531-012f-5f33-58d385a7bc34",
     "original_title": "Brooklyn: 4th Avenue - 19th Street",
     "text": "635 and 633 4th Avenue, at, and adjoining the N. E. corner of 19th Street. No. 633 (left) is the former fire house of Hook and Ladder 100, New York City Fire Department, now abandoned.\n\nApril 9, 1939\n\nP. L. Sperr\n",

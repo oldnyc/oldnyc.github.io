@@ -2,9 +2,32 @@
   {
     "date": "1860",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Green Park",
+      "technique": "subjects"
+    },
     "height": 375,
     "id": "704409f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704409f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29fa2760-c535-012f-231c-58d385a7bc34",
     "text": "Brooklyn. Parks Department. Annual Report of the Commissioners for Brooklyn. nos. 1-14 (1860-1873). Brooklyn, N.Y.\n\nIllustrations removed from N.Y.P.L. copy of above title, which has been microfilmed and discarded. May 1973.\n\nView 1 - Neg # 1829\nView 2 - Neg # 1830\n",
     "text_source": "gpt",
@@ -18,9 +41,32 @@
   {
     "date": "1860",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Green Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704409f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704409f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/29fa2760-c535-012f-231c-58d385a7bc34",
     "text": "Brooklyn. Parks Department. Annual Report of the Commissioners for Brooklyn. nos. 1-14 (1860-1873). Brooklyn, N.Y.\n\nIllustrations removed from N.Y.P.L. copy of above title, which has been microfilmed and discarded. May 1973.\n\nView 1 - Neg # 1829\nView 2 - Neg # 1830\n",
     "text_source": "gpt",
@@ -34,9 +80,34 @@
   {
     "date": "1905",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 490,
     "id": "1823570",
     "image_url": "https://images.nypl.org/?id=1823570&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1900-1909"
+        ],
+        "topic": [
+          "Terraces (Land use)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48df5940-c6da-012f-8244-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -50,9 +121,44 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Fort Greene Park",
+        "str2": "Martyr's Monument",
+        "technique": "title-cross"
+      }
+    ],
     "height": 421,
     "id": "704414f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/704414f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Prison Ship Martyrs' Monument Association of the United States"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c504b30-c535-012f-f9b2-58d385a7bc34",
     "rotation": 90,
     "text": "(1)\nFort Greene Park, showing the Martyrs Monument located just\nnorthwest of the saluting battery.\nOctober 1925.\nEugene L. Ambruster Collection.\n(2)\nThe same,at a later date.\n1928.\nP. L. Sperr.\n",
@@ -67,9 +173,44 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Fort Greene Park",
+        "str2": "Martyr's Monument",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "704414f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704414f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Prison Ship Martyrs' Monument Association of the United States"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2c504b30-c535-012f-f9b2-58d385a7bc34",
     "text": "(1)\nFort Greene Park, showing the Martyrs Monument located just\nnorthwest of the saluting battery.\nOctober 1925.\nEugene L. Ambruster Collection.\n(2)\nThe same,at a later date.\n1928.\nP. L. Sperr.\n",
     "text_source": "site",
@@ -83,9 +224,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704411f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704411f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ae2c060-c535-012f-8738-58d385a7bc34",
     "text": "(1) Fort Greene Park, viewed west from the interior of the Park grounds, showing in the background on Albee Square the Paramount Building.\n\nP. L. Sperr.\n\nAbout 1928.\n\n(2) The same, showing the saluting battery in the center of the Park.\n\nP. L. Sperr.\n\nAbout 1928.\n",
     "text_source": "gpt",
@@ -99,9 +263,32 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704411f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704411f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ae2c060-c535-012f-8738-58d385a7bc34",
     "text": "(1) Fort Greene Park, viewed west from the interior of the Park grounds, showing in the background on Albee Square the Paramount Building.\n\nP. L. Sperr.\n\nAbout 1928.\n\n(2) The same, showing the saluting battery in the center of the Park.\n\nP. L. Sperr.\n\nAbout 1928.\n",
     "text_source": "gpt",
@@ -115,9 +302,33 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 442,
     "id": "2040769",
     "image_url": "https://images.nypl.org/?id=2040769&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Parks",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b8de4080-c6be-012f-6545-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -131,9 +342,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704410f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704410f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a6dcd80-c535-012f-5d1e-58d385a7bc34",
     "text": "C. Manley DeBevoise\n51-05 Browvale Lane\nLittle Neck, N.Y. 11362\n\nFort Greene Park - Bklyn\n",
     "text_source": "gpt",
@@ -147,9 +381,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704412f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704412f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Prison Ship Martyrs' Monument Association of the United States"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2b4a9690-c535-012f-7313-58d385a7bc34",
     "text": "Fort Greene Park-Brooklyn\nThe Prison Ship Martyrs Monument\nIn memory of 11,500 Patriotic Americans Sailors and Soldiers who endured untold suffering And Died On the British Prison Ships Anchored in Wallabut During\nthe Revolutionary War 1776-1782.\nTheir Remains Lie Buried in the Crypt at the base of This Monument which was Dedicated on Nov. 14-1908.\nFrom the bronze plaque attached to the monument\n",
     "text_source": "site",
@@ -163,9 +424,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
     "height": 600,
     "id": "704413f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704413f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Prison Ship Martyrs' Monument Association of the United States"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2bd24860-c535-012f-d20f-58d385a7bc34",
     "text": "Fort Greene Park, Brooklyn - Martyrs Monument\n\nC. Manley De Bevoise\n51-05 Browvale Lane\nLittle Neck, N.Y.\n",
     "text_source": "gpt",
@@ -179,9 +467,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.690344,
+        "lng": -73.973833
+      },
+      "source": "Fort Greene Park",
+      "technique": "subjects"
+    },
     "height": 461,
     "id": "704415f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704415f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Fort Greene Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Prison Ship Martyrs' Monument Association of the United States"
+        ],
+        "topic": [
+          "Monuments & memorials",
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cd25b30-c535-012f-ca40-58d385a7bc34",
     "text": "The Prison Ship Martyrs Monument, Fort Greene Park, Brooklyn.\nn.d.\n",
     "text_source": "gpt",

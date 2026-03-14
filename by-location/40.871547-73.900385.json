@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1971-05"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2793,
+        "street": "Claflin Avenue"
+      },
+      "source": "2793 Claflin Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Claflin Avenue",
+        "str2": "Rodman's Neck",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Claflin Avenue",
+        "str2": "Rodman's Neck",
+        "technique": "gpt"
+      }
+    ],
     "height": 594,
     "id": "700768f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700768f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b94e66d0-c52f-012f-c855-58d385a7bc34",
     "text": "Horace B. Claflin\n2793 Claflin Avenue\n(2nd from left)\n\nMay 1971\n",
     "text_source": "gpt",

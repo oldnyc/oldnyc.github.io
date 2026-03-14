@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "141st Street",
+        "str2": "Hamilton Place"
+      },
+      "source": "141st Street and Hamilton Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465693-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465693-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72d35fb0-c612-012f-330b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "141st Street",
+        "str2": "Hamilton Place"
+      },
+      "source": "141st Street and Hamilton Place",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465693-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465693-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/72d35fb0-c612-012f-330b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +76,30 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "141st Street (West)",
+        "str2": "Hamilton Place"
+      },
+      "source": "Manhattan: Hamilton Place - 141st Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720306f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720306f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a6dc700-c54e-012f-8379-58d385a7bc34",
     "original_title": "Manhattan: Hamilton Place - 141st Street (West)",
     "text": "Hamilton Place, west side, north from and including West 141st., to and including West 142nd Streets.\nAbout 1913.\n\nBrown Brothers.\n",

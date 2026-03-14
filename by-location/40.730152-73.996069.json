@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1890"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Place",
+        "str2": "Washington Square East"
+      },
+      "source": "Manhattan: Washington Square East - Washington Place",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "723995f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723995f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3a72f910-c554-012f-4ba0-58d385a7bc34",
     "text": "Washington Square East, east side, from Washington Place, to Waverly Place (left), showing the University of the City of New York, erected 1832-35.\n\nPrior to 1890's\n\nGift of Urbrock Collection\n",
     "text_source": "gpt",
@@ -25,9 +43,27 @@
       "1900",
       "1935-07"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Place",
+        "str2": "Washington Square East"
+      },
+      "source": "Manhattan: Washington Square East - Washington Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723993f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723993f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3933ba10-c554-012f-71b2-58d385a7bc34",
     "text": "New York University, Washington Square East, from Washington to Waverly Places, showing 1-2 Washington Square North. This is the new building, erected about 1900 on the site of the old New York University building, and at first occupied by the American Book Company.\n\nJuly, 1935.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -42,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Washington Place",
+        "str2": "Washington Square"
+      },
+      "source": "Manhattan: Washington Square - Washington Place",
+      "technique": "title-cross"
+    },
     "height": 514,
     "id": "723996f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723996f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3aef2a30-c554-012f-ad3c-58d385a7bc34",
     "text": "Washington Square, East, east side, from Washington Place, to Waverly Place (left), showing the University of the City of New York, erected 1832-35.\n\nDate ?\n\nAmerican Studio, photo\n87 Nassau Street, N.Y.C.\n\nGift of Urbrock Collection\nReproduction Rights Unknown\n",
     "text_source": "gpt",

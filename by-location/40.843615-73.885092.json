@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Crotona Parkway",
+        "str2": "Mohegan Avenue"
+      },
+      "source": "Bronx: Mohegan Avenue - Crotona Parkway",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "701463f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701463f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5865960-c530-012f-c165-58d385a7bc34",
     "original_title": "Bronx: Mohegan Avenue - Crotona Parkway",
     "text": "Mohegan Ave. (right), north from its junction with Crotona Parkway. On the extreme left are houses facing on Southern Boulevard, which runs parallel to Crotona Parkway.\n\nP. L. Sperr.\n\nApril 4, 1936.\n",

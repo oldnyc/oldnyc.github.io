@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1929"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Avenue T",
+        "str2": "Haring Street"
+      },
+      "source": "Brooklyn: Haring Street - Avenue T",
+      "technique": "title-cross"
+    },
     "height": 482,
     "id": "704796f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704796f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c9354fe0-c535-012f-8054-58d385a7bc34",
     "original_title": "Brooklyn: Haring Street - Avenue T",
     "text": "Haring Avenue, between Avenues T and S, showing the type of detached homes that were erected on both sides of the thoroughfare. This type of house is typical of this area.\n\nAbout 1929\n",

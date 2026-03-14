@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 548,
+        "street": "Riverside Drive"
+      },
+      "source": "548 Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465614-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465614-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5430a690-c612-012f-1164-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 548,
+        "street": "Riverside Drive"
+      },
+      "source": "548 Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 518,
     "id": "417327",
     "image_url": "https://images.nypl.org/?id=417327&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d9f68cb0-c611-012f-896c-58d385a7bc34",
     "text": null,
     "text_source": null,

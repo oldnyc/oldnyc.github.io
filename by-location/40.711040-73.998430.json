@@ -2,9 +2,31 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "Oak Street"
+      },
+      "source": "Manhattan: Oak Street - James Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "721963f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721963f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef845770-c550-012f-36c3-58d385a7bc34",
     "original_title": "Manhattan: Oak Street - James Street",
     "text": "Oak Street, east from and including James Street.\nSeptember 9, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +41,63 @@
   {
     "date": "1932; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "Oak Street"
+      },
+      "source": "James Street and Oak Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Chambers Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Bowery",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "721913f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721913f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Educational facilities",
+          "Elevated railroads",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dabd8460-c550-012f-1a85-58d385a7bc34",
     "original_title": "Manhattan: New Chambers Street - James Street",
     "text": "(1) At the intersection of New Chambers and James Streets. Also shown is New Chambers Street, north side, west from Cherry Street, to and including New Bowery. Included also is James Street, west side, north from and including New Chambers Street, to and including New Bowery. The Second and Third Ave., Elevated is shown in the background at New Bowery.\n\nMay 3, 1932.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, and showing James Street, east side, north from but not including Cherry Street, to and including New Bowery. Public School No. 114, is shown on James Street, at the S.E. corner of Oak Street.\n\nMay 3, 1932.\n\nP. L. Sperr.\n\n(3) The same, as No. 1, at a later date, showing in the background, and from right to left, the Municipal Building and the New Federal Courts Building, the second of these under construction.\n\nJuly 27, 1934.\n\nP. L. Sperr.\n",
@@ -37,9 +113,63 @@
   {
     "date": "1932; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "Oak Street"
+      },
+      "source": "James Street and Oak Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Chambers Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Bowery",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "721913f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721913f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Educational facilities",
+          "Elevated railroads",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dabd8460-c550-012f-1a85-58d385a7bc34",
     "original_title": "Manhattan: New Chambers Street - James Street",
     "text": "(1) At the intersection of New Chambers and James Streets. Also shown is New Chambers Street, north side, west from Cherry Street, to and including New Bowery. Included also is James Street, west side, north from and including New Chambers Street, to and including New Bowery. The Second and Third Ave., Elevated is shown in the background at New Bowery.\n\nMay 3, 1932.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, and showing James Street, east side, north from but not including Cherry Street, to and including New Bowery. Public School No. 114, is shown on James Street, at the S.E. corner of Oak Street.\n\nMay 3, 1932.\n\nP. L. Sperr.\n\n(3) The same, as No. 1, at a later date, showing in the background, and from right to left, the Municipal Building and the New Federal Courts Building, the second of these under construction.\n\nJuly 27, 1934.\n\nP. L. Sperr.\n",
@@ -55,9 +185,63 @@
   {
     "date": "1932; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "Oak Street"
+      },
+      "source": "James Street and Oak Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Chambers Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cherry Street",
+        "str2": "New Chambers Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "New Bowery",
+        "technique": "gpt"
+      }
+    ],
     "height": 397,
     "id": "721913f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721913f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Second Avenue (Manhattan, New York, N.Y.)",
+          "Third Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Courthouses",
+          "Educational facilities",
+          "Elevated railroads",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dabd8460-c550-012f-1a85-58d385a7bc34",
     "original_title": "Manhattan: New Chambers Street - James Street",
     "text": "(1) At the intersection of New Chambers and James Streets. Also shown is New Chambers Street, north side, west from Cherry Street, to and including New Bowery. Included also is James Street, west side, north from and including New Chambers Street, to and including New Bowery. The Second and Third Ave., Elevated is shown in the background at New Bowery.\n\nMay 3, 1932.\n\nP. L. Sperr.\n\n(2) The same, from a different angle, and showing James Street, east side, north from but not including Cherry Street, to and including New Bowery. Public School No. 114, is shown on James Street, at the S.E. corner of Oak Street.\n\nMay 3, 1932.\n\nP. L. Sperr.\n\n(3) The same, as No. 1, at a later date, showing in the background, and from right to left, the Municipal Building and the New Federal Courts Building, the second of these under construction.\n\nJuly 27, 1934.\n\nP. L. Sperr.\n",
@@ -73,9 +257,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "James Street",
+        "str2": "Oak Street"
+      },
+      "source": "Manhattan: Oak Street - James Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "721962f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721962f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ef30e790-c550-012f-bb72-58d385a7bc34",
     "original_title": "Manhattan: Oak Street - James Street",
     "text": "Oak Street, north side, east from but not including James, to and including Catherine Streets. Nos. 38-40 Oak Street, between James and Oliver Streets, are 3-story frame houses, with brick fronts.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

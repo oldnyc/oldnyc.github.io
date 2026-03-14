@@ -2,9 +2,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "184th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 184th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700281f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700281f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0bea3b70-c52f-012f-6f41-58d385a7bc34",
     "original_title": "Bronx: 184th Street - 3rd Avenue",
     "text": "184th St. n.s. at 3rd Ave\n8-27-1942\nP.L. Sperr\n",
@@ -19,9 +40,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "3rd Avenue",
+        "str2": "Lorillard Avenue"
+      },
+      "source": "Bronx: Lorillard Avenue - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "701409f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701409f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a19371d0-c530-012f-1e0f-58d385a7bc34",
     "original_title": "Bronx: Lorillard Avenue - 3rd Avenue",
     "text": "Lorillard Ave. & Third Ave., n.w. cor.\n8-27-1942\nP.L.Sperr\n",

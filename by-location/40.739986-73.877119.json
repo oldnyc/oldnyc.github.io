@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924-02"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "87th Street",
+        "str2": "Corona Avenue"
+      },
+      "source": "Queens: 87th Street - Corona Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "725702f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725702f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b42133e0-c556-012f-d5d1-58d385a7bc34",
     "original_title": "Queens: 87th Street - Corona Avenue",
     "text": "87th Street (foreground), at the S.W. corner of Corona Ave., showing the W.F. Shattuck House from 1873-1891. This house was still standing in 1927.\n\nFebruary 1924.\n\nEugene L. Armbruster Collection.\n",

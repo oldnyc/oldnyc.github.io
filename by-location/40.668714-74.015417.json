@@ -2,9 +2,41 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Beard Street",
+        "str2": "Gowanus Bay",
+        "technique": "gpt"
+      }
+    ],
     "height": 483,
     "id": "734124f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734124f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York State Barge Canal Grain Elevator."
+      ],
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "topic": [
+          "Grain elevators"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bbc62540-c563-012f-5f8c-58d385a7bc34",
     "text": "Erie Basin on New York Bay between Gowanus Bay and Beard Street. Also seen at the right is Gowan's Canal extending northward. The white building in the center of the view is the New York State Barge Canal Grain Elevator.\n\nEwing Galloway, N.Y.\n\n15o's\n",
     "text_source": "gpt",
@@ -18,9 +50,35 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 405,
     "id": "734125f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734125f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "New York State Barge Canal Terminal."
+      ],
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Freight terminals",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc21d260-c563-012f-bc04-58d385a7bc34",
     "text": "Erie Basin looking eastward to the State Barge Canal Terminal. Note the huge moving steel crane, a part of the Terminal.\n\n1925.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -34,9 +92,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "28th Street (West)",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "13th Avenue",
+        "str2": "28th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 203,
     "id": "710823f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710823f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Railroad shops & yards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5a764b30-c53f-012f-b6a2-58d385a7bc34",
     "original_title": "Manhattan: 13th Avenue - 28th Street (West)",
     "text": null,
@@ -51,9 +144,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Erie Basin",
+        "str2": "Van Brunt Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "734126f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734126f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Beards Erie Basin Corporation."
+      ],
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Business enterprises",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc9b9ca0-c563-012f-668e-58d385a7bc34",
     "text": "(1)\nErie Basin, at the foot of Van Brunt Street. The 4-story structure on the left is a part of Beards Erie Basin Corporation. The ship on the right is docked at the Elder, Dempster Co. pier. Note the ferry plying between the sea wall and the warehouse.\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -67,9 +195,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Erie Basin",
+        "str2": "Van Brunt Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 400,
     "id": "734126f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734126f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Beards Erie Basin Corporation."
+      ],
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Business enterprises",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bc9b9ca0-c563-012f-668e-58d385a7bc34",
     "text": "(1)\nErie Basin, at the foot of Van Brunt Street. The 4-story structure on the left is a part of Beards Erie Basin Corporation. The ship on the right is docked at the Elder, Dempster Co. pier. Note the ferry plying between the sea wall and the warehouse.\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, another view.\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -83,9 +246,42 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Richards Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "734127f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734127f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Freight terminals",
+          "Grain elevators",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd10f190-c563-012f-cd71-58d385a7bc34",
     "text": "(1)\nErie Basin, near foot of Richards Street, showing the Elder, Dempster, West African Service pier. June 6, 1931.\nP. L. Sperr.\n\n(2)\nThe same, showing northeast side near Todds Shipyards. June 6, 1931.\nP. L. Sperr.\n\n(3)\nThe same as No. 2, showing a further view eastward to the foot of Henry Street, with the New York State Barge Canal Terminal, grain elevator building there. Also shown is the O. S. K. line at Pier 3 Erie Basin.\nP. L. Sperr.\nJune 6, 1931.\n",
     "text_source": "gpt",
@@ -99,9 +295,42 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Richards Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "734127f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734127f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Freight terminals",
+          "Grain elevators",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd10f190-c563-012f-cd71-58d385a7bc34",
     "text": "(1)\nErie Basin, near foot of Richards Street, showing the Elder, Dempster, West African Service pier. June 6, 1931.\nP. L. Sperr.\n\n(2)\nThe same, showing northeast side near Todds Shipyards. June 6, 1931.\nP. L. Sperr.\n\n(3)\nThe same as No. 2, showing a further view eastward to the foot of Henry Street, with the New York State Barge Canal Terminal, grain elevator building there. Also shown is the O. S. K. line at Pier 3 Erie Basin.\nP. L. Sperr.\nJune 6, 1931.\n",
     "text_source": "gpt",
@@ -115,9 +344,42 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "Richards Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 398,
     "id": "734127f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734127f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Freight terminals",
+          "Grain elevators",
+          "Piers & wharves",
+          "Ships"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd10f190-c563-012f-cd71-58d385a7bc34",
     "text": "(1)\nErie Basin, near foot of Richards Street, showing the Elder, Dempster, West African Service pier. June 6, 1931.\nP. L. Sperr.\n\n(2)\nThe same, showing northeast side near Todds Shipyards. June 6, 1931.\nP. L. Sperr.\n\n(3)\nThe same as No. 2, showing a further view eastward to the foot of Henry Street, with the New York State Barge Canal Terminal, grain elevator building there. Also shown is the O. S. K. line at Pier 3 Erie Basin.\nP. L. Sperr.\nJune 6, 1931.\n",
     "text_source": "gpt",
@@ -131,9 +393,36 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 402,
     "id": "734128f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734128f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Dry docks",
+          "Piers & wharves",
+          "Repairing trades",
+          "Ships",
+          "Shipyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd77fde0-c563-012f-58a9-58d385a7bc34",
     "text": "(1)\nErie Basin, looking northeast, showing the Robbins Co. Drydocks at the extreme left.\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, showing at the left ships in drydock. In the background at the right is a part of a moving crane of the New York State Barge Company.\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -147,9 +436,36 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
     "height": 397,
     "id": "734128f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734128f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boat & ship industry",
+          "Dry docks",
+          "Piers & wharves",
+          "Repairing trades",
+          "Ships",
+          "Shipyards"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bd77fde0-c563-012f-58a9-58d385a7bc34",
     "text": "(1)\nErie Basin, looking northeast, showing the Robbins Co. Drydocks at the extreme left.\nJune 6, 1931.\n\nP. L. Sperr.\n\n(2)\nThe same, showing at the left ships in drydock. In the background at the right is a part of a moving crane of the New York State Barge Company.\nJune 6, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -163,9 +479,40 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Upper Bay",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734129f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734129f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Lumberyards -- New York (State) -- New York",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdf4f450-c563-012f-1707-58d385a7bc34",
     "text": "(1) & (2)\nErie Basin, south side, between Columbia Street (left) and the Upper Bay (right) showing the W.S. Webb and Sons Lumber yard in a set of two views.\n\nP. L. Sperr.\n\n(3)\nThe same, another view.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -179,9 +526,40 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Upper Bay",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734129f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734129f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Lumberyards -- New York (State) -- New York",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdf4f450-c563-012f-1707-58d385a7bc34",
     "text": "(1) & (2)\nErie Basin, south side, between Columbia Street (left) and the Upper Bay (right) showing the W.S. Webb and Sons Lumber yard in a set of two views.\n\nP. L. Sperr.\n\n(3)\nThe same, another view.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -195,9 +573,40 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.6687144,
+        "lng": -74.0154175
+      },
+      "source": "Erie Basin (New York, N.Y.)",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Columbia Street",
+        "str2": "Upper Bay",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "734129f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734129f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Erie Basin (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Lumberyards -- New York (State) -- New York",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bdf4f450-c563-012f-1707-58d385a7bc34",
     "text": "(1) & (2)\nErie Basin, south side, between Columbia Street (left) and the Upper Bay (right) showing the W.S. Webb and Sons Lumber yard in a set of two views.\n\nP. L. Sperr.\n\n(3)\nThe same, another view.\n\nP. L. Sperr.\n",
     "text_source": "gpt",

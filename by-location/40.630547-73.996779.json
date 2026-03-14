@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "13th Avenue",
+        "str2": "57th Street"
+      },
+      "source": "Brooklyn: 57th Street - 13th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702786f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702786f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Convents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9958b00-c532-012f-0e86-58d385a7bc34",
     "original_title": "Brooklyn: 57th Street - 13th Avenue",
     "text": "1264-1274 57th Street, near the S.W. corner of Thirteenth Ave., showing the convent of the Sisters of St. Frances De Chantal. (R.C.).\n\nApril 27, 1935.\n\nP. L. Sperr.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1935-04-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "13th Avenue",
+        "str2": "57th Street"
+      },
+      "source": "Brooklyn: 57th Street - 13th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702787f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702787f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a9e1bc60-c532-012f-157c-58d385a7bc34",
     "original_title": "Brooklyn: 57th Street - 13th Avenue",
     "text": "1301 57th Street, at the N.E. corner of Thirteenth Ave.\nApril 27, 1935.\n\nP. L. Sperr.\n",

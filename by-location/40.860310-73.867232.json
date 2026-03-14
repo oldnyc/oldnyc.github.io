@@ -2,9 +2,47 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 2297,
+        "street": "White Plains Road"
+      },
+      "source": "2297 White Plains Road",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Astor Avenue",
+        "str2": "White Plains Road",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Bronx",
+        "str1": "Astor Avenue",
+        "str2": "White Plains Road",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "702148f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702148f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "White Plains Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b397cf20-c531-012f-241d-58d385a7bc34",
     "original_title": "Bronx: White Plains Road - Astor Avenue",
     "text": "2297 White Plains Road, adjoining the N.W. corner of Astor Ave., showing the south wall and rear of a 2-story brick house occupying that site. The view is across Astor Ave., with White Plains Road on the extreme right, where elevated structure is partially visible.\n\nP. L. Sperr.\n",

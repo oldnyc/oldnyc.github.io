@@ -2,9 +2,30 @@
   {
     "date": "1909",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "138th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "138th Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "417652",
     "image_url": "https://oldnyc-assets.nypl.org/600px/417652.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York Metropolitan Area"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Architecture"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1b6bbc70-c6cd-012f-fc7c-58d385a7bc34",
     "text": null,
     "text_source": null,

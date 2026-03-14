@@ -2,9 +2,31 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.859525,
+        "lng": -73.785639
+      },
+      "source": "Islands - High Island ",
+      "technique": "subjects"
+    },
     "height": 388,
     "id": "732077f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732077f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "High Island (New York, N.Y.)",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Boats",
+          "Islands"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93bce280-c560-012f-36e9-58d385a7bc34",
     "text": "High Island, is a tiny Island between City and Hart's Islands, in Long Island Sound, seen from City Island.\nAbout 1930.\n\nJoseph P. Day.\n",
     "text_source": "gpt",

@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Avenue",
+        "str2": "79th Street"
+      },
+      "source": "Brooklyn: 16th Avenue - 79th Street",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "702569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702569f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/55afbbf0-c532-012f-84e0-58d385a7bc34",
     "original_title": "Brooklyn: 16th Avenue - 79th Street",
     "text": "16th Avenue, east side, from 79th to 80th Streets, showing the New Utrecht High School.\n\nBoard of Education of the City of New York  Early 1930s\n",

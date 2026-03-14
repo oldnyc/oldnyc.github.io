@@ -2,9 +2,32 @@
   {
     "date": "1879",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: Riverside Drive - 87th Street",
+      "technique": "title-cross"
+    },
     "height": 453,
     "id": "722724f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722724f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Riverside Drive (New York, N.Y.)"
+        ],
+        "topic": [
+          "Horses",
+          "Road construction"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/22755de0-c552-012f-2314-58d385a7bc34",
     "original_title": "Manhattan: Riverside Drive - 87th Street",
     "text": "Riverside Drive at 87th St., looking south. William J. McAlpine, supervising engineer.\nSept. 30, 1879\nDeposited with NYPL by NYC Park Dept. 1931\n",
@@ -19,9 +42,33 @@
   {
     "date": "1913",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "87th Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 87th Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714752f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714752f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b87d1430-c545-012f-1368-58d385a7bc34",
     "original_title": "Manhattan: 87th Street (West) - Riverside Drive",
     "text": "344-348 West 87th Street, south side, east of Riverside Drive.\nAbout 1913.\n",

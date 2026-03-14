@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Avenue",
+        "str2": "65th Street"
+      },
+      "source": "Brooklyn: 16th Avenue - 65th Street",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "702568f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702568f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/555b4810-c532-012f-c363-58d385a7bc34",
     "original_title": "Brooklyn: 16th Avenue - 65th Street",
     "text": "16th Avenue, west side, from 65th to 66th Streets, showing Public School No. 227.\n\nBoard of Education of the City of New York May 12, 1930\n",

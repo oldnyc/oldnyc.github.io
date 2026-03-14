@@ -2,9 +2,32 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 6,
+        "street": "St. Luke's Place"
+      },
+      "source": "St. Luke's Place #6",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508181-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508181-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Former residence of Mayor Walker"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63a17730-c5ce-012f-4902-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +41,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 6,
+        "street": "St. Luke's Place"
+      },
+      "source": "6 St. Luke's Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hervey Street",
+        "str2": "St. Lukes Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hervey Street",
+        "str2": "St. Lukes Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723101f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723101f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c49d6720-c552-012f-503d-58d385a7bc34",
     "original_title": "Manhattan: St. Lukes Place - Hervey Street",
     "text": "St. Luke's Place, no.6. Mayor Walker's home. Foto Topics, Inc., 265 W.54th St., N.Y.C.",
@@ -35,9 +90,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 6,
+        "street": "St. Luke's Place"
+      },
+      "source": "6 St. Luke's Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Hervey Street",
+        "str2": "St. Lukes Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Hervey Street",
+        "str2": "St. Lukes Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "723104f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723104f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5ff43c0-c552-012f-04de-58d385a7bc34",
     "original_title": "Manhattan: St. Lukes Place - Hervey Street",
     "text": "St. Luke's Place, no.6. Mayor J.J. Walker's home. Foto Topics, Inc., 265 W.54th St., N.Y.C.",

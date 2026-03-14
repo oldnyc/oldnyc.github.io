@@ -2,9 +2,31 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: Madison Avenue - 114th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "721466f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/721466f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Automobiles",
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/255fb7a0-c550-012f-4acb-58d385a7bc34",
     "original_title": "Manhattan: Madison Avenue - 114th Street",
     "text": "1. Madison Ave. & 114th St., s.e. cor.\nP.L. Sperr, photographer\nJuly 16, 1941\n",
@@ -19,9 +41,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 114th Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715086f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715086f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36621c40-c546-012f-80b3-58d385a7bc34",
     "original_title": "Manhattan: 114th Street - Madison Avenue",
     "text": "M\n114th St. adjoining n.e. cor. Madison Ave.\n6-15-42\nP.L. Sperr\n",

@@ -2,9 +2,29 @@
   {
     "date": "1934-08-21",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "num": 886,
+        "street": "Westchester Avenue"
+      },
+      "source": "Westchester Avenue #886",
+      "technique": "title-address"
+    },
     "height": 515,
     "id": "1509475-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1509475-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/98b277a0-c5cd-012f-9768-58d385a7bc34",
     "text": null,
     "text_source": null,

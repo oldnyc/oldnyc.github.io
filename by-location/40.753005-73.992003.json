@@ -2,9 +2,34 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 260,
+        "street": "West 36th Street"
+      },
+      "source": "260 West 36th Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "1558190",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558190.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Commercial buildings",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf48f950-c5ec-012f-dc78-58d385a7bc34",
     "text": null,
     "text_source": null,

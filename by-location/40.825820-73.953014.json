@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "143rd Street",
+        "str2": "Riverside Drive"
+      },
+      "source": "143rd Street and Riverside Drive",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "465583-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465583-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47bba850-c612-012f-c470-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,46 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 143rd Street"
+      },
+      "source": "Riverside Drive and West 143rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "143rd Street (West)",
+        "str2": "84th Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722966f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722966f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad shops & yards",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ce7a010-c552-012f-ce16-58d385a7bc34",
     "original_title": "Manhattan: 143rd Street (West) - 84th Drive",
     "text": "Riverside Park: A set of 2 views in a northward direction from (No. 1) West 143rd and (No. 2) 145th Streets, showing the Park (right), New York Central Railroad tracks and yards and marginal lands. The latter will be extended and form a new coastline as a portion of the West Side Improvement Project. In the background, at West 181st Street, is the new George Washington Bridge, spanning the North (Hudson) River. Buildings on the right, line the east side of Riverside Drive and face the Park on the opposite side.\n\nSeptember 24, 1931.\n\nP. L. Sperr.\n\n(3)\n\nThe same as No. 2, at a later date, showing a more inclusive view.\n\nApril 13, 1934.\n\nP. L. Sperr.\n",
@@ -36,9 +94,46 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 143rd Street"
+      },
+      "source": "Riverside Drive and West 143rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "143rd Street (West)",
+        "str2": "84th Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722966f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722966f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad shops & yards",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ce7a010-c552-012f-ce16-58d385a7bc34",
     "original_title": "Manhattan: 143rd Street (West) - 84th Drive",
     "text": "Riverside Park: A set of 2 views in a northward direction from (No. 1) West 143rd and (No. 2) 145th Streets, showing the Park (right), New York Central Railroad tracks and yards and marginal lands. The latter will be extended and form a new coastline as a portion of the West Side Improvement Project. In the background, at West 181st Street, is the new George Washington Bridge, spanning the North (Hudson) River. Buildings on the right, line the east side of Riverside Drive and face the Park on the opposite side.\n\nSeptember 24, 1931.\n\nP. L. Sperr.\n\n(3)\n\nThe same as No. 2, at a later date, showing a more inclusive view.\n\nApril 13, 1934.\n\nP. L. Sperr.\n",
@@ -54,9 +149,46 @@
   {
     "date": "1931; 1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Riverside Drive",
+        "str2": "West 143rd Street"
+      },
+      "source": "Riverside Drive and West 143rd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "143rd Street (West)",
+        "str2": "84th Drive",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "722966f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722966f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Riverside Park (New York, N.Y.)"
+        ],
+        "name": [
+          "New York Central Railroad Company"
+        ],
+        "topic": [
+          "Parks",
+          "Railroad shops & yards",
+          "Railroad tracks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8ce7a010-c552-012f-ce16-58d385a7bc34",
     "original_title": "Manhattan: 143rd Street (West) - 84th Drive",
     "text": "Riverside Park: A set of 2 views in a northward direction from (No. 1) West 143rd and (No. 2) 145th Streets, showing the Park (right), New York Central Railroad tracks and yards and marginal lands. The latter will be extended and form a new coastline as a portion of the West Side Improvement Project. In the background, at West 181st Street, is the new George Washington Bridge, spanning the North (Hudson) River. Buildings on the right, line the east side of Riverside Drive and face the Park on the opposite side.\n\nSeptember 24, 1931.\n\nP. L. Sperr.\n\n(3)\n\nThe same as No. 2, at a later date, showing a more inclusive view.\n\nApril 13, 1934.\n\nP. L. Sperr.\n",
@@ -72,9 +204,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "143rd Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 143rd Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "715644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715644f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0ba9e470-c547-012f-094d-58d385a7bc34",
     "original_title": "Manhattan: 143rd Street (West) - Riverside Drive",
     "text": "A rear view of 620-618 West 143rd Street, south side, east of Riverside Drive.\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",
@@ -92,9 +245,27 @@
     "dates_from_text": [
       "1932"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "143rd Street (West)",
+        "str2": "Riverside Drive"
+      },
+      "source": "Manhattan: 143rd Street (West) - Riverside Drive",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "715645f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715645f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c00dae0-c547-012f-1b2c-58d385a7bc34",
     "original_title": "Manhattan: 143rd Street (West) - Riverside Drive",
     "text": "624-618 West 143rd Street, adjoining and east of the S.E. corner of Riverside Drive. Both are two-story frame houses.\n\n1932.\n\nJ. Clarence Davies Collection, Museum of the City of New York.\n",

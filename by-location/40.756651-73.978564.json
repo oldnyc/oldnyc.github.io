@@ -2,9 +2,30 @@
   {
     "date": "1907",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 484,
     "id": "708876f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708876f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2de7c4a0-c53c-012f-79b3-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "Fifth Avenue, east side, north from 47th Street. Building at extreme right is Windsor Arcade. Next building to left of it is the Jay Gould Mansion,\n1907\nPhotograph by Brown Brothers.\n",
@@ -22,9 +43,27 @@
     "dates_from_text": [
       "1909"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 47th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713290f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713290f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71c49240-c543-012f-0390-58d385a7bc34",
     "original_title": "Manhattan: 47th Street (East) - 5th Avenue",
     "text": "3-7 East 47th Street, north side, east of Fifth Ave. The center building, No.5, will be altered to 7-stories.\n1909.\n",
@@ -39,9 +78,33 @@
   {
     "date": "1910",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 450,
     "id": "708873f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708873f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Ritz-Carlton Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2cb9a0c0-c53c-012f-46eb-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "Fifth Avenue at 47th Street, facing east.\nAt right foreground is Windsor Arcade; at left foreground\nis home of Jay Gould, in right background is Ritz-Carlton Hotel.\nAbout 1910\nhand written : On the left is the Gould House, later Helen M. Gould Shepard's.\n",
@@ -56,9 +119,34 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.75665850765192,
+        "lng": -73.9784762263298
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 216,
     "id": "1113271",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113271.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Carriages & coaches",
+          "Merchandise displays",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/77cb9530-c6ca-012f-e8b9-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -72,9 +160,35 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.75644720592484,
+        "lng": -73.97882491350174
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 217,
     "id": "1113272",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1113272.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Arcades (Shopping facilities )",
+          "Buildings",
+          "Columns",
+          "Merchandise displays",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/78122f60-c6ca-012f-24cd-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -91,9 +205,30 @@
     "dates_from_text": [
       "1920-03"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 47th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713291f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713291f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "9 West 47th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7215b490-c543-012f-1461-58d385a7bc34",
     "original_title": "Manhattan: 47th Street (West) - [5th Avenue]",
     "text": "9 West 47 Street\nDate: March 1920\n",
@@ -108,9 +243,34 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708880f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708880f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Clothing stores",
+          "Travel agents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2f6889d0-c53c-012f-4cf4-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "Fifth Ave., east side, north from East 47th Street.\n1925\nBrown Brothers\n",
@@ -128,9 +288,27 @@
     "dates_from_text": [
       "1925-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 47th Street - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 458,
     "id": "713292f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713292f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7284e7c0-c543-012f-27cb-58d385a7bc34",
     "original_title": "Manhattan: 47th Street - 5th Avenue",
     "text": "47th Street, west from but not including Fifth Avenue.\n\nJune, 1925.\n",
@@ -145,9 +323,36 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708874f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708874f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Times Building (New York, N.Y. : Park Row)"
+        ],
+        "topic": [
+          "Newspaper industry",
+          "Organizations' facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d09baa0-c53c-012f-94c8-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street (West)",
     "text": "578 Fifth Ave., at the S.W. corner of West 47th Street. Also shown is a general view south west from West 48th Street and Madison Ave. Building bearing flag, is the Times Building.\n\nFebruary 1, 1929\n\nP.L. Sperr.\n",
@@ -166,9 +371,27 @@
       "1929-02-03",
       "1942-01-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708875f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708875f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2d7a2050-c53c-012f-384b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "579 Fifth Avenue, at the N. E. corner of 47th Street.  This was once the residence of Jay Gould.\n\nFebruary 3, 1929\nP.L. Sperr.\n\nThe following was written in longhand in blue ink:\n\nIt later became the home of Helen M. Gould Shepard.\n\nSee the \"Herald-Tribune,\" January 4, 1942.\n",
@@ -184,9 +407,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708878f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708878f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ea53fd0-c53c-012f-3845-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "East side, of Fifth Avenue North from 47th Street.\nOld mansard roof brownstone house in foreground was formerly owned and occupied by Jay Gould, and is now (1929) occupied by his daughter, Mrs. Finley J. Shepard (Helen M. Gould).\nFebruary 3, 1929\nP.L. Sperr, Photographer\n",
@@ -206,9 +450,29 @@
       "1930",
       "1931-07-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "730160f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730160f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 47th Street (West) ; St. Patrick's Roman Catholic Cathedral."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88fc01b0-c55d-012f-3a0b-58d385a7bc34",
     "text": "(1) A general view of the future Rockefeller Center (Radio City) from the Ampico Tower Building, 584 Fifth Ave., adjoining the N.W. corner of West 47th Street, and showing demolition in progress in the center of the West 49th and 50th Streets block; bounded by Fifth (right) Ave., on the east, and Sixth (left) Ave., on the west. The 70-story R.C.A. Building stands to-day (1937) on this site.\n\nAbout 1930.\n\n(2) The same.\n\nAbout 1930.\n\n(3) The same, at a later date, and showing a more distant view.\nJuly 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -229,9 +493,29 @@
       "1930",
       "1931-07-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "730160f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730160f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 47th Street (West) ; St. Patrick's Roman Catholic Cathedral."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88fc01b0-c55d-012f-3a0b-58d385a7bc34",
     "text": "(1) A general view of the future Rockefeller Center (Radio City) from the Ampico Tower Building, 584 Fifth Ave., adjoining the N.W. corner of West 47th Street, and showing demolition in progress in the center of the West 49th and 50th Streets block; bounded by Fifth (right) Ave., on the east, and Sixth (left) Ave., on the west. The 70-story R.C.A. Building stands to-day (1937) on this site.\n\nAbout 1930.\n\n(2) The same.\n\nAbout 1930.\n\n(3) The same, at a later date, and showing a more distant view.\nJuly 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -252,9 +536,29 @@
       "1930",
       "1931-07-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "730160f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730160f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 47th Street (West) ; St. Patrick's Roman Catholic Cathedral."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/88fc01b0-c55d-012f-3a0b-58d385a7bc34",
     "text": "(1) A general view of the future Rockefeller Center (Radio City) from the Ampico Tower Building, 584 Fifth Ave., adjoining the N.W. corner of West 47th Street, and showing demolition in progress in the center of the West 49th and 50th Streets block; bounded by Fifth (right) Ave., on the east, and Sixth (left) Ave., on the west. The 70-story R.C.A. Building stands to-day (1937) on this site.\n\nAbout 1930.\n\n(2) The same.\n\nAbout 1930.\n\n(3) The same, at a later date, and showing a more distant view.\nJuly 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -275,9 +579,27 @@
       "1932-06-08",
       "1932-06-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708852f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708852f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23cc9290-c53c-012f-e710-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "(1)\nSouth on Fifth Avenue, from 580, at N.W. corner of 47th Street.\n\nJuly 11, 1931.\n\nP.L. Sperr, Photographer.\n\n(2)\nSouth on Fifth Avenue, from No. 580, at N.W. corner of 47th Street.\n\nJune 8, 1932.\n\nP.L. Sperr, Photographer.\n\n(3)\nSouth on Fifth Avenue from No. 580 Fifth Avenue; at N.W. corner of 47th Street.\n\nJune 8, 1932.\n\nP.L. Sperr, Photographer.\n",
@@ -299,9 +621,27 @@
       "1932-06-08",
       "1932-06-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708852f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708852f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23cc9290-c53c-012f-e710-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "(1)\nSouth on Fifth Avenue, from 580, at N.W. corner of 47th Street.\n\nJuly 11, 1931.\n\nP.L. Sperr, Photographer.\n\n(2)\nSouth on Fifth Avenue, from No. 580, at N.W. corner of 47th Street.\n\nJune 8, 1932.\n\nP.L. Sperr, Photographer.\n\n(3)\nSouth on Fifth Avenue from No. 580 Fifth Avenue; at N.W. corner of 47th Street.\n\nJune 8, 1932.\n\nP.L. Sperr, Photographer.\n",
@@ -323,9 +663,27 @@
       "1932-06-08",
       "1932-06-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708852f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708852f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/23cc9290-c53c-012f-e710-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "(1)\nSouth on Fifth Avenue, from 580, at N.W. corner of 47th Street.\n\nJuly 11, 1931.\n\nP.L. Sperr, Photographer.\n\n(2)\nSouth on Fifth Avenue, from No. 580, at N.W. corner of 47th Street.\n\nJune 8, 1932.\n\nP.L. Sperr, Photographer.\n\n(3)\nSouth on Fifth Avenue from No. 580 Fifth Avenue; at N.W. corner of 47th Street.\n\nJune 8, 1932.\n\nP.L. Sperr, Photographer.\n",
@@ -342,9 +700,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708877f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708877f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Travel agents"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2e33b7c0-c53c-012f-7d9c-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "East side of Fifth Avenue, 47th to 48th Streets.\n\nFebruary 22, 1931\n\nP. L. Sperr, Photographer.\n",
@@ -359,9 +741,34 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708883f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708883f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Building construction",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3097b190-c53c-012f-cdc4-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "(1)\nNorth on Fifth Avenue, from No. 580 at N.W. corner of 47th Street.\n\nJuly 11, 1931.\n\nP.L. Sperr, Photographer.\n\n(2)\nNorth on Fifth Avenue, from No. 580 at N.W. corner of 47th Street.\n\nMay 15, 1933.\n\nP.L. Sperr, Photographer.\n\n(3)\nNorth on Fifth Avenue from No. 580 at N.W. corner of 47th Street, showing Rockefeller Center buildings and construction.\n\nMay 15, 1933.\n\nP.L. Sperr, Photographer.\n",
@@ -377,9 +784,34 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708883f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708883f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Building construction",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3097b190-c53c-012f-cdc4-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "(1)\nNorth on Fifth Avenue, from No. 580 at N.W. corner of 47th Street.\n\nJuly 11, 1931.\n\nP.L. Sperr, Photographer.\n\n(2)\nNorth on Fifth Avenue, from No. 580 at N.W. corner of 47th Street.\n\nMay 15, 1933.\n\nP.L. Sperr, Photographer.\n\n(3)\nNorth on Fifth Avenue from No. 580 at N.W. corner of 47th Street, showing Rockefeller Center buildings and construction.\n\nMay 15, 1933.\n\nP.L. Sperr, Photographer.\n",
@@ -395,9 +827,34 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708883f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708883f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center"
+        ],
+        "topic": [
+          "Building construction",
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3097b190-c53c-012f-cdc4-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "(1)\nNorth on Fifth Avenue, from No. 580 at N.W. corner of 47th Street.\n\nJuly 11, 1931.\n\nP.L. Sperr, Photographer.\n\n(2)\nNorth on Fifth Avenue, from No. 580 at N.W. corner of 47th Street.\n\nMay 15, 1933.\n\nP.L. Sperr, Photographer.\n\n(3)\nNorth on Fifth Avenue from No. 580 at N.W. corner of 47th Street, showing Rockefeller Center buildings and construction.\n\nMay 15, 1933.\n\nP.L. Sperr, Photographer.\n",
@@ -413,9 +870,30 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708889f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708889f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Reformed churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/32dc03f0-c53c-012f-2cff-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": null,
@@ -430,9 +908,34 @@
   {
     "date": "1931; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730186f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730186f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/933f1490-c55d-012f-5046-58d385a7bc34",
     "text": "(1) A general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the R.C.A. Building (51st St., and Lexington Ave.), and the Waldorf Astoria (Park Ave., and 50th St.), the latter not completed. July 11, 1931.\n\nP. L. Sperr.\n\n(2) The same, a year later, showing the Waldorf Astoria completed. June 8, 1932.\n\nP. L. Sperr.\n\n(3) The same, a year later than No. 2. May 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -448,9 +951,34 @@
   {
     "date": "1931; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730186f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730186f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/933f1490-c55d-012f-5046-58d385a7bc34",
     "text": "(1) A general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the R.C.A. Building (51st St., and Lexington Ave.), and the Waldorf Astoria (Park Ave., and 50th St.), the latter not completed. July 11, 1931.\n\nP. L. Sperr.\n\n(2) The same, a year later, showing the Waldorf Astoria completed. June 8, 1932.\n\nP. L. Sperr.\n\n(3) The same, a year later than No. 2. May 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -466,9 +994,34 @@
   {
     "date": "1931; 1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730186f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730186f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/933f1490-c55d-012f-5046-58d385a7bc34",
     "text": "(1) A general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the R.C.A. Building (51st St., and Lexington Ave.), and the Waldorf Astoria (Park Ave., and 50th St.), the latter not completed. July 11, 1931.\n\nP. L. Sperr.\n\n(2) The same, a year later, showing the Waldorf Astoria completed. June 8, 1932.\n\nP. L. Sperr.\n\n(3) The same, a year later than No. 2. May 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -484,9 +1037,35 @@
   {
     "date": "1931; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730187f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730187f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93ad11c0-c55d-012f-e51b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -501,9 +1080,35 @@
   {
     "date": "1931; 1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730187f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730187f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Grand Central Terminal (New York, N.Y.)"
+        ],
+        "topic": [
+          "Railroad stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/93ad11c0-c55d-012f-e51b-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -518,9 +1123,38 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730190f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730190f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business enterprises",
+          "Construction equipment",
+          "Elevated railroads",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95128260-c55d-012f-a9b6-58d385a7bc34",
     "text": "(1)\nA general view, west from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the Paramount Building, (with clock) (43rd St., and Seventh Ave.) and the Hudson River in the background.\n\nMay 15, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, a slightly different angle.\n\nMay 15, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, a different angle, showing the Sixth Ave., Elevated Lines in the foreground, with the site cleared for Radio City (Sixth to Fifth Aves., from 50th to 51st., Sts).\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -535,9 +1169,38 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730190f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730190f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business enterprises",
+          "Construction equipment",
+          "Elevated railroads",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95128260-c55d-012f-a9b6-58d385a7bc34",
     "text": "(1)\nA general view, west from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the Paramount Building, (with clock) (43rd St., and Seventh Ave.) and the Hudson River in the background.\n\nMay 15, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, a slightly different angle.\n\nMay 15, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, a different angle, showing the Sixth Ave., Elevated Lines in the foreground, with the site cleared for Radio City (Sixth to Fifth Aves., from 50th to 51st., Sts).\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -552,9 +1215,38 @@
   {
     "date": "1931; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730190f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730190f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Sixth Avenue (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business enterprises",
+          "Construction equipment",
+          "Elevated railroads",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95128260-c55d-012f-a9b6-58d385a7bc34",
     "text": "(1)\nA general view, west from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the Paramount Building, (with clock) (43rd St., and Seventh Ave.) and the Hudson River in the background.\n\nMay 15, 1933.\n\nP. L. Sperr.\n\n(2)\nThe same, a slightly different angle.\n\nMay 15, 1933.\n\nP. L. Sperr.\n\n(3)\nThe same, a different angle, showing the Sixth Ave., Elevated Lines in the foreground, with the site cleared for Radio City (Sixth to Fifth Aves., from 50th to 51st., Sts).\n\nJuly 11, 1931.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -569,9 +1261,33 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708881f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708881f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Churches",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fd6f070-c53c-012f-255b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "Fifth Avenue, North from 47th Street.\n\nSeptember 25,1932\n\nP.L. Sperr, Photographer\n",
@@ -586,9 +1302,37 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "730188f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730188f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 47th Street ; R.C.A. Building ; Waldorf-Astoria Hotel."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "Rockefeller Center",
+          "Waldorf-Astoria Hotel (New York, N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/942aa8f0-c55d-012f-a13a-58d385a7bc34",
     "text": "A general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the R.C.A. Building (51st St., and Lexington Ave) and the Waldorf Astoria (60th St., and Park Ave). The East river is seen in the background.\n\nJune 8, 1932.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -602,9 +1346,33 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730189f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730189f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94889670-c55d-012f-2f76-58d385a7bc34",
     "text": "(1) A general view, northwest from 580 Fifth Ave., at the N.W. corner of 47th., Street, showing at the right, Fifth Ave., north, from but not including 47th Street, and in the background Central Park.\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2) The same, from a different angle and showing not so much of a view.\n\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -619,9 +1387,33 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730189f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730189f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94889670-c55d-012f-2f76-58d385a7bc34",
     "text": "(1) A general view, northwest from 580 Fifth Ave., at the N.W. corner of 47th., Street, showing at the right, Fifth Ave., north, from but not including 47th Street, and in the background Central Park.\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2) The same, from a different angle and showing not so much of a view.\n\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -636,9 +1428,31 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "47th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730202f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730202f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Medicine",
+          "Research",
+          "Research facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a5c6750-c55d-012f-e8c5-58d385a7bc34",
     "text": "(1)\n\nA general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing in the centre No. 444 Madison Ave., (south of 50th St)., and in the background at the left, is the buildings comprising the Rockefeller Institute for Medical Research, (64th north to 67th Sts., and York east to Marie Curie Aves).\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2)\n\nThe same, another view.\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(3)\n\nThe same, a year later.\n\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -653,9 +1467,31 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "47th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730202f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730202f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Medicine",
+          "Research",
+          "Research facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a5c6750-c55d-012f-e8c5-58d385a7bc34",
     "text": "(1)\n\nA general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing in the centre No. 444 Madison Ave., (south of 50th St)., and in the background at the left, is the buildings comprising the Rockefeller Institute for Medical Research, (64th north to 67th Sts., and York east to Marie Curie Aves).\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2)\n\nThe same, another view.\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(3)\n\nThe same, a year later.\n\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -670,9 +1506,31 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "47th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730202f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730202f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Medicine",
+          "Research",
+          "Research facilities"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9a5c6750-c55d-012f-e8c5-58d385a7bc34",
     "text": "(1)\n\nA general view, east from 580 Fifth Ave., at the N.W. corner of 47th Street, showing in the centre No. 444 Madison Ave., (south of 50th St)., and in the background at the left, is the buildings comprising the Rockefeller Institute for Medical Research, (64th north to 67th Sts., and York east to Marie Curie Aves).\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2)\n\nThe same, another view.\n\nJune 8, 1932.\n\nP. L. Sperr.\n\n(3)\n\nThe same, a year later.\n\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -687,9 +1545,26 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "47th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730203f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730203f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ab2a7d0-c55d-012f-cf56-58d385a7bc34",
     "text": "(1)\nA general view, northeast from 580 Fifth Ave., at the N.W. corner of 47th Street, showing in the foreground the building at 444 Madison Ave., (south of 50th St.).\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2)\nThe same, a year later.\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -704,9 +1579,26 @@
   {
     "date": "1932; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "47th Street and 5th Avenue",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "730203f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730203f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9ab2a7d0-c55d-012f-cf56-58d385a7bc34",
     "text": "(1)\nA general view, northeast from 580 Fifth Ave., at the N.W. corner of 47th Street, showing in the foreground the building at 444 Madison Ave., (south of 50th St.).\nJune 8, 1932.\n\nP. L. Sperr.\n\n(2)\nThe same, a year later.\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -721,9 +1613,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "730191f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730191f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 47th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95853560-c55d-012f-d038-58d385a7bc34",
     "text": "A general view, southwest from 580 Fifth Ave., at the N.W. corner of 47th Street, showing the Hudson River in the background.\n\nMay 15, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -737,9 +1650,29 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "730192f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730192f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 5th Avenue - 47th Street."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/95d19bc0-c55d-012f-7681-58d385a7bc34",
     "text": "A general aerial view north from 580 Fifth Ave., at the N.W. corner of 47th Street, a part of St. Patrick's Cathedral is at the extreme left.\n\nAugust 9, 1933.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -756,9 +1689,27 @@
     "dates_from_text": [
       "1934-10-19"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "47th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 47th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "708879f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/708879f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2ef2d730-c53c-012f-8ce8-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 47th Street",
     "text": "580 Fifth Avenue, at N. W. corner of 47th Street.  Taken from Rockefeller Plaza at 50th Street.\n\nOctober 19, 1934\nP.L. Sperr, Photographer.\n",

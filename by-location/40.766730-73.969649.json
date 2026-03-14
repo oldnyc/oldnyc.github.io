@@ -2,9 +2,29 @@
   {
     "date": "1944-05-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 24,
+        "street": "E 64th Street"
+      },
+      "source": "64th Street (East) #24",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508269-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508269-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/01e66bf0-c5cf-012f-1889-58d385a7bc34",
     "text": null,
     "text_source": null,

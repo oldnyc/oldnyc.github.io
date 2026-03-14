@@ -2,9 +2,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711146f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711146f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/deceaeb0-c53f-012f-c26d-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Street",
     "text": "272 West Twelfth Street, south side, between Greenwich [Avenue] and West Fourth Street, showing P.S. 102.\n\nBoard of Education, N.Y.C.     1920\n",
@@ -19,9 +43,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: 12th Street (West) - Greenwich Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711150f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711150f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e057f590-c53f-012f-0c29-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Greenwich Street",
     "text": "12th Street (formerly Troy Street), north side, east from and including 325 West 12th Street between Greenwich and Hudson Streets. May 20, 1933.\n\nP. L. Sperr.\n",
@@ -36,9 +81,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - 12th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "720262f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720262f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a4a61d0-c54e-012f-7b30-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - 12th Street (West)",
     "text": "Greenwich Street, north from West 12th Street, showing surface conditions under the Ninth Avenue Elevated. The street car tracks are being removed by the W.W.A. Subsequently the \"El\" structure is to be removed.\n\nJune 2, 1937\n\nW. P. A. photo\nFive Boroughs Project\n",
@@ -53,9 +123,46 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Greenwich Street",
+        "str2": "West 12th Street"
+      },
+      "source": "Greenwich Street and West 12th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Bethune Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bethune Street",
+        "str2": "West 12th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 406,
     "id": "711144f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711144f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Garages",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddfacd20-c53f-012f-eee5-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Bethune Street",
     "text": "(1) West 12th Street,south east corner,showing the east side and looking southwards,towards Bethune Street. May 12th,1940\n\n(2) West 12th Street and East of Greenwich St. May 5th,1941\n\n(3) Bethune Street,south side and west of Greenwich Street. November 3rd,1940\n\nP.L.Sperr,\n",
@@ -71,9 +178,46 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Greenwich Street",
+        "str2": "West 12th Street"
+      },
+      "source": "Greenwich Street and West 12th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Bethune Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bethune Street",
+        "str2": "West 12th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "711144f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711144f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Garages",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddfacd20-c53f-012f-eee5-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Bethune Street",
     "text": "(1) West 12th Street,south east corner,showing the east side and looking southwards,towards Bethune Street. May 12th,1940\n\n(2) West 12th Street and East of Greenwich St. May 5th,1941\n\n(3) Bethune Street,south side and west of Greenwich Street. November 3rd,1940\n\nP.L.Sperr,\n",
@@ -89,9 +233,46 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Greenwich Street",
+        "str2": "West 12th Street"
+      },
+      "source": "Greenwich Street and West 12th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "12th Street (West)",
+        "str2": "Bethune Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Bethune Street",
+        "str2": "West 12th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "711144f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711144f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Garages",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ddfacd20-c53f-012f-eee5-58d385a7bc34",
     "original_title": "Manhattan: 12th Street (West) - Bethune Street",
     "text": "(1) West 12th Street,south east corner,showing the east side and looking southwards,towards Bethune Street. May 12th,1940\n\n(2) West 12th Street and East of Greenwich St. May 5th,1941\n\n(3) Bethune Street,south side and west of Greenwich Street. November 3rd,1940\n\nP.L.Sperr,\n",
@@ -107,9 +288,31 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: 12th Street - Greenwich Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "711145f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711145f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Flour & meal industry"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de569260-c53f-012f-527e-58d385a7bc34",
     "original_title": "Manhattan: 12th Street - Greenwich Street",
     "text": "12th St., west of Greenwich St. Pillars of \"L\". Nov. 3, 1940\nP.L. Sperr, photographer\n",
@@ -124,9 +327,31 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 408,
     "id": "720263f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720263f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parking lots",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a9ad3f0-c54e-012f-8e13-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - 12th Street",
     "text": "1-Greenwich Street, east side and northeast corner of 12th Street.\n\nMay 5, 1941\n\n2-Greenwich Street, northwest corner and 12th Street.\n\nNovember 3, 1940\n\n3-Greenwich Street and 12th Street looking southward\n\nNovember 3, 1940\n\nP. L. Sperr\n",
@@ -142,9 +367,31 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720263f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720263f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parking lots",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a9ad3f0-c54e-012f-8e13-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - 12th Street",
     "text": "1-Greenwich Street, east side and northeast corner of 12th Street.\n\nMay 5, 1941\n\n2-Greenwich Street, northwest corner and 12th Street.\n\nNovember 3, 1940\n\n3-Greenwich Street and 12th Street looking southward\n\nNovember 3, 1940\n\nP. L. Sperr\n",
@@ -160,9 +407,31 @@
   {
     "date": "1940; 1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720263f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720263f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parking lots",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/4a9ad3f0-c54e-012f-8e13-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - 12th Street",
     "text": "1-Greenwich Street, east side and northeast corner of 12th Street.\n\nMay 5, 1941\n\n2-Greenwich Street, northwest corner and 12th Street.\n\nNovember 3, 1940\n\n3-Greenwich Street and 12th Street looking southward\n\nNovember 3, 1940\n\nP. L. Sperr\n",
@@ -178,9 +447,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Street",
+        "str2": "Greenwich Street"
+      },
+      "source": "Manhattan: Greenwich Street - 12th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "720231f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720231f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coopers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3dcae710-c54e-012f-d2c9-58d385a7bc34",
     "original_title": "Manhattan: Greenwich Street - 12th Street",
     "text": "584 Greenwich St  Jan. 6, 1941\nP.L. Sperr, photographer\n",

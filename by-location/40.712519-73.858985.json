@@ -2,9 +2,44 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Polo Place",
+        "str2": "Trotting Course Lane"
+      },
+      "source": "Polo Place and Trotting Course Lane",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "6th Street (West)",
+        "str2": "Trotting Course Lane",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "6th Street",
+        "str2": "Trotting Course Lane",
+        "technique": "gpt"
+      }
+    ],
     "height": 464,
     "id": "728086f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728086f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34a42240-c55a-012f-cd22-58d385a7bc34",
     "original_title": "Queens: Trotting Course Lane - 6th Street (West)",
     "text": "Trotting Course Lane, east side, opposite Polo Place (just north of Metropolitan Avenue), showing the Abraham Remsen House, built prior to 1712. During the Revolution the Remsen farm suffered many depredations.\n\nEugene L. Armbruster Collection\n1923\n",

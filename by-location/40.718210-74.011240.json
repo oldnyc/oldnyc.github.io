@@ -2,9 +2,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Jay Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Jay Street",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "724120f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724120f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Distributors (Commerce)",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6e37a410-c554-012f-c7ce-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Jay Street",
     "text": "Washington Street, south from Jay Street, showing a portion of Manhattans wholesale produce zone. This photo is a preliminary prior to street car track removal by the W.P.A.\n\nApril 28, 1937\n\nW.P.A.Photo\nFive Borough Project\n",

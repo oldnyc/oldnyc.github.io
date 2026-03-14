@@ -2,9 +2,30 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "Tremont Avenue (East"
+      },
+      "source": "Bronx: Tremont Avenue (East - Devoe Avenue",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "700928f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700928f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ee9872f0-c52f-012f-7cb1-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - Devoe Avenue",
     "text": "E. Tremont Avenue, at the N. E. corner of Devoe Avenue.\n\nJuly 23, 1940\n\nP. L. Sperr\n",
@@ -19,9 +40,35 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Devoe Avenue",
+        "str2": "Tremont Avenue (East"
+      },
+      "source": "Bronx: Tremont Avenue (East - Devoe Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "700929f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700929f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Elevated railroads",
+          "Gasoline pumps",
+          "Used cars"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eee774f0-c52f-012f-01b5-58d385a7bc34",
     "original_title": "Bronx: Tremont Avenue (East - Devoe Avenue",
     "text": "E. Tremont Avenue, north side, from the Bronx River to Devoe Avenue (right), showing the Tremont Used Car Exchange and the I. R. T. subway elevated structure.\n\nJuly 22, 1940\n\nP. L. Sperr\n",

@@ -2,9 +2,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Halsey St.",
+        "str2": "Throop Ave."
+      },
+      "source": "Brooklyn: Throop Ave. - Halsey St.",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "707049f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707049f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Catholic churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/39efa940-c539-012f-d20e-58d385a7bc34",
     "original_title": "Brooklyn: Throop Ave. - Halsey St.",
     "text": "Throop Avenue, south from Halsey Street, showing the east side of the avenue. At Macon Street is the Roman Catholic Church of Our Lady of Victory.\n\nP. L. Sperr\nAugust 26, 1941\n",

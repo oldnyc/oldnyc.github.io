@@ -2,9 +2,30 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Amboy Road",
+        "str2": "Chelsea Street"
+      },
+      "source": "Richmond: Amboy Road - Chelsea Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "728310f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728310f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/94986c10-c55a-012f-0f32-58d385a7bc34",
     "original_title": "Richmond: Amboy Road - Chelsea Street",
     "text": "7516 Amboy Road (foreground), at the S.W. corner of Chelsea Street, showing St. Stephens (P.E.) church.\n\nSeptember 6, 1935.\n\nP. L. Sperr.\n",

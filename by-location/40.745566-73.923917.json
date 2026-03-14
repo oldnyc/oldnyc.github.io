@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "40th Street",
+        "str2": "43rd Avenue"
+      },
+      "source": "Queens: 43rd Avenue - 40th Street",
+      "technique": "title-cross"
+    },
     "height": 498,
     "id": "725341f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725341f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3f2db8f0-c556-012f-377f-58d385a7bc34",
     "original_title": "Queens: 43rd Avenue - 40th Street",
     "text": "43rd Avenue, north side, from 40th to 41st Street, showing Public School No. 150.\nBoard of education of the city of New York about 1931\n",

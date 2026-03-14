@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Seventy-Ninth Street",
+        "str2": "West End Avenue"
+      },
+      "source": "Seventy-Ninth Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "417436",
     "image_url": "https://images.nypl.org/?id=417436&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0503d790-c612-012f-bbb0-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "79th Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: 79th Street (West) - West End Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714584f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714584f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/75c5a350-c545-012f-211b-58d385a7bc34",
     "original_title": "Manhattan: 79th Street (West) - West End Avenue",
     "text": "307-309 West 79th Street, north side, west of West End Ave. Building shown is the Las Anno Court, an apartment house.\n\n1928.\n\nJoseph Smith.\n",

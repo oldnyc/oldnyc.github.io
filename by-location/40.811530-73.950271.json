@@ -2,9 +2,29 @@
   {
     "date": "1919-08-18",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 2367,
+        "street": "Eighth Avenue"
+      },
+      "source": "Eighth Avenue #2367",
+      "technique": "title-address"
+    },
     "height": 454,
     "id": "1507689-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507689-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b859c550-c5ce-012f-f8ef-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,34 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 127th Street",
+      "technique": "title-cross"
+    },
     "height": 426,
     "id": "710261f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710261f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Markets",
+          "Meat"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/706c36f0-c53e-012f-faeb-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 127th Street",
     "text": "(1)\n8th Avenue, 128, to 127th W.S.(Before Reconstruction)\nAugust 2, 1920.\n\n(2) Same. (After Reconstruction).\n\nPresident of Borough Manhattan.\nOctober 24, 1920.\n",
@@ -35,9 +80,34 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 127th Street",
+      "technique": "title-cross"
+    },
     "height": 419,
     "id": "710261f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710261f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads",
+          "Markets",
+          "Meat"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/706c36f0-c53e-012f-faeb-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 127th Street",
     "text": "(1)\n8th Avenue, 128, to 127th W.S.(Before Reconstruction)\nAugust 2, 1920.\n\n(2) Same. (After Reconstruction).\n\nPresident of Borough Manhattan.\nOctober 24, 1920.\n",
@@ -56,9 +126,27 @@
       "1920-10",
       "1920-08-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 127th Street",
+      "technique": "title-cross"
+    },
     "height": 423,
     "id": "710262f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710262f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70bfc930-c53e-012f-8907-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 127th Street",
     "text": "(1)\n8th Avenue, 128th, South to 127th St. East Side. Before Reconstruction.\nOctober 1920.\n\n(2)\nSame. (After Reconstruction)\n\nAugust 21, 1920.\n",
@@ -78,9 +166,27 @@
       "1920-10",
       "1920-08-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 127th Street",
+      "technique": "title-cross"
+    },
     "height": 425,
     "id": "710262f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710262f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/70bfc930-c53e-012f-8907-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 127th Street",
     "text": "(1)\n8th Avenue, 128th, South to 127th St. East Side. Before Reconstruction.\nOctober 1920.\n\n(2)\nSame. (After Reconstruction)\n\nAugust 21, 1920.\n",
@@ -96,9 +202,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "127th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 127th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710259f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710259f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Robert H. Holmes Youth Center."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Recreation centers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6ffd0c80-c53e-012f-21f9-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 127th Street",
     "text": "Robert H. Holmes Youth Center, 8th Ave. at s.w. corner of 127th St.\n\nNov. 5, 1940\n\nP.L. Sperr, photographer\n",

@@ -2,9 +2,32 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "125th Street",
+        "str2": "15th Avenue"
+      },
+      "source": "Queens: 125th Street - 15th Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725839f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725839f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods",
+          "Water supply",
+          "Water tanks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e3062f70-c556-012f-62b5-58d385a7bc34",
     "original_title": "Queens: 125th Street - 15th Avenue",
     "text": "125th Street, west side, north from and across 15th Avenue. The house at the N.W. corner of the intersection was owned by H. Funke in 1891, and so did the rest of the land extending beyond the water tank. The latter is at the N.W. corner of 14th Avenue. 125th Street was formerly named North 16th Street.\n\nP. L. Sperr\n\nMarch 16, 1932\n",

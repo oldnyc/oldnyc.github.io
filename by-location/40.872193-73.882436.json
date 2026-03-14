@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1924"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Bainbridge Avenue",
+        "str2": "Mosholu Parkway South (East)"
+      },
+      "source": "Bronx: Bainbridge Avenue - Mosholu Parkway South (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "700453f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700453f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48e09430-c52f-012f-d7cd-58d385a7bc34",
     "original_title": "Bronx: Bainbridge Avenue - Mosholu Parkway South (East)",
     "text": "3026 Bainbridge Ave., at the S.E. corner of East Mosholu Parkway South.\nAbout 1924.\n",

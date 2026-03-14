@@ -2,9 +2,31 @@
   {
     "date": "1860",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Henry Street",
+        "str2": "State Street"
+      },
+      "source": "Brooklyn: State Street - Henry Street",
+      "technique": "title-cross"
+    },
     "height": 315,
     "id": "706860f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706860f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "East River (N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sailboats"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f1211240-c538-012f-e8cb-58d385a7bc34",
     "original_title": "Brooklyn: State Street - Henry Street",
     "text": "State Street, north side, from about Henry to Furman Streets. A view of State Street in the 1860's. In the foreground at the right, is a house with an all glass front.\n\nAbout 1860.\n",

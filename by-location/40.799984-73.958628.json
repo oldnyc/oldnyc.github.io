@@ -2,9 +2,32 @@
   {
     "date": "1885",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 109th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710235f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710235f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6551c750-c53e-012f-4853-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 109th Street",
     "text": "Looking north along Eighth Avenue from 109th St.,\nManhattan. c. 1885\n",
@@ -19,9 +42,32 @@
   {
     "date": "1885",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "109th Street",
+        "str2": "8th Avenue"
+      },
+      "source": "Manhattan: 8th Avenue - 109th Street",
+      "technique": "title-cross"
+    },
     "height": 411,
     "id": "710235f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710235f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6551c750-c53e-012f-4853-58d385a7bc34",
     "original_title": "Manhattan: 8th Avenue - 109th Street",
     "text": "Looking north along Eighth Avenue from 109th St.,\nManhattan. c. 1885\n",

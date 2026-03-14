@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Pitt St",
+        "str2": "Stanton St"
+      },
+      "source": "Pitt St and Stanton St",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984295",
     "image_url": "https://images.nypl.org/?id=3984295&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eae9dcb0-c5d6-012f-371c-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Pitt Street",
+        "str2": "Stanton Street"
+      },
+      "source": "Manhattan: Pitt Street - Stanton Street",
+      "technique": "title-cross"
+    },
     "height": 399,
     "id": "720300f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720300f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Parks",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5849acc0-c54e-012f-fbe8-58d385a7bc34",
     "original_title": "Manhattan: Pitt Street - Stanton Street",
     "text": "Hamilton Fish Park: An eastward view of the southern portion of same, as viewed from Pitt (foreground) at Stanton (right) Streets. P.S. No. 22, which appears across the Park, is at the N.E. corner of Stanton and Sheriff Streets.\n\nJune 26, 1936.\n\nP. L. Sperr.\n",
@@ -38,9 +87,30 @@
     "dates_from_text": [
       "1936"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Pitt Street",
+        "str2": "Stanton Street"
+      },
+      "source": "Manhattan: Pitt Street - Stanton Street",
+      "technique": "title-cross"
+    },
     "height": 389,
     "id": "720301f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720301f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58ad7450-c54e-012f-d866-58d385a7bc34",
     "original_title": "Manhattan: Pitt Street - Stanton Street",
     "text": "Hamilton Fish Park: The northern half of same, containing the recently constructed (by the W.P.A.) swimming pool. The view is westward to Pitt Street (center background) between Stanton (left) and East Houston (right) Streets. Photographers vantage point is on Willet Street, which divides this open play area into two equal halves.\n\n1936.\n\nW.P.A. Photo.\nFederal Writers Project.\n",
@@ -58,9 +128,30 @@
     "dates_from_text": [
       "1938-06-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Pitt Street",
+        "str2": "Stanton Street"
+      },
+      "source": "Manhattan: Pitt Street - Stanton Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "720299f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/720299f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/57e56570-c54e-012f-65b1-58d385a7bc34",
     "original_title": "Manhattan: Pitt Street - Stanton Street",
     "text": "Hamilton Fish Park: The new swimming pool and locker building in the westerly half of this recreational space. Technically this is the east side of Pitt Street, north from Stanton to E. Houston Streets.\nJune 29, 1938.\nP.L. Sperr\n",

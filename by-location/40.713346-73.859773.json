@@ -2,9 +2,30 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Cooper Avenue",
+        "str2": "Woodhaven Blvd"
+      },
+      "source": "Cooper Avenue and Woodhaven Blvd",
+      "technique": "gpt"
+    },
     "height": 495,
     "id": "728212f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728212f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b1914e70-c555-012f-1c05-58d385a7bc34",
     "original_title": "Queens: Woodhaven Blvd - bet. Cooper Avenue and Juniper Valley Rd",
     "text": null,

@@ -2,9 +2,29 @@
   {
     "date": "1931-05-29",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "56th Street",
+        "str2": "Twelfth Avenue"
+      },
+      "source": "Manhattan: Twelfth Avenue - 56th Street, ",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "1507707-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507707-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bb409c70-c5ce-012f-18e5-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +38,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 12th Avenue - 56th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "710799f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710799f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sanitation"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/506fbd10-c53f-012f-dacd-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - 56th Street",
     "text": "Twelfth Ave., east side, at West 56th Street, showing under construction the new incinerator building of the Dept. of Sanitation, on the S.E. corner of West 56th Street.\n\nMay 21, 1936.\n\nP. L. Sperr.\n",
@@ -38,9 +79,27 @@
     "dates_from_text": [
       "1936-11-23"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "12th Avenue",
+        "str2": "56th Street"
+      },
+      "source": "Manhattan: 12th Avenue - 56th Street",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "710800f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710800f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/50ba91b0-c53f-012f-7a35-58d385a7bc34",
     "original_title": "Manhattan: 12th Avenue - 56th Street",
     "text": "Twelfth Ave., east side, north from West 56th Street. Note on the left the elevated West Side Vehicular Express Highway.\n\nNovember 23, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",

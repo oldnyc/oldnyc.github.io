@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1923-05"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "59th Street",
+        "str2": "Cooper Avenue"
+      },
+      "source": "Queens: Cooper Avenue - 59th Street",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "726385f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726385f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a42a8ca0-c557-012f-9bc7-58d385a7bc34",
     "original_title": "Queens: Cooper Avenue - 59th Street",
     "text": "Cooper Ave., east of 59th Street to Eightieth Ave. (formerly Alden Ave.) Cooper Avenue veers northeastward in the background. Peaked two story structure at right background was No. 29 Cooper Ave. (now on Eighth Ave.)\n\nMay 1923.\n\nEugene L. Armbruster Collection.\n",

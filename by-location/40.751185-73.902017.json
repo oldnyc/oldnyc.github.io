@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "60th Street",
+        "str2": "Broadway"
+      },
+      "source": "Queens: Broadway - 60th Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "726274f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726274f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7eded060-c557-012f-fb53-58d385a7bc34",
     "original_title": "Queens: Broadway - 60th Street",
     "text": "Broadway, east from 60th Street. The Independent System Subway is being built below the street level.\n\nP. L. Sperr\nOctober 27, 1931\n",

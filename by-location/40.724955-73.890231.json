@@ -2,9 +2,30 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "71st Street",
+        "str2": "Caldwell Avenue"
+      },
+      "source": "Queens: Caldwell Avenue - 71st Street",
+      "technique": "title-cross"
+    },
     "height": 490,
     "id": "726310f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726310f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8adffd90-c557-012f-a6c2-58d385a7bc34",
     "original_title": "Queens: Caldwell Avenue - 71st Street",
     "text": "Caldwell Avenue, south side, between 71st and 72nd Streets. Mr. E. L. Armbruster believes this to be the H. Seip house of 1873. According to Beers Atlas of that date, this house is south of the above mentioned location and 125 ft. south of Maiden Lane at Caldwell Ave. The writer believes it to be in 1925 at number 106- 71st Street,on the east side, about 196 ft. south of Caldwell Avenue.",

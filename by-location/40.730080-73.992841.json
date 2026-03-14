@@ -2,9 +2,32 @@
   {
     "date": "1880",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Astor Place",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: Broadway - Astor Place",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "717290f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/717290f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9fce3a20-c549-012f-7a3b-58d385a7bc34",
     "original_title": "Manhattan: Broadway - Astor Place",
     "text": "Broadway, below Astor (Street?) (A bit of old London)\nLancill and Bodfish\n\nabout 1880\n",

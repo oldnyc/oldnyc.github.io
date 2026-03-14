@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "14th Avenue",
+        "str2": "42nd Street"
+      },
+      "source": "Brooklyn: 14th Avenue - 42nd Street",
+      "technique": "title-cross"
+    },
     "height": 487,
     "id": "702535f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702535f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/487ef090-c532-012f-9ea0-58d385a7bc34",
     "original_title": "Brooklyn: 14th Avenue - 42nd Street",
     "text": "14th Avenue, east side, from 42nd to 43rd Streets, showing Public School No. 164.\n\nBoard of Education of the City of New York  Early 1930's\n",

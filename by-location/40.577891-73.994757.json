@@ -2,9 +2,31 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "28th Street (West)",
+        "str2": "Neptune Avenue"
+      },
+      "source": "Brooklyn: Neptune Avenue - 28th Street (West)",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "705943f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705943f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Gravesend (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Barges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/914bacc0-c537-012f-5b64-58d385a7bc34",
     "original_title": "Brooklyn: Neptune Avenue - 28th Street (West)",
     "text": "Neptune Ave., north side, east of West 28th Street, showing a former excursion barge, which served as a place of sale for rowboats. It does not appear in the 1929 Brooklyn Atlas. Also seen is Gravesend Bay.\n\nJune 1925.\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +41,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "28th Street (West)",
+        "str2": "Neptune Avenue"
+      },
+      "source": "Brooklyn: 28th Street (West) - Neptune Avenue",
+      "technique": "title-cross"
+    },
     "height": 468,
     "id": "702692f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702692f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8478d8a0-c532-012f-38cc-58d385a7bc34",
     "original_title": "Brooklyn: 28th Street (West) - Neptune Avenue",
     "text": "West 28th Street, north from Neptune Avenue toward Gravesend Bay, showing a W. P. A. sewer project.\n\n1936\n\nWorks Progress Administration\nFive Boroughs Project\n",

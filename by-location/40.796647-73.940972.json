@@ -2,9 +2,33 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street (West)",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 114th Street (West) - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "715089f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715089f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/375d7520-c546-012f-f619-58d385a7bc34",
     "original_title": "Manhattan: 114th Street (West) - 3rd Avenue",
     "text": "215 West 114th Street, north side showing the Wadleigh High School.\n\nBoard of Education, N.Y.C.\n\n1925.\n",
@@ -19,9 +43,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "114th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Manhattan: 114th Street - 3rd Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "715082f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715082f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Handcarts",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34f02dc0-c546-012f-6738-58d385a7bc34",
     "original_title": "Manhattan: 114th Street - 3rd Avenue",
     "text": "114th Street, west of, adjoining, and at the N.W. corner of Third Avenue.\nJune 26, 1931.\n\nP. L. Sperr.\n",

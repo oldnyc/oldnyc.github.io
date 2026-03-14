@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1931-03-09"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "10th Street",
+        "str2": "36th Avenue"
+      },
+      "source": "10th Street and 36th Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "10th Avenue",
+        "str2": "36th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "10th Avenue",
+        "str2": "36th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 397,
     "id": "724999f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724999f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c6ffce00-c555-012f-7b6b-58d385a7bc34",
     "original_title": "Queens: 10th Avenue - 36th Street",
     "text": "10th Street, adjoining the S. W. corner of 36th Avenue, showing an old frame house.\n\nP. L. Sperr\nMarch 9, 1931\n",

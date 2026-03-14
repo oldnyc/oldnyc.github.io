@@ -2,9 +2,37 @@
   {
     "date": "1938-12-15",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 305,
+        "street": "Rivington Street"
+      },
+      "source": "Rivington Street #305",
+      "technique": "title-address"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Lewis Street looking southwest",
+        "str2": "Rivington Street",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "1508055-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508055-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5dec99a0-c5ce-012f-4946-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +46,30 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Cannon Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722992f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722992f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/981893c0-c552-012f-ac6f-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Cannon Street",
     "text": "(1)\nRivington Street, north side, east from Columbia, across Cannon to Lewis Street. The DeWitt Memorial Church is at No. 280 Rivington Street and is between Columbia and Cannon Streets. Between the latter point and Lewis Street appears an empty space where former P.S. No. 88 stood and which is used for recreational purposes. The 6 story tenement just beyond is on the opposite side of Lewis Street and occupies the N.E. corner.\n\nJune 29, 1938.\n\nP.L. Sperr\n\n(2)\nRivington Street, east from Columbia, showing the De Witt\nMemorial Church.\n\nP. L. Sperr\n",
@@ -36,9 +85,30 @@
   {
     "date": "1938; 1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Cannon Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722992f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722992f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/981893c0-c552-012f-ac6f-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Cannon Street",
     "text": "(1)\nRivington Street, north side, east from Columbia, across Cannon to Lewis Street. The DeWitt Memorial Church is at No. 280 Rivington Street and is between Columbia and Cannon Streets. Between the latter point and Lewis Street appears an empty space where former P.S. No. 88 stood and which is used for recreational purposes. The 6 story tenement just beyond is on the opposite side of Lewis Street and occupies the N.E. corner.\n\nJune 29, 1938.\n\nP.L. Sperr\n\n(2)\nRivington Street, east from Columbia, showing the De Witt\nMemorial Church.\n\nP. L. Sperr\n",
@@ -54,9 +124,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Cannon Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722993f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722993f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9872e220-c552-012f-3549-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Cannon Street",
     "text": "(1) Rivington Street, North Side looking from North East corner of Cannon Street, looking Eastwards from Rivington.\n\n(2) Rivington Street, North Side corner of crossing with Leins Street at North East corner looking Eastwards on Rivington.\n\nMay 12, 1939.\n",
@@ -71,9 +162,30 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Cannon Street",
+        "str2": "Rivington Street"
+      },
+      "source": "Manhattan: Rivington Street - Cannon Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "722993f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722993f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hardware stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9872e220-c552-012f-3549-58d385a7bc34",
     "original_title": "Manhattan: Rivington Street - Cannon Street",
     "text": "(1) Rivington Street, North Side looking from North East corner of Cannon Street, looking Eastwards from Rivington.\n\n(2) Rivington Street, North Side corner of crossing with Leins Street at North East corner looking Eastwards on Rivington.\n\nMay 12, 1939.\n",

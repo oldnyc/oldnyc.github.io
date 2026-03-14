@@ -2,9 +2,32 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fleet Street",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Fleet Street - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704377f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704377f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1d5e1050-c535-012f-ecd8-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Street - Willoughby Street",
     "text": "Fleet Street, south side, west from Willoughby Street.\nOctober 31, 1927.\n\nP. L. Sperr.\n",
@@ -19,9 +42,47 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 16,
+        "street": "Fleet Place"
+      },
+      "source": "16 Fleet Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Tillary Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Tillary Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 402,
     "id": "704367f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704367f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Myrtle Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1949aa30-c535-012f-2b1b-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Place - Tillary Street",
     "text": "(1)\nFleet Place, west side, south from Tillary Street. The first frame house at the right, is No. 16. The Myrtle Ave., B.M.T. Elevated lines are in the distance.\nJuly 1, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, showing only houses Nos 8 to 12.\nJuly 1, 1930.\n\nP. L. Sperr.\n",
@@ -36,9 +97,47 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 16,
+        "street": "Fleet Place"
+      },
+      "source": "16 Fleet Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Tillary Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Tillary Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 403,
     "id": "704367f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704367f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "Myrtle Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1949aa30-c535-012f-2b1b-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Place - Tillary Street",
     "text": "(1)\nFleet Place, west side, south from Tillary Street. The first frame house at the right, is No. 16. The Myrtle Ave., B.M.T. Elevated lines are in the distance.\nJuly 1, 1934.\n\nP. L. Sperr.\n\n(2)\nThe same, showing only houses Nos 8 to 12.\nJuly 1, 1930.\n\nP. L. Sperr.\n",
@@ -53,9 +152,50 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 1,
+        "street": "Fleet Place"
+      },
+      "source": "1 Fleet Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Tillary Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Tillary Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Hudson Ave",
+        "str2": "Tillary Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 401,
     "id": "704368f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704368f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Beer gardens"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/19b311a0-c535-012f-796a-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Place - Tillary Street",
     "text": "1 to 11 Fleet Place, east side (as seen across clearing), south from Tillary Street (left). Also shown is Tillary Street, south side, east from Fleet Place to Hudson Ave. At the S.E. corner of the latter streets is a beer garden, typifying the neighborhood.\n\nJuly 1, 1934.\n\nP. L. Sperr.\n",
@@ -70,9 +210,30 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fleet Street",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Fleet Street - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704378f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704378f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1dcd5580-c535-012f-4f55-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Street - Willoughby Street",
     "text": "17 Fleet Street, at the N.E. corner of Willoughby Street (right), showing a 3-story building whose store is occupied by a colored organization, St. John's Fire Baptist Church of Christ in America. On the left appears a view eastward on Fleet Street. In the background is the Myrtle Ave. (B.M.T.) Elevated line, and beyond it an old church building. July 22, 1934.\n\nP. L. Sperr.\n",
@@ -90,9 +251,27 @@
     "dates_from_text": [
       "1934-07-01"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fleet St.",
+        "str2": "Willoughby St."
+      },
+      "source": "Brooklyn: Willoughby St. - Fleet St.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707407f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707407f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c80e3300-c539-012f-7951-58d385a7bc34",
     "original_title": "Brooklyn: Willoughby St. - Fleet St.",
     "text": "Willoughby Street, south side, east from Fleet Street, beyond Hudson Ave., and towards Fort Greene Park. On Hudson Ave., may be seen the Fifth Ave., B.M.T. Elevated Lines.\n\nJuly 1, 1934.\n\nP. L. Sperr.\n",
@@ -110,9 +289,27 @@
     "dates_from_text": [
       "1936-06-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Fleet Place - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704375f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704375f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c82d2c0-c535-012f-8351-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Place - Willoughby Street",
     "text": "95 Fleet Place, east side, between Willoughby Street and Myrtle Avenue, showing an abandoned tenement, view 2 showing the rear. These photographs were taken to show primarily bad housing conditions still existent in the borough.\n\nJune 25, 1936\nViews 1,2\n\nCommittee on Housing\nCharity Organization Society\n",
@@ -130,9 +327,27 @@
     "dates_from_text": [
       "1936-06-25"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Fleet Place",
+        "str2": "Willoughby Street"
+      },
+      "source": "Brooklyn: Fleet Place - Willoughby Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704375f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704375f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1c82d2c0-c535-012f-8351-58d385a7bc34",
     "original_title": "Brooklyn: Fleet Place - Willoughby Street",
     "text": "95 Fleet Place, east side, between Willoughby Street and Myrtle Avenue, showing an abandoned tenement, view 2 showing the rear. These photographs were taken to show primarily bad housing conditions still existent in the borough.\n\nJune 25, 1936\nViews 1,2\n\nCommittee on Housing\nCharity Organization Society\n",
@@ -150,9 +365,27 @@
     "dates_from_text": [
       "1940-04-27"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Debevoise Street",
+        "str2": "Fleet Street"
+      },
+      "source": "Brooklyn: Debevoise Street - Fleet Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703945f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703945f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/71234ac0-c534-012f-2b00-58d385a7bc34",
     "original_title": "Brooklyn: Debevoise Street - Fleet Street",
     "text": "Debevoise Street (left), south from Fleet Street, showing part of the Maltz factory building and the Paramount Theatre Building, the latter being at Flatbush Avenue. In the background is the Fox Theatre Building.\n\nApril 27, 1940\n\nP. L. Sperr\n",

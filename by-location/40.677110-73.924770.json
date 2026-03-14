@@ -2,9 +2,39 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Buffalo Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - Buffalo Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703056f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703056f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Long Island Rail Road"
+        ],
+        "topic": [
+          "Automobile dealerships",
+          "Business districts",
+          "Elevated railroads",
+          "Railroad tracks",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/11cde9b0-c533-012f-15bf-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - Buffalo Avenue",
     "text": "Atlantic Avenue, south side, east from Buffalo Avenue. Note the elevated structure of the Long Island Railroad.\nJuly 13, 1940.\nP. L. Sperr\n",

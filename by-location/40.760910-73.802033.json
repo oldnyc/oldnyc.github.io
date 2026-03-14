@@ -5,9 +5,35 @@
     "dates_from_text": [
       "1923-07"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "North Hempstead Turnpike"
+      },
+      "source": "164th Street and North Hempstead Turnpike",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "North Hempstead Turn",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "727508f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727508f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56a8c3e0-c559-012f-b821-58d385a7bc34",
     "text": "North Hempstead Turnpike, at the N.E. corner of 164th Street (Renwick Ave.), showing the Fisher house which was moved to this site from another which the collector does not designate. The house faces Renwick Avenue (Jamaica trolley line thereon). This is a set of two views, viewed in opposite directions.\n\nJuly 1923.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",
@@ -24,9 +50,35 @@
     "dates_from_text": [
       "1923-07"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "North Hempstead Turnpike"
+      },
+      "source": "164th Street and North Hempstead Turnpike",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "164th Street",
+        "str2": "North Hempstead Turn",
+        "technique": "title-cross"
+      }
+    ],
     "height": 402,
     "id": "727508f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727508f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/56a8c3e0-c559-012f-b821-58d385a7bc34",
     "text": "North Hempstead Turnpike, at the N.E. corner of 164th Street (Renwick Ave.), showing the Fisher house which was moved to this site from another which the collector does not designate. The house faces Renwick Avenue (Jamaica trolley line thereon). This is a set of two views, viewed in opposite directions.\n\nJuly 1923.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

@@ -2,9 +2,47 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Knapp St",
+        "str2": "Whitney Ave"
+      },
+      "source": "Knapp St and Whitney Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Brigham St.",
+        "str2": "Whitney Ave.",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Brigham St",
+        "str2": "Whitney Ave",
+        "technique": "gpt"
+      }
+    ],
     "height": 478,
     "id": "707349f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707349f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b01b2030-c539-012f-0066-58d385a7bc34",
     "original_title": "Brooklyn: Whitney Ave. - Brigham St.",
     "text": "Whitney Avenue, north side, from Brigham to Knapp Streets, showing public school No. 194.\nBoard of Education of the City of New York December 9, 1929\n",

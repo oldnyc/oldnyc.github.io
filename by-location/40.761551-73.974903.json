@@ -2,9 +2,30 @@
   {
     "date": "1911",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.7615629570971,
+        "lng": -73.97513955831528
+      },
+      "source": "Fifth Avenue",
+      "technique": "fifth"
+    },
     "height": 204,
     "id": "1113280",
     "image_url": "https://images.nypl.org/?id=1113280&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings",
+          "Streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7add6890-c6ca-012f-6e23-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +39,40 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 689,
+        "street": "Fifth Avenue"
+      },
+      "source": "689 Fifth Avenue",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1558223",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558223.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Aeolian Hall"
+      ],
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Elizabeth Arden Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cf6d0860-c5ec-012f-732d-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -34,9 +86,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 55th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 385,
     "id": "713763f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713763f.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3228b840-c544-012f-8b7f-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (East) - 5th Avenue",
     "text": "12-20 East 55th Street, south side, between Fifth and Madison Avenues.\nAbout 1912.\n",
@@ -51,9 +124,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 55th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713766f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713766f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/332a8a10-c544-012f-ab77-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (West) - 5th Avenue",
     "text": "25-29 West 55th Street, north side, between Fifth and Sixth Aves.\nAbout 1912.\n",
@@ -68,9 +162,37 @@
   {
     "date": "1917-05",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "55th Street",
+        "str2": "Fifth Avenue"
+      },
+      "source": "55th Street and Fifth Avenue",
+      "technique": "gpt"
+    },
     "height": 459,
     "id": "1804023",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1804023.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Fifth Avenue (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings",
+          "Flags",
+          "Military decorations",
+          "Participation, British",
+          "Participation, French",
+          "World War, 1914-1918"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e7414570-c62c-012f-a5a6-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -84,9 +206,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709001f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709001f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/60408130-c53c-012f-d88a-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 55th Street",
     "text": "Fifth Avenue at N.E. corner of 55th Street.\nJune 1925.\n",
@@ -104,9 +247,27 @@
     "dates_from_text": [
       "1928"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709003f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709003f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61031500-c53c-012f-205a-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 55th Street",
     "text": "National Broadcasting Building, 711 Fifth Avenue, at N.E. corner of 55th Street,.\n\nArchitects awarded second prize in contest of Fifth Avenue Association in 1927 for this building.\n\nAbout 1928.\n",
@@ -121,9 +282,33 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709011f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709011f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "National Broadcasting Company"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/646eb2b0-c53c-012f-cb2b-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "Fifth Avenue, east side, from E. 55th to 56th Streets, showing prominently the National Broadcasting Building. The Chatham Phenix National Bank is to occupy the lower story.\n\n1928\n",
@@ -141,9 +326,27 @@
     "dates_from_text": [
       "1928-06"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (East)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 55th Street (East) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713762f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713762f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/31c0c110-c544-012f-a57b-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (East) - 5th Avenue",
     "text": "16-6 East 55th Street, south side, west from but not including Madison, to, but not including Fifth Aves. The view only shows upper floors.\n\nAbout June 1928.\n",
@@ -158,9 +361,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 55th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713764f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713764f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/327986c0-c544-012f-dcbe-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (West) - 5th Avenue",
     "text": "(1)\nWest 55th Street, (side-walk not shown) south side, west of Fifth Ave. Also shown (across clearance), is West 54th Street, south side, west of Fifth Ave. This shows erection of a modern apartment house by the Rockefeller interests.\nApril 1, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same and showing a further view westward on West 54th Street.\nApril 1, 1936.\n\nP. L. Sperr.\n\n(3)\nThe same in the opposite direction and view northward through 17 West 54th Street and showing West 55th Street, north side, west of Fifth Ave.\nApril 1, 1936.\n\nP. L. Sperr.\n",
@@ -175,9 +399,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 55th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713764f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713764f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/327986c0-c544-012f-dcbe-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (West) - 5th Avenue",
     "text": "(1)\nWest 55th Street, (side-walk not shown) south side, west of Fifth Ave. Also shown (across clearance), is West 54th Street, south side, west of Fifth Ave. This shows erection of a modern apartment house by the Rockefeller interests.\nApril 1, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same and showing a further view westward on West 54th Street.\nApril 1, 1936.\n\nP. L. Sperr.\n\n(3)\nThe same in the opposite direction and view northward through 17 West 54th Street and showing West 55th Street, north side, west of Fifth Ave.\nApril 1, 1936.\n\nP. L. Sperr.\n",
@@ -192,9 +437,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street (West)",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 55th Street (West) - 5th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "713764f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/713764f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/327986c0-c544-012f-dcbe-58d385a7bc34",
     "original_title": "Manhattan: 55th Street (West) - 5th Avenue",
     "text": "(1)\nWest 55th Street, (side-walk not shown) south side, west of Fifth Ave. Also shown (across clearance), is West 54th Street, south side, west of Fifth Ave. This shows erection of a modern apartment house by the Rockefeller interests.\nApril 1, 1936.\n\nP. L. Sperr.\n\n(2)\nThe same and showing a further view westward on West 54th Street.\nApril 1, 1936.\n\nP. L. Sperr.\n\n(3)\nThe same in the opposite direction and view northward through 17 West 54th Street and showing West 55th Street, north side, west of Fifth Ave.\nApril 1, 1936.\n\nP. L. Sperr.\n",
@@ -209,9 +475,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "709004f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709004f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6173a6d0-c53c-012f-cd99-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "Associated Am. Artists, Inc.\n711 5th Ave - Reception desk\n\n7/6/39\n",
@@ -226,9 +516,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 445,
     "id": "709005f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709005f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/61f3be20-c53c-012f-dbd5-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "Associated Am Artists, Inc.\n711 5th Ave. -- Reception Desk\n7/6/39\n",
@@ -243,9 +557,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709006f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709006f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/624e3490-c53c-012f-252a-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "F.S. Lincoln\nPhotographer\n114 East 32nd Street\nNEW YORK CITY\n\n893P3\n\nAssociated Am Artists, Inc.\n74 5th Ave. -- Framing Dept. Bar\n\n7/6/39\n",
@@ -260,9 +598,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709007f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709007f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62cc6f40-c53c-012f-6638-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "Associated Amer. Artists\n711 5th Ave.\n\n7/17/39\n",
@@ -277,9 +639,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709008f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709008f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/632317c0-c53c-012f-897f-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "711 5th Ave. - LARGE SALON (BENTON PAINTINGS)\n\n7/6/39\n",
@@ -294,9 +680,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 454,
     "id": "709009f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709009f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/639dc380-c53c-012f-7366-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "F.S. Lincoln\nPhotographer\n114 EAST 32nd STREET\nNEW YORK CITY\n\n893P6\n\nAssociated Am. Artists, Inc.\n711 5th Ave. - Front Salon\n7/6/39\n",
@@ -311,9 +721,33 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - Between 55th and 56th Streets",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "709010f",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709010f.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "711 5th Avenue ; Associated American Artists, Inc."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Galleries & museums"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/63f90650-c53c-012f-35bb-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - [Between 55th and 56th Streets]",
     "text": "Associated Am. Artists Inc.\n711 5th Ave -- inside salon\n7/6/39\n",
@@ -328,9 +762,29 @@
   {
     "date": "1948-04-09",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 697,
+        "street": "Fifth Avenue"
+      },
+      "source": "Fifth Avenue #697",
+      "technique": "title-address"
+    },
     "height": 468,
     "id": "1508833-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508833-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9adff600-c5ce-012f-91cc-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -344,9 +798,29 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 3,
+        "street": "E 54th Street"
+      },
+      "source": "54th Street (East) #3",
+      "technique": "title-address"
+    },
     "height": 495,
     "id": "1508195-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508195-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f5000530-c5ce-012f-a48a-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -360,9 +834,36 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 3,
+        "street": "East 54th Street"
+      },
+      "source": "3 East 54th Street",
+      "technique": "gpt"
+    },
     "height": 526,
     "id": "1558251",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558251.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "W.F. Cooper Antiques"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/da5801b0-c5ec-012f-c822-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -376,9 +877,32 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "55th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 55th Street",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "709002f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709002f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/60b1c600-c53c-012f-a033-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 55th Street",
     "text": null,

@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1925"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Prospect Place",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Brooklyn: Prospect Place - Vanderbilt Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "706395f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706395f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40a2d0d0-c538-012f-2226-58d385a7bc34",
     "original_title": "Brooklyn: Prospect Place - Vanderbilt Avenue",
     "text": "203 Prospect Place, north side, 235 ft. west of Vanderbilt Avenue (right, not shown) showing the home of Anna E. Schlaubecker. About 1925. W. B. Vernon.",
@@ -22,9 +40,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Prospect Pl.",
+        "str2": "Vanderbilt Ave."
+      },
+      "source": "Brooklyn: Vanderbilt Ave. - Prospect Pl.",
+      "technique": "title-cross"
+    },
     "height": 410,
     "id": "707167f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707167f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Coal trade"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/67af9da0-c539-012f-01a9-58d385a7bc34",
     "original_title": "Brooklyn: Vanderbilt Ave. - Prospect Pl.",
     "text": "Vanderbilt Avenue (right), at the northwest corner of Prospect Place. September 2, 1941. P. L. Sperr",

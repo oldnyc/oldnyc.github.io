@@ -6,9 +6,27 @@
       "1931-06-29",
       "1931-06-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bard Avenue",
+        "str2": "Henderson Avenue"
+      },
+      "source": "Richmond: Bard Avenue - Henderson Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "728470f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728470f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d27053a0-c55a-012f-60c3-58d385a7bc34",
     "original_title": "Richmond: Bard Avenue - Henderson Avenue",
     "text": "(1) 234 Bard Ave., at the N.W. corner of Henderson Ave., showing the George William Curtis residence.\n\nJune 29, 1931.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJune 29, 1931.\n\nP. L. Sperr.\n",
@@ -28,9 +46,27 @@
       "1931-06-29",
       "1931-06-29"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bard Avenue",
+        "str2": "Henderson Avenue"
+      },
+      "source": "Richmond: Bard Avenue - Henderson Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "728470f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/728470f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d27053a0-c55a-012f-60c3-58d385a7bc34",
     "original_title": "Richmond: Bard Avenue - Henderson Avenue",
     "text": "(1) 234 Bard Ave., at the N.W. corner of Henderson Ave., showing the George William Curtis residence.\n\nJune 29, 1931.\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nJune 29, 1931.\n\nP. L. Sperr.\n",
@@ -46,9 +82,26 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Staten Island",
+        "str1": "Bard Ave",
+        "str2": "Henderson Ave"
+      },
+      "source": "Bard Ave and Henderson Ave",
+      "technique": "gpt"
+    },
     "height": 384,
     "id": "105096",
     "image_url": "https://images.nypl.org/?id=105096&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Staten Island (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/40017440-c5ef-012f-0aff-58d385a7bc34",
     "text": null,
     "text_source": null,

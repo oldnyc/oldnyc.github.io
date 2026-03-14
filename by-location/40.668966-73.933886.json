@@ -2,9 +2,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Eastern Parkway",
+        "str2": "Schenectady Avenue"
+      },
+      "source": "Brooklyn: Eastern Parkway - Schenectady Avenue",
+      "technique": "title-cross"
+    },
     "height": 479,
     "id": "704071f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704071f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a302d970-c534-012f-30d5-58d385a7bc34",
     "original_title": "Brooklyn: Eastern Parkway - Schenectady Avenue",
     "text": "Eastern Parkway, at the northwest corner of Schenectady Avenue, showing Public School No. 167.\nBoard of Education of the City of New York October 15, 1929\n",

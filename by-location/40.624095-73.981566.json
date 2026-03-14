@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1935-01-21"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "19th Avenue",
+        "str2": "54th Street"
+      },
+      "source": "Brooklyn: 19th Avenue - 54th Street",
+      "technique": "title-cross"
+    },
     "height": 390,
     "id": "702624f",
     "image_url": "https://images.nypl.org/?id=702624f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6a795690-c532-012f-5b16-58d385a7bc34",
     "original_title": "Brooklyn: 19th Avenue - 54th Street",
     "text": "19th Avenue, south from 54th Street.\n\nJanuary 21, 1935\n\nWorks Progress Administration\nFive Boroughs Project\n",

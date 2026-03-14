@@ -2,9 +2,29 @@
   {
     "date": "1941-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 130,
+        "street": "W 12th Street"
+      },
+      "source": "12th Street (West) #130",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1507739-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507739-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c0318f70-c5ce-012f-43d4-58d385a7bc34",
     "text": null,
     "text_source": null,

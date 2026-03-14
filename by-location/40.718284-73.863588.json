@@ -2,9 +2,44 @@
   {
     "date": "1922",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "66th Avenue",
+        "str2": "Woodhaven Boulevard"
+      },
+      "source": "66th Avenue and Woodhaven Boulevard",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "112th Street",
+        "str2": "66th Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "112th Street",
+        "str2": "66th Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 473,
     "id": "725568f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725568f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87fdf6a0-c556-012f-7358-58d385a7bc34",
     "original_title": "Queens: 66th Avenue - 112th Street",
     "text": "Sixty-sixth Avenue, north side, between Woodhaven Boulevard (background not shown), and Fitchett Street, showing the home of George Baum from 1891 to 1896. Henry Pepper was the owner in 1909. In 1927 this house and barn was located on lot 60 in block number 1939.\n\nApril 1923\n\nEugene L. Armbruster Collection\n",
@@ -19,9 +54,31 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "66th Avenue",
+        "str2": "Woodhaven Boulevard"
+      },
+      "source": "Queens: 66th Avenue - Woodhaven Boulevard",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "725567f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725567f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Farmhouses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/87b6a3d0-c556-012f-7588-58d385a7bc34",
     "original_title": "Queens: 66th Avenue - Woodhaven Boulevard",
     "text": "Sixty-sixth Avenue, at the N.W. corner of Thornton Street, showing the home of G. Shopman in 1896.  The 1909 Atlas still shows it as his property in 1909.\n\nApril 1923.\n\nEugene L. Armbruster Collection\n",

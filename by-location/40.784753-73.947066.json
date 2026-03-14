@@ -2,9 +2,40 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 1873,
+        "street": "2nd Ave"
+      },
+      "source": "1873 2nd Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 1873,
+        "street": "2nd Ave. between 96th and 97th St.",
+        "technique": "title-address"
+      }
+    ],
     "height": 600,
     "id": "1516945-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1516945-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Second Ave. #1873, between E. 96th and 97th Streets, building exterior (including restaurant)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a8b1a790-c5cf-012f-85eb-58d385a7bc34",
     "text": null,
     "text_source": null,

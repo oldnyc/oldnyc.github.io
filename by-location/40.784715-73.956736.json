@@ -2,9 +2,41 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 20,
+        "street": "East 92nd Street"
+      },
+      "source": "20 East 92nd Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Fifth Avenue",
+        "str2": "Madison Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "1558344",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558344.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Historic buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ff3f2520-c5ec-012f-ac0f-58d385a7bc34",
     "text": null,
     "text_source": null,

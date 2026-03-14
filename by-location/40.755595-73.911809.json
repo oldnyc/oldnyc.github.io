@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1936-10-31"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "49th Street",
+        "str2": "Broadway"
+      },
+      "source": "Queens: Broadway - 49th Street",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "726273f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726273f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7e7bad80-c557-012f-1708-58d385a7bc34",
     "original_title": "Queens: Broadway - 49th Street",
     "text": "Broadway, north side, between 49th and 50th Streets.\n\nP. L. Sperr\nOctober 31, 1936\n",

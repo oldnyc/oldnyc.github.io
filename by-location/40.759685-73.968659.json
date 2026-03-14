@@ -2,9 +2,29 @@
   {
     "date": "1939-08-28",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 160,
+        "street": "E 56th Street"
+      },
+      "source": "56th Street (East) #160",
+      "technique": "title-address"
+    },
     "height": 388,
     "id": "1508215",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508215.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f85a9c50-c5ce-012f-826c-58d385a7bc34",
     "text": null,
     "text_source": null,

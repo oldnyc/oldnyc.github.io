@@ -2,9 +2,35 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Sterling Place"
+      },
+      "source": "Brooklyn: 5th Avenue - Sterling Place",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "702376f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702376f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "A and P Food Stores",
+          "Great Atlantic & Pacific Tea Company"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d4c30c0-c532-012f-b1a3-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Sterling Place",
     "text": "P.L. Sperr, photographer\n5-31-1942\n",
@@ -19,9 +45,33 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "5th Avenue",
+        "str2": "Sterling Place"
+      },
+      "source": "Brooklyn: 5th Avenue - Sterling Place",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "702377f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702377f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0dc10250-c532-012f-f5e7-58d385a7bc34",
     "original_title": "Brooklyn: 5th Avenue - Sterling Place",
     "text": "P.L. Sperr, photographer  5-31-1942",

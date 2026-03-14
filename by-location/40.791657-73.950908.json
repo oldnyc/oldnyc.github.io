@@ -2,9 +2,29 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 1493,
+        "street": "Madison Avenue"
+      },
+      "source": "Madison Avenue #1493",
+      "technique": "title-address"
+    },
     "height": 428,
     "id": "1507518-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1507518-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/36d3b2c0-c5ce-012f-46b4-58d385a7bc34",
     "text": null,
     "text_source": null,

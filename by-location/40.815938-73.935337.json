@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "140th Street",
+        "str2": "5th Avenue"
+      },
+      "source": "Manhattan: 5th Avenue - 140th Street",
+      "technique": "title-cross"
+    },
     "height": 398,
     "id": "709234f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/709234f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Episcopal churches",
+          "Factories"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c1b64e30-c53c-012f-e534-58d385a7bc34",
     "original_title": "Manhattan: 5th Avenue - 140th Street",
     "text": "Green Cottage at West side of Fifth Avenue, between 140th and 141st Streets. Occupied by owner of large plot of shacks at N.W. corner of 140th Street and Fifth Ave.\nNovember 10, 1930.\nP.L.Sperr, Photographer.\n",

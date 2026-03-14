@@ -2,9 +2,31 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "168th Street",
+        "str2": "Liberty Avenue"
+      },
+      "source": "Queens: 168th Street - Liberty Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "725973f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725973f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Ashmead Park (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Neighborhoods"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/12cd6b20-c557-012f-84e2-58d385a7bc34",
     "original_title": "Queens: 168th Street - Liberty Avenue",
     "text": "168th Street, west side, at Liberty Avenue, showing old homes and a narrow lane leading west to 166th Street. The area here was known as Ashmead Park.\n\nP. L. Sperr\n\nApril 1, 1932\n",
@@ -22,9 +44,27 @@
     "dates_from_text": [
       "1932-03-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Liberty Avenue",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Liberty Avenue - Merrick Boulevard",
+      "technique": "title-cross"
+    },
     "height": 476,
     "id": "727215f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727215f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e14656a0-c558-012f-141f-58d385a7bc34",
     "original_title": "Queens: Liberty Avenue - Merrick Boulevard",
     "text": "Liberty Avenue, at the S.E. corner of Merrick Boulevard.  This property was owned by A. Jordan in 1891 and Liberty Avenue, at this point, was then South Street.\n\nP. L. Sperr\n\nMarch 30, 1932\n",
@@ -42,9 +82,27 @@
     "dates_from_text": [
       "1932-03-30"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Liberty Avenue",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Liberty Avenue - Merrick Boulevard",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "727215f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727215f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e14656a0-c558-012f-141f-58d385a7bc34",
     "original_title": "Queens: Liberty Avenue - Merrick Boulevard",
     "text": "Liberty Avenue, at the S.E. corner of Merrick Boulevard.  This property was owned by A. Jordan in 1891 and Liberty Avenue, at this point, was then South Street.\n\nP. L. Sperr\n\nMarch 30, 1932\n",
@@ -59,9 +117,36 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Liberty Avenue",
+        "str2": "Merrick Boulevard"
+      },
+      "source": "Queens: Merrick Boulevard - Liberty Avenue",
+      "technique": "title-cross"
+    },
     "height": 407,
     "id": "727376f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727376f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Barns",
+          "Business enterprises",
+          "Carts & wagons",
+          "Horse teams",
+          "Signs (Notices)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/229a69e0-c559-012f-4bfd-58d385a7bc34",
     "original_title": "Queens: Merrick Boulevard - Liberty Avenue",
     "text": "Merrick Boulevard, east side, between Liberty and 104th Avenues, showing two combined frame dwellings with entrances at both ends. Note the barn to the left of the house.\n\nP. L. Sperr\n\nMarch 30, 1932\n",

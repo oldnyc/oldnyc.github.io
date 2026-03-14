@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1925-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "205th Street",
+        "str2": "Hollis Avenue"
+      },
+      "source": "205th Street and Hollis Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "Cross Island Boulevard",
+        "str2": "Hollis Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "Cross Island Boulevard",
+        "str2": "Hollis Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 461,
     "id": "726894f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/726894f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/629f3370-c558-012f-c1f7-58d385a7bc34",
     "original_title": "Queens: Hollis Avenue - Cross Island Boulevard",
     "text": "Hollis Ave., south side, between Cross Island Boulevard and 205th Street, showing the G.O. Ditmas house of 1873. C.O. Ditmas was the owner in 1891.\n\nApril 1925.\n\nEugene L. Armbruster Collection.\n",

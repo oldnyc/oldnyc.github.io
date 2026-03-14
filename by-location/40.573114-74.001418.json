@@ -2,9 +2,30 @@
   {
     "date": "1924",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "36th St. W.",
+        "str2": "Surf Ave."
+      },
+      "source": "Brooklyn: Surf Ave. - 36th St. W.",
+      "technique": "title-cross"
+    },
     "height": 457,
     "id": "707007f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707007f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/296409a0-c539-012f-539b-58d385a7bc34",
     "original_title": "Brooklyn: Surf Ave. - 36th St. W.",
     "text": "Surf Ave., west from West 36th to 37th Streets, showing the entrance to Sea Gate. The Sea View Hotel, operated by Mc Pherson stood at the left near the entrance in 186?. January 1924.\n\nEugene L. Armbruster Collection.\n",

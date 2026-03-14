@@ -2,9 +2,30 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Mosholu Parkway North (East)",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: Webster Avenue - Mosholu Parkway North (East)",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "702051f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702051f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/8e0a9650-c531-012f-8502-58d385a7bc34",
     "original_title": "Bronx: Webster Avenue - Mosholu Parkway North (East)",
     "text": "3045 Webster Avenue, west side, north of E. Mosholu Parkway North, showing an old two-story frame house, about fifty feet back of the Avenue. In the background appear the rears of buildings facing on Decatur Avenue.\n\nJune 16, 1938.\n\nP. L. Sperr\n",
@@ -19,9 +40,31 @@
   {
     "date": "1939",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Mosholu Parkway Nort",
+        "str2": "Webster Avenue"
+      },
+      "source": "Bronx: Mosholu Parkway Nort - Webster Avenue",
+      "technique": "title-cross"
+    },
     "height": 475,
     "id": "700912f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700912f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e93066f0-c52f-012f-58fd-58d385a7bc34",
     "original_title": "Bronx: Mosholu Parkway Nort - Webster Avenue",
     "text": "E. Mosholu Parkway North, west from Webster Avenue, showing the Works Progress Administration conducting a sewer project.\n\nMay 7, 1939\n\nW.P.A. Photo\nFive Boroughs Project\n",

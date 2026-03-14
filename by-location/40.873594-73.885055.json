@@ -2,9 +2,30 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "203rd Street (East)",
+        "str2": "Valentine Avenue"
+      },
+      "source": "Bronx: Valentine Avenue - 203rd Street (East)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "701955f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701955f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/69a48380-c531-012f-b1d2-58d385a7bc34",
     "original_title": "Bronx: Valentine Avenue - 203rd Street (East)",
     "text": "Valentine Ave., adjoining and at the N.E. corner of East 203rd Street. The 6-story apartment house, No. 3044 and named the Anna Court, is at the above mentioned corner. The empty lot adjoins it to the north.\n\nMay 8, 1928.\nP. L. Sperr\n",

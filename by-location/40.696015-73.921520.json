@@ -2,9 +2,30 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Central Avenue",
+        "str2": "Greene Avenue"
+      },
+      "source": "Brooklyn: Central Avenue - Greene Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703509f",
     "image_url": "https://images.nypl.org/?id=703509f&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Sewers"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf2cc040-c533-012f-d849-58d385a7bc34",
     "original_title": "Brooklyn: Central Avenue - Greene Avenue",
     "text": null,

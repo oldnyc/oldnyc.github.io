@@ -2,9 +2,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Driggs Avenue",
+        "str2": "Monitor Street"
+      },
+      "source": "Driggs Avenue and Monitor Street",
+      "technique": "gpt"
+    },
     "height": 474,
     "id": "732661f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732661f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7ddd9dc0-c561-012f-c651-58d385a7bc34",
     "text": "Monitor Street, at the northeast corner of Driggs Avenue, showing Public School No. 110.\nBoard of Education of the City of New York May 19, 1931\n",
     "text_source": "gpt",

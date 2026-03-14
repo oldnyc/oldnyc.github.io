@@ -2,9 +2,32 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Atlantic Avenue",
+        "str2": "Grand Avenue"
+      },
+      "source": "Brooklyn: Atlantic Avenue - Grand Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "703044f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703044f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts",
+          "Gasoline pumps",
+          "Unitarian Universalist churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d011330-c533-012f-ce83-58d385a7bc34",
     "original_title": "Brooklyn: Atlantic Avenue - Grand Avenue",
     "text": "937-939 Atlantic Ave., at the N.W. corner of Grand Ave. At the right, is Grand Ave., east side, north from Atlantic, with the Universalist Church of Our Father, in the background. (415 Clinton Ave.)\n\nNovember 26, 1927\nP.L. Sperr\n",

@@ -2,9 +2,40 @@
   {
     "date": "1898",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.840546,
+        "lng": -73.907469
+      },
+      "source": "Claremont Park",
+      "technique": "subjects"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Bronx",
+        "str1": "Claremont Park",
+        "str2": "Zboroski Mansion",
+        "technique": "title-cross"
+      }
+    ],
     "height": 488,
     "id": "700769f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700769f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Claremont Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b998f080-c52f-012f-443d-58d385a7bc34",
     "text": "Claremont Park (Bronx): The Zboroski Mansion, built in 1859. It is situated at the northern end of the park and is now (1940) being used as the Bronx office of the Department of Parks.\n\n1898\n\nGift of Randall Comfort\n",
     "text_source": "gpt",
@@ -18,9 +49,32 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "lat": 40.840546,
+        "lng": -73.907469
+      },
+      "source": "Claremont Park",
+      "technique": "subjects"
+    },
     "height": 433,
     "id": "700770f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700770f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "Claremont Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b9f72920-c52f-012f-015d-58d385a7bc34",
     "text": "Men waiting at Claremont Park to be assigned to various parks.\n\n5-20-31\n\nPhoto by Mr. A. Tennyson Beals\nEmergency Work Bureau\n1931\n",
     "text_source": "gpt",

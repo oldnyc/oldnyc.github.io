@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1922"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Marion Street - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 364,
     "id": "705599f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705599f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0b6743b0-c537-012f-d7ea-58d385a7bc34",
     "original_title": "Brooklyn: Marion Street - Patchen Avenue",
     "text": "165-167 Marion St., north side, between Patchen and Ralph Aves., showing the Gunbach House, believed to have been built in the 1850s. 1922.\n\nEugene L. Armbruster Collection.\n",
@@ -22,9 +40,30 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Marion Street - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 472,
     "id": "705598f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705598f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Lutheran churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0af986b0-c537-012f-5e42-58d385a7bc34",
     "original_title": "Brooklyn: Marion Street - Patchen Avenue",
     "text": "Marion Street, north side, west of Patchen Ave., showing in the center of the view the Bethlehem Evangelical Lutheran Church.\n\nEugene L. Armbruster Collection.\n\nJune 1929.\n",
@@ -39,9 +78,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Marion Street",
+        "str2": "Patchen Avenue"
+      },
+      "source": "Brooklyn: Marion Street - Patchen Avenue",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "705597f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705597f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0a8ac800-c537-012f-4151-58d385a7bc34",
     "original_title": "Brooklyn: Marion Street - Patchen Avenue",
     "text": "Brooklyn\nn.w. cor. Marion St. & Patchen Ave.\n5-26-42\nP.L. Sperr\n",

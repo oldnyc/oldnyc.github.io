@@ -2,9 +2,41 @@
   {
     "date": "1920; 1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "49th Street"
+      },
+      "source": "39th Avenue and 49th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "45th Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "45th Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "725295f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725295f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/300a29f0-c556-012f-24c7-58d385a7bc34",
     "original_title": "Queens: 39th Avenue - 45th Street",
     "text": "39th Avenue, at about 49th Street. This is one of the many small homes in the Sunnyside Gardens model community built by the City Housing Corporation. The number 39-26 on the doorway indicates that this dwelling is just south of 39th Avenue on any of the streets from 40th to 50th Streets, which comprise the development.\n\nBrown Brothers.\n1920's\n",
@@ -20,9 +52,31 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "39th Avenue",
+        "str2": "49th Street"
+      },
+      "source": "Queens: 39th Avenue - 49th Street",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "725298f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725298f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Playgrounds",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3103e780-c556-012f-5c89-58d385a7bc34",
     "original_title": "Queens: 39th Avenue - 49th Street",
     "text": "THE PLAYGROUND IN A MODEL COMMUNITY\n\nSunnyside Gardens on Long Island, built by the City Housing Corporation, showing play and garden space and apparatus for small children\n\nJanuary 1928\n\n39th Ave. L.I.C.\n",

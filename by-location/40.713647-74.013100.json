@@ -2,9 +2,32 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Vesey Street",
+      "technique": "title-cross"
+    },
     "height": 501,
     "id": "724100f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724100f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/662452f0-c554-012f-07b1-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Vesey Street",
     "text": "Washington Street, west side, south from and including Vesey Street to and including Fulton Street. This is the old Washington Market.\n\nAbout 1925.\n\nEwing Galloway.\n",
@@ -19,9 +42,51 @@
   {
     "date": "1927; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 126,
+        "street": "West Street"
+      },
+      "source": "126 West Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cortlandt Street",
+        "str2": "West Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cortlandt Street",
+        "str2": "West Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "724575f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724575f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Carts & wagons",
+          "Diners (Restaurants)",
+          "Horse teams",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/239968e0-c555-012f-9b54-58d385a7bc34",
     "original_title": "Manhattan: West Street - Cortlandt Street",
     "text": "West Street, nos. 126-130, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-2\nMarch 23, 1938\n",
@@ -37,9 +102,51 @@
   {
     "date": "1927; 1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 126,
+        "street": "West Street"
+      },
+      "source": "126 West Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Cortlandt Street",
+        "str2": "West Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Cortlandt Street",
+        "str2": "West Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "724575f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724575f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Business enterprises",
+          "Carts & wagons",
+          "Diners (Restaurants)",
+          "Horse teams",
+          "Hotels"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/239968e0-c555-012f-9b54-58d385a7bc34",
     "original_title": "Manhattan: West Street - Cortlandt Street",
     "text": "West Street, nos. 126-130, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-2\nMarch 23, 1938\n",
@@ -55,9 +162,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Vesey Street - Washington Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "723797f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723797f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Business districts",
+          "Distributors (Commerce)",
+          "Fruit",
+          "Handcarts",
+          "Markets",
+          "Street vendors",
+          "Vegetables"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ea54c4b0-c553-012f-e809-58d385a7bc34",
     "original_title": "Manhattan: Vesey Street - Washington Street",
     "text": "77-81 Vesey Street, at the S.E. corner of Washington Street, showing only the lower stories of building concerned. Shown on the extreme right is a portion of the Washington Market, reputed to be the largest wholesale\nvegetable and fruit market in the world.\n\nAugust 1, 1930.\n\nP. L. Sperr.\n",
@@ -72,9 +208,41 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730474f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730474f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "Municipal Building ; New York Telephone Company ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Food industry",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c9ed300-c55e-012f-6fca-58d385a7bc34",
     "text": "(1) A general view, east from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing in the background the East River, with the Brooklyn Bridge; at the left, is the Municipal Building, (at Centre and Chambers Streets); and in the centre, the Woolworth Building, (233 Broadway, between Barclay Street and Park Place).\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nP. L. Sperr.\n\n(3) The same, another view.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -88,9 +256,41 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730474f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730474f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "Municipal Building ; New York Telephone Company ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Food industry",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c9ed300-c55e-012f-6fca-58d385a7bc34",
     "text": "(1) A general view, east from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing in the background the East River, with the Brooklyn Bridge; at the left, is the Municipal Building, (at Centre and Chambers Streets); and in the centre, the Woolworth Building, (233 Broadway, between Barclay Street and Park Place).\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nP. L. Sperr.\n\n(3) The same, another view.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -104,9 +304,41 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730474f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730474f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "Municipal Building ; New York Telephone Company ; Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Food industry",
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0c9ed300-c55e-012f-6fca-58d385a7bc34",
     "text": "(1) A general view, east from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing in the background the East River, with the Brooklyn Bridge; at the left, is the Municipal Building, (at Centre and Chambers Streets); and in the centre, the Woolworth Building, (233 Broadway, between Barclay Street and Park Place).\n\nP. L. Sperr.\n\n(2) The same, from a different angle.\n\nP. L. Sperr.\n\n(3) The same, another view.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -120,9 +352,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730475f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730475f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company ; St. Paul's Protestant Episcopal Chapel ;Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d114960-c55e-012f-5373-58d385a7bc34",
     "text": "(1) A general view, east from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing the East River in the background, and in the centre, St. Paul's Protestant Episcopal Chapel and Grounds, (Broadway west to Church Street, and Fulton north to Vesey Streets). August 6, 1930. P. L. Sperr.\n\n(2) The same, from a different angle, showing the Woolworth Building, (233 Broadway, between Barclay Street and Park Place), and only a small portion of St. Paul's Protestant Episcopal Chapel and Grounds. August 6, 1930. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -136,9 +396,37 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730475f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730475f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company ; St. Paul's Protestant Episcopal Chapel ;Woolworth Building."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Episcopal churches"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d114960-c55e-012f-5373-58d385a7bc34",
     "text": "(1) A general view, east from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing the East River in the background, and in the centre, St. Paul's Protestant Episcopal Chapel and Grounds, (Broadway west to Church Street, and Fulton north to Vesey Streets). August 6, 1930. P. L. Sperr.\n\n(2) The same, from a different angle, showing the Woolworth Building, (233 Broadway, between Barclay Street and Park Place), and only a small portion of St. Paul's Protestant Episcopal Chapel and Grounds. August 6, 1930. P. L. Sperr.\n",
     "text_source": "gpt",
@@ -152,9 +440,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 401,
     "id": "730476f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730476f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d6a3dc0-c55e-012f-8d34-58d385a7bc34",
     "text": "(1) A general aerial view, north from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing on the extreme left, West Street, and on the right, the Ninth Ave., Elevated Lines (on Greenwich Street, which is the continuation of Ninth Ave., from Gansevoort Street). August 6, 1930.\n\nP. L. Sperr.\n\n(2) The same, another view. August 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -168,9 +485,38 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 403,
     "id": "730476f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730476f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0d6a3dc0-c55e-012f-8d34-58d385a7bc34",
     "text": "(1) A general aerial view, north from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing on the extreme left, West Street, and on the right, the Ninth Ave., Elevated Lines (on Greenwich Street, which is the continuation of Ninth Ave., from Gansevoort Street). August 6, 1930.\n\nP. L. Sperr.\n\n(2) The same, another view. August 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -184,9 +530,40 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 405,
     "id": "730477f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730477f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "Municipal Building ; New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "East River (N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "David N. Dinkins Manhattan Municipal Building (New York, N.Y.)",
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Monuments & memorials"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0dea2950-c55e-012f-c201-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -200,9 +577,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730478f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730478f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0e5915d0-c55e-012f-b584-58d385a7bc34",
     "text": "A general view, northeast from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing the East River on the right.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -216,9 +617,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 397,
     "id": "730479f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730479f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0eafefe0-c55e-012f-429f-58d385a7bc34",
     "text": "A general view, northeast from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing at the extreme right, a part of the Brooklyn Bridge, (extending from near Frankfort Street, Manhattan, to Bridge Plaza, Brooklyn).\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -232,9 +657,40 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730480f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730480f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Battery Park (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Upper Bay (N.Y. and N.J.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Parks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f2c2e40-c55e-012f-e348-58d385a7bc34",
     "text": "A general view, south from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing at the right, West Street; and Governor's Island. Battery Park (southern extremity of the city), is also shown.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -248,9 +704,36 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 401,
     "id": "730481f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730481f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "Bank of Manhattan ; New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0f946010-c55e-012f-8b8b-58d385a7bc34",
     "text": "A general view, southeast from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing at the left, (not yet completed), the Bank of Manhattan, (40 Wall Street, west of William Street)\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -264,9 +747,39 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730482f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730482f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company ; Singer Manufacturing Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Singer Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fe657e0-c55e-012f-d6f0-58d385a7bc34",
     "text": "(1)\nA general view, southeast from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing at the left, the Singer Building, (Broadway at the N.W. corner of Liberty Street).\n\nAugust 6, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, as No 1, only showing a better view of the Ninth Ave., Elevated Lines in the foreground.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, from a different angle.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -280,9 +793,39 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730482f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730482f-b.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company ; Singer Manufacturing Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Singer Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fe657e0-c55e-012f-d6f0-58d385a7bc34",
     "text": "(1)\nA general view, southeast from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing at the left, the Singer Building, (Broadway at the N.W. corner of Liberty Street).\n\nAugust 6, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, as No 1, only showing a better view of the Ninth Ave., Elevated Lines in the foreground.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, from a different angle.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -296,9 +839,39 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "730482f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/730482f-c.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "140 West Street.",
+        "New York Telephone Company ; Singer Manufacturing Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "New York Telephone Company",
+          "Singer Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/0fe657e0-c55e-012f-d6f0-58d385a7bc34",
     "text": "(1)\nA general view, southeast from the New York Telephone Building, 140 West Street, from Vesey to Barclay Streets, showing at the left, the Singer Building, (Broadway at the N.W. corner of Liberty Street).\n\nAugust 6, 1930.\n\nP. L. Sperr.\n\n(2)\nThe same, as No 1, only showing a better view of the Ninth Ave., Elevated Lines in the foreground.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n\n(3)\nThe same, from a different angle.\n\nAugust 6, 1930.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -312,9 +885,35 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 112,
+        "street": "Vesey Street"
+      },
+      "source": "112 Vesey Street",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "732569f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732569f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: Vesey Street ; 112 Vesey Street ."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Street vendors",
+          "Toys"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5c06a880-c561-012f-79d8-58d385a7bc34",
     "text": "A childs Utopia (on 112 Vesey Street).\nJuly 26, 1930.\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -328,9 +927,32 @@
   {
     "date": "1932; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Vesey Street",
+      "technique": "title-cross"
+    },
     "height": 402,
     "id": "724101f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724101f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6688c630-c554-012f-d43a-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Vesey Street",
     "text": "(1)\nWashington Street, south from and including Vesey Street.\nJune 5, 1932.\n\nP. L. Sperr.\n\n(2)\nA similar view. Note the Washington Market (right) under renovation.\n\nApril 28, 1937.\n\nW. P. A. Photo\n5 Boroughs Project\n",
@@ -346,9 +968,32 @@
   {
     "date": "1932; 1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Washington Street - Vesey Street",
+      "technique": "title-cross"
+    },
     "height": 489,
     "id": "724101f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724101f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Markets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6688c630-c554-012f-d43a-58d385a7bc34",
     "original_title": "Manhattan: Washington Street - Vesey Street",
     "text": "(1)\nWashington Street, south from and including Vesey Street.\nJune 5, 1932.\n\nP. L. Sperr.\n\n(2)\nA similar view. Note the Washington Market (right) under renovation.\n\nApril 28, 1937.\n\nW. P. A. Photo\n5 Boroughs Project\n",
@@ -364,9 +1009,42 @@
   {
     "date": "1934; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Vesey Street - Washington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723798f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723798f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business districts",
+          "Cobblestone streets",
+          "Construction equipment",
+          "Elevated railroads",
+          "Jewelry stores",
+          "Monuments & memorials",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eacfde80-c553-012f-0e86-58d385a7bc34",
     "original_title": "Manhattan: Vesey Street - Washington Street",
     "text": "(1) Vesey Street, north side, east from, but not including Washington Street. The view shows the new Post Office in process of construction. Towering over all is the Woolworth Building.\n\nAugust 31, 1935.\n\nP. L. Sperr.\n\n(2) The same; another view. August 31, 1935.\n\nP. L. Sperr.\n\n(3) The same, at an earlier date, showing clearance; on the site where steel construction is in progress on the United States Post Office Building. The building to the right of the Woolworth, is the 44-story Transportation Building at the S.W. corner of Barclay Street and Broadway.\n\nApril 3, 1934.\n\nP. L. Sperr.\n",
@@ -382,9 +1060,42 @@
   {
     "date": "1934; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Vesey Street - Washington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723798f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723798f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business districts",
+          "Cobblestone streets",
+          "Construction equipment",
+          "Elevated railroads",
+          "Jewelry stores",
+          "Monuments & memorials",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eacfde80-c553-012f-0e86-58d385a7bc34",
     "original_title": "Manhattan: Vesey Street - Washington Street",
     "text": "(1) Vesey Street, north side, east from, but not including Washington Street. The view shows the new Post Office in process of construction. Towering over all is the Woolworth Building.\n\nAugust 31, 1935.\n\nP. L. Sperr.\n\n(2) The same; another view. August 31, 1935.\n\nP. L. Sperr.\n\n(3) The same, at an earlier date, showing clearance; on the site where steel construction is in progress on the United States Post Office Building. The building to the right of the Woolworth, is the 44-story Transportation Building at the S.W. corner of Barclay Street and Broadway.\n\nApril 3, 1934.\n\nP. L. Sperr.\n",
@@ -400,9 +1111,42 @@
   {
     "date": "1934; 1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Vesey Street",
+        "str2": "Washington Street"
+      },
+      "source": "Manhattan: Vesey Street - Washington Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "723798f-c",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723798f-c.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Woolworth Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Business districts",
+          "Cobblestone streets",
+          "Construction equipment",
+          "Elevated railroads",
+          "Jewelry stores",
+          "Monuments & memorials",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eacfde80-c553-012f-0e86-58d385a7bc34",
     "original_title": "Manhattan: Vesey Street - Washington Street",
     "text": "(1) Vesey Street, north side, east from, but not including Washington Street. The view shows the new Post Office in process of construction. Towering over all is the Woolworth Building.\n\nAugust 31, 1935.\n\nP. L. Sperr.\n\n(2) The same; another view. August 31, 1935.\n\nP. L. Sperr.\n\n(3) The same, at an earlier date, showing clearance; on the site where steel construction is in progress on the United States Post Office Building. The building to the right of the Woolworth, is the 44-story Transportation Building at the S.W. corner of Barclay Street and Broadway.\n\nApril 3, 1934.\n\nP. L. Sperr.\n",
@@ -418,9 +1162,34 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 140,
+        "street": "West Street"
+      },
+      "source": "140 West Street",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "724592f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724592f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "N.Y. Telephone Building, 140 West Street, Manhattan.",
+        "New York Telephone Company."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "name": [
+          "New York Telephone Company"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2a8e5e60-c555-012f-0e3e-58d385a7bc34",
     "text": "New York Telephone Building\n140 West Street, Manhattan\n\nFederal Art Project\n\"Changing New York\"\nBerenice Abbott, photographer\n\n[Note: negative at Museum of the City of New York]\nCode I A-3\nAug. 12, 1936\n",
     "text_source": "gpt",
@@ -434,9 +1203,34 @@
   {
     "date": "1938",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 126,
+        "street": "West Street"
+      },
+      "source": "126 West Street",
+      "technique": "gpt"
+    },
     "height": 482,
     "id": "724585f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724585f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "West Street Row: IV. 126-130 West Street, Manhattan."
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets",
+          "Gasoline pumps"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/276c6a90-c555-012f-d6a9-58d385a7bc34",
     "text": null,
     "text_source": null,

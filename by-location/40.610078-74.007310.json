@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1931-01-11"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Avenue",
+        "str2": "86th Street"
+      },
+      "source": "Brooklyn: 86th Street - 16th Avenue",
+      "technique": "title-cross"
+    },
     "height": 401,
     "id": "702889f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702889f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/d10e5700-c532-012f-0f2f-58d385a7bc34",
     "original_title": "Brooklyn: 86th Street - 16th Avenue",
     "text": "86th Street; east side, between Bay 16th and 18th Streets. In the foreground is Bay 17th Street.\nJanuary 11, 1931.\n\nP. L. Sperr.\n",
@@ -22,9 +40,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "16th Ave.",
+        "str2": "86th St."
+      },
+      "source": "16th Ave. and 86th St.",
+      "technique": "gpt"
+    },
     "height": 433,
     "id": "3984536",
     "image_url": "https://images.nypl.org/?id=3984536&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/42f88280-c5d7-012f-4396-58d385a7bc34",
     "text": null,
     "text_source": null,

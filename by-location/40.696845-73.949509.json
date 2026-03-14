@@ -2,9 +2,33 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Floyd Street",
+        "str2": "Marcy Avenue"
+      },
+      "source": "Brooklyn: Floyd Street - Marcy Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "704382f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704382f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/1f4a2e00-c535-012f-eb01-58d385a7bc34",
     "original_title": "Brooklyn: Floyd Street - Marcy Avenue",
     "text": "Floyd Street, south side, between Marcy and Tompkins Avenues, Shown is Public School No. 55, this being the Stockton Street side of the school.\n\nBoard of Education of the City of New York June 25, 1931\n",

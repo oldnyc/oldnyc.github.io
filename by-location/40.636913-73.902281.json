@@ -2,9 +2,34 @@
   {
     "date": "1928",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Ave. K",
+        "str2": "Remsen Ave."
+      },
+      "source": "Ave. K and Remsen Ave.",
+      "technique": "gpt"
+    },
     "height": 479,
     "id": "731340f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/731340f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Methodist Protestant Church (U.S. : 1939- )"
+        ],
+        "topic": [
+          "Cemeteries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/64c0e030-c55f-012f-c4e3-58d385a7bc34",
     "text": "Grace Methodist Protestant Cemetery (Canarsie Cemetery) bounded on the north by Lotts House Road, on the east by Remsen Ave., on the south by Ave. K and on the west by East 86th Street, showing two head stones one of Oliver Wauser who died in 1857 at the age of 30 years and the other of Elizabeth Wauser who died the same year, age 27.\nJune 1928.\n\nEugene L. Armbruster Collection.\n",
     "text_source": "gpt",

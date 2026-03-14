@@ -2,9 +2,33 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Dekalb Avenue",
+        "str2": "Vanderbilt Avenue"
+      },
+      "source": "Brooklyn: Dekalb Avenue - Vanderbilt Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "703997f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703997f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/853f78b0-c534-012f-1378-58d385a7bc34",
     "original_title": "Brooklyn: Dekalb Avenue - Vanderbilt Avenue",
     "text": "Dekalb Avenue, north side, east from Vanderbilt to Clinton Avenues, showing former brownstone private residences.\n\nOctober 12, 1940\n\nP. L. Sperr\n",

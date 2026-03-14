@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "4th Avenue",
+        "str2": "67th Street"
+      },
+      "source": "Brooklyn: 67th Street - 4th Avenue",
+      "technique": "title-cross"
+    },
     "height": 473,
     "id": "702819f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/702819f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/b5a6d640-c532-012f-efe8-58d385a7bc34",
     "original_title": "Brooklyn: 67th Street - 4th Avenue",
     "text": "67th Street, at the southwest corner of Fourth Avenue, showing the Bay Ridge High School.\n\nBoard of Education of the City of New York Early 1930's\n",

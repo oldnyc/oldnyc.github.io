@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1927-04-12"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Queens",
+        "str1": "Auburndale Lane",
+        "str2": "Northern Boulevard"
+      },
+      "source": "Queens: Northern Boulevard - Auburndale Lane",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "727625f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727625f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)",
+          "Queens (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/84b590b0-c559-012f-8453-58d385a7bc34",
     "original_title": "Queens: Northern Boulevard - Auburndale Lane",
     "text": "Northern Boulevard, north side, between Auburndale Lane and 172nd Street, showing the W. Beggill house of 1891. In 1909 it was known as \"Montreuls Inn.\"\n\nP. L. Sperr\nApril 12, 1927\n",

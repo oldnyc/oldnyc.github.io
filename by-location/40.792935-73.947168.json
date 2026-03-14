@@ -2,9 +2,29 @@
   {
     "date": "1944",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 105,
+        "street": "E 106th Street"
+      },
+      "source": "106th Street (East) #105",
+      "technique": "title-address"
+    },
     "height": 600,
     "id": "1508377-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508377-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/14448540-c5cf-012f-c0ff-58d385a7bc34",
     "text": null,
     "text_source": null,

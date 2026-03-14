@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "82nd Street",
+        "str2": "West End Avenue"
+      },
+      "source": "82nd Street and West End Avenue",
+      "technique": "gpt"
+    },
     "height": 518,
     "id": "417154",
     "image_url": "https://images.nypl.org/?id=417154&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/9210c4a0-c611-012f-fe39-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,33 @@
   {
     "date": "1920",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "82nd Street (West)",
+        "str2": "West End Avenue"
+      },
+      "source": "Manhattan: West End Avenue - 82nd Street (West)",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "724456f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/724456f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f6986f70-c554-012f-22fb-58d385a7bc34",
     "original_title": "Manhattan: West End Avenue - 82nd Street (West)",
     "text": "464 West End Avenue, north east corner and 82nd Street\nShowing P.S.9\n\nBoard of Education, N.Y.C.\n\n1920.\n",

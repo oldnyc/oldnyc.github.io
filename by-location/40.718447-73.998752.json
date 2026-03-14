@@ -2,9 +2,30 @@
   {
     "date": "1925",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Baxter Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Baxter Street - Hester Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716601f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716601f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/822c17c0-c548-012f-baf8-58d385a7bc34",
     "original_title": "Manhattan: Baxter Street - Hester Street",
     "text": "120-130 Baxter Street, west side, at, adjoining, and south of the S.W. corner of Hester Street. The view also shows 200-202 Hester Street, at and adjoining the S.W. corner of Baxter Street.\n\nAbout 1925.\n",
@@ -19,9 +40,33 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Baxter Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Baxter Street - Hester Street",
+      "technique": "title-cross"
+    },
     "height": 486,
     "id": "716602f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716602f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/829680a0-c548-012f-cd46-58d385a7bc34",
     "original_title": "Manhattan: Baxter Street - Hester Street",
     "text": "143 Baxter Street, east side between Hester and Grand Streets, showing P. 130.\n\nBoard of Education, N.Y.C.\n\nJuly 22, 1929.\n",
@@ -36,9 +81,30 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Baxter Street",
+        "str2": "Hester Street"
+      },
+      "source": "Manhattan: Baxter Street - Hester Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "716600f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/716600f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Police stations"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/81e13520-c548-012f-9c36-58d385a7bc34",
     "original_title": "Manhattan: Baxter Street - Hester Street",
     "text": "Baxter Street, from Hester Street, north to Grand Street. The building in the background with the dome is Police Headquarters.\n\nSeptember 20, 1930.\n\nP. L. Sperr.\n",

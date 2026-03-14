@@ -2,9 +2,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Riverdale Avenue",
+        "str2": "Sheffield Avenue"
+      },
+      "source": "Brooklyn: Sheffield Avenue - Riverdale Avenue",
+      "technique": "title-cross"
+    },
     "height": 478,
     "id": "706730f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706730f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/bf2b3f00-c538-012f-40c2-58d385a7bc34",
     "original_title": "Brooklyn: Sheffield Avenue - Riverdale Avenue",
     "text": "Sheffield Avenue, west side, between Riverdale and New Lots Avenue, showing Public School No. 190, the view being southward.\n\nBoard of Education of the City of New York  Early 1930's\n",

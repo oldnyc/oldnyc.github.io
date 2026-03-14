@@ -2,9 +2,30 @@
   {
     "date": "1912",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 116th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715135f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715135f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Business districts"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/47d070d0-c546-012f-78da-58d385a7bc34",
     "original_title": "Manhattan: 116th Street (East) - Madison Avenue",
     "text": "24-16 East 116th Street, adjoining and west of the S.W. corner of Madison Avenue. About 1912.",
@@ -19,9 +40,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "E. 116th St",
+        "str2": "Madison Av"
+      },
+      "source": "E. 116th St and Madison Av",
+      "technique": "gpt"
+    },
     "height": 429,
     "id": "3984330",
     "image_url": "https://images.nypl.org/?id=3984330&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/f4a13e10-c5d6-012f-ff69-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -38,9 +83,27 @@
     "dates_from_text": [
       "1937-01-04"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street (East)",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 116th Street (East) - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 488,
     "id": "715136f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715136f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/483d0c40-c546-012f-0c44-58d385a7bc34",
     "original_title": "Manhattan: 116th Street (East) - Madison Avenue",
     "text": "West 116th Street, west from Madison Ave.\n\nJanuary 4, 1937.\nW.P.A. Photo.\nFederal Art Project.\n",
@@ -55,9 +118,30 @@
   {
     "date": "1942",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "116th Street",
+        "str2": "Madison Avenue"
+      },
+      "source": "Manhattan: 116th Street - Madison Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "715137f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715137f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Banks"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/488d48b0-c546-012f-6db8-58d385a7bc34",
     "original_title": "Manhattan: 116th Street - Madison Avenue",
     "text": "n.w. cor. 116 St. & Madison Ave.\n6-15-42\nP.L. Sperr\n",

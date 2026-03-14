@@ -2,9 +2,34 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "152nd Street",
+        "str2": "Quince Avenue"
+      },
+      "source": "Queens: 152nd Street - Quince Avenue",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "727170f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/727170f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Real property",
+          "Signs (Notices)",
+          "Vacant lots"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/cef6b070-c558-012f-80d4-58d385a7bc34",
     "original_title": "Queens: 152nd Street - Quince Avenue",
     "text": null,

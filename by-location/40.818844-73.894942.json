@@ -2,9 +2,33 @@
   {
     "date": "1923",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "Fox Street",
+        "str2": "Tiffany Street"
+      },
+      "source": "Bronx: Tiffany Street - Fox Street",
+      "technique": "title-cross"
+    },
     "height": 471,
     "id": "701891f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/701891f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Elevated railroads"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/517708c0-c531-012f-8009-58d385a7bc34",
     "original_title": "Bronx: Tiffany Street - Fox Street",
     "text": "Tiffany Street, west side, north from Fox Street. In the background is visible the elevated trestle of the I.R.T. Lexington Ave. subway line, on Westchester Ave.\n\n1923.\n\nKeystone View Co., Inc., of New York.\n",

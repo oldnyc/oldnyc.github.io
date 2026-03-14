@@ -2,9 +2,33 @@
   {
     "date": "1927",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Queens",
+        "str1": "23rd Street",
+        "str2": "29th Street"
+      },
+      "source": "Queens: 29th Street - 23rd Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "725172f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/725172f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Hell Gate Bridge (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Queens (New York, N.Y.)"
+        ],
+        "topic": [
+          "Bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/05fe3330-c556-012f-1f3d-58d385a7bc34",
     "original_title": "Queens: 29th Street - 23rd Street",
     "text": "29th Street, north from 23rd Avenue, passing underneath the arch of the Hellgate Bridge. Note the children playing ball against the walls of the arch.\n\nEwing Galloway\n\nAbout 1927\n",

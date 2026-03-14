@@ -2,9 +2,30 @@
   {
     "date": "1908",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "136th Street",
+        "str2": "Broadway"
+      },
+      "source": "136th Street and Broadway",
+      "technique": "gpt"
+    },
     "height": 495,
     "id": "465556-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/465556-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3cebbb30-c612-012f-c972-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +42,27 @@
     "dates_from_text": [
       "1931-06-14"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "136th Street",
+        "str2": "Broadway"
+      },
+      "source": "Manhattan: 136th Street - Broadway",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "715605f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715605f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fd51d280-c546-012f-10d9-58d385a7bc34",
     "original_title": "Manhattan: 136th Street - Broadway",
     "text": "136th Street at, adjoining and east of the N.E. corner of Broadway. The four-story building in the background is part of the Hebrew Orphan Asylum.\n\nJune 14, 1931.\n\nP.L. Sperr,\n",

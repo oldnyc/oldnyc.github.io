@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 898,
+        "street": "Madison Avenue"
+      },
+      "source": "898 Madison Avenue",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "417433",
     "image_url": "https://images.nypl.org/?id=417433&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/03ead700-c612-012f-3ecc-58d385a7bc34",
     "text": null,
     "text_source": null,

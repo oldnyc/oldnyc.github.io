@@ -5,9 +5,53 @@
     "dates_from_text": [
       "1935-12-22"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Brooklyn",
+        "num": 184,
+        "street": "Manhattan Avenue"
+      },
+      "source": "184 Manhattan Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Brooklyn",
+        "str1": "Manhattan Avenue",
+        "str2": "Stagg Street",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Manhattan Avenue",
+        "str2": "Stagg Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Manhattan Avenue",
+        "str2": "Ten Eyck Street",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Brooklyn",
+        "str1": "Scholes Street",
+        "str2": "Stagg Street",
+        "technique": "gpt"
+      }
+    ],
     "height": 600,
     "id": "705558f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705558f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fadf4c80-c536-012f-1a2e-58d385a7bc34",
     "original_title": "Brooklyn: Manhattan Avenue - Stagg Street",
     "text": "184-202 Manhattan Ave., east side, north from Stagg to Ten Eyck Streets. In the foreground, are razed buildings, between Scholes and Stagg Streets, a part of the area allotted by the Federal Housing Commission, for the erection of low rent apartments.\n\nDecember 22, 1935.\n\nP. L. Sperr.\n",

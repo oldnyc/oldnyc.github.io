@@ -2,9 +2,33 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 122nd St.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707723f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707723f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Gasoline pumps",
+          "Morgues & mortuaries",
+          "Restaurants"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/54adfae0-c53a-012f-b423-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 122nd St.",
     "text": "First Avenue, north from 122nd Street, prior to the demolition of houses on the west side from 124th to 125th Streets.\nJune 21, 1934.\n\nP. L. Sperr.\n",
@@ -19,9 +43,34 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 122nd St.",
+      "technique": "title-cross"
+    },
     "height": 404,
     "id": "707724f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707724f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Gasoline pumps",
+          "Stores & shops"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/5527a920-c53a-012f-a2f2-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 122nd St.",
     "text": "First Avenue, east side, from 123rd to 122nd Streets.\nJuly 19, 1934.\n\nP. L. Sperr.\n",
@@ -36,9 +85,36 @@
   {
     "date": "1934",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 122nd Street - 1st Avenue.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "733610f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/733610f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 122nd Street - 1st Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Knives",
+          "Sharpening & honing tools",
+          "Street vendors"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e61baf00-c562-012f-638c-58d385a7bc34",
     "text": "The itinerant saw and knife sharpener, is a melody to admiring children. This faithful of a quickly disappearing art, is seen working at 122nd Street and First Ave.\n\nJune 21, 1934.\n\nP. L. Sperr.\n",
     "text_source": "gpt",
@@ -52,9 +128,31 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street (East)",
+        "str2": "1st Avenue"
+      },
+      "source": "Manhattan: 122nd Street (East) - 1st Avenue",
+      "technique": "title-cross"
+    },
     "height": 403,
     "id": "715250f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/715250f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Children playing",
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/73cff920-c546-012f-795a-58d385a7bc34",
     "original_title": "Manhattan: 122nd Street (East) - 1st Avenue",
     "text": "East 122nd Street, south side, west from the Harlem River to First Ave.\n\nSeptember 17, 1935.\n\nP. L. Sperr.\n",
@@ -69,9 +167,50 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "First Avenue"
+      },
+      "source": "122nd Street and First Avenue",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "Pleasant Avenue",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "Pleasant Avenue",
+        "technique": "gpt"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "123rd Street",
+        "str2": "Pleasant Avenue",
+        "technique": "gpt"
+      }
+    ],
     "height": 404,
     "id": "722644f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/722644f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/017e2350-c552-012f-4d31-58d385a7bc34",
     "original_title": "Manhattan: Pleasant Avenue - 122nd Street",
     "text": "Pleasant Ave., west side, north from East 122nd., to 123rd Streets. Also shown is East 122nd Street, north side, west from and including Pleasant, to, but not including First Aves. In the foreground appears a portion of the Tri-Borough Bridge Approach clearance.\n\nSeptember 17, 1935.\n\nP. L. Sperr.\n",
@@ -86,9 +225,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 122nd St.",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "707732f-a",
     "image_url": "https://www.oldnyc.org/rotated-assets/600px/707732f-a.90.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Automobile equipment & supplies stores",
+          "Drugstores",
+          "Used cars",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58ce0df0-c53a-012f-df81-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 122nd St.",
     "rotation": 90,
@@ -104,9 +269,35 @@
   {
     "date": "1937",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd St.",
+        "str2": "1st Ave."
+      },
+      "source": "Manhattan: 1st Ave. - 122nd St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707732f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707732f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Automobile dealerships",
+          "Automobile equipment & supplies stores",
+          "Drugstores",
+          "Used cars",
+          "Vehicle maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/58ce0df0-c53a-012f-df81-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 122nd St.",
     "text": "(1)\nFirst Avenue, east side, south from East 124th to 122nd Streets. The intersection shown, is 123rd Street.\n\nMay 7, 1937.\n\nP. L. Sperr.\n\n(2)\nA closeup of the 1-story structure between East 123rd and 124th Streets.\n\nMay 7, 1937.\n\nP. L. Sperr.\n",
@@ -121,9 +312,29 @@
   {
     "date": "1941-04-25",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "122nd Street",
+        "str2": "First Avenue"
+      },
+      "source": "Manhattan: First Avenue - 122nd Street, ",
+      "technique": "title-cross"
+    },
     "height": 387,
     "id": "1508667-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1508667-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/7da33ac0-c5ce-012f-87dc-58d385a7bc34",
     "text": null,
     "text_source": null,

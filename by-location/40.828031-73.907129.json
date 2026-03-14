@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Bronx",
+        "str1": "166th Street",
+        "str2": "3rd Avenue"
+      },
+      "source": "Bronx: 3rd Avenue - 166th Street",
+      "technique": "title-cross"
+    },
     "height": 474,
     "id": "700016f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/700016f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Bronx (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aa5b1240-c52e-012f-47e0-58d385a7bc34",
     "original_title": "Bronx: 3rd Avenue - 166th Street",
     "text": "3rd Ave. at 166th St., looking north.  Construction Photo. Shoring used in reconstruction of 3rd Ave. El.",

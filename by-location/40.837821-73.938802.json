@@ -2,9 +2,40 @@
   {
     "date": "1915",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "New York",
+        "num": 2110,
+        "street": "Amsterdam Ave"
+      },
+      "source": "2110 Amsterdam Ave",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "num": 2110,
+        "street": "Amsterdam Ave. betwen 164th and 165th St.",
+        "technique": "title-address"
+      }
+    ],
     "height": 600,
     "id": "1516947-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1516947-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Amsterdam Ave. #2110, between W. 164th and W. 165th, street scene (shops)"
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Buildings, structures, etc."
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/a902c370-c5cf-012f-92a9-58d385a7bc34",
     "text": null,
     "text_source": null,

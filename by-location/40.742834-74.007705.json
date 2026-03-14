@@ -2,9 +2,44 @@
   {
     "date": "1931",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Tenth Avenue",
+        "str2": "West 15th Street"
+      },
+      "source": "Tenth Avenue and West 15th Street",
+      "technique": "gpt"
+    },
     "height": 358,
     "id": "734524f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/734524f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Chanin Building ; Chrysler Building ; Empire State Building ; Lincoln Building ; Merchants Refrigerating Company ; Metropolitan Life Insurance Company ; National Biscuit Company ; New York Life Insurance Company.",
+        "Midtown skyline between 14th and 59th Streets."
+      ],
+      "subjects": {
+        "geographic": [
+          "Hudson River (N.Y. and N.J.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "name": [
+          "Chrysler Building (New York, N.Y.)",
+          "Empire State Building (New York, N.Y.)"
+        ],
+        "topic": [
+          "Building construction",
+          "Cold storage",
+          "Food industry",
+          "Insurance companies",
+          "Piers & wharves"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/6d213b60-c564-012f-fc27-58d385a7bc34",
     "text": "North (Hudson) River, shore and skyline from West 15th(right) to 23rd (left) Streets, showing a northeasterly view of midtown Manhattan skyscrapers from the Jersey shore.\n\nProminent of these is the unfinished Empire State Building. To the left are the Chanin, Chrysler, 10 E. 40th Street, Lincoln and other buildings. At the right appear the New York Life and the Metropolitan Insurance Co. Buildings. The piers in the foreground are No's 57 to 61 inclusive.\n\nNote at the right margin the National Biscuit Co. plant, occupying the entire block, bounded by 15th and 16th Streets, between Tenth and Eleventh Avenues. The white structure opposite same is the plant of the Merchants Refrigerating Company (16th to 17th Streets).\n\nGift of Franklin B. Kirkbride\n\nFebruary 1931\n",
     "text_source": "gpt",
@@ -18,9 +53,30 @@
   {
     "date": "1932",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "15th Street"
+      },
+      "source": "Manhattan: 15th Street - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711347f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711347f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/3319e220-c540-012f-d55a-58d385a7bc34",
     "original_title": "Manhattan: 15th Street - 10th Avenue",
     "text": "15th Street East from and including Tenth Avenue. Two of the National Biscuit Company buildings are shown, joined by a bridge. Beyond them rises the skeleton of the Port Authority Building.\nJuly 16, 1932.\n\nP. L. Sperr\n",
@@ -35,9 +91,31 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "15th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 15th Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "710462f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710462f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries",
+          "Cobblestone streets"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c4ba53d0-c53e-012f-f8b0-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 15th Street",
     "text": "Tenth Avenue, east side, from 15th to 16th Streets, showing demolition of front of National Biscuit Company Building for railroad right of way.\nMarch 16, 1933.\nP.L. Sperr, Photographer.\n",
@@ -52,9 +130,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "15th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 15th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710463f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710463f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c525fb40-c53e-012f-f70a-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 15th Street",
     "text": "Tenth Avenue, west side, from 15th to 16th Streets, showing one of the National Biscuit Company buildings, from 14th Street across the clearing for the elevated structure for the New York Central tracks.\n\nApril 20, 1933.\n\nP. L. Sperr.\n",
@@ -69,9 +168,30 @@
   {
     "date": "1933",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "15th Street"
+      },
+      "source": "Manhattan: 10th Avenue - 15th Street",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "710465f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710465f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Bakeries"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/c5dc1a40-c53e-012f-a5b9-58d385a7bc34",
     "original_title": "Manhattan: 10th Avenue - 15th Street",
     "text": "Tenth Avenue, west side, from 16th to 15th Streets, showing one of the National Biscuit Company buildings seen from across clearing for the construction of elevated tracks for the New York Central. April 20, 1933.\n\nP. L. Sperr.\n",
@@ -86,9 +206,28 @@
   {
     "date": "1940",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "10th Avenue",
+        "str2": "15th Street (East)"
+      },
+      "source": "Manhattan: 15th Street (East) - 10th Avenue",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "711330f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/711330f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)",
+          "Union Square (New York, N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2bd167c0-c540-012f-d70c-58d385a7bc34",
     "original_title": "Manhattan: 15th Street (East) - 10th Avenue",
     "text": "103 East 15th Street, adjoining the N. E. corner of Union Square East (Fourth Avenue), showing the home of Henry Collins Brown, the editor of Valentine's Manual.  The plaques shown above the gate are supposed to be the work of LaFarge.\n\nFebruary 1940\n",
@@ -103,9 +242,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Tenth Avenue",
+        "str2": "West 15th Street (Looking North)"
+      },
+      "source": "Manhattan: Tenth Avenue - West 15th Street (Looking North)",
+      "technique": "title-cross"
+    },
     "height": 481,
     "id": "1558122",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558122.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "National Biscuit Company"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Food industry",
+          "Historic buildings",
+          "Pedestrian bridges",
+          "Railroad bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/ae9ba4c0-c5ec-012f-a289-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -119,9 +288,39 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Tenth Avenue",
+        "str2": "West 15th Street (Looking North)"
+      },
+      "source": "Manhattan: Tenth Avenue - West 15th Street (Looking North)",
+      "technique": "title-cross"
+    },
     "height": 496,
     "id": "1558123",
     "image_url": "https://oldnyc-assets.nypl.org/600px/1558123.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "National Biscuit Company"
+      ],
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Buildings, structures, etc",
+          "Food industry",
+          "Historic buildings",
+          "Pedestrian bridges",
+          "Railroad bridges"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/af025c00-c5ec-012f-b586-58d385a7bc34",
     "text": null,
     "text_source": null,

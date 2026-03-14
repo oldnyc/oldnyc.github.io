@@ -2,9 +2,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Park Place",
+        "str2": "Utica Avenue"
+      },
+      "source": "Brooklyn: Park Place - Utica Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "706220f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/706220f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/fb593700-c537-012f-6ae5-58d385a7bc34",
     "original_title": "Brooklyn: Park Place - Utica Avenue",
     "text": "Brooklyn\nPark Pl. e from Utica Ave.\n5-26-42\nP.L. Sperr\n",

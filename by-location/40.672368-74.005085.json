@@ -5,9 +5,27 @@
     "dates_from_text": [
       "1937-10-08"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Bay Street",
+        "str2": "Henry Street"
+      },
+      "source": "Brooklyn: Bay Street - Henry Street",
+      "technique": "title-cross"
+    },
     "height": 400,
     "id": "703109f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/703109f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/25b8b420-c533-012f-bcf5-58d385a7bc34",
     "original_title": "Brooklyn: Bay Street - Henry Street",
     "text": "Bay Street (in center of view), between Henry (left) and Clinton Streets (right), showing the Red Hook Play Center as seen from the grain elevator at the foot of Columbia Street.  This is also a general view north showing the mid-skyline of Brooklyn.\nOctober 8, 1937.\nP.L. Sperr.\n",

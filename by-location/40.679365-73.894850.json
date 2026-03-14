@@ -2,9 +2,34 @@
   {
     "date": "1929",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Ave.",
+        "str2": "Wyona St."
+      },
+      "source": "Brooklyn: Wyona St. - Jamaica Ave.",
+      "technique": "title-cross"
+    },
     "height": 469,
     "id": "707465f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707465f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Churches",
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de6a4670-c539-012f-9eb9-58d385a7bc34",
     "original_title": "Brooklyn: Wyona St. - Jamaica Ave.",
     "text": "Wyona Street, south of Jamaica Ave.  The two steepled structures from fore to background, are P.S. No. 76 and Christ Church (Evan. Reformed).\n\nApril 1929\n\nEugene L. Armbruster Collection.\n",
@@ -19,9 +44,33 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Jamaica Ave.",
+        "str2": "Wyona St."
+      },
+      "source": "Brooklyn: Wyona St. - Jamaica Ave.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707464f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707464f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Educational facilities",
+          "Public schools"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/de0b82e0-c539-012f-13e9-58d385a7bc34",
     "original_title": "Brooklyn: Wyona St. - Jamaica Ave.",
     "text": "Wyona Street, west side, just south of Jamaica Avenue, showing Public School No. 76.\nBoard of Education of the City of New York Early 1930's.\n",

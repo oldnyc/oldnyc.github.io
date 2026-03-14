@@ -5,9 +5,41 @@
     "dates_from_text": [
       "1927-10-27"
     ],
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 14,
+        "street": "Van Corlear Place"
+      },
+      "source": "14 Van Corlear Place",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Saultell Street",
+        "str2": "Van Corlear Place",
+        "technique": "title-cross"
+      },
+      {
+        "boro": "Manhattan",
+        "str1": "Saultell Street",
+        "str2": "Van Corlear Place",
+        "technique": "gpt"
+      }
+    ],
     "height": 378,
     "id": "723691f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/723691f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/be610350-c553-012f-7b72-58d385a7bc34",
     "original_title": "Manhattan: Van Corlear Place - Saultell Street",
     "text": "14-16, 18-20, and 22 (2\u00bd-story frame house) Van Corlear Place, west side, slightly north of Jacobus Place.\nOctober 27, 1927.\n\nP. L. Sperr.\n",

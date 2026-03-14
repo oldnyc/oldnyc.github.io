@@ -2,9 +2,33 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "google",
+      "location": {
+        "boro": "Manhattan",
+        "num": 246,
+        "street": "Third Avenue"
+      },
+      "source": "246 Third Avenue",
+      "technique": "gpt"
+    },
     "height": 478,
     "id": "732283f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/732283f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "A & P (Great Atlantic & Pacific Tea Co.), 246 Third Avenue, Manhattan.",
+        "Manhattan: 3rd Avenue."
+      ],
+      "subjects": {
+        "geographic": [
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Grocery stores"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/eb773210-c560-012f-1893-58d385a7bc34",
     "text": null,
     "text_source": null,

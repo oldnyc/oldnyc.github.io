@@ -2,9 +2,33 @@
   {
     "date": "1935",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Ave.",
+        "str2": "Jefferson Ave."
+      },
+      "source": "Franklin Ave. and Jefferson Ave.",
+      "technique": "gpt"
+    },
     "height": 600,
     "id": "3984468",
     "image_url": "https://images.nypl.org/?id=3984468&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "temporal": [
+          "1930-1939"
+        ],
+        "topic": [
+          "Tenement houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/2fabccf0-c5d7-012f-e822-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +42,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Jefferson Avenue"
+      },
+      "source": "Brooklyn: Franklin Avenue - Jefferson Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "704441f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704441f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/373b9770-c535-012f-adb4-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Jefferson Avenue",
     "text": "Frankom Avenue (right), west side, north from Jefferson Avenue, shown in two views.\n\nP. L. Sperr\n\nAugust 30, 1941\nViews 1,2\n",
@@ -35,9 +80,30 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Jefferson Avenue"
+      },
+      "source": "Brooklyn: Franklin Avenue - Jefferson Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "704441f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/704441f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Apartment houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/373b9770-c535-012f-adb4-58d385a7bc34",
     "original_title": "Brooklyn: Franklin Avenue - Jefferson Avenue",
     "text": "Frankom Avenue (right), west side, north from Jefferson Avenue, shown in two views.\n\nP. L. Sperr\n\nAugust 30, 1941\nViews 1,2\n",
@@ -52,9 +118,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Jefferson Avenue"
+      },
+      "source": "Brooklyn: Jefferson Avenue - Franklin Avenue",
+      "technique": "title-cross"
+    },
     "height": 406,
     "id": "705113f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705113f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48236870-c536-012f-53db-58d385a7bc34",
     "original_title": "Brooklyn: Jefferson Avenue - Franklin Avenue",
     "text": "Jefferson Avenue, east from Franklin Avenue. View 2 is west from Bedford Avenue.\n\nP. L. Sperr\n\nview 2: Neg.No.A-1031\n\nVIEW 1: NEG # 3369\n\nAugust 28, 1941\nViews 1,2\n",
@@ -69,9 +160,34 @@
   {
     "date": "1941",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Brooklyn",
+        "str1": "Franklin Avenue",
+        "str2": "Jefferson Avenue"
+      },
+      "source": "Brooklyn: Jefferson Avenue - Franklin Avenue",
+      "technique": "title-cross"
+    },
     "height": 405,
     "id": "705113f-b",
     "image_url": "https://oldnyc-assets.nypl.org/600px/705113f-b.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Brooklyn (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)"
+        ],
+        "topic": [
+          "Brownstone buildings",
+          "Houses",
+          "Row houses"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/48236870-c536-012f-53db-58d385a7bc34",
     "original_title": "Brooklyn: Jefferson Avenue - Franklin Avenue",
     "text": "Jefferson Avenue, east from Franklin Avenue. View 2 is west from Bedford Avenue.\n\nP. L. Sperr\n\nview 2: Neg.No.A-1031\n\nVIEW 1: NEG # 3369\n\nAugust 28, 1941\nViews 1,2\n",

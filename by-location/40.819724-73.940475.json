@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "One Hundred and Forty-second Street",
+        "str2": "Seventh Avenue"
+      },
+      "source": "One Hundred and Forty-second Street and Seventh Avenue",
+      "technique": "gpt"
+    },
     "height": 515,
     "id": "417351",
     "image_url": "https://images.nypl.org/?id=417351&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/e37c46e0-c611-012f-d3d8-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -18,9 +40,27 @@
   {
     "date": "",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "142nd Street",
+        "str2": "7th Avenue"
+      },
+      "source": "Manhattan: 7th Avenue - 142nd Street",
+      "technique": "title-cross"
+    },
     "height": 421,
     "id": "710030f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/710030f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/105c1140-c53e-012f-b6f2-58d385a7bc34",
     "original_title": "Manhattan: 7th Avenue - 142nd Street",
     "text": "7th Avenue, 142nd to 143rd Street, (Before Reconstruction).",

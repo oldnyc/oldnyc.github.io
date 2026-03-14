@@ -2,9 +2,32 @@
   {
     "date": "1930",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "1st Ave.",
+        "str2": "63rd St."
+      },
+      "source": "Manhattan: 1st Ave. - 63rd St.",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "707645f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/707645f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ],
+        "topic": [
+          "Insurance companies",
+          "Nurseries (Horticulture)",
+          "Real estate office buildings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/34edcb30-c53a-012f-388e-58d385a7bc34",
     "original_title": "Manhattan: 1st Ave. - 63rd St.",
     "text": "Sunbeam Day Nursery, 1147 First Avenue, adjoining S.W. corner of 63rd Street.\n\nDecember 22, 1930.\n\nP.L. Sperr, Photographer.\n",

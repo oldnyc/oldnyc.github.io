@@ -2,9 +2,31 @@
   {
     "date": "1910-03",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "New York",
+        "str1": "Central Park West",
+        "str2": "Eighty-sixth Street"
+      },
+      "source": "Central Park West and Eighty-sixth Street",
+      "technique": "gpt"
+    },
     "height": 531,
     "id": "417339",
     "image_url": "https://images.nypl.org/?id=417339&t=w",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "New York",
+          "New York (State)"
+        ],
+        "topic": [
+          "Apartment houses",
+          "Dwellings"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/dec48080-c611-012f-44ae-58d385a7bc34",
     "text": null,
     "text_source": null,
@@ -21,9 +43,27 @@
     "dates_from_text": [
       "1913"
     ],
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "86th Street (West)",
+        "str2": "Central Park West"
+      },
+      "source": "Manhattan: 86th Street (West) - Central Park West",
+      "technique": "title-cross"
+    },
     "height": 600,
     "id": "714726f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/714726f-a.jpg",
+    "nypl_fields": {
+      "subjects": {
+        "geographic": [
+          "Manhattan (New York, N.Y.)",
+          "New York (N.Y.)"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/aed97d90-c545-012f-76c7-58d385a7bc34",
     "text": "12-16 West 86th Street, south side, west of Central Park West.\nAbout 1913.\n",
     "text_source": "gpt",
@@ -37,9 +77,48 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Central Park West",
+        "str2": "West 86th Street"
+      },
+      "source": "Central Park West and West 86th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Transverse roads",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718412f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718412f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 86th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Transverse Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Roads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/62a247e0-c54b-012f-2426-58d385a7bc34",
     "text": "Central Park: A view of W.P.A. employees removing the 86th Street car tracks in the western side of the Park on a transverse vehicular road that extends from West 86th Street and Central Park West to East 85th Street and Fifth Ave. This photo is taken slightly eastward of the first point.\n\nSeptember 29, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
     "text_source": "gpt",
@@ -53,9 +132,48 @@
   {
     "date": "1936",
     "date_source": "nypl",
+    "geocode": {
+      "geocoder": "osm",
+      "location": {
+        "boro": "Manhattan",
+        "str1": "Central Park West",
+        "str2": "West 86th Street"
+      },
+      "source": "Central Park West and West 86th Street",
+      "technique": "gpt"
+    },
+    "geocode_failures": [
+      {
+        "boro": "Manhattan",
+        "str1": "Central Park",
+        "str2": "Transverse roads",
+        "technique": "title-cross"
+      }
+    ],
     "height": 600,
     "id": "718414f-a",
     "image_url": "https://oldnyc-assets.nypl.org/600px/718414f-a.jpg",
+    "nypl_fields": {
+      "alt_title": [
+        "Manhattan: 85th Street (East) - 5th Avenue and Central Park West - 86th Street (West)."
+      ],
+      "subjects": {
+        "geographic": [
+          "Central Park (New York, N.Y.)",
+          "Manhattan (New York, N.Y.)",
+          "New York",
+          "New York (N.Y.)",
+          "New York (State)",
+          "Transverse Road (New York, N.Y.)"
+        ],
+        "topic": [
+          "Parks",
+          "Roads",
+          "Sidewalks",
+          "Street maintenance & repair"
+        ]
+      }
+    },
     "nypl_url": "https://digitalcollections.nypl.org/items/637eee80-c54b-012f-9816-58d385a7bc34",
     "text": "Central Park: W.P.A. employees removing the 86th Street, crosstown car tracks that were laid on a transverse vehicular road through the Park. They ran in an easterly and westerly direction from West 86th Street and Central Park West to East 85th Street and Fifth Ave. This view is slightly eastward of the first point.\n\nSeptember 29, 1936.\n\nW.P.A. Photo.\nFederal Art Project.\n",
     "text_source": "gpt",
